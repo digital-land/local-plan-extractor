@@ -187,14 +187,14 @@ Provide your response in this exact JSON format:
 {
     "name": "Full title of the plan document",
     "organisation-name": "Name of the local authority/organisation",
-    "required-housing": <number or null>,
-    "allocated-housing": <number or null>,
-    "windfall-housing": <number or null>,
-    "committed-housing": <number or null>,
-    "broad-locations-housing": <number or null>,
-    "period-start-date": <year or null>,
-    "period-end-date": <year or null>,
-    "annual-required-housing": <number or null>,
+    "required-housing": <number or "">,
+    "allocated-housing": <number or "">,
+    "windfall-housing": <number or "">,
+    "committed-housing": <number or "">,
+    "broad-locations-housing": <number or "">,
+    "period-start-date": <year or "">,
+    "period-end-date": <year or "">,
+    "annual-required-housing": <number or "">,
     "confidence": "high/medium/low",
     "notes": "Brief context about the numbers",
     "pages": "Page numbers where found"
@@ -207,7 +207,7 @@ Key points:
 - Look in housing trajectory tables, housing land supply tables, and policy summaries
 - Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
 - Broad locations may be called "strategic allocations", "strategic sites", "broad locations for growth", or "areas of search"
-- Use null if a number cannot be found
+- Use empty string "" if a number cannot be found
 - Keep notes concise but mention if figures overlap (e.g., if commitments are included in allocated sites)
 """
 
