@@ -1,0 +1,561 @@
+import anthropic
+import base64
+import json
+import csv
+from pathlib import Path
+from typing import Dict, Optional, List
+import os
+import PyPDF2
+import io
+import time
+import argparse
+import sys
+
+class LocalPlanHousingExtractor:
+    def __init__(self, api_key: str):
+        """Initialize with Anthropic API key"""
+        self.client = anthropic.Anthropic(api_key=api_key)
+        self.max_pages = 32  # Conservative limit to stay under token budget
+        self.rate_limit_delay = 2  # Seconds to wait between requests
+        self.max_retries = 5  # Maximum number of retry attempts
+        
+    def score_page_relevance(self, text: str) -> int:
+        """Score a page based on relevance to housing numbers"""
+        text_lower = text.lower()
+        score = 0
+        
+        # High value keywords (likely to contain actual numbers)
+        high_value = [
+            'housing requirement', 'housing target', 'housing provision',
+            'housing trajectory', 'housing supply', 'housing table',
+            'allocated sites', 'site allocations', 'housing delivery',
+            'windfall allowance', 'windfall provision',
+            'objectively assessed need', 'housing figures',
+            'dwellings per annum', 'homes per annum',
+            'five year land supply', 'housing land supply',
+            'commitments', 'planning permission', 'under construction',
+            'completions', 'pipeline', 'committed sites',
+            'broad locations', 'strategic allocation', 'strategic sites',
+            'strategic development', 'areas of search', 'broad areas'
+        ]
+        
+        # Medium value keywords
+        medium_value = [
+            'spatial strategy', 'housing policy', 'housing distribution',
+            'housing allocation', 'development strategy'
+        ]
+        
+        # Count high value matches
+        for keyword in high_value:
+            if keyword in text_lower:
+                score += 10
+        
+        # Count medium value matches
+        for keyword in medium_value:
+            if keyword in text_lower:
+                score += 3
+        
+        # Bonus for numbers that look like housing figures
+        if any(word in text_lower for word in ['dwellings', 'homes', 'units']):
+            # Look for substantial numbers
+            import re
+            numbers = re.findall(r'\b\d{3,6}\b', text)
+            if len(numbers) > 2:
+                score += 5
+        
+        # Bonus for tables (often contain housing data)
+        if text.count('\n') > 20 and any(char.isdigit() for char in text):
+            score += 5
+        
+        return score
+    
+    def find_relevant_pages(self, pdf_path: str, top_n: int = None) -> List[int]:
+        """Identify the most relevant pages for housing numbers"""
+        
+        if top_n is None:
+            top_n = self.max_pages
+        
+        page_scores = []
+        
+        try:
+            with open(pdf_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                total_pages = len(reader.pages)
+                
+                print(f"  Scanning {total_pages} pages for relevant content...", file=sys.stderr)
+                
+                for page_num in range(total_pages):
+                    try:
+                        page = reader.pages[page_num]
+                        text = page.extract_text()
+                        
+                        score = self.score_page_relevance(text)
+                        
+                        if score > 0:
+                            page_scores.append((page_num, score))
+                            
+                    except Exception as e:
+                        continue
+                
+                # Sort by score and take top N pages
+                page_scores.sort(key=lambda x: x[1], reverse=True)
+                relevant_pages = [page_num for page_num, score in page_scores[:top_n]]
+                relevant_pages.sort()  # Keep pages in order
+                
+                print(f"  Selected top {len(relevant_pages)} pages (scores: {[s for _, s in page_scores[:top_n]]})", file=sys.stderr)
+                
+        except Exception as e:
+            print(f"  Error scanning PDF: {e}", file=sys.stderr)
+            return []
+        
+        return relevant_pages
+    
+    def extract_pages_to_pdf(self, pdf_path: str, page_numbers: List[int]) -> bytes:
+        """Extract specific pages from PDF and return as bytes"""
+        
+        try:
+            with open(pdf_path, 'rb') as file:
+                reader = PyPDF2.PdfReader(file)
+                writer = PyPDF2.PdfWriter()
+                
+                for page_num in page_numbers:
+                    if page_num < len(reader.pages):
+                        writer.add_page(reader.pages[page_num])
+                
+                # Write to bytes
+                output = io.BytesIO()
+                writer.write(output)
+                output.seek(0)
+                
+                pdf_bytes = output.read()
+                print(f"  Extracted PDF size: {len(pdf_bytes):,} bytes", file=sys.stderr)
+                
+                return pdf_bytes
+                
+        except Exception as e:
+            print(f"  Error extracting pages: {e}", file=sys.stderr)
+            return None
+    
+    def extract_housing_data(self, pdf_path: str, authority_name: str = None, max_pages: int = None) -> Dict:
+        """Extract housing numbers from a local plan PDF using Claude"""
+        
+        print(f"\nProcessing: {pdf_path}", file=sys.stderr)
+        
+        if max_pages is None:
+            max_pages = self.max_pages
+        
+        # Step 1: Find most relevant pages
+        relevant_pages = self.find_relevant_pages(pdf_path, top_n=max_pages)
+        
+        if not relevant_pages:
+            return {
+                "authority": authority_name or Path(pdf_path).stem,
+                "pdf_file": str(pdf_path),
+                "error": "No relevant pages found with housing keywords"
+            }
+        
+        # Step 2: Extract only relevant pages
+        pdf_bytes = self.extract_pages_to_pdf(pdf_path, relevant_pages)
+        
+        if not pdf_bytes:
+            return {
+                "authority": authority_name or Path(pdf_path).stem,
+                "pdf_file": str(pdf_path),
+                "error": "Failed to extract relevant pages"
+            }
+        
+        # Check if still too large, reduce if needed
+        if len(pdf_bytes) > 10_000_000:  # ~10MB limit as safety
+            print(f"  Warning: Extracted PDF still large, reducing to top {max_pages//2} pages", file=sys.stderr)
+            return self.extract_housing_data(pdf_path, authority_name, max_pages=max_pages//2)
+        
+        # Encode the extracted pages
+        pdf_data = base64.standard_b64encode(pdf_bytes).decode('utf-8')
+        
+        # Create the prompt for Claude
+        prompt = """Please analyze this local plan document and extract the following housing information:
+
+1. **Plan Name**: The full title of the local plan document (e.g., "Birmingham Development Plan 2031", "Core Strategy 2020-2035")
+2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council")
+3. **Required Housing**: The total number of homes required for the plan period (overall housing target/requirement)
+4. **Allocated Housing**: The number of homes expected from specifically allocated sites in the plan
+5. **Windfall Housing**: The number of homes expected from windfall development (small unallocated sites)
+6. **Committed Housing**: The number of homes already granted planning permission or under construction (sometimes called "commitments" or "pipeline")
+7. **Broad Locations Housing**: The number of homes expected from broad locations/strategic development areas (areas identified for growth but not yet with detailed allocations)
+
+Provide your response in this exact JSON format:
+{
+    "name": "Full title of the plan document",
+    "organisation-name": "Name of the local authority/organisation",
+    "required-housing": <number or null>,
+    "allocated-housing": <number or null>,
+    "windfall-housing": <number or null>,
+    "committed-housing": <number or null>,
+    "broad-locations-housing": <number or null>,
+    "period-start-date": <year or null>,
+    "period-end-date": <year or null>,
+    "annual-required-housing": <number or null>,
+    "confidence": "high/medium/low",
+    "notes": "Brief context about the numbers",
+    "pages": "Page numbers where found"
+}
+
+Key points:
+- Extract the plan name from the cover page or title
+- Extract the organisation name from the cover page, title page, or document header (usually the local authority name)
+- If requirement is per annum (e.g., "400 homes per annum"), multiply by plan period for total
+- Look in housing trajectory tables, housing land supply tables, and policy summaries
+- Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
+- Broad locations may be called "strategic allocations", "strategic sites", "broad locations for growth", or "areas of search"
+- Use null if a number cannot be found
+- Keep notes concise but mention if figures overlap (e.g., if commitments are included in allocated sites)
+"""
+
+        try:
+            print(f"  Sending {len(relevant_pages)} pages to Claude API...", file=sys.stderr)
+            
+            # Retry logic for rate limits
+            for attempt in range(1, self.max_retries + 1):
+                try:
+                    # Call Claude API with PDF
+                    message = self.client.messages.create(
+                        model="claude-sonnet-4-20250514",
+                        max_tokens=4096,
+                        messages=[
+                            {
+                                "role": "user",
+                                "content": [
+                                    {
+                                        "type": "document",
+                                        "source": {
+                                            "type": "base64",
+                                            "media_type": "application/pdf",
+                                            "data": pdf_data
+                                        }
+                                    },
+                                    {
+                                        "type": "text",
+                                        "text": prompt
+                                    }
+                                ]
+                            }
+                        ]
+                    )
+                    
+                    # If successful, break out of retry loop
+                    break
+                    
+                except anthropic.RateLimitError as e:
+                    if attempt < self.max_retries:
+                        wait_time = 60 * attempt  # Exponential backoff: 60s, 120s, 180s, etc.
+                        print(f"  Rate limit hit. Waiting {wait_time}s before retry {attempt}/{self.max_retries}...", file=sys.stderr)
+                        time.sleep(wait_time)
+                    else:
+                        raise  # Re-raise if we've exhausted retries
+                
+                except anthropic.BadRequestError as e:
+                    error_msg = str(e)
+                    if 'prompt is too long' in error_msg and max_pages > 8:
+                        print(f"  Prompt too long, reducing to {max_pages//2} pages and retrying...", file=sys.stderr)
+                        return self.extract_housing_data(pdf_path, authority_name, max_pages=max_pages//2)
+                    else:
+                        raise  # Re-raise other bad request errors
+            
+            # Extract the response
+            response_text = message.content[0].text
+            
+            # Try to parse JSON from the response
+            json_start = response_text.find('{')
+            json_end = response_text.rfind('}') + 1
+            
+            if json_start != -1 and json_end > json_start:
+                json_str = response_text[json_start:json_end]
+                housing_data = json.loads(json_str)
+            else:
+                housing_data = {
+                    "raw_response": response_text,
+                    "error": "Could not parse JSON response"
+                }
+            
+            # Add metadata
+            housing_data['authority'] = authority_name or Path(pdf_path).stem
+            housing_data['pdf_file'] = str(pdf_path)
+            housing_data['pages_analyzed'] = len(relevant_pages)
+            
+            print(f"  ✓ Extraction complete", file=sys.stderr)
+            
+            # Add delay to respect rate limits
+            time.sleep(self.rate_limit_delay)
+            
+            return housing_data
+            
+        except anthropic.RateLimitError as e:
+            return {
+                "authority": authority_name or Path(pdf_path).stem,
+                "pdf_file": str(pdf_path),
+                "error": f"Rate limit exceeded after {self.max_retries} retries: {str(e)}"
+            }
+        except Exception as e:
+            return {
+                "authority": authority_name or Path(pdf_path).stem,
+                "pdf_file": str(pdf_path),
+                "error": str(e)
+            }
+    
+    def extract_from_multiple_pdfs(self, pdf_directory: str, output_csv: str = "housing_data.csv", delay_between_files: int = 3):
+        """Process multiple PDFs in a directory"""
+        
+        pdf_dir = Path(pdf_directory)
+        pdf_files = list(pdf_dir.glob("*.pdf"))
+        
+        print(f"Found {len(pdf_files)} PDF files to process")
+        print(f"Rate limit settings: {self.rate_limit_delay}s between API calls, {delay_between_files}s between files\n")
+        
+        all_results = []
+        
+        for i, pdf_path in enumerate(pdf_files, 1):
+            print(f"\n{'='*60}")
+            print(f"[{i}/{len(pdf_files)}] {pdf_path.name}")
+            print('='*60)
+            
+            result = self.extract_housing_data(str(pdf_path))
+            all_results.append(result)
+            
+            # Print summary
+            if 'error' not in result:
+                print(f"\n  Results:")
+                print(f"    Plan name: {result.get('name', 'N/A')}")
+                print(f"    Organisation: {result.get('organisation-name', 'N/A')}")
+                print(f"    Required housing: {result.get('required-housing', 'N/A')}")
+                print(f"    Allocated housing: {result.get('allocated-housing', 'N/A')}")
+                print(f"    Windfall housing: {result.get('windfall-housing', 'N/A')}")
+                print(f"    Committed housing: {result.get('committed-housing', 'N/A')}")
+                print(f"    Broad locations: {result.get('broad-locations-housing', 'N/A')}")
+                print(f"    Plan period: {result.get('period-start-date', '?')} - {result.get('period-end-date', '?')}")
+                print(f"    Confidence: {result.get('confidence', 'N/A')}")
+                if result.get('notes'):
+                    print(f"    Notes: {result['notes'][:100]}...")
+            else:
+                print(f"\n  ✗ Error: {result['error']}")
+            
+            # Extra delay between files
+            if i < len(pdf_files):
+                print(f"\n  Waiting {delay_between_files}s before next file...")
+                time.sleep(delay_between_files)
+        
+        # Save to CSV
+        self._save_to_csv(all_results, output_csv)
+        
+        return all_results
+    
+    def _save_to_csv(self, results: list, output_file: str):
+        """Save results to CSV file"""
+        
+        if not results:
+            print("No results to save", file=sys.stderr)
+            return
+        
+        fieldnames = [
+            'authority',
+            'name',
+            'organisation-name',
+            'pdf_file',
+            'required-housing',
+            'allocated-housing',
+            'windfall-housing',
+            'committed-housing',
+            'broad-locations-housing',
+            'period-start-date',
+            'period-end-date',
+            'annual-required-housing',
+            'pages_analyzed',
+            'confidence',
+            'notes',
+            'pages',
+            'error'
+        ]
+        
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasingle=True)
+            writer.writeheader()
+            
+            for result in results:
+                row = {field: result.get(field, '') for field in fieldnames}
+                writer.writerow(row)
+        
+        print(f"\n{'='*60}", file=sys.stderr)
+        print(f"✓ Saved results to {output_file}", file=sys.stderr)
+        print('='*60, file=sys.stderr)
+
+
+# Example usage functions
+
+def extract_single_pdf(pdf_path: str, api_key: str):
+    """Extract housing data from a single PDF"""
+    extractor = LocalPlanHousingExtractor(api_key)
+    result = extractor.extract_housing_data(pdf_path)
+    
+    print("\n" + "="*60)
+    print("HOUSING DATA EXTRACTION RESULTS")
+    print("="*60)
+    print(json.dumps(result, indent=2))
+    
+    return result
+
+
+def extract_batch_pdfs(directory: str, api_key: str, delay_between_files: int = 3):
+    """Extract housing data from all PDFs in a directory"""
+    extractor = LocalPlanHousingExtractor(api_key)
+    results = extractor.extract_from_multiple_pdfs(directory, "housing_data.csv", delay_between_files)
+    
+    # Print summary statistics
+    print("\n" + "="*60)
+    print("SUMMARY STATISTICS")
+    print("="*60)
+    
+    successful = [r for r in results if 'error' not in r]
+    failed = [r for r in results if 'error' in r]
+    
+    print(f"Successfully processed: {len(successful)}/{len(results)}")
+    print(f"Failed: {len(failed)}/{len(results)}")
+    
+    if successful:
+        total_reqs = [r['required-housing'] for r in successful 
+                     if r.get('required-housing')]
+        if total_reqs:
+            print(f"\nTotal housing requirements found: {len(total_reqs)}")
+            print(f"Average requirement: {sum(total_reqs)/len(total_reqs):,.0f} homes")
+            print(f"Total homes across all plans: {sum(total_reqs):,.0f}")
+    
+    return results
+
+
+if __name__ == "__main__":
+    # Set up command line argument parser
+    parser = argparse.ArgumentParser(
+        description='Extract housing data from local plan PDFs using Claude AI',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Process a single PDF file
+  python script.py plan.pdf
+  
+  # Process all PDFs in a directory
+  python script.py ./local_plans/
+  
+  # Specify output file
+  python script.py ./local_plans/ --output my_results.csv
+  
+  # Adjust rate limiting delays
+  python script.py ./local_plans/ --api-delay 5 --file-delay 10
+        """
+    )
+    
+    parser.add_argument(
+        'path',
+        help='Path to a PDF file or directory containing PDF files'
+    )
+    
+    parser.add_argument(
+        '--output', '-o',
+        default=None,
+        help='Output CSV file path (if not specified, outputs JSON to stdout)'
+    )
+    
+    parser.add_argument(
+        '--api-delay',
+        type=int,
+        default=2,
+        help='Seconds to wait between API calls (default: 2)'
+    )
+    
+    parser.add_argument(
+        '--file-delay',
+        type=int,
+        default=3,
+        help='Seconds to wait between processing files (default: 3)'
+    )
+    
+    parser.add_argument(
+        '--max-pages',
+        type=int,
+        default=32,
+        help='Maximum pages to send to Claude (default: 32)'
+    )
+    
+    args = parser.parse_args()
+    
+    # Get API key from environment variable
+    API_KEY = os.getenv('ANTHROPIC_API_KEY')
+    
+    if not API_KEY:
+        print("Error: ANTHROPIC_API_KEY environment variable not set", file=sys.stderr)
+        print("Set it with: export ANTHROPIC_API_KEY='your-key-here'", file=sys.stderr)
+        sys.exit(1)
+    
+    # Create extractor with custom settings
+    extractor = LocalPlanHousingExtractor(API_KEY)
+    extractor.rate_limit_delay = args.api_delay
+    extractor.max_pages = args.max_pages
+    
+    # Check if path is a file or directory
+    path = Path(args.path)
+    
+    if not path.exists():
+        print(f"Error: Path '{args.path}' does not exist", file=sys.stderr)
+        sys.exit(1)
+    
+    if path.is_file():
+        # Process single PDF
+        if path.suffix.lower() != '.pdf':
+            print(f"Error: '{args.path}' is not a PDF file", file=sys.stderr)
+            sys.exit(1)
+        
+        print(f"Processing single PDF file: {path.name}\n", file=sys.stderr)
+        result = extractor.extract_housing_data(str(path))
+        
+        # Output result
+        if args.output:
+            # Save to CSV
+            extractor._save_to_csv([result], args.output)
+        else:
+            # Output JSON to stdout
+            print(json.dumps(result, indent=2))
+        
+    elif path.is_dir():
+        # Process directory of PDFs
+        print(f"Processing directory: {path}\n", file=sys.stderr)
+        results = extractor.extract_from_multiple_pdfs(
+            str(path), 
+            args.output,  # Will be None if not specified
+            args.file_delay
+        )
+        
+        # Output results
+        if args.output:
+            # CSV already saved by extract_from_multiple_pdfs
+            # Print summary to stderr
+            print("\n" + "="*60, file=sys.stderr)
+            print("SUMMARY STATISTICS", file=sys.stderr)
+            print("="*60, file=sys.stderr)
+            
+            successful = [r for r in results if 'error' not in r]
+            failed = [r for r in results if 'error' in r]
+            
+            print(f"Successfully processed: {len(successful)}/{len(results)}", file=sys.stderr)
+            print(f"Failed: {len(failed)}/{len(results)}", file=sys.stderr)
+            
+            if successful:
+                total_reqs = [r['required-housing'] for r in successful 
+                             if r.get('required-housing')]
+                if total_reqs:
+                    print(f"\nTotal housing requirements found: {len(total_reqs)}", file=sys.stderr)
+                    print(f"Average requirement: {sum(total_reqs)/len(total_reqs):,.0f} homes", file=sys.stderr)
+                    print(f"Total homes across all plans: {sum(total_reqs):,.0f}", file=sys.stderr)
+        else:
+            # Output JSON array to stdout
+            print(json.dumps(results, indent=2))
+    
+    else:
+        print(f"Error: '{args.path}' is neither a file nor a directory", file=sys.stderr)
+        sys.exit(1)

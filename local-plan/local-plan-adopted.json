@@ -1,0 +1,18 @@
+{
+  "name": "Adopted Local Plan",
+  "organisation-name": "Barnsley MBC",
+  "required-housing": 21546,
+  "allocated-housing": 14236,
+  "windfall-housing": 766,
+  "committed-housing": 6770,
+  "broad-locations-housing": null,
+  "period-start-date": 2014,
+  "period-end-date": 2033,
+  "annual-required-housing": 1134,
+  "confidence": "high",
+  "notes": "Total requirement of 21,546 homes comprised of 14,236 allocated sites + 6,770 planning permissions + 566 windfall allowance + 200 village windfall. Committed housing appears to be sites with planning permission.",
+  "pages": "57-58",
+  "authority": "local-plan-adopted",
+  "pdf_file": "document/local-plan-adopted.pdf",
+  "pages_analyzed": 32
+}
