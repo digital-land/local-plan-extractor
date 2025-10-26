@@ -11,7 +11,7 @@
   "period-start-date": 2018,
   "period-end-date": 2037,
   "annual-required-housing": 951,
-  "organisation-breakdown": [
+  "housing-numbers": [
     {
       "organisation-name": "Babergh District Council",
       "required-housing": 7904,
@@ -42,5 +42,5 @@
   "pages": "Pages 22-24, Table 2, Table 3, Appendix 01",
   "authority": "babergh-and-mid-suffolk-joint-local-plan-part-1-nov-2023",
   "pdf_file": "document/babergh-and-mid-suffolk-joint-local-plan-part-1-nov-2023.pdf",
-  "pages_analyzed": 32,
+  "pages_analysed": 32
 }

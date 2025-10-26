@@ -10,11 +10,11 @@
   "period-start-date": 2017,
   "period-end-date": 2033,
   "annual-required-housing": 822,
-  "organisation-breakdown": [],
+  "housing-numbers": [],
   "confidence": "high",
   "notes": "Plan period is 2017-2032/33 (16 years). Total target of 13,152 homes comprises strategic housing allocations (8,160), housing allocations (1,733), commitments (2,149), windfall allowance (1,592), plus 3,767 net completions 2017-2022. Annual requirement is 822 dwellings per year.",
   "pages": "Pages 36-37, 134-136",
   "authority": "city-of-york-adopted-local-plan-2025",
   "pdf_file": "document/city-of-york-adopted-local-plan-2025.pdf",
-  "pages_analyzed": 32
+  "pages_analysed": 32
 }

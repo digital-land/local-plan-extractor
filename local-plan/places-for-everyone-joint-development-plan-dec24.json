@@ -9,7 +9,7 @@
   "period-start-date": 2022,
   "period-end-date": 2039,
   "annual-required-housing": 10305,
-  "organisation-breakdown": [
+  "housing-numbers": [
     {
       "organisation-name": "Bolton Council",
       "required-housing": 13379,
@@ -124,7 +124,7 @@
   "pages": "1, 136, 140",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
-  "pages_analyzed": 32,
+  "pages_analysed": 32,
   "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
   "organisations": [
     "local-authority:BOL",

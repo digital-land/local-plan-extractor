@@ -10,11 +10,11 @@
   "period-start-date": 2011,
   "period-end-date": 2029,
   "annual-required-housing": 720,
-  "organisation-breakdown": [],
+  "housing-numbers": [],
   "confidence": "high",
   "notes": "Total housing requirement of around 13,000 homes (12,960 specifically) for 2011-2029. Housing distributed across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200). Annual average of 700+ homes required with 720 calculated from total.",
   "pages": "Pages 27-28, 46-52",
   "authority": "cs_pmp_vol_1_district-wide_compressed",
   "pdf_file": "document/cs_pmp_vol_1_district-wide_compressed.pdf",
-  "pages_analyzed": 32
+  "pages_analysed": 32
 }

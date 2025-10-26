@@ -9,12 +9,12 @@
   "period-start-date": 2020,
   "period-end-date": 2040,
   "annual-required-housing": 1355,
-  "organisation-breakdown": [],
+  "housing-numbers": [],
   "confidence": "high",
   "notes": "The required housing figure of 27,100 dwellings for 2020-2040 is based on the government's standard method (1,355 per year). This represents a 40% increase from the previous Local Plan 2030 requirement of 970 dwellings per year. The committed housing figure of 14,824 includes existing commitments, completions and windfall allowance, leaving 12,276 dwellings to be allocated in this plan.",
   "pages": "Pages 24, 28-29",
   "authority": "AJZXEaq26SnEFQ",
   "pdf_file": "document/AJZXEaq26SnEFQ.pdf",
-  "pages_analyzed": 32,
+  "pages_analysed": 32,
   "organisation": "local-authority:BDF"
 }

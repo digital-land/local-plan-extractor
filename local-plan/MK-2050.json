@@ -9,12 +9,12 @@
   "period-start-date": 2022,
   "period-end-date": 2050,
   "annual-required-housing": 2250,
-  "organisation-breakdown": [],
+  "housing-numbers": [],
   "confidence": "high",
   "notes": "Plan proposes housing requirement range of 53,245-63,000 homes (1,902-2,250 per annum). The 63,000 figure represents the upper end/ambition target. Total housing supply is 62,825. Committed housing includes completions, sites under construction, planning permissions and existing allocations. Windfall includes small sites (<10 homes) and non-strategic brownfield sites.",
   "pages": "2, 6, 7, 15",
   "authority": "MK-2050",
   "pdf_file": "document/MK-2050.pdf",
-  "pages_analyzed": 32,
+  "pages_analysed": 32,
   "organisation": "local-authority:MIK"
 }

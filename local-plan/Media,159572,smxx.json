@@ -10,11 +10,11 @@
   "period-start-date": 2011,
   "period-end-date": 2032,
   "annual-required-housing": 177,
-  "organisation-breakdown": [],
+  "housing-numbers": [],
   "confidence": "high",
   "notes": "This is a capacity-based target (3,718 homes) rather than meeting full OAN of 6,825 homes due to constraints. Committed housing includes 559 completions 2011-2016 plus 439 permissions. Broad locations refers to Shoreham Harbour (970 homes excluding 132 already with permission).",
   "pages": "Pages 18-22 (Table 1 and Policy 3)",
   "authority": "Media,159572,smxx",
   "pdf_file": "document/Media,159572,smxx.pdf",
-  "pages_analyzed": 32
+  "pages_analysed": 32
 }
