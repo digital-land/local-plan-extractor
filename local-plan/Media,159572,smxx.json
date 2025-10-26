@@ -2,6 +2,7 @@
   "name": "Adur Local Plan 2017",
   "organisation-name": "Adur District Council",
   "organisation": "local-authority:ADR",
+  "local-plan-boundary": "E60000281",
   "period-start-date": 2011,
   "period-end-date": 2032,
   "housing-numbers": [

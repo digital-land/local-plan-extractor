@@ -2,6 +2,7 @@
   "name": "Bath & North East Somerset Core Strategy",
   "organisation-name": "Bath & North East Somerset Council",
   "organisation": "local-authority:BAS",
+  "local-plan-boundary": "E60000288",
   "period-start-date": 2011,
   "period-end-date": 2029,
   "housing-numbers": [

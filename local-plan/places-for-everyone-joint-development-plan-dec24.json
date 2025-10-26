@@ -1,25 +1,21 @@
 {
   "name": "Places for Everyone Joint Development Plan 2022 to 2039",
   "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Borough Council and Salford City Council and Tameside Metropolitan Borough Council and Trafford Council and Wigan Council",
-  "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-SLF-TAM-TRF-WGN",
+  "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
   "organisations": [
     "local-authority:BOL",
     "local-authority:BUR",
     "local-authority:MAN",
     "local-authority:OLD",
+    "local-authority:RCH",
     "local-authority:SLF",
     "local-authority:TAM",
     "local-authority:TRF",
     "local-authority:WGN"
   ],
+  "local-plan-boundary": "E60000025-E60000026-E60000027-E60000028-E60000029-E60000030-E60000032-E60000033-E60000034",
   "period-start-date": 2022,
   "period-end-date": 2039,
-  "required-housing": 175185,
-  "allocated-housing": 20122,
-  "windfall-housing": 6289,
-  "committed-housing": 172040,
-  "broad-locations-housing": "",
-  "annual-required-housing": 10305,
   "housing-numbers": [
     {
       "organisation-name": "Bolton Council",
@@ -79,7 +75,7 @@
       "annual-required-housing": 616,
       "pages": "136, 140",
       "notes": "Includes Heywood/Pilsworth allocation. Negative windfall allowance due to demolitions",
-      "organisation": ""
+      "organisation": "local-authority:RCH"
     },
     {
       "organisation-name": "Salford City Council",
@@ -131,7 +127,7 @@
     },
     {
       "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Borough Council and Salford City Council and Tameside Metropolitan Borough Council and Trafford Council and Wigan Council",
-      "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-SLF-TAM-TRF-WGN",
+      "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
       "required-housing": 175185,
       "allocated-housing": 20122,
       "windfall-housing": 6289,
@@ -145,5 +141,11 @@
   "confidence": "high",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
-  "pages_analysed": 32
+  "pages_analysed": 32,
+  "required-housing": 175185,
+  "allocated-housing": 20122,
+  "windfall-housing": 6289,
+  "committed-housing": 172040,
+  "broad-locations-housing": "",
+  "annual-required-housing": 10305
 }

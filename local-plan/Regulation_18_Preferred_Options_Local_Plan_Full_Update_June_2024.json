@@ -2,6 +2,7 @@
   "name": "Breckland Local Plan Full Update Preferred Options: 2024",
   "organisation-name": "Breckland District Council",
   "organisation": "local-authority:BRE",
+  "local-plan-boundary": "E60000176",
   "period-start-date": 2021,
   "period-end-date": 2046,
   "housing-numbers": [

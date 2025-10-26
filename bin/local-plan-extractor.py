@@ -384,6 +384,25 @@ Key points:
                     }
                     housing_data['housing-numbers'] = [single_entry]
 
+            # Construct local-plan-boundary field
+            if 'organisations' in housing_data:
+                # For joint plans, concatenate local-planning-authority values
+                lpa_codes = []
+                for org_entry in housing_data.get('housing-numbers', []):
+                    org_name = org_entry.get('organisation-name', '')
+                    if org_name:
+                        lpa_code = self.org_matcher.get_local_planning_authority(org_name)
+                        if lpa_code and lpa_code not in lpa_codes:
+                            lpa_codes.append(lpa_code)
+
+                if lpa_codes:
+                    housing_data['local-plan-boundary'] = '-'.join(lpa_codes)
+            elif 'organisation-name' in housing_data:
+                # For single authority plans, use the single local-planning-authority
+                lpa_code = self.org_matcher.get_local_planning_authority(housing_data['organisation-name'])
+                if lpa_code:
+                    housing_data['local-plan-boundary'] = lpa_code
+
             print(f"  ✓ Extraction complete", file=sys.stderr)
             
             # Add delay to respect rate limits
@@ -488,6 +507,7 @@ Key points:
             'organisation-name',
             'organisation',
             'organisations',
+            'local-plan-boundary',
             'pdf_file',
             'period-start-date',
             'period-end-date',

@@ -6,6 +6,7 @@
     "local-authority:BAB",
     "local-authority:MSU"
   ],
+  "local-plan-boundary": "E60000183-E60000186",
   "period-start-date": 2018,
   "period-end-date": 2037,
   "housing-numbers": [

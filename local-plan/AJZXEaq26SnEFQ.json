@@ -2,6 +2,7 @@
   "name": "Local Plan 2040",
   "organisation-name": "Bedford Borough Council",
   "organisation": "local-authority:BDF",
+  "local-plan-boundary": "E60000143",
   "period-start-date": 2020,
   "period-end-date": 2040,
   "housing-numbers": [

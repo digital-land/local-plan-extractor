@@ -2,6 +2,7 @@
   "name": "Calderdale Local Plan",
   "organisation-name": "Calderdale Council",
   "organisation": "local-authority:CLD",
+  "local-plan-boundary": "E60000069",
   "period-start-date": 2018,
   "period-end-date": 2033,
   "housing-numbers": [

@@ -2,6 +2,7 @@
   "name": "Adopted Local Plan",
   "organisation-name": "Barnsley Metropolitan Borough Council",
   "organisation": "local-authority:BNS",
+  "local-plan-boundary": "E60000064",
   "period-start-date": 2014,
   "period-end-date": 2033,
   "housing-numbers": [
