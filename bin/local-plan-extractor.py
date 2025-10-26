@@ -176,12 +176,13 @@ class LocalPlanHousingExtractor:
         prompt = """Please analyze this local plan document and extract the following housing information:
 
 1. **Plan Name**: The full title of the local plan document (e.g., "Birmingham Development Plan 2031", "Core Strategy 2020-2035")
-2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council")
+2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council"). For joint plans covering multiple authorities, list all authorities separated by " and " (e.g., "Babergh District Council and Mid Suffolk District Council")
 3. **Required Housing**: The total number of homes required for the plan period (overall housing target/requirement)
 4. **Allocated Housing**: The number of homes expected from specifically allocated sites in the plan
 5. **Windfall Housing**: The number of homes expected from windfall development (small unallocated sites)
 6. **Committed Housing**: The number of homes already granted planning permission or under construction (sometimes called "commitments" or "pipeline")
 7. **Broad Locations Housing**: The number of homes expected from broad locations/strategic development areas (areas identified for growth but not yet with detailed allocations)
+8. **Organisation Breakdown** (for joint plans only): If this is a joint local plan covering multiple local authorities, and the document provides a breakdown of housing numbers by individual authority, extract the breakdown as an array
 
 Provide your response in this exact JSON format:
 {
@@ -195,6 +196,19 @@ Provide your response in this exact JSON format:
     "period-start-date": <year or "">,
     "period-end-date": <year or "">,
     "annual-required-housing": <number or "">,
+    "organisation-breakdown": [
+        {
+            "organisation-name": "Name of first authority",
+            "required-housing": <number or "">,
+            "allocated-housing": <number or "">,
+            "windfall-housing": <number or "">,
+            "committed-housing": <number or "">,
+            "broad-locations-housing": <number or "">,
+            "annual-required-housing": <number or "">,
+            "pages": "Page numbers where found",
+            "notes": "Notes specific to this authority"
+        }
+    ],
     "confidence": "high/medium/low",
     "notes": "Brief context about the numbers",
     "pages": "Page numbers where found"
@@ -203,6 +217,9 @@ Provide your response in this exact JSON format:
 Key points:
 - Extract the plan name from the cover page or title
 - Extract the organisation name from the cover page, title page, or document header (usually the local authority name)
+- For joint plans, list all authorities in organisation-name field separated by " and "
+- organisation-breakdown: Use this ONLY for joint plans where housing numbers are broken down by individual authority in the document. If no breakdown is provided, use an empty array []
+- The top-level housing fields should contain the total across all authorities in a joint plan
 - If requirement is per annum (e.g., "400 homes per annum"), multiply by plan period for total
 - Look in housing trajectory tables, housing land supply tables, and policy summaries
 - Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
@@ -335,6 +352,21 @@ Key points:
                 print(f"    Confidence: {result.get('confidence', 'N/A')}")
                 if result.get('notes'):
                     print(f"    Notes: {result['notes'][:100]}...")
+
+                # Display organisation breakdown for joint plans
+                if result.get('organisation-breakdown') and len(result['organisation-breakdown']) > 0:
+                    print(f"\n  Organisation Breakdown (Joint Plan):")
+                    for org in result['organisation-breakdown']:
+                        print(f"    • {org.get('organisation-name', 'N/A')}:")
+                        print(f"      Required: {org.get('required-housing', 'N/A')}")
+                        print(f"      Allocated: {org.get('allocated-housing', 'N/A')}")
+                        print(f"      Windfall: {org.get('windfall-housing', 'N/A')}")
+                        print(f"      Committed: {org.get('committed-housing', 'N/A')}")
+                        print(f"      Broad locations: {org.get('broad-locations-housing', 'N/A')}")
+                        if org.get('pages'):
+                            print(f"      Pages: {org['pages']}")
+                        if org.get('notes'):
+                            print(f"      Notes: {org['notes'][:80]}...")
             else:
                 print(f"\n  ✗ Error: {result['error']}")
             
@@ -368,19 +400,27 @@ Key points:
             'period-start-date',
             'period-end-date',
             'annual-required-housing',
+            'organisation-breakdown',
             'pages_analyzed',
             'confidence',
             'notes',
             'pages',
             'error'
         ]
-        
+
         with open(output_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames, extrasingle=True)
             writer.writeheader()
-            
+
             for result in results:
-                row = {field: result.get(field, '') for field in fieldnames}
+                row = {}
+                for field in fieldnames:
+                    value = result.get(field, '')
+                    # Serialize organisation-breakdown array as JSON for CSV storage
+                    if field == 'organisation-breakdown' and isinstance(value, list):
+                        row[field] = json.dumps(value) if value else ''
+                    else:
+                        row[field] = value
                 writer.writerow(row)
         
         print(f"\n{'='*60}", file=sys.stderr)

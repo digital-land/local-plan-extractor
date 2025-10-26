@@ -1,6 +1,6 @@
 {
   "name": "Places for Everyone Joint Development Plan 2022 to 2039",
-  "organisation-name": "Places for Everyone Joint Development Plan (Bolton, Bury, Manchester, Oldham, Rochdale, Salford, Tameside, Trafford, and Wigan Councils)",
+  "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Council and Salford City Council and Tameside Council and Trafford Council and Wigan Council",
   "required-housing": 175185,
   "allocated-housing": 20122,
   "windfall-housing": 6289,
@@ -9,9 +9,110 @@
   "period-start-date": 2022,
   "period-end-date": 2039,
   "annual-required-housing": 10305,
+  "organisation-breakdown": [
+    {
+      "organisation-name": "Bolton Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": 1396,
+      "committed-housing": 12515,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Bury Council",
+      "required-housing": "",
+      "allocated-housing": 4900,
+      "windfall-housing": 348,
+      "committed-housing": 4412,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Manchester City Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": 686,
+      "committed-housing": 63687,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Oldham Council",
+      "required-housing": "",
+      "allocated-housing": 2105,
+      "windfall-housing": 923,
+      "committed-housing": 10283,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Rochdale Council",
+      "required-housing": "",
+      "allocated-housing": 4006,
+      "windfall-housing": -782,
+      "committed-housing": 8368,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "Negative windfall due to demolitions exceeding small sites; From SHLAA breakdown"
+    },
+    {
+      "organisation-name": "Salford City Council",
+      "required-housing": "",
+      "allocated-housing": 700,
+      "windfall-housing": 2089,
+      "committed-housing": 32515,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Tameside Council",
+      "required-housing": "",
+      "allocated-housing": 1894,
+      "windfall-housing": 562,
+      "committed-housing": 6296,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Trafford Council",
+      "required-housing": "",
+      "allocated-housing": 4917,
+      "windfall-housing": 323,
+      "committed-housing": 18006,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    },
+    {
+      "organisation-name": "Wigan Council",
+      "required-housing": "",
+      "allocated-housing": 1600,
+      "windfall-housing": 744,
+      "committed-housing": 16398,
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "Table 7.1, page 136",
+      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+    }
+  ],
   "confidence": "high",
-  "notes": "Joint plan for 9 Greater Manchester authorities. Housing supply breakdown shows 90% of housing land is in urban area. Committed housing includes Strategic Housing Land Availability Assessment sites (brownfield and greenfield) plus small sites. Strategic allocations are specific named sites releasing Green Belt land.",
-  "pages": "Pages 1, 139, 136-137",
+  "notes": "Joint plan for 9 Greater Manchester authorities. Total requirement 175,185 homes over 17 years (2022-2039). Committed housing includes brownfield and greenfield SHLAA sites. Places for Everyone Allocations are strategic allocations beyond existing supply.",
+  "pages": "Table 7.1 (page 136), Policy JP-H1 (page 139), various housing strategy pages",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
   "pages_analyzed": 32
