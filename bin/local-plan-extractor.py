@@ -36,13 +36,16 @@ class LocalPlanHousingExtractor:
             'commitments', 'planning permission', 'under construction',
             'completions', 'pipeline', 'committed sites',
             'broad locations', 'strategic allocation', 'strategic sites',
-            'strategic development', 'areas of search', 'broad areas'
+            'strategic development', 'areas of search', 'broad areas',
+            'spatial distribution', 'distribution of development',
+            'authority breakdown', 'district breakdown', 'local authority'
         ]
-        
+
         # Medium value keywords
         medium_value = [
             'spatial strategy', 'housing policy', 'housing distribution',
-            'housing allocation', 'development strategy'
+            'housing allocation', 'development strategy', 'by district',
+            'by authority', 'per district', 'per authority'
         ]
         
         # Count high value matches
@@ -182,7 +185,7 @@ class LocalPlanHousingExtractor:
 5. **Windfall Housing**: The number of homes expected from windfall development (small unallocated sites)
 6. **Committed Housing**: The number of homes already granted planning permission or under construction (sometimes called "commitments" or "pipeline")
 7. **Broad Locations Housing**: The number of homes expected from broad locations/strategic development areas (areas identified for growth but not yet with detailed allocations)
-8. **Organisation Breakdown** (for joint plans only): If this is a joint local plan covering multiple local authorities, and the document provides a breakdown of housing numbers by individual authority, extract the breakdown as an array
+8. **Organisation Breakdown** (for joint plans only): If this is a joint local plan covering multiple local authorities, and the document provides a breakdown of housing numbers by individual authority, extract the breakdown as an array. IMPORTANT: For each authority in the breakdown, try to find ALL housing fields including required-housing (the housing target/requirement for that specific authority)
 
 Provide your response in this exact JSON format:
 {
@@ -220,6 +223,12 @@ Key points:
 - For joint plans, list all authorities in organisation-name field separated by " and "
 - organisation-breakdown: Use this ONLY for joint plans where housing numbers are broken down by individual authority in the document. If no breakdown is provided, use an empty array []
 - The top-level housing fields should contain the total across all authorities in a joint plan
+- For JOINT PLANS: Search thoroughly for per-authority housing requirements/targets. These are often in:
+  * Policy tables showing spatial distribution of housing across authorities
+  * Appendices with authority-by-authority breakdowns
+  * Housing trajectory tables with district/authority columns
+  * "Spatial distribution" or "Distribution of development" sections
+  * Look for both annual and total plan period figures for each authority
 - If requirement is per annum (e.g., "400 homes per annum"), multiply by plan period for total
 - Look in housing trajectory tables, housing land supply tables, and policy summaries
 - Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
