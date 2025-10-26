@@ -309,7 +309,7 @@ Key points:
             # Add metadata
             housing_data['authority'] = authority_name or Path(pdf_path).stem
             housing_data['pdf_file'] = str(pdf_path)
-            housing_data['pages_analyzed'] = len(relevant_pages)
+            housing_data['pages_analysed'] = len(relevant_pages)
 
             # Match organisation codes
             if 'organisation-name' in housing_data:
@@ -462,7 +462,7 @@ Key points:
             'period-end-date',
             'annual-required-housing',
             'organisation-breakdown',
-            'pages_analyzed',
+            'pages_analysed',
             'confidence',
             'notes',
             'pages',
