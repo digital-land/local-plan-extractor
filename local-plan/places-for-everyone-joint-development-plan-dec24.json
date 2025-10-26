@@ -1,6 +1,18 @@
 {
   "name": "Places for Everyone Joint Development Plan 2022 to 2039",
   "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Council and Salford City Council and Tameside Council and Trafford Council and Wigan Council",
+  "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
+  "organisations": [
+    "local-authority:BOL",
+    "local-authority:BUR",
+    "local-authority:MAN",
+    "local-authority:OLD",
+    "local-authority:RCH",
+    "local-authority:SLF",
+    "local-authority:TAM",
+    "local-authority:TRF",
+    "local-authority:WGN"
+  ],
   "period-start-date": 2022,
   "period-end-date": 2039,
   "housing-numbers": [
@@ -128,17 +140,5 @@
   "confidence": "high",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
-  "pages_analysed": 32,
-  "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
-  "organisations": [
-    "local-authority:BOL",
-    "local-authority:BUR",
-    "local-authority:MAN",
-    "local-authority:OLD",
-    "local-authority:RCH",
-    "local-authority:SLF",
-    "local-authority:TAM",
-    "local-authority:TRF",
-    "local-authority:WGN"
-  ]
+  "pages_analysed": 32
 }

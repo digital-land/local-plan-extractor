@@ -1,6 +1,7 @@
 {
   "name": "Calderdale Local Plan",
   "organisation-name": "Calderdale Council",
+  "organisation": "local-authority:CLD",
   "period-start-date": 2018,
   "period-end-date": 2033,
   "housing-numbers": [
@@ -20,6 +21,5 @@
   "confidence": "high",
   "authority": "782625",
   "pdf_file": "document/782625.pdf",
-  "pages_analysed": 32,
-  "organisation": "local-authority:CLD"
+  "pages_analysed": 32
 }

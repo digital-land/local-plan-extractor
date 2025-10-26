@@ -1,6 +1,7 @@
 {
   "name": "MK City Plan 2050",
   "organisation-name": "Milton Keynes City Council",
+  "organisation": "local-authority:MIK",
   "period-start-date": 2022,
   "period-end-date": 2050,
   "housing-numbers": [
@@ -20,6 +21,5 @@
   "confidence": "high",
   "authority": "MK-2050",
   "pdf_file": "document/MK-2050.pdf",
-  "pages_analysed": 32,
-  "organisation": "local-authority:MIK"
+  "pages_analysed": 32
 }

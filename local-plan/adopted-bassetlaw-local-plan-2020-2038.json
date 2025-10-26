@@ -1,6 +1,7 @@
 {
   "name": "Bassetlaw Local Plan 2020-2038",
   "organisation-name": "Bassetlaw District Council",
+  "organisation": "local-authority:BAE",
   "period-start-date": 2020,
   "period-end-date": 2038,
   "housing-numbers": [
@@ -20,6 +21,5 @@
   "confidence": "high",
   "authority": "adopted-bassetlaw-local-plan-2020-2038",
   "pdf_file": "document/adopted-bassetlaw-local-plan-2020-2038.pdf",
-  "pages_analysed": 32,
-  "organisation": "local-authority:BAE"
+  "pages_analysed": 32
 }

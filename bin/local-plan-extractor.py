@@ -194,6 +194,8 @@ Provide your response in this exact JSON format:
 {
     "name": "Full title of the plan document",
     "organisation-name": "Name of the local authority/organisation",
+    "organisation": "Organisation code from lookup",
+    "organisations": ["Array of organisation codes for joint plans"],
     "period-start-date": <year or "">,
     "period-end-date": <year or "">,
     "housing-numbers": [

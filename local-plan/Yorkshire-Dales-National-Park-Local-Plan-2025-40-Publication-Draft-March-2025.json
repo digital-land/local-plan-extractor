@@ -1,6 +1,7 @@
 {
   "name": "Yorkshire Dales National Park Local Plan",
   "organisation-name": "Yorkshire Dales National Park Authority",
+  "organisation": "national-park-authority:Q27178932",
   "period-start-date": 2025,
   "period-end-date": 2040,
   "housing-numbers": [
@@ -20,6 +21,5 @@
   "confidence": "high",
   "authority": "Yorkshire-Dales-National-Park-Local-Plan-2025-40-Publication-Draft-March-2025",
   "pdf_file": "document/Yorkshire-Dales-National-Park-Local-Plan-2025-40-Publication-Draft-March-2025.pdf",
-  "pages_analysed": 32,
-  "organisation": "national-park-authority:Q27178932"
+  "pages_analysed": 32
 }
