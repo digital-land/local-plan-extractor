@@ -202,7 +202,7 @@ Provide your response in this exact JSON format:
     "period-start-date": <year or "">,
     "period-end-date": <year or "">,
     "annual-required-housing": <number or "">,
-    "organisation-breakdown": [
+    "housing-numbers": [
         {
             "organisation-name": "Name of first authority",
             "required-housing": <number or "">,
@@ -224,7 +224,7 @@ Key points:
 - Extract the plan name from the cover page or title
 - Extract the organisation name from the cover page, title page, or document header (usually the local authority name)
 - For joint plans, list all authorities in organisation-name field separated by " and "
-- organisation-breakdown: Use this ONLY for joint plans where housing numbers are broken down by individual authority in the document. If no breakdown is provided, use an empty array []
+- housing-numbers: Use this ONLY for joint plans where housing numbers are broken down by individual authority in the document. If no breakdown is provided, use an empty array []
 - The top-level housing fields should contain the total across all authorities in a joint plan
 - For JOINT PLANS: Search thoroughly for per-authority housing requirements/targets. These are often in:
   * Policy tables showing spatial distribution of housing across authorities
@@ -316,16 +316,16 @@ Key points:
                 housing_data['organisation'] = self.org_matcher.match(housing_data['organisation-name'])
 
             # Match organisations in breakdown for joint plans
-            if 'organisation-breakdown' in housing_data and isinstance(housing_data['organisation-breakdown'], list):
-                for org_entry in housing_data['organisation-breakdown']:
+            if 'housing-numbers' in housing_data and isinstance(housing_data['housing-numbers'], list):
+                for org_entry in housing_data['housing-numbers']:
                     if 'organisation-name' in org_entry:
                         org_entry['organisation'] = self.org_matcher.match(org_entry['organisation-name'])
 
                 # For joint plans, create organisations array and joint authority reference
-                if len(housing_data['organisation-breakdown']) > 0:
+                if len(housing_data['housing-numbers']) > 0:
                     # Collect all organisation codes from breakdown
                     org_codes = []
-                    for org_entry in housing_data['organisation-breakdown']:
+                    for org_entry in housing_data['housing-numbers']:
                         org_code = org_entry.get('organisation', '')
                         if org_code:
                             org_codes.append(org_code)
@@ -408,9 +408,9 @@ Key points:
                     print(f"    Notes: {result['notes'][:100]}...")
 
                 # Display organisation breakdown for joint plans
-                if result.get('organisation-breakdown') and len(result['organisation-breakdown']) > 0:
+                if result.get('housing-numbers') and len(result['housing-numbers']) > 0:
                     print(f"\n  Organisation Breakdown (Joint Plan):")
-                    for org in result['organisation-breakdown']:
+                    for org in result['housing-numbers']:
                         org_name = org.get('organisation-name', 'N/A')
                         org_code = org.get('organisation', '')
                         if org_code:
@@ -461,7 +461,7 @@ Key points:
             'period-start-date',
             'period-end-date',
             'annual-required-housing',
-            'organisation-breakdown',
+            'housing-numbers',
             'pages_analysed',
             'confidence',
             'notes',
@@ -478,7 +478,7 @@ Key points:
                 for field in fieldnames:
                     value = result.get(field, '')
                     # Serialize arrays as JSON for CSV storage
-                    if field in ('organisation-breakdown', 'organisations') and isinstance(value, list):
+                    if field in ('housing-numbers', 'organisations') and isinstance(value, list):
                         row[field] = json.dumps(value) if value else ''
                     else:
                         row[field] = value
