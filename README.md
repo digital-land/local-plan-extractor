@@ -9,11 +9,18 @@ The data extracted is in the format defined by the following data specifications
 
 Local planning authorities are encouraged to review and improve this data using using the [Check and Provide](https://provide.planning.data.gov.uk) service.
 
-# Building the data
+# Set-up
 
 We recommend working in [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) before installing the python [requirements](requirements.txt), [makerules](https://github.com/digital-land/makerules) and other dependencies. Requires Python 3.12 or newer, and Make v4.0 or above.
 
     $ make init
+
+The build needs an [ANTHROPIC_API_KEY](https://docs.claude.com/en/docs/get-started) for Claude:
+
+    $ export ANTHROPIC_API_KEY='your-key-here'
+
+# Building the data
+
     $ make
 
 # Licence
