@@ -9,7 +9,20 @@
   "period-start-date": 2022,
   "period-end-date": 2050,
   "annual-required-housing": 2250,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Milton Keynes City Council",
+      "organisation": "local-authority:MIK",
+      "required-housing": 63000,
+      "allocated-housing": 33825,
+      "windfall-housing": 3000,
+      "committed-housing": 29075,
+      "broad-locations-housing": "",
+      "annual-required-housing": 2250,
+      "pages": "2, 6, 7, 15",
+      "notes": "Plan proposes housing requirement range of 53,245-63,000 homes (1,902-2,250 per annum). The 63,000 figure represents the upper end/ambition target. Total housing supply is 62,825. Committed housing includes completions, sites under construction, planning permissions and existing allocations. Windfall includes small sites (<10 homes) and non-strategic brownfield sites."
+    }
+  ],
   "confidence": "high",
   "notes": "Plan proposes housing requirement range of 53,245-63,000 homes (1,902-2,250 per annum). The 63,000 figure represents the upper end/ambition target. Total housing supply is 62,825. Committed housing includes completions, sites under construction, planning permissions and existing allocations. Windfall includes small sites (<10 homes) and non-strategic brownfield sites.",
   "pages": "2, 6, 7, 15",

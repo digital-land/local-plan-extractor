@@ -9,7 +9,20 @@
   "period-start-date": 2020,
   "period-end-date": 2038,
   "annual-required-housing": 540,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Bassetlaw District Council",
+      "organisation": "local-authority:BAE",
+      "required-housing": 9720,
+      "allocated-housing": 2387,
+      "windfall-housing": 912,
+      "committed-housing": 6869,
+      "broad-locations-housing": "",
+      "annual-required-housing": 540,
+      "pages": "29-37, 77-78, 245-251",
+      "notes": "Plan provides comprehensive housing supply breakdown. Total supply is 11,195 dwellings providing 15% buffer above requirement. Committed housing includes completions (2,587) plus committed sites with planning permission (4,281) plus neighbourhood plan allocations without permission (244). Strategic sites at Peaks Hill Farm and Ordsall South are major allocations. Small sites allowance of 546 included for first 3 years."
+    }
+  ],
   "confidence": "high",
   "notes": "Plan provides comprehensive housing supply breakdown. Total supply is 11,195 dwellings providing 15% buffer above requirement. Committed housing includes completions (2,587) plus committed sites with planning permission (4,281) plus neighbourhood plan allocations without permission (244). Strategic sites at Peaks Hill Farm and Ordsall South are major allocations. Small sites allowance of 546 included for first 3 years.",
   "pages": "29-37, 77-78, 245-251",

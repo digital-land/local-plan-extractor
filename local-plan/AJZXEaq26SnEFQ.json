@@ -9,7 +9,20 @@
   "period-start-date": 2020,
   "period-end-date": 2040,
   "annual-required-housing": 1355,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Bedford Borough Council",
+      "organisation": "local-authority:BDF",
+      "required-housing": 27100,
+      "allocated-housing": 12276,
+      "windfall-housing": "",
+      "committed-housing": 14824,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1355,
+      "pages": "Pages 24, 28-29",
+      "notes": "The required housing figure of 27,100 dwellings for 2020-2040 is based on the government's standard method (1,355 per year). This represents a 40% increase from the previous Local Plan 2030 requirement of 970 dwellings per year. The committed housing figure of 14,824 includes existing commitments, completions and windfall allowance, leaving 12,276 dwellings to be allocated in this plan."
+    }
+  ],
   "confidence": "high",
   "notes": "The required housing figure of 27,100 dwellings for 2020-2040 is based on the government's standard method (1,355 per year). This represents a 40% increase from the previous Local Plan 2030 requirement of 970 dwellings per year. The committed housing figure of 14,824 includes existing commitments, completions and windfall allowance, leaving 12,276 dwellings to be allocated in this plan.",
   "pages": "Pages 24, 28-29",

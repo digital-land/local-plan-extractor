@@ -9,7 +9,20 @@
   "period-start-date": 2025,
   "period-end-date": 2040,
   "annual-required-housing": 50,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Yorkshire Dales National Park Authority",
+      "organisation": "national-park-authority:Q27178932",
+      "required-housing": 750,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 50,
+      "pages": "Pages 29, 33, 92",
+      "notes": "The plan sets a housing target of 50 new dwellings per annum (750 dwellings between 2025 and 2040). The Authority has identified 23 new allocated sites in service centres and service villages. Most housing will come from allocated sites and existing planning permissions, with additional flexibility from infill plots and conversions."
+    }
+  ],
   "confidence": "high",
   "notes": "The plan sets a housing target of 50 new dwellings per annum (750 dwellings between 2025 and 2040). The Authority has identified 23 new allocated sites in service centres and service villages. Most housing will come from allocated sites and existing planning permissions, with additional flexibility from infill plots and conversions.",
   "pages": "Pages 29, 33, 92",

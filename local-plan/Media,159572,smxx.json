@@ -10,7 +10,20 @@
   "period-start-date": 2011,
   "period-end-date": 2032,
   "annual-required-housing": 177,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Adur District Council",
+      "organisation": "local-authority:ADR",
+      "required-housing": 3718,
+      "allocated-housing": 1080,
+      "windfall-housing": 416,
+      "committed-housing": 998,
+      "broad-locations-housing": 970,
+      "annual-required-housing": 177,
+      "pages": "Pages 18-22 (Table 1 and Policy 3)",
+      "notes": "This is a capacity-based target (3,718 homes) rather than meeting full OAN of 6,825 homes due to constraints. Committed housing includes 559 completions 2011-2016 plus 439 permissions. Broad locations refers to Shoreham Harbour (970 homes excluding 132 already with permission)."
+    }
+  ],
   "confidence": "high",
   "notes": "This is a capacity-based target (3,718 homes) rather than meeting full OAN of 6,825 homes due to constraints. Committed housing includes 559 completions 2011-2016 plus 439 permissions. Broad locations refers to Shoreham Harbour (970 homes excluding 132 already with permission).",
   "pages": "Pages 18-22 (Table 1 and Policy 3)",

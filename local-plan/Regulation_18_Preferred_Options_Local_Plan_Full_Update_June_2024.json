@@ -10,7 +10,20 @@
   "period-start-date": 2021,
   "period-end-date": 2046,
   "annual-required-housing": 661,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Breckland District Council",
+      "organisation": "local-authority:BRE",
+      "required-housing": 16525,
+      "allocated-housing": 15473,
+      "windfall-housing": 1725,
+      "committed-housing": 11023,
+      "broad-locations-housing": "",
+      "annual-required-housing": 661,
+      "pages": "Pages 3, 4, 6, 7, 8",
+      "notes": "The plan sets a minimum requirement of 16,525 homes (661 per annum). Housing supply includes 11,023 completions and commitments, 15,473 allocated dwellings with an additional 1,900-2,500 dwellings to follow from strategic development options. Windfall allowance is 75 dwellings per year from 2024 (1,725 total from 2024-2046). The Council includes an 8% buffer in allocations for choice and competition."
+    }
+  ],
   "confidence": "high",
   "notes": "The plan sets a minimum requirement of 16,525 homes (661 per annum). Housing supply includes 11,023 completions and commitments, 15,473 allocated dwellings with an additional 1,900-2,500 dwellings to follow from strategic development options. Windfall allowance is 75 dwellings per year from 2024 (1,725 total from 2024-2046). The Council includes an 8% buffer in allocations for choice and competition.",
   "pages": "Pages 3, 4, 6, 7, 8",

@@ -10,7 +10,20 @@
   "period-start-date": 2014,
   "period-end-date": 2033,
   "annual-required-housing": 1134,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Barnsley Metropolitan Borough Council",
+      "organisation": "local-authority:BNS",
+      "required-housing": 21546,
+      "allocated-housing": 14236,
+      "windfall-housing": 766,
+      "committed-housing": 6770,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1134,
+      "pages": "Pages 57-58, 322",
+      "notes": "Total supply includes 21,006 from allocations and permissions plus 766 windfall allowance (200 villages + 566 borough-wide). Allocated housing (14,236) and committed housing (6,770) are separate components totaling 21,006. Mixed use sites contributing 4,295 dwellings are included in allocations."
+    }
+  ],
   "confidence": "high",
   "notes": "Total supply includes 21,006 from allocations and permissions plus 766 windfall allowance (200 villages + 566 borough-wide). Allocated housing (14,236) and committed housing (6,770) are separate components totaling 21,006. Mixed use sites contributing 4,295 dwellings are included in allocations.",
   "pages": "Pages 57-58, 322",

@@ -10,7 +10,20 @@
   "period-start-date": 2011,
   "period-end-date": 2029,
   "annual-required-housing": 720,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Bath & North East Somerset Council",
+      "organisation": "local-authority:BAS",
+      "required-housing": 12960,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 720,
+      "pages": "Pages 27-28, 46-52",
+      "notes": "Total housing requirement of around 13,000 homes (12,960 specifically) for 2011-2029. Housing distributed across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200). Annual average of 700+ homes required with 720 calculated from total."
+    }
+  ],
   "confidence": "high",
   "notes": "Total housing requirement of around 13,000 homes (12,960 specifically) for 2011-2029. Housing distributed across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200). Annual average of 700+ homes required with 720 calculated from total.",
   "pages": "Pages 27-28, 46-52",

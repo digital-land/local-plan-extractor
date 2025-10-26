@@ -117,6 +117,18 @@
       "pages": "136, 140",
       "notes": "Annual requirement of 972 homes, total 16,527 over plan period",
       "organisation": "local-authority:WGN"
+    },
+    {
+      "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Council and Salford City Council and Tameside Council and Trafford Council and Wigan Council",
+      "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
+      "required-housing": 175185,
+      "allocated-housing": 20122,
+      "windfall-housing": 6289,
+      "committed-housing": 172039,
+      "broad-locations-housing": "",
+      "annual-required-housing": 10305,
+      "pages": "1, 136, 140",
+      "notes": "Joint plan for 9 Greater Manchester authorities. Total requirement 175,185 homes over 17-year period. Housing land supply breakdown shows 136,739 brownfield sites, 20,301 greenfield sites, 15,437 mixed sites, plus allowances and Places for Everyone allocations."
     }
   ],
   "confidence": "high",

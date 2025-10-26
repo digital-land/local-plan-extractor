@@ -2,7 +2,10 @@
   "name": "Babergh and Mid Suffolk Joint Local Plan 2013 Part 1",
   "organisation-name": "Babergh District Council and Mid Suffolk District Council",
   "organisation": "joint-planning-authority:BAB-MSU",
-  "organisations": ["local-authority:BAB", "local-authority:MSU"],
+  "organisations": [
+    "local-authority:BAB",
+    "local-authority:MSU"
+  ],
   "required-housing": 18069,
   "allocated-housing": "",
   "windfall-housing": 1000,
@@ -35,6 +38,18 @@
       "pages": "Pages 22-24, Appendix 01",
       "notes": "100% of housing need already identified through commitments and windfall, no shortfall",
       "organisation": "local-authority:MSU"
+    },
+    {
+      "organisation-name": "Babergh District Council and Mid Suffolk District Council",
+      "organisation": "joint-planning-authority:BAB-MSU",
+      "required-housing": 18069,
+      "allocated-housing": "",
+      "windfall-housing": 1000,
+      "committed-housing": 12821,
+      "broad-locations-housing": "",
+      "annual-required-housing": 951,
+      "pages": "Pages 22-24, Table 2, Table 3, Appendix 01",
+      "notes": "This is Part 1 of a joint plan setting strategic policies. No specific site allocations in this document - Part 2 will include allocations. Housing requirements based on Government's standard methodology. Committed supply includes planning permissions, resolutions to grant, and neighbourhood plan allocations as at 2021."
     }
   ],
   "confidence": "high",
