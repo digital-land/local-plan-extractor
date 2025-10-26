@@ -12,13 +12,86 @@ import argparse
 import sys
 
 class LocalPlanHousingExtractor:
-    def __init__(self, api_key: str):
-        """Initialize with Anthropic API key"""
+    def __init__(self, api_key: str, organisation_csv: str = "var/cache/organisation.csv"):
+        """Initialize with Anthropic API key and load organisation mapping"""
         self.client = anthropic.Anthropic(api_key=api_key)
         self.max_pages = 32  # Conservative limit to stay under token budget
         self.rate_limit_delay = 2  # Seconds to wait between requests
         self.max_retries = 5  # Maximum number of retry attempts
-        
+        self.organisations = self._load_organisations(organisation_csv)
+
+    def _load_organisations(self, csv_path: str) -> Dict[str, str]:
+        """Load organisation names and codes from CSV file"""
+        organisations = {}
+        try:
+            if not os.path.exists(csv_path):
+                print(f"Warning: Organisation CSV not found at {csv_path}", file=sys.stderr)
+                return organisations
+
+            with open(csv_path, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                header = next(reader)  # Skip header
+
+                # Find column indices
+                name_idx = header.index('name') if 'name' in header else 14
+                org_idx = header.index('organisation') if 'organisation' in header else 19
+
+                for row in reader:
+                    if len(row) > max(name_idx, org_idx):
+                        name = row[name_idx].strip()
+                        org_code = row[org_idx].strip()
+                        if name and org_code:
+                            organisations[name.lower()] = org_code
+        except Exception as e:
+            print(f"Warning: Could not load organisations from {csv_path}: {e}", file=sys.stderr)
+
+        return organisations
+
+    def match_organisation(self, organisation_name: str) -> str:
+        """Match an organisation name to its code from the CSV.
+
+        Returns the organisation code if a confident match is found, empty string otherwise.
+        Uses exact matching and common variations only - no fuzzy matching.
+        """
+        if not organisation_name or not self.organisations:
+            return ""
+
+        search_name = organisation_name.strip().lower()
+
+        # Try exact match first
+        if search_name in self.organisations:
+            return self.organisations[search_name]
+
+        # Try common variations
+        variations = [
+            search_name,
+            f"{search_name} council",
+            f"{search_name} metropolitan borough council",
+            f"{search_name} district council",
+            f"{search_name} borough council",
+            f"{search_name} city council",
+            f"{search_name} county council",
+        ]
+
+        # Also try removing "council" if it's already in the name
+        if "council" in search_name:
+            base_name = search_name.replace(" council", "").strip()
+            variations.extend([
+                base_name,
+                f"{base_name} metropolitan borough council",
+                f"{base_name} district council",
+                f"{base_name} borough council",
+                f"{base_name} city council",
+                f"{base_name} county council",
+            ])
+
+        for variation in variations:
+            if variation in self.organisations:
+                return self.organisations[variation]
+
+        # No confident match found
+        return ""
+
     def score_page_relevance(self, text: str) -> int:
         """Score a page based on relevance to housing numbers"""
         text_lower = text.lower()
@@ -307,7 +380,17 @@ Key points:
             housing_data['authority'] = authority_name or Path(pdf_path).stem
             housing_data['pdf_file'] = str(pdf_path)
             housing_data['pages_analyzed'] = len(relevant_pages)
-            
+
+            # Match organisation codes
+            if 'organisation-name' in housing_data:
+                housing_data['organisation'] = self.match_organisation(housing_data['organisation-name'])
+
+            # Match organisations in breakdown for joint plans
+            if 'organisation-breakdown' in housing_data and isinstance(housing_data['organisation-breakdown'], list):
+                for org_entry in housing_data['organisation-breakdown']:
+                    if 'organisation-name' in org_entry:
+                        org_entry['organisation'] = self.match_organisation(org_entry['organisation-name'])
+
             print(f"  ✓ Extraction complete", file=sys.stderr)
             
             # Add delay to respect rate limits
@@ -351,7 +434,12 @@ Key points:
             if 'error' not in result:
                 print(f"\n  Results:")
                 print(f"    Plan name: {result.get('name', 'N/A')}")
-                print(f"    Organisation: {result.get('organisation-name', 'N/A')}")
+                org_name = result.get('organisation-name', 'N/A')
+                org_code = result.get('organisation', '')
+                if org_code:
+                    print(f"    Organisation: {org_name} ({org_code})")
+                else:
+                    print(f"    Organisation: {org_name}")
                 print(f"    Required housing: {result.get('required-housing', 'N/A')}")
                 print(f"    Allocated housing: {result.get('allocated-housing', 'N/A')}")
                 print(f"    Windfall housing: {result.get('windfall-housing', 'N/A')}")
@@ -366,7 +454,12 @@ Key points:
                 if result.get('organisation-breakdown') and len(result['organisation-breakdown']) > 0:
                     print(f"\n  Organisation Breakdown (Joint Plan):")
                     for org in result['organisation-breakdown']:
-                        print(f"    • {org.get('organisation-name', 'N/A')}:")
+                        org_name = org.get('organisation-name', 'N/A')
+                        org_code = org.get('organisation', '')
+                        if org_code:
+                            print(f"    • {org_name} ({org_code}):")
+                        else:
+                            print(f"    • {org_name}:")
                         print(f"      Required: {org.get('required-housing', 'N/A')}")
                         print(f"      Allocated: {org.get('allocated-housing', 'N/A')}")
                         print(f"      Windfall: {org.get('windfall-housing', 'N/A')}")
@@ -400,6 +493,7 @@ Key points:
             'authority',
             'name',
             'organisation-name',
+            'organisation',
             'pdf_file',
             'required-housing',
             'allocated-housing',
