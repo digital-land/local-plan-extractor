@@ -209,9 +209,7 @@ Provide your response in this exact JSON format:
             "notes": "Notes specific to this authority"
         }
     ],
-    "confidence": "high/medium/low",
-    "notes": "Brief context about the numbers",
-    "pages": "Page numbers where found"
+    "confidence": "high/medium/low"
 }
 
 Key points:
@@ -483,8 +481,6 @@ Key points:
             'housing-numbers',
             'pages_analysed',
             'confidence',
-            'notes',
-            'pages',
             'error'
         ]
 
