@@ -4,7 +4,7 @@
   "required-housing": 175185,
   "allocated-housing": 20122,
   "windfall-housing": 6289,
-  "committed-housing": 156040,
+  "committed-housing": 172039,
   "broad-locations-housing": "",
   "period-start-date": 2022,
   "period-end-date": 2039,
@@ -12,108 +12,129 @@
   "organisation-breakdown": [
     {
       "organisation-name": "Bolton Council",
-      "required-housing": "",
+      "required-housing": 13379,
       "allocated-housing": "",
       "windfall-housing": 1396,
       "committed-housing": 12515,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 787,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 787 homes, total 13,379 over plan period",
+      "organisation": "local-authority:BOL"
     },
     {
       "organisation-name": "Bury Council",
-      "required-housing": "",
+      "required-housing": 7678,
       "allocated-housing": 4900,
       "windfall-housing": 348,
       "committed-housing": 4412,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 452,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 452 homes, total 7,678 over plan period",
+      "organisation": "local-authority:BUR"
     },
     {
       "organisation-name": "Manchester City Council",
-      "required-housing": "",
+      "required-housing": 60061,
       "allocated-housing": "",
       "windfall-housing": 686,
       "committed-housing": 63687,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 3533,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 3,533 homes, total 60,061 over plan period",
+      "organisation": "local-authority:MAN"
     },
     {
       "organisation-name": "Oldham Council",
-      "required-housing": "",
+      "required-housing": 11560,
       "allocated-housing": 2105,
       "windfall-housing": 923,
       "committed-housing": 10283,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 680,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 680 homes, total 11,560 over plan period",
+      "organisation": "local-authority:OLD"
     },
     {
       "organisation-name": "Rochdale Council",
-      "required-housing": "",
+      "required-housing": 10472,
       "allocated-housing": 4006,
       "windfall-housing": -782,
-      "committed-housing": 8368,
+      "committed-housing": 7248,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "Negative windfall due to demolitions exceeding small sites; From SHLAA breakdown"
+      "annual-required-housing": 616,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 616 homes, negative windfall due to demolitions exceeding small sites delivery",
+      "organisation": "local-authority:RCH"
     },
     {
       "organisation-name": "Salford City Council",
-      "required-housing": "",
+      "required-housing": 28186,
       "allocated-housing": 700,
       "windfall-housing": 2089,
       "committed-housing": 32515,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 1658,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 1,658 homes, total 28,186 over plan period",
+      "organisation": "local-authority:SLF"
     },
     {
       "organisation-name": "Tameside Council",
-      "required-housing": "",
+      "required-housing": 8245,
       "allocated-housing": 1894,
       "windfall-housing": 562,
-      "committed-housing": 6296,
+      "committed-housing": 5845,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 485,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 485 homes, total 8,245 over plan period",
+      "organisation": "local-authority:TAM"
     },
     {
       "organisation-name": "Trafford Council",
-      "required-housing": "",
+      "required-housing": 19077,
       "allocated-housing": 4917,
       "windfall-housing": 323,
       "committed-housing": 18006,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 1122,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 1,122 homes, total 19,077 over plan period",
+      "organisation": "local-authority:TRF"
     },
     {
       "organisation-name": "Wigan Council",
-      "required-housing": "",
+      "required-housing": 16527,
       "allocated-housing": 1600,
       "windfall-housing": 744,
-      "committed-housing": 16398,
+      "committed-housing": 16223,
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "Table 7.1, page 136",
-      "notes": "From Strategic Housing Land Availability Assessment breakdown"
+      "annual-required-housing": 972,
+      "pages": "136, 140",
+      "notes": "Annual requirement of 972 homes, total 16,527 over plan period",
+      "organisation": "local-authority:WGN"
     }
   ],
   "confidence": "high",
-  "notes": "Joint plan for 9 Greater Manchester authorities. Total requirement 175,185 homes over 17 years (2022-2039). Committed housing includes brownfield and greenfield SHLAA sites. Places for Everyone Allocations are strategic allocations beyond existing supply.",
-  "pages": "Table 7.1 (page 136), Policy JP-H1 (page 139), various housing strategy pages",
+  "notes": "Joint plan for 9 Greater Manchester authorities. Total requirement 175,185 homes over 17-year period. Housing land supply breakdown shows 136,739 brownfield sites, 20,301 greenfield sites, 15,437 mixed sites, plus allowances and Places for Everyone allocations.",
+  "pages": "1, 136, 140",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
-  "pages_analyzed": 32
+  "pages_analyzed": 32,
+  "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
+  "organisations": [
+    "local-authority:BOL",
+    "local-authority:BUR",
+    "local-authority:MAN",
+    "local-authority:OLD",
+    "local-authority:RCH",
+    "local-authority:SLF",
+    "local-authority:TAM",
+    "local-authority:TRF",
+    "local-authority:WGN"
+  ]
 }

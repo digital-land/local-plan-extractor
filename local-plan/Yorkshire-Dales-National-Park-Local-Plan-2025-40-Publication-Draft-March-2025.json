@@ -1,5 +1,5 @@
 {
-  "name": "Yorkshire Dales National Park Local Plan 2025-2040",
+  "name": "Yorkshire Dales National Park Local Plan",
   "organisation-name": "Yorkshire Dales National Park Authority",
   "required-housing": 750,
   "allocated-housing": "",
@@ -9,10 +9,12 @@
   "period-start-date": 2025,
   "period-end-date": 2040,
   "annual-required-housing": 50,
+  "organisation-breakdown": [],
   "confidence": "high",
-  "notes": "Plan targets 50 dwellings per annum over 15-year period. 23 allocated sites identified but specific numbers not provided in these pages. Strategy includes allocated sites, existing permissions, and windfall development (infill, conversions, etc.) but breakdown not specified.",
-  "pages": "Pages 29, 33-34, 92-95",
+  "notes": "The plan sets a housing target of 50 new dwellings per annum (750 dwellings between 2025 and 2040). The Authority has identified 23 new allocated sites in service centres and service villages. Most housing will come from allocated sites and existing planning permissions, with additional flexibility from infill plots and conversions.",
+  "pages": "Pages 29, 33, 92",
   "authority": "Yorkshire-Dales-National-Park-Local-Plan-2025-40-Publication-Draft-March-2025",
   "pdf_file": "document/Yorkshire-Dales-National-Park-Local-Plan-2025-40-Publication-Draft-March-2025.pdf",
-  "pages_analyzed": 32
+  "pages_analyzed": 32,
+  "organisation": "national-park-authority:Q27178932"
 }

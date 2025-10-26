@@ -1,17 +1,20 @@
 {
   "name": "Bassetlaw Local Plan 2020-2038",
+  "organisation-name": "Bassetlaw District Council",
   "required-housing": 9720,
   "allocated-housing": 2387,
   "windfall-housing": 912,
-  "committed-housing": 6868,
-  "broad-locations-housing": 238,
+  "committed-housing": 6869,
+  "broad-locations-housing": "",
   "period-start-date": 2020,
   "period-end-date": 2038,
   "annual-required-housing": 540,
+  "organisation-breakdown": [],
   "confidence": "high",
-  "notes": "Required housing is 540 per annum (9,720 total). Committed housing includes completions (2,587) plus committed major sites (4,281). Worksop Central DPD provides additional 238 homes as broad locations. Total supply is 11,195 homes providing 15% buffer.",
-  "pages": "Pages 29-31, 77-78, 245, 251",
+  "notes": "Plan provides comprehensive housing supply breakdown. Total supply is 11,195 dwellings providing 15% buffer above requirement. Committed housing includes completions (2,587) plus committed sites with planning permission (4,281) plus neighbourhood plan allocations without permission (244). Strategic sites at Peaks Hill Farm and Ordsall South are major allocations. Small sites allowance of 546 included for first 3 years.",
+  "pages": "29-37, 77-78, 245-251",
   "authority": "adopted-bassetlaw-local-plan-2020-2038",
   "pdf_file": "document/adopted-bassetlaw-local-plan-2020-2038.pdf",
-  "pages_analyzed": 32
+  "pages_analyzed": 32,
+  "organisation": "local-authority:BAE"
 }

@@ -1,6 +1,7 @@
 {
   "name": "York Local Plan",
   "organisation-name": "City of York Council",
+  "organisation": "local-authority:YOR",
   "required-housing": 13152,
   "allocated-housing": 9893,
   "windfall-housing": 1592,
@@ -9,8 +10,9 @@
   "period-start-date": 2017,
   "period-end-date": 2033,
   "annual-required-housing": 822,
+  "organisation-breakdown": [],
   "confidence": "high",
-  "notes": "Total requirement is 822 dwellings per annum for 16 years (2017-2032/33). Allocated housing includes Strategic Housing Allocations (8,160) plus Housing Allocations (1,733). Windfall allowance applies from 2025/26 at 199 dpa. Commitments are extant permissions at 1st April 2022.",
+  "notes": "Plan period is 2017-2032/33 (16 years). Total target of 13,152 homes comprises strategic housing allocations (8,160), housing allocations (1,733), commitments (2,149), windfall allowance (1,592), plus 3,767 net completions 2017-2022. Annual requirement is 822 dwellings per year.",
   "pages": "Pages 36-37, 134-136",
   "authority": "city-of-york-adopted-local-plan-2025",
   "pdf_file": "document/city-of-york-adopted-local-plan-2025.pdf",

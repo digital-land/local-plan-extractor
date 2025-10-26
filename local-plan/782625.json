@@ -9,10 +9,12 @@
   "period-start-date": 2018,
   "period-end-date": 2033,
   "annual-required-housing": 997,
+  "organisation-breakdown": [],
   "confidence": "high",
-  "notes": "Housing requirement follows stepped trajectory: 500 dpa for years 1-8, 950 dpa for years 9-10, and 1,810 dpa for years 11-15. Garden Suburbs add 2,105 dwellings beyond plan period. Total supply including beyond plan period is 15,633 dwellings.",
-  "pages": "Pages 33-36 (Table 6.1, Table 6.2, Policy SD2)",
+  "notes": "Plan uses stepped housing trajectory: 500 dpa (2018-2026), 950 dpa (2026-2028), 1810 dpa (2028-2033). Committed housing is extant planning permissions. Windfall allowance applies from Year 7 onwards at 98 dpa for 9 years.",
+  "pages": "33-38",
   "authority": "782625",
   "pdf_file": "document/782625.pdf",
-  "pages_analyzed": 32
+  "pages_analyzed": 32,
+  "organisation": "local-authority:CLD"
 }
