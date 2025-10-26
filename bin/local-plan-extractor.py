@@ -239,6 +239,11 @@ Key points:
   * If a table shows housing supply broken down by category, "allocations" is typically separate from "commitments" and "windfall"
   * If site allocations are described as employment-only, industrial, commercial, or non-residential, then allocated-housing is 0
   * If you find that an authority has strategic allocations but they are all employment sites with no residential component, use 0 not ""
+- IMPORTANT - ANNUAL REQUIRED HOUSING: When extracting annual-required-housing:
+  * Calculate the expected annual figure: required-housing ÷ plan period years
+  * If you find an annual requirement in the document, verify it matches the calculation (within rounding)
+  * If the extracted annual figure doesn't match the calculation, double-check both numbers
+  * If no annual figure is found in the document, leave it as "" (it will be calculated automatically)
 - IMPORTANT: For housing number fields, distinguish between:
   * Use 0 (zero) if you are confident the value is actually zero (e.g., no residential allocations, employment-only sites, or document explicitly states "no allocations")
   * Use "" (empty string) only if the number cannot be found or is unclear in the document
@@ -424,6 +429,25 @@ Key points:
                 lpa_code = self.org_matcher.get_local_planning_authority(housing_data['organisation-name'])
                 if lpa_code:
                     housing_data['local-plan-boundary'] = lpa_code
+
+            # Calculate missing annual-required-housing values
+            start_date = housing_data.get('period-start-date', '')
+            end_date = housing_data.get('period-end-date', '')
+
+            if isinstance(start_date, int) and isinstance(end_date, int) and end_date > start_date:
+                plan_years = end_date - start_date
+
+                if 'housing-numbers' in housing_data:
+                    for entry in housing_data['housing-numbers']:
+                        required = entry.get('required-housing', '')
+                        annual = entry.get('annual-required-housing', '')
+
+                        # Calculate if required is present but annual is missing
+                        if isinstance(required, (int, float)) and required > 0:
+                            if annual == '' or annual is None:
+                                calculated_annual = round(required / plan_years)
+                                entry['annual-required-housing'] = calculated_annual
+                                print(f"    Calculated annual-required-housing: {calculated_annual} ({required}/{plan_years} years)", file=sys.stderr)
 
             print(f"  ✓ Extraction complete", file=sys.stderr)
             
