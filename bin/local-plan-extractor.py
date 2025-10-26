@@ -230,10 +230,19 @@ Key points:
 - Look in housing trajectory tables, housing land supply tables, and policy summaries
 - Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
 - Broad locations may be called "strategic allocations", "strategic sites", "broad locations for growth", or "areas of search"
+- IMPORTANT - ALLOCATED HOUSING: Search thoroughly for allocated housing numbers. Look for:
+  * Housing land supply tables with columns for "Allocations", "Allocated sites", "Plan allocations"
+  * Site allocation policies (e.g., "Policy JP-Allocation 1", "Site H1", "Strategic Allocation SA1")
+  * Appendices listing all allocated sites with dwelling capacities
+  * Housing trajectory tables breaking down supply by source (allocations vs commitments vs windfall)
+  * For JOINT PLANS specifically: Look for per-authority breakdowns of "Places for Everyone allocations", "Strategic allocations", "Plan allocations" by district
+  * If a table shows housing supply broken down by category, "allocations" is typically separate from "commitments" and "windfall"
+  * If site allocations are described as employment-only, industrial, commercial, or non-residential, then allocated-housing is 0
+  * If you find that an authority has strategic allocations but they are all employment sites with no residential component, use 0 not ""
 - IMPORTANT: For housing number fields, distinguish between:
-  * Use 0 (zero) if you are confident the value is actually zero (e.g., no residential allocations, employment-only sites, etc.)
+  * Use 0 (zero) if you are confident the value is actually zero (e.g., no residential allocations, employment-only sites, or document explicitly states "no allocations")
   * Use "" (empty string) only if the number cannot be found or is unclear in the document
-- Keep notes concise but mention if figures overlap (e.g., if commitments are included in allocated sites)
+- Keep notes concise but mention if figures overlap (e.g., if commitments are included in allocated sites) and explain the basis for 0 values
 """
 
         try:
