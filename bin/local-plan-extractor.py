@@ -321,6 +321,33 @@ Key points:
                     if 'organisation-name' in org_entry:
                         org_entry['organisation'] = self.org_matcher.match(org_entry['organisation-name'])
 
+                # For joint plans, create organisations array and joint authority reference
+                if len(housing_data['organisation-breakdown']) > 0:
+                    # Collect all organisation codes from breakdown
+                    org_codes = []
+                    for org_entry in housing_data['organisation-breakdown']:
+                        org_code = org_entry.get('organisation', '')
+                        if org_code:
+                            org_codes.append(org_code)
+
+                    # Create organisations array
+                    if org_codes:
+                        housing_data['organisations'] = org_codes
+
+                        # Construct joint planning authority reference
+                        # Extract reference parts (after colon) from CURIE values
+                        ref_parts = []
+                        for org_code in org_codes:
+                            if ':' in org_code:
+                                ref_part = org_code.split(':', 1)[1]
+                                ref_parts.append(ref_part)
+
+                        # Sort alphabetically and create joint reference
+                        if ref_parts:
+                            ref_parts.sort()
+                            joint_ref = 'joint-planning-authority:' + '-'.join(ref_parts)
+                            housing_data['organisation'] = joint_ref
+
             print(f"  ✓ Extraction complete", file=sys.stderr)
             
             # Add delay to respect rate limits
@@ -424,6 +451,7 @@ Key points:
             'name',
             'organisation-name',
             'organisation',
+            'organisations',
             'pdf_file',
             'required-housing',
             'allocated-housing',
@@ -449,8 +477,8 @@ Key points:
                 row = {}
                 for field in fieldnames:
                     value = result.get(field, '')
-                    # Serialize organisation-breakdown array as JSON for CSV storage
-                    if field == 'organisation-breakdown' and isinstance(value, list):
+                    # Serialize arrays as JSON for CSV storage
+                    if field in ('organisation-breakdown', 'organisations') and isinstance(value, list):
                         row[field] = json.dumps(value) if value else ''
                     else:
                         row[field] = value
