@@ -1,14 +1,8 @@
 {
   "name": "Yorkshire Dales National Park Local Plan",
   "organisation-name": "Yorkshire Dales National Park Authority",
-  "required-housing": 750,
-  "allocated-housing": "",
-  "windfall-housing": "",
-  "committed-housing": "",
-  "broad-locations-housing": "",
   "period-start-date": 2025,
   "period-end-date": 2040,
-  "annual-required-housing": 50,
   "housing-numbers": [
     {
       "organisation-name": "Yorkshire Dales National Park Authority",

@@ -1,14 +1,8 @@
 {
   "name": "MK City Plan 2050",
   "organisation-name": "Milton Keynes City Council",
-  "required-housing": 63000,
-  "allocated-housing": 33825,
-  "windfall-housing": 3000,
-  "committed-housing": 29075,
-  "broad-locations-housing": "",
   "period-start-date": 2022,
   "period-end-date": 2050,
-  "annual-required-housing": 2250,
   "housing-numbers": [
     {
       "organisation-name": "Milton Keynes City Council",

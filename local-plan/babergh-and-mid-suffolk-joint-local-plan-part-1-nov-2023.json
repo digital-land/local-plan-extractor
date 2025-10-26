@@ -6,14 +6,8 @@
     "local-authority:BAB",
     "local-authority:MSU"
   ],
-  "required-housing": 18069,
-  "allocated-housing": "",
-  "windfall-housing": 1000,
-  "committed-housing": 12821,
-  "broad-locations-housing": "",
   "period-start-date": 2018,
   "period-end-date": 2037,
-  "annual-required-housing": 951,
   "housing-numbers": [
     {
       "organisation-name": "Babergh District Council",

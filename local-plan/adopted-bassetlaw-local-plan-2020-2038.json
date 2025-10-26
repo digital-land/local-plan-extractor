@@ -1,14 +1,8 @@
 {
   "name": "Bassetlaw Local Plan 2020-2038",
   "organisation-name": "Bassetlaw District Council",
-  "required-housing": 9720,
-  "allocated-housing": 2387,
-  "windfall-housing": 912,
-  "committed-housing": 6869,
-  "broad-locations-housing": "",
   "period-start-date": 2020,
   "period-end-date": 2038,
-  "annual-required-housing": 540,
   "housing-numbers": [
     {
       "organisation-name": "Bassetlaw District Council",

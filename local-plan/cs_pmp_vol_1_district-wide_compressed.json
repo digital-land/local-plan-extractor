@@ -2,14 +2,8 @@
   "name": "Bath & North East Somerset Core Strategy",
   "organisation-name": "Bath & North East Somerset Council",
   "organisation": "local-authority:BAS",
-  "required-housing": 12960,
-  "allocated-housing": "",
-  "windfall-housing": "",
-  "committed-housing": "",
-  "broad-locations-housing": "",
   "period-start-date": 2011,
   "period-end-date": 2029,
-  "annual-required-housing": 720,
   "housing-numbers": [
     {
       "organisation-name": "Bath & North East Somerset Council",

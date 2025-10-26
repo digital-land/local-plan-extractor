@@ -2,14 +2,8 @@
   "name": "Adopted Local Plan",
   "organisation-name": "Barnsley Metropolitan Borough Council",
   "organisation": "local-authority:BNS",
-  "required-housing": 21546,
-  "allocated-housing": 14236,
-  "windfall-housing": 766,
-  "committed-housing": 6770,
-  "broad-locations-housing": "",
   "period-start-date": 2014,
   "period-end-date": 2033,
-  "annual-required-housing": 1134,
   "housing-numbers": [
     {
       "organisation-name": "Barnsley Metropolitan Borough Council",

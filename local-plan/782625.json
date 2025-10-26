@@ -1,14 +1,8 @@
 {
   "name": "Calderdale Local Plan",
   "organisation-name": "Calderdale Council",
-  "required-housing": 14950,
-  "allocated-housing": 9239,
-  "windfall-housing": 883,
-  "committed-housing": 2187,
-  "broad-locations-housing": "",
   "period-start-date": 2018,
   "period-end-date": 2033,
-  "annual-required-housing": 997,
   "housing-numbers": [
     {
       "organisation-name": "Calderdale Council",

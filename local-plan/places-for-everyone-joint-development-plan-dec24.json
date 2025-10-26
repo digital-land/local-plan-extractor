@@ -1,14 +1,8 @@
 {
   "name": "Places for Everyone Joint Development Plan 2022 to 2039",
   "organisation-name": "Bolton Council and Bury Council and Manchester City Council and Oldham Council and Rochdale Council and Salford City Council and Tameside Council and Trafford Council and Wigan Council",
-  "required-housing": 175185,
-  "allocated-housing": 20122,
-  "windfall-housing": 6289,
-  "committed-housing": 172039,
-  "broad-locations-housing": "",
   "period-start-date": 2022,
   "period-end-date": 2039,
-  "annual-required-housing": 10305,
   "housing-numbers": [
     {
       "organisation-name": "Bolton Council",

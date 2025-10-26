@@ -2,14 +2,8 @@
   "name": "Adur Local Plan 2017",
   "organisation-name": "Adur District Council",
   "organisation": "local-authority:ADR",
-  "required-housing": 3718,
-  "allocated-housing": 1080,
-  "windfall-housing": 416,
-  "committed-housing": 998,
-  "broad-locations-housing": 970,
   "period-start-date": 2011,
   "period-end-date": 2032,
-  "annual-required-housing": 177,
   "housing-numbers": [
     {
       "organisation-name": "Adur District Council",

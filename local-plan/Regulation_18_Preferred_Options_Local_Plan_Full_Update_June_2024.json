@@ -2,14 +2,8 @@
   "name": "Breckland Local Plan Full Update Preferred Options: 2024",
   "organisation-name": "Breckland District Council",
   "organisation": "local-authority:BRE",
-  "required-housing": 16525,
-  "allocated-housing": 15473,
-  "windfall-housing": 1725,
-  "committed-housing": 11023,
-  "broad-locations-housing": "",
   "period-start-date": 2021,
   "period-end-date": 2046,
-  "annual-required-housing": 661,
   "housing-numbers": [
     {
       "organisation-name": "Breckland District Council",

@@ -2,14 +2,8 @@
   "name": "York Local Plan",
   "organisation-name": "City of York Council",
   "organisation": "local-authority:YOR",
-  "required-housing": 13152,
-  "allocated-housing": 9893,
-  "windfall-housing": 1592,
-  "committed-housing": 2149,
-  "broad-locations-housing": "",
   "period-start-date": 2017,
   "period-end-date": 2033,
-  "annual-required-housing": 822,
   "housing-numbers": [
     {
       "organisation-name": "City of York Council",
