@@ -353,16 +353,38 @@ Key points:
                             joint_ref = 'joint-planning-authority:' + '-'.join(ref_parts)
                             housing_data['organisation'] = joint_ref
 
-                            # Add joint authority entry to housing-numbers with totals
+                            # Calculate sums from member authorities for joint entry
+                            housing_fields = [
+                                'required-housing',
+                                'allocated-housing',
+                                'windfall-housing',
+                                'committed-housing',
+                                'broad-locations-housing',
+                                'annual-required-housing'
+                            ]
+
+                            sums = {}
+                            for field in housing_fields:
+                                total = 0
+                                for entry in housing_data['housing-numbers']:
+                                    value = entry.get(field, '')
+                                    # Treat empty strings as 0, include actual 0 values
+                                    if isinstance(value, (int, float)):
+                                        total += value
+                                    elif value == '':
+                                        total += 0
+                                sums[field] = total
+
+                            # Add joint authority entry to housing-numbers with calculated totals
                             joint_entry = {
                                 'organisation-name': housing_data.get('organisation-name', ''),
                                 'organisation': joint_ref,
-                                'required-housing': housing_data.get('required-housing', ''),
-                                'allocated-housing': housing_data.get('allocated-housing', ''),
-                                'windfall-housing': housing_data.get('windfall-housing', ''),
-                                'committed-housing': housing_data.get('committed-housing', ''),
-                                'broad-locations-housing': housing_data.get('broad-locations-housing', ''),
-                                'annual-required-housing': housing_data.get('annual-required-housing', ''),
+                                'required-housing': sums['required-housing'],
+                                'allocated-housing': sums['allocated-housing'],
+                                'windfall-housing': sums['windfall-housing'],
+                                'committed-housing': sums['committed-housing'],
+                                'broad-locations-housing': sums['broad-locations-housing'],
+                                'annual-required-housing': sums['annual-required-housing'],
                                 'pages': housing_data.get('pages', ''),
                                 'notes': housing_data.get('notes', '')
                             }
