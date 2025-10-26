@@ -1,0 +1,18 @@
+{
+  "name": "Bath & North East Somerset Core Strategy",
+  "organisation-name": "Bath & North East Somerset Council",
+  "required-housing": 13000,
+  "allocated-housing": "",
+  "windfall-housing": "",
+  "committed-housing": "",
+  "broad-locations-housing": "",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "annual-required-housing": 722,
+  "confidence": "high",
+  "notes": "Total assessed need is around 13,000 dwellings comprising 9,710 market homes and 3,290 affordable homes. Document includes detailed spatial distribution across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200).",
+  "pages": "Pages 27-28, 46-47",
+  "authority": "cs_pmp_vol_1_district-wide_compressed",
+  "pdf_file": "document/cs_pmp_vol_1_district-wide_compressed.pdf",
+  "pages_analyzed": 32
+}

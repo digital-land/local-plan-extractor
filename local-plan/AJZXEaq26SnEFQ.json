@@ -1,0 +1,18 @@
+{
+  "name": "Local Plan 2040",
+  "organisation-name": "Bedford Borough Council",
+  "required-housing": 27100,
+  "allocated-housing": 12276,
+  "windfall-housing": "",
+  "committed-housing": 14824,
+  "broad-locations-housing": "",
+  "period-start-date": 2020,
+  "period-end-date": 2040,
+  "annual-required-housing": 1355,
+  "confidence": "high",
+  "notes": "Housing requirement calculated using government standard method. Total of 14,824 includes existing commitments, completions and windfall allowance, leaving 12,276 to be allocated. Uses stepped trajectory with lower rates 2020-2030 then higher rates post-2030.",
+  "pages": "24-28",
+  "authority": "AJZXEaq26SnEFQ",
+  "pdf_file": "document/AJZXEaq26SnEFQ.pdf",
+  "pages_analyzed": 32
+}

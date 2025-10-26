@@ -1,0 +1,18 @@
+{
+  "name": "MK City Plan 2050",
+  "organisation-name": "Milton Keynes City Council",
+  "required-housing": 63000,
+  "allocated-housing": 30750,
+  "windfall-housing": 3000,
+  "committed-housing": 29075,
+  "broad-locations-housing": "",
+  "period-start-date": 2022,
+  "period-end-date": 2050,
+  "annual-required-housing": 2250,
+  "confidence": "high",
+  "notes": "Plan proposes housing range of 53,245-63,000 homes with upper end (63,000) representing vision for growth. Committed housing includes completions, sites under construction, and existing allocations. Total supply shown as 62,825 homes across all sources.",
+  "pages": "2, 6, 7, 15",
+  "authority": "MK-2050",
+  "pdf_file": "document/MK-2050.pdf",
+  "pages_analyzed": 32
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Calderdale Local Plan",
+  "organisation-name": "Calderdale Council",
+  "required-housing": 14950,
+  "allocated-housing": 9239,
+  "windfall-housing": 883,
+  "committed-housing": 2187,
+  "broad-locations-housing": "",
+  "period-start-date": 2018,
+  "period-end-date": 2033,
+  "annual-required-housing": 997,
+  "confidence": "high",
+  "notes": "Housing requirement follows stepped trajectory: 500 dpa for years 1-8, 950 dpa for years 9-10, and 1,810 dpa for years 11-15. Garden Suburbs add 2,105 dwellings beyond plan period. Total supply including beyond plan period is 15,633 dwellings.",
+  "pages": "Pages 33-36 (Table 6.1, Table 6.2, Policy SD2)",
+  "authority": "782625",
+  "pdf_file": "document/782625.pdf",
+  "pages_analyzed": 32
+}
