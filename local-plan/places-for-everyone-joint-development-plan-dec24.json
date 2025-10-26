@@ -19,13 +19,13 @@
     {
       "organisation-name": "Bolton Council",
       "required-housing": 13379,
-      "allocated-housing": "",
+      "allocated-housing": 0,
       "windfall-housing": 1396,
       "committed-housing": 12515,
-      "broad-locations-housing": "",
+      "broad-locations-housing": 0,
       "annual-required-housing": 787,
       "pages": "136, 140",
-      "notes": "Annual requirement of 787 homes, total 13,379 over plan period",
+      "notes": "Annual requirement of 787 homes, total 13,379 over plan period. Bolton has no residential allocations in Places for Everyone - all three Bolton allocations are employment-only sites.",
       "organisation": "local-authority:BOL"
     },
     {

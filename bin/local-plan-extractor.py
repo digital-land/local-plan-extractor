@@ -230,7 +230,9 @@ Key points:
 - Look in housing trajectory tables, housing land supply tables, and policy summaries
 - Committed housing may be listed as "completions + commitments", "permissions", or "pipeline"
 - Broad locations may be called "strategic allocations", "strategic sites", "broad locations for growth", or "areas of search"
-- Use empty string "" if a number cannot be found
+- IMPORTANT: For housing number fields, distinguish between:
+  * Use 0 (zero) if you are confident the value is actually zero (e.g., no residential allocations, employment-only sites, etc.)
+  * Use "" (empty string) only if the number cannot be found or is unclear in the document
 - Keep notes concise but mention if figures overlap (e.g., if commitments are included in allocated sites)
 """
 
