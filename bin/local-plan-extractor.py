@@ -348,6 +348,37 @@ Key points:
                             joint_ref = 'joint-planning-authority:' + '-'.join(ref_parts)
                             housing_data['organisation'] = joint_ref
 
+                            # Add joint authority entry to housing-numbers with totals
+                            joint_entry = {
+                                'organisation-name': housing_data.get('organisation-name', ''),
+                                'organisation': joint_ref,
+                                'required-housing': housing_data.get('required-housing', ''),
+                                'allocated-housing': housing_data.get('allocated-housing', ''),
+                                'windfall-housing': housing_data.get('windfall-housing', ''),
+                                'committed-housing': housing_data.get('committed-housing', ''),
+                                'broad-locations-housing': housing_data.get('broad-locations-housing', ''),
+                                'annual-required-housing': housing_data.get('annual-required-housing', ''),
+                                'pages': housing_data.get('pages', ''),
+                                'notes': housing_data.get('notes', '')
+                            }
+                            housing_data['housing-numbers'].append(joint_entry)
+            else:
+                # For single authority plans, create housing-numbers entry from top-level fields
+                if 'organisation' in housing_data:
+                    single_entry = {
+                        'organisation-name': housing_data.get('organisation-name', ''),
+                        'organisation': housing_data.get('organisation', ''),
+                        'required-housing': housing_data.get('required-housing', ''),
+                        'allocated-housing': housing_data.get('allocated-housing', ''),
+                        'windfall-housing': housing_data.get('windfall-housing', ''),
+                        'committed-housing': housing_data.get('committed-housing', ''),
+                        'broad-locations-housing': housing_data.get('broad-locations-housing', ''),
+                        'annual-required-housing': housing_data.get('annual-required-housing', ''),
+                        'pages': housing_data.get('pages', ''),
+                        'notes': housing_data.get('notes', '')
+                    }
+                    housing_data['housing-numbers'] = [single_entry]
+
             print(f"  ✓ Extraction complete", file=sys.stderr)
             
             # Add delay to respect rate limits
