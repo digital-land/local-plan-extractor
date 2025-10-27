@@ -7,6 +7,7 @@ import json
 import sys
 import csv
 import argparse
+import shutil
 from pathlib import Path
 from collections import defaultdict
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -269,6 +270,23 @@ Examples:
     nojekyll_path = Path(args.output) / '.nojekyll'
     nojekyll_path.touch()
     print(f"\n✓ Created {nojekyll_path}")
+
+    # Copy var/cache directory for GeoJSON data
+    print("\nCopying data files...")
+    var_cache_src = Path('var/cache')
+    var_cache_dest = Path(args.output) / 'var' / 'cache'
+
+    if var_cache_src.exists():
+        # Remove destination if it exists
+        if var_cache_dest.exists():
+            shutil.rmtree(var_cache_dest.parent)
+
+        # Copy the directory
+        var_cache_dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(var_cache_src, var_cache_dest)
+        print(f"  ✓ Copied var/cache to {var_cache_dest}")
+    else:
+        print(f"  ⚠ Warning: var/cache directory not found", file=sys.stderr)
 
     print("\n" + "="*60)
     print("Summary:")
