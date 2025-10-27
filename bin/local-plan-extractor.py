@@ -183,24 +183,29 @@ class LocalPlanHousingExtractor:
 
 1. **Plan Name**: The full title of the local plan document (e.g., "Birmingham Development Plan 2031", "Core Strategy 2020-2035")
 2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council"). For joint plans covering multiple authorities, list all authorities separated by " and " (e.g., "Babergh District Council and Mid Suffolk District Council")
-3. **Required Housing**: The total number of homes required for the plan period (overall housing target/requirement)
-4. **Allocated Housing**: The number of homes expected from specifically allocated sites in the plan
-5. **Windfall Housing**: The number of homes expected from windfall development (small unallocated sites)
-6. **Committed Housing**: The number of homes already granted planning permission or under construction (sometimes called "commitments" or "pipeline")
-7. **Broad Locations Housing**: The number of homes expected from broad locations/strategic development areas (areas identified for growth but not yet with detailed allocations)
-8. **Organisation Breakdown** (for joint plans only): If this is a joint local plan covering multiple local authorities, and the document provides a breakdown of housing numbers by individual authority, extract the breakdown as an array. IMPORTANT: For each authority in the breakdown, try to find ALL housing fields including required-housing (the housing target/requirement for that specific authority)
+3. **Housing Numbers**: Extract housing numbers and put them in the housing-numbers array:
+   - For SINGLE AUTHORITY plans: Create one entry in the array with the authority's housing numbers
+   - For JOINT plans: Create one entry for each member authority with their individual housing numbers
+
+   For each authority, extract:
+   - **Required Housing**: The total number of homes required for the plan period (overall housing target/requirement)
+   - **Allocated Housing**: The number of homes expected from specifically allocated sites in the plan
+   - **Windfall Housing**: The number of homes expected from windfall development (small unallocated sites)
+   - **Committed Housing**: The number of homes already granted planning permission or under construction (sometimes called "commitments" or "pipeline")
+   - **Broad Locations Housing**: The number of homes expected from broad locations/strategic development areas (areas identified for growth but not yet with detailed allocations)
+   - **Annual Required Housing**: The annual housing requirement (homes per year)
+   - **Pages**: Page numbers where the information was found
+   - **Notes**: Any relevant notes about the housing numbers
 
 Provide your response in this exact JSON format:
 {
     "name": "Full title of the plan document",
     "organisation-name": "Name of the local authority/organisation",
-    "organisation": "Organisation code from lookup",
-    "organisations": ["Array of organisation codes for joint plans"],
     "period-start-date": <year or "">,
     "period-end-date": <year or "">,
     "housing-numbers": [
         {
-            "organisation-name": "Name of first authority",
+            "organisation-name": "Name of the authority",
             "required-housing": <number or "">,
             "allocated-housing": <number or "">,
             "windfall-housing": <number or "">,
@@ -218,8 +223,9 @@ Key points:
 - Extract the plan name from the cover page or title
 - Extract the organisation name from the cover page, title page, or document header (usually the local authority name)
 - For joint plans, list all authorities in organisation-name field separated by " and "
-- housing-numbers: Use this ONLY for joint plans where housing numbers are broken down by individual authority in the document. If no breakdown is provided, use an empty array []
-- The top-level housing fields should contain the total across all authorities in a joint plan
+- IMPORTANT: ALWAYS populate the housing-numbers array with at least one entry
+- For single authority plans: Create ONE entry in housing-numbers array with that authority's housing numbers
+- For joint plans: Create one entry for EACH member authority in the housing-numbers array
 - For JOINT PLANS: Search thoroughly for per-authority housing requirements/targets. These are often in:
   * Policy tables showing spatial distribution of housing across authorities
   * Appendices with authority-by-authority breakdowns
@@ -325,14 +331,14 @@ Key points:
             if 'organisation-name' in housing_data:
                 housing_data['organisation'] = self.org_matcher.match(housing_data['organisation-name'])
 
-            # Match organisations in breakdown for joint plans
+            # Match organisation codes in housing-numbers array
             if 'housing-numbers' in housing_data and isinstance(housing_data['housing-numbers'], list):
                 for org_entry in housing_data['housing-numbers']:
                     if 'organisation-name' in org_entry:
                         org_entry['organisation'] = self.org_matcher.match(org_entry['organisation-name'])
 
-                # For joint plans, create organisations array and joint authority reference
-                if len(housing_data['housing-numbers']) > 0:
+                # Determine if this is a joint plan (multiple entries in housing-numbers)
+                if len(housing_data['housing-numbers']) > 1:
                     # Collect all organisation codes from breakdown
                     org_codes = []
                     for org_entry in housing_data['housing-numbers']:
@@ -394,29 +400,11 @@ Key points:
                                 'notes': housing_data.get('notes', '')
                             }
                             housing_data['housing-numbers'].append(joint_entry)
-            else:
-                # For single authority plans, create housing-numbers entry from top-level fields
-                if 'organisation' in housing_data:
-                    single_entry = {
-                        'organisation-name': housing_data.get('organisation-name', ''),
-                        'organisation': housing_data.get('organisation', ''),
-                        'required-housing': housing_data.get('required-housing', ''),
-                        'allocated-housing': housing_data.get('allocated-housing', ''),
-                        'windfall-housing': housing_data.get('windfall-housing', ''),
-                        'committed-housing': housing_data.get('committed-housing', ''),
-                        'broad-locations-housing': housing_data.get('broad-locations-housing', ''),
-                        'annual-required-housing': housing_data.get('annual-required-housing', ''),
-                        'pages': housing_data.get('pages', ''),
-                        'notes': housing_data.get('notes', '')
-                    }
-                    housing_data['housing-numbers'] = [single_entry]
-
-                    # Remove top-level housing fields now that they're in the array
-                    fields_to_remove = ['required-housing', 'allocated-housing', 'windfall-housing',
-                                        'committed-housing', 'broad-locations-housing',
-                                        'annual-required-housing', 'pages', 'notes']
-                    for field in fields_to_remove:
-                        housing_data.pop(field, None)
+                elif len(housing_data['housing-numbers']) == 1:
+                    # For single authority plans, ensure organisation code is set at top level
+                    single_entry = housing_data['housing-numbers'][0]
+                    if 'organisation' in single_entry and single_entry['organisation']:
+                        housing_data['organisation'] = single_entry['organisation']
 
             # Construct local-plan-boundary field
             if 'organisations' in housing_data:
@@ -507,35 +495,42 @@ Key points:
                     print(f"    Organisation: {org_name} ({org_code})")
                 else:
                     print(f"    Organisation: {org_name}")
-                print(f"    Required housing: {result.get('required-housing', 'N/A')}")
-                print(f"    Allocated housing: {result.get('allocated-housing', 'N/A')}")
-                print(f"    Windfall housing: {result.get('windfall-housing', 'N/A')}")
-                print(f"    Committed housing: {result.get('committed-housing', 'N/A')}")
-                print(f"    Broad locations: {result.get('broad-locations-housing', 'N/A')}")
                 print(f"    Plan period: {result.get('period-start-date', '?')} - {result.get('period-end-date', '?')}")
                 print(f"    Confidence: {result.get('confidence', 'N/A')}")
-                if result.get('notes'):
-                    print(f"    Notes: {result['notes'][:100]}...")
 
-                # Display organisation breakdown for joint plans
+                # Display housing numbers from housing-numbers array
                 if result.get('housing-numbers') and len(result['housing-numbers']) > 0:
-                    print(f"\n  Organisation Breakdown (Joint Plan):")
-                    for org in result['housing-numbers']:
-                        org_name = org.get('organisation-name', 'N/A')
-                        org_code = org.get('organisation', '')
-                        if org_code:
-                            print(f"    • {org_name} ({org_code}):")
-                        else:
-                            print(f"    • {org_name}:")
-                        print(f"      Required: {org.get('required-housing', 'N/A')}")
-                        print(f"      Allocated: {org.get('allocated-housing', 'N/A')}")
-                        print(f"      Windfall: {org.get('windfall-housing', 'N/A')}")
-                        print(f"      Committed: {org.get('committed-housing', 'N/A')}")
-                        print(f"      Broad locations: {org.get('broad-locations-housing', 'N/A')}")
-                        if org.get('pages'):
-                            print(f"      Pages: {org['pages']}")
-                        if org.get('notes'):
-                            print(f"      Notes: {org['notes'][:80]}...")
+                    if len(result['housing-numbers']) == 1:
+                        # Single authority plan - display summary
+                        housing = result['housing-numbers'][0]
+                        print(f"    Required housing: {housing.get('required-housing', 'N/A')}")
+                        print(f"    Allocated housing: {housing.get('allocated-housing', 'N/A')}")
+                        print(f"    Windfall housing: {housing.get('windfall-housing', 'N/A')}")
+                        print(f"    Committed housing: {housing.get('committed-housing', 'N/A')}")
+                        print(f"    Broad locations: {housing.get('broad-locations-housing', 'N/A')}")
+                        if housing.get('pages'):
+                            print(f"    Pages: {housing['pages']}")
+                        if housing.get('notes'):
+                            print(f"    Notes: {housing['notes'][:100]}...")
+                    else:
+                        # Joint plan - display breakdown
+                        print(f"\n  Organisation Breakdown (Joint Plan with {len(result['housing-numbers'])} authorities):")
+                        for org in result['housing-numbers']:
+                            org_name = org.get('organisation-name', 'N/A')
+                            org_code = org.get('organisation', '')
+                            if org_code:
+                                print(f"    • {org_name} ({org_code}):")
+                            else:
+                                print(f"    • {org_name}:")
+                            print(f"      Required: {org.get('required-housing', 'N/A')}")
+                            print(f"      Allocated: {org.get('allocated-housing', 'N/A')}")
+                            print(f"      Windfall: {org.get('windfall-housing', 'N/A')}")
+                            print(f"      Committed: {org.get('committed-housing', 'N/A')}")
+                            print(f"      Broad locations: {org.get('broad-locations-housing', 'N/A')}")
+                            if org.get('pages'):
+                                print(f"      Pages: {org['pages']}")
+                            if org.get('notes'):
+                                print(f"      Notes: {org['notes'][:80]}...")
             else:
                 print(f"\n  ✗ Error: {result['error']}")
             
