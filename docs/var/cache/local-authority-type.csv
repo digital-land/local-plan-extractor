@@ -1,0 +1,9 @@
+dataset,end-date,entity,entry-date,geojson,geometry,name,organisation-entity,point,prefix,reference,start-date,typology,notes,parliament-thesaurus,wikidata,wikipedia
+local-authority-type,,8800000,2025-02-05,,,Combined Authority,600001,,local-authority-type,COMB,,category,,,Q5150900,Combined_authority
+local-authority-type,,8800001,2025-02-05,,,Strategic Regional Authority,600001,,local-authority-type,SRA,,category,,,Q80647952,
+local-authority-type,,8800002,2025-02-05,,,City Corporation,600001,,local-authority-type,CC,,category,,,Q1094147,Municipal_corporation
+local-authority-type,,8800003,2025-02-05,,,Unitary Authority,600001,,local-authority-type,UA,,category,,,Q21561328,Unitary_authorities_of_England
+local-authority-type,,8800004,2025-02-05,,,Metropolitan District,600001,,local-authority-type,MD,,category,,,Q1002812,Metropolitan_borough
+local-authority-type,,8800005,2025-02-05,,,Non-metropolitan district,600001,,local-authority-type,NMD,,category,,,Q1187580,Non-metropolitan_district
+local-authority-type,,8800006,2025-02-05,,,London Borough,600001,,local-authority-type,LBO,,category,,,Q211690,London_boroughs
+local-authority-type,,8800007,2025-02-05,,,County,600001,,local-authority-type,CTY,,category,,,Q110417190,

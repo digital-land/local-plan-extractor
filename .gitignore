@@ -10,6 +10,6 @@ package.json
 .cache/
 *.swp
 tmp/
-var/
+/var/
 /.vs
 specification/
