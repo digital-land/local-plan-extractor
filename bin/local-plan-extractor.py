@@ -411,6 +411,13 @@ Key points:
                     }
                     housing_data['housing-numbers'] = [single_entry]
 
+                    # Remove top-level housing fields now that they're in the array
+                    fields_to_remove = ['required-housing', 'allocated-housing', 'windfall-housing',
+                                        'committed-housing', 'broad-locations-housing',
+                                        'annual-required-housing', 'pages', 'notes']
+                    for field in fields_to_remove:
+                        housing_data.pop(field, None)
+
             # Construct local-plan-boundary field
             if 'organisations' in housing_data:
                 # For joint plans, concatenate local-planning-authority values

@@ -1,0 +1,28 @@
+{
+  "name": "The Cheltenham Plan",
+  "organisation-name": "Cheltenham Borough Council",
+  "organisation": "local-authority:CHT",
+  "organisations": [
+    "E07000078"
+  ],
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cheltenham Borough Council",
+      "organisation": "local-authority:CHT",
+      "required-housing": 10917,
+      "annual-required-housing": "",
+      "allocated-housing": 923,
+      "committed-housing": 1540,
+      "windfall-housing": 760,
+      "broad-locations-housing": 5385,
+      "pages": "46-47, 97",
+      "notes": "This is a local plan for Cheltenham Borough that works alongside the Joint Core Strategy (JCS). Housing requirement comes from JCS OAN. Strategic allocations (5,385) are delivered through JCS. Plan allocations include both residential (430) and mixed-use (493) sites totaling 923."
+    }
+  ],
+  "confidence": "high",
+  "authority": "Cheltenham_Plan",
+  "pdf_file": "document/Cheltenham_Plan.pdf",
+  "pages_analysed": 32
+}

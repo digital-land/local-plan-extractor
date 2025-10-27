@@ -1,5 +1,5 @@
 {
-  "name": "Core Strategy 2007 \u2013 2021",
+  "name": "Core Strategy 2007 – 2021",
   "organisation-name": "Broads Authority",
   "organisation": "national-park-authority:Q4972284",
   "organisations": [
@@ -7,15 +7,20 @@
   ],
   "period-start-date": 2007,
   "period-end-date": 2021,
-  "required-housing": "",
-  "allocated-housing": "",
-  "windfall-housing": "",
-  "committed-housing": "",
-  "broad-locations-housing": "",
-  "annual-required-housing": "",
-  "housing-numbers": [],
-  "pages": "50-58",
-  "notes": "This is a Core Strategy for the Norfolk and Suffolk Broads Authority area. The document explicitly states there are no housing targets or remit for the Authority, as it operates under 'an area of general restraint' with housing provision being the function of neighbouring District Councils. The plan focuses on protecting the special qualities of the Broads rather than housing delivery.",
+  "housing-numbers": [
+    {
+      "organisation-name": "Broads Authority",
+      "organisation": "national-park-authority:Q4972284",
+      "required-housing": "",
+      "annual-required-housing": "",
+      "allocated-housing": "",
+      "committed-housing": "",
+      "windfall-housing": "",
+      "broad-locations-housing": "",
+      "pages": "50-58",
+      "notes": "This is a Core Strategy for the Norfolk and Suffolk Broads Authority area. The document explicitly states there are no housing targets or remit for the Authority, as it operates under 'an area of general restraint' with housing provision being the function of neighbouring District Councils. The plan focuses on protecting the special qualities of the Broads rather than housing delivery."
+    }
+  ],
   "confidence": "high",
   "authority": "1_Core_Strategy_ldf",
   "pdf_file": "document/1_Core_Strategy_ldf.pdf",

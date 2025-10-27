@@ -1,5 +1,5 @@
 {
-  "name": "Gloucester City Plan 2011 \u2013 2031",
+  "name": "Gloucester City Plan 2011 – 2031",
   "organisation-name": "Gloucester City Council",
   "organisation": "local-authority:GLO",
   "organisations": [
@@ -7,16 +7,21 @@
   ],
   "period-start-date": 2011,
   "period-end-date": 2031,
-  "required-housing": 14359,
-  "allocated-housing": 920,
-  "windfall-housing": 512,
-  "committed-housing": 1769,
-  "broad-locations-housing": "",
-  "annual-required-housing": 718,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Gloucester City Council",
+      "organisation": "local-authority:GLO",
+      "required-housing": 14359,
+      "annual-required-housing": 718,
+      "allocated-housing": 920,
+      "committed-housing": 1769,
+      "windfall-housing": 512,
+      "broad-locations-housing": "",
+      "pages": "15, 133-134",
+      "notes": "Housing requirement comes from Joint Core Strategy Policy SP1. Strategic allocations (4,331 homes) are located in Tewkesbury Borough but serve Gloucester's needs. One strategic allocation Winneycroft (620 homes) is within Gloucester City boundary. Housing trajectory shows total supply of 13,314 against requirement of 14,359, leaving shortfall of 1,045 homes for 2028-2031."
+    }
+  ],
   "confidence": "high",
-  "pages": "15, 133-134",
-  "notes": "Housing requirement comes from Joint Core Strategy Policy SP1. Strategic allocations (4,331 homes) are located in Tewkesbury Borough but serve Gloucester's needs. One strategic allocation Winneycroft (620 homes) is within Gloucester City boundary. Housing trajectory shows total supply of 13,314 against requirement of 14,359, leaving shortfall of 1,045 homes for 2028-2031.",
   "authority": "gloucester-city-plan-low-res",
   "pdf_file": "document/gloucester-city-plan-low-res.pdf",
   "pages_analysed": 32
