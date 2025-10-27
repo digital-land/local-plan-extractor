@@ -1,0 +1,304 @@
+{% extends "base.html" %}
+
+{% block title %}{{ plan.name }} - Local Plan Extractor{% endblock %}
+
+{% block breadcrumbs %}
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      {{ plan.name }}
+    </li>
+  </ol>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">{{ plan.name }}</h1>
+
+    {% if plan.get('organisation-name') %}
+    <p class="govuk-body-l">{{ plan['organisation-name'] }}</p>
+    {% endif %}
+
+    <div class="tag-list">
+      {% if plan.get('confidence') %}
+      <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
+        {{ plan.confidence|upper }} CONFIDENCE
+      </strong>
+      {% endif %}
+
+      {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+      <strong class="govuk-tag govuk-tag--blue">
+        {{ plan['period-start-date'] }}-{{ plan['period-end-date'] }}
+      </strong>
+      {% endif %}
+
+      {% if plan.get('organisations') and plan.organisations|length > 1 %}
+      <strong class="govuk-tag govuk-tag--purple">
+        JOINT PLAN ({{ plan.organisations|length }} authorities)
+      </strong>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% if plan.get('local-planning-authorities') %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Boundary map</h2>
+    <div id="map"></div>
+  </div>
+</div>
+{% endif %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      {% if plan.get('organisation') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+          <code>{{ plan.organisation }}</code>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('organisations') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisations</dt>
+        <dd class="govuk-summary-list__value">
+          {% for org in plan.organisations %}
+            <div style="margin-bottom: 5px;">
+              <a href="organisation/{{ org }}" class="govuk-link">
+                {{ organisations.get(org, org) }}
+              </a>
+            </div>
+          {% endfor %}
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('local-plan-boundary') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>{{ plan['local-plan-boundary'] }}</code>
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('local-planning-authorities') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          {% for lpa in plan['local-planning-authorities'] %}
+            <code style="display: block; margin-bottom: 5px;">{{ lpa }}</code>
+          {% endfor %}
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          {{ plan['period-start-date'] }} to {{ plan['period-end-date'] }}
+          ({{ plan['period-end-date'] - plan['period-start-date'] }} years)
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('pdf_file') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          {{ plan.pdf_file }}
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('pages_analysed') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          {{ plan.pages_analysed }}
+        </dd>
+      </div>
+      {% endif %}
+    </dl>
+
+    {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
+    <div class="organisation-breakdown">
+      <h2 class="govuk-heading-l">Housing numbers</h2>
+
+      {% for org in plan['housing-numbers'] %}
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          {{ org.get('organisation-name', 'Unknown organisation') }}
+          {% if org.get('organisation') %}
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>{{ org.organisation }}</code>
+          </span>
+          {% endif %}
+        </h3>
+
+        <dl class="govuk-summary-list">
+          {% if org.get('required-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>{{ org['required-housing']|format_number }} homes</strong>
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('annual-required-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              {{ org['annual-required-housing']|format_number }} homes per year
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('allocated-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              {{ org['allocated-housing']|format_number }} homes
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('committed-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              {{ org['committed-housing']|format_number }} homes
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('windfall-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              {{ org['windfall-housing']|format_number }} homes
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('broad-locations-housing') != '' %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Broad locations housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              {{ org['broad-locations-housing']|format_number }} homes
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('pages') %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              {{ org.pages }}
+            </dd>
+          </div>
+          {% endif %}
+
+          {% if org.get('notes') %}
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              {{ org.notes }}
+            </dd>
+          </div>
+          {% endif %}
+        </dl>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if plan.get('error') %}
+    <div class="govuk-warning-text" style="margin-top: 40px;">
+      <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+      <strong class="govuk-warning-text__text">
+        <span class="govuk-visually-hidden">Warning</span>
+        Error: {{ plan.error }}
+      </strong>
+    </div>
+    {% endif %}
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{{ plan|tojson(indent=2) }}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+{% if plan.get('local-planning-authorities') %}
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = {{ plan['local-planning-authorities']|tojson }};
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
+{% endif %}
+{% endblock %}

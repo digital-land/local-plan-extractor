@@ -13,6 +13,18 @@
     "local-authority:TRF",
     "local-authority:WGN"
   ],
+  "local-plan-boundary": "E60000025-E60000026-E60000027-E60000028-E60000029-E60000030-E60000032-E60000033-E60000034",
+  "local-planning-authorities": [
+    "E60000025",
+    "E60000026",
+    "E60000027",
+    "E60000028",
+    "E60000029",
+    "E60000030",
+    "E60000032",
+    "E60000033",
+    "E60000034"
+  ],
   "period-start-date": 2022,
   "period-end-date": 2039,
   "housing-numbers": [
@@ -140,6 +152,5 @@
   "confidence": "high",
   "authority": "places-for-everyone-joint-development-plan-dec24",
   "pdf_file": "document/places-for-everyone-joint-development-plan-dec24.pdf",
-  "pages_analysed": 32,
-  "local-plan-boundary": "E60000025-E60000026-E60000027-E60000028-E60000029-E60000030-E60000032-E60000033-E60000034"
+  "pages_analysed": 32
 }

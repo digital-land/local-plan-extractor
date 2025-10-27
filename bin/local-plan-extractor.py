@@ -424,11 +424,13 @@ Key points:
 
                 if lpa_codes:
                     housing_data['local-plan-boundary'] = '-'.join(lpa_codes)
+                    housing_data['local-planning-authorities'] = lpa_codes
             elif 'organisation-name' in housing_data:
                 # For single authority plans, use the single local-planning-authority
                 lpa_code = self.org_matcher.get_local_planning_authority(housing_data['organisation-name'])
                 if lpa_code:
                     housing_data['local-plan-boundary'] = lpa_code
+                    housing_data['local-planning-authorities'] = [lpa_code]
 
             # Calculate missing annual-required-housing values
             start_date = housing_data.get('period-start-date', '')
@@ -554,6 +556,7 @@ Key points:
             'organisation',
             'organisations',
             'local-plan-boundary',
+            'local-planning-authorities',
             'pdf_file',
             'period-start-date',
             'period-end-date',
@@ -572,7 +575,7 @@ Key points:
                 for field in fieldnames:
                     value = result.get(field, '')
                     # Serialize arrays as JSON for CSV storage
-                    if field in ('housing-numbers', 'organisations') and isinstance(value, list):
+                    if field in ('housing-numbers', 'organisations', 'local-planning-authorities') and isinstance(value, list):
                         row[field] = json.dumps(value) if value else ''
                     else:
                         row[field] = value

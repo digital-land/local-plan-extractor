@@ -3,6 +3,9 @@
   "organisation-name": "Yorkshire Dales National Park Authority",
   "organisation": "national-park-authority:Q27178932",
   "local-plan-boundary": "E60000327",
+  "local-planning-authorities": [
+    "E60000327"
+  ],
   "period-start-date": 2025,
   "period-end-date": 2040,
   "housing-numbers": [

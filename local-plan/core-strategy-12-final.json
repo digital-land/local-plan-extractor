@@ -82,5 +82,11 @@
   "authority": "core-strategy-12-final",
   "pdf_file": "document/core-strategy-12-final.pdf",
   "pages_analysed": 32,
-  "local-plan-boundary": "E60000132-E60000133-E60000135-E60000136"
+  "local-plan-boundary": "E60000132-E60000133-E60000135-E60000136",
+  "local-planning-authorities": [
+    "E60000132",
+    "E60000133",
+    "E60000135",
+    "E60000136"
+  ]
 }

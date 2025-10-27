@@ -3,6 +3,9 @@
   "organisation-name": "City of York Council",
   "organisation": "local-authority:YOR",
   "local-plan-boundary": "E60000056",
+  "local-planning-authorities": [
+    "E60000056"
+  ],
   "period-start-date": 2017,
   "period-end-date": 2033,
   "housing-numbers": [
