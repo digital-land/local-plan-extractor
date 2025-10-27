@@ -2,9 +2,9 @@
 CACHE_DIR=var/cache/
 
 SOURCE_DATA=\
-     $(CACHE_DIR)organisation.csv\
-	 $(CACHE_DIR)local-planning-authority.csv
-
+	$(CACHE_DIR)organisation.csv\
+	$(CACHE_DIR)local-planning-authority.csv\
+	$(CACHE_DIR)local-plan-document-type.csv
 
 CORE_DOCUMENTS=$(wildcard document/*.pdf)
 
@@ -24,10 +24,10 @@ $(CACHE_DIR)organisation.csv:
 	@mkdir -p $(CACHE_DIR)
 	curl -qfsL "https://files.planning.data.gov.uk/organisation-collection/dataset/organisation.csv" > $@
 
-$(CACHE_DIR)local-planning-authority.csv:
-	@mkdir -p $(CACHE_DIR)
-	curl -qfsL 'https://files.planning.data.gov.uk/dataset/local-planning-authority.csv' > $@
-            
+$(CACHE_DIR)%.csv:
+	@mkdir -p $(dir $@)
+	curl -qfsL 'https://files.planning.data.gov.uk/dataset/$(notdir $@)' > $@
+
 
 init::
 	pip3 install -r requirements.txt
