@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Bath &amp; North East Somerset Core Strategy - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Bath &amp; North East Somerset Core Strategy
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Bath &amp; North East Somerset Core Strategy</h1>
+
+    
+    <p class="govuk-body-l">Bath &amp; North East Somerset Council</p>
+    
+
+    <div class="tag-list">
+      
+      <strong class="govuk-tag govuk-tag--green">
+        HIGH CONFIDENCE
+      </strong>
+      
+
+      
+      <strong class="govuk-tag govuk-tag--blue">
+        2011-2029
+      </strong>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Boundary map</h2>
+    <div id="map"></div>
+  </div>
+</div>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+          <code>local-authority:BAS</code>
+        </dd>
+      </div>
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>E60000288</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+            <code style="display: block; margin-bottom: 5px;">E60000288</code>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2011 to 2029
+          (18 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          document/cs_pmp_vol_1_district-wide_compressed.pdf
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+    
+    <div class="organisation-breakdown">
+      <h2 class="govuk-heading-l">Housing numbers</h2>
+
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Bath &amp; North East Somerset Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:BAS</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>12,960 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              720 homes per year
+            </dd>
+          </div>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              Pages 27-28, 46-52
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Total housing requirement of around 13,000 homes (12,960 specifically) for 2011-2029. Housing distributed across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200). Annual average of 700+ homes required with 720 calculated from total.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+    </div>
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "authority": "cs_pmp_vol_1_district-wide_compressed",
+  "confidence": "high",
+  "housing-numbers": [
+    {
+      "allocated-housing": "",
+      "annual-required-housing": 720,
+      "broad-locations-housing": "",
+      "committed-housing": "",
+      "notes": "Total housing requirement of around 13,000 homes (12,960 specifically) for 2011-2029. Housing distributed across Bath (7,020), Keynsham (2,150), Somer Valley (2,470), Rural Areas (1,120), and Whitchurch Green Belt (200). Annual average of 700+ homes required with 720 calculated from total.",
+      "organisation": "local-authority:BAS",
+      "organisation-name": "Bath \u0026 North East Somerset Council",
+      "pages": "Pages 27-28, 46-52",
+      "required-housing": 12960,
+      "windfall-housing": ""
+    }
+  ],
+  "local-plan-boundary": "E60000288",
+  "local-planning-authorities": [
+    "E60000288"
+  ],
+  "name": "Bath \u0026 North East Somerset Core Strategy",
+  "organisation": "local-authority:BAS",
+  "organisation-name": "Bath \u0026 North East Somerset Council",
+  "pages_analysed": 32,
+  "pdf_file": "document/cs_pmp_vol_1_district-wide_compressed.pdf",
+  "period-end-date": 2029,
+  "period-start-date": 2011
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["E60000288"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
+
+
+</body>
+</html>

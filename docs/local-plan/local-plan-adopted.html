@@ -1,241 +1,271 @@
-{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Adopted Local Plan - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
 
-{% block title %}{{ plan.name }} - Local Plan Extractor{% endblock %}
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
-{% block breadcrumbs %}
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
 <div class="govuk-breadcrumbs">
   <ol class="govuk-breadcrumbs__list">
     <li class="govuk-breadcrumbs__list-item">
       <a class="govuk-breadcrumbs__link" href="/">Home</a>
     </li>
     <li class="govuk-breadcrumbs__list-item">
-      {{ plan.name }}
+      Adopted Local Plan
     </li>
   </ol>
 </div>
-{% endblock %}
 
-{% block content %}
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
-    <h1 class="govuk-heading-xl">{{ plan.name }}</h1>
+    <h1 class="govuk-heading-xl">Adopted Local Plan</h1>
 
-    {% if plan.get('organisation-name') %}
-    <p class="govuk-body-l">{{ plan['organisation-name'] }}</p>
-    {% endif %}
+    
+    <p class="govuk-body-l">Barnsley Metropolitan Borough Council</p>
+    
 
     <div class="tag-list">
-      {% if plan.get('confidence') %}
-      <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
-        {{ plan.confidence|upper }} CONFIDENCE
+      
+      <strong class="govuk-tag govuk-tag--green">
+        HIGH CONFIDENCE
       </strong>
-      {% endif %}
+      
 
-      {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+      
       <strong class="govuk-tag govuk-tag--blue">
-        {{ plan['period-start-date'] }}-{{ plan['period-end-date'] }}
+        2014-2033
       </strong>
-      {% endif %}
+      
 
-      {% if plan.get('organisations') and plan.organisations|length > 1 %}
-      <strong class="govuk-tag govuk-tag--purple">
-        JOINT PLAN ({{ plan.organisations|length }} authorities)
-      </strong>
-      {% endif %}
+      
     </div>
   </div>
 </div>
 
-{% if plan.get('local-planning-authorities') %}
+
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <h2 class="govuk-heading-l" style="margin-top: 40px;">Boundary map</h2>
     <div id="map"></div>
   </div>
 </div>
-{% endif %}
+
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
     <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
 
     <dl class="govuk-summary-list">
-      {% if plan.get('organisation') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Organisation</dt>
         <dd class="govuk-summary-list__value">
-          <code>{{ plan.organisation }}</code>
+          <code>local-authority:BNS</code>
         </dd>
       </div>
-      {% endif %}
+      
 
-      {% if plan.get('organisations') %}
-      <div class="govuk-summary-list__row">
-        <dt class="govuk-summary-list__key">Organisations</dt>
-        <dd class="govuk-summary-list__value">
-          {% for org in plan.organisations %}
-            <div style="margin-bottom: 5px;">
-              <a href="../organisation/{{ org }}/" class="govuk-link">
-                {{ organisations.get(org, org) }}
-              </a>
-            </div>
-          {% endfor %}
-        </dd>
-      </div>
-      {% endif %}
+      
 
-      {% if plan.get('local-plan-boundary') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Local plan boundary</dt>
         <dd class="govuk-summary-list__value">
-          <code>{{ plan['local-plan-boundary'] }}</code>
+          <code>E60000064</code>
         </dd>
       </div>
-      {% endif %}
+      
 
-      {% if plan.get('local-planning-authorities') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Local planning authorities</dt>
         <dd class="govuk-summary-list__value">
-          {% for lpa in plan['local-planning-authorities'] %}
-            <code style="display: block; margin-bottom: 5px;">{{ lpa }}</code>
-          {% endfor %}
+          
+            <code style="display: block; margin-bottom: 5px;">E60000064</code>
+          
         </dd>
       </div>
-      {% endif %}
+      
 
-      {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Plan period</dt>
         <dd class="govuk-summary-list__value">
-          {{ plan['period-start-date'] }} to {{ plan['period-end-date'] }}
-          ({{ plan['period-end-date'] - plan['period-start-date'] }} years)
+          2014 to 2033
+          (19 years)
         </dd>
       </div>
-      {% endif %}
+      
 
-      {% if plan.get('pdf_file') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Source PDF</dt>
         <dd class="govuk-summary-list__value">
-          {{ plan.pdf_file }}
+          document/local-plan-adopted.pdf
         </dd>
       </div>
-      {% endif %}
+      
 
-      {% if plan.get('pages_analysed') %}
+      
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Pages analysed</dt>
         <dd class="govuk-summary-list__value">
-          {{ plan.pages_analysed }}
+          32
         </dd>
       </div>
-      {% endif %}
+      
     </dl>
 
-    {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
+    
     <div class="organisation-breakdown">
       <h2 class="govuk-heading-l">Housing numbers</h2>
 
-      {% for org in plan['housing-numbers'] %}
+      
       <div class="organisation-card">
         <h3 class="govuk-heading-m">
-          {{ org.get('organisation-name', 'Unknown organisation') }}
-          {% if org.get('organisation') %}
+          Barnsley Metropolitan Borough Council
+          
           <br>
           <span class="govuk-body-s" style="font-weight: normal;">
-            <code>{{ org.organisation }}</code>
+            <code>local-authority:BNS</code>
           </span>
-          {% endif %}
+          
         </h3>
 
         <dl class="govuk-summary-list">
-          {% if org.get('required-housing') != '' %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Required housing</dt>
             <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              <strong>{{ org['required-housing']|format_number }} homes</strong>
+              <strong>21,546 homes</strong>
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('annual-required-housing') != '' %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Annual required housing</dt>
             <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              {{ org['annual-required-housing']|format_number }} homes per year
+              1,134 homes per year
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('allocated-housing') != '' %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Allocated housing</dt>
             <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              {{ org['allocated-housing']|format_number }} homes
+              14,236 homes
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('committed-housing') != '' %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Committed housing</dt>
             <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              {{ org['committed-housing']|format_number }} homes
+              6,770 homes
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('windfall-housing') != '' %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Windfall housing</dt>
             <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              {{ org['windfall-housing']|format_number }} homes
+              766 homes
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('broad-locations-housing') != '' %}
-          <div class="govuk-summary-list__row">
-            <dt class="govuk-summary-list__key">Broad locations housing</dt>
-            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
-              {{ org['broad-locations-housing']|format_number }} homes
-            </dd>
-          </div>
-          {% endif %}
+          
 
-          {% if org.get('pages') %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Pages</dt>
             <dd class="govuk-summary-list__value">
-              {{ org.pages }}
+              Pages 57-58, 322
             </dd>
           </div>
-          {% endif %}
+          
 
-          {% if org.get('notes') %}
+          
           <div class="govuk-summary-list__row">
             <dt class="govuk-summary-list__key">Notes</dt>
             <dd class="govuk-summary-list__value">
-              {{ org.notes }}
+              Total supply includes 21,006 from allocations and permissions plus 766 windfall allowance (200 villages + 566 borough-wide). Allocated housing (14,236) and committed housing (6,770) are separate components totaling 21,006. Mixed use sites contributing 4,295 dwellings are included in allocations.
             </dd>
           </div>
-          {% endif %}
+          
         </dl>
       </div>
-      {% endfor %}
+      
     </div>
-    {% endif %}
+    
 
-    {% if plan.get('error') %}
-    <div class="govuk-warning-text" style="margin-top: 40px;">
-      <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
-      <strong class="govuk-warning-text__text">
-        <span class="govuk-visually-hidden">Warning</span>
-        Error: {{ plan.error }}
-      </strong>
-    </div>
-    {% endif %}
+    
 
     <details class="govuk-details" style="margin-top: 40px;">
       <summary class="govuk-details__summary">
@@ -244,15 +274,69 @@
         </span>
       </summary>
       <div class="govuk-details__text">
-        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{{ plan|tojson(indent=2) }}</code></pre>
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "authority": "local-plan-adopted",
+  "confidence": "high",
+  "housing-numbers": [
+    {
+      "allocated-housing": 14236,
+      "annual-required-housing": 1134,
+      "broad-locations-housing": "",
+      "committed-housing": 6770,
+      "notes": "Total supply includes 21,006 from allocations and permissions plus 766 windfall allowance (200 villages + 566 borough-wide). Allocated housing (14,236) and committed housing (6,770) are separate components totaling 21,006. Mixed use sites contributing 4,295 dwellings are included in allocations.",
+      "organisation": "local-authority:BNS",
+      "organisation-name": "Barnsley Metropolitan Borough Council",
+      "pages": "Pages 57-58, 322",
+      "required-housing": 21546,
+      "windfall-housing": 766
+    }
+  ],
+  "local-plan-boundary": "E60000064",
+  "local-planning-authorities": [
+    "E60000064"
+  ],
+  "name": "Adopted Local Plan",
+  "organisation": "local-authority:BNS",
+  "organisation-name": "Barnsley Metropolitan Borough Council",
+  "pages_analysed": 32,
+  "pdf_file": "document/local-plan-adopted.pdf",
+  "period-end-date": 2033,
+  "period-start-date": 2014
+}</code></pre>
       </div>
     </details>
   </div>
 </div>
-{% endblock %}
 
-{% block extra_scripts %}
-{% if plan.get('local-planning-authorities') %}
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
 <script>
   // Initialize the map
   var map = L.map('map').setView([52.5, -1.5], 7);
@@ -263,7 +347,7 @@
   }).addTo(map);
 
   // List of local planning authorities to display
-  var lpasToDisplay = {{ plan['local-planning-authorities']|tojson }};
+  var lpasToDisplay = ["E60000064"];
 
   // Load the GeoJSON file
   fetch('../var/cache/local-planning-authority.geojson')
@@ -300,5 +384,7 @@
       document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
     });
 </script>
-{% endif %}
-{% endblock %}
+
+
+</body>
+</html>

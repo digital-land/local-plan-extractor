@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Gloucester City Plan 2011 – 2031 - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Gloucester City Plan 2011 – 2031
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Gloucester City Plan 2011 – 2031</h1>
+
+    
+    <p class="govuk-body-l">Gloucester City Council</p>
+    
+
+    <div class="tag-list">
+      
+      <strong class="govuk-tag govuk-tag--green">
+        HIGH CONFIDENCE
+      </strong>
+      
+
+      
+      <strong class="govuk-tag govuk-tag--blue">
+        2011-2031
+      </strong>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+          <code>local-authority:GLO</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisations</dt>
+        <dd class="govuk-summary-list__value">
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/gloucester/" class="govuk-link">
+                gloucester
+              </a>
+            </div>
+          
+        </dd>
+      </div>
+      
+
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2011 to 2031
+          (20 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          document/gloucester-city-plan-low-res.pdf
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "allocated-housing": 920,
+  "annual-required-housing": 718,
+  "authority": "gloucester-city-plan-low-res",
+  "broad-locations-housing": "",
+  "committed-housing": 1769,
+  "confidence": "high",
+  "housing-numbers": [],
+  "name": "Gloucester City Plan 2011 \u2013 2031",
+  "notes": "Housing requirement comes from Joint Core Strategy Policy SP1. Strategic allocations (4,331 homes) are located in Tewkesbury Borough but serve Gloucester\u0027s needs. One strategic allocation Winneycroft (620 homes) is within Gloucester City boundary. Housing trajectory shows total supply of 13,314 against requirement of 14,359, leaving shortfall of 1,045 homes for 2028-2031.",
+  "organisation": "local-authority:GLO",
+  "organisation-name": "Gloucester City Council",
+  "organisations": [
+    "gloucester"
+  ],
+  "pages": "15, 133-134",
+  "pages_analysed": 32,
+  "pdf_file": "document/gloucester-city-plan-low-res.pdf",
+  "period-end-date": 2031,
+  "period-start-date": 2011,
+  "required-housing": 14359,
+  "windfall-housing": 512
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+
+</body>
+</html>

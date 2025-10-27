@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="/" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Local Plan Extractor</h1>
+
+    <p class="govuk-body-l">
+      Housing numbers extracted from local plan documents using AI.
+    </p>
+
+    <p class="govuk-body">
+      This site contains housing data extracted from 16 local plan documents.
+      Each plan has been analyzed to identify housing requirements, allocations, and other key metrics.
+    </p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Organisation</th>
+          <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Required housing</th>
+          <th scope="col" class="govuk-table__header">Confidence</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/Bolton.html" class="govuk-link">
+              Bolton
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Unknown
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/local-plan-adopted.html" class="govuk-link">
+              Adopted Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Barnsley Metropolitan Borough Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2014 - 2033
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                21,546
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/Media,159572,smxx.html" class="govuk-link">
+              Adur Local Plan 2017
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Adur District Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2011 - 2032
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                3,718
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/babergh-and-mid-suffolk-joint-local-plan-part-1-nov-2023.html" class="govuk-link">
+              Babergh and Mid Suffolk Joint Local Plan 2013 Part 1
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Babergh District Council and Mid Suffolk District Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2018 - 2037
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+                
+              
+                
+                  
+                
+              
+              
+                7,904
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/adopted-bassetlaw-local-plan-2020-2038.html" class="govuk-link">
+              Bassetlaw Local Plan 2020-2038
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Bassetlaw District Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2020 - 2038
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                9,720
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/cs_pmp_vol_1_district-wide_compressed.html" class="govuk-link">
+              Bath &amp; North East Somerset Core Strategy
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Bath &amp; North East Somerset Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2011 - 2029
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                12,960
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/core-strategy-12-final.html" class="govuk-link">
+              Black Country Core Strategy
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Dudley Metropolitan Borough Council and Sandwell Metropolitan Borough Council and Walsall Metropolitan Borough Council and City of Wolverhampton Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2006 - 2026
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                
+              
+              
+                16,127
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/Regulation_18_Preferred_Options_Local_Plan_Full_Update_June_2024.html" class="govuk-link">
+              Breckland Local Plan Full Update Preferred Options: 2024
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Breckland District Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2046
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                16,525
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/782625.html" class="govuk-link">
+              Calderdale Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Calderdale Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2018 - 2033
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                14,950
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/1_Core_Strategy_ldf.html" class="govuk-link">
+              Core Strategy 2007 – 2021
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Broads Authority
+          </td>
+          <td class="govuk-table__cell">
+            
+              2007 - 2021
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/gloucester-city-plan-low-res.html" class="govuk-link">
+              Gloucester City Plan 2011 – 2031
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Gloucester City Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2011 - 2031
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/AJZXEaq26SnEFQ.html" class="govuk-link">
+              Local Plan 2040
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Bedford Borough Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2020 - 2040
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                27,100
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/MK-2050.html" class="govuk-link">
+              MK City Plan 2050
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Milton Keynes City Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2022 - 2050
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                63,000
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/places-for-everyone-joint-development-plan-dec24.html" class="govuk-link">
+              Places for Everyone Joint Development Plan 2022 to 2039
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Bolton Metropolitan Borough Council and Bury Metropolitan Borough Council and Manchester City Council and Oldham Metropolitan Borough Council and Rochdale Metropolitan Borough Council and Salford City Council and Tameside Metropolitan Borough Council and Trafford Metropolitan Borough Council and Wigan Metropolitan Borough Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2022 - 2039
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  
+                
+              
+              
+                13,379
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/city-of-york-adopted-local-plan-2025.html" class="govuk-link">
+              York Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            City of York Council
+          </td>
+          <td class="govuk-table__cell">
+            
+              2017 - 2033
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                13,152
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/Yorkshire-Dales-National-Park-Local-Plan-2025-40-Publication-Draft-March-2025.html" class="govuk-link">
+              Yorkshire Dales National Park Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            Yorkshire Dales National Park Authority
+          </td>
+          <td class="govuk-table__cell">
+            
+              2025 - 2040
+            
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            
+              
+              
+                
+              
+              
+                750
+              
+            
+          </td>
+          <td class="govuk-table__cell">
+            
+              <strong class="govuk-tag govuk-tag--green">
+                high
+              </strong>
+            
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-m" style="margin-top: 40px;">About this data</h2>
+
+    <p class="govuk-body">
+      The housing numbers have been extracted from PDF local plan documents using Claude AI.
+      Each plan document was analyzed to identify:
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>Total housing requirements for the plan period</li>
+      <li>Housing allocated in specific sites</li>
+      <li>Expected windfall development</li>
+      <li>Committed housing (planning permissions)</li>
+      <li>Housing from broad locations and strategic sites</li>
+    </ul>
+
+    <p class="govuk-body">
+      Confidence levels indicate how clearly the information was stated in the source document.
+    </p>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+</body>
+</html>

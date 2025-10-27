@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}{{ organisation.name }} - Local Plan Extractor{% endblock %}
+
+{% block breadcrumbs %}
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="/">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      {{ organisation.name }}
+    </li>
+  </ol>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">{{ organisation.name }}</h1>
+
+    <p class="govuk-body-l">
+      <code>{{ organisation.reference }}</code>
+    </p>
+
+    <p class="govuk-body">
+      This organisation is associated with {{ plans|length }} local plan{{ 's' if plans|length != 1 else '' }}.
+    </p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header">Organisation name</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        {% for plan in plans %}
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/{{ plan.filename }}.html" class="govuk-link">
+              {{ plan.name }}
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            {% if plan['period-start-date'] and plan['period-end-date'] %}
+              {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
+            {% else %}
+              Not specified
+            {% endif %}
+          </td>
+          <td class="govuk-table__cell">
+            {{ plan['organisation-name'] }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

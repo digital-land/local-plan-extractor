@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}Local Plan Extractor{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Local Plan Extractor</h1>
+
+    <p class="govuk-body-l">
+      Housing numbers extracted from local plan documents using AI.
+    </p>
+
+    <p class="govuk-body">
+      This site contains housing data extracted from {{ plans|length }} local plan documents.
+      Each plan has been analyzed to identify housing requirements, allocations, and other key metrics.
+    </p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Organisation</th>
+          <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Required housing</th>
+          <th scope="col" class="govuk-table__header">Confidence</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        {% for plan in plans %}
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="local-plan/{{ plan.filename }}.html" class="govuk-link">
+              {{ plan.name or plan.filename }}
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            {{ plan.get('organisation-name', 'Unknown') }}
+          </td>
+          <td class="govuk-table__cell">
+            {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+              {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
+            {% else %}
+              Not specified
+            {% endif %}
+          </td>
+          <td class="govuk-table__cell govuk-table__cell--numeric">
+            {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
+              {% set joint_entry = none %}
+              {% for entry in plan['housing-numbers'] %}
+                {% if entry.get('organisation', '').startswith('joint-planning-authority:') %}
+                  {% set joint_entry = entry %}
+                {% endif %}
+              {% endfor %}
+              {% if joint_entry %}
+                {{ joint_entry.get('required-housing', '')|format_number }}
+              {% else %}
+                {{ plan['housing-numbers'][0].get('required-housing', '')|format_number }}
+              {% endif %}
+            {% else %}
+              Not specified
+            {% endif %}
+          </td>
+          <td class="govuk-table__cell">
+            {% if plan.get('confidence') %}
+              <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
+                {{ plan.confidence }}
+              </strong>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h2 class="govuk-heading-m" style="margin-top: 40px;">About this data</h2>
+
+    <p class="govuk-body">
+      The housing numbers have been extracted from PDF local plan documents using Claude AI.
+      Each plan document was analyzed to identify:
+    </p>
+
+    <ul class="govuk-list govuk-list--bullet">
+      <li>Total housing requirements for the plan period</li>
+      <li>Housing allocated in specific sites</li>
+      <li>Expected windfall development</li>
+      <li>Committed housing (planning permissions)</li>
+      <li>Housing from broad locations and strategic sites</li>
+    </ul>
+
+    <p class="govuk-body">
+      Confidence levels indicate how clearly the information was stated in the source document.
+    </p>
+  </div>
+</div>
+{% endblock %}
