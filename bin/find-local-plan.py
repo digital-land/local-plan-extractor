@@ -95,15 +95,17 @@ class LocalPlanFinder:
         base_name = base_name.strip().replace(' ', '')
 
         # Common URL patterns for council websites
+        # Start with www. versions as they're more common and avoid redirects
         domains = [
-            f"{base_name}.gov.uk",
             f"www.{base_name}.gov.uk",
-            f"{base_name}council.gov.uk",
+            f"{base_name}.gov.uk",
             f"www.{base_name}council.gov.uk",
+            f"{base_name}council.gov.uk",
         ]
 
         # Common paths for local plan pages
         paths = [
+            "/planning",  # Try planning section first
             "/planning/local-plan",
             "/planning/planning-policy/local-plan",
             "/planning-policy/local-plan",
@@ -115,6 +117,8 @@ class LocalPlanFinder:
             "/services/planning/planning-policy",
             "/planning-and-building-control/planning-policy",
             "/local-plan",
+            "/planning-applications/planning-policy",
+            "/planning-services/planning-policy",
             "",  # Root path
         ]
 
@@ -154,12 +158,16 @@ class LocalPlanFinder:
 
             soup = BeautifulSoup(response.text, 'html.parser')
 
-            # Remove script and style elements
-            for script in soup(['script', 'style', 'nav', 'footer', 'header']):
+            # Remove script and style elements only (keep nav/footer/header as they may contain useful links)
+            for script in soup(['script', 'style']):
                 script.decompose()
 
             # Get text
             text = soup.get_text(separator='\n', strip=True)
+
+            # Clean up excessive whitespace
+            lines = [line.strip() for line in text.split('\n') if line.strip()]
+            text = '\n'.join(lines)
 
             # Limit length
             if len(text) > max_length:
