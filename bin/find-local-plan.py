@@ -16,6 +16,7 @@ Outputs JSON array with one element per local plan document. Each element contai
     - year: year the plan was adopted (or year of latest milestone if not adopted)
     - period-start-date: start date of the plan period (if available)
     - period-end-date: end date of the plan period (if available)
+    - documents: array of related documents (PDFs/Word docs) with document-url and document-type
 
 Note: A Local Planning Authority may have multiple local plan documents at different stages.
 """
@@ -213,30 +214,71 @@ class LocalPlanFinder:
 
         return local_plan_links
 
-    def extract_pdf_links(self, url: str, html_content: str) -> List[Dict[str, str]]:
-        """Extract PDF and document download links from a page with their link text.
+    def classify_document_type(self, url: str, link_text: str) -> str:
+        """Classify a document into a local-plan-document-type.
+
+        Args:
+            url: The document URL
+            link_text: The link text for the document
+
+        Returns:
+            Document type classification
+        """
+        combined = (url + " " + link_text).lower()
+
+        # Define classification patterns (order matters - most specific first)
+        classifications = {
+            'inspectors-report': ['inspector report', 'inspector\'s report', 'examination report', 'inspectors final report'],
+            'adoption-statement': ['adoption statement', 'adoption consultation statement', 'statement of adoption'],
+            'sustainability-appraisal': ['sustainability appraisal', 'sa report', 'sa addendum', 'sa screening', 'sa scoping'],
+            'strategic-housing-market-assessment': ['shma', 'strategic housing market assessment', 'housing market assessment'],
+            'strategic-flood-risk-assessment': ['sfra', 'strategic flood risk assessment', 'flood risk assessment'],
+            'viability-assessment': ['viability assessment', 'viability study', 'whole plan viability', 'cil viability'],
+            'financial-viability-study': ['financial viability', 'economic viability'],
+            'local-development-scheme': ['local development scheme', 'lds'],
+            'policies-map': ['policies map', 'policy map', 'proposals map'],
+            'area-action-plan': ['area action plan', 'aap'],
+            'supplementary-planning-documents': ['supplementary planning document', 'spd'],
+            'site-allocations': ['site allocations', 'site allocation', 'allocations dpd', 'allocations development plan'],
+            'core-strategy': ['core strategy', 'cs dpd'],
+            'local-plan-review': ['local plan review', 'review of local plan'],
+            'local-plan': ['local plan', 'development plan document', 'dpd'],
+        }
+
+        for doc_type, keywords in classifications.items():
+            if any(keyword in combined for keyword in keywords):
+                return doc_type
+
+        # Default to local-plan if we can't classify
+        return 'local-plan'
+
+    def extract_document_links(self, url: str, html_content: str) -> List[Dict[str, str]]:
+        """Extract PDF and Word document download links from a page with their link text.
 
         Args:
             url: The base URL of the page
             html_content: The HTML content to parse
 
         Returns:
-            List of dicts with 'url' and 'text' for each document link
+            List of dicts with 'url', 'text', and 'document-type' for each document link
         """
         from urllib.parse import urljoin, urlparse
         soup = BeautifulSoup(html_content, 'html.parser')
 
-        pdf_links = []
+        doc_links = []
 
         # Find all links
         for link in soup.find_all('a', href=True):
             href = link['href']
             link_text = link.get_text(strip=True)
 
-            # Check if it's a document link (by extension, URL patterns, or content indicators)
+            # Check if it's a document link (PDF, Word, or download patterns)
             is_document = (
                 href.lower().endswith('.pdf') or
+                href.lower().endswith('.doc') or
+                href.lower().endswith('.docx') or
                 '.pdf' in href.lower() or
+                '.doc' in href.lower() or
                 '/downloads/' in href.lower() or
                 '/download/' in href.lower() or
                 '/file/' in href.lower() or
@@ -246,8 +288,13 @@ class LocalPlanFinder:
                 'download' in link_text.lower()
             )
 
-            # Also check if link text suggests it's a plan document
-            doc_keywords = ['local plan', 'core strategy', 'adopted', 'submission', 'regulation', 'dpd', 'spd']
+            # Also check if link text suggests it's a plan-related document
+            doc_keywords = [
+                'local plan', 'core strategy', 'adopted', 'submission', 'regulation',
+                'dpd', 'spd', 'sustainability', 'appraisal', 'assessment', 'viability',
+                'evidence', 'inspector', 'examination', 'shma', 'sfra', 'policies map',
+                'site allocation', 'area action plan', 'development plan'
+            ]
             has_doc_keyword = any(kw in link_text.lower() for kw in doc_keywords)
 
             if is_document or has_doc_keyword:
@@ -262,13 +309,18 @@ class LocalPlanFinder:
 
                 # Avoid duplicates and non-HTTP links
                 if normalized_url.startswith('http') and \
-                   not any(p['url'] == normalized_url for p in pdf_links):
-                    pdf_links.append({
+                   not any(d['url'] == normalized_url for d in doc_links):
+
+                    # Classify the document
+                    doc_type = self.classify_document_type(normalized_url, link_text)
+
+                    doc_links.append({
                         'url': normalized_url,
-                        'text': link_text
+                        'text': link_text,
+                        'document-type': doc_type
                     })
 
-        return pdf_links
+        return doc_links
 
     def fetch_page_content(self, url: str, max_length: int = 50000) -> tuple[str, bool]:
         """Fetch and extract text content from a URL.
@@ -382,9 +434,9 @@ class LocalPlanFinder:
                         print(f"  Found {len(links)} local plan links on this page", file=sys.stderr)
                         discovered_links.update(links)
 
-                        pdfs = self.extract_pdf_links(result['url'], response.text)
-                        print(f"  Found {len(pdfs)} PDF links on this page", file=sys.stderr)
-                        all_pdf_links.extend(pdfs)
+                        docs = self.extract_document_links(result['url'], response.text)
+                        print(f"  Found {len(docs)} document links on this page", file=sys.stderr)
+                        all_pdf_links.extend(docs)
                 except Exception as e:
                     pass
 
@@ -415,9 +467,9 @@ class LocalPlanFinder:
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
                     }, timeout=15, allow_redirects=True)
                     if response.status_code == 200:
-                        pdfs = self.extract_pdf_links(link, response.text)
-                        print(f"  Found {len(pdfs)} PDF links", file=sys.stderr)
-                        all_pdf_links.extend(pdfs)
+                        docs = self.extract_document_links(link, response.text)
+                        print(f"  Found {len(docs)} document links", file=sys.stderr)
+                        all_pdf_links.extend(docs)
                 except Exception as e:
                     pass
 
@@ -433,7 +485,7 @@ class LocalPlanFinder:
             }]
 
         print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
-        print(f"Total PDF links found: {len(all_pdf_links)}", file=sys.stderr)
+        print(f"Total document links found: {len(all_pdf_links)}", file=sys.stderr)
 
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
@@ -443,12 +495,12 @@ class LocalPlanFinder:
             for p in pages_content
         ])
 
-        # Add PDF links summary
+        # Add document links summary
         if all_pdf_links:
-            pdf_summary = "\n\nPDF DOCUMENTS FOUND:\n"
-            for pdf in all_pdf_links[:30]:  # Include up to 30 PDFs
-                pdf_summary += f"- {pdf['url']}\n  Link text: {pdf['text']}\n"
-            content_summary += pdf_summary
+            doc_summary = "\n\nDOCUMENTS FOUND (PDF and Word):\n"
+            for doc in all_pdf_links[:50]:  # Include up to 50 documents
+                doc_summary += f"- {doc['url']}\n  Link text: {doc['text']}\n  Classified as: {doc['document-type']}\n"
+            content_summary += doc_summary
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
 
@@ -475,7 +527,13 @@ Return a JSON array where each element represents one local plan document:
         "status": "one of: draft, regulation-18, regulation-19, submitted, examination, adopted, withdrawn",
         "year": the year this plan was adopted (or year of latest milestone if not adopted, as an integer, e.g., 2013),
         "period-start-date": the start year of the plan period (as an integer, e.g., 2006) or "" if not available,
-        "period-end-date": the end year of the plan period (as an integer, e.g., 2031) or "" if not available
+        "period-end-date": the end year of the plan period (as an integer, e.g., 2031) or "" if not available,
+        "documents": [
+            {{
+                "document-url": "normalized URL to the document",
+                "document-type": "one of the classified types (see below)"
+            }}
+        ]
     }}
 ]
 
@@ -487,6 +545,23 @@ STATUS FIELD GUIDE:
 - "examination" = Currently undergoing examination by Planning Inspector
 - "adopted" = Formally adopted by the council
 - "withdrawn" = Plan has been withdrawn
+
+DOCUMENT TYPES:
+- local-plan: The main local plan document
+- core-strategy: Core strategy document
+- site-allocations: Site allocations DPD
+- adoption-statement: Adoption statement/consultation statement
+- area-action-plan: Area action plans (AAPs)
+- financial-viability-study: Financial viability studies
+- inspectors-report: Planning Inspector's examination report
+- policies-map: Policies map/proposals map
+- strategic-flood-risk-assessment: Strategic Flood Risk Assessment (SFRA)
+- strategic-housing-market-assessment: Strategic Housing Market Assessment (SHMA)
+- supplementary-planning-documents: Supplementary Planning Documents (SPDs)
+- local-development-scheme: Local Development Scheme (LDS)
+- sustainability-appraisal: Sustainability Appraisal (SA) and related documents
+- local-plan-review: Local plan review documents
+- viability-assessment: Viability assessment studies
 
 IMPORTANT:
 - Return an array with one element for EACH separate local plan document
@@ -501,7 +576,7 @@ DOCUMENTATION-URL (the main page for the plan):
 
 DOCUMENT-URL (the actual PDF document):
 - The document-url should be the direct URL to the PDF document itself
-- Look in the "PDF DOCUMENTS FOUND" section above for available PDFs
+- Look in the "DOCUMENTS FOUND" section above for available documents
 - Try HARD to find the core strategy PDF, local plan PDF, or main policy document PDF
 - Match PDFs to plans by looking for:
   * Plan names in the link text (e.g., "Core Strategy", "Local Plan 2018-2033")
@@ -513,6 +588,22 @@ DOCUMENT-URL (the actual PDF document):
   * Full file paths like "/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011"
 - Normalize the URL by removing fragments (#) but keep the full path
 - Use "" (empty string) only if you cannot find a matching PDF document
+
+DOCUMENTS ARRAY:
+- The documents array should contain ALL related documents for this local plan
+- Include documents from the "DOCUMENTS FOUND" section that relate to this specific plan
+- Each document has a document-url and document-type (already classified)
+- For each plan, include:
+  * The main local plan document (if different from document-url)
+  * Supporting documents: sustainability appraisal, inspector's report, adoption statement
+  * Evidence base: SHMA, SFRA, viability assessments
+  * Related documents: site allocations, SPDs, policies map
+- Match documents to plans by:
+  * Looking for plan names/dates in the document link text
+  * Matching time periods (e.g., documents from 2018-2020 likely relate to a 2018-2033 plan)
+  * Document types that logically belong together
+- Use the pre-classified document-type from the "DOCUMENTS FOUND" section
+- If a document clearly relates to the plan, include it even if not explicitly named
 
 OTHER FIELDS:
 - Extract plan period dates from the plan name or content (e.g., "2006-2031" means period-start-date: 2006, period-end-date: 2031)
@@ -695,19 +786,31 @@ Status values:
                                 print(f"     - {link}", file=sys.stderr)
                             discovered_links.update(links)
 
-                        pdfs = finder.extract_pdf_links(result['url'], response.text)
-                        if pdfs:
-                            print(f"   Found {len(pdfs)} PDF links:", file=sys.stderr)
-                            for pdf in pdfs[:5]:  # Show first 5
-                                print(f"     - {pdf['url']}", file=sys.stderr)
-                                print(f"       Text: {pdf['text'][:60]}...", file=sys.stderr)
-                            all_pdfs.extend(pdfs)
+                        docs = finder.extract_document_links(result['url'], response.text)
+                        if docs:
+                            print(f"   Found {len(docs)} document links:", file=sys.stderr)
+                            for doc in docs[:5]:  # Show first 5
+                                print(f"     - {doc['url']}", file=sys.stderr)
+                                print(f"       Text: {doc['text'][:60]}...", file=sys.stderr)
+                                print(f"       Type: {doc['document-type']}", file=sys.stderr)
+                            all_pdfs.extend(docs)
                 except Exception as e:
                     pass
 
         print(f"\nSuccessfully fetched {success_count} pages", file=sys.stderr)
         print(f"Discovered {len(discovered_links)} total local plan links", file=sys.stderr)
-        print(f"Discovered {len(all_pdfs)} total PDF links", file=sys.stderr)
+        print(f"Discovered {len(all_pdfs)} total document links", file=sys.stderr)
+
+        # Show document type breakdown
+        if all_pdfs:
+            type_counts = {}
+            for doc in all_pdfs:
+                doc_type = doc['document-type']
+                type_counts[doc_type] = type_counts.get(doc_type, 0) + 1
+            print(f"\nDocument types found:", file=sys.stderr)
+            for doc_type, count in sorted(type_counts.items(), key=lambda x: x[1], reverse=True):
+                print(f"  {doc_type}: {count}", file=sys.stderr)
+
         sys.exit(0)
 
     # Normal mode - full search
