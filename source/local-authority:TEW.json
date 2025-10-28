@@ -1,0 +1,121 @@
+[
+  {
+    "organisation": "local-authority:TEW",
+    "organisation-name": "Tewkesbury Borough Council",
+    "documentation-url": "https://tewkesbury.gov.uk/local-plan",
+    "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/11/Tewkesbury-Borough-Plan-Final-Version-with-front-cover.pdf",
+    "name": "Tewkesbury Borough Plan 2011-2031",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/11/Tewkesbury-Borough-Plan-Final-Version-with-front-cover.pdf",
+        "document-type": "local-plan",
+        "name": "Tewkesbury Borough Plan 2011 \u2013 2031",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "dc1a58a3cd63befa82e66cc71e01a5c2c7d2c8024f4c29b0d311250bc496bc02"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Local plan/Tewkesbury Borough Plan 2011 to 2031/Adoption/Tewkesbury Borough Plan 2031 Adoption Statement June 2022.pdf",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "21969d6c2e6974587e070fe85c2a87dd693a4a9425c6949e7a0740f0fdc5d36a"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/TBP Main Mods/210928_TBP_MMs_SAHRA Addendum_FINAL Clean.pdf",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report (Main Modifications TBP, September 2021)",
+        "reference": "SA-MM-2021",
+        "document-status": "adopted",
+        "endpoint": "dca61d468d1922d96e2c101e7e88cc251c85da1194def653dfcfa31685af3220"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/08/CD006a-SA-Appendix-V-SA-settlement-boundaries-July-2019-2.pdf",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report (Submission TBP, July 2019)",
+        "reference": "SA-SUB-2019",
+        "document-status": "adopted",
+        "endpoint": "0cb5414533251b929abbdf00083fa8435efccaff7d8ff53751c78b774113e8ef"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Local plan/Tewkesbury Borough Plan 2011 to 2031/Adoption/Sustainability Appraisal Adoption Statement (June 2022).pdf",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement (June 2022)",
+        "reference": "SA-AS-2022",
+        "document-status": "adopted",
+        "endpoint": "fac6f759eac577ef4c7e70dbb5aa5ca2f37a4758bf7c714da6981de3411c8754"
+      },
+      {
+        "document-url": "https://experience.arcgis.com/experience/82b4c6e5e1534bf791d9f2ebc4fcc43d/",
+        "document-type": "local-plan",
+        "name": "Tewkesbury Borough local plan policies interactive map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "ffed9d6f762b2516b36a2b638e84e4106214bcc8744f34d7535090bf0043d258"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TEW",
+    "organisation-name": "Tewkesbury Borough Council",
+    "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
+    "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
+    "name": "Joint Core Strategy 2011-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
+        "document-type": "local-plan",
+        "name": "JCS Plan Adopted Version December 2017",
+        "reference": "JCS-2017",
+        "document-status": "adopted",
+        "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
+      },
+      {
+        "document-url": "https://maps.cheltenham.gov.uk/map/Aurora.svc/run?nocache=5a07a51c-4eed-9956-ffc7-5f4b0b6f871a&resize=always&script=%5CAurora%5CCBC%20JCS%20Allocations.AuroraScript%24",
+        "document-type": "policies-map",
+        "name": "JCS Interactive Policies Map Adoption Version December 2017",
+        "reference": "PM-JCS-2017",
+        "document-status": "adopted",
+        "endpoint": "28b1bb993537c86e8a34d1d8d5db75a06c44b587d3ddd856cf92f700997bc614"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TEW",
+    "organisation-name": "Tewkesbury Borough Council",
+    "documentation-url": "https://strategiclocalplan.org/",
+    "document-url": "",
+    "name": "Strategic and Local Plan",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinkprotect.cudasvc.com%2Furl%3Fa%3Dhttps%253a%252f%252ftewkesbury.gov.uk%252fwp-content%252fuploads%252f2025%252f03%252fTewkesbury-Local-Development-Scheme-February-2025.pdf%26c%3DE%2C1%2CLkRImW4-NzAuVSPJZzcg5sIKEs3kE1GEgVWzzM0ITp_E58SCBx6gJJnsOiP_qe7CSo6cP3TXuemiO_8iypOPlWAxGcr-s3S-i2mJTelS0X7VFj0i_yVHY3txH1w%2C%26typo%3D1&data=05%7C02%7CGavin.Agamemnos%40tewkesbury.gov.uk%7Cac0cd3e49d9644277fea08ddec878339%7C1004c738399e4734aaf902a684303390%7C0%7C0%7C638926788965304444%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FlSrD9lhSZFDmKDN05MHYqGHGdrLgbHvxQrVTS8U3kM%3D&reserved=0",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "consultation",
+        "endpoint": "69803615ba8e602c498e7ec4384bc87100cd3a2777741421ea814a11107ef5ef"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2025/09/Local-Green-Space-application-form.docx",
+        "document-type": "local-plan",
+        "name": "Local Green Space Application Form",
+        "reference": "LGS-2025",
+        "document-status": "consultation",
+        "endpoint": "ef3d255b249f4ddc6e2ff37f8cf9620d770216146112c363c0fac3c44a1893bf"
+      }
+    ]
+  }
+]

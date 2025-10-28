@@ -1,0 +1,103 @@
+[
+  {
+    "organisation": "local-authority:WAT",
+    "organisation-name": "Watford Borough Council",
+    "documentation-url": "https://www.watford.gov.uk/localplan",
+    "document-url": "https://www.watford.gov.uk/downloads/file/1264/watford-local-plan",
+    "name": "Watford Local Plan: A Sustainable Town 2021-2038",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2021,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1264/watford-local-plan",
+        "document-type": "local-plan",
+        "name": "Watford Local Plan: A Sustainable Town 2021-2038",
+        "reference": "LP-2021-2038",
+        "document-status": "adopted",
+        "endpoint": "efc11cc082914eefc910e37df560a01a545b0f8e9856ceb5018fd51eb8f9d56b"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1283/watford-local-plan-high-resolution",
+        "document-type": "local-plan",
+        "name": "Watford Local Plan: A Sustainable Town 2021-2038 - high resolution",
+        "reference": "LP-2021-2038-HR",
+        "document-status": "adopted",
+        "endpoint": "63a03de65cec839ea05c634f984fbb04820a4c6d746b3dc1c102590487f25094"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1662/local-plan-inspector-s-report",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Inspector's Report",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "2fec45008d696efaae0d519ce5854a3f3ec2a7f6d1dbedb4038a9c23d45b9661"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1663/local-plan-inspector-s-report-main-modifications-appendix",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Inspector's Report - Main Modifications Appendix",
+        "reference": "IR-2022-MM",
+        "document-status": "adopted",
+        "endpoint": "cbed9a41b44ba5e07ea097d1ad266f8cb911dcd6bfce5abaea0b259d12cb2e69"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1266/local-plan-adoption-statement",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "8a068826f9c9d7be1e74b9dd1a5bb9f0108eead7d548b6268766cf76238887a1"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1276/sustainability-assessment-adoption-statement",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2022",
+        "document-status": "adopted",
+        "endpoint": "7ae6209f8d5f5690bb87ff7efde9849f6d6ca4429a1a854dbbe8c8aeedac9da0"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1267/sustainability-appraisals-non-technical-summary",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisals - Non-Technical Summary",
+        "reference": "SA-NTS-2022",
+        "document-status": "adopted",
+        "endpoint": "a8be251d6ea1d2e3e801708004e23746ae9d54b5244f858d038ff6deac75d035"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1268/sustainablity-appraisal-report",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2022",
+        "document-status": "adopted",
+        "endpoint": "ea62a77d23ddebada862feb06cb0fc126a404627c2ce983b2509e375a267474d"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1275/habitats-regulations-assessment-report",
+        "document-type": "local-plan",
+        "name": "Habitats Regulations Assessment",
+        "reference": "HRA-2022",
+        "document-status": "adopted",
+        "endpoint": "c9ccdc158198652b138c7a6684599a81bdfab2f73d0994bd8bcf57cb97696816"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1265/local-plan-policies-map",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "b20bc74c8e9d9e92b65fd39a62f410cff8bdf26ac7b96ba022eb57563c7cfb63"
+      },
+      {
+        "document-url": "https://wbc.maps.arcgis.com/apps/webappviewer/index.html?id=2fd1fd3671c347a4bffeaec110bc9bba",
+        "document-type": "policies-map",
+        "name": "Interactive Policies Map",
+        "reference": "IPM-2022",
+        "document-status": "adopted",
+        "endpoint": "5a62a1794379cadddf57451111a98ca9938a2dfe4a64ff545bbc204926f47ca2"
+      }
+    ]
+  }
+]
