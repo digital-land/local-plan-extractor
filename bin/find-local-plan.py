@@ -36,11 +36,11 @@ class LocalPlanFinder:
         self.client = anthropic.Anthropic(api_key=api_key)
         self.organisations = self._load_organisations(organisation_csv)
 
-    def _load_organisations(self, csv_path: str) -> Dict[str, str]:
-        """Load organisation codes and names from CSV file.
+    def _load_organisations(self, csv_path: str) -> Dict[str, Dict[str, str]]:
+        """Load organisation codes, names, and websites from CSV file.
 
         Returns:
-            Dictionary mapping organisation codes to names
+            Dictionary mapping organisation codes to dict with 'name' and 'website'
         """
         organisations = {}
         try:
@@ -55,13 +55,18 @@ class LocalPlanFinder:
                 # Find column indices
                 name_idx = header.index('name') if 'name' in header else 14
                 org_idx = header.index('organisation') if 'organisation' in header else 19
+                website_idx = header.index('website') if 'website' in header else 27
 
                 for row in reader:
-                    if len(row) > max(name_idx, org_idx):
+                    if len(row) > max(name_idx, org_idx, website_idx):
                         name = row[name_idx].strip()
                         org_code = row[org_idx].strip()
+                        website = row[website_idx].strip() if len(row) > website_idx else ""
                         if name and org_code:
-                            organisations[org_code] = name
+                            organisations[org_code] = {
+                                'name': name,
+                                'website': website
+                            }
         except Exception as e:
             print(f"Warning: Could not load organisations from {csv_path}: {e}", file=sys.stderr)
 
@@ -76,32 +81,62 @@ class LocalPlanFinder:
         Returns:
             Organisation name if found, None otherwise
         """
-        return self.organisations.get(org_code)
+        org_data = self.organisations.get(org_code)
+        return org_data['name'] if org_data else None
 
-    def construct_likely_urls(self, org_name: str) -> List[Dict[str, str]]:
+    def get_organisation_website(self, org_code: str) -> Optional[str]:
+        """Get organisation website from code.
+
+        Args:
+            org_code: Organisation code (e.g., "local-authority:DAC")
+
+        Returns:
+            Organisation website URL if found, None otherwise
+        """
+        org_data = self.organisations.get(org_code)
+        return org_data['website'] if org_data and org_data['website'] else None
+
+    def construct_likely_urls(self, org_name: str, official_website: Optional[str] = None) -> List[Dict[str, str]]:
         """Construct likely URLs for a local authority's planning pages.
 
         Args:
             org_name: Organisation name
+            official_website: Official website URL from organisation.csv (if available)
 
         Returns:
             List of dicts with 'title', 'url', 'snippet'
         """
-        # Extract base name (remove "Council", "Borough", etc.)
+        domains = []
+
+        # If we have the official website, use it first
+        if official_website:
+            # Extract domain from URL (e.g., "https://www.dacorum.gov.uk" -> "www.dacorum.gov.uk")
+            from urllib.parse import urlparse
+            parsed = urlparse(official_website)
+            official_domain = parsed.netloc
+            if official_domain:
+                domains.append(official_domain)
+                print(f"Using official website domain: {official_domain}", file=sys.stderr)
+
+        # Also try guessing domains as fallback
         base_name = org_name.lower()
         for suffix in [' borough council', ' city council', ' district council',
                        ' county council', ' council', ' metropolitan borough']:
             base_name = base_name.replace(suffix, '')
         base_name = base_name.strip().replace(' ', '')
 
-        # Common URL patterns for council websites
-        # Start with www. versions as they're more common and avoid redirects
-        domains = [
+        # Add common URL patterns as fallback
+        fallback_domains = [
             f"www.{base_name}.gov.uk",
             f"{base_name}.gov.uk",
             f"www.{base_name}council.gov.uk",
             f"{base_name}council.gov.uk",
         ]
+
+        # Add fallback domains that aren't already in the list
+        for domain in fallback_domains:
+            if domain not in domains:
+                domains.append(domain)
 
         # Common paths for local plan pages
         paths = [
@@ -212,9 +247,12 @@ class LocalPlanFinder:
 
         print(f"Searching for local plans for: {org_name} ({org_code})", file=sys.stderr)
 
-        # Construct likely URLs based on common council website patterns
+        # Get official website if available
+        official_website = self.get_organisation_website(org_code)
+
+        # Construct likely URLs based on official website and common patterns
         print(f"Constructing likely URLs for {org_name}...", file=sys.stderr)
-        likely_urls = self.construct_likely_urls(org_name)
+        likely_urls = self.construct_likely_urls(org_name, official_website)
 
         # Fetch content from likely URLs
         pages_content = []
@@ -428,10 +466,14 @@ Status values:
             print(f"Error: Organisation code '{args.organisation}' not found", file=sys.stderr)
             sys.exit(1)
 
+        official_website = finder.get_organisation_website(args.organisation)
+
         print(f"Organisation: {org_name} ({args.organisation})", file=sys.stderr)
+        if official_website:
+            print(f"Official website: {official_website}", file=sys.stderr)
         print(f"\nTesting URL fetching...\n", file=sys.stderr)
 
-        likely_urls = finder.construct_likely_urls(org_name)
+        likely_urls = finder.construct_likely_urls(org_name, official_website)
         success_count = 0
 
         for i, result in enumerate(likely_urls[:10], 1):  # Test first 10 URLs
