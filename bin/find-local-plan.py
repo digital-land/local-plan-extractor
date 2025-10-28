@@ -22,6 +22,7 @@ Outputs JSON array with one element per local plan document. Each element contai
         * name: readable descriptive name for the document
         * reference: short unique reference code (e.g., LP-2018-2033, SA-2020)
         * document-status: status of the document (draft, consultation, examination, adopted, withdrawn)
+        * endpoint: SHA256 hash of the document-url
 
 Note: A Local Planning Authority may have multiple local plan documents at different stages.
 """
@@ -29,6 +30,7 @@ Note: A Local Planning Authority may have multiple local plan documents at diffe
 import anthropic
 import argparse
 import csv
+import hashlib
 import json
 import os
 import sys
@@ -781,6 +783,15 @@ Provide ONLY the JSON array response, no other text."""
                 if not isinstance(result, list):
                     result = [result]  # Wrap single object in array
 
+                # Add endpoint field to each document (SHA256 hash of document URL)
+                for plan in result:
+                    if 'documents' in plan and isinstance(plan['documents'], list):
+                        for doc in plan['documents']:
+                            if 'document-url' in doc:
+                                url = doc['document-url']
+                                endpoint = hashlib.sha256(url.encode('utf-8')).hexdigest()
+                                doc['endpoint'] = endpoint
+
                 print(f"Found {len(result)} local plan(s)", file=sys.stderr)
                 return result
             else:
@@ -791,7 +802,18 @@ Provide ONLY the JSON array response, no other text."""
                 if json_start != -1 and json_end > json_start:
                     json_str = response_text[json_start:json_end]
                     result = json.loads(json_str)
-                    return [result]
+
+                    # Add endpoint field to each document (SHA256 hash of document URL)
+                    result_list = [result]
+                    for plan in result_list:
+                        if 'documents' in plan and isinstance(plan['documents'], list):
+                            for doc in plan['documents']:
+                                if 'document-url' in doc:
+                                    url = doc['document-url']
+                                    endpoint = hashlib.sha256(url.encode('utf-8')).hexdigest()
+                                    doc['endpoint'] = endpoint
+
+                    return result_list
                 else:
                     return [{
                         "organisation": org_code,
