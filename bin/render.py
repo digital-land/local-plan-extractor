@@ -97,7 +97,8 @@ def render_local_plan(json_path, output_dir, env, organisations_lookup):
     html_content = template.render(
         plan=data,
         json_filename=json_path.name,
-        organisations=organisations_lookup
+        organisations=organisations_lookup,
+        home_path='../index.html'
     )
 
     # Write output
@@ -124,7 +125,8 @@ def render_organisation_page(org_code, org_data, plans, output_dir, env, organis
     html_content = template.render(
         organisation=org_data,
         plans=plans,
-        organisations=organisations_lookup
+        organisations=organisations_lookup,
+        home_path='../../index.html'
     )
 
     # Write output
@@ -145,7 +147,8 @@ def render_index(plans, output_dir, env):
 
     # Render template
     html_content = template.render(
-        plans=sorted_plans
+        plans=sorted_plans,
+        home_path='index.html'
     )
 
     # Write output
