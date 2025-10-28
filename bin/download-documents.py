@@ -9,6 +9,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 import urllib.request
 import urllib.error
+import mimetypes
 
 def calculate_sha1(content):
     """Calculate SHA1 hash of content"""
@@ -17,6 +18,107 @@ def calculate_sha1(content):
 def calculate_sha256(text):
     """Calculate SHA256 hash of text (for endpoint field)"""
     return hashlib.sha256(text.encode('utf-8')).hexdigest()
+
+def detect_file_suffix(content, content_type, url):
+    """
+    Detect file suffix from content, content-type header, or URL.
+
+    Args:
+        content: File content bytes
+        content_type: HTTP Content-Type header
+        url: Source URL
+
+    Returns:
+        File suffix (e.g., 'pdf', 'docx', 'html')
+    """
+    # Try to get extension from content-type
+    if content_type:
+        # Clean up content-type (remove charset, etc.)
+        mime_type = content_type.split(';')[0].strip()
+
+        # Common mappings
+        mime_to_ext = {
+            'application/pdf': 'pdf',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document': 'docx',
+            'application/msword': 'doc',
+            'application/vnd.ms-excel': 'xls',
+            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 'xlsx',
+            'text/html': 'html',
+            'text/plain': 'txt',
+            'application/zip': 'zip',
+            'image/jpeg': 'jpg',
+            'image/png': 'png',
+        }
+
+        if mime_type in mime_to_ext:
+            return mime_to_ext[mime_type]
+
+        # Try using mimetypes module
+        ext = mimetypes.guess_extension(mime_type)
+        if ext:
+            return ext.lstrip('.')
+
+    # Try to detect from magic bytes
+    if content:
+        if content.startswith(b'%PDF'):
+            return 'pdf'
+        elif content.startswith(b'PK\x03\x04'):
+            # ZIP-based format (docx, xlsx, etc.)
+            if b'word/' in content[:2000]:
+                return 'docx'
+            elif b'xl/' in content[:2000]:
+                return 'xlsx'
+            else:
+                return 'zip'
+        elif content.startswith(b'\xd0\xcf\x11\xe0'):
+            # Old MS Office format
+            return 'doc'
+        elif content.startswith(b'<!DOCTYPE') or content.startswith(b'<html'):
+            return 'html'
+
+    # Try to get extension from URL
+    if url:
+        url_path = url.split('?')[0]  # Remove query string
+        if '.' in url_path:
+            ext = url_path.rsplit('.', 1)[-1].lower()
+            if ext in ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'html', 'txt', 'zip', 'jpg', 'png']:
+                return ext
+
+    # Default to unknown
+    return 'bin'
+
+def create_endpoint_symlink(endpoint, resource_hash, content, content_type, url):
+    """
+    Create a symbolic link in collection/endpoint/ pointing to the resource file.
+
+    Args:
+        endpoint: Endpoint hash (SHA256 of URL)
+        resource_hash: Resource hash (SHA1 of content)
+        content: File content bytes (for suffix detection)
+        content_type: HTTP Content-Type header
+        url: Source URL
+    """
+    # Create endpoint directory if it doesn't exist
+    endpoint_dir = Path("collection/endpoint")
+    endpoint_dir.mkdir(parents=True, exist_ok=True)
+
+    # Detect file suffix
+    suffix = detect_file_suffix(content, content_type, url)
+
+    # Create symlink path
+    symlink_path = endpoint_dir / f"{endpoint}.{suffix}"
+
+    # Resource path (relative to endpoint directory)
+    resource_path = Path("..") / "resource" / resource_hash
+
+    # Remove existing symlink if it exists
+    if symlink_path.exists() or symlink_path.is_symlink():
+        symlink_path.unlink()
+
+    # Create the symlink
+    symlink_path.symlink_to(resource_path)
+
+    print(f"  → Created symlink: endpoint/{endpoint}.{suffix} -> resource/{resource_hash}")
 
 def download_document(url, endpoint):
     """
@@ -49,7 +151,25 @@ def download_document(url, endpoint):
     if log_path.exists():
         print(f"Already downloaded: {url}")
         with open(log_path, 'r') as f:
-            return json.load(f)
+            log_entry = json.load(f)
+
+        # Create symlink if resource exists
+        resource_hash = log_entry.get('resource')
+        if resource_hash:
+            resource_path = Path(f"collection/resource/{resource_hash}")
+            if resource_path.exists():
+                # Read the file to detect suffix
+                with open(resource_path, 'rb') as f:
+                    content = f.read()
+                create_endpoint_symlink(
+                    endpoint,
+                    resource_hash,
+                    content,
+                    log_entry.get('content-type', ''),
+                    url
+                )
+
+        return log_entry
 
     print(f"Downloading: {url}")
 
@@ -95,6 +215,9 @@ def download_document(url, endpoint):
         # Save log file
         with open(log_path, 'w') as f:
             json.dump(log_entry, f, indent=2)
+
+        # Create endpoint symlink
+        create_endpoint_symlink(endpoint, resource_hash, content, content_type, url)
 
         print(f"  ✓ Downloaded {content_length} bytes -> {resource_hash}")
 
