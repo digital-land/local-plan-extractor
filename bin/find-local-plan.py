@@ -9,7 +9,8 @@ Usage:
 Outputs JSON array with one element per local plan document. Each element contains:
     - organisation: the organisation code
     - organisation-name: the name of the organisation
-    - documentation-url: URL to the specific local plan document
+    - documentation-url: URL to the main page for this specific local plan
+    - document-url: Direct URL to the PDF document (core strategy, local plan, etc.)
     - name: name of the plan (e.g., "Core Strategy", "Site Allocations DPD")
     - status: plan status (draft, regulation-18, regulation-19, submitted, examination, adopted, withdrawn)
     - year: year the plan was adopted (or year of latest milestone if not adopted)
@@ -212,6 +213,63 @@ class LocalPlanFinder:
 
         return local_plan_links
 
+    def extract_pdf_links(self, url: str, html_content: str) -> List[Dict[str, str]]:
+        """Extract PDF and document download links from a page with their link text.
+
+        Args:
+            url: The base URL of the page
+            html_content: The HTML content to parse
+
+        Returns:
+            List of dicts with 'url' and 'text' for each document link
+        """
+        from urllib.parse import urljoin, urlparse
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        pdf_links = []
+
+        # Find all links
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            link_text = link.get_text(strip=True)
+
+            # Check if it's a document link (by extension, URL patterns, or content indicators)
+            is_document = (
+                href.lower().endswith('.pdf') or
+                '.pdf' in href.lower() or
+                '/downloads/' in href.lower() or
+                '/download/' in href.lower() or
+                '/file/' in href.lower() or
+                '/document/' in href.lower() or
+                '/docs/' in href.lower() or
+                'pdf' in link_text.lower() or
+                'download' in link_text.lower()
+            )
+
+            # Also check if link text suggests it's a plan document
+            doc_keywords = ['local plan', 'core strategy', 'adopted', 'submission', 'regulation', 'dpd', 'spd']
+            has_doc_keyword = any(kw in link_text.lower() for kw in doc_keywords)
+
+            if is_document or has_doc_keyword:
+                # Convert relative URLs to absolute
+                full_url = urljoin(url, href)
+
+                # Normalize URL (remove fragments, clean up)
+                parsed = urlparse(full_url)
+                normalized_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+                if parsed.query:
+                    normalized_url += f"?{parsed.query}"
+
+                # Avoid duplicates and non-HTTP links
+                if normalized_url.startswith('http') and \
+                   not any(p['url'] == normalized_url for p in pdf_links):
+                    pdf_links.append({
+                        'url': normalized_url,
+                        'text': link_text
+                    })
+
+        return pdf_links
+
     def fetch_page_content(self, url: str, max_length: int = 50000) -> tuple[str, bool]:
         """Fetch and extract text content from a URL.
 
@@ -301,6 +359,7 @@ class LocalPlanFinder:
         # Fetch content from likely URLs
         pages_content = []
         discovered_links = set()
+        all_pdf_links = []
 
         for i, result in enumerate(likely_urls, 1):
             print(f"Trying URL {i}/{len(likely_urls)}: {result['url']}", file=sys.stderr)
@@ -313,7 +372,7 @@ class LocalPlanFinder:
                     'content': content
                 })
 
-                # Extract local plan links from this page
+                # Extract local plan links and PDF links from this page
                 try:
                     response = requests.get(result['url'], headers={
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
@@ -322,6 +381,10 @@ class LocalPlanFinder:
                         links = self.extract_local_plan_links(result['url'], response.text)
                         print(f"  Found {len(links)} local plan links on this page", file=sys.stderr)
                         discovered_links.update(links)
+
+                        pdfs = self.extract_pdf_links(result['url'], response.text)
+                        print(f"  Found {len(pdfs)} PDF links on this page", file=sys.stderr)
+                        all_pdf_links.extend(pdfs)
                 except Exception as e:
                     pass
 
@@ -346,6 +409,18 @@ class LocalPlanFinder:
                     'content': content
                 })
 
+                # Also extract PDFs from discovered pages
+                try:
+                    response = requests.get(link, headers={
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                    }, timeout=15, allow_redirects=True)
+                    if response.status_code == 200:
+                        pdfs = self.extract_pdf_links(link, response.text)
+                        print(f"  Found {len(pdfs)} PDF links", file=sys.stderr)
+                        all_pdf_links.extend(pdfs)
+                except Exception as e:
+                    pass
+
                 # Stop after we have enough pages total
                 if len(pages_content) >= 5:
                     break
@@ -358,6 +433,7 @@ class LocalPlanFinder:
             }]
 
         print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
+        print(f"Total PDF links found: {len(all_pdf_links)}", file=sys.stderr)
 
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
@@ -366,6 +442,13 @@ class LocalPlanFinder:
             f"URL: {p['url']}\nTitle: {p['title']}\n\nContent:\n{p['content'][:10000]}"
             for p in pages_content
         ])
+
+        # Add PDF links summary
+        if all_pdf_links:
+            pdf_summary = "\n\nPDF DOCUMENTS FOUND:\n"
+            for pdf in all_pdf_links[:30]:  # Include up to 30 PDFs
+                pdf_summary += f"- {pdf['url']}\n  Link text: {pdf['text']}\n"
+            content_summary += pdf_summary
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
 
@@ -386,7 +469,8 @@ Return a JSON array where each element represents one local plan document:
     {{
         "organisation": "{org_code}",
         "organisation-name": "{org_name}",
-        "documentation-url": "the best URL for this specific local plan document (main page or PDF)",
+        "documentation-url": "the best URL for this specific local plan document (main page)",
+        "document-url": "the direct URL to the PDF document for this plan (e.g., core strategy PDF, local plan PDF)",
         "name": "the full official name of this plan document (e.g., 'Dacorum Core Strategy 2006-2031', 'Dacorum Site Allocations DPD')",
         "status": "one of: draft, regulation-18, regulation-19, submitted, examination, adopted, withdrawn",
         "year": the year this plan was adopted (or year of latest milestone if not adopted, as an integer, e.g., 2013),
@@ -409,10 +493,28 @@ IMPORTANT:
 - Include BOTH current plans AND superseded/previous plans (e.g., a plan for 2018-2033 AND an older plan for 2001-2011)
 - Include BOTH adopted plans AND emerging/draft plans at various stages
 - Look for status indicators like "adopted", "Regulation 18", "Regulation 19", "consultation", "examination", "submitted", "withdrawn"
+
+DOCUMENTATION-URL (the main page for the plan):
 - The documentation-url should be the MOST SPECIFIC URL for that particular document:
   * Prefer pages specifically about that local plan (e.g., "/planning/local-plan-2018-2033")
-  * Prefer direct PDF links to plan documents if available
   * Avoid generic planning section URLs unless that's all that's available
+
+DOCUMENT-URL (the actual PDF document):
+- The document-url should be the direct URL to the PDF document itself
+- Look in the "PDF DOCUMENTS FOUND" section above for available PDFs
+- Try HARD to find the core strategy PDF, local plan PDF, or main policy document PDF
+- Match PDFs to plans by looking for:
+  * Plan names in the link text (e.g., "Core Strategy", "Local Plan 2018-2033")
+  * Dates/periods matching the plan period
+  * Document types (adopted, submission, regulation 19, etc.)
+- Common PDF naming patterns:
+  * "core-strategy.pdf", "local-plan.pdf", "adopted-local-plan.pdf"
+  * "core-strategy-2006-2031.pdf", "local-plan-2018-2033.pdf"
+  * Full file paths like "/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011"
+- Normalize the URL by removing fragments (#) but keep the full path
+- Use "" (empty string) only if you cannot find a matching PDF document
+
+OTHER FIELDS:
 - Extract plan period dates from the plan name or content (e.g., "2006-2031" means period-start-date: 2006, period-end-date: 2031)
   * Look carefully for period dates - they may be in the plan title, headings, or document text
   * Common formats: "2018-2033", "2018 to 2033", "plan period 2018-2033"
@@ -566,6 +668,7 @@ Status values:
         success_count = 0
 
         discovered_links = set()
+        all_pdfs = []
 
         for i, result in enumerate(likely_urls[:10], 1):  # Test first 10 URLs
             print(f"{i}. {result['url']}", file=sys.stderr)
@@ -578,7 +681,7 @@ Status values:
                     print(f"\n   First 500 chars of content:", file=sys.stderr)
                     print(f"   {content[:500]}...\n", file=sys.stderr)
 
-                # Try to extract local plan links
+                # Try to extract local plan links and PDFs
                 try:
                     import requests
                     response = requests.get(result['url'], headers={
@@ -591,11 +694,20 @@ Status values:
                             for link in links[:5]:  # Show first 5
                                 print(f"     - {link}", file=sys.stderr)
                             discovered_links.update(links)
+
+                        pdfs = finder.extract_pdf_links(result['url'], response.text)
+                        if pdfs:
+                            print(f"   Found {len(pdfs)} PDF links:", file=sys.stderr)
+                            for pdf in pdfs[:5]:  # Show first 5
+                                print(f"     - {pdf['url']}", file=sys.stderr)
+                                print(f"       Text: {pdf['text'][:60]}...", file=sys.stderr)
+                            all_pdfs.extend(pdfs)
                 except Exception as e:
                     pass
 
         print(f"\nSuccessfully fetched {success_count} pages", file=sys.stderr)
         print(f"Discovered {len(discovered_links)} total local plan links", file=sys.stderr)
+        print(f"Discovered {len(all_pdfs)} total PDF links", file=sys.stderr)
         sys.exit(0)
 
     # Normal mode - full search
