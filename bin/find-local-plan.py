@@ -16,7 +16,12 @@ Outputs JSON array with one element per local plan document. Each element contai
     - year: year the plan was adopted (or year of latest milestone if not adopted)
     - period-start-date: start date of the plan period (if available)
     - period-end-date: end date of the plan period (if available)
-    - documents: array of related documents (PDFs/Word docs) with document-url and document-type
+    - documents: array of related documents (PDFs/Word docs) with:
+        * document-url: normalized URL to the document
+        * document-type: classified type (local-plan, core-strategy, etc.)
+        * name: readable descriptive name for the document
+        * reference: short unique reference code (e.g., LP-2018-2033, SA-2020)
+        * document-status: status of the document (draft, consultation, examination, adopted, withdrawn)
 
 Note: A Local Planning Authority may have multiple local plan documents at different stages.
 """
@@ -531,11 +536,50 @@ Return a JSON array where each element represents one local plan document:
         "documents": [
             {{
                 "document-url": "normalized URL to the document",
-                "document-type": "one of the classified types (see below)"
+                "document-type": "one of the classified types (see below)",
+                "name": "readable name for the document",
+                "reference": "short unique reference for this document (e.g., LP-2018-2033, SA-2020, IR-2020)",
+                "document-status": "one of: draft, consultation, examination, adopted, withdrawn"
             }}
         ]
     }}
 ]
+
+EXAMPLE OUTPUT:
+{{
+    "organisation": "local-authority:BRX",
+    "organisation-name": "Broxbourne Borough Council",
+    "documentation-url": "https://www.broxbourne.gov.uk/planning/local-plan-2018-2033/1",
+    "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
+    "name": "Broxbourne Local Plan 2018-2033",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2018,
+    "period-end-date": 2033,
+    "documents": [
+        {{
+            "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
+            "document-type": "local-plan",
+            "name": "Broxbourne Local Plan 2018-2033",
+            "reference": "LP-2018-2033",
+            "document-status": "adopted"
+        }},
+        {{
+            "document-url": "https://www.broxbourne.gov.uk/downloads/file/925/sustainability-appraisal-post-adoption-statement-may-2020",
+            "document-type": "sustainability-appraisal",
+            "name": "Sustainability Appraisal Post Adoption Statement",
+            "reference": "SA-2020",
+            "document-status": "adopted"
+        }},
+        {{
+            "document-url": "https://www.broxbourne.gov.uk/downloads/file/924/broxbourne-lp-report-final",
+            "document-type": "inspectors-report",
+            "name": "Inspector's Final Report",
+            "reference": "IR-2020",
+            "document-status": "adopted"
+        }}
+    ]
+}}
 
 STATUS FIELD GUIDE:
 - "draft" = Early draft or Issues and Options stage
@@ -592,7 +636,68 @@ DOCUMENT-URL (the actual PDF document):
 DOCUMENTS ARRAY:
 - The documents array should contain ALL related documents for this local plan
 - Include documents from the "DOCUMENTS FOUND" section that relate to this specific plan
-- Each document has a document-url and document-type (already classified)
+- For each document, provide:
+
+DOCUMENT-URL: Use the normalized URL from "DOCUMENTS FOUND" section
+
+DOCUMENT-TYPE: Use the pre-classified type from "DOCUMENTS FOUND" section (already done)
+
+NAME: Create a readable, descriptive name for the document
+  * Extract from the link text or infer from document type
+  * Examples:
+    - "Broxbourne Local Plan 2018-2033"
+    - "Sustainability Appraisal Post Adoption Statement May 2020"
+    - "Inspector's Final Report"
+    - "Core Strategy 2006-2031"
+    - "Site Allocations DPD"
+  * Use proper capitalization and full words (not abbreviations where possible)
+  * Include dates/years if mentioned in the link text
+
+REFERENCE: Create a short, unique reference code for the document
+  * Format: [TYPE-PREFIX]-[YEAR or IDENTIFIER]
+  * Type prefixes based on document-type:
+    - LP = local-plan
+    - CS = core-strategy
+    - SA-DPD = site-allocations
+    - AS = adoption-statement
+    - AAP = area-action-plan
+    - FVS = financial-viability-study
+    - IR = inspectors-report
+    - PM = policies-map
+    - SFRA = strategic-flood-risk-assessment
+    - SHMA = strategic-housing-market-assessment
+    - SPD = supplementary-planning-documents
+    - LDS = local-development-scheme
+    - SA = sustainability-appraisal
+    - LPR = local-plan-review
+    - VA = viability-assessment
+  * Examples:
+    - "LP-2018-2033" for Local Plan 2018-2033
+    - "SA-2020" for Sustainability Appraisal 2020
+    - "IR-2020" for Inspector's Report 2020
+    - "CS-2006-2031" for Core Strategy 2006-2031
+    - "SHMA-2015" for Strategic Housing Market Assessment 2015
+    - "SPD-EMPLOYMENT-2021" for Employment SPD 2021
+  * Ensure uniqueness within the organisation by adding identifiers if needed
+  * Keep it short (under 30 characters) but descriptive enough to identify the document
+
+DOCUMENT-STATUS: Determine the status of this specific document
+  * Look for status indicators in the document name/link text:
+    - "draft" = Draft documents, early versions, issues & options
+    - "consultation" = Documents out for consultation, preferred options, regulation 18/19 consultation
+    - "examination" = Examination documents, submitted versions undergoing examination
+    - "adopted" = Formally adopted documents, final versions
+    - "withdrawn" = Withdrawn or superseded documents
+  * Status keywords to look for:
+    - "draft", "early draft", "issues and options" → draft
+    - "consultation", "regulation 18", "regulation 19", "preferred options" → consultation
+    - "submission", "examination", "submitted version" → examination
+    - "adopted", "final", "post-adoption" → adopted
+    - "withdrawn", "superseded", "replaced" → withdrawn
+  * Default to "adopted" for older documents if no status indicator is present
+  * The document status may differ from the plan status (e.g., an adopted plan may have draft evidence documents)
+
+MATCHING DOCUMENTS TO PLANS:
 - For each plan, include:
   * The main local plan document (if different from document-url)
   * Supporting documents: sustainability appraisal, inspector's report, adoption statement
@@ -602,7 +707,6 @@ DOCUMENTS ARRAY:
   * Looking for plan names/dates in the document link text
   * Matching time periods (e.g., documents from 2018-2020 likely relate to a 2018-2033 plan)
   * Document types that logically belong together
-- Use the pre-classified document-type from the "DOCUMENTS FOUND" section
 - If a document clearly relates to the plan, include it even if not explicitly named
 
 OTHER FIELDS:

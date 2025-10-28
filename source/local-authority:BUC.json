@@ -1,0 +1,127 @@
+[
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/38759/Part_A_Spatial_Strategy_Draft_Local_Plan_for_Buckinghamshire__4z9Ug3B.pdf",
+    "name": "Local Plan for Buckinghamshire",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38759/Part_A_Spatial_Strategy_Draft_Local_Plan_for_Buckinghamshire__4z9Ug3B.pdf",
+        "document-type": "local-plan",
+        "name": "Part A Spatial Strategy Draft Local Plan for Buckinghamshire",
+        "reference": "LP-PA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38785/Part_B_Development_Management_Policies_Draft_Local_Plan_for_Buckinghamshire_00_nlb6XfF.pdf",
+        "document-type": "local-plan",
+        "name": "Part B Development Management Policies Draft Local Plan for Buckinghamshire",
+        "reference": "LP-PB-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38654/Sustainablity_Appraisal.pdf",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38713/Buckinghamshire_LP_SA_Scoping_Report_230403_ut33bXQ.pdf",
+        "document-type": "sustainability-appraisal",
+        "name": "Scoping Report for the Sustainability Appraisal",
+        "reference": "SA-SCOPING-2023",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38756/1._Bucks_Local_Plan_HRA_Scoping_Final_March_2023_accessible.pdf",
+        "document-type": "local-plan",
+        "name": "Habitats Regulation Assessment Scoping Report",
+        "reference": "HRA-SCOPING-2023",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38655/Habitats_Regulations_Assessment_of_the_Draft_Local_Plan_v2.pdf",
+        "document-type": "local-plan",
+        "name": "Habitats Regulation Assessment of Draft Plan",
+        "reference": "HRA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38656/Equality_Impact_Assessment.pdf",
+        "document-type": "local-plan",
+        "name": "Equality Impact Assessment",
+        "reference": "EIA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38657/Health_Impact_Assessment_July_2025_NezfmXD.pdf",
+        "document-type": "local-plan",
+        "name": "Health Impact Assessment",
+        "reference": "HIA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38776/Leaflet.pdf",
+        "document-type": "local-plan",
+        "name": "Summary Leaflet",
+        "reference": "SUMMARY-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38690/Strategic_Flood_Risk_Assessment_level_1_-_Final.pdf",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic Flood Risk Assessment Level 1",
+        "reference": "SFRA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38760/2025_09_08_Bucks_Local_Housing_Needs_Assessment_-_Report_of_Findings_-_Consula_snyjMT2.pdf",
+        "document-type": "local-plan",
+        "name": "Bucks Local Housing Needs Assessment Report of Findings",
+        "reference": "LHNA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38619/2025_09_08_Bucks_Local_Housing_Needs_Assessment_Excecutive_summary_-_Consulation_Draft.pdf",
+        "document-type": "local-plan",
+        "name": "Bucks Local Housing Needs Assessment Executive Summary",
+        "reference": "LHNA-EXEC-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38659/Buckinghamshire_Gypsy_and_Travellers_Accommodation_Assessment_Final_Report.pdf",
+        "document-type": "local-plan",
+        "name": "Buckinghamshire Gypsy and Travellers Accommodation Assessment",
+        "reference": "GTAA-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38664/Employment_Evidence_Main_Report_July_2025.pdf",
+        "document-type": "local-plan",
+        "name": "Employment Evidence Main Report",
+        "reference": "EMPLOY-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38660/Retail_Evidence_Main_Report_July_2025.pdf",
+        "document-type": "local-plan",
+        "name": "Retail Evidence Main Report",
+        "reference": "RETAIL-2025",
+        "document-status": "consultation"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38667/Baseline_Transport_Study_and_the_Local_Transport_Plan_Final_July_2024_1.pdf",
+        "document-type": "local-plan",
+        "name": "Baseline Transport Study and the Local Transport Plan 5",
+        "reference": "TRANSPORT-2024",
+        "document-status": "consultation"
+      }
+    ]
+  }
+]
