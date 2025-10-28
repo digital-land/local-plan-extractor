@@ -87,9 +87,9 @@ def detect_file_suffix(content, content_type, url):
     # Default to unknown
     return 'bin'
 
-def create_endpoint_symlink(endpoint, resource_hash, content, content_type, url):
+def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url):
     """
-    Create a symbolic link in collection/endpoint/ pointing to the resource file.
+    Create a hard link in collection/endpoint/ to the resource file.
 
     Args:
         endpoint: Endpoint hash (SHA256 of URL)
@@ -105,20 +105,20 @@ def create_endpoint_symlink(endpoint, resource_hash, content, content_type, url)
     # Detect file suffix
     suffix = detect_file_suffix(content, content_type, url)
 
-    # Create symlink path
-    symlink_path = endpoint_dir / f"{endpoint}.{suffix}"
+    # Create hardlink path
+    hardlink_path = endpoint_dir / f"{endpoint}.{suffix}"
 
-    # Resource path (relative to endpoint directory)
-    resource_path = Path("..") / "resource" / resource_hash
+    # Resource path (absolute)
+    resource_path = Path("collection/resource") / resource_hash
 
-    # Remove existing symlink if it exists
-    if symlink_path.exists() or symlink_path.is_symlink():
-        symlink_path.unlink()
+    # Remove existing hardlink if it exists
+    if hardlink_path.exists():
+        hardlink_path.unlink()
 
-    # Create the symlink
-    symlink_path.symlink_to(resource_path)
+    # Create the hard link
+    os.link(resource_path, hardlink_path)
 
-    print(f"  → Created symlink: endpoint/{endpoint}.{suffix} -> resource/{resource_hash}")
+    print(f"  → Created hardlink: endpoint/{endpoint}.{suffix} => resource/{resource_hash}")
 
 def download_document(url, endpoint):
     """
@@ -153,7 +153,7 @@ def download_document(url, endpoint):
         with open(log_path, 'r') as f:
             log_entry = json.load(f)
 
-        # Create symlink if resource exists
+        # Create hardlink if resource exists
         resource_hash = log_entry.get('resource')
         if resource_hash:
             resource_path = Path(f"collection/resource/{resource_hash}")
@@ -161,7 +161,7 @@ def download_document(url, endpoint):
                 # Read the file to detect suffix
                 with open(resource_path, 'rb') as f:
                     content = f.read()
-                create_endpoint_symlink(
+                create_endpoint_hardlink(
                     endpoint,
                     resource_hash,
                     content,
@@ -216,8 +216,8 @@ def download_document(url, endpoint):
         with open(log_path, 'w') as f:
             json.dump(log_entry, f, indent=2)
 
-        # Create endpoint symlink
-        create_endpoint_symlink(endpoint, resource_hash, content, content_type, url)
+        # Create endpoint hardlink
+        create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url)
 
         print(f"  ✓ Downloaded {content_length} bytes -> {resource_hash}")
 
