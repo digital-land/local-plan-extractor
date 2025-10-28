@@ -182,7 +182,7 @@ class LocalPlanHousingExtractor:
         prompt = """Please analyze this local plan document and extract the following housing information:
 
 1. **Plan Name**: The full title of the local plan document (e.g., "Birmingham Development Plan 2031", "Core Strategy 2020-2035")
-2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council"). For joint plans covering multiple authorities, list all authorities separated by " and " (e.g., "Babergh District Council and Mid Suffolk District Council")
+2. **Organisation Name**: The name of the local authority or organisation that produced the plan (e.g., "Birmingham City Council", "Bassetlaw District Council"). For joint plans covering multiple authorities, list all authorities separated by commas (e.g., "Babergh District Council, Mid Suffolk District Council")
 3. **Housing Numbers**: Extract housing numbers and put them in the housing-numbers array:
    - For SINGLE AUTHORITY plans: Create one entry in the array with the authority's housing numbers
    - For JOINT plans: Create one entry for each member authority with their individual housing numbers
@@ -222,7 +222,7 @@ Provide your response in this exact JSON format:
 Key points:
 - Extract the plan name from the cover page or title
 - Extract the organisation name from the cover page, title page, or document header (usually the local authority name)
-- For joint plans, list all authorities in organisation-name field separated by " and "
+- For joint plans, list all authorities in organisation-name field separated by commas
 - IMPORTANT: ALWAYS populate the housing-numbers array with at least one entry
 - For single authority plans: Create ONE entry in housing-numbers array with that authority's housing numbers
 - For joint plans: Create one entry for EACH member authority in the housing-numbers array
