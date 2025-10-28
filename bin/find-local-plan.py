@@ -168,6 +168,47 @@ class LocalPlanFinder:
 
         return urls
 
+    def extract_local_plan_links(self, url: str, html_content: str) -> List[str]:
+        """Extract links that likely point to local plan pages.
+
+        Args:
+            url: The base URL of the page
+            html_content: The HTML content to parse
+
+        Returns:
+            List of URLs that likely point to local plan pages
+        """
+        from urllib.parse import urljoin
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        local_plan_links = []
+
+        # Find all links
+        for link in soup.find_all('a', href=True):
+            href = link['href']
+            link_text = link.get_text(strip=True).lower()
+
+            # Look for links that mention local plan
+            local_plan_keywords = [
+                'local plan', 'local-plan', 'localplan',
+                'core strategy', 'site allocation',
+                'development plan', 'planning policy'
+            ]
+
+            # Check if link text or href contains local plan keywords
+            is_local_plan_link = any(keyword in link_text for keyword in local_plan_keywords) or \
+                                 any(keyword in href.lower() for keyword in local_plan_keywords)
+
+            if is_local_plan_link:
+                # Convert relative URLs to absolute
+                full_url = urljoin(url, href)
+
+                # Avoid duplicates and non-HTTP links
+                if full_url.startswith('http') and full_url not in local_plan_links:
+                    local_plan_links.append(full_url)
+
+        return local_plan_links
+
     def fetch_page_content(self, url: str, max_length: int = 50000) -> tuple[str, bool]:
         """Fetch and extract text content from a URL.
 
@@ -256,6 +297,8 @@ class LocalPlanFinder:
 
         # Fetch content from likely URLs
         pages_content = []
+        discovered_links = set()
+
         for i, result in enumerate(likely_urls, 1):
             print(f"Trying URL {i}/{len(likely_urls)}: {result['url']}", file=sys.stderr)
             content, success = self.fetch_page_content(result['url'])
@@ -266,8 +309,42 @@ class LocalPlanFinder:
                     'title': result['title'],
                     'content': content
                 })
-                # Stop after finding 3 successful pages
-                if len(pages_content) >= 3:
+
+                # Extract local plan links from this page
+                try:
+                    response = requests.get(result['url'], headers={
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                    }, timeout=15, allow_redirects=True)
+                    if response.status_code == 200:
+                        links = self.extract_local_plan_links(result['url'], response.text)
+                        print(f"  Found {len(links)} local plan links on this page", file=sys.stderr)
+                        discovered_links.update(links)
+                except Exception as e:
+                    pass
+
+                # Stop after finding 2 successful pages (to leave room for discovered links)
+                if len(pages_content) >= 2:
+                    break
+
+        # Now fetch content from discovered local plan links
+        print(f"\nFetching {len(discovered_links)} discovered local plan pages...", file=sys.stderr)
+        for link in list(discovered_links)[:5]:  # Limit to 5 additional pages
+            # Skip if we already have this URL
+            if any(p['url'] == link for p in pages_content):
+                continue
+
+            print(f"Fetching discovered link: {link}", file=sys.stderr)
+            content, success = self.fetch_page_content(link)
+            if success and content:
+                print(f"  ✓ Success! ({len(content)} chars)", file=sys.stderr)
+                pages_content.append({
+                    'url': link,
+                    'title': 'Discovered local plan page',
+                    'content': content
+                })
+
+                # Stop after we have enough pages total
+                if len(pages_content) >= 5:
                     break
 
         if not pages_content:
@@ -276,6 +353,8 @@ class LocalPlanFinder:
                 "organisation-name": org_name,
                 "error": "Could not fetch any page content from likely URLs"
             }]
+
+        print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
 
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
@@ -324,17 +403,24 @@ STATUS FIELD GUIDE:
 
 IMPORTANT:
 - Return an array with one element for EACH separate local plan document
+- Include BOTH current plans AND superseded/previous plans (e.g., a plan for 2018-2033 AND an older plan for 2001-2011)
 - Include BOTH adopted plans AND emerging/draft plans at various stages
 - Look for status indicators like "adopted", "Regulation 18", "Regulation 19", "consultation", "examination", "submitted", "withdrawn"
-- The documentation-url should be the most specific URL for that particular document
+- The documentation-url should be the MOST SPECIFIC URL for that particular document:
+  * Prefer pages specifically about that local plan (e.g., "/planning/local-plan-2018-2033")
+  * Prefer direct PDF links to plan documents if available
+  * Avoid generic planning section URLs unless that's all that's available
 - Extract plan period dates from the plan name or content (e.g., "2006-2031" means period-start-date: 2006, period-end-date: 2031)
+  * Look carefully for period dates - they may be in the plan title, headings, or document text
+  * Common formats: "2018-2033", "2018 to 2033", "plan period 2018-2033"
 - Use empty string "" for period dates if not clearly stated
 - For the year field:
-  * If adopted, use the adoption year
+  * Look for adoption dates in formats like "adopted 23 June 2020", "adoption date: 2020-06-23", "adopted in 2020"
+  * If adopted, use the adoption year (extract the year from the full date if needed)
   * If not adopted, use the year of the latest milestone (e.g., when consultation started, when submitted)
   * If no clear year is found, use ""
 - If you can only identify one local plan, return an array with one element
-- Order the array with adopted plans first, then emerging plans in order of their stage
+- Order the array with current/most recent plans first, then older/superseded plans
 
 Provide ONLY the JSON array response, no other text."""
 
@@ -476,6 +562,8 @@ Status values:
         likely_urls = finder.construct_likely_urls(org_name, official_website)
         success_count = 0
 
+        discovered_links = set()
+
         for i, result in enumerate(likely_urls[:10], 1):  # Test first 10 URLs
             print(f"{i}. {result['url']}", file=sys.stderr)
             content, success = finder.fetch_page_content(result['url'])
@@ -487,7 +575,24 @@ Status values:
                     print(f"\n   First 500 chars of content:", file=sys.stderr)
                     print(f"   {content[:500]}...\n", file=sys.stderr)
 
+                # Try to extract local plan links
+                try:
+                    import requests
+                    response = requests.get(result['url'], headers={
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    }, timeout=15, allow_redirects=True)
+                    if response.status_code == 200:
+                        links = finder.extract_local_plan_links(result['url'], response.text)
+                        if links:
+                            print(f"   Found {len(links)} local plan links:", file=sys.stderr)
+                            for link in links[:5]:  # Show first 5
+                                print(f"     - {link}", file=sys.stderr)
+                            discovered_links.update(links)
+                except Exception as e:
+                    pass
+
         print(f"\nSuccessfully fetched {success_count} pages", file=sys.stderr)
+        print(f"Discovered {len(discovered_links)} total local plan links", file=sys.stderr)
         sys.exit(0)
 
     # Normal mode - full search
