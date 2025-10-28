@@ -148,19 +148,33 @@ class LocalPlanFinder:
         # Common paths for local plan pages
         paths = [
             "/planning",  # Try planning section first
-            "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets and Contensis CMS
+            "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets adopted plan (Contensis CMS)
+            "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",  # Tower Hamlets emerging plan
+            "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",  # Case variation
+            "/lgnl/planning_and_building_control/planning_policy_guidance/new-local-plan.aspx",  # Other Contensis CMS variations
             "/newlocalplan",  # Fenland and similar councils
             "/developmentplan",  # Fenland and similar councils
+            "/emerging-local-plan",  # Common emerging plan patterns
+            "/emerging-plan",
+            "/draft-local-plan",
+            "/draft-plan",
+            "/new-local-plan",
             "/local-plan",
             "/localplan",
             "/planning/local-plan",
+            "/planning/emerging-local-plan",
+            "/planning/draft-local-plan",
+            "/planning/new-local-plan",
             "/planning/planning-policy/local-plan",
+            "/planning/planning-policy/emerging-local-plan",
             "/planning-policy/local-plan",
+            "/planning-policy/emerging-local-plan",
             "/planning-policy",
             "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Variant without .aspx
             "/home/planning-development/planning-strategic-planning",
             "/home/planning-development/planning-strategic-planning/new-local-plan",
             "/planning/strategic-planning/local-plan",
+            "/planning/strategic-planning/emerging-local-plan",
             "/planning/strategic-planning",
             "/services/planning/planning-policy",
             "/planning-and-building-control/planning-policy",
@@ -200,11 +214,16 @@ class LocalPlanFinder:
             href = link['href']
             link_text = link.get_text(strip=True).lower()
 
-            # Look for links that mention local plan
+            # Look for links that mention local plan (including emerging/draft/new plans)
             local_plan_keywords = [
                 'local plan', 'local-plan', 'localplan',
+                'emerging local plan', 'emerging plan', 'emerging-local-plan',
+                'draft local plan', 'draft plan', 'draft-local-plan',
+                'new local plan', 'new plan', 'new-local-plan',
                 'core strategy', 'site allocation',
-                'development plan', 'planning policy'
+                'development plan', 'planning policy',
+                'regulation 18', 'regulation 19',
+                'consultation', 'adopted local plan'
             ]
 
             # Check if link text or href contains local plan keywords
@@ -447,13 +466,13 @@ class LocalPlanFinder:
                 except Exception as e:
                     pass
 
-                # Stop after finding 2 successful pages (to leave room for discovered links)
-                if len(pages_content) >= 2:
+                # Stop after finding 3 successful pages (to leave room for discovered links)
+                if len(pages_content) >= 3:
                     break
 
         # Now fetch content from discovered local plan links
         print(f"\nFetching {len(discovered_links)} discovered local plan pages...", file=sys.stderr)
-        for link in list(discovered_links)[:5]:  # Limit to 5 additional pages
+        for link in list(discovered_links)[:10]:  # Limit to 10 additional pages
             # Skip if we already have this URL
             if any(p['url'] == link for p in pages_content):
                 continue
@@ -481,7 +500,7 @@ class LocalPlanFinder:
                     pass
 
                 # Stop after we have enough pages total
-                if len(pages_content) >= 5:
+                if len(pages_content) >= 8:
                     break
 
         if not pages_content:
