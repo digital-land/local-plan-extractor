@@ -148,6 +148,7 @@ class LocalPlanFinder:
         # Common paths for local plan pages
         paths = [
             "/planning",  # Try planning section first
+            "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets and Contensis CMS
             "/newlocalplan",  # Fenland and similar councils
             "/developmentplan",  # Fenland and similar councils
             "/local-plan",
@@ -156,6 +157,7 @@ class LocalPlanFinder:
             "/planning/planning-policy/local-plan",
             "/planning-policy/local-plan",
             "/planning-policy",
+            "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Variant without .aspx
             "/home/planning-development/planning-strategic-planning",
             "/home/planning-development/planning-strategic-planning/new-local-plan",
             "/planning/strategic-planning/local-plan",
