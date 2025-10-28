@@ -1,0 +1,23 @@
+[
+  {
+    "organisation": "local-authority:TES",
+    "organisation-name": "Test Valley Borough Council",
+    "documentation-url": "https://www.testvalley.gov.uk/planning-and-building/planningpolicy/local-plan-review",
+    "document-url": "https://www.testvalley.gov.uk/assets/attach/24500/Local-Plan-2042-Revised-Regulation-18-draft-Local-Plan.pdf",
+    "name": "Test Valley Local Plan 2042",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://www.testvalley.gov.uk/assets/attach/24500/Local-Plan-2042-Revised-Regulation-18-draft-Local-Plan.pdf",
+        "document-type": "local-plan",
+        "name": "Local Plan 2042 Revised Regulation 18 Draft Local Plan",
+        "reference": "LP-2042",
+        "document-status": "consultation",
+        "endpoint": "6be9353c6a1e49f9bbbc925ff7ee6385ec16f033cc66880e7643c5ffbdcbf3da"
+      }
+    ]
+  }
+]
