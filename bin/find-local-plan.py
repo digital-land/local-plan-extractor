@@ -141,6 +141,10 @@ class LocalPlanFinder:
         # Common paths for local plan pages
         paths = [
             "/planning",  # Try planning section first
+            "/newlocalplan",  # Fenland and similar councils
+            "/developmentplan",  # Fenland and similar councils
+            "/local-plan",
+            "/localplan",
             "/planning/local-plan",
             "/planning/planning-policy/local-plan",
             "/planning-policy/local-plan",
@@ -151,7 +155,6 @@ class LocalPlanFinder:
             "/planning/strategic-planning",
             "/services/planning/planning-policy",
             "/planning-and-building-control/planning-policy",
-            "/local-plan",
             "/planning-applications/planning-policy",
             "/planning-services/planning-policy",
             "",  # Root path
