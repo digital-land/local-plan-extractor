@@ -15,6 +15,7 @@ CORE_DOCUMENTS=$(wildcard document/*.pdf)
 TARGETS=$(patsubst document/%,local-plan/%,$(patsubst %.pdf,%.json,$(CORE_DOCUMENTS)))
 
 all::	$(SOURCE_DATA) $(TARGETS)
+	python3 bin/render.py
 
 local-plan/%.json: document/%.pdf
 	@mkdir -p $(dir $@)
