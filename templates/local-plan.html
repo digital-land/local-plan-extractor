@@ -16,44 +16,17 @@
 {% endblock %}
 
 {% block content %}
-<div class="govuk-grid-row">
-  <div class="govuk-grid-column-two-thirds">
     <h1 class="govuk-heading-xl">{{ plan.name }}</h1>
-
-    {% if plan.get('organisation-name') %}
-    <p class="govuk-body-l">{{ plan['organisation-name'] }}</p>
-    {% endif %}
-
-    <div class="tag-list">
-      {% if plan.get('confidence') %}
-      <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
-        {{ plan.confidence|upper }} CONFIDENCE
-      </strong>
-      {% endif %}
-
-      {% if plan.get('period-start-date') and plan.get('period-end-date') %}
-      <strong class="govuk-tag govuk-tag--blue">
-        {{ plan['period-start-date'] }}-{{ plan['period-end-date'] }}
-      </strong>
-      {% endif %}
-
-      {% if plan.get('organisations') and plan.organisations|length > 1 %}
-      <strong class="govuk-tag govuk-tag--purple">
-        JOINT PLAN ({{ plan.organisations|length }} authorities)
-      </strong>
-      {% endif %}
-    </div>
-  </div>
-</div>
 
 {% if plan.get('local-planning-authorities') %}
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <h2 class="govuk-heading-l" style="margin-top: 40px;">Boundary map</h2>
     <div id="map"></div>
   </div>
 </div>
 {% endif %}
+
+
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
@@ -64,7 +37,7 @@
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Organisation</dt>
         <dd class="govuk-summary-list__value">
-          <code>{{ plan.organisation }}</code>
+            <code><a href="../organisation/{{ plan.organisation }}">{{ plan.organisation }}</a></code>
         </dd>
       </div>
       {% endif %}
@@ -98,7 +71,7 @@
         <dt class="govuk-summary-list__key">Local planning authorities</dt>
         <dd class="govuk-summary-list__value">
           {% for lpa in plan['local-planning-authorities'] %}
-            <code style="display: block; margin-bottom: 5px;">{{ lpa }}</code>
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/{{lpa}}">{{ lpa }}</a></code>
           {% endfor %}
         </dd>
       </div>
@@ -132,6 +105,7 @@
       </div>
       {% endif %}
     </dl>
+
 
     {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
     <div class="organisation-breakdown">
