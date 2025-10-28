@@ -1,0 +1,9 @@
+{
+  "resource": "165d417ed3ff5d612e7fe62abe1ab4744c0bf4e8",
+  "endpoint-url": "https://maps.cheltenham.gov.uk/map/Aurora.svc/run?nocache=5a07a51c-4eed-9956-ffc7-5f4b0b6f871a&resize=always&script=%5CAurora%5CCBC%20JCS%20Allocations.AuroraScript%24",
+  "entry-date": "2025-10-28T23:21:26Z",
+  "status": "200",
+  "elapsed": "0.187",
+  "content-type": "text/html;charset=UTF-8",
+  "bytes": "2356"
+}
