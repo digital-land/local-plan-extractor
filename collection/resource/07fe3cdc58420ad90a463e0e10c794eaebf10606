@@ -1,0 +1,691 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>			<script>
+				window["ga-disable-UA-686673-1"] = true;
+			</script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-686673-1"></script>
+		<script>
+			function gtag() {
+				window.dataLayer = window.dataLayer || [];
+				dataLayer.push(arguments);
+			}
+			(function (gi) {
+				var load = function () {
+					delete window["ga-disable-UA-686673-1"];
+					gtag('js', new Date());
+					gtag('config', 'UA-686673-1', {
+						'anonymizeIp': true,
+						'location': 'https:\/\/www.fenland.gov.uk\/article\/16768\/Sustainability-Appraisal',
+							
+								'cookie_flags': 'SameSite=None;Secure'
+							
+					});
+				};
+
+				var unload = function() {
+					window["ga-disable-UA-686673-1"] = true;
+				};
+
+				var init = function() {
+					gi.cookiepolicy.registerProvider('Google Analytics', load, unload);
+				};
+
+				if (document.readyState === "complete" || document.readyState === "interactive") {
+					init();
+				} else {
+					document.addEventListener("DOMContentLoaded", init);
+				}
+			})(window.gi = window.gi || {});
+		</script>
+<script type="application/ld+json">
+{
+  "image": {
+    "@type": "imageObject",
+    "width": 1200,
+    "height": 630,
+    "contentUrl": "https://www.fenland.gov.uk/image/14707/Logo-Small/jsonld.png?m=1524654961270",
+    "caption": "Logo - Small"
+  },
+  "@type": "WebPage",
+  "name": "Sustainability Appraisal  - Fenland District Council",
+  "description": "Sustainability Appraisal main report and accompanying documents",
+  "@context": "https://schema.org",
+  "url": "https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal"
+}
+</script>
+<title>Sustainability Appraisal  - Fenland District Council</title>
+<meta name="description" content="Sustainability Appraisal main report and accompanying documents" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Sustainability Appraisal  - Fenland District Council" />
+<meta name="twitter:description" content="Sustainability Appraisal main report and accompanying documents" />
+<meta name="twitter:image" content="https://www.fenland.gov.uk/image/14707/Logo-Small/twittercard.png?m=1524654961270" />
+<meta name="twitter:image:alt" content="Logo - Small" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Sustainability Appraisal  - Fenland District Council" />
+<meta property="og:description" content="Sustainability Appraisal main report and accompanying documents" />
+<meta property="og:url" content="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal" />
+<meta property="og:site_name" content="Fenland District Council" />
+<meta property="og:image" content="https://www.fenland.gov.uk/image/14707/Logo-Small/opengraph.png?m=1524654961270" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<base href="https://www.fenland.gov.uk/" />
+<link rel="shortcut icon" sizes="32x32" href="https://www.fenland.gov.uk/image/17070/Favicon/favicon.png?m=1597067180880" />
+<link rel="apple-touch-icon" sizes="32x32" href="https://www.fenland.gov.uk/image/17070/Favicon/appletouchiconsmall.png?m=1597067180880" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.fenland.gov.uk/image/17070/Favicon/appletouchiconmedium.png?m=1597067180880" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.fenland.gov.uk/image/17070/Favicon/appletouchiconlarge.png?m=1597067180880" />
+<link rel="stylesheet" href="https://www.fenland.gov.uk/cruise.css?v=638950135040000000" />
+<script src="https://www.fenland.gov.uk/cruise.js?v=638948193060000000"></script>
+</head><body class="template--default" data-id="16768" data-print-date="October 28, 2025" data-print-url="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal">
+					<section aria-label="Accessibility links">
+						<a href="https://www.fenland.gov.uk:443/article/16768/Sustainability-Appraisal#maincontent" class="skip-link">Skip to main content</a>
+					</section>
+				
+
+
+
+
+
+
+
+
+
+<script>
+	gi.cookiepolicy.init({"categories":[{"id":"analytics","providers":["Google Analytics"],"consented":false}]});
+</script>
+
+
+<div class="cookie-consent-prompt" role="region" aria-label="Cookies">
+		<div id="cookie-consent-prompt">
+
+
+<div class="block block--muted block--cookie-consent-prompt">				<h2 class="block__heading">This website uses cookies</h2>
+				<div class="block__summary a-body a-body--cookie">
+
+
+
+				</div>
+				<div class="block__actions">
+					<form id="cookie-consent-form" method="post" action="https://www.fenland.gov.uk/cookies">
+						<button class="btn btn--contrast btn--complete btn--cookie-accept" name="acceptall" value="true" type="submit">
+							<span class="btn__text">Accept all cookies</span>
+						</button>
+							<button class="btn btn--contrast btn--cancel btn--cookie-reject" name="rejectall" value="true">
+								<span class="btn__text">Reject additional cookies</span>
+							</button>
+						<a href="https://www.fenland.gov.uk/cookies" class="cta-link cta-link--contrast cta-link--cookie-consent-contrast">Change cookie preferences</a>
+					</form>
+				</div>
+
+</div>		</div>
+			<div id="cookie-consents-updated" class="cookie-consents-updated-confirmation" role="alert">
+
+
+<div class="block block--muted block--cookie-consent-prompt block--cookie-consents-updated-confirmation">				<p id="cookie-consents-updated-message" class="cookie-consents-updated-confirmation__message">Your cookie preferences were saved</p>
+					<a href="https://www.fenland.gov.uk/cookies" class="cookie-consents-updated-confirmation__link">Change cookie preferences</a>
+
+</div>		</div>
+		<script>
+			var ccpcm = document.getElementById('cookie-consents-updated-message');
+			var hideBtn = document.createElement('button');
+			hideBtn.appendChild(document.createTextNode("Hide"));
+			hideBtn.setAttribute('class', 'btn btn--link btn--cookie-consents-updated-confirmation-hide');
+			hideBtn.onclick = function() {
+				document.getElementById('cookie-consents-updated').style = 'display: none;';
+			};
+			ccpcm.parentNode.appendChild(hideBtn);
+		</script>
+
+
+
+
+<script>
+	document.getElementById('cookie-consent-form').addEventListener('submit', function(event) {
+		if (event.submitter) {
+			var confMessage = document.getElementById('cookie-consents-updated');
+			confMessage.style = "";
+
+			var form = event.target;
+			var formData = new FormData(form);
+			formData.append(event.submitter.name, event.submitter.value);
+			formData.append("async", "true");
+
+			var xhr = new XMLHttpRequest();
+			xhr.withCredentials = true;
+			xhr.onreadystatechange = function () {
+				if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+						
+						var prompt = document.getElementById('cookie-consent-prompt');
+						if (prompt) {
+							prompt.style = "display:none;"
+						}
+						
+					confMessage.style = "display:block;";
+					confMessage.scrollIntoView();
+					setTimeout(function() {
+						gi.cookiepolicy.refreshConsents(form);
+					}, 0);
+				}
+			}
+			xhr.open(form.method, form.action);
+			xhr.send(formData);
+
+			event.preventDefault();
+		}
+	});
+</script>	</div>
+			<header>
+
+
+
+
+<div class="mobilebar">
+<div class="gi-mobilenavtoggle gi-mobilenavtoggle--search gi-mobilenavtoggle--nojs">
+  <button id="mobilenavsearchtoggle" class="gi-mobilenavtoggle__btn" aria-haspopup="true" aria-controls="mobilenavsearch" hidden="">
+  <span class="gi-mobilenavtoggle__mtcontainer gi-mobilenavtoggle__mtcontainer--search">
+     <span class="gi-mobilenavtoggle__mtrotate gi-mobilenavtoggle__mtrotate--search">
+       <span class="gi-mobilenavtoggle__mt1 gi-mobilenavtoggle__mt1--search"></span>
+       <span class="gi-mobilenavtoggle__mt2 gi-mobilenavtoggle__mt2--search"></span>
+       <span class="gi-mobilenavtoggle__mt3 gi-mobilenavtoggle__mt3--search"></span>
+     </span>
+  </span>
+  <span class="accessibility">Toggle search</span>
+  </button>
+  <a href="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal#mobilenavsearch" class="gi-mobilenavtoggle__fallback">
+  <span class="gi-mobilenavtoggle__mtcontainer gi-mobilenavtoggle__mtcontainer--search">
+     <span class="gi-mobilenavtoggle__mtrotate gi-mobilenavtoggle__mtrotate--search">
+       <span class="gi-mobilenavtoggle__mt1 gi-mobilenavtoggle__mt1--search"></span>
+       <span class="gi-mobilenavtoggle__mt2 gi-mobilenavtoggle__mt2--search"></span>
+       <span class="gi-mobilenavtoggle__mt3 gi-mobilenavtoggle__mt3--search"></span>
+     </span>
+  </span>
+  <span class="accessibility">Toggle search</span>
+  </a>
+</div>
+<script>gi.mobileNav.initialiseToggle("mobilenavsearchtoggle");</script>
+<div class="gi-mobilenav gi-mobilenav--search gi-mobilenav--closed gi-mobilenav--nojs" id="mobilenavsearch" hidden="" data-fullscreen="false" data-exclusive="true">
+<form id="mobilesearch" class="gi-sitesearch gi-sitesearch--mobile" action="https://www.fenland.gov.uk/article/13099/Search" method="get" role="search" data-collapsible="false" data-suppress-closebtn="false" data-focus-open="false">
+  <div class="gi-sitesearch__container">
+    <div class="gi-sitesearch__closetoggle">
+      <button type="button" class="btn btn--close btn--icon-only gi-sitesearch__button gi-sitesearch__button--close">
+        <span class="btn__text gi-sitesearch__buttontext accessibility">Close</span>
+      </button>
+    </div>
+    <div class="gi-sitesearch__searchfield">
+      <label id="mobilesearch_input_label" class="gi-sitesearch__label accessibility" for="mobilesearch_input">Search</label>
+
+
+
+<div class="search-suggestion-wrapper">
+	<div id="mobilesearch_input_container">
+		<input data-dataurl="https://www.fenland.gov.uk/article/13099/Search" id="mobilesearch_input" class="searchform__inputtxt searchform__inputtxt--sitesearch" placeholder="Search" name="q" value="" type="text" maxlength="100" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="mobilesearch_input_suggestions" aria-haspopup="listbox" aria-autocomplete="list" aria-labelledby="mobilesearch_input_label" >
+	</div>
+	<ul id="mobilesearch_input_suggestions" class="search-suggestion" role="listbox"></ul>
+</div>
+<script>
+	var autocomplete = new SearchSuggestion({
+		element: 'input[id="mobilesearch_input"]',
+		modifier: ""
+	});
+</script>
+    </div>
+    <div class="gi-sitesearch__searchtoggle">
+      <button type="submit" class="btn btn--search btn--icon-only gi-sitesearch__button gi-sitesearch__button--search">
+        <span class="btn__text gi-sitesearch__buttontext accessibility">Find</span>
+      </button>
+    </div>
+  </div>
+</form>
+<script>gi.sitesearch.initialise("mobilesearch");</script>
+<div class="gi-mobilenav__item gi-mobilenav__item--closelink">
+<a href="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal" class="gi-mobilenav__link gi-mobilenav__link--closelink">Close search</a>
+</div>
+</div>
+<script>gi.mobileNav.initialiseNavigation("mobilenavsearch");</script>
+	
+
+<div class="gi-mobilenavtoggle gi-mobilenavtoggle--toggle gi-mobilenavtoggle--nojs">
+  <button id="mobilenavtoggle" class="gi-mobilenavtoggle__btn" aria-haspopup="true" aria-controls="mobilenav" hidden="">
+  <span class="gi-mobilenavtoggle__mtcontainer gi-mobilenavtoggle__mtcontainer--toggle">
+     <span class="gi-mobilenavtoggle__mtrotate gi-mobilenavtoggle__mtrotate--toggle">
+       <span class="gi-mobilenavtoggle__mt1 gi-mobilenavtoggle__mt1--toggle"></span>
+       <span class="gi-mobilenavtoggle__mt2 gi-mobilenavtoggle__mt2--toggle"></span>
+       <span class="gi-mobilenavtoggle__mt3 gi-mobilenavtoggle__mt3--toggle"></span>
+     </span>
+  </span>
+  <span class="accessibility">Toggle menu</span>
+  </button>
+  <a href="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal#mobilenav" class="gi-mobilenavtoggle__fallback">
+  <span class="gi-mobilenavtoggle__mtcontainer gi-mobilenavtoggle__mtcontainer--toggle">
+     <span class="gi-mobilenavtoggle__mtrotate gi-mobilenavtoggle__mtrotate--toggle">
+       <span class="gi-mobilenavtoggle__mt1 gi-mobilenavtoggle__mt1--toggle"></span>
+       <span class="gi-mobilenavtoggle__mt2 gi-mobilenavtoggle__mt2--toggle"></span>
+       <span class="gi-mobilenavtoggle__mt3 gi-mobilenavtoggle__mt3--toggle"></span>
+     </span>
+  </span>
+  <span class="accessibility">Toggle menu</span>
+  </a>
+</div>
+<script>gi.mobileNav.initialiseToggle("mobilenavtoggle");</script>
+
+<nav class="gi-mobilenav gi-mobilenav--closed gi-mobilenav--nojs" id="mobilenav" hidden="" data-fullscreen="false" data-exclusive="true" aria-label="Top utilities">
+
+
+
+
+		<div class="main-nav">
+			<ul class="main-nav__list">
+					<li class="main-nav__item">
+							<a href="https://www.fenland.gov.uk/toptasks" class="main-nav__link">Top Tasks</a>
+					</li>
+					<li class="main-nav__item">
+							<a href="https://www.fenland.gov.uk/ourservices" class="main-nav__link">Council Services</a>
+					</li>
+					<li class="main-nav__item">
+							<a href="https://www.fenland.gov.uk/yourcouncil" class="main-nav__link">Your Council</a>
+					</li>
+			</ul>
+		</div>
+<div class="gi-mobilenav__item gi-mobilenav__item--closelink">
+<a href="https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal" class="gi-mobilenav__link gi-mobilenav__link--closelink">Close navigation</a>
+</div>
+</nav>
+<script>gi.mobileNav.initialiseNavigation("mobilenav");</script>
+</div>
+
+
+
+
+<nav class="toputils" aria-label="Top utilities">
+	<div class="container">
+		<div class="toputils__right">
+
+
+
+
+
+
+		</div>
+	</div>
+</nav>
+
+
+
+<div class="header header--thin">
+	<div class="container">
+
+
+
+	<div class="gi-sitelogo gi-sitelogo--header">
+		<a href="https://www.fenland.gov.uk/" class="gi-sitelogo__link">
+			<img alt="" class="gi-sitelogo__image" height="80" src="https://www.fenland.gov.uk/image/14707/Logo-Small/logo.png?m=1524654961270" width="172" />
+			<span class="gi-sitelogo__extratext accessibility">Link to "</span><span class="gi-sitelogo__titletext accessibility">Fenland District Council</span><span class="gi-sitelogo__extratext accessibility">" homepage</span>
+		</a>
+	</div>
+
+			<div class="header__nav">
+
+
+
+
+	<div class="header__nav-search">
+		<form id="headersearch" class="gi-sitesearch gi-sitesearch--header" action="https://www.fenland.gov.uk/article/13099/Search" method="get" role="search" data-collapsible="true" data-suppress-closebtn="true" data-focus-open="true">
+  <div class="gi-sitesearch__container">
+    <div class="gi-sitesearch__closetoggle">
+      <button type="button" class="btn btn--close btn--icon-only gi-sitesearch__button gi-sitesearch__button--close">
+        <span class="btn__text gi-sitesearch__buttontext accessibility">Close</span>
+      </button>
+    </div>
+    <div class="gi-sitesearch__searchfield">
+      <label id="headersearch_input_label" class="gi-sitesearch__label accessibility" for="headersearch_input">Search</label>
+
+
+
+<div class="search-suggestion-wrapper">
+	<div id="headersearch_input_container">
+		<input data-dataurl="https://www.fenland.gov.uk/article/13099/Search" id="headersearch_input" class="searchform__inputtxt searchform__inputtxt--sitesearch" placeholder="Search" name="q" value="" type="text" maxlength="100" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="headersearch_input_suggestions" aria-haspopup="listbox" aria-autocomplete="list" aria-labelledby="headersearch_input_label" >
+	</div>
+	<ul id="headersearch_input_suggestions" class="search-suggestion" role="listbox"></ul>
+</div>
+<script>
+	var autocomplete = new SearchSuggestion({
+		element: 'input[id="headersearch_input"]',
+		modifier: ""
+	});
+</script>
+    </div>
+    <div class="gi-sitesearch__searchtoggle">
+      <button type="submit" class="btn btn--search btn--icon-only gi-sitesearch__button gi-sitesearch__button--search">
+        <span class="btn__text gi-sitesearch__buttontext accessibility">Find</span>
+      </button>
+    </div>
+  </div>
+</form>
+<script>gi.sitesearch.initialise("headersearch");</script>
+
+	</div>
+
+
+
+<nav id="c_61573228712900" aria-label="Site navigation" class="gi-sitenav gi-sitenav--toplevel">
+<ul class="gi-sitenav__list gi-sitenav__list--lvl1">
+<li class="gi-sitenav__item gi-sitenav__item--lvl1">
+<a   href="https://www.fenland.gov.uk/toptasks" class="gi-sitenav__link gi-sitenav__link--lvl1">Top Tasks</a>
+</li>
+<li class="gi-sitenav__item gi-sitenav__item--lvl1">
+<a   href="https://www.fenland.gov.uk/ourservices" class="gi-sitenav__link gi-sitenav__link--lvl1">Council Services</a>
+</li>
+<li class="gi-sitenav__item gi-sitenav__item--lvl1">
+<a   href="https://www.fenland.gov.uk/yourcouncil" class="gi-sitenav__link gi-sitenav__link--lvl1">Your Council</a>
+</li>
+</ul>
+</nav>
+<script>gi.sitenav.init('c_61573228712900')</script>
+
+			</div>
+	</div>
+</div>
+
+		<nav class="atoznav" aria-label="A to Z navigation">
+			<div class="container">
+				<ul class="atoznav__list">
+					<li class="atoznav__title">A-Z of Services: </li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/A">A</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/B">B</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/C">C</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/D">D</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/E">E</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/F">F</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/G">G</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/H">H</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/I">I</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/J">J</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/K">K</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/L">L</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/M">M</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/N">N</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/O">O</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/P">P</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/Q">Q</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/R">R</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/S">S</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/T">T</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/U">U</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/V">V</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/W">W</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/X">X</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/Y">Y</a>						</li>
+						<li class="atoznav__list-item">
+<a href="https://www.fenland.gov.uk/Z">Z</a>						</li>
+				</ul>
+			</div>
+		</nav>
+
+
+
+
+					<div class="breadcrumb">
+						<div class="container">
+	<nav class="gi-breadcrumb" aria-label="page breadcrumb">
+		<ol class="gi-breadcrumb__list">
+					<li class="gi-breadcrumb__item">
+<a class="gi-breadcrumb__link" href="https://www.fenland.gov.uk/">Home</a>					</li>
+					<li class="gi-breadcrumb__item">
+<a class="gi-breadcrumb__link" href="https://www.fenland.gov.uk/ourservices">Council Services</a>					</li>
+					<li class="gi-breadcrumb__item">
+<a class="gi-breadcrumb__link" href="https://www.fenland.gov.uk/planningandbuilding">Planning</a>					</li>
+					<li class="gi-breadcrumb__item">
+<a class="gi-breadcrumb__link" href="https://www.fenland.gov.uk/planningpolicy">Planning Policy and the Local Plan</a>					</li>
+					<li class="gi-breadcrumb__item">
+<a class="gi-breadcrumb__link" href="https://www.fenland.gov.uk/newlocalplan">Emerging Local Plan</a>					</li>
+		</ol>
+	</nav>
+
+						</div>
+					</div>
+			</header>
+				<main id="maincontent" class="maincontent">
+
+
+					
+					<div class="container">
+
+
+	<div class="a-heading a-heading--default">
+		<h1 class="a-heading__title">Sustainability Appraisal </h1>
+	</div>
+						<div class="maincolumns">
+							<div class="maincontent__left">
+
+
+
+
+	<p class="a-intro a-intro--default">
+			Sustainability Appraisal main report and accompanying documents
+	</p>
+
+
+	<div class="a-body a-body--default">
+
+
+<p>These documents are designed to accompany the Draft Local Plan consultation.&nbsp;</p>
+	</div>
+
+								 
+
+
+
+	<div class="a-share">
+		<p class="a-share__label">Share this page</p>
+		<a class="a-share__link" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal">
+			<img class="a-share__image" src="images/social/facebook.png" alt="Share on Facebook" />
+		</a>
+		<a class="a-share__link" target="_blank" href="https://twitter.com/share?url=https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal">
+			<img class="a-share__image" src="images/social/twitter.png" alt="Share on Twitter" />
+		</a>
+		<a class="a-share__link" href="mailto:?subject=Sustainability%20Appraisal%20&amp;body=I%20thought%20you%20might%20be%20interested%20in%20this%20web%20page%20-%20https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal">
+			<img class="a-share__image" src="images/social/email.png" alt="Share by email" />
+		</a>
+		<p class="a-share__label" id="share-print-label" style="display: none;">Print</p>
+		<a class="a-share__link" id="share-print-link" href="javascript:window.print();" style="display: none;">
+			<img class="a-share__image" src="images/social/print.png" alt="Print this page" />
+		</a>
+		<script>
+			(function () {
+				document.querySelector('#share-print-label').style.display = 'initial';
+				document.querySelector('#share-print-link').style.display = 'initial';
+			})();
+		</script>
+	</div>
+							</div>
+								<aside class="maincontent__right">
+
+<div class="panel panel--relmedia">
+<h2 class="panel__heading">	<div class="panel__headingtext">Downloads</div>
+</h2>	<div class="panel__content">
+
+		<ul class="panel__list panel__list--relmedia">
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18868/CD04-2a-Sustainability-Appraisal-Non-Technical-Summary/pdf/CD04-2a_Draft_Local_Plan_SA_Non_technical_summary.pdf?m=1661419278603" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2a - Sustainability Appraisal Non-Technical Summary </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">1 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18869/CD04-2b-Sustainability-Appraisal-Full-Report/pdf/CD04-2b_Draft_Local_Plan_SA_Report_Aug_22.pdf?m=1661419331950" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2b - Sustainability Appraisal Full Report </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">1 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18870/CD04-2c-Sustainability-Appraisal-Summary-of-all-policies/pdf/CD04-2c_Draft_Local_Plan_SA_Summary_of_All_Policies.pdf?m=1661419518377" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2c - Sustainability Appraisal: Summary of all policies </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">719 KB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18871/CD04-2d-Sustainability-Appraisal-Appendix-A-Policies/pdf/CD04-2d_Draft_Local_Plan_SA_Appendix_A_Policies.pdf?m=1661419499303" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2d - Sustainability Appraisal: Appendix A Policies </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">2 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18872/CD04-2e-Sustainability-Appraisal-Appendix-B-Sites/pdf/CD04-2e_Draft_Local_Plan_SA_Appendix_B_Sites.pdf?m=1661419577447" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2e - Sustainability Appraisal: Appendix B Sites </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">1 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18873/CD04-2f-1-Sustainability-Appraisal-Appendix-C-Site-Options-Part-1/pdf/CD04-2fi_Draft_Local_Plan_SA_Appendix_C_Site_Options_Part_1.pdf?m=1661419700350" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (1) - Sustainability Appraisal: Appendix C Site Options Part 1 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">15 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18874/CD04-2f-2-Sustainability-Appraisal-Appendix-C-Site-Options-Part-2/pdf/CD04-2fii_Draft_Local_Plan_SA_Appendix_C_Site_Options_Part_1.pdf?m=1661421373547" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (2) - Sustainability Appraisal: Appendix C Site Options Part 2 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">15 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18875/CD04-2f-3-Sustainability-Appraisal-Appendix-C-Site-Options-Part-3/pdf/CD04-2fii_Draft_Local_Plan_SA_Appendix_C_Site_Options_Part_3.pdf?m=1661421495267" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (3) - Sustainability Appraisal: Appendix C Site Options Part 3 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">15 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18876/CD04-2f-4-Sustainability-Appraisal-Appendix-C-Site-Options-Part-4/pdf/CD04-2fiv_Draft_Local_Plan_SA_Appendix_C_Site_Options_Part_4.pdf?m=1661421669170" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (4) - Sustainability Appraisal: Appendix C Site Options Part 4 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">15 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18877/CD04-2f-5-Sustainability-Appraisal-Appendix-C-Site-Options-Part-5/pdf/CD04-2fv_Draft_Local_Plan_SA_Appendix_C_Site_Options__Part_5.pdf?m=1661421751453" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (5) - Sustainability Appraisal: Appendix C Site Options Part 5 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">15 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+				<li class="panel__item panel__item--pdf">
+
+
+
+<div class="media-links media-links--related">
+<a href="https://www.fenland.gov.uk/media/18878/CD04-2f-6-Sustainability-Appraisal-Appendix-C-Site-Options-Part-6/pdf/CD04-2fiv_Draft_Local_Plan_SA_Appendix_C_Site_Options_Part_6.pdf?m=1661421805100" class="media-link media-link--pdf" target="_blank"><span class="media-link__text">CD04-2f (6) - Sustainability Appraisal: Appendix C Site Options Part 6 </span><span class="media-link__bracket">(</span><span class="media-link__type">PDF, </span><span class="media-link__filesize">6 MB</span><span class="media-link__bracket">)</span><span class="media-link__newwindow">(opens new window)</span></a></div>
+
+
+				</li>
+		</ul>
+
+</div></div>
+								</aside>
+						</div>
+					</div>
+				</main>
+
+
+
+<footer class="footer footer--site" aria-label="footer section">
+	<div class="container">
+		<div class="footer__left">
+
+
+<div class="footer__logos">
+			<div class="footer__logo">
+				<div class="imagelink imagelink--footerlogo">
+						<img src="https://www.fenland.gov.uk/image/14586/Logo-White/original.png?m=1583419656923" class="imagelink__image" alt="Logo - White" />
+				</div>
+			</div>
+</div>
+
+
+<div class="footer__socialmedia">
+
+<div class="imagelink imagelink--socialmedia">
+<a class="imagelink__link" href="https://www.facebook.com/FenlandDistrictCouncil" title="Fenland District Council Facebook">			<img src="https://www.fenland.gov.uk/image/16768/Facebook/footericon.png?m=1591176382487" class="imagelink__image" alt="Fenland District Council Facebook" width="44" height="44" />
+</a></div>
+<div class="imagelink imagelink--socialmedia">
+<a class="imagelink__link" href="https://twitter.com/FenlandCouncil/" title="Fenland District Council Twitter">			<img src="https://www.fenland.gov.uk/image/16684/Twitter/footericon.png?m=1705417711253" class="imagelink__image" alt="Fenland District Council Twitter" width="44" height="44" />
+</a></div></div>
+		</div>
+		<div class="footer__right">
+
+
+<div class="footer__navigation">
+		<ul>
+				<li class="footer__navitem">
+<a class="footer__navlink" href="https://www.fenland.gov.uk/accessibilitystatement">Accessibility Statement</a>				</li>
+				<li class="footer__navitem">
+<a class="footer__navlink" href="https://www.fenland.gov.uk/cookies">Cookies</a>				</li>
+				<li class="footer__navitem">
+<a class="footer__navlink" href="https://www.fenland.gov.uk/privacy">Privacy Statement</a>				</li>
+		</ul>
+</div>
+			<div class="footer__copyright">
+				<p>
+					&copy; 2025 - Fenland District Council
+				</p>
+			</div>
+			<div class="footer__goss">
+				<a class="bygoss__link" href="https://www.gossinteractive.com" rel="noopener" target="_blank" title="Digital platform technology, online self-service and web content management provided by GOSS">Powered by GOSS</a>
+			</div>
+		</div>
+	</div>
+</footer></body></html>
