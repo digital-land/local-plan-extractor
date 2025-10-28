@@ -560,21 +560,21 @@ EXAMPLE OUTPUT:
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
             "document-type": "local-plan",
-            "name": "Broxbourne Local Plan 2018-2033",
+            "name": "Local Plan 2018-2033",
             "reference": "LP-2018-2033",
             "document-status": "adopted"
         }},
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/925/sustainability-appraisal-post-adoption-statement-may-2020",
             "document-type": "sustainability-appraisal",
-            "name": "Sustainability Appraisal Post Adoption Statement",
+            "name": "Sustainability Appraisal of the Local Plan 2018-2033",
             "reference": "SA-2020",
             "document-status": "adopted"
         }},
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/924/broxbourne-lp-report-final",
             "document-type": "inspectors-report",
-            "name": "Inspector's Final Report",
+            "name": "Broxbourne LP Report Final",
             "reference": "IR-2020",
             "document-status": "adopted"
         }}
@@ -642,16 +642,20 @@ DOCUMENT-URL: Use the normalized URL from "DOCUMENTS FOUND" section
 
 DOCUMENT-TYPE: Use the pre-classified type from "DOCUMENTS FOUND" section (already done)
 
-NAME: Create a readable, descriptive name for the document
-  * Extract from the link text or infer from document type
-  * Examples:
-    - "Broxbourne Local Plan 2018-2033"
-    - "Sustainability Appraisal Post Adoption Statement May 2020"
-    - "Inspector's Final Report"
-    - "Core Strategy 2006-2031"
-    - "Site Allocations DPD"
-  * Use proper capitalization and full words (not abbreviations where possible)
-  * Include dates/years if mentioned in the link text
+NAME: Use the actual document title as closely as possible
+  * Extract directly from the link text in the "DOCUMENTS FOUND" section
+  * Keep the original phrasing and wording from the link text
+  * Preserve the document's own title/name rather than creating a new one
+  * Clean up minor formatting issues (extra spaces, line breaks)
+  * Examples showing link text → name:
+    - Link text: "Local Plan 2018-2033" → name: "Local Plan 2018-2033"
+    - Link text: "Sustainability Appraisal of the Local Plan 2018-2033" → name: "Sustainability Appraisal of the Local Plan 2018-2033"
+    - Link text: "Broxbourne LP Report Final" → name: "Broxbourne LP Report Final"
+    - Link text: "previous local plan" → name: "Full Adopted Local Plan 2001-2011" (extract from URL if link text is vague)
+    - Link text: "Core Strategy 2006-2031 (PDF 2.3MB)" → name: "Core Strategy 2006-2031"
+  * Only modify if the link text is too vague (e.g., "download", "click here")
+  * Keep abbreviations if they appear in the original title (e.g., "LP", "DPD", "SA")
+  * Remove file size indicators (e.g., "PDF 2.3MB") but keep everything else
 
 REFERENCE: Create a short, unique reference code for the document
   * Format: [TYPE-PREFIX]-[YEAR or IDENTIFIER]
