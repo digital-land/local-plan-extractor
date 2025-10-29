@@ -3,3 +3,4 @@ anthropic
 PyPDF2
 beautifulsoup4
 jinja2
+black
