@@ -17,6 +17,10 @@ TARGETS=$(patsubst document/%,local-plan/%,$(patsubst %.pdf,%.json,$(CORE_DOCUME
 all::	$(SOURCE_DATA) $(TARGETS)
 	python3 bin/render.py
 
+source/%.json:
+	@mkdir -p $(dir $@)
+	python3 bin/find-local-plan.py $(basename $(notdir $@)) > $@
+
 local-plan/%.json: document/%.pdf
 	@mkdir -p $(dir $@)
 	python3 bin/local-plan-extractor.py $? > $@
@@ -43,6 +47,9 @@ init::
 
 server::
 	python3 -m http.server -d $(DOCS_DIR)
+
+black::
+	black bin
 
 clobber::
 	rm -f $(TARGETS)
