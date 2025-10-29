@@ -420,21 +420,72 @@ class LocalPlanFinder:
 
         # Define classification patterns (order matters - most specific first)
         classifications = {
-            'inspectors-report': ['inspector report', 'inspector\'s report', 'examination report', 'inspectors final report'],
+            # Examination and inspection documents
+            'inspectors-report': ['inspector report', 'inspector\'s report', 'examination report', 'inspectors final report', 'inspector\'s final report'],
+            'examination-hearing-statement': ['examination hearing', 'hearing statement', 'matter statement', 'examination document'],
+            'statement-of-common-ground': ['statement of common ground', 'socg', 'common ground statement'],
+            'main-modifications': ['main modifications', 'proposed main modifications', 'schedule of main modifications'],
+
+            # Consultation and adoption
             'adoption-statement': ['adoption statement', 'adoption consultation statement', 'statement of adoption'],
-            'sustainability-appraisal': ['sustainability appraisal', 'sa report', 'sa addendum', 'sa screening', 'sa scoping'],
-            'strategic-housing-market-assessment': ['shma', 'strategic housing market assessment', 'housing market assessment'],
-            'strategic-flood-risk-assessment': ['sfra', 'strategic flood risk assessment', 'flood risk assessment'],
-            'viability-assessment': ['viability assessment', 'viability study', 'whole plan viability', 'cil viability'],
+            'consultation-statement': ['consultation statement', 'statement of consultation', 'regulation 22 statement'],
+            'representation-statement': ['representation statement', 'summary of representations', 'consultation responses'],
+
+            # Environmental and sustainability assessments
+            'sustainability-appraisal': ['sustainability appraisal', 'sa report', 'sa addendum', 'sa screening', 'sa scoping', 'sa non-technical summary'],
+            'strategic-environmental-assessment': ['strategic environmental assessment', 'sea', 'environmental report'],
+            'habitats-regulations-assessment': ['habitats regulations assessment', 'hra', 'appropriate assessment', 'habitat assessment'],
+            'equalities-impact-assessment': ['equalities impact assessment', 'eia', 'equality impact', 'equalities assessment'],
+            'health-impact-assessment': ['health impact assessment', 'hia', 'health assessment'],
+
+            # Housing and demographic evidence
+            'strategic-housing-market-assessment': ['shma', 'strategic housing market assessment', 'housing market assessment', 'housing needs assessment'],
+            'strategic-housing-land-availability': ['shlaa', 'strategic housing land availability', 'housing land availability', 'helaa'],
+            'housing-delivery-test': ['housing delivery test', 'hdt', 'housing delivery action plan'],
+            'gypsy-and-traveller-assessment': ['gypsy and traveller', 'gtaa', 'traveller accommodation assessment'],
+
+            # Infrastructure and delivery
+            'infrastructure-delivery-plan': ['infrastructure delivery plan', 'idp', 'infrastructure delivery'],
+            'transport-assessment': ['transport assessment', 'transport study', 'transport strategy', 'local transport plan'],
+            'strategic-flood-risk-assessment': ['sfra', 'strategic flood risk assessment', 'flood risk assessment', 'level 1 sfra', 'level 2 sfra'],
+            'water-cycle-study': ['water cycle study', 'wcs', 'water resources'],
+
+            # Economic and viability
+            'viability-assessment': ['viability assessment', 'viability study', 'whole plan viability', 'cil viability', 'viability appraisal'],
             'financial-viability-study': ['financial viability', 'economic viability'],
-            'local-development-scheme': ['local development scheme', 'lds'],
-            'policies-map': ['policies map', 'policy map', 'proposals map'],
+            'employment-land-review': ['employment land review', 'elr', 'employment land study', 'employment evidence'],
+            'retail-and-town-centre-study': ['retail study', 'town centre study', 'retail assessment', 'town centres'],
+            'economic-development-strategy': ['economic development', 'economic strategy', 'economic assessment'],
+
+            # Character and design
+            'landscape-character-assessment': ['landscape character assessment', 'lca', 'landscape assessment'],
+            'conservation-area-appraisal': ['conservation area appraisal', 'conservation area assessment'],
+            'urban-design-framework': ['urban design framework', 'design code', 'design guide'],
+            'green-and-blue-infrastructure': ['green infrastructure', 'blue infrastructure', 'gi strategy', 'open space strategy'],
+
+            # Development management
+            'local-development-scheme': ['local development scheme', 'lds', 'local plan timetable'],
+            'statement-of-community-involvement': ['statement of community involvement', 'sci', 'community involvement'],
+            'authority-monitoring-report': ['authority monitoring report', 'amr', 'monitoring report', 'annual monitoring'],
+            'policies-map': ['policies map', 'policy map', 'proposals map', 'key diagram'],
+
+            # Plan types
             'area-action-plan': ['area action plan', 'aap'],
-            'supplementary-planning-documents': ['supplementary planning document', 'spd'],
-            'site-allocations': ['site allocations', 'site allocation', 'allocations dpd', 'allocations development plan'],
-            'core-strategy': ['core strategy', 'cs dpd'],
-            'local-plan-review': ['local plan review', 'review of local plan'],
-            'local-plan': ['local plan', 'development plan document', 'dpd'],
+            'neighbourhood-plan': ['neighbourhood plan', 'neighbourhood development plan', 'ndp'],
+            'supplementary-planning-document': ['supplementary planning document', 'spd', 'supplementary guidance'],
+            'site-allocations': ['site allocations', 'site allocation', 'allocations dpd', 'allocations development plan', 'site assessment'],
+            'development-management-policies': ['development management policies', 'development management dpd', 'dm policies'],
+            'core-strategy': ['core strategy', 'cs dpd', 'strategic policies'],
+            'minerals-and-waste-plan': ['minerals and waste', 'minerals local plan', 'waste local plan', 'minerals plan'],
+            'joint-strategic-plan': ['joint strategic plan', 'joint plan', 'strategic plan'],
+
+            # Main plan documents
+            'local-plan-regulation-19': ['regulation 19', 'publication version', 'pre-submission', 'publication draft'],
+            'local-plan-regulation-18': ['regulation 18', 'preferred options', 'draft plan', 'consultation draft'],
+            'local-plan-submission': ['submission version', 'submission draft', 'submitted plan'],
+            'local-plan-adopted': ['adopted local plan', 'adopted plan', 'final plan'],
+            'local-plan-review': ['local plan review', 'review of local plan', 'partial review'],
+            'local-plan': ['local plan', 'development plan document', 'dpd', 'city plan', 'borough plan', 'district plan'],
         }
 
         for doc_type, keywords in classifications.items():
@@ -777,22 +828,71 @@ STATUS FIELD GUIDE:
 - "adopted" = Formally adopted by the council
 - "withdrawn" = Plan has been withdrawn
 
-DOCUMENT TYPES:
-- local-plan: The main local plan document
+DOCUMENT TYPES (comprehensive list - use the most specific type):
+Plan Documents:
+- local-plan: Main local plan document (use specific variants below if applicable)
+- local-plan-adopted: Adopted local plan
+- local-plan-regulation-19: Regulation 19 publication version
+- local-plan-regulation-18: Regulation 18 draft/preferred options
+- local-plan-submission: Submission version to Planning Inspectorate
+- local-plan-review: Local plan review documents
 - core-strategy: Core strategy document
 - site-allocations: Site allocations DPD
-- adoption-statement: Adoption statement/consultation statement
+- development-management-policies: Development management policies
+- minerals-and-waste-plan: Minerals and waste local plans
+- joint-strategic-plan: Joint strategic plans
 - area-action-plan: Area action plans (AAPs)
-- financial-viability-study: Financial viability studies
+- neighbourhood-plan: Neighbourhood plans
+- supplementary-planning-document: SPDs
+
+Examination Documents:
 - inspectors-report: Planning Inspector's examination report
+- examination-hearing-statement: Examination hearing statements
+- statement-of-common-ground: Statements of common ground
+- main-modifications: Schedule of main modifications
+
+Consultation Documents:
+- adoption-statement: Adoption statements
+- consultation-statement: Consultation statements
+- representation-statement: Summary of representations
+
+Environmental Assessments:
+- sustainability-appraisal: Sustainability appraisal
+- strategic-environmental-assessment: Strategic environmental assessment
+- habitats-regulations-assessment: Habitats regulations assessment
+- equalities-impact-assessment: Equalities impact assessment
+- health-impact-assessment: Health impact assessment
+
+Housing Evidence:
+- strategic-housing-market-assessment: SHMA/housing needs assessment
+- strategic-housing-land-availability: SHLAA/HELAA
+- housing-delivery-test: Housing delivery test action plans
+- gypsy-and-traveller-assessment: Gypsy and traveller accommodation
+
+Infrastructure Evidence:
+- infrastructure-delivery-plan: Infrastructure delivery plans
+- transport-assessment: Transport assessments and strategies
+- strategic-flood-risk-assessment: Strategic flood risk assessment
+- water-cycle-study: Water cycle studies
+
+Economic Evidence:
+- viability-assessment: Viability assessments
+- financial-viability-study: Financial viability studies
+- employment-land-review: Employment land reviews
+- retail-and-town-centre-study: Retail and town centre studies
+- economic-development-strategy: Economic strategies
+
+Character and Design:
+- landscape-character-assessment: Landscape character assessments
+- conservation-area-appraisal: Conservation area appraisals
+- urban-design-framework: Urban design frameworks
+- green-and-blue-infrastructure: Green/blue infrastructure strategies
+
+Development Management:
+- local-development-scheme: Local development scheme (timetable)
+- statement-of-community-involvement: Statement of community involvement
+- authority-monitoring-report: Annual monitoring reports
 - policies-map: Policies map/proposals map
-- strategic-flood-risk-assessment: Strategic Flood Risk Assessment (SFRA)
-- strategic-housing-market-assessment: Strategic Housing Market Assessment (SHMA)
-- supplementary-planning-documents: Supplementary Planning Documents (SPDs)
-- local-development-scheme: Local Development Scheme (LDS)
-- sustainability-appraisal: Sustainability Appraisal (SA) and related documents
-- local-plan-review: Local plan review documents
-- viability-assessment: Viability assessment studies
 
 IMPORTANT:
 - Return an array with one element for EACH separate local plan document
@@ -805,20 +905,65 @@ DOCUMENTATION-URL (the main page for the plan):
   * Prefer pages specifically about that local plan (e.g., "/planning/local-plan-2018-2033")
   * Avoid generic planning section URLs unless that's all that's available
 
-DOCUMENT-URL (the actual PDF document):
-- The document-url should be the direct URL to the PDF document itself
-- Look in the "DOCUMENTS FOUND" section above for available documents
-- Try HARD to find the core strategy PDF, local plan PDF, or main policy document PDF
-- Match PDFs to plans by looking for:
-  * Plan names in the link text (e.g., "Core Strategy", "Local Plan 2018-2033")
-  * Dates/periods matching the plan period
-  * Document types (adopted, submission, regulation 19, etc.)
-- Common PDF naming patterns:
-  * "core-strategy.pdf", "local-plan.pdf", "adopted-local-plan.pdf"
-  * "core-strategy-2006-2031.pdf", "local-plan-2018-2033.pdf"
-  * Full file paths like "/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011"
-- Normalize the URL by removing fragments (#) but keep the full path
-- Use "" (empty string) only if you cannot find a matching PDF document
+DOCUMENT-URL (the actual PDF document) - CRITICAL REQUIREMENT:
+- This is the MOST IMPORTANT field - you MUST try VERY HARD to find the main plan document PDF
+- The document-url should be the direct URL to the PDF document itself (not the page about it)
+- THOROUGHLY search the "DOCUMENTS FOUND" section above for the main plan document
+- For each local plan, you MUST find its main PDF document if it exists at all
+
+HOW TO FIND THE RIGHT DOCUMENT-URL:
+1. FIRST: Look for documents whose link text exactly matches the plan name
+   * Example: If the plan is "City Plan 2040", look for a document with link text "City Plan 2040" or "City Plan 2040 PDF"
+   * Example: If the plan is "Local Plan 2018-2033", look for link text "Local Plan 2018-2033" or "Adopted Local Plan 2018-2033"
+
+2. SECOND: Look for documents with matching time periods
+   * If the plan covers 2018-2033, prioritize documents with "2018-2033" or "2018" or "2033" in the URL or link text
+   * Match the plan period dates to document names
+
+3. THIRD: Look for documents matching the plan status
+   * For adopted plans: Look for "adopted", "final", "adoption" in the document name
+   * For Regulation 19 plans: Look for "regulation 19", "publication", "pre-submission" in the document name
+   * For Regulation 18 plans: Look for "regulation 18", "preferred options", "consultation draft" in the document name
+
+4. FOURTH: Look for generic plan names if specific matches fail
+   * "Local Plan", "Core Strategy", "City Plan", "Borough Plan", "District Plan"
+   * Look in URLs for patterns like "/assets/", "/downloads/", "/file/", "/documents/" followed by plan names
+
+5. FIFTH: Check document types carefully
+   * Prioritize documents classified as "local-plan", "local-plan-adopted", "local-plan-regulation-19", "local-plan-regulation-18"
+   * Then try "core-strategy", "site-allocations", "development-management-policies"
+   * AVOID evidence documents unless no main plan is found (sustainability appraisal, viability assessment, etc.)
+
+6. COMMON URL PATTERNS TO RECOGNIZE:
+   * Direct PDF links: ending in .pdf
+   * Download endpoints: /downloads/file/[ID]/[name]
+   * Asset storage: /assets/[folder]/[filename].pdf
+   * Document repositories: /documents/[ID] or /docs/[name]
+
+7. VALIDATION:
+   * The URL MUST point to an actual downloadable file (PDF, Word doc)
+   * The URL should NOT be a webpage/HTML page about the plan
+   * If in doubt between multiple candidates, choose the one with the most specific name match
+
+8. ONLY use "" (empty string) if:
+   * You have searched thoroughly through ALL documents in "DOCUMENTS FOUND"
+   * No document reasonably matches the plan name, period, or status
+   * The page only describes the plan but has no downloadable documents
+
+EXAMPLES OF CORRECT MATCHING:
+- Plan: "City Plan 2040" (regulation-19)
+  → Document URL: "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf"
+  (Matches plan name exactly and is a direct PDF link)
+
+- Plan: "Local Plan 2018-2033" (adopted, 2020)
+  → Document URL: "https://www.example.gov.uk/downloads/file/1813/local-plan-2018-2033"
+  (Matches plan name and period, classified as local-plan)
+
+- Plan: "Core Strategy 2006-2031" (adopted, 2013)
+  → Document URL: "https://www.example.gov.uk/planning/core-strategy-2006-2031.pdf"
+  (Matches plan type and period)
+
+REMEMBER: The document-url field is MANDATORY - finding the right PDF is your top priority!
 
 DOCUMENTS ARRAY:
 - The documents array should contain ALL related documents for this local plan

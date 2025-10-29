@@ -1,0 +1,23 @@
+[
+  {
+    "organisation": "local-authority:LND",
+    "organisation-name": "City of London Corporation",
+    "documentation-url": "https://www.cityoflondon.gov.uk/services/environmental-health/planning/planning-policy/city-plan-2040",
+    "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf",
+    "name": "City Plan 2040",
+    "status": "regulation-19",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf",
+        "document-type": "local-plan",
+        "name": "City Plan 2040",
+        "reference": "LP-2040",
+        "document-status": "regulation-19",
+        "endpoint": "a00fc245bbb114b390242a83c070f2e4b6f519bf9765d0b54c1823f9dfc1371e"
+      }
+    ]
+  }
+]

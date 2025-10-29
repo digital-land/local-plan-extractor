@@ -1,0 +1,9 @@
+{
+  "resource": "b646ee4b31f16792ff478cfe5629bf7e50c0ccea",
+  "endpoint-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/annual-cil-rate-summary-2024.pdf",
+  "entry-date": "2025-10-29T08:37:27Z",
+  "status": "200",
+  "elapsed": "0.153",
+  "content-type": "application/pdf",
+  "bytes": "545167"
+}
