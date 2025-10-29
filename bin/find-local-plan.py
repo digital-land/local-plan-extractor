@@ -54,50 +54,61 @@ def detect_file_suffix(content, content_type, url):
     """Detect file suffix from content, content-type header, or URL."""
     # Try to get extension from content-type
     if content_type:
-        mime_type = content_type.split(';')[0].strip()
+        mime_type = content_type.split(";")[0].strip()
         mime_to_ext = {
-            'application/pdf': 'pdf',
-            'application/vnd.openxmlformats-officedocument.wordprocessingml.document': 'docx',
-            'application/msword': 'doc',
-            'application/vnd.ms-excel': 'xls',
-            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 'xlsx',
-            'text/html': 'html',
-            'text/plain': 'txt',
-            'application/zip': 'zip',
-            'image/jpeg': 'jpg',
-            'image/png': 'png',
+            "application/pdf": "pdf",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx",
+            "application/msword": "doc",
+            "application/vnd.ms-excel": "xls",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
+            "text/html": "html",
+            "text/plain": "txt",
+            "application/zip": "zip",
+            "image/jpeg": "jpg",
+            "image/png": "png",
         }
         if mime_type in mime_to_ext:
             return mime_to_ext[mime_type]
         ext = mimetypes.guess_extension(mime_type)
         if ext:
-            return ext.lstrip('.')
+            return ext.lstrip(".")
 
     # Try to detect from magic bytes
     if content:
-        if content.startswith(b'%PDF'):
-            return 'pdf'
-        elif content.startswith(b'PK\x03\x04'):
-            if b'word/' in content[:2000]:
-                return 'docx'
-            elif b'xl/' in content[:2000]:
-                return 'xlsx'
+        if content.startswith(b"%PDF"):
+            return "pdf"
+        elif content.startswith(b"PK\x03\x04"):
+            if b"word/" in content[:2000]:
+                return "docx"
+            elif b"xl/" in content[:2000]:
+                return "xlsx"
             else:
-                return 'zip'
-        elif content.startswith(b'\xd0\xcf\x11\xe0'):
-            return 'doc'
-        elif content.startswith(b'<!DOCTYPE') or content.startswith(b'<html'):
-            return 'html'
+                return "zip"
+        elif content.startswith(b"\xd0\xcf\x11\xe0"):
+            return "doc"
+        elif content.startswith(b"<!DOCTYPE") or content.startswith(b"<html"):
+            return "html"
 
     # Try to get extension from URL
     if url:
-        url_path = url.split('?')[0]
-        if '.' in url_path:
-            ext = url_path.rsplit('.', 1)[-1].lower()
-            if ext in ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'html', 'txt', 'zip', 'jpg', 'png']:
+        url_path = url.split("?")[0]
+        if "." in url_path:
+            ext = url_path.rsplit(".", 1)[-1].lower()
+            if ext in [
+                "pdf",
+                "doc",
+                "docx",
+                "xls",
+                "xlsx",
+                "html",
+                "txt",
+                "zip",
+                "jpg",
+                "png",
+            ]:
                 return ext
 
-    return 'bin'
+    return "bin"
 
 
 def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url):
@@ -113,7 +124,10 @@ def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url
         hardlink_path.unlink()
 
     os.link(resource_path, hardlink_path)
-    print(f"  → Created hardlink: endpoint/{endpoint}.{suffix} => resource/{resource_hash}", file=sys.stderr)
+    print(
+        f"  → Created hardlink: endpoint/{endpoint}.{suffix} => resource/{resource_hash}",
+        file=sys.stderr,
+    )
 
 
 def download_document(url, endpoint):
@@ -122,7 +136,7 @@ def download_document(url, endpoint):
         print(f"Skipping empty URL", file=sys.stderr)
         return None
 
-    if not url.startswith('http://') and not url.startswith('https://'):
+    if not url.startswith("http://") and not url.startswith("https://"):
         print(f"Skipping non-HTTP URL: {url}", file=sys.stderr)
         return None
 
@@ -132,16 +146,22 @@ def download_document(url, endpoint):
     log_path = Path(f"collection/log/{endpoint}.json")
     if log_path.exists():
         print(f"Already downloaded: {url}", file=sys.stderr)
-        with open(log_path, 'r') as f:
+        with open(log_path, "r") as f:
             log_entry = json.load(f)
 
-        resource_hash = log_entry.get('resource')
+        resource_hash = log_entry.get("resource")
         if resource_hash:
             resource_path = Path(f"collection/resource/{resource_hash}")
             if resource_path.exists():
-                with open(resource_path, 'rb') as f:
+                with open(resource_path, "rb") as f:
                     content = f.read()
-                create_endpoint_hardlink(endpoint, resource_hash, content, log_entry.get('content-type', ''), url)
+                create_endpoint_hardlink(
+                    endpoint,
+                    resource_hash,
+                    content,
+                    log_entry.get("content-type", ""),
+                    url,
+                )
         return log_entry
 
     print(f"Downloading: {url}", file=sys.stderr)
@@ -150,37 +170,41 @@ def download_document(url, endpoint):
     try:
         req = urllib.request.Request(
             url,
-            headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'}
+            headers={
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"
+            },
         )
 
         with urllib.request.urlopen(req, timeout=60) as response:
             content = response.read()
             status = response.status
-            content_type = response.headers.get('Content-Type', '')
+            content_type = response.headers.get("Content-Type", "")
             content_length = len(content)
 
         elapsed = time.time() - start_time
         resource_hash = calculate_sha1(content)
 
         resource_path = Path(f"collection/resource/{resource_hash}")
-        with open(resource_path, 'wb') as f:
+        with open(resource_path, "wb") as f:
             f.write(content)
 
         log_entry = {
             "resource": resource_hash,
             "endpoint-url": url,
-            "entry-date": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+            "entry-date": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "status": str(status),
             "elapsed": f"{elapsed:.3f}",
             "content-type": content_type,
-            "bytes": str(content_length)
+            "bytes": str(content_length),
         }
 
-        with open(log_path, 'w') as f:
+        with open(log_path, "w") as f:
             json.dump(log_entry, f, indent=2)
 
         create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url)
-        print(f"  ✓ Downloaded {content_length} bytes -> {resource_hash}", file=sys.stderr)
+        print(
+            f"  ✓ Downloaded {content_length} bytes -> {resource_hash}", file=sys.stderr
+        )
         return log_entry
 
     except Exception as e:
@@ -190,21 +214,23 @@ def download_document(url, endpoint):
         log_entry = {
             "resource": "",
             "endpoint-url": url,
-            "entry-date": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+            "entry-date": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "status": "error",
             "elapsed": f"{elapsed:.3f}",
             "content-type": "",
-            "bytes": "0"
+            "bytes": "0",
         }
 
-        with open(log_path, 'w') as f:
+        with open(log_path, "w") as f:
             json.dump(log_entry, f, indent=2)
 
         return log_entry
 
 
 class LocalPlanFinder:
-    def __init__(self, api_key: str, organisation_csv: str = "var/cache/organisation.csv"):
+    def __init__(
+        self, api_key: str, organisation_csv: str = "var/cache/organisation.csv"
+    ):
         """Initialize with Anthropic API key and organisation CSV path"""
         self.client = anthropic.Anthropic(api_key=api_key)
         self.organisations = self._load_organisations(organisation_csv)
@@ -218,30 +244,37 @@ class LocalPlanFinder:
         organisations = {}
         try:
             if not os.path.exists(csv_path):
-                print(f"Warning: Organisation CSV not found at {csv_path}", file=sys.stderr)
+                print(
+                    f"Warning: Organisation CSV not found at {csv_path}",
+                    file=sys.stderr,
+                )
                 return organisations
 
-            with open(csv_path, 'r', encoding='utf-8') as f:
+            with open(csv_path, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
                 header = next(reader)  # Read header
 
                 # Find column indices
-                name_idx = header.index('name') if 'name' in header else 14
-                org_idx = header.index('organisation') if 'organisation' in header else 19
-                website_idx = header.index('website') if 'website' in header else 27
+                name_idx = header.index("name") if "name" in header else 14
+                org_idx = (
+                    header.index("organisation") if "organisation" in header else 19
+                )
+                website_idx = header.index("website") if "website" in header else 27
 
                 for row in reader:
                     if len(row) > max(name_idx, org_idx, website_idx):
                         name = row[name_idx].strip()
                         org_code = row[org_idx].strip()
-                        website = row[website_idx].strip() if len(row) > website_idx else ""
+                        website = (
+                            row[website_idx].strip() if len(row) > website_idx else ""
+                        )
                         if name and org_code:
-                            organisations[org_code] = {
-                                'name': name,
-                                'website': website
-                            }
+                            organisations[org_code] = {"name": name, "website": website}
         except Exception as e:
-            print(f"Warning: Could not load organisations from {csv_path}: {e}", file=sys.stderr)
+            print(
+                f"Warning: Could not load organisations from {csv_path}: {e}",
+                file=sys.stderr,
+            )
 
         return organisations
 
@@ -255,7 +288,7 @@ class LocalPlanFinder:
             Organisation name if found, None otherwise
         """
         org_data = self.organisations.get(org_code)
-        return org_data['name'] if org_data else None
+        return org_data["name"] if org_data else None
 
     def get_organisation_website(self, org_code: str) -> Optional[str]:
         """Get organisation website from code.
@@ -267,9 +300,11 @@ class LocalPlanFinder:
             Organisation website URL if found, None otherwise
         """
         org_data = self.organisations.get(org_code)
-        return org_data['website'] if org_data and org_data['website'] else None
+        return org_data["website"] if org_data and org_data["website"] else None
 
-    def construct_likely_urls(self, org_name: str, official_website: Optional[str] = None) -> List[Dict[str, str]]:
+    def construct_likely_urls(
+        self, org_name: str, official_website: Optional[str] = None
+    ) -> List[Dict[str, str]]:
         """Construct likely URLs for a local authority's planning pages.
 
         Args:
@@ -285,18 +320,27 @@ class LocalPlanFinder:
         if official_website:
             # Extract domain from URL (e.g., "https://www.dacorum.gov.uk" -> "www.dacorum.gov.uk")
             from urllib.parse import urlparse
+
             parsed = urlparse(official_website)
             official_domain = parsed.netloc
             if official_domain:
                 domains.append(official_domain)
-                print(f"Using official website domain: {official_domain}", file=sys.stderr)
+                print(
+                    f"Using official website domain: {official_domain}", file=sys.stderr
+                )
 
         # Also try guessing domains as fallback
         base_name = org_name.lower()
-        for suffix in [' borough council', ' city council', ' district council',
-                       ' county council', ' council', ' metropolitan borough']:
-            base_name = base_name.replace(suffix, '')
-        base_name = base_name.strip().replace(' ', '')
+        for suffix in [
+            " borough council",
+            " city council",
+            " district council",
+            " county council",
+            " council",
+            " metropolitan borough",
+        ]:
+            base_name = base_name.replace(suffix, "")
+        base_name = base_name.strip().replace(" ", "")
 
         # Add common URL patterns as fallback
         fallback_domains = [
@@ -352,11 +396,13 @@ class LocalPlanFinder:
         urls = []
         for domain in domains:
             for path in paths:
-                urls.append({
-                    'title': f"{org_name} Local Plan",
-                    'url': f"https://{domain}{path}",
-                    'snippet': f"Constructed URL for {org_name}"
-                })
+                urls.append(
+                    {
+                        "title": f"{org_name} Local Plan",
+                        "url": f"https://{domain}{path}",
+                        "snippet": f"Constructed URL for {org_name}",
+                    }
+                )
 
         return urls
 
@@ -371,37 +417,51 @@ class LocalPlanFinder:
             List of URLs that likely point to local plan pages
         """
         from urllib.parse import urljoin
-        soup = BeautifulSoup(html_content, 'html.parser')
+
+        soup = BeautifulSoup(html_content, "html.parser")
 
         local_plan_links = []
 
         # Find all links
-        for link in soup.find_all('a', href=True):
-            href = link['href']
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
             link_text = link.get_text(strip=True).lower()
 
             # Look for links that mention local plan (including emerging/draft/new plans)
             local_plan_keywords = [
-                'local plan', 'local-plan', 'localplan',
-                'emerging local plan', 'emerging plan', 'emerging-local-plan',
-                'draft local plan', 'draft plan', 'draft-local-plan',
-                'new local plan', 'new plan', 'new-local-plan',
-                'core strategy', 'site allocation',
-                'development plan', 'planning policy',
-                'regulation 18', 'regulation 19',
-                'consultation', 'adopted local plan'
+                "local plan",
+                "local-plan",
+                "localplan",
+                "emerging local plan",
+                "emerging plan",
+                "emerging-local-plan",
+                "draft local plan",
+                "draft plan",
+                "draft-local-plan",
+                "new local plan",
+                "new plan",
+                "new-local-plan",
+                "core strategy",
+                "site allocation",
+                "development plan",
+                "planning policy",
+                "regulation 18",
+                "regulation 19",
+                "consultation",
+                "adopted local plan",
             ]
 
             # Check if link text or href contains local plan keywords
-            is_local_plan_link = any(keyword in link_text for keyword in local_plan_keywords) or \
-                                 any(keyword in href.lower() for keyword in local_plan_keywords)
+            is_local_plan_link = any(
+                keyword in link_text for keyword in local_plan_keywords
+            ) or any(keyword in href.lower() for keyword in local_plan_keywords)
 
             if is_local_plan_link:
                 # Convert relative URLs to absolute
                 full_url = urljoin(url, href)
 
                 # Avoid duplicates and non-HTTP links
-                if full_url.startswith('http') and full_url not in local_plan_links:
+                if full_url.startswith("http") and full_url not in local_plan_links:
                     local_plan_links.append(full_url)
 
         return local_plan_links
@@ -421,71 +481,257 @@ class LocalPlanFinder:
         # Define classification patterns (order matters - most specific first)
         classifications = {
             # Examination and inspection documents
-            'inspectors-report': ['inspector report', 'inspector\'s report', 'examination report', 'inspectors final report', 'inspector\'s final report'],
-            'examination-hearing-statement': ['examination hearing', 'hearing statement', 'matter statement', 'examination document'],
-            'statement-of-common-ground': ['statement of common ground', 'socg', 'common ground statement'],
-            'main-modifications': ['main modifications', 'proposed main modifications', 'schedule of main modifications'],
-
+            "inspectors-report": [
+                "inspector report",
+                "inspector's report",
+                "examination report",
+                "inspectors final report",
+                "inspector's final report",
+            ],
+            "examination-hearing-statement": [
+                "examination hearing",
+                "hearing statement",
+                "matter statement",
+                "examination document",
+            ],
+            "statement-of-common-ground": [
+                "statement of common ground",
+                "socg",
+                "common ground statement",
+            ],
+            "main-modifications": [
+                "main modifications",
+                "proposed main modifications",
+                "schedule of main modifications",
+            ],
             # Consultation and adoption
-            'adoption-statement': ['adoption statement', 'adoption consultation statement', 'statement of adoption'],
-            'consultation-statement': ['consultation statement', 'statement of consultation', 'regulation 22 statement'],
-            'representation-statement': ['representation statement', 'summary of representations', 'consultation responses'],
-
+            "adoption-statement": [
+                "adoption statement",
+                "adoption consultation statement",
+                "statement of adoption",
+            ],
+            "consultation-statement": [
+                "consultation statement",
+                "statement of consultation",
+                "regulation 22 statement",
+            ],
+            "representation-statement": [
+                "representation statement",
+                "summary of representations",
+                "consultation responses",
+            ],
             # Environmental and sustainability assessments
-            'sustainability-appraisal': ['sustainability appraisal', 'sa report', 'sa addendum', 'sa screening', 'sa scoping', 'sa non-technical summary'],
-            'strategic-environmental-assessment': ['strategic environmental assessment', 'sea', 'environmental report'],
-            'habitats-regulations-assessment': ['habitats regulations assessment', 'hra', 'appropriate assessment', 'habitat assessment'],
-            'equalities-impact-assessment': ['equalities impact assessment', 'eia', 'equality impact', 'equalities assessment'],
-            'health-impact-assessment': ['health impact assessment', 'hia', 'health assessment'],
-
+            "sustainability-appraisal": [
+                "sustainability appraisal",
+                "sa report",
+                "sa addendum",
+                "sa screening",
+                "sa scoping",
+                "sa non-technical summary",
+            ],
+            "strategic-environmental-assessment": [
+                "strategic environmental assessment",
+                "sea",
+                "environmental report",
+            ],
+            "habitats-regulations-assessment": [
+                "habitats regulations assessment",
+                "hra",
+                "appropriate assessment",
+                "habitat assessment",
+            ],
+            "equalities-impact-assessment": [
+                "equalities impact assessment",
+                "eia",
+                "equality impact",
+                "equalities assessment",
+            ],
+            "health-impact-assessment": [
+                "health impact assessment",
+                "hia",
+                "health assessment",
+            ],
             # Housing and demographic evidence
-            'strategic-housing-market-assessment': ['shma', 'strategic housing market assessment', 'housing market assessment', 'housing needs assessment'],
-            'strategic-housing-land-availability': ['shlaa', 'strategic housing land availability', 'housing land availability', 'helaa'],
-            'housing-delivery-test': ['housing delivery test', 'hdt', 'housing delivery action plan'],
-            'gypsy-and-traveller-assessment': ['gypsy and traveller', 'gtaa', 'traveller accommodation assessment'],
-
+            "strategic-housing-market-assessment": [
+                "shma",
+                "strategic housing market assessment",
+                "housing market assessment",
+                "housing needs assessment",
+            ],
+            "strategic-housing-land-availability": [
+                "shlaa",
+                "strategic housing land availability",
+                "housing land availability",
+                "helaa",
+            ],
+            "housing-delivery-test": [
+                "housing delivery test",
+                "hdt",
+                "housing delivery action plan",
+            ],
+            "gypsy-and-traveller-assessment": [
+                "gypsy and traveller",
+                "gtaa",
+                "traveller accommodation assessment",
+            ],
             # Infrastructure and delivery
-            'infrastructure-delivery-plan': ['infrastructure delivery plan', 'idp', 'infrastructure delivery'],
-            'transport-assessment': ['transport assessment', 'transport study', 'transport strategy', 'local transport plan'],
-            'strategic-flood-risk-assessment': ['sfra', 'strategic flood risk assessment', 'flood risk assessment', 'level 1 sfra', 'level 2 sfra'],
-            'water-cycle-study': ['water cycle study', 'wcs', 'water resources'],
-
+            "infrastructure-delivery-plan": [
+                "infrastructure delivery plan",
+                "idp",
+                "infrastructure delivery",
+            ],
+            "transport-assessment": [
+                "transport assessment",
+                "transport study",
+                "transport strategy",
+                "local transport plan",
+            ],
+            "strategic-flood-risk-assessment": [
+                "sfra",
+                "strategic flood risk assessment",
+                "flood risk assessment",
+                "level 1 sfra",
+                "level 2 sfra",
+            ],
+            "water-cycle-study": ["water cycle study", "wcs", "water resources"],
             # Economic and viability
-            'viability-assessment': ['viability assessment', 'viability study', 'whole plan viability', 'cil viability', 'viability appraisal'],
-            'financial-viability-study': ['financial viability', 'economic viability'],
-            'employment-land-review': ['employment land review', 'elr', 'employment land study', 'employment evidence'],
-            'retail-and-town-centre-study': ['retail study', 'town centre study', 'retail assessment', 'town centres'],
-            'economic-development-strategy': ['economic development', 'economic strategy', 'economic assessment'],
-
+            "viability-assessment": [
+                "viability assessment",
+                "viability study",
+                "whole plan viability",
+                "cil viability",
+                "viability appraisal",
+            ],
+            "financial-viability-study": ["financial viability", "economic viability"],
+            "employment-land-review": [
+                "employment land review",
+                "elr",
+                "employment land study",
+                "employment evidence",
+            ],
+            "retail-and-town-centre-study": [
+                "retail study",
+                "town centre study",
+                "retail assessment",
+                "town centres",
+            ],
+            "economic-development-strategy": [
+                "economic development",
+                "economic strategy",
+                "economic assessment",
+            ],
             # Character and design
-            'landscape-character-assessment': ['landscape character assessment', 'lca', 'landscape assessment'],
-            'conservation-area-appraisal': ['conservation area appraisal', 'conservation area assessment'],
-            'urban-design-framework': ['urban design framework', 'design code', 'design guide'],
-            'green-and-blue-infrastructure': ['green infrastructure', 'blue infrastructure', 'gi strategy', 'open space strategy'],
-
+            "landscape-character-assessment": [
+                "landscape character assessment",
+                "lca",
+                "landscape assessment",
+            ],
+            "conservation-area-appraisal": [
+                "conservation area appraisal",
+                "conservation area assessment",
+            ],
+            "urban-design-framework": [
+                "urban design framework",
+                "design code",
+                "design guide",
+            ],
+            "green-and-blue-infrastructure": [
+                "green infrastructure",
+                "blue infrastructure",
+                "gi strategy",
+                "open space strategy",
+            ],
             # Development management
-            'local-development-scheme': ['local development scheme', 'lds', 'local plan timetable'],
-            'statement-of-community-involvement': ['statement of community involvement', 'sci', 'community involvement'],
-            'authority-monitoring-report': ['authority monitoring report', 'amr', 'monitoring report', 'annual monitoring'],
-            'policies-map': ['policies map', 'policy map', 'proposals map', 'key diagram'],
-
+            "local-development-scheme": [
+                "local development scheme",
+                "lds",
+                "local plan timetable",
+            ],
+            "statement-of-community-involvement": [
+                "statement of community involvement",
+                "sci",
+                "community involvement",
+            ],
+            "authority-monitoring-report": [
+                "authority monitoring report",
+                "amr",
+                "monitoring report",
+                "annual monitoring",
+            ],
+            "policies-map": [
+                "policies map",
+                "policy map",
+                "proposals map",
+                "key diagram",
+            ],
             # Plan types
-            'area-action-plan': ['area action plan', 'aap'],
-            'neighbourhood-plan': ['neighbourhood plan', 'neighbourhood development plan', 'ndp'],
-            'supplementary-planning-document': ['supplementary planning document', 'spd', 'supplementary guidance'],
-            'site-allocations': ['site allocations', 'site allocation', 'allocations dpd', 'allocations development plan', 'site assessment'],
-            'development-management-policies': ['development management policies', 'development management dpd', 'dm policies'],
-            'core-strategy': ['core strategy', 'cs dpd', 'strategic policies'],
-            'minerals-and-waste-plan': ['minerals and waste', 'minerals local plan', 'waste local plan', 'minerals plan'],
-            'joint-strategic-plan': ['joint strategic plan', 'joint plan', 'strategic plan'],
-
+            "area-action-plan": ["area action plan", "aap"],
+            "neighbourhood-plan": [
+                "neighbourhood plan",
+                "neighbourhood development plan",
+                "ndp",
+            ],
+            "supplementary-planning-document": [
+                "supplementary planning document",
+                "spd",
+                "supplementary guidance",
+            ],
+            "site-allocations": [
+                "site allocations",
+                "site allocation",
+                "allocations dpd",
+                "allocations development plan",
+                "site assessment",
+            ],
+            "development-management-policies": [
+                "development management policies",
+                "development management dpd",
+                "dm policies",
+            ],
+            "core-strategy": ["core strategy", "cs dpd", "strategic policies"],
+            "minerals-and-waste-plan": [
+                "minerals and waste",
+                "minerals local plan",
+                "waste local plan",
+                "minerals plan",
+            ],
+            "joint-strategic-plan": [
+                "joint strategic plan",
+                "joint plan",
+                "strategic plan",
+            ],
             # Main plan documents
-            'local-plan-regulation-19': ['regulation 19', 'publication version', 'pre-submission', 'publication draft'],
-            'local-plan-regulation-18': ['regulation 18', 'preferred options', 'draft plan', 'consultation draft'],
-            'local-plan-submission': ['submission version', 'submission draft', 'submitted plan'],
-            'local-plan-adopted': ['adopted local plan', 'adopted plan', 'final plan'],
-            'local-plan-review': ['local plan review', 'review of local plan', 'partial review'],
-            'local-plan': ['local plan', 'development plan document', 'dpd', 'city plan', 'borough plan', 'district plan'],
+            "local-plan-regulation-19": [
+                "regulation 19",
+                "publication version",
+                "pre-submission",
+                "publication draft",
+            ],
+            "local-plan-regulation-18": [
+                "regulation 18",
+                "preferred options",
+                "draft plan",
+                "consultation draft",
+            ],
+            "local-plan-submission": [
+                "submission version",
+                "submission draft",
+                "submitted plan",
+            ],
+            "local-plan-adopted": ["adopted local plan", "adopted plan", "final plan"],
+            "local-plan-review": [
+                "local plan review",
+                "review of local plan",
+                "partial review",
+            ],
+            "local-plan": [
+                "local plan",
+                "development plan document",
+                "dpd",
+                "city plan",
+                "borough plan",
+                "district plan",
+            ],
         }
 
         for doc_type, keywords in classifications.items():
@@ -493,9 +739,11 @@ class LocalPlanFinder:
                 return doc_type
 
         # Default to local-plan if we can't classify
-        return 'local-plan'
+        return "local-plan"
 
-    def extract_document_links(self, url: str, html_content: str) -> List[Dict[str, str]]:
+    def extract_document_links(
+        self, url: str, html_content: str
+    ) -> List[Dict[str, str]]:
         """Extract PDF and Word document download links from a page with their link text.
 
         Args:
@@ -503,40 +751,57 @@ class LocalPlanFinder:
             html_content: The HTML content to parse
 
         Returns:
-            List of dicts with 'url', 'text', and 'document-type' for each document link
+            List of dicts with 'url', 'text', 'document-type', and 'source-url' for each document link
         """
         from urllib.parse import urljoin, urlparse
-        soup = BeautifulSoup(html_content, 'html.parser')
+
+        soup = BeautifulSoup(html_content, "html.parser")
 
         doc_links = []
 
         # Find all links
-        for link in soup.find_all('a', href=True):
-            href = link['href']
+        for link in soup.find_all("a", href=True):
+            href = link["href"]
             link_text = link.get_text(strip=True)
 
             # Check if it's a document link (PDF, Word, or download patterns)
             is_document = (
-                href.lower().endswith('.pdf') or
-                href.lower().endswith('.doc') or
-                href.lower().endswith('.docx') or
-                '.pdf' in href.lower() or
-                '.doc' in href.lower() or
-                '/downloads/' in href.lower() or
-                '/download/' in href.lower() or
-                '/file/' in href.lower() or
-                '/document/' in href.lower() or
-                '/docs/' in href.lower() or
-                'pdf' in link_text.lower() or
-                'download' in link_text.lower()
+                href.lower().endswith(".pdf")
+                or href.lower().endswith(".doc")
+                or href.lower().endswith(".docx")
+                or ".pdf" in href.lower()
+                or ".doc" in href.lower()
+                or "/downloads/" in href.lower()
+                or "/download/" in href.lower()
+                or "/file/" in href.lower()
+                or "/document/" in href.lower()
+                or "/docs/" in href.lower()
+                or "pdf" in link_text.lower()
+                or "download" in link_text.lower()
             )
 
             # Also check if link text suggests it's a plan-related document
             doc_keywords = [
-                'local plan', 'core strategy', 'adopted', 'submission', 'regulation',
-                'dpd', 'spd', 'sustainability', 'appraisal', 'assessment', 'viability',
-                'evidence', 'inspector', 'examination', 'shma', 'sfra', 'policies map',
-                'site allocation', 'area action plan', 'development plan'
+                "local plan",
+                "core strategy",
+                "adopted",
+                "submission",
+                "regulation",
+                "dpd",
+                "spd",
+                "sustainability",
+                "appraisal",
+                "assessment",
+                "viability",
+                "evidence",
+                "inspector",
+                "examination",
+                "shma",
+                "sfra",
+                "policies map",
+                "site allocation",
+                "area action plan",
+                "development plan",
             ]
             has_doc_keyword = any(kw in link_text.lower() for kw in doc_keywords)
 
@@ -551,17 +816,21 @@ class LocalPlanFinder:
                     normalized_url += f"?{parsed.query}"
 
                 # Avoid duplicates and non-HTTP links
-                if normalized_url.startswith('http') and \
-                   not any(d['url'] == normalized_url for d in doc_links):
+                if normalized_url.startswith("http") and not any(
+                    d["url"] == normalized_url for d in doc_links
+                ):
 
                     # Classify the document
                     doc_type = self.classify_document_type(normalized_url, link_text)
 
-                    doc_links.append({
-                        'url': normalized_url,
-                        'text': link_text,
-                        'document-type': doc_type
-                    })
+                    doc_links.append(
+                        {
+                            "url": normalized_url,
+                            "text": link_text,
+                            "document-type": doc_type,
+                            "source-url": url,  # The page where this document was found
+                        }
+                    )
 
         return doc_links
 
@@ -577,29 +846,31 @@ class LocalPlanFinder:
         """
         try:
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             }
-            response = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+            response = requests.get(
+                url, headers=headers, timeout=15, allow_redirects=True
+            )
             response.raise_for_status()
 
             # Only process HTML content
-            content_type = response.headers.get('content-type', '').lower()
-            if 'text/html' not in content_type:
+            content_type = response.headers.get("content-type", "").lower()
+            if "text/html" not in content_type:
                 print(f"  Skipping non-HTML content: {content_type}", file=sys.stderr)
                 return "", False
 
-            soup = BeautifulSoup(response.text, 'html.parser')
+            soup = BeautifulSoup(response.text, "html.parser")
 
             # Remove script and style elements only (keep nav/footer/header as they may contain useful links)
-            for script in soup(['script', 'style']):
+            for script in soup(["script", "style"]):
                 script.decompose()
 
             # Get text
-            text = soup.get_text(separator='\n', strip=True)
+            text = soup.get_text(separator="\n", strip=True)
 
             # Clean up excessive whitespace
-            lines = [line.strip() for line in text.split('\n') if line.strip()]
-            text = '\n'.join(lines)
+            lines = [line.strip() for line in text.split("\n") if line.strip()]
+            text = "\n".join(lines)
 
             # Limit length
             if len(text) > max_length:
@@ -636,13 +907,17 @@ class LocalPlanFinder:
         org_name = self.get_organisation_name(org_code)
 
         if not org_name:
-            return [{
-                "organisation": org_code,
-                "organisation-name": "",
-                "error": f"Organisation code '{org_code}' not found in organisation.csv"
-            }]
+            return [
+                {
+                    "organisation": org_code,
+                    "organisation-name": "",
+                    "error": f"Organisation code '{org_code}' not found in organisation.csv",
+                }
+            ]
 
-        print(f"Searching for local plans for: {org_name} ({org_code})", file=sys.stderr)
+        print(
+            f"Searching for local plans for: {org_name} ({org_code})", file=sys.stderr
+        )
 
         # Get official website if available
         official_website = self.get_organisation_website(org_code)
@@ -657,28 +932,44 @@ class LocalPlanFinder:
         all_pdf_links = []
 
         for i, result in enumerate(likely_urls, 1):
-            print(f"Trying URL {i}/{len(likely_urls)}: {result['url']}", file=sys.stderr)
-            content, success = self.fetch_page_content(result['url'])
+            print(
+                f"Trying URL {i}/{len(likely_urls)}: {result['url']}", file=sys.stderr
+            )
+            content, success = self.fetch_page_content(result["url"])
             if success and content:
-                print(f"  ✓ Success! Found content ({len(content)} chars)", file=sys.stderr)
-                pages_content.append({
-                    'url': result['url'],
-                    'title': result['title'],
-                    'content': content
-                })
+                print(
+                    f"  ✓ Success! Found content ({len(content)} chars)",
+                    file=sys.stderr,
+                )
+                pages_content.append(
+                    {"url": result["url"], "title": result["title"], "content": content}
+                )
 
                 # Extract local plan links and PDF links from this page
                 try:
-                    response = requests.get(result['url'], headers={
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-                    }, timeout=15, allow_redirects=True)
+                    response = requests.get(
+                        result["url"],
+                        headers={
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                        },
+                        timeout=15,
+                        allow_redirects=True,
+                    )
                     if response.status_code == 200:
-                        links = self.extract_local_plan_links(result['url'], response.text)
-                        print(f"  Found {len(links)} local plan links on this page", file=sys.stderr)
+                        links = self.extract_local_plan_links(
+                            result["url"], response.text
+                        )
+                        print(
+                            f"  Found {len(links)} local plan links on this page",
+                            file=sys.stderr,
+                        )
                         discovered_links.update(links)
 
-                        docs = self.extract_document_links(result['url'], response.text)
-                        print(f"  Found {len(docs)} document links on this page", file=sys.stderr)
+                        docs = self.extract_document_links(result["url"], response.text)
+                        print(
+                            f"  Found {len(docs)} document links on this page",
+                            file=sys.stderr,
+                        )
                         all_pdf_links.extend(docs)
                 except Exception as e:
                     pass
@@ -688,27 +979,37 @@ class LocalPlanFinder:
                     break
 
         # Now fetch content from discovered local plan links
-        print(f"\nFetching {len(discovered_links)} discovered local plan pages...", file=sys.stderr)
+        print(
+            f"\nFetching {len(discovered_links)} discovered local plan pages...",
+            file=sys.stderr,
+        )
         for link in list(discovered_links)[:10]:  # Limit to 10 additional pages
             # Skip if we already have this URL
-            if any(p['url'] == link for p in pages_content):
+            if any(p["url"] == link for p in pages_content):
                 continue
 
             print(f"Fetching discovered link: {link}", file=sys.stderr)
             content, success = self.fetch_page_content(link)
             if success and content:
                 print(f"  ✓ Success! ({len(content)} chars)", file=sys.stderr)
-                pages_content.append({
-                    'url': link,
-                    'title': 'Discovered local plan page',
-                    'content': content
-                })
+                pages_content.append(
+                    {
+                        "url": link,
+                        "title": "Discovered local plan page",
+                        "content": content,
+                    }
+                )
 
                 # Also extract PDFs from discovered pages
                 try:
-                    response = requests.get(link, headers={
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-                    }, timeout=15, allow_redirects=True)
+                    response = requests.get(
+                        link,
+                        headers={
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+                        },
+                        timeout=15,
+                        allow_redirects=True,
+                    )
                     if response.status_code == 200:
                         docs = self.extract_document_links(link, response.text)
                         print(f"  Found {len(docs)} document links", file=sys.stderr)
@@ -721,11 +1022,13 @@ class LocalPlanFinder:
                     break
 
         if not pages_content:
-            return [{
-                "organisation": org_code,
-                "organisation-name": org_name,
-                "error": "Could not fetch any page content from likely URLs"
-            }]
+            return [
+                {
+                    "organisation": org_code,
+                    "organisation-name": org_name,
+                    "error": "Could not fetch any page content from likely URLs",
+                }
+            ]
 
         print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
         print(f"Total document links found: {len(all_pdf_links)}", file=sys.stderr)
@@ -733,16 +1036,18 @@ class LocalPlanFinder:
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
 
-        content_summary = "\n\n---\n\n".join([
-            f"URL: {p['url']}\nTitle: {p['title']}\n\nContent:\n{p['content'][:10000]}"
-            for p in pages_content
-        ])
+        content_summary = "\n\n---\n\n".join(
+            [
+                f"URL: {p['url']}\nTitle: {p['title']}\n\nContent:\n{p['content'][:10000]}"
+                for p in pages_content
+            ]
+        )
 
         # Add document links summary
         if all_pdf_links:
             doc_summary = "\n\nDOCUMENTS FOUND (PDF and Word):\n"
             for doc in all_pdf_links[:50]:  # Include up to 50 documents
-                doc_summary += f"- {doc['url']}\n  Link text: {doc['text']}\n  Classified as: {doc['document-type']}\n"
+                doc_summary += f"- {doc['url']}\n  Link text: {doc['text']}\n  Classified as: {doc['document-type']}\n  Found on page: {doc['source-url']}\n"
             content_summary += doc_summary
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
@@ -774,6 +1079,7 @@ Return a JSON array where each element represents one local plan document:
         "documents": [
             {{
                 "document-url": "normalized URL to the document",
+                "documentation-url": "the URL of the webpage that links to this document (from 'Found on page' field)",
                 "document-type": "one of the classified types (see below)",
                 "name": "readable name for the document",
                 "reference": "short unique reference for this document (e.g., LP-2018-2033, SA-2020, IR-2020)",
@@ -797,6 +1103,7 @@ EXAMPLE OUTPUT:
     "documents": [
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
+            "documentation-url": "https://www.broxbourne.gov.uk/planning/local-plan-2018-2033/1",
             "document-type": "local-plan",
             "name": "Local Plan 2018-2033",
             "reference": "LP-2018-2033",
@@ -804,6 +1111,7 @@ EXAMPLE OUTPUT:
         }},
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/925/sustainability-appraisal-post-adoption-statement-may-2020",
+            "documentation-url": "https://www.broxbourne.gov.uk/planning/local-plan-2018-2033/1",
             "document-type": "sustainability-appraisal",
             "name": "Sustainability Appraisal of the Local Plan 2018-2033",
             "reference": "SA-2020",
@@ -811,6 +1119,7 @@ EXAMPLE OUTPUT:
         }},
         {{
             "document-url": "https://www.broxbourne.gov.uk/downloads/file/924/broxbourne-lp-report-final",
+            "documentation-url": "https://www.broxbourne.gov.uk/planning/local-plan-2018-2033/1",
             "document-type": "inspectors-report",
             "name": "Broxbourne LP Report Final",
             "reference": "IR-2020",
@@ -972,6 +1281,11 @@ DOCUMENTS ARRAY:
 
 DOCUMENT-URL: Use the normalized URL from "DOCUMENTS FOUND" section
 
+DOCUMENTATION-URL: Use the source page URL from "Found on page" field in "DOCUMENTS FOUND" section
+  * This is the webpage that contains the link to the document
+  * Extract from the "Found on page" field for each document
+  * This helps users understand where the document was discovered and provides context
+
 DOCUMENT-TYPE: Use the pre-classified type from "DOCUMENTS FOUND" section (already done)
 
 NAME: Use the actual document title as closely as possible
@@ -1064,25 +1378,20 @@ Provide ONLY the JSON array response, no other text."""
             message = self.client.messages.create(
                 model="claude-sonnet-4-20250514",
                 max_tokens=4096,
-                messages=[
-                    {
-                        "role": "user",
-                        "content": prompt
-                    }
-                ]
+                messages=[{"role": "user", "content": prompt}],
             )
 
             # Extract the response text
             response_text = ""
             for block in message.content:
-                if hasattr(block, 'text'):
+                if hasattr(block, "text"):
                     response_text += block.text
 
             print(f"Received response from Claude", file=sys.stderr)
 
             # Try to parse JSON from the response (looking for array)
-            json_start = response_text.find('[')
-            json_end = response_text.rfind(']') + 1
+            json_start = response_text.find("[")
+            json_end = response_text.rfind("]") + 1
 
             if json_start != -1 and json_end > json_start:
                 json_str = response_text[json_start:json_end]
@@ -1094,19 +1403,21 @@ Provide ONLY the JSON array response, no other text."""
 
                 # Add endpoint field to each document (SHA256 hash of document URL)
                 for plan in result:
-                    if 'documents' in plan and isinstance(plan['documents'], list):
-                        for doc in plan['documents']:
-                            if 'document-url' in doc:
-                                url = doc['document-url']
-                                endpoint = hashlib.sha256(url.encode('utf-8')).hexdigest()
-                                doc['endpoint'] = endpoint
+                    if "documents" in plan and isinstance(plan["documents"], list):
+                        for doc in plan["documents"]:
+                            if "document-url" in doc:
+                                url = doc["document-url"]
+                                endpoint = hashlib.sha256(
+                                    url.encode("utf-8")
+                                ).hexdigest()
+                                doc["endpoint"] = endpoint
 
                 print(f"Found {len(result)} local plan(s)", file=sys.stderr)
                 return result
             else:
                 # Fallback: try to parse as single object and wrap in array
-                json_start = response_text.find('{')
-                json_end = response_text.rfind('}') + 1
+                json_start = response_text.find("{")
+                json_end = response_text.rfind("}") + 1
 
                 if json_start != -1 and json_end > json_start:
                     json_str = response_text[json_start:json_end]
@@ -1115,33 +1426,39 @@ Provide ONLY the JSON array response, no other text."""
                     # Add endpoint field to each document (SHA256 hash of document URL)
                     result_list = [result]
                     for plan in result_list:
-                        if 'documents' in plan and isinstance(plan['documents'], list):
-                            for doc in plan['documents']:
-                                if 'document-url' in doc:
-                                    url = doc['document-url']
-                                    endpoint = hashlib.sha256(url.encode('utf-8')).hexdigest()
-                                    doc['endpoint'] = endpoint
+                        if "documents" in plan and isinstance(plan["documents"], list):
+                            for doc in plan["documents"]:
+                                if "document-url" in doc:
+                                    url = doc["document-url"]
+                                    endpoint = hashlib.sha256(
+                                        url.encode("utf-8")
+                                    ).hexdigest()
+                                    doc["endpoint"] = endpoint
 
                     return result_list
                 else:
-                    return [{
-                        "organisation": org_code,
-                        "organisation-name": org_name,
-                        "error": "Could not parse JSON response from Claude",
-                        "raw_response": response_text[:500]
-                    }]
+                    return [
+                        {
+                            "organisation": org_code,
+                            "organisation-name": org_name,
+                            "error": "Could not parse JSON response from Claude",
+                            "raw_response": response_text[:500],
+                        }
+                    ]
 
         except Exception as e:
-            return [{
-                "organisation": org_code,
-                "organisation-name": org_name,
-                "error": str(e)
-            }]
+            return [
+                {
+                    "organisation": org_code,
+                    "organisation-name": org_name,
+                    "error": str(e),
+                }
+            ]
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Find all local plan documentation URLs for an organisation using Claude',
+        description="Find all local plan documentation URLs for an organisation using Claude",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -1167,30 +1484,29 @@ Status values:
   - examination: Undergoing examination
   - adopted: Formally adopted
   - withdrawn: Withdrawn from process
-"""
+""",
     )
 
     parser.add_argument(
-        'organisation',
-        help='Organisation code (e.g., local-authority:DAC)'
+        "organisation", help="Organisation code (e.g., local-authority:DAC)"
     )
 
     parser.add_argument(
-        '--organisation-csv',
-        default='var/cache/organisation.csv',
-        help='Path to organisation CSV file (default: var/cache/organisation.csv)'
+        "--organisation-csv",
+        default="var/cache/organisation.csv",
+        help="Path to organisation CSV file (default: var/cache/organisation.csv)",
     )
 
     parser.add_argument(
-        '--debug',
-        action='store_true',
-        help='Debug mode - test URL fetching without calling Claude API'
+        "--debug",
+        action="store_true",
+        help="Debug mode - test URL fetching without calling Claude API",
     )
 
     args = parser.parse_args()
 
     # Get API key from environment variable
-    api_key = os.getenv('ANTHROPIC_API_KEY')
+    api_key = os.getenv("ANTHROPIC_API_KEY")
 
     if not api_key and not args.debug:
         print("Error: ANTHROPIC_API_KEY environment variable not set", file=sys.stderr)
@@ -1199,13 +1515,16 @@ Status values:
         sys.exit(1)
 
     # Create finder (API key can be None in debug mode)
-    finder = LocalPlanFinder(api_key or 'debug', args.organisation_csv)
+    finder = LocalPlanFinder(api_key or "debug", args.organisation_csv)
 
     if args.debug:
         # Debug mode - just show what URLs we would try
         org_name = finder.get_organisation_name(args.organisation)
         if not org_name:
-            print(f"Error: Organisation code '{args.organisation}' not found", file=sys.stderr)
+            print(
+                f"Error: Organisation code '{args.organisation}' not found",
+                file=sys.stderr,
+            )
             sys.exit(1)
 
         official_website = finder.get_organisation_website(args.organisation)
@@ -1223,7 +1542,7 @@ Status values:
 
         for i, result in enumerate(likely_urls[:10], 1):  # Test first 10 URLs
             print(f"{i}. {result['url']}", file=sys.stderr)
-            content, success = finder.fetch_page_content(result['url'])
+            content, success = finder.fetch_page_content(result["url"])
             if success:
                 success_count += 1
                 print(f"   ✓ Success! ({len(content)} chars)", file=sys.stderr)
@@ -1235,40 +1554,70 @@ Status values:
                 # Try to extract local plan links and PDFs
                 try:
                     import requests
-                    response = requests.get(result['url'], headers={
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                    }, timeout=15, allow_redirects=True)
+
+                    response = requests.get(
+                        result["url"],
+                        headers={
+                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                        },
+                        timeout=15,
+                        allow_redirects=True,
+                    )
                     if response.status_code == 200:
-                        links = finder.extract_local_plan_links(result['url'], response.text)
+                        links = finder.extract_local_plan_links(
+                            result["url"], response.text
+                        )
                         if links:
-                            print(f"   Found {len(links)} local plan links:", file=sys.stderr)
+                            print(
+                                f"   Found {len(links)} local plan links:",
+                                file=sys.stderr,
+                            )
                             for link in links[:5]:  # Show first 5
                                 print(f"     - {link}", file=sys.stderr)
                             discovered_links.update(links)
 
-                        docs = finder.extract_document_links(result['url'], response.text)
+                        docs = finder.extract_document_links(
+                            result["url"], response.text
+                        )
                         if docs:
-                            print(f"   Found {len(docs)} document links:", file=sys.stderr)
+                            print(
+                                f"   Found {len(docs)} document links:", file=sys.stderr
+                            )
                             for doc in docs[:5]:  # Show first 5
                                 print(f"     - {doc['url']}", file=sys.stderr)
-                                print(f"       Text: {doc['text'][:60]}...", file=sys.stderr)
-                                print(f"       Type: {doc['document-type']}", file=sys.stderr)
+                                print(
+                                    f"       Text: {doc['text'][:60]}...",
+                                    file=sys.stderr,
+                                )
+                                print(
+                                    f"       Type: {doc['document-type']}",
+                                    file=sys.stderr,
+                                )
+                                print(
+                                    f"       Source: {doc['source-url']}",
+                                    file=sys.stderr,
+                                )
                             all_pdfs.extend(docs)
                 except Exception as e:
                     pass
 
         print(f"\nSuccessfully fetched {success_count} pages", file=sys.stderr)
-        print(f"Discovered {len(discovered_links)} total local plan links", file=sys.stderr)
+        print(
+            f"Discovered {len(discovered_links)} total local plan links",
+            file=sys.stderr,
+        )
         print(f"Discovered {len(all_pdfs)} total document links", file=sys.stderr)
 
         # Show document type breakdown
         if all_pdfs:
             type_counts = {}
             for doc in all_pdfs:
-                doc_type = doc['document-type']
+                doc_type = doc["document-type"]
                 type_counts[doc_type] = type_counts.get(doc_type, 0) + 1
             print(f"\nDocument types found:", file=sys.stderr)
-            for doc_type, count in sorted(type_counts.items(), key=lambda x: x[1], reverse=True):
+            for doc_type, count in sorted(
+                type_counts.items(), key=lambda x: x[1], reverse=True
+            ):
                 print(f"  {doc_type}: {count}", file=sys.stderr)
 
         sys.exit(0)
@@ -1277,13 +1626,13 @@ Status values:
     results = finder.find_local_plan(args.organisation)
 
     # Save results to source file
-    if results and not any('error' in r for r in results):
+    if results and not any("error" in r for r in results):
         org_code = args.organisation
         source_file = f"source/{org_code}.json"
 
         print(f"\nSaving results to {source_file}", file=sys.stderr)
         Path("source").mkdir(parents=True, exist_ok=True)
-        with open(source_file, 'w') as f:
+        with open(source_file, "w") as f:
             json.dump(results, f, indent=2)
 
         # Download all documents
@@ -1293,15 +1642,15 @@ Status values:
         failed = 0
 
         for plan in results:
-            if 'documents' in plan and isinstance(plan['documents'], list):
-                for doc in plan['documents']:
-                    doc_url = doc.get('document-url', '')
-                    endpoint = doc.get('endpoint', '')
+            if "documents" in plan and isinstance(plan["documents"], list):
+                for doc in plan["documents"]:
+                    doc_url = doc.get("document-url", "")
+                    endpoint = doc.get("endpoint", "")
 
                     if doc_url and endpoint:
                         result = download_document(doc_url, endpoint)
                         if result:
-                            if result.get('resource'):
+                            if result.get("resource"):
                                 downloaded += 1
                             else:
                                 failed += 1
@@ -1321,8 +1670,11 @@ Status values:
     print(json.dumps(results, indent=2))
 
     # Summary to stderr
-    if results and not any('error' in r for r in results):
-        print(f"\n✓ Found and processed {len(results)} local plan document(s)", file=sys.stderr)
+    if results and not any("error" in r for r in results):
+        print(
+            f"\n✓ Found and processed {len(results)} local plan document(s)",
+            file=sys.stderr,
+        )
 
 
 if __name__ == "__main__":

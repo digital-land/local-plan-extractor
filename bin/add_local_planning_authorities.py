@@ -15,39 +15,39 @@ def process_json_file(file_path):
 
     print(f"Processing: {file_path.name}")
 
-    with open(file_path, 'r', encoding='utf-8') as f:
+    with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f, object_pairs_hook=OrderedDict)
 
     # Check if local-plan-boundary exists
-    if 'local-plan-boundary' not in data:
+    if "local-plan-boundary" not in data:
         print(f"  ⚠ Skipping - no local-plan-boundary field")
         return False
 
     # Check if already has local-planning-authorities
-    if 'local-planning-authorities' in data:
+    if "local-planning-authorities" in data:
         print(f"  ℹ Already has local-planning-authorities field")
         return False
 
-    boundary = data['local-plan-boundary']
+    boundary = data["local-plan-boundary"]
 
     if not boundary:
         print(f"  ⚠ Skipping - local-plan-boundary is empty")
         return False
 
     # Split the boundary by hyphens to get individual codes
-    lpa_codes = boundary.split('-')
+    lpa_codes = boundary.split("-")
 
     # Create new ordered dict with the field inserted after local-plan-boundary
     new_data = OrderedDict()
     for key, value in data.items():
         new_data[key] = value
-        if key == 'local-plan-boundary':
-            new_data['local-planning-authorities'] = lpa_codes
+        if key == "local-plan-boundary":
+            new_data["local-planning-authorities"] = lpa_codes
 
     # Write back to file with pretty formatting
-    with open(file_path, 'w', encoding='utf-8') as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         json.dump(new_data, f, indent=2, ensure_ascii=False)
-        f.write('\n')  # Add trailing newline
+        f.write("\n")  # Add trailing newline
 
     print(f"  ✓ Added local-planning-authorities: {len(lpa_codes)} authorities")
     return True
@@ -55,13 +55,13 @@ def process_json_file(file_path):
 
 def main():
     # Find all JSON files in local-plan directory
-    local_plan_dir = Path(__file__).parent.parent / 'local-plan'
+    local_plan_dir = Path(__file__).parent.parent / "local-plan"
 
     if not local_plan_dir.exists():
         print(f"Error: Directory not found: {local_plan_dir}")
         sys.exit(1)
 
-    json_files = sorted(local_plan_dir.glob('*.json'))
+    json_files = sorted(local_plan_dir.glob("*.json"))
 
     if not json_files:
         print(f"No JSON files found in {local_plan_dir}")
@@ -83,13 +83,13 @@ def main():
             skipped_count += 1
         print()
 
-    print("="*60)
+    print("=" * 60)
     print(f"Summary:")
     print(f"  Updated: {updated_count}")
     print(f"  Skipped: {skipped_count}")
     print(f"  Total:   {len(json_files)}")
-    print("="*60)
+    print("=" * 60)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

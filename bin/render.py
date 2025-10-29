@@ -15,24 +15,21 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 def load_json(json_path):
     """Load JSON file"""
-    with open(json_path, 'r', encoding='utf-8') as f:
+    with open(json_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def load_organisations(csv_path='var/cache/organisation.csv'):
+def load_organisations(csv_path="var/cache/organisation.csv"):
     """Load organisation data from CSV and create lookup dict"""
     organisations = {}
     try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
+        with open(csv_path, "r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                org_code = row.get('organisation', '')
-                org_name = row.get('name', '')
+                org_code = row.get("organisation", "")
+                org_name = row.get("name", "")
                 if org_code and org_name:
-                    organisations[org_code] = {
-                        'name': org_name,
-                        'reference': org_code
-                    }
+                    organisations[org_code] = {"name": org_name, "reference": org_code}
     except FileNotFoundError:
         print(f"Warning: Organisation CSV not found at {csv_path}", file=sys.stderr)
     return organisations
@@ -40,35 +37,37 @@ def load_organisations(csv_path='var/cache/organisation.csv'):
 
 def format_number(value):
     """Format number with thousand separators"""
-    if isinstance(value, (int, float)) and value != '':
+    if isinstance(value, (int, float)) and value != "":
         return f"{value:,}"
-    return value if value != '' else 'Not specified'
+    return value if value != "" else "Not specified"
 
 
 def collect_organisation_plans(local_plan_dir):
     """Collect which plans each organisation is part of"""
     org_plans = defaultdict(list)
 
-    json_files = sorted(Path(local_plan_dir).glob('*.json'))
+    json_files = sorted(Path(local_plan_dir).glob("*.json"))
 
     for json_path in json_files:
         try:
             data = load_json(json_path)
 
             # Get organisations from this plan
-            orgs = data.get('organisations', [])
-            if not orgs and data.get('organisation'):
+            orgs = data.get("organisations", [])
+            if not orgs and data.get("organisation"):
                 # Single authority plan
-                orgs = [data['organisation']]
+                orgs = [data["organisation"]]
 
             for org_code in orgs:
-                org_plans[org_code].append({
-                    'name': data.get('name', json_path.stem),
-                    'filename': json_path.stem,
-                    'organisation-name': data.get('organisation-name', ''),
-                    'period-start-date': data.get('period-start-date', ''),
-                    'period-end-date': data.get('period-end-date', '')
-                })
+                org_plans[org_code].append(
+                    {
+                        "name": data.get("name", json_path.stem),
+                        "filename": json_path.stem,
+                        "organisation-name": data.get("organisation-name", ""),
+                        "period-start-date": data.get("period-start-date", ""),
+                        "period-end-date": data.get("period-end-date", ""),
+                    }
+                )
         except Exception as e:
             print(f"  Warning: Error processing {json_path.name}: {e}", file=sys.stderr)
             continue
@@ -84,11 +83,11 @@ def render_local_plan(json_path, output_dir, env, organisations_lookup):
     data = load_json(json_path)
 
     # Load template
-    template = env.get_template('local-plan.html')
+    template = env.get_template("local-plan.html")
 
     # Generate output filename from JSON filename - put in local-plan subdirectory
-    output_filename = json_path.stem + '.html'
-    output_path = Path(output_dir) / 'local-plan' / output_filename
+    output_filename = json_path.stem + ".html"
+    output_path = Path(output_dir) / "local-plan" / output_filename
 
     # Ensure output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -98,39 +97,41 @@ def render_local_plan(json_path, output_dir, env, organisations_lookup):
         plan=data,
         json_filename=json_path.name,
         organisations=organisations_lookup,
-        home_path='../index.html'
+        home_path="../index.html",
     )
 
     # Write output
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
     return output_path, data
 
 
-def render_organisation_page(org_code, org_data, plans, output_dir, env, organisations_lookup):
+def render_organisation_page(
+    org_code, org_data, plans, output_dir, env, organisations_lookup
+):
     """Render an organisation page showing all plans they're part of"""
 
     # Load template
-    template = env.get_template('organisation.html')
+    template = env.get_template("organisation.html")
 
     # Create organisation subdirectory for this org (organisation/org_code/)
-    org_subdir = Path(output_dir) / 'organisation' / org_code
+    org_subdir = Path(output_dir) / "organisation" / org_code
     org_subdir.mkdir(parents=True, exist_ok=True)
 
     # Create index.html in the org subdirectory
-    output_path = org_subdir / 'index.html'
+    output_path = org_subdir / "index.html"
 
     # Render template
     html_content = template.render(
         organisation=org_data,
         plans=plans,
         organisations=organisations_lookup,
-        home_path='../../index.html'
+        home_path="../../index.html",
     )
 
     # Write output
-    with open(output_path, 'w', encoding='utf-8') as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
     return output_path
@@ -140,20 +141,17 @@ def render_index(plans, output_dir, env):
     """Render the index page with list of all local plans"""
 
     # Load template
-    template = env.get_template('index.html')
+    template = env.get_template("index.html")
 
     # Sort plans by name
-    sorted_plans = sorted(plans, key=lambda p: p.get('name', ''))
+    sorted_plans = sorted(plans, key=lambda p: p.get("name", ""))
 
     # Render template
-    html_content = template.render(
-        plans=sorted_plans,
-        home_path='index.html'
-    )
+    html_content = template.render(plans=sorted_plans, home_path="index.html")
 
     # Write output
-    output_path = Path(output_dir) / 'index.html'
-    with open(output_path, 'w', encoding='utf-8') as f:
+    output_path = Path(output_dir) / "index.html"
+    with open(output_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
     return output_path
@@ -161,7 +159,7 @@ def render_index(plans, output_dir, env):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Render all local plan JSON files and organisation pages as HTML',
+        description="Render all local plan JSON files and organisation pages as HTML",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -170,25 +168,27 @@ Examples:
 
   # Specify custom directories
   python bin/render.py --local-plans data/plans/ --output public/
-        """
+        """,
     )
 
     parser.add_argument(
-        '--local-plans',
-        default='local-plan',
-        help='Directory containing local plan JSON files (default: local-plan/)'
+        "--local-plans",
+        default="local-plan",
+        help="Directory containing local plan JSON files (default: local-plan/)",
     )
 
     parser.add_argument(
-        '--output', '-o',
-        default='docs',
-        help='Output directory for HTML files (default: docs/)'
+        "--output",
+        "-o",
+        default="docs",
+        help="Output directory for HTML files (default: docs/)",
     )
 
     parser.add_argument(
-        '--templates', '-t',
-        default='templates',
-        help='Templates directory (default: templates/)'
+        "--templates",
+        "-t",
+        default="templates",
+        help="Templates directory (default: templates/)",
     )
 
     args = parser.parse_args()
@@ -196,28 +196,33 @@ Examples:
     # Check directories exist
     local_plan_dir = Path(args.local_plans)
     if not local_plan_dir.exists():
-        print(f"Error: Local plans directory not found: {args.local_plans}", file=sys.stderr)
+        print(
+            f"Error: Local plans directory not found: {args.local_plans}",
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     templates_dir = Path(args.templates)
     if not templates_dir.exists():
-        print(f"Error: Templates directory not found: {args.templates}", file=sys.stderr)
+        print(
+            f"Error: Templates directory not found: {args.templates}", file=sys.stderr
+        )
         sys.exit(1)
 
     # Load organisations lookup
     print("Loading organisations...")
     organisations_lookup = load_organisations()
-    org_names = {code: data['name'] for code, data in organisations_lookup.items()}
+    org_names = {code: data["name"] for code, data in organisations_lookup.items()}
 
     # Set up Jinja2 environment
     env = Environment(
         loader=FileSystemLoader(templates_dir),
-        autoescape=select_autoescape(['html', 'xml'])
+        autoescape=select_autoescape(["html", "xml"]),
     )
-    env.filters['format_number'] = format_number
+    env.filters["format_number"] = format_number
 
     # Find all JSON files
-    json_files = sorted(local_plan_dir.glob('*.json'))
+    json_files = sorted(local_plan_dir.glob("*.json"))
     print(f"\nFound {len(json_files)} local plan JSON files")
 
     # Render all local plan pages
@@ -226,11 +231,13 @@ Examples:
     plans_data = []
     for json_path in json_files:
         try:
-            output_path, data = render_local_plan(json_path, args.output, env, org_names)
+            output_path, data = render_local_plan(
+                json_path, args.output, env, org_names
+            )
             print(f"  ✓ {json_path.stem}")
             rendered_plans += 1
             # Add filename for linking
-            data['filename'] = json_path.stem
+            data["filename"] = json_path.stem
             plans_data.append(data)
         except Exception as e:
             print(f"  ✗ {json_path.stem}: {e}", file=sys.stderr)
@@ -255,10 +262,9 @@ Examples:
     rendered_orgs = 0
     for org_code, plans in sorted(org_plans.items()):
         try:
-            org_data = organisations_lookup.get(org_code, {
-                'name': org_code,
-                'reference': org_code
-            })
+            org_data = organisations_lookup.get(
+                org_code, {"name": org_code, "reference": org_code}
+            )
             output_path = render_organisation_page(
                 org_code, org_data, plans, args.output, env, org_names
             )
@@ -270,14 +276,14 @@ Examples:
     print(f"\n✓ Rendered {rendered_orgs} organisation pages")
 
     # Create .nojekyll file
-    nojekyll_path = Path(args.output) / '.nojekyll'
+    nojekyll_path = Path(args.output) / ".nojekyll"
     nojekyll_path.touch()
     print(f"\n✓ Created {nojekyll_path}")
 
     # Copy var/cache directory for GeoJSON data
     print("\nCopying data files...")
-    var_cache_src = Path('var/cache')
-    var_cache_dest = Path(args.output) / 'var' / 'cache'
+    var_cache_src = Path("var/cache")
+    var_cache_dest = Path(args.output) / "var" / "cache"
 
     if var_cache_src.exists():
         # Remove destination if it exists
@@ -291,14 +297,14 @@ Examples:
     else:
         print(f"  ⚠ Warning: var/cache directory not found", file=sys.stderr)
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("Summary:")
     print(f"  Index page: 1")
     print(f"  Local plan pages: {rendered_plans}")
     print(f"  Organisation pages: {rendered_orgs}")
     print(f"  Output directory: {args.output}")
-    print("="*60)
+    print("=" * 60)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
