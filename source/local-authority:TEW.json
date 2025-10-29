@@ -2,6 +2,7 @@
   {
     "organisation": "local-authority:TEW",
     "organisation-name": "Tewkesbury Borough Council",
+    "reference": "LP-TEW-2022",
     "documentation-url": "https://tewkesbury.gov.uk/local-plan",
     "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/11/Tewkesbury-Borough-Plan-Final-Version-with-front-cover.pdf",
     "name": "Tewkesbury Borough Plan 2011-2031",
@@ -69,6 +70,7 @@
   {
     "organisation": "local-authority:TEW",
     "organisation-name": "Tewkesbury Borough Council",
+    "reference": "LP-TEW-2017",
     "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
     "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
     "name": "Joint Core Strategy 2011-2031",
@@ -100,6 +102,7 @@
   {
     "organisation": "local-authority:TEW",
     "organisation-name": "Tewkesbury Borough Council",
+    "reference": "LP-TEW-2024",
     "documentation-url": "https://strategiclocalplan.org/",
     "document-url": "",
     "name": "Strategic and Local Plan",

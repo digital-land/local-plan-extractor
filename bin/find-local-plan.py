@@ -1069,6 +1069,7 @@ Return a JSON array where each element represents one local plan document:
     {{
         "organisation": "{org_code}",
         "organisation-name": "{org_name}",
+        "reference": "unique identifier for this plan - format: LP-[ORG-REF]-[YEAR] (e.g., LP-DAC-2013, LP-BRX-2020)",
         "documentation-url": "the best URL for this specific local plan document (main page)",
         "document-url": "the direct URL to the PDF document for this plan (e.g., core strategy PDF, local plan PDF)",
         "name": "the full official name of this plan document (e.g., 'Dacorum Core Strategy 2006-2031', 'Dacorum Site Allocations DPD')",
@@ -1093,6 +1094,7 @@ EXAMPLE OUTPUT:
 {{
     "organisation": "local-authority:BRX",
     "organisation-name": "Broxbourne Borough Council",
+    "reference": "LP-BRX-2020",
     "documentation-url": "https://www.broxbourne.gov.uk/planning/local-plan-2018-2033/1",
     "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
     "name": "Broxbourne Local Plan 2018-2033",
@@ -1360,6 +1362,13 @@ MATCHING DOCUMENTS TO PLANS:
 - If a document clearly relates to the plan, include it even if not explicitly named
 
 OTHER FIELDS:
+- For the reference field:
+  * Format: "LP-[ORG-REF]-[YEAR]"
+  * Extract the organisation reference from the organisation CURIE (e.g., "DAC" from "local-authority:DAC", "BRX" from "local-authority:BRX")
+  * Use the year field value (the adoption year or latest milestone year)
+  * Examples: "LP-DAC-2013", "LP-BRX-2020", "LP-TWH-2020"
+  * This must uniquely identify each local plan within the dataset
+  * If there are multiple plans with the same organisation and year, add a suffix like "-2" (e.g., "LP-DAC-2013-2")
 - Extract plan period dates from the plan name or content (e.g., "2006-2031" means period-start-date: 2006, period-end-date: 2031)
   * Look carefully for period dates - they may be in the plan title, headings, or document text
   * Common formats: "2018-2033", "2018 to 2033", "plan period 2018-2033"

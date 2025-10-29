@@ -2,6 +2,7 @@
   {
     "organisation": "local-authority:FEN",
     "organisation-name": "Fenland District Council",
+    "reference": "LP-FEN-2022",
     "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
     "document-url": "",
     "name": "Fenland Draft Local Plan",
@@ -60,6 +61,7 @@
   {
     "organisation": "local-authority:FEN",
     "organisation-name": "Fenland District Council",
+    "reference": "LP-FEN-2014",
     "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
     "document-url": "https://www.fenland.gov.uk/media/12064/Fenland-Local-Plan-Adopted-2014/pdf/Fenland_Local_Plan-Adopted_2014.pdf?m=1591111057500",
     "name": "Fenland Local Plan",

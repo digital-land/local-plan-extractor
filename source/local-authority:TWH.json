@@ -2,6 +2,7 @@
   {
     "organisation": "local-authority:TWH",
     "organisation-name": "London Borough of Tower Hamlets",
+    "reference": "LP-TWH-2025",
     "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",
     "document-url": "",
     "name": "Tower Hamlets Local Plan (Emerging Draft)",
@@ -14,6 +15,7 @@
   {
     "organisation": "local-authority:TWH",
     "organisation-name": "London Borough of Tower Hamlets",
+    "reference": "LP-TWH-2020",
     "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
     "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf",
     "name": "Tower Hamlets Local Plan 2031: Managing Growth and Sharing Benefits",

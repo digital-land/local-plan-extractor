@@ -2,6 +2,7 @@
   {
     "organisation": "local-authority:DAC",
     "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2025",
     "documentation-url": "https://www.dacorum.gov.uk/newlocalplan",
     "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-local-plan-to-2041.pdf?sfvrsn=52801d9e_6",
     "name": "Dacorum Local Plan to 2041",
@@ -69,6 +70,7 @@
   {
     "organisation": "local-authority:DAC",
     "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2016",
     "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/site-allocations",
     "document-url": "",
     "name": "Site Allocations Development Plan Document",
@@ -81,6 +83,7 @@
   {
     "organisation": "local-authority:DAC",
     "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2013",
     "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
     "document-url": "",
     "name": "Dacorum Core Strategy",
@@ -93,6 +96,7 @@
   {
     "organisation": "local-authority:DAC",
     "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2004",
     "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/local-plan-1991-2011",
     "document-url": "",
     "name": "Dacorum Borough Local Plan",

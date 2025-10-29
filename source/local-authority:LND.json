@@ -2,6 +2,7 @@
   {
     "organisation": "local-authority:LND",
     "organisation-name": "City of London Corporation",
+    "reference": "LP-LND-2021",
     "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
     "document-url": "",
     "name": "City Plan 2040",
@@ -69,6 +70,7 @@
   {
     "organisation": "local-authority:LND",
     "organisation-name": "City of London Corporation",
+    "reference": "LP-LND-2015",
     "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/local-plan-2015",
     "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/planning-local-plan-adopted-2015.pdf",
     "name": "Local Plan 2015",
