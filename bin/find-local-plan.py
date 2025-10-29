@@ -34,9 +34,173 @@ import hashlib
 import json
 import os
 import sys
+import time
+import mimetypes
+import urllib.request
+import urllib.error
 import requests
 from bs4 import BeautifulSoup
+from pathlib import Path
+from datetime import datetime, timezone
 from typing import Dict, Optional, List
+
+
+def calculate_sha1(content):
+    """Calculate SHA1 hash of content"""
+    return hashlib.sha1(content).hexdigest()
+
+
+def detect_file_suffix(content, content_type, url):
+    """Detect file suffix from content, content-type header, or URL."""
+    # Try to get extension from content-type
+    if content_type:
+        mime_type = content_type.split(';')[0].strip()
+        mime_to_ext = {
+            'application/pdf': 'pdf',
+            'application/vnd.openxmlformats-officedocument.wordprocessingml.document': 'docx',
+            'application/msword': 'doc',
+            'application/vnd.ms-excel': 'xls',
+            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 'xlsx',
+            'text/html': 'html',
+            'text/plain': 'txt',
+            'application/zip': 'zip',
+            'image/jpeg': 'jpg',
+            'image/png': 'png',
+        }
+        if mime_type in mime_to_ext:
+            return mime_to_ext[mime_type]
+        ext = mimetypes.guess_extension(mime_type)
+        if ext:
+            return ext.lstrip('.')
+
+    # Try to detect from magic bytes
+    if content:
+        if content.startswith(b'%PDF'):
+            return 'pdf'
+        elif content.startswith(b'PK\x03\x04'):
+            if b'word/' in content[:2000]:
+                return 'docx'
+            elif b'xl/' in content[:2000]:
+                return 'xlsx'
+            else:
+                return 'zip'
+        elif content.startswith(b'\xd0\xcf\x11\xe0'):
+            return 'doc'
+        elif content.startswith(b'<!DOCTYPE') or content.startswith(b'<html'):
+            return 'html'
+
+    # Try to get extension from URL
+    if url:
+        url_path = url.split('?')[0]
+        if '.' in url_path:
+            ext = url_path.rsplit('.', 1)[-1].lower()
+            if ext in ['pdf', 'doc', 'docx', 'xls', 'xlsx', 'html', 'txt', 'zip', 'jpg', 'png']:
+                return ext
+
+    return 'bin'
+
+
+def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url):
+    """Create a hard link in collection/endpoint/ to the resource file."""
+    endpoint_dir = Path("collection/endpoint")
+    endpoint_dir.mkdir(parents=True, exist_ok=True)
+
+    suffix = detect_file_suffix(content, content_type, url)
+    hardlink_path = endpoint_dir / f"{endpoint}.{suffix}"
+    resource_path = Path("collection/resource") / resource_hash
+
+    if hardlink_path.exists():
+        hardlink_path.unlink()
+
+    os.link(resource_path, hardlink_path)
+    print(f"  → Created hardlink: endpoint/{endpoint}.{suffix} => resource/{resource_hash}", file=sys.stderr)
+
+
+def download_document(url, endpoint):
+    """Download document from URL and save to collection with proper logging."""
+    if not url or url == "":
+        print(f"Skipping empty URL", file=sys.stderr)
+        return None
+
+    if not url.startswith('http://') and not url.startswith('https://'):
+        print(f"Skipping non-HTTP URL: {url}", file=sys.stderr)
+        return None
+
+    Path("collection/resource").mkdir(parents=True, exist_ok=True)
+    Path("collection/log").mkdir(parents=True, exist_ok=True)
+
+    log_path = Path(f"collection/log/{endpoint}.json")
+    if log_path.exists():
+        print(f"Already downloaded: {url}", file=sys.stderr)
+        with open(log_path, 'r') as f:
+            log_entry = json.load(f)
+
+        resource_hash = log_entry.get('resource')
+        if resource_hash:
+            resource_path = Path(f"collection/resource/{resource_hash}")
+            if resource_path.exists():
+                with open(resource_path, 'rb') as f:
+                    content = f.read()
+                create_endpoint_hardlink(endpoint, resource_hash, content, log_entry.get('content-type', ''), url)
+        return log_entry
+
+    print(f"Downloading: {url}", file=sys.stderr)
+    start_time = time.time()
+
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36'}
+        )
+
+        with urllib.request.urlopen(req, timeout=60) as response:
+            content = response.read()
+            status = response.status
+            content_type = response.headers.get('Content-Type', '')
+            content_length = len(content)
+
+        elapsed = time.time() - start_time
+        resource_hash = calculate_sha1(content)
+
+        resource_path = Path(f"collection/resource/{resource_hash}")
+        with open(resource_path, 'wb') as f:
+            f.write(content)
+
+        log_entry = {
+            "resource": resource_hash,
+            "endpoint-url": url,
+            "entry-date": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+            "status": str(status),
+            "elapsed": f"{elapsed:.3f}",
+            "content-type": content_type,
+            "bytes": str(content_length)
+        }
+
+        with open(log_path, 'w') as f:
+            json.dump(log_entry, f, indent=2)
+
+        create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url)
+        print(f"  ✓ Downloaded {content_length} bytes -> {resource_hash}", file=sys.stderr)
+        return log_entry
+
+    except Exception as e:
+        elapsed = time.time() - start_time
+        print(f"  ✗ Error downloading {url}: {str(e)}", file=sys.stderr)
+
+        log_entry = {
+            "resource": "",
+            "endpoint-url": url,
+            "entry-date": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+            "status": "error",
+            "elapsed": f"{elapsed:.3f}",
+            "content-type": "",
+            "bytes": "0"
+        }
+
+        with open(log_path, 'w') as f:
+            json.dump(log_entry, f, indent=2)
+
+        return log_entry
 
 
 class LocalPlanFinder:
@@ -967,12 +1131,53 @@ Status values:
     # Normal mode - full search
     results = finder.find_local_plan(args.organisation)
 
+    # Save results to source file
+    if results and not any('error' in r for r in results):
+        org_code = args.organisation
+        source_file = f"source/{org_code}.json"
+
+        print(f"\nSaving results to {source_file}", file=sys.stderr)
+        Path("source").mkdir(parents=True, exist_ok=True)
+        with open(source_file, 'w') as f:
+            json.dump(results, f, indent=2)
+
+        # Download all documents
+        print(f"\nDownloading documents...", file=sys.stderr)
+        downloaded = 0
+        skipped = 0
+        failed = 0
+
+        for plan in results:
+            if 'documents' in plan and isinstance(plan['documents'], list):
+                for doc in plan['documents']:
+                    doc_url = doc.get('document-url', '')
+                    endpoint = doc.get('endpoint', '')
+
+                    if doc_url and endpoint:
+                        result = download_document(doc_url, endpoint)
+                        if result:
+                            if result.get('resource'):
+                                downloaded += 1
+                            else:
+                                failed += 1
+                        else:
+                            skipped += 1
+
+                        time.sleep(0.5)  # Be nice to servers
+
+        print(f"\n{'='*60}", file=sys.stderr)
+        print(f"Download Summary:", file=sys.stderr)
+        print(f"  Downloaded: {downloaded}", file=sys.stderr)
+        print(f"  Skipped: {skipped}", file=sys.stderr)
+        print(f"  Failed: {failed}", file=sys.stderr)
+        print(f"{'='*60}", file=sys.stderr)
+
     # Output JSON to stdout
     print(json.dumps(results, indent=2))
 
     # Summary to stderr
     if results and not any('error' in r for r in results):
-        print(f"\n✓ Found {len(results)} local plan document(s)", file=sys.stderr)
+        print(f"\n✓ Found and processed {len(results)} local plan document(s)", file=sys.stderr)
 
 
 if __name__ == "__main__":
