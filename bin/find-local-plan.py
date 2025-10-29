@@ -112,12 +112,12 @@ def detect_file_suffix(content, content_type, url):
 
 
 def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url):
-    """Create a hard link in collection/endpoint/ to the resource file."""
-    endpoint_dir = Path("collection/endpoint")
-    endpoint_dir.mkdir(parents=True, exist_ok=True)
+    """Create a hard link in collection/document/ to the resource file."""
+    document_dir = Path("collection/document")
+    document_dir.mkdir(parents=True, exist_ok=True)
 
     suffix = detect_file_suffix(content, content_type, url)
-    hardlink_path = endpoint_dir / f"{endpoint}.{suffix}"
+    hardlink_path = document_dir / f"{endpoint}.{suffix}"
     resource_path = Path("collection/resource") / resource_hash
 
     if hardlink_path.exists():
@@ -125,7 +125,7 @@ def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url
 
     os.link(resource_path, hardlink_path)
     print(
-        f"  → Created hardlink: endpoint/{endpoint}.{suffix} => resource/{resource_hash}",
+        f"  → Created hardlink: document/{endpoint}.{suffix} => resource/{resource_hash}",
         file=sys.stderr,
     )
 
