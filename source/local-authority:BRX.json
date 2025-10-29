@@ -12,6 +12,7 @@
     "documents": [
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Local Plan 2018-2033",
         "reference": "LP-2018-2033",
@@ -20,14 +21,16 @@
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/929/exam-32d-appendix-e-indicative-concept-plans-31-07-2019",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Local Plan 2018-2033 Appendix E [containing Indicative Concept Plans]",
-        "reference": "LP-APPENDIX-E",
+        "reference": "LP-2018-2033-APPENDIX-E",
         "document-status": "adopted",
         "endpoint": "864d7410fbdf9d1e3c8646f039fc42bced3b7336fc7b5ac53fe8405f9b030382"
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/925/sustainability-appraisal-post-adoption-statement-may-2020",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisal of the Local Plan 2018-2033",
         "reference": "SA-2020",
@@ -36,7 +39,8 @@
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/924/broxbourne-lp-report-final",
-        "document-type": "inspectors-report",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
+        "document-type": "local-plan",
         "name": "Inspector's Final Report",
         "reference": "IR-2020",
         "document-status": "adopted",
@@ -44,14 +48,16 @@
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/926/broxbourne-lp-appendix-final",
-        "document-type": "local-plan",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
+        "document-type": "main-modifications",
         "name": "Appendix [containing a Schedule of Main Modifications.]",
-        "reference": "LP-MODIFICATIONS",
+        "reference": "MM-2020",
         "document-status": "adopted",
         "endpoint": "8b0923538745fbd0a25db369a6657f2a09cd3b578db0339cb03cef29469c9917"
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/930/local-plan-policies-map-june-2020-jpeg",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "policies-map",
         "name": "Policies Map (JPEG)",
         "reference": "PM-2020",
@@ -60,15 +66,17 @@
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/4010/wharf-road-supplementary-planning-document-final-",
-        "document-type": "supplementary-planning-documents",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
+        "document-type": "supplementary-planning-document",
         "name": "Wharf Road SPD (November 2023)",
-        "reference": "SPD-WHARF-ROAD-2023",
+        "reference": "SPD-WHARF-2023",
         "document-status": "adopted",
         "endpoint": "afaf8733bd47b449c915a7e670e1dd7c46757a1902de6a18d82b577e6af1d87d"
       },
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/4029/employment-and-skills-spd",
-        "document-type": "supplementary-planning-documents",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
+        "document-type": "supplementary-planning-document",
         "name": "Employment and Skills SPD (November 2023)",
         "reference": "SPD-EMPLOYMENT-2023",
         "document-status": "adopted",
@@ -76,6 +84,7 @@
       },
       {
         "document-url": "http://www.broxbourne.gov.uk/downloads/file/4632/broxbourne-local-development-scheme-february-2025",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "local-development-scheme",
         "name": "Local Development Scheme",
         "reference": "LDS-2025",
@@ -91,38 +100,18 @@
     "document-url": "https://www.broxbourne.gov.uk/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011",
     "name": "Broxbourne Local Plan 2001-2011",
     "status": "adopted",
-    "year": 2013,
+    "year": 2001,
     "period-start-date": 2001,
     "period-end-date": 2011,
     "documents": [
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011",
+        "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Full Adopted Local Plan 2001-2011",
         "reference": "LP-2001-2011",
         "document-status": "adopted",
         "endpoint": "874f54482bc24a7eb27385fdc83b2410f0926bc688f8743972d2b3db4567f7f7"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRX",
-    "organisation-name": "Broxbourne Borough Council",
-    "documentation-url": "https://www.broxbourne.gov.uk/community/north-east-central-hertfordshire-vision-2050-consultation",
-    "document-url": "https://www.broxbourne.gov.uk/downloads/file/4595/nec-herts-shared-vision",
-    "name": "North East Central Hertfordshire Vision 2050",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": 2050,
-    "documents": [
-      {
-        "document-url": "https://www.broxbourne.gov.uk/downloads/file/4595/nec-herts-shared-vision",
-        "document-type": "local-plan",
-        "name": "North East Central Hertfordshire Vision 2050",
-        "reference": "NEC-VISION-2050",
-        "document-status": "consultation",
-        "endpoint": "8797a7ca3643efaca4edc4c0ddf8b2af770669aebbe0e6ff216cceba6fc38e0a"
       }
     ]
   }

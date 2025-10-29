@@ -12,6 +12,7 @@
     "documents": [
       {
         "document-url": "https://www.fenland.gov.uk/media/18867/PE01-4-Sites-Evidence-Report/pdf/PE01-4__Sites_Evidence_Report_Aug_22.pdf?m=1661417434807",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Sites Evidence Report",
         "reference": "LP-SER-2022",
@@ -20,6 +21,7 @@
       },
       {
         "document-url": "https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisal",
         "reference": "SA-2022",
@@ -28,6 +30,7 @@
       },
       {
         "document-url": "https://www.fenland.gov.uk/media/18819/CD07-1-Habitats-Regulation-Assessment-Screening-Main-Report/pdf/CD07-1a_Draft_Local_Plan_HRA_Main_Report_August_2022.pdf?m=1661248724390",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Habitats Regulation Assessment Screening Main Report",
         "reference": "LP-HRA-2022",
@@ -36,6 +39,7 @@
       },
       {
         "document-url": "https://fenlanddc.maps.arcgis.com/apps/instant/basic/index.html?appid=72272581e9d042efaf961cea4737d41c",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "policies-map",
         "name": "Draft Local Plan Policies Map",
         "reference": "PM-2022",
@@ -44,6 +48,7 @@
       },
       {
         "document-url": "https://www.fenland.gov.uk/media/17153/Local-Development-Scheme-March-2025/pdf/25-03_FDC_Local_Development_Scheme_sr9xpwa75xxo.pdf?m=1744731927420",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-development-scheme",
         "name": "Local Development Scheme March 2025",
         "reference": "LDS-2025",
@@ -65,6 +70,7 @@
     "documents": [
       {
         "document-url": "https://www.fenland.gov.uk/media/12064/Fenland-Local-Plan-Adopted-2014/pdf/Fenland_Local_Plan-Adopted_2014.pdf?m=1591111057500",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Fenland Local Plan Adopted 2014",
         "reference": "LP-2014",
@@ -73,6 +79,7 @@
       },
       {
         "document-url": "https://www.fenland.gov.uk/article/16992/Affordable-Housing-North-of-A47-and-Viability",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Affordable Housing North of A47 and Viability",
         "reference": "LP-AH-2014",
@@ -81,6 +88,7 @@
       },
       {
         "document-url": "https://www.fenland.gov.uk/media/16940/Facilitating-Growth-in-Fenland-guidance/pdf/Facilitating_Growth_in_Fenland_Guidance.pdf?m=1593097956830",
+        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Facilitating Growth in Fenland Guidance",
         "reference": "LP-FGF-2014",

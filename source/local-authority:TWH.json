@@ -24,6 +24,7 @@
     "documents": [
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Tower Hamlets Local Plan 2031: Managing Growth and Sharing Benefits",
         "reference": "LP-2031",
@@ -32,6 +33,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/Introduction.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Introduction",
         "reference": "LP-INTRO-2031",
@@ -40,6 +42,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/PoliciesPart1.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Policies Part 1",
         "reference": "LP-P1-2031",
@@ -48,6 +51,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/PoliciesPart2.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Policies Part 2",
         "reference": "LP-P2-2031",
@@ -56,6 +60,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/SubArea1CityFringe.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Sub Area 1: City Fringe",
         "reference": "LP-SA1-2031",
@@ -64,6 +69,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/SubArea2Central.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Sub Area 2: Central",
         "reference": "LP-SA2-2031",
@@ -72,6 +78,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/SubArea3LowerLeaValley.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Sub Area 3: Lower Lea Valley",
         "reference": "LP-SA3-2031",
@@ -80,6 +87,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/SubArea4IsleofDogs.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Sub Area 4: Isle of Dogs and South Poplar",
         "reference": "LP-SA4-2031",
@@ -88,6 +96,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/MonitoringAppendices.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "local-plan",
         "name": "Monitoring and appendices",
         "reference": "LP-MA-2031",
@@ -96,6 +105,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/Policies-Map-15-01-2020.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "policies-map",
         "name": "Policies Map",
         "reference": "PM-2020",
@@ -104,6 +114,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/Submission_2018/Integrated_Impact_Assessment_2017.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "sustainability-appraisal",
         "name": "Integrated Impact Assessment",
         "reference": "SA-2017",
@@ -112,6 +123,7 @@
       },
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/Submission_2018/Integrated_Impact_Assessment_Appendices.pdf",
+        "documentation-url": "https://www.towerhamlets.gov.uk/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
         "document-type": "sustainability-appraisal",
         "name": "Integrated Impact Assessment: Appendices",
         "reference": "SA-APP-2017",
