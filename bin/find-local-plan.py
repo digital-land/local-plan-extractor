@@ -390,6 +390,15 @@ class LocalPlanFinder:
             "/planning-and-building-control/planning-policy",
             "/planning-applications/planning-policy",
             "/planning-services/planning-policy",
+            "/media",  # Common media storage directory
+            "/media/documents",  # Common document storage paths
+            "/media/downloads",
+            "/media/files",
+            "/media/uploads",
+            "/documents",  # Generic document repositories
+            "/downloads",
+            "/files",
+            "/uploads",
             "",  # Root path
         ]
 
