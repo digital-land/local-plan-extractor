@@ -1521,6 +1521,21 @@ Status values:
         help="Debug mode - test URL fetching without calling Claude API",
     )
 
+    parser.add_argument(
+        "--save-pdfs",
+        dest="save_pdfs",
+        action="store_true",
+        default=True,
+        help="Download and save all PDFs found (default: True)",
+    )
+
+    parser.add_argument(
+        "--no-save-pdfs",
+        dest="save_pdfs",
+        action="store_false",
+        help="Do not download and save PDFs",
+    )
+
     args = parser.parse_args()
 
     # Get API key from environment variable
@@ -1653,36 +1668,39 @@ Status values:
         with open(source_file, "w") as f:
             json.dump(results, f, indent=2)
 
-        # Download all documents
-        print(f"\nDownloading documents...", file=sys.stderr)
-        downloaded = 0
-        skipped = 0
-        failed = 0
+        # Download all documents (if requested)
+        if args.save_pdfs:
+            print(f"\nDownloading documents...", file=sys.stderr)
+            downloaded = 0
+            skipped = 0
+            failed = 0
 
-        for plan in results:
-            if "documents" in plan and isinstance(plan["documents"], list):
-                for doc in plan["documents"]:
-                    doc_url = doc.get("document-url", "")
-                    endpoint = doc.get("endpoint", "")
+            for plan in results:
+                if "documents" in plan and isinstance(plan["documents"], list):
+                    for doc in plan["documents"]:
+                        doc_url = doc.get("document-url", "")
+                        endpoint = doc.get("endpoint", "")
 
-                    if doc_url and endpoint:
-                        result = download_document(doc_url, endpoint)
-                        if result:
-                            if result.get("resource"):
-                                downloaded += 1
+                        if doc_url and endpoint:
+                            result = download_document(doc_url, endpoint)
+                            if result:
+                                if result.get("resource"):
+                                    downloaded += 1
+                                else:
+                                    failed += 1
                             else:
-                                failed += 1
-                        else:
-                            skipped += 1
+                                skipped += 1
 
-                        time.sleep(0.5)  # Be nice to servers
+                            time.sleep(0.5)  # Be nice to servers
 
-        print(f"\n{'='*60}", file=sys.stderr)
-        print(f"Download Summary:", file=sys.stderr)
-        print(f"  Downloaded: {downloaded}", file=sys.stderr)
-        print(f"  Skipped: {skipped}", file=sys.stderr)
-        print(f"  Failed: {failed}", file=sys.stderr)
-        print(f"{'='*60}", file=sys.stderr)
+            print(f"\n{'='*60}", file=sys.stderr)
+            print(f"Download Summary:", file=sys.stderr)
+            print(f"  Downloaded: {downloaded}", file=sys.stderr)
+            print(f"  Skipped: {skipped}", file=sys.stderr)
+            print(f"  Failed: {failed}", file=sys.stderr)
+            print(f"{'='*60}", file=sys.stderr)
+        else:
+            print(f"\nSkipping PDF downloads (--no-save-pdfs flag set)", file=sys.stderr)
 
     # Output JSON to stdout
     print(json.dumps(results, indent=2))
