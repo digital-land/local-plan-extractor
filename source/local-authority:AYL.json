@@ -34,7 +34,7 @@
         "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
         "document-type": "adoption-statement",
         "name": "VALP Sustainability Appraisal Adoption Statement",
-        "reference": "SA-AS-2021",
+        "reference": "SA-AS-VALP-2021",
         "document-status": "adopted",
         "endpoint": "04db724e033fa45b0648885d1675cf510fd27f2e1a8825c079e3537a855b1eae"
       },
@@ -43,7 +43,7 @@
         "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
         "document-type": "sustainability-appraisal",
         "name": "VALP Sustainability Appraisal Report Addendum",
-        "reference": "SA-ADD-2021",
+        "reference": "SA-VALP-2021",
         "document-status": "adopted",
         "endpoint": "45919fb8cebe6ca195dbf2df166942a768220c18d87514e74a45feef1815eb78"
       },
@@ -52,7 +52,7 @@
         "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
         "document-type": "strategic-flood-risk-assessment",
         "name": "Aylesbury Vale Strategic Flood Risk Assessment Level 1",
-        "reference": "SFRA1-2017",
+        "reference": "SFRA-L1-2017",
         "document-status": "adopted",
         "endpoint": "60625249929793b158a3924e2d35919e7a77f0bf5f36f39b685c9ea1568c3758"
       },
@@ -61,9 +61,32 @@
         "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
         "document-type": "strategic-flood-risk-assessment",
         "name": "Aylesbury Vale Strategic Flood Risk Assessment Level 2",
-        "reference": "SFRA2-2017",
+        "reference": "SFRA-L2-2017",
         "document-status": "adopted",
         "endpoint": "b8b81263dd060f3c7b307fd08f7337b15d44183c390b07a9ebd4980e1a1d7df6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:AYL",
+    "organisation-name": "Aylesbury Vale District Council",
+    "reference": "MWP-AYL-2016",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9727/buckinghamshire-minerals-and-waste-local-plan-2016-2036_yiYUGSb.pdf",
+    "name": "Buckinghamshire Minerals and Waste Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9727/buckinghamshire-minerals-and-waste-local-plan-2016-2036_yiYUGSb.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Buckinghamshire Minerals and Waste Local Plan 2016-2036",
+        "reference": "MWP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "89ac76fd1d695aa2aaa4126968a38c2da64a1b23bedf91b4a131ba7d3058976b"
       }
     ]
   }

@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "development-corporation:Q72463795",
+    "organisation-name": "Ebbsfleet Development Corporation",
+    "reference": "LP-EDC-2015",
+    "documentation-url": "https://ebbsfleetdc.org.uk",
+    "document-url": "https://ebbsfleetgardencity.org.uk/corporate-sustainability/",
+    "name": "Ebbsfleet Development Corporation Local Plan",
+    "status": "draft",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://ebbsfleetgardencity.org.uk/corporate-sustainability/",
+        "documentation-url": "https://ebbsfleetdc.org.uk",
+        "document-type": "local-plan",
+        "name": "Corporate Environment and Sustainability",
+        "reference": "LP-2015",
+        "document-status": "draft",
+        "endpoint": "ce56d92d14742f6099adc3cfbcef5cc5fef12644b9504ae7b3b534aca530ca36"
+      }
+    ]
+  }
+]

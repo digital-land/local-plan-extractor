@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:ASF",
+    "organisation-name": "Ashford Borough Council",
+    "reference": "LP-ASF-2019",
+    "documentation-url": "https://www.ashford.gov.uk/local-plan",
+    "document-url": "https://www.ashford.gov.uk/media/jw3nbvq1/adopted-ashford-local-plan-2030.pdf",
+    "name": "Ashford Local Plan 2030",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.ashford.gov.uk/media/jw3nbvq1/adopted-ashford-local-plan-2030.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Ashford Local Plan 2030",
+        "reference": "LP-2030",
+        "document-status": "adopted",
+        "endpoint": "31f950cffc260dca47c7195ad793e986d88073645e5e116bf12d08f162513093"
+      },
+      {
+        "document-url": "https://abc.dynamicmaps.co.uk/mapthatpublic/login.html?user=public&role=public&project=LocalPlan2030",
+        "documentation-url": "https://www.ashford.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "The Adopted Local Plan Proposals Map shows the site allocations and all designations of the borough",
+        "reference": "PM-2030",
+        "document-status": "adopted",
+        "endpoint": "5c3e00f97230b55720819a96d538591373e248551e9d4a09782806c6abfe3b34"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/2ktpj13j/local-plan-2030-adoption-statement-210219-4.docx",
+        "documentation-url": "https://www.ashford.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "The Local Plan 2030 Adoption Statement",
+        "reference": "AS-2030",
+        "document-status": "adopted",
+        "endpoint": "5c7dfdee0a426af47474c2a875afd47455f084605d015c39d71aeb7668bb16b5"
+      }
+    ]
+  }
+]

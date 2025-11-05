@@ -835,6 +835,12 @@ class LocalPlanFinder:
                 or ".doc" in href.lower()
                 or "/downloads/" in href.lower()
                 or "/download/" in href.lower()
+                or "download.cfm" in href.lower()  # ColdFusion download handler
+                or "download.aspx" in href.lower()  # ASP.NET download handler
+                or "download.php" in href.lower()  # PHP download handler
+                or "getfile.aspx" in href.lower()  # ASP.NET file handler
+                or "getdocument.aspx" in href.lower()  # ASP.NET document handler
+                or "viewfile.aspx" in href.lower()  # ASP.NET view/download
                 or "/file/" in href.lower()
                 or "/document/" in href.lower()
                 or "/docs/" in href.lower()
@@ -1107,14 +1113,34 @@ class LocalPlanFinder:
 
         # Add document links summary
         if all_pdf_links:
-            doc_summary = "\n\nDOCUMENTS FOUND (PDF and Word):\n"
+            doc_summary = "\n\n" + "="*80 + "\n"
+            doc_summary += "DOCUMENTS FOUND (Downloadable Files - PDFs, Word Docs, Download Handlers)\n"
+            doc_summary += "⚠️ USE ONLY THESE URLs FOR document-url FIELDS ⚠️\n"
+            doc_summary += "="*80 + "\n"
             for doc in all_pdf_links[:50]:  # Include up to 50 documents
-                doc_summary += f"- {doc['url']}\n  Link text: {doc['text']}\n  Classified as: {doc['document-type']}\n  Found on page: {doc['source-url']}\n"
+                doc_summary += f"\n- URL: {doc['url']}\n"
+                doc_summary += f"  Link text: {doc['text']}\n"
+                doc_summary += f"  Classified as: {doc['document-type']}\n"
+                doc_summary += f"  Found on page: {doc['source-url']}\n"
+            doc_summary += "\n" + "="*80 + "\n"
             content_summary += doc_summary
+
+            # Log first few documents for debugging
+            print(f"\nFirst 5 documents being sent to Claude:", file=sys.stderr)
+            for i, doc in enumerate(all_pdf_links[:5], 1):
+                print(f"  {i}. {doc['text'][:60]}", file=sys.stderr)
+                print(f"     URL: {doc['url']}", file=sys.stderr)
+                print(f"     Type: {doc['document-type']}", file=sys.stderr)
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
 
 {content_summary}
+
+⚠️⚠️⚠️ CRITICAL INSTRUCTION ⚠️⚠️⚠️
+The page content above may contain URLs to webpages about local plans.
+DO NOT USE THESE URLS - they are webpages, not downloadable files.
+ONLY use URLs from the "DOCUMENTS FOUND" section which contains actual downloadable files.
+Any URL you see in the page content that is NOT in "DOCUMENTS FOUND" is INVALID for document-url fields.
 
 Based on this content, please identify ALL local plans (both adopted and emerging/draft) and provide information about each one. Local Planning Authorities often have multiple local plan documents such as:
 - Core Strategy
@@ -1125,6 +1151,12 @@ Based on this content, please identify ALL local plans (both adopted and emergin
 - Joint Plans with other authorities
 - New/Emerging Local Plans at various stages
 
+⚠️ FINAL REMINDER BEFORE YOU START:
+- For "document-url" fields: ONLY use URLs from "DOCUMENTS FOUND" section above
+- URLs like /supplementary-planning-documents-spds, /supporting-documents, /helaa are WEBPAGES not files
+- If you see a URL in the page content, CHECK if it's in "DOCUMENTS FOUND" before using it
+- If it's NOT in "DOCUMENTS FOUND", do NOT use it for document-url
+
 Return a JSON array where each element represents one local plan document:
 
 [
@@ -1133,7 +1165,7 @@ Return a JSON array where each element represents one local plan document:
         "organisation-name": "{org_name}",
         "reference": "unique identifier for this plan - format: LP-[ORG-REF]-[YEAR] (e.g., LP-DAC-2013, LP-BRX-2020)",
         "documentation-url": "the best URL for this specific local plan document (main page)",
-        "document-url": "the direct URL to the PDF document for this plan (e.g., core strategy PDF, local plan PDF)",
+        "document-url": "MUST be from DOCUMENTS FOUND section - a downloadable file URL (download.cfm, .pdf, etc.)",
         "name": "the full official name of this plan document (e.g., 'Dacorum Core Strategy 2006-2031', 'Dacorum Site Allocations DPD')",
         "status": "one of: draft, regulation-18, regulation-19, submitted, examination, adopted, withdrawn",
         "year": the year this plan was adopted (or year of latest milestone if not adopted, as an integer, e.g., 2013),
@@ -1273,16 +1305,23 @@ IMPORTANT:
 - Include BOTH adopted plans AND emerging/draft plans at various stages
 - Look for status indicators like "adopted", "Regulation 18", "Regulation 19", "consultation", "examination", "submitted", "withdrawn"
 
-DOCUMENTATION-URL (the main page for the plan):
-- The documentation-url should be the MOST SPECIFIC URL for that particular document:
-  * Prefer pages specifically about that local plan (e.g., "/planning/local-plan-2018-2033")
-  * Avoid generic planning section URLs unless that's all that's available
+CRITICAL DISTINCTION - UNDERSTAND THESE TWO DIFFERENT FIELDS:
 
-DOCUMENT-URL (the actual PDF document) - CRITICAL REQUIREMENT:
-- This is the MOST IMPORTANT field - you MUST try VERY HARD to find the main plan document PDF
-- The document-url should be the direct URL to the PDF document itself (not the page about it)
+DOCUMENTATION-URL (the webpage about the plan):
+- This is the HTML webpage that DESCRIBES or LINKS TO the local plan
+- Example: "https://www.arun.gov.uk/adopted-local-plan" (a webpage with information)
+- Example: "https://www.example.gov.uk/planning/local-plan-2018-2033" (a webpage)
+- This is where you FIND the download link, not the download itself
+
+DOCUMENT-URL (the actual downloadable file) - CRITICAL REQUIREMENT:
+⚠️ MANDATORY RULE: You MUST ONLY use URLs from the "DOCUMENTS FOUND" section
+- DO NOT use webpage URLs from the page content
+- DO NOT invent or construct URLs
+- ONLY copy URLs directly from "DOCUMENTS FOUND" list
+- This MUST be a downloadable file URL (PDF, download.cfm, etc.)
+- Example from "DOCUMENTS FOUND": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984"
+- If no suitable file exists in "DOCUMENTS FOUND", use "" (empty string)
 - THOROUGHLY search the "DOCUMENTS FOUND" section above for the main plan document
-- For each local plan, you MUST find its main PDF document if it exists at all
 
 HOW TO FIND THE RIGHT DOCUMENT-URL:
 1. FIRST: Look for documents whose link text exactly matches the plan name
@@ -1310,13 +1349,23 @@ HOW TO FIND THE RIGHT DOCUMENT-URL:
 6. COMMON URL PATTERNS TO RECOGNIZE:
    * Direct PDF links: ending in .pdf
    * Download endpoints: /downloads/file/[ID]/[name]
+   * Download handlers: download.cfm?doc=..., download.aspx?id=..., download.php?file=...
    * Asset storage: /assets/[folder]/[filename].pdf
    * Document repositories: /documents/[ID] or /docs/[name]
 
-7. VALIDATION:
-   * The URL MUST point to an actual downloadable file (PDF, Word doc)
-   * The URL should NOT be a webpage/HTML page about the plan
-   * If in doubt between multiple candidates, choose the one with the most specific name match
+7. HOW TO TELL IF A URL IS A DOWNLOADABLE FILE:
+   * ✅ VALID (these ARE downloadable files):
+     - Ends with: .pdf, .doc, .docx
+     - Contains: download.cfm, download.aspx, download.php, getfile.aspx
+     - Contains: /downloads/, /file/, /assets/
+     - Example: https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984 ✅
+     - Example: https://www.example.gov.uk/assets/local-plan.pdf ✅
+
+   * ❌ INVALID (these are webpages, NOT files):
+     - No file extension and no download handler
+     - Example: https://www.example.gov.uk/local-plan ❌
+     - Example: https://www.example.gov.uk/adopted-local-plan ❌
+     - Example: https://www.example.gov.uk/planning-policy ❌
 
 8. ONLY use "" (empty string) if:
    * You have searched thoroughly through ALL documents in "DOCUMENTS FOUND"
@@ -1324,31 +1373,57 @@ HOW TO FIND THE RIGHT DOCUMENT-URL:
    * The page only describes the plan but has no downloadable documents
 
 EXAMPLES OF CORRECT MATCHING:
+- Plan: "Arun Local Plan" (adopted, 2018)
+  → Documentation URL: "https://www.arun.gov.uk/adopted-local-plan" (the webpage)
+  → Document URL: "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984" (the actual PDF)
+  (Notice: documentation-url is the HTML page, document-url is the downloadable file)
+
 - Plan: "City Plan 2040" (regulation-19)
+  → Documentation URL: "https://www.cityoflondon.gov.uk/planning/city-plan"
   → Document URL: "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf"
   (Matches plan name exactly and is a direct PDF link)
 
 - Plan: "Local Plan 2018-2033" (adopted, 2020)
+  → Documentation URL: "https://www.example.gov.uk/planning/local-plan"
   → Document URL: "https://www.example.gov.uk/downloads/file/1813/local-plan-2018-2033"
   (Matches plan name and period, classified as local-plan)
 
 - Plan: "Core Strategy 2006-2031" (adopted, 2013)
+  → Documentation URL: "https://www.example.gov.uk/planning/core-strategy"
   → Document URL: "https://www.example.gov.uk/planning/core-strategy-2006-2031.pdf"
   (Matches plan type and period)
 
-REMEMBER: The document-url field is MANDATORY - finding the right PDF is your top priority!
+CRITICAL INSTRUCTIONS FOR DOCUMENT-URL:
+1. FIRST PRIORITY: Look for the actual PDF/document download URL in the "DOCUMENTS FOUND" section
+   - These will have URLs ending in .pdf, .doc, .docx
+   - OR URLs containing: download.cfm, download.aspx, download.php, getfile.aspx, /downloads/, /file/
+2. The document-url MUST be a downloadable file URL - NEVER a webpage URL
+3. ONLY use "" (empty string) if you absolutely cannot find ANY downloadable file in "DOCUMENTS FOUND"
 
-DOCUMENTS ARRAY:
+REMEMBER: Finding the right downloadable file URL is your top priority - they ARE in the "DOCUMENTS FOUND" section!
+
+DOCUMENTS ARRAY - CRITICAL RULES:
 - The documents array should contain ALL related documents for this local plan
 - Include documents from the "DOCUMENTS FOUND" section that relate to this specific plan
-- For each document, provide:
 
-DOCUMENT-URL: Use the normalized URL from "DOCUMENTS FOUND" section
+⚠️ MANDATORY RULE FOR DOCUMENT-URL FIELD:
+- You MUST ONLY use URLs that appear in the "DOCUMENTS FOUND" section above
+- DO NOT invent or construct document-url values from the page content
+- DO NOT use webpage URLs you find in the page content
+- ONLY copy-paste URLs from the "DOCUMENTS FOUND" list
+- If no suitable document exists in "DOCUMENTS FOUND", use "" (empty string)
 
-DOCUMENTATION-URL: Use the source page URL from "Found on page" field in "DOCUMENTS FOUND" section
-  * This is the webpage that contains the link to the document
-  * Extract from the "Found on page" field for each document
-  * This helps users understand where the document was discovered and provides context
+For each document in the array, provide:
+
+DOCUMENT-URL:
+  * MUST be copied directly from a URL in the "DOCUMENTS FOUND" section (do not modify it)
+  * This is the downloadable file URL (PDF, download.cfm, etc.)
+  * Example from "DOCUMENTS FOUND": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984"
+
+DOCUMENTATION-URL:
+  * Copy from the "Found on page" field in "DOCUMENTS FOUND" section
+  * This is the HTML webpage that contains the link
+  * Example: "https://www.arun.gov.uk/adopted-local-plan"
 
 DOCUMENT-TYPE: Use the pre-classified type from "DOCUMENTS FOUND" section (already done)
 
@@ -1497,10 +1572,52 @@ Provide ONLY the JSON array response, no other text."""
                     # Add endpoint field to each document (SHA256 hash of document URL)
                     result_list = [result]
                     for plan in result_list:
+                        # Validate main document-url
+                        if "document-url" in plan and plan["document-url"]:
+                            doc_url = plan["document-url"]
+                            # Check if it looks like a webpage instead of a downloadable file
+                            is_likely_webpage = (
+                                not doc_url.endswith(('.pdf', '.doc', '.docx'))
+                                and 'download.cfm' not in doc_url.lower()
+                                and 'download.aspx' not in doc_url.lower()
+                                and 'download.php' not in doc_url.lower()
+                                and 'getfile' not in doc_url.lower()
+                                and '/downloads/' not in doc_url.lower()
+                                and '/file/' not in doc_url.lower()
+                            )
+                            if is_likely_webpage:
+                                print(
+                                    f"\n⚠️  WARNING: document-url may be a webpage, not a downloadable file:",
+                                    file=sys.stderr,
+                                )
+                                print(f"   Plan: {plan.get('name', 'Unknown')}", file=sys.stderr)
+                                print(f"   URL: {doc_url}", file=sys.stderr)
+                                print(f"   This should be a PDF/document download URL, not a webpage\n", file=sys.stderr)
+
                         if "documents" in plan and isinstance(plan["documents"], list):
                             for doc in plan["documents"]:
                                 if "document-url" in doc:
                                     url = doc["document-url"]
+
+                                    # Validate document URL
+                                    is_likely_webpage = (
+                                        not url.endswith(('.pdf', '.doc', '.docx'))
+                                        and 'download.cfm' not in url.lower()
+                                        and 'download.aspx' not in url.lower()
+                                        and 'download.php' not in url.lower()
+                                        and 'getfile' not in url.lower()
+                                        and '/downloads/' not in url.lower()
+                                        and '/file/' not in url.lower()
+                                    )
+                                    if is_likely_webpage:
+                                        print(
+                                            f"\n⚠️  WARNING: document-url in documents array may be a webpage:",
+                                            file=sys.stderr,
+                                        )
+                                        print(f"   Document: {doc.get('name', 'Unknown')}", file=sys.stderr)
+                                        print(f"   URL: {url}", file=sys.stderr)
+                                        print(f"   This should be a PDF/document download URL, not a webpage\n", file=sys.stderr)
+
                                     endpoint = hashlib.sha256(
                                         url.encode("utf-8")
                                     ).hexdigest()

@@ -1,0 +1,57 @@
+[
+  {
+    "organisation": "local-authority:ADU",
+    "organisation-name": "Adur District Council",
+    "reference": "LP-ADU-2017",
+    "documentation-url": "https://www.adur-worthing.gov.uk/planning-policy/adur/",
+    "document-url": "",
+    "name": "Adur Local Plan",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.adur-worthing.gov.uk/planning-policy/adur/",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan",
+        "reference": "LP-ADU-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/planning-policy/joint-aw/wscc-healthy-and-sustainable-places/",
+        "documentation-url": "https://www.adur-worthing.gov.uk/planning-policy/adur/",
+        "document-type": "local-plan",
+        "name": "WSCC Healthy & Sustainable Places - A Public Health and Sustainability Framework",
+        "reference": "WSCC-HSP",
+        "document-status": "adopted",
+        "endpoint": "df11fc7e9a68216521cbbde8b2dd876e1eebb39cbef91c0ebade7c39737fccd6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ADU",
+    "organisation-name": "Adur District Council",
+    "reference": "LDF-ADU-2013",
+    "documentation-url": "https://www.adur-worthing.gov.uk/adur-ldf/",
+    "document-url": "",
+    "name": "Adur Local Development Framework",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-ldf/",
+        "document-type": "local-plan",
+        "name": "Adur Local Development Framework",
+        "reference": "LDF-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

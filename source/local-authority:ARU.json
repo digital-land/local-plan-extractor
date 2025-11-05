@@ -1,0 +1,75 @@
+[
+  {
+    "organisation": "local-authority:ARU",
+    "organisation-name": "Arun District Council",
+    "reference": "LP-ARU-2018",
+    "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+    "document-url": "https://www.arun.gov.uk/adopted-local-plan",
+    "name": "Arun Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
+        "document-type": "local-plan",
+        "name": "Local Plan / Development Plan",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "6e6afa13c852f0fec8b86f505d6b2d7f5327b3ed3971fbc02af586165c873604"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/supporting-documents",
+        "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
+        "document-type": "local-plan",
+        "name": "Evidence and Supporting Documents",
+        "reference": "ED-2018",
+        "document-status": "adopted",
+        "endpoint": "2ada9b9b372deb4da2309c71ec6a7e8996b4a8ce221ad39497f572aae1953ad2"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/supplementary-planning-documents-spds",
+        "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Planning Documents (SPDs)",
+        "reference": "SPD-2018",
+        "document-status": "adopted",
+        "endpoint": "1494ddf0cfae823ce888ba9595969fad7207fcb71d3cad77f6987d5f3f0986a4"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/helaa-brownfield-land-self-build-registers",
+        "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
+        "document-type": "strategic-housing-land-availability",
+        "name": "HELAA, Brownfield Land and Self Build Registers",
+        "reference": "HELAA-2018",
+        "document-status": "adopted",
+        "endpoint": "a00987f842ca4f089aa8814a53fa955019fbc67423674b740ec85ab7e43dc83e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ARU",
+    "organisation-name": "Arun District Council",
+    "reference": "LP-ARU-2041",
+    "documentation-url": "https://www.arun.gov.uk/arun-local-plan-update-2023-2041",
+    "document-url": "https://www.arun.gov.uk/arun-local-plan-update-2023-2041",
+    "name": "Arun Local Plan Update",
+    "status": "draft",
+    "year": 2023,
+    "period-start-date": 2023,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.arun.gov.uk/arun-local-plan-update-2023-2041",
+        "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
+        "document-type": "local-plan",
+        "name": "Arun Local Plan Update",
+        "reference": "LP-2023-2041",
+        "document-status": "draft",
+        "endpoint": "b5d8d781ea6666a942d2ab2217e73ff3fa533a2b6b9dc3b11eab8712f24fd560"
+      }
+    ]
+  }
+]

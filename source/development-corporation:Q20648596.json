@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "development-corporation:Q20648596",
+    "organisation-name": "Old Oak and Park Royal Development Corporation",
+    "reference": "LP-OPDC-2022",
+    "documentation-url": "https://www.london.gov.uk/local-plan",
+    "document-url": "https://www.london.gov.uk/sites/default/files/opdc_local_plan_2022_june_2022_including_appendix_0.pdf",
+    "name": "Old Oak and Park Royal Development Corporation Local Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/opdc_local_plan_2022_june_2022_including_appendix_0.pdf",
+        "documentation-url": "https://www.london.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "OPDC Local Plan 2022",
+        "reference": "LP-2022",
+        "document-status": "adopted",
+        "endpoint": "4d6f66ad0a123b40e0c80881f2c18cabdf95d8ed550be89f9ac34721becc126b"
+      },
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/opdc-40c_post_submission_table_of_minor_modifications_may_2021.pdf",
+        "documentation-url": "https://www.london.gov.uk/who-we-are/city-halls-partners/old-oak-and-park-royal-development-corporation-opdc/planning-policy/opdc-planning-policy/local-plan/local-plan-main-modifications-consultation",
+        "document-type": "local-plan",
+        "name": "Minor Modifications",
+        "reference": "MM-2021",
+        "document-status": "adopted",
+        "endpoint": "6da42f0fe1d94f7aadfae40d4e9cd5159f61df930d0e47349ba1ae1a2612e90a"
+      },
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/opdc_local_plan_mods_consultation_booklet_may21.pdf",
+        "documentation-url": "https://www.london.gov.uk/who-we-are/city-halls-partners/old-oak-and-park-royal-development-corporation-opdc/planning-policy/opdc-planning-policy/local-plan/local-plan-main-modifications-consultation",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Consultation Booklet",
+        "reference": "MMCB-2021",
+        "document-status": "adopted",
+        "endpoint": "4f2f23508d1a21cf8c9c5247f9f4c4dd96ed7c42b7b3db62870352fe85b7ec0c"
+      },
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/opdc_local_plan_information_leaflet_2.pdf",
+        "documentation-url": "https://www.london.gov.uk/who-we-are/city-halls-partners/old-oak-and-park-royal-development-corporation-opdc/planning-policy/opdc-planning-policy/local-plan/local-plan-main-modifications-consultation",
+        "document-type": "local-plan",
+        "name": "The Local Plan - Pre Consultation Leaflet",
+        "reference": "LP-PCL-2020",
+        "document-status": "adopted",
+        "endpoint": "53f9cc02aa406d169b68abc827c83f7bcc3e39f915a8963381188637f88ef78f"
+      },
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/engagement_session_presentation.pdf",
+        "documentation-url": "https://www.london.gov.uk/who-we-are/city-halls-partners/old-oak-and-park-royal-development-corporation-opdc/planning-policy/opdc-planning-policy/local-plan/local-plan-main-modifications-consultation",
+        "document-type": "local-plan",
+        "name": "The Engagement Session",
+        "reference": "ES-2020",
+        "document-status": "adopted",
+        "endpoint": "569fea8288cd96a5447513065c1ca9b2522490bb2112db74858f0f6b292c5240"
+      }
+    ]
+  }
+]
