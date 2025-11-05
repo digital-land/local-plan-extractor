@@ -229,11 +229,13 @@ def download_document(url, endpoint):
 
 class LocalPlanFinder:
     def __init__(
-        self, api_key: str, organisation_csv: str = "var/cache/organisation.csv"
+        self, api_key: str, organisation_csv: str = "var/cache/organisation.csv",
+        successor_authorities_json: str = "var/successor-authorities.json"
     ):
         """Initialize with Anthropic API key and organisation CSV path"""
         self.client = anthropic.Anthropic(api_key=api_key)
         self.organisations = self._load_organisations(organisation_csv)
+        self.successors = self._load_successor_authorities(successor_authorities_json)
 
     def _load_organisations(self, csv_path: str) -> Dict[str, Dict[str, str]]:
         """Load organisation codes, names, and websites from CSV file.
@@ -278,6 +280,35 @@ class LocalPlanFinder:
 
         return organisations
 
+    def _load_successor_authorities(self, json_path: str) -> Dict[str, Dict[str, str]]:
+        """Load successor authority mappings from JSON file.
+
+        Returns:
+            Dictionary mapping old organisation codes to successor info
+        """
+        successors = {}
+        try:
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    successors = data.get("successors", {})
+                    print(
+                        f"Loaded {len(successors)} successor authority mappings",
+                        file=sys.stderr,
+                    )
+            else:
+                print(
+                    f"Note: Successor authorities file not found at {json_path}",
+                    file=sys.stderr,
+                )
+        except Exception as e:
+            print(
+                f"Warning: Could not load successor authorities from {json_path}: {e}",
+                file=sys.stderr,
+            )
+
+        return successors
+
     def get_organisation_name(self, org_code: str) -> Optional[str]:
         """Get organisation name from code.
 
@@ -303,27 +334,47 @@ class LocalPlanFinder:
         return org_data["website"] if org_data and org_data["website"] else None
 
     def construct_likely_urls(
-        self, org_name: str, official_website: Optional[str] = None
+        self, org_name: str, official_website: Optional[str] = None, org_code: Optional[str] = None
     ) -> List[Dict[str, str]]:
         """Construct likely URLs for a local authority's planning pages.
 
         Args:
             org_name: Organisation name
             official_website: Official website URL from organisation.csv (if available)
+            org_code: Organisation code (e.g., "local-authority:AYL") - used to check for successors
 
         Returns:
             List of dicts with 'title', 'url', 'snippet'
         """
         domains = []
 
-        # If we have the official website, use it first
+        # Check if this authority has a successor (for abolished councils)
+        if org_code and org_code in self.successors:
+            successor_info = self.successors[org_code]
+            successor_website = successor_info.get("successor-website")
+            if successor_website:
+                from urllib.parse import urlparse
+                parsed = urlparse(successor_website)
+                successor_domain = parsed.netloc
+                if successor_domain:
+                    domains.append(successor_domain)
+                    print(
+                        f"Authority merged/abolished - using successor domain: {successor_domain}",
+                        file=sys.stderr,
+                    )
+                    print(
+                        f"  {successor_info.get('name')} → {successor_info.get('successor-name')}",
+                        file=sys.stderr,
+                    )
+
+        # If we have the official website, use it (but after successor)
         if official_website:
             # Extract domain from URL (e.g., "https://www.dacorum.gov.uk" -> "www.dacorum.gov.uk")
             from urllib.parse import urlparse
 
             parsed = urlparse(official_website)
             official_domain = parsed.netloc
-            if official_domain:
+            if official_domain and official_domain not in domains:
                 domains.append(official_domain)
                 print(
                     f"Using official website domain: {official_domain}", file=sys.stderr
@@ -358,6 +409,8 @@ class LocalPlanFinder:
         # Common paths for local plan pages
         paths = [
             "/planning",  # Try planning section first
+            "/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",  # Buckinghamshire and similar
+            "/planning-and-building-control/planning-policy/local-planning-guidance",  # Buckinghamshire variant
             "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets adopted plan (Contensis CMS)
             "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",  # Tower Hamlets emerging plan
             "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",  # Case variation
@@ -933,7 +986,7 @@ class LocalPlanFinder:
 
         # Construct likely URLs based on official website and common patterns
         print(f"Constructing likely URLs for {org_name}...", file=sys.stderr)
-        likely_urls = self.construct_likely_urls(org_name, official_website)
+        likely_urls = self.construct_likely_urls(org_name, official_website, org_code)
 
         # Fetch content from likely URLs
         pages_content = []
@@ -1567,7 +1620,7 @@ Status values:
             print(f"Official website: {official_website}", file=sys.stderr)
         print(f"\nTesting URL fetching...\n", file=sys.stderr)
 
-        likely_urls = finder.construct_likely_urls(org_name, official_website)
+        likely_urls = finder.construct_likely_urls(org_name, official_website, args.organisation)
         success_count = 0
 
         discovered_links = set()

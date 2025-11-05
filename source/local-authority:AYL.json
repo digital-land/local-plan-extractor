@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:AYL",
+    "organisation-name": "Aylesbury Vale District Council",
+    "reference": "LP-AYL-2021",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9742/Aylesbury_local_plan_L46JWaT.pdf",
+    "name": "Vale of Aylesbury Local Plan (VALP)",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9742/Aylesbury_local_plan_L46JWaT.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "Vale of Aylesbury Local Plan (VALP)",
+        "reference": "LP-VALP-2021",
+        "document-status": "adopted",
+        "endpoint": "a32f5e06284fc84637c918aae67cb08a9e2f91aa2473baf2c318220cdf5005cb"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10126/VALP_Adoption_Statement_1.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "adoption-statement",
+        "name": "VALP Adoption Statement",
+        "reference": "AS-VALP-2021",
+        "document-status": "adopted",
+        "endpoint": "8274e0104d4cfe7c85f52026b07efa7d6ad88f60dd08845e601bdeaedd7cc6ce"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10127/VALP_Sustainability_Appraisal_Adoption_Statement_1ux5xaG.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "adoption-statement",
+        "name": "VALP Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2021",
+        "document-status": "adopted",
+        "endpoint": "04db724e033fa45b0648885d1675cf510fd27f2e1a8825c079e3537a855b1eae"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10149/ED246_Proposed_Further_Main_Modifications_Sustainability_Appraisal_Addendum_Yu4YYlT.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "sustainability-appraisal",
+        "name": "VALP Sustainability Appraisal Report Addendum",
+        "reference": "SA-ADD-2021",
+        "document-status": "adopted",
+        "endpoint": "45919fb8cebe6ca195dbf2df166942a768220c18d87514e74a45feef1815eb78"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/16520/2016s3990_-_Aylesbury_SFRA_Level_1_-_Final_v3_08_09_17_1.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Aylesbury Vale Strategic Flood Risk Assessment Level 1",
+        "reference": "SFRA1-2017",
+        "document-status": "adopted",
+        "endpoint": "60625249929793b158a3924e2d35919e7a77f0bf5f36f39b685c9ea1568c3758"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/16521/2016s3990_-_Aylesbury_SFRA_Level_2_-_Final_v3_Aug_2017.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Aylesbury Vale Strategic Flood Risk Assessment Level 2",
+        "reference": "SFRA2-2017",
+        "document-status": "adopted",
+        "endpoint": "b8b81263dd060f3c7b307fd08f7337b15d44183c390b07a9ebd4980e1a1d7df6"
+      }
+    ]
+  }
+]

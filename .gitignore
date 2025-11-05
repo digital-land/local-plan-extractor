@@ -10,7 +10,8 @@ package.json
 .cache/
 *.swp
 tmp/
-/var/
+/var/*
+!/var/successor-authorities.json
 /.vs
 specification/
 
