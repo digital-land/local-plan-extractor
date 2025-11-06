@@ -25,7 +25,7 @@
         "documentation-url": "https://www.arun.gov.uk/planning-policy-plan-making",
         "document-type": "local-plan",
         "name": "Evidence and Supporting Documents",
-        "reference": "ED-2018",
+        "reference": "EV-2018",
         "document-status": "adopted",
         "endpoint": "2ada9b9b372deb4da2309c71ec6a7e8996b4a8ce221ad39497f572aae1953ad2"
       },
@@ -55,7 +55,7 @@
     "reference": "LP-ARU-2041",
     "documentation-url": "https://www.arun.gov.uk/arun-local-plan-update-2023-2041",
     "document-url": "https://www.arun.gov.uk/arun-local-plan-update-2023-2041",
-    "name": "Arun Local Plan Update",
+    "name": "Arun Local Plan Update 2023-2041",
     "status": "draft",
     "year": 2023,
     "period-start-date": 2023,

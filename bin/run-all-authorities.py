@@ -25,24 +25,41 @@ import sys
 from pathlib import Path
 
 
-def load_local_planning_authorities(csv_path):
+def load_local_planning_authorities(lpa_lookup_csv, organisation_csv):
     """
-    Load all local planning authority codes from the organisation CSV.
+    Load all local planning authority codes by filtering organisation.csv
+    using local-planning-authority-lookup.csv.
 
-    Returns list of tuples: (organisation_code, organisation_name, lpa_code)
+    Args:
+        lpa_lookup_csv: Path to local-planning-authority-lookup.csv
+        organisation_csv: Path to organisation.csv
+
+    Returns list of tuples: (organisation_code, organisation_name)
     """
-    authorities = []
-
-    with open(csv_path, 'r', encoding='utf-8') as f:
+    # Step 1: Load all organisation codes from the LPA lookup CSV
+    lpa_org_codes = set()
+    with open(lpa_lookup_csv, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            # Check if this row has a local-planning-authority value (column 13)
-            lpa_code = row.get('local-planning-authority', '').strip()
+            org_code = row.get('organisation', '').strip()
+            if org_code:
+                lpa_org_codes.add(org_code)
+
+    print(f"Found {len(lpa_org_codes)} local planning authorities in {lpa_lookup_csv}")
+
+    # Step 2: Load organisation.csv and filter by the LPA codes
+    authorities = []
+    with open(organisation_csv, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
             org_code = row.get('organisation', '').strip()
             org_name = row.get('name', '').strip()
 
-            if lpa_code and org_code:
-                authorities.append((org_code, org_name, lpa_code))
+            # Only include if this organisation is in the LPA lookup
+            if org_code in lpa_org_codes:
+                authorities.append((org_code, org_name))
+
+    print(f"Filtered to {len(authorities)} authorities from {organisation_csv}")
 
     return authorities
 
@@ -127,6 +144,12 @@ Examples:
     )
 
     parser.add_argument(
+        '--lpa-lookup-csv',
+        default='docs/var/cache/local-planning-authority-lookup.csv',
+        help='Path to LPA lookup CSV file (default: docs/var/cache/local-planning-authority-lookup.csv)'
+    )
+
+    parser.add_argument(
         '--organisation-csv',
         default='docs/var/cache/organisation.csv',
         help='Path to organisation CSV file (default: docs/var/cache/organisation.csv)'
@@ -183,16 +206,23 @@ Examples:
 
     args = parser.parse_args()
 
-    # Check that the CSV file exists
-    csv_path = Path(args.organisation_csv)
-    if not csv_path.exists():
-        print(f"Error: Organisation CSV not found at {csv_path}", file=sys.stderr)
+    # Check that both CSV files exist
+    lpa_lookup_path = Path(args.lpa_lookup_csv)
+    organisation_path = Path(args.organisation_csv)
+
+    if not lpa_lookup_path.exists():
+        print(f"Error: LPA lookup CSV not found at {lpa_lookup_path}", file=sys.stderr)
+        print("Run 'make' to download required data files", file=sys.stderr)
+        sys.exit(1)
+
+    if not organisation_path.exists():
+        print(f"Error: Organisation CSV not found at {organisation_path}", file=sys.stderr)
         print("Run 'make' to download required data files", file=sys.stderr)
         sys.exit(1)
 
     # Load all authorities
-    print(f"Loading local planning authorities from {csv_path}...")
-    all_authorities = load_local_planning_authorities(csv_path)
+    print(f"Loading local planning authorities from {lpa_lookup_path} and {organisation_path}...")
+    all_authorities = load_local_planning_authorities(args.lpa_lookup_csv, args.organisation_csv)
     print(f"Found {len(all_authorities)} local planning authorities")
 
     # Filter authorities based on arguments
@@ -201,7 +231,7 @@ Examples:
     if args.authorities:
         requested_codes = set(code.strip() for code in args.authorities.split(','))
         authorities_to_process = [
-            (code, name, lpa) for code, name, lpa in all_authorities
+            (code, name) for code, name in all_authorities
             if code in requested_codes or code.split(':')[-1] in requested_codes
         ]
         print(f"Filtered to {len(authorities_to_process)} requested authorities")
@@ -209,7 +239,7 @@ Examples:
     if args.start_from:
         # Find the index of start_from authority
         found = False
-        for i, (code, name, lpa) in enumerate(authorities_to_process):
+        for i, (code, name) in enumerate(authorities_to_process):
             if code == args.start_from or code.split(':')[-1] == args.start_from:
                 authorities_to_process = authorities_to_process[i:]
                 found = True
@@ -224,7 +254,7 @@ Examples:
 
     if args.dry_run:
         print("\nDry run - authorities that would be processed:")
-        for i, (code, name, lpa) in enumerate(authorities_to_process, 1):
+        for i, (code, name) in enumerate(authorities_to_process, 1):
             print(f"{i:3d}. {name:50s} ({code})")
         print(f"\nTotal: {len(authorities_to_process)} authorities")
         print(f"Save PDFs: {args.save_pdfs}")
@@ -240,7 +270,7 @@ Examples:
         'errors': []
     }
 
-    for i, (org_code, org_name, lpa_code) in enumerate(authorities_to_process, 1):
+    for i, (org_code, org_name) in enumerate(authorities_to_process, 1):
         print(f"\n[{i}/{len(authorities_to_process)}]", end=' ')
 
         success, output, error = run_find_local_plan(
