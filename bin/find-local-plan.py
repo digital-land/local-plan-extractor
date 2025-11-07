@@ -411,6 +411,10 @@ class LocalPlanFinder:
             "/planning",  # Try planning section first
             "/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",  # Buckinghamshire and similar
             "/planning-and-building-control/planning-policy/local-planning-guidance",  # Buckinghamshire variant
+            "/info/20008/planning_and_development",  # Birmingham info pages
+            "/info/20054/local_plan_documents",  # Birmingham local plan documents
+            "/downloads/file/5433/adopted_birmingham_development_plan_2031",  # Birmingham adopted plan direct link
+            "/downloads/20054/local_plan_documents",  # Birmingham downloads listing
             "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets adopted plan (Contensis CMS)
             "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",  # Tower Hamlets emerging plan
             "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",  # Case variation
@@ -423,6 +427,7 @@ class LocalPlanFinder:
             "/draft-plan",
             "/new-local-plan",
             "/local-plan",
+            "/adopted-local-plan",  # Arun and similar councils with adopted plans
             "/localplan",
             "/planning/local-plan",
             "/planning/emerging-local-plan",
@@ -887,6 +892,36 @@ class LocalPlanFinder:
                 if normalized_url.startswith("http") and not any(
                     d["url"] == normalized_url for d in doc_links
                 ):
+                    # Filter out URLs that are clearly listing/index pages, not actual documents
+                    # These patterns indicate a page ABOUT documents, not a document itself
+                    listing_page_indicators = [
+                        "/info/",  # Birmingham info pages
+                        "/downloads/" if "/downloads/file/" not in normalized_url else None,  # Generic downloads pages (but keep /downloads/file/)
+                        "-documents",  # Pages listing documents
+                        "_documents",
+                        "/documents/" if not normalized_url.endswith(".pdf") else None,  # Documents folders (unless direct PDF)
+                        "/planning-policy-plan-making",  # Policy overview pages
+                        "/supplementary-planning-documents-spds" if not normalized_url.endswith(('.pdf', '.doc', '.docx')) else None,  # SPD listing pages
+                    ]
+
+                    # Remove None values
+                    listing_page_indicators = [i for i in listing_page_indicators if i is not None]
+
+                    # Skip if this looks like a listing page
+                    is_listing_page = any(indicator in normalized_url for indicator in listing_page_indicators)
+
+                    # But allow if it's clearly a file
+                    is_clearly_file = (
+                        normalized_url.endswith(('.pdf', '.doc', '.docx'))
+                        or '/downloads/file/' in normalized_url  # Birmingham's file download pattern
+                        or 'download.cfm?' in normalized_url  # Arun's download handler
+                        or 'download.aspx?' in normalized_url
+                        or 'getfile.aspx?' in normalized_url
+                    )
+
+                    # Skip listing pages unless they're clearly files
+                    if is_listing_page and not is_clearly_file:
+                        continue
 
                     # Classify the document
                     doc_type = self.classify_document_type(normalized_url, link_text)
@@ -1039,7 +1074,7 @@ class LocalPlanFinder:
                             file=sys.stderr,
                         )
                         all_pdf_links.extend(docs)
-                except Exception as e:
+                except Exception:
                     pass
 
                 # Stop after finding 3 successful pages (to leave room for discovered links)
@@ -1082,7 +1117,7 @@ class LocalPlanFinder:
                         docs = self.extract_document_links(link, response.text)
                         print(f"  Found {len(docs)} document links", file=sys.stderr)
                         all_pdf_links.extend(docs)
-                except Exception as e:
+                except Exception:
                     pass
 
                 # Stop after we have enough pages total
@@ -1100,6 +1135,28 @@ class LocalPlanFinder:
 
         print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
         print(f"Total document links found: {len(all_pdf_links)}", file=sys.stderr)
+
+        # Prioritize actual file downloads over webpage links
+        def document_priority(doc):
+            """Return priority score (lower is better) for sorting documents."""
+            url = doc['url'].lower()
+            # Highest priority: Direct file downloads
+            if 'download.cfm?' in url or 'download.aspx?' in url or 'getfile.aspx?' in url:
+                return 0
+            if url.endswith('.pdf') or '.pdf?' in url:
+                return 1
+            if url.endswith(('.doc', '.docx')) or '.doc?' in url:
+                return 2
+            if '/downloads/file/' in url:
+                return 3
+            # Lower priority: Generic download patterns
+            if '/download/' in url or '/downloads/' in url:
+                return 4
+            # Lowest priority: Everything else
+            return 10
+
+        # Sort documents by priority
+        all_pdf_links.sort(key=document_priority)
 
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
@@ -1126,11 +1183,11 @@ class LocalPlanFinder:
             content_summary += doc_summary
 
             # Log first few documents for debugging
-            print(f"\nFirst 5 documents being sent to Claude:", file=sys.stderr)
-            for i, doc in enumerate(all_pdf_links[:5], 1):
-                print(f"  {i}. {doc['text'][:60]}", file=sys.stderr)
-                print(f"     URL: {doc['url']}", file=sys.stderr)
-                print(f"     Type: {doc['document-type']}", file=sys.stderr)
+            # print(f"\nFirst 5 documents being sent to Claude:", file=sys.stderr)
+            # for i, doc in enumerate(all_pdf_links[:5], 1):
+            #     print(f"  {i}. {doc['text'][:60]}", file=sys.stderr)
+            #     print(f"     URL: {doc['url']}", file=sys.stderr)
+            #     print(f"     Type: {doc['document-type']}", file=sys.stderr)
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
 
@@ -1547,14 +1604,43 @@ Provide ONLY the JSON array response, no other text."""
                 if not isinstance(result, list):
                     result = [result]  # Wrap single object in array
 
-                # Add endpoint field to each document (SHA256 hash of document URL)
+                # Validate and add endpoint field to each document (SHA256 hash of document URL)
                 for plan in result:
+                    # Validate main document-url
+                    if "document-url" in plan and plan["document-url"]:
+                        doc_url = plan["document-url"]
+                        is_likely_webpage = (
+                            not doc_url.endswith(('.pdf', '.doc', '.docx'))
+                            and 'download.cfm' not in doc_url.lower()
+                            and 'download.aspx' not in doc_url.lower()
+                            and 'download.php' not in doc_url.lower()
+                            and 'getfile' not in doc_url.lower()
+                            and '/downloads/file/' not in doc_url.lower()
+                            and '.pdf' not in doc_url.lower()
+                        )
+                        if is_likely_webpage:
+                            plan["document-url"] = ""  # Clear invalid URL
+
                     if "documents" in plan and isinstance(plan["documents"], list):
                         for doc in plan["documents"]:
                             if "document-url" in doc:
                                 url = doc["document-url"]
+
+                                # Validate document URL
+                                is_likely_webpage = (
+                                    not url.endswith(('.pdf', '.doc', '.docx'))
+                                    and 'download.cfm' not in url.lower()
+                                    and 'download.aspx' not in url.lower()
+                                    and 'download.php' not in url.lower()
+                                    and 'getfile' not in url.lower()
+                                    and '/downloads/file/' not in url.lower()
+                                    and '.pdf' not in url.lower()
+                                )
+                                if is_likely_webpage:
+                                    doc["document-url"] = ""  # Clear invalid URL
+
                                 endpoint = hashlib.sha256(
-                                    url.encode("utf-8")
+                                    doc["document-url"].encode("utf-8")
                                 ).hexdigest()
                                 doc["endpoint"] = endpoint
 
@@ -1582,17 +1668,11 @@ Provide ONLY the JSON array response, no other text."""
                                 and 'download.aspx' not in doc_url.lower()
                                 and 'download.php' not in doc_url.lower()
                                 and 'getfile' not in doc_url.lower()
-                                and '/downloads/' not in doc_url.lower()
-                                and '/file/' not in doc_url.lower()
+                                and '/downloads/file/' not in doc_url.lower()
+                                and '.pdf' not in doc_url.lower()
                             )
                             if is_likely_webpage:
-                                print(
-                                    f"\n⚠️  WARNING: document-url may be a webpage, not a downloadable file:",
-                                    file=sys.stderr,
-                                )
-                                print(f"   Plan: {plan.get('name', 'Unknown')}", file=sys.stderr)
-                                print(f"   URL: {doc_url}", file=sys.stderr)
-                                print(f"   This should be a PDF/document download URL, not a webpage\n", file=sys.stderr)
+                                plan["document-url"] = ""  # Clear invalid URL
 
                         if "documents" in plan and isinstance(plan["documents"], list):
                             for doc in plan["documents"]:
@@ -1606,20 +1686,14 @@ Provide ONLY the JSON array response, no other text."""
                                         and 'download.aspx' not in url.lower()
                                         and 'download.php' not in url.lower()
                                         and 'getfile' not in url.lower()
-                                        and '/downloads/' not in url.lower()
-                                        and '/file/' not in url.lower()
+                                        and '/downloads/file/' not in url.lower()
+                                        and '.pdf' not in url.lower()
                                     )
                                     if is_likely_webpage:
-                                        print(
-                                            f"\n⚠️  WARNING: document-url in documents array may be a webpage:",
-                                            file=sys.stderr,
-                                        )
-                                        print(f"   Document: {doc.get('name', 'Unknown')}", file=sys.stderr)
-                                        print(f"   URL: {url}", file=sys.stderr)
-                                        print(f"   This should be a PDF/document download URL, not a webpage\n", file=sys.stderr)
+                                        doc["document-url"] = ""  # Clear invalid URL
 
                                     endpoint = hashlib.sha256(
-                                        url.encode("utf-8")
+                                        doc["document-url"].encode("utf-8")
                                     ).hexdigest()
                                     doc["endpoint"] = endpoint
 
