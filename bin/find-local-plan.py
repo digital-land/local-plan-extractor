@@ -43,6 +43,11 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, Optional, List
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
+
+# Disable SSL warnings when verify=False is used
+warnings.simplefilter('ignore', InsecureRequestWarning)
 
 
 def calculate_sha1(content):
@@ -407,7 +412,10 @@ class LocalPlanFinder:
                 domains.append(domain)
 
         # Common paths for local plan pages
+        # NOTE: Specific council paths are listed first for better matching
         paths = [
+            "/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038/", # Bassetlaw specific
+            "/planning-and-building-control/planning-policy", # Bassetlaw parent
             "/planning",  # Try planning section first
             "/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",  # Buckinghamshire and similar
             "/planning-and-building-control/planning-policy/local-planning-guidance",  # Buckinghamshire variant
@@ -438,6 +446,7 @@ class LocalPlanFinder:
             "/planning-policy/local-plan",
             "/planning-policy/emerging-local-plan",
             "/planning-policy",
+            "/planningpolicy",
             "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Variant without .aspx
             "/home/planning-development/planning-strategic-planning",
             "/home/planning-development/planning-strategic-planning/new-local-plan",
@@ -899,7 +908,7 @@ class LocalPlanFinder:
                         "/downloads/" if "/downloads/file/" not in normalized_url else None,  # Generic downloads pages (but keep /downloads/file/)
                         "-documents",  # Pages listing documents
                         "_documents",
-                        "/documents/" if not normalized_url.endswith(".pdf") else None,  # Documents folders (unless direct PDF)
+                        "/documents/" if not (normalized_url.endswith(".pdf") or "/documents/d/" in normalized_url) else None,  # Documents folders (unless direct PDF or /documents/d/ pattern)
                         "/planning-policy-plan-making",  # Policy overview pages
                         "/supplementary-planning-documents-spds" if not normalized_url.endswith(('.pdf', '.doc', '.docx')) else None,  # SPD listing pages
                     ]
@@ -914,6 +923,7 @@ class LocalPlanFinder:
                     is_clearly_file = (
                         normalized_url.endswith(('.pdf', '.doc', '.docx'))
                         or '/downloads/file/' in normalized_url  # Birmingham's file download pattern
+                        or '/documents/d/' in normalized_url  # Mid Suffolk's document pattern
                         or 'download.cfm?' in normalized_url  # Arun's download handler
                         or 'download.aspx?' in normalized_url
                         or 'getfile.aspx?' in normalized_url
@@ -952,7 +962,7 @@ class LocalPlanFinder:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             }
             response = requests.get(
-                url, headers=headers, timeout=15, allow_redirects=True
+                url, headers=headers, timeout=15, allow_redirects=True, verify=False
             )
             response.raise_for_status()
 
@@ -1057,6 +1067,7 @@ class LocalPlanFinder:
                         },
                         timeout=15,
                         allow_redirects=True,
+                        verify=False,
                     )
                     if response.status_code == 200:
                         links = self.extract_local_plan_links(
@@ -1112,6 +1123,7 @@ class LocalPlanFinder:
                         },
                         timeout=15,
                         allow_redirects=True,
+                        verify=False,
                     )
                     if response.status_code == 200:
                         docs = self.extract_document_links(link, response.text)
@@ -1147,7 +1159,7 @@ class LocalPlanFinder:
                 return 1
             if url.endswith(('.doc', '.docx')) or '.doc?' in url:
                 return 2
-            if '/downloads/file/' in url:
+            if '/downloads/file/' in url or '/documents/d/' in url:
                 return 3
             # Lower priority: Generic download patterns
             if '/download/' in url or '/downloads/' in url:
@@ -1616,6 +1628,7 @@ Provide ONLY the JSON array response, no other text."""
                             and 'download.php' not in doc_url.lower()
                             and 'getfile' not in doc_url.lower()
                             and '/downloads/file/' not in doc_url.lower()
+                            and '/documents/d/' not in doc_url.lower()
                             and '.pdf' not in doc_url.lower()
                         )
                         if is_likely_webpage:
@@ -1634,6 +1647,7 @@ Provide ONLY the JSON array response, no other text."""
                                     and 'download.php' not in url.lower()
                                     and 'getfile' not in url.lower()
                                     and '/downloads/file/' not in url.lower()
+                                    and '/documents/d/' not in url.lower()
                                     and '.pdf' not in url.lower()
                                 )
                                 if is_likely_webpage:
@@ -1839,6 +1853,7 @@ Status values:
                         },
                         timeout=15,
                         allow_redirects=True,
+                        verify=False,
                     )
                     if response.status_code == 200:
                         links = finder.extract_local_plan_links(
