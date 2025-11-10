@@ -267,7 +267,8 @@ Examples:
     results = {
         'success': [],
         'failed': [],
-        'errors': []
+        'errors': [],
+        'adopted': []  # Track authorities with at least one adopted plan
     }
 
     for i, (org_code, org_name) in enumerate(authorities_to_process, 1):
@@ -284,6 +285,17 @@ Examples:
             save_output(org_code, output, output_dir)
             results['success'].append((org_code, org_name))
 
+            # Check if any top-level entry has status='adopted'
+            has_adopted = False
+            if isinstance(output, list) and len(output) > 0:
+                for entry in output:
+                    if isinstance(entry, dict) and entry.get('status') == 'adopted':
+                        has_adopted = True
+                        break
+
+            if has_adopted:
+                results['adopted'].append((org_code, org_name))
+
             # Print summary of what was found
             if isinstance(output, list) and len(output) > 0:
                 if 'error' in output[0]:
@@ -292,7 +304,8 @@ Examples:
                 else:
                     num_plans = len(output)
                     num_docs = sum(len(plan.get('documents', [])) for plan in output)
-                    print(f"✓ Found {num_plans} plan(s) with {num_docs} document(s)")
+                    adopted_status = " (with adopted plan)" if has_adopted else ""
+                    print(f"✓ Found {num_plans} plan(s) with {num_docs} document(s){adopted_status}")
             else:
                 print("✓ No plans found")
         else:
@@ -307,6 +320,7 @@ Examples:
     print(f"Successful: {len(results['success'])}")
     print(f"Failed: {len(results['failed'])}")
     print(f"With errors: {len(results['errors'])}")
+    print(f"With at least one adopted plan: {len(results['adopted'])}")
 
     if results['failed']:
         print("\nFailed authorities:")
@@ -317,6 +331,11 @@ Examples:
         print("\nAuthorities with errors:")
         for code, name, error in results['errors']:
             print(f"  - {name} ({code}): {error[:100]}")
+
+    if results['adopted']:
+        print(f"\nAuthorities with at least one adopted plan ({len(results['adopted'])}):")
+        for code, name in results['adopted']:
+            print(f"  - {name} ({code})")
 
     # Exit with appropriate code
     sys.exit(0 if len(results['failed']) == 0 else 1)

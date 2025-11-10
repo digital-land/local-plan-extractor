@@ -426,6 +426,8 @@ class LocalPlanFinder:
             "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets adopted plan (Contensis CMS)
             "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",  # Tower Hamlets emerging plan
             "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",  # Case variation
+            "/adur-ldf", # Adur parent
+            "/adur-local-plan", # Adur local plan
             "/lgnl/planning_and_building_control/planning_policy_guidance/new-local-plan.aspx",  # Other Contensis CMS variations
             "/newlocalplan",  # Fenland and similar councils
             "/developmentplan",  # Fenland and similar councils
