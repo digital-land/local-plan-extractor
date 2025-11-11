@@ -431,6 +431,54 @@ class LocalPlanFinder:
             "/lgnl/planning_and_building_control/planning_policy_guidance/new-local-plan.aspx",  # Other Contensis CMS variations
             "/newlocalplan",  # Fenland and similar councils
             "/developmentplan",  # Fenland and similar councils
+            "/planning-and-building-control/planning-policies-and-local-plans", # Barnet parent
+            "/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036", # Barnet local plan
+            "/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",  # Barking and Dagenham local plan
+            "/planning/planning-policy/city-plan-part-one" # Brighton and Hove local plan pt.1
+            "/planning/planning-policy/city-plan-part-two" # Brighton and Hove local plan pt.2
+            "/services/p/planning-policy/planning-policy-documents/development-plan", # Bolsover local plan
+            "/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/", # Bromsgrove adopted plan
+            "/planning/planning-policies/burnleys-local-plan/", # Burnley local plan
+            "/planning/planning-policy/local-plan/about-local-plan", # Crawley local plan
+            "/planning-development/planning-strategic-planning/new-single-local-plan", # Dacorum local plan
+            "/planning-and-building-regs/planning/planning-and-environmental-policy/" # Darlington local plans
+            "/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption", # Derbyshire Dales local plan
+            "/cdp", # County Durham plan
+            "/info/201164/local_plan", # Ealing local plan
+            "/planning-and-building/planning-policy-and-implementation/local-plan", # Eastleigh local plan
+            "/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan", # East Cambridgeshire local plan
+            "/localplan2018", # East Lindsey local plan
+            "/services/planning/adopted-plans", # Enfield adopted plans
+            "/services/planning/new-enfield-local-plan", # Enfield new local plan
+            "/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/", # East Riding local plan
+            "/article/3001/Local-Plan", # Gateshead local plan
+            "/resident/planningandbuildingcontrol/planningpolicy/adoptedlocalplanandpolicydocuments/" # Gedling local plans
+            "/planning-development/planning-policy/adopted-development-plan/" # Gloucester local plan
+            "/article/2489/Current-Local-Plan", # Great Yarmouth local plan
+            "/Pages/planning/policyguidance/planningplans.aspx", # Halton local plans
+            "/planning/local-plan/read-the-current-local-plan", # Horsham local plan
+            "/downloads/download/15/local-plan", # Kingston upon Hull local plan
+            "/planning-and-development/planning-policy/adopted-documents/", # Knowsley local plans
+            "/Page/Show/Environment/Planning/Regional%20and%20local%20planning/Pages/default.aspx", # Luton local plans
+            "/homepage/7031/emerging_local_plan", # Maldon local plan
+            "/planning-and-development/planning-policy/publication-local-plan/", # Middlesbrough local plan
+            "/planning-and-building/developingmk/planmk", # Milton Keynes local plan
+            "/planning-policy/current-development-plan", # Newcastle-under-Lyme local plan
+            "/residents/planning/planning-policy/local-plan", # North Tyneside local plan
+            "/info/201229/current_local_planning_policy/2934/the_adopted_local_plan_in_oldham", # Oldham local plan
+            "/info/20072/planning_policies/273/local_plan", # Pendle local plan
+            "/services/development-and-planning/planning-policy/portsmouth-local-plan/", # Portsmouth local plan
+            "/info/20271/local_plan", # Reigate and Banstead local plan parent page
+            "/info/20271/local_plan/1101/development_plan", # Reigate and Banstead local plan direct link
+            "/planning-growth/planning-policy/local-plan/", # Rushcliffe local plan
+            "/planning-policy/local-development-plan-slough", # Slough local plan
+            "/article/15978/Core-Strategy-and-Development-Plan", # Sunderland local plan
+            "/article/3663/Local-Plan", # South Tyneside local plan
+            "/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan", # Tandridge local plan
+            "/article/4878/Planning-Policy-and-the-Local-Plan", # Uttlesford local plan
+            "/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx", # Wigan core strategy
+            "/park-authority/living-and-working/planning-policy/local-planning-policy-pre-boundary-extension/", # Yorkshire Dales National Park local plan
+            "/planning/planning-policies/local-plan-for-the-broads", # Broads Authority local plan
             "/emerging-local-plan",  # Common emerging plan patterns
             "/emerging-plan",
             "/draft-local-plan",
@@ -443,12 +491,19 @@ class LocalPlanFinder:
             "/planning/emerging-local-plan",
             "/planning/draft-local-plan",
             "/planning/new-local-plan",
+            "/planning/planning-policy",
+            "/planning/planningpolicies"
+            "/planning/planning-policies"
             "/planning/planning-policy/local-plan",
             "/planning/planning-policy/emerging-local-plan",
+            "/planning/planning-policy/existing-local-plans",
+            "/planning/policy/local-plan",
             "/planning-policy/local-plan",
             "/planning-policy/emerging-local-plan",
             "/planning-policy",
+            "/planning-policy-core-strategy",
             "/planningpolicy",
+            "/planning-and-regeneration/local-plans",
             "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Variant without .aspx
             "/home/planning-development/planning-strategic-planning",
             "/home/planning-development/planning-strategic-planning/new-local-plan",
@@ -456,6 +511,7 @@ class LocalPlanFinder:
             "/planning/strategic-planning/emerging-local-plan",
             "/planning/strategic-planning",
             "/services/planning/planning-policy",
+            "/planning-and-building-control",
             "/planning-and-building-control/planning-policy",
             "/planning-applications/planning-policy",
             "/planning-services/planning-policy",
