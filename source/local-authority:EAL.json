@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:EAL",
+    "organisation-name": "London Borough of Ealing",
+    "reference": "LP-EAL-2024",
+    "documentation-url": "https://www.ealing.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Ealing New Local Plan 2024-2039",
+    "status": "submitted",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ealing.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Document downloads",
+        "reference": "LP-2024-2039",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "organisation": "local-authority:SHR",
+    "organisation-name": "Shropshire Council",
+    "reference": "LP-SHR-2022",
+    "documentation-url": "https://www.shropshire.gov.uk/planning-policy/adopted-local-plan/",
+    "document-url": "",
+    "name": "Shropshire Council Local Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:SHR",
+    "organisation-name": "Shropshire Council",
+    "reference": "LP-SHR-NEXT",
+    "documentation-url": "https://www.shropshire.gov.uk/planning-policy/next-local-plan/",
+    "document-url": "",
+    "name": "Shropshire Next Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:SHR",
+    "organisation-name": "Shropshire Council",
+    "reference": "LP-SHR-WITHDRAWN",
+    "documentation-url": "https://www.shropshire.gov.uk/planning-policy/archive-including-information-on-the-withdrawn-local-plan/",
+    "document-url": "",
+    "name": "Withdrawn Local Plan",
+    "status": "withdrawn",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

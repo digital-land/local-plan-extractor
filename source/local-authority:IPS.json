@@ -1,0 +1,66 @@
+[
+  {
+    "organisation": "local-authority:IPS",
+    "organisation-name": "Ipswich Borough Council",
+    "reference": "LP-IPS-2025",
+    "documentation-url": "https://www.ipswich.gov.uk/planning-and-building-control/planning-policy/new-ipswich-local-plan",
+    "document-url": "",
+    "name": "New Ipswich Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2044,
+    "documents": [
+      {
+        "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2025-10/FINAL%20Guidance%20Note%20-%20Call%20for%20Sites%202025%20%28web%29.pdf",
+        "documentation-url": "https://www.ipswich.gov.uk/callforsites",
+        "document-type": "local-plan",
+        "name": "Guidance Note - Call for Sites 2025",
+        "reference": "LP-CFS-2025",
+        "document-status": "draft",
+        "endpoint": "97ebc7b994dc75282329e490e4b3caa1abfb7536195ab847fa4912ed6d9311db"
+      },
+      {
+        "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2025-10/FINAL%20Response%20Form%20%28PDF%29%20-%20IBC%20Call%20for%20Sites%202025_0.pdf",
+        "documentation-url": "https://www.ipswich.gov.uk/callforsites",
+        "document-type": "local-plan",
+        "name": "Call for Sites Response Form 2025",
+        "reference": "LP-CFS-FORM-2025",
+        "document-status": "draft",
+        "endpoint": "51a69a22211d6d1b4f38ff92acc34041f3499e92728120b967925b42696cacbb"
+      },
+      {
+        "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2025-10/FINAL%20Response%20Form%20%28MSWord%29%20-%20IBC%20Call%20for%20Sites%202025.docx",
+        "documentation-url": "https://www.ipswich.gov.uk/callforsites",
+        "document-type": "local-plan",
+        "name": "Call for Sites Response Form 2025 (Word)",
+        "reference": "LP-CFS-FORM-WORD-2025",
+        "document-status": "draft",
+        "endpoint": "d44cee3ecee67994f264f0b9b0e3fa668a879bc51a827eb8ef7cada77cbfdcd2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:IPS",
+    "organisation-name": "Ipswich Borough Council",
+    "reference": "LP-IPS-2022",
+    "documentation-url": "https://www.ipswich.gov.uk/planning-and-building-control/planning-policy/ipswich-local-plan/adopted-ipswich-local-plan-2018",
+    "document-url": "",
+    "name": "Ipswich Local Plan 2018-2036",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2018,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2024-09/local_plan_glossary.pdf",
+        "documentation-url": "https://www.ipswich.gov.uk/planning-and-building-control/planning-policy/ipswich-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan Glossary",
+        "reference": "LP-GLOSSARY-2022",
+        "document-status": "adopted",
+        "endpoint": "2bc8070f58f74fe8db990c109769a09e279c43fb7652d5b418b19b3d886de48c"
+      }
+    ]
+  }
+]

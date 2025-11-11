@@ -1,0 +1,102 @@
+[
+  {
+    "organisation": "local-authority:HAR",
+    "organisation-name": "Harlow District Council",
+    "reference": "LP-HAR-2020",
+    "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan",
+    "document-url": "",
+    "name": "Harlow Local Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Local%20Development%20Scheme%202025.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "19fcefb6e93bc43965cc7f8323f2cb9710c75f24d4ab0adf9f8c9da78c22b503"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAR",
+    "organisation-name": "Harlow District Council",
+    "reference": "LP-HAR-2006",
+    "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+    "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Adopted%20Replacement%20Harlow%20Local%20Plan.pdf",
+    "name": "Adopted Replacement Local Plan",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Adopted%20Replacement%20Harlow%20Local%20Plan.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Replacement Local Plan (July 2006)",
+        "reference": "LP-2006",
+        "document-status": "adopted",
+        "endpoint": "54ad7275700cb86b80e3bf68509835f560152a54059439b9687fc827bfb0585f"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Adopted%20Replacement%20Harlow%20Local%20Plan%20proposals%20map.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+        "document-type": "policies-map",
+        "name": "Adopted Replacement Local Plan proposals map",
+        "reference": "PM-2006",
+        "document-status": "adopted",
+        "endpoint": "1416f8b640f150c8aef5714b656d6cc2d6218a77431be256cc8d9bda5888f7ee"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Replacement%20Harlow%20Local%20Plan%20-%20Proposed%20Modifications%20to%20the%20Second%20Deposit%20Draft%20-%20Full%20Report.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+        "document-type": "local-plan",
+        "name": "Replacement Local Plan - Proposed Modifications to the Second Deposit Draft - Full Report",
+        "reference": "LP-MOD-2006",
+        "document-status": "consultation",
+        "endpoint": "7c2981c74fa29a6d16f4e4239226c58539fd6bb6d5d3dfd604e975d6d9bec42b"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Replacement%20Harlow%20Local%20Plan%20-%20Modifications%20-%20Report%20on%20Objections.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+        "document-type": "local-plan",
+        "name": "Replacement Local Plan - Modifications - Report on Objections",
+        "reference": "LP-OBJ-2006",
+        "document-status": "examination",
+        "endpoint": "e926d10203795a74a8fba84a8cdef8ac71773fcad56adaefa7d1382d64139861"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Replacement%20Harlow%20Locan%20Plan%20-%20Inspector%27s%20Report.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/adopted-replacement-local-plan",
+        "document-type": "local-plan",
+        "name": "Replacement Local Plan - Inspectors Report",
+        "reference": "IR-2006",
+        "document-status": "examination",
+        "endpoint": "a528b51dee291aa47559cfb57f2a877a32caad05a65f2b10169225dc2c9bb0c6"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Local%20Development%20Scheme%202023%20%28Local%20Plan%20full%20review%29.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2023 (Local Plan full review)",
+        "reference": "LDS-2023",
+        "document-status": "adopted",
+        "endpoint": "1777ebeb8b3f82f77ac3697709bf8f199fe4cd59f78d9ea6a412ab092feffde7"
+      },
+      {
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Local%20Development%20Scheme%202021.pdf",
+        "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2021",
+        "reference": "LDS-2021",
+        "document-status": "adopted",
+        "endpoint": "628b8e9b60c3e9e33f72fbb1097faea2ef2a8cc1632712b2d347d021b57216cd"
+      }
+    ]
+  }
+]

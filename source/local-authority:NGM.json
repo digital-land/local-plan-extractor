@@ -1,0 +1,7 @@
+[
+  {
+    "organisation": "local-authority:NGM",
+    "organisation-name": "Nottingham City Council",
+    "error": "Expecting ',' delimiter: line 180 column 10 (char 12662)"
+  }
+]

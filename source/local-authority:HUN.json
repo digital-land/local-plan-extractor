@@ -1,0 +1,38 @@
+[
+  {
+    "organisation": "local-authority:HUN",
+    "organisation-name": "Huntingdonshire District Council",
+    "reference": "LP-HUN-2018",
+    "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
+    "document-url": "",
+    "name": "Huntingdonshire Local Plan to 2036",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": 2036,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:HUN",
+    "organisation-name": "Huntingdonshire District Council",
+    "reference": "LP-HUN-2025",
+    "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-update/",
+    "document-url": "",
+    "name": "Huntingdonshire Local Plan Update to 2046",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2046,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/consultations/have-your-say-on-local-plan-preferred-options/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan Preferred Options to 2046",
+        "reference": "LP-R18-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

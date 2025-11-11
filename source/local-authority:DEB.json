@@ -1,0 +1,28 @@
+[
+  {
+    "organisation": "local-authority:DEB",
+    "organisation-name": "Derbyshire Dales District Council",
+    "reference": "LP-DEB-2017",
+    "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan",
+    "document-url": "",
+    "name": "Derbyshire Dales Local Plan 2017",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:DEB",
+    "organisation-name": "Derbyshire Dales District Council",
+    "reference": "LP-DEB-2025",
+    "documentation-url": "https://www.derbyshiredales.gov.uk/localplan",
+    "document-url": "",
+    "name": "Derbyshire Dales Local Plan Review 2020-2045",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2020,
+    "period-end-date": 2045,
+    "documents": []
+  }
+]

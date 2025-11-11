@@ -1,0 +1,183 @@
+[
+  {
+    "organisation": "local-authority:HAA",
+    "organisation-name": "Havant Borough Council",
+    "reference": "LP-HAA-2025",
+    "documentation-url": "https://www.havant.gov.uk/local-plan",
+    "document-url": "https://www.havant.gov.uk/sites/default/files/2025-05/Draft%20Building%20a%20Better%20Future%20Plan%20Web.pdf",
+    "name": "Building a Better Future Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/2025-05/Draft%20Building%20a%20Better%20Future%20Plan%20Web.pdf",
+        "documentation-url": "https://www.havant.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Draft Building a Better Future Plan",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "01bc94ebdb38f1c3c396198a6db62692fd37a3375526e79009e51078e5c5c006"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/2025-05/Local%20Plan%20brochure%20FINAL%20digital.pdf",
+        "documentation-url": "https://www.havant.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Draft Building a Better Future Plan Brochure",
+        "reference": "LP-BROCHURE-2025",
+        "document-status": "consultation",
+        "endpoint": "238114ee350272d4e341228784d1348a2c8d6fc75f04e08c465cda6c3d5f8ab4"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/2025-02/Habitats%20Regulations%20Assessment.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/local-plan-evidence-studies-and-strategies",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment",
+        "reference": "HRA-2025",
+        "document-status": "consultation",
+        "endpoint": "50da4199d439d04707d12c8976adc42ebb88b1a39f5009d86011fa390ff99203"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/2025-05/Development%20Capacity%20Background%20Paper.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/local-plan-evidence-studies-and-strategies",
+        "document-type": "local-plan",
+        "name": "Development Capacity Background Paper",
+        "reference": "BP-2025",
+        "document-status": "consultation",
+        "endpoint": "939371541af121c2325154667934aee02c819743106c253df7ba693c96333d40"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/2025-06/Local%20Development%20Scheme%20%28June%202025%29.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/local-development-scheme-lds",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "105a62711ee05df14cef0b0d8c999c262684cba23c2ece9681317f0c5b3e2c2e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAA",
+    "organisation-name": "Havant Borough Council",
+    "reference": "LP-HAA-2014",
+    "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+    "document-url": "",
+    "name": "Core Strategy and Allocations Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "core-strategy",
+        "name": "Local Plan (Core Strategy) 2011",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%201_2.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 1 North of Waterlooville",
+        "reference": "PM-MAP1",
+        "document-status": "adopted",
+        "endpoint": "8afb2d1d0423fa8caaf2b5c48309d8922ebda8c6921206dd7b07ed64e7df3a66"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%203_2.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 3 Leigh Park and east part of Waterlooville",
+        "reference": "PM-MAP3",
+        "document-status": "adopted",
+        "endpoint": "35ce7aeef71180b110c81edee5d41f1f03188911cc0518f409d34a877c972e3c"
+      },
+      {
+        "document-url": "http://www.havant.gov.uk/sites/default/files/documents/Map%204_2.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 4 South of Waterlooville and west parts of Havant and Waterlooville",
+        "reference": "PM-MAP4",
+        "document-status": "adopted",
+        "endpoint": "35392210b775934f840ccb89d7f8bde44ddd6fc9c2f6d4533c114f2f347adb5e"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%206_2.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 6 Emsworth",
+        "reference": "PM-MAP6",
+        "document-status": "adopted",
+        "endpoint": "1b7dbdf7c889eec3b30367ff28d4f693544cdb82a59801e2896dcf4465ba6392"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%208_1.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 8 South of Havant and Emsworth",
+        "reference": "PM-MAP8",
+        "document-status": "adopted",
+        "endpoint": "b07cc1db7357ffa075259d1052e6547b7ddc5966f010e95969260e764850b8bf"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%209_1.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 9 North West Hayling Island",
+        "reference": "PM-MAP9",
+        "document-status": "adopted",
+        "endpoint": "e96c5eb4e8d29cdc64b1d0230317ae4bc152ad6bb2825a3b8d4ac3ae54ce85b7"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%2010_1.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 10 North East Hayling Island",
+        "reference": "PM-MAP10",
+        "document-status": "adopted",
+        "endpoint": "9ab6536831f270b5f48cffd075244fb87c81ab9b6f6584bab8f8aecf566e5770"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%2011_0.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 11 Central Hayling Island West",
+        "reference": "PM-MAP11",
+        "document-status": "adopted",
+        "endpoint": "93419f96841e154598e893a806af4fcea9152d5779619c70e604571157e7141b"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%2012_1.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 12 Central Hayling Island East",
+        "reference": "PM-MAP12",
+        "document-status": "adopted",
+        "endpoint": "88fcbf52ed54e3f8eb28646561733bc0f0ec83124513bbe16bc898ea5c04648c"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%2013_0.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 13 South West Hayling Island",
+        "reference": "PM-MAP13",
+        "document-status": "adopted",
+        "endpoint": "68c3a35d6e6c668e86760b5c07b230bee613e60a8c05e2f5e7d2b7b1d96d6a2f"
+      },
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/Map%2014_1.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy/local-plan/core-strategy-and-allocations-plan-adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Map 14 South East Hayling Island",
+        "reference": "PM-MAP14",
+        "document-status": "adopted",
+        "endpoint": "ddc636a8e80e02f599b51f94755d95d146030c180a033cd31d9860d106feb4d3"
+      }
+    ]
+  }
+]

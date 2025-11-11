@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:STF",
+    "organisation-name": "Staffordshire Moorlands District Council",
+    "reference": "LP-STF-2020",
+    "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+    "document-url": "https://www.staffsmoorlands.gov.uk/media/6155/Adopted-Local-Plan/pdf/c0Adopted_Local_Plan.pdf?m=1601645140880",
+    "name": "Staffordshire Moorlands Local Plan 2014-2033",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2014,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6155/Adopted-Local-Plan/pdf/c0Adopted_Local_Plan.pdf?m=1601645140880",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-2014-2033",
+        "document-status": "adopted",
+        "endpoint": "136f221fcc56b624317a381838cdc0e46a34f4e28088d804cc18de9fb69fdbd4"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6156/adoption-statement/pdf/cnadoption_statement.pdf?m=1601645141177",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "36d579d8d3333033c412573133f307be429f1fe2b04f7785bf9aaa232604329f"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6161/Inspectors-final-report/pdf/cnInspectors_final_report.pdf?m=1601645142637",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's final report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "e52f8f7d954436d72328f515157059e6acf0d4245b798cc11651d6c59fd0a9fb"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6157/Annex-to-Inspectors-report---schedule-of-main-modifications/pdf/cmAnnex_to_Inspectors_report_-_schedule_of_main_modifications.pdf?m=1601645141410",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Annex to Inspector's report - schedule of main modifications",
+        "reference": "MM-2020",
+        "document-status": "adopted",
+        "endpoint": "88b0ebd1e9da3da4f846a0ef4489371833dac40823cb182bca78ebd95edfe9ca"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6164/SA-Report-05.02.18/pdf/cpSA_Report_05.02.18.pdf?m=1601645143383",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report 05.02.18",
+        "reference": "SA-2018",
+        "document-status": "adopted",
+        "endpoint": "cc6868ef821e728edc8674dfc58b379c8ec98200dfe2f88fe9954544c269a3d4"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6166/Sustainability-Appraisal-of-main-modifications/pdf/c9Sustainability_Appraisal_of_main_modifications.pdf?m=1601645143877",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of main modifications",
+        "reference": "SA-MM-2020",
+        "document-status": "adopted",
+        "endpoint": "3c08e68a8f90801034f288ccce9ff10fafeab8b0082f1e0da3db27ed4f90620d"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6163/SA-Post-Adoption-Statement---Final/pdf/c4SA_Post_Adoption_Statement_-_Final.pdf?m=1601645143143",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "SA Post Adoption Statement - Final",
+        "reference": "SA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "ab4e451313e1b5320201bb4158bd9ccb47ff62b39153c11c28798a32e7ddd07a"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6158/Appendix-2-SA-report-Biddulph-options-June-2019/pdf/csAppendix_2_SA_report_Biddulph_options_June_2019.pdf?m=1601645141647",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Appendix 2 SA report Biddulph options June 2019",
+        "reference": "SA-BIDDULPH-2019",
+        "document-status": "adopted",
+        "endpoint": "c526ebc0bca6aba997a65c7a460d7ad9f320ecdb1a3bb2106c779e1d5f03f607"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6159/Equalities-Impact-Assessment/pdf/c7Equalities_Impact_Assessment.pdf?m=1601645142040",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities Impact Assessment",
+        "reference": "EIA-2020",
+        "document-status": "adopted",
+        "endpoint": "a6afbf5788d1c40715e83585d6e7284c2a1b717547539a005ac28f299c29eb69"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6160/Further-AMs/pdf/c0Further_AMs.pdf?m=1601645142390",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Further AMs",
+        "reference": "AM-2020",
+        "document-status": "adopted",
+        "endpoint": "d53fec30aea2a501638719969711838c8302356baf30a5f5a47998effa73f708"
+      },
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/6162/Revised-additional-modifications/pdf/cdRevised_additional_modifications.pdf?m=1601645142887",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Revised additional modifications",
+        "reference": "RAM-2020",
+        "document-status": "adopted",
+        "endpoint": "338790039cbb1c9d6125577803991a54c3a4dfa416bedb580a0b99484f8519c1"
+      }
+    ]
+  }
+]

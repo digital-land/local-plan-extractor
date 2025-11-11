@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:MIK",
+    "organisation-name": "Milton Keynes City Council",
+    "reference": "LP-MIK-2025",
+    "documentation-url": "https://www.milton-keynes.gov.uk/consultations/proposed-submission-milton-keynes-city-plan-2050-regulation-19",
+    "document-url": "",
+    "name": "Milton Keynes City Plan 2050",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2050,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.milton-keynes.gov.uk/consultations",
+        "document-type": "local-plan-regulation-19",
+        "name": "Proposed Submission Milton Keynes City Plan 2050 Regulation 19",
+        "reference": "LP-2050-R19",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

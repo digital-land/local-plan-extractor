@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:MAN",
+    "organisation-name": "Manchester City Council",
+    "reference": "LP-MAN-2020",
+    "documentation-url": "https://www.manchester.gov.uk/localplan",
+    "document-url": "",
+    "name": "Manchester Local Plan",
+    "status": "regulation-18",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/29355/grey_mare_lane_regeneration_masterplan.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "Grey Mare Lane regeneration masterplan",
+        "reference": "LP-GREY-MARE-2021",
+        "document-status": "consultation",
+        "endpoint": "f028465b1592f5b2c43b8f971582baacc6413ae3059071a4dc496d1548061207"
+      },
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/29403/section_1_%E2%80%93_quay_street_to_liverpool_road.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "Section 1 – Quay Street to Liverpool Road",
+        "reference": "LP-SECTION-1-2021",
+        "document-status": "consultation",
+        "endpoint": "2579eb166e4bff7e51e22e49f373581f0dc6fc87b70283e0c5dcbacfc9855dee"
+      },
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/29404/section_2_%E2%80%93_liverpool_road_to_whitworth_street_west.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "Section 2 – Liverpool Road to Whitworth Street West",
+        "reference": "LP-SECTION-2-2021",
+        "document-status": "consultation",
+        "endpoint": "128005f72d70d19786f21b62707d17464c5a611565dcb1ad3952f7e2a25883f5"
+      },
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/29405/section_3_%E2%80%93_bridgewater_viaduct_and_chester_road.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "Section 3 – Bridgewater Viaduct and Chester Road",
+        "reference": "LP-SECTION-3-2021",
+        "document-status": "consultation",
+        "endpoint": "a11c72c643326174739181c7e76c0ebd8a393cda8b3cb9f898bd895a0a3dfe75"
+      },
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/29521/newton_heath_ndf_-_public_consultation.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "Newton Heath NDF - Public Consultation",
+        "reference": "LP-NEWTON-HEATH-2021",
+        "document-status": "consultation",
+        "endpoint": "951f321c0ad2c1267d4e89bff6ec030d8bfc28ac3762e5881e3cbbea4416bc7b"
+      },
+      {
+        "document-url": "https://www.manchester.gov.uk/download/downloads/id/30129/east_village_central_srf_update.pdf",
+        "documentation-url": "https://www.manchester.gov.uk/downloads/200024/consultations_and_surveys",
+        "document-type": "local-plan",
+        "name": "East Village Central SRF update",
+        "reference": "LP-EAST-VILLAGE-2021",
+        "document-status": "consultation",
+        "endpoint": "d9f462625780491c6a8a5b9a2cef6efa3194974f6a886c1f97ec7fdee9f8ff5b"
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-2012",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/core-strategy-local-plan",
+    "document-url": "",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-2024",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/places-for-everyone",
+    "document-url": "",
+    "name": "Places for Everyone Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/places-for-everyone",
+        "document-type": "joint-strategic-plan",
+        "name": "Places for Everyone Plan",
+        "reference": "JSP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-1996",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+    "document-url": "",
+    "name": "Rochdale Borough Unitary Development Plan",
+    "status": "adopted",
+    "year": 1996,
+    "period-start-date": 1996,
+    "period-end-date": 2016,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Maps for Rochdale Borough Unitary Development Plan",
+        "reference": "LP-MAP-1996",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-ALLOC",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+    "document-url": "",
+    "name": "Allocations Plan",
+    "status": "draft",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+        "document-type": "site-allocations",
+        "name": "Allocations Plan",
+        "reference": "SA-DPD-DRAFT",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-WASTE",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/greater-manchester-joint-waste-development-plan",
+    "document-url": "",
+    "name": "Greater Manchester Joint Waste Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Greater Manchester Joint Waste Development Plan",
+        "reference": "WASTE-GM",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RCH",
+    "organisation-name": "Rochdale Metropolitan Borough Council",
+    "reference": "LP-RCH-MINERALS",
+    "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/greater-manchester-joint-minerals-development-plan",
+    "document-url": "",
+    "name": "Greater Manchester Joint Minerals Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochdale.gov.uk/local-planning-policy/local-plan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Greater Manchester Joint Minerals Development Plan",
+        "reference": "MINERALS-GM",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

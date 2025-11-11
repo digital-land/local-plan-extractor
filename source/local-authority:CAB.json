@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:CAB",
+    "organisation-name": "Cambridge City Council",
+    "reference": "LP-CAB-2018",
+    "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+    "document-url": "https://www.cambridge.gov.uk/media/6890/local-plan-2018.pdf",
+    "name": "Cambridge Local Plan 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6890/local-plan-2018.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "local-plan",
+        "name": "Cambridge Local Plan 2018",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "fdd4394e7fbe04deebcf9f7a22241ac2b870e0e0c500c42b0fdb1930249bf1e3"
+      },
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6892/development-plan-adopted-policies-map.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "561dfefd9d87c0af6de9db8c9d4428d86b657a01afd153cc0c06b146817661e4"
+      },
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6791/local-plan-2018-adoption-statement.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "b3ac40b51a458d2f47f826b9d9bd2fbeedea41814eb9f202bb0b43c0b633e829"
+      },
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6789/local-plan-2018-inspectors-examination-report.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "inspectors-report",
+        "name": "Report and Schedule of Main Modifications",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "abae1de9db0602d424b4040608c4804024c1f716c71f65976ba046f2dda61365"
+      },
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6790/local-plan-2018-schedule-of-additional-modifications.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "local-plan",
+        "name": "Additional modifications",
+        "reference": "LP-MOD-2018",
+        "document-status": "adopted",
+        "endpoint": "7f3e7d2ad136061abf317c0af59832b46c6b755de668fb370dab273b043eb9df"
+      },
+      {
+        "document-url": "https://cambridge.blob.core.windows.net/public/ldf/coredocs/RD-EX/rd-ex-140.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "policies-map",
+        "name": "Policies maps modifications document (RD/EX/140)",
+        "reference": "PM-MOD-2018",
+        "document-status": "adopted",
+        "endpoint": "49fc8706ee67415fe1b17128937481922820eeb7fcc0dbea73d8ef816cd3f0fa"
+      },
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/6788/local-plan-2018-sustainability-appraisal-adoption-statement.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/local-plan-2018",
+        "document-type": "sustainability-appraisal",
+        "name": "Cambridge Local Plan Sustainability Appraisal Adoption Statement",
+        "reference": "SA-2018",
+        "document-status": "adopted",
+        "endpoint": "0b86323003a22668af136d27c401037eb0bb77c273cf6e0ef0d68381bf8ffa89"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CAB",
+    "organisation-name": "Cambridge City Council",
+    "reference": "LP-CAB-2025",
+    "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/greater-cambridge-local-plan/",
+    "document-url": "",
+    "name": "Greater Cambridge Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2045,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CAB",
+    "organisation-name": "Cambridge City Council",
+    "reference": "LP-CAB-2006",
+    "documentation-url": "https://www.cambridge.gov.uk/planning-policy-publications",
+    "document-url": "https://www.cambridge.gov.uk/media/5752/ccc-local-plan-2006-inspectors-report.pdf",
+    "name": "Cambridge Local Plan 2006",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cambridge.gov.uk/media/5752/ccc-local-plan-2006-inspectors-report.pdf",
+        "documentation-url": "https://www.cambridge.gov.uk/planning-policy-publications",
+        "document-type": "inspectors-report",
+        "name": "Cambridge Local Plan Inspector's Report (2006)",
+        "reference": "IR-2006",
+        "document-status": "adopted",
+        "endpoint": "aa17758626d3aa32fa42398b33736a3d08394cee7f0d978b05ab4121a7edec2f"
+      }
+    ]
+  }
+]

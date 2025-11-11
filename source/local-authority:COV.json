@@ -1,0 +1,57 @@
+[
+  {
+    "organisation": "local-authority:COV",
+    "organisation-name": "Coventry City Council",
+    "reference": "LP-COV-2017",
+    "documentation-url": "https://www.coventry.gov.uk/localplan",
+    "document-url": "https://www.coventry.gov.uk/downloads/file/25899/final_local_plan_december_2017",
+    "name": "Coventry Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.coventry.gov.uk/downloads/file/25899/final_local_plan_december_2017",
+        "documentation-url": "https://www.coventry.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2017",
+        "document-status": "adopted",
+        "endpoint": "aa3168861de54d9b382535550dc344cdeb0676e98a90b1926545fba089aa29cd"
+      },
+      {
+        "document-url": "https://www.coventry.gov.uk/downloads/file/25615/coventry_local_plan_final_report_2017",
+        "documentation-url": "https://www.coventry.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Planning Inspectors Report",
+        "reference": "IR-2017",
+        "document-status": "adopted",
+        "endpoint": "1691723d4f61ae068bb39a47788d227c233c010443801f230e2cd39638260afb"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COV",
+    "organisation-name": "Coventry City Council",
+    "reference": "AAP-COV-2017",
+    "documentation-url": "https://www.coventry.gov.uk/planning-policy/coventry-local-plan-2011-2031/print",
+    "document-url": "https://www.coventry.gov.uk/downloads/file/25900/final_aap_december_2017",
+    "name": "City Centre Area Action Plan 2011-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.coventry.gov.uk/downloads/file/25900/final_aap_december_2017",
+        "documentation-url": "https://www.coventry.gov.uk/planning-policy/coventry-local-plan-2011-2031/print",
+        "document-type": "area-action-plan",
+        "name": "City Centre Area Action Plan",
+        "reference": "AAP-2017",
+        "document-status": "adopted",
+        "endpoint": "70d2b74ebaa692d2347f698ff77c91fa6912cc401940710c991c502a465f85d3"
+      }
+    ]
+  }
+]

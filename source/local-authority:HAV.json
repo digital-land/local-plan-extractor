@@ -1,0 +1,228 @@
+[
+  {
+    "organisation": "local-authority:HAV",
+    "organisation-name": "London Borough of Havering",
+    "reference": "LP-HAV-2021",
+    "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/2",
+    "document-url": "",
+    "name": "Havering Local Plan 2016-2031",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2016,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/5821/local-plan-2016---2031-adoption-statement-2021",
+        "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/6",
+        "document-type": "adoption-statement",
+        "name": "Havering Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "9f316e90d4dac60f553e626f6b1278ca3af61e9352d85e4aec52b8b548a45d39"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/5822/local-plan-2016---2031-sustainability-appraisal-adoption-statement-2021",
+        "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/6",
+        "document-type": "adoption-statement",
+        "name": "Havering Local Plan Sustainability Appraisal Adoption Statement November 2021",
+        "reference": "SA-AS-2021",
+        "document-status": "adopted",
+        "endpoint": "df2b924d090651dd43fa32fd44bcb9da43258e29675e3c2e1f0a27e077ff0b01"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/5227/havering-inspectors-report-october-2021",
+        "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/6",
+        "document-type": "inspectors-report",
+        "name": "Havering Inspector's Report October 2021",
+        "reference": "IR-2021",
+        "document-status": "adopted",
+        "endpoint": "e159d3750756ceecdf78ab724080aea3006cb4bc54820bd332d2449464c63a9d"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/5789/archived-documents-from-the-local-plan-examination",
+        "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/6",
+        "document-type": "examination-hearing-statement",
+        "name": "Archived Documents from the Local Plan Examination",
+        "reference": "EHS-2021",
+        "document-status": "adopted",
+        "endpoint": "a851611ccd0847c32f9b8a1b709e70fca8049c56a372a0c1d76bb944664ba7d7"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAV",
+    "organisation-name": "London Borough of Havering",
+    "reference": "LP-HAV-2025",
+    "documentation-url": "https://www.havering.gov.uk/localplan",
+    "document-url": "",
+    "name": "Havering Local Plan Update",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6745/havering-character-study-final-report",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Character Study document",
+        "reference": "HCS-2025",
+        "document-status": "draft",
+        "endpoint": "69936123373e11047329f69ad264b8dde0db4a44abfee5bbe3feaa08078e0cb3"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6746/havering-character-study-appendix-1",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Character Study - Appendix 1",
+        "reference": "HCS-A1-2025",
+        "document-status": "draft",
+        "endpoint": "9ee8a7f81935a116ff485c8f3d1e5611e01595c3463e46d315247cf88fdb75ac"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6743/havering-character-study-appendix-2",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Character Study - Appendix 2",
+        "reference": "HCS-A2-2025",
+        "document-status": "draft",
+        "endpoint": "d40f17732059d8b786fabef7526ff98008eab6ffa0d3196d51846afe4be512b8"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6744/havering-character-study-appendix-3",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Character Study - Appendix 3",
+        "reference": "HCS-A3-2025",
+        "document-status": "draft",
+        "endpoint": "e1826d66b09e933f5694e41a4958eddca428015d48db70983b36a49ac4240c41"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6742/havering-character-study-appendix-4",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Character Study - Appendix 4",
+        "reference": "HCS-A4-2025",
+        "document-status": "draft",
+        "endpoint": "97f1de51867995afd779d8f416271c208f32050bede8d8e92b445f44415208a5"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6712/employment-land-review-report",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "employment-land-review",
+        "name": "Employment Land Review",
+        "reference": "ELR-2025",
+        "document-status": "draft",
+        "endpoint": "7ac407924969cbdec0c48c3a8b4b895e28b397a681d49c864ea2bb477c61a002"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6711/employment-land-review-appendix-a-cluster-summary-report",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "employment-land-review",
+        "name": "Employment Land Review Appendix A – Cluster Summary Report",
+        "reference": "ELR-A-2025",
+        "document-status": "draft",
+        "endpoint": "63d37059152fd2c92239dcf56159d971dde2f9b7c0f3d120600dd56ec06f5ae3"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6708/havering-archaeological-priority-areas-report",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Havering Archaeological Priority Areas Report",
+        "reference": "APAR-2025",
+        "document-status": "draft",
+        "endpoint": "a2c6cc95d1c9d3734e4052b645aab80e840f33cdaade3dc0554ed803acb5b0f7"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6476/strategic-housing-market-assessment-shma-2023",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment",
+        "reference": "SHMA-2023",
+        "document-status": "draft",
+        "endpoint": "8b92724aea58fb1af29ecf013905d3ec02310c146fc8fbca66c257b5a79f3c72"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6710/open-space-assessment",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Open Space Assessment",
+        "reference": "OSA-2025",
+        "document-status": "draft",
+        "endpoint": "caf0b38e8d9892a73b02a813f43ad097c93e4adaef82d083cdc693d15f07d12d"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6948/indoor-sports-needs-assessment",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Indoor Sports - Needs assessment",
+        "reference": "ISNA-2025",
+        "document-status": "draft",
+        "endpoint": "537f727230c7602387eb01156d0f05b75a41f073b9850626d05689e4d7157029"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6946/indoor-sports-strategy-and-action-plan",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Indoor Sports - Strategy and Action Plan",
+        "reference": "ISSAP-2025",
+        "document-status": "draft",
+        "endpoint": "b7da8bed33e1e5ff7dbd6457fc7222e1d4a4ba070386227d4a61d2d747e17143"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6949/playing-pitch-and-outdoor-sports-needs-assessment",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Playing Pitch and Outdoor Sports - Needs assessment",
+        "reference": "PPOSNA-2025",
+        "document-status": "draft",
+        "endpoint": "89e557e255e92870537aa0e9405a4d020c3773f5f2eb87df54a6e3216ab033e9"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6947/playing-pitch-and-outdoor-sports-strategy-and-action-plan",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Playing Pitch and Outdoor Sports - Strategy and Action Plan",
+        "reference": "PPOSSAP-2025",
+        "document-status": "draft",
+        "endpoint": "49bfb723e89bd290d5e0cc9160dbcdd6484ac552afc4523e4041c5482b3407ed"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/6709/retail-and-town-centres-study",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Retail and Town Centre Study",
+        "reference": "RTCS-2025",
+        "document-status": "draft",
+        "endpoint": "6832330ecd0419fc505523f1c68e828da576d680150696333b28809f9cce99b6"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/7030/havering-rtcs-final-volume-b-capacity-assessment",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Retail and Town Centre Study Volume B – Capacity Assessment",
+        "reference": "RTCS-B-2025",
+        "document-status": "draft",
+        "endpoint": "f469fffd71ce2349bad5f6b1d107caa193e6a332f057700ea48c4dc37d29076a"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/7031/havering-rtcs-final-volume-c-health-checks",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Retail and Town Centre Study Volume C – Health Checks",
+        "reference": "RTCS-C-2025",
+        "document-status": "draft",
+        "endpoint": "dcd7b364b0541f554ec02bb90ca8e7f00b04f46fc3768c8b718454fecff065a2"
+      },
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/7032/havering-rtcs-final-volume-d-household-survey",
+        "documentation-url": "https://www.havering.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Retail and Town Centre Study Volume D – Household Survey",
+        "reference": "RTCS-D-2025",
+        "document-status": "draft",
+        "endpoint": "d3e55514d58dde460d0aaa141f9be7807140fb2ce02340dce6d10ac6cc15cfd2"
+      }
+    ]
+  }
+]

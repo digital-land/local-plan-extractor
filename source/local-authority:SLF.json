@@ -1,0 +1,134 @@
+[
+  {
+    "organisation": "local-authority:SLF",
+    "organisation-name": "Salford City Council",
+    "reference": "LP-SLF-2023",
+    "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+    "document-url": "https://www.salford.gov.uk/media/398824/salford-local-plan-development-management-policies-and-designations.pdf",
+    "name": "Salford Local Plan: Development Management Policies and Designations",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.salford.gov.uk/media/398824/salford-local-plan-development-management-policies-and-designations.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "development-management-policies",
+        "name": "Salford Local Plan: Development Management Policies and Designations",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "764de30028c287c410241577b3678e162c6c3210bf8078409a28b5db138c3bf5"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/398822/local-plan-policies-map.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "40f86627bc706b870ea00cbaf1fd87fb6531e78f74d00a5f91abc31d448caea4"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/398819/230118-adoption-statement.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "89f672a69a53cedf6a994d706572c1927bd1f99854d1369119ac4b37544e59c1"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/398821/230118-sa-adoption-statement.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "adoption-statement",
+        "name": "Sustainability appraisal adoption statement",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "635b6359adca0137882a0dc2a21d389d0ff059074139a56407ecad49863c60b1"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/395006/sustainability-appraisal-of-slpdmp-main-report-jan-2020.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal (SA) of SLP: DMP (January 2020)",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "3b91f460b8a17d3e6f07320f4dc9b80dd6cf774fec128c824963f9a25390914a"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/394988/hra-salford-local-plan-slpdmp-jan-2020.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-one-salford-local-plan/salford-local-plan-adoption-2023/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment – SLP: DMP (December 2019)",
+        "reference": "HRA-2020",
+        "document-status": "adopted",
+        "endpoint": "1997106df39e7c5a8a43eb8c77dd3412a99cf89b5973afcaac1c0cde0a465ca1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SLF",
+    "organisation-name": "Salford City Council",
+    "reference": "LP-SLF-2027",
+    "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-two-salford-local-plan/",
+    "document-url": "",
+    "name": "Salford Local Plan: Core Strategy and Allocations",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://www.salford.gov.uk/media/5sph1vjg/local-development-scheme-24-july-2025.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/salfords-development-plan/salford-local-plan/part-two-salford-local-plan/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "583b4cce429cdc047ad2461e6d84fe5367c76c988ac9841c08c37175b4100e45"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SLF",
+    "organisation-name": "Salford City Council",
+    "reference": "LP-SLF-2006",
+    "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/archived-planning-policy-documents/",
+    "document-url": "https://www.salford.gov.uk/media/386576/udp-final.pdf",
+    "name": "The City of Salford Unitary Development Plan 2004 to 2016",
+    "status": "withdrawn",
+    "year": 2006,
+    "period-start-date": 2004,
+    "period-end-date": 2016,
+    "documents": [
+      {
+        "document-url": "https://www.salford.gov.uk/media/386576/udp-final.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/archived-planning-policy-documents/",
+        "document-type": "local-plan",
+        "name": "UDP written statement as adopted 21 June 2006",
+        "reference": "UDP-2006",
+        "document-status": "withdrawn",
+        "endpoint": "2341e0190b74469fd96cba28c6e6ce5e4d46394e478c5e1e52476cb361464db0"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/398825/udp-policies-map.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/archived-planning-policy-documents/",
+        "document-type": "policies-map",
+        "name": "UDP policies map",
+        "reference": "UDP-PM-2006",
+        "document-status": "withdrawn",
+        "endpoint": "207ff7674312be11617590c8d0b7fd472f7d5e0217cda47dfaa992b5862a237c"
+      },
+      {
+        "document-url": "https://www.salford.gov.uk/media/386606/udp-written-statement-saved-policies.pdf",
+        "documentation-url": "https://www.salford.gov.uk/planning-building-and-regeneration/planning-policies/local-planning-policy/archived-planning-policy-documents/",
+        "document-type": "local-plan",
+        "name": "UDP written statement saved policies",
+        "reference": "UDP-SP-2006",
+        "document-status": "withdrawn",
+        "endpoint": "e3b52e836075d914fe7eeac50ef0bb4cdcce2e8f3ffb9d8df48f4f3a4ca5544b"
+      }
+    ]
+  }
+]

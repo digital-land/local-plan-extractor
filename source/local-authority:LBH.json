@@ -1,0 +1,148 @@
+[
+  {
+    "organisation": "local-authority:LBH",
+    "organisation-name": "London Borough of Lambeth",
+    "reference": "LP-LBH-2021",
+    "documentation-url": "https://www.lambeth.gov.uk/localplan",
+    "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202021.pdf",
+    "name": "Lambeth Local Plan 2021",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2020,
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202021.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Lambeth Local Plan 2021",
+        "reference": "LP-2021",
+        "document-status": "adopted",
+        "endpoint": "8aa61559d5e985261e9af5bdb3a049cd8416426987b9653d8a49d2b17d888b6f"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Local%20Plan%202021%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan 2021 Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "840ffd7323e9dd27b88000de9bb76eeff9f1d0548234650eb231ae37d1c36c24"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Sustainability%20Appraisal%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2021",
+        "document-status": "adopted",
+        "endpoint": "ef8d258fa0d49a71303ce7d0cfdd3a2935a9ec02130e8cf09c6caf36f9db462e"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-10/Erratum%20notice_0.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Erratum notice",
+        "reference": "EN-2021",
+        "document-status": "adopted",
+        "endpoint": "3e2f322da8f0f5ec844125e760408f4819e4e3c542a091cd0dc748244d7e6ff7"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Appendix%204%20-%20Changes%20to%20the%20Policies%20Map_0.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/local-plan-policies-map",
+        "document-type": "policies-map",
+        "name": "Changes to the Policies Map",
+        "reference": "PM-CHANGES-2021",
+        "document-status": "adopted",
+        "endpoint": "8484a411c70fe838b82b5abb679a223cd647d5e96e63b4ad533e17145f66b539"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LBH",
+    "organisation-name": "London Borough of Lambeth",
+    "reference": "LP-LBH-2015",
+    "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+    "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202015%20web.pdf",
+    "name": "Lambeth Local Plan 2015",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202015%20web.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+        "document-type": "local-plan",
+        "name": "Lambeth Local Plan 2015",
+        "reference": "LP-2015",
+        "document-status": "withdrawn",
+        "endpoint": "feb0f598b199d5c3b56b3cc6b31c7e9a386cedfe7e1bcb9c93c35e1af564bfc5"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2022-04/Lambeth%20policies%20map%202015%20south.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+        "document-type": "policies-map",
+        "name": "Policies map 2015 (South)",
+        "reference": "PM-2015-S",
+        "document-status": "withdrawn",
+        "endpoint": "07f389251730684ff67bd06a7cacdcfea64632faa59027b39040ac702660512b"
+      },
+      {
+        "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth-policy-map-2015.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+        "document-type": "policies-map",
+        "name": "Policies map 2015 (North)",
+        "reference": "PM-2015-N",
+        "document-status": "withdrawn",
+        "endpoint": "165c403ff95e5787bd1dd6e7b0fa63131c2ddc923e1a8835a6ea584f0b65143e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LBH",
+    "organisation-name": "London Borough of Lambeth",
+    "reference": "CS-LBH-2011",
+    "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+    "document-url": "https://www.lambeth.gov.uk/sites/default/files/2021-07/pl-core-strategy-archive-version.pdf",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lambeth.gov.uk/sites/default/files/2021-07/pl-core-strategy-archive-version.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+        "document-type": "core-strategy",
+        "name": "Superseded Core Strategy",
+        "reference": "CS-2011",
+        "document-status": "withdrawn",
+        "endpoint": "049bcb0ae04c52182af6fabedf61f9cff95b06c03ec3fda23e5b30fb97d01342"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LBH",
+    "organisation-name": "London Borough of Lambeth",
+    "reference": "UDP-LBH-UDP",
+    "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+    "document-url": "https://www.lambeth.gov.uk/sites/default/files/pl-udp-archive-version.pdf",
+    "name": "Unitary Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lambeth.gov.uk/sites/default/files/pl-udp-archive-version.pdf",
+        "documentation-url": "https://www.lambeth.gov.uk/planning-building-control/planning-policy-guidance/lambeth-local-plan-2021/archived-local-plans",
+        "document-type": "local-plan",
+        "name": "Superseded Unitary Development Plan (UDP)",
+        "reference": "UDP-ARCH",
+        "document-status": "withdrawn",
+        "endpoint": "3cd9fd9104b13aca15ed958e3a89c5445cf441e0be3d3a94cfc9a6f69ea8bda9"
+      }
+    ]
+  }
+]

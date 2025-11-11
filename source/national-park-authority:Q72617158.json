@@ -1,0 +1,129 @@
+[
+  {
+    "organisation": "national-park-authority:Q72617158",
+    "organisation-name": "New Forest National Park Authority",
+    "reference": "LP-NFNPA-2019",
+    "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+    "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/09/Local-Plan-2016-2036-finalforweb.pdf",
+    "name": "New Forest National Park Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/09/Local-Plan-2016-2036-finalforweb.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "New Forest National Park Local Plan 2016 – 2036",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "54dea981f31fa307e171d4b514c9e9e84a822f2e6177665976cd44c130c4d05b"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/08/SA-Report-for-Adopted-Local-Plan-August-2019.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report for Adopted Local Plan",
+        "reference": "SA-2019",
+        "document-status": "adopted",
+        "endpoint": "38493555efb4bd76965e34553c874188ec2ead2d13a2479d0b5c835168ee4a0c"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/08/Post-Adoption-SEA-Statement-Final.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Post Adoption SEA Statement",
+        "reference": "SEA-2019",
+        "document-status": "adopted",
+        "endpoint": "ec37e0e359986885dd95ddb74077b0b09ff75e97fed4e2a819e48c6fa72b0988"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/08/Adoption-Statement.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "c261083ef336d0884eb0a05028e2705f38115015126b0225361814ef1b4332b6"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/07/Inspectors-Report-Final.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Final Inspectors' Report - July 2019",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "236bf1f4ab56caa73b56dca557cfe7f8759fc09bef29bb2fe8815dc32e00a789"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/07/Main-Modifications-Appendix-to-Inspectors-Report-2.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Inspectors' Report Appendix - Main Modifications",
+        "reference": "MM-2019",
+        "document-status": "adopted",
+        "endpoint": "1a79b783dfa84a9036fd6bf15a15c92ad0d5ec14b02f18688b8f874dd7914d53"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/04/2-Schedule-of-Proposed-Main-Modifications-April-2019.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/planning/local-plan/examination/",
+        "document-type": "main-modifications",
+        "name": "Schedule of Proposed Main Modifications - April 2019",
+        "reference": "MM-SCHED-2019",
+        "document-status": "examination",
+        "endpoint": "872d793bb05c9c9ac78bf5a331a7db2e946b30c73d55564b418ee95d343efaeb"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/04/5-Policies-Map-with-insets-A3.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/planning/local-plan/examination/",
+        "document-type": "policies-map",
+        "name": "Policies Map with insets A3",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "ff76450ea65f0bd5ad1ff8f9c16c66411fdb1a9db97855185f582920d47dd719"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/01/Consultation-Statement-May-2018.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/planning/local-plan/examination/",
+        "document-type": "consultation-statement",
+        "name": "Consultation statement",
+        "reference": "CS-2018",
+        "document-status": "examination",
+        "endpoint": "183ed550806cf46854345f20eef588cc67d986a3cb51ab2c1265f91e66247508"
+      },
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/01/New-Forest-NPA-Local-Plan_Ashurst-Hospital-HRA-Addendum.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/planning/local-plan/examination/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment Addendum",
+        "reference": "HRA-2019",
+        "document-status": "examination",
+        "endpoint": "d22e3ed11352f6213c6f646641435dcb87cabffa56f1dabc9bd8f2fd8f0fd8af"
+      }
+    ]
+  },
+  {
+    "organisation": "national-park-authority:Q72617158",
+    "organisation-name": "New Forest National Park Authority",
+    "reference": "CS-NFNPA-2010",
+    "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+    "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/03/finalCoreStrategyDec2010_TOWEB_1.pdf",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/03/finalCoreStrategyDec2010_TOWEB_1.pdf",
+        "documentation-url": "https://www.newforestnpa.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Core strategy",
+        "reference": "CS-2010",
+        "document-status": "adopted",
+        "endpoint": "f7eae8c89c8e6d268e1697010f18e4201dc611f91137d94b25ba61778a6c0e9e"
+      }
+    ]
+  }
+]

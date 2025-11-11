@@ -1,0 +1,66 @@
+[
+  {
+    "organisation": "local-authority:DUD",
+    "organisation-name": "Dudley Metropolitan Borough Council",
+    "reference": "LP-DUD-2025",
+    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/",
+    "document-url": "https://www.dudley.gov.uk/media/h4qnv1ug/dudley-local-plan-summary-document.pdf",
+    "name": "Dudley Local Plan 2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.dudley.gov.uk/media/h4qnv1ug/dudley-local-plan-summary-document.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Dudley's Publication Local Plan summary document",
+        "reference": "LP-2041",
+        "document-status": "examination",
+        "endpoint": "bf741bd9b8cdb554a140a6a622fe3f97742be74411bbad0d02ffbfbaae760bcf"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/n2hp1ftc/dudley-local-plan-faqs.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Dudley's Publication Local Plan FAQs",
+        "reference": "LP-FAQ-2025",
+        "document-status": "examination",
+        "endpoint": "443bba567b5c6e18b541c99b7ae13aaca97e7a1b9ab243d21f1fd38137f2d1fa"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/4n2p0cdd/local-development-scheme-report-november-2024.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/local-development-scheme/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "543083b6649d2f401d4f34bafc06bd0d177d8cc1f1316b9aeee710843aa53f9d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DUD",
+    "organisation-name": "Dudley Metropolitan Borough Council",
+    "reference": "LP-DUD-2005",
+    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/",
+    "document-url": "https://www.dudley.gov.uk/media/10327/udp-revocation-statement-3.pdf",
+    "name": "Dudley Unitary Development Plan",
+    "status": "withdrawn",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.dudley.gov.uk/media/10327/udp-revocation-statement-3.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/",
+        "document-type": "local-plan",
+        "name": "Revocation of the Dudley Unitary Development Plan (2005)",
+        "reference": "UDP-REVOKE-2005",
+        "document-status": "withdrawn",
+        "endpoint": "69d09d696dcc21742492f30e67b73572d3e5eab5dc900a51e701db4ca632ef4d"
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "organisation": "local-authority:MAS",
+    "organisation-name": "Mansfield District Council",
+    "reference": "LP-MAS-2020",
+    "documentation-url": "https://www.mansfield.gov.uk/local-plan/adopted-local-plan-2013-2033",
+    "document-url": "https://www.mansfield.gov.uk/downloads/file/1645/mdc-adopted-local-plan-2020",
+    "name": "Mansfield District Local Plan 2013-2033",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/1645/mdc-adopted-local-plan-2020",
+        "documentation-url": "https://www.mansfield.gov.uk/local-plan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan 2013-2033",
+        "reference": "LP-2013-2033",
+        "document-status": "adopted",
+        "endpoint": "b699b4545fb1e4559629652f21b2de685eccd7397690c780a4ece1428aae110d"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/1473/mansfield-local-plan-inspector-s-report",
+        "documentation-url": "https://www.mansfield.gov.uk/local-plan-2013-2033-submission/local-plan-2013-2033-submission-1/1",
+        "document-type": "local-plan",
+        "name": "Mansfield Local Plan Inspector's Report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "6933f95e81d6868c8a643176003b10c15e8d944355389b53b874ecfe49412eed"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/1474/mansfield-local-plan-schedule-of-main-modifications",
+        "documentation-url": "https://www.mansfield.gov.uk/local-plan-2013-2033-submission/local-plan-2013-2033-submission-1/1",
+        "document-type": "main-modifications",
+        "name": "Mansfield Local Plan Schedule of Main Modifications",
+        "reference": "MM-2020",
+        "document-status": "adopted",
+        "endpoint": "0ff9cd88f47f5a43e4fc1561e31181b442e85daf63e65e5af7ed5bc35b0da599"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/1428/mansfield-district-local-plan-publication-draft-2018",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Mansfield District Local Plan - Publication Draft 2018",
+        "reference": "LP-PUB-2018",
+        "document-status": "consultation",
+        "endpoint": "733bdd85aae1d0787f18ab1ff7ae48f7d2995cee2e3e39631e03c8ffcbdc1663"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/322/preferred-options-consultation-document-2013-2033",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Consultation Document 2013 - 2033",
+        "reference": "LP-PO-2017",
+        "document-status": "consultation",
+        "endpoint": "2eda106faca267d7f54e2f9405e3b90757d3e51d4dfba335b2e84db3c537e178"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/319/mansfield-district-local-plan-consultation-draft",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Mansfield District Local Plan - Consultation Draft",
+        "reference": "LP-CD-2016",
+        "document-status": "consultation",
+        "endpoint": "caf45db0ada26bbd124b0ed26204107f59f9caf9075e38cd3df957907c8c3c8a"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.mansfield.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "Mansfield District Local Plan Policies mapping",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/308/local-plan-consultation-draft-policies-map",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Local Plan Consultation Draft - Policies Map",
+        "reference": "PM-CD-2016",
+        "document-status": "consultation",
+        "endpoint": "38508bf9a11bdbc85971bc2318b4b226381fa55f5e185ee51828c434f59540d4"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/315/mansfield-sustainability-apprisal-interim-sa-report-august-2017",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Mansfield Sustainability Appraisal Interim SA Report August 2017",
+        "reference": "SA-2017",
+        "document-status": "consultation",
+        "endpoint": "eeac1078be38569f32e2a45b6e7181480015c7da7eb1c45bd7c8a9ea8dcee458"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/318/consultation-statement-regulation-19-2018",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement (Regulation 19), 2018",
+        "reference": "CS-REG19-2018",
+        "document-status": "consultation",
+        "endpoint": "f0a0833669855da157876473fd66315c8486411d153180da2d01a977dbb0099b"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/317/interim-consultation-statement-2017",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Interim Consultation Statement 2017",
+        "reference": "CS-INT-2017",
+        "document-status": "consultation",
+        "endpoint": "bc2aa17c78c7752a330e6953fe51db5f0e636e9468e43b84f368b23601c36027"
+      },
+      {
+        "document-url": "https://www.mansfield.gov.uk/downloads/file/1861/local-development-scheme",
+        "documentation-url": "https://www.mansfield.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Mansfield District Local Development Scheme 2021",
+        "reference": "LDS-2021",
+        "document-status": "adopted",
+        "endpoint": "277a50185aa7ba596df04bcb949c41514b168d50c2d820d7fe3d92aa2351b005"
+      }
+    ]
+  }
+]

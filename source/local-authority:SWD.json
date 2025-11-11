@@ -1,0 +1,125 @@
+[
+  {
+    "organisation": "local-authority:SWD",
+    "organisation-name": "Swindon Borough Council",
+    "reference": "LP-SWD-2019",
+    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+    "document-url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026",
+    "name": "Swindon Borough Local Plan 2026",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "local-plan",
+        "name": "Swindon Borough Local Plan 2026",
+        "reference": "LP-2026",
+        "document-status": "adopted",
+        "endpoint": "f1eba26b474e0d9c2b36d89831cd21176f76558e9f1492b0defaf2372f0e68b9"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/3989/inspectors_report_on_swindon_borough_local_plan_2026",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report on Swindon Borough Local Plan 2026",
+        "reference": "IR-2026",
+        "document-status": "adopted",
+        "endpoint": "01a9bee6f8d217acbf5fc012e8c4e57816dc8393816e09148889947e6fae62ba"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/4205/statement_of_community_involvement_in_planning",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement in Planning",
+        "reference": "SCI-2019",
+        "document-status": "adopted",
+        "endpoint": "0b2abe1a71256c86313780718daca3bc7fb59374be0478cf5b775700393b7794"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SWD",
+    "organisation-name": "Swindon Borough Council",
+    "reference": "LP-SWD-2010",
+    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+    "document-url": "https://www.swindon.gov.uk/downloads/file/2800/swindon_central_area_action_plan",
+    "name": "Swindon Central Area Action Plan",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2800/swindon_central_area_action_plan",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "area-action-plan",
+        "name": "Swindon central area action plan",
+        "reference": "AAP-CENTRAL",
+        "document-status": "adopted",
+        "endpoint": "f10c99f5bac8991a9626cbd9deff98051223c8046516e56fac3f094f57f5e9b3"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2801/swindon_central_area_action_plan_part_2",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "area-action-plan",
+        "name": "Swindon central area action plan part 2",
+        "reference": "AAP-CENTRAL-2",
+        "document-status": "adopted",
+        "endpoint": "9421a51f8fd61218f4c8ae03dc869e8ae6185b60791c0c96808eee64c1b926ae"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2799/swindon_central_area_action_plan_proposals_map",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "policies-map",
+        "name": "Swindon central area action plan proposals map",
+        "reference": "PM-CENTRAL",
+        "document-status": "adopted",
+        "endpoint": "139fda3120849ea996119927be7bf4a0228641a5c2f93b107512b564677e2331"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SWD",
+    "organisation-name": "Swindon Borough Council",
+    "reference": "LP-SWD-2006",
+    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+    "document-url": "https://www.swindon.gov.uk/downloads/file/7581/wiltshire_and_swindon_waste_core_strategy_2006-2026",
+    "name": "Wiltshire and Swindon Waste Core Strategy 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/7581/wiltshire_and_swindon_waste_core_strategy_2006-2026",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "core-strategy",
+        "name": "Wiltshire and Swindon Waste Core Strategy 2006-2026",
+        "reference": "WCS-2006-2026",
+        "document-status": "adopted",
+        "endpoint": "8ad857c3d7e5992315e5123ab86a6bb2b671e6a837ab0d678e87064f98f9eda1"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/7582/wiltshire_and_swindon_waste_core_strategy_key_diagram",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "policies-map",
+        "name": "Wiltshire and Swindon Waste Core Strategy Key Diagram",
+        "reference": "PM-WCS",
+        "document-status": "adopted",
+        "endpoint": "eb77ab469ac18ff1b378b762179958b0d4420a58419a99e3134c51c9c86b3dc7"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/downloads/file/1722/waste_development_control_policies",
+        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-type": "local-plan",
+        "name": "Waste Development Control Policies",
+        "reference": "WDCP-2006",
+        "document-status": "adopted",
+        "endpoint": "ef9655cbe759ffd5b9949e9b94f2686929dec73006ef56c3aec191e1785f07b7"
+      }
+    ]
+  }
+]

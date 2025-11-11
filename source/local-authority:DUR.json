@@ -1,0 +1,28 @@
+[
+  {
+    "organisation": "local-authority:DUR",
+    "organisation-name": "Durham County Council",
+    "reference": "LP-DUR-2020",
+    "documentation-url": "https://www.durham.gov.uk/planning",
+    "document-url": "",
+    "name": "County Durham Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:DUR",
+    "organisation-name": "Durham County Council",
+    "reference": "LP-DUR-2021",
+    "documentation-url": "https://www.durham.gov.uk/planning",
+    "document-url": "",
+    "name": "County Durham Minerals and Waste Policies and Allocations Document",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

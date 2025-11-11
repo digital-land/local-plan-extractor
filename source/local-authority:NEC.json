@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:NEC",
+    "organisation-name": "Newcastle-under-Lyme Borough Council",
+    "reference": "LP-NEC-2025",
+    "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/local-plan",
+    "document-url": "",
+    "name": "Newcastle-under-Lyme Local Plan 2020-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/local-plan/4",
+        "document-type": "main-modifications",
+        "name": "Local plan main modifications consultation",
+        "reference": "MM-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

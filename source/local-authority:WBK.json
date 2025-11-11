@@ -1,0 +1,120 @@
+[
+  {
+    "organisation": "local-authority:WBK",
+    "organisation-name": "West Berkshire Council",
+    "reference": "LP-WBK-2025",
+    "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+    "document-url": "https://www.westberks.gov.uk/media/64447/West-Berkshire-Local-Plan-Review-2023-2041/pdf/West_Berkshire_Local_Plan_Review_2023-2041_for_web_APPROVED.pdf?m=1756290556437",
+    "name": "West Berkshire Local Plan Review 2023 to 2041",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.westberks.gov.uk/media/64447/West-Berkshire-Local-Plan-Review-2023-2041/pdf/West_Berkshire_Local_Plan_Review_2023-2041_for_web_APPROVED.pdf?m=1756290556437",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "local-plan",
+        "name": "West Berkshire Local Plan Review 2023-2041",
+        "reference": "LP-2023-2041",
+        "document-status": "adopted",
+        "endpoint": "156c0303e8c3dcd64caab350ea724353631213a7f67ae8e833a503dae2c9ebf2"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63649/Policies-Map/pdf/PolicyMapFinal_v8_1b9elbccj66ck.pdf?m=1759499028427",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2025",
+        "document-status": "adopted",
+        "endpoint": "6045dc8ae8caf18996658d867beb4edd8be8a0113aa3adcc346c8d74d92b6a4f"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63647/Inspector-s-Report-inc-Appendix/pdf/Inspectors_Report_inc_Appendix.pdf?m=1749637079183",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report inc Appendix",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "a4cbe142ccd2f24e64e611819208e187b358381029e020db8a49821ed187acbe"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63669/Local-Plan-Review-Adoption-Statement/pdf/LPR_Adoption_Statement.pdf?m=1749715226300",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Review Adoption Statement",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "b47229a2ff15651052cc3e15306889c539d28bd2008b899df06918f87e47052f"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63646/West-Berkshire-Local-Plan-Review-Schedule-of-Additional-Minor-Modifications-at-30-May-2025/pdf/Additional_minor_Modifications_as_at_30_May_2025.pdf?m=1756291881870",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications at 30 May 2025",
+        "reference": "LP-MOD-2025",
+        "document-status": "adopted",
+        "endpoint": "e421e3b7df48ddb00c66c157f09dabc74d2401ef52082c91de7fe4fac892c585"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/64448/West-Berkshire-Local-Plan-Review-Schedule-of-Additional-Minor-Modifications-from-30-May-2025/pdf/Schedule_of_Additional_Modifications_from_30_May_2025_for_sign_off_revised.pdf?m=1756721498413",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications from 30 May 2025",
+        "reference": "LP-MOD2-2025",
+        "document-status": "adopted",
+        "endpoint": "88fa35fa82bb249e336733926fe24fda39e4b8a066a50cd9fe490dcd8ef04941"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63650/SA-SEA-Report/pdf/SA_SEA_Report.pdf?m=1749637079807",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal / Strategic Environmental Assessment Report",
+        "reference": "SA-2025",
+        "document-status": "adopted",
+        "endpoint": "7186f20812888201fe497c55ac397230d5d746156f8e0aa942c80ed686bcc590"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63670/LPR-SA-Post-Adoption-Statement/pdf/SA_Post_Adoption_Statement.pdf?m=1749715257520",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-AS-2025",
+        "document-status": "adopted",
+        "endpoint": "905cef921fc182681b5c1e97187b4b2c42836a3c8b14397979fab311c9255f67"
+      },
+      {
+        "document-url": "https://www.westberks.gov.uk/media/63645/Addendum-to-HRA/pdf/Addendum_to_HRA.pdf?m=1749637078787",
+        "documentation-url": "https://www.westberks.gov.uk/local-plan-review",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment: Addendum of Proposed Modifications",
+        "reference": "HRA-2025",
+        "document-status": "adopted",
+        "endpoint": "36a56272b9aec9dea7fcdb836e2494fa21abd619718d4a8302051f71fd76fa3f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WBK",
+    "organisation-name": "West Berkshire Council",
+    "reference": "LP-WBK-2007",
+    "documentation-url": "https://www.westberks.gov.uk/current-development-plan",
+    "document-url": "https://www.westberks.gov.uk/media/45126/South-East-Plan-Policy-NRM6/pdf/South_East_Plan_Policy_NRM6.pdf?m=1705655144750",
+    "name": "South East Plan Natural Resource Management Policy 6",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.westberks.gov.uk/media/45126/South-East-Plan-Policy-NRM6/pdf/South_East_Plan_Policy_NRM6.pdf?m=1705655144750",
+        "documentation-url": "https://www.westberks.gov.uk/current-development-plan",
+        "document-type": "local-plan",
+        "name": "South East Plan Natural Resource Management Policy 6",
+        "reference": "SEP-NRM6-2007",
+        "document-status": "adopted",
+        "endpoint": "c2c516f7e33fb837f8b0bc66a56ba0dec48cff3da2ac21307625d5b9c91fc1ec"
+      }
+    ]
+  }
+]

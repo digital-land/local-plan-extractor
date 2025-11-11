@@ -1,0 +1,74 @@
+[
+  {
+    "organisation": "local-authority:BDF",
+    "organisation-name": "Bedford Borough Council",
+    "reference": "LP-BDF-2030",
+    "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2030",
+    "document-url": "",
+    "name": "Bedford Local Plan 2030",
+    "status": "adopted",
+    "year": 2030,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BDF",
+    "organisation-name": "Bedford Borough Council",
+    "reference": "LP-BDF-2040",
+    "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+    "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=xivh8bP%2bAJZXEaq26SnEFQ%3d%3d&name=PLAN%20FOR%20SUBMISSION.pdf",
+    "name": "Bedford Local Plan 2040",
+    "status": "examination",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=xivh8bP%2bAJZXEaq26SnEFQ%3d%3d&name=PLAN%20FOR%20SUBMISSION.pdf",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+        "document-type": "local-plan",
+        "name": "Local Plan 2040: Plan for Submission",
+        "reference": "LP-2040-SUB",
+        "document-status": "examination",
+        "endpoint": "b5d2dbb704940568f7797c61fd7499ace91d9c2af9191fb179cd62a3c5609c72"
+      },
+      {
+        "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=qC7XLl3IBEvSneOWxGQrtA%3d%3d&name=ENV062_22%20Local%20Plan%202040%20A4%20leaflet%20FINAL.pdf",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+        "document-type": "local-plan",
+        "name": "Summary leaflet",
+        "reference": "LP-2040-SUM",
+        "document-status": "examination",
+        "endpoint": "6f2d5f98e4a8aa1d9f75086d4ce35fe4607a675c43428ffbd6a2022d00fda0e4"
+      },
+      {
+        "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=oyyvRaBrkCtl%2b3qr%2bSrI8g%3d%3d&name=Local%20Plan%202040%20Supporting%20documents.pdf",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+        "document-type": "local-plan",
+        "name": "Supporting documents",
+        "reference": "LP-2040-SUP",
+        "document-status": "examination",
+        "endpoint": "4f6718214fb960a31de5e50864c59c1c72e690fc02b7cd1990f892e6403dc159"
+      },
+      {
+        "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=zzmaxH9El7sGNdvcfLrmig%3d%3d&name=Statement%20of%20representations%20procedure.pdf",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+        "document-type": "local-plan",
+        "name": "Statement of Representations Procedure",
+        "reference": "LP-2040-REP",
+        "document-status": "examination",
+        "endpoint": "dbb7b409f4e587f96380a6ead60d39338a2708db6601ad69a0c8d680b0687898"
+      },
+      {
+        "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=UD8zSRxBPNPiWCWZhdO1TA%3d%3d&name=LOCAL%20PLAN%202040%20DRAFT%20PLAN.pdf",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2040",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan 2040 Draft Plan: Strategy options and draft policies",
+        "reference": "LP-2040-DRAFT",
+        "document-status": "consultation",
+        "endpoint": "0281a7ef04ee9734f1d730e87a42140b294ffe3e5d02602c75021666949165a2"
+      }
+    ]
+  }
+]

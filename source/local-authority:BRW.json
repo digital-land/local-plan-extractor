@@ -1,0 +1,97 @@
+[
+  {
+    "organisation": "local-authority:BRW",
+    "organisation-name": "Brentwood Borough Council",
+    "reference": "LP-BRW-2022",
+    "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+    "document-url": "https://www.brentwood.gov.uk/sites/default/files/documents/20124/533660/Brentwood+Local+Plan+2016-2033+Adopted+March+2022.pdf",
+    "name": "Brentwood Local Plan 2016-2033",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2016,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.brentwood.gov.uk/sites/default/files/documents/20124/533660/Brentwood+Local+Plan+2016-2033+Adopted+March+2022.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Brentwood Local Plan 2016-2033",
+        "reference": "LP-2016-2033",
+        "document-status": "adopted",
+        "endpoint": "4cfbeb031cb19fb07adf3d5cadb3c808c330ef6fc72299b5e4bc2a84353e3872"
+      },
+      {
+        "document-url": "https://www.brentwood.gov.uk/sites/default/files/documents/20124/533660/Policies+Map+(23.3MB).pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "14716d336a04a8c21c0e8b7e4905cfab5a3b06b60f5a527470aed3ad2e8dc7d4"
+      },
+      {
+        "document-url": "https://www.brentwood.gov.uk/sites/default/files/documents/20124/533660/Local+Plan+Adoption+Statement.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "9c3353bf248a8432e140b4f164388496553af05d443348a937484157153bfade"
+      },
+      {
+        "document-url": "https://www.brentwood.gov.uk/sites/default/files/documents/20124/533660/Sustainability+Appraisal+Adoption+Statement.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2022",
+        "document-status": "adopted",
+        "endpoint": "3083806b10ba5017b8bc557d5c6a8cfa299a96ddaa389c4509a950c568d444a2"
+      },
+      {
+        "document-url": "https://document.brentwood.gov.uk/pdf/31052013163708u.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Brentwood Borough Local Plan Scoping Report",
+        "reference": "SA-2013",
+        "document-status": "consultation",
+        "endpoint": "febcc0f71377d62f47e1170691c19fce353decdb59e2edbeb6a1e4fad578d7ea"
+      },
+      {
+        "document-url": "https://document.brentwood.gov.uk/pdf/30012019125454000000.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Pre Submission Local Plan",
+        "reference": "SA-2019",
+        "document-status": "consultation",
+        "endpoint": "e98d5f571546abb4f34d727c39d0916a8917ec15a41254e9e55e2aca11516756"
+      },
+      {
+        "document-url": "https://document.brentwood.gov.uk/pdf/15102019082333000000.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Brentwood Local Plan",
+        "reference": "SA-2019-FINAL",
+        "document-status": "examination",
+        "endpoint": "588b22c9190ae30d809a9babe05b527faef443f00e321f7d97c74da9ab50cb79"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Brentwood Local Plan SA Report Addendum",
+        "reference": "SA-2021",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://document.brentwood.gov.uk/pdf/30012019092158000000.pdf",
+        "documentation-url": "https://www.brentwood.gov.uk/adopted-local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Part 1 SCI Brentwood Borough",
+        "reference": "SCI-2018",
+        "document-status": "adopted",
+        "endpoint": "4c60b13b4d6008f7ef9d945e119e38cb6cccd9498078873763ecb144254b4629"
+      }
+    ]
+  }
+]

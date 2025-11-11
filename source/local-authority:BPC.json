@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:BPC",
+    "organisation-name": "Bournemouth, Christchurch and Poole Council",
+    "reference": "LP-BPC-2024",
+    "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+    "document-url": "",
+    "name": "BCP Local Plan",
+    "status": "withdrawn",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+        "document-type": "local-plan",
+        "name": "Examination library",
+        "reference": "LP-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+        "document-type": "local-plan",
+        "name": "The draft Local Plan consultation",
+        "reference": "LP-CONSULTATION-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan – part 2 – ward policies",
+        "reference": "LP-WARD-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+        "document-type": "policies-map",
+        "name": "Draft Local Plan policy maps by wards",
+        "reference": "PM-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil/withdrawn-draft-local-plan-and-cil-draft-charging-schedule-2024",
+        "document-type": "local-plan",
+        "name": "Representations on Draft Local Plan and CIL",
+        "reference": "LP-REPS-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BPC",
+    "organisation-name": "Bournemouth, Christchurch and Poole Council",
+    "reference": "LP-BPC-2025",
+    "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/bcp-local-plan-and-community-infrastructure-levy-cil",
+    "document-url": "",
+    "name": "BCP Local Plan (New)",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan and CIL: evidence",
+        "reference": "LP-EVIDENCE-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan and CIL: consultation and engagement",
+        "reference": "LP-CONSULTATION-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

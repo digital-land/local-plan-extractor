@@ -1,0 +1,156 @@
+[
+  {
+    "organisation": "local-authority:SKE",
+    "organisation-name": "South Kesteven District Council",
+    "reference": "LP-SKE-2020",
+    "documentation-url": "https://www.southkesteven.gov.uk/planning-building-control/planning-policy-local-plans/south-kesteven-local-plan",
+    "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/Local_Plan_2011-2036_%28Final_inc_covers%29%20%281%29.pdf",
+    "name": "South Kesteven Local Plan 2011-2036",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2011,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/Local_Plan_2011-2036_%28Final_inc_covers%29%20%281%29.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/planning-building-control/planning-policy-local-plans/south-kesteven-local-plan",
+        "document-type": "local-plan",
+        "name": "South Kesteven Local Plan",
+        "reference": "LP-2011-2036",
+        "document-status": "adopted",
+        "endpoint": "eda112ed22d79f5c692b67b48d106ccded4210e983e98c1f90a46da91aafe9ca"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/SKDC_Key_to_map_symbology_2019.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/planning-building-control/planning-policy-local-plans/south-kesteven-local-plan",
+        "document-type": "policies-map",
+        "name": "SKDC Policy Map Key",
+        "reference": "PM-KEY-2019",
+        "document-status": "adopted",
+        "endpoint": "eb68be002a32ae896f3f1d1c98fb8bc03ddc496c7cc29b71cddfe48b937e9c99"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/SKDC_Main_Map_2019_300dpi1.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/planning-building-control/planning-policy-local-plans/south-kesteven-local-plan",
+        "document-type": "local-plan",
+        "name": "SKDC Full District Map ( With Insets Shown)",
+        "reference": "PM-MAIN-2019",
+        "document-status": "adopted",
+        "endpoint": "33ce86f125d0f72ac84ef716c598b50f412a02520784780f8c3d3d190a57b732"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SKE",
+    "organisation-name": "South Kesteven District Council",
+    "reference": "LP-SKE-2025",
+    "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+    "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-07/Regulation%2018%20Local%20Plan%20-%20Proposed%20Housing%20and%20Mixed-Use%20Site%20Allocations.pdf",
+    "name": "Local Plan Review 2025 (Regulation 18 - Site Allocations)",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-07/Regulation%2018%20Local%20Plan%20-%20Proposed%20Housing%20and%20Mixed-Use%20Site%20Allocations.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "site-allocations",
+        "name": "Regulation 18 - Proposed Housing and Mixed-Use Site Allocations",
+        "reference": "SA-REG18-2025",
+        "document-status": "consultation",
+        "endpoint": "ea65b8ee502df4f992ecd879bc7891400a3c095f959602a3ddeaea263791182e"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-07/South%20Kesteven%20LPR%20SA%20Report%20Addendum.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Addendum - July 2025",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "20c8e437007445fff558e8f17906574ef101951b603999559c28c75710d3bb6f"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-07/South%20Kesteven%20LP%20HRA_July%202025.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation Assessment - July 2025",
+        "reference": "HRA-2025",
+        "document-status": "consultation",
+        "endpoint": "da63c047a9d50f494403481b9497fac80543317a33a21500dce73b8b06f3ac62"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-02/Local%20Development%20Scheme%202025%20-%202028.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "d5574a4c77e51e1dc4789eec9e6ebc865ea34f79c911b303da955a46486a69ce"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2024-02/Regulation%2018%20Draft%20Local%20Plan%20February%202024_1.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Draft Local Plan",
+        "reference": "LP-REG18-2024",
+        "document-status": "consultation",
+        "endpoint": "e15d7e4d316f9e04f2b54afb83705fcbf4d21b6e2d466c48a22468b531dc6f29"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-02/Regulation%2018%20Draft%20Local%20Plan%20Statement%20of%20Consultation%20February%202025.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation",
+        "reference": "CS-2025",
+        "document-status": "adopted",
+        "endpoint": "45ca441deed87b843bde4d33ef4b0ead57f0ca1101704f9c3e775efcc8cbbc40"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2024-02/Summary%20of%20Proposed%20Changes%20to%20the%20Plan.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "local-plan",
+        "name": "Summary of Proposed Changes document",
+        "reference": "SPC-2024",
+        "document-status": "consultation",
+        "endpoint": "f33be4bef167bda616dbe319822e087887be784892e5357388fb998a3f32962a"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2024-02/Easy%20Guide%20to%20the%20Regulation%2018%20Draft%20Local%20Plan_1.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "local-plan",
+        "name": "Easy Read Guide to the Draft Local Plan",
+        "reference": "EG-2024",
+        "document-status": "consultation",
+        "endpoint": "7f319e6041afc5126d82f2d678336564ea61daf0b3c210ea623eb93155040ea5"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2024-08/BNG%20Appendix%202.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "green-and-blue-infrastructure",
+        "name": "Appendix 2 - Principles for Development within Green Infrastructure Areas",
+        "reference": "GI-APP2-2024",
+        "document-status": "consultation",
+        "endpoint": "bf4cfc58a8d03554bae1cfc108801de8f0cf420f2f544f8a424f6ba6963dbedd"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2024-01/Local%20Plan%20Issues%20and%20Options%20October%202020.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "local-plan",
+        "name": "Issues and Options Document",
+        "reference": "IO-2020",
+        "document-status": "consultation",
+        "endpoint": "dfbe421affa11bee26b261bf3e2ba511e759e7ad760d94ad116891e4e596d1e4"
+      },
+      {
+        "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/SA_South_Kesteven_LPR_Interim_SA_Report_V1.0_071020%20%281%29.pdf",
+        "documentation-url": "https://www.southkesteven.gov.uk/localplanreview",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2020",
+        "document-status": "consultation",
+        "endpoint": "06432f36a7c14074e7e7d6996fb7a8c1fedfe2dbddceb235b6c716cb8f94415a"
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:WLI",
+    "organisation-name": "West Lindsey District Council",
+    "reference": "LP-WLI-2023",
+    "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
+    "document-url": "",
+    "name": "Central Lincolnshire Local Plan 2018-2040",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2018,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Central%20Lincs%20Energy%20Efficiency%20Design%20Guide%20-%20Final%202023.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
+        "document-type": "urban-design-framework",
+        "name": "Energy Efficiency Design Guide",
+        "reference": "EEG-2023",
+        "document-status": "adopted",
+        "endpoint": "f649a7de6ccd64c401c571ff64d69bfff809a39be5706e656fe22d00bee49303"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-07/Energy%20Efficiency%20Policies%20FAQs%20July%202023.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Energy Efficiency Policies FAQs",
+        "reference": "EEP-FAQ-2023",
+        "document-status": "adopted",
+        "endpoint": "641343b1a6b6fb0b75378fe505242b604cb7cdb041ed216959b00ce49daeb64e"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-07/Providing%20an%20Energy%20Statement%20Guidance%20and%20Template%20July%202023.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Providing an Energy Statement Guidance and Template",
+        "reference": "ESG-2023",
+        "document-status": "adopted",
+        "endpoint": "fb18e3c7a6e539672e7cbfba7f7f010a709b9a47cc76d45c17724f06e8b37cc2"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-05/Biodiversity%20Net%20Gain%20Guidance%20Note.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Biodiversity Net Gain Guidance Note",
+        "reference": "BNG-2023",
+        "document-status": "adopted",
+        "endpoint": "34b67e9366448d711c79e10befd1544e0c47bb3b44ad6a6fe8795a3ed9fbefa1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLI",
+    "organisation-name": "West Lindsey District Council",
+    "reference": "LP-WLI-2006",
+    "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+    "document-url": "",
+    "name": "West Lindsey Local Plan (First Review) 2006",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Schedule%20of%20saved%20policies.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-type": "local-plan",
+        "name": "Archived - Schedule of saved policies",
+        "reference": "SSP-2006",
+        "document-status": "adopted",
+        "endpoint": "519c405d9f2d0a0b4a8f465783a6da7261f800470303d40689dfa69ce0a5814f"
+      },
+      {
+        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Secretary%20of%20State%20Direction%20for%20saved%20policies.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-type": "local-plan",
+        "name": "Archived - Secretary of State Direction for saved policies",
+        "reference": "SOS-2006",
+        "document-status": "adopted",
+        "endpoint": "485208060d62a41619bad7a4d80e79bad081de6ea79f7771c19d5a6b79a10721"
+      },
+      {
+        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Schedule%20of%20policies%20not%20saved.pdf",
+        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-type": "local-plan",
+        "name": "Archived - Schedule of policies not saved",
+        "reference": "SPNS-2006",
+        "document-status": "adopted",
+        "endpoint": "616acc2c5e7ce09266edd8913ce100c82aeb082fdb0f9a6c9f495b1d9f0aef84"
+      }
+    ]
+  }
+]

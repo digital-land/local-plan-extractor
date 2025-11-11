@@ -1,0 +1,165 @@
+[
+  {
+    "organisation": "local-authority:TEN",
+    "organisation-name": "Tendring District Council",
+    "reference": "LP-TEN-2021",
+    "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+    "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_1/Tendring%20District%20Local%20Plan%202013-2033%20and%20Beyond%20-%20Section%201_AC.pdf",
+    "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities Shared Strategic Section 1",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_1/Tendring%20District%20Local%20Plan%202013-2033%20and%20Beyond%20-%20Section%201_AC.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities Shared Strategic Section 1",
+        "reference": "LP-S1-2021",
+        "document-status": "adopted",
+        "endpoint": "8ce9ef0b32adc285b6eae643b1e19603663f907a71c0ec632c5b9c6684d4a4df"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_1/Adoption%20Statement%20for%20Section%201%20Local%20Plan.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Section 1 Adoption Statement",
+        "reference": "AS-S1-2021",
+        "document-status": "adopted",
+        "endpoint": "e62fee03405d7861ffb6341daefac3d012a8e92d5e0b285190a4097d0b9baf8a"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S1_Correspondence/Examiners_Report_on_the_Examination_of_NEA_S1___10th_Dec_2020.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on the Examination of NEA S1 - 10th December 2020",
+        "reference": "IR-S1-2020",
+        "document-status": "adopted",
+        "endpoint": "2c73b38d9789f6d1b133f7c345e20e4fd3c29b9c328a570388384a47e07b06e8"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S1_Correspondence/Examiners_Schedule_of_Reccomended_Main_Modifcations_NEA_S1___10th_Dec_2020.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Schedule of Recommended Main Modifications NEA S1 - 10th December 2020",
+        "reference": "MM-S1-2020",
+        "document-status": "adopted",
+        "endpoint": "1be7cf4747b49a9001b230e5fa89cea4175b6e8f46d95103c9e7e21b3b4bea6c"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S1_Correspondence/PINS_Covering_Letter_to_Examiners_Reoprt_on_NEA_S1___10th_Dec_2020.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "PINS Covering Letter to Examiners Report on NEA S1 - 10th December 2020",
+        "reference": "CL-S1-2020",
+        "document-status": "adopted",
+        "endpoint": "7d99a5f4e9de6ffb3b3ee089643ed76b542dafb2b8db3261e35955683b740129"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TEN",
+    "organisation-name": "Tendring District Council",
+    "reference": "LP-TEN-2022",
+    "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+    "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Tendring%20District%20Local%20Plan%202013-2033%20and%20Beyond%20-%20Section%202_AC.pdf",
+    "name": "Tendring District Local Plan 2013-2033 and Beyond: Section 2",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Tendring%20District%20Local%20Plan%202013-2033%20and%20Beyond%20-%20Section%202_AC.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Tendring District Local Plan 2013-2033 and Beyond: Section 2",
+        "reference": "LP-S2-2022",
+        "document-status": "adopted",
+        "endpoint": "2af9e6494717ca9317cf791d339c6f6ad742c3c902a66b999d59d6ed46789c53"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Section%202%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Section 2 Adoption Statement",
+        "reference": "AS-S2-2022",
+        "document-status": "adopted",
+        "endpoint": "fed68396210a3a84e61f26013699ce2024cf1f1ed2af9bccc78ef214570452c8"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S2Examination/final_report/Tendring%20Local%20Plan%20-%20Final%20Report.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Inspectors' Report on the Examination of Section 2 - 24th November 2021",
+        "reference": "IR-S2-2021",
+        "document-status": "adopted",
+        "endpoint": "36b137814ae60b425aa6d770125bf393ba9f38ae0867a1569877eff92ea4d390"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S2Examination/final_report/Tendring%20Local%20Plan%20-%20Main%20Modifications.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Inspectors' Schedule of Recommended Main Modifications Section 2 - 24th November 2021",
+        "reference": "MM-S2-2021",
+        "document-status": "adopted",
+        "endpoint": "667ce1f33f641155a727d1e886919ed8ce621f41b8aa5a11c9a3db50bdc51575"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/S2Examination/final_report/PINS%20Covering%20Letter%2024Nov21.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "PINS Covering Letter to Inspectors' Report on Section 2 - 24th November 2021",
+        "reference": "CL-S2-2021",
+        "document-status": "adopted",
+        "endpoint": "4a82773fbf3895da452a4a59a58f82c3d100b77a32a11fbf64a885c92520183f"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Policies%20Map%20-%20West%20Tendring.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map - West Tendring District",
+        "reference": "PM-WEST-2022",
+        "document-status": "adopted",
+        "endpoint": "d57dc6d06009a3601f578d44fb7777bce9c69836615e29646ccdc6f4c7e4c513"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Policies%20Map%20-%20South%20East%20Tendring.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map - South East Tendring District",
+        "reference": "PM-SE-2022",
+        "document-status": "adopted",
+        "endpoint": "ac9e7d4488521a06a80cf462cc0ffac624ef0d656fe0492b62d585e222aca600"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Policies%20Map%20-%20North%20East%20Tendring.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map - North East Tendring District",
+        "reference": "PM-NE-2022",
+        "document-status": "adopted",
+        "endpoint": "77064e1c6ceccdebec8ef87ff3ab7fbe9bbf756e8c1bc432e05241fb7e25f961"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Policies%20Map%20-%20Tendring%20District.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map - Tendring District",
+        "reference": "PM-DIST-2022",
+        "document-status": "adopted",
+        "endpoint": "363e639195610f2159e3ef7242f767cbb17a6a098b1a9b1639f98181fc21a51b"
+      },
+      {
+        "document-url": "https://www.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Section_2/Policies%20Map%20-%20Key.pdf",
+        "documentation-url": "https://www.tendringdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map - Key",
+        "reference": "PM-KEY-2022",
+        "document-status": "adopted",
+        "endpoint": "2ed12a56e7c831a87efd3db167b859f6d0ba6e34a174dc8582e40936d3bd1a65"
+      }
+    ]
+  }
+]

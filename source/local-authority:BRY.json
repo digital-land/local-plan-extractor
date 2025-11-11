@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:BRY",
+    "organisation-name": "London Borough of Bromley",
+    "reference": "LP-BRY-2019",
+    "documentation-url": "https://www.bromley.gov.uk/localplan",
+    "document-url": "https://www.bromley.gov.uk/downloads/file/51/bromley-local-plan",
+    "name": "Bromley Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.bromley.gov.uk/downloads/file/51/bromley-local-plan",
+        "documentation-url": "https://www.bromley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Bromley Local Plan",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "11da1af634a235f7d5c792d1d8d11d9fe822656b039856daa8ba5c6610792b1e"
+      },
+      {
+        "document-url": "https://www.bromley.gov.uk/downloads/file/1706/local-plan-map-views-of-local-importance",
+        "documentation-url": "https://www.bromley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Map Views of Local Importance",
+        "reference": "LP-MAP-2019",
+        "document-status": "adopted",
+        "endpoint": "fde8ba0dbf490bf092ea34f0f15165d3ed1eac26cbb652555359cde7cce3fd8a"
+      },
+      {
+        "document-url": "https://www.bromley.gov.uk/downloads/file/3831/bromley-statement-of-community-involvement-consultation-draft-october-2025",
+        "documentation-url": "https://www.bromley.gov.uk/downloads/download/701/bromley-statement-of-community-involvement-consultation-draft",
+        "document-type": "statement-of-community-involvement",
+        "name": "Bromley Statement of Community Involvement Consultation Draft October 2025",
+        "reference": "SCI-2025",
+        "document-status": "consultation",
+        "endpoint": "39a59121945a4e6254f01ca75026ece862dac57c5ca4f69b6f3b12b6e19f2d28"
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "organisation": "local-authority:GOS",
+    "organisation-name": "Gosport Borough Council",
+    "reference": "LP-GOS-2014",
+    "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
+    "document-url": "",
+    "name": "Gosport Borough Local Plan 2011-2029",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
+        "document-type": "local-plan",
+        "name": "Gosport Borough Local Plan 2011-2029",
+        "reference": "LP-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GOS",
+    "organisation-name": "Gosport Borough Council",
+    "reference": "LP-GOS-2040",
+    "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
+    "document-url": "",
+    "name": "Gosport Borough Local Plan 2040",
+    "status": "draft",
+    "year": 2040,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
+        "document-type": "local-plan",
+        "name": "Gosport Borough Local Plan 2040",
+        "reference": "LP-2040",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

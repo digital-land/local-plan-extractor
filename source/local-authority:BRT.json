@@ -1,0 +1,183 @@
+[
+  {
+    "organisation": "local-authority:BRT",
+    "organisation-name": "Broxtowe Borough Council",
+    "reference": "LP-BRT-2014",
+    "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/",
+    "document-url": "",
+    "name": "Part 1 Local Plan: Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2289/housing-provision-position-paper-july-2011.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Housing Provision Position Paper",
+        "reference": "LP-HOUSING-2011",
+        "document-status": "consultation",
+        "endpoint": "441959e5cab9a385e8eea0f8d26ba66da8b6ab97f8743d07a681ec3945c5b19a"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2284/consultation-on-draft-policy-1.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Policy 1: Climate Change",
+        "reference": "LP-CLIMATE-2011",
+        "document-status": "consultation",
+        "endpoint": "de17cb9ad49ba3bf78e52bc3a3698354a7c19a63e1ff4adf8cdb833ba179c510"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2323/cabinet-report-12-july-2011.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Cabinet Report 12 July 2011",
+        "reference": "LP-CAB1-2011",
+        "document-status": "consultation",
+        "endpoint": "c103c4381f14cbc36d48cfb5d26ea9e0c770e4bee619dfc9dee3b4c492727f3d"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2322/cabinet-report-12-july-2011-2.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Second Cabinet Report 12 July 2011",
+        "reference": "LP-CAB2-2011",
+        "document-status": "consultation",
+        "endpoint": "72974c0e235b963c5979660c871f24b7abfda614bbd4922c360c1f60e764bf49"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2329/tribal-report-greater-nottingham-sustainable-locations-for-growth.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Tribal Report: Greater Nottingham Sustainable Locations For Growth",
+        "reference": "LP-TRIBAL1-2011",
+        "document-status": "consultation",
+        "endpoint": "3eac2c620b718dd07e93f18ddf68380ec66ea512eae3ff838ed35f3c0db79a47"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2328/tribal-report-appraisal-of-sustainable-urban-extensions.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-1-local-plan-core-strategy/core-strategy-publication-2012/background-information/summer-consultation-july-2011/",
+        "document-type": "local-plan",
+        "name": "Tribal Report: Appraisal of Sustainable Urban Extensions",
+        "reference": "LP-TRIBAL2-2011",
+        "document-status": "consultation",
+        "endpoint": "3d66a9d6958ef3d3e5b80edc8253af6090e206373218b01e0b6d0876c527d904"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BRT",
+    "organisation-name": "Broxtowe Borough Council",
+    "reference": "LP-BRT-2019",
+    "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/",
+    "document-url": "",
+    "name": "Part 2 Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/6281/broxtowe-post-hearing-advice-note.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/part-2-local-plan-examination/examination-latest-news/",
+        "document-type": "local-plan",
+        "name": "Post Hearing Advice Note",
+        "reference": "LP-HEARING-2019",
+        "document-status": "examination",
+        "endpoint": "268960019c27957e7965e7a76bb7c1df61fb90ed137de016fcff4a1e9f726d9c"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2204/01-introduction-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Introduction",
+        "reference": "LP-INTRO-2014",
+        "document-status": "consultation",
+        "endpoint": "d221a16d33ab81c5e582b32e8c2572515a8b0d8b989a1ff7c9d85e112a41e687"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2205/02-awsworth-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Awsworth",
+        "reference": "LP-AWS-2014",
+        "document-status": "consultation",
+        "endpoint": "05a138a6d5b41aca371bea75f01e59792410e37eda5b26f74f890cfdebae39f7"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2206/03-brinsley-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Brinsley",
+        "reference": "LP-BRI-2014",
+        "document-status": "consultation",
+        "endpoint": "7669135b5fbe39f0fbda1a8a2062c15dcddb2f06cdbb02d998947f899ce20173"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2207/04-eastwood-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Eastwood",
+        "reference": "LP-EAS-2014",
+        "document-status": "consultation",
+        "endpoint": "5c77a74318bff0bbbd2c0a1268287f67d3f216a0ccac2de689cbaa2d527c623e"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2208/05-kimberley-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Kimberley",
+        "reference": "LP-KIM-2014",
+        "document-status": "consultation",
+        "endpoint": "e73cd9dca7619db7bf0dab836edd713d547a7c26c6b9d81fd154a3be08026224"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2209/06-main-built-up-area-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Main Built up Area",
+        "reference": "LP-MBA-2014",
+        "document-status": "consultation",
+        "endpoint": "914bd70eb7f2de73560b2c1269225d9bc3ba13f04968c87c210065a2812f9343"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2210/07-other-rural-doc.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "local-plan",
+        "name": "Other Rural",
+        "reference": "LP-RUR-2014",
+        "document-status": "consultation",
+        "endpoint": "43acc9949641c2ce9cfc5a1552f2e3dcc65e246376a866aa03d393554aa59c9f"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2214/sa-scoping-report-site-allocations.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Scoping Report",
+        "reference": "SA-2014",
+        "document-status": "consultation",
+        "endpoint": "9f863056f08272c679ed5f616108f0bcbcea10b65f008349cf03e6abce52936a"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2212/hra-supplementary-screening-broxtowe.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-issues-and-options/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulation Screening Report",
+        "reference": "HRA-2014",
+        "document-status": "consultation",
+        "endpoint": "fe06cc8614fafe191c3e43c020a7eda5a7ea59c28398030349b139c7f7703774"
+      },
+      {
+        "document-url": "https://www.broxtowe.gov.uk/media/2203/site-allocations-potential-additional-sites.pdf",
+        "documentation-url": "https://www.broxtowe.gov.uk/for-you/planning/planning-policy/part-2-local-plan/site-allocations-potential-additional-sites/",
+        "document-type": "local-plan",
+        "name": "Site Allocations: Potential Additional Sites",
+        "reference": "LP-SITES-2014",
+        "document-status": "consultation",
+        "endpoint": "77e0d70092caae798399b1bc73884d37c69a15f0c00ca47498188b426a5c5d4f"
+      }
+    ]
+  }
+]

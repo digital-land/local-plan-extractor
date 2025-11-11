@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:LCE",
+    "organisation-name": "Leicester City Council",
+    "reference": "LP-LCE-2023",
+    "documentation-url": "https://www.leicester.gov.uk/localplan",
+    "document-url": "https://consultations.leicester.gov.uk/sec/local-plan/supporting_documents/Local%20Plan%20R19.pdf",
+    "name": "Leicester Local Plan – Publication Draft 2020–2036",
+    "status": "regulation-19",
+    "year": 2023,
+    "period-start-date": 2020,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://consultations.leicester.gov.uk/sec/local-plan/supporting_documents/Local%20Plan%20R19.pdf",
+        "documentation-url": "https://www.leicester.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan R19",
+        "reference": "LP-2020-2036",
+        "document-status": "consultation",
+        "endpoint": "671f06003b0028d696729598186004d501cdea60f27e91e0076193db175186d7"
+      }
+    ]
+  }
+]

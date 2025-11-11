@@ -1,0 +1,129 @@
+[
+  {
+    "organisation": "local-authority:HER",
+    "organisation-name": "Hertsmere Borough Council",
+    "reference": "LP-HER-2024",
+    "documentation-url": "https://www.hertsmere.gov.uk/newlocalplan",
+    "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/hertsmere-local-plan-regulation-18-consultation-document-2024-compressed-pdf-9.56-mb.pdf",
+    "name": "Hertsmere Local Plan 2024",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/hertsmere-local-plan-regulation-18-consultation-document-2024-compressed-pdf-9.56-mb.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Local Plan 2024 Consultation Document",
+        "reference": "LP-2024",
+        "document-status": "consultation",
+        "endpoint": "62352be1d25ed8508b1dee267ba13475d10b965ea012347af86fcf64cd4f2e19"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/local-plan-2024-faqs-final.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Frequently Asked Questions",
+        "reference": "FAQ-2024",
+        "document-status": "consultation",
+        "endpoint": "30c17db1217dba112ebf714b7878f41fab5dfd16333105bc8949a4e621eff060"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/HELAA-2018-LC/Draft-HELAA-Report-2024-for-publication.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/planning-building-control/planning-policy/hertsmere-local-plan/new-local-plan/supporting-studies",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Draft HELAA Report 2024",
+        "reference": "HELAA-2024",
+        "document-status": "draft",
+        "endpoint": "b7b948124af3bd78d698489a35e82e557c112de4f3f0f2a906faad5f46023ddb"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/Hertsmere-Sustainability-Appraisal-update-2024-Draft.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/planning-building-control/planning-policy/hertsmere-local-plan/new-local-plan/supporting-studies",
+        "document-type": "sustainability-appraisal",
+        "name": "Local Plan Interim Sustainability Appraisal 2024 (Draft)",
+        "reference": "SA-2024",
+        "document-status": "draft",
+        "endpoint": "554339deea63edff377aa9327a770305fba1ea1f7a9b0feca3b228258241b67a"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/Assessment-and-comparison-of-Green-Belt-housing-and-employment-sites-2024-pdf-2.21-Mb.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/planning-building-control/planning-policy/hertsmere-local-plan/new-local-plan/supporting-studies",
+        "document-type": "local-plan",
+        "name": "Assessment and comparison of Green Belt housing and employment sites, 2024",
+        "reference": "GBA-2024",
+        "document-status": "consultation",
+        "endpoint": "f54c56dfdf60d27192e407dcc6e3daa87746a2242b694a7f4d970743ff8e585e"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Final-LHNA-Report-2023-2.6MB.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/planning-building-control/planning-policy/hertsmere-local-plan/new-local-plan/supporting-studies",
+        "document-type": "local-plan",
+        "name": "South West Hertfordshire LHNA 2024",
+        "reference": "LHNA-2024",
+        "document-status": "consultation",
+        "endpoint": "938d51486be60e4b5f444b43402e12684b6a78978ebc478d87c6315a045ba8a5"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HER",
+    "organisation-name": "Hertsmere Borough Council",
+    "reference": "LP-HER-2013",
+    "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+    "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Development-Framework/core-strategy-dpd-2013.pdf",
+    "name": "Hertsmere Local Plan 2012-2027",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Development-Framework/core-strategy-dpd-2013.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy - Development Plan Document (DPD)",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "35aff6f09d607f699f8f002d0336cbe86dbeee08acea9abf740e8f712baef4e5"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/ewc-aap-final-adopted-plan.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+        "document-type": "area-action-plan",
+        "name": "Elstree Way Corridor Area Action",
+        "reference": "AAP-2015",
+        "document-status": "adopted",
+        "endpoint": "1c6220c6b0979bf8b720258a3ef4aca4794ce34b094d76104ff8c9063fc43ca8"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/final-adopted-sadm-01-02-2017.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations and Development Management (SADM) Policies Plan",
+        "reference": "SADM-2016",
+        "document-status": "adopted",
+        "endpoint": "e04c4b74037cfaf2ed480e24bd75223704ec098215a6c558cf62c10de27f782a"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/hertsmeres-statement-of-community-involvement-july-2021.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2021",
+        "document-status": "adopted",
+        "endpoint": "f9cffe7b92ae80267de55b3c65618e5cac1cf9f180fa06084cd87c6d09057c73"
+      },
+      {
+        "document-url": "https://www.hertsmere.gov.uk/asset-library/imported-assets/09-Planning-Building-Control/Planning-Policy/Local-Plan/local-development-scheme-november-2023.pdf",
+        "documentation-url": "https://www.hertsmere.gov.uk/local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2023",
+        "reference": "LDS-2023",
+        "document-status": "adopted",
+        "endpoint": "ffce575b07e688e0f183373bad258dd9526e41b30e113644479dc6ddfe7fb519"
+      }
+    ]
+  }
+]

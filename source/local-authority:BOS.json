@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:BOS",
+    "organisation-name": "Bolsover District Council",
+    "reference": "LP-BOS-2020",
+    "documentation-url": "https://www.bolsover.gov.uk/documents",
+    "document-url": "",
+    "name": "Local Plan for Bolsover District 2020",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/documents",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

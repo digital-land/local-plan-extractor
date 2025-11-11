@@ -1,0 +1,80 @@
+[
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "LP-CMD-2017",
+    "documentation-url": "https://www.camden.gov.uk/localplan",
+    "document-url": "",
+    "name": "Camden Local Plan 2017",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "LP-CMD-2024",
+    "documentation-url": "https://www.camden.gov.uk/local-plan-review",
+    "document-url": "",
+    "name": "Camden Local Plan Review",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "SA-CMD-2013",
+    "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+    "document-url": "",
+    "name": "Camden Site Allocations Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "AAP-CMD-EUSTON",
+    "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+    "document-url": "",
+    "name": "Euston Area Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "AAP-CMD-FITZROVIA",
+    "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+    "document-url": "",
+    "name": "Fitzrovia Area Action Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
+    "reference": "MWP-NL-2022",
+    "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+    "document-url": "",
+    "name": "North London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

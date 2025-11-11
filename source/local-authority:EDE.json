@@ -1,0 +1,84 @@
+[
+  {
+    "organisation": "local-authority:EDE",
+    "organisation-name": "East Devon District Council",
+    "reference": "LP-EDE-2025",
+    "documentation-url": "https://eastdevon.gov.uk/local-plan",
+    "document-url": "https://eastdevon.gov.uk/media/gtimzhle/regulation-19-plan.pdf",
+    "name": "East Devon Local Plan 2020-2042",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://eastdevon.gov.uk/media/gtimzhle/regulation-19-plan.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "East Devon Local Plan 2020-2042",
+        "reference": "LP-2020-2042",
+        "document-status": "consultation",
+        "endpoint": "0f71a0ee1061451c6c501f823024157efaa2c99438d2b509e31ba76a50e05437"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/cyvhwwjs/regulation-19-plan-pf.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "East Devon Local Plan 2020-2042 (Printer Friendly)",
+        "reference": "LP-2020-2042-PF",
+        "document-status": "consultation",
+        "endpoint": "7bb776e98aa786905d15a51ed06ff2a693d93b1a6be2782ba4d88d565d31d819"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/fuwhycqp/reg-19-key-diagram.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "Key Diagram",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "b15f3e90a4b6d1f009d71e5f7eb1a15c2b95946cf5f5884cabfcbba7134ea4e9"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/eayfexsn/csd-003-sustainability-appraisal.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "15fc474a17c81f3d0890b49463f11176feb974ba02e83dba192e64e7e03b04f8"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/5mfptido/csd-003b-sustainability-appraisal-non-technical-summary.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Sustainability Appraisal Non-Technical Summary",
+        "reference": "SA-NTS-2025",
+        "document-status": "consultation",
+        "endpoint": "dd31b28889d950670ef29f8f3a1500f115e9411bbb96a3d2a49863f11d3a1b66"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EDE",
+    "organisation-name": "East Devon District Council",
+    "reference": "LP-EDE-2021",
+    "documentation-url": "https://eastdevon.gov.uk/newlocalplan",
+    "document-url": "https://eastdevon.gov.uk/media/3721875/issuesandoptionsreport-jan2021.pdf",
+    "name": "East Devon Local Plan Issues and Options 2021-2040",
+    "status": "draft",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://eastdevon.gov.uk/media/3721875/issuesandoptionsreport-jan2021.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Issues and Options Report",
+        "reference": "IO-2021",
+        "document-status": "draft",
+        "endpoint": "872e7f395e594d27d66d7cea9ce587b20528148c40efc1ae1b5cf6ce78b38749"
+      }
+    ]
+  }
+]

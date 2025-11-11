@@ -1,0 +1,251 @@
+[
+  {
+    "organisation": "local-authority:BLA",
+    "organisation-name": "Blaby District Council",
+    "reference": "LP-BLA-2019",
+    "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+    "document-url": "https://www.blaby.gov.uk/media/15ebnxns/blaby-district-adoped-local-plan.pdf",
+    "name": "Blaby District Local Plan (Delivery) DPD",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.blaby.gov.uk/media/15ebnxns/blaby-district-adoped-local-plan.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan Delivery DPD",
+        "reference": "LP-DELIVERY-2019",
+        "document-status": "adopted",
+        "endpoint": "82a0df51eae00e5538b17a3ae4a34917312758b1025faea9cde9360d1e29a47d"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4wylvqz3/map-1-central-district-policies-map.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "policies-map",
+        "name": "Adopted Map 1 Central District Policies Map",
+        "reference": "PM-CENTRAL-2019",
+        "document-status": "adopted",
+        "endpoint": "64a4f1ef7c7fae830f2eec55b874381e44c1c8738c6742207b5b7046d12bb67d"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/2725/maps-2-and-3-west-and-east-district-policies-map.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "policies-map",
+        "name": "Adopted Maps 2 and 3 West and East District Policies Map",
+        "reference": "PM-WESTEAST-2019",
+        "document-status": "adopted",
+        "endpoint": "6a07fc8516a2165fe6ed9e7b3bdcf90750531a0607b0d6a97f09b154a75dfc13"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/2724/maps-4-and-5-inset-maps-for-blaby-town-centre-and-glenfield-district-centre.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "local-plan",
+        "name": "Adopted Maps 4 and 5 Inset Maps for Blaby Town Centre and Glenfield District Centre",
+        "reference": "PM-INSET-2019",
+        "document-status": "adopted",
+        "endpoint": "983790dd749df786971c074845f1464ef943428999c36ac83a67dc911d151b38"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/43ff0bf2/delivery-dpd-inspectors-report-and-appendices.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "local-plan",
+        "name": "Inspectors Report and Appendices",
+        "reference": "IR-DELIVERY-2019",
+        "document-status": "adopted",
+        "endpoint": "e756e58698f1a56db9d4021139987fbe555b52c1f7a9ea858a4230bd9ebba6ad"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/20nnuamk/blaby-district-local-plan-delivery-dpd-sustainability-appraisal-addendum.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-delivery-dpd/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum",
+        "reference": "SA-DELIVERY-2019",
+        "document-status": "adopted",
+        "endpoint": "133cb8d9f8c81175feee21c57e800d76b5746d2fa55b1f49ee2c6328382ad6f6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BLA",
+    "organisation-name": "Blaby District Council",
+    "reference": "LP-BLA-2013",
+    "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+    "document-url": "https://www.blaby.gov.uk/media/4107/adopted-core-strategy.pdf",
+    "name": "Blaby District Local Plan Core Strategy",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4107/adopted-core-strategy.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+        "document-type": "core-strategy",
+        "name": "Adopted Core Strategy",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "3339e79fedd9c1fae3772ac388eb3b1806a6fecb4a206afa682cca0de066f65e"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/2709/core-strategy-inspectors-report.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Inspectors Report",
+        "reference": "IR-CS-2013",
+        "document-status": "adopted",
+        "endpoint": "56a6445586abc1865ca7d07e21175724f1feca387b7d533fff7f3ae142191d82"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/2712/core-strategy-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+        "document-type": "sustainability-appraisal",
+        "name": "Core Strategy Sustainability Appraisal",
+        "reference": "SA-CS-2013",
+        "document-status": "adopted",
+        "endpoint": "9de76a2db063285d66a3dc2da5345028944e96a6b20237949d2564f87d403cac"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/2710/core-strategy-main-modifications.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+        "document-type": "main-modifications",
+        "name": "Core Strategy Main Modifications",
+        "reference": "MM-CS-2013",
+        "document-status": "adopted",
+        "endpoint": "d2c52f9e9ca82bf7e5dee69443d6e52f77b68f83d711d52a62e58b860812e367"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/fmunohf5/sustainability-appraisal-report-2012.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/local-plan-core-strategy/",
+        "document-type": "main-modifications",
+        "name": "Core Strategy Sustainability Appraisal Of Main Modifications",
+        "reference": "SA-MM-CS-2013",
+        "document-status": "adopted",
+        "endpoint": "61ce4644d3cebf012261030e02ca1bc4c5de8673b0a0f119b4b2a4280611a411"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BLA",
+    "organisation-name": "Blaby District Council",
+    "reference": "LP-BLA-2026",
+    "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+    "document-url": "https://www.blaby.gov.uk/media/4560/bdc-new-local-plan-options-consultation-document.pdf",
+    "name": "New Local Plan",
+    "status": "regulation-18",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4560/bdc-new-local-plan-options-consultation-document.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "BDC New Local Plan Options Consultation Document",
+        "reference": "LP-OPTIONS-2021",
+        "document-status": "consultation",
+        "endpoint": "14a2e67238ca6b45df2bbcff77da24cc56b2d5bbb77ae3e229a9f1fe0d6030be"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4563/settlement-audit-and-hierarchy-report.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "Settlement Audit And Hierarchy Report",
+        "reference": "SAHR-2021",
+        "document-status": "consultation",
+        "endpoint": "9ae566afc584e2ba7a526d60a64d184f245d346a539f0e5cc42179fb3e420cdc"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4564/non-technical-summary-of-the-consultation-document.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "Non-Technical Summary Of The Consultation Document",
+        "reference": "NTS-2021",
+        "document-status": "consultation",
+        "endpoint": "e9dbd6d2592d6f0d2a81f6b9fce9ad6c7cdf5a712d887ebed41b5314718dc122"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4562/summary-of-duty-to-cooperate-engagement-statement-2021.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "Summary Of Duty To Cooperate Engagement Statement 2021",
+        "reference": "DTC-2021",
+        "document-status": "consultation",
+        "endpoint": "549bb937add9041e587eabd360cafe64fef145c97601312f15ba571785a855a8"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/3421/issues-and-options-document.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "Issues And Options Document",
+        "reference": "IO-2019",
+        "document-status": "consultation",
+        "endpoint": "52416a9cdd248a846f968aabc2852b1c7e5b9494f2a5a793757a1a9ac24f7ca2"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/3610/blaby-master-scoping-report-post-consultation.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Blaby SA Scoping Report For Consultation",
+        "reference": "SA-SCOPING-2021",
+        "document-status": "consultation",
+        "endpoint": "d4f9b5c659e9527641d10016bc34250fc26263f3d8b609337bc95a8f73d000fa"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/fwbjy5jt/final-blaby-interim-sa-report-jan-2020.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "FINAL Blaby Interim SA Report Jan 2020",
+        "reference": "SA-INTERIM-2020",
+        "document-status": "consultation",
+        "endpoint": "dc44582d2eca8ee70ea0979066c43f5c93185b57b7f27094c3c12f40ad606734"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4545/bdc-local-plan-site-selection-methodology-2020.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "BDC Local Plan Site Selection Methodology 2020",
+        "reference": "SSM-2020",
+        "document-status": "consultation",
+        "endpoint": "b7808e5c8083f4120535dfbfa17a3a9aa1d74cf92bcd2172bf17ff46b1f04167"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4546/appendix-6-site-assessments-by-parish-lubbesthorpe-to-whetstone.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "site-allocations",
+        "name": "Appendix 6 Site Assessments By Parish Lubbesthorpe To Whetstone",
+        "reference": "SA-PARISH6-2025",
+        "document-status": "consultation",
+        "endpoint": "d58eb1ca2b489eac49a790f191f2cb6c716205ae9dda05a8716df8f6452b5cc3"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4547/appendix-5-site-assessments-by-parish-glen-parva-to-littlethorpe.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "site-allocations",
+        "name": "Appendix 5 Site Assessments By Parish Glen Parva To Littlethorpe",
+        "reference": "SA-PARISH5-2025",
+        "document-status": "consultation",
+        "endpoint": "1d80efdb2b5d6e5b4b44dc269e8565bb5b3fd421812b977fb8fe3588ea2037fa"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4548/appendix-4-site-assessments-by-parish-aston-flamville-to-enderby.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "site-allocations",
+        "name": "Appendix 4 Site Assessments By Parish Aston Flamville To Enderby",
+        "reference": "SA-PARISH4-2025",
+        "document-status": "consultation",
+        "endpoint": "c1d28f39b1a7eec01fd7c5a896d22f07b520c6ac2dc8df7d9f03ae96d0b4b9f4"
+      },
+      {
+        "document-url": "https://www.blaby.gov.uk/media/4549/appendix-3-district-wide-map-of-assessed-sites.pdf",
+        "documentation-url": "https://www.blaby.gov.uk/planning-and-building/local-plan/new-local-plan/",
+        "document-type": "local-plan",
+        "name": "Appendix 3 District Wide Map Of Assessed Sites",
+        "reference": "DWMAS-2025",
+        "document-status": "consultation",
+        "endpoint": "4948e492ddceb7df00b120680014009042e5ba93e0e4b94c50b8c9cd36b71bea"
+      }
+    ]
+  }
+]

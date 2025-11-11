@@ -1,0 +1,84 @@
+[
+  {
+    "organisation": "local-authority:SOX",
+    "organisation-name": "South Oxfordshire District Council",
+    "reference": "LP-SOX-2020",
+    "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+    "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2021/02/SODC-LP2035-Publication-Feb-2021.pdf",
+    "name": "South Oxfordshire Local Plan 2035",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2021/02/SODC-LP2035-Publication-Feb-2021.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+        "document-type": "local-plan",
+        "name": "South Oxfordshire Local Plan 2035",
+        "reference": "LP-2035",
+        "document-status": "adopted",
+        "endpoint": "58fe2338e889243b4ba8824428827d3aacec97485dfda966b4618b8798259f35"
+      },
+      {
+        "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2021/02/Adopted-Policies-Layers-Map-2020-Dec-North-and-South-25000.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+        "document-type": "policies-map",
+        "name": "South Oxfordshire Local Plan Policies Map – North and South",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "68c34af0bca03403de171716a05a97f880dd2cd1c3d8d8b9103659a4e740ea26"
+      },
+      {
+        "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2021/02/SODC-LP2035-Sustainability-Appraisal-Feb-2021.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+        "document-type": "adoption-statement",
+        "name": "South Oxfordshire Local Plan Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "71aa709231674d21e60fc1bf30eb427ef51622f42409e74f4865f5e352a2deb6"
+      },
+      {
+        "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2022/02/South-Oxfordshire-Local-Plan-Equality-Impact-Assessment-December-2020.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+        "document-type": "equalities-impact-assessment",
+        "name": "South Oxfordshire Local Plan – Equality Impact Assessment",
+        "reference": "EIA-2020",
+        "document-status": "adopted",
+        "endpoint": "897d8b6921294f49a25a85ffa467094cfe6d926fc850133008cc0da9453453d0"
+      },
+      {
+        "document-url": "https://www.southoxon.gov.uk/wp-content/uploads/sites/2/2020/12/Adoption-Statement-South-Oxfordshire-Local-Plan-2011-2035.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2035/adopted-local-plan-2035/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "24f36821845179015ecca6c0f1f81b5881773fe0b8347c2c2254c7278b45091c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SOX",
+    "organisation-name": "South Oxfordshire District Council",
+    "reference": "LP-SOX-2041",
+    "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2041/",
+    "document-url": "",
+    "name": "Joint Local Plan 2041",
+    "status": "submitted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://theconversation.southandvale.gov.uk/policy-and-programmes/sa_consultation/user_uploads/sa---sea-of-jlp---technical-addendum-to-scoping-report.pdf",
+        "documentation-url": "https://www.southoxon.gov.uk/south-oxfordshire-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2041/",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Technical Addendum",
+        "reference": "SEA-2024",
+        "document-status": "examination",
+        "endpoint": "f7eb9ceaf6c5adb5b72adc536e3a82910d4d45e3c2e93ad183074358a3b8064a"
+      }
+    ]
+  }
+]

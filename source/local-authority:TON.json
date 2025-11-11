@@ -1,0 +1,111 @@
+[
+  {
+    "organisation": "local-authority:TON",
+    "organisation-name": "Tonbridge and Malling Borough Council",
+    "reference": "LP-TON-2027",
+    "documentation-url": "https://www.tmbc.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Tonbridge and Malling Local Plan 2025-2042",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/4225/interim-duty-to-cooperate-statement",
+        "documentation-url": "https://www.tmbc.gov.uk/downloads/download/636/local-plan---background-papers",
+        "document-type": "local-plan",
+        "name": "Interim Duty to Cooperate Statement",
+        "reference": "LP-DTC-2025",
+        "document-status": "consultation",
+        "endpoint": "c334e2ffc20c300c3fef672ec67690fb28c55106db31950747a827cb8db6eb51"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/4224/interim-infrastructure-delivery-plan",
+        "documentation-url": "https://www.tmbc.gov.uk/downloads/download/636/local-plan---background-papers",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Interim Infrastructure Delivery Plan",
+        "reference": "IDP-2025",
+        "document-status": "consultation",
+        "endpoint": "e4464ab6f82f9706546b687f7348dc10da1bb01086c2207e9efcba0401440888"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/4223/annexe-1-infrastructure-delivery-schedules",
+        "documentation-url": "https://www.tmbc.gov.uk/downloads/download/636/local-plan---background-papers",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Annexe 1 - Infrastructure Delivery Schedules",
+        "reference": "IDS-2025",
+        "document-status": "consultation",
+        "endpoint": "e488bb735e978177076ee10c9e8a8d60fd97a6f8d0231a23a9e3a76708db988a"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/4226/windfall-allowance-topic-paper-november-2025-",
+        "documentation-url": "https://www.tmbc.gov.uk/downloads/download/636/local-plan---background-papers",
+        "document-type": "local-plan",
+        "name": "Windfall Allowance Topic Paper (November 2025)",
+        "reference": "LP-WA-2025",
+        "document-status": "consultation",
+        "endpoint": "be09587d462fc481ac95559aa954336718895975de6b6e9817b5650628a0e021"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/3290/local-development-scheme",
+        "documentation-url": "https://www.tmbc.gov.uk/local-plan/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "f0f62fe1e9bd9c64433c00b79cf3d3bcd4d92319b6fa94ccb124aa5624da5e7d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TON",
+    "organisation-name": "Tonbridge and Malling Borough Council",
+    "reference": "LP-TON-2007",
+    "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
+    "document-url": "https://www.tmbc.gov.uk/downloads/file/276/core-strategy",
+    "name": "Tonbridge and Malling Core Strategy",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/276/core-strategy",
+        "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2007",
+        "document-status": "adopted",
+        "endpoint": "ce937007f1e20a84fe51664b5d4e75b50c8e5866ea5b8cd24f060ed1e43a68b3"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/1358/development-land-allocations-dpd",
+        "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
+        "document-type": "site-allocations",
+        "name": "Development Land Allocations DPD",
+        "reference": "SA-DPD-2013",
+        "document-status": "adopted",
+        "endpoint": "c8b70277a241168553b70c4fd2e2572ad90091177d22fd8d46d54e796f963abc"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/1273/managing-development-and-the-environment",
+        "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
+        "document-type": "local-plan",
+        "name": "Managing Development and the Environment DPD",
+        "reference": "MDE-DPD-2010",
+        "document-status": "adopted",
+        "endpoint": "b53faa402ed4d28c0e4b613478c8340262c913c7d4bbdcc2075cd589161b0c93"
+      },
+      {
+        "document-url": "https://www.tmbc.gov.uk/downloads/file/1155/saved-policies-april-2010",
+        "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
+        "document-type": "local-plan",
+        "name": "Saved Policies from the Tonbridge and Malling Borough Local Plan",
+        "reference": "SP-2010",
+        "document-status": "adopted",
+        "endpoint": "5ba4cb4e147d9e4401db343b00b3ab816954b30b47e97b65cfb28be2fe8d78f3"
+      }
+    ]
+  }
+]

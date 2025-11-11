@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:TOB",
+    "organisation-name": "Torbay Council",
+    "reference": "LP-TOB-2015",
+    "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+    "document-url": "https://www.torbay.gov.uk/media/16942/2012to2030torbaylocalplanweb18may16.pdf",
+    "name": "Torbay Local Plan 2012-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2012,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.torbay.gov.uk/media/16942/2012to2030torbaylocalplanweb18may16.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Torbay Local Plan 2012 to 2030",
+        "reference": "LP-2012-2030",
+        "document-status": "adopted",
+        "endpoint": "52beb776059c4f9594cfb49e9cae773e7da7ef2459d1732e273f2454e242ef06"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6876/lp-frontispiece.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Frontispiece",
+        "reference": "LP-FRONT-2015",
+        "document-status": "adopted",
+        "endpoint": "97fbc8e579f10662b9e106fa7f6ffb2b450c074e4b5768afe47bb7a7a104532c"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6877/lp-keydiagram.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "policies-map",
+        "name": "Key Diagram",
+        "reference": "PM-KEY-2015",
+        "document-status": "adopted",
+        "endpoint": "2837ba3e736d334227c01bacba28e6ad4db2134c6c46f03c391fbf1bdb916113"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6878/lp-mapbookletcover.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "policies-map",
+        "name": "Policies Map Cover",
+        "reference": "PM-COVER-2015",
+        "document-status": "adopted",
+        "endpoint": "f8ec16871bad48cf2fa6fca53eba686de2bedf72bcfa88582b1aa0fca7049062"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/11020/policies-map-key.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "policies-map",
+        "name": "Policies Map Key",
+        "reference": "PM-KEY2-2015",
+        "document-status": "adopted",
+        "endpoint": "4cc72fad5588bbcd4ed2423f3111a625627a2056f8dc84c8b7c6fdc62b4bcce2"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6880/lp-towncentrebrixham.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Brixham",
+        "reference": "LP-BRIX-2015",
+        "document-status": "adopted",
+        "endpoint": "c3ba58d3473e7c9f405ad1a7e3f21e9b22bb7747264aabb36a6d5a433571b117"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6881/lp-towncentrepaignton.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Paignton",
+        "reference": "LP-PAIG-2015",
+        "document-status": "adopted",
+        "endpoint": "61ae8f96eb54b47968a83654f26a7603cb9ed7d7537376df73a4e6868d83d3cc"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/6882/lp-towncentretorquay.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Torquay",
+        "reference": "LP-TORQ-2015",
+        "document-status": "adopted",
+        "endpoint": "24235fcab6a96b161ea3a0dd90a57f36c9a50e41b3409df7bfa3bfa573f2003a"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/21099/hra-site-appraisal-report-2.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Strategic Delivery Areas Addendum",
+        "reference": "HRA-SDA-2015",
+        "document-status": "adopted",
+        "endpoint": "40b903cba4b62367c991a04e3c0c3e09c29e11bff43293aeec19288fa028a091"
+      },
+      {
+        "document-url": "https://www.torbay.gov.uk/media/21102/hra-site-appraisal-report-3.pdf",
+        "documentation-url": "https://www.torbay.gov.uk/newlocalplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Strategic Delivery Areas Proposed Additional Sites",
+        "reference": "HRA-SDA2-2015",
+        "document-status": "adopted",
+        "endpoint": "3c0a8a9a65a60bbf4882044cdf43d95c98444a20a3c43aae5fecbc53c3e7f823"
+      }
+    ]
+  }
+]

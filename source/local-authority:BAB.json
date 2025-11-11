@@ -1,0 +1,34 @@
+[
+  {
+    "organisation": "local-authority:BAB",
+    "organisation-name": "Babergh District Council",
+    "reference": "LP-BAB-2023",
+    "documentation-url": "https://www.babergh.gov.uk/joint-local-plan",
+    "document-url": "https://www.babergh.gov.uk/documents/d/asset-library-54706/babergh-and-mid-suffolk-joint-local-plan-part-1-nov-2023",
+    "name": "Babergh and Mid Suffolk Joint Local Plan Part 1 2018-2037",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2018,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.babergh.gov.uk/documents/d/asset-library-54706/babergh-and-mid-suffolk-joint-local-plan-part-1-nov-2023",
+        "documentation-url": "https://www.babergh.gov.uk/joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Part 1 of the Joint Local Plan",
+        "reference": "LP-2018-2037",
+        "document-status": "adopted",
+        "endpoint": "cf85abd75e7b9fe0ddfbb43d3df2e2e322a8ebae01c3737050186273ed13d0a7"
+      },
+      {
+        "document-url": "https://www.babergh.gov.uk/documents/d/asset-library-54706/k01-bmsdc-jlp-final-report-and-schedule",
+        "documentation-url": "https://www.babergh.gov.uk/joint-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Examination report",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "c924fb6f84084250533a0d59a4e704124df20ff8a9b8566133ecb8e143dae677"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "organisation": "local-authority:FOE",
+    "organisation-name": "Forest of Dean District Council",
+    "error": "Expecting ',' delimiter: line 242 column 10 (char 13532)"
+  }
+]

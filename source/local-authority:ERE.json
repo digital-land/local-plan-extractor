@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:ERE",
+    "organisation-name": "Erewash Borough Council",
+    "reference": "LP-ERE-2022",
+    "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+    "document-url": "",
+    "name": "Erewash Core Strategy Review",
+    "status": "examination",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+        "document-type": "core-strategy",
+        "name": "Erewash Borough Council Core Strategy Review – Submission Version November 2022",
+        "reference": "CS-2022",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2022",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Evidence Base Library",
+        "reference": "EBL-2022",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+        "document-type": "authority-monitoring-report",
+        "name": "Authorities Monitoring Report",
+        "reference": "AMR-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/erewash-core-strategy-review",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Habitats Regulation Assessment - Screening Exercise",
+        "reference": "HRA-2022",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

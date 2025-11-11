@@ -1,0 +1,267 @@
+[
+  {
+    "organisation": "local-authority:CHE",
+    "organisation-name": "Cheshire East Council",
+    "reference": "LP-CHE-2017",
+    "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
+    "document-url": "",
+    "name": "Cheshire East Local Plan Strategy",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2010,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/idp-july-16-update.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan Update",
+        "reference": "IDP-2016",
+        "document-status": "adopted",
+        "endpoint": "2f88e3b1acee7bbe22b9c095a9df700cc6b200527a640d1c36d4a569a46de3cb"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHE",
+    "organisation-name": "Cheshire East Council",
+    "reference": "LP-CHE-2022",
+    "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
+    "document-url": "",
+    "name": "Site Allocations and Development Policies Document",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2010,
+    "period-end-date": 2030,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CHE",
+    "organisation-name": "Cheshire East Council",
+    "reference": "LP-CHE-2007",
+    "documentation-url": "https://www.cheshireeast.gov.uk/planning/spatial-planning/saved_and_other_policies/cheshire_waste_local_plan/cheshire_waste_local_plan.aspx",
+    "document-url": "",
+    "name": "Cheshire Replacement Waste Local Plan",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CHE",
+    "organisation-name": "Cheshire East Council",
+    "reference": "LP-CHE-1999",
+    "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
+    "document-url": "",
+    "name": "Cheshire Minerals Local Plan",
+    "status": "adopted",
+    "year": 1999,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:CHE",
+    "organisation-name": "Cheshire East Council",
+    "reference": "LP-CHE-2025",
+    "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+    "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/new-local-plan-issues-paper.pdf",
+    "name": "New Local Plan for Cheshire East",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/new-local-plan-issues-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Issues paper for the new local plan",
+        "reference": "LP-ISSUES-2024",
+        "document-status": "consultation",
+        "endpoint": "32badf7b0032ec03e4aea37af6109a26d8fec013fa5cb21ab2c13fce43720721"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/celp-issues-roc.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "report of consultation",
+        "reference": "ROC-2024",
+        "document-status": "consultation",
+        "endpoint": "ee4ddbd325fb831be829cd0479a360867279ed5068f64451adb79507aa679c56"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/responding-to-the-climate-emergency-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Responding to the climate emergency topic paper",
+        "reference": "TP-CLIMATE-2024",
+        "document-status": "consultation",
+        "endpoint": "54f5b214c5b54131f585b87c71c0079e4432d7ccce198ee88afbb29317c818b6"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/healthy-and-safe-communities-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Healthy and safe communities topic paper",
+        "reference": "TP-HEALTH-2024",
+        "document-status": "consultation",
+        "endpoint": "f83d4762fe1583e67668c01f12aabf19e05d7c7239c7a358a5b5bda0417e1bcd"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/design-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Design topic paper",
+        "reference": "TP-DESIGN-2024",
+        "document-status": "consultation",
+        "endpoint": "f555c015e02b60bf16142bb071a929ecc8c892066f274ed0fc78efae268701fa"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/our-natural-environment-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Our natural environment topic paper",
+        "reference": "TP-ENVIRONMENT-2024",
+        "document-status": "consultation",
+        "endpoint": "d41b06ab22b24e35f27db71160b3d39e71987c4567298516a99063dc8f01252b"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/homes-for-everyone-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Homes for everyone topic paper",
+        "reference": "TP-HOMES-2024",
+        "document-status": "consultation",
+        "endpoint": "f2daa9503ec70ca0f2ed696f592ce76e0049b831171425492fd03ca014c4c6bb"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/town-centres-and-retail-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Town centres and retail topic paper",
+        "reference": "TP-RETAIL-2024",
+        "document-status": "consultation",
+        "endpoint": "f8653db7841e6316db865ffb6341d946dc358ca6a6a7264d24a285a84e67a2fe"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/jobs-skills-and-economy-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Jobs, skills and economy topic paper",
+        "reference": "TP-ECONOMY-2024",
+        "document-status": "consultation",
+        "endpoint": "a7cc69b76e30c94fadabae032bcb9e6d54b41953be3a180cc221050dea411ba2"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/transport-and-infrastructure-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Transport and infrastructure topic paper",
+        "reference": "TP-TRANSPORT-2024",
+        "document-status": "consultation",
+        "endpoint": "3e3a499cdcd91c1dd1990d2d6639b03efacc49a135ce2f0d0302dda7492c930b"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/historic-environment-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Historic environment topic paper",
+        "reference": "TP-HERITAGE-2024",
+        "document-status": "consultation",
+        "endpoint": "6e623a75deeaa437e740d4790acacbf084f023ffe564679b98cf675691e8a619"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/towns-and-villages-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Towns and villages topic paper",
+        "reference": "TP-TOWNS-2024",
+        "document-status": "consultation",
+        "endpoint": "e6ff23524fc53af7844dede259567db22c21dea37eda360bdb30fab7479884d9"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/rural-matters-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Rural matters topic paper",
+        "reference": "TP-RURAL-2024",
+        "document-status": "consultation",
+        "endpoint": "4e9b0f948cc7d7542b2e6a9cda25f09b7fa61779dab8dd651b527c44749118d9"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/minerals-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Minerals topic paper",
+        "reference": "TP-MINERALS-2024",
+        "document-status": "consultation",
+        "endpoint": "46660c6bf61645f42de6aef83cd5e104cee2ba9d91c7280a61d8fa865d9830b6"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/waste-topic-paper.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Waste topic paper",
+        "reference": "TP-WASTE-2024",
+        "document-status": "consultation",
+        "endpoint": "0e270896d8616d67d3b6b6180fdf56b95401370f2f419e418595e0442d8ffdc3"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/draft-sustainability-appraisal-scoping-report.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Draft Sustainability Appraisal Scoping Report",
+        "reference": "SA-2024",
+        "document-status": "draft",
+        "endpoint": "0f95ef80cbd63547159097bdf2a9b47d7727d3663c336d671baa416d579a75fc"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/land-availability-assessment-draft-methodology.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "methodology for assessing the availability of land",
+        "reference": "LAA-METHODOLOGY-2024",
+        "document-status": "draft",
+        "endpoint": "db23d3117ba06ac96cb8b5479a508dbb407472766a8ca672b77b7a23985d94f7"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/settlement-hierarchy-draft-methodology.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "methodology for reviewing the existing hierarchy of settlements",
+        "reference": "SH-METHODOLOGY-2024",
+        "document-status": "draft",
+        "endpoint": "c0a444a8a66e5588031cbd8072838a33c040de38ba53235f2b66f56f59234f9f"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/lnrs-nov-2025/updated/appendix-1-cheshire-and-warrington-local-nature-recovery-strategy.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Cheshire and Warrington Local Nature Recovery Strategy",
+        "reference": "LNRS-2025",
+        "document-status": "adopted",
+        "endpoint": "466d665ccf98f803769b07843f2f7d3c23396fccf290ebf946757ac96f2a56ae"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/lnrs-nov-2025/updated/appendix-2-lnrs-consultation-report.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "LNRS Consultation Report",
+        "reference": "LNRS-CONSULTATION-2025",
+        "document-status": "adopted",
+        "endpoint": "1e1f25bc6409d59345b82c3dd4374a8e1232f2319838da5c9dcb0a1ee1fdb4c3"
+      },
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/lnrs-nov-2025/updated/apendix-3-lnrs-equality-analysis.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "LNRS Equality Analysis",
+        "reference": "LNRS-EQUALITY-2025",
+        "document-status": "adopted",
+        "endpoint": "ea9f375f95e0d6ddfaca0e422dfe240e35d7b3e9e77dcc32e725fe7a99c5cf06"
+      }
+    ]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "organisation": "local-authority:NEL",
+    "organisation-name": "North East Lincolnshire Council",
+    "reference": "LP-NEL-2018",
+    "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/the-local-plan/",
+    "document-url": "",
+    "name": "North East Lincolnshire Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:NEL",
+    "organisation-name": "North East Lincolnshire Council",
+    "reference": "LP-NEL-2024",
+    "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+    "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/2023-LocalPlanReview-DraftPlanWithOptions-Accessible.pdf",
+    "name": "North East Lincolnshire Local Plan Review - Draft Plan with Options",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/2023-LocalPlanReview-DraftPlanWithOptions-Accessible.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Plan with Options",
+        "reference": "LP-2024",
+        "document-status": "consultation",
+        "endpoint": "9b54416f25a5ebafd92286be91d60b734c5b14d923106b9fc166bf9a6d4b8f74"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/Figure10.1-HousingSites-1.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "local-plan",
+        "name": "Housing Sites",
+        "reference": "HS-2024",
+        "document-status": "consultation",
+        "endpoint": "b3d8b73c164008d9e7315546a010b82ec00e0a68f126e94fa08947b705040f48"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/2023-HousingEmploymentDevelopmentNeedsAssessment.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "economic-development-strategy",
+        "name": "Housing and Economic Development Needs Assessment 2023",
+        "reference": "HEDNA-2023",
+        "document-status": "consultation",
+        "endpoint": "7922489aa0ec3dad3e86699470edfb94ccbfb4540565e0d0ca174648b7e1b591"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/2023-GreenWedgesMethodologyAndEvaluation.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "local-plan",
+        "name": "Green Wedges",
+        "reference": "GW-2023",
+        "document-status": "consultation",
+        "endpoint": "1641e5e3a0afacfc306e8316c3d9a6d36396016b0e9250999c21c68b6ae2675f"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/202311-EducationContributionJustificationStatement.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "local-plan",
+        "name": "Education Justification Statement 2023",
+        "reference": "EJS-2023",
+        "document-status": "consultation",
+        "endpoint": "0aeef09414e91ff7439f91f15496d351ee469bd246615748d7093873dab62057"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/2023-SustainabilityAppraisalOfNELincsLocalPlanReviewReg18.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal/",
+        "document-type": "sustainability-appraisal",
+        "name": "2023 Sustainability Appraisal",
+        "reference": "SA-2023",
+        "document-status": "consultation",
+        "endpoint": "0ca464093461ea6e5c6c1b8fdb2ef2d5a3c10481a7fae3dfbce2e800c1fa4591"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2023/02/202302-SA-ScopingReport.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Scoping Report",
+        "reference": "SA-SCOPING-2023",
+        "document-status": "consultation",
+        "endpoint": "c157a6859201fdff1ccd4f39d2c78c8cd6481afda12b32c454883b713c43afe6"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/01/20240111-DraftPlanResponseForm-1.docx",
+        "documentation-url": "https://www.nelincs.gov.uk/draft-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Plan response form",
+        "reference": "RESPONSE-FORM-2024",
+        "document-status": "consultation",
+        "endpoint": "f368184890490e8118fa152b5b3eeb59dd14bb7e872610c9823ab20798d8ebaf"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2022/09/20220916-ScopingAndIssuesPaper.pdf",
+        "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/local-plan-review/scoping-and-issues/",
+        "document-type": "local-plan",
+        "name": "Scoping and issues paper",
+        "reference": "SCOPING-2022",
+        "document-status": "consultation",
+        "endpoint": "accb8d1e3b0b091c304668139651d4a3d0ad6aa5d01d9bc72f5d208daeb6b93d"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2022/10/20220930-Scoping-Issues-Questionnaire.docx",
+        "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/local-plan-review/scoping-and-issues/",
+        "document-type": "local-plan",
+        "name": "Scoping response form",
+        "reference": "SCOPING-FORM-2022",
+        "document-status": "consultation",
+        "endpoint": "e26e61eb0f5bbfefcb6b9675864ded7781e617ff8d58ea63f20919433b6c6898"
+      },
+      {
+        "document-url": "https://www.nelincs.gov.uk/assets/uploads/2024/02/Frequently-Asked-Questions-Local-Plan-3.docx",
+        "documentation-url": "https://www.nelincs.gov.uk/planning-and-building-control/planning-policy/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Frequently Asked Questions",
+        "reference": "FAQ-2024",
+        "document-status": "consultation",
+        "endpoint": "ac320609eaf2f1b1b0ac0759e784ff068ffa684ef7c00e14eae7978b0829e737"
+      }
+    ]
+  }
+]

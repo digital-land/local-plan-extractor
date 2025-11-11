@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:SLG",
+    "organisation-name": "Slough Borough Council",
+    "reference": "LP-SLG-2025",
+    "documentation-url": "https://www.slough.gov.uk/planning-policy/new-local-plan-slough",
+    "document-url": "",
+    "name": "Slough Local Plan 2025-2045",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://www.slough.gov.uk/downloads/file/4771/statement-of-community-involvement-consultation-form",
+        "documentation-url": "https://www.slough.gov.uk/downloads/download/1394/statement-of-community-involvement-consultation-response-form",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement consultation form",
+        "reference": "SCI-2025",
+        "document-status": "consultation",
+        "endpoint": "3a56ea3303b25cbc04050842831f383d202e991696c93d7143e4ca1bb1901d52"
+      }
+    ]
+  }
+]

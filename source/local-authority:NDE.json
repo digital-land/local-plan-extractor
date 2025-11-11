@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:NDE",
+    "organisation-name": "North Devon District Council",
+    "reference": "LP-NDE-2024",
+    "documentation-url": "https://www.northdevon.gov.uk/council/public-consultation",
+    "document-url": "https://www.northdevon.gov.uk/sites/default/files/2024-03/Community%20Engagement%20Strategy%202024-2027.pdf",
+    "name": "Community Engagement Strategy 2024-2027",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.northdevon.gov.uk/sites/default/files/2024-03/Community%20Engagement%20Strategy%202024-2027.pdf",
+        "documentation-url": "https://www.northdevon.gov.uk/council/public-consultation",
+        "document-type": "local-plan",
+        "name": "Community Engagement Strategy 2024-2027",
+        "reference": "LP-2024-2027",
+        "document-status": "adopted",
+        "endpoint": "386d6da69e067f331b08fd5fad5e4624ed00361d17062fc0ae4bc6fa2d75f09b"
+      }
+    ]
+  }
+]

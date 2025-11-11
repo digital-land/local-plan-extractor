@@ -1,0 +1,38 @@
+[
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-2015",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/statement-community-involvement",
+    "document-url": "",
+    "name": "Brighton & Hove Development Plan",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINALSCIADOPTED12thMarch2015.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/statement-community-involvement",
+        "document-type": "statement-of-community-involvement",
+        "name": "SCI Adopted 12 March 2015",
+        "reference": "SCI-2015",
+        "document-status": "adopted",
+        "endpoint": "4f4a1db3386b1872b56632c80bf179096ad1b9b9bbdcab771076dd4faedc51a7"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-2041",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy",
+    "document-url": "",
+    "name": "City Plan 2041",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": []
+  }
+]

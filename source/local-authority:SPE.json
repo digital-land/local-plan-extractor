@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:SPE",
+    "organisation-name": "Spelthorne Borough Council",
+    "reference": "LP-SPE-2022",
+    "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+    "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25297/Pre-submission-Spelthorne-Local-Plan-2022-2037/pdf/Pre-submission_Spelthorne_Local_Plan_2022_-_2037-compressed.pdf",
+    "name": "Spelthorne Local Plan 2022-2037",
+    "status": "examination",
+    "year": 2022,
+    "period-start-date": 2022,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25297/Pre-submission-Spelthorne-Local-Plan-2022-2037/pdf/Pre-submission_Spelthorne_Local_Plan_2022_-_2037-compressed.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre-submission Spelthorne Local Plan 2022 - 2037",
+        "reference": "LP-2022-2037",
+        "document-status": "examination",
+        "endpoint": "5c82db936a6dace283c8d030830b9ba0da54495a7230d231e3ea0c44fd38bed5"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25298/Pre-submission-Policies-Map/pdf/Pre-submission_Spelthorne_Local_Plan_2022_-_2037_-_Policies_Map-compressed_1.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Pre-submission Policies Map",
+        "reference": "PM-2022",
+        "document-status": "examination",
+        "endpoint": "beacfb96f81ad011425ed491142246689f130e8fb2a69b8ea0b1695eca70f156"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25299/Draft-Staines-Development-Framework/pdf/STC001_Staines_Development_Framework_-_V2_DRAFT_Landscape_-_April_2022_NL_contents.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Draft Staines Development Framework",
+        "reference": "SDF-2022",
+        "document-status": "examination",
+        "endpoint": "ff21f3ffe459c8273143150f370e6a730700ba21e6e12a2d2ff26d7f3542fc0e"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25343/Topic-Paper-1-Background-and-Exceptional-Circumstances-Case/pdf/Topic_Paper_1_-_Background_and_Exceptional_Circumstances_Case_.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Topic Paper 1 - Background and Exceptional Circumstances Case",
+        "reference": "TP1-2022",
+        "document-status": "examination",
+        "endpoint": "6c91a4e0e20df9587f60d0d7ce5c702e64a86c001caa715cee6ef1bfeedbd795"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25316/Local-Plan-Housing-Trajectory-and-Five-Year-Housing-Land-Supply/pdf/Housing_Trajectory___5YHLS_Local_Plan_2022_REG_19.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Housing Trajectory and Five Year Housing Land Supply",
+        "reference": "HT-2022",
+        "document-status": "examination",
+        "endpoint": "0be2449068f0ce7b7a99f7b5373bbe8b821a09aff34a09d5ac004a7195615754"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25347/Local-Plan-and-potential-CIL-review-Viability-Assessment/pdf/Local_Plan_and_potential_CIL_review_Viability_Assessment.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "viability-assessment",
+        "name": "Local Plan and potential CIL review Viability Assessment",
+        "reference": "VA-2022",
+        "document-status": "examination",
+        "endpoint": "f5f52d5e83502c16312e7fc45cac0bfa9374db5fb7bbd9c87b60f20070e956ca"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25339/Green-Belt-Assessment-Stage-3-Report/pdf/Green_Belt_Assessment_Stage_3_Report.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Green Belt Assessment Stage 3 Report",
+        "reference": "GBA-2022",
+        "document-status": "examination",
+        "endpoint": "da86ca17fdf4bf14265868f4fb12570c34300e089593047f88edd7db5851a508"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25344/Level-2-Strategic-Flood-Risk-Assessment-Report/pdf/SBC_L2_SFRA_Report.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 - Strategic Flood Risk Assessment Report",
+        "reference": "SFRA-2022",
+        "document-status": "examination",
+        "endpoint": "677526a881d651e46e9196dd53330ba1eb8327b94ec53385035fbe288be5df0c"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25326/Spelthorne-Local-Plan-Strategic-Highway-Assessment-Report-Technical-Annex/pdf/Doc02_Spelthorne_Local_Plan_SHAR_Technical_Annex_Final.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Spelthorne Local Plan Strategic Highway Assessment Report: Technical Annex",
+        "reference": "SHAR-2022",
+        "document-status": "examination",
+        "endpoint": "65c7c6cc289c8fc619f090c44e39cb536cbdf4a8399ca8ee05f45c60d1b2dd13"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25394/Planning-for-Housing-Delivery-Report/pdf/PlanningHousingDelivery_Report_170822.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Planning for Housing Delivery Report",
+        "reference": "PHD-2022",
+        "document-status": "examination",
+        "endpoint": "1dec082912eff63f62a14d023d659402558f03fcef61c99e5dece1c03be7b971"
+      },
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25391/Habitats-Regulations-Assessment-Stage-1-Screening/pdf/Habitats_Regulations_Assessment_-_Stage_1_Screening.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment - Stage 1 Screening",
+        "reference": "HRA-2022",
+        "document-status": "examination",
+        "endpoint": "e5199aef9f2b886f4b91d718ca71bd53c34c5dc00f35ec1eb78f14abb61db323"
+      }
+    ]
+  }
+]

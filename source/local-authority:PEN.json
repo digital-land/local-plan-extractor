@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:PEN",
+    "organisation-name": "Pendle Borough Council",
+    "reference": "LP-PEN-2024",
+    "documentation-url": "https://www.pendle.gov.uk/homepage/134/development_plan",
+    "document-url": "",
+    "name": "Pendle Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.pendle.gov.uk/homepage/133/planning_policy",
+        "document-type": "local-plan",
+        "name": "Development Plan",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "organisation": "local-authority:HRW",
+    "organisation-name": "London Borough of Harrow",
+    "error": "Expecting ',' delimiter: line 224 column 10 (char 11657)"
+  }
+]

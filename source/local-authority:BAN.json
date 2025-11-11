@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:BAN",
+    "organisation-name": "Basingstoke and Deane Borough Council",
+    "reference": "LP-BAN-2016",
+    "documentation-url": "https://www.basingstoke.gov.uk/planningpolicy",
+    "document-url": "https://www.basingstoke.gov.uk/content/doclib/1592.pdf",
+    "name": "Adopted Local Plan 2011 to 2029",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "https://www.basingstoke.gov.uk/content/doclib/1592.pdf",
+        "documentation-url": "https://www.basingstoke.gov.uk/planningpolicy",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan (2011 to 2029)",
+        "reference": "LP-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "1c63a33c32cd771c78dd580643c5dfb1efe2b6579f84b4a48138501c82104c9f"
+      },
+      {
+        "document-url": "https://www.basingstoke.gov.uk/content/page/44903/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.basingstoke.gov.uk/planningpolicy",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "95c199d3263e03b08c07445b12fdfa2d2f9b81ce143e02127e3118ac6c0c3d2c"
+      },
+      {
+        "document-url": "https://www.basingstoke.gov.uk/content/page/44905/SEA%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.basingstoke.gov.uk/planningpolicy",
+        "document-type": "adoption-statement",
+        "name": "SEA Adoption Statement",
+        "reference": "SEA-AS-2016",
+        "document-status": "adopted",
+        "endpoint": "343590b04b4bf46493cdc2d045dda1c9a0d9e1704ada6c0aed32a4eb312f012e"
+      },
+      {
+        "document-url": "https://www.basingstoke.gov.uk/content/page/45145/BASINGSTOKE%20POLICIES%20MAP.pdf",
+        "documentation-url": "https://www.basingstoke.gov.uk/adopted-policies-map",
+        "document-type": "policies-map",
+        "name": "Basingstoke Policies Map",
+        "reference": "PM-2016",
+        "document-status": "adopted",
+        "endpoint": "f37968c064bb353635615064029562d6d89cec7cc2154883e8bd26309072dcfb"
+      },
+      {
+        "document-url": "https://www.basingstoke.gov.uk/content/page/44160/Inspectors%20Report%20April%202016.pdf",
+        "documentation-url": "https://www.basingstoke.gov.uk/localplanexamination",
+        "document-type": "inspectors-report",
+        "name": "Inspectors report - April 2016",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "230ebe3245f89d1b1fb486d639eead06e658532ebe2b64bf895f1ad8b1fe5fca"
+      }
+    ]
+  }
+]

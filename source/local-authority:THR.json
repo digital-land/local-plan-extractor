@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:THR",
+    "organisation-name": "Thurrock Council",
+    "reference": "LP-THR-2024",
+    "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+    "document-url": "",
+    "name": "New Local Plan for Thurrock",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/thurrock_local_development_scheme_march_2025.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/development-plans-explained/development-plan-timetable",
+        "document-type": "local-development-scheme",
+        "name": "Thurrock Local Development Scheme - March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "c99af1bae099bdfb388068a8a73756ef6584bbf55e3ac17f21c7085384242a24"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/thurrock_council_local_plan_review.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+        "document-type": "local-plan-review",
+        "name": "Thurrock Council Local Plan Review",
+        "reference": "LPR-2024",
+        "document-status": "adopted",
+        "endpoint": "7110e9a9e2b63a878c64930b98ac5cf6bab9e667a55e81f2ed511bde1b5f2f00"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/appendix_a_-_local_plan_timetable_delay_analysis_and_implications.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Appendix A - Local Plan timetable delay analysis and implications",
+        "reference": "LDS-DELAY-2024",
+        "document-status": "adopted",
+        "endpoint": "6fbaf091e6d092d50d5af9c85efb256495db2ba88408e37150f44583e2cf93b9"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-integratedimpactassessment-202206-pt1-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment scoping report, June 2022, part 1",
+        "reference": "IIA-2022-PT1",
+        "document-status": "consultation",
+        "endpoint": "69f3d1a9204d9ff132c470911228b34663e13cf2028f979a2226a1baafad7f18"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-integratedimpactassessment-202206-pt2-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment scoping report, June 2022, part 2",
+        "reference": "IIA-2022-PT2",
+        "document-status": "consultation",
+        "endpoint": "15b0b4c3ea9e8b48884b7cbb7f187ff5d8d64f268703e33fe02fc08fa4d99143"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan_sa_201602_draft_report.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal scoping report (draft), February 2016",
+        "reference": "SA-2016",
+        "document-status": "draft",
+        "endpoint": "f5ef90369ebb081cf034c802123faebded33c339b5f65900308a6c42ab958a36"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan_sa_201602_draft_appendices.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal scoping report appendices (draft), February 2016",
+        "reference": "SA-2016-APP",
+        "document-status": "draft",
+        "endpoint": "e8bc1656e799c90fb5fc02d9000cddbfef207adccb6e2763b785544973f371db"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-ios2-isa-201812-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "sustainability-appraisal",
+        "name": "Integrated Sustainability Appraisal, December 2018",
+        "reference": "ISA-2018",
+        "document-status": "consultation",
+        "endpoint": "b6840e319bece6ed144be8f122a13300f69a8d5b825392a00842233f18404fa0"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-ios2-isa-201812-appendices-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "sustainability-appraisal",
+        "name": "Integrated Sustainability Appraisal, December 2018 – appendices",
+        "reference": "ISA-2018-APP",
+        "document-status": "consultation",
+        "endpoint": "a7ec9d714c2a0d9316d7bdba6c1b62c3f17e348e6c6cfa77eff74059580541bf"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-hra-scoping-201901-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment: scoping and discussion, January 2019",
+        "reference": "HRA-2019",
+        "document-status": "consultation",
+        "endpoint": "defe4f5cd3cde5979821ec1ccc60ebe1764c46837698421f64a0c9e765b1d124"
+      }
+    ]
+  }
+]

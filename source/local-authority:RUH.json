@@ -1,0 +1,197 @@
+[
+  {
+    "organisation": "local-authority:RUH",
+    "organisation-name": "Rushmoor Borough Council",
+    "reference": "LP-RUH-2019",
+    "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+    "document-url": "https://www.rushmoor.gov.uk/media/uwbafz5t/final_rushmoor_local_plan_web_version.pdf",
+    "name": "Rushmoor Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/uwbafz5t/final_rushmoor_local_plan_web_version.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "local-plan",
+        "name": "Rushmoor Local Plan",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "9b2d220557f8a4e76b7932374dc483dd51653c21117397e5080c16b26aca0be7"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/5prc554h/adoption_statement-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "adoption-statement",
+        "name": "Local plan adoption statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "0292d010ec4a6d1c0327c8da4c3114b762c97e4571ec4bee560356c5ce71db21"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/14fp4suk/local_plan_inspectors_report_final-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "inspectors-report",
+        "name": "Local plan inspector's report",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "33fcc29843c23a467ce3767da8ace5ec51ca989a4114de993e31eee96a9620ab"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/wrznaddk/habitats_reg_assessment_2017_-_final.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats regulations assessment (HRA)",
+        "reference": "HRA-2017",
+        "document-status": "adopted",
+        "endpoint": "8276e4229088e94fd529c49ac3be0343bfc37d0b8a972c29731376d849a55a57"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/exjlvmv3/equality_impact_assessment_-_local_plan_2017-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities impact assessment (EiA)",
+        "reference": "EIA-2017",
+        "document-status": "adopted",
+        "endpoint": "f4dd6006b6d60600e8a7c9e543b5dcabf9d7bb034e04284e9756044b05687d82"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/rt5pdvto/sa_reg_19_final_report.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal (SA)",
+        "reference": "SA-2019",
+        "document-status": "adopted",
+        "endpoint": "f994e3d9ad62942093f961b4e73e0ddc3cd0e9f95f3bb49a0045cc1e5f474780"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/3j2fvs5g/rushmoor_local_plan_sa_adoption_statement_v4_final_050319.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "adoption-statement",
+        "name": "Sustainability appraisal (SA) adoption statement",
+        "reference": "SA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "a74dd0fb6d4e7fc4daf084ed8115ddde7dfba68dd078982234fdce8be0291d8e"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/xwsdscku/sa_non_tech_summary_reg_19_2017_final.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal (SA) non-technical summary",
+        "reference": "SA-NTS-2017",
+        "document-status": "adopted",
+        "endpoint": "5f127600df0f5cf728674bb9dae1672f0428c05cdd2e88fbb7d69017ad325276"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/ujxhmqrv/cd01_08_duty_to_cooperate_statement_2018.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/",
+        "document-type": "local-plan",
+        "name": "Duty to cooperate statement (2018)",
+        "reference": "DTC-2018",
+        "document-status": "adopted",
+        "endpoint": "7777034a7a4e4389754d27ac2d3effbf74c8aeb8135ec3322dde3b21c83ba4d0"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/v1mfyehu/local_plan_policies_map-aldershot-feb-2019-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/local-plan-policies-map/",
+        "document-type": "policies-map",
+        "name": "Rushmoor Local Plan policies map - Aldershot",
+        "reference": "PM-ALD-2019",
+        "document-status": "adopted",
+        "endpoint": "d551d7aaf2f9677619bee23b5771f0ae0749e841c39a243b320ac8681baa3608"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/gmta40qx/local_plan_policies_map_-_farnborough_-_feb_2019-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/local-plan-policies-map/",
+        "document-type": "policies-map",
+        "name": "Rushmoor Local Plan policies map - Farnborough",
+        "reference": "PM-FBR-2019",
+        "document-status": "adopted",
+        "endpoint": "00934d0369233584143a6b3744f75fec333058be3b9b04413cf22eeaa6a18041"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/yvybqieb/local_plan_policies_map_-_insets_-_feb_2019-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/local-plan-policies-map/",
+        "document-type": "policies-map",
+        "name": "Rushmoor Local Plan policies map - Insets for Aldershot, Farnborough and North Camp",
+        "reference": "PM-INS-2019",
+        "document-status": "adopted",
+        "endpoint": "8a735799f74ac31bbedeb2ec059ae2b4709d0a2e4269b942107cd37c1b97248c"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/l2hlmbck/rushmoor-local-plan-policies-map-schedule-of-factual-changes-june-2025.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/the-rushmoor-local-plan/local-plan-policies-map/",
+        "document-type": "policies-map",
+        "name": "Rushmoor Local Plan policies map - Schedule of Factual Changes (June 2025)",
+        "reference": "PM-CHG-2025",
+        "document-status": "adopted",
+        "endpoint": "f3b5afdb0230d8fecd128a7bb3a2530cd39b2bb5af47ae3ebb0f0688146340b6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUH",
+    "organisation-name": "Rushmoor Borough Council",
+    "reference": "LP-RUH-2011",
+    "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+    "document-url": "https://www.rushmoor.gov.uk/media/jrzm4u0b/core_strategy_on-line.pdf",
+    "name": "Rushmoor Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/jrzm4u0b/core_strategy_on-line.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+        "document-type": "core-strategy",
+        "name": "Rushmoor Core Strategy (2011)",
+        "reference": "CS-2011",
+        "document-status": "withdrawn",
+        "endpoint": "688be67690172e0f3c6cef508029ed9f531850edb666eee73c85d5499c91052e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUH",
+    "organisation-name": "Rushmoor Borough Council",
+    "reference": "LP-RUH-2000",
+    "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+    "document-url": "https://www.rushmoor.gov.uk/media/es5fdhi4/consolidated_lpr_-with_adoption_of_cs.pdf",
+    "name": "Local Plan Review 1996-2011",
+    "status": "adopted",
+    "year": 2000,
+    "period-start-date": 1996,
+    "period-end-date": 2011,
+    "documents": [
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/es5fdhi4/consolidated_lpr_-with_adoption_of_cs.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review 1996-2011 (2000)",
+        "reference": "LPR-2000",
+        "document-status": "withdrawn",
+        "endpoint": "1c421f2cc4fd4a3c5d31768cb4d539cbede734762ef6221034ca86e162585c2f"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/yr3obtw3/proposals_map_final_071211-150dpi-max.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+        "document-type": "policies-map",
+        "name": "Proposals Map of Rushmoor Core Strategy and Saved Policies from the Local Plan Review",
+        "reference": "PM-PROP-2011",
+        "document-status": "withdrawn",
+        "endpoint": "bfe89ab72a861065e245a980c61b6401edd3873df0619246e9cbfa8ffd09a250"
+      },
+      {
+        "document-url": "https://www.rushmoor.gov.uk/media/u25g0vqf/statement_to_confirm_revocation_of_spds_-june_2019-accessible.pdf",
+        "documentation-url": "https://www.rushmoor.gov.uk/planning-and-building-control/planning-policies/former-local-plans-and-policies/",
+        "document-type": "supplementary-planning-document",
+        "name": "Statement to Confirm Revocation of Supplementary Planning Documents (June 2019)",
+        "reference": "SPD-REV-2019",
+        "document-status": "withdrawn",
+        "endpoint": "0bb58d55cc4781db2e1e241fe286b8fa3d07ade2ef3818cc195e230ea2fc6c52"
+      }
+    ]
+  }
+]

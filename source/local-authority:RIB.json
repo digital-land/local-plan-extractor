@@ -1,0 +1,206 @@
+[
+  {
+    "organisation": "local-authority:RIB",
+    "organisation-name": "Ribble Valley Borough Council",
+    "reference": "LP-RIB-2022",
+    "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+    "document-url": "https://www.ribblevalley.gov.uk/downloads/file/3076/regulation-18-strategic-matters-consultation-document",
+    "name": "Ribble Valley Local Plan Review",
+    "status": "regulation-18",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/3076/regulation-18-strategic-matters-consultation-document",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Regulation 18 Strategic Matters Consultation Document",
+        "reference": "LP-REG18-2022",
+        "document-status": "consultation",
+        "endpoint": "a557dbe59a54c98cf692c652b13d249e21d90bc0f1a2def5076cc6a2fd20a85e"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/3020/sustainability-appraisal-scoping-report",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - Scoping Report",
+        "reference": "SA-2022",
+        "document-status": "consultation",
+        "endpoint": "888ce770a3b81e230c460a080952462d2440cf5602b500eef13a78a403bcad52"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/2617/statement-of-community-involvement-sci-2020",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2021",
+        "document-status": "adopted",
+        "endpoint": "ba182d3b87fdd23faee26f1d8b2f8de1f78dd592a4fc0b58986ecb0f11502556"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/2846/public-transport-position-paper",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Public Transport Position Paper 2021",
+        "reference": "PTPP-2021",
+        "document-status": "adopted",
+        "endpoint": "e261dba0e3029fd9ba689254b196d6b3ac0660c14653d4203c7c094c3246fff9"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/2456/service-centre-health-checks-2021",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Service Centre Health Checks 2021",
+        "reference": "SCHC-2021",
+        "document-status": "adopted",
+        "endpoint": "17248cd1fc1dc54c521cda0eb37002ee9f0bb890d1beb4fb16d932aa24b40f55"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/2570/climate-change-strategy-2021-2030",
+        "documentation-url": "https://www.ribblevalley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Climate Change Strategy 2021",
+        "reference": "CCS-2021",
+        "document-status": "adopted",
+        "endpoint": "d8db2c63c4d36fe1d10e75d3ea24734d6f693acc7b915acb1bf80f450016f786"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RIB",
+    "organisation-name": "Ribble Valley Borough Council",
+    "reference": "LP-RIB-2014",
+    "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+    "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1903/adopted-central-lancashire-core-strategy-july-2012",
+    "name": "Central Lancashire Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1903/adopted-central-lancashire-core-strategy-july-2012",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "core-strategy",
+        "name": "Adopted Central Lancashire Core Strategy July 2012",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "10f7e288a98fad062583c2f99b528d25d7c71bf5283e5bb6867553b92e30940e"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1876/core-strategy-topic-paper-discussion-on-the-approach-to-the-preferred-option-november-2011",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Topic paper - Discussion on the Approach to the Preferred Option - November 2011",
+        "reference": "CS-TP-2011",
+        "document-status": "examination",
+        "endpoint": "d78e37838643c24e9a735d1f9f50558cc30af2f995304a913e101a18dc76355a"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1879/core-strategy-generation-of-alternative-development-strategy-options-june-2011",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Generation of Alternative Development Strategy Options June 2011",
+        "reference": "CS-DSO-2011",
+        "document-status": "examination",
+        "endpoint": "49268cf6c3b6cee527978918b95ef938a4a864dfb4371caeaafef891202aa6eb"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1880/core-strategy-consultation-regulation-25-report-july-2010",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Consultation Regulation 25 Report July 2010",
+        "reference": "CS-REG25-2010",
+        "document-status": "consultation",
+        "endpoint": "8cb4990e6ab29f468d0e121c1baca2dae0d9f02ed334fb8d4c5667ff9c4ecca8"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1884/core-strategy-proposed-revisions-to-key-statements-and-development-management-policies-june-2011",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "development-management-policies",
+        "name": "Core Strategy - Proposed Revisions to Key Statements and Development Management Policies June 2011",
+        "reference": "DMP-2011",
+        "document-status": "examination",
+        "endpoint": "477b3028c71a19b32570b575d7ec418e93dd6b72f9dd8cce604959886e6b1212"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1873/housing-land-availability-schedule-october-2013",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Housing Land Availability Schedule October 2013",
+        "reference": "HLAS-2013",
+        "document-status": "examination",
+        "endpoint": "0d3a0c5d7365f6a50b2e52c50c11b75d916c77b88a2c941681e28500c67ec53c"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1888/strategic-housing-land-availability-assessment-report-update-november-2013",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing Land Availability Assessment Report Update November 2013",
+        "reference": "SHLAA-2013",
+        "document-status": "examination",
+        "endpoint": "6255f1a29921c01b36535804705af507bda838ace23226ca28e0e40c782b845f"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1871/annual-monitoring-report-april-2013",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "authority-monitoring-report",
+        "name": "Annual Monitoring Report April 2013",
+        "reference": "AMR-2013",
+        "document-status": "examination",
+        "endpoint": "7763ac33eea40454719c48dbdc987fe5eab288fc5d3cb80edb73a629aa24c3d7"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1877/summary-of-representations-received-at-alternative-options-stage-reg-25-october-2011",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "representation-statement",
+        "name": "Summary of Representations received at Alternative Options Stage (Reg 25) October 2011",
+        "reference": "REP-REG25-2011",
+        "document-status": "examination",
+        "endpoint": "7a648b8d7f983067c23f2a83673fad44993c70347c1875bb49ce0ba4b8470b67"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1878/summary-of-representations-received-on-reg-25-consultation-march-2011",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "representation-statement",
+        "name": "Summary of Representations received on Reg 25 Consultation March 2011",
+        "reference": "REP-2011",
+        "document-status": "examination",
+        "endpoint": "f60c215efdcb3be91f22c118a5516706b5ad04ccef78a914184f3778ddcdfd1e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RIB",
+    "organisation-name": "Ribble Valley Borough Council",
+    "reference": "LP-RIB-2013",
+    "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+    "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1882/joint-lancashire-minerals-and-waste-local-plan-site-allocation-and-development-management-policies-part-1-sept-2013",
+    "name": "Joint Lancashire Minerals and Waste Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1882/joint-lancashire-minerals-and-waste-local-plan-site-allocation-and-development-management-policies-part-1-sept-2013",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "site-allocations",
+        "name": "Joint Lancashire Minerals and Waste Local Plan - Site Allocation and Development Management Policies Part 1 Sept 2013",
+        "reference": "JMWLP-P1-2013",
+        "document-status": "adopted",
+        "endpoint": "2498335c60082d7c86e30a15ec094455fe1da6249ad982f7033281deb737d7bb"
+      },
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1883/joint-lancashire-minerals-and-waste-local-plan-site-allocation-and-development-management-policies-part-two-sep-2013",
+        "documentation-url": "https://www.ribblevalley.gov.uk/downloads/download/335/core-strategy-examination-documents",
+        "document-type": "site-allocations",
+        "name": "Joint Lancashire Minerals and Waste Local Plan - Site Allocation and Development Management Policies Part Two Sep 2013",
+        "reference": "JMWLP-P2-2013",
+        "document-status": "adopted",
+        "endpoint": "7e06c0fe4cb0dee084da83d2b39a2164f4bfecf3392616c682548ec483f3deaa"
+      }
+    ]
+  }
+]

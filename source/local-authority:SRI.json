@@ -1,0 +1,97 @@
+[
+  {
+    "organisation": "local-authority:SRI",
+    "organisation-name": "South Ribble Borough Council",
+    "reference": "LP-SRI-2041",
+    "documentation-url": "https://centrallocalplan.lancashire.gov.uk/",
+    "document-url": "",
+    "name": "Central Lancashire Local Plan 2023-2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2041,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:SRI",
+    "organisation-name": "South Ribble Borough Council",
+    "reference": "LP-SRI-2015",
+    "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+    "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/602/local-plan-adopted-july-2015",
+    "name": "South Ribble Local Plan 2015",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/602/local-plan-adopted-july-2015",
+        "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-2015",
+        "document-status": "adopted",
+        "endpoint": "3414225460616a0c8853a5f120f0fe3e6c3677eba17a6930563266a541a976f0"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/604/sustainability-appraisal-of-local-plan",
+        "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "37f403a97b13e5ae1019a52ccca8ccbdb7d0b1b45681293db8e849f970ad8cba"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/605/inspectors-final-report-june-2015",
+        "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+        "document-type": "local-plan",
+        "name": "Inspectors' Final Report - June 2015",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "f9638262b54e3524f23ec5bfa7c26c21d09992cf5796b520d0eb53f86f91b800"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/606/local-plan-policies-map",
+        "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map",
+        "reference": "PM-2015",
+        "document-status": "adopted",
+        "endpoint": "22e2e99077ddcca5b202ce44ed99702c374b9bc0e0ccf60f3f277d09b8828dc9"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/607/local-plan-policies-map-main-urban-area",
+        "documentation-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/planning-building-control/south-ribble-local-plan-2015",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map - Main Urban Area",
+        "reference": "PM-2015-URBAN",
+        "document-status": "adopted",
+        "endpoint": "b67cc4840120194e2f26e6ebd88e92ea876563967eb5cb3f4ffaaa191d389fbe"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SRI",
+    "organisation-name": "South Ribble Borough Council",
+    "reference": "CS-SRI-2012",
+    "documentation-url": "https://www.southribble.gov.uk/planning-policy",
+    "document-url": "",
+    "name": "Central Lancashire Core Strategy DPD 2012",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/south-ribble-council/downloads/file/770/local-development-scheme-lds-",
+        "documentation-url": "https://www.southribble.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (LDS)",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "21c17f1c353d88faf7cbc1b77837924b6b14d8f179145aa3150f8f22c54fb000"
+      }
+    ]
+  }
+]

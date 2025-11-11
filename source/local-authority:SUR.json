@@ -1,0 +1,169 @@
+[
+  {
+    "organisation": "local-authority:SUR",
+    "organisation-name": "Surrey Heath Borough Council",
+    "reference": "LP-SUR-2025",
+    "documentation-url": "https://www.surreyheath.gov.uk/newlocalplan",
+    "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2024-12/Submission%20Statement%20of%20Fact%2C%20December%202024.pdf",
+    "name": "Surrey Heath Local Plan 2019-2038",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2019,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2024-12/Submission%20Statement%20of%20Fact%2C%20December%202024.pdf",
+        "documentation-url": "https://www.surreyheath.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Submission Statement of Fact, December 2024",
+        "reference": "LP-2024",
+        "document-status": "examination",
+        "endpoint": "0bd31515143f60db17e20dda95594e95807a6a3c3486b6656ea5709c95914b6e"
+      },
+      {
+        "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2025-08/Notice%20of%20Examination%20Hearings.pdf",
+        "documentation-url": "https://www.surreyheath.gov.uk/newlocalplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Notice of Examination Hearings",
+        "reference": "EHS-2025",
+        "document-status": "examination",
+        "endpoint": "0676a4f1fe588943752793277a1ce8e02488dad9a9d70de7987a7fca6f4975c8"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_a20abed793ac4358b6e331876a8cf9f4.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Inspector Letter re Consultation and Further Hearing",
+        "reference": "ID6-2025",
+        "document-status": "examination",
+        "endpoint": "13a54508cff19264b6714e4a4963153cb40c17f7610e1afe30ff930ddc2f627f"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_c11651e4b08f42c3badfd2e67ffeaeb6.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Updated position on Net Zero Carbon Viability & Definition with Proposed Modifications to Policies SS3a and DH8",
+        "reference": "SHBC24-2025",
+        "document-status": "examination",
+        "endpoint": "ebd797a5ec8b1ef00800e8ebb33dd2e20ad93e6b19f3e944a411ab60f9e97d64"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_88851ef0d241496081b592d2045e2c25.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Strategic Land Availability Assessment Update 2025",
+        "reference": "SLAA-2025",
+        "document-status": "examination",
+        "endpoint": "919ca1c66770cfda5e3dba55a07ce678605224ed7a18ef5e9e66bcb3215a2587"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_a600d25b43574d5783cc4b761dd66ef3.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 Strategic Flood Risk Assessment Addendum",
+        "reference": "SFRA-2025",
+        "document-status": "examination",
+        "endpoint": "bf1e6e101c1a214676f46066dd3a43c44795618eb59a0b6111a939c278dc64ad"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_d472d8abf84d4ba599aee7a9aa3008d3.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 Strategic Flood Risk Assessment",
+        "reference": "SFRA-L2-2025",
+        "document-status": "examination",
+        "endpoint": "ebeaf403eb94b5dd539d19d3aec1416be4f740cbe3870143965a5fcdcb2ca2f2"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_8169b456e5754a79ad8c48935d09ab85.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "site-allocations",
+        "name": "Sequential and Exception Test for Site Allocations",
+        "reference": "SA-SET-2025",
+        "document-status": "examination",
+        "endpoint": "ddea91b92cedd63fb93c28fd643870b644000ffaf82f97e22b19072412e0c471"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_d247deaf755e41b6a5f7549cd4c7d0ab.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "site-allocations",
+        "name": "Sequential & Exception Tests for Site Allocations - Flood Map for Planning Addendum",
+        "reference": "SA-FMP-2025",
+        "document-status": "examination",
+        "endpoint": "5b657eb9da913511f22be8a5046439989cbeb34aabbae32e88001bcfe1e33e80"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_371739a3c69343aaab315a54616a8193.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "water-cycle-study",
+        "name": "Water Cycle Study - Stage 2",
+        "reference": "WCS-2025",
+        "document-status": "examination",
+        "endpoint": "0b5e8d5132d7853703f5ebd35092d875b54483581224533dfd520d8436ac1d78"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_b7bd46c1cbaa4bcf9ca498b3b31a4980.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground with the Environment Agency (Position Update)",
+        "reference": "SOCG-EA-2025",
+        "document-status": "examination",
+        "endpoint": "bde533126eacecf88a0f609d14bc94a5a7eaf26656b49c772a50a4fe77e8d0fe"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_f9a10e976e454f14ac4182a56037e802.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground with Homes England",
+        "reference": "SOCG-HE-2025",
+        "document-status": "examination",
+        "endpoint": "d8d465d4bc0b0994900dd8488775f27cd798d02c6324759284402c19aadf05b6"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_cae7e27049e04dc2801694a8325120f4.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "neighbourhood-plan",
+        "name": "Chobham Neighbourhood Plan 2024 - 2038",
+        "reference": "NP-CHOBHAM-2024",
+        "document-status": "adopted",
+        "endpoint": "19f0d54559b341f70bb6549f5dac67e069b316b974a85e98cbedd54cf5622927"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_9e1fbafe9efe4ae99ea39cead43eee2b.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Surrey Viability Toolkit – Net Zero Carbon Development Report",
+        "reference": "VT-NZCD-2025",
+        "document-status": "examination",
+        "endpoint": "2d0d66ea24406c37d4e9cc15f9a6ee48963ebbe8ff731d40d625cfe7f278ca3a"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_b4a2f8cbdf7b4a24a44781a118025403.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Surrey Viability Toolkit – Part A Summary Report",
+        "reference": "VT-PA-2025",
+        "document-status": "examination",
+        "endpoint": "446da4250acba5971a14d2cb3e3dc0f832f98989642bfb7ebeae4c828902ddb5"
+      },
+      {
+        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_9a1eea0da1454a5d8b4bdc885aad871b.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "local-plan",
+        "name": "Surrey Viability Toolkit – Part B Energy Modelling and Technical Feasibility Report",
+        "reference": "VT-PB-2025",
+        "document-status": "examination",
+        "endpoint": "b8bbd01fdfc7ae37992742fa32276d2d6e8beff0e996fe06ef8d62cb53af3051"
+      },
+      {
+        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_b802845da84343248f44ab34b128d9e7.pdf",
+        "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
+        "document-type": "policies-map",
+        "name": "Schedule of Proposed Changes to Policies Map",
+        "reference": "PM-2025",
+        "document-status": "examination",
+        "endpoint": "2bf038c544044ad7bed85889c3c196b44320ab214cc9e62377623b0945bc7fef"
+      }
+    ]
+  }
+]

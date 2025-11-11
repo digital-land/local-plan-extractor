@@ -1,0 +1,178 @@
+[
+  {
+    "organisation": "local-authority:STR",
+    "organisation-name": "Stratford-on-Avon District Council",
+    "reference": "LP-STR-2031",
+    "documentation-url": "https://www.stratford.gov.uk/planning-building/core-strategy.cfm",
+    "document-url": "",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:STR",
+    "organisation-name": "Stratford-on-Avon District Council",
+    "reference": "LP-STR-2022",
+    "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+    "document-url": "https://www.stratford.gov.uk/doc/211256/name/REVISED%20PREFERRED%20OPTIONS%20SAP%20JUNE%202022%20.pdf",
+    "name": "Site Allocations Plan",
+    "status": "regulation-18",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211256/name/REVISED%20PREFERRED%20OPTIONS%20SAP%20JUNE%202022%20.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Plan Revised Preferred Options (June 2022)",
+        "reference": "SA-DPD-2022",
+        "document-status": "consultation",
+        "endpoint": "14beb0cb4b27a9bea8e3d3b83f6deab5de15f424723b9003073fca6f5451743a"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211348/name/1388%20Key%20Diagram%20JUN22.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "policies-map",
+        "name": "Key Diagram",
+        "reference": "PM-2022",
+        "document-status": "consultation",
+        "endpoint": "879a951fdd74bb4f69744970ea86af6ba7f95bdb584a3bcd04302e2610d9748d"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211257/name/REVISED%20PREFERRED%20OPTIONS%20SAP%20SHOWING%20AMENDMENTS.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Plan Revised Preferred Options – showing changes from version of Plan published in October 2020",
+        "reference": "SA-DPD-2022-CHG",
+        "document-status": "consultation",
+        "endpoint": "a07fcee9c107baee594fdc969443f25b87d3735169ce71ac18c127e6a3bd8f61"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211271/name/Schedule%20of%20Main%20Changes%20in%20Revised%20Preferred%20Options%20SAP.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan-regulation-18",
+        "name": "Schedule of Main Changes in Revised Preferred Options",
+        "reference": "CHG-2022",
+        "document-status": "consultation",
+        "endpoint": "fd164695e6de2b1a3bdd3d0aac763168769a9a4e1d734eec12e297a4220a4fd2"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211258/name/Statement%20of%20Representations%20Procedure.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan",
+        "name": "Statement of Representations Procedure",
+        "reference": "SRP-2022",
+        "document-status": "consultation",
+        "endpoint": "2de155aecc2a3261140991f07f8535875203bae885299419dbf2484609667521"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211259/name/Equality%20Impact%20Assessment%20June%202022%20.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment",
+        "reference": "EIA-2022",
+        "document-status": "consultation",
+        "endpoint": "bd4b4300a4b5f9f9839eebbf260399865ab92717c8bbfc9ff4d594100432111d"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211272/name/Assessment%20of%20comments%20on%20Preferred%20Options%20SAP%20October%202020%20.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "site-allocations",
+        "name": "Assessment of Comments on Preferred Options Site Allocations Plan (October 2020)",
+        "reference": "COM-ASS-2022",
+        "document-status": "adopted",
+        "endpoint": "8a3ddf9fccfd15ccb7525d2350ea2c763afd590d337e6559ad28a7c4b860c8a1"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211262/name/Assessment%20of%20Competing%20Potential%20Reserve%20Housing%20Sites.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan",
+        "name": "Assessment of Competing Potential Reserve Housing Sites",
+        "reference": "HSG-ASS-2022",
+        "document-status": "consultation",
+        "endpoint": "e732f1a594a6169dca1facf9208513928461c95c2ae307e33ab6bb9f3d271505"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211263/name/Assessment%20of%20infrastructure%20capacity%20for%20Reserve%20Housing%20Sites.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan",
+        "name": "Assessment of infrastructure capacity for Reserve Housing Sites",
+        "reference": "INF-ASS-2022",
+        "document-status": "consultation",
+        "endpoint": "27d627057d58e40f7fdb5da6e242ebfbc2dc595ba57305ac480c5302fff49fb2"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211265/name/Assessment%20of%20land%20parcels%20on%20edge%20of%20SuA%20schedule.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan",
+        "name": "Assessment of land parcels on edge of Stratford-upon-Avon",
+        "reference": "LND-ASS-2022",
+        "document-status": "consultation",
+        "endpoint": "e460dbe338cdb2754c6248ca345224e7519cd54a7e444c8cd9a9226fbb173107"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/211264/name/Meon%20Vale%20Local%20Green%20Space%20Assessment.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/site-allocations-plan.cfm",
+        "document-type": "local-plan",
+        "name": "Meon Vale Local Green Space Assessment",
+        "reference": "GRN-ASS-2022",
+        "document-status": "consultation",
+        "endpoint": "f1645475b18cbd9696be6873d3b877342b12af932d061e1e3141ec2a2f76af2e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STR",
+    "organisation-name": "Stratford-on-Avon District Council",
+    "reference": "LP-STR-2025",
+    "documentation-url": "https://www.southwarwickshire.org.uk/swlp/preferred-options.cfm",
+    "document-url": "https://www.southwarwickshire.org.uk/doc/213277/name/Preferred%20Options%202025%20WEB.pdf",
+    "name": "South Warwickshire Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southwarwickshire.org.uk/doc/213277/name/Preferred%20Options%202025%20WEB.pdf",
+        "documentation-url": "https://www.southwarwickshire.org.uk/swlp/preferred-options.cfm",
+        "document-type": "local-plan",
+        "name": "Preferred Options 2025",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "02250263969bafc2fe621d120437f9889d3d560348230aebe29bd2b48f861f7e"
+      },
+      {
+        "document-url": "https://www.southwarwickshire.org.uk/doc/213336/name/Preferred%20Options%20Errata%202025%2001%2024.pdf",
+        "documentation-url": "https://www.southwarwickshire.org.uk/swlp/preferred-options.cfm",
+        "document-type": "local-plan",
+        "name": "Preferred Options Errata 2025",
+        "reference": "ERR-2025",
+        "document-status": "consultation",
+        "endpoint": "7bf219f6366bdd8f4d0abfe19b52f516e3699a1b6855fbcfe70b0df53a7601a0"
+      },
+      {
+        "document-url": "https://www.southwarwickshire.org.uk/doc/213343/name/SWLP%20Presentation%20to%20Developer%20events.pdf",
+        "documentation-url": "https://www.southwarwickshire.org.uk/swlp/preferred-options.cfm",
+        "document-type": "local-plan",
+        "name": "SWLP Presentation to Developer events",
+        "reference": "PRES-2025",
+        "document-status": "consultation",
+        "endpoint": "b4cb75f1aca933ce9e91fe92874c479cc9cd8dea9a2b0509077f962df23c4389"
+      },
+      {
+        "document-url": "https://www.stratford.gov.uk/doc/212301/name/Final%20Merged%20Consultation%20Statement.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/the-south-warwickshire-local-plan.cfm",
+        "document-type": "consultation-statement",
+        "name": "Issues and Options Consultation Statement",
+        "reference": "CS-2023",
+        "document-status": "adopted",
+        "endpoint": "10409db198e62dde3d29942152db77fefac86e225c7e64af398e643da3688da0"
+      }
+    ]
+  }
+]

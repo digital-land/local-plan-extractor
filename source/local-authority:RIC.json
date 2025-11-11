@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:RIC",
+    "organisation-name": "London Borough of Richmond upon Thames",
+    "reference": "LP-RIC-2024",
+    "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy/local_plan",
+    "document-url": "",
+    "name": "Richmond upon Thames Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy",
+        "document-type": "local-plan",
+        "name": "The Local Plan",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisals",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.richmond.gov.uk/planning",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Environmental Impact Assessments",
+        "reference": "EIA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

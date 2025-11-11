@@ -1,0 +1,143 @@
+[
+  {
+    "organisation": "local-authority:NWM",
+    "organisation-name": "London Borough of Newham",
+    "reference": "LP-NWM-2018",
+    "documentation-url": "https://www.newham.gov.uk/localplan",
+    "document-url": "https://www.newham.gov.uk/downloads/file/1111/newham-local-plan-2018-pdf-",
+    "name": "Newham Local Plan 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1111/newham-local-plan-2018-pdf-",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Newham Local Plan 2018",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "834dc30f8f75f7500a8e6a2b8744d6f7e62a60c2725b922a7e349bab176e434f"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1110/local-plan-policies-map-2018-pdf-",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map 2018",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "49ab311e119a38620cdf673db7e878b2f4b6af02223f0e7fd1be17268e712e2c"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1031/adoptionstatementlocalplan",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "9602f25405aabe0ad55720407950d3beedf240b34a7d615a52aa75fa9418c9bf"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1032/inspectorsreport2018",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Inspector's Report (2018 Local Plan)",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "bf957d3fd6cdc06a3ac13ed7a83bf257b7ad7129f503d2526a31b67d332ec033"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1095/sd04integratedimpactassessmentfeb2018",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Integrated Impact Assessment (IIA)",
+        "reference": "IIA-2018",
+        "document-status": "adopted",
+        "endpoint": "96047b6e8906a54ab379d7a59f2d6691bff8410e08f978b51445046c46689916"
+      },
+      {
+        "document-url": "http://www.newham.gov.uk/downloads/file/1033/habitat-regulations-assessment",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation Assessment (HRA)",
+        "reference": "HRA-2018",
+        "document-status": "adopted",
+        "endpoint": "99b916017110558b02e6494e577095711cb96f3052b7748dd3668edfdcac7ddc"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NWM",
+    "organisation-name": "London Borough of Newham",
+    "reference": "LP-NWM-2017",
+    "documentation-url": "https://www.newham.gov.uk/localplan",
+    "document-url": "https://www.newham.gov.uk/downloads/file/1039/gypsyandtravellerdpdadoptedversionsept2017",
+    "name": "Gypsy and Traveller Accommodation Development Plan Document",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1039/gypsyandtravellerdpdadoptedversionsept2017",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Gypsy and Traveller Accommodation Development Plan Document",
+        "reference": "GTDPD-2017",
+        "document-status": "adopted",
+        "endpoint": "ad49a9aab1b715bedca951f71690dc8bdc815689d734e70bf98ee668fd8b1850"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1038/inspectorsreportonthegtadpd",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report GTADPD",
+        "reference": "IR-GTDPD-2017",
+        "document-status": "adopted",
+        "endpoint": "678b96e62a0a44f901fa7a5a000ec5849821ebaf84448b7a5e49d4e374a0a928"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1037/adoptionstatementsep2017",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "GTADPD Adoption Statement",
+        "reference": "AS-GTDPD-2017",
+        "document-status": "adopted",
+        "endpoint": "cc1ac230ddc2290e19fd52f96d9718440e08f28bceedc23e6c64815aa82638af"
+      },
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/1040/gtadpdiiasubmissionversionsept2016",
+        "documentation-url": "https://www.newham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "GTADPD Integrated Impact Assessment",
+        "reference": "IIA-GTDPD-2016",
+        "document-status": "adopted",
+        "endpoint": "9fb9768bd48d2bf3c7efdead48ff4d04b35f893ed81df222e09c653aab291c81"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NWM",
+    "organisation-name": "London Borough of Newham",
+    "reference": "LP-NWM-2025",
+    "documentation-url": "https://www.newham.gov.uk/planning-development-conservation/newham-local-plan-refresh",
+    "document-url": "",
+    "name": "Newham Local Plan Review 2038",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.newham.gov.uk/downloads/file/8825/appendix-3-local-development-scheme-2025",
+        "documentation-url": "https://www.newham.gov.uk/planning-development-conservation/newham-local-plan-refresh",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "903e1150f7b7651463bc5e59a2f1f16ef4c4aef130c508658f2bc84f4c703ed2"
+      }
+    ]
+  }
+]

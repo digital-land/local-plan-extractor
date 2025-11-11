@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:BNE",
+    "organisation-name": "London Borough of Barnet",
+    "reference": "LP-BNE-2024",
+    "documentation-url": "https://www.barnet.gov.uk/planning",
+    "document-url": "",
+    "name": "Barnet Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.barnet.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

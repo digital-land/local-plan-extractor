@@ -1,0 +1,215 @@
+[
+  {
+    "organisation": "local-authority:NSM",
+    "organisation-name": "North Somerset Council",
+    "reference": "LP-NSM-2025",
+    "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2040/pre-submission-plan-2040-reg-19-july-2024",
+    "document-url": "",
+    "name": "North Somerset Local Plan 2040",
+    "status": "regulation-19",
+    "year": 2024,
+    "period-start-date": 2025,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2025-05/additional%20sites%20consultation%20-%20consultation%20statement%20%28May%202025%29.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2040/pre-submission-plan-2040-reg-19-july-2024",
+        "document-type": "consultation-statement",
+        "name": "Additional sites consultation - consultation statement (May 2025)",
+        "reference": "CS-2025",
+        "document-status": "consultation",
+        "endpoint": "55e488fc727537dd067b571e5480b325fcdf7b616e39335f4a3bd3e9a235879d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NSM",
+    "organisation-name": "North Somerset Council",
+    "reference": "LP-NSM-2024",
+    "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/publication-version-2023",
+    "document-url": "https://n-somerset.gov.uk/sites/default/files/2023-10/North%20Somerset%20Local%20Plan%202039%20-%20Pre-submission%20Plan%20%28Reg%2019%29.pdf",
+    "name": "North Somerset Local Plan 2039",
+    "status": "regulation-19",
+    "year": 2023,
+    "period-start-date": 2025,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2023-10/North%20Somerset%20Local%20Plan%202039%20-%20Pre-submission%20Plan%20%28Reg%2019%29.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/publication-version-2023",
+        "document-type": "local-plan-regulation-19",
+        "name": "North Somerset Local Plan 2039 - Pre-submission Plan (Reg 19)",
+        "reference": "LP-2039",
+        "document-status": "consultation",
+        "endpoint": "402e16da4049d7a0b463c35cf077aa680966bd8c890613d19dcb606b856a0adc"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2024-05/consultation%20statement%20May%202024.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/publication-version-2023",
+        "document-type": "consultation-statement",
+        "name": "Consultation statement May 2024",
+        "reference": "CS-2024",
+        "document-status": "consultation",
+        "endpoint": "ade2dfc06fbcc487c6c88f05c5ee0980f79b90008694877e638696137c0b9adb"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2023-09/short%20guide%20pre-submission%20stage%20of%20the%20Local%20Plan.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/publication-version-2023",
+        "document-type": "local-plan-regulation-19",
+        "name": "Short guide pre-submission stage of the Local Plan",
+        "reference": "SG-2023",
+        "document-status": "consultation",
+        "endpoint": "e8c254562f7f18b60336a4902e7b380bf9aa236aa3d46eb7144d3e34734c095d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NSM",
+    "organisation-name": "North Somerset Council",
+    "reference": "LP-NSM-2022",
+    "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+    "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-04/30907%20Local%20Plan%20Acc.pdf",
+    "name": "North Somerset Local Plan 2038 Preferred Options",
+    "status": "regulation-18",
+    "year": 2022,
+    "period-start-date": 2025,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-04/30907%20Local%20Plan%20Acc.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "local-plan-regulation-18",
+        "name": "North Somerset Local Plan 2038 Preferred Options",
+        "reference": "LP-2038",
+        "document-status": "consultation",
+        "endpoint": "aca1359d1cb6f1f226e633c78e97ce8ced3f222850b39672db014855736ff85f"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-03/Final%20Short%20guide%20to%20the%20Preferred%20Options%20Local%20Plan%20March%202022.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "local-plan-regulation-18",
+        "name": "Short Guide to the Preferred Options Local Plan March 2022",
+        "reference": "SG-2022",
+        "document-status": "consultation",
+        "endpoint": "75b61d102bb0cb3c14b9cb18a1aefd8ce7741c8501d64b6eac32cd1bc67a7dde"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-08/Preferred%20Options%20Consultation%20Statement%20-%20Main%20Report%20August%202022.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "consultation-statement",
+        "name": "Preferred Options Consultation statement - main report August 2022",
+        "reference": "CS-2022",
+        "document-status": "consultation",
+        "endpoint": "827e8e37a1f2ca4764a1dc0dab40f378e20a324e2516ddfd0daa95c6e88a96ed"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-08/Preferred%20Options%20Consultation%20Statement%20Appendix%201%20Summary%20of%20Strategic%20Policies.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "consultation-statement",
+        "name": "Preferred Options Consultation statement appendix 1 summary of strategic policies",
+        "reference": "CS-APP1-2022",
+        "document-status": "consultation",
+        "endpoint": "f398f4611882100c80dbe84badb7d12e4ae309b346abc4a79237e8f59caa5399"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-08/Preferred%20Options%20Consultation%20Statement%20Appendix%202%20Summary%20of%20Locational%20Policies.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "consultation-statement",
+        "name": "Preferred Options Consultation statement appendix 2 summary of locational policies",
+        "reference": "CS-APP2-2022",
+        "document-status": "consultation",
+        "endpoint": "ef2897bbce5684bfc3af7cc385519ca91ecff44a9f55734076a675f32d7aad57"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-08/Preferred%20Options%20Consultation%20Statement%20Appendix%203%20Summary%20of%20Development%20Policies.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "consultation-statement",
+        "name": "Preferred Options Consultation statement appendix 3 summary of development policies",
+        "reference": "CS-APP3-2022",
+        "document-status": "consultation",
+        "endpoint": "2a494db9221f161802179e5ad75b4da6e952f1348ac7001bf7d1b285f1cd2bb4"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-08/Preferred%20Options%20Consultation%20Statement%20Appendix%204%20Summary%20of%20Schedules.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2039/preferred-options-consultation-2022",
+        "document-type": "consultation-statement",
+        "name": "Preferred Options Consultation statement appendix 4 summary of schedules",
+        "reference": "CS-APP4-2022",
+        "document-status": "consultation",
+        "endpoint": "621353534838792d3b1408f718f7d4be244b35dbfe0932e84710e9252b99611a"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/North%20Somerset%20Local%20Plan%202038%20-%20Sustainability%20Appraisal.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "North Somerset Local Plan 2038 - Sustainability Appraisal",
+        "reference": "SA-2038",
+        "document-status": "consultation",
+        "endpoint": "e988e471381e00c8f88b8092f8ac8b3028a7b3561cc2d60e36f5e2d2e5da9392"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/North%20Somerset%20Local%20Plan%202038%20-%20Sustainability%20Appraisal%20Non%20Technical%20Summary.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "North Somerset Local Plan 2038 - Sustainability Appraisal Non Technical Summary",
+        "reference": "SA-NTS-2038",
+        "document-status": "consultation",
+        "endpoint": "5704131a97389d37cd77843631f5cb1afcb65f9fb3bf5a48de4eb086ae0e9975"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/SHLAA%20Main%20Report%20January%202022.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "strategic-housing-land-availability",
+        "name": "SHLAA Main Report January 2022",
+        "reference": "SHLAA-2022",
+        "document-status": "consultation",
+        "endpoint": "b83a30bf72d4a76244bea90d3b23207133e0733e35aaab5522e249794957631f"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-02/SHLAA%20Sites%20Templates%20January%202022.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "strategic-housing-land-availability",
+        "name": "SHLAA Sites Templates January 2022",
+        "reference": "SHLAA-SITES-2022",
+        "document-status": "consultation",
+        "endpoint": "24d3d98775f2b57fa5bfa3e56a4e52e48fae6468318723f703783c109916a36d"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/West%20of%20England%20Local%20Housing%20Needs%20Assessment.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "West of England Local Housing Needs Assessment",
+        "reference": "SHMA-WOE-2022",
+        "document-status": "consultation",
+        "endpoint": "66b4ca6c75408d3b6d767c26b45c25cb5e6be64e665636a9711dda29e48f457e"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/Local%20Housing%20Needs%20Assessment%20summary%20paper.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Local Housing Needs Assessment summary paper",
+        "reference": "SHMA-SUMMARY-2022",
+        "document-status": "consultation",
+        "endpoint": "ca070956688c5dcd2b938f7dba734f101b914f5d3a3036e58e1b1d3f87f0ccd3"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-01/North%20Somerset%20Employment%20Land%20Review%202018.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "employment-land-review",
+        "name": "North Somerset Employment Land Review 2018",
+        "reference": "ELR-2018",
+        "document-status": "adopted",
+        "endpoint": "d7851c9319bc963e9ed46e397c69d2b0e4fbdf6f31c858c74cf108c9d836a641"
+      },
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-02/Stage%204%20and%205%20Transport%20Assessment.pdf",
+        "documentation-url": "https://www.n-somerset.gov.uk/my-services/planning-building-control/planning-policy/our-local-plan/local-plan-2038/supporting-documents",
+        "document-type": "transport-assessment",
+        "name": "Stage 4 and 5 Transport Assessment",
+        "reference": "TA-2022",
+        "document-status": "consultation",
+        "endpoint": "9a8c2370f1fa1ecb45cced33ad20bf3385372054d5d6ea76e282fd72a9f03b3b"
+      }
+    ]
+  }
+]

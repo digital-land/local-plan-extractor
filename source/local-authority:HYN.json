@@ -1,0 +1,52 @@
+[
+  {
+    "organisation": "local-authority:HYN",
+    "organisation-name": "Hyndburn Borough Council",
+    "reference": "LP-HYN-1996",
+    "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
+    "document-url": "",
+    "name": "Hyndburn Local Plan 1996",
+    "status": "adopted",
+    "year": 1996,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2022-2024",
+        "reference": "LDS-2022-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.hyndburnbc.gov.uk/wp-content/uploads/2025/03/HMOs-SPG-in-Hyndburn-29.11.2024.pdf",
+        "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
+        "document-type": "supplementary-planning-document",
+        "name": "Residential Conversions and Houses in Multiple Occupation Supplementary Planning Guidance",
+        "reference": "SPD-HMO-2024",
+        "document-status": "consultation",
+        "endpoint": "29e7f45e006ae5b7af88e713c13a4301524581b833cb6dca4c1e064f290bc067"
+      },
+      {
+        "document-url": "https://www.hyndburnbc.gov.uk/wp-content/uploads/2025/03/Childrens-Residential-and-Supported-Accommodation-SPG-29.11.2024.pdf",
+        "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
+        "document-type": "supplementary-planning-document",
+        "name": "Children's Residential and Supported Accommodation Supplementary Planning Guidance",
+        "reference": "SPD-CRSA-2024",
+        "document-status": "consultation",
+        "endpoint": "f48db60eb0df88fa103440a81bac809ae9a940b4656548403614ab538b1f350d"
+      },
+      {
+        "document-url": "https://www.hyndburnbc.gov.uk/wp-content/uploads/2025/03/Local-Validation-Requirement-2025-consultation-draft.pdf",
+        "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
+        "document-type": "local-plan",
+        "name": "Local Validation Requirement 2025",
+        "reference": "LVR-2025",
+        "document-status": "consultation",
+        "endpoint": "7d69ede0e47b4aaeb5a32407fd71d7e468e2cab53e9e7ec23effffc4e1eae4bf"
+      }
+    ]
+  }
+]

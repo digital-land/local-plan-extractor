@@ -1,0 +1,7 @@
+[
+  {
+    "organisation": "local-authority:MDW",
+    "organisation-name": "Medway Council",
+    "error": "Expecting ',' delimiter: line 13 column 24 (char 432)"
+  }
+]

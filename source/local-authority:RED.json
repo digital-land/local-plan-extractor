@@ -1,0 +1,48 @@
+[
+  {
+    "organisation": "local-authority:RED",
+    "organisation-name": "Redditch Borough Council",
+    "reference": "LP-RED-2017",
+    "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
+    "document-url": "",
+    "name": "Borough of Redditch Local Plan",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
+        "document-type": "supplementary-planning-document",
+        "name": "Borough of Redditch Local Plan",
+        "reference": "LP-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RED",
+    "organisation-name": "Redditch Borough Council",
+    "reference": "LP-RED-REVIEW",
+    "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
+    "document-url": "",
+    "name": "Borough of Redditch Local Plan Review",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
+        "document-type": "local-plan-review",
+        "name": "Borough of Redditch Local Plan Review",
+        "reference": "LPR-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

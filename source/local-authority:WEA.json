@@ -1,0 +1,118 @@
+[
+  {
+    "organisation": "local-authority:WEA",
+    "organisation-name": "Wealden District Council",
+    "reference": "LP-WEA-2016",
+    "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/",
+    "document-url": "",
+    "name": "Affordable Housing Delivery Local Plan",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WEA",
+    "organisation-name": "Wealden District Council",
+    "reference": "LP-WEA-2013",
+    "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/",
+    "document-url": "",
+    "name": "Wealden District Core Strategy Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WEA",
+    "organisation-name": "Wealden District Council",
+    "reference": "LP-WEA-1998",
+    "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/",
+    "document-url": "",
+    "name": "Adopted Wealden Local Plan",
+    "status": "adopted",
+    "year": 1998,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WEA",
+    "organisation-name": "Wealden District Council",
+    "reference": "LP-WEA-2025",
+    "documentation-url": "https://www.wealden.gov.uk/new-local-plan",
+    "document-url": "https://www.wealden.gov.uk/UploadedFiles/Wealden-Local-Plan-Direction-of-Travel-1.pdf",
+    "name": "New Wealden Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/Final-LDS-2025-V1.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/new-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Wealden District Council Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "573fec7fb0a0465606a17a8f031696545b0d1cfa65cb37f0800899ff6ef209f1"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/Wealden-Local-Plan-Direction-of-Travel-1.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/direction-of-travel-consultation/",
+        "document-type": "local-plan",
+        "name": "Wealden Local Plan – Direction of Travel Consultation Document",
+        "reference": "LP-DOT-2021",
+        "document-status": "consultation",
+        "endpoint": "f5c8e65767fad6bb03b2f2e5d897017d55216183df21393bcd64c558306fdffd"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/WLP-SA_SEA-Scoping-Report-November-2020.pdf.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/direction-of-travel-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Wealden Local Plan Sustainability Appraisal Scoping Report (November 2020)",
+        "reference": "SA-2020",
+        "document-status": "consultation",
+        "endpoint": "cc2a9c02dfa36ff223934934b5b81cb6a4eed3cc6fd4db12cbf9db16ad18b9d9"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/Consultation-and-Engagement-Strategy.final_.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/direction-of-travel-consultation/",
+        "document-type": "local-plan",
+        "name": "Wealden Local Plan Consultation and Engagement Strategy (November 2020)",
+        "reference": "CES-2020",
+        "document-status": "adopted",
+        "endpoint": "9033351bddf473a8c89c9c316cd3890517308cd07173211ff72cda16a201abe8"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/SHELAA-Main-Report-February-2024.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/strategic-housing-and-economic-land-availability-assessment-shelaa/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Main SHELAA Report – February 2024 (includes Appendices 1, 2 and 3)",
+        "reference": "SHELAA-2024",
+        "document-status": "adopted",
+        "endpoint": "4678f0cf8e7e2898346c1f0a7e99f139241b3dd8920bc4416cd220fc8cca9bc5"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/SHELAA-Appendix-4-Parish-Summaries-February-2024.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/strategic-housing-and-economic-land-availability-assessment-shelaa/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Appendix 4 to SHELAA Report – Parish Site Summaries",
+        "reference": "SHELAA-APP4-2024",
+        "document-status": "adopted",
+        "endpoint": "2f7161a34d233146ed875fc23e199c40af7c0e0cc9f5d7a159081e81ad89e19d"
+      },
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/SHELAA-Methodology-Post-Consultation-Statement-February-2024.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/new-local-plan/wealden-local-plan/strategic-housing-and-economic-land-availability-assessment-shelaa/",
+        "document-type": "consultation-statement",
+        "name": "SHELAA Methodology Post Consultation Statement",
+        "reference": "SHELAA-CS-2024",
+        "document-status": "adopted",
+        "endpoint": "e622bdd92157a5bcee9e2c78bb99de0a4a83e3800e836df9d82a4febfa6f155a"
+      }
+    ]
+  }
+]

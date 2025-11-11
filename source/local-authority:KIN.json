@@ -1,0 +1,124 @@
+[
+  {
+    "organisation": "local-authority:KIN",
+    "organisation-name": "Borough Council of King's Lynn and West Norfolk",
+    "reference": "LP-KIN-2025",
+    "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+    "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9463/local_plan_2021-2040_-_july_2025.pdf",
+    "name": "King's Lynn and West Norfolk Local Plan 2021-2040",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9463/local_plan_2021-2040_-_july_2025.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "King's Lynn and West Norfolk Local Plan 2021-2040",
+        "reference": "LP-2021-2040",
+        "document-status": "adopted",
+        "endpoint": "b9c200fab42812bb96e041801f01e4ad8f6d6af4bfd239677982f305788c7e1c"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9462/local_plan_adoption_statement_-_march_2025.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement (27 March 2025)",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "210d534ca3b59f5ae14d2170b0819cbba4e6ad276dfbf6e9eb739a65460567ff"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9266/klwn_lpr_-_inspectors_report.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "Local Plan 2021-2040 Inspectors' Report",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "6e658a6b98d113539f1d2426578b7f8c30e98fba8eb3ca331df5c6a2c11040e8"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9273/klwn_lpr_-_main_mods_appendix.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Appendix",
+        "reference": "MM-2025",
+        "document-status": "adopted",
+        "endpoint": "40319c408dc3650b0ba8d5eb6dd9b68926bbd5a7231a26aac472e981a44e60bc"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9270/klwn_lpr_-_housing_trajectory_appendix.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "Housing Trajectory Appendix",
+        "reference": "HT-2025",
+        "document-status": "adopted",
+        "endpoint": "84a0774f58ed4e12badb9348193774ebb97a4b65495ecd26b46aec812b9a220f"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9377/sustainability_appraisal_adoption_statement_-_march_2025.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement (March 2025)",
+        "reference": "SA-AS-2025",
+        "document-status": "adopted",
+        "endpoint": "dff0ae187461a09a49bc44f0b2673622eb806f2f1ad09bf052c04830dad8d6fc"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9579/lp08_-_retail_development_hardwick_explanatory_note.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP08 - Retail Development Hardwick",
+        "reference": "LP08-2025",
+        "document-status": "adopted",
+        "endpoint": "3b5ab209aa0406a4da2427fc569df41a6001f46726894bcdb488c6b0e2736065"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9718/affordable_housing_explanatory_note_-_october_2025.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP28 - Affordable Housing Explanatory Note",
+        "reference": "LP28-2025",
+        "document-status": "adopted",
+        "endpoint": "ac24229759ab2ef8c5f9ef1a6504ef5bb89dd2b61f65a7a89780b0679860883c"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9510/lp30_-_adaptable_accessible_homes_explanatory_note.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP30 - Adaptable & Accessible Homes",
+        "reference": "LP30-2025",
+        "document-status": "adopted",
+        "endpoint": "0a33b9051e6ceb7a3dc805cecf37093765cad98cd55126323b77f41c2b6c31c2"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9509/lp31_-_assessing_planning_proposals_for_custom_self_build_housing_explanatory_note.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP31 - Assessing planning proposals for Custom & Self-Build Housing",
+        "reference": "LP31-2025",
+        "document-status": "adopted",
+        "endpoint": "f480aa3980e168fe3b17840e67dacf7b346fc70f2dcf7f7747d5fd8cd839857d"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9620/lp33_-_park_homes_caravans_and_houseboats_explanatory_note.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP33 - Park Homes Caravans and Houseboats",
+        "reference": "LP33-2025",
+        "document-status": "adopted",
+        "endpoint": "ee6115b3c6a6f4630f85642037e62f049c134e31fa26df47701df9da10e78b82"
+      },
+      {
+        "document-url": "https://www.west-norfolk.gov.uk/download/downloads/id/9755/lp27_-_decision_on_air_quality_management_strategy.pdf",
+        "documentation-url": "https://www.west-norfolk.gov.uk/info/20079/planning_policy_and_local_plan/1207/local_plan_2021-2040_adopted_march_2025",
+        "document-type": "local-plan",
+        "name": "LP27 - Decision on Air Quality Management Strategy",
+        "reference": "LP27-2025",
+        "document-status": "adopted",
+        "endpoint": "08b6043cf260108a446f0af8dace14bb0e47596c6768c6243c9b3e8fb648b56b"
+      }
+    ]
+  }
+]

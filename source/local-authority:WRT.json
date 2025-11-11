@@ -1,0 +1,101 @@
+[
+  {
+    "organisation": "local-authority:WRT",
+    "organisation-name": "Warrington Borough Council",
+    "reference": "LP-WRT-2023",
+    "documentation-url": "https://www.warrington.gov.uk/localplan",
+    "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-12/Warrington%20local%20plan%20-%202021-22%20-%202038-39%20-%20Adopted%20December%202023.pdf",
+    "name": "Warrington Local Plan 2021/22 – 2038/39",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2021,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-12/Warrington%20local%20plan%20-%202021-22%20-%202038-39%20-%20Adopted%20December%202023.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Warrington local plan - 2021/22 - 2038/39",
+        "reference": "LP-2021-2038",
+        "document-status": "adopted",
+        "endpoint": "b9b3ee3e2db32f49dcc35f3207b4c8af64c7910d12831be5273901de3c8953db"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-12/Adoption%20statement%20-%20Warrington%20local%20plan%20-%202021-22%20-%202038-39.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement - Warrington local plan - 2021/22-2038/39",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "a00a70222a5183b03217e3a68d2f7922b7b5cdb16074f070a09861067e6df468"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-12/Adopted%20local%20plan%20policies%20map%202021-2022%20-%202038-2039.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Adopted local plan policies map 2021-2022 - 2038-2039",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "e5187fb9a9fd88e8e4f85404ef2bf20be15c07d7ee85f6764d08893a94a6ad5a"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-12/Sustainability%20appraisal%20adoption%20statement%20-%20Warrington%20local%20plan%20-%202021-22%20-%202038-39.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability appraisal adoption statement - Warrington local plan - 2021-22 - 2038-39",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "ae189aa435757a41aface8e8733c746af11e94f9b9bb61d0c680259884612ea1"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2021-09/sustainability_appraisal_sa_report_-_august_2021.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal SA Report - August 2021",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "e0d54c07e35966e0c420efd60536457e4d615ab6d414dcc9d591a54cc46e6ff5"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2021-09/warrington_sustainability_appraisal_addendum_-_september_2021.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SP3a - Sustainability Appraisal Addendum - September 2021",
+        "reference": "SA-ADD-2021",
+        "document-status": "adopted",
+        "endpoint": "e3bf351e70791a0a9e5088cf06b8f170fd19efbdfe68a69138959152e3ccc96a"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2021-09/non-technical_sustainability_appraisal_for_the_pre-submission_local_plan_2021-2038.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SP3b - Non-technical Sustainability Appraisal for the Pre-Submission Local Plan (2021-2038)",
+        "reference": "SA-NT-2021",
+        "document-status": "adopted",
+        "endpoint": "81866b4876b01e5be66e1200de32f09af46ec3ff72dda720f25dacf96bbd4644"
+      },
+      {
+        "document-url": "https://www.warrington.gov.uk/sites/default/files/2023-03/CD70%20-%20Warrington%20SA%20Report%20Addendum%20-%20March%202023.pdf",
+        "documentation-url": "https://www.warrington.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "CD70 - Warrington sustainability appraisal report addendum - March 2023",
+        "reference": "SA-ADD-2023",
+        "document-status": "adopted",
+        "endpoint": "eeb57775032d740d542f89590ba011118400b9919897f3d83cb5ac51a47f7a94"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WRT",
+    "organisation-name": "Warrington Borough Council",
+    "reference": "LP-WRT-2014",
+    "documentation-url": "https://www.warrington.gov.uk/localplan",
+    "document-url": "",
+    "name": "Warrington Local Plan Core Strategy 2014",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

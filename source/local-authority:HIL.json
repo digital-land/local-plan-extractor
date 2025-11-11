@@ -1,0 +1,161 @@
+[
+  {
+    "organisation": "local-authority:HIL",
+    "organisation-name": "London Borough of Hillingdon",
+    "reference": "LP-HIL-2012",
+    "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+    "document-url": "https://www.hillingdon.gov.uk/media/3080/Local-Plan-Part-1---Strategic-Policies/pdf/npLocal_Plan_Part_1_Strategic_Policies_15_feb_2013_a_1_1.pdf?m=1598370401647",
+    "name": "Hillingdon Local Plan Part 1: Strategic Policies",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3080/Local-Plan-Part-1---Strategic-Policies/pdf/npLocal_Plan_Part_1_Strategic_Policies_15_feb_2013_a_1_1.pdf?m=1598370401647",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "core-strategy",
+        "name": "Local Plan: Part 1 - Strategic Policies",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "965d31b16e10a0dfdfef9e92e826c55a5521f755971ce21adb7bc58840b66e9e"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3081/Local-Plan-Part-1--Errata-sheet/pdf/olHillingdon_Local_Plan_Part_1_Strategic_Policies-Errata_sheet_Feb_2013_1_1.pdf?m=1598370482757",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 1- Errata sheet",
+        "reference": "LP-ERRATA-2013",
+        "document-status": "adopted",
+        "endpoint": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3525/Final-Sustainability-Appraisal-July-2011/pdf/miSD8-_LDF_Core_Strategy_Final_Sustainability_Appraisal_July_2011.PDF?m=1600775055463",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Final Sustainability Appraisal July 2011",
+        "reference": "SA-2011",
+        "document-status": "adopted",
+        "endpoint": "2787ba8a58e08c9a25848320602119d5056a17c3dfd6266008adcf0f4f886b8a"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3082/Adoption-statement/pdf/ooAdoption_Statement_Final-1_1_11.pdf?m=1598370530163",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2012",
+        "document-status": "adopted",
+        "endpoint": "35e1220e19196f55b1a83677459d41495cb126f287ab50acf50ae35a84f9702b"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3083/Inspectors-report/pdf/ol120726_Hillingdon_report_5_FINAL_Amended_1_1.pdf?m=1598370572307",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report",
+        "reference": "IR-2012",
+        "document-status": "adopted",
+        "endpoint": "0b0b3ef46242a40610213be9f250707fb2226c1d902aaa0227ad81adba0c9543"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HIL",
+    "organisation-name": "London Borough of Hillingdon",
+    "reference": "LP-HIL-2020",
+    "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+    "document-url": "https://www.hillingdon.gov.uk/media/3084/Hillingdon-Local-Plan-Part-2-Development-Management-Policies/pdf/pdLPP2_Development_Management_Policies_-_ADOPTED_VERSION_JAN_2020_1.pdf?m=1598370641570",
+    "name": "Hillingdon Local Plan Part 2: Development Management Policies and Site Allocations",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3084/Hillingdon-Local-Plan-Part-2-Development-Management-Policies/pdf/pdLPP2_Development_Management_Policies_-_ADOPTED_VERSION_JAN_2020_1.pdf?m=1598370641570",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "development-management-policies",
+        "name": "Hillingdon Local Plan Part 2: Development Management Policies",
+        "reference": "DMP-2020",
+        "document-status": "adopted",
+        "endpoint": "445d0e0fe13113f4221a6fdab39ddc5e3f5d5ba17787180fd0a6168cd8cf5995"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3085/Hillingdon-Local-Plan-Part-2-Site-Allocations-and-Designations/pdf/pmLPP2_Site_Allocations_and_Designations_-_ADOPTED_VERSION_JAN_2020.pdf?m=1598370680123",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "site-allocations",
+        "name": "Hillingdon Local Plan Part 2: Site Allocations and Designations",
+        "reference": "SA-DPD-2020",
+        "document-status": "adopted",
+        "endpoint": "aece4d2de966865ff37d868dd5eb2048b423e600e470fa8eca53c32f934e0a35"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3086/View-the-policies-map/pdf/q7LPP2_Policies_Map_-_ADOPTION_VERSION.pdf?m=1598370744580",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "policies-map",
+        "name": "View the policies map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "48eef193832e9ab4da1e87ce098c10d09ffc2b2de9de5c60007314981b04861f"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/3087/Sustainability-Appraisal-2014/pdf/qbSustainability_Appraisal_2014.pdf?m=1598370781610",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal 2014",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "e9c2f3f044c3a91a317c8154f4ccd774fd681a1e878e8587b6d62bff47e8ed26"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HIL",
+    "organisation-name": "London Borough of Hillingdon",
+    "reference": "LP-HIL-2025",
+    "documentation-url": "https://www.hillingdon.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Hillingdon Local Plan Review",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/13938/Integrated-Impact-Assessment-IIA-Scoping-Report/pdf/1hAppendix_2_-_Integrated_Impact_Assessment_Scoping_Report.pdf?m=1713956588457",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment (IIA) Scoping Report",
+        "reference": "IIA-2024",
+        "document-status": "consultation",
+        "endpoint": "d2efe6e2794f4120e04a3893564428eed84711b6f79cf1899a4a46abedfc8e09"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/13939/Hillingdon-Townscape-and-Character-Study-2023-Urban-Initiatives/pdf/2jHillingdon_Townscape_and_Character_Study_2023_low_res.pdf?m=1713956640463",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Hillingdon Townscape and Character Study 2023 (Urban Initiatives)",
+        "reference": "TCS-2023",
+        "document-status": "consultation",
+        "endpoint": "a68e72109fefc41d414a85650bf7d94bc4273abfabafe6a0fcaa6366362657f5"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/14043/Hillingdon-Employment-Land-and-Capacity-Study-2023-Annex-1/pdf/dlHillingdon_Employment_Land_and_Capacity_Study_2023_Annex_1.pdf?m=1715268397677",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Hillingdon Employment Land and Capacity Study 2023 (Avison Young)",
+        "reference": "ELCS-2023",
+        "document-status": "consultation",
+        "endpoint": "9cbdd81c92ccc7bd6ad7d507d6bc3fd89cb47ea5e02a4b6603452c000304b964"
+      },
+      {
+        "document-url": "https://www.hillingdon.gov.uk/media/13966/West-London-Town-Centre-Study-2023-Urban-Foresight/pdf/nmWLA-Phases1-3_v1.0_web.pdf?m=1714466840730",
+        "documentation-url": "https://www.hillingdon.gov.uk/local-plan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "West London Town Centre Study 2023 (Urban Foresight)",
+        "reference": "TCS-WL-2023",
+        "document-status": "consultation",
+        "endpoint": "c609a7cb3a35a7d00901cdd97994158eb1f302f0e0c2615379d7d9cb21f20bc6"
+      }
+    ]
+  }
+]

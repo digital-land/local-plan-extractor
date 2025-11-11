@@ -1,0 +1,156 @@
+[
+  {
+    "organisation": "local-authority:RUG",
+    "organisation-name": "Rugby Borough Council",
+    "reference": "LP-RUG-2025",
+    "documentation-url": "https://www.rugby.gov.uk/localplan",
+    "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
+    "name": "Rugby Borough Local Plan Review - Preferred Options 2024-2045",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
+        "documentation-url": "https://rugby.gov.uk/w/local-plan-review-preferred-options-public-consultation-document",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan preferred options consultation document",
+        "reference": "LP-2024-2045",
+        "document-status": "consultation",
+        "endpoint": "6ba35cdd3e48ce6ea6acb50bcf2b4b23d78784bec59e40b0766a42cb60d89ea1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUG",
+    "organisation-name": "Rugby Borough Council",
+    "reference": "LP-RUG-2019",
+    "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+    "document-url": "https://www.rugby.gov.uk/documents/d/guest/local_plan___publication_draft-pdf?download=true",
+    "name": "Rugby Borough Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/local_plan___publication_draft-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Publication Local Plan",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "3bca7f4882812b945be05f5c95267d4196986f5156f613ff469098b9caa32c4e"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/rugby_borough_local_plan___inspector_s_report__published_may_2019_-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "inspectors-report",
+        "name": "Rugby Borough Local Plan - Inspector's Report (Published May 2019)",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "68a13ae259d65554726f88116704d46566be0377f8eb80444535353495a85254"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/local_plan___publication_draft_sustainability_appraisal_report-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2019",
+        "document-status": "adopted",
+        "endpoint": "34937fa8abf602bb120258d1283b0d73656ff083d9f9f2f2ed65fcfc144ea70c"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/final_jshma_report__2013__18_11_13_nxi_-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment (SHMA) 2013",
+        "reference": "SHMA-2013",
+        "document-status": "adopted",
+        "endpoint": "3f2c034f763cfe6fe4277a8bf9bcac9a8f8e0e1eb89c68a5b9b9457124ef4782"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/shma_annex_updated_projections_report__17_09_14_final_-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment (SHMA) Annex 2014",
+        "reference": "SHMA-2014",
+        "document-status": "adopted",
+        "endpoint": "66a049259693b6784f98340796552a8ecf4747e97be29d0ca3c44b1c8bd103f5"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/cw_shma_updated_report-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment (SHMA) Update 2015",
+        "reference": "SHMA-2015",
+        "document-status": "adopted",
+        "endpoint": "b28eb3583c908800b11a41ed1082334e337fc8476ccf0bb01a0246ca3bc174dc"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/lp_10a_shlaa_report_final___update_2016-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing Land Availability Assessment (SHLAA) Update 2016",
+        "reference": "SHLAA-2016",
+        "document-status": "adopted",
+        "endpoint": "c8594b4df7ecb2333f85951013f342c0be3681598d3005b854ce72319981a26d"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/lp10a_shlaa_report_addendum_2017-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing Land Availability Assessment (SHLAA) Addendum 2017",
+        "reference": "SHLAA-2017",
+        "document-status": "adopted",
+        "endpoint": "0907bc46e252a7325b820949afda9bfacc7128ac86b85aaf176bd7ef94a150ca"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/local_plan___publication_draft_strategic_transport_assessment-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "transport-assessment",
+        "name": "Strategic Transport Assessment (STA) 2016",
+        "reference": "STA-2016",
+        "document-status": "adopted",
+        "endpoint": "00af802cc78f574511b8849807de8d5e7dfd2f2570a5cd86ccd1f5950dd125dd"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/strategic_transport_assessment__june_2017_-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "transport-assessment",
+        "name": "Strategic Transport Assessment (STA) 2017",
+        "reference": "STA-2017",
+        "document-status": "adopted",
+        "endpoint": "7ad982354501a3fa20a568d8ae822e0986f7b164299755b6066201fb030ad4f9"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/lp22_local_plan_viability_assessment_and_appendices-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "viability-assessment",
+        "name": "Local Plan Viability Testing",
+        "reference": "VA-2019",
+        "document-status": "adopted",
+        "endpoint": "f63418c8833254bf37d31dd8e75e955f025f10afebe03405a6140d6df8411445"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/rugby_borough_local_plan___equality_impact_assessment-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment",
+        "reference": "EIA-2019",
+        "document-status": "adopted",
+        "endpoint": "0013d2ccca3fc7223cbc7a14768419c0470079f412581b37da87def2beb9254c"
+      },
+      {
+        "document-url": "https://www.rugby.gov.uk/documents/d/guest/oth44_stretton_on_dunsmore_conservation_area_appraisal__june_2010_-pdf?download=true",
+        "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
+        "document-type": "conservation-area-appraisal",
+        "name": "Stretton-on-Dunsmore Conservation Area Appraisal",
+        "reference": "CAA-2010",
+        "document-status": "adopted",
+        "endpoint": "b61df95aa5ff176eb5e74725be78e7e394f2d0ef217169ef7621f0a16931b62e"
+      }
+    ]
+  }
+]

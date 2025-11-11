@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:LDS",
+    "organisation-name": "Leeds City Council",
+    "reference": "LP-LDS-2019",
+    "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+    "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/2f1fb7967571ff329ad57bc4f5d99e8be244e0167d10c92825a7016edeb15907.pdf",
+    "name": "Leeds Core Strategy",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2028,
+    "documents": [
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/2f1fb7967571ff329ad57bc4f5d99e8be244e0167d10c92825a7016edeb15907.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "core-strategy",
+        "name": "Adopted Core Strategy with CSSR Policies Sept 2019",
+        "reference": "CS-2019",
+        "document-status": "adopted",
+        "endpoint": "99018822c4fcc0edd5be04c5973e78c1fe1962451e7ec18b955fbab6bcb6b54c"
+      },
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/7c33efae0c0f4931f2b2caff678a3f2d82053df86383386d780a5c97fac5b78a.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement Sept 2019",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "71728d36f6f1ba150f3188a5b132dc36730bb1a0346518306794b6c4ec61df94"
+      },
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/b6ede9adfd16a5b715905d77892025d138ccfedfa9f06c1ed2cc07c3b3dd1ca8.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement Oct 2019",
+        "reference": "SA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "7f079cfe5a5a6b63c6f5314b401ea8dace05ddc4a8d228ceea03d439bf957f90"
+      },
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/db572101dc97b4ba90dfbb4f27950e98007e212980889cf5dfb2d3d554601bae.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Monitoring Framework Update Oct 2019",
+        "reference": "CS-MF-2019",
+        "document-status": "adopted",
+        "endpoint": "aa17e06e6f1cc4ba62f65ccbce60974c488779d57e82e5e9681c8f61be814609"
+      },
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/91bfe863de3ac739e5a039b9bd4f7b167fa22941380d2f1ee9399147b91760cc.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "core-strategy",
+        "name": "Inspectors report 2019 on the Core Strategy Selective Review",
+        "reference": "IR-CSSR-2019",
+        "document-status": "adopted",
+        "endpoint": "c05108986f8c8b8a6d0a2a6521d7eab4aac062028d3bfb237c088d84fdf1cd34"
+      },
+      {
+        "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/9723fbb4499468e4ff9d10f9cd09a37eb6c82ec16738bab223e793a70cad1c43.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/adopted-local-plan/core-strategy-introduction",
+        "document-type": "core-strategy",
+        "name": "Inspectors report 2014 on the Core Strategy",
+        "reference": "IR-CS-2014",
+        "document-status": "adopted",
+        "endpoint": "926340ac74f50a868469ee0c367961aff14386e903b22db34451e06ad2499332"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LDS",
+    "organisation-name": "Leeds City Council",
+    "reference": "LP-LDS-2025",
+    "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/emerging-local-plan/leeds-local-plan-consultation",
+    "document-url": "https://s3webstaticfiles.s3.eu-west-2.amazonaws.com/Documents/Leeds+Local+Plan+2025+Exec+Summary.pdf",
+    "name": "Leeds Local Plan 2022-2042",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2022,
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://s3webstaticfiles.s3.eu-west-2.amazonaws.com/Documents/Leeds+Local+Plan+2025+Exec+Summary.pdf",
+        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/emerging-local-plan/leeds-local-plan-consultation",
+        "document-type": "local-plan",
+        "name": "Leeds Local Plan - issues and options 2025 executive summary",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "ba65d2378526bf7ad1d92907f549f388241750ccec66af15603f11370c5f076c"
+      }
+    ]
+  }
+]

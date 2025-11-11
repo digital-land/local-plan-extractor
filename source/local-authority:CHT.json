@@ -1,0 +1,125 @@
+[
+  {
+    "organisation": "local-authority:CHT",
+    "organisation-name": "Cheltenham Borough Council",
+    "reference": "LP-CHT-2020",
+    "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+    "document-url": "https://www.cheltenham.gov.uk/downloads/file/8169/cheltenham_plan",
+    "name": "Cheltenham Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/8169/cheltenham_plan",
+        "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Cheltenham Plan",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "b1d7f0e61f433dc63ebc426fa429b1acda08f4eee4d63d8378ae3660900cd4c7"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/8170/proposals_map",
+        "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Proposals map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "091eb9fb17280ca20bf74e60e4ff1d9efe106c2e6ab47dd6b81f994fd0fde872"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/8171/site_maps",
+        "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Site maps",
+        "reference": "SM-2020",
+        "document-status": "adopted",
+        "endpoint": "f329de58f3890b140fc02911216a8eb13554343af28217efa3d18f5523f5507f"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/8167/adoption_statement",
+        "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "1036b264d69359b9fec3cc8a8a5806c278c5080a86b82f1c9b35828b066ae2b2"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/8168/sustainability_appraisal_adoption_statement",
+        "documentation-url": "https://www.cheltenham.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability appraisal adoption statement",
+        "reference": "SA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "29cfd5dcfd161cfdc3dada7e4cb2a76b480a0d16182736c3d72446e58a9daf71"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHT",
+    "organisation-name": "Cheltenham Borough Council",
+    "reference": "LP-CHT-2006",
+    "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/171/local_plan_2nd_review_2006",
+    "document-url": "https://www.cheltenham.gov.uk/downloads/file/778/cheltenham_borough_local_plan_second_review_2006",
+    "name": "Cheltenham Borough Local Plan Second Review 2006",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/778/cheltenham_borough_local_plan_second_review_2006",
+        "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/171/local_plan_2nd_review_2006",
+        "document-type": "local-plan",
+        "name": "Cheltenham Borough Local Plan Second Review 2006",
+        "reference": "LP-2006",
+        "document-status": "adopted",
+        "endpoint": "e9877b110615f4fb2b7c757685cd9ce1dde6c75ac6cd7eade9780a3ad0e69636"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/779/policy_renumbering_information",
+        "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/171/local_plan_2nd_review_2006",
+        "document-type": "local-plan",
+        "name": "Policy renumbering information",
+        "reference": "PRI-2006",
+        "document-status": "adopted",
+        "endpoint": "8e62bc140ec0e17723b5ab3dcf95947221bc057a7f159ebc1c10c762666b3b9b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHT",
+    "organisation-name": "Cheltenham Borough Council",
+    "reference": "SPD-CHT-2025",
+    "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/1926/nature_recovery_supplementary_planning_document",
+    "document-url": "https://www.cheltenham.gov.uk/downloads/file/10390/draft_nature_recovery_supplementary_planning_document",
+    "name": "Draft Nature Recovery Supplementary Planning Document",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/10390/draft_nature_recovery_supplementary_planning_document",
+        "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/1926/nature_recovery_supplementary_planning_document",
+        "document-type": "supplementary-planning-document",
+        "name": "Draft Nature Recovery Supplementary Planning Document",
+        "reference": "SPD-NR-2025",
+        "document-status": "draft",
+        "endpoint": "dfe81cb82ecee6a541310e590b37d41aaed338605cb31970f491f3d89a686bf3"
+      },
+      {
+        "document-url": "https://www.cheltenham.gov.uk/downloads/file/10389/seahra_statement_for_nature_recovery_spd",
+        "documentation-url": "https://www.cheltenham.gov.uk/info/46/planning_policy/1926/nature_recovery_supplementary_planning_document",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Strategic Environmental Assessment (SEA) and Habitat Regulations Assessment (HRA) screening",
+        "reference": "SEA-HRA-2025",
+        "document-status": "draft",
+        "endpoint": "b3917c0f7b4e03a186fa8ef9a48f2b4e5d3bfc3961e92ca9fed3d3fa165d5d5c"
+      }
+    ]
+  }
+]

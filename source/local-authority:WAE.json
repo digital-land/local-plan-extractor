@@ -1,0 +1,83 @@
+[
+  {
+    "organisation": "local-authority:WAE",
+    "organisation-name": "Waverley Borough Council",
+    "reference": "LP-WAE-2025",
+    "documentation-url": "https://www.waverley.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Waverley Local Plan 2023 to 2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/local-plan/New Local Plan/Frequently Asked Questions.pdf?ver=OrHOe3auTVj_kTd9tM1frg%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Frequently Asked Questions",
+        "reference": "FAQ-2025",
+        "document-status": "draft",
+        "endpoint": "43000279b54b5daaeca83bdb89a6063c8445574af307d53fb3eb0a5d97261e02"
+      },
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/local-plan/New Local Plan/Waverley Local Plan Workshops June 2025 - Final report 2 Sep 25.pdf?ver=FsFAcLQPBL3IO0ZA2kV3gg%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Waverley Local Plan Workshops June 2025 - Final Report",
+        "reference": "WS-2025",
+        "document-status": "draft",
+        "endpoint": "1db9aa2ef39aac53e7ad5fae7f8b05c3c05853ecadfeab91a5a3a779522c62f2"
+      },
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning policy/Final LDS Update March 2025.pdf?ver=kBUQCOkH0U89pFQj52OeJA%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/Services/Planning-and-building/Planning-strategies-and-policies/Local-plan/Local-plan-timetable-Local-Development-Scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (March 2025)",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "2d0ee7278c03d499322d182e3b361b8e1219d6e6b589d06637f0b30e0498722d"
+      },
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/Letter to Deputy PM 190924.pdf?ver=SeZxOd-5ZJxl6RvRWJV-hg%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/Services/Planning-and-building/Planning-strategies-and-policies/Local-plan/Local-plan-timetable-Local-Development-Scheme",
+        "document-type": "local-plan",
+        "name": "Letter to Deputy PM",
+        "reference": "LETTER-2024",
+        "document-status": "draft",
+        "endpoint": "f6e9bec33b951a304abfff85536e5159d300a25f65b6b0555f98bea5e48afec2"
+      },
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/Response to NPPF 240924.pdf?ver=hPTXsMvdoYDbfI54pxo_yQ%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/Services/Planning-and-building/Planning-strategies-and-policies/Local-plan/Local-plan-timetable-Local-Development-Scheme",
+        "document-type": "local-plan",
+        "name": "Council's Response",
+        "reference": "CR-2024",
+        "document-status": "draft",
+        "endpoint": "575f0dbd0de622fcb2e23646030d55a75ac6615de53775dcf14e20e6f8a37b92"
+      },
+      {
+        "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/Technical note on implications of proposed Standard Method.pdf?ver=w-xaSTMU1hhYwntF4IexqQ%3d%3d",
+        "documentation-url": "https://www.waverley.gov.uk/Services/Planning-and-building/Planning-strategies-and-policies/Local-plan/Local-plan-timetable-Local-Development-Scheme",
+        "document-type": "local-plan",
+        "name": "Technical Note",
+        "reference": "TN-2024",
+        "document-status": "draft",
+        "endpoint": "d8ee41d9b7b39236bff004edfa2d7f906918e7e609360ddbba8c0b17fdae264d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WAE",
+    "organisation-name": "Waverley Borough Council",
+    "reference": "LP-WAE-2002",
+    "documentation-url": "https://www.waverley.gov.uk/Services/Planning-and-building/Planning-strategies-and-policies/Local-plan/Local-Plan-2002",
+    "document-url": "",
+    "name": "Waverley Local Plan 2002",
+    "status": "adopted",
+    "year": 2002,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]
