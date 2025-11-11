@@ -2,78 +2,10 @@
   {
     "organisation": "local-authority:LND",
     "organisation-name": "City of London Corporation",
-    "reference": "LP-LND-2021",
-    "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-    "document-url": "",
-    "name": "City Plan 2040",
-    "status": "examination",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": 2040,
-    "documents": [
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/appendix-4-iia-commentary.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 4 IIA Commentary",
-        "reference": "LP-IIA-2021",
-        "document-status": "examination",
-        "endpoint": "84b71619b3c37285ed7812eb48c1b4b57f0bbd736ecf3bed9d44e75da1dd18f2"
-      },
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/appendix-5-iia-assessments-draft-city-plan.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 5 IIA Assessments (Draft City Plan 2036)",
-        "reference": "LP-IIA-ASSESS-2021",
-        "document-status": "examination",
-        "endpoint": "42fa6bd813356fd9a8303525a6a923e229885e2ccf5d8bb0d72fd72e00340c52"
-      },
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/planning-draft-City-plan-2036-consultation-comments.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 6 Draft City Plan Consultation Comments",
-        "reference": "LP-CONSULT-2023",
-        "document-status": "examination",
-        "endpoint": "52f982dbbe4d158302d4ba50334393499826f3e664a422516fbfea004ce89ce6"
-      },
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/appendix-6-iia-assessment-proposed-submission-city-plan.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 6 IIA Assessments",
-        "reference": "LP-IIA-SUB-2021",
-        "document-status": "examination",
-        "endpoint": "14710f87b9ad5a7e6d1b04f3bd8a7fa4f44f5024df4ce723ebd53f8adabe89e0"
-      },
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/appendix-7-policy-stories-march-2020.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 7 IIA Policy Stories",
-        "reference": "LP-POLICY-2020",
-        "document-status": "examination",
-        "endpoint": "a7f895a6705db0f57967ca454714e938a8bbf5440f5ce0e0e3968e9bc683e2af"
-      },
-      {
-        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/appendix-8-quality-assurance-audit.pdf",
-        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040-examination-in-public",
-        "document-type": "local-plan",
-        "name": "Appendix 8 IIA Quality Assurance Audit",
-        "reference": "LP-QA-2021",
-        "document-status": "examination",
-        "endpoint": "19f06cc838eb9db30e684ea5293d899a672582a8008a837f54f4aeec063f24b3"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:LND",
-    "organisation-name": "City of London Corporation",
     "reference": "LP-LND-2015",
     "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/local-plan-2015",
     "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/planning-local-plan-adopted-2015.pdf",
-    "name": "Local Plan 2015",
+    "name": "City of London Local Plan 2015",
     "status": "adopted",
     "year": 2015,
     "period-start-date": "",
@@ -102,7 +34,7 @@
         "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/local-plan-2015",
         "document-type": "policies-map",
         "name": "Local Plan (adopted 2015) Policies Map B revised Sept. 2020",
-        "reference": "PM-B-2020",
+        "reference": "PM-B-2015",
         "document-status": "adopted",
         "endpoint": "784ef343323fe2a45e74607a5813c2664c75071e34ce763ef001eace0e6cf739"
       },

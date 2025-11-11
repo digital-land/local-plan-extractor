@@ -7,10 +7,109 @@
     "document-url": "",
     "name": "Ashfield Local Plan 2023-2040",
     "status": "examination",
-    "year": 2025,
+    "year": 2024,
     "period-start-date": 2023,
     "period-end-date": 2040,
     "documents": [
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/iqip1lnb/ins05-the-inspectors-interim-finding-letter.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "local-plan",
+        "name": "INS05 - The Inspectors interim finding letter",
+        "reference": "INS05-2025",
+        "document-status": "examination",
+        "endpoint": "3ef75f027ad24d4657649558b4adbbb2220537732613eaa22145b6189bb34128"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/ebtj0qci/ashfield-district-councils-response-to-ins05-re-inspectors-initial-findings.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "local-plan",
+        "name": "ADC.09 Ashfield District Council's response to INS05 Re Inspectors initial findings",
+        "reference": "ADC09-2025",
+        "document-status": "examination",
+        "endpoint": "95b45cb50544806f90e314ddeff1300caec2499e28100b1d6215bd417f98ef44"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/r1glv4c0/ashfield-local-plan-2023-to-2040-consultation-on-additional-housing-site-allocations-blf.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "site-allocations",
+        "name": "Ashfield Local Plan 2023 to 2040 Consultation on additional housing site allocations – Consultation document",
+        "reference": "HSA-2025",
+        "document-status": "consultation",
+        "endpoint": "73f1f7d65db8ea785b77882e53c51d518304c1638894cd6c3eb165adf55eea6a"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/skjlemp2/hsc02-proposed-north-policy-map.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "policies-map",
+        "name": "Proposed North policy map",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "f148fa26873633f53c6361a55f090a970e0f47709836860659e3f4f752d23f61"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/3tae2a1x/hsc03-sustainability-appraisal-addendum.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal addendum",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "77cde918b84b4741534093c6b4609edfe3bb316aecc12f124233728b7dae76fc"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/50bnf42f/hsc04-sustainability-appraisal-appendix-a.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal - Appendix A",
+        "reference": "SA-APP-A-2025",
+        "document-status": "consultation",
+        "endpoint": "9563fdd318a702a54d8065eb4299a77d7fa0bbe2e3f91861bce62ace127507a1"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/wfghvvsj/hsc05-sustainability-appraisal-appendix-b.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal - Appendix B",
+        "reference": "SA-APP-B-2025",
+        "document-status": "consultation",
+        "endpoint": "669d3af0f0e612ed17743b0891b08cf686c3e9b5464383a5e873677414c3de6c"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/hxbfnoto/hsc06-sustainability-appraisal-appendix-c.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal - Appendix C",
+        "reference": "SA-APP-C-2025",
+        "document-status": "consultation",
+        "endpoint": "a7aca59ed5bdaf9e7298c6782f012b69cfd6c6badacc0fd5db29596ddd29e1dd"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/j3sl5eet/hsc07-sustainability-appraisal-appendix-d.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal - Appendix D",
+        "reference": "SA-APP-D-2025",
+        "document-status": "consultation",
+        "endpoint": "df743213217f815166349409f4705750b4bd5b9471a098cda110093352390810"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/v3idmsed/hsc09-habitat-regulations-assessment-addendum.pdf",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "local-plan",
+        "name": "Habitat regulations Assessment - Addendum",
+        "reference": "HRA-2025",
+        "document-status": "consultation",
+        "endpoint": "6665d2ce1183ea2c1ea85a9fdd70fc01394856f36431b2895f2756dd9717901f"
+      },
+      {
+        "document-url": "https://www.ashfield.gov.uk/media/qppbwuof/hsc08-equalities-impact-assessment-update-statement.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities impact assessment - Update statement",
+        "reference": "EIA-2025",
+        "document-status": "consultation",
+        "endpoint": "e1a151b431fae4f7fb9a68af04db4a1962a06dc6e3b3bdcaa150ba13760792cb"
+      },
       {
         "document-url": "https://www.ashfield.gov.uk/media/fcrpp1b4/local-development-scheme-january-2025.docx",
         "documentation-url": "https://www.ashfield.gov.uk/emerging-local-plan",
@@ -19,160 +118,33 @@
         "reference": "LDS-2025",
         "document-status": "adopted",
         "endpoint": "4f6e62cadf8cd0a5d6d7c56cf6ff3acbf7cc34c2b10c081977a659fa0f1f260c"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:ASH",
-    "organisation-name": "Ashfield District Council",
-    "reference": "LP-ASH-2021",
-    "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-    "document-url": "https://www.ashfield.gov.uk/media/3ilfvjj5/ashfield-draft-local-plan-2020-2038-1.pdf",
-    "name": "Ashfield Draft Local Plan 2020-2038",
-    "status": "regulation-18",
-    "year": 2021,
-    "period-start-date": 2020,
-    "period-end-date": 2038,
-    "documents": [
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/3ilfvjj5/ashfield-draft-local-plan-2020-2038-1.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "local-plan",
-        "name": "Ashfield Draft Local Plan 2020 to 2038",
-        "reference": "LP-2020-2038",
-        "document-status": "consultation",
-        "endpoint": "849dda04878f48c759573709f51c67fd48735e4313fd19e4abc196d04ad7c7d7"
       },
       {
-        "document-url": "https://www.ashfield.gov.uk/media/h0cmd40n/executive-summary-of-the-draft-local-plan-august-2021.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "local-plan",
-        "name": "Executive summary of the Draft Local Plan - August 2021",
-        "reference": "LP-EXEC-2021",
-        "document-status": "consultation",
-        "endpoint": "06dbcba472714423a7650db66e2a00362fa7897b6678759739e92a9a413b9948"
+        "document-url": "https://www.ashfield.gov.uk/media/wshfjcnz/ashfield-local-plan-timetable-response-to-ins05-20250110.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/additional-housing-site-allocations-consultation/",
+        "document-type": "local-development-scheme",
+        "name": "ADC.10 Ashfield Local Plan timetable response to INS05 10.01.2025",
+        "reference": "LDS-INS05-2025",
+        "document-status": "examination",
+        "endpoint": "12d894385e4860e22a2bd74ecc629fc06bf0b9e57217bc5f940f8507d36456a7"
       },
       {
-        "document-url": "https://www.ashfield.gov.uk/media/mlwhyizi/understanding-the-draft-local-plan.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "local-plan",
-        "name": "Understanding the Draft Local Plan",
-        "reference": "LP-GUIDE-2021",
-        "document-status": "consultation",
-        "endpoint": "8103f386ffc7a1bb9de9f139a635044f8b5b91b37c74125c97f7e321e459f070"
-      },
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/1gsdpbzz/land-proposed-for-housing-or-employment.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "local-plan",
-        "name": "Land proposed for housing or employment",
-        "reference": "LP-SITES-2021",
-        "document-status": "consultation",
-        "endpoint": "2cd53e12067bddffa142a3b11c8c0bccadde1788583b4cfc0bd1ae79decd650a"
-      },
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/la2m3hgq/ashfield-draft-local-plan-policies-map-north-1.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "policies-map",
-        "name": "Ashfield Draft Local Plan - Policies map - North",
-        "reference": "PM-NORTH-2021",
-        "document-status": "consultation",
-        "endpoint": "8de0fe46f0ff554ad4da3fab8db1ac996b00723abc627fae1eab284aa960b70a"
-      },
-      {
-        "document-url": "https://www2.ashfield.gov.uk/Maps/South_Map_2021.pdf",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "policies-map",
-        "name": "Ashfield Draft Local Plan Policies map - South",
-        "reference": "PM-SOUTH-2021",
-        "document-status": "consultation",
-        "endpoint": "0f9b9fd9e0b8ac30a49d2628b6d8c9e2287735f3e61d536b7d26ac3b760d63ca"
-      },
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/jvalq40e/appendix-11-sustainability-appraisal.xlsx",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "sustainability-appraisal",
-        "name": "Appendix 11 - Sustainability appraisal",
-        "reference": "SA-2021",
-        "document-status": "consultation",
-        "endpoint": "f580f110c0944dffb15d08d43802adcbfc2cbebdbe9f70dad1f081a91f46b5a9"
-      },
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/l4ybpyj1/appendix-10-local-plan-appendices.xlsx",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/emerging-local-plan/ashfield-draft-local-plan-consultation-regulation-18/",
-        "document-type": "local-plan",
-        "name": "Appendix 10 - Local Plan appendices",
-        "reference": "LP-APP-2021",
-        "document-status": "consultation",
-        "endpoint": "387f1f9f4d189286972e83f3ddc3d01456b55c66019335f76db6c60071594227"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:ASH",
-    "organisation-name": "Ashfield District Council",
-    "reference": "LP-ASH-2002",
-    "documentation-url": "https://www.ashfield.gov.uk/local-plan",
-    "document-url": "",
-    "name": "Ashfield Local Plan Review 2002",
-    "status": "adopted",
-    "year": 2002,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:ASH",
-    "organisation-name": "Ashfield District Council",
-    "reference": "MP-ASH-2022-KIRKBY",
-    "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/kirkby-town-centre-spatial-masterplan/",
-    "document-url": "https://www.ashfield.gov.uk/media/4wufgnne/kirkby-town-centre-spatial-masterplan.docx",
-    "name": "Kirkby Town Centre Spatial Masterplan",
-    "status": "adopted",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": 2030,
-    "documents": [
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/4wufgnne/kirkby-town-centre-spatial-masterplan.docx",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/kirkby-town-centre-spatial-masterplan/",
-        "document-type": "local-plan",
-        "name": "Kirkby town centre spatial masterplan",
-        "reference": "MP-KIRKBY-2025",
+        "document-url": "https://www.ashfield.gov.uk/media/ashisx1t/statement-of-community-involvement-sci-august-2020.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/statement-of-community-involvement/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of community involvement - August 2020",
+        "reference": "SCI-2020",
         "document-status": "adopted",
-        "endpoint": "99aaffcd0cdce3c72d5f8b4c19bc2bde5d8e63e36b9e74cecc207831dc90bbd0"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:ASH",
-    "organisation-name": "Ashfield District Council",
-    "reference": "MP-ASH-2022-HUCKNALL",
-    "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/hucknall-town-centre-masterplan/",
-    "document-url": "https://www.ashfield.gov.uk/media/ad2nvt5v/hucknall-town-centre-masterplan-july-2022.docx",
-    "name": "Hucknall Town Centre Masterplan 2022",
-    "status": "adopted",
-    "year": 2022,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "https://www.ashfield.gov.uk/media/ad2nvt5v/hucknall-town-centre-masterplan-july-2022.docx",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/hucknall-town-centre-masterplan/",
-        "document-type": "local-plan",
-        "name": "Hucknall town centre masterplan - July 2022",
-        "reference": "MP-HUCKNALL-2022",
-        "document-status": "adopted",
-        "endpoint": "8f377654e4a3b3165aa5b408dd273336aaaa118d110c402c2804d792fc2ad001"
+        "endpoint": "72f5937005ece8a949bc48262e5a0e94759144bea99b6633af5b0992347d8968"
       },
       {
-        "document-url": "https://www.ashfield.gov.uk/media/dsfnhuot/consultation-statement-draft-hucknall-town-centre-masterplan-july-2022.docx",
-        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/hucknall-town-centre-masterplan/",
-        "document-type": "consultation-statement",
-        "name": "Consultation statement draft - Hucknall town centre masterplan - July 2022",
-        "reference": "CS-HUCKNALL-2022",
+        "document-url": "https://www.ashfield.gov.uk/media/hxvodvpj/shelaa-site-submission-form.docx",
+        "documentation-url": "https://www.ashfield.gov.uk/planning-and-building-control/local-plan/call-for-sites-shelaa/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "SHELAA site submission form",
+        "reference": "SHELAA-FORM-2025",
         "document-status": "adopted",
-        "endpoint": "c7872007bc1f8eeaa6a6e7063693b02e5af7d47af79bd04c4f53c29091e08dbf"
+        "endpoint": "9544df9b83b8002fef4bb638ddb0c82900e3d1ca9e0ba17615b9734e054ccf13"
       }
     ]
   }

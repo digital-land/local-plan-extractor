@@ -2,9 +2,9 @@
   {
     "organisation": "local-authority:AMB",
     "organisation-name": "Amber Valley Borough Council",
-    "reference": "LP-AMB-2025",
+    "reference": "LP-AMB-2024",
     "documentation-url": "https://www.ambervalley.gov.uk/localplan",
-    "document-url": "https://info.ambervalley.gov.uk/docarc/docviewer.aspx?docguid=4f90603569e841be827ba722c54b7cd2",
+    "document-url": "",
     "name": "Amber Valley Borough Local Plan 2022-2040",
     "status": "examination",
     "year": 2024,
@@ -12,13 +12,13 @@
     "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "https://info.ambervalley.gov.uk/docarc/docviewer.aspx?docguid=4f90603569e841be827ba722c54b7cd2",
+        "document-url": "",
         "documentation-url": "https://www.ambervalley.gov.uk/localplan",
         "document-type": "local-plan-regulation-19",
         "name": "Amber Valley Borough Local Plan 2022-2040 Pre-Submission February 2024",
         "reference": "LP-2022-2040",
         "document-status": "examination",
-        "endpoint": "b1a020ecf236f48e2510086234a0a06e3b46ee4fd4fee53c34c164b5a7eb8770"
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "https://www.ambervalley.gov.uk/images/documents/LocalPlanFebruary2024/CombinedPoliciesMapsMarch2024.pdf",
@@ -30,72 +30,103 @@
         "endpoint": "75e41870f1929eaa2e5af67c93a2dec4317b1854ca64ab857200abad6a30d707"
       },
       {
-        "document-url": "http://info.ambervalley.gov.uk/docarc/docviewer.aspx?docguid=4d6c23d54d244136bcd52c860b37841c",
-        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/strategic-transport-assessment/",
-        "document-type": "transport-assessment",
-        "name": "Strategic transport assessment",
-        "reference": "STA-2022",
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report - February 2024",
+        "reference": "SA-2024",
         "document-status": "examination",
-        "endpoint": "0ab2408db5cf951612c1c033b64fcd5344f6720f64fbb9279c85347426b43bfe"
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
-        "document-url": "https://info.ambervalley.gov.uk/docarc/docviewer.aspx?docguid=4d668e4721d74a5882fdb5c165a978a3",
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment Report",
+        "reference": "HRA-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
         "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/employment-land-review/",
         "document-type": "local-plan",
         "name": "Employment Areas Assessment March 2025",
         "reference": "EAA-2025",
         "document-status": "examination",
-        "endpoint": "f6a517102a2850975538f625c52eaf6011650e70721fae4ad819289b3437e0f1"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:AMB",
-    "organisation-name": "Amber Valley Borough Council",
-    "reference": "LP-AMB-2006",
-    "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/adopted-local-plan/",
-    "document-url": "https://www.cartogold.co.uk/AmberValley/",
-    "name": "Amber Valley Borough Local Plan",
-    "status": "adopted",
-    "year": 2006,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "https://www.cartogold.co.uk/AmberValley/",
-        "documentation-url": "https://www.ambervalley.gov.uk/planning",
-        "document-type": "local-plan",
-        "name": "Amber Valley Local Plan",
-        "reference": "LP-2006",
-        "document-status": "adopted",
-        "endpoint": "7414dbd8d8488c3742449419cd302271e0fef3b3ed88a151756620aa0c3fc0be"
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
-        "document-url": "https://info.ambervalley.gov.uk/docarc/docviewer.aspx?docGuid=dcbc48302b9e454ca417a94211ceb4f9",
-        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/adopted-local-plan/",
-        "document-type": "local-plan",
-        "name": "saved Local Plan policies",
-        "reference": "LP-SAVED-2009",
-        "document-status": "adopted",
-        "endpoint": "24ef3490da449b9f838c296d85ddc8b869ed985cbecdfeeaadfc159424bc81d3"
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Interim Sustainability Appraisal Report - Initial Proposed Local Plan Policies – July 2022",
+        "reference": "SA-INTERIM-2022",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
-        "document-url": "http://info.ambervalley.gov.uk/docarc/docviewer.aspx?docGuid=c3219d957ef248e58626e959154b7e72",
-        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/adopted-local-plan/",
-        "document-type": "inspectors-report",
-        "name": "Letter from the Planning Inspectorate",
-        "reference": "IR-2006",
-        "document-status": "adopted",
-        "endpoint": "9c1067cced6c01feadb8482cf95028346f9798bc3f0918664385c53031505812"
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Amber Valley Borough Local Plan Interim Habitats Regulations Assessment Screening Report - Initial Local Plan Policies – July 2022",
+        "reference": "HRA-INTERIM-2022",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
-        "document-url": "http://info.ambervalley.gov.uk/docarc/docviewer.aspx?docGuid=d2cfcc098fee428d886769a628c8d348",
-        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/adopted-local-plan/",
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Sustainability Appraisal Site Assessment Report - July 2022",
+        "reference": "SA-SITE-2022",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Sustainability Appraisal Site Assessment Report Addendum - July 2022",
+        "reference": "SA-SITE-ADD-2022",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Sustainability Appraisal Spatial Strategy Options Assessment – June 2021",
+        "reference": "SA-SPATIAL-2021",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Sustainability Appraisal Post Consultation Scoping Report – September 2020",
+        "reference": "SA-SCOPING-2020",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
+        "document-type": "sustainability-appraisal",
+        "name": "Amber Valley Borough Local Plan Sustainability Appraisal Scoping Report Appendix A: Reviews of Relevant Plans, Policies & Programmes – September 2020",
+        "reference": "SA-SCOPING-APP-A-2020",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ambervalley.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal-strategic-environmental-assessment-and-habitats-regulations-assessment/",
         "document-type": "local-plan",
-        "name": "Chapter 1 Local Plan strategy",
-        "reference": "LP-STRATEGY-2006",
-        "document-status": "adopted",
-        "endpoint": "3e3a8110a345560a0ae265621c1dd01f83228448f0ed26ce696f80a1172962d3"
+        "name": "Amber Valley Borough Local Plan Sustainability Scoping Report Appendix B: Detailed SA Framework – September 2020",
+        "reference": "SA-SCOPING-APP-B-2020",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
   }

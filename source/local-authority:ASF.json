@@ -21,22 +21,190 @@
         "endpoint": "31f950cffc260dca47c7195ad793e986d88073645e5e116bf12d08f162513093"
       },
       {
-        "document-url": "https://abc.dynamicmaps.co.uk/mapthatpublic/login.html?user=public&role=public&project=LocalPlan2030",
-        "documentation-url": "https://www.ashford.gov.uk/local-plan",
-        "document-type": "policies-map",
-        "name": "The Adopted Local Plan Proposals Map shows the site allocations and all designations of the borough",
-        "reference": "PM-2030",
-        "document-status": "adopted",
-        "endpoint": "5c3e00f97230b55720819a96d538591373e248551e9d4a09782806c6abfe3b34"
-      },
-      {
         "document-url": "https://www.ashford.gov.uk/media/2ktpj13j/local-plan-2030-adoption-statement-210219-4.docx",
         "documentation-url": "https://www.ashford.gov.uk/local-plan",
         "document-type": "adoption-statement",
-        "name": "The Local Plan 2030 Adoption Statement",
+        "name": "Local Plan 2030 Adoption Statement",
         "reference": "AS-2030",
         "document-status": "adopted",
         "endpoint": "5c7dfdee0a426af47474c2a875afd47455f084605d015c39d71aeb7668bb16b5"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/3rwjw2hp/final-ashford-sfra-report-july-2014-use.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Ashford Strategic Flood Risk Assessment (SFRA) 2014",
+        "reference": "SFRA-2014",
+        "document-status": "adopted",
+        "endpoint": "67b7836139c9bbe63ad0c2ebcb026779ddb8c0d2dc58cc07b2fa6f3862617be1"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/0empsxyy/sfra-appendix-c-completely-combined.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Updated Appendix C (2017)",
+        "reference": "SFRA-APPC-2017",
+        "document-status": "adopted",
+        "endpoint": "4c7353e7e374466951ae62d872a3adffe1d56c71394e1ca4689897eb52fc9bca"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/5c2hah5k/sfra-appendix-e-completely-combined.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Updated Appendix E (2017)",
+        "reference": "SFRA-APPE-2017",
+        "document-status": "adopted",
+        "endpoint": "3a9fd96fc3a50d470aa6903defffe1a32c74ce5f91e37c1ae80d42899972e437"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/mmxfkfee/water-cycle-study.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "water-cycle-study",
+        "name": "Water Cycle Study 2016",
+        "reference": "WCS-2016",
+        "document-status": "adopted",
+        "endpoint": "bcc43a2859f3134ed3750569adb6588b2698be03e9412c83e17c44fd686760c5"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/3a5dp5jy/green-corridor-action-plan-2017.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "local-plan",
+        "name": "Green Corridor Action Plan 2017",
+        "reference": "GCAP-2017",
+        "document-status": "adopted",
+        "endpoint": "663725053a362fa43bafe5c4586ff7de53ba25e8fb8f8957493913605bab1563"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/4vylecac/adoptedashfordheritagestrategy-1.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "local-plan",
+        "name": "Adopted Heritage Strategy 2017",
+        "reference": "HS-2017",
+        "document-status": "adopted",
+        "endpoint": "91b5c8b403d6120e149cd0707d831fe00c0d9b41640fa53bc8c8f2867fa71c41"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/qvffw4tx/landscape-and-visual-appraisal.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/ashford-local-plan-2030/local-plan-2030-evidence-base/local-plan-natural-and-built-environment-background-documents/",
+        "document-type": "local-plan",
+        "name": "Landscape and Visual Appraisal 2017",
+        "reference": "LVA-2017",
+        "document-status": "adopted",
+        "endpoint": "735e6e9aa84768a15be35cc7a446978acabd5cd55f091df9d3aea30a94f07c2e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ASF",
+    "organisation-name": "Ashford Borough Council",
+    "reference": "LP-ASF-2013",
+    "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+    "document-url": "https://www.ashford.gov.uk/media/4h5oxnxg/chilmington-green-area-action-plan.pdf",
+    "name": "Chilmington Green Area Action Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.ashford.gov.uk/media/4h5oxnxg/chilmington-green-area-action-plan.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+        "document-type": "area-action-plan",
+        "name": "Adopted Chilmington Green Area Action Plan July 2013",
+        "reference": "AAP-CGAAP-2013",
+        "document-status": "adopted",
+        "endpoint": "3f8b2e2b90ecc5b0e7411742175aa39ab9fcf14f75a8a60bb7ed42f1d82250a5"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/2t4fewkw/sa-and-sea-adoption-statement-chilmington-green.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+        "document-type": "adoption-statement",
+        "name": "SA and SEA Adoption Statement July 2013",
+        "reference": "AS-CGAAP-2013",
+        "document-status": "adopted",
+        "endpoint": "14d6d4bacca9b2cdb0c8be4b6323e4c25265d425f395a833194434a1b1ecd241"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/kwnm03k4/chilmington-green-area-action-plan-inspectors-report.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+        "document-type": "area-action-plan",
+        "name": "Chilmington Green AAP Inspectors Report",
+        "reference": "IR-CGAAP-2013",
+        "document-status": "adopted",
+        "endpoint": "b9e0f765d4352be350cc4ee78beb51d4412af796439670da2a312cedd126a35e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ASF",
+    "organisation-name": "Ashford Borough Council",
+    "reference": "LP-ASF-2008",
+    "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+    "document-url": "https://www.ashford.gov.uk/media/jynn2k0p/adopted_core_strategy.pdf",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2008,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.ashford.gov.uk/media/jynn2k0p/adopted_core_strategy.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/current-local-plans/chilmington-green-area-action-plan/",
+        "document-type": "core-strategy",
+        "name": "Core Strategy 2008",
+        "reference": "CS-2008",
+        "document-status": "adopted",
+        "endpoint": "dbc153e37bcda29747c355d63a97e8e93156477d32e82a673fa790eb5d9c309f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ASF",
+    "organisation-name": "Ashford Borough Council",
+    "reference": "LP-ASF-2025",
+    "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/emerging-local-plan-and-design-code/",
+    "document-url": "",
+    "name": "Emerging Local Plan and Design Code",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.ashford.gov.uk/media/3xsjpjpl/shma-report-to-inform-regulation-18-consultation.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/emerging-local-plan-and-design-code/emerging-evidence-base-documents/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment (SHMA) 2025 - Report to Inform Regulation 18 Consultation",
+        "reference": "SHMA-2025",
+        "document-status": "consultation",
+        "endpoint": "a22e75bf32e3c36a8a60e4ce3a7675d0b440aef4ca6d89745a388b4651313356"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/tkqhthkd/ashford-gtaa-2025-final-report-redacted.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/emerging-local-plan-and-design-code/emerging-evidence-base-documents/",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Gypsy and Traveller Accommodation Assessment (GTAA) 2025",
+        "reference": "GTAA-2025",
+        "document-status": "consultation",
+        "endpoint": "146fedf6a1c2cc7685eb4e6436c8d6af8bed89b7c14485237a72a73a5e1ebc43"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/zegd5h5p/lds-2024-1-use.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/emerging-local-plan-and-design-code/local-plan-timetable-and-how-to-get-involved/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2024",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "68d2352097125e189ce604763d54a62d6b4b5ffecdd4ef28cedc67c06bd6cf33"
+      },
+      {
+        "document-url": "https://www.ashford.gov.uk/media/r0nikldw/sci-update-2023_finalcabinetv_rev1march24.pdf",
+        "documentation-url": "https://www.ashford.gov.uk/planning-and-development/our-planning-policies/emerging-local-plan-and-design-code/local-plan-timetable-and-how-to-get-involved/",
+        "document-type": "landscape-character-assessment",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2023",
+        "document-status": "adopted",
+        "endpoint": "154e6750182821c39441e65174b5f7b0ddc7f967c95a0da4c22cc01d4b23d0f7"
       }
     ]
   }
