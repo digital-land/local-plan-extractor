@@ -434,14 +434,14 @@ class LocalPlanFinder:
             "/planning-and-building-control/planning-policies-and-local-plans", # Barnet parent
             "/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036", # Barnet local plan
             "/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",  # Barking and Dagenham local plan
-            "/planning/planning-policy/city-plan-part-one" # Brighton and Hove local plan pt.1
-            "/planning/planning-policy/city-plan-part-two" # Brighton and Hove local plan pt.2
+            "/planning/planning-policy/city-plan-part-one", # Brighton and Hove local plan pt.1
+            "/planning/planning-policy/city-plan-part-two", # Brighton and Hove local plan pt.2
             "/services/p/planning-policy/planning-policy-documents/development-plan", # Bolsover local plan
             "/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/", # Bromsgrove adopted plan
             "/planning/planning-policies/burnleys-local-plan/", # Burnley local plan
             "/planning/planning-policy/local-plan/about-local-plan", # Crawley local plan
             "/planning-development/planning-strategic-planning/new-single-local-plan", # Dacorum local plan
-            "/planning-and-building-regs/planning/planning-and-environmental-policy/" # Darlington local plans
+            "/planning-and-building-regs/planning/planning-and-environmental-policy/", # Darlington local plans
             "/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption", # Derbyshire Dales local plan
             "/cdp", # County Durham plan
             "/info/201164/local_plan", # Ealing local plan
@@ -492,8 +492,8 @@ class LocalPlanFinder:
             "/planning/draft-local-plan",
             "/planning/new-local-plan",
             "/planning/planning-policy",
-            "/planning/planningpolicies"
-            "/planning/planning-policies"
+            "/planning/planningpolicies",
+            "/planning/planning-policies",
             "/planning/planning-policy/local-plan",
             "/planning/planning-policy/emerging-local-plan",
             "/planning/planning-policy/existing-local-plans",
