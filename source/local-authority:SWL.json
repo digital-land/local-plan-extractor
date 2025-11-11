@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "organisation": "local-authority:SWL",
+    "organisation-name": "Swale Borough Council",
+    "reference": "LP-SWL-2017",
+    "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+    "document-url": "",
+    "name": "Adopted Local Plan for Swale",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan for Swale",
+        "reference": "LP-ADOPTED-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SWL",
+    "organisation-name": "Swale Borough Council",
+    "reference": "LP-SWL-REVIEW",
+    "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+    "document-url": "",
+    "name": "Local Plan Review",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review",
+        "reference": "LPR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review Evidence",
+        "reference": "LPR-EVIDENCE-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

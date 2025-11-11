@@ -3,19 +3,56 @@
     "organisation": "local-authority:DEB",
     "organisation-name": "Derbyshire Dales District Council",
     "reference": "LP-DEB-2017",
-    "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan",
+    "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption",
     "document-url": "",
     "name": "Derbyshire Dales Local Plan 2017",
     "status": "adopted",
     "year": 2017,
     "period-start-date": 2013,
     "period-end-date": 2033,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan (2005)",
+        "reference": "LP-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+        "document-type": "policies-map",
+        "name": "Adopted Local Plan (2005) proposals maps",
+        "reference": "PM-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+        "document-type": "local-plan",
+        "name": "Local Plan evidence base 2017",
+        "reference": "LP-EB-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-examination",
+        "document-type": "local-plan",
+        "name": "Examination library",
+        "reference": "EL-2017",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:DEB",
     "organisation-name": "Derbyshire Dales District Council",
-    "reference": "LP-DEB-2025",
+    "reference": "LP-DEB-2024",
     "documentation-url": "https://www.derbyshiredales.gov.uk/localplan",
     "document-url": "",
     "name": "Derbyshire Dales Local Plan Review 2020-2045",
@@ -24,5 +61,37 @@
     "period-start-date": 2020,
     "period-end-date": 2045,
     "documents": []
+  },
+  {
+    "organisation": "local-authority:DEB",
+    "organisation-name": "Derbyshire Dales District Council",
+    "reference": "LP-DEB-2005",
+    "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+    "document-url": "",
+    "name": "Adopted Local Plan 2005",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan (2005)",
+        "reference": "LP-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",
+        "document-type": "policies-map",
+        "name": "Adopted Local Plan (2005) proposals maps",
+        "reference": "PM-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   }
 ]

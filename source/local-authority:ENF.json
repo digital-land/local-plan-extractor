@@ -3,13 +3,203 @@
     "organisation": "local-authority:ENF",
     "organisation-name": "London Borough of Enfield",
     "reference": "LP-ENF-2024",
-    "documentation-url": "https://www.enfield.gov.uk/planning",
+    "documentation-url": "https://www.enfield.gov.uk/localplan",
     "document-url": "",
-    "name": "New Enfield Local Plan",
-    "status": "draft",
+    "name": "Enfield Local Plan (Regulation 24) 2024",
+    "status": "examination",
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0008/105110/Area-of-special-character-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Areas of Special Character",
+        "reference": "LP-AREAS-2024",
+        "document-status": "examination",
+        "endpoint": "a2ad025e6cf44c9f666630ec8f4b435d868dfe9fc0c8dbfab01f02671ca8d567"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0029/104798/LBE-response-to-IN11-October-2025-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Council Response to IN11 October 2025",
+        "reference": "EHS-IN11-2025",
+        "document-status": "examination",
+        "endpoint": "c1c834c395445e03e259e46c8c7db7af66d9921d37d1e09b226e5f53f16d4036"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0014/104360/Inspector-letter-new-towns-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "IN11 Inspector's Letter",
+        "reference": "EHS-IN11-INSP-2024",
+        "document-status": "examination",
+        "endpoint": "8ae1fa61508f3674c3c64f676d4d02332787ccfaa547ef111e90d56966507f0a"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0021/104259/Stage-3-cover-letter-for-submission-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Stage 3 Cover Letter for Submission",
+        "reference": "EHS-S3-COVER-2024",
+        "document-status": "examination",
+        "endpoint": "2685e38930cab928c7ab4fe5f608d18ee04673aab4fcf81a4d22c983ec741f45"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0018/103482/ELP-EiP-covering-letter-actions-19-Sep-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "ELP EiP Covering Letter Actions",
+        "reference": "EHS-COVER-ACTIONS-2024",
+        "document-status": "examination",
+        "endpoint": "7d9427356b6603b9fcaa0a8bd7cb054ee33978ab54ea18e46cfcc2d2e2556d23"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0019/103483/Enfield-enclosure-1-colosseum-retail-park-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Note on Colosseum Retail Park",
+        "reference": "EHS-COLOSSEUM-2024",
+        "document-status": "examination",
+        "endpoint": "a42f09f3d72fe8fc73cdb006fde31d5090eb8d60108cf0b622da49d97d3a8de6"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0020/103484/Enfield-enclosure-2-meridian-water-note-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Note on Meridian Water",
+        "reference": "EHS-MERIDIAN-2024",
+        "document-status": "examination",
+        "endpoint": "6d148fc247cf3973c445f0b07fbb075855e503f17a39a762b3cfa30894752f40"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0021/103485/Enfield-enclosure-3-PTAL-ratings-submission-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Note on PTAL Ratings",
+        "reference": "EHS-PTAL-2024",
+        "document-status": "examination",
+        "endpoint": "350ee9228c09e5a98bc363abeab15c78cb418eebde00e3d950b34959f78a0fd5"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0022/103486/Enfield-enclosure-4-air-quality-submission-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Note on Air Quality Issues",
+        "reference": "EHS-AIR-QUALITY-2024",
+        "document-status": "examination",
+        "endpoint": "8b9f41b806b759dac854832537da8dfb1551806363de6d9304d34f472f32a059"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0020/102179/IN10-Covering-Letter-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "IN10 Inspectors Letter",
+        "reference": "EHS-IN10-2024",
+        "document-status": "examination",
+        "endpoint": "b93711ba4bbea3ad7607f5dddd80a50813819a5df41485d10f3dbd1f6fd0c43d"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0017/102176/IN10-Appendix-1-Stage-3-MIQs-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Appendix 1 MIQ's",
+        "reference": "EHS-MIQ-2024",
+        "document-status": "examination",
+        "endpoint": "1e412cdd51232194ae7c58076f6e755a8d65569e959693e4ca67dd430959393d"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0018/102177/IN10-Appendix-2-Stage-2-Written-Statement-Guidance-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Appendix 2 Guidance Note",
+        "reference": "EHS-GUIDANCE-2024",
+        "document-status": "examination",
+        "endpoint": "8738ef2e66b55f9df2aef7ce5e5003d20438043e2724f90bf2f7c2de9a7b9993"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0034/97855/Comer-Homes-SoCG-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "statement-of-common-ground",
+        "name": "Comer Homes Statement of Common Ground",
+        "reference": "SOCG-COMER-2024",
+        "document-status": "examination",
+        "endpoint": "51b52ee728da97099fde757961b6336c351f95f4c42de9d34eb77544ea1e2687"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0035/97856/Landvest-Parkview-Nurseries-Statement-of-Common-Ground-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "statement-of-common-ground",
+        "name": "Landvest Parkview Nurseries Statement of Common Ground",
+        "reference": "SOCG-LANDVEST-2024",
+        "document-status": "examination",
+        "endpoint": "8f2ccd60df495f8aef6bc5642ab756ecfe1e7c61ed70ff3debdf5b8757407aca"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0038/96968/SUB14s-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "statement-of-common-ground",
+        "name": "Canal and River Trust Statement of Common Ground",
+        "reference": "SOCG-CANAL-2024",
+        "document-status": "examination",
+        "endpoint": "15a20b27aa8f9d991c8d1e9c69c35b2c4f83feeab290e0db0b1e4fe9735a7318"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0032/96971/SUB14t-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "statement-of-common-ground",
+        "name": "Kenninghall Holdings Statement of Common Ground",
+        "reference": "SOCG-KENNINGHALL-2024",
+        "document-status": "examination",
+        "endpoint": "f0c334af09b96f5d3a4c79df7903885eebb3c42b3c182a327fa278d0706aabf2"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0037/96967/SUB14r-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "statement-of-common-ground",
+        "name": "Berkeley Homes Statement of Common Ground",
+        "reference": "SOCG-BERKELEY-2024",
+        "document-status": "examination",
+        "endpoint": "4607483c62014fb1f982936363db96502388a61202b1a97963f90dbfc95af0c5"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0039/96969/E7.10-Updates-to-Policy-SS1-Housing-Requirement-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "E7.10 Updates to Policy SS1 Housing Requirement",
+        "reference": "LP-SS1-UPDATE-2024",
+        "document-status": "examination",
+        "endpoint": "9967638ccd01354f685b14b93c744a94e9a3b9f02217ee302e7bf18c1306c0a7"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0022/94603/IN9-Stage-2-MIQs-Covering-Letter-FINAL-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Inspector's Letter IN9",
+        "reference": "EHS-IN9-2024",
+        "document-status": "examination",
+        "endpoint": "66234b7f87b962495805509fc17a22b75a70aba3ff445ff59448b1e4118322f2"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0020/94601/IN9-Appendix-1-Stage-2-MIQs-FINAL2-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Appendix 1 – Matters, Issues and Questions",
+        "reference": "EHS-MIQ-STAGE2-2024",
+        "document-status": "examination",
+        "endpoint": "1e0d3276a44ba7259711472713940a149d6438fc7830927ae92470773a38a7bb"
+      },
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0021/94602/IN9-Appendix-2-Stage-2-Written-Statement-Guidance-Planning.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Appendix 2 – Further Guidance Note",
+        "reference": "EHS-GUIDANCE-STAGE2-2024",
+        "document-status": "examination",
+        "endpoint": "046cbb97cc688e4ba6eeb13ae30bec1bbf830be10268bc4d765255249376bfe1"
+      }
+    ]
   }
 ]

@@ -3,7 +3,7 @@
     "organisation": "local-authority:SWD",
     "organisation-name": "Swindon Borough Council",
     "reference": "LP-SWD-2019",
-    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
     "document-url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026",
     "name": "Swindon Borough Local Plan 2026",
     "status": "adopted",
@@ -43,53 +43,53 @@
   {
     "organisation": "local-authority:SWD",
     "organisation-name": "Swindon Borough Council",
-    "reference": "LP-SWD-2010",
-    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-    "document-url": "https://www.swindon.gov.uk/downloads/file/2800/swindon_central_area_action_plan",
+    "reference": "LP-SWD-2013",
+    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
+    "document-url": "https://www.swindon.gov.uk/downloads/file/2734/swindon_central_area_action_plan",
     "name": "Swindon Central Area Action Plan",
     "status": "adopted",
-    "year": 2010,
+    "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2800/swindon_central_area_action_plan",
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2734/swindon_central_area_action_plan",
         "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
         "document-type": "area-action-plan",
         "name": "Swindon central area action plan",
         "reference": "AAP-CENTRAL",
         "document-status": "adopted",
-        "endpoint": "f10c99f5bac8991a9626cbd9deff98051223c8046516e56fac3f094f57f5e9b3"
+        "endpoint": "4ae51b5f9e55158ce4cc1f7f1d8172863d7b47e38cb515e2431a100cbf1cd9fd"
       },
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2801/swindon_central_area_action_plan_part_2",
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2777/swindon_central_area_action_plan_part_2",
         "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
         "document-type": "area-action-plan",
         "name": "Swindon central area action plan part 2",
-        "reference": "AAP-CENTRAL-2",
+        "reference": "AAP-CENTRAL-P2",
         "document-status": "adopted",
-        "endpoint": "9421a51f8fd61218f4c8ae03dc869e8ae6185b60791c0c96808eee64c1b926ae"
+        "endpoint": "fb4f21a12323f0de9fe2c89d9328a6c0943f062accb65baf03a435894c8b4eb2"
       },
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2799/swindon_central_area_action_plan_proposals_map",
+        "document-url": "https://www.swindon.gov.uk/downloads/file/2721/swindon_central_area_action_plan_proposals_map",
         "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
         "document-type": "policies-map",
         "name": "Swindon central area action plan proposals map",
         "reference": "PM-CENTRAL",
         "document-status": "adopted",
-        "endpoint": "139fda3120849ea996119927be7bf4a0228641a5c2f93b107512b564677e2331"
+        "endpoint": "b9e30218752bd0c12279f073818926b677a1b6f5e4de11502a5a30ef591f8d31"
       }
     ]
   },
   {
     "organisation": "local-authority:SWD",
     "organisation-name": "Swindon Borough Council",
-    "reference": "LP-SWD-2006",
-    "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+    "reference": "LP-SWD-2026",
+    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
     "document-url": "https://www.swindon.gov.uk/downloads/file/7581/wiltshire_and_swindon_waste_core_strategy_2006-2026",
     "name": "Wiltshire and Swindon Waste Core Strategy 2006-2026",
     "status": "adopted",
-    "year": 2006,
+    "year": 2009,
     "period-start-date": 2006,
     "period-end-date": 2026,
     "documents": [
@@ -110,15 +110,6 @@
         "reference": "PM-WCS",
         "document-status": "adopted",
         "endpoint": "eb77ab469ac18ff1b378b762179958b0d4420a58419a99e3134c51c9c86b3dc7"
-      },
-      {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/1722/waste_development_control_policies",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "local-plan",
-        "name": "Waste Development Control Policies",
-        "reference": "WDCP-2006",
-        "document-status": "adopted",
-        "endpoint": "ef9655cbe759ffd5b9949e9b94f2686929dec73006ef56c3aec191e1785f07b7"
       }
     ]
   }

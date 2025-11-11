@@ -3,22 +3,84 @@
     "organisation": "local-authority:NEC",
     "organisation-name": "Newcastle-under-Lyme Borough Council",
     "reference": "LP-NEC-2025",
-    "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/local-plan",
+    "documentation-url": "https://www.newcastle-staffs.gov.uk/localplan",
     "document-url": "",
     "name": "Newcastle-under-Lyme Local Plan 2020-2040",
     "status": "examination",
     "year": 2025,
     "period-start-date": 2020,
     "period-end-date": 2040,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:NEC",
+    "organisation-name": "Newcastle-under-Lyme Borough Council",
+    "reference": "LP-NEC-2011",
+    "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/current-development-plan",
+    "document-url": "",
+    "name": "Newcastle-under-Lyme Local Plan 2011 (Saved Policies)",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:STA",
+    "organisation-name": "Staffordshire County Council",
+    "reference": "LP-STA-2017",
+    "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+    "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Minerals-Local-Plan-for-Staffordshire-2015-2030.PDF",
+    "name": "Minerals Local Plan for Staffordshire 2015-2030",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/local-plan/4",
-        "document-type": "main-modifications",
-        "name": "Local plan main modifications consultation",
-        "reference": "MM-2025",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Minerals-Local-Plan-for-Staffordshire-2015-2030.PDF",
+        "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "The Minerals Local Plan for Staffordshire (2015-2030)",
+        "reference": "MLP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "9781196c2bae460168dbb960f68f0060eabcbfdb4c7ac1e2570683a00cb68d35"
+      },
+      {
+        "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Appendices.PDF",
+        "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+        "document-type": "local-plan",
+        "name": "The Appendices",
+        "reference": "MLP-APP-2017",
+        "document-status": "adopted",
+        "endpoint": "494ed1d4fdb74518b701109a626b4df396d3e126eba2bd07f5af4bd2a49f21dc"
+      },
+      {
+        "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Policies-and-Proposals-Map.PDF",
+        "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+        "document-type": "policies-map",
+        "name": "The Policies and Proposals Map",
+        "reference": "PM-2017",
+        "document-status": "adopted",
+        "endpoint": "45a50ae14fd157c3503589f0018f95bcfce5a8b829833600af873095e61f15bc"
+      },
+      {
+        "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Sustainability-Appraisal.PDF",
+        "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+        "document-type": "sustainability-appraisal",
+        "name": "The Sustainability Appraisal",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "6683ebffd7cadafa960a59a4b047ae8a50fc6c2905864b7f43519c9f21258355"
+      },
+      {
+        "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/Interim-review-of-the-Minerals-Local-Plan.PDF",
+        "documentation-url": "https://www.staffordshire.gov.uk/environment/planning/policy/mineralslocalplan/mineralsLocalPlan.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Interim review of the Minerals Local Plan",
+        "reference": "MLP-IR-2019",
+        "document-status": "adopted",
+        "endpoint": "3f418841aa3eab1f5ca7f0406380159bfc90f3d9cb33235124b0b9cc386f7844"
       }
     ]
   }

@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "organisation": "local-authority:OLD",
+    "organisation-name": "Oldham Metropolitan Borough Council",
+    "reference": "LP-OLD-2025",
+    "documentation-url": "https://www.oldham.gov.uk/downloads/20054/local_plan_documents",
+    "document-url": "",
+    "name": "Oldham Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.oldham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Document downloads",
+        "reference": "LP-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

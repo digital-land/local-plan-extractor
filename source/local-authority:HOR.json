@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "organisation": "local-authority:HOR",
+    "organisation-name": "Horsham District Council",
+    "reference": "LP-HOR-2015",
+    "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+    "document-url": "",
+    "name": "Horsham District Planning Framework",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan-adopted",
+        "name": "Horsham District Planning Framework",
+        "reference": "LP-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

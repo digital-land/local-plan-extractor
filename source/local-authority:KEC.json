@@ -2,6 +2,173 @@
   {
     "organisation": "local-authority:KEC",
     "organisation-name": "Royal Borough of Kensington and Chelsea",
-    "error": "Expecting ',' delimiter: line 202 column 10 (char 11065)"
+    "reference": "LP-KEC-2024",
+    "documentation-url": "https://www.rbkc.gov.uk/localplan",
+    "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/AA_24-09-03%20Local%20Plan%202024_Final%20Clean%20Version%20_02.pdf",
+    "name": "New Local Plan July 2024",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/AA_24-09-03%20Local%20Plan%202024_Final%20Clean%20Version%20_02.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "New Local Plan July 2024",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "ba1a142e2f72eba231b384403ae64f31ce677b396f1a8b5c9b4e0153cd6da53c"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/NLPR%20Policies%20Map_July2024_compressed.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Policies Map July 2024",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "7c0b4349e90577c72ba39d3ad6d3175e2c3dc97244449d82bf46f0e6b2262efa"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/24-07-22%20NLPR%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "NLPR adoption statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "40a9e8956cb0e74dadb0f818ed1fe75e67985d87575c22e79c05b0105ed1b960"
+      },
+      {
+        "document-url": "https://planningconsult.rbkc.gov.uk/gf2.ti/f/1590370/194005413.1/PDF/-/RBKC IIA Report_MM Update_Compiled.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment (IIA) January 2024",
+        "reference": "IIA-2024",
+        "document-status": "adopted",
+        "endpoint": "4d818382f7588cdf8854a891f6bb3db7a11654383b84a47a2ec930a4711b2869"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/24-07-18%20IIA%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "IIA Adoption Statement",
+        "reference": "IIA-AS-2024",
+        "document-status": "adopted",
+        "endpoint": "32b994e3b719f38e927f2caad4a5ee01733f3be693ebfc650069a0c8001464ef"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KEC",
+    "organisation-name": "Royal Borough of Kensington and Chelsea",
+    "reference": "LP-KEC-2019",
+    "documentation-url": "https://www.rbkc.gov.uk/localplan",
+    "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/Local%20plan%202019%20%28full%20document%29.pdf",
+    "name": "Local Plan 2019",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/Local%20plan%202019%20%28full%20document%29.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan 2019",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "203c0e095975e043c282cb44d294c0f420c1c2562b9eb1eb566a69ffb6a88a04"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/2019%20LOCAL%20PLAN%20Proposals%20Map_0.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Proposals Map",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "faefbd67b8978b702418a33ab85434a79e883513a2b798cce310b1795dfd9aab"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/2019%20LOCAL%20PLAN%20SECTION%201%20SPATIAL%20STRATEGY.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Section 1: Spatial Strategy (Chapters 1-16)",
+        "reference": "LP-S1-2019",
+        "document-status": "adopted",
+        "endpoint": "82de60c81354aab9da767e67af4dc44b29642ff9b569e4a7c4b994bbf1bca73e"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/2019%20LOCAL%20PLAN%20SECTION%202%20DELIVERY%20STRATEGY.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Section 2: Delivery Strategy (Chapters 17-27)",
+        "reference": "LP-S2-2019",
+        "document-status": "adopted",
+        "endpoint": "d3dd4879c423a91503042dcab0cd026f8a6cffd4943bb3cd95b4d2aa3c3fd3fb"
+      },
+      {
+        "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/2019%20LOCAL%20PLAN%20SECTION%203%20SUPPORTING%20INFORMATION.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Section 3: Supporting Information (Chapters 28-32)",
+        "reference": "LP-S3-2019",
+        "document-status": "adopted",
+        "endpoint": "33ae68daab75b61cae8fe02a9fbdd883699096c95b18d5f67270f3908f49eb5b"
+      },
+      {
+        "document-url": "http://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/55752293.1/PDF/-/190911_LPPR_Adoption_Statement.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "6d26577af73b87436aff2be9f50f4742327a5e07b0c6841420cd5d35da72ca99"
+      },
+      {
+        "document-url": "http://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/26692389.1/PDF/-/IIA_Report__Submission_Arcadis__May_2017.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment (May 2017)",
+        "reference": "IIA-2017",
+        "document-status": "adopted",
+        "endpoint": "cc724c3acbc3af245462036468349500f490c8d01d18d0fabc59fd9deba3c4e1"
+      },
+      {
+        "document-url": "http://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/39250533.1/PDF/-/180718__IIA_Addendum_Report__FINAL.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment Addendum (July 2018)",
+        "reference": "IIA-ADD-2018",
+        "document-status": "adopted",
+        "endpoint": "af406fbee3311e083df0dfcb66b15e65b785f34b61da327df534a4480acdc697"
+      },
+      {
+        "document-url": "http://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/55763781.1/PDF/-/190911_SEA_SA_Adoption_Statement2.pdf",
+        "documentation-url": "https://www.rbkc.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "IIA Adoption Statement (September 2019)",
+        "reference": "IIA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "e648631e1672d52c428ffb61a962d4042c70dd8685941d26307dbcfff9ef0953"
+      },
+      {
+        "document-url": "https://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/54172837.1/PDF/-/RBKC_LPPR__Inspectors_Report__July_2019.pdf",
+        "documentation-url": "http://planningconsult.rbkc.gov.uk/consult.ti/LPPRexam",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on the Examination of LPPR, 31 July 2019",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "23f81f7a8289bda9dbd69a574beb40bfec7914e8d8ea9c8c57cf41b970755ba6"
+      },
+      {
+        "document-url": "https://planningconsult.rbkc.gov.uk/gf2.ti/f/799106/54172997.1/PDF/-/RBKC_LPPR__Main_Modifications_Appendix__July_2019.pdf",
+        "documentation-url": "http://planningconsult.rbkc.gov.uk/consult.ti/LPPRexam",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Main Modifications (appended to the Inspector's Report), 31 July 2019",
+        "reference": "MM-2019",
+        "document-status": "adopted",
+        "endpoint": "40a1ca674c9bba91e3e79fb4577ef98096475854e6eb0e2e9330ada1356b5696"
+      }
+    ]
   }
 ]

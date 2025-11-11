@@ -2,6 +2,29 @@
   {
     "organisation": "local-authority:EAL",
     "organisation-name": "London Borough of Ealing",
+    "reference": "LP-EAL-2021",
+    "documentation-url": "https://www.ealing.gov.uk/info/201164/local_plan/3125/new_local_plan/3",
+    "document-url": "https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf",
+    "name": "The London Plan 2021",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf",
+        "documentation-url": "https://www.ealing.gov.uk/info/201164/local_plan/3125/new_local_plan/3",
+        "document-type": "local-plan",
+        "name": "The London Plan",
+        "reference": "LP-2021",
+        "document-status": "adopted",
+        "endpoint": "6aaa172fc1adf0c7ac1699a224a2b33b4eb56ce6f408922b96d4900de0d37b17"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EAL",
+    "organisation-name": "London Borough of Ealing",
     "reference": "LP-EAL-2024",
     "documentation-url": "https://www.ealing.gov.uk/newlocalplan",
     "document-url": "",
@@ -10,16 +33,6 @@
     "year": 2024,
     "period-start-date": 2024,
     "period-end-date": 2039,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.ealing.gov.uk/downloads/20054/local_plan_documents",
-        "document-type": "local-plan",
-        "name": "Document downloads",
-        "reference": "LP-2024-2039",
-        "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
+    "documents": []
   }
 ]

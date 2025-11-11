@@ -2,7 +2,66 @@
   {
     "organisation": "local-authority:SLG",
     "organisation-name": "Slough Borough Council",
-    "reference": "LP-SLG-2025",
+    "reference": "LP-SLG-2010",
+    "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+    "document-url": "",
+    "name": "Slough Core Strategy",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "site-allocations",
+        "name": "Site Allocations",
+        "reference": "SA-DPD-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "local-plan",
+        "name": "Local Plan Saved Policies",
+        "reference": "LP-SAVED-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Mineral and Waste Local Plan Policies",
+        "reference": "MWP-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Residential Extension Guidelines (RESPD)",
+        "reference": "SPD-RESPD-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SLG",
+    "organisation-name": "Slough Borough Council",
+    "reference": "LP-SLG-2026",
     "documentation-url": "https://www.slough.gov.uk/planning-policy/new-local-plan-slough",
     "document-url": "",
     "name": "Slough Local Plan 2025-2045",
@@ -12,13 +71,31 @@
     "period-end-date": 2045,
     "documents": [
       {
-        "document-url": "https://www.slough.gov.uk/downloads/file/4771/statement-of-community-involvement-consultation-form",
-        "documentation-url": "https://www.slough.gov.uk/downloads/download/1394/statement-of-community-involvement-consultation-response-form",
-        "document-type": "statement-of-community-involvement",
-        "name": "Statement of Community Involvement consultation form",
-        "reference": "SCI-2025",
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "The New Local Plan for Slough",
+        "reference": "LP-2025-2045",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Call for Sites for the Local Plan",
+        "reference": "CFS-2025",
         "document-status": "consultation",
-        "endpoint": "3a56ea3303b25cbc04050842831f383d202e991696c93d7143e4ca1bb1901d52"
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/new-local-plan-slough/5",
+        "document-type": "local-plan",
+        "name": "Emerging Local Plan – Updates to Planning Committee",
+        "reference": "LP-UPDATES-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
   }

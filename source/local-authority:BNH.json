@@ -2,10 +2,203 @@
   {
     "organisation": "local-authority:BNH",
     "organisation-name": "Brighton and Hove City Council",
-    "reference": "LP-BNH-2015",
-    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/statement-community-involvement",
+    "reference": "LP-BNH-2016",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+    "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2021-05/CD01-City%20Plan%20Part%20One%20%28adopted%20March%202016%29.pdf",
+    "name": "Brighton & Hove City Plan Part One",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2021-05/CD01-City%20Plan%20Part%20One%20%28adopted%20March%202016%29.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "City Plan Part 1",
+        "reference": "LP-2016",
+        "document-status": "adopted",
+        "endpoint": "f958cf0f962b529174b16532097c7210346f372a66e1289d1b568f3abfaf8f72"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINAL%20annex%201%20%28mar%202016%29.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Annex 1 - Implementation and Monitoring",
+        "reference": "LP-ANNEX1-2016",
+        "document-status": "adopted",
+        "endpoint": "951ac88266a76d568cc375446d0640da1dbc0a85401d0e2b75c47c15fbb37567"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINAL%20annex%202%20%28jun%202017%29.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Annex 2 - Infrastructure Delivery Plan",
+        "reference": "LP-ANNEX2-2017",
+        "document-status": "adopted",
+        "endpoint": "498f08cb0c48561540c48bf271490284365b6c7aced022240fdc9837bb69714a"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINAL%20annex%203%20%28mar%202016%29.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Annex 3 - Housing Implementation Strategy",
+        "reference": "LP-ANNEX3-2016",
+        "document-status": "adopted",
+        "endpoint": "9af97219a4915941318ca81d768d18ad5b2975beee47e7f0dd3791b6805e9343"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINAL%20annex%204%20%28mar%202016%29.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Annex 4 - Local Plan Policies to be Replaced by the City Plan Part 1",
+        "reference": "LP-ANNEX4-2016",
+        "document-status": "adopted",
+        "endpoint": "2cfbb9ff8bc994d831463a96d0bad148c86fa2671a75de5d01ec7ddc3a02516e"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/Brighton%20%2B%20Hove%20City%20Plan%20Report%20final.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "inspectors-report",
+        "name": "The City Plan Part 1 Inspector's Report",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "ec1f725c7c0faee9e2cc1b61a3c4316e2259f59199d76e19ad25db71527ebf6e"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/Report%20Appendix%20MMs.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Appendix",
+        "reference": "LP-APPENDIX-2016",
+        "document-status": "adopted",
+        "endpoint": "826e79383176d30f31ee73e245a906dbbd86db6f7554203245d9a4e172dfc498"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/public%20notice%20Adoption%20finalwithamendedaddress.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "adoption-statement",
+        "name": "City Plan Part One Adoption Statement",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "1d70b17e7dd6b5a229d8d55c85dc90b019935efd15986b6da6f1c2b5ea8b35c2"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINAL%20SEA%20SA%20post%20adoption%20statement%2021.03.16.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "adoption-statement",
+        "name": "City Plan Part One Sustainability Appraisal Adoption Statement",
+        "reference": "AS-SA-2016",
+        "document-status": "adopted",
+        "endpoint": "9e76398cdae363de373c13964c4b7ce17522c9613fcd2f5102176dd7b10e6a1f"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/SA%20combined.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "sustainability-appraisal",
+        "name": "Final Sustainability Appraisal March 2016",
+        "reference": "SA-2016",
+        "document-status": "adopted",
+        "endpoint": "f40edb2ff73370a18d97000201adf2b1ae2da579ba9c9440af1b3d976f2c69ed"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/SA%20NTS%20combined.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/city-plan-part-one",
+        "document-type": "sustainability-appraisal",
+        "name": "Final Sustainability Appraisal Non-Technical Summary March 2016",
+        "reference": "SA-NTS-2016",
+        "document-status": "adopted",
+        "endpoint": "12d03509d2152217adc307ddb7f2e1abbc9a3c6371d071c7b86dd79d14b5086a"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-2022",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/development-plans",
     "document-url": "",
-    "name": "Brighton & Hove Development Plan",
+    "name": "Brighton & Hove City Plan Part Two",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-2041",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/development-plans",
+    "document-url": "",
+    "name": "City Plan 2041",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-WM-2024",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/waste-and-minerals",
+    "document-url": "https://www.eastsussex.gov.uk/media/1r0l2t3z/r-lpm08-policies-map-amendments-document-2024-10-24.pdf",
+    "name": "East Sussex, South Downs and Brighton & Hove Waste and Minerals Local Plan - Revised Policies",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2024-04/Waste_and_Minerals_Plan_February_2013.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/development-plans",
+        "document-type": "minerals-and-waste-plan",
+        "name": "East Sussex, South Downs and Brighton & Hove Waste and Minerals Plan - adopted in 2013",
+        "reference": "WMP-2013",
+        "document-status": "adopted",
+        "endpoint": "0673fadfce5dd3f0fb5479f98983328565c11c1919559e4dae5da9fd56863fc6"
+      },
+      {
+        "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2024-04/WMSP%20-%20Adopted%20Version%20Feb%202017.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/development-plans",
+        "document-type": "local-plan",
+        "name": "East Sussex, South Downs and Brighton & Hove Waste and Minerals Sites Plan - adopted in 2017",
+        "reference": "WMSP-2017",
+        "document-status": "adopted",
+        "endpoint": "6e21802b923b295ec6f4ed27213f5b89339ee4756742bfd08232655703c5f82e"
+      },
+      {
+        "document-url": "https://www.eastsussex.gov.uk/media/1r0l2t3z/r-lpm08-policies-map-amendments-document-2024-10-24.pdf",
+        "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/waste-and-minerals",
+        "document-type": "local-plan",
+        "name": "Revised Policies",
+        "reference": "WM-RP-2024",
+        "document-status": "adopted",
+        "endpoint": "857ab17e4b692c49858c67be146cb7ad172c8f11d5860ddee74ad49ae0d303a2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-SH-2019",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/development-plans",
+    "document-url": "",
+    "name": "Shoreham Harbour Joint Area Action Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BNH",
+    "organisation-name": "Brighton and Hove City Council",
+    "reference": "LP-BNH-SCI-2015",
+    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy/statement-community-involvement",
+    "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINALSCIADOPTED12thMarch2015.pdf",
+    "name": "Statement of Community Involvement",
     "status": "adopted",
     "year": 2015,
     "period-start-date": "",
@@ -21,18 +214,5 @@
         "endpoint": "4f4a1db3386b1872b56632c80bf179096ad1b9b9bbdcab771076dd4faedc51a7"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:BNH",
-    "organisation-name": "Brighton and Hove City Council",
-    "reference": "LP-BNH-2041",
-    "documentation-url": "https://www.brighton-hove.gov.uk/planning/planning-policy",
-    "document-url": "",
-    "name": "City Plan 2041",
-    "status": "draft",
-    "year": 2025,
-    "period-start-date": 2021,
-    "period-end-date": 2041,
-    "documents": []
   }
 ]

@@ -2,14 +2,24 @@
   {
     "organisation": "local-authority:BUN",
     "organisation-name": "Burnley Borough Council",
-    "reference": "LP-BUN-2024",
-    "documentation-url": "https://burnley.gov.uk/planning/planning-policies/",
+    "reference": "LP-BUN-2023",
+    "documentation-url": "https://www.burnley.gov.uk/planning",
     "document-url": "",
     "name": "Burnley Local Plan",
-    "status": "draft",
-    "year": 2024,
+    "status": "adopted",
+    "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.burnley.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Planning Policy and the Local Plan",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   }
 ]

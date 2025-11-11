@@ -2,6 +2,14 @@
   {
     "organisation": "local-authority:GRY",
     "organisation-name": "Great Yarmouth Borough Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-GRY-2024",
+    "documentation-url": "https://www.great-yarmouth.gov.uk/planning-and-building-control",
+    "document-url": "",
+    "name": "Great Yarmouth Local Plan",
+    "status": "regulation-19",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
   }
 ]

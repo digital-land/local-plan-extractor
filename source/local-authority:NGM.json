@@ -2,6 +2,78 @@
   {
     "organisation": "local-authority:NGM",
     "organisation-name": "Nottingham City Council",
-    "error": "Expecting ',' delimiter: line 180 column 10 (char 12662)"
+    "reference": "LP-NGM-2020",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+    "document-url": "https://www.nottinghamcity.gov.uk/media/blqmbjvu/land-and-planning-policies-document-lapp-2020.pdf",
+    "name": "Land and Planning Policies Document - LAPP (2020)",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/blqmbjvu/land-and-planning-policies-document-lapp-2020.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Land and Planning Policies Document - LAPP (2020)",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "0415642a7b498d08266db1fea82d774b260723bf911687fb1e99225221890f59"
+      },
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/n1fcvkgo/lapp-policies-map-combined2.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "LAPP Policies Map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "81c28eb8445a5ef2052e2dc5a24025ad13e882214cab4d46e39e4c721fa7791e"
+      },
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/ki0f2yed/inspector-report-letter-report-and-mm-schedule.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report Letter Report and MM Schedule",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "5673bb52c120053087cccf09f957ea0573cd0ef690ca93533799634484acf04c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NGM",
+    "organisation-name": "Nottingham City Council",
+    "reference": "LP-NGM-2014",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+    "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+    "name": "Nottingham City Aligned Core Strategy - ACS (2014)",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Nottingham City Aligned Core Strategy - ACS (2014)",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NGM",
+    "organisation-name": "Nottingham City Council",
+    "reference": "LP-NGM-2025",
+    "documentation-url": "https://www.gnplan.org.uk/consultations/",
+    "document-url": "",
+    "name": "Greater Nottingham Strategic Plan",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": []
   }
 ]

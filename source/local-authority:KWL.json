@@ -1,1 +1,179 @@
-[]
+[
+  {
+    "organisation": "local-authority:KWL",
+    "organisation-name": "Knowsley Metropolitan Borough Council",
+    "reference": "LP-KWL-2016",
+    "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+    "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/knowsley-local-plan-adopted-core-strategy.pdf",
+    "name": "Knowsley Local Plan Core Strategy",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/knowsley-local-plan-adopted-core-strategy.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Knowsley Local Plan Adopted Core Strategy",
+        "reference": "LP-2016",
+        "document-status": "adopted",
+        "endpoint": "20c91e28bbe2f93b1b022a7e351eeb86d917fc9c572a95501e68269e902a921a"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/local-plan-core-strategy-adoption-statement-jan-2016.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy Adoption Statement",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "a9af9e32db002da0bad79ca7f9434727287bf849cba3dba1b30cedabedb555e1"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/SD07_CoreStrategySustainabilityAppraisalReport.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Core Strategy Sustainability Appraisal Report",
+        "reference": "SA-2012",
+        "document-status": "adopted",
+        "endpoint": "71617625b36ef4c42d44bf28f788610b337edfc3c1a342db7c84e963062248f6"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/SD07a_CoreStrategySustainabilityAppraisalReport-Appendices.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Core Strategy Sustainability Appraisal Report Appendices",
+        "reference": "SA-2012-APP",
+        "document-status": "adopted",
+        "endpoint": "babeac8a7d4e75ddda7f686fc30e3360ac5aeaab41c8f045acfd74762d3f8ca2"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/schedule-additional-modifications-jan-2016.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications",
+        "reference": "MOD-2016",
+        "document-status": "adopted",
+        "endpoint": "d7e207729cc0c61dfc9c56b4d1c236b67489ca5aff7a23863f3e89974632d21f"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/schedule-minor-changes-edits-jan-2016.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Schedule of Minor Changes and Edits",
+        "reference": "MCE-2016",
+        "document-status": "adopted",
+        "endpoint": "f32722a57f4ffe631db5e74928f02662ea56a2e604de5e5c8e18ca675d5c33dd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KWL",
+    "organisation-name": "Knowsley Metropolitan Borough Council",
+    "reference": "LP-KWL-2006",
+    "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+    "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/Knowsley%20UDP%202006.pdf",
+    "name": "Knowsley Replacement Unitary Development Plan",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/Knowsley%20UDP%202006.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Knowsley UDP 2006",
+        "reference": "UDP-2006",
+        "document-status": "adopted",
+        "endpoint": "70d5b929b75ecf24803f790b7df689b77de04d97af8e49808d687604963f273f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KWL",
+    "organisation-name": "Knowsley Metropolitan Borough Council",
+    "reference": "LP-KWL-2013",
+    "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+    "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/JointMerseyside-and-HaltonWasteLocalPlan2013.pdf",
+    "name": "Merseyside and Halton Joint Waste Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/JointMerseyside-and-HaltonWasteLocalPlan2013.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Joint Merseyside and Halton Waste Local Plan 2013",
+        "reference": "WLP-2013",
+        "document-status": "adopted",
+        "endpoint": "32d3f768d9a0975e81ba583f812bcc5207d18fe9101901b9a13d4b0f36a49a0c"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/WasteLocalPlan-AdoptionStatement.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Waste Local Plan Adoption Statement",
+        "reference": "WLP-AS-2013",
+        "document-status": "adopted",
+        "endpoint": "db59bf00e069402ce43292df3de892d63d58ef578f0a145d3dd88355bf2850cd"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/PP04a_WasteLocalPlan-FinalInspectorsReport.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Waste Local Plan Final Inspectors Report",
+        "reference": "WLP-IR-2013",
+        "document-status": "adopted",
+        "endpoint": "7dee81c6f98281adf37442a9e34916fb01f602fe1d3b688c972b34594c613ee4"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2025-10/Topic%20Paper%201%20Review%20of%20Policies%20and%20AMR%20data.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "authority-monitoring-report",
+        "name": "Topic Paper 1: Review of Policies and Annual Monitoring Report (AMR) data",
+        "reference": "WLP-TP1-2025",
+        "document-status": "adopted",
+        "endpoint": "9dfd426141a74cf28acdd7d0e1e2a0c93a323ceb29081aa2bcba9e79ad96afc4"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2025-10/Topic%20Paper%202%20Review%20of%20Consistency%20with%20National%20Policy%20and%20Climate%20Emergency.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Topic Paper 2: Review of consistency with National Policy and Climate Emergency",
+        "reference": "WLP-TP2-2025",
+        "document-status": "adopted",
+        "endpoint": "ae881e5112e2c6ce2537f516a21a637a5a8426777d927eb7aee33bdd42e1d2c6"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2025-10/Topic%20Paper%203%20Spatial%20Strategy%20and%20Sites%20Review.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Topic Paper 3: Spatial Strategy & Sites Review",
+        "reference": "WLP-TP3-2025",
+        "document-status": "adopted",
+        "endpoint": "f5ac17a06538c1d78dcf9e7f218e22a11172d5347b7e9d26735ed5238105d894"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2025-10/Topic%20Paper%204%20Duty%20to%20Cooperate%20Engagement.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Topic Paper 4: Duty to Cooperate Engagement",
+        "reference": "WLP-TP4-2025",
+        "document-status": "adopted",
+        "endpoint": "189a03e78ac377e791317c98250ffa7e5ef0762bd9374d3b36decc22515e8e14"
+      },
+      {
+        "document-url": "https://www.knowsley.gov.uk/sites/default/files/2025-10/Topic%20Paper%205%20Waste%20Needs%20Assessment.pdf",
+        "documentation-url": "https://www.knowsley.gov.uk/planning-and-development/planning-policy/adopted-documents/",
+        "document-type": "local-plan",
+        "name": "Topic Paper 5: Waste Needs Assessment",
+        "reference": "WLP-TP5-2025",
+        "document-status": "adopted",
+        "endpoint": "eef536afeefeef7b1a8b655066eddd3988d88cb0f36c5e74981fb2c2a888a85a"
+      }
+    ]
+  }
+]

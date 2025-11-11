@@ -3,26 +3,194 @@
     "organisation": "local-authority:DUR",
     "organisation-name": "Durham County Council",
     "reference": "LP-DUR-2020",
-    "documentation-url": "https://www.durham.gov.uk/planning",
-    "document-url": "",
+    "documentation-url": "https://www.durham.gov.uk/article/3266/Development-Plan-for-County-Durham",
+    "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
     "name": "County Durham Plan",
     "status": "adopted",
     "year": 2020,
     "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:DUR",
-    "organisation-name": "Durham County Council",
-    "reference": "LP-DUR-2021",
-    "documentation-url": "https://www.durham.gov.uk/planning",
-    "document-url": "",
-    "name": "County Durham Minerals and Waste Policies and Allocations Document",
-    "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
+        "documentation-url": "https://www.durham.gov.uk/article/3266/Development-Plan-for-County-Durham",
+        "document-type": "local-plan",
+        "name": "County Durham Plan",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "612c180707318ef32ef5a39e4c7aa8d071c389ad15f40843b55b0e788402a1dc"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/47856/Review-of-the-County-Durham-Plan-2020/pdf/ReviewCountyDurhamPlan.pdf?m=1760616330807",
+        "documentation-url": "https://www.durham.gov.uk/article/3266/Development-Plan-for-County-Durham",
+        "document-type": "local-plan",
+        "name": "Review of the County Durham Plan 2020",
+        "reference": "LPR-2020",
+        "document-status": "adopted",
+        "endpoint": "f3f3fcbd20f98ef366b90858757931223447af89f9d046303e7ded9f4d2ebd5e"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/45680/Open-Space-Needs-Assessment/pdf/OpenSpaceNeedsAssessment.pdf?m=1730979748767",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "local-plan",
+        "name": "Open Space Needs Assessment",
+        "reference": "OSNA-2023",
+        "document-status": "adopted",
+        "endpoint": "73f39b4f8a800a309f19ce6c86e91ae9ba6c55f3bfad40311f6b3cb8089ca71f"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46628/Five-Year-Housing-Land-Position-Statement/pdf/FiveYearHousingLandPositionStatement.pdf?m=1747231292323",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "neighbourhood-plan",
+        "name": "Five-Year Housing Land Position Statement",
+        "reference": "FYHLS-2025",
+        "document-status": "adopted",
+        "endpoint": "ff9221dfd51c612cc95e699797df93539609f50f7176045daf11d7cca0d0cca3"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/47586/County-Durham-Local-Aggregate-Assessment-July-2025-2023-Sales-and-Reserves-Data/pdf/CountyDurhamLocalAggregateAssessment2023.pdf?m=1757603006010",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "local-plan",
+        "name": "County Durham Local Aggregate Assessment (July 2025) (2023 Sales and Reserves Data)",
+        "reference": "LAA-2025",
+        "document-status": "adopted",
+        "endpoint": "41c6e6e1a6e6cb8d8e02f06ce4ad731e017804b92fa76f3a7994374a005d7583"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/45076/County-Durham-Local-Aggregate-Assessment-April-2023-2021-Sales-Reserves-Data/pdf/CountyDurhamLocalAggregateAssessment2021.pdf?m=1721227200227",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "local-plan",
+        "name": "County Durham Local Aggregate Assessment (April 2023) (2021 Sales & Reserves Data)",
+        "reference": "LAA-2023",
+        "document-status": "adopted",
+        "endpoint": "9b6bd869c30911319b160b56d91e4bc3769d9128c4fa3829339c46d67c471482"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/45077/County-Durham-Waste-Technical-Paper/pdf/CountyDurhamWasteTechnicalPaperMay2023.pdf?m=1721650432243",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "local-plan",
+        "name": "County Durham Waste Technical Paper",
+        "reference": "WTP-2023",
+        "document-status": "adopted",
+        "endpoint": "b63118b471979fa18ab0a43ce7bc2ef33eb3241f6ef308320a0502c094847911"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46487/Biodiversity-Supplementary-Planning-Document/pdf/BiodiversitySPD.pdf?m=1744041173260",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Biodiversity Supplementary Planning Document",
+        "reference": "SPD-BIODIVERSITY-2025",
+        "document-status": "adopted",
+        "endpoint": "b2285765574c1d57d582648fb7f7d336d942617e4667332f8b57981c5454382c"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/30172/County-Durham-Building-for-Life-Supplementary-Planning-Document/pdf/CountyDurhamBuildingForLifeSPD.pdf?m=1722250324703",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "County Durham Building for Life Supplementary Planning Document",
+        "reference": "SPD-BFL-2019",
+        "document-status": "adopted",
+        "endpoint": "e5e0951db8c0ab8c1bee22e64a8fbca0b6f53d3cccc0b818a44c52fd36b895c5"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46119/County-Durham-Design-Code-Supplementary-Planning-Document/pdf/CountyDurhamDesignCodeSPD.pdf?m=1738771112793",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "urban-design-framework",
+        "name": "County Durham Design Code Supplementary Planning Document",
+        "reference": "SPD-DESIGN-2024",
+        "document-status": "adopted",
+        "endpoint": "0f244fe01c6c58dd198d0499d44957e16f453af5ac530cd7c497604cb5cf346d"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/45135/Development-Viability-Affordable-Housing-and-Financial-Contributions-Supplementary-Planning-Document/pdf/DevelopmentViabilityAffordableHousingAndFinancialContributionsSPD.pdf?m=1722258172610",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Development Viability, Affordable Housing and Financial Contributions Supplementary Planning Document",
+        "reference": "SPD-VIABILITY-2024",
+        "document-status": "adopted",
+        "endpoint": "e668744392b73e5f897515a452d77977b23f3ad809c51159556106d69699ff86"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46121/Energy-Efficiency-Renewables-and-the-Historic-Environment-Supplementary-Planning-Document/pdf/EnergyEfficiencyRenewablesAndTheHistoricEnvironmentSPD.pdf?m=1738934267677",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Energy Efficiency, Renewables and the Historic Environment Supplementary Planning Document",
+        "reference": "SPD-ENERGY-2024",
+        "document-status": "adopted",
+        "endpoint": "68d2fff99171292bec52b3af11a9df2890103b1aed268ab6947b2eb219c4a46a"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46552/Housing-Needs-Supplementary-Planning-Document/pdf/HousingNeedsSPD.pdf?m=1745495701320",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Housing Needs Supplementary Planning Document",
+        "reference": "SPD-HOUSING-2025",
+        "document-status": "adopted",
+        "endpoint": "af2d2cd959e67bcf4f8c69d916e1cba918ebbfe079f0c0f31126f9073281ab72"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46566/Non-designated-Heritage-Asset-Supplementary-Planning-Document/pdf/NDHA-SPD.pdf?m=1746015767260",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Non-designated Heritage Asset Supplementary Planning Document",
+        "reference": "SPD-HERITAGE-2025",
+        "document-status": "adopted",
+        "endpoint": "afa1ba7df2c46528b29add315f1bb12054627cb40518933ecf5d3e64d6da259c"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/43186/Parking-and-Accessibility-Supplementary-Planning-Document/pdf/ParkingAndAccessibilitySupplementaryPlanningDocument2023.pdf?m=1722250280483",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Parking and Accessibility Supplementary Planning Document",
+        "reference": "SPD-PARKING-2023",
+        "document-status": "adopted",
+        "endpoint": "4accac33cc5a6bfb07290bf3e4dcac52cd47fe35e804e0f353ab184be58bdb68"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/41575/Residential-Amenity-Standards-Supplementary-Planning-Document/pdf/ResidentialAmenityStandardsSPDJanuary2023.pdf?m=1722250415217",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Residential Amenity Standards Supplementary Planning Document",
+        "reference": "SPD-AMENITY-2023",
+        "document-status": "adopted",
+        "endpoint": "b00c81dbfbf993eee84ee9b1dbe4859f36ca49f3a15fce6963fab8acca659f52"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46123/Shopfront-Design-Guide-Supplementary-Planning-Document/pdf/ShopfrontDesignGuideSPD.pdf?m=1738934241977",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "urban-design-framework",
+        "name": "Shopfront Design Guide Supplementary Planning Document",
+        "reference": "SPD-SHOPFRONT-2024",
+        "document-status": "adopted",
+        "endpoint": "b08c80c4ccb52196d3ee50005952cfec1c6eb527a9d82f7496bfdb10791067e3"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/45262/Solar-Energy-supplementary-planning-document/pdf/SolarEnergySPD.pdf?m=1724932114500",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Solar Energy supplementary planning document",
+        "reference": "SPD-SOLAR-2024",
+        "document-status": "adopted",
+        "endpoint": "4cb8b7d081e39924734a595a313803924f9328f83a5678473946201ed444742a"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/44994/Trees-Woodlands-and-Hedges-Supplementary-Planning-Document/pdf/TreesWoodlandsAndHedgesSupplementaryPlanningDocument.pdf?m=1722258489413",
+        "documentation-url": "https://www.durham.gov.uk/article/7444/Development-Plan-supporting-documents",
+        "document-type": "supplementary-planning-document",
+        "name": "Trees, Woodlands and Hedges Supplementary Planning Document",
+        "reference": "SPD-TREES-2024",
+        "document-status": "adopted",
+        "endpoint": "1bf588ab7a4bbe7ec26a36b4ee36a7490529604c48b15e2a20973141b3d3fa34"
+      },
+      {
+        "document-url": "https://www.durham.gov.uk/media/46287/County-Durham-Local-Development-Scheme-March-2025/pdf/CountyDurhamLocalDevelopmentSchemeMarch2025.pdf?m=1744890694817",
+        "documentation-url": "https://www.durham.gov.uk/article/3266/Development-Plan-for-County-Durham",
+        "document-type": "local-development-scheme",
+        "name": "County Durham Local Development Scheme - March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "ef09648ea7c6033ec01af3670053c29f2d81460c4d74a641f3dd65ad79b0f917"
+      }
+    ]
   }
 ]

@@ -3,22 +3,171 @@
     "organisation": "local-authority:BNE",
     "organisation-name": "London Borough of Barnet",
     "reference": "LP-BNE-2024",
-    "documentation-url": "https://www.barnet.gov.uk/planning",
-    "document-url": "",
-    "name": "Barnet Local Plan",
+    "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+    "document-url": "https://www.barnet.gov.uk/sites/default/files/024574_-_bc4796_-_barnet_local_plan_2021-2036_-_web2.pdf",
+    "name": "Barnet Local Plan 2021-2036",
     "status": "adopted",
     "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/024574_-_bc4796_-_barnet_local_plan_2021-2036_-_web2.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036/adoption-documents",
+        "document-type": "local-plan",
+        "name": "Barnet Local Plan 2021-2036",
+        "reference": "LP-2021-2036",
+        "document-status": "adopted",
+        "endpoint": "128beba6374e2982446dc0ce5b23f38c3bd21b9d48dbc2e069e81cada119d90b"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/reg_26_integrated_impact_assessment.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036/adoption-documents",
+        "document-type": "local-plan",
+        "name": "Final Integrated Impact Assessment (Regulation 26)",
+        "reference": "IIA-2024",
+        "document-status": "adopted",
+        "endpoint": "c12c18bcd7f129e412a00f4c74c03329aa76d1c1680b6a9e08ba0849656066ab"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/local_plan_adoption_statement_0.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036/adoption-documents",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "60e16d40901df8f6a7ab553596163948e508c05e7689fda222517b825c889f8f"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/assets/citizenportal/documents/planningconservationandbuildingcontrol/PlanningPolicy/SPD/ResidentialDesignGuidanceSPDoct2016.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+        "document-type": "supplementary-planning-document",
+        "name": "Residential Design Guidance",
+        "reference": "SPD-RDG-2016",
+        "document-status": "adopted",
+        "endpoint": "2bc33f47268769d93c99f6c8d7fecbd8f79e2541e0e4f9c7f3569a90b403c2c3"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/assets/citizenportal/documents/planningconservationandbuildingcontrol/PlanningPolicy/SPD/GreenInfrastructureSPDOct2017.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+        "document-type": "green-and-blue-infrastructure",
+        "name": "Green Infrastructure",
+        "reference": "SPD-GI-2017",
+        "document-status": "adopted",
+        "endpoint": "5b0e7e0654c2be947df65c998090aa9b972e2553fb521bae895f84160edbbf2e"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/the_north_finchley_town_centre_framework_spd_-_feb_2018.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+        "document-type": "supplementary-planning-document",
+        "name": "North Finchley",
+        "reference": "SPD-NF-2018",
+        "document-status": "adopted",
+        "endpoint": "7c29b4d683f6188d2f5ac6b4e8c4b85df81745d4f29379b85f8d62833a01f601"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/colindale_station_spd_february_2019.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+        "document-type": "supplementary-planning-document",
+        "name": "Colindale Station",
+        "reference": "SPD-CS-2019",
+        "document-status": "adopted",
+        "endpoint": "4467cd908fe9282d50475987ce3d1f58961d5dd94a314d0181ebdd98db7735cc"
+      },
+      {
+        "document-url": "https://barnet.moderngov.co.uk/documents/s88937/APPENDIX%20A%20-%20BARNET%20COUNCIL%20HEALTH%20IMPACT%20ASSESSMENT%20GUIDANCE%20NOTE.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+        "document-type": "health-impact-assessment",
+        "name": "Health Impact Assessment Guidance Note",
+        "reference": "HIA-GN",
+        "document-status": "adopted",
+        "endpoint": "19a67c42c739e4123888e502293ac1d261d2b206896a02db574fc6791a940a47"
+      },
+      {
+        "document-url": "https://www.barnet.gov.uk/sites/default/files/edgware_spd.pdf",
+        "documentation-url": "https://www.barnet.gov.uk/planning-and-building-control/planning-policies-and-local-plan/edgware-growth-area",
+        "document-type": "supplementary-planning-document",
+        "name": "Edgware Growth Area SPD",
+        "reference": "SPD-EGA",
+        "document-status": "adopted",
+        "endpoint": "3be6fba32a22a8f8b84be2086fe9db31e941093770b09ef6b920996b826cc599"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BNE",
+    "organisation-name": "London Borough of Barnet",
+    "reference": "NLWP-2022",
+    "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+    "document-url": "",
+    "name": "North London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
     "period-start-date": "",
-    "period-end-date": "",
+    "period-end-date": 2031,
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.barnet.gov.uk/planning",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
         "document-type": "local-plan",
-        "name": "Local Plan",
-        "reference": "LP-2024",
+        "name": "North London Waste Plan (Adopted April 2022)",
+        "reference": "NLWP-2022",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2023-01/Adoption%20Statement%20%28website%29%20AA.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-NLWP-2023",
+        "document-status": "adopted",
+        "endpoint": "f38c17db7f982bcb5f24dc18782dd05451567121307451c8d06fd3d0dd6b9335"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2023-01/NLWP-Inspector-Report-Final%20AA.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "local-plan",
+        "name": "Inspectors report",
+        "reference": "IR-NLWP-2023",
+        "document-status": "adopted",
+        "endpoint": "11994c88756f885a2609182a14952434c5da9120e825ef83aa34853db0241322"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/NLWP%20Modifications%20February%202021.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "main-modifications",
+        "name": "Main modifications Feb 2021",
+        "reference": "MM-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "00c13dfb58473a0beb632bd402b8f4a95e86298be3c3eddace97925c4ceba97a"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/NLWP-Main-Mods-Appendix-Final.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Appendix",
+        "reference": "MMA-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "f8762c87a7b9f468742883a66342aa1527b5ac1d0bda0ab0384d52780474b888"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/Post-EiP-SA-Addendum-Update-March-2021-final.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal Addendum Report update March 2021",
+        "reference": "SA-ADD-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "4611a74530680c084db56a875121633b9d097de4efa43022db7ea406a805c667"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/Sustainability%20Appraisal%20Jan%202019.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal, January 2019",
+        "reference": "SA-NLWP-2019",
+        "document-status": "consultation",
+        "endpoint": "d6382871cdbddd1dc2f303a442b38c377352cf020ec861b291f860736c7ead91"
       }
     ]
   }

@@ -2,6 +2,282 @@
   {
     "organisation": "local-authority:HRW",
     "organisation-name": "London Borough of Harrow",
-    "error": "Expecting ',' delimiter: line 224 column 10 (char 11657)"
+    "reference": "LP-HRW-2012",
+    "documentation-url": "https://www.harrow.gov.uk/localplan",
+    "document-url": "http://www.harrow.gov.uk/downloads/file/26426/local-plan-core-strategy.pdf",
+    "name": "Harrow Local Plan Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/26426/local-plan-core-strategy.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Local Plan Core Strategy",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "2a6a6bc3e7d4667866e1e9bdc78ab5da45123f358f38e642f3f6e5639dfe43a9"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23244/local-plan-core-strategy-adoption-notice.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy Adoption Notice",
+        "reference": "AS-2012",
+        "document-status": "adopted",
+        "endpoint": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23250/local-plan-core-strategy-nppf-compliance-statement.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy NPPF Compliance Statement",
+        "reference": "NPPF-2012",
+        "document-status": "adopted",
+        "endpoint": "7bda1cec777b9ae90612a6c72853e163d6d3628b1d045acf1475f61873f4f1b4"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23267/local-plan-site-allocation-inspectors-report.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Local Plan",
+        "reference": "IR-2012",
+        "document-status": "adopted",
+        "endpoint": "3c3fc38d654f5ec3168ae1236b68b97f40a2ead05f12db7af793290f000c09de"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23248/local-plan-core-strategy-inspector-s-report-appendices-1.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy Inspector's Report Appendices 1",
+        "reference": "IRA1-2012",
+        "document-status": "adopted",
+        "endpoint": "c17b1f17af948c47a6be1c0d3a45c4a99f29a3f3590d540e0b90e69c3c2c1170"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23249/local-plan-core-strategy-inspector-s-report-appendices-2.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy Inspector's Report Appendices 2",
+        "reference": "IRA2-2012",
+        "document-status": "adopted",
+        "endpoint": "d5fada5bc71a9f42bb7079ef982d31bfc3e19eb8a783d446b7119e1cee693066"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HRW",
+    "organisation-name": "London Borough of Harrow",
+    "reference": "LP-HRW-2013-DMP",
+    "documentation-url": "https://www.harrow.gov.uk/localplan",
+    "document-url": "http://www.harrow.gov.uk/downloads/file/23258/local-plan-development-management-policies.pdf",
+    "name": "Development Management Policies Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23258/local-plan-development-management-policies.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Development Management Policies Local Plan",
+        "reference": "DMP-2013",
+        "document-status": "adopted",
+        "endpoint": "0d2a3d999abc96b6ad1c857691a097bf069d83caaba83dc6f5fb075a227c7742"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23259/local-plan-development-management-policy-pre-submission-version-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "development-management-policies",
+        "name": "Development Management Policies (Pre-Submission Version 2012)",
+        "reference": "DMP-PRE-2012",
+        "document-status": "consultation",
+        "endpoint": "6fe5e8cf86b17bc9fd3fa83f73bb15c3b065c98ea0e592e2ea24e091864d9fe6"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23255/local-plan-development-management-consultation-statement-pre-submission-document-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Development Management Consultation Statement from the Pre-Submission Document",
+        "reference": "CS-DMP-2013",
+        "document-status": "consultation",
+        "endpoint": "aea25fdcf9af4e83367805b63da48ef85480fc819871d11bce5af42bdb022dbc"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23257/local-plan-development-management-inspector-s-report.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Sites",
+        "reference": "IR-DMP-2013",
+        "document-status": "adopted",
+        "endpoint": "3522ff4e5e2e8a2258a037e9a0a1b91d9b058c7850d22b2aadf1f16d3f55cb77"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HRW",
+    "organisation-name": "London Borough of Harrow",
+    "reference": "LP-HRW-2013-SA",
+    "documentation-url": "https://www.harrow.gov.uk/localplan",
+    "document-url": "http://www.harrow.gov.uk/downloads/file/23269/local-plan-site-allocations.pdf",
+    "name": "Site Allocations Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23269/local-plan-site-allocations.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Local Plan",
+        "reference": "SA-2013",
+        "document-status": "adopted",
+        "endpoint": "ae785dbc0b117935b2b895386cd063a599714a84ac0991638c75cc67a11c4d8c"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23268/local-plan-site-allocation-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Site Allocation Sustainability Appraisal",
+        "reference": "SA-SA-2013",
+        "document-status": "adopted",
+        "endpoint": "e639155130a917a2bc1f9271b0faed1420f775aa5fff25a5d836dc46e47307c4"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23266/local-plan-site-allocation-habitats-regulations-assessment.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Site Allocation Habitats Regulations Assessment",
+        "reference": "HRA-SA-2013",
+        "document-status": "adopted",
+        "endpoint": "592a24a19c5fe8d28483d03d5e0bf4f7b04730f943db309598c5bea88e8e09af"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23265/local-plan-site-allocation-equalities-impact-assessment.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "equalities-impact-assessment",
+        "name": "Site Allocation Equalities Impact Assessment",
+        "reference": "EIA-SA-2013",
+        "document-status": "adopted",
+        "endpoint": "56d99e42b91a7481f3793cb1abcf2dbcc441a18a5bccaa3fa12f899f6a0cc9e6"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23263/local-plan-site-allocation-consultation-statement-preferred-option-document-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Site Allocation Consultation Statement from the Preferred Option Document",
+        "reference": "CS-SA-PO-2013",
+        "document-status": "consultation",
+        "endpoint": "d1e61e8a154bb2032593e60852c4f3764412674248b8911f89ef1ae827938aa5"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23260/local-plan-development-management-site-allocations-pre-submission-version-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations: Pre-Submission Version 2012",
+        "reference": "SA-PRE-2012",
+        "document-status": "consultation",
+        "endpoint": "fdf8a9291f4224aae1c8c2ea03447247de4fcb8a9017bb92331c3eb3d0ec82bc"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HRW",
+    "organisation-name": "London Borough of Harrow",
+    "reference": "LP-HRW-2013-AAP",
+    "documentation-url": "https://www.harrow.gov.uk/localplan",
+    "document-url": "http://www.harrow.gov.uk/downloads/file/23239/harrow-wealdstone-area-action-plan.pdf",
+    "name": "Harrow and Wealdstone Area Action Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23239/harrow-wealdstone-area-action-plan.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Harrow and Wealdstone Area Action Plan",
+        "reference": "AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "33b32871fd49930e06f712ce434e0cf7a05c37d26f856b5c93d3813d95a3347a"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23231/harrow-wealdstone-area-action-plan-pre-submission-version-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Harrow and Wealdstone Area Action Plan (Pre-submission version)",
+        "reference": "AAP-PRE-2013",
+        "document-status": "consultation",
+        "endpoint": "e8411a5aa118268c5fbb87f8be8f512eb495542964ec07e76cf54da460247299"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23232/harrow-wealdstone-area-action-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Harrow and Wealdstone Area Action Plan Adoption Statement",
+        "reference": "AS-AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "384030c188241c2bc0e3f1d67be37828e8f4a270f6ee2c822445c7775ccbf96b"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23233/harrow-wealdstone-area-action-plan-consultation-statement-preferred-option-document-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Harrow and Wealdstone Area Action Plan Consultation Statement (Preferred Option Document)",
+        "reference": "CS-AAP-PO-2013",
+        "document-status": "consultation",
+        "endpoint": "187ecb160d73c2bf146216a9421fdd6b274a788edcf357131caf4e4a3e6f16c6"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23234/harrow-wealdstone-area-action-plan-consultation-statement-pre-submission-document-.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Harrow and Wealdstone Area Action Plan Consultation Statement (Pre-Submission Document)",
+        "reference": "CS-AAP-PRE-2013",
+        "document-status": "consultation",
+        "endpoint": "2d643456cb42b30974bc9e47ea6220cf9ed5e5d8d3de8caecf2016f2e9458e1c"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23235/harrow-wealdstone-area-action-plan-equalities-impact-assessment.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "equalities-impact-assessment",
+        "name": "Harrow and Wealdstone Area Action Plan Equalities Impact Assessment",
+        "reference": "EIA-AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "b50a31b95fdafc17c37c621eb2315916399afa9cdebfef7cd26d267a2c3a9393"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23236/harrow-wealdstone-area-action-plan-habitats-regulations-assessment.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Harrow and Wealdstone Area Action Plan Habitats Regulations Assessment",
+        "reference": "HRA-AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "eb8054bc3598fa91bb16d4a565cedf310033398d37b14dfe37db84bd3e0edeba"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23237/harrow-wealdstone-area-action-plan-inspector-s-report.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Harrow and Wealdstone Area Action Plan Inspector's Report",
+        "reference": "IR-AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "0749668a9444a95965a1dec995953a8697c5d83553dab93ca7ba3cfe561ec58e"
+      },
+      {
+        "document-url": "http://www.harrow.gov.uk/downloads/file/23238/harrow-wealdstone-area-action-plan-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.harrow.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Harrow and Wealdstone Area Action Plan Sustainability Appraisal",
+        "reference": "SA-AAP-2013",
+        "document-status": "adopted",
+        "endpoint": "78e0e71c044221194288d89ed23ea396891d21fc3896fcf287d4ea8ac673d45a"
+      }
+    ]
   }
 ]

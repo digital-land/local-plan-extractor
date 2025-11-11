@@ -2,6 +2,6 @@
   {
     "organisation": "local-authority:WYC",
     "organisation-name": "Wychavon District Council",
-    "error": "Expecting ',' delimiter: line 151 column 10 (char 8928)"
+    "error": "Could not fetch any page content from likely URLs"
   }
 ]

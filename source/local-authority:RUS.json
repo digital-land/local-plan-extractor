@@ -1,1 +1,84 @@
-[]
+[
+  {
+    "organisation": "local-authority:RUS",
+    "organisation-name": "Rushcliffe Borough Council",
+    "reference": "LP-RUS-2014",
+    "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-1/",
+    "document-url": "https://www.rushcliffe.gov.uk/media/y1pbquqz/local-plan-part-1-rushcliffe-core-strategy.pdf",
+    "name": "Local Plan Part 1: Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/y1pbquqz/local-plan-part-1-rushcliffe-core-strategy.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-1/",
+        "document-type": "core-strategy",
+        "name": "Local Plan Part 1: Core Strategy",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "6bcff506adda869af0ab9b0a32cf2e526da1dc52ad0b07018c7ea6335ace828c"
+      },
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/0coic3gg/local-plan-policies-map-final_high-res.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-1/",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map",
+        "reference": "PM-2014",
+        "document-status": "adopted",
+        "endpoint": "0494d88f727167b7072c8b7e58126afc04ae9bc04bce9298d857019579d0d4d4"
+      },
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/hynfxf0p/report-of-inspector-into-local-plan-part-1-rushcliffe-core-strategy.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-1/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "81d0a1953ff1913f5d9d28e8632c31f92c0c3881a517a41576f8b7fe0bcb4555"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUS",
+    "organisation-name": "Rushcliffe Borough Council",
+    "reference": "LP-RUS-2019",
+    "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-2/",
+    "document-url": "https://www.rushcliffe.gov.uk/media/s3cezsuy/rushcliffe-local-plan-part-2_adoption-version.pdf",
+    "name": "Local Plan Part 2: Land and Planning Policies",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/s3cezsuy/rushcliffe-local-plan-part-2_adoption-version.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-2/",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2: Land and Planning Policies",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "8a4e28ad1fc972e72515d13ab86ab3b06bc1100b521dcab6d3e5b94644f66ff3"
+      },
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/hybbsdk2/local-plan-part-2-inspectors-report-appendix.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-2/",
+        "document-type": "local-plan",
+        "name": "Report of the Local Plan Examination Inspector",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "f503c9a28c52c160141ebb8895d57c73f29cc212f113b3a6a58cae18b4a7ec31"
+      },
+      {
+        "document-url": "https://www.rushcliffe.gov.uk/media/kfvh1yuk/local-plan-part-2-adoption-statement.pdf",
+        "documentation-url": "https://www.rushcliffe.gov.uk/planning-growth/planning-policy/local-plan/local-plan-part-2/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "88d821df7a313c52b683f9432b6176fff82dac27d83326d8fe785ca91f026f02"
+      }
+    ]
+  }
+]

@@ -1,1 +1,215 @@
-[]
+[
+  {
+    "organisation": "local-authority:SOL",
+    "organisation-name": "Solihull Metropolitan Borough Council",
+    "reference": "LP-SOL-2013",
+    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+    "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Local_Plan_Final.pdf",
+    "name": "Solihull Local Plan: Shaping a Sustainable Future",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Local_Plan_Final.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "local-plan",
+        "name": "Solihull Local Plan : Shaping a Sustainable Future, December 2013",
+        "reference": "LP-2013",
+        "document-status": "adopted",
+        "endpoint": "292ca3f71878fde71d00fb336512fc28b04fa8d8a087024f349b5890dcdad442"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_SolihullLP.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "local-plan",
+        "name": "Inspector's Final Report",
+        "reference": "IR-2013",
+        "document-status": "adopted",
+        "endpoint": "eb44b480819007dcf977adbba0ccb2b81c2adc0d30438adcfedda3ce0b861186"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Appendix_1_-_Schedule_of_main_modifications_required_to_make_the_Plan_sound.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report Appendix 1",
+        "reference": "IR-APP-2013",
+        "document-status": "adopted",
+        "endpoint": "5e5e853da93f59827e2a38394f33d7ac1ec2eea7075e099dcfff78a265dcbf9f"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Adoption_Statement.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "adoption-statement",
+        "name": "The Adoption Statement",
+        "reference": "AS-2013",
+        "document-status": "adopted",
+        "endpoint": "701b42d71ed0173bd6f0a919768bb750331d0a71b37135ff4730e9a2fd0cd14e"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Sustainability_Appraisal_Report_January_2012.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2012",
+        "document-status": "adopted",
+        "endpoint": "e28dd1ca8ded1c326663909c55196eeafe83c76336f1eade422fb0aeea353df4"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Sustainability_Appraisal_Report_Non_Technical_Summary_January_2012.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report - non Technical Summary",
+        "reference": "SA-NTS-2012",
+        "document-status": "adopted",
+        "endpoint": "19ce022560415723fe083f266cb0a7c91127c39c7e74de897d431cd900888501"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Sustainability_Appraisal_Addendum_Report_August_2012.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum Report",
+        "reference": "SA-ADD-2012",
+        "document-status": "adopted",
+        "endpoint": "0f79eff5433376a0017a348126011bb3721c333c7087e7756347e9a2411e8d44"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Sustainability_Appraisal_Addendum_Report_June_2013.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum Report",
+        "reference": "SA-ADD-2013",
+        "document-status": "adopted",
+        "endpoint": "91561e7c5b4d60c68aa13a22fe83dafe159aa14e10913a74567b3a1fb4920eae"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SOL",
+    "organisation-name": "Solihull Metropolitan Borough Council",
+    "reference": "LP-SOL-2024",
+    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+    "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
+    "name": "Solihull Local Plan Review",
+    "status": "withdrawn",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "Withdrawal notice - 9 October 2024",
+        "reference": "WN-2024",
+        "document-status": "withdrawn",
+        "endpoint": "b83fac75cca4179f75b55ebfd6a9efa95fc2bd0a0b76e084809ef74b2a93de39"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-09/SMBC011.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "SMBC011",
+        "reference": "SMBC-011-2024",
+        "document-status": "examination",
+        "endpoint": "c54f73d5e04cf53a4619308dd73f99e2b0eb38558ec0277e8ab6e451c7995d22"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-08/Solihull-Local-Plan-EiP-v2.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "SMBC026",
+        "reference": "SMBC-026-2024",
+        "document-status": "examination",
+        "endpoint": "cec5915f580d9b2671c0be9b6996c31d0436facd0aeceadcc88d5fbd23d935aa"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SOL",
+    "organisation-name": "Solihull Metropolitan Borough Council",
+    "reference": "GT-SOL-2014",
+    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+    "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",
+    "name": "Gypsy and Traveller Site Allocations Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Solihull Gypsy and Traveller Site Allocations Plan",
+        "reference": "GT-SAP-2014",
+        "document-status": "adopted",
+        "endpoint": "f33e5bfcd1be54c8a79ad1e7951cf7d908f7036b74fbc09b7c707454cab6a857"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_GT_Inspectors_Report_2014_FINAL.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Final Report",
+        "reference": "IR-GT-2014",
+        "document-status": "adopted",
+        "endpoint": "b69a06f5c6ae14a19694fb675c05aaed4ff6fa18ab428af5546519c0d55b6313"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_G_T_SA_Plan_Adoption_Statement.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "adoption-statement",
+        "name": "The Adoption Statement",
+        "reference": "AS-GT-2014",
+        "document-status": "adopted",
+        "endpoint": "d23d161e191c6c04cf47be9d1ddcafd5d450a4d5ef4d1b8a0fe94c6ecb05974b"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Schedule_of_Main_Modifications_only_v3_FINAL%20with%20proposals%20map.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications",
+        "reference": "MM-GT-2014",
+        "document-status": "adopted",
+        "endpoint": "fe8b486bb236cdb13c388060fc8d3f87cb03362dc63bd02a6d43ff38efb6e10c"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_005_Submission_Draft_DPD_SA.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report to the Submission Draft",
+        "reference": "SA-GT-SUB-2013",
+        "document-status": "consultation",
+        "endpoint": "271394cb2bc344033f0d333bf3ccccd9649abf2e5791c9281a738e76004c5169"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_003_Submission_SA_Opinion.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report to the Submission Document",
+        "reference": "SA-GT-SUB2-2013",
+        "document-status": "consultation",
+        "endpoint": "c59efe03c9a4599f1b8c8bc630722d3c3ac0e22f3061a92035676d09c322e019"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Sustainability_Appraisal_of_Main_Modifications.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "main-modifications",
+        "name": "Sustainability Appraisal Report to the Main Modifications",
+        "reference": "SA-MM-GT-2014",
+        "document-status": "consultation",
+        "endpoint": "5b0bbf6a44ac6eabb19371e7dc1c27ba0134046c407968a2e071273ed600fd44"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_027_Statement_of_Consultation_for_Submission.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation",
+        "reference": "CS-GT-2013",
+        "document-status": "consultation",
+        "endpoint": "92bc64ffad681956bff7c9ceda36435c5ccda052b58b0c06c41188f01748652d"
+      }
+    ]
+  }
+]

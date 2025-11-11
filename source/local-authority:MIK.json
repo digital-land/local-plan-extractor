@@ -2,24 +2,190 @@
   {
     "organisation": "local-authority:MIK",
     "organisation-name": "Milton Keynes City Council",
+    "reference": "LP-MIK-2019",
+    "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+    "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2022-05/PlanMK%20Adoption%20Version%20%28March%202019%29.pdf",
+    "name": "Plan:MK",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2022-05/PlanMK%20Adoption%20Version%20%28March%202019%29.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Plan:MK Adopted Version (March 2019)",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "8c2626721177fe2b14d0bcd5c596d36ad5368d32bbce063e5a129e2a33e7d566"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/PlanMK%20Adoption%20Statement%20%28March%202019%29.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "adoption-statement",
+        "name": "Plan:MK Adoption Statement (March 2019)",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "8f8c2dcf8c1d56552185063919e68157e945b167169e66162f2f7ed70235575d"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Plan%20MK%20-%20SA%20Adoption%20Statement%20%28March%202019%29.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "adoption-statement",
+        "name": "Plan:MK Sustainability Appraisal Adoption Statement (March 2019)",
+        "reference": "SA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "507a33c7c3126999f2af1a904939eaf40ab79583948b6b53cb3ad61db969e972"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/PlanMK%20Final%20Inspectors%20Report%20Feb%202019.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "inspectors-report",
+        "name": "Plan:MK Inspector's Report (February 2019)",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "425658af8de7569d366004578f077e00f642f99e0a87d27afd8e8b18fdc214b1"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Policies%20Map%20Sheet%201.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Sheet 1",
+        "reference": "PM-1-2019",
+        "document-status": "adopted",
+        "endpoint": "d8aa7e94217c8582f587511c3d063c33ff7dca099f3aca0760463c88041596b1"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Policies%20Map%20Sheet%202.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Sheet 2",
+        "reference": "PM-2-2019",
+        "document-status": "adopted",
+        "endpoint": "12bb08a99f688df286e20f7f649dfc2cb09ca78ccc7d5b865c83add86ceae813"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Policies%20Map%20Sheet%203.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Sheet 3",
+        "reference": "PM-3-2019",
+        "document-status": "adopted",
+        "endpoint": "8f760816938b476d7338403177ebea2ed8bd178f30f7a468b46c2f16b26701b4"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2022-02/Adopted%20Policies%20Map%20Sheet%204.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Sheet 4",
+        "reference": "PM-4-2019",
+        "document-status": "adopted",
+        "endpoint": "cf1165b469d55800e6b0e1b75e56d1fd3f8736cc676c5abdb358278026a13128"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2022-02/Adopted%20Policies%20Map%20Sheet%205.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Sheet 5",
+        "reference": "PM-5-2019",
+        "document-status": "adopted",
+        "endpoint": "ac1458c9678f29428643791dd5fb31bd75071f982b0e9e5737424319e0bc1054"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Bletchley%20Town%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Bletchley",
+        "reference": "LP-BLETCHLEY-2019",
+        "document-status": "adopted",
+        "endpoint": "b88706844e2ceb453eaa6546d0e1fdeaffda62bfaf4d027f539bd1f4e49445e3"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Central%20Milton%20Keynes.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Central Milton Keynes",
+        "reference": "LP-CMK-2019",
+        "document-status": "adopted",
+        "endpoint": "fde539ffe05cde3eb0417f205757d2397b6f0ca9e7d06d7f0d20069ceda4a8ea"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Kingston%20Town%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Kingston",
+        "reference": "LP-KINGSTON-2019",
+        "document-status": "adopted",
+        "endpoint": "eb12f80b9b86c7ed73ffa1d4b5dcdc280d98e604f9bdc46a927a85c522f6d222"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Newport%20Pagnell.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Newport Pagnell",
+        "reference": "LP-NP-2019",
+        "document-status": "adopted",
+        "endpoint": "c7c0241c49f1e57cea18a86104dc87873791e2b93bbe574093252f6b9e328d71"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Olney%20District%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Olney",
+        "reference": "LP-OLNEY-2019",
+        "document-status": "adopted",
+        "endpoint": "0540f5fc5a2aef38d8a64cfd65360122d15c87b71b8a40e0fa1dd37e454cde6a"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Stony%20Stratford%20District%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Stony Stratford",
+        "reference": "LP-SS-2019",
+        "document-status": "adopted",
+        "endpoint": "50b40942171054ccedbd61b24c33cf38e2b85d520a679c5cba2c3588c2ee22be"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Westcroft%20Town%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Westcroft",
+        "reference": "LP-WESTCROFT-2019",
+        "document-status": "adopted",
+        "endpoint": "30884a124e3aee28a47fafc5564354238764ddd9dbc214ce6a58a7a18b10c1ee"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Woburn%20Sands%20District%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Woburn Sands",
+        "reference": "LP-WS-2019",
+        "document-status": "adopted",
+        "endpoint": "7efd80f9a45086d4f6e04c225bce6b5265b498b91e38e3c62b0d30ae3d7502a3"
+      },
+      {
+        "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2021-12/Adopted%20Inset%20Map%20Wolverton%20Town%20Centre.pdf",
+        "documentation-url": "https://www.milton-keynes.gov.uk/planning-and-building/developingmk/planmk",
+        "document-type": "local-plan",
+        "name": "Wolverton",
+        "reference": "LP-WOLVERTON-2019",
+        "document-status": "adopted",
+        "endpoint": "a8527bc032a994a8c2180d38e0407fa4993b8e87db44302bdfacd4046ea7b18b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MIK",
+    "organisation-name": "Milton Keynes City Council",
     "reference": "LP-MIK-2025",
     "documentation-url": "https://www.milton-keynes.gov.uk/consultations/proposed-submission-milton-keynes-city-plan-2050-regulation-19",
     "document-url": "",
     "name": "Milton Keynes City Plan 2050",
     "status": "regulation-19",
     "year": 2025,
-    "period-start-date": 2025,
+    "period-start-date": "",
     "period-end-date": 2050,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.milton-keynes.gov.uk/consultations",
-        "document-type": "local-plan-regulation-19",
-        "name": "Proposed Submission Milton Keynes City Plan 2050 Regulation 19",
-        "reference": "LP-2050-R19",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
+    "documents": []
   }
 ]

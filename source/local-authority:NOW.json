@@ -2,23 +2,82 @@
   {
     "organisation": "local-authority:NOW",
     "organisation-name": "Norwich City Council",
-    "reference": "LP-NOW-2031",
-    "documentation-url": "https://www.norwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
-    "document-url": "https://www.norwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
-    "name": "Birmingham Development Plan 2031",
+    "reference": "LP-NOW-2024",
+    "documentation-url": "https://www.gnlp.org.uk/",
+    "document-url": "",
+    "name": "Greater Norwich Local Plan (GNLP)",
     "status": "adopted",
-    "year": 2031,
+    "year": 2024,
     "period-start-date": "",
-    "period-end-date": 2031,
+    "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.norwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
-        "documentation-url": "https://www.norwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+        "document-url": "",
+        "documentation-url": "https://www.norwich.gov.uk/localplan",
         "document-type": "local-plan",
-        "name": "Adopted Birmingham Development Plan 2031",
-        "reference": "LP-2031",
+        "name": "Greater Norwich Local Plan (GNLP)",
+        "reference": "LP-2024",
         "document-status": "adopted",
-        "endpoint": "60f324d4efc86fc3d345fcd4fcde06a17297044b61b48b0f82c46ea48b3498b1"
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.norwich.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Development Management Policies Map",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Interactive Map",
+        "reference": "SA-MAP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-type": "sustainability-appraisal",
+        "name": "Table 3 - Sustainability Appraisal Indicators",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-type": "site-allocations",
+        "name": "Site Allocation Statements of Common Ground/Delivery Statements",
+        "reference": "SA-SOCG-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NOW",
+    "organisation-name": "Norwich City Council",
+    "reference": "LP-NOW-2021",
+    "documentation-url": "https://www.gnlp.org.uk/",
+    "document-url": "",
+    "name": "Joint Core Strategy",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-type": "core-strategy",
+        "name": "Joint Core Strategy",
+        "reference": "CS-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
   }
