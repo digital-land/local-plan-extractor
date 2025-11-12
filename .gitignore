@@ -11,7 +11,7 @@ package.json
 *.swp
 tmp/
 /var/*
-!/var/successor-authorities.json
+!/var/joint-local-plans.json
 /.vs
 specification/
 

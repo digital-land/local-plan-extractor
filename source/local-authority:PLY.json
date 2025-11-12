@@ -25,7 +25,7 @@
         "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
         "name": "Statement from Joint Local Plan Partnership Board",
-        "reference": "STATEMENT-2025",
+        "reference": "JLP-STATEMENT-2025",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -34,8 +34,8 @@
         "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
         "name": "Post adoption consultations and emerging evidence",
-        "reference": "EVIDENCE-2019",
-        "document-status": "adopted",
+        "reference": "POST-ADOPT-CONSULT",
+        "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
@@ -43,7 +43,7 @@
         "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
         "name": "View the interactive Plymouth and South West Devon Joint Local Plan",
-        "reference": "INTERACTIVE-2019",
+        "reference": "JLP-INTERACTIVE",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -52,8 +52,8 @@
         "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
         "name": "Evidence base, past consultations and examination",
-        "reference": "EXAMINATION-2019",
-        "document-status": "adopted",
+        "reference": "JLP-EVIDENCE-BASE",
+        "document-status": "examination",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
@@ -61,7 +61,7 @@
         "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
         "document-type": "supplementary-planning-document",
         "name": "Adopted Supplementary Planning Document",
-        "reference": "SPD-2019",
+        "reference": "SPD-ADOPTED",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -70,7 +70,7 @@
         "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
         "document-type": "statement-of-community-involvement",
         "name": "Adopted Statement of Community Involvement",
-        "reference": "SCI-2019",
+        "reference": "SCI-ADOPTED",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -79,7 +79,7 @@
         "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
         "document-type": "local-plan",
         "name": "Local Green Space Development Plan Document",
-        "reference": "LGSDPD-2025",
+        "reference": "LGS-DPD",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

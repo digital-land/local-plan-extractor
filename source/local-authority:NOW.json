@@ -3,81 +3,135 @@
     "organisation": "local-authority:NOW",
     "organisation-name": "Norwich City Council",
     "reference": "LP-NOW-2024",
-    "documentation-url": "https://www.gnlp.org.uk/",
+    "documentation-url": "https://www.gnlp.org.uk",
     "document-url": "",
-    "name": "Greater Norwich Local Plan (GNLP)",
+    "name": "Greater Norwich Local Plan 2018-2038",
     "status": "adopted",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2018,
+    "period-end-date": 2038,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.norwich.gov.uk/localplan",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/GNLP%20Inspectors%27%20Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "inspectors-report",
+        "name": "GNLP Inspectors' Report",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "fc5dc29877cae1635e4fcd9ffe49c6810e9a01cc1ab0d001a5dcd491760ed2db"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J1.2%20Appendix%201%20Schedule%20of%20Main%20Modifications%20-%20Strategy.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "main-modifications",
+        "name": "Appendix 1: Schedule of Main Modifications - Strategy",
+        "reference": "MM-STRATEGY-2024",
+        "document-status": "adopted",
+        "endpoint": "7a4b61d62db4814a924ed3d516b9b6661e8d5f2f938c5a58d281e403e3066ba7"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J1.3%20Appendix%202%20Schedule%20of%20Main%20Modifications%20-%20Sites.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "main-modifications",
+        "name": "Appendix 2: Schedule of Main Modifications - Sites",
+        "reference": "MM-SITES-2024",
+        "document-status": "adopted",
+        "endpoint": "6f7dd6d56df04e3a93c5bca987bb57bc0e1c2ad50519d0c22574398ffc4fbb5a"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J2.1%20The%20Strategy.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
         "document-type": "local-plan",
-        "name": "Greater Norwich Local Plan (GNLP)",
-        "reference": "LP-2024",
+        "name": "The Strategy",
+        "reference": "LP-STRATEGY-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "a82dcb94ca02ccad2bfa7478e0ade92685964247a0ac9d10f776b00ed44f3678"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.norwich.gov.uk/localplan",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J2.4%203.%20Norwich.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "3. Norwich",
+        "reference": "SA-NORWICH-2024",
+        "document-status": "adopted",
+        "endpoint": "29c133a2d9cb0b151913e41258710d2cfafaf053596e5bec5a562def0f45f119"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J3.2%20Norwich%20Policies%20Map%20Booklet.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
         "document-type": "policies-map",
-        "name": "Development Management Policies Map",
-        "reference": "PM-2024",
+        "name": "Norwich Policies Map Booklet",
+        "reference": "PM-NORWICH-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "bde3640672013547debd24d8dc1bc9bcef4e39457fc068a390cbdab8aa42bf62"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.gnlp.org.uk/",
-        "document-type": "site-allocations",
-        "name": "Site Allocations Interactive Map",
-        "reference": "SA-MAP-2024",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-03/Norwich%20City%20Council%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "adoption-statement",
+        "name": "Norwich City Council Adoption Statement",
+        "reference": "AS-NORWICH-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "c35afaa7b180cec00f9143adec558f2e5cc62e7c9eee1529d5b943a5299bace0"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-03/SA%20Post%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
         "document-type": "sustainability-appraisal",
-        "name": "Table 3 - Sustainability Appraisal Indicators",
-        "reference": "SA-2024",
+        "name": "Sustainability Appraisal of the Greater Norwich Local Plan (2018-2038) Post Adoption Statement",
+        "reference": "SA-POST-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.gnlp.org.uk/",
-        "document-type": "site-allocations",
-        "name": "Site Allocation Statements of Common Ground/Delivery Statements",
-        "reference": "SA-SOCG-2024",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "328f2de345c4accb2f80fdafa6ecab4191cd92a6cf670be1ae50b70174bf9c16"
       }
     ]
   },
   {
     "organisation": "local-authority:NOW",
     "organisation-name": "Norwich City Council",
-    "reference": "LP-NOW-2021",
-    "documentation-url": "https://www.gnlp.org.uk/",
-    "document-url": "",
-    "name": "Joint Core Strategy",
+    "reference": "LP-NOW-2014",
+    "documentation-url": "https://www.gnlp.org.uk/node/30",
+    "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-adopted-doc-2014.pdf",
+    "name": "Joint Core Strategy for Broadland, Norwich and South Norfolk",
     "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
+    "year": 2014,
+    "period-start-date": 2008,
+    "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.gnlp.org.uk/",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-adopted-doc-2014.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
         "document-type": "core-strategy",
-        "name": "Joint Core Strategy",
-        "reference": "CS-2021",
+        "name": "Joint Core Strategy for Broadland, Norwich and South Norfolk",
+        "reference": "CS-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "2bc04ef07358ef5c73cd60497b5f7d1e9446694e604e304ce419de255c774399"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/Inspector%27s%20Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "c7c969dbf72689feba0f86062ef02802de95b9fbcbbeaeebde8ec7118afaa7ea"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-Adoption-statement-Norwich-FINAL.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "adoption-statement",
+        "name": "Norwich",
+        "reference": "AS-NORWICH-2014",
+        "document-status": "adopted",
+        "endpoint": "15f5185556fad9261880a195e16cbad7d5b6f4f95a523702380e5190ac712243"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/PSJCS-5-HRA-Supplementary-Statement-and-Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Supplementary Statement July 2012",
+        "reference": "HRA-2012",
+        "document-status": "adopted",
+        "endpoint": "6495e5564a0eb9f2aaf96982110005c83e636b5c4a6e75b97fa8d147910a09f7"
       }
     ]
   }

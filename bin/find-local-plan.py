@@ -235,12 +235,12 @@ def download_document(url, endpoint):
 class LocalPlanFinder:
     def __init__(
         self, api_key: str, organisation_csv: str = "var/cache/organisation.csv",
-        successor_authorities_json: str = "var/successor-authorities.json"
+        joint_local_plans_json: str = "var/joint-local-plans.json"
     ):
         """Initialize with Anthropic API key and organisation CSV path"""
         self.client = anthropic.Anthropic(api_key=api_key)
         self.organisations = self._load_organisations(organisation_csv)
-        self.successors = self._load_successor_authorities(successor_authorities_json)
+        self.joint_plans = self._load_joint_local_plans(joint_local_plans_json)
 
     def _load_organisations(self, csv_path: str) -> Dict[str, Dict[str, str]]:
         """Load organisation codes, names, and websites from CSV file.
@@ -285,34 +285,34 @@ class LocalPlanFinder:
 
         return organisations
 
-    def _load_successor_authorities(self, json_path: str) -> Dict[str, Dict[str, str]]:
-        """Load successor authority mappings from JSON file.
+    def _load_joint_local_plans(self, json_path: str) -> Dict[str, Dict[str, str]]:
+        """Load joint local plan mappings from JSON file.
 
         Returns:
-            Dictionary mapping old organisation codes to successor info
+            Dictionary mapping organisation codes to joint plan info
         """
-        successors = {}
+        joint_plans = {}
         try:
             if os.path.exists(json_path):
                 with open(json_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    successors = data.get("successors", {})
+                    joint_plans = data.get("joint-plans", {})
                     print(
-                        f"Loaded {len(successors)} successor authority mappings",
+                        f"Loaded {len(joint_plans)} joint local plan mappings",
                         file=sys.stderr,
                     )
             else:
                 print(
-                    f"Note: Successor authorities file not found at {json_path}",
+                    f"Note: Joint local plans file not found at {json_path}",
                     file=sys.stderr,
                 )
         except Exception as e:
             print(
-                f"Warning: Could not load successor authorities from {json_path}: {e}",
+                f"Warning: Could not load joint local plans from {json_path}: {e}",
                 file=sys.stderr,
             )
 
-        return successors
+        return joint_plans
 
     def get_organisation_name(self, org_code: str) -> Optional[str]:
         """Get organisation name from code.
@@ -346,33 +346,33 @@ class LocalPlanFinder:
         Args:
             org_name: Organisation name
             official_website: Official website URL from organisation.csv (if available)
-            org_code: Organisation code (e.g., "local-authority:AYL") - used to check for successors
+            org_code: Organisation code (e.g., "local-authority:DAC") - used to check for joint local plans
 
         Returns:
             List of dicts with 'title', 'url', 'snippet'
         """
         domains = []
 
-        # Check if this authority has a successor (for abolished councils)
-        if org_code and org_code in self.successors:
-            successor_info = self.successors[org_code]
-            successor_website = successor_info.get("successor-website")
-            if successor_website:
+        # Check if this authority has a joint local plan with other councils
+        if org_code and org_code in self.joint_plans:
+            plan_info = self.joint_plans[org_code]
+            plan_website = plan_info.get("joint-plan-website")
+            if plan_website:
                 from urllib.parse import urlparse
-                parsed = urlparse(successor_website)
-                successor_domain = parsed.netloc
-                if successor_domain:
-                    domains.append(successor_domain)
+                parsed = urlparse(plan_website)
+                plan_domain = parsed.netloc
+                if plan_domain:
+                    domains.append(plan_domain)
                     print(
-                        f"Authority merged/abolished - using successor domain: {successor_domain}",
+                        f"Authority is part of joint local plan - using joint plan domain: {plan_domain}",
                         file=sys.stderr,
                     )
                     print(
-                        f"  {successor_info.get('name')} → {successor_info.get('successor-name')}",
+                        f"  Joint plan: {plan_info.get('joint-plan-name')}",
                         file=sys.stderr,
                     )
 
-        # If we have the official website, use it (but after successor)
+        # If we have the official website, use it (but after joint plan domain)
         if official_website:
             # Extract domain from URL (e.g., "https://www.dacorum.gov.uk" -> "www.dacorum.gov.uk")
             from urllib.parse import urlparse
@@ -498,6 +498,7 @@ class LocalPlanFinder:
             ],
             "local-authority:GAT": [  # Gateshead
                 "/article/3001/Local-Plan",
+                "/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
             ],
             "local-authority:GED": [  # Gedling
                 "/resident/planningandbuildingcontrol/planningpolicy/adoptedlocalplanandpolicydocuments/",

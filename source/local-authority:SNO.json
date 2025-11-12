@@ -2,6 +2,191 @@
   {
     "organisation": "local-authority:SNO",
     "organisation-name": "South Norfolk District Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-SNO-2024",
+    "documentation-url": "https://www.gnlp.org.uk",
+    "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf",
+    "name": "Greater Norwich Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2018,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "local-plan",
+        "name": "The Strategy",
+        "reference": "LP-STRATEGY-2024",
+        "document-status": "adopted",
+        "endpoint": "6749fc081c17e48e1d17ace3e0042fba1ca7ee729b04f52205bca29cec427c1c"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/2.%20Strategic%20Sites.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Strategic Sites",
+        "reference": "SA-STRATEGIC-2024",
+        "document-status": "adopted",
+        "endpoint": "700d9d6f485f147d4d72f7e928872082082d7fb82df7b939b247dbc220788753"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/3.%20Norwich.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Norwich",
+        "reference": "SA-NORWICH-2024",
+        "document-status": "adopted",
+        "endpoint": "e98f0b3faaa3bc6bcbb49e7622f0876ea4c89fa7a352b324e2990817c352f1e6"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/4.%20Urban%20Fringe.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Urban Fringe",
+        "reference": "SA-FRINGE-2024",
+        "document-status": "adopted",
+        "endpoint": "8df9998c51f827d37e5b5fb3c2d72bf57b65baa681c3eecc21f94bb02b75550f"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/5.%20Main%20Towns.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Main Towns",
+        "reference": "SA-TOWNS-2024",
+        "document-status": "adopted",
+        "endpoint": "f7262cb771dc7db352e81242575d5248f8209b937ce9baaa60759cbbffe6c3c0"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/6.%20Key%20Service%20Centres.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Key Service Centres",
+        "reference": "SA-CENTRES-2024",
+        "document-status": "adopted",
+        "endpoint": "f6b7c4e83f14b9f20445696846a740f11532a1ff3499bcec3317dda969af759b"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/7.%20Broadland%20Villages.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "Broadland Villages",
+        "reference": "SA-VILLAGES-2024",
+        "document-status": "adopted",
+        "endpoint": "8bb533432df39cdb926c221f324cb2b4a211a1c8a90211feb0ec9d6572ea4e49"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/8.%20South%20Norfolk%20Non-Residential.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "site-allocations",
+        "name": "South Norfolk Non-Residential",
+        "reference": "SA-SNO-NONRES-2024",
+        "document-status": "adopted",
+        "endpoint": "3232c8864356449435657bb9ec85e1d5b42bdd8e22d57887873ec4bf2c374402"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/9.%20Gypsy%20and%20Traveller%20Sites.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Gypsy and Traveller Sites",
+        "reference": "GT-2024",
+        "document-status": "adopted",
+        "endpoint": "e9c1584285b9a7e99461a73abbb0fae1130c6e9558ae829b0e4c75836c2f56de"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%203%20The%20Monitoring%20Framework.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "authority-monitoring-report",
+        "name": "The Monitoring Framework",
+        "reference": "AMR-2024",
+        "document-status": "adopted",
+        "endpoint": "d7262afd1da572bfce3a88ef9c170bdbbe769a784e4875b02263c995edca1ede"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/GNLP%20Inspectors%27%20Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "inspectors-report",
+        "name": "GNLP Inspectors' Report",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "d6868a1245855498316b18c1d6b06a71a9aedda0e033d4cd36e7de7f8dfba9aa"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/South%20Norfolk%20Council%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "adoption-statement",
+        "name": "South Norfolk Council Adoption Statement",
+        "reference": "AS-SNO-2024",
+        "document-status": "adopted",
+        "endpoint": "c8e0d172e88b0725eefd1df15ef85f66770d8fdc6539935f121bfba54fe89bb2"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/South%20Norfolk%20Policies%20Map%20Booklet.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "policies-map",
+        "name": "South Norfolk Policies Map Booklet",
+        "reference": "PM-SNO-2024",
+        "document-status": "adopted",
+        "endpoint": "a5cb7de97acb3c88c00a9de81c046bd4e0bbd11aec90ef9fafae25be3ac37909"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Sustainability%20Appraisal%20of%20the%20Greater%20Norwich%20Local%20Plan%20%282018-2038%29%20Post%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Greater Norwich Local Plan (2018-2038) Post Adoption Statement",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "171ff34c55be6a73ab5d379efe71bd391f3d52aae69c6374a72701468e84f4e6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SNO",
+    "organisation-name": "South Norfolk District Council",
+    "reference": "LP-SNO-2014",
+    "documentation-url": "https://www.gnlp.org.uk/node/30",
+    "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-adopted-doc-2014.pdf",
+    "name": "Joint Core Strategy for Broadland, Norwich and South Norfolk",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2008,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-adopted-doc-2014.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "core-strategy",
+        "name": "Joint Core Strategy for Broadland, Norwich and South Norfolk",
+        "reference": "CS-JCS-2014",
+        "document-status": "adopted",
+        "endpoint": "2bc04ef07358ef5c73cd60497b5f7d1e9446694e604e304ce419de255c774399"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/Final-Greater-Norwich-Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report On The Examination Into The Joint Core Strategy For Broadland, Norwich And South Norfolk, The Broadland Part",
+        "reference": "IR-JCS-2013",
+        "document-status": "adopted",
+        "endpoint": "3ac55c6f398458f8933e769c5d193fe79d7103d79a898a2186a813558d7f5793"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-Adoption-statement-South-Norfolk-FINAL.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "adoption-statement",
+        "name": "South Norfolk",
+        "reference": "AS-JCS-SNO-2014",
+        "document-status": "adopted",
+        "endpoint": "ebb1386c8778de4777ccb21a272a1ce31b39714d37bd0a8cf8ea72c7e45df275"
+      },
+      {
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/PSJCS-5-HRA-Supplementary-Statement-and-Report.pdf",
+        "documentation-url": "https://www.gnlp.org.uk/node/30",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Supplementary Statement July 2012",
+        "reference": "HRA-JCS-2012",
+        "document-status": "adopted",
+        "endpoint": "6495e5564a0eb9f2aaf96982110005c83e636b5c4a6e75b97fa8d147910a09f7"
+      }
+    ]
   }
 ]

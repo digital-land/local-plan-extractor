@@ -3,7 +3,7 @@
     "organisation": "local-authority:LIC",
     "organisation-name": "City of Lincoln Council",
     "reference": "LP-LIC-2023",
-    "documentation-url": "https://www.lincoln.gov.uk/planning/new-local-plan-policies",
+    "documentation-url": "https://www.lincoln.gov.uk/planning/planning-building-policies-publications-1/",
     "document-url": "",
     "name": "Central Lincolnshire Local Plan",
     "status": "adopted",
@@ -13,10 +13,28 @@
     "documents": [
       {
         "document-url": "",
+        "documentation-url": "https://www.lincoln.gov.uk/planning/planning-building-policies-publications-1/",
+        "document-type": "local-plan",
+        "name": "The Central Lincolnshire Local Plan",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
         "documentation-url": "https://www.lincoln.gov.uk/planning/new-local-plan-policies",
         "document-type": "local-plan",
         "name": "Local Plan Adopted 13 April 2023",
-        "reference": "LP-2023",
+        "reference": "LP-ADOPTED-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.lincoln.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Local Plan Policies - Energy Efficiency and BNG",
+        "reference": "LP-POLICIES-2023",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
