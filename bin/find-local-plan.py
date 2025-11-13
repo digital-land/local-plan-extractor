@@ -6,6 +6,17 @@ Usage:
     python bin/find-local-plan.py local-authority:DAC
     python bin/find-local-plan.py local-authority:MAN
 
+IMPORTANT - Manually Maintained Authorities:
+    The following authorities have joint local plans hosted on websites protected by bot
+    detection (Sucuri Cloudproxy) and CANNOT be automatically scraped:
+    - local-authority:MAV (Malvern Hills District Council)
+    - local-authority:WOC (Worcester City Council)
+    - local-authority:WYC (Wychavon District Council)
+
+    These authorities should be maintained manually in source/{code}.json files.
+    Use the --exclude flag in run-all-authorities.py to prevent overwriting:
+    python bin/run-all-authorities.py --exclude MAV,WOC,WYC
+
 Outputs JSON array with one element per local plan document. Each element contains:
     - organisation: the organisation code
     - organisation-name: the name of the organisation
@@ -39,6 +50,7 @@ import mimetypes
 import urllib.request
 import urllib.error
 import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime, timezone
@@ -352,6 +364,7 @@ class LocalPlanFinder:
             List of dicts with 'title', 'url', 'snippet'
         """
         domains = []
+        configured_urls = []  # Track explicitly configured URLs (like from joint-local-plans.json)
 
         # Check if this authority has a joint local plan with other councils
         if org_code and org_code in self.joint_plans:
@@ -371,6 +384,11 @@ class LocalPlanFinder:
                         f"  Joint plan: {plan_info.get('joint-plan-name')}",
                         file=sys.stderr,
                     )
+                    # Add the full configured URL as the first URL to try
+                    configured_urls.append({
+                        "title": f"Joint Local Plan: {plan_info.get('joint-plan-name')}",
+                        "url": plan_website
+                    })
 
         # If we have the official website, use it (but after joint plan domain)
         if official_website:
@@ -653,7 +671,42 @@ class LocalPlanFinder:
                     }
                 )
 
-        return urls
+        # Prepend configured URLs (like from joint-local-plans.json) before generated URLs
+        return configured_urls + urls
+
+    def fetch_page_for_link_extraction(self, url: str) -> Optional[str]:
+        """Fetch page content for link extraction, with Cloudflare bypass support.
+
+        Args:
+            url: URL to fetch
+
+        Returns:
+            HTML content if successful, None otherwise
+        """
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+
+        # Try standard requests first
+        try:
+            response = requests.get(
+                url, headers=headers, timeout=15, allow_redirects=True, verify=False
+            )
+            if response.status_code == 200:
+                return response.text
+            elif response.status_code == 403:
+                # Try cloudscraper for Cloudflare protection
+                try:
+                    scraper = cloudscraper.create_scraper()
+                    response = scraper.get(url, headers=headers, timeout=15, allow_redirects=True)
+                    if response.status_code == 200:
+                        return response.text
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        return None
 
     def extract_local_plan_links(self, url: str, html_content: str) -> List[str]:
         """Extract links that likely point to local plan pages.
@@ -1123,6 +1176,8 @@ class LocalPlanFinder:
     def fetch_page_content(self, url: str, max_length: int = 50000) -> tuple[str, bool]:
         """Fetch and extract text content from a URL.
 
+        Uses cloudscraper to bypass Cloudflare protection if needed.
+
         Args:
             url: URL to fetch
             max_length: Maximum content length
@@ -1134,10 +1189,29 @@ class LocalPlanFinder:
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             }
-            response = requests.get(
-                url, headers=headers, timeout=15, allow_redirects=True, verify=False
-            )
-            response.raise_for_status()
+
+            # Try standard requests first
+            try:
+                response = requests.get(
+                    url, headers=headers, timeout=15, allow_redirects=True, verify=False
+                )
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as e:
+                # If we get a 403 (Forbidden), it might be Cloudflare protection - try cloudscraper
+                if e.response.status_code == 403:
+                    print(f"  403 Forbidden - attempting to bypass with cloudscraper", file=sys.stderr)
+                    try:
+                        scraper = cloudscraper.create_scraper()
+                        response = scraper.get(
+                            url, headers=headers, timeout=15, allow_redirects=True
+                        )
+                        response.raise_for_status()
+                        print(f"  Successfully bypassed protection with cloudscraper", file=sys.stderr)
+                    except Exception as cs_error:
+                        print(f"  Cloudscraper also failed: {type(cs_error).__name__}: {cs_error}", file=sys.stderr)
+                        return "", False
+                else:
+                    raise
 
             # Only process HTML content
             content_type = response.headers.get("content-type", "").lower()
@@ -1233,18 +1307,10 @@ class LocalPlanFinder:
 
                 # Extract local plan links and PDF links from this page
                 try:
-                    response = requests.get(
-                        result["url"],
-                        headers={
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                        },
-                        timeout=15,
-                        allow_redirects=True,
-                        verify=False,
-                    )
-                    if response.status_code == 200:
+                    html_content = self.fetch_page_for_link_extraction(result["url"])
+                    if html_content:
                         links = self.extract_local_plan_links(
-                            result["url"], response.text
+                            result["url"], html_content
                         )
                         print(
                             f"  Found {len(links)} local plan links on this page",
@@ -1252,7 +1318,7 @@ class LocalPlanFinder:
                         )
                         discovered_links.update(links)
 
-                        docs = self.extract_document_links(result["url"], response.text)
+                        docs = self.extract_document_links(result["url"], html_content)
                         print(
                             f"  Found {len(docs)} document links on this page",
                             file=sys.stderr,
@@ -1289,17 +1355,9 @@ class LocalPlanFinder:
 
                 # Also extract PDFs from discovered pages
                 try:
-                    response = requests.get(
-                        link,
-                        headers={
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                        },
-                        timeout=15,
-                        allow_redirects=True,
-                        verify=False,
-                    )
-                    if response.status_code == 200:
-                        docs = self.extract_document_links(link, response.text)
+                    html_content = self.fetch_page_for_link_extraction(link)
+                    if html_content:
+                        docs = self.extract_document_links(link, html_content)
                         print(f"  Found {len(docs)} document links", file=sys.stderr)
                         all_pdf_links.extend(docs)
                 except Exception:

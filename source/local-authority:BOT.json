@@ -2,6 +2,42 @@
   {
     "organisation": "local-authority:BOT",
     "organisation-name": "Boston Borough Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-BOT-2019",
+    "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+    "document-url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483",
+    "name": "South East Lincolnshire Local Plan 2011-2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "South East Lincolnshire Local Plan 2011-2036",
+        "reference": "LP-2011-2036",
+        "document-status": "adopted",
+        "endpoint": "adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21942/Policies-map/pdf/0-Policies-Map.pdf?m=1720710748117",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "d0d5a5a2ddf5c215cbd13351b897d47de3bf44b61c053e99a21d7da2904fa5d0"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21943/Inset-map-1-Boston/pdf/1-Boston.pdf?m=1720710723367",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset map 1 - Boston",
+        "reference": "IM-BOSTON-2019",
+        "document-status": "adopted",
+        "endpoint": "9bb23f65a5c96b50df32a22cea0bbca040b93b78a0201cba0355bf71f5b38704"
+      }
+    ]
   }
 ]

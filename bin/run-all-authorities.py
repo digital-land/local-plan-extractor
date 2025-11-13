@@ -132,6 +132,9 @@ Examples:
   # Process only specific authorities
   python bin/run-all-authorities.py --authorities BIR,MAN,LDS
 
+  # Process all authorities except specific ones (manually maintained)
+  python bin/run-all-authorities.py --exclude MAV,WOC,WYC
+
   # Process authorities starting from a specific code
   python bin/run-all-authorities.py --start-from MAN
 
@@ -140,6 +143,12 @@ Examples:
 
   # Dry run to see what would be processed
   python bin/run-all-authorities.py --dry-run
+
+Notes on Excluded Authorities:
+  - MAV (Malvern Hills): Bot protection on joint plan website, manually maintained
+  - WOC (Worcester City): Bot protection on joint plan website, manually maintained
+  - WYC (Wychavon): Bot protection on joint plan website, manually maintained
+  Use --exclude to prevent these from being overwritten by automated scraping.
 """
     )
 
@@ -204,6 +213,11 @@ Examples:
         help='Pass --debug flag to find-local-plan.py'
     )
 
+    parser.add_argument(
+        '--exclude',
+        help='Comma-separated list of authority codes to exclude from processing (e.g., MAV,WOC,WYC)'
+    )
+
     args = parser.parse_args()
 
     # Check that both CSV files exist
@@ -251,6 +265,18 @@ Examples:
     if args.limit:
         authorities_to_process = authorities_to_process[:args.limit]
         print(f"Limited to first {len(authorities_to_process)} authorities")
+
+    if args.exclude:
+        excluded_codes = set(code.strip() for code in args.exclude.split(','))
+        original_count = len(authorities_to_process)
+        authorities_to_process = [
+            (code, name) for code, name in authorities_to_process
+            if code not in excluded_codes and code.split(':')[-1] not in excluded_codes
+        ]
+        excluded_count = original_count - len(authorities_to_process)
+        if excluded_count > 0:
+            print(f"Excluded {excluded_count} authority/authorities: {', '.join(sorted(excluded_codes))}")
+            print(f"Remaining authorities to process: {len(authorities_to_process)}")
 
     if args.dry_run:
         print("\nDry run - authorities that would be processed:")

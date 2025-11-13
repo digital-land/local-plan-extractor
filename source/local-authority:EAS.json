@@ -1,1 +1,111 @@
-[]
+[
+  {
+    "organisation": "local-authority:EAS",
+    "organisation-name": "Eastbourne Borough Council",
+    "reference": "LP-EAS-2013",
+    "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+    "document-url": "https://www.lewes-eastbourne.gov.uk/media/968/Eastbourne-Core-Strategy/pdf/Eastbourne_Core_Strategy.pdf?m=1675872825367",
+    "name": "Eastbourne Core Strategy",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/968/Eastbourne-Core-Strategy/pdf/Eastbourne_Core_Strategy.pdf?m=1675872825367",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+        "document-type": "core-strategy",
+        "name": "Eastbourne Core Strategy",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "c6343d3f39c49290b263976a1c1a6b6a67face1a6e04dad04d5ab554dad5b5f6"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/965/Eastbourne-Core-Strategy-Adoption-Statement/pdf/Eastbourne_Core_Strategy_Adoption_Statement.pdf?m=1675872824350",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+        "document-type": "adoption-statement",
+        "name": "Eastbourne Core Strategy Adoption Statement",
+        "reference": "AS-2013",
+        "document-status": "adopted",
+        "endpoint": "b52226dcf5e591567cc5a31cf274a2d33edfdf6334b43a9e9881d1e4a1735731"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/964/Eastbourne-Core-Strategy-Inspectors-Final-Report/pdf/Eastbourne_Core_Strategy_Inspectors_Final_Report.pdf?m=1675872824073",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+        "document-type": "inspectors-report",
+        "name": "Eastbourne Core Strategy Inspectors Final Report",
+        "reference": "IR-2013",
+        "document-status": "adopted",
+        "endpoint": "dd0bcfc532f8d86ee0cb61d1b5308127b8f848805111f43e4b3387d7991bc64a"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/961/Amended-Eastbourne-Policies-Map-2016/pdf/Amended_Eastbourne_Policies_Map_2016.pdf?m=1675872822963",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+        "document-type": "policies-map",
+        "name": "Amended Eastbourne Policies Map 2016",
+        "reference": "PM-2016",
+        "document-status": "adopted",
+        "endpoint": "d973253806350393662ebf100f06cb25f3827aa0125d6e1e293afb3b8551c730"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/960/Amended-Eastbourne-Policies-Map-Town-Centre-Inset-Map-2016/pdf/Amended_Eastbourne_Policies_Map_Town_Centre_Inset_Map_2016.pdf?m=1675872822663",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+        "document-type": "policies-map",
+        "name": "Amended Eastbourne Policies Map Town Centre Inset Map 2016",
+        "reference": "PM-TC-2016",
+        "document-status": "adopted",
+        "endpoint": "b21cd9373cb7fe4935121cc7f9b8e6a66686f6671983b86e2e43aef48a17d65b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EAS",
+    "organisation-name": "Eastbourne Borough Council",
+    "reference": "LP-EAS-2024",
+    "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/2833/Eastbourne-Houses-in-Multiple-Occupation-HMOs-policy-consultation",
+    "document-url": "https://www.lewes-eastbourne.gov.uk/media/4032/Eastbourne-Houses-of-Multiple-Occupation-Development-Plan-Document-Reg-18-version-for-consultation-FINAL/pdf/Eastbourne_Houses_of_Multiple_Occupation_Development_Plan_Document_-_Reg_18_version_for_consultation.pdf?m=1722511363480",
+    "name": "Eastbourne Houses in Multiple Occupation Development Plan Document",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/4032/Eastbourne-Houses-of-Multiple-Occupation-Development-Plan-Document-Reg-18-version-for-consultation-FINAL/pdf/Eastbourne_Houses_of_Multiple_Occupation_Development_Plan_Document_-_Reg_18_version_for_consultation.pdf?m=1722511363480",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/2833/Eastbourne-Houses-in-Multiple-Occupation-HMOs-policy-consultation",
+        "document-type": "local-plan",
+        "name": "Eastbourne Houses of Multiple Occupation Development Plan Document - Reg 18 version for consultation",
+        "reference": "LP-HMO-2024",
+        "document-status": "consultation",
+        "endpoint": "65c63151c469f4be81329da94cbc605a294e654b10f89fd9f9eb0ab267f6974a"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/4033/EBC-HMO-Article-4-Direction-29-07-24/pdf/EBC_HMO_Article_4_Direction_29.07.24.pdf?m=1722511363670",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/2833/Eastbourne-Houses-in-Multiple-Occupation-HMOs-policy-consultation",
+        "document-type": "local-plan",
+        "name": "EBC HMO Article 4 Direction 29.07.24",
+        "reference": "A4D-2024",
+        "document-status": "consultation",
+        "endpoint": "3b9694d8f392fa1546b56a4aca02890df99ce6bf443ad6f86809adc921bfea14"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/4034/HMO-Article-4-Direction-FAQ/pdf/HMO_Article_4_Direction_FAQ.pdf?m=1722511363903",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/2833/Eastbourne-Houses-in-Multiple-Occupation-HMOs-policy-consultation",
+        "document-type": "local-plan",
+        "name": "HMO Article 4 Direction FAQ",
+        "reference": "FAQ-2024",
+        "document-status": "consultation",
+        "endpoint": "f0d54c155169b9d2e4190fb4af03f827f526e769c40ea10c006aa9396ce30914"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/4035/Proposed-Article-4-Direction-Boundary/pdf/Proposed_Article_4_Direction_Boundary.pdf?m=1722511364070",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/2833/Eastbourne-Houses-in-Multiple-Occupation-HMOs-policy-consultation",
+        "document-type": "local-plan",
+        "name": "Proposed Article 4 Direction Boundary",
+        "reference": "A4D-BOUNDARY-2024",
+        "document-status": "consultation",
+        "endpoint": "375b7422cb4cc9b740d19efd2e13d3e76b78ab05a09e75930ab770bf1acf86d0"
+      }
+    ]
+  }
+]

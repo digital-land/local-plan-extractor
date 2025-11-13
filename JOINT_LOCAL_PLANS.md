@@ -89,7 +89,7 @@ Authorities:
 - South Hams District Council (SHA)
 - West Devon District Council (WDE)
 
-### South Worcestershire Development Plan
+### South Worcestershire Development Plan (NOT included in automated scraping)
 
 Website: https://www.swdevelopmentplan.org/
 
@@ -98,6 +98,14 @@ Authorities:
 - Malvern Hills District Council (MAV)
 - Worcester City Council (WOC)
 - Wychavon District Council (WYC)
+
+**NOTE:** This website is protected by Sucuri Cloudproxy bot detection, which blocks automated scraping. These three authorities are NOT included in the `joint-local-plans.json` file and must be maintained manually. Their local plan documents are available at:
+- https://www.swdevelopmentplan.org/component/fileman/?view=file&routed=1&name=The-Adopted-SWDP-February-2016.pdf&folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&container=fileman-files
+
+To prevent these authorities from being overwritten by the automated scraping when running `run-all-authorities.py`, use the `--exclude` flag:
+```bash
+python bin/run-all-authorities.py --exclude MAV,WOC,WYC
+```
 
 ### Newcastle and Gateshead Local Plan
 
