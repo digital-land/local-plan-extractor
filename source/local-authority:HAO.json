@@ -1,0 +1,178 @@
+[
+  {
+    "organisation": "local-authority:HAO",
+    "organisation-name": "Harborough District Council",
+    "reference": "LP-HAO-2019",
+    "documentation-url": "https://www.harborough.gov.uk/local-plan",
+    "document-url": "https://www.harborough.gov.uk/downloads/file/5714/harborough_local_plan_2011-2031_-_adopted_april_2019",
+    "name": "Harborough Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/5714/harborough_local_plan_2011-2031_-_adopted_april_2019",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Harborough Local Plan 2011-2031",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "e4f2ccc999d1c2e44c4d45e0cdcecabbc93649ff897e37fdeb0391736549077d"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/5716/adoption_statement_final_30_04_2019",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "9508cc7010e98b994e8d39ae39868c72261b71329385e0d9c4974517b748d095"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/931/proposal_maps_-_small_settlements",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "local-plan",
+        "name": "Proposal Maps - small settlements",
+        "reference": "PM-SMALL-2019",
+        "document-status": "adopted",
+        "endpoint": "2e74f64693e3093eb3a7b116c7269a7c98b7f912380a40079e541c4f379c7a99"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1411/kibworth_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Kibworth Proposals map",
+        "reference": "PM-KIBWORTH-2019",
+        "document-status": "adopted",
+        "endpoint": "96856e3e6ff62ee526bd8d2a1e15d4c4d85153edd0139ae6fe94d655f8f4a0c9"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1412/scraptoft_and_thurnby_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Scraptoft and Thurnby Proposals map",
+        "reference": "PM-SCRAPTOFT-2019",
+        "document-status": "adopted",
+        "endpoint": "19ad207d8a62513af85d659d5c5bc7da3b9b6a83dc036c3094efb0c33e4e40d8"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1413/bruntingthorpe_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Bruntingthorpe Proposals map",
+        "reference": "PM-BRUNTINGTHORPE-2019",
+        "document-status": "adopted",
+        "endpoint": "40599b658bfd378ec7df3f578d52596a1b236e376c6eca35c4ca58be62d6aff6"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1414/broughton_astley_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Broughton Astley Proposals map",
+        "reference": "PM-BROUGHTON-2019",
+        "document-status": "adopted",
+        "endpoint": "1aa6290d24fcb4146965d11379b4cca961f9c63260b5e1b03b763839e9786360"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1415/great_glen_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Great Glen Proposals map",
+        "reference": "PM-GLEN-2019",
+        "document-status": "adopted",
+        "endpoint": "4411bab1b96e8b8ecb03fea252a616d77d29677768036540f6302cc90691accc"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1416/fleckney_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Fleckney Proposals map",
+        "reference": "PM-FLECKNEY-2019",
+        "document-status": "adopted",
+        "endpoint": "711c6200c14093090fed3f73699668c7b23b00fa7cc5067e9fbd7aa29e9f3340"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1417/lutterworth_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Lutterworth Proposals map",
+        "reference": "PM-LUTTERWORTH-2019",
+        "document-status": "adopted",
+        "endpoint": "ef0d10797407816066ecc6fd3991ca1817ac9ae112aaafcd3ae72696d264c8be"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/1418/market_harborough_proposals_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "policies-map",
+        "name": "Market Harborough Proposals map",
+        "reference": "PM-MARKET-2019",
+        "document-status": "adopted",
+        "endpoint": "953191e233f4d59819525cbc7f6307f955b3263c8d4ad233a6eb5368571cb868"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/6893/broughton_astley_business_and_shopping_area_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "local-plan",
+        "name": "Broughton Astley Business and Shopping Area Map",
+        "reference": "PM-BUSINESS-2019",
+        "document-status": "adopted",
+        "endpoint": "c3a4aa4b306c19f1b0b91d5c968bf907b0702531239616c4645ac5a41e913ca1"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/6894/lutterworth_town_centre_boundary_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "local-plan",
+        "name": "Lutterworth Town Centre Boundary Map",
+        "reference": "PM-LTOWN-2019",
+        "document-status": "adopted",
+        "endpoint": "02b28f0cc8499f2ea1498e81092f49dacd5ce99d52562cf56f73f35c3856914e"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/6895/market_harborough_town_centre_boundary_map",
+        "documentation-url": "https://www.harborough.gov.uk/downloads/download/852/local_plan_proposal_maps",
+        "document-type": "local-plan",
+        "name": "Market Harborough Town Centre Boundary Map",
+        "reference": "PM-MTOWN-2019",
+        "document-status": "adopted",
+        "endpoint": "938f8bf8afa18986935b8e4c056b8780e38bcd664a8cb41ed9688b76fc1d4f7a"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/7266/monitoring_fees_background_evidence_paper",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Monitoring Fee Paper",
+        "reference": "LP-FEES-2022",
+        "document-status": "adopted",
+        "endpoint": "a20c56ea3bb8bc6b4e8977c2cb60748c0003fe00f2fd0b7c01e89caf43126313"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/7245/schedule_of_charges",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Schedule of Charges",
+        "reference": "LP-CHARGES-2022",
+        "document-status": "adopted",
+        "endpoint": "986bdc125771e92d3db37d735da5d5efaa5886dbfa03f3319b24473aa604def3"
+      },
+      {
+        "document-url": "https://www.harborough.gov.uk/downloads/file/7246/public_consultation_statement",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement",
+        "reference": "CS-2022",
+        "document-status": "adopted",
+        "endpoint": "407410ce98d4dd6f93a58fe3c5815aef32bc7afb838db0a6a72ca328e917ec2d"
+      },
+      {
+        "document-url": "http://www.harborough.gov.uk/downloads/file/7026/development_management_supplementary_planning_document_december_2021",
+        "documentation-url": "https://www.harborough.gov.uk/local-plan",
+        "document-type": "supplementary-planning-document",
+        "name": "Development Management SPD",
+        "reference": "SPD-DM-2021",
+        "document-status": "adopted",
+        "endpoint": "9dcf0c835e347882d9b4e785a348ddf1760faa3545999f3353a5b2d9b0cd08e9"
+      }
+    ]
+  }
+]

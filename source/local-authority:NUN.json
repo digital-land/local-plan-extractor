@@ -1,0 +1,111 @@
+[
+  {
+    "organisation": "local-authority:NUN",
+    "organisation-name": "Nuneaton and Bedworth Borough Council",
+    "reference": "LP-NUN-2024",
+    "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+    "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1689/schedule-of-main-modifications",
+    "name": "Borough Plan Review",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1689/schedule-of-main-modifications",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications",
+        "reference": "MM-2024",
+        "document-status": "examination",
+        "endpoint": "e03af1773ed86519dd7a861c8da3fa197e07e45924a2426ef259744ed3a98868"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1690/sustainability-appraisal-main-modifications-",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "main-modifications",
+        "name": "Sustainability Appraisal (Main Modifications)",
+        "reference": "SA-MM-2024",
+        "document-status": "examination",
+        "endpoint": "1b1e1bf6ca5ecfc1b94ed0865811dabc604180f67be8447dea7cac8b052a6551"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1691/habitat-regulations-assessment-main-modifications-",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "main-modifications",
+        "name": "Habitat Regulations Assessment (Main Modifications)",
+        "reference": "HRA-MM-2024",
+        "document-status": "examination",
+        "endpoint": "f55fef3f96ae88e16a3281a1307b971ade0bd408115225b9e7243cdb535f5c9d"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1692/schedule-of-additional-modifications",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications",
+        "reference": "AM-2024",
+        "document-status": "examination",
+        "endpoint": "eaf9dc8be3588b00bfebdbc3c5e1f4266a5b0e9f1f531366db67f8de3ccea7d7"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1693/proposed-modifications-to-the-borough-plan-review-policies-map-",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "policies-map",
+        "name": "Proposed Modifications to the Borough Plan Review Policies Map",
+        "reference": "PM-MOD-2024",
+        "document-status": "examination",
+        "endpoint": "6ce7fde794a286d5f96b6b6737affdf8877a68c391b753d67dbd5fa0dc5d9761"
+      },
+      {
+        "document-url": "https://fs-filestore-eu.s3.eu-west-1.amazonaws.com/nuneaton/Documents/Updated%20Borough%20Plan%20Review%20Policies%20Map.pdf",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "policies-map",
+        "name": "Updated Borough Plan Review Policies Map",
+        "reference": "PM-2024",
+        "document-status": "examination",
+        "endpoint": "09fb473fa3667b326a81cc3042bf18084ae723f95f3b782c11ad43599f8a1ff5"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1698/updated-borough-plan-review-policies-map-key",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "policies-map",
+        "name": "Updated Borough Plan Review Policies Map - Key",
+        "reference": "PM-KEY-2024",
+        "document-status": "examination",
+        "endpoint": "d940f8422291138b5214cb071154857cb94cd15400f2a94f27736d9ac240ad3d"
+      },
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/1742/call-for-sites-summer-2025-site-assessment-form",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "site-allocations",
+        "name": "Site Assessment Form",
+        "reference": "CFS-2025",
+        "document-status": "consultation",
+        "endpoint": "e087b107c03939fbdc2adc5ce9546f92000b860be56b379f8ffd8906037caf70"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NUN",
+    "organisation-name": "Nuneaton and Bedworth Borough Council",
+    "reference": "LP-NUN-2024-2",
+    "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/gypsy-traveller-site-allocations-dpd",
+    "document-url": "",
+    "name": "Gypsy and Traveller Site Allocations Development Plan Document",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.nuneatonandbedworth.gov.uk/downloads/file/295/statement-of-community-involvement-2023-",
+        "documentation-url": "https://www.nuneatonandbedworth.gov.uk/adopted-borough-plan/planning-policy-consultations",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2023",
+        "document-status": "adopted",
+        "endpoint": "8c011170c7591663ba725f99d4e29276a4e2cdcb10c300c07c31d2e9478054d6"
+      }
+    ]
+  }
+]

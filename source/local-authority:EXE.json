@@ -1,0 +1,51 @@
+[
+  {
+    "organisation": "local-authority:EXE",
+    "organisation-name": "Exeter City Council",
+    "reference": "LP-EXE-2012",
+    "documentation-url": "https://www.exeter.gov.uk/planning-services/current-policy/current-local-plan/",
+    "document-url": "https://www.exeter.gov.uk/media/1636/adopted-core-strategy.pdf",
+    "name": "Exeter Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.exeter.gov.uk/media/1636/adopted-core-strategy.pdf",
+        "documentation-url": "https://www.exeter.gov.uk/planning-services/current-policy/current-local-plan/",
+        "document-type": "core-strategy",
+        "name": "Adopted Core Strategy",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "be482e071dd90501293864499d6984035121bc21ff6f5f0ed66c3188cede0605"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EXE",
+    "organisation-name": "Exeter City Council",
+    "reference": "LP-EXE-2005",
+    "documentation-url": "https://www.exeter.gov.uk/planning-services/current-policy/current-local-plan/",
+    "document-url": "",
+    "name": "Exeter Local Plan First Review",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": 1995,
+    "period-end-date": 2011,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:EXE",
+    "organisation-name": "Exeter City Council",
+    "reference": "LP-EXE-2025",
+    "documentation-url": "https://exeter.gov.uk/planning-services/emerging-planning-policy/exeter-plan-submission-and-examination/",
+    "document-url": "",
+    "name": "Exeter Plan",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": []
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "organisation": "local-authority:ROC",
+    "organisation-name": "Rochford District Council",
+    "reference": "LP-ROC-2025",
+    "documentation-url": "https://www.rochford.gov.uk/new-local-plan",
+    "document-url": "",
+    "name": "New Local Plan 2025-2040",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2025-28 (adopted 10 September 2025)",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_agendacanewdon.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Agenda - Canewdon Workshop",
+        "reference": "LP-CAN-2016",
+        "document-status": "consultation",
+        "endpoint": "ef31c4ae61c2854ccfb54e33828ae52946cc8cb5a0687b84fc9bd802a52b6c6b"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentationcanewdon.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Presentation - Canewdon Workshop",
+        "reference": "LP-CAN-PRES-2016",
+        "document-status": "consultation",
+        "endpoint": "8c18625ad7aae95560f675c284b6cd3ae3002ade56ccd87b65c6022bc92cddc9"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_mapscanewdon.compressed.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Maps - Canewdon Workshop",
+        "reference": "LP-CAN-MAPS-2016",
+        "document-status": "consultation",
+        "endpoint": "095dd9e9eaeab223956737e2dbf73e51aa6f91d68e3062a50c648ff142d583aa"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_notescanewdon.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Notes - Canewdon Workshop",
+        "reference": "LP-CAN-NOTES-2016",
+        "document-status": "consultation",
+        "endpoint": "7f48c0a5fcd2d6ab4a26b96c3f4ff48b9610ffc412fd19658649832953db6af4"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_agendarochford_.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Agenda - Rochford Workshop",
+        "reference": "LP-ROCH-2016",
+        "document-status": "consultation",
+        "endpoint": "15662f4a76e1bcd031204ce53b3138e9581447b5091806c4cda1a3256009e2e0"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentation_rochford.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Presentation - Rochford Workshop",
+        "reference": "LP-ROCH-PRES-2016",
+        "document-status": "consultation",
+        "endpoint": "2be18fbbda4e74fe95d03fb5cc117401f7645964c696e89a1b871d986d6fa031"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_mapsrochford.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Maps - Rochford Workshop",
+        "reference": "LP-ROCH-MAPS-2016",
+        "document-status": "consultation",
+        "endpoint": "eda42d0023747602c43d02829803f1d44e2b7c3a1fbf88a35fb7153dd5538a18"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_notesrochford.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Notes - Rochford Workshop",
+        "reference": "LP-ROCH-NOTES-2016",
+        "document-status": "consultation",
+        "endpoint": "99bb1348edadb41e20ab13d31a309f85b20d359db9f8cdaef0db7e35a9c5dc26"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_agendaash.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Agenda - Ashingdon Workshop",
+        "reference": "LP-ASH-2016",
+        "document-status": "consultation",
+        "endpoint": "0b422c44ded67dadeb75b5050bf80b34e1b2974327ab0723dccfa6568ab3703d"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentation_ashingdon.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Presentation - Ashingdon Workshop",
+        "reference": "LP-ASH-PRES-2016",
+        "document-status": "consultation",
+        "endpoint": "9d611984091ea7c402541e59307309e2d4aa42d75210141c9a5517d3ad1a4a13"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolic_workshopmapashingdon.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Maps - Ashingdon Workshop",
+        "reference": "LP-ASH-MAPS-2016",
+        "document-status": "consultation",
+        "endpoint": "3c0591b4dede71930ae712d058b30b61ade44b89233a34e4b01eb41e5254afff"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentation_ashingdon_0.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Notes - Ashingdon Workshop",
+        "reference": "LP-ASH-NOTES-2016",
+        "document-status": "consultation",
+        "endpoint": "0eb4193eac9e98afd42ecf138736a9a2c9137001b0050361bb7843f29ff13024"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_agendahull.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Agenda - Hullbridge Workshop",
+        "reference": "LP-HULL-2016",
+        "document-status": "consultation",
+        "endpoint": "e44cc14536f273698fce47779bac124f9c7d3c2dd8e019913433078221a7101f"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentation_stampag.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Presentation - Hullbridge Workshop",
+        "reference": "LP-HULL-PRES-2016",
+        "document-status": "consultation",
+        "endpoint": "be44aac28ec146a31ed472f7e212a9addfe0d82eca9e0b61b8a4e335bb136133"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolic_workshopmaphullbridge.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Maps - Hullbridge Workshop",
+        "reference": "LP-HULL-MAPS-2016",
+        "document-status": "consultation",
+        "endpoint": "ecf07bad4cd626049dbabea0a22c25498762d1ed770a6c0fafb413fa9b63c123"
+      },
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_presentation_hullbridge_1.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/new-local-plan-early-community-engagement-events-and-survey",
+        "document-type": "local-plan",
+        "name": "Notes - Hullbridge Workshop",
+        "reference": "LP-HULL-NOTES-2016",
+        "document-status": "consultation",
+        "endpoint": "21643f41d5415149ccd6dce4ab782781f245897bbc78a6ada955b5925c55a38d"
+      }
+    ]
+  }
+]

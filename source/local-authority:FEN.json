@@ -2,10 +2,42 @@
   {
     "organisation": "local-authority:FEN",
     "organisation-name": "Fenland District Council",
+    "reference": "LP-FEN-2014",
+    "documentation-url": "https://www.fenland.gov.uk/developmentplan",
+    "document-url": "https://www.fenland.gov.uk/media/10010/Fenland-Local-Plan-May-2014/pdf/Fenland_Local_Plan1.pdf?m=1590591524653",
+    "name": "Fenland Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.fenland.gov.uk/media/10010/Fenland-Local-Plan-May-2014/pdf/Fenland_Local_Plan1.pdf?m=1590591524653",
+        "documentation-url": "https://www.fenland.gov.uk/developmentplan",
+        "document-type": "local-plan",
+        "name": "Fenland Local Plan (May 2014)",
+        "reference": "LP-2014",
+        "document-status": "adopted",
+        "endpoint": "fd4182f21db456c1794f1e85bc1c5481961cf817e39ddc79e375749d11b9eb3d"
+      },
+      {
+        "document-url": "https://www.fenland.gov.uk/media/12294/Fenland-Local-Plan-2014-Policies-Map/pdf/PoliciesMap_A0_Adopted_New.pdf?m=1590590626843",
+        "documentation-url": "https://www.fenland.gov.uk/developmentplan",
+        "document-type": "policies-map",
+        "name": "Fenland Local Plan (2014) Policies Map",
+        "reference": "PM-2014",
+        "document-status": "adopted",
+        "endpoint": "2ad7b501ea925d17c6d5034d7946fc90317ccdbf2f3102655e1367fe8f544c2d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:FEN",
+    "organisation-name": "Fenland District Council",
     "reference": "LP-FEN-2022",
     "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
-    "document-url": "",
-    "name": "Fenland Draft Local Plan",
+    "document-url": "https://www.fenland.gov.uk/media/18867/PE01-4-Sites-Evidence-Report/pdf/PE01-4__Sites_Evidence_Report_Aug_22.pdf?m=1661417434807",
+    "name": "Emerging Local Plan",
     "status": "regulation-18",
     "year": 2022,
     "period-start-date": "",
@@ -16,36 +48,18 @@
         "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
         "document-type": "local-plan",
         "name": "Sites Evidence Report",
-        "reference": "LP-SER-2022",
+        "reference": "SER-2022",
         "document-status": "consultation",
         "endpoint": "c2671fa8e0538e0b5ec3f3a05e13bfbd17e659e20867dd7cad33f5fe285937b5"
       },
       {
-        "document-url": "https://www.fenland.gov.uk/article/16768/Sustainability-Appraisal",
-        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal",
-        "reference": "SA-2022",
-        "document-status": "consultation",
-        "endpoint": "90d1bac194bfa6b38457f0b944d8fe2cddfd43d423e6228137c95f7d49348518"
-      },
-      {
         "document-url": "https://www.fenland.gov.uk/media/18819/CD07-1-Habitats-Regulation-Assessment-Screening-Main-Report/pdf/CD07-1a_Draft_Local_Plan_HRA_Main_Report_August_2022.pdf?m=1661248724390",
         "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
-        "document-type": "local-plan",
+        "document-type": "habitats-regulations-assessment",
         "name": "Habitats Regulation Assessment Screening Main Report",
-        "reference": "LP-HRA-2022",
+        "reference": "HRA-2022",
         "document-status": "consultation",
         "endpoint": "5021f37808d9fd15ebe8eb1acc1a8ff5d12fe9aeade8f643a086f7c221c858f2"
-      },
-      {
-        "document-url": "https://fenlanddc.maps.arcgis.com/apps/instant/basic/index.html?appid=72272581e9d042efaf961cea4737d41c",
-        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
-        "document-type": "policies-map",
-        "name": "Draft Local Plan Policies Map",
-        "reference": "PM-2022",
-        "document-status": "consultation",
-        "endpoint": "d85e194074ee1e8ea27c97dba48f077e6cc086449945aab8b2e111246dfc210e"
       },
       {
         "document-url": "https://www.fenland.gov.uk/media/17153/Local-Development-Scheme-March-2025/pdf/25-03_FDC_Local_Development_Scheme_sr9xpwa75xxo.pdf?m=1744731927420",
@@ -61,41 +75,50 @@
   {
     "organisation": "local-authority:FEN",
     "organisation-name": "Fenland District Council",
-    "reference": "LP-FEN-2014",
-    "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
-    "document-url": "https://www.fenland.gov.uk/media/12064/Fenland-Local-Plan-Adopted-2014/pdf/Fenland_Local_Plan-Adopted_2014.pdf?m=1591111057500",
-    "name": "Fenland Local Plan",
-    "status": "adopted",
-    "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
+    "reference": "CS-FEN-2013",
+    "documentation-url": "https://www.fenland.gov.uk/article/15077/The-Planning-Policy-Library",
+    "document-url": "https://www.fenland.gov.uk/media/8571/CD001-Submission-Core-Strategy-Sept-13-vfinal/pdf/CD001_-_Submission_Core_Strategy_-_Sept_13_vfinal.pdf?m=1591350986080",
+    "name": "Core Strategy",
+    "status": "submitted",
+    "year": 2013,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://www.fenland.gov.uk/media/12064/Fenland-Local-Plan-Adopted-2014/pdf/Fenland_Local_Plan-Adopted_2014.pdf?m=1591111057500",
-        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
+        "document-url": "https://www.fenland.gov.uk/media/8571/CD001-Submission-Core-Strategy-Sept-13-vfinal/pdf/CD001_-_Submission_Core_Strategy_-_Sept_13_vfinal.pdf?m=1591350986080",
+        "documentation-url": "https://www.fenland.gov.uk/article/15077/The-Planning-Policy-Library",
         "document-type": "local-plan",
-        "name": "Fenland Local Plan Adopted 2014",
-        "reference": "LP-2014",
-        "document-status": "adopted",
-        "endpoint": "a681fe9e5be6609b8ba79f3e7e798af7ba2bdcfa4374131fc15005c8ff8cd05e"
+        "name": "Submission Core Strategy",
+        "reference": "CS-2013",
+        "document-status": "examination",
+        "endpoint": "b573a162f500f159e4ae4828ce45c3158fce45683de87e84b5070e46698f9563"
       },
       {
-        "document-url": "https://www.fenland.gov.uk/article/16992/Affordable-Housing-North-of-A47-and-Viability",
-        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
+        "document-url": "https://www.fenland.gov.uk/media/8572/CD004-a-SA-Report-Sept-2013-Part-1-vfinal/pdf/CD004a_-_SA_Report_Sept_2013_-_Part_1_vfinal.pdf?m=1591350987003",
+        "documentation-url": "https://www.fenland.gov.uk/article/15077/The-Planning-Policy-Library",
         "document-type": "local-plan",
-        "name": "Affordable Housing North of A47 and Viability",
-        "reference": "LP-AH-2014",
-        "document-status": "adopted",
-        "endpoint": "7b06526dfd60cfcc3b48c5f08435aea3a1cc494a26dcc0f57c55ceb01e4eeddb"
+        "name": "Sustainability Appraisal Part 1",
+        "reference": "SA-2013-1",
+        "document-status": "examination",
+        "endpoint": "73474e3b8bbbbf557d2d948eb9f5d2e86862ac42467f32a2516cb39f9a93133e"
       },
       {
-        "document-url": "https://www.fenland.gov.uk/media/16940/Facilitating-Growth-in-Fenland-guidance/pdf/Facilitating_Growth_in_Fenland_Guidance.pdf?m=1593097956830",
-        "documentation-url": "https://www.fenland.gov.uk/newlocalplan",
+        "document-url": "https://www.fenland.gov.uk/media/8573/CD004-b-SA-Report-Sept-2013-Part-2-vfinal/pdf/CD004b_-_SA_Report_Sept_2013_-_Part_2_vfinal.pdf?m=1591350985803",
+        "documentation-url": "https://www.fenland.gov.uk/article/15077/The-Planning-Policy-Library",
         "document-type": "local-plan",
-        "name": "Facilitating Growth in Fenland Guidance",
-        "reference": "LP-FGF-2014",
-        "document-status": "adopted",
-        "endpoint": "b14fe6acf7a54ebcdaf591678a69559e4c33ce789d5b8468f3d935320218249f"
+        "name": "Sustainability Appraisal Part 2",
+        "reference": "SA-2013-2",
+        "document-status": "examination",
+        "endpoint": "6877748e28931d533e1a6bb465afa6e0b6a5778ce5ace3378163d8b7b88ce678"
+      },
+      {
+        "document-url": "https://www.fenland.gov.uk/media/8576/CD005-Screening-HRA-update-Sept-13-vfinal/pdf/CD005_-_Screening_HRA_-_update_Sept_13_vfinal.pdf?m=1591350986507",
+        "documentation-url": "https://www.fenland.gov.uk/article/15077/The-Planning-Policy-Library",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Screening HRA",
+        "reference": "HRA-2013",
+        "document-status": "examination",
+        "endpoint": "0f2f1eb9fbbe89e03b85ac2e0b9070914b5a0637554d4b2d8f5cbab0f7a6b97f"
       }
     ]
   }

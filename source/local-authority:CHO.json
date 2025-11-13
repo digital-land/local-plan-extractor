@@ -1,0 +1,116 @@
+[
+  {
+    "organisation": "local-authority:CHO",
+    "organisation-name": "Chorley Borough Council",
+    "reference": "LP-CHO-2015",
+    "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+    "document-url": "https://chorley.gov.uk/downloads/file/260/chorley-local-plan-2012-2026-adopted-2015-",
+    "name": "Chorley Local Plan 2012-2026",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2012,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://chorley.gov.uk/downloads/file/260/chorley-local-plan-2012-2026-adopted-2015-",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Chorley Local Plan 2012 to 2026 (adopted 2015)",
+        "reference": "LP-2012-2026",
+        "document-status": "adopted",
+        "endpoint": "f2e48a280fba68a4baec6a44924b62cf8d9198bd498dab044e9f9194f0428174"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/261/chorley-borough-policies-map-1",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "policies-map",
+        "name": "Chorley Borough Policies Map 1",
+        "reference": "PM-2015",
+        "document-status": "adopted",
+        "endpoint": "39f3902c7c5216cf431e813f663a4289835e041721dbcd5954d48fb7c0382dfc"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/274/inspectors-final-report-letter-may-2015",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Final Report Letter May 2015",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "557b57180550450f20db969ab13f1a4ac414ffa52707498be796c9c5df1d5c7b"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/273/chorley-local-plan-inspector-s-partial-report-october-2013",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Chorley Local Plan Inspector's Partial Report October 2013",
+        "reference": "IR-PARTIAL-2013",
+        "document-status": "examination",
+        "endpoint": "b4174b84c82adc85ec15ecf502970fa5722448104013e939b91e2c2c4ca23ef6"
+      },
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/275/inspector-s-supplementary-report-may-2015",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Inspector's Supplementary Report May 2015",
+        "reference": "IR-SUPP-2015",
+        "document-status": "adopted",
+        "endpoint": "3185f97f1b2d5df2c025001418e224c98bebf1ea8d4d54b4ee0add11acb431c3"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHO",
+    "organisation-name": "Chorley Borough Council",
+    "reference": "LP-CHO-2012",
+    "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+    "document-url": "https://centrallocalplan.lancashire.gov.uk/media/1032/central-lancashire-core-strategy-july-2012-v1.pdf",
+    "name": "Central Lancashire Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://centrallocalplan.lancashire.gov.uk/media/1032/central-lancashire-core-strategy-july-2012-v1.pdf",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "core-strategy",
+        "name": "Central Lancashire Core Strategy (adopted 2012)",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "cb0726e07f6bbfa2a8bc941ec7d818995745334d82fc88b2c40a89201be7f099"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHO",
+    "organisation-name": "Chorley Borough Council",
+    "reference": "LP-CHO-2041",
+    "documentation-url": "https://www.chorley.gov.uk/localplan",
+    "document-url": "",
+    "name": "Central Lancashire Local Plan 2023-2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/309/local-development-scheme-lds-",
+        "documentation-url": "https://www.chorley.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (LDS)",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "f96105070f5da2218e551040157ce051dc35a301bf76885dd711609371403f06"
+      },
+      {
+        "document-url": "https://chorley.gov.uk/downloads/file/1515/statement-of-community-involvement-2024",
+        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement (SCI)",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "782e90f3a5bac20888cae57f8eac9a7e9715e69ec21433a0c645bbbf53040cec"
+      }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "organisation": "local-authority:SAW",
+    "organisation-name": "Sandwell Metropolitan Borough Council",
+    "reference": "LP-SAW-2024",
+    "documentation-url": "https://www.sandwell.gov.uk/localplan",
+    "document-url": "",
+    "name": "Sandwell Local Plan 2024-2041",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/895/sandwell-local-plan-issues-and-options-main-document",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-type": "local-plan",
+        "name": "Sandwell Local Plan Issues and Options Main Document",
+        "reference": "LP-IO-2023",
+        "document-status": "consultation",
+        "endpoint": "9d775940b2aa09fb367203be15b372042abc8ad04c53cc1d4f08cf14227326ab"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/894/sandwell-local-plan-issues-and-options-habitat-regulations-assessment",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Sandwell Local Plan Issues and Options Habitat Regulations Assessment",
+        "reference": "HRA-IO-2023",
+        "document-status": "consultation",
+        "endpoint": "d8486424a11d265dac38ad1cd48cbf9589033165d8b5b713d51ebfff13e62bc2"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/893/sandwell-local-plan-issues-and-options-sustainability-appraisal",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Sandwell Local Plan Issues and Options Sustainability Appraisal",
+        "reference": "SA-IO-2023",
+        "document-status": "consultation",
+        "endpoint": "a2c912f7e52b129027f24f00ea141967489a1b39525bc4e722e7a04d0f23716a"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/896/sandwell-local-plan-issues-and-options-sustainability-appraisal-scoping-report",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Sandwell Local Plan Issues and Options Sustainability Appraisal Scoping Report",
+        "reference": "SA-SCOPING-2023",
+        "document-status": "consultation",
+        "endpoint": "0072e180865b85b0fb2d46085880a9ce4e2e29b4b78e182dcc9d18ebbd30eaae"
+      }
+    ]
+  }
+]

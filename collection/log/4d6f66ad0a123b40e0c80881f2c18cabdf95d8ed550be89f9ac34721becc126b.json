@@ -1,0 +1,9 @@
+{
+  "resource": "fd49817e2295de40de7891bbaa70a0551b6cc815",
+  "endpoint-url": "https://www.london.gov.uk/sites/default/files/opdc_local_plan_2022_june_2022_including_appendix_0.pdf",
+  "entry-date": "2025-11-05T16:03:00Z",
+  "status": "200",
+  "elapsed": "0.402",
+  "content-type": "application/pdf",
+  "bytes": "17646440"
+}

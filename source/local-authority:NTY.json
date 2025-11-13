@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:NTY",
+    "organisation-name": "North Tyneside Council",
+    "reference": "LP-NTY-2017",
+    "documentation-url": "https://www.northtyneside.gov.uk/residents/planning/planning-policy/local-plan",
+    "document-url": "https://www.northtyneside.gov.uk/sites/default/files/2025-09/North%20Tyneside%20Local%20Plan%202017-2032%20%281%29.pdf",
+    "name": "North Tyneside Local Plan 2017-2032",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2017,
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://www.northtyneside.gov.uk/sites/default/files/2025-09/North%20Tyneside%20Local%20Plan%202017-2032%20%281%29.pdf",
+        "documentation-url": "https://www.northtyneside.gov.uk/residents/planning/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "North Tyneside Local Plan 2017-2032",
+        "reference": "LP-2017-2032",
+        "document-status": "adopted",
+        "endpoint": "94129d563147764e95b8e84a46854afb79566362c362ab1732874eb335fb4512"
+      },
+      {
+        "document-url": "https://www.northtyneside.gov.uk/sites/default/files/2025-09/North%20Tyneside%20Local%20Plan%20Review%202022.pdf",
+        "documentation-url": "https://www.northtyneside.gov.uk/residents/planning/planning-policy/local-plan",
+        "document-type": "local-plan-review",
+        "name": "North Tyneside Local Plan Review 2022",
+        "reference": "LPR-2022",
+        "document-status": "adopted",
+        "endpoint": "a1c1fa030f4948497b5ade0206ea7157a4f4f9d68209dcebb6f878e30a105860"
+      },
+      {
+        "document-url": "https://beta.northtyneside.gov.uk/sites/default/files/2025-08/North%20Tyneside%20Local%20Development%20Scheme%202025.pdf",
+        "documentation-url": "https://beta.northtyneside.gov.uk/residents/planning/planning-policy/planning-policy-timetable-and-consultation-guidance",
+        "document-type": "local-development-scheme",
+        "name": "North Tyneside Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "d6e15a54b4a555514216d54dc6172956b0262b10e46a2f91defd5e7653e34512"
+      },
+      {
+        "document-url": "https://beta.northtyneside.gov.uk/sites/default/files/2025-08/Statement%20of%20Community%20Involvement%202020.pdf",
+        "documentation-url": "https://beta.northtyneside.gov.uk/residents/planning/planning-policy/planning-policy-timetable-and-consultation-guidance",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement 2020",
+        "reference": "SCI-2020",
+        "document-status": "adopted",
+        "endpoint": "05f4a2957fb197c09eef65573072def93c1b1f79c8bd6843191188710e87ef81"
+      },
+      {
+        "document-url": "https://beta.northtyneside.gov.uk/sites/default/files/2025-08/Statement%20of%20Community%20Involvement%202025%20EqIA.pdf",
+        "documentation-url": "https://beta.northtyneside.gov.uk/residents/planning/planning-policy/planning-policy-timetable-and-consultation-guidance",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement 2025 EqIA",
+        "reference": "SCI-EQIA-2025",
+        "document-status": "adopted",
+        "endpoint": "417fbdfd1e6712998d768c7cda6ffebcb4e194b92bb8d2d5cca2fa14c05b63d0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "organisation": "local-authority:GRT",
+    "organisation-name": "Guildford Borough Council",
+    "reference": "LP-GRT-2019",
+    "documentation-url": "https://www.guildford.gov.uk/guildfordlocalplan",
+    "document-url": "",
+    "name": "Guildford Local Plan: Strategy and Sites 2019",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.guildford.gov.uk/media/36649/LDS-March-2025/pdf/LDS_March_2025_final_v2.pdf?m=1740649863927",
+        "documentation-url": "https://www.guildford.gov.uk/lds",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "d8434dc22002054b1bc18a35b5c47e8339270d8ca0cf6a1eb3f5342e02162d43"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GRT",
+    "organisation-name": "Guildford Borough Council",
+    "reference": "LP-GRT-2024",
+    "documentation-url": "https://www.guildford.gov.uk/article/27061/Update-to-the-Local-Plan-agreed",
+    "document-url": "",
+    "name": "Guildford Local Plan Update",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "organisation": "local-authority:BST",
+    "organisation-name": "Bristol City Council",
+    "reference": "LP-BST-2024",
+    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan/local-plan-review",
+    "document-url": "",
+    "name": "Bristol Local Plan 2024-2040",
+    "status": "submitted",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2040,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BST",
+    "organisation-name": "Bristol City Council",
+    "reference": "LP-BST-2014",
+    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
+    "document-url": "",
+    "name": "Bristol Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

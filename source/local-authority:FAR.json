@@ -1,0 +1,47 @@
+[
+  {
+    "organisation": "local-authority:FAR",
+    "organisation-name": "Fareham Borough Council",
+    "reference": "LP-FAR-2021",
+    "documentation-url": "https://www.fareham.gov.uk/planning/localplan.aspx",
+    "document-url": "",
+    "name": "Fareham Local Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.fareham.gov.uk/PDF/planning/publicationplan/201029_Fareham_BC_Planning_White_Paper_response.pdf",
+        "documentation-url": "https://www.fareham.gov.uk/planning/local_plan/",
+        "document-type": "local-plan",
+        "name": "Planning for the Future",
+        "reference": "PFF-2020",
+        "document-status": "consultation",
+        "endpoint": "9ed38161aee09e4f51781b857daa543d7fad2f8766bb53ce60a36d9bca63f0b1"
+      },
+      {
+        "document-url": "https://www.fareham.gov.uk/pdf/planning/local_plan/FBCLURBConsultationResponse.pdf",
+        "documentation-url": "https://www.fareham.gov.uk/planning/local_plan/",
+        "document-type": "local-plan",
+        "name": "Levelling Up and Regeneration",
+        "reference": "LURB-2022",
+        "document-status": "consultation",
+        "endpoint": "00bec34766299e976825e161f983e80024ac3515c871280c4d42026980418673"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:FAR",
+    "organisation-name": "Fareham Borough Council",
+    "reference": "LP-FAR-PREV",
+    "documentation-url": "https://www.fareham.gov.uk/planning/oldlocalplan.aspx",
+    "document-url": "",
+    "name": "Previous Local Plan Parts 1 & 2",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

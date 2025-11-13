@@ -1,0 +1,175 @@
+[
+  {
+    "organisation": "local-authority:FOE",
+    "organisation-name": "Forest of Dean District Council",
+    "reference": "LP-FOE-2018",
+    "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+    "document-url": "https://www.fdean.gov.uk/media/ruscm3s1/allocations-plan.pdf",
+    "name": "Forest of Dean Allocations Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.fdean.gov.uk/media/ruscm3s1/allocations-plan.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Allocations Plan",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "66c7e67a751dc47a9f4763eb70fd07ca67e7bda86d92092e54ee3ec2987c9af1"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/3zgfkx2j/allocations-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Allocations Plan Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "ace7c98e757401db3eb449f96cab0e2d6b56e59c1b055fa92437330f98845000"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/awrdjien/forest-of-dean-allocations-plan-inspectors-report.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Forest Of Dean Allocations Plan Inspectors Report",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "69467fb5d711707f3b3730b0482a4a512e1849b1a5e623b3b3641c40745f85af"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/dv5nwv20/allocations-plan-sustainability-appraisal-main-document-march-2015.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Allocations Plan Sustainability Appraisal Main Document March 2015",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "a5a03cf227573296f07640f3786cf47b212ee484e669fdca2b8ab947436add68"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/wfvdzqqg/allocations-plan-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Allocations Plan Sustainability Appraisal adoption statement",
+        "reference": "SA-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "cf9c70780299d018b6c55c63229752a39803cfe0e4bc231605b6d430f4c715b1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:FOE",
+    "organisation-name": "Forest of Dean District Council",
+    "reference": "LP-FOE-2012",
+    "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+    "document-url": "https://www.fdean.gov.uk/media/szzpnzxj/core-strategy.pdf",
+    "name": "Forest of Dean Core Strategy",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.fdean.gov.uk/media/szzpnzxj/core-strategy.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2012",
+        "document-status": "adopted",
+        "endpoint": "bf4830a9585807fb386b04a6306e71071fe82639851c83c6a1575dbd5ea42da5"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/5icnycdx/core-strategy-adoption-statement.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Core Strategy Adoption Statement",
+        "reference": "CS-AS-2012",
+        "document-status": "adopted",
+        "endpoint": "201e4baaac1d1f3482ca2d64797e045b2329d29cbeed9d5360faf867f1c1fd63"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/x14hs3fg/core-strategy-examiners-report.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Examiners Report",
+        "reference": "CS-IR-2012",
+        "document-status": "adopted",
+        "endpoint": "29bbe66c2441a532c789726dbdb448019493c0d76949cfc5b1de28e81d0ae90b"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/tlsl3zel/core-strategy-proposals_map_feb_2012.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Core Strategy Proposals Map Feb 2012",
+        "reference": "PM-2012",
+        "document-status": "adopted",
+        "endpoint": "e2f8280f179142e2040f88d7ec8466a53ea9bb8e557a9dcb053b89c36965c42b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:FOE",
+    "organisation-name": "Forest of Dean District Council",
+    "reference": "LP-FOE-2012-AAP",
+    "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+    "document-url": "https://www.fdean.gov.uk/media/eg1djl4j/cinderford-northern-quarter-adopted-area-action-plan.pdf",
+    "name": "Cinderford Northern Quarter Area Action Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.fdean.gov.uk/media/eg1djl4j/cinderford-northern-quarter-adopted-area-action-plan.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "area-action-plan",
+        "name": "Cinderford Northern Quarter Adopted Area Action Plan",
+        "reference": "AAP-CNQ-2012",
+        "document-status": "adopted",
+        "endpoint": "f2b70b776cf5c25d671d488f3cb34c3fa3521ea0a3fba503fba846014aa77bae"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/fdnj0r02/area-action-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Area Action Plan Adoption Statement",
+        "reference": "AAP-AS-2012",
+        "document-status": "adopted",
+        "endpoint": "0d4cd21283b0c5b7b9a7f4e89a028f80e1467c5db798d88acc994fed939dd266"
+      },
+      {
+        "document-url": "https://www.fdean.gov.uk/media/po1ik5mh/cinderford-area-action-plan-sustainability-appraisal-report-adopted-feb-12.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Cinderford Area Action Plan Sustainability Appraisal Report Adopted Feb 12",
+        "reference": "AAP-SA-2012",
+        "document-status": "adopted",
+        "endpoint": "acba3e9dc77cf9c2b07f55a3d61e6e1224e4a3e495332192e908f1c591cb733e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:FOE",
+    "organisation-name": "Forest of Dean District Council",
+    "reference": "LP-FOE-2041-DRAFT",
+    "documentation-url": "https://www.fdean.gov.uk/emerging-local-plan",
+    "document-url": "",
+    "name": "Forest of Dean Local Plan 2021-2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.fdean.gov.uk/media/wi4j4tfg/local-development-scheme-2025.pdf",
+        "documentation-url": "https://www.fdean.gov.uk/planning-and-building/planning-policy/supporting-information-for-the-local-plan-2041/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "draft",
+        "endpoint": "92124da4f9dce70a6caf09b508c00cb24055fd10eb1472b0d64e00447befa6e1"
+      }
+    ]
+  }
+]

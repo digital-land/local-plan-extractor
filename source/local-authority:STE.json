@@ -1,0 +1,34 @@
+[
+  {
+    "organisation": "local-authority:STE",
+    "organisation-name": "Stoke-on-Trent City Council",
+    "reference": "LP-STE-2024",
+    "documentation-url": "https://www.stoke.gov.uk/info/20071/stoke-on-trent_local_plan",
+    "document-url": "",
+    "name": "Draft Stoke-on-Trent Local Plan",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.stoke.gov.uk/download/downloads/id/485/planning_adopted_statement_of_community_involvement.pdf",
+        "documentation-url": "https://www.stoke.gov.uk/info/20084/planning-policy",
+        "document-type": "statement-of-community-involvement",
+        "name": "Adopted statement of community involvement",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "f8b30c7e7a431c1279c50d723f313bc3900e6f54db107942528268bc453709bb"
+      },
+      {
+        "document-url": "https://www.stoke.gov.uk/download/downloads/id/2619/burslem_public_realm_consultation_-_supporting_document.pdf",
+        "documentation-url": "https://www.stoke.gov.uk/info/20005/planning_and_building/737/burslem_public_realm_consultation",
+        "document-type": "local-plan",
+        "name": "Burslem Public Realm supporting document",
+        "reference": "PR-BURSLEM-2024",
+        "document-status": "consultation",
+        "endpoint": "84123b806c5a1397b201bdcb2477e77c33a3e7c5c9cc521e46938c1c3c3e3e02"
+      }
+    ]
+  }
+]

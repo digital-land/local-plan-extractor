@@ -1,0 +1,182 @@
+[
+  {
+    "organisation": "local-authority:LIV",
+    "organisation-name": "Liverpool City Council",
+    "reference": "LP-LIV-2022",
+    "documentation-url": "https://www.liverpool.gov.uk/localplan",
+    "document-url": "https://www.liverpool.gov.uk/media/1tkbedcv/01-liverpool-local-plan-main-document.pdf",
+    "name": "Liverpool Local Plan 2013-2033",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/1tkbedcv/01-liverpool-local-plan-main-document.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Liverpool Local Plan 2013-2033",
+        "reference": "LP-2013-2033",
+        "document-status": "adopted",
+        "endpoint": "208eba0184a6e960ef2b2f26c8e35a10f6ca04d2c8cc8fee666aa247c3d09875"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/dndb5sle/02-liverpool-local-plan-appendix-1.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Liverpool Local Plan 2013-2033: Appendix 1",
+        "reference": "LP-2013-2033-APP1",
+        "document-status": "adopted",
+        "endpoint": "8f5711c882e2c7fed9a181e4291a4af9c77d02641dc2b36ab95a29feac8ca9dc"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/es2aaab5/03-liverpool-local-plan-appendix-2.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Liverpool Local Plan 2013-2033: Appendix 2",
+        "reference": "LP-2013-2033-APP2",
+        "document-status": "adopted",
+        "endpoint": "57ce212bb70dd06c07bfb6cbfe0ce9fb9ddc30a6b756fd71882be1848c6657e1"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/23bflokb/04-liverpool-local-plan-appendix-3.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Liverpool Local Plan 2013-2033: Appendix 3 and 4",
+        "reference": "LP-2013-2033-APP3-4",
+        "document-status": "adopted",
+        "endpoint": "db385bee68458de10cf47a198f29634b4a4279d61857589b65cd334cb066cfdd"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/v5nnm0q3/05-liverpool-local-plan-annexes-1-and-2.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Liverpool Local Plan 2013-2033: Annexes 1 and 2",
+        "reference": "LP-2013-2033-ANX",
+        "document-status": "adopted",
+        "endpoint": "5cc02e80c61346ee17bb4cb74cc170cf41054972dc7ca2d4ca65c2d3753063a7"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/42aitxg2/liverpool-prop-map_lo.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "8e7d6e9dc00ad7817d4503f3a30e5aff43558cfaf6f249c1db1f343bc2f5051a"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/3fmd4ebf/liverpool-inset-map_lov3.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Inset Map (City Centre)",
+        "reference": "PM-CITY-2022",
+        "document-status": "adopted",
+        "endpoint": "eab56dab6aa3336a7df8b7bd2facddb63082e493aaf5eace91cb712e8500e9da"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/wgae4hp0/liverpool-final-report.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Report on the Examination of the Liverpool Local Plan 2013-2033",
+        "reference": "IR-2021",
+        "document-status": "adopted",
+        "endpoint": "53012416cb0036de2ade3a3a2cae14fc16f5541b03a18040849b552af12e14eb"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/5ddh3edd/appendix-1-schedule-of-main-modifications_.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Appendix 1 - Schedule of Main Modifications",
+        "reference": "MM-2021",
+        "document-status": "adopted",
+        "endpoint": "998ef609014a75acabe8ee09ea3e70ce9763dac336fd9eb9b23abbae61215110"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/dimpd3dc/appendix-2-appendices-to-the-mm-schedule-2-not-accessible.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Appendix 2 - Appendices to the Main Modifications Schedule 2",
+        "reference": "MM-APP2-2021",
+        "document-status": "adopted",
+        "endpoint": "2f60bdce46380d6d44ad8e6aa1cc8bc62d5bdd8ef8e07b22fe2bf7ea0c2e8e98"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/fnyk4d4k/sa-incl-eqia-hia-of-the-submission-draft-liverpool-local-plan-january-2018.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal incorporating Equality Impact Assessment and Health Impact Assessment of the Submission Draft Liverpool Local Plan January 2018",
+        "reference": "SA-2018",
+        "document-status": "examination",
+        "endpoint": "f1c316d236e7e165f851aa32a79ce66062827d095cd15413ec62aa3eeb17430d"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/v1znjibs/sa-incl-eqia-hia-of-the-submission-draft-liverpool-local-plan-appendices-january-2018.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal incorporating Equality Impact Assessment and Health Impact Assessment of the Submission Draft Liverpool Local Plan: Appendices January 2018",
+        "reference": "SA-APP-2018",
+        "document-status": "examination",
+        "endpoint": "d2dc9262c13a38ebd3d8582e7162dd3c8c4c8a3edb267d57e131c637aab764eb"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/0lufeo2o/nts-of-the-sa-incl-eqia-hia-of-the-submission-draft-liverpool-local-plan-january-2018.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal incorporating Equality Impact Assessment and Health Impact Assessment of the Submission Draft Liverpool Local Plan: Non-Technical Summary, January 2018",
+        "reference": "SA-NTS-2018",
+        "document-status": "examination",
+        "endpoint": "81f1011bb35fee6b89a774b92ce7673889efb8e725f05ebbed0f91803ffdf209"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/iccjegwf/sa-of-the-main-modifications-to-the-liverpool-local-plan.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Assessment of Main Modifications Sustainability Appraisal, Equalities Impact Assessment and Health Impact Assessment of the Main Modifications to the Liverpool Local Plan, March 2021",
+        "reference": "SA-MM-2021",
+        "document-status": "examination",
+        "endpoint": "e872b1d6f8c37be3088caefa5a8be04d145f2c5d413b611042aa964b6b2e9e12"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/coqpwiv5/liverpool-local-plan-sea-adoption-statement.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Strategic Environmental Assessment Adoption Statement",
+        "reference": "AS-SEA-2022",
+        "document-status": "adopted",
+        "endpoint": "6ec3e4e6500c3a9e2fe9bdfef530f73e96f0d33a39b8f7461aa94c81c19a6d31"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/u3jjsrn4/local-plan-main-mods-hra-final-for-consultation-v2.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment (HRA) - Main modifications, February 2021",
+        "reference": "HRA-MM-2021",
+        "document-status": "examination",
+        "endpoint": "5de251e9d7a6d1183be7a42957789e1a2ed9f958b9317f746284759bcb9ed515"
+      },
+      {
+        "document-url": "https://www.liverpool.gov.uk/media/vw0l04l2/the-liverpool-local-plan-consultation-statement-submission-may-2018-final-sd2.pdf",
+        "documentation-url": "https://www.liverpool.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "The Liverpool Local Plan Consultation Statement Submission May 2018",
+        "reference": "CS-2018",
+        "document-status": "examination",
+        "endpoint": "676d2115f0ca75824447e59d9344008d7749a34b66c5c4f847cf8fa9fd709cdf"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LIV",
+    "organisation-name": "Liverpool City Council",
+    "reference": "WLP-LIV-2013",
+    "documentation-url": "https://www.liverpool.gov.uk/planning-and-building-control/plan-making-in-liverpool/local-plan-supplementary-documents-and-guidance/joint-waste-plan/",
+    "document-url": "",
+    "name": "Joint Merseyside and Halton Waste Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

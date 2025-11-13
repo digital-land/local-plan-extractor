@@ -1,0 +1,160 @@
+[
+  {
+    "organisation": "local-authority:BAE",
+    "organisation-name": "Bassetlaw District Council",
+    "reference": "LP-BAE-2024",
+    "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038/",
+    "document-url": "https://www.bassetlaw.gov.uk/media/gn1kjm1b/adopted-bassetlaw-local-plan-2020-2038.pdf",
+    "name": "Bassetlaw Local Plan 2020-2038",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2020,
+    "period-end-date": 2038,
+    "documents": [
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/gn1kjm1b/adopted-bassetlaw-local-plan-2020-2038.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038/",
+        "document-type": "local-plan",
+        "name": "Bassetlaw Local Plan 2020-2038, adopted May 2024",
+        "reference": "LP-2020-2038",
+        "document-status": "adopted",
+        "endpoint": "f39f7f875eeac6fc50fbf949c30affff99ed98093d9e7cec6b148bf8b16ad901"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/bbupnmig/appendix-4-bassetlaw-sa-adoption-statement.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038/",
+        "document-type": "adoption-statement",
+        "name": "Bassetlaw Local Plan SA Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "9bf50b7a89832d470502e720daeec8ac08797c5d0835e19efa60128f4822f2b6"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/odyagazv/bassetlaw-lp-inspectors-report-final.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/inspectors-report/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "5c3d67a1419cb1782ad162b73d60e098430ae449588993ed7860f98762a60b84"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/2rpbhv5c/bassetlaw-lp-main-mods-appendix-final.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/inspectors-report/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report: Main Modifications Appendix 1",
+        "reference": "IR-MM-2024",
+        "document-status": "adopted",
+        "endpoint": "f5299db4ea60dd5e1c1ee34ed065e7c8eb9e8318d105196ed6bb6bfcf0dfe39b"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/rpubkcae/bassetlaw.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Full version - district",
+        "reference": "PM-FULL-2024",
+        "document-status": "adopted",
+        "endpoint": "e6f2a6aa7a9fb6c84c9de89c70853508ff272f642456b788bfee38b58e16a67f"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/2qgh1tvt/worksop.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Worksop",
+        "reference": "PM-WKS-2024",
+        "document-status": "adopted",
+        "endpoint": "baea72526cee223086347f2db3c0520237343f85b243d68c3ffdb10c75209a1a"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/hygjcz5a/worksop-inset.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Worksop inset",
+        "reference": "PM-WKS-INSET-2024",
+        "document-status": "adopted",
+        "endpoint": "cf69164843a65748bcaa899f0458f8df10cb9ddd700d57c732be10f1c76232a8"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/mi1lkj5h/retford.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Retford",
+        "reference": "PM-RET-2024",
+        "document-status": "adopted",
+        "endpoint": "dd2dfc840356f2bc8a985fb7bd7d812dd12e6acd98973e56cbd2ac192a9abb36"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/embbit4u/retford-inset.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Retford inset",
+        "reference": "PM-RET-INSET-2024",
+        "document-status": "adopted",
+        "endpoint": "07783a8bce2943835a1225fa9a8a991cb1e09809d84cbb244b0995bddc761b51"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/j1ajyhfu/harworth.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Harworth & Bircotes",
+        "reference": "PM-HAR-2024",
+        "document-status": "adopted",
+        "endpoint": "76a76b62619a5053c280b5fe252f81cd806ed749539b43ddfae741f0d93b6a51"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/adxkrvvl/blyth.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Blyth",
+        "reference": "PM-BLY-2024",
+        "document-status": "adopted",
+        "endpoint": "821fe1c7cb10d61176b93bb8c8d797d19b7ec5e730d0cb749acea8ba6c29d55f"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/xjbk0dj2/carlton.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Carlton-in-Lindrick",
+        "reference": "PM-CAR-2024",
+        "document-status": "adopted",
+        "endpoint": "e571f6787a9616b982f7c93bd44d92805e2367279ee003d048517efed8adbb44"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/lvkjhykn/langold.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Langold",
+        "reference": "PM-LAN-2024",
+        "document-status": "adopted",
+        "endpoint": "3c6aa8bf96ef4eeb6172f436c1004e12ec509f34c3edf959fb6e5fc72ee50e07"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/1dwju1ld/misterton.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Misterton",
+        "reference": "PM-MIS-2024",
+        "document-status": "adopted",
+        "endpoint": "237108bbaf995946f41f92ed1b0314350f80b13e40840d569db635a63cf7334b"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/aufn3le4/tuxford.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Tuxford",
+        "reference": "PM-TUX-2024",
+        "document-status": "adopted",
+        "endpoint": "9b2b37ebc3ccee5f99bae25331e7b528f06a3573864c3d295617f8f80eadf5d3"
+      },
+      {
+        "document-url": "https://www.bassetlaw.gov.uk/media/hccotuap/apleyhead.pdf",
+        "documentation-url": "https://www.bassetlaw.gov.uk/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038-adoption/bassetlaw-local-plan-policies-map/",
+        "document-type": "local-plan",
+        "name": "Apleyhead Junction",
+        "reference": "PM-APL-2024",
+        "document-status": "adopted",
+        "endpoint": "82534b567b40c273c5c31c3c62cf5ddbf4d2aa763b2e366626dfc370a5a913b0"
+      }
+    ]
+  }
+]

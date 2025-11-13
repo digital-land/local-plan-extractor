@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:WEW",
+    "organisation-name": "Welwyn Hatfield Borough Council",
+    "reference": "LP-WEW-2023",
+    "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+    "document-url": "https://www.welhat.gov.uk/downloads/file/876/welwyn-hatfield-local-plan-2016-2036",
+    "name": "Welwyn Hatfield Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/876/welwyn-hatfield-local-plan-2016-2036",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "local-plan",
+        "name": "Welwyn Hatfield Local Plan 2016-2036",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "4b2a2d69d5d594324ee9bdff1acdc905f70adf63b66b8e1f421402cda1a6751d"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "policies-map",
+        "name": "Welwyn Hatfield Local Plan 2016-2036 Policies Maps",
+        "reference": "PM-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/842/welwyn-hatfield-local-plan-adoption-statement",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "adoption-statement",
+        "name": "Welwyn Hatfield Local Plan Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "fb2823465a2d9ae513acfb8b478319fdb6dfd7e5f4efcc6537177b5992799218"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/843/welwyn-hatfield-local-plan-sustainability-appraisal-adoption-statement",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "adoption-statement",
+        "name": "Welwyn Hatfield Local Plan Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "696015b99fe567d721bea3a7df48114d55b4c6298e1f6498fbed525cef355375"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/847/sustainability-appraisal-report-local-plan-2016-sub-3-",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Local Plan 2016 (SUB/3)",
+        "reference": "SA-2016",
+        "document-status": "adopted",
+        "endpoint": "ea3d354ff25000c587c2116397feadfa5c3fe1fbd92c2221584eb42a22a99011"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/846/sustainability-appraisal-report-local-plan-addendum-ex200-",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Local Plan Addendum (EX200)",
+        "reference": "SA-EX200",
+        "document-status": "adopted",
+        "endpoint": "8ae899348f9b4558c87d591ab1361678f9d98bc5e7de4257ccd1fa39c34d83f9"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/845/sustainability-appraisal-report-local-plan-addendum-main-modifications-ex297-",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "main-modifications",
+        "name": "Sustainability Appraisal Report Local Plan Addendum Main Modifications (EX297)",
+        "reference": "SA-MM-EX297",
+        "document-status": "adopted",
+        "endpoint": "1c7604b451202e9b5ce4b05e088e9ff0aee6cd9ecaeda1a370ad1662063beadd"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/844/sustainability-appraisal-report-local-plan-addendum-further-main-modifications-ex303b-",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "main-modifications",
+        "name": "Sustainability Appraisal Report Local Plan Addendum Further Main Modifications (EX303B)",
+        "reference": "SA-MM-EX303B",
+        "document-status": "adopted",
+        "endpoint": "8b77eee6007bf420a5f95e39df64a9eb8a9df8ff11ba7ad91458c22ade97f31f"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/825/local-plan-inspector-s-report",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Inspector's Report",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "1907b2829a554a0f3a39da1664910ce1496319aa14b3a57344ae11bec1247814"
+      },
+      {
+        "document-url": "https://www.welhat.gov.uk/downloads/file/826/local-plan-inspector-s-report-main-modifications-appendix",
+        "documentation-url": "https://www.welhat.gov.uk/developmentplan",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Inspector's Report Main Modifications Appendix",
+        "reference": "IR-MM-2023",
+        "document-status": "adopted",
+        "endpoint": "9d71a6601222cd672320b57bd402d539502e2395a169d708cf68183ed7a29822"
+      }
+    ]
+  }
+]

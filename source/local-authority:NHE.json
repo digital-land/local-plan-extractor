@@ -1,0 +1,124 @@
+[
+  {
+    "organisation": "local-authority:NHE",
+    "organisation-name": "North Hertfordshire District Council",
+    "reference": "LP-NHE-2022",
+    "documentation-url": "https://www.north-herts.gov.uk/local-plan-2011-2031",
+    "document-url": "https://www.north-herts.gov.uk/sites/default/files/Proposed%20Submission%20Local%20Plan.pdf",
+    "name": "North Hertfordshire Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/Proposed%20Submission%20Local%20Plan.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Local Plan 2011-2031 Proposed Submission October 2016",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "ce5736221ffde29d2b3e5a353bc98bec44aee7d6224fec0715893050898786e5"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/Sustainability%20Appraisal%20of%20the%20Proposed%20Submission%20Local%20Plan.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "sustainability-appraisal",
+        "name": "Draft Sustainability Appraisal of North Hertfordshire Proposed Submission Local Plan",
+        "reference": "SA-2016",
+        "document-status": "adopted",
+        "endpoint": "f874acbd06f7d1fca91ee390f436cd664dfc854028f1fffa98aa1e49d7ca4ab0"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/Statement%20of%20consultation.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation",
+        "reference": "CS-2016",
+        "document-status": "adopted",
+        "endpoint": "e6b86ce32bf31f88f7a7dcd64ed2ec7aada8c1fd0f8d0c2a2686726af675c21a"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/North%20Herts%20Sheet%201%20Side%20A_0.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Sheet 1 Side A - Hitchin, Letchworth Garden City and Baldock Areas",
+        "reference": "LP-MAP-1A",
+        "document-status": "adopted",
+        "endpoint": "f5d45bed442fc9ccb190dc36bc06846cfd7195dc6ac4d1fe4a32f7b1147c18ce"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/North%20Herts%20Sheet%201%20Side%20B.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Sheet 1 Side B - Southern Area and Luton Borders",
+        "reference": "LP-MAP-1B",
+        "document-status": "adopted",
+        "endpoint": "c8d4a3f81c646fc754856bfa5f69c8bf30eccf7860589608a910e11dd6a82e9e"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/North%20Herts%20Sheet%202%20Side%20A.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Sheet 2 Side A - Northern and Baldock Areas",
+        "reference": "LP-MAP-2A",
+        "document-status": "adopted",
+        "endpoint": "98b7bc8341b251ff2463e221feb24b4bc94b9550fe17c9c03cc06ebe2fd64d3a"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/North%20Herts%20Sheet%202%20Side%20B.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Sheet 2 Side B - Royston Area",
+        "reference": "LP-MAP-2B",
+        "document-status": "adopted",
+        "endpoint": "a03802f8366c950709d370f822a2807f269ff8f9e6d4e98d7bbdd67dde6fca4a"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/North%20Herts%20Sheet%203%20Side%20A.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/proposed-submission-local-plan-2011-2031",
+        "document-type": "local-plan",
+        "name": "Sheet 3 Side A - Town Centre Insets - Letchworth Garden City, Royston, Baldock and Hitchin",
+        "reference": "LP-MAP-3A",
+        "document-status": "adopted",
+        "endpoint": "50488c589a20badf73517448d59d0cfbd408997149c0c2cceb0a78c7bf51d588"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/ED177%20NHDC%20response%20to%20Q6%20Inspector%27s%20letter%209%208%2019%20and%20SoCG%20with%20HCC%20redacted%20pdf.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/examination-documents-subject-consultation-may-2021",
+        "document-type": "statement-of-common-ground",
+        "name": "Council's response to Question 6 in Inspector's Letter of 9 August (ED168) including Statement of Common Ground between NHDC and Hertfordshire County Council",
+        "reference": "SOCG-HCC-2019",
+        "document-status": "examination",
+        "endpoint": "4adad229ee741d044343b9e9c8a3bd8579394eaf798c04e62931d04e60cb52de"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/ED224.%20SOCG%20re%20housing%20need%20and%20delivery%20in%20Luton%20BC.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/examination-documents-subject-consultation-may-2021",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground between NHDC, Luton Borough Council, Bloor Homes and The Crown Estate re: Luton Market Housing Area",
+        "reference": "SOCG-LUTON-2021",
+        "document-status": "examination",
+        "endpoint": "66767a6d60ae488d1f4d5f616bfe7449395d71a449e9f3487286721c222dedc1"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/ED178%20NHDC%20Updated%205%20Year%20Housing%20Land%20Supply%20Paper.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/examination-documents-subject-consultation-may-2021",
+        "document-type": "local-plan",
+        "name": "NHDC Updated 5 Year Housing Land Supply Paper",
+        "reference": "HLS-2019",
+        "document-status": "examination",
+        "endpoint": "b8874b61a802636015d19844cac132e55a0ff3c69acca1d4b48653bc68a5e325"
+      },
+      {
+        "document-url": "https://www.north-herts.gov.uk/sites/default/files/ED228%20%20North%20Herts%20Local%20plan%20Matter%2025%20Gypsy%20and%20Traveller%20provision.pdf",
+        "documentation-url": "https://www.north-herts.gov.uk/examination-documents-subject-consultation-may-2021",
+        "document-type": "local-plan",
+        "name": "North Hertfordshire District Council: Note on Local Plan provision for Gypsy & Traveller Accommodation",
+        "reference": "GT-2021",
+        "document-status": "examination",
+        "endpoint": "cf7874adcc6daeca9ee191b2e781a0b978a83f4ebadaae4eeed27fe09cc371d4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "organisation": "local-authority:COT",
+    "organisation-name": "Cotswold District Council",
+    "reference": "LP-COT-2024",
+    "documentation-url": "https://www.cotswold.gov.uk/localplan",
+    "document-url": "https://www.cotswold.gov.uk/media/gdspmaj4/c2-1-2-draft-policies-with-tracked-changes.pdf",
+    "name": "Cotswold District Local Plan 2025-2043",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2025,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/gdspmaj4/c2-1-2-draft-policies-with-tracked-changes.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Draft Policies With Tracked Changes",
+        "reference": "LP-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "6a60862fa296d6e478d58be33bae8d3e0ec16ba96184480b09c2f1d565b717dd"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/05acgjkt/c2-1-3-draft-policies-with-tracked-changes-accepted.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Draft Policies With Tracked Changes Accepted",
+        "reference": "LP-CLEAN-2024",
+        "document-status": "consultation",
+        "endpoint": "0eee3e2fdfdd4b7be00375cfdff3f7997081a58dd8b9a0437e152279ed56072b"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/ngnblsc0/c2-1-4-vision-objectives-and-development-strategy-options-topic-paper.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Vision, Objectives And Development Strategy Options Topic Paper",
+        "reference": "LP-VISION-2024",
+        "document-status": "consultation",
+        "endpoint": "3d09752ab97982a74042415bea00eda5b03dd44f094d394e27d06bd638b4c2b7"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/1g4fbuef/c2-1-1-executive-summary-and-consultation-instructions-and-questions.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Executive Summary And Consultation Instructions And Questions",
+        "reference": "LP-EXEC-2024",
+        "document-status": "consultation",
+        "endpoint": "0019e8fa54bf00290d7097697d84d88a07c572bde667b25c5b91a1515f3a442b"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/3hnlr0z5/c2-2-1-interim-integrated-impact-assessment-for-the-local-plan-update.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Interim Integrated Impact Assessment For The Local Plan Update",
+        "reference": "IIA-2024",
+        "document-status": "consultation",
+        "endpoint": "989f03a5d9f20dafb0719ba040df9db6b9cd3fb745beaeb28a7d1961ce1ee6b3"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/cj2b0bpq/c2-2-2-integrated-impact-assessment-points-of-the-compass-appraisal.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment – Points Of The Compass Appraisal",
+        "reference": "IIA-COMPASS-2024",
+        "document-status": "consultation",
+        "endpoint": "71e52b77670315543c56bcb2347743626b73dc4f8ecf6151dfc5f4ddd00db77c"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/wyjl13j5/c2-2-3-strategic-flood-risk-assessment-sfra-level-1-oct-2023.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic Flood Risk Assessment (SFRA) Level 1 – Oct 2023",
+        "reference": "SFRA-2023",
+        "document-status": "consultation",
+        "endpoint": "d9330be3a118ca3828ec05a11e16496228a21b7400490f37cc7925459f340ba4"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/u5yhygy2/c2-2-4-habitats-regulations-assessment-hra-scoping-report-cover-letter-dec-2023.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment (HRA) Scoping Report Cover Letter – Dec 2023",
+        "reference": "HRA-2023",
+        "document-status": "consultation",
+        "endpoint": "c44809fd24db5bc8987d7696e6befcc5ae3707135467244adb8c7b60f36b7732"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/hd5hakqr/c2-1-6-local-plan-update-statement-of-consultation.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Local Plan Update – Statement Of Consultation",
+        "reference": "CS-2024",
+        "document-status": "consultation",
+        "endpoint": "13311b7d76a83c4fd541dd82610d902d44865ac9993c9e326dcf544086f895d2"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/jcpck2vt/c2-1-5-cirencester-framework-masterplan-initial-ideas.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Cirencester Framework Masterplan Initial Ideas",
+        "reference": "AAP-CIR-2024",
+        "document-status": "consultation",
+        "endpoint": "b4f0d8a80d9ab329a1b3bc2e7f046d6320461f7f8d6254eab52a2838935c7dd2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COT",
+    "organisation-name": "Cotswold District Council",
+    "reference": "LP-COT-2022",
+    "documentation-url": "https://www.cotswold.gov.uk/localplan",
+    "document-url": "https://www.cotswold.gov.uk/media/vdhfssej/c1-1-1-regulation-18-issues-and-options-consultation-document-feb-2022.pdf",
+    "name": "Cotswold District Local Plan Partial Update Issues and Options",
+    "status": "regulation-18",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/vdhfssej/c1-1-1-regulation-18-issues-and-options-consultation-document-feb-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Issues And Options Consultation Document – Feb 2022",
+        "reference": "LP-REG18-2022",
+        "document-status": "consultation",
+        "endpoint": "c97976eaf7f9a47e11ec22f17c014629c4adde0998564e0c825e731108b24022"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/kdflaaxx/11-1-1a-cotswold-district-local-plan-2011-2031-partial-update-issues-and-options-consultation-feb-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Cotswold District Local Plan 2011-2031 Partial Update Issues and Options Consultation",
+        "reference": "LP-PARTIAL-2022",
+        "document-status": "consultation",
+        "endpoint": "274eadcb5108b85fbc9a5e37f42834bf92ba00aa75882ba91019e10fa98869db"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/sschsjnu/c1-1-2-regulation-18-issues-and-options-consultation-document-glossary-feb-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Issues And Options Consultation Document Glossary – Feb 2022",
+        "reference": "LP-GLOSS-2022",
+        "document-status": "consultation",
+        "endpoint": "67c3b9a5859f1f497ce73aa3828940dc00ed8e8ad2a6bf378572bbe6126d76c1"
+      },
+      {
+        "document-url": "https://meetings.cotswold.gov.uk/documents/s5609/ANNEX%20A%20-%20Consultation%20Summary%20Report%20-%20Consolidated%20Report.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Issues and Options Consultation Summary Report",
+        "reference": "LP-SUMM-2022",
+        "document-status": "consultation",
+        "endpoint": "39d740c55665c42eed81a0e5bc8c705b4a5db142cd538ceff7aa4d0b5a8742da"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/zugflbm2/c1-1-8-consultation-summary-report-jul-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Consultation Summary Report – Jul 2022",
+        "reference": "LP-CONS-2022",
+        "document-status": "consultation",
+        "endpoint": "6560fff6a617e0295b731dd46ed1b53a12540c8601f3e4bd26467ddd9ccf0191"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/1kcjmnhb/c1-3-1-habitats-regulations-assessment-scoping-report-feb-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment Scoping Report – Feb 2022",
+        "reference": "HRA-2022",
+        "document-status": "consultation",
+        "endpoint": "9bfb8d2ba1691ba52cedf3e4c4fbe01be47b3f665b594451ec21fbfa3bc12baa"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/dk4n34gr/c1-3-2-interim-integrated-impact-assessment-feb-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Interim Integrated Impact Assessment – Feb 2022",
+        "reference": "IIA-2022",
+        "document-status": "consultation",
+        "endpoint": "53096e51711b5e70a2a35d4436de3290e59b7f180c37052bf3702e23d6245f11"
+      },
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/d34jcekp/c1-3-3-strategic-flood-risk-assessment-sfra-level-1-draft-report-mar-2022.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/localplan",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic Flood Risk Assessment (SFRA) Level 1 Draft Report – Mar 2022",
+        "reference": "SFRA-2022",
+        "document-status": "draft",
+        "endpoint": "7bb08fcf3bb74c8ee33036891a51011a6f5b3a5658ca7bab67bf5aee25fbb23a"
+      }
+    ]
+  }
+]

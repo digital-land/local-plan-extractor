@@ -1,0 +1,9 @@
+{
+  "resource": "8195458dd98a32341be5baf0e887bf8983cc18d2",
+  "endpoint-url": "https://abc.dynamicmaps.co.uk/mapthatpublic/login.html?user=public&role=public&project=LocalPlan2030",
+  "entry-date": "2025-11-05T16:08:56Z",
+  "status": "200",
+  "elapsed": "0.068",
+  "content-type": "text/html",
+  "bytes": "2306"
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "organisation": "local-authority:PLY",
+    "organisation-name": "Plymouth City Council",
+    "reference": "LP-PLY-2019",
+    "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+    "document-url": "",
+    "name": "Plymouth and South West Devon Joint Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2014,
+    "period-end-date": 2034,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Plymouth and South West Devon Joint Local Plan",
+        "reference": "LP-2014-2034",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Statement from Joint Local Plan Partnership Board",
+        "reference": "JLP-STATEMENT-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Post adoption consultations and emerging evidence",
+        "reference": "POST-ADOPT-CONSULT",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "View the interactive Plymouth and South West Devon Joint Local Plan",
+        "reference": "JLP-INTERACTIVE",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Evidence base, past consultations and examination",
+        "reference": "JLP-EVIDENCE-BASE",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
+        "document-type": "supplementary-planning-document",
+        "name": "Adopted Supplementary Planning Document",
+        "reference": "SPD-ADOPTED",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
+        "document-type": "statement-of-community-involvement",
+        "name": "Adopted Statement of Community Involvement",
+        "reference": "SCI-ADOPTED",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
+        "document-type": "local-plan",
+        "name": "Local Green Space Development Plan Document",
+        "reference": "LGS-DPD",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:WOI",
+    "organisation-name": "Woking Borough Council",
+    "reference": "LP-WOI-2025",
+    "documentation-url": "https://www.woking.gov.uk/your-council/have-your-say/consultations/woking-local-plan-consultation",
+    "document-url": "",
+    "name": "Woking Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://woking.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Have your say on our new local plan",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

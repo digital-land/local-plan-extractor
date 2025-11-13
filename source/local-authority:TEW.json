@@ -2,132 +2,95 @@
   {
     "organisation": "local-authority:TEW",
     "organisation-name": "Tewkesbury Borough Council",
-    "reference": "LP-TEW-2022",
-    "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-    "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/11/Tewkesbury-Borough-Plan-Final-Version-with-front-cover.pdf",
-    "name": "Tewkesbury Borough Plan 2011-2031",
-    "status": "adopted",
-    "year": 2022,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "documents": [
-      {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/11/Tewkesbury-Borough-Plan-Final-Version-with-front-cover.pdf",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Tewkesbury Borough Plan 2011 \u2013 2031",
-        "reference": "LP-2011-2031",
-        "document-status": "adopted",
-        "endpoint": "dc1a58a3cd63befa82e66cc71e01a5c2c7d2c8024f4c29b0d311250bc496bc02"
-      },
-      {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Local plan/Tewkesbury Borough Plan 2011 to 2031/Adoption/Tewkesbury Borough Plan 2031 Adoption Statement June 2022.pdf",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "adoption-statement",
-        "name": "Adoption Statement",
-        "reference": "AS-2022",
-        "document-status": "adopted",
-        "endpoint": "21969d6c2e6974587e070fe85c2a87dd693a4a9425c6949e7a0740f0fdc5d36a"
-      },
-      {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/TBP Main Mods/210928_TBP_MMs_SAHRA Addendum_FINAL Clean.pdf",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Report (Main Modifications TBP, September 2021)",
-        "reference": "SA-MM-2021",
-        "document-status": "adopted",
-        "endpoint": "dca61d468d1922d96e2c101e7e88cc251c85da1194def653dfcfa31685af3220"
-      },
-      {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2023/08/CD006a-SA-Appendix-V-SA-settlement-boundaries-July-2019-2.pdf",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Report (Submission TBP, July 2019)",
-        "reference": "SA-SUB-2019",
-        "document-status": "adopted",
-        "endpoint": "0cb5414533251b929abbdf00083fa8435efccaff7d8ff53751c78b774113e8ef"
-      },
-      {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Local plan/Tewkesbury Borough Plan 2011 to 2031/Adoption/Sustainability Appraisal Adoption Statement (June 2022).pdf",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "adoption-statement",
-        "name": "Sustainability Appraisal Adoption Statement (June 2022)",
-        "reference": "SA-AS-2022",
-        "document-status": "adopted",
-        "endpoint": "fac6f759eac577ef4c7e70dbb5aa5ca2f37a4758bf7c714da6981de3411c8754"
-      },
-      {
-        "document-url": "https://experience.arcgis.com/experience/82b4c6e5e1534bf791d9f2ebc4fcc43d/",
-        "documentation-url": "https://tewkesbury.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Tewkesbury Borough local plan policies interactive map",
-        "reference": "PM-2022",
-        "document-status": "adopted",
-        "endpoint": "ffed9d6f762b2516b36a2b638e84e4106214bcc8744f34d7535090bf0043d258"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:TEW",
-    "organisation-name": "Tewkesbury Borough Council",
-    "reference": "LP-TEW-2017",
-    "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
-    "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
-    "name": "Joint Core Strategy 2011-2031",
-    "status": "adopted",
-    "year": 2017,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "documents": [
-      {
-        "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
-        "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
-        "document-type": "local-plan",
-        "name": "JCS Plan Adopted Version December 2017",
-        "reference": "JCS-2017",
-        "document-status": "adopted",
-        "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
-      },
-      {
-        "document-url": "https://maps.cheltenham.gov.uk/map/Aurora.svc/run?nocache=5a07a51c-4eed-9956-ffc7-5f4b0b6f871a&resize=always&script=%5CAurora%5CCBC%20JCS%20Allocations.AuroraScript%24",
-        "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
-        "document-type": "policies-map",
-        "name": "JCS Interactive Policies Map Adoption Version December 2017",
-        "reference": "PM-JCS-2017",
-        "document-status": "adopted",
-        "endpoint": "28b1bb993537c86e8a34d1d8d5db75a06c44b587d3ddd856cf92f700997bc614"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:TEW",
-    "organisation-name": "Tewkesbury Borough Council",
-    "reference": "LP-TEW-2024",
-    "documentation-url": "https://strategiclocalplan.org/",
+    "reference": "LP-TEW-2025",
+    "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/emerging-strategic-and-local-plan-slp/",
     "document-url": "",
-    "name": "Strategic and Local Plan",
+    "name": "Strategic and Local Plan (SLP)",
     "status": "regulation-18",
-    "year": 2024,
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinkprotect.cudasvc.com%2Furl%3Fa%3Dhttps%253a%252f%252ftewkesbury.gov.uk%252fwp-content%252fuploads%252f2025%252f03%252fTewkesbury-Local-Development-Scheme-February-2025.pdf%26c%3DE%2C1%2CLkRImW4-NzAuVSPJZzcg5sIKEs3kE1GEgVWzzM0ITp_E58SCBx6gJJnsOiP_qe7CSo6cP3TXuemiO_8iypOPlWAxGcr-s3S-i2mJTelS0X7VFj0i_yVHY3txH1w%2C%26typo%3D1&data=05%7C02%7CGavin.Agamemnos%40tewkesbury.gov.uk%7Cac0cd3e49d9644277fea08ddec878339%7C1004c738399e4734aaf902a684303390%7C0%7C0%7C638926788965304444%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FlSrD9lhSZFDmKDN05MHYqGHGdrLgbHvxQrVTS8U3kM%3D&reserved=0",
-        "documentation-url": "https://strategiclocalplan.org/",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme",
-        "reference": "LDS-2025",
-        "document-status": "consultation",
-        "endpoint": "69803615ba8e602c498e7ec4384bc87100cd3a2777741421ea814a11107ef5ef"
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2024/11/Tewkesbury-Borough-Five-Year-Housing-Land-Supply-Statement-as-at-March-2024.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/planning-policy-monitoring/",
+        "document-type": "local-plan",
+        "name": "Tewkesbury Borough Five Year Housing Land Supply Statement Nov 2024",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "1e7ab6e1555696cec44adfb1c5e3f446f2927ccb48a6b7c37b06dd4175ec24d6"
       },
       {
-        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2025/09/Local-Green-Space-application-form.docx",
-        "documentation-url": "https://strategiclocalplan.org/",
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy/Policy monitoring/PUBLISHED Tewkesbury Borough Housing Monitoring Report 2020-21.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/planning-policy-monitoring/",
+        "document-type": "authority-monitoring-report",
+        "name": "Tewkesbury Borough housing monitoring report 2020-21",
+        "reference": "AMR-2021",
+        "document-status": "adopted",
+        "endpoint": "a91c57c5d9a747a71cd7e03dd09d10e3474b1b39c278aa1ff97268fb72508171"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy/Policy monitoring/Tewkesbury Borough Employment Monitoring Report 2018-19.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/planning-policy-monitoring/",
+        "document-type": "authority-monitoring-report",
+        "name": "Tewkesbury Borough employment monitoring report 2018-19",
+        "reference": "AMR-2019",
+        "document-status": "adopted",
+        "endpoint": "1217a20056980a0710f4081b8b453e8297295b4f088ccea6d4140a4672d97740"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Employment/Employment land and economic development strategy review, November 2016.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
+        "document-type": "economic-development-strategy",
+        "name": "Employment land and economic development strategy review, November 2016",
+        "reference": "EDS-2016",
+        "document-status": "adopted",
+        "endpoint": "4fa4fcca7d2d677af028020355e370b0468336bab0364b9cdfe5f2dc7d379392"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Employment/Employment land review - final report, August 2008.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
+        "document-type": "employment-land-review",
+        "name": "Employment land review – final report, August 2008",
+        "reference": "ELR-2008",
+        "document-status": "adopted",
+        "endpoint": "dfd9c8f569b39e54f2cf068062d8e2ed6e7488a4046df400aeb28eff8c768a14"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Environment/Green belt/Tewkesbury green belt review.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
         "document-type": "local-plan",
-        "name": "Local Green Space Application Form",
-        "reference": "LGS-2025",
-        "document-status": "consultation",
-        "endpoint": "ef3d255b249f4ddc6e2ff37f8cf9620d770216146112c363c0fac3c44a1893bf"
+        "name": "Tewkesbury green belt review",
+        "reference": "GBR-2022",
+        "document-status": "adopted",
+        "endpoint": "de3a17a0467f15f48f539edabdfe00e6a033ad509dd2af0b6f1246bd426b952c"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Environment/Strategic flood risk assessment - level 1/Strategic flood risk assessment - level 1 final report.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic flood risk assessment – level 1 final report",
+        "reference": "SFRA-L1-2022",
+        "document-status": "adopted",
+        "endpoint": "7268da8373ead1a50f176a92a9f97de5becda5e3786615995d9a6925868eefad"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Environment/Strategic flood risk assessment - level 2 - Halcrow report (October 2011)/Strategic flood risk assessment - level 2 final report.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic flood risk assessment – level 2 final report",
+        "reference": "SFRA-L2-2011",
+        "document-status": "adopted",
+        "endpoint": "8b92641d4f6616c554b51e03598909d30abc593782fa8cd94f1e72f488f8f9cd"
+      },
+      {
+        "document-url": "https://tewkesbury.gov.uk/wp-content/uploads/2022/Planning policy/Planning policy evidence base/Environment/Tewkesbury Borough Plan prefered options strategic flood risk assessment - level 2 - JBA Consulting report (Nov 2017)/TBP preferred options SFRA level 2 assessment.pdf",
+        "documentation-url": "https://tewkesbury.gov.uk/services/planning/planning-policy/evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "TBP preferred options SFRA level 2 assessment",
+        "reference": "SFRA-TBP-2017",
+        "document-status": "adopted",
+        "endpoint": "47796f3ce3fa9a5a75341d23bb671aae47fb1c95803d2edd8a8d20e2871cf4f8"
       }
     ]
   }

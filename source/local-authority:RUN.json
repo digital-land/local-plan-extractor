@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:RUN",
+    "organisation-name": "Runnymede Borough Council",
+    "reference": "LP-RUN-2020",
+    "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+    "document-url": "",
+    "name": "Runnymede 2030 Local Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/242/financial-monitoring-report-to-31-may-20",
+        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Financial Monitoring Report to 31 May 20",
+        "reference": "AMR-2020-MAY",
+        "document-status": "adopted",
+        "endpoint": "c4e82fa32db6c4f4a7f138f258a3d63f879aa46230b42c27a44b3b9beb0b4d84"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/243/financial-monitoring-report-to-31-aug-20",
+        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Financial Monitoring Report to 31 Aug 20",
+        "reference": "AMR-2020-AUG",
+        "document-status": "adopted",
+        "endpoint": "2514b5377651517cddd5ad8fe70b9c67aa987599dfe0499fa9a157906f0d71d3"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/244/financial-monitoring-report-apr-june-20",
+        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Financial Monitoring Report Apr - June 20",
+        "reference": "AMR-2020-JUNE",
+        "document-status": "adopted",
+        "endpoint": "111e7b2dd2656e14f9cfb29a2108cbb2fde159130909a8eb616942856a421b0e"
+      }
+    ]
+  }
+]

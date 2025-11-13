@@ -1,0 +1,169 @@
+[
+  {
+    "organisation": "local-authority:WRL",
+    "organisation-name": "Wirral Borough Council",
+    "reference": "LP-WRL-2025",
+    "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+    "document-url": "https://www.wirral.gov.uk/files/wirral-local-plan-2022-2040-written-statement.pdf/download?inline",
+    "name": "Wirral Local Plan 2022 to 2040",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2022,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.wirral.gov.uk/files/wirral-local-plan-2022-2040-written-statement.pdf/download?inline",
+        "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan Written Statement",
+        "reference": "LP-2022-2040",
+        "document-status": "adopted",
+        "endpoint": "f8991463077a2865d9f5fe4699e72f5d7e47322dff7d40891c4d0a4b6b138b75"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-04/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "b781360e99291301e5738c89fa975d1b1d02d8d46f6d3a0da21f86a2c417ac9a"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-03/Wirral%20Local%20Plan%20-%20Inspectors%20Report.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Wirral Local Plan - Inspectors Report",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "914d9062ea0a0b8d4bcd808a9569f7d824b5bcb69c775946cfc0ff6b5b5c65f6"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-03/Wirral%20Local%20Plan%20-%20Main%20Mods%20Appendix.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Wirral Local Plan - Main Mods Appendix",
+        "reference": "MM-2025",
+        "document-status": "adopted",
+        "endpoint": "f449380536739022f33b0bc43d31352dda85f0f24e2a6fb930f7c843904f571b"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-03/Wirral%20Local%20Plan%20Sustainability%20Appraisal%20Adoption%20Statement%20March%202025.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/newlocalplan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Wirral Local Plan Sustainability Appraisal Adoption Statement March 2025",
+        "reference": "SA-2025",
+        "document-status": "adopted",
+        "endpoint": "65074bdf0818a4303036b4fa989c063b29191e1b4ea7e400ecb4ecd51b86c2dd"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Schedule%20of%20Main%20Modifications.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications",
+        "reference": "MM-SCHEDULE-2024",
+        "document-status": "examination",
+        "endpoint": "55bfb41ff73905c994c007148a2d0434b4212acb6607410ab9f0e51ba13e7b89"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Main%20Modifications%20Sustainability%20Appraisal%20September%202024.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Sustainability Appraisal September 2024",
+        "reference": "MM-SA-2024",
+        "document-status": "examination",
+        "endpoint": "71548c7388e12bcef4695936065ee9e7c6659aa5ec513e6573f7f480b1a697ff"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Main%20Modifications%20Habitats%20Regulations%20Assessment.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Habitats Regulations Assessment",
+        "reference": "MM-HRA-2024",
+        "document-status": "examination",
+        "endpoint": "4bf793955a35911bc4c6aee53e04f2d3c9437ed886d36ad6ee15780b4af07e73"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Wirral%20Local%20Plan%20Housing%20Trajectory%202022-2040.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "local-plan",
+        "name": "Wirral Local Plan Housing Trajectory 2022-2040",
+        "reference": "HT-2024",
+        "document-status": "examination",
+        "endpoint": "49df25db96ecccc103f752337a6710cf03cdf8db133385ea0a02b25edd8df63d"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Schedule%20of%20Additional%20Modifications.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications",
+        "reference": "AM-2024",
+        "document-status": "examination",
+        "endpoint": "f89a9e969cdbb185948806a64a882dea019bfb5ae96e6cec1a152103dce51134"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2024-09/Wirral%20Local%20Plan%20Tracked%20Change%20Version%20September%202024.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan/wirral-local-plan-0",
+        "document-type": "local-plan",
+        "name": "Wirral Local Plan Tracked Change Version September 2024",
+        "reference": "LP-TRACKED-2024",
+        "document-status": "examination",
+        "endpoint": "0072e07b40c41302230df241adcfe20395ad342a1abb5335ca6ecc400311033d"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/Hoylake%20NW%20Map%201%20of%204.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "Hoylake NW Map 1 of 4",
+        "reference": "PM-HOYLAKE-2025",
+        "document-status": "adopted",
+        "endpoint": "ec5f62990403b57baf7cacd4c2bfb0727059a95dc5a5357b808cd2ea78653045"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/Birkenhead%20NE%20Map%202%20of%204.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "Birkenhead NE Map 2 of 4",
+        "reference": "PM-BIRKENHEAD-2025",
+        "document-status": "adopted",
+        "endpoint": "1cd88c41a7ef5337d350a4bb283b8ff14139c6651074a335f39e033f28ff6ac3"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/Heswall%20SW%20Map%203%20of%204.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "Heswall SW Map 3 of 4",
+        "reference": "PM-HESWALL-2025",
+        "document-status": "adopted",
+        "endpoint": "3747340614a1cea017534ecdb953f4dc787db660ba92ad82c738d2b6ff0fe325"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/Bebington%20SE%20Map%204%20of%204.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "Bebington SE Map 4 of 4",
+        "reference": "PM-BEBINGTON-2025",
+        "document-status": "adopted",
+        "endpoint": "8ffa4b1ab95b4e669baf3f9240be35d2a6ac0b2369b513a784665ed2e5379c02"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/New%20Brighton%2C%20New%20Ferry%20and%20West%20Kirby%20Inset%20Maps.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "New Brighton, New Ferry and West Kirby Inset Maps",
+        "reference": "PM-INSET-NBC-2025",
+        "document-status": "adopted",
+        "endpoint": "d0610c877ae7ace935af1202960fe7eda64d8bd62b5ffb5a09b2547490a77f82"
+      },
+      {
+        "document-url": "https://www.wirral.gov.uk/sites/default/files/2025-07/Birkenhead%20Inset%20Map.pdf",
+        "documentation-url": "https://www.wirral.gov.uk/planning-and-building/local-plans-and-planning-policy/wirrals-development-plan/wirral-local-plan-1",
+        "document-type": "local-plan",
+        "name": "Birkenhead Inset Map",
+        "reference": "PM-INSET-BH-2025",
+        "document-status": "adopted",
+        "endpoint": "62db72c97dc4315a1a42133b29fe4e53c256d1b4e214767709601b93730e328a"
+      }
+    ]
+  }
+]

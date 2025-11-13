@@ -1,0 +1,119 @@
+[
+  {
+    "organisation": "local-authority:SOS",
+    "organisation-name": "Southend-on-Sea Borough Council",
+    "reference": "LP-SOS-2015",
+    "documentation-url": "https://planningpolicy.southend.gov.uk/adopted-plans",
+    "document-url": "",
+    "name": "Southend-on-Sea Adopted Local Plan",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/3715/community_infrastructure_levy_charging_schedule_-_july_2015",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "Community Infrastructure Levy Charging Schedule - July 2015",
+        "reference": "CIL-2015",
+        "document-status": "adopted",
+        "endpoint": "0bc950cc163e1f59e1c3005ec66c7a5e6264e5959bfd2ef55321407c03c12a69"
+      },
+      {
+        "document-url": "http://www.southend.gov.uk/downloads/file/3716/cil_instalment_policy",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Instalment Policy 2015",
+        "reference": "CIL-IP-2015",
+        "document-status": "adopted",
+        "endpoint": "829b7a8e628cbdb5cdb8132b1e78ca95143774f74b21616aace8c83594f083b1"
+      },
+      {
+        "document-url": "http://www.southend.gov.uk/downloads/file/3720/supplementary_planning_document_2_planning_obligations_2015",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Planning Document 2: Planning Obligations 2015",
+        "reference": "SPD-PO-2015",
+        "document-status": "adopted",
+        "endpoint": "f9f3a6be810291ec5ab85977fc1a15e51b440cfcb97a1e1008bfc001f7da1327"
+      },
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/3412/southend_infrastructure_delivery_plan_%20E2%2080%2093_february_2015",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan 2015",
+        "reference": "IDP-2015",
+        "document-status": "adopted",
+        "endpoint": "49b75c2d50d2b0d830ee9a782ce1fd1320509af89895218144eb6353759a82b5"
+      },
+      {
+        "document-url": "http://www.southend.gov.uk/downloads/file/3723/cil_adoption_statement",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "adoption-statement",
+        "name": "CIL Adoption Statement",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "586f124b3b07fc3f1bcb7fbd0b3a80abe92b6419c695f3d8d4e1129e23118805"
+      },
+      {
+        "document-url": "http://www.southend.gov.uk/downloads/file/3718/regulation_123_infrastructure_list",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Regulation 123 Infrastructure List 2015",
+        "reference": "R123-2015",
+        "document-status": "adopted",
+        "endpoint": "7b306e1f7f31327d82a17e007b9504c385f8352dd45b7fe318fdf1d96671b71b"
+      },
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/4112/cil-map-central-charging-zone",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Map - Central Charging Zone",
+        "reference": "CIL-MAP-C",
+        "document-status": "adopted",
+        "endpoint": "a65fddf84dc67e6954ec09bb0914ac62cfaa559cf8bfc62f3397945fcd8d5e0d"
+      },
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/4113/cil-map-thorpe-bay-charging-zone",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Map - Thorpe Bay Charging Zone",
+        "reference": "CIL-MAP-TB",
+        "document-status": "adopted",
+        "endpoint": "d45f107b144a5509f4af57486e4fd5056f47011ed1beb260cd49bbbf035a3682"
+      },
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/4114/cil-map-leigh-charging-zone",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Map - Leigh Charging Zone",
+        "reference": "CIL-MAP-L",
+        "document-status": "adopted",
+        "endpoint": "7f1257a4722d7688eca80f7356e78f316306f261a29ecccfdb65675fb56aa172"
+      },
+      {
+        "document-url": "https://democracy.southend.gov.uk/documents/s67768/Appendix%20A%20-%20CIL%20Governance%20Framework%202025.pdf",
+        "documentation-url": "https://www.southend.gov.uk/local-planning-framework/community-infrastructure-levy-cil",
+        "document-type": "local-plan",
+        "name": "CIL Governance Framework 2025",
+        "reference": "CIL-GF-2025",
+        "document-status": "adopted",
+        "endpoint": "ed8fa1e1c36ce5fd4c4e0d049de7e16d0462b54e41adc23e27e277d794b2794b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SOS",
+    "organisation-name": "Southend-on-Sea Borough Council",
+    "reference": "LP-SOS-2024",
+    "documentation-url": "https://localplan.southend.gov.uk",
+    "document-url": "",
+    "name": "Southend New Local Plan",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:DAR",
+    "organisation-name": "Dartford Borough Council",
+    "reference": "LP-DAR-2024",
+    "documentation-url": "https://www.dartford.gov.uk/policy-1/dartford-plan-2024/1",
+    "document-url": "https://www.dartford.gov.uk/downloads/file/2709/the-dartford-plan",
+    "name": "The Dartford Plan to 2037",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.dartford.gov.uk/downloads/file/2709/the-dartford-plan",
+        "documentation-url": "https://www.dartford.gov.uk/policy-1/dartford-plan-2024/1",
+        "document-type": "local-plan",
+        "name": "The Dartford Plan",
+        "reference": "LP-2037",
+        "document-status": "adopted",
+        "endpoint": "d8eff8619f137473583e1be88494edf153decdd4d8dcfc9ff90cdd5af40717e3"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.dartford.gov.uk/planningpolicy",
+        "document-type": "policies-map",
+        "name": "Policies maps",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.dartford.gov.uk/policy-1/dartford-plan-2024/1",
+        "document-type": "local-plan",
+        "name": "Habitats Regulations and Residential Sites in Dartford Borough Guidance for Developers 2024",
+        "reference": "HRA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.dartford.gov.uk/downloads/file/2273/riverside-strategy",
+        "documentation-url": "https://www.dartford.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Riverside strategy",
+        "reference": "RS-2024",
+        "document-status": "adopted",
+        "endpoint": "7dbe0365be1c896a8284496e8eba77eb7ef1bf04155b136c66d757b554d6bee3"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.dartford.gov.uk/planningpolicy",
+        "document-type": "local-plan",
+        "name": "Area Appraisals",
+        "reference": "AA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

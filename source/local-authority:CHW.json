@@ -1,0 +1,98 @@
+[
+  {
+    "organisation": "local-authority:CHW",
+    "organisation-name": "Cheshire West and Chester Council",
+    "reference": "LP-CHW-2025",
+    "documentation-url": "https://www.cheshirewestandchester.gov.uk/localplan",
+    "document-url": "",
+    "name": "Local Plan Issues and Options 2025",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/localplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Local Plan Issues and Options 2025",
+        "reference": "LP-REG18-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Issues and Options consultation 4 July - 29 August 2025",
+        "reference": "LP-CONSULT-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHW",
+    "organisation-name": "Cheshire West and Chester Council",
+    "reference": "LP-CHW-2019",
+    "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-two",
+    "document-url": "",
+    "name": "Local Plan (Part Two) Land Allocations and Detailed Policies",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-two",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan (Part Two) Land Allocations and Detailed Policies and supporting documents",
+        "reference": "LP-PT2-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-two",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Local Plan (Part Two) Land Allocations and Detailed Policies - Review",
+        "reference": "LPR-PT2-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHW",
+    "organisation-name": "Cheshire West and Chester Council",
+    "reference": "LP-CHW-2015",
+    "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
+    "document-url": "",
+    "name": "Local Plan (Part One) Strategic Policies",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
+        "document-type": "core-strategy",
+        "name": "Adopted Local Plan (Part One) Strategic Policies and supporting documents",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.cheshirewestandchester.gov.uk/asset-library/lp1-2025-review-approved.pdf",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
+        "document-type": "core-strategy",
+        "name": "Local Plan (Part One) Strategic Policies - Review",
+        "reference": "LPR-PT1-2025",
+        "document-status": "adopted",
+        "endpoint": "b2dbc621cf0cc4154da2507594bfd21403dd62ab765ecbb10186f9100ffc76c5"
+      }
+    ]
+  }
+]

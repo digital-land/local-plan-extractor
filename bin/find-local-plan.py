@@ -6,6 +6,17 @@ Usage:
     python bin/find-local-plan.py local-authority:DAC
     python bin/find-local-plan.py local-authority:MAN
 
+IMPORTANT - Manually Maintained Authorities:
+    The following authorities have joint local plans hosted on websites protected by bot
+    detection (Sucuri Cloudproxy) and CANNOT be automatically scraped:
+    - local-authority:MAV (Malvern Hills District Council)
+    - local-authority:WOC (Worcester City Council)
+    - local-authority:WYC (Wychavon District Council)
+
+    These authorities should be maintained manually in source/{code}.json files.
+    Use the --exclude flag in run-all-authorities.py to prevent overwriting:
+    python bin/run-all-authorities.py --exclude MAV,WOC,WYC
+
 Outputs JSON array with one element per local plan document. Each element contains:
     - organisation: the organisation code
     - organisation-name: the name of the organisation
@@ -39,10 +50,16 @@ import mimetypes
 import urllib.request
 import urllib.error
 import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, Optional, List
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
+
+# Disable SSL warnings when verify=False is used
+warnings.simplefilter('ignore', InsecureRequestWarning)
 
 
 def calculate_sha1(content):
@@ -229,11 +246,13 @@ def download_document(url, endpoint):
 
 class LocalPlanFinder:
     def __init__(
-        self, api_key: str, organisation_csv: str = "var/cache/organisation.csv"
+        self, api_key: str, organisation_csv: str = "var/cache/organisation.csv",
+        joint_local_plans_json: str = "var/joint-local-plans.json"
     ):
         """Initialize with Anthropic API key and organisation CSV path"""
         self.client = anthropic.Anthropic(api_key=api_key)
         self.organisations = self._load_organisations(organisation_csv)
+        self.joint_plans = self._load_joint_local_plans(joint_local_plans_json)
 
     def _load_organisations(self, csv_path: str) -> Dict[str, Dict[str, str]]:
         """Load organisation codes, names, and websites from CSV file.
@@ -278,6 +297,35 @@ class LocalPlanFinder:
 
         return organisations
 
+    def _load_joint_local_plans(self, json_path: str) -> Dict[str, Dict[str, str]]:
+        """Load joint local plan mappings from JSON file.
+
+        Returns:
+            Dictionary mapping organisation codes to joint plan info
+        """
+        joint_plans = {}
+        try:
+            if os.path.exists(json_path):
+                with open(json_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    joint_plans = data.get("joint-plans", {})
+                    print(
+                        f"Loaded {len(joint_plans)} joint local plan mappings",
+                        file=sys.stderr,
+                    )
+            else:
+                print(
+                    f"Note: Joint local plans file not found at {json_path}",
+                    file=sys.stderr,
+                )
+        except Exception as e:
+            print(
+                f"Warning: Could not load joint local plans from {json_path}: {e}",
+                file=sys.stderr,
+            )
+
+        return joint_plans
+
     def get_organisation_name(self, org_code: str) -> Optional[str]:
         """Get organisation name from code.
 
@@ -303,27 +351,53 @@ class LocalPlanFinder:
         return org_data["website"] if org_data and org_data["website"] else None
 
     def construct_likely_urls(
-        self, org_name: str, official_website: Optional[str] = None
+        self, org_name: str, official_website: Optional[str] = None, org_code: Optional[str] = None
     ) -> List[Dict[str, str]]:
         """Construct likely URLs for a local authority's planning pages.
 
         Args:
             org_name: Organisation name
             official_website: Official website URL from organisation.csv (if available)
+            org_code: Organisation code (e.g., "local-authority:DAC") - used to check for joint local plans
 
         Returns:
             List of dicts with 'title', 'url', 'snippet'
         """
         domains = []
+        configured_urls = []  # Track explicitly configured URLs (like from joint-local-plans.json)
 
-        # If we have the official website, use it first
+        # Check if this authority has a joint local plan with other councils
+        if org_code and org_code in self.joint_plans:
+            plan_info = self.joint_plans[org_code]
+            plan_website = plan_info.get("joint-plan-website")
+            if plan_website:
+                from urllib.parse import urlparse
+                parsed = urlparse(plan_website)
+                plan_domain = parsed.netloc
+                if plan_domain:
+                    domains.append(plan_domain)
+                    print(
+                        f"Authority is part of joint local plan - using joint plan domain: {plan_domain}",
+                        file=sys.stderr,
+                    )
+                    print(
+                        f"  Joint plan: {plan_info.get('joint-plan-name')}",
+                        file=sys.stderr,
+                    )
+                    # Add the full configured URL as the first URL to try
+                    configured_urls.append({
+                        "title": f"Joint Local Plan: {plan_info.get('joint-plan-name')}",
+                        "url": plan_website
+                    })
+
+        # If we have the official website, use it (but after joint plan domain)
         if official_website:
             # Extract domain from URL (e.g., "https://www.dacorum.gov.uk" -> "www.dacorum.gov.uk")
             from urllib.parse import urlparse
 
             parsed = urlparse(official_website)
             official_domain = parsed.netloc
-            if official_domain:
+            if official_domain and official_domain not in domains:
                 domains.append(official_domain)
                 print(
                     f"Using official website domain: {official_domain}", file=sys.stderr
@@ -355,43 +429,236 @@ class LocalPlanFinder:
             if domain not in domains:
                 domains.append(domain)
 
-        # Common paths for local plan pages
-        paths = [
-            "/planning",  # Try planning section first
-            "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",  # Tower Hamlets adopted plan (Contensis CMS)
-            "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",  # Tower Hamlets emerging plan
-            "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",  # Case variation
-            "/lgnl/planning_and_building_control/planning_policy_guidance/new-local-plan.aspx",  # Other Contensis CMS variations
-            "/newlocalplan",  # Fenland and similar councils
-            "/developmentplan",  # Fenland and similar councils
-            "/emerging-local-plan",  # Common emerging plan patterns
+        # Council-specific path mappings
+        # Maps organization codes to their specific URL paths
+        council_specific_paths = {
+            "local-authority:BAE": [  # Bassetlaw
+                "/planning-and-building-control/planning-policy/bassetlaw-local-plan-2020-2038/bassetlaw-local-plan-2020-2038/",
+                "/planning-and-building-control/planning-policy",
+            ],
+            "local-authority:BKM": [  # Buckinghamshire
+                "/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+                "/planning-and-building-control/planning-policy/local-planning-guidance",
+            ],
+            "local-authority:BIR": [  # Birmingham
+                "/info/20008/planning_and_development",
+                "/info/20054/local_plan_documents",
+                "/downloads/file/5433/adopted_birmingham_development_plan_2031",
+                "/downloads/20054/local_plan_documents",
+            ],
+            "local-authority:TWH": [  # Tower Hamlets
+                "/lgnl/planning_and_building_control/planning_policy_guidance/Local_plan/local_plan.aspx",
+                "/lgnl/planning_and_building_control/planning_policy_guidance/Emerging-Draft-Local-Plan.aspx",
+                "/lgnl/planning_and_building_control/planning_policy_guidance/emerging-draft-local-plan.aspx",
+                "/lgnl/planning_and_building_control/planning_policy_guidance/new-local-plan.aspx",
+            ],
+            "local-authority:ADU": [  # Adur
+                "/adur-ldf",
+                "/adur-local-plan",
+            ],
+            "local-authority:FEN": [  # Fenland
+                "/newlocalplan",
+                "/developmentplan",
+            ],
+            "local-authority:BNE": [  # Barnet
+                "/planning-and-building-control/planning-policies-and-local-plans",
+                "/planning-and-building-control/planning-policies-and-local-plan/barnet-local-plan-2021-2036",
+            ],
+            "local-authority:BDG": [  # Barking and Dagenham
+                "/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+            ],
+            "local-authority:BNH": [  # Brighton and Hove
+                "/planning/planning-policy/city-plan-part-one",
+                "/planning/planning-policy/city-plan-part-two",
+            ],
+            "local-authority:BOS": [  # Bolsover
+                "/services/p/planning-policy/planning-policy-documents/development-plan",
+            ],
+            "local-authority:BRM": [  # Bromsgrove
+                "/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+            ],
+            "local-authority:BUN": [  # Burnley
+                "/planning/planning-policies/burnleys-local-plan/",
+            ],
+            "local-authority:CRW": [  # Crawley
+                "/planning/planning-policy/local-plan/about-local-plan",
+            ],
+            "local-authority:DAC": [  # Dacorum
+                "/planning-development/planning-strategic-planning/new-single-local-plan",
+            ],
+            "local-authority:DAL": [  # Darlington
+                "/planning-and-building-regs/planning/planning-and-environmental-policy/",
+            ],
+            "local-authority:DEB": [  # Derbyshire Dales
+                "/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption",
+            ],
+            "local-authority:DUR": [  # County Durham
+                "/cdp",
+            ],
+            "local-authority:EAL": [  # Ealing
+                "/info/201164/local_plan",
+            ],
+            "local-authority:EAT": [  # Eastleigh
+                "/planning-and-building/planning-policy-and-implementation/local-plan",
+            ],
+            "local-authority:ECA": [  # East Cambridgeshire
+                "/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+            ],
+            "local-authority:ELI": [  # East Lindsey
+                "/localplan2018",
+            ],
+            "local-authority:ENF": [  # Enfield
+                "/services/planning/adopted-plans",
+                "/services/planning/new-enfield-local-plan",
+            ],
+            "local-authority:ERY": [  # East Riding of Yorkshire
+                "/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/",
+            ],
+            "local-authority:GAT": [  # Gateshead
+                "/article/3001/Local-Plan",
+                "/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+            ],
+            "local-authority:GED": [  # Gedling
+                "/resident/planningandbuildingcontrol/planningpolicy/adoptedlocalplanandpolicydocuments/",
+            ],
+            "local-authority:GLO": [  # Gloucester
+                "/planning-development/planning-policy/adopted-development-plan/",
+            ],
+            "local-authority:GRY": [  # Great Yarmouth
+                "/article/2489/Current-Local-Plan",
+            ],
+            "local-authority:HAL": [  # Halton
+                "/Pages/planning/policyguidance/planningplans.aspx",
+            ],
+            "local-authority:HOR": [  # Horsham
+                "/planning/local-plan/read-the-current-local-plan",
+            ],
+            "local-authority:KHL": [  # Kingston upon Hull
+                "/downloads/download/15/local-plan",
+            ],
+            "local-authority:KWL": [  # Knowsley
+                "/planning-and-development/planning-policy/adopted-documents/",
+            ],
+            "local-authority:LUT": [  # Luton
+                "/Page/Show/Environment/Planning/Regional%20and%20local%20planning/Pages/default.aspx",
+            ],
+            "local-authority:MAL": [  # Maldon
+                "/homepage/7031/emerging_local_plan",
+            ],
+            "local-authority:MDB": [  # Middlesbrough
+                "/planning-and-development/planning-policy/publication-local-plan/",
+            ],
+            "local-authority:MIK": [  # Milton Keynes
+                "/planning-and-building/developingmk/planmk",
+            ],
+            "local-authority:NEC": [  # Newcastle-under-Lyme
+                "/planning-policy/current-development-plan",
+            ],
+            "local-authority:NTY": [  # North Tyneside
+                "/residents/planning/planning-policy/local-plan",
+            ],
+            "local-authority:OLD": [  # Oldham
+                "/info/201229/current_local_planning_policy/2934/the_adopted_local_plan_in_oldham",
+            ],
+            "local-authority:PEN": [  # Pendle
+                "/info/20072/planning_policies/273/local_plan",
+            ],
+            "local-authority:POR": [  # Portsmouth
+                "/services/development-and-planning/planning-policy/portsmouth-local-plan/",
+            ],
+            "local-authority:REI": [  # Reigate and Banstead
+                "/info/20271/local_plan",
+                "/info/20271/local_plan/1101/development_plan",
+            ],
+            "local-authority:RUS": [  # Rushcliffe
+                "/planning-growth/planning-policy/local-plan/",
+            ],
+            "local-authority:SLG": [  # Slough
+                "/planning-policy/local-development-plan-slough",
+            ],
+            "local-authority:SND": [  # Sunderland
+                "/article/15978/Core-Strategy-and-Development-Plan",
+            ],
+            "local-authority:STY": [  # South Tyneside
+                "/article/3663/Local-Plan",
+            ],
+            "local-authority:TAN": [  # Tandridge
+                "/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+            ],
+            "local-authority:UTT": [  # Uttlesford
+                "/article/4878/Planning-Policy-and-the-Local-Plan",
+            ],
+            "local-authority:WGN": [  # Wigan
+                "/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
+            ],
+            "national-park-authority:Q27178932": [  # Yorkshire Dales
+                "/park-authority/living-and-working/planning-policy/local-planning-policy-pre-boundary-extension/",
+            ],
+            "national-park-authority:Q4972284": [  # Broads Authority
+                "/planning/planning-policies/local-plan-for-the-broads",
+            ],
+        }
+
+        # Build paths list: council-specific first, then generic
+        paths = []
+
+        # Add council-specific paths if they exist for this organization
+        if org_code and org_code in council_specific_paths:
+            paths.extend(council_specific_paths[org_code])
+
+        # Add generic paths that work for most councils
+        generic_paths = [
+            "/planning",  # Common planning section
+            "/local-plan",
+            "/adopted-local-plan",  # Arun and similar councils with adopted plans
+            "/localplan",
+            "/planning/local-plan",
+            "/planning/planning-policy",
+            "/planning/planningpolicies",
+            "/planning/planning-policies",
+            "/planning/planning-policy/local-plan",
+            "/planning/planning-policy/existing-local-plans",
+            "/planning/policy/local-plan",
+            "/planning-policy/local-plan",
+            "/planning-policy",
+            "/planning-policy-core-strategy",
+            "/planningpolicy",
+            "/planning-and-regeneration/local-plans",
+            "/planning/strategic-planning/local-plan",
+            "/planning/strategic-planning",
+            "/services/planning/planning-policy",
+            "/planning-and-building-control",
+            "/planning-and-building-control/planning-policy",
+            "/planning-applications/planning-policy",
+            "/planning-services/planning-policy",
+            "/emerging-local-plan",  # Emerging/draft plan patterns
             "/emerging-plan",
             "/draft-local-plan",
             "/draft-plan",
             "/new-local-plan",
-            "/local-plan",
-            "/localplan",
-            "/planning/local-plan",
             "/planning/emerging-local-plan",
             "/planning/draft-local-plan",
             "/planning/new-local-plan",
-            "/planning/planning-policy/local-plan",
             "/planning/planning-policy/emerging-local-plan",
-            "/planning-policy/local-plan",
             "/planning-policy/emerging-local-plan",
-            "/planning-policy",
-            "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Variant without .aspx
+            "/lgnl/planning_and_building_control/planning_policy_guidance/local_plan",  # Contensis CMS variant
             "/home/planning-development/planning-strategic-planning",
             "/home/planning-development/planning-strategic-planning/new-local-plan",
-            "/planning/strategic-planning/local-plan",
             "/planning/strategic-planning/emerging-local-plan",
-            "/planning/strategic-planning",
-            "/services/planning/planning-policy",
-            "/planning-and-building-control/planning-policy",
-            "/planning-applications/planning-policy",
-            "/planning-services/planning-policy",
+            "/media",  # Common media storage directory
+            "/media/documents",  # Common document storage paths
+            "/media/downloads",
+            "/media/files",
+            "/media/uploads",
+            "/documents",  # Generic document repositories
+            "/downloads",
+            "/files",
+            "/uploads",
             "",  # Root path
         ]
+
+        # Append generic paths to council-specific ones
+        paths.extend(generic_paths)
 
         urls = []
         for domain in domains:
@@ -404,7 +671,42 @@ class LocalPlanFinder:
                     }
                 )
 
-        return urls
+        # Prepend configured URLs (like from joint-local-plans.json) before generated URLs
+        return configured_urls + urls
+
+    def fetch_page_for_link_extraction(self, url: str) -> Optional[str]:
+        """Fetch page content for link extraction, with Cloudflare bypass support.
+
+        Args:
+            url: URL to fetch
+
+        Returns:
+            HTML content if successful, None otherwise
+        """
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+
+        # Try standard requests first
+        try:
+            response = requests.get(
+                url, headers=headers, timeout=15, allow_redirects=True, verify=False
+            )
+            if response.status_code == 200:
+                return response.text
+            elif response.status_code == 403:
+                # Try cloudscraper for Cloudflare protection
+                try:
+                    scraper = cloudscraper.create_scraper()
+                    response = scraper.get(url, headers=headers, timeout=15, allow_redirects=True)
+                    if response.status_code == 200:
+                        return response.text
+                except Exception:
+                    pass
+        except Exception:
+            pass
+
+        return None
 
     def extract_local_plan_links(self, url: str, html_content: str) -> List[str]:
         """Extract links that likely point to local plan pages.
@@ -773,6 +1075,12 @@ class LocalPlanFinder:
                 or ".doc" in href.lower()
                 or "/downloads/" in href.lower()
                 or "/download/" in href.lower()
+                or "download.cfm" in href.lower()  # ColdFusion download handler
+                or "download.aspx" in href.lower()  # ASP.NET download handler
+                or "download.php" in href.lower()  # PHP download handler
+                or "getfile.aspx" in href.lower()  # ASP.NET file handler
+                or "getdocument.aspx" in href.lower()  # ASP.NET document handler
+                or "viewfile.aspx" in href.lower()  # ASP.NET view/download
                 or "/file/" in href.lower()
                 or "/document/" in href.lower()
                 or "/docs/" in href.lower()
@@ -819,6 +1127,37 @@ class LocalPlanFinder:
                 if normalized_url.startswith("http") and not any(
                     d["url"] == normalized_url for d in doc_links
                 ):
+                    # Filter out URLs that are clearly listing/index pages, not actual documents
+                    # These patterns indicate a page ABOUT documents, not a document itself
+                    listing_page_indicators = [
+                        "/info/",  # Birmingham info pages
+                        "/downloads/" if "/downloads/file/" not in normalized_url else None,  # Generic downloads pages (but keep /downloads/file/)
+                        "-documents",  # Pages listing documents
+                        "_documents",
+                        "/documents/" if not (normalized_url.endswith(".pdf") or "/documents/d/" in normalized_url) else None,  # Documents folders (unless direct PDF or /documents/d/ pattern)
+                        "/planning-policy-plan-making",  # Policy overview pages
+                        "/supplementary-planning-documents-spds" if not normalized_url.endswith(('.pdf', '.doc', '.docx')) else None,  # SPD listing pages
+                    ]
+
+                    # Remove None values
+                    listing_page_indicators = [i for i in listing_page_indicators if i is not None]
+
+                    # Skip if this looks like a listing page
+                    is_listing_page = any(indicator in normalized_url for indicator in listing_page_indicators)
+
+                    # But allow if it's clearly a file
+                    is_clearly_file = (
+                        normalized_url.endswith(('.pdf', '.doc', '.docx'))
+                        or '/downloads/file/' in normalized_url  # Birmingham's file download pattern
+                        or '/documents/d/' in normalized_url  # Mid Suffolk's document pattern
+                        or 'download.cfm?' in normalized_url  # Arun's download handler
+                        or 'download.aspx?' in normalized_url
+                        or 'getfile.aspx?' in normalized_url
+                    )
+
+                    # Skip listing pages unless they're clearly files
+                    if is_listing_page and not is_clearly_file:
+                        continue
 
                     # Classify the document
                     doc_type = self.classify_document_type(normalized_url, link_text)
@@ -837,6 +1176,8 @@ class LocalPlanFinder:
     def fetch_page_content(self, url: str, max_length: int = 50000) -> tuple[str, bool]:
         """Fetch and extract text content from a URL.
 
+        Uses cloudscraper to bypass Cloudflare protection if needed.
+
         Args:
             url: URL to fetch
             max_length: Maximum content length
@@ -848,10 +1189,29 @@ class LocalPlanFinder:
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
             }
-            response = requests.get(
-                url, headers=headers, timeout=15, allow_redirects=True
-            )
-            response.raise_for_status()
+
+            # Try standard requests first
+            try:
+                response = requests.get(
+                    url, headers=headers, timeout=15, allow_redirects=True, verify=False
+                )
+                response.raise_for_status()
+            except requests.exceptions.HTTPError as e:
+                # If we get a 403 (Forbidden), it might be Cloudflare protection - try cloudscraper
+                if e.response.status_code == 403:
+                    print(f"  403 Forbidden - attempting to bypass with cloudscraper", file=sys.stderr)
+                    try:
+                        scraper = cloudscraper.create_scraper()
+                        response = scraper.get(
+                            url, headers=headers, timeout=15, allow_redirects=True
+                        )
+                        response.raise_for_status()
+                        print(f"  Successfully bypassed protection with cloudscraper", file=sys.stderr)
+                    except Exception as cs_error:
+                        print(f"  Cloudscraper also failed: {type(cs_error).__name__}: {cs_error}", file=sys.stderr)
+                        return "", False
+                else:
+                    raise
 
             # Only process HTML content
             content_type = response.headers.get("content-type", "").lower()
@@ -924,7 +1284,7 @@ class LocalPlanFinder:
 
         # Construct likely URLs based on official website and common patterns
         print(f"Constructing likely URLs for {org_name}...", file=sys.stderr)
-        likely_urls = self.construct_likely_urls(org_name, official_website)
+        likely_urls = self.construct_likely_urls(org_name, official_website, org_code)
 
         # Fetch content from likely URLs
         pages_content = []
@@ -947,17 +1307,10 @@ class LocalPlanFinder:
 
                 # Extract local plan links and PDF links from this page
                 try:
-                    response = requests.get(
-                        result["url"],
-                        headers={
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                        },
-                        timeout=15,
-                        allow_redirects=True,
-                    )
-                    if response.status_code == 200:
+                    html_content = self.fetch_page_for_link_extraction(result["url"])
+                    if html_content:
                         links = self.extract_local_plan_links(
-                            result["url"], response.text
+                            result["url"], html_content
                         )
                         print(
                             f"  Found {len(links)} local plan links on this page",
@@ -965,13 +1318,13 @@ class LocalPlanFinder:
                         )
                         discovered_links.update(links)
 
-                        docs = self.extract_document_links(result["url"], response.text)
+                        docs = self.extract_document_links(result["url"], html_content)
                         print(
                             f"  Found {len(docs)} document links on this page",
                             file=sys.stderr,
                         )
                         all_pdf_links.extend(docs)
-                except Exception as e:
+                except Exception:
                     pass
 
                 # Stop after finding 3 successful pages (to leave room for discovered links)
@@ -1002,19 +1355,12 @@ class LocalPlanFinder:
 
                 # Also extract PDFs from discovered pages
                 try:
-                    response = requests.get(
-                        link,
-                        headers={
-                            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-                        },
-                        timeout=15,
-                        allow_redirects=True,
-                    )
-                    if response.status_code == 200:
-                        docs = self.extract_document_links(link, response.text)
+                    html_content = self.fetch_page_for_link_extraction(link)
+                    if html_content:
+                        docs = self.extract_document_links(link, html_content)
                         print(f"  Found {len(docs)} document links", file=sys.stderr)
                         all_pdf_links.extend(docs)
-                except Exception as e:
+                except Exception:
                     pass
 
                 # Stop after we have enough pages total
@@ -1033,6 +1379,28 @@ class LocalPlanFinder:
         print(f"\nTotal pages fetched: {len(pages_content)}", file=sys.stderr)
         print(f"Total document links found: {len(all_pdf_links)}", file=sys.stderr)
 
+        # Prioritize actual file downloads over webpage links
+        def document_priority(doc):
+            """Return priority score (lower is better) for sorting documents."""
+            url = doc['url'].lower()
+            # Highest priority: Direct file downloads
+            if 'download.cfm?' in url or 'download.aspx?' in url or 'getfile.aspx?' in url:
+                return 0
+            if url.endswith('.pdf') or '.pdf?' in url:
+                return 1
+            if url.endswith(('.doc', '.docx')) or '.doc?' in url:
+                return 2
+            if '/downloads/file/' in url or '/documents/d/' in url:
+                return 3
+            # Lower priority: Generic download patterns
+            if '/download/' in url or '/downloads/' in url:
+                return 4
+            # Lowest priority: Everything else
+            return 10
+
+        # Sort documents by priority
+        all_pdf_links.sort(key=document_priority)
+
         # Use Claude to analyze the content and extract information
         print(f"Analyzing content with Claude...", file=sys.stderr)
 
@@ -1045,14 +1413,34 @@ class LocalPlanFinder:
 
         # Add document links summary
         if all_pdf_links:
-            doc_summary = "\n\nDOCUMENTS FOUND (PDF and Word):\n"
+            doc_summary = "\n\n" + "="*80 + "\n"
+            doc_summary += "DOCUMENTS FOUND (Downloadable Files - PDFs, Word Docs, Download Handlers)\n"
+            doc_summary += "⚠️ USE ONLY THESE URLs FOR document-url FIELDS ⚠️\n"
+            doc_summary += "="*80 + "\n"
             for doc in all_pdf_links[:50]:  # Include up to 50 documents
-                doc_summary += f"- {doc['url']}\n  Link text: {doc['text']}\n  Classified as: {doc['document-type']}\n  Found on page: {doc['source-url']}\n"
+                doc_summary += f"\n- URL: {doc['url']}\n"
+                doc_summary += f"  Link text: {doc['text']}\n"
+                doc_summary += f"  Classified as: {doc['document-type']}\n"
+                doc_summary += f"  Found on page: {doc['source-url']}\n"
+            doc_summary += "\n" + "="*80 + "\n"
             content_summary += doc_summary
+
+            # Log first few documents for debugging
+            # print(f"\nFirst 5 documents being sent to Claude:", file=sys.stderr)
+            # for i, doc in enumerate(all_pdf_links[:5], 1):
+            #     print(f"  {i}. {doc['text'][:60]}", file=sys.stderr)
+            #     print(f"     URL: {doc['url']}", file=sys.stderr)
+            #     print(f"     Type: {doc['document-type']}", file=sys.stderr)
 
         prompt = f"""I have searched for local plans for {org_name} and found these pages:
 
 {content_summary}
+
+⚠️⚠️⚠️ CRITICAL INSTRUCTION ⚠️⚠️⚠️
+The page content above may contain URLs to webpages about local plans.
+DO NOT USE THESE URLS - they are webpages, not downloadable files.
+ONLY use URLs from the "DOCUMENTS FOUND" section which contains actual downloadable files.
+Any URL you see in the page content that is NOT in "DOCUMENTS FOUND" is INVALID for document-url fields.
 
 Based on this content, please identify ALL local plans (both adopted and emerging/draft) and provide information about each one. Local Planning Authorities often have multiple local plan documents such as:
 - Core Strategy
@@ -1063,6 +1451,12 @@ Based on this content, please identify ALL local plans (both adopted and emergin
 - Joint Plans with other authorities
 - New/Emerging Local Plans at various stages
 
+⚠️ FINAL REMINDER BEFORE YOU START:
+- For "document-url" fields: ONLY use URLs from "DOCUMENTS FOUND" section above
+- URLs like /supplementary-planning-documents-spds, /supporting-documents, /helaa are WEBPAGES not files
+- If you see a URL in the page content, CHECK if it's in "DOCUMENTS FOUND" before using it
+- If it's NOT in "DOCUMENTS FOUND", do NOT use it for document-url
+
 Return a JSON array where each element represents one local plan document:
 
 [
@@ -1071,7 +1465,7 @@ Return a JSON array where each element represents one local plan document:
         "organisation-name": "{org_name}",
         "reference": "unique identifier for this plan - format: LP-[ORG-REF]-[YEAR] (e.g., LP-DAC-2013, LP-BRX-2020)",
         "documentation-url": "the best URL for this specific local plan document (main page)",
-        "document-url": "the direct URL to the PDF document for this plan (e.g., core strategy PDF, local plan PDF)",
+        "document-url": "MUST be from DOCUMENTS FOUND section - a downloadable file URL (download.cfm, .pdf, etc.)",
         "name": "the full official name of this plan document (e.g., 'Dacorum Core Strategy 2006-2031', 'Dacorum Site Allocations DPD')",
         "status": "one of: draft, regulation-18, regulation-19, submitted, examination, adopted, withdrawn",
         "year": the year this plan was adopted (or year of latest milestone if not adopted, as an integer, e.g., 2013),
@@ -1211,16 +1605,23 @@ IMPORTANT:
 - Include BOTH adopted plans AND emerging/draft plans at various stages
 - Look for status indicators like "adopted", "Regulation 18", "Regulation 19", "consultation", "examination", "submitted", "withdrawn"
 
-DOCUMENTATION-URL (the main page for the plan):
-- The documentation-url should be the MOST SPECIFIC URL for that particular document:
-  * Prefer pages specifically about that local plan (e.g., "/planning/local-plan-2018-2033")
-  * Avoid generic planning section URLs unless that's all that's available
+CRITICAL DISTINCTION - UNDERSTAND THESE TWO DIFFERENT FIELDS:
 
-DOCUMENT-URL (the actual PDF document) - CRITICAL REQUIREMENT:
-- This is the MOST IMPORTANT field - you MUST try VERY HARD to find the main plan document PDF
-- The document-url should be the direct URL to the PDF document itself (not the page about it)
+DOCUMENTATION-URL (the webpage about the plan):
+- This is the HTML webpage that DESCRIBES or LINKS TO the local plan
+- Example: "https://www.arun.gov.uk/adopted-local-plan" (a webpage with information)
+- Example: "https://www.example.gov.uk/planning/local-plan-2018-2033" (a webpage)
+- This is where you FIND the download link, not the download itself
+
+DOCUMENT-URL (the actual downloadable file) - CRITICAL REQUIREMENT:
+⚠️ MANDATORY RULE: You MUST ONLY use URLs from the "DOCUMENTS FOUND" section
+- DO NOT use webpage URLs from the page content
+- DO NOT invent or construct URLs
+- ONLY copy URLs directly from "DOCUMENTS FOUND" list
+- This MUST be a downloadable file URL (PDF, download.cfm, etc.)
+- Example from "DOCUMENTS FOUND": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984"
+- If no suitable file exists in "DOCUMENTS FOUND", use "" (empty string)
 - THOROUGHLY search the "DOCUMENTS FOUND" section above for the main plan document
-- For each local plan, you MUST find its main PDF document if it exists at all
 
 HOW TO FIND THE RIGHT DOCUMENT-URL:
 1. FIRST: Look for documents whose link text exactly matches the plan name
@@ -1248,13 +1649,23 @@ HOW TO FIND THE RIGHT DOCUMENT-URL:
 6. COMMON URL PATTERNS TO RECOGNIZE:
    * Direct PDF links: ending in .pdf
    * Download endpoints: /downloads/file/[ID]/[name]
+   * Download handlers: download.cfm?doc=..., download.aspx?id=..., download.php?file=...
    * Asset storage: /assets/[folder]/[filename].pdf
    * Document repositories: /documents/[ID] or /docs/[name]
 
-7. VALIDATION:
-   * The URL MUST point to an actual downloadable file (PDF, Word doc)
-   * The URL should NOT be a webpage/HTML page about the plan
-   * If in doubt between multiple candidates, choose the one with the most specific name match
+7. HOW TO TELL IF A URL IS A DOWNLOADABLE FILE:
+   * ✅ VALID (these ARE downloadable files):
+     - Ends with: .pdf, .doc, .docx
+     - Contains: download.cfm, download.aspx, download.php, getfile.aspx
+     - Contains: /downloads/, /file/, /assets/
+     - Example: https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984 ✅
+     - Example: https://www.example.gov.uk/assets/local-plan.pdf ✅
+
+   * ❌ INVALID (these are webpages, NOT files):
+     - No file extension and no download handler
+     - Example: https://www.example.gov.uk/local-plan ❌
+     - Example: https://www.example.gov.uk/adopted-local-plan ❌
+     - Example: https://www.example.gov.uk/planning-policy ❌
 
 8. ONLY use "" (empty string) if:
    * You have searched thoroughly through ALL documents in "DOCUMENTS FOUND"
@@ -1262,31 +1673,57 @@ HOW TO FIND THE RIGHT DOCUMENT-URL:
    * The page only describes the plan but has no downloadable documents
 
 EXAMPLES OF CORRECT MATCHING:
+- Plan: "Arun Local Plan" (adopted, 2018)
+  → Documentation URL: "https://www.arun.gov.uk/adopted-local-plan" (the webpage)
+  → Document URL: "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984" (the actual PDF)
+  (Notice: documentation-url is the HTML page, document-url is the downloadable file)
+
 - Plan: "City Plan 2040" (regulation-19)
+  → Documentation URL: "https://www.cityoflondon.gov.uk/planning/city-plan"
   → Document URL: "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf"
   (Matches plan name exactly and is a direct PDF link)
 
 - Plan: "Local Plan 2018-2033" (adopted, 2020)
+  → Documentation URL: "https://www.example.gov.uk/planning/local-plan"
   → Document URL: "https://www.example.gov.uk/downloads/file/1813/local-plan-2018-2033"
   (Matches plan name and period, classified as local-plan)
 
 - Plan: "Core Strategy 2006-2031" (adopted, 2013)
+  → Documentation URL: "https://www.example.gov.uk/planning/core-strategy"
   → Document URL: "https://www.example.gov.uk/planning/core-strategy-2006-2031.pdf"
   (Matches plan type and period)
 
-REMEMBER: The document-url field is MANDATORY - finding the right PDF is your top priority!
+CRITICAL INSTRUCTIONS FOR DOCUMENT-URL:
+1. FIRST PRIORITY: Look for the actual PDF/document download URL in the "DOCUMENTS FOUND" section
+   - These will have URLs ending in .pdf, .doc, .docx
+   - OR URLs containing: download.cfm, download.aspx, download.php, getfile.aspx, /downloads/, /file/
+2. The document-url MUST be a downloadable file URL - NEVER a webpage URL
+3. ONLY use "" (empty string) if you absolutely cannot find ANY downloadable file in "DOCUMENTS FOUND"
 
-DOCUMENTS ARRAY:
+REMEMBER: Finding the right downloadable file URL is your top priority - they ARE in the "DOCUMENTS FOUND" section!
+
+DOCUMENTS ARRAY - CRITICAL RULES:
 - The documents array should contain ALL related documents for this local plan
 - Include documents from the "DOCUMENTS FOUND" section that relate to this specific plan
-- For each document, provide:
 
-DOCUMENT-URL: Use the normalized URL from "DOCUMENTS FOUND" section
+⚠️ MANDATORY RULE FOR DOCUMENT-URL FIELD:
+- You MUST ONLY use URLs that appear in the "DOCUMENTS FOUND" section above
+- DO NOT invent or construct document-url values from the page content
+- DO NOT use webpage URLs you find in the page content
+- ONLY copy-paste URLs from the "DOCUMENTS FOUND" list
+- If no suitable document exists in "DOCUMENTS FOUND", use "" (empty string)
 
-DOCUMENTATION-URL: Use the source page URL from "Found on page" field in "DOCUMENTS FOUND" section
-  * This is the webpage that contains the link to the document
-  * Extract from the "Found on page" field for each document
-  * This helps users understand where the document was discovered and provides context
+For each document in the array, provide:
+
+DOCUMENT-URL:
+  * MUST be copied directly from a URL in the "DOCUMENTS FOUND" section (do not modify it)
+  * This is the downloadable file URL (PDF, download.cfm, etc.)
+  * Example from "DOCUMENTS FOUND": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984"
+
+DOCUMENTATION-URL:
+  * Copy from the "Found on page" field in "DOCUMENTS FOUND" section
+  * This is the HTML webpage that contains the link
+  * Example: "https://www.arun.gov.uk/adopted-local-plan"
 
 DOCUMENT-TYPE: Use the pre-classified type from "DOCUMENTS FOUND" section (already done)
 
@@ -1410,14 +1847,45 @@ Provide ONLY the JSON array response, no other text."""
                 if not isinstance(result, list):
                     result = [result]  # Wrap single object in array
 
-                # Add endpoint field to each document (SHA256 hash of document URL)
+                # Validate and add endpoint field to each document (SHA256 hash of document URL)
                 for plan in result:
+                    # Validate main document-url
+                    if "document-url" in plan and plan["document-url"]:
+                        doc_url = plan["document-url"]
+                        is_likely_webpage = (
+                            not doc_url.endswith(('.pdf', '.doc', '.docx'))
+                            and 'download.cfm' not in doc_url.lower()
+                            and 'download.aspx' not in doc_url.lower()
+                            and 'download.php' not in doc_url.lower()
+                            and 'getfile' not in doc_url.lower()
+                            and '/downloads/file/' not in doc_url.lower()
+                            and '/documents/d/' not in doc_url.lower()
+                            and '.pdf' not in doc_url.lower()
+                        )
+                        if is_likely_webpage:
+                            plan["document-url"] = ""  # Clear invalid URL
+
                     if "documents" in plan and isinstance(plan["documents"], list):
                         for doc in plan["documents"]:
                             if "document-url" in doc:
                                 url = doc["document-url"]
+
+                                # Validate document URL
+                                is_likely_webpage = (
+                                    not url.endswith(('.pdf', '.doc', '.docx'))
+                                    and 'download.cfm' not in url.lower()
+                                    and 'download.aspx' not in url.lower()
+                                    and 'download.php' not in url.lower()
+                                    and 'getfile' not in url.lower()
+                                    and '/downloads/file/' not in url.lower()
+                                    and '/documents/d/' not in url.lower()
+                                    and '.pdf' not in url.lower()
+                                )
+                                if is_likely_webpage:
+                                    doc["document-url"] = ""  # Clear invalid URL
+
                                 endpoint = hashlib.sha256(
-                                    url.encode("utf-8")
+                                    doc["document-url"].encode("utf-8")
                                 ).hexdigest()
                                 doc["endpoint"] = endpoint
 
@@ -1435,12 +1903,42 @@ Provide ONLY the JSON array response, no other text."""
                     # Add endpoint field to each document (SHA256 hash of document URL)
                     result_list = [result]
                     for plan in result_list:
+                        # Validate main document-url
+                        if "document-url" in plan and plan["document-url"]:
+                            doc_url = plan["document-url"]
+                            # Check if it looks like a webpage instead of a downloadable file
+                            is_likely_webpage = (
+                                not doc_url.endswith(('.pdf', '.doc', '.docx'))
+                                and 'download.cfm' not in doc_url.lower()
+                                and 'download.aspx' not in doc_url.lower()
+                                and 'download.php' not in doc_url.lower()
+                                and 'getfile' not in doc_url.lower()
+                                and '/downloads/file/' not in doc_url.lower()
+                                and '.pdf' not in doc_url.lower()
+                            )
+                            if is_likely_webpage:
+                                plan["document-url"] = ""  # Clear invalid URL
+
                         if "documents" in plan and isinstance(plan["documents"], list):
                             for doc in plan["documents"]:
                                 if "document-url" in doc:
                                     url = doc["document-url"]
+
+                                    # Validate document URL
+                                    is_likely_webpage = (
+                                        not url.endswith(('.pdf', '.doc', '.docx'))
+                                        and 'download.cfm' not in url.lower()
+                                        and 'download.aspx' not in url.lower()
+                                        and 'download.php' not in url.lower()
+                                        and 'getfile' not in url.lower()
+                                        and '/downloads/file/' not in url.lower()
+                                        and '.pdf' not in url.lower()
+                                    )
+                                    if is_likely_webpage:
+                                        doc["document-url"] = ""  # Clear invalid URL
+
                                     endpoint = hashlib.sha256(
-                                        url.encode("utf-8")
+                                        doc["document-url"].encode("utf-8")
                                     ).hexdigest()
                                     doc["endpoint"] = endpoint
 
@@ -1512,6 +2010,21 @@ Status values:
         help="Debug mode - test URL fetching without calling Claude API",
     )
 
+    parser.add_argument(
+        "--save-pdfs",
+        dest="save_pdfs",
+        action="store_true",
+        default=True,
+        help="Download and save all PDFs found (default: True)",
+    )
+
+    parser.add_argument(
+        "--no-save-pdfs",
+        dest="save_pdfs",
+        action="store_false",
+        help="Do not download and save PDFs",
+    )
+
     args = parser.parse_args()
 
     # Get API key from environment variable
@@ -1543,7 +2056,7 @@ Status values:
             print(f"Official website: {official_website}", file=sys.stderr)
         print(f"\nTesting URL fetching...\n", file=sys.stderr)
 
-        likely_urls = finder.construct_likely_urls(org_name, official_website)
+        likely_urls = finder.construct_likely_urls(org_name, official_website, args.organisation)
         success_count = 0
 
         discovered_links = set()
@@ -1571,6 +2084,7 @@ Status values:
                         },
                         timeout=15,
                         allow_redirects=True,
+                        verify=False,
                     )
                     if response.status_code == 200:
                         links = finder.extract_local_plan_links(
@@ -1644,36 +2158,39 @@ Status values:
         with open(source_file, "w") as f:
             json.dump(results, f, indent=2)
 
-        # Download all documents
-        print(f"\nDownloading documents...", file=sys.stderr)
-        downloaded = 0
-        skipped = 0
-        failed = 0
+        # Download all documents (if requested)
+        if args.save_pdfs:
+            print(f"\nDownloading documents...", file=sys.stderr)
+            downloaded = 0
+            skipped = 0
+            failed = 0
 
-        for plan in results:
-            if "documents" in plan and isinstance(plan["documents"], list):
-                for doc in plan["documents"]:
-                    doc_url = doc.get("document-url", "")
-                    endpoint = doc.get("endpoint", "")
+            for plan in results:
+                if "documents" in plan and isinstance(plan["documents"], list):
+                    for doc in plan["documents"]:
+                        doc_url = doc.get("document-url", "")
+                        endpoint = doc.get("endpoint", "")
 
-                    if doc_url and endpoint:
-                        result = download_document(doc_url, endpoint)
-                        if result:
-                            if result.get("resource"):
-                                downloaded += 1
+                        if doc_url and endpoint:
+                            result = download_document(doc_url, endpoint)
+                            if result:
+                                if result.get("resource"):
+                                    downloaded += 1
+                                else:
+                                    failed += 1
                             else:
-                                failed += 1
-                        else:
-                            skipped += 1
+                                skipped += 1
 
-                        time.sleep(0.5)  # Be nice to servers
+                            time.sleep(0.5)  # Be nice to servers
 
-        print(f"\n{'='*60}", file=sys.stderr)
-        print(f"Download Summary:", file=sys.stderr)
-        print(f"  Downloaded: {downloaded}", file=sys.stderr)
-        print(f"  Skipped: {skipped}", file=sys.stderr)
-        print(f"  Failed: {failed}", file=sys.stderr)
-        print(f"{'='*60}", file=sys.stderr)
+            print(f"\n{'='*60}", file=sys.stderr)
+            print(f"Download Summary:", file=sys.stderr)
+            print(f"  Downloaded: {downloaded}", file=sys.stderr)
+            print(f"  Skipped: {skipped}", file=sys.stderr)
+            print(f"  Failed: {failed}", file=sys.stderr)
+            print(f"{'='*60}", file=sys.stderr)
+        else:
+            print(f"\nSkipping PDF downloads (--no-save-pdfs flag set)", file=sys.stderr)
 
     # Output JSON to stdout
     print(json.dumps(results, indent=2))

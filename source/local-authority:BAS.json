@@ -1,0 +1,75 @@
+[
+  {
+    "organisation": "local-authority:BAS",
+    "organisation-name": "Bath and North East Somerset Council",
+    "reference": "LP-BAS-2023",
+    "documentation-url": "https://www.bathnes.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Local Plan (Core Strategy, Placemaking Plan and Local Plan Partial Update)",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bathnes.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local planning policy and guidance",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BAS",
+    "organisation-name": "Bath and North East Somerset Council",
+    "reference": "LP-BAS-2027",
+    "documentation-url": "https://www.bathnes.gov.uk/emerging-local-plan",
+    "document-url": "",
+    "name": "Emerging Local Plan 2022-2042",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2022,
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bathnes.gov.uk/emerging-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan Options consultation",
+        "reference": "LP-OPTIONS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bathnes.gov.uk/emerging-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan Reset (Feb 2025)",
+        "reference": "LP-RESET-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bathnes.gov.uk/local-plan-evidence-base-and-supporting-documents",
+        "document-type": "local-plan",
+        "name": "Local Plan Options consultation evidence base and supporting documents",
+        "reference": "LP-EVIDENCE-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bathnes.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Evidence base prepared so far to inform the Spatial Development Strategy",
+        "reference": "SDS-EVIDENCE-2022",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:SAL",
+    "organisation-name": "St Albans City and District Council",
+    "reference": "LP-SAL-2024",
+    "documentation-url": "https://www.stalbans.gov.uk/new-local-plan",
+    "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Reg%2019%20Local%20Plan%20Part%20A.pdf",
+    "name": "St Albans Local Plan 2041",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2025,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Reg%2019%20Local%20Plan%20Part%20A.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan Part A",
+        "reference": "LP-2041-A",
+        "document-status": "examination",
+        "endpoint": "5aa9f8b656be243df877c48bc07ec4f891b71e2603441475ba82bb697ef78700"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Reg%2019%20Local%20Plan%20Part%20B.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "site-allocations",
+        "name": "Draft Local Plan Part B - Site Allocations",
+        "reference": "SA-DPD-2041",
+        "document-status": "examination",
+        "endpoint": "9674fc13c8d15b7f37735fc82f8683f750105954ff2b714c44a7efb01ca45fd6"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Draft%20Policies%20Map%201%20of%204%20(North-West).pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map 1 of 4 (North-West)",
+        "reference": "PM-2041-NW",
+        "document-status": "examination",
+        "endpoint": "eff59d42f6dbb9c5fe2944df4c8d1f41288c2bbfbc30f7d6af7e4caff7311a56"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Draft%20Policies%20Map%202%20of%204%20(North-East).pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map 2 of 4 (North-East)",
+        "reference": "PM-2041-NE",
+        "document-status": "examination",
+        "endpoint": "d930bbfb1168b7d2c8d3cbe46e557278491a3ff99b500dca691693f7d23ec9ec"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Draft%20Policies%20Map%203%20of%204%20(South-West).pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map 3 of 4 (South-West)",
+        "reference": "PM-2041-SW",
+        "document-status": "examination",
+        "endpoint": "11428bda6c511e595bec49f152afaa77c381efef338feba5a825c93db3aa33f7"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/Draft%20Policies%20Map%204%20of%204%20(South-East).pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map 4 of 4 (South-East)",
+        "reference": "PM-2041-SE",
+        "document-status": "examination",
+        "endpoint": "1efafa368a302718dcf13b419a07d8e41a27b0fb393b7a256bde8b7beacf2781"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/St%20Albans%20Local%20Plan%20SA%20-%20SA%20Report%20240924_final.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2024",
+        "document-status": "examination",
+        "endpoint": "94f152e9dcb6a4c40a9edc8bb771dc7c99140104eba4c15b129681cbbe3236a5"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/R19/St%20Albans%20Local%20Plan%20SA%20-%20SA%20Report%20NTS%20240924.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/draft-local-plan-publication",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - Non Technical Summary",
+        "reference": "SA-NTS-2024",
+        "document-status": "examination",
+        "endpoint": "c55bcdd2ae038a6eb88bb8a1e665402a3db00834c2a0563360fda3c742b59fd3"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/SADC%20Local%20Development%20Scheme%20-%20Sep%202024%20-%20Final.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/node/7067",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "7a06822b03a70a50c9379ca5ea2772ac2d20cf584c63a5880f4f9f212c90334e"
+      },
+      {
+        "document-url": "https://www.stalbans.gov.uk/sites/default/files/attachments/Planning%20Policy/Exa/SADCED82%20Stage%202%20Programme%20St%20Albans%20vFinal.pdf",
+        "documentation-url": "https://www.stalbans.gov.uk/news/local-plan-inspectors-provide-dates-second-set-hearings",
+        "document-type": "examination-hearing-statement",
+        "name": "Stage 2 Programme St Albans",
+        "reference": "EHS-2024",
+        "document-status": "examination",
+        "endpoint": "093b185411caeb7f921836ebc336d560ab1aede87ec14d0ffed3eb627efff157"
+      }
+    ]
+  }
+]

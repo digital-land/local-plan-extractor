@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="Committee meetings feed" href="https://www.copeland.gov.uk/feed-lcm" />
+<link rel="shortcut icon" href="https://www.copeland.gov.uk/sites/default/files/favicon_0_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Copeland Local Plan 2021-2039 Document" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.copeland.gov.uk/attachments/copeland-local-plan-document" />
+<link rel="shortlink" href="https://www.copeland.gov.uk/node/52533" />
+    <meta name="google-translate-customization" content="83247f3f0c772dee-51d4d6b6fbfaa577-gf8dd597ad41b365c-13"></meta>
+    <title>Copeland Local Plan Document | Copeland Borough Council</title>
+    <style type="text/css" media="all">
+@import url("https://www.copeland.gov.uk/modules/system/system.base.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/system/system.menus.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/system/system.messages.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/system/system.theme.css?t3ecvu");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.copeland.gov.uk/sites/all/modules/calendar/css/calendar_multiday.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/field/theme/field.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/node/node.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/modules/user/user.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/extlink/css/extlink.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/views/css/views.css?t3ecvu");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.copeland.gov.uk/sites/all/modules/colorbox/styles/stockholmsyndrome/colorbox_style.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/ctools/css/ctools.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/panels/css/panels.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/megamenu/megamenu.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/modules/megamenu/megamenu-skins.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/fontawesome/css/fontawesome.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/fontawesome/css/solid.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/fontawesome/css/brands.css?t3ecvu");
+</style>
+<link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sidr/2.2.1/stylesheets/jquery.sidr.light.min.css" media="all" />
+<style type="text/css" media="all">
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/alpha/css/alpha-reset.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/alpha/css/alpha-mobile.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/alpha/css/alpha-alpha.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/formalize.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/omega-text.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/omega-branding.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/omega-menu.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/omega-forms.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/omega/css/omega-visuals.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/css/global.css?t3ecvu");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/css/copeland-design-system-alpha-default.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/copeland_design_system/css/copeland-design-system-alpha-default-normal.css?t3ecvu");
+@import url("https://www.copeland.gov.uk/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?t3ecvu");
+</style>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=false;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery && window.jQuery.migrateWarnings || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery-migrate/1.4.1/jquery-migrate.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.copeland.gov.uk/sites/default/files/js/js_GOikDsJOX04Aww72M-XK1hkq4qiL_1XgGsRdkL0XlDo.js"></script>
+<script type="text/javascript" src="https://www.copeland.gov.uk/sites/default/files/js/js_yh5UCVcoXQ-J9TySGiYoU4RRSCACjOhBXZCCkey8UxQ.js"></script>
+<script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-127159291-1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-127159291-1", {"groups":"default","anonymize_ip":true});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.copeland.gov.uk/sites/default/files/js/js_cjHJ0ZEKjurXV-SwvErj9Ks2KnmWzm0yV-ps36t_FRY.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/sidr/2.2.1/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="https://www.copeland.gov.uk/sites/default/files/js/js_43n5FBy8pZxQHxPXkf-sQF7ZiacVZke14b0VlvSA554.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"copeland_design_system","theme_token":"f-47A88DeXPlN6P6roaPdwJZ1BAyELqqVEt_z0xbNr4","js":{"\/\/code.jquery.com\/jquery-1.12.4.min.js":1,"0":1,"1":1,"\/\/code.jquery.com\/jquery-migrate-1.4.1.min.js":1,"2":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/megamenu\/megamenu.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-127159291-1":1,"3":1,"misc\/tableheader.js":1,"sites\/all\/modules\/extlink\/js\/extlink.js":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/sidr\/2.2.1\/jquery.sidr.min.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/css\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/colorbox\/styles\/stockholmsyndrome\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/megamenu\/megamenu.css":1,"sites\/all\/modules\/megamenu\/megamenu-skins.css":1,"sites\/all\/themes\/copeland_design_system\/fontawesome\/css\/fontawesome.css":1,"sites\/all\/themes\/copeland_design_system\/fontawesome\/css\/solid.css":1,"sites\/all\/themes\/copeland_design_system\/fontawesome\/css\/brands.css":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/sidr\/2.2.1\/stylesheets\/jquery.sidr.light.min.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/all\/themes\/copeland_design_system\/css\/global.css":1,"normal::sites\/all\/themes\/copeland_design_system\/css\/copeland-design-system-alpha-default.css":1,"normal::sites\/all\/themes\/copeland_design_system\/css\/copeland-design-system-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px","file_public_path":"\/sites\/default\/files","specificPagesDefaultValue":"admin*\nimagebrowser*\nimg_assist*\nimce*\nnode\/add\/*\nnode\/*\/edit\nprint\/*\nprintpdf\/*\nsystem\/ajax\nsystem\/ajax\/*"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"megamenu":{"timeout":"200","sizewait":"250","hoverwait":"0"},"googleanalytics":{"account":["UA-127159291-1"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"extlink":{"extTarget":0,"extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extIconPlacement":0,"extSubdomains":1,"extExclude":"spoxy4\\.insipio\\.com|(.*\\.copeland\\.gov\\.uk)","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)","extUseFontAwesome":false},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+  <script>
+    var config = {
+      apiKey: '44ead222e0e636a54a0719f41e6bcfd14169780a',
+      product: 'PRO_MULTISITE',
+      initialState: 'open',
+      optionalCookies: [
+        {
+          name : 'analytics',
+          label: 'Analytical Cookies',
+          description: 'Analytical cookies help us to improve our website by collecting and reporting information on its usage.',
+          cookies: ['_ga', '_gid', '_gat', '__utma', '__utmt', '__utmb', '__utmc', '__utmz', '__utmv'],
+          onAccept : function(){
+            // Add Google Analytics
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-127159291-1', 'auto');
+            ga("set", "anonymizeIp", true);
+            ga('send', 'pageview');
+            // End Google Analytics
+          },
+          onRevoke: function(){
+            // Disable Google Analytics
+            window['ga-disable-UA-127159291-1'] = true;
+            // End Google Analytics
+          }
+        },
+      ],
+
+      position: 'LEFT',
+      theme: 'LIGHT'
+    };
+
+    CookieControl.load( config );
+  </script>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-52533 node-type-attachment context-attachments">
+<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+
+<!-- Add background & overlay by taxonomy value -->
+
+<div id="ready-img"><img src="/misc/standard-background.jpg" alt="Background" /></div><div id="set-img"><img src="/misc/standard-background-overlay.png" alt="Background" /></div>
+<div class="page clearfix" id="page">
+    <div class="header-wrap">
+        <a class="menu-hamburger" href="#sidr" title="Open mobile menu">
+            <span class="element-invisible">Open mobile menu</span>
+            <i class="fas fa-bars"></i>
+        </a>
+        <header id="section-header" class="section section-header">
+  <div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="https://cumberland.gov.uk/" rel="home" title="Cumberland Council"><span class="for-screen-readers">Go to Cumberland Council home page</span><img src="https://www.copeland.gov.uk/sites/default/files/logo_2_0.png" alt="Cumberland Council" id="logo" /></a>        <div class="service-name"><a href="/" id="service-name-link">Copeland</a></div>
+      </div>
+                        <hgroup class="site-name-slogan">
+                                <h2 class="site-name"><a href="/" title="Home">Copeland Borough Council</a></h2>
+                              </hgroup>
+          </div>
+            <div class="search-api-pages-search-form">
+        <form action="https://www.cumberland.gov.uk/search" method="get" accept-charset="UTF-8">
+          <div>
+              <div class="form-item form-type-textfield form-item-keys-10" role="search">
+                  <label class="element-invisible" for="edit-keys-10">Enter your keywords </label>
+                  <input placeholder="Keyword search, e.g. Council tax or planning" aria-expanded="true"
+                      class="auto_submit form-text form-autocomplete" type="text" name="s" value=""
+                      size="15" maxlength="128" autocomplete="OFF" aria-autocomplete="list" role="combobox">
+              </div>
+              <input type="submit" name="op" value="Search" class="form-submit">
+          </div>
+      </form>
+    </div>
+  </div>
+</div>
+  </div>
+</div></header>    </div>
+
+    <div id="sidr">
+        <a class="mobile-menu__close" href="#" title="Close mobile menu"><span class="element-invisible">Close mobile menu</span> <i class="fas fa-times"></i></a>
+
+        <ul>
+            <li>
+                <a class="additional-service-mobile__link" href="/">
+                    <span class="additional-service-mobile__icon"><i class="fas fa-home"></i></span>
+                    <span class="additional-service-mobile__link__text">Home</span>
+                </a>
+            </li>
+            <li>
+                <span class="additional-service-mobile__link">
+                    <span class="additional-service-mobile__icon"><i class="fas fa-concierge-bell"></i></span>
+                    <span class="additional-service-mobile__link__text">Services</span>
+                </span>
+            </li>
+
+            <li>
+                <ul>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.cumberland.gov.uk/about-shadow-authority-cumberland-council" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-building"></i></span>
+                            <span class="additional-service-mobile__title">Shadow Authority Cumberland Council</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="bereavement-services" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-hands-helping"></i></span>
+                            <span class="additional-service-mobile__title">Bereavement services</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="recycling-and-waste" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-recycle"></i></span>
+                            <span class="additional-service-mobile__title">Recycling and waste</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="environmental-health-0" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-medkit"></i></span>
+                            <span class="additional-service-mobile__title">Environmental health and flooding</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="housing" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-home"></i></span>
+                            <span class="additional-service-mobile__title">Housing</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="licensing" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-file-contract"></i></span>
+                            <span class="additional-service-mobile__title">Licensing</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/local-land-charge-searches" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-info-circle"></i></span>
+                            <span class="additional-service-mobile__title">Land charges</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="planning" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-archive"></i></span>
+                            <span class="additional-service-mobile__title">Planning</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="car-parks" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-car"></i></span>
+                            <span class="additional-service-mobile__title">Car parks</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="building-control" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-city"></i></span>
+                            <span class="additional-service-mobile__title">Building control</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/markets" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-store"></i></span>
+                            <span class="additional-service-mobile__title">Markets</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/parks-open-spaces-and-footway-lighting" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-tree"></i></span>
+                            <span class="additional-service-mobile__title">Parks, open spaces and footway lighting</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/enforcement-and-stray-dogs" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-dog"></i></span>
+                            <span class="additional-service-mobile__title">Enforcement and stray dogs</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.better.org.uk/" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-swimmer"></i></span>
+                            <span class="additional-service-mobile__title">Sport and leisure</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://westernlakedistrict.com/" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-hiking"></i></span>
+                            <span class="additional-service-mobile__title">Tourism and visitor information</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="regeneration-projects" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-store-alt"></i></span>
+                            <span class="additional-service-mobile__title">Regeneration projects</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/social-inclusion" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-hands"></i></span>
+                            <span class="additional-service-mobile__title">Social inclusion</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/local-government-reform-information" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-info-circle"></i></span>
+                            <span class="additional-service-mobile__title">Local Government Reorganisation</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="elections" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-vote-yea"></i></span>
+                            <span class="additional-service-mobile__title">Elections</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/jobs-and-careers" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-user-tie"></i></span>
+                            <span class="additional-service-mobile__title">Jobs and vacancies</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="copelands-councillors-and-mp" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-user"></i></span>
+                            <span class="additional-service-mobile__title">Councillors</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://copeland.moderngov.co.uk/mgListCommittees.aspx" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-file-invoice"></i></span>
+                            <span class="additional-service-mobile__title">Committees, agendas and minutes</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="consultations-governance-policies-and-finance" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-wallet"></i></span>
+                            <span class="additional-service-mobile__title">Consultations, governance, policies and finance</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="complaints-comments-and-compliments" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-comments"></i></span>
+                            <span class="additional-service-mobile__title">Give feedback</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/copeland-peoples-panel-climate-change" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-leaf"></i></span>
+                            <span class="additional-service-mobile__title">Climate Action Plan</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/visitor-economy" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-bed"></i></span>
+                            <span class="additional-service-mobile__title">Visitor economy</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/welcome-back-campaign" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-door-open"></i></span>
+                            <span class="additional-service-mobile__title">Welcome Back campaign</span>
+                        </a>
+                    </li>
+                                    <li class="additional-service-mobile">
+                        <a class="additional-service-mobile__link" href="https://www.copeland.gov.uk/attachments/chest-procurement-portal" target="0">
+                            <span class="additional-service-mobile__icon"><i class="fas fa-file-contract"></i></span>
+                            <span class="additional-service-mobile__title">The Chest Procurement Portal</span>
+                        </a>
+                    </li>
+                                </ul>
+            </li>
+        </ul>
+    </div>
+<div class="message-area">
+    <div class="container-12">
+    <h2 class="message-area__title">For the latest cost of living support</h2>
+      <a class="button button--green button--arrow message-area__button" href="https://www.copeland.gov.uk/cost-living-crisis-support-resources"><span class="message-area__button__text">Find out more</span><i class="fas fa-angle-right"></i></a>
+  </div>
+  </div>  <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+        
+        <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                          <h1 class="title" id="page-title">Copeland Local Plan Document</h1>
+                              <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+    
+          
+    
+      <article about="/attachments/copeland-local-plan-document" typeof="sioc:Item foaf:Document" class="node node-attachment node-published node-not-promoted node-not-sticky author-gsingleton odd clearfix" id="node-attachment-52533">
+        <span property="dc:title" content="Copeland Local Plan Document" class="rdf-meta element-hidden"></span>
+  <div class="content clearfix">
+    <div class="field field-name-field-archive field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/archive/local-plan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Local Plan</a></div></div></div><div class="field field-name-field-summary field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Copeland Local Plan 2021-2039 Document</p>
+</div></div></div><div class="field field-name-field-attachment field-type-file field-label-hidden"><div class="field-items"><div class="field-item even"><table class="sticky-enabled">
+ <thead><tr><th>Attachment</th><th>Size</th> </tr></thead>
+<tbody>
+ <tr class="odd"><td><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://www.copeland.gov.uk/sites/default/files/attachments/copeland_local_plan.pdf" type="application/pdf; length=5107016">copeland_local_plan.pdf</a></span></td><td>4.87 MB</td> </tr>
+</tbody>
+</table>
+</div></div></div><div class="att_thumb"><a href="/attachments" title="Visit the attachments library"><img src="https://www.copeland.gov.uk/images/att_thumbs/NO_PREVIEW.png" alt="No preview available of copeland_local_plan.pdf" /></a></div>  </div>
+
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+    
+  </div>
+
+</article>
+    </div>
+  </div>
+</div>
+      </div>
+</div>
+  </div>
+</div></section><div class="footer">
+
+  <div class="footer-logos">
+    <div class="container-12">
+      <ul><li><a href="https://thebeacon-whitehaven.co.uk/" target="_blank" title="The Beacon Museum"><img src="/sites/all/themes/copeland_omega/images/beacon_logo_800x600_0.png" alt="The Beacon Museum" width="200" height="96" /></a></li><li><a href="https://www.copeland.gov.uk/copeland-pride-place-campaign" target="_blank" title="Copeland Pride of Place"><img src="/sites/all/themes/copeland_omega/images/Pride_of_Place_logo.png" alt="Copeland Pride of Place" width="200" height="64" /></a></li><li><a href="https://www.facebook.com/Well-Whitehaven-101062654653453/" target="_blank" title="Well Whitehaven"><img src="/sites/all/themes/copeland_omega/images/WellWhitehaven-transparent.png" alt="Well Whitehaven" width="200" height="47" /></a></li><li><a href="https://copelandcommunityfund.co.uk/" target="_blank" title=""><img src="/sites/all/themes/copeland_omega/images/copeland-community-fund.png" alt="Copeland Community Fund" /></a></li><li><a href="https://copeland.workinginpartnership.org.uk/" target="_blank" title=""><img src="/sites/all/themes/copeland_omega/images/WIP-Copeland-Logo.png" alt="Working In Partnershup" /></a></li></ul>    </div>
+  </div>
+
+  <div class="footer-links">
+    <div class="container-12">
+      <ul class="footer-link-items">
+                  <li class="footer-link-item"><a href="https://www.copeland.gov.uk/attachments/privacy-notice-0">Privacy</a></li>
+                  <li class="footer-link-item"><a href="https://www.copeland.gov.uk/terms-and-conditions">Terms and Conditions</a></li>
+                  <li class="footer-link-item"><a href="https://www.copeland.gov.uk/accessibility-statement">Accessibility Statement</a></li>
+              </ul>
+    </div>
+  </div>
+
+  <div class="footer-connect-with-us">
+    <div class="container-12">
+      <ul class="cumbria-social" role="list">
+        <li><a href="https://www.facebook.com/cumberlandcouncil1"><img src="/sites/all/themes/copeland_design_system/images/facebook.svg" alt="Facebook" /></a></li>
+        <li><a href="https://twitter.com/cumberlandcouncil"><img src="/sites/all/themes/copeland_design_system/images/twitter.svg" alt="Twitter" /></a></li>
+        <li><a href="https://www.linkedin.com/company/cumberland-unitary-council/"><img src="/sites/all/themes/copeland_design_system/images/linkedin.svg" alt="LinkedIn" /></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    <div class="container-12">
+      <ul class="footer-link-items">
+        <li class="footer-link-item">© Cumberland Council 2025</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+<!-- <script type="text/javascript" src="/sites/all/themes/copeland_design_system/javascript/twitter.js"></script> -->
+<script src="/sites/all/themes/copeland_design_system/javascript/copeland-custom.js" type="text/javascript"></script>
+</body>
+</html>

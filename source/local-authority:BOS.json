@@ -1,0 +1,152 @@
+[
+  {
+    "organisation": "local-authority:BOS",
+    "organisation-name": "Bolsover District Council",
+    "reference": "LP-BOS-2020",
+    "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+    "document-url": "",
+    "name": "Local Plan for Bolsover District",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan for Bolsover District",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment",
+        "reference": "HRA-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Northern Area",
+        "reference": "PM-NORTH-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Central Area",
+        "reference": "PM-CENTRAL-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Southern Area",
+        "reference": "PM-SOUTH-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://committees.bolsover.gov.uk/documents/s26159/Appendix%201.pdf",
+        "documentation-url": "https://www.bolsover.gov.uk/services/p/planning-policy/planning-policy-documents/development-plan",
+        "document-type": "local-plan-review",
+        "name": "Local Plan for Bolsover District (March 2020) – First Five Year Review Report",
+        "reference": "LPR-2025",
+        "document-status": "adopted",
+        "endpoint": "73139bc630c272647018158a8f46245372346781e01c8d4cb83f4f7d35948e8b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derbyshire County Council",
+    "reference": "LP-DER-2000",
+    "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+    "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-minerals-local-plan-part-one.pdf",
+    "name": "Derby and Derbyshire Minerals Local Plan",
+    "status": "adopted",
+    "year": 2000,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-minerals-local-plan-part-one.pdf",
+        "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Derby and Derbyshire Minerals Local Plan - part one",
+        "reference": "MLP-PART1-2000",
+        "document-status": "adopted",
+        "endpoint": "157a92f6dae58644da5f6ce673793c007b8881ad564a9ba56edf2d2316c73939"
+      },
+      {
+        "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-minerals-local-plan-part-two.pdf",
+        "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Derby and Derbyshire Minerals Local Plan - part 2",
+        "reference": "MLP-PART2-2000",
+        "document-status": "adopted",
+        "endpoint": "cb6568e3222e67e9fc0fab1e2f489684ec6e31aade6bfe9e4a384f78db930997"
+      },
+      {
+        "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/after-use-of-sand-and-gravel-sites.pdf",
+        "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+        "document-type": "local-plan",
+        "name": "After-use of sand and gravel sites",
+        "reference": "SPG-SAND-2004",
+        "document-status": "adopted",
+        "endpoint": "210d9087b238029758f37e2c1c9e56572e937ae85813ebba355fe4d5f6720262"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derbyshire County Council",
+    "reference": "LP-DER-2005",
+    "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+    "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-waste-local-plan.pdf",
+    "name": "Derby and Derbyshire Waste Local Plan",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-waste-local-plan.pdf",
+        "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Derby and Derbyshire Waste Local Plan",
+        "reference": "WLP-2005",
+        "document-status": "adopted",
+        "endpoint": "04650a8760a315260ba945e67a8a6e26419daca3f6a1dae1876e22b82ddd5da0"
+      },
+      {
+        "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-development-scheme.pdf",
+        "documentation-url": "https://www.derbyshire.gov.uk/environment/planning/planning-policy/minerals-waste-development-framework/minerals-and-waste-planning-policy.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals and Waste Development Scheme",
+        "reference": "MWDS-2024",
+        "document-status": "adopted",
+        "endpoint": "535804d977892e24a3248de58a7967f0cc04fbbaeec55aa02c70a52216881392"
+      }
+    ]
+  }
+]

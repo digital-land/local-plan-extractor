@@ -1,0 +1,143 @@
+[
+  {
+    "organisation": "local-authority:BEN",
+    "organisation-name": "London Borough of Brent",
+    "reference": "LP-BEN-2022",
+    "documentation-url": "https://www.brent.gov.uk/localplan",
+    "document-url": "https://www.brent.gov.uk/media/16420376/brent-local-plan-2019-2041.pdf",
+    "name": "Brent Local Plan 2019-2041",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2019,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.brent.gov.uk/media/16420376/brent-local-plan-2019-2041.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Brent Local Plan 2019 - 2041 (adopted)",
+        "reference": "LP-2019-2041",
+        "document-status": "adopted",
+        "endpoint": "0a308f0f10c5b8bab2c369fa9823411fe91eb0f589e754723bc348385e022ff9"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16420357/brent-local-plan-2019-2041-accessible2.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Brent Local Plan 2019 - 2041 (adopted) accessible version",
+        "reference": "LP-2019-2041-ACC",
+        "document-status": "adopted",
+        "endpoint": "903ac65f1ecb3c3848a0a744b76128c9f45063d4b8b00b5d7fb4911591016a1b"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16420110/brent-local-plan-adoption-statement-feb-22.pdf",
+        "documentation-url": "https://www.brent.gov.uk/planning-and-building-control/planning-policy-and-guidance/brent-local-plan/brent-local-plan-2019-2041",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "77b6a8d549cb1628bdaea79f559dfb32b9b4242ee50a73b927324fadbe02c6c2"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16420026/iia-adoption-statement-1.pdf",
+        "documentation-url": "https://www.brent.gov.uk/planning-and-building-control/planning-policy-and-guidance/brent-local-plan/brent-local-plan-2019-2041",
+        "document-type": "local-plan",
+        "name": "Local Plan Integrated Impact Assessment Adoption Report",
+        "reference": "IIA-2022",
+        "document-status": "adopted",
+        "endpoint": "a4659e312da6a987636d083cb56c8628391231e0dfb2a51cb8f842352dae0c87"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16419965/1_brent-lp-inspectors-report-final.pdf",
+        "documentation-url": "https://www.brent.gov.uk/planning-and-building-control/planning-policy-and-guidance/brent-local-plan/brent-local-plan-2019-2041",
+        "document-type": "local-plan",
+        "name": "Planning Inspectors' Report on the Examination of Brent Local Plan 2019-2041",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "5155ba455f3d1a9b251bc8afabdba8876867cbeda2f6bb0459b2f53321a926af"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16419966/2_brent-lp-main-mods-appendix-final_accessible.pdf",
+        "documentation-url": "https://www.brent.gov.uk/planning-and-building-control/planning-policy-and-guidance/brent-local-plan/brent-local-plan-2019-2041",
+        "document-type": "main-modifications",
+        "name": "Appendix – Main Modifications",
+        "reference": "MM-2022",
+        "document-status": "adopted",
+        "endpoint": "2e8a0e54d530bad927eb3456de5bb490463112d3cf0bd15aefb69a2833bcd5cc"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16419969/5_modifications-to-the-policies-map-v6_adoption_accessible.pdf",
+        "documentation-url": "https://www.brent.gov.uk/planning-and-building-control/planning-policy-and-guidance/brent-local-plan/brent-local-plan-2019-2041",
+        "document-type": "policies-map",
+        "name": "Schedule of Policies Map Modifications",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "0494456d9b5df4cc82e76eb84e4eca9cef02b01565c248fb80da6b3c3aa7a1bf"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16420677/local-plan-development-opportunities.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Development Opportunities Booklet",
+        "reference": "LP-BOOKLET-2022",
+        "document-status": "adopted",
+        "endpoint": "22690c58687cdb28bf67aa5c264c9ac83315d9f18395cbe0f8313d094d3ab7f6"
+      },
+      {
+        "document-url": "https://www.brent.gov.uk/media/16418903/statement-of-community-involvement.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2022",
+        "document-status": "adopted",
+        "endpoint": "6d54f737f4fcf7a181befdac27e170820d9b7b6542de381b1a99d083fe566566"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BEN",
+    "organisation-name": "London Borough of Brent",
+    "reference": "LP-BEN-WLWP-2031",
+    "documentation-url": "https://www.brent.gov.uk/localplan",
+    "document-url": "https://www.brent.gov.uk/media/16402581/west-london-waste-plan.pdf",
+    "name": "West London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.brent.gov.uk/media/16402581/west-london-waste-plan.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "West London Waste Plan",
+        "reference": "WLWP-2031",
+        "document-status": "adopted",
+        "endpoint": "610ba7aa55b408308672fc8d8c25149bb6e8c1888088bea3858bd658292e9152"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BEN",
+    "organisation-name": "London Borough of Brent",
+    "reference": "NP-BEN-HAR-2019",
+    "documentation-url": "https://www.brent.gov.uk/localplan",
+    "document-url": "https://www.brent.gov.uk/media/16412964/np-final-may-2019.pdf",
+    "name": "Harlesden Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.brent.gov.uk/media/16412964/np-final-may-2019.pdf",
+        "documentation-url": "https://www.brent.gov.uk/localplan",
+        "document-type": "neighbourhood-plan",
+        "name": "Harlesden Neighbourhood Plan",
+        "reference": "NP-HAR-2019",
+        "document-status": "adopted",
+        "endpoint": "57fd566f51da91a4116dd2d95cbe44c4548f5e1e5551510ec5cf267c5ab8ad17"
+      }
+    ]
+  }
+]

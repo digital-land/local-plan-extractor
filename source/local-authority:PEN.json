@@ -1,0 +1,48 @@
+[
+  {
+    "organisation": "local-authority:PEN",
+    "organisation-name": "Pendle Borough Council",
+    "reference": "LP-PEN-2025",
+    "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
+    "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
+    "name": "Draft Pavement Licensing Policy 2025 - 2030",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
+        "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
+        "document-type": "local-plan",
+        "name": "Draft Pavement Licensing Policy 2025 - 2030",
+        "reference": "LP-2025-2030",
+        "document-status": "draft",
+        "endpoint": "84efdc92becadae247ef238a34b3ec40524d000851d8b0af3a02f1a696891881"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:PEN",
+    "organisation-name": "Pendle Borough Council",
+    "reference": "LP-PEN-DEVELOPMENT",
+    "documentation-url": "https://www.pendle.gov.uk/homepage/133/planning_policy",
+    "document-url": "",
+    "name": "Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.pendle.gov.uk/homepage/133/planning_policy",
+        "document-type": "local-plan",
+        "name": "Development Plan",
+        "reference": "LP-DEV",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

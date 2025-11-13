@@ -25,7 +25,7 @@
         "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Local Plan 2018-2033 Appendix E [containing Indicative Concept Plans]",
-        "reference": "LP-2018-2033-APPENDIX-E",
+        "reference": "LP-APPENDIX-E",
         "document-status": "adopted",
         "endpoint": "864d7410fbdf9d1e3c8646f039fc42bced3b7336fc7b5ac53fe8405f9b030382"
       },
@@ -79,7 +79,7 @@
         "documentation-url": "https://www.broxbourne.gov.uk/localplan",
         "document-type": "supplementary-planning-document",
         "name": "Employment and Skills SPD (November 2023)",
-        "reference": "SPD-EMPLOYMENT-2023",
+        "reference": "SPD-EMP-2023",
         "document-status": "adopted",
         "endpoint": "b22d2e5e529e5e6ec994577cffb2d87ecfc63e12cfac6ef81962c88a587b4043"
       },
@@ -97,12 +97,12 @@
   {
     "organisation": "local-authority:BRX",
     "organisation-name": "Broxbourne Borough Council",
-    "reference": "LP-BRX-2001",
+    "reference": "LP-BRX-2013",
     "documentation-url": "https://www.broxbourne.gov.uk/localplan",
     "document-url": "https://www.broxbourne.gov.uk/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011",
-    "name": "Broxbourne Local Plan 2001-2011",
+    "name": "Full Adopted Local Plan 2001-2011",
     "status": "adopted",
-    "year": 2001,
+    "year": 2013,
     "period-start-date": 2001,
     "period-end-date": 2011,
     "documents": [

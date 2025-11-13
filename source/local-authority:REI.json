@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:REI",
+    "organisation-name": "Reigate and Banstead Borough Council",
+    "reference": "LP-REI-2019",
+    "documentation-url": "https://www.reigate-banstead.gov.uk/info/20271/local_plan",
+    "document-url": "",
+    "name": "Reigate and Banstead Local Plan 2012-2027",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.reigate-banstead.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Local Plan Documents",
+        "reference": "LP-2012-2027",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "organisation": "local-authority:SHO",
+    "organisation-name": "South Holland District Council",
+    "reference": "LP-SHO-2019",
+    "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+    "document-url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483",
+    "name": "South East Lincolnshire Local Plan 2011-2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "South East Lincolnshire Local Plan 2011-2036",
+        "reference": "LP-2011-2036",
+        "document-status": "adopted",
+        "endpoint": "adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21942/Policies-map/pdf/0-Policies-Map.pdf?m=1720710748117",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "d0d5a5a2ddf5c215cbd13351b897d47de3bf44b61c053e99a21d7da2904fa5d0"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/21943/Inset-map-1-Boston/pdf/1-Boston.pdf?m=1720710723367",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset map 1 - Boston",
+        "reference": "IM-BOSTON",
+        "document-status": "adopted",
+        "endpoint": "9bb23f65a5c96b50df32a22cea0bbca040b93b78a0201cba0355bf71f5b38704"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/23782/Inset-Map-2-Spalding-Pinchbeck/pdf/Inset_Map_2_-_Spalding___Pinchbeck.pdf?m=1720710726880",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset Map 2 - Spalding & Pinchbeck",
+        "reference": "IM-SPALDING",
+        "document-status": "adopted",
+        "endpoint": "f5cb131689ff52b9d2d99fda4b49785c51c2c1e08093a2830856e1d502c9ae1e"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/23783/Inset-Map-3-Crowland/pdf/Inset_Map_3_-_Crowland.pdf?m=1720710730600",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset Map 3 - Crowland",
+        "reference": "IM-CROWLAND",
+        "document-status": "adopted",
+        "endpoint": "d55a34e1faca90ef798ba1e8702b5e51d75011404f02537a81c90ba24d009805"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/23784/Inset-Map-4-Donington/pdf/Inset_Map_4_-_Donington.pdf?m=1720710734027",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset Map 4 - Donington",
+        "reference": "IM-DONINGTON",
+        "document-status": "adopted",
+        "endpoint": "497c77b255952fea39b13dfc680b4b519703c1fe3f21dfb22e3e05b4b6566feb"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/23785/Inset-Map-5-Holbeach/pdf/Inset_Map_5_-_Holbeach.pdf?m=1720710738017",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset Map 5 - Holbeach",
+        "reference": "IM-HOLBEACH",
+        "document-status": "adopted",
+        "endpoint": "db0c0127901d6ea803e62bfde56d4ee65dec03b6d7144ece42fffed69c63be91"
+      },
+      {
+        "document-url": "https://southeastlincslocalplan.org/media/23786/Inset-Map-6-Kirton/pdf/Inset_Map_6_-_Kirton.pdf?m=1720710741313",
+        "documentation-url": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+        "document-type": "local-plan",
+        "name": "Inset Map 6 - Kirton",
+        "reference": "IM-KIRTON",
+        "document-status": "adopted",
+        "endpoint": "c1aaeb9ea4f346b03859058ebcf4001440c779cc3df5e15417eacb2871ff54cc"
+      }
+    ]
+  }
+]

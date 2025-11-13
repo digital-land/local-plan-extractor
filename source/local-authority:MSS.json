@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2017",
+    "documentation-url": "https://www.midsussex.gov.uk/planning-building/planning-policy/",
+    "document-url": "",
+    "name": "Mid Sussex District Plan 2014-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2014,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/3879/policy-dp28-accessibility.pdf",
+        "documentation-url": "https://www.midsussex.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "District Plan Policy DP28 - Accessibility",
+        "reference": "LP-DP28",
+        "document-status": "adopted",
+        "endpoint": "cbd26d0e7cf9145eff36c3307a57dbfecae7f7d2fc62e12d9661e5b2c5a8e31f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2021",
+    "documentation-url": "https://www.midsussex.gov.uk/planning-building/planning-policy/",
+    "document-url": "",
+    "name": "District Plan Review 2021-2039",
+    "status": "regulation-18",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/4amnz5uy/lds-january-2024-final.pdf",
+        "documentation-url": "https://www.midsussex.gov.uk/planning-building/consultation-monitoring/",
+        "document-type": "local-development-scheme",
+        "name": "Adopted Local Development Scheme - January 2024",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "f26b6d6f62238562555c183b4438cec04dd2a8732cf9d1c65f254ca648075332"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2022",
+    "documentation-url": "https://www.midsussex.gov.uk/planning-building/development-plan-documents/",
+    "document-url": "",
+    "name": "Site Allocations Development Plan Document",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2008",
+    "documentation-url": "https://www.midsussex.gov.uk/planning-building/development-plan-documents/",
+    "document-url": "",
+    "name": "Small Scale Housing Allocations Development Plan Document",
+    "status": "adopted",
+    "year": 2008,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2004",
+    "documentation-url": "https://www.midsussex.gov.uk/planning-building/local-plan-2004/",
+    "document-url": "",
+    "name": "Mid Sussex Local Plan 2004",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/uezfplbj/amr_2023.pdf",
+        "documentation-url": "https://www.midsussex.gov.uk/planning-building/consultation-monitoring/",
+        "document-type": "authority-monitoring-report",
+        "name": "Monitoring Report 2022-2023",
+        "reference": "AMR-2023",
+        "document-status": "adopted",
+        "endpoint": "346abe266df9d8756d652e6ecd880d8491526335d0ce5360f46dead86cd3288f"
+      },
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/8984/monitoring-report-2021-2022.pdf",
+        "documentation-url": "https://www.midsussex.gov.uk/planning-building/consultation-monitoring/",
+        "document-type": "authority-monitoring-report",
+        "name": "Monitoring Report 2021-2022",
+        "reference": "AMR-2022",
+        "document-status": "adopted",
+        "endpoint": "d55dd80a952ecf3a1eec3f4cfb2a9652e687dbd508e5f3c0df1cd3ecb49dfb7d"
+      },
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/3951/statement-of-community-involvement.pdf",
+        "documentation-url": "https://www.midsussex.gov.uk/planning-building/consultation-monitoring/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2019",
+        "document-status": "adopted",
+        "endpoint": "90ac9e1fc74225904655907d4548bbf08bcf398e7635fd9e57a580930d65902e"
+      }
+    ]
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "organisation": "local-authority:SLG",
+    "organisation-name": "Slough Borough Council",
+    "reference": "LP-SLG-2010",
+    "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+    "document-url": "",
+    "name": "Slough Core Strategy",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "site-allocations",
+        "name": "Site Allocations",
+        "reference": "SA-DPD-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "local-plan",
+        "name": "Local Plan Saved Policies",
+        "reference": "LP-SAVED-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Mineral and Waste Local Plan Policies",
+        "reference": "MWP-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Residential Extension Guidelines (RESPD)",
+        "reference": "SPD-RESPD-2010",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SLG",
+    "organisation-name": "Slough Borough Council",
+    "reference": "LP-SLG-2026",
+    "documentation-url": "https://www.slough.gov.uk/planning-policy/new-local-plan-slough",
+    "document-url": "",
+    "name": "Slough Local Plan 2025-2045",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "The New Local Plan for Slough",
+        "reference": "LP-2025-2045",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Call for Sites for the Local Plan",
+        "reference": "CFS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/new-local-plan-slough/5",
+        "document-type": "local-plan",
+        "name": "Emerging Local Plan – Updates to Planning Committee",
+        "reference": "LP-UPDATES-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

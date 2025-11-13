@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:RDG",
+    "organisation-name": "Reading Borough Council",
+    "reference": "LP-RDG-2019",
+    "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy/local-plan/",
+    "document-url": "https://images.reading.gov.uk/2019/12/Local_Plan_Adopted_November_2019.pdf",
+    "name": "Reading Borough Local Plan 2019-2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2019,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://images.reading.gov.uk/2019/12/Local_Plan_Adopted_November_2019.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2019-2036",
+        "document-status": "adopted",
+        "endpoint": "5a51fe11802b9d5c4d626a0353db096630859aac30c5822ec590872a2443b580"
+      },
+      {
+        "document-url": "https://images.reading.gov.uk/2023/03/Local-Plan-Review-March-2023.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review",
+        "reference": "LPR-2023",
+        "document-status": "adopted",
+        "endpoint": "4ee2beb0de1bffc38944aa4b91cb73de98ab4c8adeb865c37e255aa9cef76889"
+      },
+      {
+        "document-url": "https://images.reading.gov.uk/2019/12/Community-Infrastructure-Levy-Charging-Schedule-January_2015.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan",
+        "name": "Community Infrastructure Levy Charging Schedule",
+        "reference": "CIL-2015",
+        "document-status": "adopted",
+        "endpoint": "1c97e94036b9d9a7b5473eb7147aa25e27da414948b7177df8dda5234026b186"
+      },
+      {
+        "document-url": "https://images.reading.gov.uk/2025/07/Statement-of-Community-Involvement-Adopted-2025.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2025",
+        "document-status": "adopted",
+        "endpoint": "5c9b3d29530d73c8177fc27d266098e401678a49e0e5e883ceece017841e931b"
+      },
+      {
+        "document-url": "https://images.reading.gov.uk/2024/06/Local-Development-Scheme-June-2024.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "0c97e7c97f11e84302846d071d37c72b640f92ca210d0bb382e8f71fa2d55668"
+      },
+      {
+        "document-url": "https://images.reading.gov.uk/2019/12/Sustainability-Appraisal-Scoping-Report-Sep14.pdf",
+        "documentation-url": "https://www.reading.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Scoping Report",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "def33092ec5b043cffc66cbc5eda02116cc28edeac6ac1ef6475d29be7c8c3fa"
+      }
+    ]
+  }
+]

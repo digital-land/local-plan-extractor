@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:HRY",
+    "organisation-name": "London Borough of Haringey",
+    "reference": "LP-HRY-2025",
+    "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Haringey Draft Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.haringey.gov.uk/sites/haringeygovuk/files/2024-11/Draft%20Local%20Plan%20part%201%20-%20Placemaking%20for%20Haringey.pdf",
+        "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Local Plan part 1 - Placemaking for Haringey",
+        "reference": "LP-PT1-2025",
+        "document-status": "consultation",
+        "endpoint": "7cef1e8a60f0418813a79871fed64d72daa0c801e126a8945644be9863c2f3df"
+      },
+      {
+        "document-url": "https://www.haringey.gov.uk/sites/haringeygovuk/files/2024-11/Draft%20Local%20Plan%20part%202%20-%20Neighbourhood%20Policies.pdf",
+        "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Local Plan part 2 - Neighbourhood Policies",
+        "reference": "LP-PT2-2025",
+        "document-status": "consultation",
+        "endpoint": "f790887d9fe15f8428a99d50457b0891b8e8d8cfb558defdeb308395162a173d"
+      },
+      {
+        "document-url": "https://www.haringey.gov.uk/sites/haringeygovuk/files/2024-11/Draft%20Local%20Plan%20part%203%20-%20Borough-Wide%20Policies.pdf",
+        "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Local Plan part 3 - Borough-Wide Policies",
+        "reference": "LP-PT3-2025",
+        "document-status": "consultation",
+        "endpoint": "e652350b136cdd541626da28ac7c63d872845625387ab051d7e2a030cbe42036"
+      },
+      {
+        "document-url": "https://www.haringey.gov.uk/sites/haringeygovuk/files/2024-11/Integrated%20Impact%20Assessment%20draft%20report.pdf",
+        "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Integrated Impact Assessment draft report",
+        "reference": "IIA-2025",
+        "document-status": "consultation",
+        "endpoint": "380a027fdab3c0e557519e7c1a14a666bdd075d50c8a8d7539fe329694de0fcf"
+      },
+      {
+        "document-url": "https://www.haringey.gov.uk/sites/haringeygovuk/files/2024-11/Draft%20Local%20Plan%20Policies%20map.pdf",
+        "documentation-url": "https://www.haringey.gov.uk/newlocalplan",
+        "document-type": "policies-map",
+        "name": "Draft Local Plan Policies map",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "91d894a0af2802dc370452e809bb77865bfb332ce0f663cc4fa2976c6695ba44"
+      }
+    ]
+  }
+]

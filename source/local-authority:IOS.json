@@ -1,0 +1,178 @@
+[
+  {
+    "organisation": "local-authority:IOS",
+    "organisation-name": "Council of the Isles of Scilly",
+    "reference": "LP-IOS-2021",
+    "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/local-plan-2015-2030",
+    "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Website%20Version_0.pdf",
+    "name": "Isles of Scilly Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Website%20Version_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Isles of Scilly Local Plan (2015-2030)",
+        "reference": "LP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "5fdd20511078abcbddf9f2e2ca1f1a7c38422c6b7b4d671afa76372df8ae8747"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Intro%20Chapter_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Cover, Foreword and Introduction",
+        "reference": "LP-INTRO-2015",
+        "document-status": "adopted",
+        "endpoint": "fc326c39656d62cef852ea1ca215e9c59cb3d0c3b837a140d60a49859ec434f8"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Spatial%20Portrait_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Spatial Portrait",
+        "reference": "LP-SPATIAL-2015",
+        "document-status": "adopted",
+        "endpoint": "5f8093a54d2e721429a376fdd293fe49285fdf3fc389b5472ecb1be090f40e89"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Key%20Issues%20and%20Challenges.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Key Issues and Challenges",
+        "reference": "LP-CHALLENGES-2015",
+        "document-status": "adopted",
+        "endpoint": "1deb89295c9d61e29181b382cca462fca63b71a412172a9b3bfc2535aa6a3c98"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Spatial%20Vision%20and%20Strategy.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Spatial Vision and Strategy",
+        "reference": "LP-VISION-2015",
+        "document-status": "adopted",
+        "endpoint": "8a2077ca1d53987427e6af5739412d83b6ff89e819c843257173f5e96f275cd4"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Promoting%20a%20Sustainable%20Scilly.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Promoting a Sustainable Scilly - Policies SS1 - SS10",
+        "reference": "LP-SUSTAINABLE-2015",
+        "document-status": "adopted",
+        "endpoint": "6de3483aec907bb6e1d14a02dbc7b95aaa3196492fa8d8ae200028d95064a147"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Our%20Outstanding%20Environment_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Our Outstanding Environment - Policies OE1 - OE7",
+        "reference": "LP-ENVIRONMENT-2015",
+        "document-status": "adopted",
+        "endpoint": "59153c40ef3b50d5123b58155263a1096b1beca2813b3a81449c7caa904eab4d"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Building%20a%20Strong%20Living%20Community_2.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Building a Strong Living Community - Policies LC1 - LC9",
+        "reference": "LP-LIVING-2015",
+        "document-status": "adopted",
+        "endpoint": "a8a3fd4c11da74e3a4e6cf0763b0af8630a11b7ae27f308fde601decbebf0d28"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Building%20a%20Strong%20Working%20Community.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-plan",
+        "name": "Building a Strong Working Community - Policies WC1 - WC5",
+        "reference": "LP-WORKING-2015",
+        "document-status": "adopted",
+        "endpoint": "b71e92b2e4a0edb52ddb8628680bbec85d08b3770b82d57966435f8999836afd"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Adopted%20Local%20Plan%202015-2030%20Policy%20Maps.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "policies-map",
+        "name": "Policies Map Isles of Scilly",
+        "reference": "PM-2015",
+        "document-status": "adopted",
+        "endpoint": "1a62accc6fd9884565c8e71e37ccfb1dc16dbc698540fa981213e5eaf8934d60"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/Inspectors%20Final%20Report%20and%20appendix_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2021",
+        "document-status": "adopted",
+        "endpoint": "cb02d9e07ed24f35d40268a8444f0d09412bde659a769c4d0fe4b7ca4e001ae8"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/ADOPTION%20STATEMENT.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "ec09ed158e2c4f00a4eaecf49e16faecb312397e24468f859d199213c2b6d111"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/SA%20Adoption%20Statement%20-%20Final.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "sustainability-appraisal",
+        "name": "Final Sustainability Appraisal and Adoption Statement",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "41017993c97c9a7f77cefaecac626ef87fab359df5534d7bc55a68b75a4dd7ee"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/document/planning/UPDATED%20SCI%20June%202024%20FC%20Version_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "statement-of-community-involvement",
+        "name": "UPDATED Statement of Community Involvement June 2024",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "06f701edd87b0450630448c74a7e7e4dd7b24ae0671e044de8cf23065bf81aa0"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/LDS%202024.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/draft-local-plan-2015-2030/adoption-local-plan-2015-2030-regulation-26",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2024",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "9e665160b88be83e7f9dc21729d3eb8e56a1855cb3e9e4f6ffe47a240f3e88cc"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/SHMA%20UPDATE%20Housing%20Need%20July%2019.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/local-plan-2015-2030/archive-preparation-local-plan-2015-2030/local-plan-0",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "2019 Update to 2016 SHMA",
+        "reference": "SHMA-2019",
+        "document-status": "adopted",
+        "endpoint": "91e5e2aee9d2c209216fed19ff780cfeb643b94197e6c8596a706c1a8b48a87c"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/SHMA%20UPDATE%201%20DATA.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/local-plan-2015-2030/archive-preparation-local-plan-2015-2030/local-plan-0",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Data Report",
+        "reference": "SHMA-DATA-2019",
+        "document-status": "adopted",
+        "endpoint": "1ec323118217e72936d9c8616417c0ee742fb095dd689b45d171cd4c64674318"
+      },
+      {
+        "document-url": "https://www.scilly.gov.uk/sites/default/files/planning-apps/SHMA%20UPDATE%202%20Housing%20Need_0.pdf",
+        "documentation-url": "https://www.scilly.gov.uk/planning/planning-policy/local-plan-2015-2030/archive-preparation-local-plan-2015-2030/local-plan-0",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "2018 Update to 2016 SHMA",
+        "reference": "SHMA-2018",
+        "document-status": "adopted",
+        "endpoint": "3869be030e7ffda7f2861d0363d4cc81627e7b62e813e85493dbe22ae45f7ecc"
+      }
+    ]
+  }
+]

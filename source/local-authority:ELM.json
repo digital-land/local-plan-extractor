@@ -1,0 +1,66 @@
+[
+  {
+    "organisation": "local-authority:ELM",
+    "organisation-name": "Elmbridge Borough Council",
+    "reference": "LP-ELM-2015",
+    "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0/current-adopted-development-plan",
+    "document-url": "",
+    "name": "Core Strategy and Development Management Plan",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0",
+        "document-type": "core-strategy",
+        "name": "Core Strategy and Development Management Plan",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0",
+        "document-type": "local-plan-adopted",
+        "name": "Monitoring Data",
+        "reference": "AMR-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ELM",
+    "organisation-name": "Elmbridge Borough Council",
+    "reference": "LP-ELM-2024",
+    "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0/new-local-plan",
+    "document-url": "",
+    "name": "New Local Plan",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0",
+        "document-type": "local-plan",
+        "name": "New Local Plan",
+        "reference": "LP-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

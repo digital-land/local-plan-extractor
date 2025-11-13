@@ -1,0 +1,241 @@
+[
+  {
+    "organisation": "local-authority:NLN",
+    "organisation-name": "North Lincolnshire Council",
+    "reference": "LP-NLN-2003",
+    "documentation-url": "https://www.northlincs.gov.uk/localplan",
+    "document-url": "https://www.northlincs.gov.uk/wp-content/uploads/2024/11/Saved-2003-Local-Plan-Policies-October-2024.pdf",
+    "name": "North Lincolnshire Local Plan",
+    "status": "adopted",
+    "year": 2003,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.northlincs.gov.uk/wp-content/uploads/2024/11/Saved-2003-Local-Plan-Policies-October-2024.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Saved 2003 Local Plan Policies (October 2024)",
+        "reference": "LP-2003-SAVED",
+        "document-status": "adopted",
+        "endpoint": "1650d83ea84de26038c5cd7e9fe1cc4aeef1d8f42daece2d3b968ab80c390dbd"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/localplan/savedpolicies/direction.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Saved Policies Direction and List of Saved Policies (September 2007)",
+        "reference": "LP-SAVED-2007",
+        "document-status": "adopted",
+        "endpoint": "36590d09ae57bd31320dc7323b670dc50f6178985ce12140c4d2b6f1bf7715af"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/localplan/savedpolicies/tranistionpublic.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "List of Deleted Policies (September 2007)",
+        "reference": "LP-DELETED-2007",
+        "document-status": "adopted",
+        "endpoint": "4a8911ce13a4883fb9a9f6f88e811bc00433d220d835291eca91172725c564fc"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/chaptersandindexofpolicies.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapters and index of policies",
+        "reference": "LP-INDEX",
+        "document-status": "adopted",
+        "endpoint": "004a161ab8233ffd7a485ba1c37f48e05b89a97d87666b8e8cc738d429e346c7"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/foreword1.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Foreword",
+        "reference": "LP-FOREWORD",
+        "document-status": "adopted",
+        "endpoint": "05551b6e27e6a1a096618a6769b47ba372ac43be7222c41ecde68c26b60b4940"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/howtousethisdocument2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "How to use this document",
+        "reference": "LP-HOWTO",
+        "document-status": "adopted",
+        "endpoint": "1869903b8b01de9af85e9813c7b3f0b6f4c5f5346124bc86e62ce1c824352ea8"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/introduction2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Introduction",
+        "reference": "LP-INTRO",
+        "document-status": "adopted",
+        "endpoint": "5560bf83564d6240c6a604ccc003f9d0b5064bd59fd8466f55dc6b08ffd8def8"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/aimsandobjectives3.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Aims and objectives",
+        "reference": "LP-AIMS",
+        "document-status": "adopted",
+        "endpoint": "01ed63841dc39e9c841233fc4ab2e4f5b9a9feba7a24c36f05884493121cdebc"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/strategy2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Strategy",
+        "reference": "LP-STRATEGY",
+        "document-status": "adopted",
+        "endpoint": "7a1fe22611f9320ef7144f9205a4f242433e0c828b766b57b9d10719e6cfe067"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/populationandhousing2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Population and housing",
+        "reference": "LP-HOUSING",
+        "document-status": "adopted",
+        "endpoint": "fc0089b5410718dbea47fbaff03329ca642bb6b04005ece7da53a8dd83f69564"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/industryandpopulation.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "neighbourhood-plan",
+        "name": "Industry and employment",
+        "reference": "LP-EMPLOYMENT",
+        "document-status": "adopted",
+        "endpoint": "fddb48d6e1ce461b9f7a29227d70d931ffa0e92f97d52ddd2865f18066028dba"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/ruraldevelopment2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Rural development",
+        "reference": "LP-RURAL",
+        "document-status": "adopted",
+        "endpoint": "1cf48c5030a09e6471f6d11154928ba798486fe10ff364ca5721d57c8a7e4403"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/shoppingandtowncentres2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Shopping and town centres",
+        "reference": "LP-RETAIL",
+        "document-status": "adopted",
+        "endpoint": "fd1863c83d5e57a2febd0d746a88739f02e29e77b976ddc85c5f48fa98a15cd6"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/mixedusedevelopment2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Mixed use development",
+        "reference": "LP-MIXED",
+        "document-status": "adopted",
+        "endpoint": "c817b353f2b43524790d0eada72f360a88567749cbdaa52f084a830a59e0d733"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/transportation2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Transportation",
+        "reference": "LP-TRANSPORT",
+        "document-status": "adopted",
+        "endpoint": "6271cf662ed94c21f9bd4c8d13d7c92916cf0530aef1b0fb819032a55a2fc5d0"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/leisureandrecreation2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Leisure and recreation",
+        "reference": "LP-LEISURE",
+        "document-status": "adopted",
+        "endpoint": "7757f5411a1d5be4371a5e45c3223e520f29e19f82171d96c3e6c8f29c0a8e24"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/communityfacilities2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Community facilities",
+        "reference": "LP-COMMUNITY",
+        "document-status": "adopted",
+        "endpoint": "36141c45faaeb2f9c7631344bca7748fc4b8c0a53b88f2be3d5fcaf4d7653291"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/landscapeandconservation2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Landscape and conservation",
+        "reference": "LP-LANDSCAPE",
+        "document-status": "adopted",
+        "endpoint": "f696e1e13d6a2767d67aabb1a8dae7f0534a13e8b2e3ebe1fd5dbb6d7ebe30e6"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/theironstonegullets2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "The ironstone gullets",
+        "reference": "LP-GULLETS",
+        "document-status": "adopted",
+        "endpoint": "1142750318eaa53bf72f2b228a0484e549dba33f417353cd7645e6faac5527fb"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/thehistoricenvironment.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "The historic environment",
+        "reference": "LP-HERITAGE",
+        "document-status": "adopted",
+        "endpoint": "9719441d67459d45f5b866063f019630a6969fdf8232660f2d6162602b9a896a"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/minerals2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Minerals",
+        "reference": "LP-MINERALS",
+        "document-status": "adopted",
+        "endpoint": "3869a44d3269b67d6ce39f14fb797fee52c59bb5f988a7f0f777f45a98379949"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/waste2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Waste",
+        "reference": "LP-WASTE",
+        "document-status": "adopted",
+        "endpoint": "42cddc49dacd3c191e8d381009fce1d9a8856b3795d575b5b3c74d354f02fc23"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/developmentstandards2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Development standards",
+        "reference": "LP-STANDARDS",
+        "document-status": "adopted",
+        "endpoint": "22894d051b8b1368bfb82a03ca711ddf2df325232d15356e5f171ff5a7a974de"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/monitoringandreview2.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Monitoring and review",
+        "reference": "LP-MONITORING",
+        "document-status": "adopted",
+        "endpoint": "59f4668bf63e13a7f7a66857c1189ffaf90c06d83abbbce8cbf383e578946165"
+      },
+      {
+        "document-url": "https://m.northlincs.gov.uk/planningreports/northlincolnshirelocalplan/proposalsmap.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Proposals map",
+        "reference": "PM-2003",
+        "document-status": "adopted",
+        "endpoint": "97d0b1fc3c4349dae2d01c5f21e2c8514ac4865635508f6289cb9797318e36a1"
+      }
+    ]
+  }
+]

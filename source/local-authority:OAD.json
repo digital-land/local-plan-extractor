@@ -1,0 +1,173 @@
+[
+  {
+    "organisation": "local-authority:OAD",
+    "organisation-name": "Oadby and Wigston Borough Council",
+    "reference": "LP-OAD-2019",
+    "documentation-url": "https://oadby-wigston.gov.uk/pages/borough_local_plan",
+    "document-url": "",
+    "name": "Oadby and Wigston Borough Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:OAD",
+    "organisation-name": "Oadby and Wigston Borough Council",
+    "reference": "LP-OAD-2025",
+    "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+    "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_pre_submission_draft_local_plan_n_january_2025/Regulation%2019%20Pre-Submission%20Draft%20Local%20Plan%20-%20January%202025.pdf",
+    "name": "New Oadby and Wigston Local Plan 2020-2041",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_pre_submission_draft_local_plan_n_january_2025/Regulation%2019%20Pre-Submission%20Draft%20Local%20Plan%20-%20January%202025.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Regulation 19 Pre-Submission Draft Local Plan – January 2025",
+        "reference": "LP-2020-2041",
+        "document-status": "consultation",
+        "endpoint": "e473551d4c719f4ff474156c04697f251cb9020a6bb251b9ea47a3d51eed1031"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_draft_adopted_policies_map_n_january_2025/Regulation%2019%20Draft%20Adopted%20Policies%20Map%20-%20January%202025.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "policies-map",
+        "name": "Regulation 19 Draft Adopted Policies Map – January 2025",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "45cfba2036dfe8a88a9ddb4cf055a85c2b01058f707bfda851de6c9c9bfc0e86"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_sustainability_appraisal_report_n_december_2024/Regulation%2019%20Sustainability%20Report%20-%20December%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Regulation 19 Sustainability Appraisal Report – December 2024",
+        "reference": "SA-2024",
+        "document-status": "consultation",
+        "endpoint": "cb1a087f3c62d00f8ccddfffbd90fbebe160988ee3b57ef5697f205e13109027"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_habitat_regulations_assessment_report_n_november_2024/Regulation%2019%20Habitat%20Regulations%20Assessment%20Report%20-%20November%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Regulation 19 Habitat Regulations Assessment Report – November 2024",
+        "reference": "HRA-2024",
+        "document-status": "consultation",
+        "endpoint": "fe9de8ca219080db0334291c989eb0cfd83a6328bef425e7e9ba73cf2cd0c660"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_statement_of_representation_procedure_and_availability_of_documents_n_january_2025/Regulation%2019%20Statement%20of%20Representation%20Procedure%20and%20Availability%20of%20Documents.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "consultation-statement",
+        "name": "Regulation 19 Statement of Representation Procedure and Availability of Documents – January 2025",
+        "reference": "CS-2025",
+        "document-status": "consultation",
+        "endpoint": "ca9c9acfea2dc43e90ec9fa874ec43b366e2e4457fad023744029b0325858e27"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_18_statement_of_consultation_report_winter_2024/Regulation%2018%20Statement%20of%20Consultation%20Report%20%28Winter%202024%29%20.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "consultation-statement",
+        "name": "Regulation 18 Statement of Consultation Report (Winter 2024)",
+        "reference": "CS-REG18-2024",
+        "document-status": "consultation",
+        "endpoint": "e819f1e1e1c3db263ba2aba562822cffebfa482668b7c82a6fb0ff74316f5923"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_local_plan_equality_impact_assessment_n_december_2024/Regulation%2019%20Equalities%20Impact%20Assessment%20December%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "equalities-impact-assessment",
+        "name": "Regulation 19 Local Plan Equality Impact Assessment – December 2024",
+        "reference": "EIA-2024",
+        "document-status": "consultation",
+        "endpoint": "c4c4bf2c38c9b197f7202b2f02ba3a101c03f1a76daeef3d8a643a8e8e695aed"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_local_plan_health_impact_assessment_n_december_2024/Regulation%2019%20Health%20Impact%20Assessment%20Dec%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "health-impact-assessment",
+        "name": "Regulation 19 Local Plan Health Impact Assessment – December 2024",
+        "reference": "HIA-2024",
+        "document-status": "consultation",
+        "endpoint": "3deca4aa1272dda2c47dd14e3e701e4dd06673137f7a262536efc2ec5db48bb2"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_duty_to_co_operate_statement_n_january_2025/Regulation%2019%20Duty%20to%20Co-operate%20Statement%20%E2%80%93%20January%202025.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "consultation-statement",
+        "name": "Regulation 19 Duty to Co-operate Statement – January 2025",
+        "reference": "DTC-2025",
+        "document-status": "consultation",
+        "endpoint": "fe7751435bd714a021d56e98f4cee7f4d7b9ab2bca708b1c5564581cf2e9ff0f"
+      },
+      {
+        "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_local_plan_faqs_sheet/Regulation%2019%20Local%20Plan%20-%20FAQs%20Sheet%2025.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/newlocalplan",
+        "document-type": "consultation-statement",
+        "name": "Regulation 19 Local Plan FAQs Sheet",
+        "reference": "FAQ-2025",
+        "document-status": "consultation",
+        "endpoint": "edc887b3a3ad0775979d21599726258e18b988702d4bea51fbffe2c8cc0346e1"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/draft_local_plan_reg_18b_preferred_options_document/OWBC%20Reg%2018B%20PO%20Draft%20Local%20Plan%20-%20Spring%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "local-plan-regulation-18",
+        "name": "Draft Local Plan Reg 18B Preferred Options Document",
+        "reference": "LP-REG18B-2024",
+        "document-status": "consultation",
+        "endpoint": "50087804e9bf7c10dbf012ef4fd5cd1b49f6a557622a0d960fb51ce3deee5f86"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/sustainability_appraisal_report_n_march_2024/Sustainability%20Appraisal%20Report%20-%20March%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report – March 2024",
+        "reference": "SA-REG18B-2024",
+        "document-status": "consultation",
+        "endpoint": "ad13c2bc3f743633e895c700f9f948f77eeb58500db49565cd81fd409825ffec"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/habitats_regulations_assessment_screening_report_march_2024/Habitats%20Regulations%20Assessment%20Screening%20Report%20-%20March%202024.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment Screening Report - March 2024",
+        "reference": "HRA-REG18B-2024",
+        "document-status": "consultation",
+        "endpoint": "805ce40e922ae8c874a663bd62448abbb392a08874c7fbf27797d76cce189014"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/regulation_18a_issues_and_options_consultation_draft_2021/Regulation%2018A%20Issues%20and%20Options%20Consultation%20Draft%20%282021%29.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18A Issues and Options Consultation Draft (2021)",
+        "reference": "LP-REG18A-2021",
+        "document-status": "consultation",
+        "endpoint": "1aceaa1ab4ce11371b1960597a82e4f1d3d9e5a41a12e3b25c41ec1432f1daeb"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/sustainability_appraisal_scoping_report_2021/Sustainability%20Appraisal%20Scoping%20Report%20%282021%29.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Scoping Report (2021)",
+        "reference": "SA-SCOPING-2021",
+        "document-status": "consultation",
+        "endpoint": "c875729620eb36897af92c783066a2a7ef8fc94023fc3b8ab4d6899a841b24bc"
+      },
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/local_plan_issues_and_options_regulation_18a_statement_of_consultation/Local%20Plan%20Issues%20and%20Options%20%28Regulation%2018A%29%20Statement%20of%20Consultation.pdf",
+        "documentation-url": "https://oadby-wigston.gov.uk/pages/new_local_plan_progress_so_far",
+        "document-type": "consultation-statement",
+        "name": "Local Plan Issues and Options (Regulation 18A) Statement of Consultation",
+        "reference": "CS-REG18A-2021",
+        "document-status": "consultation",
+        "endpoint": "32146c4529188d6aedc4498a682f11d6adb9a0283c82ae3753fb98e3b587d4e4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "organisation": "local-authority:STN",
+    "organisation-name": "London Borough of Sutton",
+    "reference": "LP-STN-2018",
+    "documentation-url": "https://www.sutton.gov.uk/-/the-local-plan",
+    "document-url": "https://www.sutton.gov.uk/documents/d/guest/sutton-local-plan-2018-",
+    "name": "Sutton Local Plan 2016-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2016,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/sutton-local-plan-2018-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "local-plan",
+        "name": "Sutton Local Plan (2018)",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "c806cf0bf7360eb4ef4616bded8540fb32d3354c6852665a019a61c240636019"
+      },
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/sutton-local-plan-appendix-2018-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "local-plan",
+        "name": "Sutton Local Plan Appendix (2018)",
+        "reference": "LP-APP-2018",
+        "document-status": "adopted",
+        "endpoint": "5d4d4ca1071481681aa175a8f2f7e32571c0c2b399f728c033b6d4365b379a8f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STN",
+    "organisation-name": "London Borough of Sutton",
+    "reference": "LP-STN-2024",
+    "documentation-url": "https://www.sutton.gov.uk/-/localplanreview",
+    "document-url": "https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-",
+    "name": "New Sutton Local Plan 2024-2041",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan Issues and Preferred Options document (2024)",
+        "reference": "LP-IPO-2024",
+        "document-status": "consultation",
+        "endpoint": "5a313db4fc2a59dbf7176aadcb5e0e213f73688cff08779e021d126607a63672"
+      },
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/local-plan-proposed-changes-to-the-policies-map-2024-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "policies-map",
+        "name": "Local Plan Issues and Preferred Options Appendices: Changes to the Policies Map (2024)",
+        "reference": "PM-2024",
+        "document-status": "consultation",
+        "endpoint": "6b24afd4c8abe1a8843fa17ab55709053a18835e6df43c635f4e83176b7b5f5d"
+      },
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/sustainability-appraisal-on-the-issues-and-preferred-options-document-2024-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal on the Local Plan Issues and Preferred Options (2024)",
+        "reference": "SA-2024",
+        "document-status": "consultation",
+        "endpoint": "886f93c140b910f739bf1c697dc2010a99a46b4dfec83301c4d7060a96a5113a"
+      },
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-equalities-impact-assessment-report-2024",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "equalities-impact-assessment",
+        "name": "Local Plan Issues and Preferred Options Equalities Impact Assessment Report 2024",
+        "reference": "EIA-2024",
+        "document-status": "consultation",
+        "endpoint": "22b01834d3d007784e9db91e7bdf0ffcd18751205e3c1fb70dd9d103f5ee362e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STN",
+    "organisation-name": "London Borough of Sutton",
+    "reference": "LP-STN-2022",
+    "documentation-url": "https://www.sutton.gov.uk/-/the-local-plan",
+    "document-url": "https://www.sutton.gov.uk/documents/d/guest/south-london-waste-plan-2022-",
+    "name": "South London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sutton.gov.uk/documents/d/guest/south-london-waste-plan-2022-",
+        "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
+        "document-type": "local-plan",
+        "name": "South London Waste Plan (2022)",
+        "reference": "SLWP-2022",
+        "document-status": "adopted",
+        "endpoint": "343eb40b1b29cafb24ae5e9d622534468985ca3169839fd70dfbafad6bbc5509"
+      }
+    ]
+  }
+]

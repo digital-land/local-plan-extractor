@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:NBL",
+    "organisation-name": "Northumberland County Council",
+    "reference": "LP-NBL-2016",
+    "documentation-url": "https://www.northumberland.gov.uk/planning-and-building/planning-policy",
+    "document-url": "",
+    "name": "Northumberland Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northumberland.gov.uk/planning-and-building/planning-policy",
+        "document-type": "neighbourhood-plan",
+        "name": "Northumberland Local Plan 2016-2036",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northumberland.gov.uk/planning",
+        "document-type": "neighbourhood-plan",
+        "name": "Studies, evidence, reports and guidance",
+        "reference": "SERG-2016",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northumberland.gov.uk/planning",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Land and premises",
+        "reference": "LP-ASSESS-2016",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

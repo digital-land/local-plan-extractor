@@ -1,0 +1,252 @@
+[
+  {
+    "organisation": "local-authority:TFW",
+    "organisation-name": "Telford & Wrekin Council",
+    "reference": "LP-TFW-2018",
+    "documentation-url": "https://www.telford.gov.uk/localplan",
+    "document-url": "https://www.telford.gov.uk/media/zvodresh/telford_and_wrekin_local_plan_2011_2031_adopted_jan_2018.pdf",
+    "name": "Telford & Wrekin Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.telford.gov.uk/media/zvodresh/telford_and_wrekin_local_plan_2011_2031_adopted_jan_2018.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Adopted Telford & Wrekin Local Plan 2011 - 2031",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "4f29206e9ce5a76d832c9d80fd83cacefbc9e35b09a304a2efa425cfefaf6856"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/zquj51mv/twlp_adoption_statement_240118_final.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement Telford & Wrekin Local Plan 2011 - 2031",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "7d893f3d1c49e8ed26d4f6452539fc66c9adfbe7554ce95bd058fd5b3b98daea"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/vrcfc2up/twc_lp_policies_map_boroughwide.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Adopted Telford & Wrekin Local Plan 2011 - 2031 Policies Map - Borough Wide",
+        "reference": "PM-BOROUGH-2018",
+        "document-status": "adopted",
+        "endpoint": "29f1043c73b25be4887973f80be5cc8ebf20631773cdd72eddb56da250bf9fad"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/gyddxhpl/twc_lp_policies_map_telford_final.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Adopted Telford & Wrekin Local Plan 2011 - 2031 Policies Map - Telford",
+        "reference": "PM-TELFORD-2018",
+        "document-status": "adopted",
+        "endpoint": "2dde049538f2c483330588da1265c3d63f328c4705befb5bf3f156f75022d9ab"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/h1skbted/twlp_sa_sea_adoption_statement_12012018.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Assessment (SA) / Strategic Environmental Assessment (SEA) Adoption Statement",
+        "reference": "SA-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "a8c66a1d42b42fc481d543853d9be00b2e54ee80ee3d37616643c5abc0f9594d"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/rdajyr4o/a3__twlp_intergrated_appraisal___submission_version.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Appraisal",
+        "reference": "IA-2016",
+        "document-status": "examination",
+        "endpoint": "5f9535dcbb8f387d8d5facdbd664044012b0178a591bfa3060345507a7b86fee"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/bl3nwit1/a3a_twlp_ia_appendices___submission_version.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Integrated Appraisal appendices",
+        "reference": "IA-APP-2016",
+        "document-status": "examination",
+        "endpoint": "ec300c8a183ea9069ad6b61b988e25ded2cbeac5835e28ab320f81e6145ba5be"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/xwpbhrqm/l2_twlp_2011_2031___integrated_appraisal_addendum_report_july_2017.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Integrated Appraisal - Sustainability Appraisal Addendum Report",
+        "reference": "SA-ADD-2017",
+        "document-status": "examination",
+        "endpoint": "2257d93c86db740539421fdbb5bc79668d34a9a941fb03d1be8662ca2da3fe10"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/bhbjrv0m/a4__twlp_hra_screening_report___submission_version.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment Screening Report",
+        "reference": "HRA-2016",
+        "document-status": "examination",
+        "endpoint": "e4b30a38fa5efe63eee139e8962fc0eb47b454790054da8423390447b408c904"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/ayrj05ho/report_on_the_examination_of_the_twlp_2011_2031_and_mm_appendix.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Inspectors Report",
+        "reference": "IR-2017",
+        "document-status": "examination",
+        "endpoint": "1e456db43fd7297b7fbc06102331f616ed542b5bb5629d37a92d785cb558bf6f"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/1zed3idw/a1_telford_and_wrekin_local_plan_2011_2031___submission_version_low_res.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan-submission",
+        "name": "Telford & Wrekin Local Plan 2011-2031 - Submission Version",
+        "reference": "LP-SUB-2016",
+        "document-status": "examination",
+        "endpoint": "af55554f8c2d4bfa65b4e0e3cf0326133dd523e76957b1f8ce1b17cc81cf0c85"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/fzvnh5og/a5a_twlp_regulation_19_consultation_statement_april_2016.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Telford & Wrekin Local Plan - Regulation 19 Statement of Consultation - 1 February to 15 March 2016",
+        "reference": "CS-R19-2016",
+        "document-status": "consultation",
+        "endpoint": "4303e5a8797abdd02a61f6b9b002ae7a3e19acf3798e71bfb49ae4388d3d6b52"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/pxokzxmc/a5b_twlp_regulation_18_consultation_statement_january_2016.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Telford & Wrekin Local Plan - Regulation 18 Statement of Consultation - 3 August to 26 September 2015",
+        "reference": "CS-R18-2016",
+        "document-status": "consultation",
+        "endpoint": "62cf8f4faf9f25e6a094ceb2b7579f6d7ef7a597196b5f5d967cd56d3a007350"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/3concd2h/a6_twlp___duty_to_cooperate_statement.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Telford & Wrekin Local Plan - Duty to Co-operate Statement",
+        "reference": "DTC-2016",
+        "document-status": "examination",
+        "endpoint": "379729bb8383c3facb3b030ac148e51dfea9fc8508fee6620275f6069f6d4c39"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/iwxjfrg5/a7_twc_statement_of_community_involvement_in_planning_2012.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Telford & Wrekin Council Statement Of Community Involvement in Planning 2012",
+        "reference": "SCI-2012",
+        "document-status": "adopted",
+        "endpoint": "1689e732c392bb0570fa5d4f4454d6d0ef1c7e8e2e5a75cafc23eab1f4b1a68b"
+      },
+      {
+        "document-url": "https://www.telford.gov.uk/media/rlklwnjp/b2c_technical_paper___housing_delivery_appendix_c.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "site-allocations",
+        "name": "Technical Paper - Housing Delivery Appendix C Site Assessment Forms",
+        "reference": "SA-FORMS-2016",
+        "document-status": "examination",
+        "endpoint": "ff6722da661daaabc2678616bb3092c2e72070ca69c6f4ce28afddca6ece2bf0"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TFW",
+    "organisation-name": "Telford & Wrekin Council",
+    "reference": "LP-TFW-2007",
+    "documentation-url": "https://www.telford.gov.uk/localplan",
+    "document-url": "https://www.telford.gov.uk/media/fn3cvxbg/twc_pc_corestrategydevelopmentplandocumentadopteddec2007.pdf",
+    "name": "Core Strategy 2007",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.telford.gov.uk/media/fn3cvxbg/twc_pc_corestrategydevelopmentplandocumentadopteddec2007.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy (2007)",
+        "reference": "CS-2007",
+        "document-status": "adopted",
+        "endpoint": "216cecd1d7f2e6b6842e7c3bf954a9ad6556f93130efac5677bcfd581b8e2315"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TFW",
+    "organisation-name": "Telford & Wrekin Council",
+    "reference": "LP-TFW-2011",
+    "documentation-url": "https://www.telford.gov.uk/localplan",
+    "document-url": "https://www.telford.gov.uk/media/i4sdegyu/ctaap_final_resized.pdf",
+    "name": "Central Telford Area Action Plan 2011",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.telford.gov.uk/media/i4sdegyu/ctaap_final_resized.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "area-action-plan",
+        "name": "Central Telford Area Action Plan (2011) - saved policies",
+        "reference": "AAP-CTAAP-2011",
+        "document-status": "adopted",
+        "endpoint": "58998b409ceebfeb9f5cd8ba408db13adec16ac970b0af40f6b2b5b757d293de"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TFW",
+    "organisation-name": "Telford & Wrekin Council",
+    "reference": "LP-TFW-2000",
+    "documentation-url": "https://www.telford.gov.uk/localplan",
+    "document-url": "https://www.telford.gov.uk/media/zvpllupr/twc_pc_shropshireandtelfordandwrekinmineralsmineralslocalplan_savedpolicies_11_2007.pdf",
+    "name": "Shropshire and Telford & Wrekin Minerals Local Plan 2000",
+    "status": "adopted",
+    "year": 2000,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.telford.gov.uk/media/zvpllupr/twc_pc_shropshireandtelfordandwrekinmineralsmineralslocalplan_savedpolicies_11_2007.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Shropshire and Telford & Wrekin Minerals Local Plan (2000) - saved policies",
+        "reference": "MLP-2000",
+        "document-status": "adopted",
+        "endpoint": "3b68549091343a2f75aba300a29bf02022c516b12830023125a814caa1ce5150"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TFW",
+    "organisation-name": "Telford & Wrekin Council",
+    "reference": "LP-TFW-2002",
+    "documentation-url": "https://www.telford.gov.uk/localplan",
+    "document-url": "https://www.telford.gov.uk/media/34eataxh/twc_pc_jointsavedstructure.pdf",
+    "name": "Shropshire and Telford & Wrekin Joint Structure Plan 2002",
+    "status": "adopted",
+    "year": 2002,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.telford.gov.uk/media/34eataxh/twc_pc_jointsavedstructure.pdf",
+        "documentation-url": "https://www.telford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Shropshire and Telford & Wrekin Joint Structure Plan (2002) - saved policies",
+        "reference": "JSP-2002",
+        "document-status": "adopted",
+        "endpoint": "0d52dddc90853e373bd4d12f164bfe2fe761951e5ff736bf3fd874ae1fb99ab6"
+      }
+    ]
+  }
+]

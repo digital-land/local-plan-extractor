@@ -1,0 +1,84 @@
+[
+  {
+    "organisation": "local-authority:HAS",
+    "organisation-name": "Hastings Borough Council",
+    "reference": "LP-HAS-2025",
+    "documentation-url": "https://www.hastings.gov.uk/planning/policy/new-local-plan/",
+    "document-url": "",
+    "name": "Draft New Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "local-plan",
+        "name": "Draft New Local Plan",
+        "reference": "LP-DRAFT-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAS",
+    "organisation-name": "Hastings Borough Council",
+    "reference": "LP-HAS-ADOPTED",
+    "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/",
+    "document-url": "",
+    "name": "Current Adopted Local Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "local-plan-adopted",
+        "name": "Current adopted Local Plan and guidance",
+        "reference": "LP-ADOPTED",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "local-plan",
+        "name": "Adopted guidance",
+        "reference": "AG-CURRENT",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "local-plan",
+        "name": "The Adopted Local List of Heritage Assets",
+        "reference": "ALHA-CURRENT",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "local-plan",
+        "name": "Local Plan monitoring",
+        "reference": "LPM-CURRENT",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/",
+        "document-type": "conservation-area-appraisal",
+        "name": "Draft Conservation Area Appraisals",
+        "reference": "CAA-DRAFT",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

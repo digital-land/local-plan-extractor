@@ -1,0 +1,107 @@
+[
+  {
+    "organisation": "local-authority:KIR",
+    "organisation-name": "Kirklees Council",
+    "reference": "LP-KIR-2019",
+    "documentation-url": "https://www.kirklees.gov.uk/localplan",
+    "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-plan-strategy-and-policies.pdf",
+    "name": "Kirklees Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-plan-strategy-and-policies.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Kirklees Local Plan strategy and policies - Adopted 27 February 2019",
+        "reference": "LP-STRATEGY-2019",
+        "document-status": "adopted",
+        "endpoint": "5a276c9bb4d665d0457a7ffb4f6ae73ea59910dce8106113007d8a35fafae343"
+      },
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-plan-allocations-and-designations.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Kirklees Local Plan allocations and designations - Adopted 27 February 2019",
+        "reference": "LP-ALLOCATIONS-2019",
+        "document-status": "adopted",
+        "endpoint": "48e60c7ac75cc9d8b3cbe5ce509d24ae530629568529a20c0e0e1dbc4e66b05c"
+      },
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "7b63ef073d5bc645be4cd89503a172fe22802cd286d9d8e4e0542ccc6e9714a1"
+      },
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/sustainability-appraisal-post-adoption-statement.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post-Adoption Statement",
+        "reference": "SA-POST-2019",
+        "document-status": "adopted",
+        "endpoint": "f1d94e6f4f8bbef99080501efb336d019176a7f677f8e87103c88312c9123399"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KIR",
+    "organisation-name": "Kirklees Council",
+    "reference": "NDP-KIR-2021",
+    "documentation-url": "https://www.kirklees.gov.uk/localplan",
+    "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/holme-valley-NDP-made-plan.pdf",
+    "name": "Holme Valley Neighbourhood Development Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/holme-valley-NDP-made-plan.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/localplan",
+        "document-type": "neighbourhood-plan",
+        "name": "Holme Valley Neighbourhood Development Plan (NDP) 2021-2031 - Made Plan - December 2021",
+        "reference": "NDP-HV-2021",
+        "document-status": "adopted",
+        "endpoint": "97fa59d937b69b6efed189b884c61f1873f8a8af58f4b97eefdffa72ec0618fe"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KIR",
+    "organisation-name": "Kirklees Council",
+    "reference": "LP-KIR-2024",
+    "documentation-url": "https://www.kirklees.gov.uk/beta/planning-policy/emerging-kirklees-local-plan.aspx",
+    "document-url": "",
+    "name": "Emerging Kirklees Local Plan",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-development-scheme-timetable.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "45236d60f1cbf890978eee6fa2449f9e7805b9fd2e1b46303cf703b90f32b842"
+      },
+      {
+        "document-url": "https://democracy.kirklees.gov.uk/documents/s53902/2023-10-17%20Local%20Plan%20Review-Update%20Cabinet%20Report%20and%20App1%20finaldocx.pdf",
+        "documentation-url": "https://www.kirklees.gov.uk/beta/planning-policy/emerging-kirklees-local-plan.aspx",
+        "document-type": "local-plan",
+        "name": "Cabinet report, 17th October 2023",
+        "reference": "LP-REVIEW-2023",
+        "document-status": "consultation",
+        "endpoint": "71d5cd8c747db32e6703b7093419844918a5bbf1e56d18345371eb4949281e54"
+      }
+    ]
+  }
+]

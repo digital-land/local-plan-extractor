@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:SHF",
+    "organisation-name": "Sheffield City Council",
+    "reference": "LP-SHF-2025",
+    "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan-examination",
+    "document-url": "",
+    "name": "Sheffield Plan",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sheffield.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Sheffield Plan examination",
+        "reference": "LP-2025",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sheffield.gov.uk/planning",
+        "document-type": "development-management-policies",
+        "name": "Building regulations",
+        "reference": "BR-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sheffield.gov.uk/planning",
+        "document-type": "supplementary-planning-document",
+        "name": "Conservation and design",
+        "reference": "CD-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

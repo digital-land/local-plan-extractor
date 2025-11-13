@@ -1,0 +1,156 @@
+[
+  {
+    "organisation": "local-authority:LEE",
+    "organisation-name": "Lewes District Council",
+    "reference": "LP-LEE-2016",
+    "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+    "document-url": "https://www.lewes-eastbourne.gov.uk/media/1718/Adopted-Joint-Core-Strategy-2016/pdf/Adopted_Joint_Core_Strategy_2016.pdf?m=1682440920647",
+    "name": "Lewes District Core Strategy: Local Plan Part 1",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1718/Adopted-Joint-Core-Strategy-2016/pdf/Adopted_Joint_Core_Strategy_2016.pdf?m=1682440920647",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+        "document-type": "core-strategy",
+        "name": "Adopted Joint Core Strategy 2016",
+        "reference": "CS-2016",
+        "document-status": "adopted",
+        "endpoint": "8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1716/Inspectors-Final-Report-March-2016/pdf/Inspectors_Final_Report_March_2016.pdf?m=1682440919970",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Final Report March 2016",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "29deb69cd082a72e8c2aedf8704d2edca0bc351929ebfa453008c4d90bb041f1"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1715/Inspectors-Final-Report-Appendix-March-2016/pdf/Inspectors_Final_Report_Appendix_March_2016.pdf?m=1682440919663",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Final Report Appendix March 2016",
+        "reference": "IR-APP-2016",
+        "document-status": "adopted",
+        "endpoint": "9734bd02f955a3339e5ee3b39b5df369bac267bcad3625691e0c67e4637f5665"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1717/Lewes-District-Council-Adoption-Statement/pdf/Lewes_District_Council_Adoption_Statement.pdf?m=1682440920360",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+        "document-type": "adoption-statement",
+        "name": "Lewes District Council Adoption Statement",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "d6710189c50641bcae7a2f02b492b008360eff3ea6797bc4bf4623229c41cc6f"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1714/Lewes-District-Council-SA-SEA-Post-Adoption-Statement/pdf/Lewes_District_Council_SA-SEA_Post-Adoption_Statement.pdf?m=1682440919363",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1832/Lewes-District-Core-Strategy-Local-Plan-Part-1",
+        "document-type": "adoption-statement",
+        "name": "Lewes District Council SA-SEA Post-Adoption Statement",
+        "reference": "SA-AS-2016",
+        "document-status": "adopted",
+        "endpoint": "0b17896e3a9e8b60f581ca741ec3fb522d8cd9d8346c3184fcd9af87ca1ad125"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LEE",
+    "organisation-name": "Lewes District Council",
+    "reference": "LP-LEE-2020",
+    "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+    "document-url": "https://www.lewes-eastbourne.gov.uk/media/1739/Local-Plan-Part-2-2020/pdf/Local_Plan_Part_2_2020.pdf?m=1682441636643",
+    "name": "Lewes District Local Plan Part 2: Site allocations and development management policies",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1739/Local-Plan-Part-2-2020/pdf/Local_Plan_Part_2_2020.pdf?m=1682441636643",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 2020",
+        "reference": "LP-P2-2020",
+        "document-status": "adopted",
+        "endpoint": "2d8ca252dde627cc65171221c71b4ae158f7ad2fedb5e13a00f97019a4946b48"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1740/Adoption-Statement/pdf/Adoption_Statement.pdf?m=1682441636750",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-P2-2020",
+        "document-status": "adopted",
+        "endpoint": "3e98482d6b561c5453604011ec6efa16baac5375ccabced9aa93a153addbbe6a"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1719/LPP2-Equality-and-Fairness-Analysis/pdf/LPP2_Equality_and_Fairness_Analysis.pdf?m=1682441633143",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "local-plan",
+        "name": "LPP2 Equality and Fairness Analysis",
+        "reference": "EFA-2020",
+        "document-status": "adopted",
+        "endpoint": "119fb4dec21b8b8728fa6cda9200be06372cd035443738e199a1ac4328d54c35"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1738/Policies-Map-District-Overview-Adoption-Version/pdf/Policies_Map_-_District_Overview_-_Adoption_Version.pdf?m=1682441636440",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "policies-map",
+        "name": "Policies Map - District Overview - Adoption Version",
+        "reference": "PM-OVERVIEW-2020",
+        "document-status": "adopted",
+        "endpoint": "1c43f9282ee58463f07217498864f2550b017b4ca8d15d8d82b77281ab533e44"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1721/Sustainability-Appraisal-2020/pdf/Sustainability_Appraisal_2020.pdf?m=1682441633550",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal 2020",
+        "reference": "SA-P2-2020",
+        "document-status": "adopted",
+        "endpoint": "97982355a2d52465dc8bedfe9c1f45c186d2cc6071b0f18d1965cb0a5131082c"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1722/Strategic-Environmental-Assessment-Adoption-Statement/pdf/Strategic_Environmental_Assessment_Adoption_Statement.pdf?m=1682441633737",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "adoption-statement",
+        "name": "Strategic Environmental Assessment Adoption Statement",
+        "reference": "SEA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "78d5886dee54171cd46c67cb1e1d1c37de919337c76560fc655eb9f73b27ae5e"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/1720/The-Habitat-Regulations-Assessment-2018/pdf/The_Habitat_Regulations_Assessment_2018.pdf?m=1682441633347",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "local-plan",
+        "name": "The Habitat Regulations Assessment 2018",
+        "reference": "HRA-2018",
+        "document-status": "adopted",
+        "endpoint": "b19556296ae77c1f9540ac1d0b72ec762e79714f8e8dd47a304b292420811ad4"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/2535/Local-Plan-Part-2-Inspector-s-Final-Report-December-2019/pdf/Local_Plan_Part_2_Inspectors_Final_Report_December_2019.pdf?m=1685704401517",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Part 2 Inspector's Final Report December 2019",
+        "reference": "IR-P2-2019",
+        "document-status": "adopted",
+        "endpoint": "020fb5f27a93e8134b49d6aeab4a1d2cfa6194bf973b4a07c29030d1b524cd9d"
+      },
+      {
+        "document-url": "https://www.lewes-eastbourne.gov.uk/media/2534/Local-Plan-Part-2-Inspector-s-Final-Report-December-2019-Appendix/pdf/Local_Plan_Part_2_Inspectors_Final_Report_Appendix_December_2019.pdf?m=1685980058603",
+        "documentation-url": "https://www.lewes-eastbourne.gov.uk/article/1833/Lewes-District-Local-Plan-Part-2-Site-allocations-and-development-management-policies",
+        "document-type": "inspectors-report",
+        "name": "Local Plan Part 2 Inspector's Final Report December 2019 - Appendix",
+        "reference": "IR-P2-APP-2019",
+        "document-status": "adopted",
+        "endpoint": "11c6bb223e6ae55e6481d1f0edd04f477114c26d9314e38fa7ae0b44c11520ed"
+      }
+    ]
+  }
+]

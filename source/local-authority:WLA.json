@@ -1,0 +1,101 @@
+[
+  {
+    "organisation": "local-authority:WLA",
+    "organisation-name": "West Lancashire Borough Council",
+    "reference": "LP-WLA-2012",
+    "documentation-url": "https://www.westlancs.gov.uk/planning/planning-policy",
+    "document-url": "",
+    "name": "West Lancashire Local Plan 2012-2027",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WLA",
+    "organisation-name": "West Lancashire Borough Council",
+    "reference": "LP-WLA-2023",
+    "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+    "document-url": "http://www.westlancs.gov.uk/media/547534/lp-io-document-2021-11-18.pdf",
+    "name": "West Lancashire Local Plan 2023-2040",
+    "status": "regulation-18",
+    "year": 2021,
+    "period-start-date": 2023,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/547534/lp-io-document-2021-11-18.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "local-plan",
+        "name": "Scope, Issues and Options Consultation Document 2021",
+        "reference": "LP-IO-2021",
+        "document-status": "consultation",
+        "endpoint": "e3355ecb6b17f45173a7712f20712d1a49b0c510a3a948105ff8f38118656c78"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/547253/local-plan-scope-issues-options-consultationfeedback.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "local-plan",
+        "name": "Local Plan Scope, Issues and Options Consultation Feedback",
+        "reference": "LP-FEEDBACK-2022",
+        "document-status": "consultation",
+        "endpoint": "be5337388e2e1ef243703ea7b58e232b1abc28fd6ad20182945cc071f7b1d11d"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/548151/west-lancashire-bc-local-development-scheme-2025.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "local-development-scheme",
+        "name": "March 2025 Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "b7c38e1cc937c0a786056da7519d3eb56cdbc8f5ced6abe6bdc8473fcf9f2866"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/547111/housing-and-economic-development-need-assessment-wlbc-2022.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040/evidence-base.aspx",
+        "document-type": "local-plan",
+        "name": "HEDNA Main Report and Appendix 1",
+        "reference": "HEDNA-2022",
+        "document-status": "adopted",
+        "endpoint": "4c79a4641d58c71e0c312ec5872ec67c36f06c3b41b5174badde846d07d38955"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/547112/hedna-appendix-2-economic-site-assessments.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040/evidence-base.aspx",
+        "document-type": "local-plan",
+        "name": "HEDNA Appendix 2",
+        "reference": "HEDNA-APP2-2022",
+        "document-status": "adopted",
+        "endpoint": "d4076905145ca5acfd9226c506fa210444e379c05b8ee3cf63a1ea57d331cf1c"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/547254/local-plan-shelaa-consultation-feedback.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing and Employment Land Availability Assessment Consultation Feedback",
+        "reference": "SHELAA-FEEDBACK-2022",
+        "document-status": "consultation",
+        "endpoint": "977223dabf62e96de6d2dbe246b9d13970c38bb498ee286b8de669e3b12655b2"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/546468/lp-2040-io-duty-to-cooperate-statement.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "local-plan",
+        "name": "Local Plan 2023-2040 I&O Duty to Cooperate Statement",
+        "reference": "DTC-2021",
+        "document-status": "consultation",
+        "endpoint": "6d6a2546ef0dba58c2c7784f30f2b7c04433e43f36d5dd29dfcff1bcfc1a0c66"
+      },
+      {
+        "document-url": "http://www.westlancs.gov.uk/media/545519/lcr_socg_2019_final.pdf",
+        "documentation-url": "http://www.westlancs.gov.uk/planning/planning-policy/the-local-plan/the-local-plan-2023-2040.aspx",
+        "document-type": "statement-of-common-ground",
+        "name": "Liverpool City Region SoCG (Oct 2019)",
+        "reference": "SOCG-LCR-2019",
+        "document-status": "adopted",
+        "endpoint": "a6f643c009464f3ef264270a8ff4b72fc4da63d4db0d93546c8cb0239e74c94a"
+      }
+    ]
+  }
+]

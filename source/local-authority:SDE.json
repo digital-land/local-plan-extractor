@@ -1,0 +1,178 @@
+[
+  {
+    "organisation": "local-authority:SDE",
+    "organisation-name": "South Derbyshire District Council",
+    "reference": "LP-SDE-2013",
+    "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+    "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1723/South-Derbyshire-Draft-Local-Plan-Chapters-1-to-9.pdf",
+    "name": "South Derbyshire Draft Local Plan Part 1",
+    "status": "draft",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1723/South-Derbyshire-Draft-Local-Plan-Chapters-1-to-9.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Draft Local Plan Chapters 1 - 9",
+        "reference": "LP-CHAPTERS-1-9",
+        "document-status": "draft",
+        "endpoint": "c455817b126e309fc10bcd59af6831099f202fb97694e8156ce2b9d6c5e989f3"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1724/South-Derbyshire-Draft-Local-Plan-Part-1-Chapter-10-Planning-for-Places-Areas-1-to-4.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Draft Local Plan Chapter 10 Planning for Areas 1 - 4",
+        "reference": "LP-CHAPTER-10-AREAS-1-4",
+        "document-status": "draft",
+        "endpoint": "30c6cb22fd8a2edacab3ab2fd35cdf0b6adabe96ab2eac7d70e2d0c9c6f742c0"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1725/South-Derbyshire-Draft-Local-Plan-Part-1-Chapter-10-Planning-for-Places-Areas-5-to-7.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Draft Local Plan Chapter 10 Planning for Areas 5 - 7",
+        "reference": "LP-CHAPTER-10-AREAS-5-7",
+        "document-status": "draft",
+        "endpoint": "e2600a772b32eac99936bec6f1be0525edf7a13c206d4e287cf770d4e33fc376"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1726/South-Derbyshire-Draft-Local-Plan-Part-1-Chapter-10-Planning-for-Places-Areas-8-to-11.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Draft Local Plan Chapter 10 Planning for Areas 8 - 11",
+        "reference": "LP-CHAPTER-10-AREAS-8-11",
+        "document-status": "draft",
+        "endpoint": "edcf61d080041a6e7b1123f20ccddda9a2b58509a6498b983cf5b891249945a7"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1585/South-Derbyshire-Draft-Local-Plan-Part-1-Appendix.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Draft Local Plan Appendix",
+        "reference": "LP-APPENDIX",
+        "document-status": "draft",
+        "endpoint": "7d3f7d2f907b483beaa4f3a2d8b8ab10b4c96fd6f3bfc3b1659d6a6e9c5f96e6"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1730/Sustainability-Appraisal-Main-Report-September-2013.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Main Report September 2013",
+        "reference": "SA-2013",
+        "document-status": "draft",
+        "endpoint": "dff9b52218e0bdd9dd25474f920f7a2664464051c977c5c59f6c1dc0f9642cfe"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1727/Sustainability-Appraisal-Appendix-1-to-4.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 1 - 4",
+        "reference": "SA-APPENDIX-1-4",
+        "document-status": "draft",
+        "endpoint": "81aa68b9083d3293d4bb9f157ec8ec2e4453e3c4aa9331a3ae83a27e6ef7471f"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1728/Sustainability-Appraisal-Appendix-5.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 5",
+        "reference": "SA-APPENDIX-5",
+        "document-status": "draft",
+        "endpoint": "dffa640a879e91c0bf2921b4ba7d61e84ad1f18413a2dacdf0b79868934393a2"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1729/Sustainability-Appraisal-Appendix-6.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 6",
+        "reference": "SA-APPENDIX-6",
+        "document-status": "draft",
+        "endpoint": "9025b60e080b95b905d432669605983da58b7129e819270ad1fabc5de9b432f3"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1583/Draft-Consultation-Statement.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement",
+        "reference": "CS-DRAFT-2013",
+        "document-status": "draft",
+        "endpoint": "35b2ff831caab06f33ee06fee47b1089635e66be19f016b56dac8332b8d97468"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1717/Draft-Consultation-Statement-Appendix-A.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix A",
+        "reference": "CS-APPENDIX-A",
+        "document-status": "draft",
+        "endpoint": "b948b5bb63c7a64e0a81ee8927a434cea8701127f380717ca47d6ca5592a9b07"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1718/Draft-Consultation-Statement-Appendix-B.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix B",
+        "reference": "CS-APPENDIX-B",
+        "document-status": "draft",
+        "endpoint": "5a4613ea75fe681b003e6a9c3d61dc785b9bfccf2f7befa371e156d5bfd88cd0"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1719/Draft-Consultation-Statement-Appendix-C.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix C",
+        "reference": "CS-APPENDIX-C",
+        "document-status": "draft",
+        "endpoint": "d7d4809c2cbfd5172f90163eba0698df3937d0a2b1135a3427a7f77ed95ca26c"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1721/Draft-Consultation-Statement-Appendix-D.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix D",
+        "reference": "CS-APPENDIX-D",
+        "document-status": "draft",
+        "endpoint": "015af80a80385e4f5e0dbf1aa9f957e8f764832bbd84820561bbe92d6132590a"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1861/Draft-Consultation-Statement-Appendix-E.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix E",
+        "reference": "CS-APPENDIX-E",
+        "document-status": "draft",
+        "endpoint": "f6d31731d0ee353ac33bbeafc79508473f78fb2ae061285fc4877eef620a0517"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1582/Draft-Consultation-Statement-Appendix-F.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "consultation-statement",
+        "name": "Draft Consultation Statement Appendix F",
+        "reference": "CS-APPENDIX-F",
+        "document-status": "draft",
+        "endpoint": "55616ba9fe308c2422a42cea326b9a5bdc78f5d27a645aa3355567500ab89169"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1584/Draft-Infrastructure-Delivery-Plan.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Draft Infrastructure Delivery Plan",
+        "reference": "IDP-DRAFT-2013",
+        "document-status": "draft",
+        "endpoint": "3ab0f8c8849c8d8bfa1dc70a79e160ea76bfc9c1b61654eda1528bd9a0c92bb6"
+      },
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1722/Habitats-Screening-Report.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Habitats Screening Report",
+        "reference": "HSR-2013",
+        "document-status": "draft",
+        "endpoint": "25858ee50a93771226c2af1aa0b428c5665fa8755c9a4a295e9bdc021859a2b3"
+      }
+    ]
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:MEL",
+    "organisation-name": "Melton Borough Council",
+    "reference": "LP-MEL-2018",
+    "documentation-url": "https://www.meltonplan.co.uk/",
+    "document-url": "https://www.meltonplan.co.uk/_files/ugd/c2f881_c97073d23b924cfe85fb9014d2ab4e6b.pdf",
+    "name": "Melton Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.meltonplan.co.uk/_files/ugd/c2f881_c97073d23b924cfe85fb9014d2ab4e6b.pdf",
+        "documentation-url": "https://www.meltonplan.co.uk/",
+        "document-type": "local-plan",
+        "name": "Information Statement",
+        "reference": "LP-2018-IS",
+        "document-status": "adopted",
+        "endpoint": "931eb87d37417174d5b0218f987dc86a2ded67018cfcbd69402688605b49bb72"
+      },
+      {
+        "document-url": "https://www.meltonplan.co.uk/_files/ugd/c2f881_ae7bd163a42a4d2c89fdf5de70afd713.pdf",
+        "documentation-url": "https://www.meltonplan.co.uk/",
+        "document-type": "local-plan",
+        "name": "Compliance Statement",
+        "reference": "LP-2018-CS",
+        "document-status": "adopted",
+        "endpoint": "0946336c8262087016579be75dfcf493cd210d8d8719e5ff59e5c13dff778d2e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MEL",
+    "organisation-name": "Melton Borough Council",
+    "reference": "LP-MEL-1999",
+    "documentation-url": "https://www.melton.gov.uk/planning-and-building/planning-policy/archived-melton-local-plan-1999/",
+    "document-url": "https://www.meltonplan.co.uk/_files/ugd/2778e0_60e4cc43d0d1441b88a21e211833c490.pdf",
+    "name": "Archived Melton Local Plan 1999",
+    "status": "adopted",
+    "year": 1999,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.meltonplan.co.uk/_files/ugd/2778e0_60e4cc43d0d1441b88a21e211833c490.pdf",
+        "documentation-url": "https://www.melton.gov.uk/planning-and-building/planning-policy/archived-melton-local-plan-1999/",
+        "document-type": "local-plan",
+        "name": "1999 Local Plan",
+        "reference": "LP-1999",
+        "document-status": "adopted",
+        "endpoint": "10c8a3e6da12a7e32af93abdec41ad3f86ccce3ad415b189c0fe03bff5dfa4c3"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MEL",
+    "organisation-name": "Melton Borough Council",
+    "reference": "LP-MEL-2024-UPDATE",
+    "documentation-url": "https://www.meltonplan.co.uk/localplanupdate/pre-submission",
+    "document-url": "",
+    "name": "Melton Local Plan Partial Update",
+    "status": "regulation-19",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

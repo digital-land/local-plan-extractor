@@ -1,0 +1,65 @@
+[
+  {
+    "organisation": "local-authority:HUN",
+    "organisation-name": "Huntingdonshire District Council",
+    "reference": "LP-HUN-2025",
+    "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+    "document-url": "https://huntingdonshire.gov.uk/media/u55dwlck/final-preferred-options-draft-local-plan-to-2046.pdf",
+    "name": "Preferred Options Draft Local Plan to 2046",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2046,
+    "documents": [
+      {
+        "document-url": "https://huntingdonshire.gov.uk/media/u55dwlck/final-preferred-options-draft-local-plan-to-2046.pdf",
+        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Draft Local Plan to 2046",
+        "reference": "LP-2025-2046",
+        "document-status": "consultation",
+        "endpoint": "191d19cc5f2957fdb695f23bc61f90e469359f09c7645ef6696addfa155bb9c1"
+      },
+      {
+        "document-url": "https://huntingdonshire.gov.uk/media/5uwn3ora/sustainability-appraisal-for-the-preferred-options-local-plan-to-2046-for-consultation.pdf",
+        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "5f5b883bd925375c84a9d5feafd750c5203ef39b313c3f3624fba1cae318d75b"
+      },
+      {
+        "document-url": "https://huntingdonshire.gov.uk/media/q2ipfeyt/interactive-map-user-guidance.pdf",
+        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+        "document-type": "local-plan",
+        "name": "Interactive Map User Guide",
+        "reference": "MAP-2025",
+        "document-status": "consultation",
+        "endpoint": "e7f6e012dfdf9309a53e9f8a0e4196fd3ea342eb206585feeddf7d8796efe9e5"
+      },
+      {
+        "document-url": "https://huntingdonshire.gov.uk/media/15vhfyxf/2025-local-plan-exhibition-boards.pdf",
+        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+        "document-type": "local-plan",
+        "name": "Local Plan Exhibition Boards",
+        "reference": "EB-2025",
+        "document-status": "consultation",
+        "endpoint": "55f2fad9255c62cdc9d8f22ed94d80c93c7bf81af483b83f0cb849f5d73bb6e9"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HUN",
+    "organisation-name": "Huntingdonshire District Council",
+    "reference": "LP-HUN-2019",
+    "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
+    "document-url": "",
+    "name": "Local Plan to 2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2036,
+    "documents": []
+  }
+]

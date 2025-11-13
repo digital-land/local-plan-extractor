@@ -1,0 +1,88 @@
+[
+  {
+    "organisation": "local-authority:STO",
+    "organisation-name": "Stroud District Council",
+    "reference": "LP-STO-2015",
+    "documentation-url": "https://www.stroud.gov.uk/localplan",
+    "document-url": "https://www.stroud.gov.uk/media/2iqhaixj/stroud-district-local-plan_november-2015_low-res_for-web.pdf",
+    "name": "Stroud District Local Plan",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.stroud.gov.uk/media/2iqhaixj/stroud-district-local-plan_november-2015_low-res_for-web.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Stroud District Local Plan - November 2015",
+        "reference": "LP-2015",
+        "document-status": "adopted",
+        "endpoint": "59fb9fc5a25be4fba562d781592d6560a6bf5c9ce43e897ed22dc73264a4ccb6"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/bv2pvvez/policies_map_1.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map 1",
+        "reference": "PM-1-2015",
+        "document-status": "adopted",
+        "endpoint": "d74ba6cb8070e4f87e1ef0143a66e15eb56014637db2f67ec71f031d58804dc0"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/xjvowwzo/policies_map_2.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map 2",
+        "reference": "PM-2-2015",
+        "document-status": "adopted",
+        "endpoint": "ee8fee5f3beaaa60f3756948870e80d42493b4f3b4c06154ee32bd12f3a04b58"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/3ovd523r/policies_map_3.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map 3",
+        "reference": "PM-3-2015",
+        "document-status": "adopted",
+        "endpoint": "e5370048203045781524aff0e4927ad10414657381991226e3683b56ff41ac25"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/1iddggye/policies_map_4.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map 4",
+        "reference": "PM-4-2015",
+        "document-status": "adopted",
+        "endpoint": "28cd17408fab296a5325769beefd0cab49f7646dfafd746b805cfd713ee6e5b2"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/ybogqkmw/stroud_local_plan_inspectors_report_including_appendix.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Stroud Local Plan Inspectors Report including Appendix",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "d74a2ea4c63696442168cdee570df0d60e11229192c82559d7ca5b2c0aa91356"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/3pjft0l4/sa_adoption_statement.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal (SA) adoption",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "6d8ba5cbd2fcb61c55d3b7fec8df76a77b73108afb8dd807a3576e74a6791d31"
+      },
+      {
+        "document-url": "https://www.stroud.gov.uk/media/lytlrvxb/adoption_statement.pdf",
+        "documentation-url": "https://www.stroud.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement and Statement of Availability",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "27552fb33139395315d136ad1a3f5cabcbc608efb055c99ca33e4c1c630c0727"
+      }
+    ]
+  }
+]

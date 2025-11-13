@@ -1,0 +1,74 @@
+[
+  {
+    "organisation": "local-authority:HMF",
+    "organisation-name": "London Borough of Hammersmith & Fulham",
+    "reference": "LP-HMF-2018",
+    "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+    "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/local_plan_2018_web_version.pdf",
+    "name": "Local Plan 2018-2035",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/local_plan_2018_web_version.pdf",
+        "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2018-2035",
+        "document-status": "adopted",
+        "endpoint": "50112d6592d9c3da635df0da46a6660dbe2de75e1e28fbb75222b099b25feaf1"
+      },
+      {
+        "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/adoption_statement_local_plan_1.pdf",
+        "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "8f87c89452eb2c27e3db02843e1bb3ba1a967b79f35bf761cc425e773441bdf2"
+      },
+      {
+        "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/final_policies_map_web_version_2018_compressed-compressed.pdf",
+        "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "64600d4b135c5a8303ff11ece67aebab3c946872a526673a35afd148e31bcac1"
+      },
+      {
+        "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/consolidated_sa_adoption_statement_supplement.pdf",
+        "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2018",
+        "document-status": "adopted",
+        "endpoint": "855002f05f44d739f47c805153baf0225d7dae783056becf40cf00e64c24b77d"
+      },
+      {
+        "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/hf_lp_report.pdf",
+        "documentation-url": "https://www.lbhf.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2017",
+        "document-status": "adopted",
+        "endpoint": "92e1b03fad4bccb0b1bb41e76077cd5b0d6b7e12e25478e2385645d04e2c04ca"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HMF",
+    "organisation-name": "London Borough of Hammersmith & Fulham",
+    "reference": "LP-HMF-2025",
+    "documentation-url": "https://www.lbhf.gov.uk/localplan",
+    "document-url": "",
+    "name": "Local Plan Regulation 18 2025-2042",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2042,
+    "documents": []
+  }
+]

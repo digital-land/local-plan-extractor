@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:SHA",
+    "organisation-name": "South Hams District Council",
+    "reference": "LP-SHA-2019",
+    "documentation-url": "https://www.southhams.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+    "document-url": "https://www.southhams.gov.uk/sites/default/files/2023-05/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20%28March%202019%29.pdf",
+    "name": "Plymouth and South West Devon Joint Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2034,
+    "documents": [
+      {
+        "document-url": "https://www.southhams.gov.uk/sites/default/files/2023-05/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20%28March%202019%29.pdf",
+        "documentation-url": "https://www.southhams.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "local-plan",
+        "name": "Plymouth and South West Devon Joint Local Plan (March 2019)",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "49be66676bd60e16599b8b457d27f365258b1e37acb707374dda4e625a33269f"
+      },
+      {
+        "document-url": "https://www.southhams.gov.uk/sites/default/files/2023-05/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.southhams.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "adoption-statement",
+        "name": "Plymouth and South West Devon Joint Local Plan Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "342508403c082b65e0ade4a0036b95d9650ddf5ccb5402ac1d75aadc0dc24d35"
+      },
+      {
+        "document-url": "https://www.southhams.gov.uk/sites/default/files/2024-03/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20Five%20Year%20Review%20Report%202024.pdf",
+        "documentation-url": "https://www.southhams.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "local-plan",
+        "name": "Plymouth and South West Devon Joint Local Plan Five Year Review Report 2024",
+        "reference": "LPR-2024",
+        "document-status": "adopted",
+        "endpoint": "1fcc93574738e4bb2e77225e0de05dbb4cc606907cbade8d333f9066ba523d43"
+      }
+    ]
+  }
+]

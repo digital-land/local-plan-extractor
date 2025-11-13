@@ -1,0 +1,80 @@
+[
+  {
+    "organisation": "local-authority:TRF",
+    "organisation-name": "Trafford Metropolitan Borough Council",
+    "reference": "LP-TRF-2025",
+    "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/trafford-local-plan.aspx",
+    "document-url": "",
+    "name": "Draft Trafford Local Plan: Site Allocations and Designations",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://trafford.citizenspace.com/",
+        "document-type": "site-allocations",
+        "name": "Draft Trafford Local Plan - Site Allocations and Designations - September 2025",
+        "reference": "SA-DPD-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TRF",
+    "organisation-name": "Trafford Metropolitan Borough Council",
+    "reference": "LP-TRF-2025-2",
+    "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Strategic-Planning-consultations.aspx",
+    "document-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Docs/Empress-Conservation-Area-Regeneration-Plan.pdf",
+    "name": "Empress Conservation Area Regeneration Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Docs/Empress-Conservation-Area-Regeneration-Plan.pdf",
+        "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Strategic-Planning-consultations.aspx",
+        "document-type": "local-plan",
+        "name": "Empress Conservation Area Regeneration Plan",
+        "reference": "ECARP-2025",
+        "document-status": "consultation",
+        "endpoint": "a2e43ca884784ae9ec2061f99f0eede33fd9a17a5ddc9c3933913e5ac1cc2132"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TRF",
+    "organisation-name": "Trafford Metropolitan Borough Council",
+    "reference": "LP-TRF-2025-3",
+    "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/Development-Plan/Warburton-Neighbourhood-Plan.aspx",
+    "document-url": "",
+    "name": "Draft Warburton Neighbourhood Development Plan 2025-2039",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Strategic-Planning-consultations.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Draft Warburton Neighbourhood Development Plan 2025-2039",
+        "reference": "NP-WARBURTON-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Strategic-Planning-consultations.aspx",
+        "document-type": "viability-assessment",
+        "name": "Trafford Design Code Viability Assessment Consultation",
+        "reference": "VA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

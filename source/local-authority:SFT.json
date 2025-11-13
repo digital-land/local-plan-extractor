@@ -1,0 +1,265 @@
+[
+  {
+    "organisation": "local-authority:SFT",
+    "organisation-name": "Sefton Metropolitan Borough Council",
+    "reference": "LP-SFT-2017",
+    "documentation-url": "https://www.sefton.gov.uk/localplan",
+    "document-url": "https://www.sefton.gov.uk/media/1133/a-local-plan-for-sefton-for-adoption-final.pdf",
+    "name": "Sefton Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1133/a-local-plan-for-sefton-for-adoption-final.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan for Sefton [written document]",
+        "reference": "LP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "57f49dd4fd203bc113c3408c147c8cee11f8fe873ab4aa23e0c0b7f2be24df71"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1754/southport_a0.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Southport Policy Map",
+        "reference": "PM-SOUTHPORT",
+        "document-status": "adopted",
+        "endpoint": "374b45f63b65a2fb3d271148624b064b979863dfc92af1bb9443b86abbe7a94e"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1755/formby_a1.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Formby Policy Map",
+        "reference": "PM-FORMBY",
+        "document-status": "adopted",
+        "endpoint": "678959b01fcdd608c05de699ad6f63414a6f78888423cc9ca91d01b28c91d403"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1757/bootlecrosby_a1.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Bootle and Crosby Policy Map",
+        "reference": "PM-BOOTLE-CROSBY",
+        "document-status": "adopted",
+        "endpoint": "ec9a7c0b54b6e759e944e7d6a939e28b6632fbbc6e3658cb0e395ec6f5051594"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/3924/seftoneast_a1.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Sefton East Parishes Map",
+        "reference": "PM-SEFTON-EAST",
+        "document-status": "adopted",
+        "endpoint": "46e97efe56cbc44332e8707d21dee3d4da4a96150ed9664f441c727d7f6880a3"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1760/sefton-lp-inspectors-report.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2017",
+        "document-status": "adopted",
+        "endpoint": "760d16b2ce927026d87ad57854c19f885c71afc2b9bf7f252887e9e641af29b9"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1761/sefton-lp-inspectors-rpt-main-mods-appendix.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Main Modifications Appendix",
+        "reference": "IR-MM-2017",
+        "document-status": "adopted",
+        "endpoint": "986911025a83a1184db54a326db6f4c7bb174417fb0b88b7c2c24b89e6fdc0eb"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1762/post-adoption-sa-report.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "e45b9232c27acfcfcc80894c3b407031e55cbcddb530b7de00bd730c58682593"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1763/jan-2015-hra-of-submission-local-plan-web.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Report of Publication Draft Local Plan (2015)",
+        "reference": "HRA-2015",
+        "document-status": "adopted",
+        "endpoint": "eadb22ddc93286b4a1b6adad1281742b388d4197eb51f4bd71ff5fccf9f43c2a"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1764/may-2016-hra-of-mods-to-local-plan-web.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Report of Proposed Modifications to the Draft Local Plan (2016)",
+        "reference": "HRA-MM-2016",
+        "document-status": "adopted",
+        "endpoint": "b04222461a538a163f5766b6de75d597363438ca6760a0d9c20ebff984c636c9"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1759/adoption-statement.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "92cc59852eea37a5fa79f359cfab4767206f9067d9b8d570e4b1bb3354c711ac"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SFT",
+    "organisation-name": "Sefton Metropolitan Borough Council",
+    "reference": "AAP-SFT-2025",
+    "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+    "document-url": "https://www.sefton.gov.uk/media/qdfhtv5j/draft_bootle_aap_document_withmods.pdf",
+    "name": "Our Future, Our Bootle - Bootle Area Action Plan",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sefton.gov.uk/media/lanjaj5q/01-bootleaap_publication_draft_july2024.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "area-action-plan",
+        "name": "SD1 - Publication Draft Bootle Area Action Plan (July 2024)",
+        "reference": "AAP-PUB-2024",
+        "document-status": "examination",
+        "endpoint": "a8d61ebb55b261e77e77d1b8dc54f4abb0a6ed7aeb71ae01ce4ed5fbe154b93a"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/h00bld3x/bootle-aap-inspectors-report.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "area-action-plan",
+        "name": "Bootle Area Action Plan – Inspector's Report",
+        "reference": "IR-AAP-2025",
+        "document-status": "examination",
+        "endpoint": "0438457c886a344c61446bedc9befae7d0b31cee7810ef81bdd25a3a6bbb35f0"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/3gmbfv5d/bootle-aap-inspectors-report-mm-appendix.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "main-modifications",
+        "name": "Inspector's Report Appendix – Main Modifications",
+        "reference": "MM-AAP-2025",
+        "document-status": "examination",
+        "endpoint": "975f245decb51fc8fe3b91043b1d9599e6800f82a5a7ea3a1b42cecdce1ef574"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/qdfhtv5j/draft_bootle_aap_document_withmods.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "main-modifications",
+        "name": "Draft Bootle Area Action Plan – with Main Modifications included",
+        "reference": "AAP-MM-2025",
+        "document-status": "examination",
+        "endpoint": "d8748d5ada1d0b13bad93e30babb3a9de786654e5ef52ff41fb5475b61c90f94"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/gbqd4lgo/04-bootleaap_environmentalreport_july2024.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "SD4 - Environmental Report of the Sustainability Appraisal for Bootle AAP (July 2024)",
+        "reference": "SA-AAP-2024",
+        "document-status": "examination",
+        "endpoint": "5bb3b92632360faf06b8edd887cd506faf07eecd604401d5cae37f1c88be1d0d"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/y5ul1h2m/07-final_hra_baap_may2024.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/bootle-area-action-plan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "SD7 - Habitats Regulations Assessment of Bootle AAP (May 2024)",
+        "reference": "HRA-AAP-2024",
+        "document-status": "examination",
+        "endpoint": "ce3fbaec3e040d89accf0b963df075d289f0f25c22c5622a98c4a946674f83df"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SFT",
+    "organisation-name": "Sefton Metropolitan Borough Council",
+    "reference": "WLP-SFT-2013",
+    "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/merseyside-and-halton-waste-local-plan/",
+    "document-url": "https://www.sefton.gov.uk/media/1798/mside-halton-waste-localplan2013.pdf",
+    "name": "Merseyside and Halton Waste Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1798/mside-halton-waste-localplan2013.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/merseyside-and-halton-waste-local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Merseyside and Halton Waste Local Plan",
+        "reference": "WLP-2013",
+        "document-status": "adopted",
+        "endpoint": "5056085eaf963e3deddf62205c90f07ca6a628bba8d36c233daf50a5cbde2d52"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1799/ppwastelocalplan-finalinspectorsreport.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/merseyside-and-halton-waste-local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Waste Local Plan – Final Inspectors Report",
+        "reference": "IR-WLP-2013",
+        "document-status": "adopted",
+        "endpoint": "c4363d3081e58e30b165309ec6230d33c32ffafb0cfe409ab258b3c8f6cdca25"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1800/wastelocalplan-adoptionstatement.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/planning-building-control/planning-policy-including-local-plan-and-neighbourhood-planning/merseyside-and-halton-waste-local-plan/",
+        "document-type": "adoption-statement",
+        "name": "Waste Local Plan Adoption Statement",
+        "reference": "AS-WLP-2013",
+        "document-status": "adopted",
+        "endpoint": "9e19623051e9036182636ecc45ae340296ed93013d3b4602c1cdadec81e6dc2c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SFT",
+    "organisation-name": "Sefton Metropolitan Borough Council",
+    "reference": "NP-SFT-2019",
+    "documentation-url": "https://www.sefton.gov.uk/localplan",
+    "document-url": "https://www.sefton.gov.uk/media/5145/formby-little-altcar-nhood-plan-2019.pdf",
+    "name": "Formby And Little Altcar Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sefton.gov.uk/media/5145/formby-little-altcar-nhood-plan-2019.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "neighbourhood-plan",
+        "name": "Formby And Little Altcar Neighbourhood Plan",
+        "reference": "NP-FORMBY-2019",
+        "document-status": "adopted",
+        "endpoint": "142892a7957d67bdc99368b99e0cabaa2956fa71960fc105e422418d3681a2e2"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1766/lydiate-n-p_final_version_-copy.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Lydiate N P Final Version Copy",
+        "reference": "NP-LYDIATE-2019",
+        "document-status": "adopted",
+        "endpoint": "ff8ba595bc9a941240ca44da91b28770a37b2633cc070d97d10a9241a7e35686"
+      },
+      {
+        "document-url": "https://www.sefton.gov.uk/media/1770/maghull-n-p-final-version2.pdf",
+        "documentation-url": "https://www.sefton.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Maghull N P Final Version2",
+        "reference": "NP-MAGHULL-2019",
+        "document-status": "adopted",
+        "endpoint": "458797751d91e380abeb8148e6a13c4152f8d1746abf7e33c070785c03d09006"
+      }
+    ]
+  }
+]
