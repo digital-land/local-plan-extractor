@@ -245,6 +245,13 @@ def download_document(url, endpoint):
 
 
 class LocalPlanFinder:
+    # Document types to exclude from scraping and JSON output
+    EXCLUDED_DOCUMENT_TYPES = {
+        "minerals-and-waste-plan",
+        "neighbourhood-plan",
+        "climate-and-environment-development-plan",
+    }
+
     def __init__(
         self, api_key: str, organisation_csv: str = "var/cache/organisation.csv",
         joint_local_plans_json: str = "var/joint-local-plans.json"
@@ -974,6 +981,8 @@ class LocalPlanFinder:
                 "neighbourhood plan",
                 "neighbourhood development plan",
                 "ndp",
+                "neighborhood plan",  # US spelling variant
+                "neighborhood development plan",
             ],
             "supplementary-planning-document": [
                 "supplementary planning document",
@@ -998,6 +1007,22 @@ class LocalPlanFinder:
                 "minerals local plan",
                 "waste local plan",
                 "minerals plan",
+                "waste plan",
+                "minerals development plan",
+                "waste development plan",
+                "minerals safeguarding",
+                "minerals background",
+                "mineral assessment",
+                "waste assessment",
+                "minerals and waste plan",
+            ],
+            "climate-and-environment-development-plan": [
+                "climate emergency development plan",
+                "climate emergency dpd",
+                "environmental development plan",
+                "environmental dpd",
+                "climate action development plan",
+                "sustainability development plan",
             ],
             "joint-strategic-plan": [
                 "joint strategic plan",
@@ -1044,6 +1069,48 @@ class LocalPlanFinder:
 
         # Default to local-plan if we can't classify
         return "local-plan"
+
+    def _is_excluded_plan(self, plan: Dict) -> bool:
+        """Check if a plan should be excluded based on its name and documents.
+
+        A plan is excluded if:
+        - Its name suggests it's a minerals, waste, neighbourhood, or climate plan
+        - OR all its documents are of excluded types
+
+        Args:
+            plan: Plan dictionary
+
+        Returns:
+            True if plan should be excluded, False otherwise
+        """
+        plan_name = plan.get("name", "").lower()
+
+        # Check plan name for excluded keywords
+        excluded_keywords = [
+            "minerals", "waste", "neighbourhood", "neighborhood",
+            "climate emergency", "environmental development",
+            "climate action"
+        ]
+
+        if any(keyword in plan_name for keyword in excluded_keywords):
+            return True
+
+        # Check if all documents are of excluded types
+        documents = plan.get("documents", [])
+        if documents:
+            excluded_doc_types = [
+                doc.get("document-type") for doc in documents
+                if isinstance(doc, dict)
+            ]
+
+            # If all documents are of excluded types, exclude the plan
+            if excluded_doc_types and all(
+                doc_type in self.EXCLUDED_DOCUMENT_TYPES
+                for doc_type in excluded_doc_types
+            ):
+                return True
+
+        return False
 
     def extract_document_links(
         self, url: str, html_content: str
@@ -1163,6 +1230,10 @@ class LocalPlanFinder:
 
                     # Classify the document
                     doc_type = self.classify_document_type(normalized_url, link_text)
+
+                    # Skip if this is an excluded document type
+                    if doc_type in self.EXCLUDED_DOCUMENT_TYPES:
+                        continue
 
                     doc_links.append(
                         {
@@ -1849,6 +1920,9 @@ Provide ONLY the JSON array response, no other text."""
                 if not isinstance(result, list):
                     result = [result]  # Wrap single object in array
 
+                # Filter out plans that are entirely excluded types (minerals, waste, neighbourhood, climate)
+                result = [plan for plan in result if not self._is_excluded_plan(plan)]
+
                 # Validate and add endpoint field to each document (SHA256 hash of document URL)
                 for plan in result:
                     # Validate main document-url
@@ -1868,6 +1942,12 @@ Provide ONLY the JSON array response, no other text."""
                             plan["document-url"] = ""  # Clear invalid URL
 
                     if "documents" in plan and isinstance(plan["documents"], list):
+                        # Filter out excluded document types
+                        plan["documents"] = [
+                            doc for doc in plan["documents"]
+                            if doc.get("document-type") not in self.EXCLUDED_DOCUMENT_TYPES
+                        ]
+
                         for doc in plan["documents"]:
                             if "document-url" in doc:
                                 url = doc["document-url"]
@@ -1902,8 +1982,9 @@ Provide ONLY the JSON array response, no other text."""
                     json_str = response_text[json_start:json_end]
                     result = json.loads(json_str)
 
-                    # Add endpoint field to each document (SHA256 hash of document URL)
-                    result_list = [result]
+                    # Filter out plans that are entirely excluded types
+                    result_list = [result] if not self._is_excluded_plan(result) else []
+
                     for plan in result_list:
                         # Validate main document-url
                         if "document-url" in plan and plan["document-url"]:
@@ -1922,6 +2003,12 @@ Provide ONLY the JSON array response, no other text."""
                                 plan["document-url"] = ""  # Clear invalid URL
 
                         if "documents" in plan and isinstance(plan["documents"], list):
+                            # Filter out excluded document types
+                            plan["documents"] = [
+                                doc for doc in plan["documents"]
+                                if doc.get("document-type") not in self.EXCLUDED_DOCUMENT_TYPES
+                            ]
+
                             for doc in plan["documents"]:
                                 if "document-url" in doc:
                                     url = doc["document-url"]
