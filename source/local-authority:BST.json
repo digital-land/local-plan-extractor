@@ -2,25 +2,71 @@
   {
     "organisation": "local-authority:BST",
     "organisation-name": "Bristol City Council",
-    "reference": "LP-BST-2024",
-    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan/local-plan-review",
-    "document-url": "",
-    "name": "Bristol Local Plan 2024-2040",
-    "status": "submitted",
-    "year": 2024,
-    "period-start-date": 2024,
-    "period-end-date": 2040,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:BST",
-    "organisation-name": "Bristol City Council",
     "reference": "LP-BST-2014",
     "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
     "document-url": "",
     "name": "Bristol Local Plan",
     "status": "adopted",
     "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bristol.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bristol.gov.uk/localplan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations and Development Management Policies Local Plan",
+        "reference": "SA-DPD-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bristol.gov.uk/localplan",
+        "document-type": "area-action-plan",
+        "name": "Bristol Central Area Plan",
+        "reference": "AAP-CENTRAL-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bristol.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "West of England Joint Waste Core Strategy",
+        "reference": "JWCS-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bristol.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Interactive Local Plan Policies Map",
+        "reference": "PM-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BST",
+    "organisation-name": "Bristol City Council",
+    "reference": "LP-BST-2025",
+    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan/local-plan-review",
+    "document-url": "",
+    "name": "Bristol Local Plan Review",
+    "status": "draft",
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
     "documents": []

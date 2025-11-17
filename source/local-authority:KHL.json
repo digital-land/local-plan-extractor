@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "organisation": "local-authority:KHL",
+    "organisation-name": "Hull City Council",
+    "reference": "LP-KHL-2017",
+    "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+    "document-url": "https://www.hull.gov.uk/downloads/file/101/hull-local-plan-2016-to-2032",
+    "name": "Hull Local Plan 2016 to 2032",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2016,
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/101/hull-local-plan-2016-to-2032",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "local-plan",
+        "name": "Hull Local Plan 2016 to 2032",
+        "reference": "LP-2016-2032",
+        "document-status": "adopted",
+        "endpoint": "96a1a48521cb5ca55ae81b4f9d06611a27e8424c30147858952c26217c8cb734"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/4076/hull-local-plan-2016-to-2032-policies-map",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "policies-map",
+        "name": "Hull Local Plan 2016 to 2032 policies map",
+        "reference": "PM-2016-2032",
+        "document-status": "adopted",
+        "endpoint": "0fa83e4f9e702d9845d363004e455b90b62c818fab54e953b4eef70c84be5692"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/4465/authority-monitoring-report-2023-to-2024",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority Monitoring Report 2023 to 2024",
+        "reference": "AMR-2024",
+        "document-status": "adopted",
+        "endpoint": "18b688ec73db23207f879a3e9d9011377d5672b6843e75de359bbf348455aa82"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/1884/authority-monitoring-report-2022-to-2023",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority Monitoring Report 2022 to 2023",
+        "reference": "AMR-2023",
+        "document-status": "adopted",
+        "endpoint": "cff6e66b86f6bc156ac2f7b1fa5c8ef7d66999739115b1a8085d1b68b5c38fd4"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/97/authority-monitoring-report-2021-to-2022",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority Monitoring Report 2021 to 2022",
+        "reference": "AMR-2022",
+        "document-status": "adopted",
+        "endpoint": "3a0f0d651c55d475e03e0bc308240a5e6a4c6ea1a7c98043692b434b1e3ab58b"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/100/main-modifications-sustainability-appraisal-addendum-june-2017",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Sustainability Appraisal Addendum June 2017",
+        "reference": "MM-SA-2017",
+        "document-status": "adopted",
+        "endpoint": "70bfc0f3d5747932a02651c3267c1523ef067be365970e5436afc4a063514d50"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/95/sustainability-appraisal-addendum-feb-2017",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - Addendum Feb 2017",
+        "reference": "SA-ADD-2017",
+        "document-status": "adopted",
+        "endpoint": "2b2bf8781f4590a91b3eeb1afa9c5f2709e82e64441e5028a0c3b14b5a7d9ea5"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/98/hull-local-plan-addendum-of-proposed-changes-sustainability-appraisal-report-addendum-december-2016",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Hull Local Plan Addendum of Proposed Changes Sustainability Appraisal Report Addendum December 2016",
+        "reference": "SA-ADD-2016",
+        "document-status": "adopted",
+        "endpoint": "6fbaad98025539c7caeed45e86b20ed4ff485f1acef881a9cc4ae240ec2e0a3a"
+      },
+      {
+        "document-url": "https://www.hull.gov.uk/downloads/file/102/local-plan-publication-sustainability-appraisal-june-2016",
+        "documentation-url": "https://www.hull.gov.uk/downloads/download/15/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Local Plan Publication sustainability appraisal June 2016",
+        "reference": "SA-PUB-2016",
+        "document-status": "adopted",
+        "endpoint": "1c590180cf28f7b5254a50455d932c6f1a04a1fc41e0fc7566aa8c2ceca9247b"
+      }
+    ]
+  }
+]

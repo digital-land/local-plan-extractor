@@ -2,15 +2,25 @@
   {
     "organisation": "local-authority:SHR",
     "organisation-name": "Shropshire Council",
-    "reference": "LP-SHR-2022",
+    "reference": "LP-SHR-2026",
     "documentation-url": "https://www.shropshire.gov.uk/planning-policy/adopted-local-plan/",
     "document-url": "",
-    "name": "Shropshire Council Local Plan",
+    "name": "Shropshire Local Plan",
     "status": "adopted",
-    "year": 2022,
+    "year": 2026,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.shropshire.gov.uk/planning-policy/",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-ADOPTED-2026",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:SHR",
@@ -18,12 +28,31 @@
     "reference": "LP-SHR-NEXT",
     "documentation-url": "https://www.shropshire.gov.uk/planning-policy/next-local-plan/",
     "document-url": "",
-    "name": "Shropshire Next Local Plan",
-    "status": "draft",
+    "name": "Next Local Plan",
+    "status": "regulation-18",
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.shropshire.gov.uk/planning-policy/",
+        "document-type": "local-plan",
+        "name": "Next Local Plan",
+        "reference": "LP-NEXT-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.shropshire.gov.uk/planning/",
+        "document-type": "local-plan",
+        "name": "One more week to respond to Local Plan 'call for sites'",
+        "reference": "LP-CALLSITES-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:SHR",
@@ -33,9 +62,19 @@
     "document-url": "",
     "name": "Withdrawn Local Plan",
     "status": "withdrawn",
-    "year": "",
+    "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.shropshire.gov.uk/planning-policy/",
+        "document-type": "local-plan",
+        "name": "Archive - including information on the withdrawn Local Plan",
+        "reference": "LP-WITHDRAWN-2024",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   }
 ]

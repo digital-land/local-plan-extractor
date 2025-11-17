@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "organisation": "local-authority:CLD",
+    "organisation-name": "Calderdale Metropolitan Borough Council",
+    "reference": "LP-CLD-2023",
+    "documentation-url": "https://www.calderdale.gov.uk/localplan",
+    "document-url": "https://www.calderdale.gov.uk/sites/default/files/2023-12/Local-Plan-Written-Statement.pdf",
+    "name": "Calderdale Local Plan 2018/19 to 2032/33",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2018,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.calderdale.gov.uk/sites/default/files/2023-12/Local-Plan-Written-Statement.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Calderdale Local Plan 2018/19 to 2032/33 – Written Statement",
+        "reference": "LP-2018-2033",
+        "document-status": "adopted",
+        "endpoint": "bd1e5897eaa18d652467d361ecc5b1a05702ae3c0c25904de718dc057d2f430c"
+      },
+      {
+        "document-url": "https://calderdale.gov.uk/docs/local-plan/Local-Plan-Appendix-1.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "site-allocations",
+        "name": "Calderdale Local Plan 2018/19 to 2032/33 – Appendix 1 Site Allocations",
+        "reference": "SA-DPD-2018-2033",
+        "document-status": "adopted",
+        "endpoint": "fa658a58cd9ce43bbc6e46941aeb71c2c74d4e20b3006b71b170695e37e943a3"
+      },
+      {
+        "document-url": "https://www.calderdale.gov.uk/sites/default/files/2023-06/Local_Plan_Adoption_Statement.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "a114414da0a38dce62340ee58b4fb1ddb214536113871ed8329fac568496d15f"
+      },
+      {
+        "document-url": "https://www.calderdale.gov.uk/sites/default/files/2023-06/Local_Plan_Sustainability_Appraisal_Post_Adoption_Statement.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "d50a051494d0dce756c3a979e135269475870f9060e9b40693665cbe42cdaa43"
+      },
+      {
+        "document-url": "https://www.calderdale.gov.uk/sites/default/files/2025-10/Planning-policies-map-schedule-factual-changes-oct-2025.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Schedule of Factual Changes 2025",
+        "reference": "LP-CHANGES-2025",
+        "document-status": "adopted",
+        "endpoint": "393ae201bdd1854c6f999b64a46773d1c416c0ee67be59b254525c75f338d1f9"
+      },
+      {
+        "document-url": "https://www.calderdale.gov.uk/sites/default/files/2023-06/LDS_21-june-2018.pdf",
+        "documentation-url": "https://www.calderdale.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2018",
+        "reference": "LDS-2018",
+        "document-status": "adopted",
+        "endpoint": "6633bb338705f25fa2dcda55f0a8225e999e1b9c7877c1a85759e762ff32b213"
+      }
+    ]
+  }
+]

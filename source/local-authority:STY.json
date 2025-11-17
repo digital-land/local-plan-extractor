@@ -3,13 +3,64 @@
     "organisation": "local-authority:STY",
     "organisation-name": "South Tyneside Council",
     "reference": "LP-STY-2024",
-    "documentation-url": "https://www.southtyneside.info/planning/strategic-planning/local-plan",
+    "documentation-url": "https://www.southtyneside.gov.uk/article/3663/Local-Plan",
     "document-url": "",
-    "name": "South Tyneside Draft Local Plan",
-    "status": "submitted",
+    "name": "South Tyneside Local Plan",
+    "status": "examination",
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southtyneside.gov.uk/article/3663/Local-Plan",
+        "document-type": "local-plan",
+        "name": "About the Local Plan",
+        "reference": "LP-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southtyneside.gov.uk/article/24174/Local-Plan-examination",
+        "document-type": "local-plan",
+        "name": "About the Local Plan examination",
+        "reference": "LP-EXAM-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southtyneside.gov.uk/article/24174/Local-Plan-examination",
+        "document-type": "local-plan",
+        "name": "Local Plan document library",
+        "reference": "LP-LIBRARY-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STY",
+    "organisation-name": "South Tyneside Council",
+    "reference": "AAP-STY-IAMP",
+    "documentation-url": "https://www.southtyneside.gov.uk/planning",
+    "document-url": "",
+    "name": "International Advanced Manufacturing Park (IAMP) Area Action Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southtyneside.gov.uk/planning",
+        "document-type": "area-action-plan",
+        "name": "International Advanced Manufacturing Park (IAMP) Area Action Plan",
+        "reference": "AAP-IAMP",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   }
 ]
