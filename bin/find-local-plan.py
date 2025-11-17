@@ -529,6 +529,8 @@ class LocalPlanFinder:
             ],
             "local-authority:HAL": [  # Halton
                 "/Pages/planning/policyguidance/planningplans.aspx",
+                "/Documents/planning/planning%20policy",
+                "/Documents/planning/planning policy",
             ],
             "local-authority:HOR": [  # Horsham
                 "/planning/local-plan/read-the-current-local-plan",
@@ -1236,7 +1238,7 @@ class LocalPlanFinder:
             if len(text) > max_length:
                 text = text[:max_length]
 
-            if len(text) > 200:  # Minimum viable content
+            if len(text) > 100:  # Minimum viable content (lowered for SharePoint pages)
                 return text, True
             else:
                 return "", False
