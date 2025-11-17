@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:SHN",
+    "organisation-name": "St Helens Council",
+    "reference": "LP-SHN-2022",
+    "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+    "document-url": "https://www.sthelens.gov.uk/media/4410/St-Helens-Borough-Local-Plan-up-to-2037/pdf/Local_Plan_Written_Statement_-_FINAL_adoption_version_16.06.2022_with_appendices.pdf?m=1657805845120",
+    "name": "St Helens Borough Local Plan up to 2037",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/4410/St-Helens-Borough-Local-Plan-up-to-2037/pdf/Local_Plan_Written_Statement_-_FINAL_adoption_version_16.06.2022_with_appendices.pdf?m=1657805845120",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "local-plan",
+        "name": "St Helens Borough Local Plan up to 2037",
+        "reference": "LP-2037",
+        "document-status": "adopted",
+        "endpoint": "68798635ed964c8edb84d67e82bc4f8a826eb3a05ec67430b2ce611ea8feb76a"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/4411/St-Helens-Borough-Policies-Map/pdf/St_Helens_Borough_Policies_Map_Final_-_document_combined.pdf?m=1657807035847",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "policies-map",
+        "name": "St Helens Borough Policies Map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "bc51cd585013a84e2d4960e4f901e1879f31f5844f3f0a97fc48af33310a0433"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/8238/Design-Supplementary-Planning-Document/pdf/Design_SPD_April_2024.pdf?m=1714134638210",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "supplementary-planning-document",
+        "name": "Design Supplementary Planning Document",
+        "reference": "SPD-DESIGN-2024",
+        "document-status": "adopted",
+        "endpoint": "39531169048ee07cc38f2d3a056217e7600ec72ef43b124c70f444bab3cb1c68"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/8239/Developer-Contributions-Supplementary-Planning-Document/pdf/Developer_Contributions_SPD_April_2024.pdf?m=1737035295433",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "supplementary-planning-document",
+        "name": "Developer Contributions Supplementary Planning Document",
+        "reference": "SPD-CONTRIB-2024",
+        "document-status": "adopted",
+        "endpoint": "b7c9608b21434a7a84603408ca6dc2bcdfde22517c1c1c5fa17b9846d0802756"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/8240/Open-Space-Provision-and-Enhancements-Supplementary-Planning-Document/pdf/Open_Space_Provision_and_Enhancement_SPD_April_2024.pdf?m=1714134609730",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "supplementary-planning-document",
+        "name": "Open Space Provision and Enhancements Supplementary Planning Document",
+        "reference": "SPD-SPACE-2024",
+        "document-status": "adopted",
+        "endpoint": "f44ef8538c47d13851b9bd9b4851ff152ae6a9ef35e968ecb4e7a160acdd4c7d"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/10995/Transport-and-Travel-SPD-27-01-25/pdf/St._Helens_Borough_Council_-_Transport_and_Travel_SPD_-_Final_Issue__27.01.2025_.pdf?m=1738662602640",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "supplementary-planning-document",
+        "name": "Transport and Travel SPD",
+        "reference": "SPD-TRANSPORT-2025",
+        "document-status": "adopted",
+        "endpoint": "46838d7a8d981c0acb8bfccc6ee474574de2f8a97e454a14e3aeb8dfb25d9143"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/8242/Adoption-Statement/pdf/Adoption_Statement.pdf?m=1714135005657",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "366dbce1c7222f35136536e80b39c601e515c6caa476ce472ee3b24d57b77287"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/8243/Consultation-Statement/pdf/Consultation_Statement.pdf?m=1714135066933",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement",
+        "reference": "CS-STMT-2024",
+        "document-status": "adopted",
+        "endpoint": "c59ad4b243dd3c51f36eabd23730858613d60071dfaf097aebf6b320de503656"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/7580/Rainford-PC-Neighbourhood-Area-designation-application/pdf/Rainford_PC_Neighbourhood_Area_designation_application.pdf?m=1702041053140",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "neighbourhood-plan",
+        "name": "Rainford PC Neighbourhood Area designation application",
+        "reference": "NP-RAINFORD-2023",
+        "document-status": "consultation",
+        "endpoint": "f54f2f7383341ff61d43275ccc02991759a5a1a8118213f9a9076541cb70e556"
+      },
+      {
+        "document-url": "https://www.sthelens.gov.uk/media/7581/Windle-PC-Neighbourhood-Designation-App-form/pdf/Windle_PC_Neighbourhood_Designation_App_form.pdf?m=1702041053480",
+        "documentation-url": "https://www.sthelens.gov.uk/article/3773/Consultations-and-latest-news",
+        "document-type": "neighbourhood-plan",
+        "name": "Windle PC Neighbourhood Designation App form",
+        "reference": "NP-WINDLE-2023",
+        "document-status": "consultation",
+        "endpoint": "36d1900e46b3a00d8c4e9eeba6e23a867131b566168a521e18e3d750f2224227"
+      }
+    ]
+  }
+]

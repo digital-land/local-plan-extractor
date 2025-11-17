@@ -1,0 +1,101 @@
+[
+  {
+    "organisation": "local-authority:BRE",
+    "organisation-name": "Breckland District Council",
+    "reference": "LP-BRE-2023",
+    "documentation-url": "https://www.breckland.gov.uk/local-plan",
+    "document-url": "https://www.breckland.gov.uk/media/16659/Adopted-Breckland-Local-Plan/pdf/Appendix_4_-_Breckland_District_Council_Local_Plan.pdf?m=1704795365193",
+    "name": "Breckland Local Plan",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.breckland.gov.uk/media/16659/Adopted-Breckland-Local-Plan/pdf/Appendix_4_-_Breckland_District_Council_Local_Plan.pdf?m=1704795365193",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Breckland District Council Local Plan",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "96429cfbaf912b712fda28784a02db5f0c137819754fb70177c2a44a5544c01f"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/19490/Breckland-District-Council-Local-Plan-Text-addendum/pdf/Amendment-to-the-Breckland-Council-Local-Plan-Policy-Map-Harling.pdf?m=1653925059527",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Breckland District Council Local Plan Text addendum",
+        "reference": "LP-TEXT-2023",
+        "document-status": "adopted",
+        "endpoint": "fa0859ed14031a67cdb5488f4a99a165d99c567ffbcb8066e9a44e3886f321d4"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/14803/Council-report-on-adoption-of-Local-Plan/pdf/Council-report-on-adoption-of-Local-final-draft-nov-20.pdf?m=1653317636137",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Council report on adoption of Local Plan",
+        "reference": "COUNCIL-REPORT-2023",
+        "document-status": "adopted",
+        "endpoint": "99acc384a7bdbb9f501897cc3459c20308205d7109d08d2f59e8c4cf0d4881f5"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/14678/Appendix-1-Breckland-District-Council-Local-Plan-Inspectors-report-final/pdf/Appendix_1_Breckland_District_Council_Local_Plan_Inspectors_report_final.pdf?m=1616502703263",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Breckland District Council Local Plan Inspectors Report",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "92fe9ad4f1b4b267bb1ab791a935b959b6a8f8b6377089dc56d6f13753a42843"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/14679/Appendix-2-Breckland-District-Council-Local-Plan-Schedule-of-Main-Modifications/pdf/Appendix_2_-_Breckland_District_Council_Local_Plan_Schedule_of_Main_Modifications.pdf?m=1616502703623",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "main-modifications",
+        "name": "Breckland District Council Local Plan Schedule of Main Modifications",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "7411fd08a5689e5e9ab4ec7c0ac31523603ccee6b755f1b8d7ab10ed78e3a3ec"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/14793/Appendix-3-Breckland-Local-Plan-Schedule-of-Minor-Modifications/pdf/Appendix_3_-_Breckland_Local_Plan_Schedule_of_Minor_Modifications.pdf?m=1632841360633",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Breckland District Council Schedule of Minor Modifications",
+        "reference": "MINOR-MOD-2023",
+        "document-status": "adopted",
+        "endpoint": "3250408cd351835dcc93fc51bebac3f14a88e9eefbb5e267b846183d5f581173"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/14806/Appendix-4-Breckland-District-Council-Local-Plan-text/pdf/Appendix_4_-_Breckland_District_Council_Local_Plan_text.pdf?m=1632841373277",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Breckland District Council Local Plan Text",
+        "reference": "LP-TEXT-FULL-2023",
+        "document-status": "adopted",
+        "endpoint": "53a8fcf550575468a8462554eab5b07065c2bcbdd6977f527fd38b38340448ff"
+      },
+      {
+        "document-url": "https://www.breckland.gov.uk/media/16744/Breckland-Council-Local-Plan-Policies-Maps-Legend/pdf/Breckland-Council-Local-Plan-Policies-Maps-Legend.pdf?m=1668182210917",
+        "documentation-url": "https://www.breckland.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "Breckland Council Local Plan Policies Maps Legend",
+        "reference": "PM-LEGEND-2023",
+        "document-status": "adopted",
+        "endpoint": "a5e144d52da86e27fb9e9619b52b6cb51f6a2d8524105df164c8777c63d00088"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BRE",
+    "organisation-name": "Breckland District Council",
+    "reference": "LP-BRE-2012",
+    "documentation-url": "https://www.breckland.gov.uk/local-plan/site-specific-policies",
+    "document-url": "",
+    "name": "Site Specific Policies and Proposals DPD",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": []
+  }
+]

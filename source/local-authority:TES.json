@@ -2,23 +2,176 @@
   {
     "organisation": "local-authority:TES",
     "organisation-name": "Test Valley Borough Council",
-    "reference": "LP-TES-2024",
-    "documentation-url": "https://www.testvalley.gov.uk/planning-and-building/planningpolicy/local-plan-review",
-    "document-url": "https://www.testvalley.gov.uk/assets/attach/24500/Local-Plan-2042-Revised-Regulation-18-draft-Local-Plan.pdf",
-    "name": "Test Valley Local Plan 2042",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": 2042,
+    "reference": "LP-TES-2016",
+    "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+    "document-url": "https://testvalley.gov.uk/assets/attach/2446/Adopted-Local-Plan-2011-2029.pdf",
+    "name": "Test Valley Borough Revised Local Plan 2011-2029",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
     "documents": [
       {
-        "document-url": "https://www.testvalley.gov.uk/assets/attach/24500/Local-Plan-2042-Revised-Regulation-18-draft-Local-Plan.pdf",
-        "documentation-url": "https://www.testvalley.gov.uk/planning-and-building/planningpolicy/local-plan-review",
+        "document-url": "https://testvalley.gov.uk/assets/attach/2446/Adopted-Local-Plan-2011-2029.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan-adopted",
+        "name": "Test Valley Borough Revised Local Plan (Adopted Local Plan 2011 - 2029)",
+        "reference": "LP-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "63f339e8c14a391b3d5e40f91c1c685ac20ee5e7dee5ef99812539cd23fb396a"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2448/Key.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan-adopted",
+        "name": "KEY Inset Maps 1 - 55 (Adopted Local Plan 2011 - 2029 Maps)",
+        "reference": "KEY-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "6a8db99e20b0982cbaf23ff7f3c734d00a2bda532b3412bd9a5c4bb4981702f8"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2449/Inset-Map-Book.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
         "document-type": "local-plan",
-        "name": "Local Plan 2042 Revised Regulation 18 Draft Local Plan",
-        "reference": "LP-2042",
-        "document-status": "consultation",
-        "endpoint": "6be9353c6a1e49f9bbbc925ff7ee6385ec16f033cc66880e7643c5ffbdcbf3da"
+        "name": "Inset Maps 2011 - 2029",
+        "reference": "IM-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "1c86f1e39027117e4be165281afd3539f700872144ea852253ce41d7817dc10a"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2450/Adopted-Local-Plan-2011-2029-Proposals-Map-Book.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "policies-map",
+        "name": "Proposals Maps - Adopted Local Plan 2011 - 2029",
+        "reference": "PM-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "3bf9c6da91662d78d09da0ac4b883fa9919df71df57473d518b818de9a1fec63"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2451/Test-Valley-RLP-Inspector-s-Report.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "inspectors-report",
+        "name": "Test Valley RLP Inspector's Report",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "f916cd9b3f3269b8bcbd956fed2eb6bb412595a45d51256051b374fb46aec1e5"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2452/Appendix-to-Test-Valley-RLP-Inspector-s-Report.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan",
+        "name": "Appendix to Test Valley RLP Inpsector's Report",
+        "reference": "IR-APP-2016",
+        "document-status": "adopted",
+        "endpoint": "45170ffead1a24e18fd5725e750662b7d792dffd25354445e3fba298fb1451bd"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2454/pt1-4-151207-SEA-Statement.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "adoption-statement",
+        "name": "Test Valley Borough Revised Local Plan 2011-2029 Sustainability Appraisal Adoption Statement (January 2016)",
+        "reference": "AS-SA-2016",
+        "document-status": "adopted",
+        "endpoint": "0cda753088bd560ec060c4d59b0d0600dd4e35580e4a5040cca5ba7f1bd4a9af"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2455/RLP-Statutory-notice-Jan-16.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "adoption-statement",
+        "name": "Test Valley Borough Revised Local Plan 2011-2029 Adoption Statement (January 2016)",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "62148e27b6edc8b472038bf8a630b73e44cf24ecbda368758242f69e9ee22781"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2491/TVBC-16-HRA-for-Modifications-FOR-CONSULTATION.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Review of Habitats Regulations Assessment for RLP Modifications",
+        "reference": "HRA-MOD-2016",
+        "document-status": "adopted",
+        "endpoint": "b84b33fcdbb836bede2a563d84e506f2d396717fcdc088352c6c14fea87f7d64"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2492/EB-AD-6-Habitat-Addendum-FINAL.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan",
+        "name": "Habitat Regulation Assessment for Revised Local Plan DPD – Addendum (June 2014)",
+        "reference": "HRA-ADD-2014",
+        "document-status": "adopted",
+        "endpoint": "e6028282b024c30892f3d74b4aff047ed4909f56aa4c14e8af4930581f560a8b"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2493/TVBC-Local-Plan-DPD-HRA-Final.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulation Assessment for Revised Local Plan DPD Main Report (Nov 2013)",
+        "reference": "HRA-2013",
+        "document-status": "adopted",
+        "endpoint": "4a81102dc5b1c26916dfb3c1da28111fdca927e9f34258b310f08d3f46f3ff3e"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2481/TVBC-15-SA-for-Modifications-FOR-CONSULTATION.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of RLP Main Modification",
+        "reference": "SA-MOD-2015",
+        "document-status": "adopted",
+        "endpoint": "85d6ef2b935860f999c8b10d058955fc8775cf6998ebc4fa1d1b60cdd2725386"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2482/SA-Main-Report.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal for Local Plan DPD - Regulation 19 Main Report (Nov 2013)",
+        "reference": "SA-2013",
+        "document-status": "adopted",
+        "endpoint": "76631da8247e6f287cb60fc28e75d67d51db2d2f3aad745b484597cda37cb297"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2483/SA-Appendices.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal for Local Plan DPD - Appendices (Nov 2013)",
+        "reference": "SA-APP-2013",
+        "document-status": "adopted",
+        "endpoint": "5af3eab7e129d4fc0b76288554101f2eaa371e046da01a3aee1a1e8ddfdcfdd7"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/2484/SA-Non-Technical-Summary.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal for Local Plan DPD - Non Technical Summary (Nov 2013)",
+        "reference": "SA-NTS-2013",
+        "document-status": "adopted",
+        "endpoint": "a98a50fc58500ba59f75a98a82a0e9fddd76edd32259952e9215bb7e0a9bede0"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/12861/TVBC-Jan-2021-PAS-TOOLKIT-PART-1-LOCAL-PLAN-REVIEW.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan",
+        "name": "Five Year Review – PAS Local Plan Route Mapper Toolkit Part 1 (January 2021)",
+        "reference": "LPR-PT1-2021",
+        "document-status": "adopted",
+        "endpoint": "41560269190719a7e64774137ce135d08664dbc2b8ab063b3312f6f339ad11dc"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/12862/TVBC-Jan-2021-PAS-TOOLKIT-PART-2-LOCAL-PLAN-CONTENT.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan",
+        "name": "Five Year Review – PAS Local Plan Route Mapper Toolkit Part 2 (January 2021)",
+        "reference": "LPR-PT2-2021",
+        "document-status": "adopted",
+        "endpoint": "4c37e1da1fbe990eb7e780e752abe10b799109032b179f275e7856bb804d3b41"
+      },
+      {
+        "document-url": "https://testvalley.gov.uk/assets/attach/12863/Advisory-Note-Test-Valley-KH-250121-final.pdf",
+        "documentation-url": "https://testvalley.gov.uk/planning-services/planningpolicy/local-development-framework/dpd",
+        "document-type": "local-plan-review",
+        "name": "Five Year Review – Advisory Note Local Plan Review IPE/PAS (January 2021)",
+        "reference": "LPR-ADV-2021",
+        "document-status": "adopted",
+        "endpoint": "0958dfe82b1bcc31e63d4354629af36637d6157d49adf28897a6be9ecc275b30"
       }
     ]
   }

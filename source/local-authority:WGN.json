@@ -1,0 +1,121 @@
+[
+  {
+    "organisation": "local-authority:WGN",
+    "organisation-name": "Wigan Metropolitan Borough Council",
+    "reference": "LP-WGN-2013",
+    "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
+    "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Adopted-Core-Strategy.pdf",
+    "name": "Wigan Local Plan Core Strategy",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Adopted-Core-Strategy.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
+        "document-type": "core-strategy",
+        "name": "Wigan Local Plan Core Strategy",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "8aec510ba69d28e20509e373bc26ad766866a64d5403e6db2a34d9ae90a5314b"
+      },
+      {
+        "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Current-local-plans/Inspectors-Report-15-08-2013.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Report 15.08.2013",
+        "reference": "IR-2013",
+        "document-status": "adopted",
+        "endpoint": "23d09155c334eaf1c80a17bf5935f47ddb36c4012389b420ee052b77c83cb802"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WGN",
+    "organisation-name": "Wigan Metropolitan Borough Council",
+    "reference": "LP-WGN-2006",
+    "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/ReplacementWiganUDP.aspx",
+    "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Latest-Remaining-Policies-UDP-April-2006.pdf",
+    "name": "Wigan Unitary Development Plan",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Latest-Remaining-Policies-UDP-April-2006.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/ReplacementWiganUDP.aspx",
+        "document-type": "local-plan",
+        "name": "Latest Remaining Policies UDP April 2006",
+        "reference": "LP-UDP-2006",
+        "document-status": "adopted",
+        "endpoint": "60f10bf7753a565b900f8c7572c0245e13a03893924021e4b82b53988663d122"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WGN",
+    "organisation-name": "Wigan Metropolitan Borough Council",
+    "reference": "LP-WGN-WASTE-2012",
+    "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/JointWastePlan.aspx",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/1994/greater_manchester_waste_plan_opt.pdf",
+    "name": "Greater Manchester Joint Waste Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/1994/greater_manchester_waste_plan_opt.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/JointWastePlan.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Greater Manchester Joint Waste Plan",
+        "reference": "WP-2012",
+        "document-status": "adopted",
+        "endpoint": "d202fd52c07c14d139fedf1e7162852c5f6b428e5cc7b2552ba34242bafdd1d7"
+      },
+      {
+        "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Local-plan/Authority-monitoring-report-Waste-plan.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/JointWastePlan.aspx",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority monitoring report 2019-2020",
+        "reference": "AMR-WASTE-2020",
+        "document-status": "adopted",
+        "endpoint": "d966669492f2786e01f9d3bd06fb11abfb7d0962897512862fd332101f8ce193"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WGN",
+    "organisation-name": "Wigan Metropolitan Borough Council",
+    "reference": "LP-WGN-MINERALS-2013",
+    "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/GM-Joint-Minerals-Development-Plan.aspx",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/1995/the_minerals_plan_april_2013_final.pdf",
+    "name": "Greater Manchester Joint Minerals Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/1995/the_minerals_plan_april_2013_final.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/GM-Joint-Minerals-Development-Plan.aspx",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Greater Manchester Joint Minerals Plan",
+        "reference": "MP-2013",
+        "document-status": "adopted",
+        "endpoint": "8ca8cbd67477936e77f8c175abaa4250150432c619078ce22f69b04780afb2d9"
+      },
+      {
+        "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Local-plan/Authority-monitoring-report-Minerals-plan.pdf",
+        "documentation-url": "https://www.wigan.gov.uk/Council/Strategies-Plans-and-Policies/Planning/Local-plan/GM-Joint-Minerals-Development-Plan.aspx",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority monitoring report 2019-2020",
+        "reference": "AMR-MINERALS-2020",
+        "document-status": "adopted",
+        "endpoint": "106c6e73311c1882da01b98c7945dd0cfe35f4e40621a5fc8d13fe713a443b10"
+      }
+    ]
+  }
+]

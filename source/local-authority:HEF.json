@@ -1,0 +1,119 @@
+[
+  {
+    "organisation": "local-authority:HEF",
+    "organisation-name": "Herefordshire Council",
+    "reference": "LP-HEF-2015",
+    "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/",
+    "document-url": "",
+    "name": "Herefordshire Local Plan Core Strategy 2011-2031",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/ck0dtmmb/statement_of_community_involvement_january_2022.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/statement-of-community-involvement/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2022",
+        "document-status": "adopted",
+        "endpoint": "5ff6d2321d554ff957470a40e2b3dca1dfcbd516e1facac2024f5db10d94c860"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/lhhd3ub2/sustainability_appraisal_report_october_2015.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report October 2015",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "b9713f225bf0a7ef7778ca513485a8fe1012dc2b3b4d74ba4d4c39b08ee9c6cd"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/xytl4ivc/local_plan_core_strategy__main_modifications_-_sustainability_appraisal_and_habitats_regulations_assessment_addendum_april_2015.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "main-modifications",
+        "name": "Local Plan Core Strategy: Main Modifications - Sustainability Appraisal and Habitats Regulations Assessment Addendum April 2015",
+        "reference": "MM-2015",
+        "document-status": "adopted",
+        "endpoint": "8d3e401418d4ad0d704caa1beac3fce1eebd648ae910afc58cd80e6fb1c58886"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/suplaclz/sustainability_appraisal_including_strategic_environmental_assessment_non-technical_summary.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal including Strategic Environmental Assessment Non-Technical Summary",
+        "reference": "SA-NTS-2015",
+        "document-status": "adopted",
+        "endpoint": "f898f71d28ecb1af534d11d03f8ecbf6f92160c77ad85d10624d19989f94bf17"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/jwmkooxm/advice_to_hc_on_aligning_hra-_core_strategy_and_statement_of_intent_to_prepare_nutrient_mgt_plan_2013.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Advice to HC on aligning HRA, Core Strategy and Statement of intent to prepare Nutrient Mgt Plan 2013",
+        "reference": "HRA-2013",
+        "document-status": "adopted",
+        "endpoint": "31f584b9c6d593dbba0566c567fab873164ee964105847e86271297a38f37ce5"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/u5vjpcx1/habitats_regulations_assessment_for_revised_preferred_options_aug_2011.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment for Revised Preferred Options Aug 2011",
+        "reference": "HRA-2011",
+        "document-status": "consultation",
+        "endpoint": "8f623d6285a3374e6607115ed8eec1e3ecd4a44cae8608267706317ea7dcf87b"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/lokf2d41/draft_habitats_regulations_assessment_for_preferred_options_nov_2010.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/sustainability-appraisal-sa-and-habitats-regulations-assessment-hra-reports/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Draft Habitats Regulations Assessment for Preferred Options Nov 2010",
+        "reference": "HRA-DRAFT-2010",
+        "document-status": "draft",
+        "endpoint": "403e5178423369a111a57b12e9c61d7eb63c009d7115f862c804cb17333a0381"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/gpclg2xa/amr_2023_-_introduction.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/authority-monitoring-reports/",
+        "document-type": "authority-monitoring-report",
+        "name": "Introduction March 2023",
+        "reference": "AMR-2023",
+        "document-status": "adopted",
+        "endpoint": "214d7a6de87d20e76569ab914b016bca553ba466449c637e50e88ab355fdd0ce"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/3u4btqzh/amr_2023_-_section_1_lds_monitoring.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/authority-monitoring-reports/",
+        "document-type": "local-development-scheme",
+        "name": "Section 1 - LDS monitoring summary March 2023",
+        "reference": "LDS-2023",
+        "document-status": "adopted",
+        "endpoint": "b1b6a721b20d774345aa9137dfc479cfb99e86ae5d8ad4779fe0aa9dd4e32f7a"
+      },
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/gzvo0axx/amr_2020_-_section_7_herefordshire_housing_delivery_test_action_plan.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/authority-monitoring-reports/",
+        "document-type": "housing-delivery-test",
+        "name": "Section 7 - Herefordshire Housing Delivery Test Action Plan 2020",
+        "reference": "HDTAP-2020",
+        "document-status": "adopted",
+        "endpoint": "3519114eaa5a992c895f5124c33a764e9d6cf0c437279ad33c339e7a3f54e764"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HEF",
+    "organisation-name": "Herefordshire Council",
+    "reference": "LP-HEF-2024",
+    "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-2021-2041/",
+    "document-url": "",
+    "name": "Herefordshire Local Plan 2021-2041",
+    "status": "withdrawn",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": []
+  }
+]

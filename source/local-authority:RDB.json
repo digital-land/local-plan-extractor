@@ -1,0 +1,152 @@
+[
+  {
+    "organisation": "local-authority:RDB",
+    "organisation-name": "London Borough of Redbridge",
+    "reference": "LP-RDB-2018",
+    "documentation-url": "https://www.redbridge.gov.uk/localplan",
+    "document-url": "https://www.redbridge.gov.uk/media/oj3hxvhl/10-redbridgelocal-plan_070318_web-1_tp.pdf",
+    "name": "Redbridge Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/oj3hxvhl/10-redbridgelocal-plan_070318_web-1_tp.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Redbridge Local Plan 2015-2030",
+        "reference": "LP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "5c2a9c565717bdfeea70ea0c2d4e4ab7059b0ac8645fd916e0f25fa8f5e1f30d"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/1ynhl5we/appendix-1-web.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix 1: Opportunity Sites",
+        "reference": "LP-APP1-2018",
+        "document-status": "adopted",
+        "endpoint": "7776ef0a2d4f1aeb21f0520d35c2ac10464e7f50dd3b3d9c4817084aec560b24"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/wgabw3xj/policies-map-16032018.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "01b2c2f3e781e11bef79edf75df9dd9f8e96689214f294e04c20582b9ed16cf8"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/l4znqweo/insets-web.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map: Metropolitan and District Centres Inset",
+        "reference": "PM-INSET-2018",
+        "document-status": "adopted",
+        "endpoint": "0ebb23726d0cd1ef24456ca7fd12fcdecdb8954b5514e13b7f4bfdfd6feb945d"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/n2mokpmn/redbridge-local-plan-adoption-statement_march-2018.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "1f024f121c1d9ff7d5e92ecd5595901c6a40f6a22c36f2dd153e841b0607c54a"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/1bnhccu2/redbridge-local-plan-sa-adoption-statement-feb-2018.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "50bc4ad02b7703f659952b6d50351d15cd5e9fad093b2c0df134bc36683c7140"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/pdoc4did/redbridge-local-plan-inspectors-report.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "b78ab22418d6c408f01fa3d17a81028c319dd0222db7ccb1b623f255454ec365"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/1tvjizni/2023-11-02-havering-and-redbridge-final-redex.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Havering and Redbridge Local Housing Needs Assessment Update 2023",
+        "reference": "SHMA-2023",
+        "document-status": "adopted",
+        "endpoint": "983716a4e095d6b7cfb1a17cca4adffc268eb5ee8f3502168aacb66a155221b6"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/envpb42o/redbridge-sci-2020.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement (December 2020)",
+        "reference": "SCI-2020",
+        "document-status": "adopted",
+        "endpoint": "acba4c53dc4937c9f1499ade8b0e2d7312a6da00eb9510ef235547963ae50551"
+      },
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/hp0h0pbq/redbridge-local-development-scheme-2025-web-version-1.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "b6c8dfa40f78dad78a2e83ddc535c993941feddc52c821fe7146f7c71929179f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RDB",
+    "organisation-name": "London Borough of Redbridge",
+    "reference": "LP-RDB-2012",
+    "documentation-url": "https://www.redbridge.gov.uk/localplan",
+    "document-url": "https://www.redbridge.gov.uk/media/jl4djynw/minerals-local-plan-sept-2012.pdf",
+    "name": "Minerals Local Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/jl4djynw/minerals-local-plan-sept-2012.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals Local Plan",
+        "reference": "MLP-2012",
+        "document-status": "adopted",
+        "endpoint": "a1253a8614e7b9fa8f704aa3deed64f3c6c2b9435ea452adc868eac8c8db3430"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RDB",
+    "organisation-name": "London Borough of Redbridge",
+    "reference": "LP-RDB-2012-WASTE",
+    "documentation-url": "https://www.redbridge.gov.uk/localplan",
+    "document-url": "https://www.redbridge.gov.uk/media/n3cnjxps/joint-waste-dpd-adopted-feb-2012.pdf",
+    "name": "Joint East London Waste Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.redbridge.gov.uk/media/n3cnjxps/joint-waste-dpd-adopted-feb-2012.pdf",
+        "documentation-url": "https://www.redbridge.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Joint East London Waste Plan",
+        "reference": "JELWP-2012",
+        "document-status": "adopted",
+        "endpoint": "aa5fe103dbf321725c46f994339ca3fd4f61799487d4281ec1e73636f95d7c2d"
+      }
+    ]
+  }
+]

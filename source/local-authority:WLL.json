@@ -1,0 +1,135 @@
+[
+  {
+    "organisation": "local-authority:WLL",
+    "organisation-name": "Walsall Metropolitan Borough Council",
+    "reference": "LP-WLL-2025",
+    "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/future-planning-policy",
+    "document-url": "",
+    "name": "Walsall Borough Local Plan (WBLP)",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Consultation on the Walsall Borough Local Plan has launched: Have your say",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLL",
+    "organisation-name": "Walsall Metropolitan Borough Council",
+    "reference": "LP-WLL-2011",
+    "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+    "document-url": "",
+    "name": "Black Country Core Strategy (BCCS)",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "core-strategy",
+        "name": "Black Country Core Strategy (BCCS)",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLL",
+    "organisation-name": "Walsall Metropolitan Borough Council",
+    "reference": "LP-WLL-2019",
+    "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+    "document-url": "",
+    "name": "Walsall Site Allocations Document",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "site-allocations",
+        "name": "Walsall Site Allocations Document",
+        "reference": "SA-DPD-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "site-allocations",
+        "name": "Site allocation document examination",
+        "reference": "SA-DPD-EXAM-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLL",
+    "organisation-name": "Walsall Metropolitan Borough Council",
+    "reference": "LP-WLL-UDP",
+    "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+    "document-url": "",
+    "name": "Unitary Development Plan",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "local-plan",
+        "name": "Unitary Development Plan",
+        "reference": "UDP-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLL",
+    "organisation-name": "Walsall Metropolitan Borough Council",
+    "reference": "LP-WLL-AAP",
+    "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+    "document-url": "",
+    "name": "Walsall Town Centre Area Action Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "area-action-plan",
+        "name": "Walsall Town Centre Area Action Plan",
+        "reference": "AAP-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy",
+        "document-type": "area-action-plan",
+        "name": "Walsall town centre area action plan examination",
+        "reference": "AAP-EXAM-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

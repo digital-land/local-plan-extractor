@@ -1,0 +1,60 @@
+[
+  {
+    "organisation": "local-authority:HPL",
+    "organisation-name": "Hartlepool Borough Council",
+    "reference": "LP-HPL-2018",
+    "documentation-url": "https://www.hartlepool.gov.uk/planning/local-plan",
+    "document-url": "",
+    "name": "Hartlepool Local Plan 2016-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2016,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.hartlepool.gov.uk/downloads/file/29/hartlepool-local-plan-policies-map-may-2018",
+        "documentation-url": "https://www.hartlepool.gov.uk/downloads/download/16/hartlepool-local-plan-policies-map",
+        "document-type": "policies-map",
+        "name": "Hartlepool Local Plan Policies Map May 2018",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "e00ae27334d862ea66cec689f589b82e1b94e8ddb6f1f66379ac5e024d8d73c7"
+      },
+      {
+        "document-url": "https://www.hartlepool.gov.uk/downloads/file/30/hartlepool-local-plan-policies-map-may-2018-back-inserts-map",
+        "documentation-url": "https://www.hartlepool.gov.uk/downloads/download/17/hartlepool-local-plan-policies-map-may-2018-back-inserts-map",
+        "document-type": "policies-map",
+        "name": "Hartlepool Local Plan Policies Map May 2018 Back Inserts Map",
+        "reference": "PM-INSERTS-2018",
+        "document-status": "adopted",
+        "endpoint": "ad70105750c100d371a6064dde0d98a83c85448378fdb255b840940b94a7d2ea"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HPL",
+    "organisation-name": "Hartlepool Borough Council",
+    "reference": "NP-HPL-2018",
+    "documentation-url": "https://www.hartlepool.gov.uk/planning/local-plan/2",
+    "document-url": "",
+    "name": "Hartlepool Rural Neighbourhood Plan 2016-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2016,
+    "period-end-date": 2031,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:HPL",
+    "organisation-name": "Hartlepool Borough Council",
+    "reference": "MWP-HPL-2011",
+    "documentation-url": "https://www.hartlepool.gov.uk/planning/local-plan/3",
+    "document-url": "",
+    "name": "Tees Valley Minerals and Waste Development Plan Documents",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": []
+  }
+]

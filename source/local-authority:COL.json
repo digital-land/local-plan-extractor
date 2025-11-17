@@ -1,0 +1,242 @@
+[
+  {
+    "organisation": "local-authority:COL",
+    "organisation-name": "Colchester City Council",
+    "reference": "LP-COL-2022",
+    "documentation-url": "https://www.colchester.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Colchester Local Plan 2017-2033",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2017,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Colchester-SCI-Colchester SCI Final Version 2023.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/statement-of-community-involvement",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2023",
+        "document-status": "adopted",
+        "endpoint": "0bde0c6ae04835856e040089dde4147d51971f8194498a6764173f79ca091457"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-LDS-Local Development Scheme March 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-development-scheme/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "afcf0385880be9fe9490ac250eea51fc61df831e11bffdfb9b13b995aa8486a5"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COL",
+    "organisation-name": "Colchester City Council",
+    "reference": "LP-COL-2025",
+    "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+    "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Development%20Plan%20Document%20%28DPD%29.pdf",
+    "name": "Tendring Colchester Borders Garden Community Development Plan Document",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Adoption%20Statement.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "adoption-statement",
+        "name": "DPD Adoption Statement",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "724adedbdc2f8c5192cc0bb0495032e0d8bbd99d27e80855179cb01f98971f3e"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Development%20Plan%20Document%20%28DPD%29.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "local-plan",
+        "name": "Tendring Colchester Borders Garden Community Development Plan Document",
+        "reference": "DPD-2025",
+        "document-status": "adopted",
+        "endpoint": "2b962548a875748baa75750de26afc281166086996b75af7a8101ec7a28b84ac"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Adopted%20DPD%20Policies%20Map.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "policies-map",
+        "name": "DPD Policies Map",
+        "reference": "PM-2025",
+        "document-status": "adopted",
+        "endpoint": "d4f75c2230dbe07131c4393160ef430543eff5250bccadeed40950a3fc3ad8cd"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Tendring%20Colchester%20Border%20Garden%20Commumnity%20SA.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2025",
+        "document-status": "adopted",
+        "endpoint": "34bdb032fd662a44ce80507978aa73ae93e2904e59bc7d5c6849e64e10b5b0a5"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/Consultations/CD4a%20TCBGC_DPD_Modifications_-_SA%20Update.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - Modifications Update",
+        "reference": "SA-MOD-2025",
+        "document-status": "adopted",
+        "endpoint": "5e7f126ef152addf7a65890571ec903e15ed3251ced2ed4ed94fc676ec4c90f1"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Inspectors%20Report.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "local-plan",
+        "name": "Inspector's Final Report",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "8e7bec846383e4ef0657d9681a09d7c078dbd41612671016dcb096942fad8f38"
+      },
+      {
+        "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Appendix%20A%20-%20Schedule%20of%20Main%20Modifications.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/tendring-colchester-borders/",
+        "document-type": "main-modifications",
+        "name": "Inspector's Final Main Modifications",
+        "reference": "MM-2025",
+        "document-status": "adopted",
+        "endpoint": "1278ed579343f60878260477317132e2f534150e0590f3022b87b81ee5af1ed6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COL",
+    "organisation-name": "Colchester City Council",
+    "reference": "LP-COL-2025-REV",
+    "documentation-url": "https://www.colchester.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Colchester Local Plan Review",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-colchester-local-plan-issues-and-options-report-Issues & Options Report 2024_compressed (1).pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/engagement-consultation/",
+        "document-type": "local-plan",
+        "name": "Issues and Options Report",
+        "reference": "IO-2024",
+        "document-status": "consultation",
+        "endpoint": "4862a2d42da920adf30d07be2f041da2c3d44d518ba9db9d07ea53bde5f9cad6"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-local-plan-Engagement-and-consultation-strategy-LPR%20Engagement%20&%20Consultation%20Strategy%20(1).pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/engagement-consultation/",
+        "document-type": "local-plan",
+        "name": "Engagement and Consultation Strategy",
+        "reference": "ECS-2024",
+        "document-status": "consultation",
+        "endpoint": "8d65293eb734a188201d42e20e1394b54eb8ba920df352ae3ee82be300188fa7"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Employment-tp-Preferred Options Local Plan Topic Paper Employment.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Local Plan Topic Paper: Employment",
+        "reference": "TP-EMP-2025",
+        "document-status": "consultation",
+        "endpoint": "f1ab91ac38277d440bd860a36b2ebacc5d715e613bc53208cc82c48430dbea68"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Net-Zero-tp-Net Zero & embodied carbon Topic Paper July 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Local Plan Topic Paper: Net Zero and Embodied Carbon",
+        "reference": "TP-NZ-2025",
+        "document-status": "consultation",
+        "endpoint": "26bd39e72643754303a2ea5bb0432069ee4cfccfa15366706031e72115bc169e"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Environment-tp-Environment Topic Paper July 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Local Plan Topic Paper: Environment",
+        "reference": "TP-ENV-2025",
+        "document-status": "consultation",
+        "endpoint": "0edb372d2c802c973e42fd4a3dda8c70bf5b3d03327f93bf417539dde73c5d21"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Preferred-Options-Local-Plan-Topic-Paper:-Water-(August-2025)-Preferred Options Local Plan Water Topic Paper  - August 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Local Plan Topic Paper: Water",
+        "reference": "TP-WATER-2025",
+        "document-status": "consultation",
+        "endpoint": "2c4c35326ac6a097c635b82e20a9caf0fd55751bccde5f30c34105e8fe78f220"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/PO%20Site%20Allocation%20Process%20Topic%20Paper.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "site-allocations",
+        "name": "PO Site Allocation Process Topic Paper",
+        "reference": "TP-SA-2025",
+        "document-status": "consultation",
+        "endpoint": "60190f127c7ab39f46486863cf00d991f1aa2e9af8775bbc94cd385e0ff61b55"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/Site%20Allocations%20Topic%20Paper%20%20Summary%20Ocotber%202025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Topic Paper Summary",
+        "reference": "TP-SA-SUM-2025",
+        "document-status": "consultation",
+        "endpoint": "61e41e6760a2b98f0e7870f50cfe810d1f0071b4e12619413089f946a118f372"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/PO%20Spatial%20Strategy%20Topic%20Paper.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan",
+        "name": "PO Spatial Strategy Topic Paper",
+        "reference": "TP-SS-2025",
+        "document-status": "consultation",
+        "endpoint": "b0522b8a95985335a72d7fe637d393f1947643587b9599cda8f8ae097b8194d2"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/Spatial%20strategy%20Topic%20Paper%20summary.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan",
+        "name": "Spatial Strategy Topic Paper Summary",
+        "reference": "TP-SS-SUM-2025",
+        "document-status": "consultation",
+        "endpoint": "a746575e10c33e04d50879d0aad212c2de66cbc8d1952e6e3b77a103965b4877"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/PO Housing Topic Paper November 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Housing Topic Paper",
+        "reference": "TP-HOUSE-2025",
+        "document-status": "consultation",
+        "endpoint": "78919a2e9acbb7a0027590d00c94c006f8fd4ee5342b9f4d34bcbbd8f1b8d722"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-PO-Infrastucture-PO Infrastructure Topic Paper November 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Topic Paper Infrastructure",
+        "reference": "TP-INF-2025",
+        "document-status": "consultation",
+        "endpoint": "5ff9565eb5a983eef5f934a757b2ab60c2e4ee42067fc196e19a90defb3ec3b5"
+      },
+      {
+        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/PO Transport Topic Paper November 2025.pdf",
+        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-plan-review/topic-papers/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Transport Topic Paper",
+        "reference": "TP-TRANS-2025",
+        "document-status": "consultation",
+        "endpoint": "d05a3aad20ee88414f71547bb570a1753da7ea82466a7f517a60f4909a5eb54e"
+      }
+    ]
+  }
+]

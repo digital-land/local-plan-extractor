@@ -1,0 +1,79 @@
+[
+  {
+    "organisation": "local-authority:BPL",
+    "organisation-name": "Blackpool Borough Council",
+    "reference": "LP-BPL-2023",
+    "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Site-allocations-and-development-management-policies.aspx",
+    "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/LPP2-Adoption-Final-Feb-23.pdf",
+    "name": "Blackpool Local Plan Part 2: Site Allocations and Development Management Policies",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/LPP2-Adoption-Final-Feb-23.pdf",
+        "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Site-allocations-and-development-management-policies.aspx",
+        "document-type": "site-allocations",
+        "name": "Blackpool Local Plan Part 2: Site Allocations and Development Management Policies (Adopted February 2023)",
+        "reference": "SA-DPD-2023",
+        "document-status": "adopted",
+        "endpoint": "510b1e0322185c0449d7c2dd7a67924686f608b13abb3d4c66b39d8c92e04d0a"
+      },
+      {
+        "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/LPP2-Adoption-Statement.pdf",
+        "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Site-allocations-and-development-management-policies.aspx",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "a26bd7a42299c7534a30ab2d0e2a86087a7b54095e7bc3b58f09296369fc396f"
+      },
+      {
+        "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/Blackpool-PAS-v4-270223.pdf",
+        "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Site-allocations-and-development-management-policies.aspx",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-PAS-2023",
+        "document-status": "adopted",
+        "endpoint": "34b7ef9be206a07ea19a902f939d70891dcbd221614f94eca6a87899113d8311"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BPL",
+    "organisation-name": "Blackpool Borough Council",
+    "reference": "LP-BPL-2016",
+    "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Core-strategy.aspx",
+    "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/J118003-107575-2016-updated-17-Feb-2016-High-Res.pdf",
+    "name": "Blackpool Local Plan Part 1: Core Strategy 2012-2027",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "documents": [
+      {
+        "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/J118003-107575-2016-updated-17-Feb-2016-High-Res.pdf",
+        "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/Core-strategy.aspx",
+        "document-type": "core-strategy",
+        "name": "Blackpool Local Plan Part 1: Core Strategy 2012-2027 (Adopted January 2016)",
+        "reference": "CS-2016",
+        "document-status": "adopted",
+        "endpoint": "57d5170deff772dbcb87c5f03abc8d11dd31c7fbbacab1ff90b7f7d401ecf62a"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BPL",
+    "organisation-name": "Blackpool Borough Council",
+    "reference": "LP-BPL-2045",
+    "documentation-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Planning/Planning-policy/Blackpool-local-plan/New-local-plan-to-2042/New-local-plan-to-2045.aspx",
+    "document-url": "",
+    "name": "New Local Plan to 2045",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2045,
+    "documents": []
+  }
+]

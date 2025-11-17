@@ -1,0 +1,138 @@
+[
+  {
+    "organisation": "local-authority:CAN",
+    "organisation-name": "Cannock Chase District Council",
+    "reference": "LP-CAN-2025",
+    "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+    "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Cannock%20Chase%20Local%20Plan%20Pre%20Submission%20Reg%2019.pdf",
+    "name": "Cannock Chase Local Plan 2018-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2018,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Cannock%20Chase%20Local%20Plan%20Pre%20Submission%20Reg%2019.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Cannock Chase Local Plan Pre-Submission Regulation 19 Document",
+        "reference": "LP-REG19-2024",
+        "document-status": "consultation",
+        "endpoint": "227cb624308c9f4251f484cf1a8432ef9545a6c0c4093f33ea77f5a763f90e6c"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/MOD1%20Schedule%20of%20Proposed%20Main%20Modifications%20to%20the%20Cannock%20Chase%20Local%20Plan.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Schedule of Proposed Main Modifications to the Cannock Chase Local Plan",
+        "reference": "MM-2025",
+        "document-status": "consultation",
+        "endpoint": "40a7ccebd8504d754804771155f39aad4d0a9892ebca59287a51f3a3329ffa6b"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Local%20Plan%20Policies%20Map%20-%20Oct%202025%20A0%20with%20modifications%20made.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map - Oct 2025 A0 with modifications made",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "becb413f054bd0a2e22b0ae4732b07367a8226b853fb7aabc3da7bf2765d003b"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Local%20Plan%20Reg%2019%20Integrated%20Impact%20Assessment%20inc%20SA%20%26%20HIA%2002.24_0.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "health-impact-assessment",
+        "name": "Local Plan Reg 19 Integrated Impact Assessment inc SA & HIA 02.24",
+        "reference": "HIA-2024",
+        "document-status": "consultation",
+        "endpoint": "68ca35763f4cb4cf1e75a3bfa4ddcd6c61792bcd97251e28bbd70d586bb71eee"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Cannock%20Chase%20Reg19%20HRA%20Report%202024.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Regulation19 Habitats Regulation Assessment 2024",
+        "reference": "HRA-2024",
+        "document-status": "consultation",
+        "endpoint": "1ee3142cf1b37c012e1e03777128840ac455ce1e2aad2a6fe3b90517999d34ac"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Consultation%20Statement%20December%202023.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement December 2023",
+        "reference": "CS-2023",
+        "document-status": "consultation",
+        "endpoint": "a469fed8c1f6e9b15dbc83f8cb8627ead46411e2f80b77415fd5fb5124bc80e8"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/document-library/Infrastructure%20Delivery%20Plan%202023%20Updated_1.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan 2023 Updated",
+        "reference": "IDP-2023",
+        "document-status": "consultation",
+        "endpoint": "adc98ea402be439b531ab86e08a9c3bfd40e9c02cfe5258ff040a702224d5059"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CAN",
+    "organisation-name": "Cannock Chase District Council",
+    "reference": "LP-CAN-2014",
+    "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+    "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/local_plan_part_1_09.04.14_low_res.pdf",
+    "name": "Cannock Chase Local Plan (Part 1) 2014",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/local_plan_part_1_09.04.14_low_res.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "local-plan",
+        "name": "Cannock Chase Local Plan - Local Plan (Part 1) 2014",
+        "reference": "LP-2014",
+        "document-status": "adopted",
+        "endpoint": "5cfa6efe388d65b91bc4e421166b1fb76edc5c46aa9a15fa60bb128f2a45e7a0"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/sustainability_appraisal.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "a355d1452d1a1e407714cd40f612296a3954f08433a3245c50af42c77ef03e7b"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/cannock_chase_lp_final_report.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "local-plan",
+        "name": "Inspectors report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "e25a4999ef6939bdfaa7b389d207d4e057e6510487af7dcaaa106a0f5d618ae7"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/eqia_update.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities Impact Assessment",
+        "reference": "EIA-2014",
+        "document-status": "adopted",
+        "endpoint": "23c6a318d7d2292f6f01d0773730c58fa9e68f0b1a26fb686fa471f248c4ea0d"
+      },
+      {
+        "document-url": "https://www.cannockchasedc.gov.uk/sites/default/files/site-old/hra_addendum_word_2003.pdf",
+        "documentation-url": "https://www.cannockchasedc.gov.uk/residents/planning-and-building-control/planning-policy/cannock-chase-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment Addendum Report - Habitat Regulations Assessment of the Local Plan (Part 1)",
+        "reference": "HRA-2014",
+        "document-status": "adopted",
+        "endpoint": "5805d7d16cd52457686fab7bb56bc83980831c9a198a5e647baa8e6b20facca9"
+      }
+    ]
+  }
+]

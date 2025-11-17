@@ -1,0 +1,97 @@
+[
+  {
+    "organisation": "local-authority:NEA",
+    "organisation-name": "Newark and Sherwood District Council",
+    "reference": "LP-NEA-2019",
+    "documentation-url": "https://www.newark-sherwooddc.gov.uk/localplan/",
+    "document-url": "https://www.newark-sherwooddc.gov.uk/media/nsdc-redesign/documents-and-images/your-council/planning-policy/local-development-framework/amended-core-strategy-dpd/making-of-the-core-strategy/report-on-the-examination-of-the-amended-core-strategy.pdf",
+    "name": "Newark and Sherwood Amended Core Strategy",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/nsdc-redesign/documents-and-images/your-council/planning-policy/local-development-framework/amended-core-strategy-dpd/making-of-the-core-strategy/report-on-the-examination-of-the-amended-core-strategy.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/makingcorestrategy/",
+        "document-type": "core-strategy",
+        "name": "Report on the examination of the amended core strategy",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "f8ed359685cb06a3f90d8f2b5b3787a6bca205e617c7d5651a165bcbdded3380"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/pdfs/allocations-development-managment-options-report/final-proposed-modifications/finalModification.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/makingcorestrategy/",
+        "document-type": "local-plan",
+        "name": "Proposed Modifications",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "709c62204913cce35ee96677cde9883e4d7ce20a15463e104db77758fd1461d0"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/Representation-Guidance-Notes-ACS-Modifications.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/makingcorestrategy/",
+        "document-type": "local-plan",
+        "name": "Representation Guidance Notes ACS Modifications",
+        "reference": "RGN-2018",
+        "document-status": "consultation",
+        "endpoint": "3d30cdc9b682c136ed181707f770c647ed8b8e1ad43361cf4b965817c2f0ee3e"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/June-2018-IIA-and-Habitats-Regulations-Review-of-the-Final-Modifications.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/makingcorestrategy/",
+        "document-type": "sustainability-appraisal",
+        "name": "June 2018 IIA and Habitats Regulations Review of the Final Modifications",
+        "reference": "SA-2018",
+        "document-status": "adopted",
+        "endpoint": "7807f7256e526b83e782b403bad966b106954ac59c0993b14fa3395f303f89eb"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/Final-NSDC-AA.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/makingcorestrategy/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Appropriate Assessment",
+        "reference": "HRA-2019",
+        "document-status": "adopted",
+        "endpoint": "91daa39e835077ea2db7f28aed6084d14df09b2342e081a4adce50ac44d01b3e"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/nsdc-redesign/documents-and-images/your-council/planning-policy/NSDC-SHELAA-Methodology.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/localplan/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "2025 SHELAA Methodology",
+        "reference": "SHELAA-2025",
+        "document-status": "adopted",
+        "endpoint": "0cf95a5ccb84f0ad5dcde2783443a3488e03b0c4c12e898739f49b234a427499"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/pdfs/publication-amended-core-strategy/uploads/hearing-statements/Matter-1.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/hearingstatements/",
+        "document-type": "examination-hearing-statement",
+        "name": "NSDC - Matter 1",
+        "reference": "HS-M1-2017",
+        "document-status": "examination",
+        "endpoint": "0d9b1bb201bc9614c23f0be15476a5c49ee0732064c43f905b252c35d1ac8b77"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/pdfs/publication-amended-core-strategy/uploads/hearing-statements/Matter-2.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/hearingstatements/",
+        "document-type": "examination-hearing-statement",
+        "name": "NSDC - Matter 2",
+        "reference": "HS-M2-2017",
+        "document-status": "examination",
+        "endpoint": "b4dae8983014d1e040d4b258eb8a4c652e0c117f427f397bdea6b23e03e693a5"
+      },
+      {
+        "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/pdfs/publication-amended-core-strategy/uploads/hearing-statements/Matter-20.pdf",
+        "documentation-url": "https://www.newark-sherwooddc.gov.uk/hearingstatements/",
+        "document-type": "examination-hearing-statement",
+        "name": "NSDC - Matter 20",
+        "reference": "HS-M20-2017",
+        "document-status": "examination",
+        "endpoint": "27b81bd6e61f6be0b8b9ea636705e4a762d0efb12bc1f51bc435054911fcb491"
+      }
+    ]
+  }
+]

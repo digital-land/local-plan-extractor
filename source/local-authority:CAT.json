@@ -1,0 +1,101 @@
+[
+  {
+    "organisation": "local-authority:CAT",
+    "organisation-name": "Canterbury City Council",
+    "reference": "LP-CAT-2017",
+    "documentation-url": "https://www.canterbury.gov.uk/localplan",
+    "document-url": "https://www.canterbury.gov.uk/sites/default/files/2022-10/Adopted%20Local%20Plan.pdf",
+    "name": "Canterbury District Local Plan",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2017,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2022-10/Adopted%20Local%20Plan.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-2017-2031",
+        "document-status": "adopted",
+        "endpoint": "c67420f41be1bb487b55354bb6495ebbb504f5a0af59f7a7abd979a6915beab4"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/Kent%20Wide%20Planning%20Protocol.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Kent Wide Planning Protocol",
+        "reference": "KWPP-2024",
+        "document-status": "adopted",
+        "endpoint": "612868f6c3124b1b57f70e5eebcc2fc23e0555555093eef0dd56486326f2be0c"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/2018_19%20Housing%20Delivery%20Test%20Action%20Plan.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "housing-delivery-test",
+        "name": "2018_19 Housing Delivery Test Action Plan",
+        "reference": "HDT-2018-19",
+        "document-status": "adopted",
+        "endpoint": "1f0753937c0d31c1209eea241518400707edba3f52d24428c51bed929449c836"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/2019_20%20Housing%20Delivery%20Test%20Action%20Plan.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "housing-delivery-test",
+        "name": "2019_20 Housing Delivery Test Action Plan",
+        "reference": "HDT-2019-20",
+        "document-status": "adopted",
+        "endpoint": "ba04d04077e5b1955f18d8efe8228c0462a58ed42f58a0203a170a8f3e664973"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/2020_21%20Housing%20Delivery%20Test%20Action%20Plan.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "housing-delivery-test",
+        "name": "2020_21 Housing Delivery Test Action Plan",
+        "reference": "HDT-2020-21",
+        "document-status": "adopted",
+        "endpoint": "14b0950a0505d2ba9af56ad226a1123c932bd78fd89c266972d8d81b15def073"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2025-05/2022%20to%202023%20Housing%20Delivery%20Test%20Action%20Plan.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "housing-delivery-test",
+        "name": "2022 to 2023 Housing Delivery Test Action Plan",
+        "reference": "HDT-2022-23",
+        "document-status": "adopted",
+        "endpoint": "6d3a69abacb516a3df90bd86786cc3fd5c8c21414087c64f18d6003b2aa3672d"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/Phasing%20Methodology%202018.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Phasing Methodology 2018",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "02121c4a30ba7f722a6a55c624187d0a06b9e146d3d73ef825fd10db56791beb"
+      },
+      {
+        "document-url": "https://www.canterbury.gov.uk/sites/default/files/2024-04/Phasing%20methodology%202023.pdf",
+        "documentation-url": "https://www.canterbury.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Phasing methodology 2023",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "d057d9bdb06e2387f77f32980ffbb75871348ff97343642c66a27309f7fe4c6d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CAT",
+    "organisation-name": "Canterbury City Council",
+    "reference": "LP-CAT-2026",
+    "documentation-url": "https://haveyoursay.canterbury.gov.uk/draft-canterbury-district-local-plan-focused-consultation-2025",
+    "document-url": "",
+    "name": "Canterbury District Local Plan 2040",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": []
+  }
+]

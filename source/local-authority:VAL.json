@@ -1,0 +1,179 @@
+[
+  {
+    "organisation": "local-authority:VAL",
+    "organisation-name": "Vale of White Horse District Council",
+    "reference": "LP-VAL-2016",
+    "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+    "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Local-Plan-2031-Part-1.pdf",
+    "name": "Vale of White Horse Local Plan 2031 Part 1: Strategic Sites and Policies",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Local-Plan-2031-Part-1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Local Plan 2031 Part 1: Strategic Sites and Policies",
+        "reference": "LP-2031-P1",
+        "document-status": "adopted",
+        "endpoint": "fdf2eea40374896d3184120d8b0f63a8037b3480dcad05d6c865fa7431431b33"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Local-Plan-2031-Part-1-Appendicies.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Local Plan 2031 Part 1: Strategic Sites and Policies – Appendices",
+        "reference": "LP-2031-P1-APP",
+        "document-status": "adopted",
+        "endpoint": "a8ea181f506d4382c6ea46f26f3651fc35188e636004423f85ed5c98b915d4a9"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2019/07/Local-Plan-2031-Part-1-Adoption-Statement-LPP1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Part 1- Adoption Statement",
+        "reference": "AS-2031-P1",
+        "document-status": "adopted",
+        "endpoint": "14df687b380f2357181b64248aecd54d7eeb93ee370138ec50965e1418601d43"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2019/07/Vale-LPP1-SA-Adoption-Statement-161206-LPP1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Part 1 – Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2031-P1",
+        "document-status": "adopted",
+        "endpoint": "d51938fa2623f027149406dd14babf931a696f123546935115d2b44d93a3767e"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2021/12/Local-Plan-Part-1-Review-Dec-2021..pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Part 1 Review",
+        "reference": "LPR-2031-P1",
+        "document-status": "adopted",
+        "endpoint": "12a05f6e6474697fcecdb697cca5def3ca8bc1cea554f1a864c0b000ca075502"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:VAL",
+    "organisation-name": "Vale of White Horse District Council",
+    "reference": "LP-VAL-2019",
+    "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+    "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2021/03/VOWHDC-Master-1.pdf",
+    "name": "Vale of White Horse Local Plan 2031 Part 2: Detailed Policies and Additional Sites",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2021/03/VOWHDC-Master-1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Local Plan 2031 Part 2: Detailed Policies and Additional Sites",
+        "reference": "LP-2031-P2",
+        "document-status": "adopted",
+        "endpoint": "67bfca2698339aca907e875255ab59f82454f14727cdcaa6c708f00e5af46af4"
+      },
+      {
+        "document-url": "https://www.southandvale.gov.uk/app/uploads/sites/3/2025/05/Vale-of-White-Horse-Local-Plan-2031-Part-2-Detailed-Policies-and-Additional-Sites-–-Appendices.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Local Plan 2031 Part 2: Detailed Policies and Additional Sites – Appendices",
+        "reference": "LP-2031-P2-APP",
+        "document-status": "adopted",
+        "endpoint": "5c52bef98a5adccb1199f778bcbe47b59b31e24c1aeffba2bc3b163ad147d769"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/2019-10-10-VoWH-Adoption-Statement-FINAL_0-1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan 2031 Part 2 – Adoption Statement",
+        "reference": "AS-2031-P2",
+        "document-status": "adopted",
+        "endpoint": "52dd7e422218414e89834a9c48ccecb723da500345b15a98b4d6a0a1e25c1d8e"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/VoWH-LPP2-Sustainability-Appraisal-Adoption-Statement-191025-1.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan 2031 Part 2 – Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2031-P2",
+        "document-status": "adopted",
+        "endpoint": "6d8c265e7ed72d2bcc2822863a11a8915cd45afc58eb50483f3799a4c0da3580"
+      },
+      {
+        "document-url": "https://democratic.whitehorsedc.gov.uk/documents/s61489/LPP2%20Cabinet%20Report%20Final.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Part 2 Review Cabinet Report",
+        "reference": "LPR-2031-P2-CR",
+        "document-status": "adopted",
+        "endpoint": "ebea884847185375421e71f99726c8220477c0f5619c52877af95cc54b7ae9c4"
+      },
+      {
+        "document-url": "https://www.southandvale.gov.uk/app/uploads/sites/3/2024/09/20240925-LPP2-Statement_Redacted.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Part 2 Review Statement",
+        "reference": "LPR-2031-P2-ST",
+        "document-status": "adopted",
+        "endpoint": "966f7d1464d3aff93df7118a97e40da473b8b28d40249a600f3a36a7b5c035de"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Adopted-October-2019-constraint-sub-area-abingdon-north-v3.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Abingdon-on-Thames and Oxford Fringe Sub-Area Policies Map",
+        "reference": "PM-ABINGDON",
+        "document-status": "adopted",
+        "endpoint": "f31bb57cbc9bb38cb19267094ad760023f5633a9f9ecb5ff58346b4af1e93179"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Adopted-October-2019-constraint-sub-area-east-v3.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "South East Vale Sub-Area Policies Map",
+        "reference": "PM-SEVALE",
+        "document-status": "adopted",
+        "endpoint": "cb12f4099ee665e3349a01d8dcc33ede05fb03dd45ee11634c66a90e44f47175"
+      },
+      {
+        "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Adopted-October-2019-constraint-sub-area-western-v3.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Western Vale Sub-Area Policies Map",
+        "reference": "PM-WVALE",
+        "document-status": "adopted",
+        "endpoint": "cbe7b985f4a22a3a3e704dc0e750d5d391bb59a8521113b2617f7d930f4feaef"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:VAL",
+    "organisation-name": "Vale of White Horse District Council",
+    "reference": "LP-VAL-2041",
+    "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2041/",
+    "document-url": "",
+    "name": "Joint Local Plan 2041",
+    "status": "submitted",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://theconversation.southandvale.gov.uk/policy-and-programmes/sa_consultation/user_uploads/sa---sea-of-jlp---technical-addendum-to-scoping-report.pdf",
+        "documentation-url": "https://www.whitehorsedc.gov.uk/vale-of-white-horse-district-council/planning-and-development/local-plan-and-planning-policies/local-plan-2041/",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Sustainability Appraisal Technical Addendum to Scoping Report",
+        "reference": "SA-TA-2041",
+        "document-status": "examination",
+        "endpoint": "f7eb9ceaf6c5adb5b72adc536e3a82910d4d45e3c2e93ad183074358a3b8064a"
+      }
+    ]
+  }
+]

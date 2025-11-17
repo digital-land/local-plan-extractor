@@ -1,0 +1,231 @@
+[
+  {
+    "organisation": "local-authority:WNUA",
+    "organisation-name": "West Northamptonshire Council",
+    "reference": "LP-WNUA-2024",
+    "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+    "document-url": "",
+    "name": "West Northamptonshire Local Plan 2043",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Local Plan (April 2024)",
+        "reference": "LP-REG18-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "sustainability-appraisal",
+        "name": "West Northamptonshire Local Plan Regulation 18 – Sustainability Appraisal (April 2024)",
+        "reference": "SA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "sustainability-appraisal",
+        "name": "West Northamptonshire Local Plan Regulation 18 – Sustainability Appraisal – High Level Assessments (April 2024)",
+        "reference": "SA-HLA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "habitats-regulations-assessment",
+        "name": "West Northamptonshire Local Plan Regulation 18 – Habitats Regulations Assessment (Screening) (April 2024)",
+        "reference": "HRA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map NE (April 2024)",
+        "reference": "PM-NE-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map NW (April 2024)",
+        "reference": "PM-NW-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map SE (April 2024)",
+        "reference": "PM-SE-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map SW (April 2024)",
+        "reference": "PM-SW-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map Inset - Brackley (April 2024)",
+        "reference": "PM-BRACKLEY-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map Inset - Daventry (April 2024)",
+        "reference": "PM-DAVENTRY-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WNUA",
+    "organisation-name": "West Northamptonshire Council",
+    "reference": "LP-WNUA-2020-SOUTH",
+    "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+    "document-url": "",
+    "name": "South Northamptonshire Local Plan Part 2 2011-2029",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "local-plan",
+        "name": "South Northamptonshire Local Plan Part 2 2011-2029",
+        "reference": "LP-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "adoption-statement",
+        "name": "South Northamptonshire Local Plan Part 2 Adoption Statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "local-plan",
+        "name": "Overall Proposals Key Map",
+        "reference": "PM-KEY-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "policies-map",
+        "name": "Proposals Maps Policies AL1 to AL5",
+        "reference": "PM-AL-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "policies-map",
+        "name": "Appendix 1 Proposals Map Policies NE1 to NE3 and NE7",
+        "reference": "PM-NE-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "sustainability-appraisal",
+        "name": "LP2SD03-1 Local Plan Part 2 Sustainability Appraisal (Options 2016)",
+        "reference": "SA-OPTIONS-2016",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "sustainability-appraisal",
+        "name": "LP2SD03-2 Local Plan Part 2 Sustainability Appraisal Part 1 Introduction",
+        "reference": "SA-P1-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/south-northamptonshire-local-plan-part-2",
+        "document-type": "sustainability-appraisal",
+        "name": "LP2SD03-3 Local Plan Part 2 Sustainability Appraisal Part 2 Baseline",
+        "reference": "SA-P2-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WNUA",
+    "organisation-name": "West Northamptonshire Council",
+    "reference": "LP-WNUA-2023-NORTH",
+    "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/northampton-local-plan-part-2",
+    "document-url": "",
+    "name": "Northampton Local Plan Part 2 2011-2029",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WNUA",
+    "organisation-name": "West Northamptonshire Council",
+    "reference": "LP-WNUA-2020-DAVENTRY",
+    "documentation-url": "https://www.westnorthants.gov.uk/planning-policy/daventry-local-plan-part-2",
+    "document-url": "",
+    "name": "Settlements and Countryside (Part 2) Local Plan 2011-2029",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WNUA",
+    "organisation-name": "West Northamptonshire Council",
+    "reference": "CS-WNUA-2014",
+    "documentation-url": "https://www.westnorthants.gov.uk/west-northamptonshire-joint-core-strategy",
+    "document-url": "",
+    "name": "West Northamptonshire Joint Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

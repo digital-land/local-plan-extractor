@@ -1,0 +1,65 @@
+[
+  {
+    "organisation": "local-authority:TAW",
+    "organisation-name": "Tamworth Borough Council",
+    "reference": "LP-TAW-2016",
+    "documentation-url": "https://www.tamworth.gov.uk/local-plans",
+    "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Appendix-D-Monitoring-Framework.pdf",
+    "name": "Tamworth Borough Council Local Plan 2006-2031",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2006,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Appendix-D-Monitoring-Framework.pdf",
+        "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
+        "document-type": "local-plan",
+        "name": "Appendix D - Monitoring Framework",
+        "reference": "LP-2006-2031-APPENDIX",
+        "document-status": "adopted",
+        "endpoint": "f7bdce14654bac126737f64e7071ad7bc2298ea0bae8d9e9e1a25411f815ae37"
+      },
+      {
+        "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Authorities-monitoring-report-2023_2024.pdf",
+        "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority's monitoring report 2023/24",
+        "reference": "AMR-2023-24",
+        "document-status": "adopted",
+        "endpoint": "c9babf6e4380b0c61d9c0eebcd8033325d0009a2b3d1ceed3ad9a0ba88f70cbb"
+      },
+      {
+        "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Housing-Delivery-Paper-2023_2024.pdf",
+        "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
+        "document-type": "local-plan",
+        "name": "Housing delivery paper 2023/24",
+        "reference": "HDP-2023-24",
+        "document-status": "adopted",
+        "endpoint": "e030f79f7bbc235e2901b33a4d51943ab6d8584debaa3c69cd6b326d5907cfbf"
+      },
+      {
+        "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/IFS-Report-2023_2024.pdf",
+        "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
+        "document-type": "local-plan",
+        "name": "Infrastructure funding statement 2023/24",
+        "reference": "IFS-2023-24",
+        "document-status": "adopted",
+        "endpoint": "2122cc0fd0e5ac0227a2c6bf1acc9f55903e3157c1397fbc4a8afdf275b6bcd2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAW",
+    "organisation-name": "Tamworth Borough Council",
+    "reference": "LP-TAW-2043",
+    "documentation-url": "https://www.tamworth.gov.uk/local-plans",
+    "document-url": "",
+    "name": "Local Plan 2022-2043",
+    "status": "draft",
+    "year": 2022,
+    "period-start-date": 2022,
+    "period-end-date": 2043,
+    "documents": []
+  }
+]

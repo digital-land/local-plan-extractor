@@ -1,0 +1,89 @@
+[
+  {
+    "organisation": "local-authority:GRA",
+    "organisation-name": "Gravesham Borough Council",
+    "reference": "LP-GRA-2014",
+    "documentation-url": "https://www.gravesham.gov.uk/localplan",
+    "document-url": "",
+    "name": "Gravesham Local Plan Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Core Strategy",
+        "reference": "LP-CS-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Gravesham Local Plan Policies Map",
+        "reference": "PM-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://democracy.gravesham.gov.uk/documents/s25507/Appendix%202a%20Inspectors%20Report.pdf",
+        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Planning Inspector's Report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "8f377ba3c6b96a897b236466998c37fe6562a1342e392e4506252e3ba08ffd88"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GRA",
+    "organisation-name": "Gravesham Borough Council",
+    "reference": "LP-GRA-1994",
+    "documentation-url": "https://www.gravesham.gov.uk/localplan",
+    "document-url": "https://www.gravesham.gov.uk/downloads/file/1024/gravesham-local-plan-first-review-saved-and-deleted-policies-version-september-2014-",
+    "name": "Gravesham Local Plan First Review",
+    "status": "adopted",
+    "year": 1994,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.gravesham.gov.uk/downloads/file/1024/gravesham-local-plan-first-review-saved-and-deleted-policies-version-september-2014-",
+        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Gravesham Local Plan First Review – Saved and Deleted Policies Version",
+        "reference": "LP-1994-SP",
+        "document-status": "adopted",
+        "endpoint": "0078016ddecf2392ec58f1a9b4cffe5accf54d38364b3e373dc8397676a131b8"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GRA",
+    "organisation-name": "Gravesham Borough Council",
+    "reference": "LP-GRA-2025-MW",
+    "documentation-url": "https://www.gravesham.gov.uk/localplan",
+    "document-url": "",
+    "name": "Kent Minerals and Waste Local Plan 2024-30",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Kent Minerals and Waste Local Plan (KMWLP)",
+        "reference": "KMWLP-2024-30",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

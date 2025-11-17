@@ -1,0 +1,165 @@
+[
+  {
+    "organisation": "local-authority:EPP",
+    "organisation-name": "Epping Forest District Council",
+    "reference": "LP-EPP-2023",
+    "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+    "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-Part-One.pdf",
+    "name": "Epping Forest District Local Plan 2011-2033",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2011,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-Part-One.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Epping Forest District Local Plan 2011-2033 Part One",
+        "reference": "LP-2011-2033-P1",
+        "document-status": "adopted",
+        "endpoint": "065a0654ee9528a42ea8280e9fa712c5bc8b669fecef4ac4613463a736daf7cc"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-Part-Two.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Epping Forest District Local Plan 2011-2033 Part Two (Site Specific Policy Requirements and Designations)",
+        "reference": "LP-2011-2033-P2",
+        "document-status": "adopted",
+        "endpoint": "4ead31c64dd31bd590dc7c5e7b4bde12fac6d46e4436f970d486be7cbb282812"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/Policies-Map-200323.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Epping Forest District Local Plan 2011-2033 Policies Map",
+        "reference": "PM-2011-2033",
+        "document-status": "adopted",
+        "endpoint": "97d1d5ba0d9824c322a6f9d3f3ff9ec584f9b9237268392333084bca456aedfa"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFDLP-Adoption-Statement-140323.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Epping Forest District Local Plan Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "9ec10dd7c304401fc0590e87605d3fe70c0317940bca2a5d0f7ade0932345c21"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-SA-Adoption-Statement-140323.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Epping Forest District Local Plan 2011-2033 Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "e2fb9c2f3dbba8d5fd79101e7101bc06fd69c32fb1f5ed0e6dc43c65e512ccef"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-HRA-Adoption-Statement-140323.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Epping Forest District Local Plan 2011–2033 Habitats Regulations Assessment Adoption Statement",
+        "reference": "HRA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "fd3b2d96b497b9e17c19ea9072f4f1adb41cfe8c68e2662c24a789d69ae0f60a"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/02/Inspectors-Report-on-the-Examination-of-the-EFDLP-2011-2033.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report on the Examination of the EFDLP 2011 to 2033",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "25a07b73014de5c7c6c180691aaa6b8969978151f730e3effdd8afbdb998ab04"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/02/Appendix-to-Inspectors-Report-on-the-Examination-of-the-EFDLP-2011-2033-Final-Schedule-of-MMs.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "main-modifications",
+        "name": "Appendix to Inspector's Report on the Examination of the EFDLP 2011 to 2033 Final Schedule of MMs",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "2fa093541c292ad2bb8f97151ae9befc187594769548d2e2c90bbd8598b93800"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2025/10/ED149-Epping-Forest-Local-Plan-HRA-October-2022.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Epping Forest Local Plan HRA October 2022",
+        "reference": "HRA-2022",
+        "document-status": "adopted",
+        "endpoint": "b9c55206db69d9664af18a60c6e2dfc8afd6f42295a05647c054d090baf8932a"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2024/07/ED148-Sustainability-Appraisal-Addendum-Oct-22.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Addendum October 2022",
+        "reference": "SA-2022",
+        "document-status": "adopted",
+        "endpoint": "f7603d4b83ce654916e730db799e6e3ccd7f91f72bf8ec34514e24177292642c"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2024/02/EB210-Epping-Forest-District-Sustainability-Report-Addendum-June-2021.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Addendum, June 2021",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "1dd695aa7e8e89131e71c2794817529a6d8c3220ccfdb1d66ef264ae291f8b55"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2024/02/EB1118-EFDC-IDP-Update-Part-B-2020.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/adopted-local-plan-march-2023/infrastructure-delivery/",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "EFDC infrastructure delivery plan",
+        "reference": "IDP-2020",
+        "document-status": "adopted",
+        "endpoint": "41621069e1c8233eee591deefe04e99d991e1a540b1cc2fc8a139cd27d285c09"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EPP",
+    "organisation-name": "Epping Forest District Council",
+    "reference": "LP-EPP-2016",
+    "documentation-url": "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/draft-local-plan-2016/",
+    "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2019/01/Epping-Forest-Draft-Local-Plan-2016.pdf",
+    "name": "Epping Forest District Draft Local Plan 2016",
+    "status": "regulation-18",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2019/01/Epping-Forest-Draft-Local-Plan-2016.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/draft-local-plan-2016/",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan",
+        "reference": "LP-DRAFT-2016",
+        "document-status": "consultation",
+        "endpoint": "3733e75ca8d9d26eac6c76d4ee040ce141b5a7884bd8ffbedf0ff7f0e7bac232"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2019/01/Draft-Local-Plan-Chapter-3.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/draft-local-plan-2016/",
+        "document-type": "core-strategy",
+        "name": "Chapter 3 – Strategic Policies",
+        "reference": "CS-DRAFT-2016",
+        "document-status": "consultation",
+        "endpoint": "28fe2c2f3f5d48e23b5db02d138fe012d7add40cc14cb1e5f67c7d3113b79314"
+      },
+      {
+        "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2019/01/Draft-Local-Plan-Chapter-4.pdf",
+        "documentation-url": "https://www.eppingforestdc.gov.uk/planning-and-building/planning-policy/draft-local-plan-2016/",
+        "document-type": "development-management-policies",
+        "name": "Chapter 4 – Housing, Economy, Transport and Development Management Policies",
+        "reference": "DM-DRAFT-2016",
+        "document-status": "consultation",
+        "endpoint": "bd7b699901d951c11794064ba4f4046d71d3d3614c88887b07b839483525a2db"
+      }
+    ]
+  }
+]

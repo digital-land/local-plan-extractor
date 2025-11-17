@@ -1,0 +1,88 @@
+[
+  {
+    "organisation": "local-authority:WAW",
+    "organisation-name": "Warwick District Council",
+    "reference": "LP-WAW-2017",
+    "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+    "document-url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan",
+    "name": "Warwick District Local Plan 2011-2029",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "local-plan",
+        "name": "Local Plan download",
+        "reference": "LP-2011-2029",
+        "document-status": "adopted",
+        "endpoint": "b9289816e6379d035a7d38ce2e1c20a2dbbf053654ac704d282316939624b77f"
+      },
+      {
+        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4544/adoption_-_adoption_statement",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "aff3bea6e01a035fa7dafda6d808eb4d31606c09fb247c7d9662e226d9af4bf8"
+      },
+      {
+        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4539/adoption_-_sa_statement",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal statement",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "6b4b9f8b8a795747ed2a1857c4338b46faed52dfc2c3355fe36b78034e09c71f"
+      },
+      {
+        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4479/inspectors_report_final",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report",
+        "reference": "IR-2017",
+        "document-status": "adopted",
+        "endpoint": "957ed4584f39f6f57a7696d99df94dbac718ea4a66018336ee4cc5b6d5af2e68"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/downloads/file/4480/warwick_lp_main_mods_schedule_final",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "local-plan",
+        "name": "Main modifications schedule",
+        "reference": "MM-2017",
+        "document-status": "adopted",
+        "endpoint": "145615ec4c4070187f75b99865ecf027839ef7706bf8ad22bea97f25a8830de7"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/downloads/file/6618/ds19_update_-_march_2021",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "local-plan",
+        "name": "Update on Policy DS19",
+        "reference": "DS19-2021",
+        "document-status": "adopted",
+        "endpoint": "672b6c9d08e790869a45b63c997a0bfd6ff8dc403048015201d7fbe0ccdb0824"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/downloads/file/6397/19_sherbourne_corrected",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policy Map for Sherbourne",
+        "reference": "PM-SHERBOURNE-2020",
+        "document-status": "adopted",
+        "endpoint": "c6f0b2101d2f388ae408d1ff406aaf33ea82a6163aba5395d3d97a4b9cc94f5b"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/downloads/file/2251/lp13_-_focused_changes_consultation_document_with_cover_-_october_2014",
+        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Publication Draft - Focused Changes",
+        "reference": "LP-FC-2014",
+        "document-status": "consultation",
+        "endpoint": "153113396fededb7c12f4f1e998fb41af10076f746c1956a50485968a816269d"
+      }
+    ]
+  }
+]

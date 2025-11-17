@@ -1,0 +1,57 @@
+[
+  {
+    "organisation": "local-authority:EST",
+    "organisation-name": "East Staffordshire Borough Council",
+    "reference": "LP-EST-2015",
+    "documentation-url": "https://www.eaststaffsbc.gov.uk/planning/planning-policy/local-plan-2012-2031",
+    "document-url": "",
+    "name": "East Staffordshire Local Plan 2012-2031",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2012,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/examination/c/C43IntegratedTransportStrategyamended14thJuly2014.pdf",
+        "documentation-url": "https://www.eaststaffsbc.gov.uk/planning/planning-policy/local-plan-evidence-base",
+        "document-type": "transport-assessment",
+        "name": "East Staffordshire Integrated Transport Strategy 2014",
+        "reference": "ITS-2014",
+        "document-status": "adopted",
+        "endpoint": "82d4916f0860a1b5b13362450a558c25ce31278f2e5ce0251919af12e09017d2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EST",
+    "organisation-name": "East Staffordshire Borough Council",
+    "reference": "LP-EST-2006",
+    "documentation-url": "https://www.eaststaffsbc.gov.uk/adopted-local-plan",
+    "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/localplan2006/AdoptedLocalPlan2006-2011.pdf",
+    "name": "East Staffordshire Local Plan 2006-2011",
+    "status": "withdrawn",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2011,
+    "documents": [
+      {
+        "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/localplan2006/AdoptedLocalPlan2006-2011.pdf",
+        "documentation-url": "https://www.eaststaffsbc.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2011",
+        "reference": "LP-2006-2011",
+        "document-status": "withdrawn",
+        "endpoint": "dac8f91f9994cd04925484dd4b9f8427f58d3e86d5ca135151bdd587156d2112"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.eaststaffsbc.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Proposals Map - Entire Borough",
+        "reference": "PM-2006",
+        "document-status": "withdrawn",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

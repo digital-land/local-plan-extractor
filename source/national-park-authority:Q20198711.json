@@ -1,0 +1,210 @@
+[
+  {
+    "organisation": "national-park-authority:Q20198711",
+    "organisation-name": "South Downs National Park Authority",
+    "reference": "LP-SDNPA-2019",
+    "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/",
+    "document-url": "",
+    "name": "South Downs Local Plan 2014-2033",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2014,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/06/SDNPA.1-SDNPA-response-to-Preliminary-note-from-Inspector.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "SDNPA response to Preliminary note from Inspector",
+        "reference": "LP-PRELIM-2018",
+        "document-status": "examination",
+        "endpoint": "d555fc6cc77985259b523f55c383c374db40a996426460763d996ec719dde510"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/07/SDNPA.2-Main-Issues-Report.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "Main Issues Report",
+        "reference": "LP-MAIN-ISSUES-2018",
+        "document-status": "examination",
+        "endpoint": "78d6ef79f3de0200c2ba6765a50ad3ccccc139303ceccd40d970b6c8f61ba3c8"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/08/Main-Mods-011118-combined.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "main-modifications",
+        "name": "Main Modifications 01 November 2018",
+        "reference": "MM-2018",
+        "document-status": "examination",
+        "endpoint": "d61f2eca114cd0efe0fa24fc72fdd56710de2476636b6599315d21f45b91d7ce"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/08/Schedule-of-minor-edits-021118.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "Minor Edits 02 November 2018",
+        "reference": "LP-MINOR-EDITS-2018",
+        "document-status": "examination",
+        "endpoint": "3064f2484a23fcf591620e6da9f9f57d86e88d0b3e4ada7671a69b058e9e87ea"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/08/South-Downs-Local-Plan-Issues-and-Responses.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "consultation-statement",
+        "name": "South Downs Local Plan Issues and Responses",
+        "reference": "CS-ISSUES-2018",
+        "document-status": "examination",
+        "endpoint": "97cd2c0f0cdce81e315afbc7a6db88b2fad3731e4adadce39251d05015de555d"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/11/SDNPA.11-Note-for-Inspector-on-phasing.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "Note for Inspector on phasing",
+        "reference": "LP-PHASING-2018",
+        "document-status": "examination",
+        "endpoint": "e3c6b11ede38b509f8fae157fa2fe86ad3379e6e06436e18cd6368bd36b6daea"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/12/SD89-Pulens-Lane-Medieval-Assart-information.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "SD89 Pulens Lane Medieval Assart information",
+        "reference": "LP-SD89-2018",
+        "document-status": "examination",
+        "endpoint": "cfcaa31c4d96149dc84e8f080e919bc4a316b4b6bfcbadaee2d55d3a2d964400"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/01/Main_Mods_2019_FINAL_with_appdx.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "local-plan",
+        "name": "Major Mods schedule",
+        "reference": "LP-MAJOR-MODS-2019",
+        "document-status": "examination",
+        "endpoint": "5c42900a109b0e51598eef82a3779ffb7ca267a49b80909f9c21d7e3855f15d5"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/01/34_145_Policies_Map_Insets_A3_Kingston-near-Lewes.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "policies-map",
+        "name": "Amended inset policies map for Kingston-near-Lewes",
+        "reference": "PM-KINGSTON-2019",
+        "document-status": "examination",
+        "endpoint": "f9190e5edc136ad5356c9ad4dec3ede2cd832992c2314bc5bb76a3d5956011f3"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/01/South-Downs-Local-Plan_-SA-Report-Addendum_V3.0_310119.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "South Downs Local Plan SA Report Addendum",
+        "reference": "SA-ADDENDUM-2019",
+        "document-status": "examination",
+        "endpoint": "245c0292014cecc0c50060cf34fb784992d0e2ebc427372c2a67ed4bfc89a642"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/01/HRA-letter-for-consultation.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Statement",
+        "reference": "HRA-2019",
+        "document-status": "examination",
+        "endpoint": "6e3786d8a7c9012d6660ce54e02e62f3df9f588714a064cfdef6db0bca252cfa"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/04/Main-Modifications-Report-FINAL-PUBLSHD.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Report",
+        "reference": "MM-REPORT-2019",
+        "document-status": "adopted",
+        "endpoint": "a5f719fc2f1221088f6e9a59d0ed10e7536d604e3382e2c988523d363d55e867"
+      }
+    ]
+  },
+  {
+    "organisation": "national-park-authority:Q20198711",
+    "organisation-name": "South Downs National Park Authority",
+    "reference": "LP-SDNPA-2025",
+    "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/",
+    "document-url": "",
+    "name": "South Downs Local Plan Review",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2024/09/CD37-SDNPA-Visitor-Accommodation-Review-Report-2014.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/homes-and-economy/south-downs-visitor-accommodation-review/",
+        "document-type": "local-plan",
+        "name": "2014 South Downs Visitor Accommodation Review",
+        "reference": "LP-VAR-2014",
+        "document-status": "consultation",
+        "endpoint": "b7f0690587bfd40c4fced24c9d0d6484d51534d65f187976e7b1ef9d9c1afab4"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2025/09/2025-SDNP-Visitor-Accommodation-Review.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/homes-and-economy/south-downs-visitor-accommodation-review/",
+        "document-type": "local-plan",
+        "name": "2025 South Downs Visitor Accommodation Review",
+        "reference": "LP-VAR-2025",
+        "document-status": "consultation",
+        "endpoint": "ed9630dbbd7b8359eac3ab31f720cb766530210a5a6152f61ff16ccf49786365"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2025/09/2025-SDNP-Accommodation-Audit-and-Market-Review.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/homes-and-economy/south-downs-visitor-accommodation-review/",
+        "document-type": "local-plan",
+        "name": "2025 South Downs Accommodation Audit and Market Review",
+        "reference": "LP-AUDIT-2025",
+        "document-status": "consultation",
+        "endpoint": "ce593e2d88a81fe7ed91c51b633048062b7d73db86debb5ff14229019a31b6a5"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2024/11/Local-Plan-Review-Regulation-18-IIA-main-document-October-2024.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/regulatory-assessments/integrated-impact-assessment-iia-and-scoping-report/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan Review Regulation 18 Integrated Impact Assessment",
+        "reference": "LPR-IIA-2024",
+        "document-status": "consultation",
+        "endpoint": "4a6de8bb2ba4b858ea6129c14185083ba772b5f59304955062d6972194bfaa22"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2024/11/Local-Plan-Review-Regulation-18-Non-Technical-Summary-to-IIA-main-document-October-2024.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/regulatory-assessments/integrated-impact-assessment-iia-and-scoping-report/",
+        "document-type": "local-plan",
+        "name": "IIA Non-Technical Summary",
+        "reference": "LP-IIA-NTS-2024",
+        "document-status": "consultation",
+        "endpoint": "480f816faaf45723e6267cb18f28866c385e5700921fc132076e32f2ecdd2c2a"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2024/11/Local-Plan-Review-Regulation-18-IIA-Appendix-A-Sustainability-Issues-October-2024.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/regulatory-assessments/integrated-impact-assessment-iia-and-scoping-report/",
+        "document-type": "local-plan",
+        "name": "IIA Appendix A - Sustainability Issues",
+        "reference": "LP-IIA-APP-A-2024",
+        "document-status": "consultation",
+        "endpoint": "72f2937bf3d8181ca306dea1d9e613c8c75ea30511dc7ce8232971549d8df971"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2024/11/Local-Plan-Review-Regulation-18-IIA-Appendix-B-Settlement-Appraisal-October-2024.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/regulatory-assessments/integrated-impact-assessment-iia-and-scoping-report/",
+        "document-type": "local-plan",
+        "name": "IIA Appendix B - Settlement Appraisal",
+        "reference": "LP-IIA-APP-B-2024",
+        "document-status": "consultation",
+        "endpoint": "c4d196c412a7049ea6bd80d3d3aee97a0f85af3e5e91081d8e41f494434c35c6"
+      },
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2023/05/Scoping-Report-to-IIA-October-2024-amended.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/the-south-downs-local-plan-review/evidence-base/regulatory-assessments/integrated-impact-assessment-iia-and-scoping-report/",
+        "document-type": "local-plan",
+        "name": "Integrated Impact Assessment Scoping Report 2024",
+        "reference": "LP-IIA-SCOPING-2024",
+        "document-status": "consultation",
+        "endpoint": "2f7a4b58084cbce6e090f2fb094f77af5d74060a027f797a048c26ca3396ae0a"
+      }
+    ]
+  }
+]

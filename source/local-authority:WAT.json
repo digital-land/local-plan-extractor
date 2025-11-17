@@ -2,12 +2,12 @@
   {
     "organisation": "local-authority:WAT",
     "organisation-name": "Watford Borough Council",
-    "reference": "LP-WAT-2022",
+    "reference": "LP-WAT-2021",
     "documentation-url": "https://www.watford.gov.uk/localplan",
     "document-url": "https://www.watford.gov.uk/downloads/file/1264/watford-local-plan",
     "name": "Watford Local Plan: A Sustainable Town 2021-2038",
     "status": "adopted",
-    "year": 2022,
+    "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2038,
     "documents": [
@@ -30,11 +30,20 @@
         "endpoint": "63a03de65cec839ea05c634f984fbb04820a4c6d746b3dc1c102590487f25094"
       },
       {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1265/local-plan-policies-map",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2021",
+        "document-status": "adopted",
+        "endpoint": "b20bc74c8e9d9e92b65fd39a62f410cff8bdf26ac7b96ba022eb57563c7cfb63"
+      },
+      {
         "document-url": "https://www.watford.gov.uk/downloads/file/1662/local-plan-inspector-s-report",
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "inspectors-report",
         "name": "Local Plan Inspector's Report",
-        "reference": "IR-2022",
+        "reference": "IR-2021",
         "document-status": "adopted",
         "endpoint": "2fec45008d696efaae0d519ce5854a3f3ec2a7f6d1dbedb4038a9c23d45b9661"
       },
@@ -43,7 +52,7 @@
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "inspectors-report",
         "name": "Local Plan Inspector's Report - Main Modifications Appendix",
-        "reference": "IR-2022-MM",
+        "reference": "IR-2021-MM",
         "document-status": "adopted",
         "endpoint": "cbed9a41b44ba5e07ea097d1ad266f8cb911dcd6bfce5abaea0b259d12cb2e69"
       },
@@ -52,7 +61,7 @@
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "adoption-statement",
         "name": "Local Plan Adoption Statement",
-        "reference": "AS-2022",
+        "reference": "AS-2021",
         "document-status": "adopted",
         "endpoint": "8a068826f9c9d7be1e74b9dd1a5bb9f0108eead7d548b6268766cf76238887a1"
       },
@@ -61,7 +70,7 @@
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "adoption-statement",
         "name": "Sustainability Appraisal Adoption Statement",
-        "reference": "SA-AS-2022",
+        "reference": "SA-AS-2021",
         "document-status": "adopted",
         "endpoint": "7ae6209f8d5f5690bb87ff7efde9849f6d6ca4429a1a854dbbe8c8aeedac9da0"
       },
@@ -70,7 +79,7 @@
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisals - Non-Technical Summary",
-        "reference": "SA-NTS-2022",
+        "reference": "SA-NTS-2021",
         "document-status": "adopted",
         "endpoint": "a8be251d6ea1d2e3e801708004e23746ae9d54b5244f858d038ff6deac75d035"
       },
@@ -79,36 +88,81 @@
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisal Report",
-        "reference": "SA-2022",
+        "reference": "SA-2021",
         "document-status": "adopted",
         "endpoint": "ea62a77d23ddebada862feb06cb0fc126a404627c2ce983b2509e375a267474d"
       },
       {
-        "document-url": "https://www.watford.gov.uk/downloads/file/1275/habitats-regulations-assessment-report",
+        "document-url": "https://www.watford.gov.uk/downloads/file/1269/appendix-a-review-of-relevant-plans-policies-and-programmes",
         "documentation-url": "https://www.watford.gov.uk/localplan",
         "document-type": "local-plan",
+        "name": "Appendix A: Review of Relevant Plans, Policies and Programmes",
+        "reference": "APP-A-2021",
+        "document-status": "adopted",
+        "endpoint": "8330a0296416e56025d3bfca27a5b6a9cc63188e7c5b46117e11d34943c3c1cf"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1270/appendix-b-baseline-data",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix B: Baseline Data",
+        "reference": "APP-B-2021",
+        "document-status": "adopted",
+        "endpoint": "de77145f52c9bd60d6d487ccd71140b3eea1a307942f777c24c1af5ccac746cd"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1271/appendix-c-policy-options",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Appendix C: Sustainability Appraisal of Policy Options",
+        "reference": "APP-C-2021",
+        "document-status": "adopted",
+        "endpoint": "0ab489379ee1ffb9118432db0f264754f64ed9040fbe02258b5fb9fb23fd9fad"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1272/appendix-d-policy-options-matrices",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix D: Policy Options Matrices",
+        "reference": "APP-D-2021",
+        "document-status": "adopted",
+        "endpoint": "c7f7273d90458c98fd882bfa4202024c3d3a6697667b888e82a9b89d30c1ecc1"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1273/appendix-e-site-matrices",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix E: Site Matrices",
+        "reference": "APP-E-2021",
+        "document-status": "adopted",
+        "endpoint": "ab866d89e9702e2b820c0a521a397e81478ae2a1a689bfea6fecd654336bdbcb"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1274/appendix-f-screening-of-main-modifications",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Appendix F: Screening of Main Modifications",
+        "reference": "APP-F-2021",
+        "document-status": "adopted",
+        "endpoint": "da872a1dbd80d015611a8ce120f92e7dc87405c08e37cb959f2fdcf0e554dbe7"
+      },
+      {
+        "document-url": "https://www.watford.gov.uk/downloads/file/1275/habitats-regulations-assessment-report",
+        "documentation-url": "https://www.watford.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
         "name": "Habitats Regulations Assessment",
-        "reference": "HRA-2022",
+        "reference": "HRA-2021",
         "document-status": "adopted",
         "endpoint": "c9ccdc158198652b138c7a6684599a81bdfab2f73d0994bd8bcf57cb97696816"
       },
       {
-        "document-url": "https://www.watford.gov.uk/downloads/file/1265/local-plan-policies-map",
-        "documentation-url": "https://www.watford.gov.uk/localplan",
-        "document-type": "policies-map",
-        "name": "Policies Map",
-        "reference": "PM-2022",
+        "document-url": "https://www.watford.gov.uk/downloads/file/137/final-draft-local-plan-consultation-statement-appendix-all-responses-2021-",
+        "documentation-url": "https://www.watford.gov.uk/downloads/download/34/first-draft-watford-local-plan-2020-2036-consultation-statement-2021-",
+        "document-type": "consultation-statement",
+        "name": "Final Draft Local Plan Consultation Statement Appendix - all responses (2021)",
+        "reference": "CS-2021",
         "document-status": "adopted",
-        "endpoint": "b20bc74c8e9d9e92b65fd39a62f410cff8bdf26ac7b96ba022eb57563c7cfb63"
-      },
-      {
-        "document-url": "https://wbc.maps.arcgis.com/apps/webappviewer/index.html?id=2fd1fd3671c347a4bffeaec110bc9bba",
-        "documentation-url": "https://www.watford.gov.uk/localplan",
-        "document-type": "policies-map",
-        "name": "Interactive Policies Map",
-        "reference": "IPM-2022",
-        "document-status": "adopted",
-        "endpoint": "5a62a1794379cadddf57451111a98ca9938a2dfe4a64ff545bbc204926f47ca2"
+        "endpoint": "7d6780c9c065469c7929f5cd38b89496f9a8e6a4a0361b72877c2663f630553b"
       }
     ]
   }

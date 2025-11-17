@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:WDE",
+    "organisation-name": "West Devon Borough Council",
+    "reference": "LP-WDE-2019",
+    "documentation-url": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+    "document-url": "https://www.westdevon.gov.uk/sites/default/files/2023-07/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20%28March%202019%29.pdf",
+    "name": "Plymouth and South West Devon Joint Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2034,
+    "documents": [
+      {
+        "document-url": "https://www.westdevon.gov.uk/sites/default/files/2023-07/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20%28March%202019%29.pdf",
+        "documentation-url": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "local-plan",
+        "name": "Plymouth and South West Devon Joint Local Plan (March 2019)",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "e1c731f0e1f6cae3028d2121c71e3abaa4227aebae80a9afb1f62d92db12bcca"
+      },
+      {
+        "document-url": "https://www.westdevon.gov.uk/sites/default/files/2023-07/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "adoption-statement",
+        "name": "Plymouth and South West Devon Joint Local Plan Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "12760d7ec08e82f202ba8064f91e70a8959062194e016876ce8fa5db245e1719"
+      },
+      {
+        "document-url": "https://www.westdevon.gov.uk/sites/default/files/2024-03/Plymouth%20and%20South%20West%20Devon%20Joint%20Local%20Plan%20Five%20Year%20Review%20Report%202024.pdf",
+        "documentation-url": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+        "document-type": "local-plan",
+        "name": "Plymouth and South West Devon Joint Local Plan Five Year Review Report 2024",
+        "reference": "LPR-2024",
+        "document-status": "adopted",
+        "endpoint": "572d00aeaecdf31f30241ae022d9acd00a973a0ade9c73fc6ec6639f9873f264"
+      }
+    ]
+  }
+]

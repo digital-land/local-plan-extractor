@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:ROS",
+    "organisation-name": "Rossendale Borough Council",
+    "reference": "LP-ROS-2021",
+    "documentation-url": "https://www.rossendale.gov.uk/localplan",
+    "document-url": "https://www.rossendale.gov.uk/downloads/file/17076/rossendale_local_plan_2019_to_2036_-_written_statement",
+    "name": "Rossendale Local Plan 2019 to 2036",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2019,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17076/rossendale_local_plan_2019_to_2036_-_written_statement",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Rossendale Local Plan 2019 to 2036 - Written Statement",
+        "reference": "LP-2019-2036",
+        "document-status": "adopted",
+        "endpoint": "5a1a614663e55c6c8f4a2e5529de238bbab6cde97425dfe103eef9a9f118e034"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17086/rossendale_local_plan_2019_to_2036_-_policies_map",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Rossendale Local Plan 2019 to 2036 - Policies Map",
+        "reference": "PM-2019-2036",
+        "document-status": "adopted",
+        "endpoint": "db92bedc427515e582d84f48b1c03b7d57431fca4771958b687f4c709d0ec3a8"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17093/rossendale_local_plan_2019_to_2036_-_adoption_statement",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Rossendale Local Plan 2019 to 2036 - Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "74100250bb66335f5192d9172e69f81c1664e0896ac871ff085d6f5e0129132c"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17097/rossendale_local_plan_2019_to_2036_-_sustainability_appraisal_and_strategic_environmental_assessment",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Rossendale Local Plan 2019 to 2036 - Sustainability Appraisal and Strategic Environmental Assessment",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "e6609be6be43059c9cea6ebb85086cd6ff41ab18c0557aeacb91c608bd4d0f52"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17244/rossendale_local_plan_2019_to_2036_-_inspectors_report",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Rossendale Local Plan 2019 to 2036 - Inspectors' Report",
+        "reference": "IR-2021",
+        "document-status": "adopted",
+        "endpoint": "e44a7c5fb5e96e9de97f3a57f93696acaa5be51b9dd125b1fa4cd86b9a87ac09"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/17245/rossendale_local_plan_2019_to_2036_-_inspectors_report_further_letter",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Rossendale Local Plan 2019 to 2036 - Inspectors' Report Further Letter",
+        "reference": "IR-LETTER-2021",
+        "document-status": "adopted",
+        "endpoint": "6104238066ed11a16dad2cd91e574a9e4380b11fe8b1e9f2c242fbbd5e39da11"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/18310/rossendale-local-plan-2019-to-2036-appendix-to-inspectors-report-schedule-of-main-modifications",
+        "documentation-url": "https://www.rossendale.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Rossendale Local Plan 2019 to 2036 - Appendix to Inspectors' Report - Schedule of Main Modifications",
+        "reference": "MM-2021",
+        "document-status": "adopted",
+        "endpoint": "aefc0654c643972fce854e5be0a59b6264717dc53573498307702e0176966a51"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/14598/local-development-scheme-2019-to-2022",
+        "documentation-url": "https://www.rossendale.gov.uk/local-plan/adopted-local-plan/3",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2019 to 2022",
+        "reference": "LDS-2019",
+        "document-status": "adopted",
+        "endpoint": "adc0312a836455de96122ecd6e3a3618e425dc81880807d597e4c4d73f24d5e0"
+      },
+      {
+        "document-url": "http://www.rossendale.gov.uk/downloads/file/14930/eb002_-_strategic_housing_market_assessment_2019_update",
+        "documentation-url": "https://www.rossendale.gov.uk/planning-building-control/rossendale-local-plan-2019-2036-examination-pages/2",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment 2019 update",
+        "reference": "SHMA-2019",
+        "document-status": "examination",
+        "endpoint": "847c31e7d3275faa571234e9085268776ebacb98109253e3380196f2a2967697"
+      },
+      {
+        "document-url": "http://www.rossendale.gov.uk/downloads/file/14928/eb019_rossendale_local_plan_economic_viability_assessment_2019",
+        "documentation-url": "https://www.rossendale.gov.uk/planning-building-control/rossendale-local-plan-2019-2036-examination-pages/2",
+        "document-type": "viability-assessment",
+        "name": "Rossendale Local Plan Economic Viability Assessment 2019",
+        "reference": "VA-2019",
+        "document-status": "examination",
+        "endpoint": "6228cd614075220d8e640b195ddb4c6241f605a519c18999eabae0ed420b4c84"
+      },
+      {
+        "document-url": "https://www.rossendale.gov.uk/downloads/file/14771/authority_monitoring_report_for_201718",
+        "documentation-url": "https://www.rossendale.gov.uk/planning-building-control/rossendale-local-plan-2019-2036-examination-pages/2",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority Monitoring Report 2017/18",
+        "reference": "AMR-2018",
+        "document-status": "adopted",
+        "endpoint": "a500d553588f0fc6135020498f816e846f56734f5003b97dcaf91c3e372b3053"
+      }
+    ]
+  }
+]

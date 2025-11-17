@@ -1,0 +1,89 @@
+[
+  {
+    "organisation": "local-authority:HAT",
+    "organisation-name": "Hart District Council",
+    "reference": "LP-HAT-2032",
+    "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+    "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2024-08%2FHart-Local-Plan-strategy-and-Sites-2032.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506127463%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=bqlOdEWd3FZjMFrn2p69z4hnf5VcGJD%2FkeRpdClPPh8%3D&reserved=0",
+    "name": "Hart Local Plan (Strategy and Sites) 2032",
+    "status": "adopted",
+    "year": 2032,
+    "period-start-date": "",
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2024-08%2FHart-Local-Plan-strategy-and-Sites-2032.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506127463%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=bqlOdEWd3FZjMFrn2p69z4hnf5VcGJD%2FkeRpdClPPh8%3D&reserved=0",
+        "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+        "document-type": "local-plan",
+        "name": "Hart Local Plan (Strategy and Sites) 2032",
+        "reference": "LP-2032",
+        "document-status": "adopted",
+        "endpoint": "4546118b3ae15a4804b277afeb28450e337b63d95ce48258ee5faf29c043f62d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAT",
+    "organisation-name": "Hart District Council",
+    "reference": "LP-HAT-2006",
+    "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+    "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2023-07%2FHart-Local-Plan-Replacement%2529-1996-to-2006-saved-policies.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506158035%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jdcSfRgpRg2FQESqVgTAiQizVGqHm6NLRd%2F%2FGQGd%2Bp4%3D&reserved=0",
+    "name": "Hart Local Plan (Replacement) 1996-2006",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 1996,
+    "period-end-date": 2006,
+    "documents": [
+      {
+        "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2023-07%2FHart-Local-Plan-Replacement%2529-1996-to-2006-saved-policies.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506158035%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jdcSfRgpRg2FQESqVgTAiQizVGqHm6NLRd%2F%2FGQGd%2Bp4%3D&reserved=0",
+        "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+        "document-type": "local-plan",
+        "name": "Saved Policies from the Hart Local Plan (Replacement) 1996-2006",
+        "reference": "LP-1996-2006",
+        "document-status": "adopted",
+        "endpoint": "bc5197d79875945383acc89e7c5bf60e186a5eaf75e655e4235c82ed2dea26b2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAT",
+    "organisation-name": "Hart District Council",
+    "reference": "LP-HAT-2025",
+    "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+    "document-url": "https://www.hart.gov.uk/sites/default/files/2025-09/Local-Development-Scheme-September-2025.pdf",
+    "name": "New Hart Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.hart.gov.uk/sites/default/files/2025-09/Local-Development-Scheme-September-2025.pdf",
+        "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme September 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "f48ebd1d4f0f4e9c87b9035fcef1776ef9e57919b632438a9ec7b05963c3ced8"
+      },
+      {
+        "document-url": "https://www.hart.gov.uk/sites/default/files/2025-10/PID-Redacted-V2.pdf",
+        "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+        "document-type": "local-plan",
+        "name": "Project Initiation Document",
+        "reference": "PID-2025",
+        "document-status": "draft",
+        "endpoint": "ad22727648ad329321db8c40baa1d8a464b3b96aeedd0835ede620df6b247f54"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hart.gov.uk/planning-and-building-control/planning-policy/new-hart-local-plan",
+        "document-type": "local-plan",
+        "name": "Risk Assessment",
+        "reference": "RA-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

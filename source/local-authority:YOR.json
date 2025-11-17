@@ -1,0 +1,133 @@
+[
+  {
+    "organisation": "local-authority:YOR",
+    "organisation-name": "City of York Council",
+    "reference": "LP-YOR-2025",
+    "documentation-url": "https://www.york.gov.uk/AdoptedLocalPlan",
+    "document-url": "https://www.york.gov.uk/downloads/file/1314/cd001-city-of-york-local-plan-publication-draft-regulation-19-consultation-february-2018-",
+    "name": "City of York Local Plan",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1314/cd001-city-of-york-local-plan-publication-draft-regulation-19-consultation-february-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "local-plan-regulation-19",
+        "name": "City of York Local Plan Publication Draft (Regulation 19 Consultation) (February 2018)",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "a4ccf8c9e14b9f4b6512d06897635858763b9cf83e065a88a0341b4173a12b4e"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1315/cd002-errata-addendum-to-local-plan-publication-draft-and-sustainability-appraisal-february-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "sustainability-appraisal",
+        "name": "Errata Addendum to Local Plan Publication Draft and Sustainability Appraisal (February 2018)",
+        "reference": "SA-ADD-2018",
+        "document-status": "adopted",
+        "endpoint": "4811178239a7f9f079717f0ae12946e65448ff783e1ff1667992f2ea78371676"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1316/cd003-city-of-york-local-plan-publication-draft-schedule-of-minor-modifications-to-25th-may-2018",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "local-plan-regulation-19",
+        "name": "City of York Local Plan Publication Draft Schedule of Minor Modifications to 25th May 2018",
+        "reference": "LP-MOD-2018",
+        "document-status": "adopted",
+        "endpoint": "f261fd4a703a5f236db34f11f3139a16dc8e15b48e01c13b734046a305c5aeeb"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1317/cd004a-city-of-york-publication-draft-local-plan-policies-maps-north",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "policies-map",
+        "name": "City of York Publication Draft Local Plan Policies Maps - North",
+        "reference": "PM-N-2018",
+        "document-status": "adopted",
+        "endpoint": "ac68fe85d432f7a6248291af6dce980f6d093c90220d623d6b055759efd85ce2"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/3398/cd004b-city-of-york-publication-draft-local-plan-policies-maps-south",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "policies-map",
+        "name": "City of York Publication Draft Local Plan Policies Maps - South",
+        "reference": "PM-S-2018",
+        "document-status": "adopted",
+        "endpoint": "59dec13cfdc490458c9de55df3963c1ddfc58e5bee383483ea04dfd52f116a40"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/3400/cd004c-city-of-york-publication-draft-local-plan-policies-maps-city-centre",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "policies-map",
+        "name": "City of York Publication Draft Local Plan Policies Maps - City Centre",
+        "reference": "PM-CC-2018",
+        "document-status": "adopted",
+        "endpoint": "b9f252872de7e11a85af3ef3cdaf5085a705ae430f5e7594ef791c77fd58634a"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1320/cd008-city-of-york-local-plan-sustainability-appraisal-publication-draft-regulation-19-consultation-february-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "sustainability-appraisal",
+        "name": "City of York Local Plan Sustainability Appraisal Publication Draft Regulation 19 Consultation (February 2018)",
+        "reference": "SA-2018",
+        "document-status": "adopted",
+        "endpoint": "8b08df5c7f4d27afc15235ba2f7dd9a3e0c570262988cb88695842641091950a"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1332/cd012-city-of-york-local-plan-habitat-regulation-assessment-of-the-local-plan-april-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "local-plan",
+        "name": "City of York Local Plan Habitat Regulation Assessment of the Local Plan (April 2018)",
+        "reference": "HRA-2018",
+        "document-status": "adopted",
+        "endpoint": "46927a7fa45be39ca8fe7b7e55f27ebf63e03c1a3b096dbadd273e16e50c6c24"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/3403/cd013a-city-of-york-local-plan-consultation-statement-regulation-22-may-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "consultation-statement",
+        "name": "City of York Local Plan Consultation Statement Regulation 22 (May 2018)",
+        "reference": "CS-2018",
+        "document-status": "adopted",
+        "endpoint": "f8b84175d7e768c5709c5420da54adda78af90e3234b380892c18e3784a72773"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1391/cd018-city-of-york-local-plan-viability-assessment-update-study-april-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "viability-assessment",
+        "name": "City of York Local Plan Viability Assessment Update Study (April 2018)",
+        "reference": "VA-2018",
+        "document-status": "adopted",
+        "endpoint": "ebdcc11771fde3c9b853a817ea5a96e4cfd2b1ba120b63e52dab30b8ddfad95d"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1394/cd020-lp-submission-draft-statement-to-demonstrate-compliance-with-the-duty-to-co-operate-april-2018-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "local-plan-submission",
+        "name": "LP Submission Draft Statement to demonstrate compliance with the Duty to co-operate (April 2018)",
+        "reference": "DTC-2018",
+        "document-status": "adopted",
+        "endpoint": "fa686d58736ddb8ca3269e5dc30e748fa6d1443b2b399fd63c074fbd075e7669"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1384/cd015-city-of-york-local-development-scheme-november-2017-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "local-development-scheme",
+        "name": "City of York Local Development Scheme (November 2017)",
+        "reference": "LDS-2017",
+        "document-status": "adopted",
+        "endpoint": "b211edc6e2fdb0acdb0fc92aa1fbb8afd9c4316cf94215ce224ea3f29249089c"
+      },
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/1388/cd016-city-of-york-statement-of-community-involvement-sci-adopted-december-2007-",
+        "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",
+        "document-type": "statement-of-community-involvement",
+        "name": "City of York Statement of Community Involvement (SCI) (Adopted December 2007)",
+        "reference": "SCI-2007",
+        "document-status": "adopted",
+        "endpoint": "20fb82e62826035f8486305edef42cc21945177eedfef59df74e2c910710e6de"
+      }
+    ]
+  }
+]

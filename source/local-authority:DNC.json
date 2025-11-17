@@ -1,0 +1,97 @@
+[
+  {
+    "organisation": "local-authority:DNC",
+    "organisation-name": "Doncaster Metropolitan Borough Council",
+    "reference": "LP-DNC-2021",
+    "documentation-url": "https://www.doncaster.gov.uk/localplan",
+    "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Doncaster%20Local%20Plan%20Adopted%2023%20Sept%202021.pdf",
+    "name": "Doncaster Local Plan 2015-2035",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2015,
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Doncaster%20Local%20Plan%20Adopted%2023%20Sept%202021.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Doncaster Local Plan Adopted 23 Sept 2021",
+        "reference": "LP-2021",
+        "document-status": "adopted",
+        "endpoint": "d412617099cd66f69a7c26dfa87249d0983b9744e4be7e6d3a078b7d688be94c"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.doncaster.gov.uk/Documents/DocumentView/Stream/Media/Default/Planning/Documents/Local Plan/Doncaster Local Development Scheme August 2025.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Doncaster Local Development Scheme August 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "09b429d3d68225b49b990780bf997e0ffe9ca294060b44769c4a23ef23dc4148"
+      },
+      {
+        "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Adoption%20Statement.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "d84f021c6b1f729b6b12c3dee33ceb796fa70cb6a8060e40aeeb96978e43ed7b"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Local Plan - Inspectors Final Report",
+        "reference": "IR-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Local Plan - Inspectors Final Report Appendix",
+        "reference": "IR-APPENDIX-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Site%20Selection/Sustainability%20Appraisal%20Post%20Adoption%20Statement%20-%20September%202021.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement - September 2021",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "3fb09cafd70b590505e1bef09a667812705778d93910c77920c7b2b4776ee92d"
+      },
+      {
+        "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Other%20Docs/Habitats%20Regulation%20Assessment.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Habitats Regulation Assessment",
+        "reference": "HRA-2021",
+        "document-status": "adopted",
+        "endpoint": "ed001e9f09067660ae2031a5111f50050ef19504fb1c32634257da56a452b846"
+      },
+      {
+        "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Modifications/Habitats%20Regulation%20Assessment%20Addendum.pdf",
+        "documentation-url": "https://www.doncaster.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Habitats Regulation Assessment Addendum",
+        "reference": "HRA-ADDENDUM-2021",
+        "document-status": "adopted",
+        "endpoint": "ac46b1b0c3a8493fab57abb38a38fe3596f09e19544c8f3893704b9920f9d99e"
+      }
+    ]
+  }
+]

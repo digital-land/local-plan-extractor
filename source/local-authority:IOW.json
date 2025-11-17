@@ -1,0 +1,169 @@
+[
+  {
+    "organisation": "local-authority:IOW",
+    "organisation-name": "Isle of Wight Council",
+    "reference": "LP-IOW-2024",
+    "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/draft-island-planning-strategy/",
+    "document-url": "",
+    "name": "Island Planning Strategy",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/draft-island-planning-strategy/",
+        "document-type": "local-plan",
+        "name": "Inspectors Post Hearings Letter",
+        "reference": "LP-IPS-2025",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/local-development-scheme/",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (LDS)",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/island-planning-strategy/responses-to-the-regulation-19-consultation/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Regulation 19 representations database",
+        "reference": "LP-REG19-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/island-planning-strategy/responses-to-the-regulation-19-consultation/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Regulation 19 representor list with representor numbers",
+        "reference": "LP-REP-LIST-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Health Contributions SPD",
+        "reference": "SPD-HEALTH-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Sustainable Drainage Systems SPD",
+        "reference": "SPD-SUDS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Affordable housing contributions SPD",
+        "reference": "SPD-AFFORD-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Children's Services Financial Contributions Supplementary Planning Document (CSFCSPD)",
+        "reference": "SPD-CHILD-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Newport and Ryde Local Cycling and Walking and Infrastructure Plan SPD",
+        "reference": "SPD-LCWIP-NR-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "The Bay Area Local Cycling and Walking and Infrastructure Plan SPD",
+        "reference": "SPD-LCWIP-BAY-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Bembridge, Brading and St Helens Local Cycling and Walking and Infrastructure Plan SPD",
+        "reference": "SPD-LCWIP-BBS-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Cowes, Northwood and Gurnard Local Cycling and Walking and Infrastructure Plan SPD",
+        "reference": "SPD-LCWIP-CNG-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "East Cowes and Whippingham Local Cycling and Walking and Infrastructure Plan SPD",
+        "reference": "SPD-LCWIP-ECW-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Guidelines for parking provision as part of new developments SPD",
+        "reference": "SPD-PARK-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Guidelines for recycling and refuse storage in new developments SPD",
+        "reference": "SPD-REFUSE-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "urban-design-framework",
+        "name": "Newport and Ryde Commercial Frontages Design Guide SPD",
+        "reference": "SPD-DESIGN-NR-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Housing Affordability SPD",
+        "reference": "SPD-HOUSE-AFF-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "organisation": "local-authority:SST",
+    "organisation-name": "South Staffordshire Council",
+    "reference": "LP-SST-2013",
+    "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy/adopted-south-staffordshire-local-plan",
+    "document-url": "",
+    "name": "Adopted South Staffordshire Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:SST",
+    "organisation-name": "South Staffordshire Council",
+    "reference": "LP-SST-2024",
+    "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+    "document-url": "",
+    "name": "South Staffordshire Local Plan Review",
+    "status": "submitted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+        "document-type": "local-plan-regulation-19",
+        "name": "Publication Plan (Pre-submission) - 2024",
+        "reference": "LP-2024-REG19",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+        "document-type": "local-plan-regulation-19",
+        "name": "Publication Plan (Pre-submission) - 2022",
+        "reference": "LP-2022-REG19",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
+        "document-type": "local-plan-regulation-19",
+        "name": "Responses to Regulation 19 Consultations-2024",
+        "reference": "REG19-RESP-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
+        "document-type": "local-plan-regulation-19",
+        "name": "Responses to Regulation 19 Consultations-2022",
+        "reference": "REG19-RESP-2022",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
+        "document-type": "local-plan",
+        "name": "Examination Library (Evidence Base)",
+        "reference": "EV-BASE-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review Evidence Base",
+        "reference": "LPR-EV-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "organisation": "local-authority:ROH",
+    "organisation-name": "Rother District Council",
+    "reference": "LP-ROH-2006",
+    "documentation-url": "https://www.rother.gov.uk/planning-and-building-control/planning-policy/local-plan/2006-local-plan-supplementary-planning-documents-spd/",
+    "document-url": "https://rdcpublic.blob.core.windows.net/website-uploads/2020/01/local-plan_1.pdf",
+    "name": "Rother District Local Plan 2006",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2011,
+    "documents": [
+      {
+        "document-url": "https://rdcpublic.blob.core.windows.net/website-uploads/2020/01/local-plan_1.pdf",
+        "documentation-url": "https://www.rother.gov.uk/planning-and-building-control/planning-policy/local-plan/2006-local-plan-supplementary-planning-documents-spd/",
+        "document-type": "local-plan",
+        "name": "Rother District Local Plan 2006",
+        "reference": "LP-2006",
+        "document-status": "adopted",
+        "endpoint": "84c6c6593db8374574e59da3b5563179d345440f2121dd9e9312a508d50e39c7"
+      },
+      {
+        "document-url": "https://rdcpublic.blob.core.windows.net/website-uploads/2020/03/Proposals-Maps.pdf",
+        "documentation-url": "https://www.rother.gov.uk/planning-and-building-control/planning-policy/local-plan/2006-local-plan-supplementary-planning-documents-spd/",
+        "document-type": "policies-map",
+        "name": "RDLP 2006 – Proposals Map",
+        "reference": "PM-2006",
+        "document-status": "adopted",
+        "endpoint": "bd30dd1c781816e217b62af6908e8d9ad18bee8a4a8c3c2fa58f51c0cc5fa8ba"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROH",
+    "organisation-name": "Rother District Council",
+    "reference": "LP-ROH-2024",
+    "documentation-url": "https://www.rother.gov.uk/emerging-local-plan",
+    "document-url": "",
+    "name": "Draft Local Plan Review 2020-2040",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": []
+  }
+]

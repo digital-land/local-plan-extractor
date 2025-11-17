@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:CRW",
+    "organisation-name": "Crawley Borough Council",
+    "reference": "LP-CRW-2024",
+    "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan",
+    "document-url": "",
+    "name": "Crawley Borough Council Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.crawley.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

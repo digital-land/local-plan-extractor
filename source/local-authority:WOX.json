@@ -1,0 +1,102 @@
+[
+  {
+    "organisation": "local-authority:WOX",
+    "organisation-name": "West Oxfordshire District Council",
+    "reference": "LP-WOX-2018",
+    "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+    "document-url": "https://www.westoxon.gov.uk/media/feyjmpen/local-plan.pdf",
+    "name": "West Oxfordshire Local Plan 2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/feyjmpen/local-plan.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2031",
+        "document-status": "adopted",
+        "endpoint": "9a399736f6c3b5c3014804eb6b6618a6d0b798f8a366863d09c340595a2491db"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/op1jcjfk/adopted-local-plan-2031-policies-map.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "policies-map",
+        "name": "Adopted Local Plan 2031 Policies Map",
+        "reference": "PM-2031",
+        "document-status": "adopted",
+        "endpoint": "dc1bdb632945359e3bd6fa9db5711d49d9afd7348213739f84a878455107d751"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/ruapfgpz/local-plan-adoption-statement-september-2018.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement September 2018",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "a30dcd53a1c8870f8c219eb5539c6c70c4d23796c78ea94c4d4d060463fe5e7b"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/ckibbnn2/west-oxfordshire-inspectors-report.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "inspectors-report",
+        "name": "West Oxfordshire Inspector's Report",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "0185cff1aaede19a62af7506e9af4709ef24d0a290afe1a58dddbc9fc1b60d19"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/22pplnce/inspectors-report-appendix-1.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report Appendix 1",
+        "reference": "IR-APP1-2018",
+        "document-status": "adopted",
+        "endpoint": "639eddcb9bd6bedab37de064f5095281bcc01af728968c5a0bc10f3e17d8c5bc"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/oqwikoml/inspectors-report-appendix-2-schedule-of-modifications.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report Appendix 2 Schedule of Modifications",
+        "reference": "IR-APP2-2018",
+        "document-status": "adopted",
+        "endpoint": "54cd744a116b77d15f6a41d3c8463db7b745a9c9ad2ec000c6a6fc1e9db2fc6a"
+      },
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/sxzg3mrt/sustainability-report-adoption-statement.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2031/",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Report Adoption Statement",
+        "reference": "SA-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "1b67c4b6f88af986ba6feb39202b8853212aaffdcc8f9abc778fae2db190a277"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WOX",
+    "organisation-name": "West Oxfordshire District Council",
+    "reference": "LP-WOX-2025",
+    "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2043/",
+    "document-url": "https://www.westoxon.gov.uk/media/bhffgzji/local-plan-preferred-options-consultation-october-2025.pdf",
+    "name": "West Oxfordshire Local Plan 2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.westoxon.gov.uk/media/bhffgzji/local-plan-preferred-options-consultation-october-2025.pdf",
+        "documentation-url": "https://www.westoxon.gov.uk/planning-and-building/planning-policy/local-plan-2043/",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan Preferred Options Consultation October 2025",
+        "reference": "LP-REG18-2025",
+        "document-status": "consultation",
+        "endpoint": "46fe36e5dcb4b666c66df12334976a784ec55c6fabf40cc5babcd0c41a295829"
+      }
+    ]
+  }
+]

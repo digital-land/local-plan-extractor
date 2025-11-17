@@ -1,0 +1,147 @@
+[
+  {
+    "organisation": "local-authority:HNS",
+    "organisation-name": "London Borough of Hounslow",
+    "reference": "LP-HNS-2025",
+    "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+    "document-url": "",
+    "name": "Hounslow Local Plan 2020-2041",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "site-allocations",
+        "name": "Hounslow Site Allocations and Capacity Assessment (SACA)(2024)",
+        "reference": "SA-DPD-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "site-allocations",
+        "name": "Hounslow Site Allocations and Capacity Assessment (SACA) Addendum (June 2025)",
+        "reference": "SA-DPD-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Hounslow Local Housing Needs Assessment update (2024)",
+        "reference": "SHMA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "LB Hounslow Strategic Flood Risk Assessment Level 2 (2024)",
+        "reference": "SFRA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "LB Hounslow Strategic Flood Risk Assessment Level 2 - Addendum: Site Assessment for Albany Riverside (2025)",
+        "reference": "SFRA-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "viability-assessment",
+        "name": "Hounslow Whole Plan Viability Assessment (2024)",
+        "reference": "VA-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://forms2.hounslow.gov.uk/downloads/file/4614/local_transport_impact_assessment_addendum_2025",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Local Transport Impact Assessment Addendum (2025)",
+        "reference": "LP-TRANS-2025",
+        "document-status": "consultation",
+        "endpoint": "35be483ef853735b7d347ef9ea7d171f694786a4e598f5df13bdc68dc3bf65b4"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HNS",
+    "organisation-name": "London Borough of Hounslow",
+    "reference": "LP-HNS-2015",
+    "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+    "document-url": "",
+    "name": "Hounslow Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "local-plan",
+        "name": "Hounslow Local Plan 2015 to 2030 volume one",
+        "reference": "LP-2015-V1",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "local-plan",
+        "name": "Hounslow Local Plan 2015 to 2030 volume two",
+        "reference": "LP-2015-V2",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "inspectors-report",
+        "name": "Hounslow Local Plan inspectors report",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "policies-map",
+        "name": "Local Plan policies map - west",
+        "reference": "PM-2015-W",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "policies-map",
+        "name": "Local Plan policies map - east",
+        "reference": "PM-2015-E",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
+        "document-type": "local-plan",
+        "name": "Download and view information about the Local Plan evidence library",
+        "reference": "LP-EV-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

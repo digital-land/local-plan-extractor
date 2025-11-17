@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:THA",
+    "organisation-name": "Thanet District Council",
+    "reference": "LP-THA-2020",
+    "documentation-url": "https://www.thanet.gov.uk/info-pages/local-plan-updates/",
+    "document-url": "",
+    "name": "Thanet Local Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.thanet.gov.uk/tag/planning-policy/",
+        "document-type": "local-plan",
+        "name": "Thanet Local Plan, Adopted 2020 and other policy documents",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://thanet.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan",
+        "name": "Evidence base",
+        "reference": "EB-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.google.com/url?q=https://www.thanet.gov.uk/wp-content/uploads/2019/01/Thanet-LCA-Final-Report-09.081.5-with-plans-1.pdf&sa=D&source=editors&ust=1762859037000853&usg=AOvVaw19Glf-YsQP9dDhVMFF81QK",
+        "documentation-url": "https://docs.google.com/document/d/e/2PACX-1vRB_nIPt3tk3SVRjLkp3phbCPG1XA_349sMntbRiXIFwiJnxZ0udEzWuDC2NmkL81Oagd30o6Pb4CYq/pub",
+        "document-type": "landscape-character-assessment",
+        "name": "Thanet Landscape Character Assessment",
+        "reference": "LCA-2019",
+        "document-status": "adopted",
+        "endpoint": "277421f49839d66d1919209338ff917c80702641f2d4833573399309a2710650"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://thanet.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan",
+        "name": "Council's response to Government's latest consultations on the National Planning Policy Framework",
+        "reference": "NPPF-2023",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://thanet.gov.uk/planning-and-building-control/planning-policy",
+        "document-type": "local-plan",
+        "name": "First Consideration Report",
+        "reference": "FCR-2023",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.thanet.gov.uk/wp-content/uploads/2018/06/Privacy-Notice-for-Planning.pdf",
+        "documentation-url": "https://thanet.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Planning Privacy Notice",
+        "reference": "PPN-2018",
+        "document-status": "adopted",
+        "endpoint": "272f9a316bc6ba7317dbaa0bffbfc82088db4eb35dfcc18b87b626c7206f1efd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:THA",
+    "organisation-name": "Thanet District Council",
+    "reference": "LP-THA-CDP",
+    "documentation-url": "https://www.thanet.gov.uk/info-pages/cliftonville-development-plan-document/",
+    "document-url": "",
+    "name": "Cliftonville Development Plan Document",
+    "status": "draft",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.thanet.gov.uk/tag/planning-policy/",
+        "document-type": "area-action-plan",
+        "name": "Cliftonville Development Plan Evidence Base",
+        "reference": "CDP-EB",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "organisation": "local-authority:STV",
+    "organisation-name": "Stevenage Borough Council",
+    "reference": "LP-STV-2019",
+    "documentation-url": "https://www.stevenage.gov.uk/planning-and-building-control/planning-policy/local-plan",
+    "document-url": "",
+    "name": "Stevenage Borough Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.stevenage.gov.uk/documents/planning-policy/local-development-scheme/local-development-scheme-june-2025.pdf",
+        "documentation-url": "https://www.stevenage.gov.uk/planning-and-building-control/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme June 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "24492713cac57bb4163d00b68510635af2929f9a63a1174e5a26029624a46326"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STV",
+    "organisation-name": "Stevenage Borough Council",
+    "reference": "LP-STV-PARTIAL",
+    "documentation-url": "https://www.stevenage.gov.uk/planning-and-building-control/planning-policy/local-plan-partial-update",
+    "document-url": "",
+    "name": "Stevenage Borough Local Plan Partial Update",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

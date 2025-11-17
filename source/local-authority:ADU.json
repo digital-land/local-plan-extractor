@@ -1,0 +1,133 @@
+[
+  {
+    "organisation": "local-authority:ADU",
+    "organisation-name": "Adur District Council",
+    "reference": "LP-ADU-2017",
+    "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+    "document-url": "https://www.adur-worthing.gov.uk/media/Media,159572,smxx.pdf",
+    "name": "Adur Local Plan 2017",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2017,
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,159572,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Complete document",
+        "reference": "LP-2017-COMPLETE",
+        "document-status": "adopted",
+        "endpoint": "8a69a4c9acb4014bbce291441655ca0c7c0f7db480006fbd16a9c2bc09c682fe"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147013,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Part 1",
+        "reference": "LP-2017-PART1",
+        "document-status": "adopted",
+        "endpoint": "f3ee9e8b7de29d1ba58dff1d5bd2151190893243010143c2cd993b21c1c8193e"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147015,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Part 2",
+        "reference": "LP-2017-PART2",
+        "document-status": "adopted",
+        "endpoint": "bf785e5ddf0dfc45769c0f2b25ae5c0d4084b1923e3e4ff89879e061870dea08"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147016,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Part 3",
+        "reference": "LP-2017-PART3",
+        "document-status": "adopted",
+        "endpoint": "61cad8d074d7865f54a61272e2f50b3ed2cc9bc0846e82e2bee6326278f56bc4"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147017,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Part 4",
+        "reference": "LP-2017-PART4",
+        "document-status": "adopted",
+        "endpoint": "fa7ba73f9c268d8049d495fd024170e003cdfdbdf8f1b017ec99decb85c91f81"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147018,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "local-plan",
+        "name": "Adur Local Plan 2017 (adopted) - Appendices",
+        "reference": "LP-2017-APPENDICES",
+        "document-status": "adopted",
+        "endpoint": "afe9a7da1ed7c7c7f50bac608d7c08d8f2eda8ef5bc14c86ce72092c1435fa26"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,156286,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "policies-map",
+        "name": "Adur Policies Map 2019",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "55242d50be3f2cb4c932770a57107cce15d856eec660088e54e365ec72966dfc"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,156287,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Adur Policies Map 2019 - Inset maps 1, 2 & 3 (Shoreham, Lancing and Southwick town centres)",
+        "reference": "PM-2019-INSET123",
+        "document-status": "adopted",
+        "endpoint": "05d0191219325aae50a79fe7359b54839999798fcf60ae3c35b5bff474fe7ef3"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,156288,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "policies-map",
+        "name": "Adur Policies Map 2019 - Inset map 4 (Shoreham Harbour Regeneration Area)",
+        "reference": "PM-2019-INSET4",
+        "document-status": "adopted",
+        "endpoint": "591649b3db684bae8321831fc0ac43670434907a47c88dfc72288efabf6625f1"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147019,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adur Local Plan 2017 - Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "27a3e210b03a1c8d48e507acf259c459a2bca1bf590f6576ea24e2c21a1dd31f"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,147020,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/adur-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adur Local Plan 2017 (adopted) - Sustainability Appraisal - Post Adoption Statement",
+        "reference": "SA-POST-ADOPTION-2017",
+        "document-status": "adopted",
+        "endpoint": "eeb38a0def3feb15e42320a7f02bfa530c5c62a27365a1320aa98082ecd0e25a"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,146237,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/alp-examination/",
+        "document-type": "inspectors-report",
+        "name": "Publication of Inspector's Report - Adur Local Plan",
+        "reference": "IR-2017",
+        "document-status": "adopted",
+        "endpoint": "b7e87d136a770ae73ad58d9f678980764a1a68d49164112585f9af73beecb37b"
+      },
+      {
+        "document-url": "https://www.adur-worthing.gov.uk/media/Media,146238,smxx.pdf",
+        "documentation-url": "https://www.adur-worthing.gov.uk/alp-examination/",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Appendix - Adur Local Plan",
+        "reference": "MM-2017",
+        "document-status": "adopted",
+        "endpoint": "e09f29c714b4d2c65cbd7a7962c5536f7dc3364eee9f243d272eb6f4c4145cd0"
+      }
+    ]
+  }
+]

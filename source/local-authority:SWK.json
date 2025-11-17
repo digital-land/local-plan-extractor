@@ -1,0 +1,34 @@
+[
+  {
+    "organisation": "local-authority:SWK",
+    "organisation-name": "London Borough of Southwark",
+    "reference": "LP-SWK-2024",
+    "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/current-and-future-development",
+    "document-url": "",
+    "name": "Southwark Current and Future Development Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southwark.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Current and future development",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.southwark.gov.uk/planning",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Building regulations",
+        "reference": "BR-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

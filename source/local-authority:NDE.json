@@ -1,0 +1,52 @@
+[
+  {
+    "organisation": "local-authority:NDE",
+    "organisation-name": "North Devon District Council",
+    "reference": "LP-NDE-2018",
+    "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+    "document-url": "",
+    "name": "North Devon and Torridge Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "View or Download the Local Plan",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Planning Documents (SPDs)",
+        "reference": "SPD-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

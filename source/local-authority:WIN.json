@@ -1,0 +1,188 @@
+[
+  {
+    "organisation": "local-authority:WIN",
+    "organisation-name": "Winchester City Council",
+    "reference": "LP-WIN-2024",
+    "documentation-url": "https://www.localplan.winchester.gov.uk/",
+    "document-url": "",
+    "name": "Winchester District Local Plan 2026 – 2044",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2026,
+    "period-end-date": 2044,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2026-2044",
+        "document-type": "local-plan",
+        "name": "Local Plan 2024 - Evidence Base",
+        "reference": "LP-2024-EB",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2026-2044",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal & Habitats Regulations Assessment",
+        "reference": "SA-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2026-2044",
+        "document-type": "local-development-scheme",
+        "name": "Local Plan timetable (LDS)",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2026-2044",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2024",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WIN",
+    "organisation-name": "Winchester City Council",
+    "reference": "LP-WIN-2020",
+    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+    "document-url": "",
+    "name": "Winchester District Local Plan 2020 – 2040",
+    "status": "examination",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal & Habitats Regulations Assessment",
+        "reference": "SA-2020",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "local-plan-regulation-19",
+        "name": "Regulation 19 Local Plan",
+        "reference": "LP-REG19-2020",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "local-plan",
+        "name": "Examination",
+        "reference": "EX-2020",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2020",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "local-development-scheme",
+        "name": "Local Plan Timetable",
+        "reference": "LDS-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "local-plan",
+        "name": "Local Plan 2040 – Evidence Base",
+        "reference": "LP-EB-2020",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2018-2038-emerging",
+        "document-type": "local-plan-regulation-18",
+        "name": "Regulation 18 Local Plan",
+        "reference": "LP-REG18-2020",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WIN",
+    "organisation-name": "Winchester City Council",
+    "reference": "LP-WIN-2013",
+    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+    "document-url": "",
+    "name": "Winchester District Local Plan 2011-2036",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2011,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Gypsy, Traveller & Travelling Showpersons Development Plan Document (Traveller DPD)",
+        "reference": "TRAVELLER-DPD-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "core-strategy",
+        "name": "Local Plan Part 1 - Joint Core Strategy Adopted March 2013",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 - Development Management & Allocations",
+        "reference": "LP-PART2-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisals",
+        "reference": "SA-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

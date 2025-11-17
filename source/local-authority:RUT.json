@@ -1,0 +1,148 @@
+[
+  {
+    "organisation": "local-authority:RUT",
+    "organisation-name": "Rutland County Council",
+    "reference": "LP-RUT-2025",
+    "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+    "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
+    "name": "Rutland Local Plan 2021-2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+        "document-type": "local-plan-regulation-19",
+        "name": "Rutland Local Plan Regulation 19 Consultation Document",
+        "reference": "LP-2021-2041",
+        "document-status": "examination",
+        "endpoint": "19b419f284832cb43136a9ae1daaecbcca88e42ed313aa4b6fc162a30cc36cce"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/Rutland%20Policies%20Map%202024_0.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+        "document-type": "policies-map",
+        "name": "Rutland Policies Map",
+        "reference": "PM-2024",
+        "document-status": "examination",
+        "endpoint": "445de32f94deaa106b8766a8f34da64e394dd5091136c11d62511297a73c1af7"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUT",
+    "organisation-name": "Rutland County Council",
+    "reference": "LP-RUT-2011",
+    "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+    "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-09/Core%20Strategy%20DPD%20%28July%202011%29.pdf",
+    "name": "Core Strategy DPD 2011-2026",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-09/Core%20Strategy%20DPD%20%28July%202011%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy DPD",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "5fbc5306c92811f55f9d265ae14dc147d9005e76df20922983adecdcb09a8c76"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-09/Core%20Strategy%20DPD-%20Adoption%20Statement%20%28July%202011%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Core Strategy DPD- Adoption Statement",
+        "reference": "AS-CS-2011",
+        "document-status": "adopted",
+        "endpoint": "1c86a38395218aec0db751677773d61399fa749065c1ff05e332a2916eeed797"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUT",
+    "organisation-name": "Rutland County Council",
+    "reference": "LP-RUT-2014",
+    "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+    "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20%28October%202014%29.pdf",
+    "name": "Site Allocations and Policies DPD",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20%28October%202014%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations and Policies DPD",
+        "reference": "SA-DPD-2014",
+        "document-status": "adopted",
+        "endpoint": "0fbf265d71878cf827bc1298684d006737a92d42aa0b1fc97516c4fa93008c9a"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20-%20Policies%20Map%201%20%28October%202014%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Site Allocations and Policies DPD - Policies Map 1",
+        "reference": "PM-1-2014",
+        "document-status": "adopted",
+        "endpoint": "57d19b21761433d66abcb905bcbba08761a864991c5370d0820fca33f32df979"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20-%20Policies%20Map%202%20%28October%202014%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Site Allocations and Policies DPD - Policies Map 2",
+        "reference": "PM-2-2014",
+        "document-status": "adopted",
+        "endpoint": "dbe2d461cc91b85bd19e1ee523899d31149079d53516e54bf60b4679b8a7729d"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20SA%20adoption%20statement%20%28October%202014%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Site Allocations and Policies DPD - Adoption Statement",
+        "reference": "AS-SA-2014",
+        "document-status": "adopted",
+        "endpoint": "33c3e9b3a3fc75652bd5fdaa3c37344b657bbeecdf44a3c66619343e0c81dc72"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUT",
+    "organisation-name": "Rutland County Council",
+    "reference": "LP-RUT-2010",
+    "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+    "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-10/LP14%20-%20Minerals%20Core%20Strategy%20and%20Development%20Control%20Policies%20DPD%20%28October%202010%29.pdf",
+    "name": "Minerals Core Strategy and Development Control Policies DPD",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-10/LP14%20-%20Minerals%20Core%20Strategy%20and%20Development%20Control%20Policies%20DPD%20%28October%202010%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "core-strategy",
+        "name": "Minerals Core Strategy and Development Control Policies DPD",
+        "reference": "MCS-2010",
+        "document-status": "adopted",
+        "endpoint": "9d1770e3564e19ce6be3787452ac72cf15b7217e30cec52fab61728902241420"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Minerals%20Core%20Strategy%20and%20Development%20Control%20Policies%20DPD%20-%20Adoption%20Statement%20%28October%202010%29.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Minerals Core Strategy and Development Control Policies DPD - Adoption Statement",
+        "reference": "AS-MCS-2010",
+        "document-status": "adopted",
+        "endpoint": "239a7f4020436adab2cfbc32378db3b8b423dd688b78535fcc57e0ef5e884c89"
+      }
+    ]
+  }
+]

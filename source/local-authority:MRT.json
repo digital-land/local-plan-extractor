@@ -1,0 +1,179 @@
+[
+  {
+    "organisation": "local-authority:MRT",
+    "organisation-name": "London Borough of Merton",
+    "reference": "LP-MRT-2024",
+    "documentation-url": "https://www.merton.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Merton Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/Local%20Development%20Scheme%20%202019%20.%202022.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2019-2022",
+        "reference": "LDS-2019-2022",
+        "document-status": "adopted",
+        "endpoint": "7fd6675092bd61eb48cc320c5a8756c9fa6bb0ef18c3989e3330f230a1e8c483"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/Statement%20of%20Community%20Involvement%202020.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2020",
+        "document-status": "adopted",
+        "endpoint": "a8e20488a62523e355598fc4c4af553bc16a7d102cdefcdb681c4ad798d7406c"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/Merton_AMR_2023-24.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority Monitoring Report 2023-2024",
+        "reference": "AMR-2023-24",
+        "document-status": "adopted",
+        "endpoint": "7a5c90403c88cea1ab3e58d58c768c01c4ff8444532b8838710357c6b9af7160"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MRT",
+    "organisation-name": "London Borough of Merton",
+    "reference": "LP-MRT-2018",
+    "documentation-url": "https://www.merton.gov.uk/planning-and-buildings/planning/local-estates-plan",
+    "document-url": "",
+    "name": "Merton Estates Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MRT",
+    "organisation-name": "London Borough of Merton",
+    "reference": "LP-MRT-2011",
+    "documentation-url": "https://www.merton.gov.uk/local-plan",
+    "document-url": "https://www.merton.gov.uk/assets/Documents/0328_merton_core_strategy_adopted.pdf",
+    "name": "Merton Core Planning Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/0328_merton_core_strategy_adopted.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "core-strategy",
+        "name": "Merton's Core Planning Strategy 2011-2026 (adopted)",
+        "reference": "CS-2011-2026",
+        "document-status": "adopted",
+        "endpoint": "8571c997ca02e06cf9bcb98435cc5d790813a3ac2d7f880c1427d2cced23a46f"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/0328_sustainability_appraisal_core_strategy__june2010.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal of our Core Strategy",
+        "reference": "SA-CS-2010",
+        "document-status": "adopted",
+        "endpoint": "893766483de57de2e3a2497612592138a344ee9591d9d53d22026526e5d0b5f3"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/0328_planning_inspector_report.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "inspectors-report",
+        "name": "Merton's Core Strategy - Planning Inspector's report 7 June 2011",
+        "reference": "IR-CS-2011",
+        "document-status": "adopted",
+        "endpoint": "f5d1b377dfbadba86560e445ae15674dede19c127bc51c14cbcc88ab3b0572d7"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/0328_cs_adoption_notice.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Merton Core Planning Strategy - adoption notice",
+        "reference": "AS-CS-2011",
+        "document-status": "adopted",
+        "endpoint": "b78055c85938ad6ad8f85fade292072fca694d0f3cf3cdf26723fbaa50b44f78"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MRT",
+    "organisation-name": "London Borough of Merton",
+    "reference": "LP-MRT-2022-WASTE",
+    "documentation-url": "https://www.merton.gov.uk/local-plan",
+    "document-url": "https://www.merton.gov.uk/system/files/Adopted%20South%20London%20Waste%20Plan%202022-2037.pdf",
+    "name": "South London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2022,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/Adopted%20South%20London%20Waste%20Plan%202022-2037.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "South London Waste Plan 2022-2037",
+        "reference": "WLP-2022-2037",
+        "document-status": "adopted",
+        "endpoint": "3e73b7cbebc18c7d0f67022660f1d1eca60a0454cc8643f59e59288d754abc5c"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/2022-12-15%20Adoption%20Statement%20for%20the%20South%20London%20Waste%20Plan%202022-2037.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-WLP-2022",
+        "document-status": "adopted",
+        "endpoint": "38dcb8bf0640c196402ca1ffa2bf5c8f89d2a7f5f7f377b7b73d4dfe613ad1a2"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/Planning%20Inspectors%27%20Final%20Report%20on%20the%20draft%20South%20London%20Waste%20Plan.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspectors' Report on the Draft South London Waste Plan",
+        "reference": "IR-WLP-2022",
+        "document-status": "adopted",
+        "endpoint": "130de1f1e06804ddd71fb0d2c33040ff44029916fa1b9794a93cb8eb899dd6aa"
+      },
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/Appendix%20-%20Schedule%20of%20Main%20Modifications%20and%20Annexes.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "main-modifications",
+        "name": "Appendix - Schedule of Main Modifications and Annexes",
+        "reference": "MM-WLP-2022",
+        "document-status": "adopted",
+        "endpoint": "edb94ce6c6053318a2838033077a8990dba7c98cbdcbac52df6e4adc5f35d390"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MRT",
+    "organisation-name": "London Borough of Merton",
+    "reference": "LP-MRT-2012-WASTE",
+    "documentation-url": "https://www.merton.gov.uk/local-plan",
+    "document-url": "https://www.merton.gov.uk/assets/Documents/0328%20south_london_waste_plan_adopted.pdf",
+    "name": "South London Waste Plan 2012-2022",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2022,
+    "documents": [
+      {
+        "document-url": "https://www.merton.gov.uk/assets/Documents/0328%20south_london_waste_plan_adopted.pdf",
+        "documentation-url": "https://www.merton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "South London Waste Plan 2012-2022",
+        "reference": "WLP-2012-2022",
+        "document-status": "adopted",
+        "endpoint": "e34b036591efa920fc885fb33859f08ddfd84b93145999d1d881c1dd3ae4a392"
+      }
+    ]
+  }
+]

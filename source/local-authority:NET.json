@@ -1,0 +1,201 @@
+[
+  {
+    "organisation": "local-authority:NET",
+    "organisation-name": "Newcastle City Council",
+    "reference": "LP-NET-2020",
+    "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+    "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
+    "name": "Development and Allocations Plan 2015-2030",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Development and Allocations Plan 2015-2030",
+        "reference": "LP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "0b08ba4ed2e93a309e6fa9850e5ff539f133b833afef23cd28f31dbf6ccb3628"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20Policies%20Map.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "policies-map",
+        "name": "DAP Policies Map",
+        "reference": "PM-DAP-2020",
+        "document-status": "adopted",
+        "endpoint": "ba78c2502705d63416d13ecf2abc8a641be0129f02c8f8d15f007ce842d9cc6d"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%207%20-%20DAP%20Adoption%20Statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "adoption-statement",
+        "name": "DAP Adoption Statement",
+        "reference": "AS-DAP-2020",
+        "document-status": "adopted",
+        "endpoint": "c998c65e8058d600a2e46e37fc03ef98ba4fa8d507ca649fdf09925b31d0b20d"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%206%20-%20Sustainability%20Appraisal%20Adoption%20Statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "406aee027e90ba52c1f96e5946e04e6eca883618e34f7dd4207a4beb350a3598"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%205%20-%20Policy%20Review.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Policy Review",
+        "reference": "PR-2020",
+        "document-status": "adopted",
+        "endpoint": "079139cf340dbfe51639f962aa1bac42ebcb676f712809305db7a5169eaf32b8"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NET",
+    "organisation-name": "Newcastle City Council",
+    "reference": "LP-NET-2015",
+    "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+    "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/planning_for_the_future_core_strategy_and_urban_core_plan_2010-2030.pdf",
+    "name": "Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne 2010-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2010,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/planning_for_the_future_core_strategy_and_urban_core_plan_2010-2030.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne, 2010-2030",
+        "reference": "CS-2010-2030",
+        "document-status": "adopted",
+        "endpoint": "a9aeee6960b340e1a843878cc2e980f33cd068a7b1f9f6a741c52bc7f4f694a1"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/csucp_adoption_statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Adoption Statement",
+        "reference": "AS-CSUCP-2015",
+        "document-status": "adopted",
+        "endpoint": "0e2f677b0835ebadedf9c57c5e1861c3172769079d38fd218ca6b17720db364b"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/csucp_sa_adoption_statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2015",
+        "document-status": "adopted",
+        "endpoint": "c00f5c203b3a38370061f8e53dc6619cdac8fc244a1498289d76ce393f48be9e"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/section_1_-_introduction.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Introduction",
+        "reference": "CS-S1-2015",
+        "document-status": "adopted",
+        "endpoint": "d3163ef9a7ea7688d6aca017a605951c8686a045c41b955cf1ef93bf7e04d881"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/section_2_-_spatial_vision_and_strategy.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Spatial Vision and Strategy",
+        "reference": "CS-S2-2015",
+        "document-status": "adopted",
+        "endpoint": "8b3820b983244c29f1ccbf637d96d076adebf6b531c309f83a99312015e4eb1e"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/section_3_-_strategic_policies.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "core-strategy",
+        "name": "Strategic Policies",
+        "reference": "CS-S3-2015",
+        "document-status": "adopted",
+        "endpoint": "c6e945de26fccac93d98c89832a21b4a25f1e220953f8c067cb1d69cb2067f2c"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/section_4_-_urban_core_policies.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Urban Core Policies",
+        "reference": "CS-S4-2015",
+        "document-status": "adopted",
+        "endpoint": "0302e20d3a6f14593a2f786a8a4943b3d11772aa4c4b1f596035ab869d0249ce"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/section_5_-_site_areas_and_site_specific_policies.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Site Areas and Site Specific Policies",
+        "reference": "CS-S5-2015",
+        "document-status": "adopted",
+        "endpoint": "73bae42b3da0ee835f8509f2099c3d647dcfc63ba3608da34a7b5c3e7379d4a8"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/section_6_-_delivery_and_monitoring.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Delivery and Monitoring",
+        "reference": "CS-S6-2015",
+        "document-status": "adopted",
+        "endpoint": "6a7f2c74b3600efad55067ae30b98e69ecb10c241b6288c89fa10888f876234f"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/section_7_-_endnotes_and_appendices.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Endnotes and Appendices",
+        "reference": "CS-S7-2015",
+        "document-status": "adopted",
+        "endpoint": "f3fd62086abc0fed88b70d37335f61ca4db3b3e7f52de168e6f061d35641d252"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/inspectors_report_on_the_examination_in_public_into_planning_for_the_future.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "The Inspector's Report",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "1fa98afaddf72bf78305eb94dab65f1a6e3e45dc5c7d23fe481cc7192499d800"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/annex_1_main_modifications.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "main-modifications",
+        "name": "Annex 1 Main Modifications",
+        "reference": "MM-2015",
+        "document-status": "adopted",
+        "endpoint": "5c4be23acebb3e5e2d7b56db9ead5d8d3aa940fa8cebe6799659f4408e14c691"
+      },
+      {
+        "document-url": "https://newcastle.gov.uk/sites/default/files/2019-01/key_preparation_stages_of_the_core_strategy_and_urban_core_plan_csucp.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "core-strategy",
+        "name": "Key preparation stages of the Core Strategy and Urban Core Plan",
+        "reference": "CS-KPS-2015",
+        "document-status": "adopted",
+        "endpoint": "bf6e97ea41c14f677137debbdac45a617b5393d22caa2dcf80d725e0223d8899"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Newcastle%20upon%20Tyne%20Policies%20Map.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "policies-map",
+        "name": "Newcastle upon Tyne Policies Map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "4ea5b0d96084a0a754fbe3a569c45a1c9dfef6268da04dfdaeb37381e1bf219b"
+      }
+    ]
+  }
+]

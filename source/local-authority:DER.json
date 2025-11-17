@@ -1,0 +1,117 @@
+[
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "LP-DER-2025",
+    "documentation-url": "https://www.derby.gov.uk/news/2025/november/new-local-plan-to-shape-derbys-growth-for-the-next-20-years/",
+    "document-url": "",
+    "name": "Derby Local Plan 2023-2043",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.derby.gov.uk/news/2025/november/new-local-plan-to-shape-derbys-growth-for-the-next-20-years/",
+        "document-type": "local-plan",
+        "name": "Derby Local Plan 2023-2043",
+        "reference": "LP-2023-2043",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "LP-DER-2017",
+    "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/part-1/",
+    "document-url": "",
+    "name": "Adopted Local Plan",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": 2028,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-ADOPTED",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "LP-DER-EMERGING",
+    "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/emerging/",
+    "document-url": "",
+    "name": "Emerging Local Plan for Derby (LPD)",
+    "status": "draft",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/",
+        "document-type": "local-plan",
+        "name": "Emerging Local Plan for Derby (LPD)",
+        "reference": "LP-EMERGING",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "MLP-DER-2020",
+    "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/minerals-local-plan/",
+    "document-url": "",
+    "name": "Minerals Local Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals Local Plan",
+        "reference": "MLP-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "WLP-DER-2020",
+    "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/waste-local-plan/",
+    "document-url": "",
+    "name": "Waste Local Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://derby.gov.uk/environment-and-planning/planning/local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Waste Local Plan",
+        "reference": "WLP-2020",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

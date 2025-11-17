@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:WYE",
+    "organisation-name": "Wyre Forest District Council",
+    "reference": "LP-WYE-2022",
+    "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
+    "document-url": "",
+    "name": "Wyre Forest District Local Plan (2016-2036)",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Wyre Forest District Local Plan (2016-2036) - adopted April 2022",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.wyreforestdc.gov.uk/media/ul0ayozc/wyre-forest-inspector-s-report.pdf",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/planning-and-buildings/planning-policy/wyre-forest-district-local-plan-2016-2036/local-plan-examination/inspectors-report/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on the Examination of the Wyre Forest District Local Plan 2016-2036",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "7a2d4f454f3c31386b6cb593f41b34439e0ed2c3645842b87673def69f173f34"
+      },
+      {
+        "document-url": "https://www.wyreforestdc.gov.uk/media/becddrlx/wyre-forest-lp-main-mods-appendix-final.pdf",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/planning-and-buildings/planning-policy/wyre-forest-district-local-plan-2016-2036/local-plan-examination/inspectors-report/",
+        "document-type": "main-modifications",
+        "name": "Wyre Forest Local Plan Main Modifications Appendix Final",
+        "reference": "MM-2022",
+        "document-status": "adopted",
+        "endpoint": "9e09d4c5c1e767143b311d7bc237e23e284150ca251cc65ebf4f4e9da0062fba"
+      },
+      {
+        "document-url": "https://www.wyreforestdc.gov.uk/media/4ping1zn/ed58-wyre-forest-local-plan-sa-final.pdf",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "ED58 - Sustainability Appraisal of the main modifications to the submitted version of the Wyre Forest Local Plan by Levett-Therivel",
+        "reference": "SA-2022",
+        "document-status": "adopted",
+        "endpoint": "ad9fcf3af0fd6868293a6444277c973cb0bc6749965ca6b0c10bb9e801f67294"
+      },
+      {
+        "document-url": "https://www.wyreforestdc.gov.uk/media/g0fdxonb/settlement-hierarchy-july-2019.pdf",
+        "documentation-url": "https://www.wyreforestdc.gov.uk/planning-and-buildings/planning-policy/wyre-forest-district-local-plan-2016-2036/local-plan-review-process-2015-2022/local-plan-2016-2036-background-documents/",
+        "document-type": "local-plan",
+        "name": "Settlement hierarchy technical paper",
+        "reference": "SH-2019",
+        "document-status": "adopted",
+        "endpoint": "efcd5295a327c1331a5868c556793b0211e2bbd15ba8a3e03837eeaf3ca9c2d7"
+      }
+    ]
+  }
+]

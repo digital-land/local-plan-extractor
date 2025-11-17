@@ -1,0 +1,134 @@
+[
+  {
+    "organisation": "local-authority:SUA",
+    "organisation-name": "Somerset Council",
+    "reference": "LP-SUA-2029",
+    "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somerset-local-plan/",
+    "document-url": "",
+    "name": "Somerset Local Plan 2045",
+    "status": "regulation-18",
+    "year": 2026,
+    "period-start-date": 2023,
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://democracy.somerset.gov.uk/documents/s44283/PTP Executive Sub Committee Report_Local Development Scheme 2025_FINAL v2.0.pdf",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somerset-local-plan/",
+        "document-type": "local-development-scheme",
+        "name": "Local Plan Update Report – 11 February 2025 as part of the Local Development Scheme Committee Report",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "157bc7c2c0f898e38dd576387c1dc3ccba468714469b386119010d79f6637c89"
+      },
+      {
+        "document-url": "https://democracy.somerset.gov.uk/documents/s37289/241008%20Local%20Plan%20biannual%20update%20-%20PTP%20Executive%20Sub-Committee%20Report%20FINAL%20002.pdf",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somerset-local-plan/",
+        "document-type": "local-plan",
+        "name": "Local Plan Update Report – 8 October 2024",
+        "reference": "LP-UPDATE-2024",
+        "document-status": "draft",
+        "endpoint": "f1dcecc9c15a78765e2e2573ac6880e4ca76030dd54727d3debf3ae5bc041e4f"
+      },
+      {
+        "document-url": "https://democracy.somerset.gov.uk/documents/s25023/Somerset%20Development%20Plan%20Biannual%20Update%20Report%20-%20February%202024.pdf",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somerset-local-plan/",
+        "document-type": "local-plan",
+        "name": "Local Plan Progress Report – 14 February 2024",
+        "reference": "LP-PROGRESS-2024",
+        "document-status": "draft",
+        "endpoint": "ef3331bfc850951e6863fedc0a154890a2deeabcbb51ba1012a333d5ac906dc2"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somerset-local-plan/",
+        "document-type": "local-plan",
+        "name": "Local Plan Update Report – 8 Oct 2025",
+        "reference": "LP-UPDATE-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Submission Guidance",
+        "reference": "SG-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/local-development-scheme/",
+        "document-type": "local-development-scheme",
+        "name": "Somerset Local Development Scheme 2025 document",
+        "reference": "LDS-2025-DOC",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SUA",
+    "organisation-name": "Somerset Council",
+    "reference": "LNRS-SUA-2026",
+    "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somersets-nature-recovery-strategy-consultation/",
+    "document-url": "",
+    "name": "Somerset's Local Nature Recovery Strategy",
+    "status": "draft",
+    "year": 2026,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somersets-nature-recovery-strategy-consultation/",
+        "document-type": "supplementary-planning-document",
+        "name": "Somerset's draft Local Nature Recovery Strategy - A vision for Somerset, Local Nature Recovery Strategy. Statement of Biodiversity Principles",
+        "reference": "LNRS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/somersets-nature-recovery-strategy-consultation/",
+        "document-type": "local-plan",
+        "name": "Appendix 8 – Mapping – Evidence and Technical Information",
+        "reference": "LNRS-A8-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SUA",
+    "organisation-name": "Somerset Council",
+    "reference": "MWP-SUA-2019",
+    "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/ecological-networks/",
+    "document-url": "",
+    "name": "Minerals Local Plan – Identifying and Mapping the Mendip Hills Ecological Network",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/ecological-networks/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals Local Plan – Identifying and Mapping the Mendip Hills Ecological Network",
+        "reference": "MWP-MENDIP-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/ecological-networks/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Somerset's Ecological Network Report 2019",
+        "reference": "EN-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

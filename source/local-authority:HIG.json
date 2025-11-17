@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:HIG",
+    "organisation-name": "High Peak Borough Council",
+    "reference": "LP-HIG-2024",
+    "documentation-url": "https://www.highpeak.gov.uk/article/225/Planning-and-building-regulations-for-business",
+    "document-url": "",
+    "name": "High Peak Local Plan",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.highpeak.gov.uk",
+        "document-type": "local-plan",
+        "name": "Planning and building regulations for business",
+        "reference": "LP-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://highpeak.gov.uk/article/271/Consultations-and-petitions",
+        "document-type": "local-plan",
+        "name": "Building regulations",
+        "reference": "BR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://highpeak.gov.uk/article/271/Consultations-and-petitions",
+        "document-type": "local-plan",
+        "name": "Building regulations for business",
+        "reference": "BRB-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://highpeak.gov.uk/article/271/Consultations-and-petitions",
+        "document-type": "local-plan",
+        "name": "Local planning agents forum",
+        "reference": "LPAF-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.highpeak.gov.uk",
+        "document-type": "local-plan",
+        "name": "Food business regulations",
+        "reference": "FBR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

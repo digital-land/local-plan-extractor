@@ -1,0 +1,160 @@
+[
+  {
+    "organisation": "local-authority:NWA",
+    "organisation-name": "North Warwickshire Borough Council",
+    "reference": "LP-NWA-2021",
+    "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+    "document-url": "https://www.northwarks.gov.uk/downloads/file/265/local-plan-adopted-2021-",
+    "name": "North Warwickshire Local Plan September 2021",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/265/local-plan-adopted-2021-",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan September 2021",
+        "reference": "LP-2021",
+        "document-status": "adopted",
+        "endpoint": "ff5c843289c379e7cb480d5695f3180882f92aee606050f276034582e5184020"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/314/policy-map-local-plan-2021",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "policies-map",
+        "name": "Policy Map",
+        "reference": "PM-2021",
+        "document-status": "adopted",
+        "endpoint": "45b5f40669474808d0460c58d5bf0986c4656b0048f5068ce7143803e9560766"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/271/policy-map-key",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "policies-map",
+        "name": "Policy Map Key",
+        "reference": "PMK-2021",
+        "document-status": "adopted",
+        "endpoint": "63afc1c56af457d87c56d161ed09bd7bd4d5562cbbb5b204582c8f09257184e1"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/272/policy-map-with-hyperlinks-",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "policies-map",
+        "name": "Interactive Policy Map",
+        "reference": "IPM-2021",
+        "document-status": "adopted",
+        "endpoint": "5844da3fb084688827965edce8a4aad798dff69533e9c623c282a9d2b2469504"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/266/local-plan-2021-site-allocations-and-development-boundary-maps",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "site-allocations",
+        "name": "Local Plan Maps - Site Allocations and Development Boundaries",
+        "reference": "SA-DPD-2021",
+        "document-status": "adopted",
+        "endpoint": "4fc07c4553840eb8f3b4bc5e9a21bd27192b78cccd764b59eff37c65ba732f77"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/267/local-plan-2021-greenbelt-commercial-and-transport-maps",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Maps - Greenbelt, Commercial and Transport Maps",
+        "reference": "GBCT-2021",
+        "document-status": "adopted",
+        "endpoint": "e0918b01726539901e99f0b41cb27a4ed278d1aff86cbd4953a9ccbfcee80883"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/268/local-plan-2021-local-nature-reserves-and-industrial-estates",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Maps - LNR's and Industrial Estates",
+        "reference": "LNRIE-2021",
+        "document-status": "adopted",
+        "endpoint": "7a78a93f52f8b78663ae7dd49c9eff2a2e0f4005b2e665e5134b52bdb153788a"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/269/local-plan-2021-greenspace-maps",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Maps - Green Spaces",
+        "reference": "GS-2021",
+        "document-status": "adopted",
+        "endpoint": "d35bb519150731f290b2ff9f8264cdf58adb5c6bcd12def758a16fef30beaf41"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/270/local-plan-2021-conservation-area-maps",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Maps - Conservation Areas",
+        "reference": "CA-2021",
+        "document-status": "adopted",
+        "endpoint": "a1994bcbde30ff0de74cc6c3a70043cb2074f87eea62751267efe46408fefb64"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/280/local-plan-2021-adoption-statement",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "6f80cfc8812b705e64809a75d6d86da6f4ce1ba3e51a3e7d6a1260b8d14d945e"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/98/strategic-environmental-assessment-of-the-north-warwickshire-local-plan-adoption-statement-including-hra-2021-",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Strategic Environment Assessment incorporating the HRA Adoption Statement",
+        "reference": "SEA-AS-2021",
+        "document-status": "adopted",
+        "endpoint": "b16317f36ffe2c5751fe018033e238ab79d7275e4c12418e16b5b7a372478de4"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/255/local-development-scheme-february-2025-",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (LDS)",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "3ec44c5ee38cfc6c582b5b63826cdaeac09944e5e5bb671556527ba4ddf53f36"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/264/statement-of-community-involvement-2024",
+        "documentation-url": "https://www.northwarks.gov.uk/forward-planning/local-plan-north-warwickshire",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement (SCI)",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "2f1e20b1dc57155c41cbb8148223fc60fb161e8fceaea8bbc3d049e9aeffa8d5"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/76/statement-of-common-ground-lichfield-dc-tamworth-bc-and-nwbc-2018-",
+        "documentation-url": "https://www.northwarks.gov.uk/downloads/download/15/local-plan",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground - Lichfield DC, Tamworth BC and NWBC (2018)",
+        "reference": "SOCG-LT-2018",
+        "document-status": "adopted",
+        "endpoint": "48a07a2c330523dcbe870eac544dccb17956afa9b0422668c3f2843123fd0f03"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/77/statement-of-common-ground-birmingham-city-council-2018-",
+        "documentation-url": "https://www.northwarks.gov.uk/downloads/download/15/local-plan",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground Birmingham City Council (2018)",
+        "reference": "SOCG-BCC-2018",
+        "document-status": "adopted",
+        "endpoint": "0bf70c32568b1bc83920a5d39a51265e77388c82a69d1d90bcd2e0877080f228"
+      },
+      {
+        "document-url": "https://www.northwarks.gov.uk/downloads/file/78/statement-of-common-ground-staffordshire-cc-warwickshire-cc-and-nwbc-2018-",
+        "documentation-url": "https://www.northwarks.gov.uk/downloads/download/15/local-plan",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground - Staffordshire CC, Warwickshire CC and NWBC (2018)",
+        "reference": "SOCG-SW-2018",
+        "document-status": "adopted",
+        "endpoint": "1320f53410c8d9b8c2a0b380bc41c19b19f20036891654d1ced960878a005f9d"
+      }
+    ]
+  }
+]

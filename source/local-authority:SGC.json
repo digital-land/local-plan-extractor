@@ -1,0 +1,138 @@
+[
+  {
+    "organisation": "local-authority:SGC",
+    "organisation-name": "South Gloucestershire Council",
+    "reference": "LP-SGC-2025",
+    "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+    "document-url": "https://beta.southglos.gov.uk/static/ceed9365341546cfcbadc6849ff0e770/New_Local_Plan_Phase_3_towards_a_preferred_strategy_FULL_web.pdf",
+    "name": "South Gloucestershire New Local Plan",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://beta.southglos.gov.uk/static/ceed9365341546cfcbadc6849ff0e770/New_Local_Plan_Phase_3_towards_a_preferred_strategy_FULL_web.pdf",
+        "documentation-url": "https://beta.southglos.gov.uk/publications/local-plan-phase-3-towards-a-preferred-strategy/",
+        "document-type": "local-plan",
+        "name": "New Local Plan – Phase 3",
+        "reference": "LP-PHASE3-2024",
+        "document-status": "consultation",
+        "endpoint": "52f3e484b8f5cb780413476ee3881ecbfa3ef8bdac6b436322f7a986978e90e7"
+      },
+      {
+        "document-url": "https://beta.southglos.gov.uk/static/db8c0fa3b313ab4061ec1f988fd31b63/Easy_Read_Local_Plan_phase_3_towards_a_preferred_strategy_consultation.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Easy Read New Local Plan – Phase 3",
+        "reference": "LP-PHASE3-EASY-2024",
+        "document-status": "consultation",
+        "endpoint": "571d88837d46e3cb8795b3ed6999bf83f1f52d8b5f5fdc639bec324ed7c04b42"
+      },
+      {
+        "document-url": "https://beta.southglos.gov.uk/static/2c4ff10200e5ed92ec26e039403b410b/Local-Plan-factual-correction-note-February-2024.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Factual Correction Note February 2024",
+        "reference": "LP-CORRECTION-2024",
+        "document-status": "consultation",
+        "endpoint": "2d8af4979f80b1eeac08ea8b2219b3d1d41d6e9f65bb49377c1986bd8598019e"
+      },
+      {
+        "document-url": "https://www.southglos.gov.uk/static/915289dd69fab607fb4f9c176dd962dd/Local-Plan-Delivery-Programme-2025-2028.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Plan Delivery Programme 2025-2028",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "52ea3ee110cd547ace72603f55122b6fe6a8b0b62bdcc86912ee4de2b77e1dc5"
+      },
+      {
+        "document-url": "https://www.southglos.gov.uk/static/4df867f528ef81d1cd24865d7d71debe/Commenting_on_the_Local_Plan.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Commenting on the Local Plan – Frequently asked questions",
+        "reference": "LP-FAQ-2025",
+        "document-status": "consultation",
+        "endpoint": "835f3dc6304311b1eba4118958f0c2b76e8a19b5848cab2f50cc6b5069f43bfb"
+      },
+      {
+        "document-url": "https://www.southglos.gov.uk/static/555df3a2212c50db7937e70e639e66a8/BCC-DtC-letter-October2023.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "BCC DtC Letter October 2023",
+        "reference": "DTC-2023",
+        "document-status": "consultation",
+        "endpoint": "b68c02af0be012d0e2e01d0898e9df71ffed17fa75f88e81a2951d89c972a265"
+      },
+      {
+        "document-url": "https://beta.southglos.gov.uk/static/5229be7d5faf83728eb03ca835ac3495/Authority-Monitoring-Report-2022.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "authority-monitoring-report",
+        "name": "2022 Authority's Monitoring Report",
+        "reference": "AMR-2022",
+        "document-status": "adopted",
+        "endpoint": "03b58130aac058cc20dee124daff8c22b3f1ada439214ecbbccb14e6fef2b7d9"
+      },
+      {
+        "document-url": "https://consultations.southglos.gov.uk/gf2.ti/f/1222658/124565509.1/PDF/-/Q1%20Responses.pdf",
+        "documentation-url": "https://consultations.southglos.gov.uk/LocalPlan2020/consultationHome",
+        "document-type": "local-plan",
+        "name": "Q1 Responses",
+        "reference": "LP-Q1-2021",
+        "document-status": "consultation",
+        "endpoint": "4fa4654afcf479c70411e804fe8863ef062e735cebbfd4149e5760000e9bf769"
+      },
+      {
+        "document-url": "https://consultations.southglos.gov.uk/gf2.ti/f/1222658/124565541.1/PDF/-/Q2%20Responses.pdf",
+        "documentation-url": "https://consultations.southglos.gov.uk/LocalPlan2020/consultationHome",
+        "document-type": "local-plan",
+        "name": "Q2 Responses",
+        "reference": "LP-Q2-2021",
+        "document-status": "consultation",
+        "endpoint": "0b108a750812e35a5433c833292a4bda0d3948f0c502244356a40bd48ddae0c0"
+      },
+      {
+        "document-url": "https://consultations.southglos.gov.uk/gf2.ti/f/1222658/124565605.1/PDF/-/Q3%20Responses.pdf",
+        "documentation-url": "https://consultations.southglos.gov.uk/LocalPlan2020/consultationHome",
+        "document-type": "local-plan",
+        "name": "Q3 Responses",
+        "reference": "LP-Q3-2021",
+        "document-status": "consultation",
+        "endpoint": "4fbe40f3444cccafc746640fc2f95a72ee248049ea7fbd16c48c8c13ab20e531"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SGC",
+    "organisation-name": "South Gloucestershire Council",
+    "reference": "SPD-SGC-2025",
+    "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+    "document-url": "https://www.southglos.gov.uk/static/1341dd64c9a593d9886218a6c84c985c/Houses-in-Multiple-Occupation-SPD.pdf",
+    "name": "Houses in Multiple Occupation Guidance for New Developments",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southglos.gov.uk/static/1341dd64c9a593d9886218a6c84c985c/Houses-in-Multiple-Occupation-SPD.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "supplementary-planning-document",
+        "name": "Houses in Multiple Occupation (HMO) guidance for new developments supplementary planning document (SPD)",
+        "reference": "SPD-HMO-2025",
+        "document-status": "consultation",
+        "endpoint": "a1429f0ed88226b3090dedf8cdbfcd559a8452cba68625e3cce436373eefd07c"
+      },
+      {
+        "document-url": "https://www.southglos.gov.uk/static/cc2c048b23d37c5a9d4a8cd532985034/Houses-in-Multiple-Occupation-Supplementary-Planning-Document-proposed-edits-Sept-25.pdf",
+        "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Houses in Multiple Occupation Supplementary Planning Document Proposed Edits September 2025",
+        "reference": "SPD-HMO-EDITS-2025",
+        "document-status": "consultation",
+        "endpoint": "7e98ec8040676bb39e50f4fad049e49d8626a190e5fd7fc8765770db9846fe4c"
+      }
+    ]
+  }
+]

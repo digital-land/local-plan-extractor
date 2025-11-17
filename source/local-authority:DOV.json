@@ -1,0 +1,219 @@
+[
+  {
+    "organisation": "local-authority:DOV",
+    "organisation-name": "Dover District Council",
+    "reference": "LP-DOV-2024",
+    "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+    "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/V2-Dover-District-Local-Plan-to-2040-Low-Resolution-for-viewing-7.68-MB.pdf",
+    "name": "Dover District Local Plan to 2040",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/V2-Dover-District-Local-Plan-to-2040-Low-Resolution-for-viewing-7.68-MB.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan",
+        "name": "Dover District Local Plan",
+        "reference": "LP-2040",
+        "document-status": "adopted",
+        "endpoint": "dd7697ee5e0e1e82164caf30142393f0e6e1b488ba883b547756fa966fdee911"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/V2-Dover-District-Local-Plan-to-2040-High-Resolution-for-download-RGB-87.44-MB.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan",
+        "name": "Dover District Local Plan to 2040 (high resolution for download)",
+        "reference": "LP-2040-HR",
+        "document-status": "adopted",
+        "endpoint": "92115e2a1d22e709119956d0deb253b7c7ccbde64a3156c4564c5807cd22379a"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/V2-Dover-District-Local-Plan-to-2040-Accessible-Format-Low-Resolution-for-viewing.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan",
+        "name": "Dover District Local Plan to 2040 (Accessible Format - low resolution)",
+        "reference": "LP-2040-ACC",
+        "document-status": "adopted",
+        "endpoint": "738beb8a5e2cc565ab1f9a051d30e102c011f6bf768adbdcaaf594899367bbc0"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/pdfs/Adoption-statement.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "d1ffbe741fcfe014d7ba677f15bbd82cd12543570d86ca4f989a56e7a2449f98"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Dover-District-Council-Local-Plan-SA-Adoption-Statement.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "AS-SA-2024",
+        "document-status": "adopted",
+        "endpoint": "ce4c8ce489aa7a84b329984d9aec99f083048dfd477ed96089a1a380b9867f29"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Final-Report-of-LP/Dover-LP-Inspectors-Report-FINAL.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan",
+        "name": "Inspectors' Report",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "8ff42fb95612ab2a666863b2727becdcda9c1798395aa28d6980fb89060509aa"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Final-Report-of-LP/Dover-LP-Main-Mods-Appendix-FINAL.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "main-modifications",
+        "name": "Inspector's Report Appendix – Schedule of Main Modifications",
+        "reference": "MM-2024",
+        "document-status": "adopted",
+        "endpoint": "20a9be04851fbc1ab0fe60b8a3e90d521205443a0a8f87b1dd920bd3c36918c0"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Examination-Documents/ED52-Sustainability-Appraisal-Main-Modifications.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal: Main Modification to the Dover District Local Plan",
+        "reference": "SA-MM-2024",
+        "document-status": "adopted",
+        "endpoint": "4bb0798e5e91e26540bab58f353d0768fd604f5552742bac9adf7b9c14d463f9"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Examination-Documents/ED53-HRA-Final-Updated.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment – Regulation 19 HRA Updated 2024",
+        "reference": "HRA-2024",
+        "document-status": "adopted",
+        "endpoint": "cccb1ae67f930d4fd03d3875674f395fd0d91ed8583951ec9f52d5bfe07e279d"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/Equality-IA-Adoption-Version-Oct-2024.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities Impact Assessment",
+        "reference": "EIA-2024",
+        "document-status": "adopted",
+        "endpoint": "9e4bd4cf3946915f9c85d0f6e46b69aa9b04dc15cf66fe0183753d379f457ac5"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Submission-Documents/SD03a-Sustainability-Appraisal-Strategic-Environmental-Assessment-Report-inc.-Appendices-A-E-September-2022.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan",
+        "name": "Main Report including Appendices A-E (September 2022)",
+        "reference": "SA-SEA-2022",
+        "document-status": "examination",
+        "endpoint": "74f53505b1cd533ef0d84593775cb8258eb08e1afdab393f071141d62d2a4374"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Submission-Documents/SD03b-Sustainability-Appraisal-SA-Appendix-F-Site-Assessments-Sept-22.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "site-allocations",
+        "name": "Appendix F Site Assessments (September 2022)",
+        "reference": "SA-SITES-2022",
+        "document-status": "examination",
+        "endpoint": "9863a9de31d20f649b67c3ebfb0088705ff9dfd9a42305e15704e803d6df1977"
+      },
+      {
+        "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/pdfs/Dover-District-Local-Plan-Regulation-19-Submission-Document-Oct-2022.pdf",
+        "documentation-url": "https://www.doverdistrictlocalplan.co.uk/about",
+        "document-type": "local-plan-regulation-19",
+        "name": "Dover District Local Plan Regulation 19 Submission Document",
+        "reference": "LP-REG19-2022",
+        "document-status": "examination",
+        "endpoint": "fc4fdd9a5f4024c798261840a3accca5655712e4fac2a055906ae63a330e8624"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DOV",
+    "organisation-name": "Dover District Council",
+    "reference": "NP-DOV-ASH-2021",
+    "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+    "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/PDF/Ash-NDP-Plan-Final-Sept-2021.pdf",
+    "name": "Ash Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/PDF/Ash-NDP-Plan-Final-Sept-2021.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Ash Neighbourhood Plan Sept 2021",
+        "reference": "NP-ASH-2021",
+        "document-status": "adopted",
+        "endpoint": "9c5642f9b380b4f704b5410ed0a67a4b06f08b3ac335b23e96831cbea349e6c0"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/PDF/Ash-NDP-Referendum-version-June-2021.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Referendum verson of the Plan",
+        "reference": "NP-ASH-REF-2021",
+        "document-status": "consultation",
+        "endpoint": "2b17ab7cf6728b517c1c8b1b38681d9f0ef7f57f44174fcf4f80fedee2c7421e"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/PDF/Ash-NDP-2018-to-2037-Examiners-Final-Report.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Examiners' Final Report",
+        "reference": "NP-ASH-EXAM-2021",
+        "document-status": "examination",
+        "endpoint": "46500c12456a5e65d75a24617e0288527669c8497b98ec771509e3d8a351be03"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-NDP-submission-Plan-November-2020.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Ash NDP Submission Plan",
+        "reference": "NP-ASH-SUB-2020",
+        "document-status": "examination",
+        "endpoint": "f0334ca338dc929e2265f09f8b17c6d06be660c7da52a961ac6f6f6f2394dc0d"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-NDP-Basic-Conditions-Statement-November-2020.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "neighbourhood-plan",
+        "name": "Ash NDP Basic Conditions Statement",
+        "reference": "NP-ASH-BCS-2020",
+        "document-status": "examination",
+        "endpoint": "ade8f933c3b1848e81be1c33e56c23c9b8730255e698fbdd7e9682f6e52dd75c"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-NDP-Consultation-Statement-November-2020.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "consultation-statement",
+        "name": "Ash NDP Consultation Statement",
+        "reference": "NP-ASH-CS-2020",
+        "document-status": "examination",
+        "endpoint": "3cf450e19aad69e32b5124f6fc51bb9a0ca93361865ebe478e09f3909ec0e24e"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-NDP-HRA-November-2020.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Ash NDP HRA",
+        "reference": "NP-ASH-HRA-2020",
+        "document-status": "examination",
+        "endpoint": "49ed8748abec0e08e7159093978eea9b262f12c5678e1d1945ca816af70d8ba1"
+      },
+      {
+        "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-NDP-SEA-November-2020.pdf",
+        "documentation-url": "https://www.dover.gov.uk/Planning/Planning-Policy/Neighbourhood-Planning/Ash-Neighbourhood-Plan-Consultation.aspx",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Ash NDP SEA",
+        "reference": "NP-ASH-SEA-2020",
+        "document-status": "examination",
+        "endpoint": "bfa507f379ce9c09c856f55a589f1c9834727814579bff9c32e69e535e38b4af"
+      }
+    ]
+  }
+]

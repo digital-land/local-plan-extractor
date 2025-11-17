@@ -1,0 +1,84 @@
+[
+  {
+    "organisation": "local-authority:CBF",
+    "organisation-name": "Central Bedfordshire Council",
+    "reference": "LP-CBF-2021",
+    "documentation-url": "https://www.centralbedfordshire.gov.uk/info/45/planning_policy",
+    "document-url": "",
+    "name": "Central Bedfordshire Local Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Ward Member Workshops Feedback Report",
+        "reference": "WMWR-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Town and Parish Council Workshops Feedback Report",
+        "reference": "TPCWR-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Launch Feedback Report",
+        "reference": "LPLFR-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CBF",
+    "organisation-name": "Central Bedfordshire Council",
+    "reference": "LP-CBF-2050",
+    "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+    "document-url": "",
+    "name": "Central Bedfordshire New Local Plan 2050",
+    "status": "draft",
+    "year": 2028,
+    "period-start-date": "",
+    "period-end-date": 2050,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Ward Member Workshops Feedback Report",
+        "reference": "WMWR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Town and Parish Council Workshops Feedback Report",
+        "reference": "TPCWR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Launch Feedback Report",
+        "reference": "LPLFR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

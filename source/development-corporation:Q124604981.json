@@ -1,0 +1,57 @@
+[
+  {
+    "organisation": "development-corporation:Q124604981",
+    "organisation-name": "Hartlepool Development Corporation",
+    "reference": "LP-HDC-2023",
+    "documentation-url": "https://teesvalley-ca.gov.uk",
+    "document-url": "https://teesvalley-ca.gov.uk/business/wp-content/uploads/sites/3/2023/03/Net-Zero-strategy-Digital.pdf",
+    "name": "Tees Valley Net Zero Strategy",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://teesvalley-ca.gov.uk/business/wp-content/uploads/sites/3/2023/03/Net-Zero-strategy-Digital.pdf",
+        "documentation-url": "https://teesvalley-ca.gov.uk",
+        "document-type": "local-plan",
+        "name": "Net Zero Strategy",
+        "reference": "LP-NZ-2023",
+        "document-status": "adopted",
+        "endpoint": "7f041bda223256571c31efd7187ed1d429503421982cc864b137188af9f06564"
+      }
+    ]
+  },
+  {
+    "organisation": "development-corporation:Q124604981",
+    "organisation-name": "Hartlepool Development Corporation",
+    "reference": "LP-HDC-2020",
+    "documentation-url": "https://teesvalley-ca.gov.uk",
+    "document-url": "https://teesvalley-ca.gov.uk/about/wp-content/uploads/sites/2/2023/07/STP-Main-Report-Design-Jan20-4.pdf",
+    "name": "Strategic Transport Plan 2020-2030",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://teesvalley-ca.gov.uk/about/wp-content/uploads/sites/2/2023/07/STP-Main-Report-Design-Jan20-4.pdf",
+        "documentation-url": "https://teesvalley-ca.gov.uk",
+        "document-type": "local-plan",
+        "name": "Strategic Transport Plan 2020-2030",
+        "reference": "STP-2020-2030",
+        "document-status": "adopted",
+        "endpoint": "816b6aeeea88b764b26feabb7536cc6ced4e74771dcfa00d38b2b84cdbf7ce20"
+      },
+      {
+        "document-url": "https://teesvalley-ca.gov.uk/travel/wp-content/uploads/sites/5/2023/09/TVCA-Digital-Transport-Delivery-Plan-Final-Issue.pdf",
+        "documentation-url": "https://teesvalley-ca.gov.uk",
+        "document-type": "local-plan",
+        "name": "Digital Transport Delivery Plan",
+        "reference": "DTDP-2023",
+        "document-status": "adopted",
+        "endpoint": "af87a48b383b8489a09803edb535e2313c7f94b8e1526f561c32f5927c3a03d6"
+      }
+    ]
+  }
+]

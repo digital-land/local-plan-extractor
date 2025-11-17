@@ -1,0 +1,101 @@
+[
+  {
+    "organisation": "local-authority:OXO",
+    "organisation-name": "Oxford City Council",
+    "reference": "LP-OXO-2020",
+    "documentation-url": "https://www.oxford.gov.uk/localplan",
+    "document-url": "https://www.oxford.gov.uk/downloads/file/1637/adopted-oxford-local-plan-2036",
+    "name": "Oxford Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1637/adopted-oxford-local-plan-2036",
+        "documentation-url": "https://www.oxford.gov.uk/downloads/download/20/download-the-oxford-local-plan-2016-2036",
+        "document-type": "local-plan",
+        "name": "Adopted Oxford Local Plan 2036",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "b9cf05594b95155622f3f9f0d2f193bb70d2ded47b5bb57a8b98f2918f857084"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1825/oxford-local-plan-2036-inspectors-report",
+        "documentation-url": "https://www.oxford.gov.uk/downloads/download/481/downloads-for-oxford-local-plan-2036-inspectors-report",
+        "document-type": "local-plan",
+        "name": "Oxford Local Plan 2036 Inspectors' Report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "d37072014d3472ab84b83a512908c65e7cc9099662412adc254f9ab10ff5632f"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1806/oxford-local-plan-2036-sustainability-appraisal-and-strategic-environmental-assessment",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "5ae4ab34ebf6645b4396b92d526fed307c08350c1d9c827c77adbc09d5bea4a2"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1805/oxford-local-plan-2036-habitats-regulations-assessment-appropriate-assessment",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Habitat's Regulation Assessment",
+        "reference": "HRA-2020",
+        "document-status": "adopted",
+        "endpoint": "a1e8bb11ec2545e130ccac9ab5911f439a2ef2b3c672cfa4772950040cfed982"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1566/cil-final-charging-schedule",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Community Infrastructure Levy (CIL) Charging Schedule (October 2013)",
+        "reference": "CIL-2013",
+        "document-status": "adopted",
+        "endpoint": "d6c6de3fb6f3c5aa6511880993a384ae575e28cb0ee7b75858935c1cb4fb6055"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1598/oxford-west-end-design-guide",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "urban-design-framework",
+        "name": "Oxford West End Design Guide",
+        "reference": "OWEDG-2020",
+        "document-status": "adopted",
+        "endpoint": "02a5f7d64d027fde48e086df07382e21e3be785563bdedabea1519e874150f94"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1601/oxford-west-end-spatial-framework-main-document-",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Oxford West End Spacial Framework Main Document",
+        "reference": "OWESF-2020",
+        "document-status": "adopted",
+        "endpoint": "0fb848be6d87b545bba2ab7f9eaa79c7c7414363cda990491ab7b6f85fa3ef3c"
+      },
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1600/oxford-west-end-spatial-framework-appendices-",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Oxford West End Spacial Framework Appendices",
+        "reference": "OWESF-APP-2020",
+        "document-status": "adopted",
+        "endpoint": "639649c0ba6ef67a2bfba97ec1b01f607958af1eb0e1fe620a48c7b90d862225"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:OXO",
+    "organisation-name": "Oxford City Council",
+    "reference": "LP-OXO-2025",
+    "documentation-url": "https://www.oxford.gov.uk/oxford-local-plan-2045",
+    "document-url": "",
+    "name": "Oxford Local Plan 2045",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2045,
+    "documents": []
+  }
+]

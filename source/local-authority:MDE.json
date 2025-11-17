@@ -1,0 +1,111 @@
+[
+  {
+    "organisation": "local-authority:MDE",
+    "organisation-name": "Mid Devon District Council",
+    "reference": "LP-MDE-2020",
+    "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/adopted-local-plan-and-policies-maps/",
+    "document-url": "https://www.middevon.gov.uk/media/354365/local-plan-review-2013-2033-adopted-11112022-accessible.pdf",
+    "name": "Mid Devon Local Plan Review 2013-2033",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.middevon.gov.uk/media/354365/local-plan-review-2013-2033-adopted-11112022-accessible.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/adopted-local-plan-and-policies-maps/",
+        "document-type": "local-plan",
+        "name": "Local Plan Review 2013-2033",
+        "reference": "LP-2013-2033",
+        "document-status": "adopted",
+        "endpoint": "6af8f47e5d7c2dc7ea79437297b5031c1ddbc7467a171bd79a93b253894d7b5e"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/350557/adoption-statement-for-mid-devon-local-plan-review-2013-2033.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/adopted-local-plan-and-policies-maps/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement for Mid Devon Local Plan Review 2013 to 2033",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "e274a9e72bb8aa8deedee73f4fe92fab1bc5e9bcfdb3ae14bab77d115d9f58dc"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/352961/sa-post-adoption-statement.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/adopted-local-plan-and-policies-maps/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "6f31ab3da5963900fa8bea6f1cc37a6cc986bff0de636f4196c1a372ec002e1d"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/349506/local-plan-report-mdlpr-final.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/local-plan-history/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "fcb32bd175800f2ff559d6e52626df120c34a60ccf73554d2603951250f38fb9"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MDE",
+    "organisation-name": "Mid Devon District Council",
+    "reference": "LP-MDE-2023",
+    "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+    "document-url": "https://www.middevon.gov.uk/media/354982/non_statutory_interim_pp_statement_climate_emergency_accessible.pdf",
+    "name": "Non-Statutory Interim Planning Policy Statement: Climate Emergency",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.middevon.gov.uk/media/354982/non_statutory_interim_pp_statement_climate_emergency_accessible.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+        "document-type": "local-plan",
+        "name": "Non-Statutory Interim Planning Policy Statement: Climate Emergency",
+        "reference": "IPPS-CE-2023",
+        "document-status": "adopted",
+        "endpoint": "514aae5ea25f15072f9c77a051f6e1efc7bf216d0de43b559efe711eedf6334b"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/354640/net_zero_carbon_toolkit_accessible.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+        "document-type": "local-plan",
+        "name": "Net Zero Carbon Toolkit",
+        "reference": "NZCT-2023",
+        "document-status": "adopted",
+        "endpoint": "36805f2139d89232c03f3285f38f6f5d7e2c0c43ea46360113806230d235d818"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+        "document-type": "local-plan",
+        "name": "Net Zero Housing Assessment Tool",
+        "reference": "NZHAT-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/354303/14-mddc-net-zero-housing-assessment-tool-example-accessible.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+        "document-type": "local-plan",
+        "name": "Net Zero Housing Assessment Tool Example",
+        "reference": "NZHAT-EX-2023",
+        "document-status": "adopted",
+        "endpoint": "c24b097ea3958316c56afc30d319d209d5c783a039540ddfc79f4b6b97e7b30d"
+      },
+      {
+        "document-url": "https://www.middevon.gov.uk/media/354633/statement-of-public-participation-interim-climate-policy.pdf",
+        "documentation-url": "https://www.middevon.gov.uk/residents/planning-policy/interim-climate-change-statement/",
+        "document-type": "consultation-statement",
+        "name": "Statement of Participation",
+        "reference": "SOP-2023",
+        "document-status": "adopted",
+        "endpoint": "dd9dda8734629c0c65a234ffaff82437a11553ff1861ee2223b6f10d00f5817c"
+      }
+    ]
+  }
+]

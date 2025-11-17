@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:UTT",
+    "organisation-name": "Uttlesford District Council",
+    "reference": "LP-UTT-2005",
+    "documentation-url": "https://www.uttlesford.gov.uk/local-plan-2005",
+    "document-url": "",
+    "name": "Uttlesford Local Plan 2005",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.uttlesford.gov.uk/local-plan-2005",
+        "document-type": "local-plan",
+        "name": "Uttlesford Local Plan 2005",
+        "reference": "LP-2005",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:UTT",
+    "organisation-name": "Uttlesford District Council",
+    "reference": "LP-UTT-2019",
+    "documentation-url": "https://uttlesford.gov.uk/article/4878/Planning-Policy-and-the-Local-Plan",
+    "document-url": "",
+    "name": "Uttlesford Local Plan 2019 (Draft)",
+    "status": "withdrawn",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://uttlesford.moderngov.co.uk/documents/s17756/Appendix%201%20-%20Inspectors%20Letter.pdf",
+        "documentation-url": "https://uttlesford.gov.uk/article/4878/Planning-Policy-and-the-Local-Plan",
+        "document-type": "inspectors-report",
+        "name": "Inspectors' Letter",
+        "reference": "IR-2020",
+        "document-status": "examination",
+        "endpoint": "902d1a8a8c7945fed4d436d77c228d061fdd863f63389172fce1c83c42073479"
+      },
+      {
+        "document-url": "https://uttlesford.moderngov.co.uk/documents/s17757/Appendix%202%20Uttlesford%20Local%20Plan%20Peer%20Review.pdf",
+        "documentation-url": "https://uttlesford.gov.uk/article/4878/Planning-Policy-and-the-Local-Plan",
+        "document-type": "local-plan",
+        "name": "Uttlesford Local Plan Peer Review",
+        "reference": "LPR-2020",
+        "document-status": "examination",
+        "endpoint": "b3539ab8541bf0787a45e8568ffac9a6f3b471060607ad77d1b2d480d2f56007"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:UTT",
+    "organisation-name": "Uttlesford District Council",
+    "reference": "LP-UTT-2024",
+    "documentation-url": "https://www.uttlesford.gov.uk/new-local-plan",
+    "document-url": "",
+    "name": "New Uttlesford Local Plan",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "organisation": "local-authority:RCC",
+    "organisation-name": "Redcar and Cleveland Borough Council",
+    "reference": "LP-RCC-2018",
+    "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+    "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Adopted%20May%202018.pdf",
+    "name": "Redcar and Cleveland Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Adopted%20May%202018.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan Adopted May 2018",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "eed8ee152b5f4ad22fe610603d0adb37ac3d6cd6d8dca73f8a2467cdfc864988"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "ba4702d0d31a24e3145ea60b19a703a88719af80a930afb43f7e506e465625a6"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/SEA%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "adoption-statement",
+        "name": "SEA Adoption Statement",
+        "reference": "SEA-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "7f3b2f122f2becc82740ca0cc58899457ffece3bbf9fbe0a21504ab645b47d1b"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Policies%20Map%202018%20-%20Map%201.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map 2018 - Map 1",
+        "reference": "PM-2018-1",
+        "document-status": "adopted",
+        "endpoint": "fde18262202ea97204419260fe352ecb93aa5029dd131d3402b69bf51417b1fe"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Policies%20Map%202018%20-%20Map%202.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map 2018 - Map 2",
+        "reference": "PM-2018-2",
+        "document-status": "adopted",
+        "endpoint": "c466b1162310aae4e94d3411dea06c7a7b0ecb8c504567496f0bbac4b3b6e9ac"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Policies%20Map%202018%20-%20Map%203.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map 2018 - Map 3",
+        "reference": "PM-2018-3",
+        "document-status": "adopted",
+        "endpoint": "923b831b05b015583f7fa4c04688f45d5ff2318a276d3ae813712c89e794de2b"
+      },
+      {
+        "document-url": "https://www.redcar-cleveland.gov.uk/sites/default/files/2022-04/Local%20Plan%20Policies%20Map%202018%20-%20Map%204.pdf",
+        "documentation-url": "https://www.redcar-cleveland.gov.uk/planning/local-plan/redcar-and-cleveland-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map 2018 - Map 4",
+        "reference": "PM-2018-4",
+        "document-status": "adopted",
+        "endpoint": "fa30239f46c2b6352f82693b776fbebee2288c6bb1c873b4497eabf36e3957b4"
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "organisation": "local-authority:BBD",
+    "organisation-name": "Blackburn with Darwen Borough Council",
+    "reference": "LP-BBD-2024",
+    "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+    "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Blackburn-with-Darwen-Local-Plan-2021-2037.pdf",
+    "name": "Blackburn with Darwen Local Plan 2021 to 2037",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Blackburn-with-Darwen-Local-Plan-2021-2037.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "local-plan",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037",
+        "reference": "LP-2021-2037",
+        "document-status": "adopted",
+        "endpoint": "cbb719106a2bcd11685bf1a5c1ab891b1cc7dde1eec146d8b1ef5956992ee9ca"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Local-Plan-Policies-Map-Blackburn-Section-1.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "policies-map",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037 Policies Map – Blackburn Section",
+        "reference": "PM-BLACKBURN-2024",
+        "document-status": "adopted",
+        "endpoint": "b2ee88b7894c1e323642bcc377c77624444918fd7071f6974efad664b8d0bdf9"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Local-Plan-Policies-Map-Darwen-Section-1.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "policies-map",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037 Policies Map – Darwen Section",
+        "reference": "PM-DARWEN-2024",
+        "document-status": "adopted",
+        "endpoint": "c948eb6b8daf2e662d9338586af3caf4cd639495447d3bf292fb5ed67431c931"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Local-Plan-Policies-Map-Rural-Section-1.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "policies-map",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037 Policies Map – Rural Section",
+        "reference": "PM-RURAL-2024",
+        "document-status": "adopted",
+        "endpoint": "46916a49a9f899c4f9914ec550a595535060bb2a5ad17db0a593507b47eae6e2"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Blackburn-TC-Inset-Map.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "policies-map",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037 Policies Map - Blackburn Town Centre Inset Map",
+        "reference": "PM-BLACKBURN-TC-2024",
+        "document-status": "adopted",
+        "endpoint": "cc35b6e023a20350ff4840883bd3914e0351d3010dc05e936e6ee97358623cc8"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Darwen-TC-Inset-Map.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "policies-map",
+        "name": "Blackburn with Darwen Local Plan 2021 to 2037 Policies Map - Darwen Town Centre Inset Map",
+        "reference": "PM-DARWEN-TC-2024",
+        "document-status": "adopted",
+        "endpoint": "fa7037c2dac359f1657fdb0ca889487d6e38d327ac299659d84f1d7835e57fcb"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Sustainability-Appraisal-of-the-Blackburn-with-Darwen-Local-Plan.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Blackburn with Darwen Local Plan",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "7f12e65523c444801129a1e7f3ca1489cffb6456641018970b075ae31ebdf70f"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Sustainability-Appraisal-Addendum-Report-1.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "local-plan",
+        "name": "Addendum Report",
+        "reference": "SA-ADDENDUM-2024",
+        "document-status": "adopted",
+        "endpoint": "c0a88cdf34e7c230d40d00104c4eea20fea02257c3469693de74a22e2f8f8d35"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Equality-Impact-Assessment-of-the-Blackburn-with-Darwen-Local-Plan.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment of the Blackburn with Darwen Local Plan",
+        "reference": "EIA-2024",
+        "document-status": "adopted",
+        "endpoint": "7e979e41ca2cfa54250f45d7eda964638e4852d36f669f0440e4357a8c71db43"
+      },
+      {
+        "document-url": "https://blackburn-darwen.org.uk/wp-content/uploads/Adoption-Statement.pdf",
+        "documentation-url": "https://www.blackburn.gov.uk/planning/planning-policies/local-plan-2021-2037",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "d7c05f06c8dcf3c5e6721a28d62691bd25f50a90eb66e436503a03c06e7197c1"
+      }
+    ]
+  }
+]

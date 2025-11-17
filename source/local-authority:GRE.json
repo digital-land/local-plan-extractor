@@ -1,0 +1,25 @@
+[
+  {
+    "organisation": "local-authority:GRE",
+    "organisation-name": "Royal Borough of Greenwich",
+    "reference": "LP-GRE-2021",
+    "documentation-url": "https://www.royalgreenwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+    "document-url": "https://www.royalgreenwich.gov.uk/download/downloads/id/5433/woolwich_exchange_framework_relocation_strategy.pdf",
+    "name": "Woolwich Exchange Framework Relocation Strategy",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.royalgreenwich.gov.uk/download/downloads/id/5433/woolwich_exchange_framework_relocation_strategy.pdf",
+        "documentation-url": "https://www.royalgreenwich.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+        "document-type": "local-plan",
+        "name": "Woolwich Exchange Framework Relocation Strategy",
+        "reference": "LP-WOOLWICH-2021",
+        "document-status": "adopted",
+        "endpoint": "8f4e47c02c6d1e9a2e809b2ef9987b511ec76256893d45def5d3f453c2eda989"
+      }
+    ]
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "organisation": "local-authority:CON",
+    "organisation-name": "Cornwall Council",
+    "reference": "LP-CON-2016",
+    "documentation-url": "https://www.cornwall.gov.uk/localplan",
+    "document-url": "https://www.cornwall.gov.uk/media/ozhj5k0z/adopted-local-plan-strategic-policies-2016.pdf",
+    "name": "Cornwall Local Plan Strategic Policies 2016",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/ozhj5k0z/adopted-local-plan-strategic-policies-2016.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Adopted Cornwall Local Plan Strategic Policies",
+        "reference": "LP-SP-2016",
+        "document-status": "adopted",
+        "endpoint": "1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/2eyh5ode/cornwall-local-plan-community-network-area-sections.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Cornwall Local Plan: Community Network Area Sections",
+        "reference": "LP-CNA-2016",
+        "document-status": "adopted",
+        "endpoint": "926417047411f8dea120bcda137166e24d3f857bf435462564ca2e7f37165754"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/nhrc4nsn/statement-of-adoption.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Statement of Adoption",
+        "reference": "AS-2016",
+        "document-status": "adopted",
+        "endpoint": "2d7b65907c8ba7f51c0d55069e6df62962f10eace724daab13ccb10993ec17ad"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/hvkbdhfn/cornwall-local-plan-sustainability-appraisal-adoption-statement.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Cornwall Local Plan Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2016",
+        "document-status": "adopted",
+        "endpoint": "8761c9715887282055b2c488cba23798f51fccc0e7bbdba30ba48e1bb3b79c14"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/o1ko2so4/cornwall-local-plan-inspector-s-report-23-september.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Cornwall Local Plan Inspector's Report",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "af3bee55d8902bc37e7fe94678cc3e6b4c6c2e52b8c5ff8fb6a9a877a58f008b"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/k23lwvlu/schedule-of-major-modifications-september-2016.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Schedule of Major Modifications",
+        "reference": "MM-2016",
+        "document-status": "adopted",
+        "endpoint": "00e66df7bfbe93e77d90310dc2a6f152373b80c824cd747f98aae432d94ea4c9"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/oxxiqk1v/cornwall-local-plan-2016-saved-policies.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Cornwall Local Plan (2016) Saved Policies",
+        "reference": "LP-SP-SAVED-2016",
+        "document-status": "adopted",
+        "endpoint": "38f89e2dd093b0b26ac74288ed41362e002983957f081fb8d077ebbe5c29d521"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CON",
+    "organisation-name": "Cornwall Council",
+    "reference": "LP-CON-2019",
+    "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+    "document-url": "https://www.cornwall.gov.uk/media/p0ucvkw0/cornwall-site-allocations-development-plan-document.pdf",
+    "name": "Cornwall Site Allocations Development Plan Document",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/p0ucvkw0/cornwall-site-allocations-development-plan-document.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "site-allocations",
+        "name": "Cornwall Site Allocations Development Plan Document",
+        "reference": "SA-DPD-2019",
+        "document-status": "adopted",
+        "endpoint": "2b071e68025ca6687236b5160a89438bba1af2c6390f07cfa7cfbaa0019a3b86"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/g34lnkrg/cornwall-site-aallocations-development-plan-document-adoption-statement.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "adoption-statement",
+        "name": "Statement of Adoption",
+        "reference": "AS-SA-2019",
+        "document-status": "adopted",
+        "endpoint": "0134d0ba7b2c82ae5ef3b46b8b56f80e862aff4589f17a08946d3e9487abeee0"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/mxkcxwdr/cornwall-site-allocations-dpd-inspectors-report.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "local-plan",
+        "name": "Inspectors Report",
+        "reference": "IR-SA-2019",
+        "document-status": "adopted",
+        "endpoint": "eb902abdd24800009e1f711323363ee5f9398aacf3d3c28940917f16ab4ab2d3"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/1c0dykxe/appendix-to-report-on-the-examination-of-the-cornwall-site-allocations-development-plan-document.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "local-plan",
+        "name": "Appendix to Report on the Examination",
+        "reference": "IR-APP-SA-2019",
+        "document-status": "adopted",
+        "endpoint": "dbf7bb063aec23930e65b3fa3e956c70069a6049f3edf1335f29e1d49f3f8b5a"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/o5bnaabt/schedule-of-proposed-main-modifications.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "main-modifications",
+        "name": "Schedule of Proposed Main Modifications",
+        "reference": "MM-SA-2019",
+        "document-status": "adopted",
+        "endpoint": "409e9b2dc0b2109db785104617d8cfcd429b2715324ebf770045aa78eb62ef0f"
+      },
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/zlelnjhc/schedule-of-proposed-minor-modifications.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/cornwall-site-allocations-development-plan-document/",
+        "document-type": "local-plan",
+        "name": "Proposed Minor Modifications",
+        "reference": "MINOR-MOD-SA-2019",
+        "document-status": "adopted",
+        "endpoint": "cf44e4489293590eb8ed8abfa6ba3980cd8ec610bd8028aa4545f31265d2d72e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CON",
+    "organisation-name": "Cornwall Council",
+    "reference": "LP-CON-2023",
+    "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/climate-emergency-development-plan-document/",
+    "document-url": "https://www.cornwall.gov.uk/media/uxgjk4jn/climate-emergency-dpd.pdf",
+    "name": "Climate Emergency Development Plan Document",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.cornwall.gov.uk/media/uxgjk4jn/climate-emergency-dpd.pdf",
+        "documentation-url": "https://www.cornwall.gov.uk/planning-and-building-control/planning-policy/adopted-plans/climate-emergency-development-plan-document/",
+        "document-type": "local-plan",
+        "name": "Climate Emergency Development Plan Document",
+        "reference": "CEDPD-2023",
+        "document-status": "adopted",
+        "endpoint": "6c4c48a488955e2e49fc23c67ae2f6a61e4261a8b37cddc965482ebce0ef258f"
+      }
+    ]
+  }
+]

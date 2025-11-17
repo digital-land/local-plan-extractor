@@ -1,0 +1,219 @@
+[
+  {
+    "organisation": "local-authority:WNM",
+    "organisation-name": "Royal Borough of Windsor and Maidenhead",
+    "reference": "LP-WNM-2022",
+    "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/development-plan/adopted-local-plan",
+    "document-url": "",
+    "name": "Borough Local Plan 2013-2033",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "local-plan",
+        "name": "BLP Adoption SA Statement (2022)",
+        "reference": "LP-2013-2033",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report (2017)",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "local-plan-regulation-19",
+        "name": "SA Regulation 19 Addendum (Jan 18)",
+        "reference": "SA-REG19-2018",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal (SA) Vol 1 of 3 Non-Technical Summary (Oct 19)",
+        "reference": "SA-VOL1-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal (SA) Vol 2 of 3 Main Report (Oct 19)",
+        "reference": "SA-VOL2-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal (SA) Vol 3 of 3 Appendices (Oct 19)",
+        "reference": "SA-VOL3-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum (2021)",
+        "reference": "SA-ADD-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/open-space-study",
+        "document-type": "local-plan",
+        "name": "Open Space Study (2019)",
+        "reference": "OSS-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/strategic-flood-risk-assessment",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "SFRA level 1",
+        "reference": "SFRA-L1-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WNM",
+    "organisation-name": "Royal Borough of Windsor and Maidenhead",
+    "reference": "LP-WNM-2009",
+    "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+    "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_march09_part1_paper.pdf",
+    "name": "LDF Options Paper March 2009",
+    "status": "withdrawn",
+    "year": 2009,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_march09_part1_paper.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Paper March 2009 - Part 1: Chapters 1 to 4",
+        "reference": "LDF-P1-2009",
+        "document-status": "withdrawn",
+        "endpoint": "a2f0f90fb319f53ac0514e37b2f6e6b19795f584d6eff561af09bfc674207f3e"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_march09_part2_paper.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Paper March 2009 - Part 2: Chapters 5 and 6",
+        "reference": "LDF-P2-2009",
+        "document-status": "withdrawn",
+        "endpoint": "cd050444ad86e2b56ebd1d8ebd08b4eb71064e751252be1e8e8a07b01883fb1f"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_jun09_consultation_report.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Consultation: Report of Consultation (June 2009)",
+        "reference": "LDF-CONSULT-2009",
+        "document-status": "withdrawn",
+        "endpoint": "ea2ab70db32a70060f955dfaa92d061faf2012c8a4f740f310bc9d6d18226acb"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_jun09_detailed_consultation_responses_report.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Consultation: Report of Consultation (Detailed Responses) (June 2009)",
+        "reference": "LDF-DETAILED-2009",
+        "document-status": "withdrawn",
+        "endpoint": "39c4c0e1e08f213944990782a907f0390bdf5c3471299e5905c6288d706ab754"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_paper_newsletter.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Paper Summary Newsletter - Pages 1, 2, 5 and 6",
+        "reference": "LDF-NEWS-2009",
+        "document-status": "withdrawn",
+        "endpoint": "362520a1f7e6e68dadf96795cfcae4f8db2bb0d0ded480cf50508e1f66b13b02"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_paper_insert_newsletter.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "local-plan",
+        "name": "LDF Options Paper Summary Newsletter Insert - Pages 3 and 4",
+        "reference": "LDF-INSERT-2009",
+        "document-status": "withdrawn",
+        "endpoint": "63da0b7b294dff4f2a6b1713898778c655e039438a5c0a90fbdfe927be2ee8b6"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_cs_inspectors_report_final.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on Core Strategy and Policies DPD",
+        "reference": "IR-2007",
+        "document-status": "withdrawn",
+        "endpoint": "68a3508b09cba4322dba561e445a357c8f262de817dd50c03ffe260ceb66b602"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_cs_fact_check_document.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on Core Strategy - Fact check Letter",
+        "reference": "IR-FACT-2007",
+        "document-status": "withdrawn",
+        "endpoint": "66b62300990867dbce6a672f2d0fdf8086243fc894252d38e5167e642b78203a"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_cs_press_notice_exam_decision.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on Core Strategy - Press Notice",
+        "reference": "IR-PRESS-2007",
+        "document-status": "withdrawn",
+        "endpoint": "35fd4c591af33a989e8e3fca9719572f49e6a82dcfb076e4715daee485f6065e"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_gose_and_pins_cs_meeting_mintues.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "inspectors-report",
+        "name": "Minutes of meeting with GOSE to discuss the Inspector's Report",
+        "reference": "IR-MINUTES-2007",
+        "document-status": "withdrawn",
+        "endpoint": "63f6ed32b96f5f810a86da1ae8a652bef944ce392e2b3e1f1b256674f708368c"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_consultation_statement_cs_review_scoping_report.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement: Core Strategy DPD and Delivery and Development Principles DPD",
+        "reference": "CS-CONSULT-2008",
+        "document-status": "withdrawn",
+        "endpoint": "1a3ea340610b30b7038bdca7ab9523bd99ccee96f1d7e1c866ece8c4c08fa0a3"
+      },
+      {
+        "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_revised_scoping_cs_ddp_dpds_report.pdf",
+        "documentation-url": "https://www.rbwm.gov.uk/planning-and-building-control/planning-policy/archived-core-strategy",
+        "document-type": "core-strategy",
+        "name": "Revised Scoping Report: Core Strategy DPD and Delivery and Development Principles DPD",
+        "reference": "CS-SCOPE-2008",
+        "document-status": "withdrawn",
+        "endpoint": "282925db47d50a94080551840e012bca48ce7b07f22fde0381ea899312db6a57"
+      }
+    ]
+  }
+]

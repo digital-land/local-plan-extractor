@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:CHS",
+    "organisation-name": "Chesterfield Borough Council",
+    "reference": "LP-CHS-2025",
+    "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+    "document-url": "https://www.chesterfield.gov.uk/media/egxnzkql/local-plan-consultation-pdf-version.pdf",
+    "name": "New Local Plan 2025",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/egxnzkql/local-plan-consultation-pdf-version.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Local Plan consultation information 2025",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "3ddbdbc56fefbc64b9fc65a298535261c99c3098ce127f210a7638d4368d46cd"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/katfdecd/sustainability-appraisal-scoping-report-2025.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal scoping report March 2025",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "0a2834fee3c723434f759fbc9da0bc6bdbf9a73bc0f954ef3c8485cdeb1b1371"
+      },
+      {
+        "document-url": "https://gbr01.safelinks.protection.outlook.com/media/44nejpem/local-development-scheme-12-march-2025.pdf",
+        "documentation-url": "https://gbr01.safelinks.protection.outlook.com/?url=https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/local-development-scheme/&data=05|02|Elaine.McGovern@Chesterfield.gov.uk|6bf9d4927a9147e488dd08dd986b95a7|991e3159c57547ca9c86cdd55f6aec1a|0|0|638834310023382867|Unknown|TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ==|0|||&sdata=oFeGP1zv2g87rBMtPWamySE82FDmPh5hyxYJXw/8yGc=&reserved=0",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme - 12 March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "dbb6c2de35647b8d7cdeeac414a44f9fb7dfc1b38330811938a82ad7374d037c"
+      }
+    ]
+  }
+]

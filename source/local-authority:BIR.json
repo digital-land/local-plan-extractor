@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:BIR",
+    "organisation-name": "Birmingham City Council",
+    "reference": "LP-BIR-2017",
+    "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+    "document-url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+    "name": "Birmingham Development Plan 2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "local-plan",
+        "name": "Adopted Birmingham Development Plan 2031",
+        "reference": "LP-2031",
+        "document-status": "adopted",
+        "endpoint": "23699d938f6a0d10771836fec5e7e10569133d17faa81a3c88f572268061128b"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/5431/final_adoption_statement",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "f34d95e87f70c6baa3d6a9e0901221ec84f3d45cd5abc3eb532aff3deac1a6b8"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/5432/final_revised_sustainability_report_june_2015",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Final Revised Sustainability Report June 2015",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "fa96ec8f40f1a8c9393c318c8b2bc35b228d290bacba640d13e091710eec46c0"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/5438/sa_post_adoption_statement",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-AS-2017",
+        "document-status": "adopted",
+        "endpoint": "12914c7bdb8ea96d90a87252a56812868d906d1cc43a00790dbcf66236194b10"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/5484/birmingham_development_plan_policies_map",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "policies-map",
+        "name": "Birmingham Development Plan Policies Map",
+        "reference": "PM-2017",
+        "document-status": "adopted",
+        "endpoint": "0ec69530a7cadf78a359a86926e36b170b3824b9e751387f5cf2b043f3f8a008"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/downloads/file/10736/green_infrastructure_network",
+        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-type": "green-and-blue-infrastructure",
+        "name": "Green Infrastructure Network Illustration",
+        "reference": "GIN-2017",
+        "document-status": "adopted",
+        "endpoint": "35e2121879014e2a3abe654602ca3ce0acd09efd8b00508f476b5c8d5a1ca684"
+      }
+    ]
+  }
+]

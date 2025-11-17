@@ -1,0 +1,66 @@
+[
+  {
+    "organisation": "local-authority:NYUA",
+    "organisation-name": "North Yorkshire Council",
+    "reference": "LP-NYUA-2025",
+    "documentation-url": "https://www.northyorks.gov.uk/localplan",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-03/Local%20Development%20Scheme%20March%202025%20Final.pdf",
+    "name": "North Yorkshire Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-03/Local%20Development%20Scheme%20March%202025%20Final.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "f30954e7cdbd9ef883f34bec8a6bafeeb8cb55d6f01f83cfec0f8ca2744cec26"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northyorks.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan consultation portal",
+        "reference": "LP-PORTAL-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NYUA",
+    "organisation-name": "North Yorkshire Council",
+    "reference": "LP-NYUA-CONSOLIDATED",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/consolidated-planning-policy-framework-and-schedule-evidence",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-10/NY%20Consolidated%20Planning%20Policy%20Framework%20-%20update%20October%202025.pdf",
+    "name": "North Yorkshire Consolidated Planning Policy Framework",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-10/NY%20Consolidated%20Planning%20Policy%20Framework%20-%20update%20October%202025.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/consolidated-planning-policy-framework-and-schedule-evidence",
+        "document-type": "local-plan",
+        "name": "North Yorkshire Consolidated Planning Policy Framework",
+        "reference": "CPPF-2025",
+        "document-status": "adopted",
+        "endpoint": "9dc9b61d8649e9974dd1a676d9173db76cb9c24cde79bdf3d039358501c649a8"
+      },
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/2023-12/Schedule%20of%20evidence%20base%20for%20North%20Yorkshire%20-%20accessible.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/consolidated-planning-policy-framework-and-schedule-evidence",
+        "document-type": "local-plan",
+        "name": "Schedule of Planning Policy Evidence Base Documents for North Yorkshire",
+        "reference": "SCHED-2023",
+        "document-status": "adopted",
+        "endpoint": "1a5d29fc94892ebe1d961041f1fa9a561be2c687813f0d182a06a025f1fbfb85"
+      }
+    ]
+  }
+]

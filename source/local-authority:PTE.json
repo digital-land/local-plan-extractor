@@ -1,0 +1,197 @@
+[
+  {
+    "organisation": "local-authority:PTE",
+    "organisation-name": "Peterborough City Council",
+    "reference": "LP-PTE-2019",
+    "documentation-url": "https://www.peterborough.gov.uk/localplan",
+    "document-url": "",
+    "name": "Peterborough Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Peterborough Local Plan 24 July 2019",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Local Plan adoption background",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "online version of the Peterborough Policies Map",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Peterborough Policies Map",
+        "reference": "PM-FOLDER-2019",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:PTE",
+    "organisation-name": "Peterborough City Council",
+    "reference": "LP-PTE-2025",
+    "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+    "document-url": "",
+    "name": "Draft Local Plan 2024-2044",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2044,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan 2024-2044",
+        "reference": "LP-DRAFT-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan comments",
+        "reference": "LP-COMMENTS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing and Economic Land Availability Assessment (SHELAA) report (Updated November 2025)",
+        "reference": "SHELAA-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "policies-map",
+        "name": "Interactive Policies Map",
+        "reference": "PM-INTERACTIVE-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing, Economic Land Availability Assessment (SHELAA) (November 2023)",
+        "reference": "SHELAA-2023",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing, Economic Land Availability Assessment (SHELAA) Addendum (October 2024)",
+        "reference": "SHELAA-ADD-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Other Issues and Options stage Local Plan documents",
+        "reference": "LP-OPTIONS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:PTE",
+    "organisation-name": "Peterborough City Council",
+    "reference": "MWLP-PTE-2021",
+    "documentation-url": "https://www.peterborough.gov.uk/localplan",
+    "document-url": "",
+    "name": "Cambridgeshire and Peterborough Minerals and Waste Local Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals and Waste Local Plan Adopted July 2021",
+        "reference": "MWLP-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/localplan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals and Waste Local Plan",
+        "reference": "MWLP-FOLDER-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/minerals-and-local-waste-plan",
+        "document-type": "local-plan",
+        "name": "Examination Library",
+        "reference": "EL-2021",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/minerals-and-local-waste-plan",
+        "document-type": "local-plan",
+        "name": "Primary evidence",
+        "reference": "PE-2021",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/minerals-and-local-waste-plan",
+        "document-type": "local-plan",
+        "name": "Policy evidence reports",
+        "reference": "PER-2021",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.peterborough.gov.uk/council/planning-and-development/planning-policies/minerals-and-local-waste-plan",
+        "document-type": "local-plan",
+        "name": "Secondary evidence",
+        "reference": "SE-2021",
+        "document-status": "examination",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

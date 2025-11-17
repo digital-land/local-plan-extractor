@@ -1,0 +1,264 @@
+[
+  {
+    "organisation": "local-authority:CHL",
+    "organisation-name": "Chelmsford City Council",
+    "reference": "LP-CHL-2020",
+    "documentation-url": "https://www.chelmsford.gov.uk/localplan",
+    "document-url": "https://www.chelmsford.gov.uk/media/id1jmniz/chelmsford-local-plan-may-2020-includes-a1-plans.pdf",
+    "name": "Chelmsford Local Plan 2013-2036",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2013,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/id1jmniz/chelmsford-local-plan-may-2020-includes-a1-plans.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Chelmsford Adopted Local Plan (with maps)",
+        "reference": "LP-2013-2036",
+        "document-status": "adopted",
+        "endpoint": "4c79f7272898b2949c1e653b414f437554756de28020df61b295733e567efa4f"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/fvfjkf0i/chelmsford-adopted-local-plan-may-2020-text-only.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Chelmsford Adopted Local Plan (text only)",
+        "reference": "LP-TEXT-2020",
+        "document-status": "adopted",
+        "endpoint": "2580c50264013f960145622759189a417f039be2baeda78b8df0889fbdb574b4"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/zugbfbud/local-plan-policies-map-legend.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map legend",
+        "reference": "PM-LEGEND-2020",
+        "document-status": "adopted",
+        "endpoint": "6a2af4daba46082fb452c72ee940766eef812baa8683096e6af72c9bb8760983"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHL",
+    "organisation-name": "Chelmsford City Council",
+    "reference": "LP-CHL-2025",
+    "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+    "document-url": "https://www.chelmsford.gov.uk/media/3pomrel4/pre-submission-regulation-19-local-plan-february-2025.pdf",
+    "name": "Chelmsford Local Plan Review 2025-2041",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/3pomrel4/pre-submission-regulation-19-local-plan-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre-Submission Local Plan Consultation Document",
+        "reference": "LP-PRE-SUB-2025",
+        "document-status": "consultation",
+        "endpoint": "5fd5449bf561975ed9cb6fca7840986b54161263a76d09258a8ee0bfcc30d2ae"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/zp0npdwg/pre-submission-integrated-impact-assessment-iia.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Pre-Submission Integrated Impact Assessment (IIA)",
+        "reference": "IIA-2025",
+        "document-status": "consultation",
+        "endpoint": "d2085b20b006738aab3e463ba0f5223d3ed1cd0a0b8d69c3cfeb3d5283640004"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/x1vidmis/issues-and-options-you-said-we-did-feedback-report-may-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan",
+        "name": "Issues and Options 'You Said We Did' Feedback Report",
+        "reference": "FB-IO-2024",
+        "document-status": "consultation",
+        "endpoint": "fb2525b78e15c871edb9da6e65c518920a3d842e7e253f54fb236d65e6c7f60c"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/2prcbcez/preferred-options-you-said-we-did-feedback-report-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options 'You Said We Did' Feedback Report",
+        "reference": "FB-PO-2025",
+        "document-status": "consultation",
+        "endpoint": "05111a115aeddecb33031c5f5d2ac2c68b0752f7967fff6151633d0723cc21f9"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/nvafkrpg/pre-submission-regulation-19-document-feedback-report-july-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre-Submission Regulation 19 Document Feedback Report",
+        "reference": "FB-REG19-2025",
+        "document-status": "consultation",
+        "endpoint": "c31621ce7c9a65cc7460e6f61a1dc8dc9d899c4c94509181ae02fd2b9d4442b0"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/mdwpvowe/pre-submission-regulation-19-integrated-impact-assessment-feedback-report-july-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre-Submission Regulation 19 Integrated Impact Assessment Feedback Report",
+        "reference": "FB-IIA-2025",
+        "document-status": "consultation",
+        "endpoint": "68a0741b81d606c48f0129ac68e5abf78b821fca372b13975e1433b41de8353f"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/t2dd3jvz/pre-submission-topic-paper-climate-change-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Climate Change (February 2025)",
+        "reference": "TP-CC-2025",
+        "document-status": "consultation",
+        "endpoint": "4a92dac26974a4e07007879150753cc11547b08c3615e4b83768f09e9aa752e4"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/jqhc0jcp/pre-submission-topic-paper-employment-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Employment (February 2025)",
+        "reference": "TP-EMP-2025",
+        "document-status": "consultation",
+        "endpoint": "f23193a89eb367f2025ff077f6d546df7e34eb391a2ebc087fc6051be3187e63"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/r2snz3ua/pre-submission-topic-paper-health-and-wellbeing-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Health and Wellbeing (February 2025)",
+        "reference": "TP-HW-2025",
+        "document-status": "consultation",
+        "endpoint": "8ef081d6cd81f57377ae945249844dcb6b44237ba1f2856ca56d483706d4b150"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/xljhv0v0/pre-submission-topic-paper-historic-environment-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Historic Environment (February 2025)",
+        "reference": "TP-HE-2025",
+        "document-status": "consultation",
+        "endpoint": "cddba3cc3350c0020c30ff6acf7eb5eba303ebd882f68655740560955b61a548"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/d0vdy243/pre-submission-topic-paper-housing-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Housing (February 2025)",
+        "reference": "TP-HSG-2025",
+        "document-status": "consultation",
+        "endpoint": "0ca9e29a1ea23d67b375ed85ca45a0a08279a028babf5a8ecba33b5922de94d1"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/jowcxzli/pre-submission-topic-paper-infrastructure-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Infrastructure (February 2025)",
+        "reference": "TP-INF-2025",
+        "document-status": "consultation",
+        "endpoint": "10a4f9acd3eceaa18889b9f3c069deccd7a4d1d9e391bdf1ec225fc6444de4d3"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/bauor352/pre-submission-topic-paper-spatial-strategy-and-strategic-sites-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Spatial Strategy and Strategic Sites (February 2025)",
+        "reference": "TP-SS-2025",
+        "document-status": "consultation",
+        "endpoint": "ad3493176edf72d9f324f4ca330ebf2ca00b9f1b70db048cee36dd590b63185b"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/ivulznlj/pre-submission-topic-paper-transport-february-2025.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre Submission Topic Paper Transport (February 2025)",
+        "reference": "TP-TRA-2025",
+        "document-status": "consultation",
+        "endpoint": "90776c566cb49fc7ade290268427d27457f85a3437207e99d71794c040d14f78"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/51bhsgcp/ah001-chelmsford-strategic-housing-needs-assessment-2023.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "AH001 Chelmsford Strategic Housing Needs Assessment",
+        "reference": "SHMA-2023",
+        "document-status": "consultation",
+        "endpoint": "62638c10d9092d292d157811fe2aaf1ecd01d1d28aad9c1eee02994eb3fc308b"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/efsj0ith/ah002-housing-capacity-in-chelmsford-city-centre-and-urban-area-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-plan",
+        "name": "AH002 Housing Capacity in Chelmsford City Centre and Urban Area 2024",
+        "reference": "HC-2024",
+        "document-status": "consultation",
+        "endpoint": "98998e605e1c89438f3b1809130a11035d5ea46c9ebf87826cd1d9382fb4df31"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/id5pvppk/ah003-chelmsford-gypsy-and-traveller-accommodation-assessment-gtaa-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "AH003 Chelmsford Gypsy and Traveller Accommodation Assessment (GTAA) 2024",
+        "reference": "GTAA-2024",
+        "document-status": "consultation",
+        "endpoint": "733f0404f40b8e5f4e7fcc74b1a450f139cbf870b0b6acfc19d42a0bacce7357"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/e2bfsv3i/ah004-chelmsford-strategic-housing-needs-assessment-addendum-november-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "AH004 Chelmsford Strategic Housing Needs Assessment Addendum (November 2024)",
+        "reference": "SHMA-ADD-2024",
+        "document-status": "consultation",
+        "endpoint": "3e055c5429c33219d8c15aa2cc5799e1a315f097f2f37bdb7fd016abcdcd38d8"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/jnhg5fv0/cc002-water-cycle-study-stage-1-scoping-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "water-cycle-study",
+        "name": "CC002 Water Cycle Study, Scoping 2024",
+        "reference": "WCS-S1-2024",
+        "document-status": "consultation",
+        "endpoint": "d7eeb1add81bf9eddc3f86c000a25d4b6d629bcb5556af941a1d9c6308d29a65"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/pj4b0dg1/cc003-water-cycle-study-stage-2-detailed-study-2024.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "water-cycle-study",
+        "name": "CC003 Water Cycle Study, Stage 2 Detailed Study 2024",
+        "reference": "WCS-S2-2024",
+        "document-status": "consultation",
+        "endpoint": "d9c35f66c10e8f46f755187a4f165a8f5327a3306aa30d6720a22d3ebca1336a"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/oj2kfos0/cc007-a-net-zero-carbon-viability-study-for-essex-summary-report-2022.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "viability-assessment",
+        "name": "CC007-A Net Zero Carbon Viability Study for Essex – Summary report 2022",
+        "reference": "VA-NZ-2022",
+        "document-status": "consultation",
+        "endpoint": "bf36eab379ba05ec99b2bf24e67be18050eefb2368ce465ecbd4bc44f6c09318"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/oblhn4w0/cc007-b-net-zero-carbon-viability-study-for-essex-technical-appendix-2022.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "viability-assessment",
+        "name": "CC007-B Net Zero Carbon Viability Study for Essex – Main report 2022",
+        "reference": "VA-NZ-MAIN-2022",
+        "document-status": "consultation",
+        "endpoint": "3ffa0034a0bf8f0e4d2980736204eb86777e009927b19d8d9d5e6c9fd7d27a93"
+      },
+      {
+        "document-url": "https://www.chelmsford.gov.uk/media/ehzd1alh/chelmsford-local-development-scheme-2025-2028.pdf",
+        "documentation-url": "https://www.chelmsford.gov.uk/new-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Chelmsford Local Development Scheme 2025-2028",
+        "reference": "LDS-2025-2028",
+        "document-status": "adopted",
+        "endpoint": "09a1f0ab6ccdebd476a0f8270aa6d5559d7f0531abc9370d083e953015f395d6"
+      }
+    ]
+  }
+]

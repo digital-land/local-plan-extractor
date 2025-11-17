@@ -1,0 +1,140 @@
+[
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2014",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/2",
+    "document-url": "",
+    "name": "Rotherham Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/2",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2018",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+    "document-url": "",
+    "name": "Sites and Policies Document",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+        "document-type": "site-allocations",
+        "name": "Sites and Policies Document",
+        "reference": "SA-DPD-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2012",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+    "document-url": "",
+    "name": "Barnsley, Doncaster and Rotherham Joint Waste Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Barnsley, Doncaster and Rotherham Joint Waste Plan",
+        "reference": "JWP-2012",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2021",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+    "document-url": "",
+    "name": "Dinnington St John's Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+        "document-type": "neighbourhood-plan",
+        "name": "Dinnington St John's Neighbourhood Plan",
+        "reference": "NP-DSJ-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2022",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+    "document-url": "",
+    "name": "Wickersley Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+        "document-type": "neighbourhood-plan",
+        "name": "Wickersley Neighbourhood Plan",
+        "reference": "NP-WIC-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ROT",
+    "organisation-name": "Rotherham Metropolitan Borough Council",
+    "reference": "LP-ROT-2024",
+    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+    "document-url": "",
+    "name": "Maltby Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/1",
+        "document-type": "neighbourhood-plan",
+        "name": "Maltby Neighbourhood Plan",
+        "reference": "NP-MAL-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "organisation": "local-authority:SHE",
+    "organisation-name": "Folkestone and Hythe Council",
+    "reference": "LP-SHE-2022",
+    "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+    "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3593/core-strategy-review-2022",
+    "name": "Core Strategy Review 2022",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3593/core-strategy-review-2022",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Review 2022",
+        "reference": "CS-2022",
+        "document-status": "adopted",
+        "endpoint": "31927b6918fcacfc4550a43f7820b9ddb4a63f78eb52d31ed4d837844d8f78d1"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1175/core-strategy-review-adoption-statement-2022",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "adoption-statement",
+        "name": "Core Strategy Review Adoption Statement 2022",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "b4ad0530684e8b10f5701229225feca4fd16ad1928875a918ae717277b8e428f"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1179/core-strategy-review-sustainability-appraisal-post-adoption-statement",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "adoption-statement",
+        "name": "Core Strategy Review Sustainability Appraisal Post-Adoption Statement",
+        "reference": "SA-2022",
+        "document-status": "adopted",
+        "endpoint": "d1d1a01da1b58267e4e7481e7acc6cc4e61fe28cb8d517655c9855682b206082"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3887/fhdc-core-strategy-review-inspectors-report-final-february-2022",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "ca6aa21fe45336b391ed8b4c11c2752d54cdd3cf9989e61027391b461c855882"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SHE",
+    "organisation-name": "Folkestone and Hythe Council",
+    "reference": "LP-SHE-2020",
+    "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+    "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3598/places-and-policies-local-plan",
+    "name": "Places and Policies Local Plan",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3598/places-and-policies-local-plan",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "local-plan",
+        "name": "Places and Policies Local Plan",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "9d0e525eed5fea0e97ab30707a559daf5835e8305b969ad6d1ab2d291b84ebfe"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/5823/adoption-statement",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "f6927018a793a702ff7fbd1a7fd71f68cd95cc7b8b07213bb62bddc38d412ac5"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1178/sustainability-appraisal-post-adoption-report",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "accc82b3cb84fb20cac7447f2906e33b36fcc36fa9d1f6c03af771294ad27d63"
+      },
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1176/inspectors-report-june-2020",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "58b3225a3e08942cf4ce341df65ee36c9cf347337c4a97134705757dc52db875"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SHE",
+    "organisation-name": "Folkestone and Hythe Council",
+    "reference": "LP-SHE-2019",
+    "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+    "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1177/st-mary-in-the-marsh-neighbourhood-plan",
+    "name": "The St. Mary in the Marsh Neighbourhood Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/1177/st-mary-in-the-marsh-neighbourhood-plan",
+        "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
+        "document-type": "neighbourhood-plan",
+        "name": "The St. Mary in the Marsh Neighbourhood Plan",
+        "reference": "NP-2019",
+        "document-status": "adopted",
+        "endpoint": "1ce4a70c854b2867b14c89427808f2bdd92efdc767087da69958ad9bc6754aa1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "organisation": "local-authority:WFT",
+    "organisation-name": "London Borough of Waltham Forest",
+    "reference": "LP-WFT-2024",
+    "documentation-url": "https://www.walthamforest.gov.uk/localplan",
+    "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf",
+    "name": "Local Plan Part 1: Shaping the Borough 2020-2035",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2020,
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 1: Shaping the Borough 2020-2035",
+        "reference": "LP-2020-2035",
+        "document-status": "adopted",
+        "endpoint": "6e3a22c00884fce97e87728295a2659d96e29d258a4c08da18ba85d88b57fbae"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_PolicyMap_2024_reduced.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map (February 2024)",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "45b5f827f536d789dc2e3a1bac8eb798f1e6d84286872b0d7d96f636f21f4947"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LP1_AdoptionStatement.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "The Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "8a4c84f92a7886ae45c16e418364d49b1be0842cf91cdc3b2ac4fb22dcf80154"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LP1_SA_Adoption_v2.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "The Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2024",
+        "document-status": "adopted",
+        "endpoint": "caa0546d5b8bdf820b314ad5f5f1e4e3f279f468d48580200fc7f7d8ae98112b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WFT",
+    "organisation-name": "London Borough of Waltham Forest",
+    "reference": "LP-WFT-2022",
+    "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+    "document-url": "",
+    "name": "North London Waste Plan",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-09/Adopted%20North%20London%20Waste%20Plan%20March%202022%20AA.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "local-plan",
+        "name": "Adopted North London Waste Plan (2022)",
+        "reference": "NLWP-2022",
+        "document-status": "adopted",
+        "endpoint": "0fa6649aa1cf33006ba381c30f13c7225652bc5a38b308a41dbbf94b3d70e4af"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2023-01/Adoption%20Statement%20%28website%29%20AA.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-NLWP-2022",
+        "document-status": "adopted",
+        "endpoint": "f38c17db7f982bcb5f24dc18782dd05451567121307451c8d06fd3d0dd6b9335"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2023-01/NLWP-Inspector-Report-Final%20AA.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspectors report",
+        "reference": "IR-NLWP-2022",
+        "document-status": "adopted",
+        "endpoint": "11994c88756f885a2609182a14952434c5da9120e825ef83aa34853db0241322"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/NLWP%20Modifications%20February%202021.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "main-modifications",
+        "name": "Main modifications Feb 2021",
+        "reference": "MM-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "00c13dfb58473a0beb632bd402b8f4a95e86298be3c3eddace97925c4ceba97a"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/NLWP-Main-Mods-Appendix-Final.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Appendix",
+        "reference": "MM-APP-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "f8762c87a7b9f468742883a66342aa1527b5ac1d0bda0ab0384d52780474b888"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/Post-EiP-SA-Addendum-Update-March-2021-final.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal Addendum Report update March 2021",
+        "reference": "SA-ADD-NLWP-2021",
+        "document-status": "examination",
+        "endpoint": "4611a74530680c084db56a875121633b9d097de4efa43022db7ea406a805c667"
+      },
+      {
+        "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2022-03/Sustainability%20Appraisal%20Jan%202019.pdf",
+        "documentation-url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan/north-london-waste-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal, January 2019",
+        "reference": "SA-NLWP-2019",
+        "document-status": "consultation",
+        "endpoint": "d6382871cdbddd1dc2f303a442b38c377352cf020ec861b291f860736c7ead91"
+      }
+    ]
+  }
+]

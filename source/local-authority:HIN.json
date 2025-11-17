@@ -1,0 +1,69 @@
+[
+  {
+    "organisation": "local-authority:HIN",
+    "organisation-name": "Hinckley and Bosworth Borough Council",
+    "reference": "LP-HIN-2018",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
+    "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
+    "name": "Leicester and Leicestershire Strategic Growth Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2050,
+    "documents": [
+      {
+        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
+        "document-type": "local-plan",
+        "name": "Final adopted Strategic Growth Plan",
+        "reference": "LP-2018-2050",
+        "document-status": "adopted",
+        "endpoint": "998cdc681bceef0c745da61b8646247277bac2159d5971532694e80c74cf62a8"
+      },
+      {
+        "document-url": "https://www.llstrategicgrowthplan.org.uk/wp-content/uploads/2024/05/Strategic-Growth-Options-and-Constraints-Mapping-for-LL-Final-Report-August-2023.pdf",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
+        "document-type": "local-plan",
+        "name": "Strategic Growth Options and Constraints Mapping Study",
+        "reference": "SGOCM-2023",
+        "document-status": "adopted",
+        "endpoint": "9947e981fb6ac2dbf3bfb0ac861f65a402168c7483c626ee82a94b7921caf5ab"
+      },
+      {
+        "document-url": "https://www.llstrategicgrowthplan.org.uk/wp-content/uploads/2024/05/Leicester-and-Leicestershire-Strategic-Transport-Assessment-Stage-1-Main-Report-V4.0-Final-with-Appendix.pdf",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
+        "document-type": "transport-assessment",
+        "name": "Strategic Transport Assessment Stage 1",
+        "reference": "STA-2023",
+        "document-status": "adopted",
+        "endpoint": "bcfd130aa5b00331379f06fa6c8d2dd68f59f069bc234de99d251cb9d1c373eb"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HIN",
+    "organisation-name": "Hinckley and Bosworth Borough Council",
+    "reference": "LP-HIN-2026",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/856/local_plan_2006_-_2026",
+    "document-url": "",
+    "name": "Hinckley and Bosworth Local Plan 2006 to 2026",
+    "status": "adopted",
+    "year": 2026,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:HIN",
+    "organisation-name": "Hinckley and Bosworth Borough Council",
+    "reference": "LP-HIN-2024",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200398/Local_plan_review_2020_to_2041",
+    "document-url": "",
+    "name": "Hinckley and Bosworth Local Plan Review 2024 to 2045",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2045,
+    "documents": []
+  }
+]

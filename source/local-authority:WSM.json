@@ -1,0 +1,215 @@
+[
+  {
+    "organisation": "local-authority:WSM",
+    "organisation-name": "City of Westminster",
+    "reference": "LP-WSM-2021",
+    "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+    "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/City%20Plan%202019-2040%20-%20April%202021.pdf",
+    "name": "Westminster City Plan 2019-2040",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2019,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/City%20Plan%202019-2040%20-%20April%202021.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "City Plan 2019-2040",
+        "reference": "LP-2019-2040",
+        "document-status": "adopted",
+        "endpoint": "f081b971e839e455a70f70c6fef2033cfc4b7803ae6ffee60ff71437a27779ea"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/City%20Plan%202019-2040%20Policies%20Map%20-%20April%202021.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Westminster's City Plan 2019-2040 - policies map",
+        "reference": "PM-2019-2040",
+        "document-status": "adopted",
+        "endpoint": "90781d248cc6b757f9695f6237eb80745ac5e3d6232eb6227a37a23fe362314b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WSM",
+    "organisation-name": "City of Westminster",
+    "reference": "LP-WSM-2016",
+    "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+    "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/core_020_-_adopted_westminster_city_plan_2016_0.pdf",
+    "name": "Westminster City Plan 2016",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/core_020_-_adopted_westminster_city_plan_2016_0.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Westminster City Plan 2016",
+        "reference": "LP-2016",
+        "document-status": "withdrawn",
+        "endpoint": "3b61f5fe0e78fb623d8c494ea3e2631c1dd9a7318ebc91f6fa79835cd50c2872"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Strategic%20policies%20map%20for%20City%20Plan.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Strategic policies map for City Plan",
+        "reference": "PM-2016",
+        "document-status": "withdrawn",
+        "endpoint": "118b90da595756bb2cb4cdda5b3e0bb828dde22538cd97ea385b01131d5652d5"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WSM",
+    "organisation-name": "City of Westminster",
+    "reference": "LP-WSM-UDP",
+    "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+    "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/UDP_Introduction.pdf",
+    "name": "Westminster Unitary Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/UDP_Introduction.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Introduction - UDP",
+        "reference": "UDP-INTRO",
+        "document-status": "withdrawn",
+        "endpoint": "8a30a9ddbd7ddf8ada1dd3621045b23a2a5db0e17712de06eccb43cf3402e342"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/udp_part1.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Part 1",
+        "reference": "UDP-PART1",
+        "document-status": "withdrawn",
+        "endpoint": "043be084cb978e98a31b84b391bfe23182c377928a336ce9c9ccfc9d4fec22e4"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%201%20-%20central%20area.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 1 - central area",
+        "reference": "UDP-CH1",
+        "document-status": "withdrawn",
+        "endpoint": "046bbb1b5baeeefc01511644ab4bce747786ef5df32be7994d7bc98d49da39cc"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%202%20-%20commerce%20strikethrough.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 2 - commerce - strikethrough",
+        "reference": "UDP-CH2",
+        "document-status": "withdrawn",
+        "endpoint": "8c35b4a0659ca64326e90a2428a49fb96e442d6fe5c741c2b9848ea848cfc08c"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%203%20-%20housing.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 3 - housing",
+        "reference": "UDP-CH3",
+        "document-status": "withdrawn",
+        "endpoint": "56773b467711eda9e7e730434ba1569d4de8ec7073a50f299875269b0c24ab07"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%2004%20-%20transport.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 04 - transport",
+        "reference": "UDP-CH4",
+        "document-status": "withdrawn",
+        "endpoint": "0c15dc65d925a9a625e88a3921fa6b6b5cfd81437b32d0ef749be4ef547f7dbe"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%205%20-%20policies%20for%20nw%20Westminster.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 5 - policies for NW Westminster",
+        "reference": "UDP-CH5",
+        "document-status": "withdrawn",
+        "endpoint": "364f79e9b395aa3bcf21a72647f2bf1e1618436852560832d9e172fedac43c02"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%206-%20social%20and%20community%20facilities.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 6- social and community facilities",
+        "reference": "UDP-CH6",
+        "document-status": "withdrawn",
+        "endpoint": "ff02a25ec1b4d66f507cc94678874177a4b2622c7d1a2e668360f3cd9d80057c"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%207%20-%20shopping%20and%20services.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 7 - shopping and services",
+        "reference": "UDP-CH7",
+        "document-status": "withdrawn",
+        "endpoint": "d47ca6d9f7749df7710fc553fc66ffe64e0409987b878f721efa3a0d92a5ce9a"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/udpchapter08maps.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 8 - tourism, arts, culture and entertainment maps",
+        "reference": "UDP-CH8",
+        "document-status": "withdrawn",
+        "endpoint": "9f83ec340dfde2657cd2108083ff687b83350c188cf964ddaae16694a2b6e659"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%209%20-%20environment.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 9 - environment",
+        "reference": "UDP-CH9",
+        "document-status": "withdrawn",
+        "endpoint": "97dbbf177cdc72375c152275d6f0c4291bcfd066403c06389c7895264b8b814a"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%2010%20-%20urban%20design%20conservation.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 10 - urban design conservation",
+        "reference": "UDP-CH10",
+        "document-status": "withdrawn",
+        "endpoint": "a2d59d51a56377e5fbc9ecacc1dd21ba08e94f1bb86d65896c17befd507bb09b"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%2011%20-%20River%20Thames.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 11 - River Thames",
+        "reference": "UDP-CH11",
+        "document-status": "withdrawn",
+        "endpoint": "e07475d9a10d756eccb27bce4cbe5cfed9a09b16e4efa4ad51b64f86e64319d3"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/Chapter%2012%20-%20Strategic%20Policies%20Map.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Chapter 12 - Strategic Policies Map",
+        "reference": "UDP-CH12",
+        "document-status": "withdrawn",
+        "endpoint": "bc4a4807d9334c3991b38255728a59a25820d7488ed2390f580791eba061c76b"
+      },
+      {
+        "document-url": "https://www.westminster.gov.uk/sites/default/files/media/documents/UDP%20glossary.pdf",
+        "documentation-url": "https://www.westminster.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "UDP glossary",
+        "reference": "UDP-GLOSSARY",
+        "document-status": "withdrawn",
+        "endpoint": "ee2ed566776b5f954a6b2b9686db05b49bd92803b449c27b741e920808891ff5"
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "organisation": "local-authority:NED",
+    "organisation-name": "North East Derbyshire District Council",
+    "reference": "LP-NED-2021",
+    "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/development-plan",
+    "document-url": "",
+    "name": "North East Derbyshire Local Plan 2014-2034",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2014,
+    "period-end-date": 2034,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/development-plan",
+        "document-type": "local-plan",
+        "name": "Adopted NED Local Plan 2014 - 2034",
+        "reference": "LP-2014-2034",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/development-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA SEA Post Adoption Statement 2021",
+        "reference": "SA-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NED",
+    "organisation-name": "North East Derbyshire District Council",
+    "reference": "LP-NED-2025",
+    "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/local-plan-review",
+    "document-url": "",
+    "name": "Emerging New Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.ne-derbyshire.gov.uk/planning-and-local-plan/planning-policy-and-local-plan/local-plan-review",
+        "document-type": "local-plan",
+        "name": "Issues and Options Document",
+        "reference": "LP-IO-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

@@ -1,0 +1,216 @@
+[
+  {
+    "organisation": "local-authority:WFUA",
+    "organisation-name": "Westmorland and Furness Council",
+    "reference": "LP-WFUA-2024",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/localplan",
+    "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/Westmorland%20and%20Furness%20LDS%20February%202025_2.pdf",
+    "name": "Westmorland and Furness Local Plan",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/Westmorland%20and%20Furness%20LDS%20February%202025_2.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Westmorland and Furness Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "1c4206202b8bf84b869d405cf872902d401619cf3b134d7f4c0e3e0d31999806"
+      },
+      {
+        "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2024-12/IFS%202023-24%20accessible%20version.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Infrastructure Funding Statement 2023 - 2024",
+        "reference": "IFS-2023-24",
+        "document-status": "adopted",
+        "endpoint": "7b145d453d7e76fbd1cd3ba2118c5ac2aac329211e0fe95934d2419fd2b788ff"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/8510/westmorland_and_furness_council_ifs_22-23_web_191223.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Infrastructure Funding Statement 2022 - 2023",
+        "reference": "IFS-2022-23",
+        "document-status": "adopted",
+        "endpoint": "e598ee8f9546d4ce652abf1ede67672b077de8e4478cc7963ab94280da117e1d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WFUA",
+    "organisation-name": "Westmorland and Furness Council",
+    "reference": "LP-WFUA-SL-2019",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning-policy/local-plans-0/south-lakeland-local-plan",
+    "document-url": "",
+    "name": "South Lakeland Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/8180/ifs-2021-22-final.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "South Lakeland Infrastructure Funding Statement 2021-2022",
+        "reference": "IFS-SL-2021-22",
+        "document-status": "adopted",
+        "endpoint": "45c5c3f0faec5d70cb948bea8cd017f7e569044ee5a502bd142beb6321b335d2"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/7778/ifs-2020-21-accessible-clean-version-final.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "South Lakeland Infrastructure Funding Statement 2020-2021",
+        "reference": "IFS-SL-2020-21",
+        "document-status": "adopted",
+        "endpoint": "c2800f5eddb8042eee5901688ab0093e0d275e11ba1b76d7ce288094b8b41809"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/7426/ifs-2019-20-web.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "South Lakeland Infrastructure Funding Statement 2019-2020",
+        "reference": "IFS-SL-2019-20",
+        "document-status": "adopted",
+        "endpoint": "4bf824eeae2dce303bc3a51b46a2ff97b218b58108a00b5f21d1d68e65e07945"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/4287/infrastructure-delivery-plan-august-2017.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan, August 2017",
+        "reference": "IDP-SL-2017",
+        "document-status": "adopted",
+        "endpoint": "11488dcd5ed2fe90c34a6d6628678a1dbfb3e02dbe7d5daba783c6627f5e9f72"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/4288/idp-executive-summary-august-2017.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan Executive Summary, August 2017",
+        "reference": "IDP-ES-SL-2017",
+        "document-status": "adopted",
+        "endpoint": "3e3bb95c3b0198340c9805d53d4db97fe8e7375318e1871b4adfd4cd0e4aabbf"
+      },
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/1458/s-lakeland-report-final.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "CIL Examiner's Report",
+        "reference": "CIL-ER-SL",
+        "document-status": "adopted",
+        "endpoint": "bdfbd7de77970874bcc351fe60cece75363898c9c8af2cc8710368307f7bb49e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WFUA",
+    "organisation-name": "Westmorland and Furness Council",
+    "reference": "LP-WFUA-BR-2018",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning-policy/local-plans-0/barrow-local-plan",
+    "document-url": "",
+    "name": "Barrow Borough Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.barrowbc.gov.uk/sites/default/files/attachment/8890.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Barrow Infrastructure Funding Statement 2019-2020",
+        "reference": "IFS-BR-2019-20",
+        "document-status": "adopted",
+        "endpoint": "657962c64cf974ccf3d0e67e700cef631c3057286bda61570f77e7b92f9c3f0d"
+      },
+      {
+        "document-url": "https://www.barrowbc.gov.uk/sites/default/files/attachment/5982.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan, January 2018",
+        "reference": "IDP-BR-2018",
+        "document-status": "adopted",
+        "endpoint": "bb2b83f5f0abf07af05fe2a2415b458fc7654acdcaf8ce29cbc09b0b32df3599"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WFUA",
+    "organisation-name": "Westmorland and Furness Council",
+    "reference": "LP-WFUA-ED-2017",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning-policy/local-plans-0/eden-local-plan",
+    "document-url": "",
+    "name": "Eden Local Plan",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.eden.gov.uk/media/6398/2021-2022_infrastructure_funding_statement_final.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Eden Infrastructure Funding Statement 2021-2022",
+        "reference": "IFS-ED-2021-22",
+        "document-status": "adopted",
+        "endpoint": "94a47c6f54a48e865299c78e402bb01b37d456092af17c0e1e786b7a7ca93589"
+      },
+      {
+        "document-url": "https://www.eden.gov.uk/media/6358/idp_july_2017.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Eden Local Plan Infrastructure Delivery Plan, June2017",
+        "reference": "IDP-ED-2017",
+        "document-status": "adopted",
+        "endpoint": "a103eac90df7471f11d8756546f8e025897524f34a68e39dad55c466178df9ba"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WFUA",
+    "organisation-name": "Westmorland and Furness Council",
+    "reference": "MWP-WFUA-2015",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/legacy-local-plans/minerals-and-waste-local-plan",
+    "document-url": "",
+    "name": "Cumbria County Council Minerals and Waste Local Plan 2015 to 2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2024-11/Cumbria%20IFS%202021-2022%20FINAL.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Cumbria Infrastructure Funding Statement 2021-2022",
+        "reference": "IFS-CU-2021-22",
+        "document-status": "adopted",
+        "endpoint": "c838e437526510ba4653ff32688d85fb0e334d02d309c4921f3fd05d75dc93f1"
+      },
+      {
+        "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2024-11/Cumbria%20IFS%202020-2021%20FINAL.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Cumbria Infrastructure Funding Statement 2020-2021",
+        "reference": "IFS-CU-2020-21",
+        "document-status": "adopted",
+        "endpoint": "98b979f6f39d2061a1055b070d69a76aed560a702207ec1045a2d5214cbc0cac"
+      },
+      {
+        "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2024-11/Cumbria%20IFS%20Report%202019-2020%20%28Final%29.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/infrastructure-planning-policy-documents",
+        "document-type": "local-plan",
+        "name": "Cumbria Infrastructure Funding Statement 2019-2020",
+        "reference": "IFS-CU-2019-20",
+        "document-status": "adopted",
+        "endpoint": "af19ab7153f2e656035b9ccf3c6d8082c9f3ef69ae5b6c16be46a9de9562c398"
+      }
+    ]
+  }
+]

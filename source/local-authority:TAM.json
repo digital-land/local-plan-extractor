@@ -1,0 +1,120 @@
+[
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-2024",
+    "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+    "document-url": "",
+    "name": "Places for Everyone plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-UDP",
+    "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+    "document-url": "",
+    "name": "Unitary Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+        "document-type": "local-plan",
+        "name": "Unitary Development Plan",
+        "reference": "LP-UDP",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-WASTE",
+    "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+    "document-url": "",
+    "name": "Greater Manchester Joint Waste Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+        "document-type": "local-plan",
+        "name": "Greater Manchester Joint Waste Development Plan",
+        "reference": "LP-WASTE",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-MINERALS",
+    "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+    "document-url": "",
+    "name": "Greater Manchester Joint Minerals Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+        "document-type": "local-plan",
+        "name": "Greater Manchester Joint Minerals Development Plan",
+        "reference": "LP-MINERALS",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-HSP",
+    "documentation-url": "https://www.tameside.gov.uk/strategicplanning",
+    "document-url": "",
+    "name": "Homes, Spaces, Places",
+    "status": "draft",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:TAM",
+    "organisation-name": "Tameside Metropolitan Borough Council",
+    "reference": "LP-TAM-HS-2021",
+    "documentation-url": "https://www.tameside.gov.uk/planning",
+    "document-url": "https://www.tameside.gov.uk/TamesideMBC/media/Planning/2-Housing-Strategy-2021-26-LANDSCAPE-Final-14-02-22.pdf",
+    "name": "Housing Strategy 2021-2026",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2021,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.tameside.gov.uk/TamesideMBC/media/Planning/2-Housing-Strategy-2021-26-LANDSCAPE-Final-14-02-22.pdf",
+        "documentation-url": "https://www.tameside.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Housing Strategy 2021-2026",
+        "reference": "HS-2021-26",
+        "document-status": "adopted",
+        "endpoint": "92a91a8afc9d9b91416856d74104102d1c0bbee8a7822fd8b12d964135744726"
+      }
+    ]
+  }
+]

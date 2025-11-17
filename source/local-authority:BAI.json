@@ -1,0 +1,165 @@
+[
+  {
+    "organisation": "local-authority:BAI",
+    "organisation-name": "Basildon Borough Council",
+    "reference": "LP-BAI-2007",
+    "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+    "document-url": "https://www.basildon.gov.uk/media/598/Basildon-District-Local-Plan-Saved-Policies-September-2007/pdf/Basildon_District_Local_Plan_Saved_Policies_-_September_2007.pdf?m=1540381932580",
+    "name": "Basildon District Local Plan Saved Policies",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.basildon.gov.uk/media/598/Basildon-District-Local-Plan-Saved-Policies-September-2007/pdf/Basildon_District_Local_Plan_Saved_Policies_-_September_2007.pdf?m=1540381932580",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon District Local Plan Saved Policies - September 2007",
+        "reference": "LP-2007",
+        "document-status": "adopted",
+        "endpoint": "110b29340cebd800b4fd21cebec64694197e668f6a43a242d08938009aa939e6"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/12368/Basildon-Council-2025-NPPF-Compliance-Review/pdf/Basildon_Council_-_2025_NPPF_Compliance_Review.pdf?m=1748867938127",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon Council - 2025 NPPF Compliance Review",
+        "reference": "NPPF-2025",
+        "document-status": "adopted",
+        "endpoint": "01a20383dcd2db6ca846a34175f8da875920d9d4a6ca58d3a102831117619d93"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/587/Basildon-District-Local-Plan-1998-Proposals-Map/pdf/Basildon_Council_-_District_Local_Plan_1998_-_Proposals_Map_-_A4.pdf?m=1297770674297",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "policies-map",
+        "name": "Basildon District Local Plan 1998 - Proposals Map",
+        "reference": "PM-1998",
+        "document-status": "adopted",
+        "endpoint": "8a7c28fc7c80275acb32f4ff4007af585778d0192bccc5468e21dfc105d21349"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/588/Basildon-District-Local-Plan-1998-Town-Centre-Inset-Maps/pdf/pdf2983165754373339338.pdf?m=1294138489517",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon District Local Plan 1998 - Town Centre Inset Maps",
+        "reference": "TCI-1998",
+        "document-status": "adopted",
+        "endpoint": "965c88153dddcf62d09ab5cd4376d4f2fc51dd82518cb64357a7d7cbaeeade67"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/589/Basildon-District-Local-Plan-1998-Conservation-Area-Maps/pdf/pdf8408359792273340841.pdf?m=1294138521860",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon District Local Plan 1998 - Conservation Area Maps",
+        "reference": "CAM-1998",
+        "document-status": "adopted",
+        "endpoint": "6c35d2f927a2e97160611cd2a781e6d247f4eb93a7bbffce756e49a654ddfa3b"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/6282/Planning-Obligations-Strategy-July-2015/pdf/Basildon_Council_-_Planning_Obligations_Strategy_-_July_2015.pdf?m=1439554648337",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Planning Obligations Strategy - July 2015",
+        "reference": "POS-2015",
+        "document-status": "adopted",
+        "endpoint": "8bd7cd26cd6a16e92f91a2be894a632b62b51bbf147ccad97a3970ae8df5eb34"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/6279/Billericay-Conservation-Area-Shop-Front-and-Design-Guide-SPD-July-2015/pdf/Basildon_Council_-_Billericay_Conservation_Area_Shop_Front_and_Design_Guide_SPD_-_July_2015.pdf?m=1441708504557",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "urban-design-framework",
+        "name": "Billericay Conservation Area Shop Front and Design Guide SPD - July 2015",
+        "reference": "SPD-BCA-2015",
+        "document-status": "adopted",
+        "endpoint": "287b367326e7ecf8ff0a40f2451b2497a0cba35d5f554e1796119a3556fabfb0"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/5604/Employment-and-Training-the-use-of-local-labour-and-apprenticeship-schemes/pdf/Basildon_Council_-_Employment_and_Training_-_the_use_of_local_labour_and_apprenticeship_schemes.pdf?m=1396970842320",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Employment and Training - the use of Local Labour and Apprenticeship Schemes",
+        "reference": "EMP-2013",
+        "document-status": "adopted",
+        "endpoint": "fc60cb926f5815d642ecca062b55917b680d52f13d69da57e069d2e1f91e13d0"
+      },
+      {
+        "document-url": "http://www.basildonmeetings.info/documents/s48727/12%2013.12.12%20BTC%20Masterplan%20Enc%202.pdf",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon Town Centre Masterplan",
+        "reference": "BTC-2012",
+        "document-status": "adopted",
+        "endpoint": "9543bb8563be3cc023aa1f8a122a0195593d7843291327a53ea5fb8b6d6cc378"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/2183/Parking-Standards-Design-and-Good-Practice-September-2009/pdf/Parking_Standards_2009.pdf?m=1305723467420",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Parking Standards - Design and Good Practice (September 2009)",
+        "reference": "PS-2009",
+        "document-status": "adopted",
+        "endpoint": "e5aac5120c6ac12b73a4be2d26311f60b3a5a059aa5b3018d15074675c09bb7d"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/4478/Basildon-Council-Pitsea-Town-Centre-Masterplan/pdf/Basildon_Council_-_Pitsea_Town_Centre_Masterplan.pdf?m=1360603685963",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Pitsea Town Centre Masterplan 2007",
+        "reference": "PTC-2007",
+        "document-status": "adopted",
+        "endpoint": "1a33dd44ee26c80396c505911cbea093c60857212153e3067136dd3a02bb42be"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/481/Development-Control-Guidelines-amended-March-2022/pdf/DC_Guidelines_Revised_Dec_22_PDF.pdf?m=1670845874390",
+        "documentation-url": "https://www.basildon.gov.uk/adoptedplan",
+        "document-type": "local-plan",
+        "name": "Basildon District Development Control Guidelines 1997 SPG",
+        "reference": "DCG-1997",
+        "document-status": "adopted",
+        "endpoint": "bf87140ec56a865af360661589d0ecef658c70affc07e4586f2f2e488f68a5d4"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BAI",
+    "organisation-name": "Basildon Borough Council",
+    "reference": "LP-BAI-EMERGING",
+    "documentation-url": "https://www.basildon.gov.uk/emerginglocalplan",
+    "document-url": "",
+    "name": "Emerging Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.basildon.gov.uk/media/12610/Basildon-Borough-Council-Local-Development-Scheme-2025-2026/pdf/Basildon_Borough_Council_Local_Development_Scheme_2025-2026.pdf?m=1761645190953",
+        "documentation-url": "https://www.basildon.gov.uk/article/2012/Timetable-and-Consultation-Standards",
+        "document-type": "local-development-scheme",
+        "name": "Basildon Borough Council Local Development Scheme 2025-2026",
+        "reference": "LDS-2025-2026",
+        "document-status": "adopted",
+        "endpoint": "f629e175f831206073612e0716b9a606afee84fabfd776291f84333cfacf5241"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/11701/Basildon-Council-Statement-of-Community-Involvement-Third-Revision-February-2023-Edition/pdf/Basildon_Council_-_Statement_of_Community_Involvement_-_Third_Revision_-_February_2023_Edition.pdf?m=1687341350977",
+        "documentation-url": "https://www.basildon.gov.uk/article/2012/Timetable-and-Consultation-Standards",
+        "document-type": "statement-of-community-involvement",
+        "name": "Basildon Council - Statement of Community Involvement - Third Revision - February 2023 Edition",
+        "reference": "SCI-2023",
+        "document-status": "adopted",
+        "endpoint": "604cdc78c13ccd05f3e07a7bf84c3a9482b70aa4eb0e018b6e52e77f64176577"
+      },
+      {
+        "document-url": "https://www.basildon.gov.uk/media/10501/South-Essex-Authorities-Statement-of-Community-Involvement-Addendum-for-the-South-Essex-Plan-June-2020/pdf/South_Essex_Authorities_-_Statement_of_Community_Involvement_Addendum_for_the_South_Essex_Plan_-_Jun.pdf?m=1618334928270",
+        "documentation-url": "https://www.basildon.gov.uk/article/2012/Timetable-and-Consultation-Standards",
+        "document-type": "statement-of-community-involvement",
+        "name": "South Essex Authorities - Statement of Community Involvement Addendum for the South Essex Plan - June 2020",
+        "reference": "SCI-SEX-2020",
+        "document-status": "adopted",
+        "endpoint": "5458b80fd5b609a365d10ee1e3d5e704c9860b354b81f89a37555e5b2a2f3605"
+      }
+    ]
+  }
+]

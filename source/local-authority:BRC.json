@@ -1,0 +1,147 @@
+[
+  {
+    "organisation": "local-authority:BRC",
+    "organisation-name": "Bracknell Forest Council",
+    "reference": "LP-BRC-2024",
+    "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+    "document-url": "",
+    "name": "Bracknell Forest Local Plan 2024 to 2037",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+        "document-type": "local-plan",
+        "name": "Bracknell Forest Local Plan to 2037",
+        "reference": "LP-2024-2037",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Bracknell Forest Local Plan",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+        "document-type": "local-plan",
+        "name": "Sustainability Appraisal Addendum",
+        "reference": "SA-ADD-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2024-03/statement-of-adoption-of-bracknell-forest-local-plan.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Statement of Adoption of Bracknell Forest Local Plan",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "931d5f116be5826238ffdb9614392c00c6d1f5b55cf52da6af27bc65e7d15713"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2024-03/sustainability-appraisal-post-adoption-statement.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2024",
+        "document-status": "adopted",
+        "endpoint": "784de896ee271de958445db9c558ae0d54c8858c497a588b22e77082bd122423"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BRC",
+    "organisation-name": "Bracknell Forest Council",
+    "reference": "LP-BRC-2013",
+    "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+    "document-url": "",
+    "name": "Site Allocations Local Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Local Plan",
+        "reference": "SA-DPD-2013",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-adoption-statement.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Site Allocations Local Plan Adoption Statement",
+        "reference": "SALP-AS-2013",
+        "document-status": "adopted",
+        "endpoint": "905db1859f053d5f19c997d506f2377cc4df11029aef2f651519b87a7a7571a6"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Site Allocations Local Plan Sustainability Appraisal",
+        "reference": "SALP-SA-2013",
+        "document-status": "adopted",
+        "endpoint": "ed76f466a35b67a3590c99ef3bc86234f88a64d6f7c2588feecb224aa38785e5"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-sa-appendices-v2.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Site Allocations Local Plan Sustainability Appraisal Appendices",
+        "reference": "SALP-SA-APP-2013",
+        "document-status": "adopted",
+        "endpoint": "deda156af9fb8b21f1d1dc8c1bec5241d481e2285967e5035fe01b0a2e04e392"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-sa-non-tech-summary.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Site Allocations Local Plan Sustainability Appraisal Non-technical Summary",
+        "reference": "SALP-SA-NTS-2013",
+        "document-status": "adopted",
+        "endpoint": "0a0cf2052f4752885e4069bb113615112046f96cfbc34a6834a7d4318ab7633b"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-supp-sa.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Site Allocations Local Plan Supplementary Sustainability Appraisal",
+        "reference": "SALP-SA-SUP-2013",
+        "document-status": "adopted",
+        "endpoint": "9f11d80f156b3270b8d28e795d689be0724f3cbf84fa9b66946a870cad62e219"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-sa-post-adoption-statement.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Site Allocations Local Plan Sustainability Appraisal Post-adoption Statement",
+        "reference": "SALP-SA-PAS-2013",
+        "document-status": "adopted",
+        "endpoint": "404ce0b41cc97b3b6d80d94943c9bbcdfd3afa55c7cd30141fe3cd7d091333e6"
+      },
+      {
+        "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-inspectors-report.pdf",
+        "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/site-allocations-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Site Allocations Local Plan Inspector's Report",
+        "reference": "SALP-IR-2013",
+        "document-status": "adopted",
+        "endpoint": "598181032b79c01032fad5d831f6f1c6d7d8dac3144c96e368e09ea538327d73"
+      }
+    ]
+  }
+]

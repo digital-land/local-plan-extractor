@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:BNS",
+    "organisation-name": "Barnsley Metropolitan Borough Council",
+    "reference": "LP-BNS-2019",
+    "documentation-url": "https://www.barnsley.gov.uk/localplan",
+    "document-url": "https://www.barnsley.gov.uk/media/17249/local-plan-adopted.pdf",
+    "name": "Barnsley Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/17249/local-plan-adopted.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "d80968415bbeaf7f03beddb75bab2481471e4d658b2bef4cbe00c0a78b1ef606"
+      },
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/17579/local-plan-adopted-policies-map.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2019",
+        "document-status": "adopted",
+        "endpoint": "0b2adbc956b4db8d441038ce5183ecb3b8ed04cc2cfd75a4d65051dea61a3654"
+      },
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/17019/adoption-statement-jan-19.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "061f2de5f82693dc6c0c10506907a2f614b0bb276743c6b4c9db3556a3c9cf7e"
+      },
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/17924/inspectors-report-and-modifications-appendix.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/localplan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report and its Appendix",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "f043cbcc208d3ffaae1765087a5a5d32bd005433f53cb7844f5617b63448ab81"
+      },
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/qhjbcjxh/2023-24-local-authority-monitoring-report-23102025.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/services/planning-and-buildings/local-planning-and-development/our-local-plan/local-plan-research-and-evidence-documents/",
+        "document-type": "authority-monitoring-report",
+        "name": "Barnsley Local Plan Monitoring Report 2023/24",
+        "reference": "AMR-2024",
+        "document-status": "adopted",
+        "endpoint": "66010f698bda81d816cb964e80dcc6ebcb8009e938e073a5e8904f7263da94d7"
+      },
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/wcspkb2a/authority-monitoring-report-2022-23.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/services/planning-and-buildings/local-planning-and-development/our-local-plan/local-plan-research-and-evidence-documents/",
+        "document-type": "authority-monitoring-report",
+        "name": "Barnsley Local Plan Monitoring Report 2022/23",
+        "reference": "AMR-2023",
+        "document-status": "adopted",
+        "endpoint": "885b3a3e961b745bd23658de8f9f7f85f239c5d8c7b5f9e5c0108780f4987ec1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BNS",
+    "organisation-name": "Barnsley Metropolitan Borough Council",
+    "reference": "LP-BNS-2014",
+    "documentation-url": "https://www.barnsley.gov.uk/planning-policy",
+    "document-url": "https://www.barnsley.gov.uk/media/18273/barnsley-doncaster-and-rotherham-joint-waste-plan.pdf",
+    "name": "Barnsley, Doncaster and Rotherham Joint Waste Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.barnsley.gov.uk/media/18273/barnsley-doncaster-and-rotherham-joint-waste-plan.pdf",
+        "documentation-url": "https://www.barnsley.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Joint Waste Plan",
+        "reference": "JWP-2014",
+        "document-status": "adopted",
+        "endpoint": "35150bf2c05a2eb6ee6f88b3c13779c10e770c0c919fb5b33a309a4bc1f2b086"
+      }
+    ]
+  }
+]

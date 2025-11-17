@@ -1,0 +1,74 @@
+[
+  {
+    "organisation": "local-authority:THE",
+    "organisation-name": "Three Rivers District Council",
+    "reference": "LP-THE-2013",
+    "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/development-plan",
+    "document-url": "",
+    "name": "Three Rivers Development Plan (Current Local Plan)",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://cdn.threerivers.gov.uk/files/2024/12/24377cf0-bee1-11ef-9e6f-23f6ad693d1c-FINAL%20DEC%202024%20LDS.pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (December 2024)",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3200b5a1420adc90fe05c69c10669aff86e6d71b8fe1bbf9643f591159446cc"
+      },
+      {
+        "document-url": "https://cdn.threerivers.gov.uk/files/2024/03/35bcdd60-e1ee-11ee-9ee3-6738b6923b6a-Local%20Development%20Scheme%20March%202024.pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (March 2024)",
+        "reference": "LDS-2024-2",
+        "document-status": "adopted",
+        "endpoint": "e151ed68bd7c95660f3e7b9416f7b6370c47031ae0ece59c21a7365877835572"
+      },
+      {
+        "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/18dd8290-9e91-11ed-8d80-6dc425ce7e94-revised-appendix-1-local-development-scheme-dec-2022%20(1).pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (December 2022)",
+        "reference": "LDS-2022",
+        "document-status": "adopted",
+        "endpoint": "672cb6ed1c04a73b04cd355cedd26f4eb6c90d30412a49f24ab44a25d0be4dc5"
+      },
+      {
+        "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/36730eb0-9e91-11ed-8d80-6dc425ce7e94-local-development-scheme-2022%20(1).pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (February 2022)",
+        "reference": "LDS-2022-2",
+        "document-status": "adopted",
+        "endpoint": "63f80dcf3189f2647a19d5cdd1186d2be807dab739c5e84bc9bb0f407f5b98b0"
+      },
+      {
+        "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/456b4d60-9e91-11ed-8d80-6dc425ce7e94-local-development-scheme-nov-2020%20(1).pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (November 2020)",
+        "reference": "LDS-2020",
+        "document-status": "adopted",
+        "endpoint": "56d8b7df40bc9779da706532d6b2105e982bce4ae861b189ee812f98d720323a"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:THE",
+    "organisation-name": "Three Rivers District Council",
+    "reference": "LP-THE-2025",
+    "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/new-local-plan",
+    "document-url": "",
+    "name": "Three Rivers New Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2041,
+    "documents": []
+  }
+]

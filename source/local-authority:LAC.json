@@ -1,0 +1,133 @@
+[
+  {
+    "organisation": "local-authority:LAC",
+    "organisation-name": "Lancaster City Council",
+    "reference": "LP-LAC-2025",
+    "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+    "document-url": "",
+    "name": "Local Plan Part One: Strategic Policies and Land Allocations (climate emergency review) DPD",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/14308/CELPR_PoliciesMap_District.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map District Wide",
+        "reference": "PM-2025",
+        "document-status": "adopted",
+        "endpoint": "44ed1c58a22ff2e0204ba05a840dceea54dd99c00f970ad874445c8c763c946e"
+      },
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/14309/CELPR_PoliciesMap_Inset_1.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Insert 1 Main Urban Areas",
+        "reference": "PM-INSET1-2025",
+        "document-status": "adopted",
+        "endpoint": "635b43472049c4b0fbdf0637187b055117b29862e7ae17cff88416c41b553410"
+      },
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/14310/CELPR_PoliciesMap_Inset_2_3_4_5.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Insert 2, 3, 4 & 5 (Lancaster City Centre, Carnforth, Morecambe Town Centre and Junction 33)",
+        "reference": "PM-INSET2345-2025",
+        "document-status": "adopted",
+        "endpoint": "ccf8114563b819c3971f94572f8a086972b9669d4ba02aa181ab568b6b8c6de7"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LAC",
+    "organisation-name": "Lancaster City Council",
+    "reference": "LP-LAC-2025-2",
+    "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+    "document-url": "",
+    "name": "Local Plan Part Two: Development Management (climate emergency review) DPD",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/10429/Policies-Map_Rural-Villages.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Rural Villages",
+        "reference": "PM-RURAL-2025",
+        "document-status": "adopted",
+        "endpoint": "c28602eca1e7a7dcf108c4cdf55b51d812ff5402a15c720b733f77a971beb2ed"
+      },
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/10430/Policies-Map_Sustainable-Settlements.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Sustainable Settlements",
+        "reference": "PM-SUSTAINABLE-2025",
+        "document-status": "adopted",
+        "endpoint": "09d8c4db95ad8dc82e0f90f1f5acf5d47e636bbf80f584fa569514d3e55aeb13"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LAC",
+    "organisation-name": "Lancaster City Council",
+    "reference": "LP-LAC-2014",
+    "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+    "document-url": "",
+    "name": "Morecambe Area Action Plan DPD",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:LAC",
+    "organisation-name": "Lancaster City Council",
+    "reference": "LP-LAC-2019",
+    "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+    "document-url": "",
+    "name": "Arnside and Silverdale AONB DPD",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/5090/AS_AONB_AdoptedVersion_March2019_A0P.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "policies-map",
+        "name": "AONB Policies map",
+        "reference": "PM-AONB-2019",
+        "document-status": "adopted",
+        "endpoint": "f2541c5168e831d8699954d12815f432c50179bb6390e65797d8774af633decf"
+      },
+      {
+        "document-url": "https://www.lancaster.gov.uk/assets/attach/5091/AS_AONB_AdoptedVersion_March2019_Mapbook_FinalVersion.pdf",
+        "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/about-local-plan",
+        "document-type": "local-plan",
+        "name": "Inset map book",
+        "reference": "LP-AONB-MAPBOOK-2019",
+        "document-status": "adopted",
+        "endpoint": "14cfd0709ae660db01c7770bfe432eacd435f8ed8fb745dec4fa9d249cd53052"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LAC",
+    "organisation-name": "Lancaster City Council",
+    "reference": "LP-LAC-2025-3",
+    "documentation-url": "https://www.lancaster.gov.uk/planning/planning-policy/local-plan-review",
+    "document-url": "",
+    "name": "New Local Plan for Lancaster District (Full Review)",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

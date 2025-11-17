@@ -1,0 +1,97 @@
+[
+  {
+    "organisation": "local-authority:CHA",
+    "organisation-name": "Charnwood Borough Council",
+    "reference": "LP-CHA-2037",
+    "documentation-url": "https://www.charnwood.gov.uk/localplan",
+    "document-url": "",
+    "name": "Charnwood Local Plan 2021-37",
+    "status": "examination",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_98_schedule_of_further_main_modifications_chp9_infrastructure_delivery_290525/EXAM%2098%20Schedule%20of%20Further%20Main%20Modifications%20%28Chp9%20Infrastructure%20%20Delivery%29%20-%20290525.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/localplan",
+        "document-type": "main-modifications",
+        "name": "Schedule of Further Main Modifications (CHP9 Infrastructure Delivery)",
+        "reference": "MM-2025",
+        "document-status": "examination",
+        "endpoint": "84c8c4fefde7b8169fe5cb873a69dbf66b45115cc299ed3ef57adee087d76f5f"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_99_sustainability_appraisal_addendum_update_note_june_20251/EXAM%2099%20Sustainability%20Appraisal%20Addendum%20Update%20Note%20June%202025.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum Update Note June 2025",
+        "reference": "SA-2025",
+        "document-status": "examination",
+        "endpoint": "a933d4e5b7cec978791a728d87e15881c81fe6e97793d4c839734457af439cfd"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/tracked_changes_version_chp_9_infrastructure_inf1_inf2_and_supporting_text/Tracked%20Changes%20Version%20Chp%209%20Infrastructure%20-%20INF1%2C%20INF2%20%26%20Supporting%20Text.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Tracked Changes Version Chp 9 Infrastructure - INF1, INF2 & Supporting Text",
+        "reference": "LP-2021-TC",
+        "document-status": "examination",
+        "endpoint": "43e830ea85a0b4f79debae938b6301d7460eac77a664e346ee569f41b41e36df"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/policies_map_1_charnwood_local_plan/Policies%20Map%201%20-%20Charnwood%20Local%20Plan.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/localplanmaps",
+        "document-type": "policies-map",
+        "name": "Policies Map 1 - Charnwood Local Plan",
+        "reference": "PM-1-2021",
+        "document-status": "examination",
+        "endpoint": "2f7ff684a3073d0e0a2769f1cf12eeeb332db69fe69e5721c0091c92a05d68a7"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/policies_map_2_charnwood_local_plan/Policies%20Map%202%20-%20Charnwood%20Local%20Plan.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/localplanmaps",
+        "document-type": "policies-map",
+        "name": "Policies Map 2 - Charnwood Local Plan",
+        "reference": "PM-2-2021",
+        "document-status": "examination",
+        "endpoint": "63758fe5e30401d8482f42fdd162f7f30cdd483ec21f09ea3ae81af69b0c3b25"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHA",
+    "organisation-name": "Charnwood Borough Council",
+    "reference": "LP-CHA-2015",
+    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
+    "document-url": "",
+    "name": "Charnwood Local Plan 2011 to 2028 Core Strategy",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "documents": [
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/local_plan_review_n_november_2020/Local%20Plan%20Review%20Final.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review – November 2020",
+        "reference": "LPR-2020",
+        "document-status": "adopted",
+        "endpoint": "8800b1322f33cbbd371fb39adca999bdc5fd7e326889abfb45531b15b046dfa6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHA",
+    "organisation-name": "Charnwood Borough Council",
+    "reference": "LP-CHA-2004",
+    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
+    "document-url": "",
+    "name": "Borough of Charnwood Local Plan (2004) saved policies",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "organisation": "local-authority:NEW",
+    "organisation-name": "New Forest District Council",
+    "reference": "LP-NEW-2020",
+    "documentation-url": "https://www.newforest.gov.uk/article/1510/Local-Plan-2016-2036-part-1-Planning-strategy",
+    "document-url": "https://www.newforest.gov.uk/media/705/Local-Plan-Document-2016-2036/pdf/Local_Plan_2016_2036FINAL_v2.pdf?m=637304853970400000",
+    "name": "Local Plan 2016-2036 Part 1: Planning Strategy",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.newforest.gov.uk/media/705/Local-Plan-Document-2016-2036/pdf/Local_Plan_2016_2036FINAL_v2.pdf?m=637304853970400000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1510/Local-Plan-2016-2036-part-1-Planning-strategy",
+        "document-type": "local-plan",
+        "name": "Local Plan 2016-2036 Part One",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "3a7982257948d747e0b7bfb8641d1e69d2fd6366b32b557595f67b53f8ca9060"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NEW",
+    "organisation-name": "New Forest District Council",
+    "reference": "LP-NEW-2014",
+    "documentation-url": "https://www.newforest.gov.uk/developmentplan",
+    "document-url": "https://www.newforest.gov.uk/media/713/Section-2-Development-Management-Policies/pdf/Section_2_Development_Management_Policies.pdf?m=637298093896870000",
+    "name": "Local Plan Part 2: Sites and Development Management",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.newforest.gov.uk/media/713/Section-2-Development-Management-Policies/pdf/Section_2_Development_Management_Policies.pdf?m=637298093896870000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1682/List-of-all-Development-Plan-policies",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 (2014)",
+        "reference": "LP-DM-2014",
+        "document-status": "adopted",
+        "endpoint": "040ea14c7aff91c917467f52bd946cc618791265b5e7eeef0218ca00ef3177ac"
+      },
+      {
+        "document-url": "https://www.newforest.gov.uk/media/714/Section-3-Site-specific-proposals-Totton-and-the-Waterside/pdf/Section_3_Totton_and_the_Waterside.pdf?m=637298095344200000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1682/List-of-all-Development-Plan-policies",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 - Totton and the Waterside",
+        "reference": "LP-TW-2014",
+        "document-status": "adopted",
+        "endpoint": "5837cd0092e987f2a78760a633f41de303896b86b60084be5c151acddeb734d5"
+      },
+      {
+        "document-url": "https://www.newforest.gov.uk/media/715/Section-4-Site-specific-proposals-The-Coastal-Towns-and-Villages/pdf/Section_4_Coastal_Towns_and_Villages.pdf?m=637298095725570000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1682/List-of-all-Development-Plan-policies",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 - The Coastal Towns and Villages",
+        "reference": "LP-CTV-2014",
+        "document-status": "adopted",
+        "endpoint": "c440eeb6aa5eba348d7d6726e2ce65871f1ec9a97611b15be715d28fbcb400be"
+      },
+      {
+        "document-url": "https://www.newforest.gov.uk/media/716/Section-5-Site-specific-proposals-Ringwood-Fordingbridge-the-Avon-Valley-and-Downlands/pdf/Section_5_Avon_Valley.pdf?m=637298095999270000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1682/List-of-all-Development-Plan-policies",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 - Ringwood, Fordingbridge, the Avon Valley and Downlands",
+        "reference": "LP-AVD-2014",
+        "document-status": "adopted",
+        "endpoint": "90dd5e8a1c9e60f4fc38dbf2c086ff1d88fee4ff2fa327377990311f6a1089b1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NEW",
+    "organisation-name": "New Forest District Council",
+    "reference": "LP-NEW-2009",
+    "documentation-url": "https://www.newforest.gov.uk/article/2808/The-Local-Plan-Part-1-Core-Strategy-2009",
+    "document-url": "https://newforest.gov.uk/media/683/Core-Strategy-2009/pdf/Core_Strategy.pdf?m=637293905608770000",
+    "name": "Local Plan Part 1: Core Strategy 2009",
+    "status": "adopted",
+    "year": 2009,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://newforest.gov.uk/media/683/Core-Strategy-2009/pdf/Core_Strategy.pdf?m=637293905608770000",
+        "documentation-url": "https://www.newforest.gov.uk/article/2808/The-Local-Plan-Part-1-Core-Strategy-2009",
+        "document-type": "core-strategy",
+        "name": "Core Strategy (2009)",
+        "reference": "CS-2009",
+        "document-status": "adopted",
+        "endpoint": "a279f7a1b0d05561bc21514d22c30dff50938ee80933edd9f0144502d2505079"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NEW",
+    "organisation-name": "New Forest District Council",
+    "reference": "LP-NEW-2005",
+    "documentation-url": "https://www.newforest.gov.uk/developmentplan",
+    "document-url": "https://newforest.gov.uk/media/788/-New-Forest-District-Local-Plan-First-Alteration-2005-/pdf/New_Forest_Local_Plan_First_Alteration_2005.pdf?m=637299684625230000",
+    "name": "New Forest District Local Plan First Alteration 2005",
+    "status": "adopted",
+    "year": 2005,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://newforest.gov.uk/media/788/-New-Forest-District-Local-Plan-First-Alteration-2005-/pdf/New_Forest_Local_Plan_First_Alteration_2005.pdf?m=637299684625230000",
+        "documentation-url": "https://www.newforest.gov.uk/article/1682/List-of-all-Development-Plan-policies",
+        "document-type": "local-plan",
+        "name": "New Forest District Local Plan First Alteration (2005)",
+        "reference": "LP-FA-2005",
+        "document-status": "adopted",
+        "endpoint": "541998e2b340e0a86d6fc3a908a9671f53f57409e36345d3b59e2423adc0768c"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "organisation": "local-authority:NWL",
+    "organisation-name": "North West Leicestershire District Council",
+    "reference": "LP-NWL-2017",
+    "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+    "document-url": "",
+    "name": "North West Leicestershire Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan",
+        "name": "North West Leicestershire Local Plan",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Partial Review",
+        "reference": "LPR-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
+        "document-type": "local-plan-review",
+        "name": "Partial Review Examination",
+        "reference": "PRE-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
+        "document-type": "local-plan",
+        "name": "Strategic Housing and Economic Land Availability Assessment",
+        "reference": "SHELAA-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NWL",
+    "organisation-name": "North West Leicestershire District Council",
+    "reference": "LP-NWL-2025",
+    "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+    "document-url": "",
+    "name": "New Local Plan",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan",
+        "name": "New Local Plan",
+        "reference": "NLP-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan",
+        "name": "New Local Plan – progress so far",
+        "reference": "NLP-PROGRESS-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-NLP-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
+        "document-type": "local-plan",
+        "name": "Local Plan Committee",
+        "reference": "LPC-2025",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

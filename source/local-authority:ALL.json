@@ -1,0 +1,184 @@
+[
+  {
+    "organisation": "local-authority:ALL",
+    "organisation-name": "Allerdale Borough Council",
+    "reference": "LP-ALL-2025",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/local-plan",
+    "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Cumberland%20Consolidated%20Planning%20Policy%20Framework%20-%20March%202025.pdf",
+    "name": "Cumberland Consolidated Planning Policy Framework - 2025",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Cumberland%20Consolidated%20Planning%20Policy%20Framework%20-%20March%202025.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Cumberland Consolidated Planning Policy Framework - 2025",
+        "reference": "LP-2025",
+        "document-status": "adopted",
+        "endpoint": "6af3fe9889bb586fa42ebfd860cc05a3b53067844e2942d38673663b3db6f351"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ALL",
+    "organisation-name": "Allerdale Borough Council",
+    "reference": "LP-ALL-2023",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
+    "document-url": "",
+    "name": "Cumberland Local Plan",
+    "status": "regulation-18",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/minerals_and_waste_development_scheme.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme March 2025 to March 2028",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "1fc7d99af15603ead0c10361faa90ec44fbcc13f9c66eb28c32ecc17cae2327c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ALL",
+    "organisation-name": "Allerdale Borough Council",
+    "reference": "LP-ALL-2017",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+    "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/cumbria_minerals_and_waste_local_plan_2015_to_2030.pdf",
+    "name": "Cumbria Minerals and Waste Local Plan 2015 to 2030",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/cumbria_minerals_and_waste_local_plan_2015_to_2030.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Cumbria Minerals and Waste Local Plan 2015 to 2030",
+        "reference": "MW-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "a5128be5db2a52f5395d5b7f32241c62c29e5f3a1a28da43f2ccf4fe86916900"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/policies_map_key_pdf_170kb.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map Key",
+        "reference": "PM-KEY",
+        "document-status": "adopted",
+        "endpoint": "da8e67122e7c45e0ccd7311faed80f4f989315c50a81de6b6b2db7bbdc831a80"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/policies_map_-_part_1-_site_allocations_and_broad_areas_0.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map - Part 1: Site Allocations and Broad Areas",
+        "reference": "PM-PART1",
+        "document-status": "adopted",
+        "endpoint": "fb0f975179aba8e3072ec668fd00ddaa9456cb24cd4f65c8b2d6f135dc28e319"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/policies_map_-_part_1a_-_allerdale_north.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map - Part 1A - Allerdale North",
+        "reference": "PM-1A-ALL-N",
+        "document-status": "adopted",
+        "endpoint": "e28e6500b0478a2fd852ab4e71d77bef94dcba122670024e1297cce11fc03b88"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/policies_map_-_part_1b_-_allerdale_south.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map - Part 1B - Allerdale South",
+        "reference": "PM-1B-ALL-S",
+        "document-status": "adopted",
+        "endpoint": "0c53728730c00f4a568c415a058d58ac4cc124172aecaaa39169a6f5b913d929"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/adoption_statement.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "70b9ac6936387226939c1d9c47a138e071b5da4ccb17254209f4cc15087c9391"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/sustainability_appraisal.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "f0f31ceab3668d840304f9ac7a5982375fe9eccbc9e77226318c8a996b364062"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-06/habitats_regulations_assessment_hra_pdf_5.5mb.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/minerals-and-waste-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment (HRA)",
+        "reference": "HRA-2017",
+        "document-status": "adopted",
+        "endpoint": "cf46bca2c8c74494d75857b18f1a6a0d69647fe37d763015f57b7fd4709d7f61"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COP",
+    "organisation-name": "Copeland Borough Council",
+    "reference": "LP-COP-2023",
+    "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+    "document-url": "https://www.copeland.gov.uk/attachments/copeland-local-plan-document",
+    "name": "Copeland Local Plan 2021-2039",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2021,
+    "period-end-date": 2039,
+    "documents": [
+      {
+        "document-url": "https://www.copeland.gov.uk/attachments/copeland-local-plan-document",
+        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-type": "local-plan",
+        "name": "Copeland Local Plan 2021-2039",
+        "reference": "LP-2021-2039",
+        "document-status": "adopted",
+        "endpoint": "362a19baac80a5f986f0709814d2f88895f69057322cd638839eac2d9faac374"
+      },
+      {
+        "document-url": "https://www.copeland.gov.uk/attachments/local-plan-policies-map-north",
+        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan 2021-2039",
+        "reference": "LP-NORTH",
+        "document-status": "adopted",
+        "endpoint": "4c41a35a41642faa6ac45b9f079b8bb5b2308a9c2afe68981854c1878438d210"
+      },
+      {
+        "document-url": "https://www.copeland.gov.uk/attachments/local-plan-policies-map-south-document",
+        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan 2021-2039 Proposals Map South",
+        "reference": "PM-SOUTH",
+        "document-status": "adopted",
+        "endpoint": "05a85f822e62072b8c0c3c4d36bd0574661d1ac949bdd31a691dea7bd63057bd"
+      },
+      {
+        "document-url": "https://www.copeland.gov.uk/attachments/local-plan-appendices-document",
+        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan 2021-2039 Appendices",
+        "reference": "LP-APPENDICES",
+        "document-status": "adopted",
+        "endpoint": "36cfbbbd431b44ef685ed929187276c8cd2f9ebe4b86a9eeb881430bfc067fad"
+      }
+    ]
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "organisation": "local-authority:LEW",
+    "organisation-name": "London Borough of Lewisham",
+    "reference": "LP-LEW-2025",
+    "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+    "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/local-plan-final-word-copy-for-adoption_150725_final.pdf",
+    "name": "Lewisham Local Plan 2020-2040",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/local-plan-final-word-copy-for-adoption_150725_final.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "main-modifications",
+        "name": "Adopted Lewisham Local Plan 2020-2040 (incorporating main modifications and additional modifications)",
+        "reference": "LP-2020-2040",
+        "document-status": "adopted",
+        "endpoint": "a9c94e0e1e43e71d9ab2363b85a675153d64f0ce1aa505419b7b198c57b99360"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/policies-map.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan policies map",
+        "reference": "PM-2025",
+        "document-status": "adopted",
+        "endpoint": "c90b106873f4d505d8c51f0c9518a52a1f3daf9d40c1681e73065bcc607fa397"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/appendix-a-inspectors-report-final-june-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "local-plan",
+        "name": "Report on the Examination of the Lewisham Local Plan 2020-2040",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "7cdf56b4a7aa604e7561d02b51b80a9a5b7f2cfb6d345de4ea677ac9612df3c5"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/appendix-b-inspectors-report-main-modifications-final-june-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "main-modifications",
+        "name": "Appendix containing the Main Modifications",
+        "reference": "MM-2025",
+        "document-status": "adopted",
+        "endpoint": "97f73ef9b578d2a7a0db480aadd2687f670071b084f6af68be0c74910f3b3825"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/appendix-f-lewisham-local-plan-adoption-statement-july-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Lewisham Local Plan Adoption Statement (July 2025)",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "2cc88cb29d5c10b0b4e7200de9ef7037c206e532e7f1fc21547cc677cee948a2"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/07-iia-adoption-statement-june-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Integrated Impact Assessment Adoption Statement (June 2025)",
+        "reference": "IIA-AS-2025",
+        "document-status": "adopted",
+        "endpoint": "40ebd5026d62d39af46d6e7aa338eb5ef01af6f2c47130f2eaa639120b17b506"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/01-iia-regulation-19-non-technical-summary-december-2022.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "IIA Regulation 19 Non Technical Summary December 2022",
+        "reference": "IIA-NTS-2022",
+        "document-status": "consultation",
+        "endpoint": "6e0d5cd340ee09b244179d0c407c5cd82b4a519376f6eeabf5e07428710dac90"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/02-iia-regulation-19-december-2022.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "IIA Regulation 19 December 2022",
+        "reference": "IIA-REG19-2022",
+        "document-status": "consultation",
+        "endpoint": "ecdf78e63de8701e73defe560ef60cb2b63c172e78824d32ed88a9140711dc04"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/08-hra-regulation-19-december-2022.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Regulation 19 December 2022",
+        "reference": "HRA-REG19-2022",
+        "document-status": "consultation",
+        "endpoint": "1a2ba9e9602e1f8f69753ec5ee2366bde3881192f52d4ceec0f03dc32e12dc1f"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/09-hra-main-modifications-january-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "main-modifications",
+        "name": "HRA Main Modifications January 2025",
+        "reference": "HRA-MM-2025",
+        "document-status": "adopted",
+        "endpoint": "4782c82b9109d5dbb84afc3ef5e586028b32b3c8d4f63f19f8a1a702654a89f4"
+      },
+      {
+        "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/local-plan/local-plan-2020-2040/06-iia-main-modifications-january-2025.pdf",
+        "documentation-url": "https://www.lewisham.gov.uk/myservices/planning/policy/adopted-local-plan/adoption-of-the-local-plan",
+        "document-type": "main-modifications",
+        "name": "IIA Main Modifications January 2025",
+        "reference": "IIA-MM-2025",
+        "document-status": "adopted",
+        "endpoint": "30d2553b8508364e6ba97dd71ea4d567f3f04444f33e09953a8ac124614492cc"
+      }
+    ]
+  }
+]

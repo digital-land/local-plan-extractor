@@ -1,0 +1,189 @@
+[
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "reference": "LP-BUC-2020",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9742/Aylesbury_local_plan_L46JWaT.pdf",
+    "name": "Vale of Aylesbury Local Plan (VALP)",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9742/Aylesbury_local_plan_L46JWaT.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "Vale of Aylesbury Local Plan (VALP)",
+        "reference": "LP-VALP-2020",
+        "document-status": "adopted",
+        "endpoint": "a32f5e06284fc84637c918aae67cb08a9e2f91aa2473baf2c318220cdf5005cb"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10126/VALP_Adoption_Statement_1.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "adoption-statement",
+        "name": "VALP Adoption Statement",
+        "reference": "AS-VALP-2020",
+        "document-status": "adopted",
+        "endpoint": "8274e0104d4cfe7c85f52026b07efa7d6ad88f60dd08845e601bdeaedd7cc6ce"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10127/VALP_Sustainability_Appraisal_Adoption_Statement_1ux5xaG.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "adoption-statement",
+        "name": "VALP Sustainability Appraisal Adoption Statement",
+        "reference": "AS-SA-VALP-2020",
+        "document-status": "adopted",
+        "endpoint": "04db724e033fa45b0648885d1675cf510fd27f2e1a8825c079e3537a855b1eae"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10149/ED246_Proposed_Further_Main_Modifications_Sustainability_Appraisal_Addendum_Yu4YYlT.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "sustainability-appraisal",
+        "name": "VALP Sustainability Appraisal Report Addendum",
+        "reference": "SA-VALP-2020",
+        "document-status": "adopted",
+        "endpoint": "45919fb8cebe6ca195dbf2df166942a768220c18d87514e74a45feef1815eb78"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "reference": "LP-BUC-CHILTERN",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9745/Chiltern_local_plan_sNdNTQD.pdf",
+    "name": "Chiltern Local Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9745/Chiltern_local_plan_sNdNTQD.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "Chiltern Local Plan",
+        "reference": "LP-CHILTERN",
+        "document-status": "adopted",
+        "endpoint": "7241708940c5a6aaae5a7df0b4c88c06cb37705e1d0f3c4a7813cc3a836fc99f"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/36686/Core_Startegy_Final_Web_Version_2012_aCjnMQz.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "core-strategy",
+        "name": "Chiltern Core Strategy",
+        "reference": "CS-CHILTERN-2012",
+        "document-status": "adopted",
+        "endpoint": "8519ae753ce60811ba8ed149352876d3ea668bc01ad91d9d7dad32470d76d234"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "reference": "LP-BUC-SOUTHBUCKS",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9734/South_Bucks_local_plan_j4D6YG4.pdf",
+    "name": "South Bucks Local Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9734/South_Bucks_local_plan_j4D6YG4.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "South Bucks Local Plan",
+        "reference": "LP-SOUTHBUCKS",
+        "document-status": "adopted",
+        "endpoint": "9f5250e123584dbe81d801cd229f819f412e4d1fa02d9f1ae7b244f056ffd11c"
+      },
+      {
+        "document-url": "https://media.buckinghamshire.gov.uk/documents/South_Bucks_Core_Strategy_-_Adopted_February_2011_bb48FA7.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "core-strategy",
+        "name": "South Bucks Core Strategy",
+        "reference": "CS-SOUTHBUCKS-2011",
+        "document-status": "adopted",
+        "endpoint": "0cd4141382993ae92416c620a376124d0c4c5586a8198b5a8045426075ffab76"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "reference": "LP-BUC-WYCOMBE-2019",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9736/Wycombe-District-Local-Plan-Adopted-August-2019-accessible.pdf",
+    "name": "Wycombe District Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9736/Wycombe-District-Local-Plan-Adopted-August-2019-accessible.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "Wycombe District Local Plan",
+        "reference": "LP-WYCOMBE-2019",
+        "document-status": "adopted",
+        "endpoint": "9de5f6b53d6ad29262fc0f4f39ce41a9fc85ee02d518637615427db5cc85423b"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9724/Wycombe-District-Local-Plan-Errata-eh4566I-accessible.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "local-plan",
+        "name": "Wycombe District Local Plan Errata",
+        "reference": "LP-WYCOMBE-ERRATA",
+        "document-status": "adopted",
+        "endpoint": "55f55faa4e6ace4608f789dfdab4c5385af8f42423feafbc2d65c5546940df83"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9729/Adopted-delivery-and-site-allocations-plan_kf70Oeo.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "site-allocations",
+        "name": "Adopted Delivery and Site Allocations Plan",
+        "reference": "SA-DPD-WYCOMBE",
+        "document-status": "adopted",
+        "endpoint": "9f633dce7500ba2af64f29f158e807386bef801cdcbe8e37c5c9d6571d56aae5"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/10572/Erratum.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "site-allocations",
+        "name": "Adopted Delivery and Site Allocations Errata",
+        "reference": "SA-DPD-ERRATA",
+        "document-status": "adopted",
+        "endpoint": "d289c4c7c4f5b4f4c17d52dd7a656505a7be09a48d0466150457617c73a5d69c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUC",
+    "organisation-name": "Buckinghamshire Council",
+    "reference": "LP-BUC-MINERALS-2016",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/9727/buckinghamshire-minerals-and-waste-local-plan-2016-2036_yiYUGSb.pdf",
+    "name": "Buckinghamshire Minerals and Waste Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/9727/buckinghamshire-minerals-and-waste-local-plan-2016-2036_yiYUGSb.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Buckinghamshire Minerals and Waste Local Plan 2016-2036",
+        "reference": "MWLP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "89ac76fd1d695aa2aaa4126968a38c2da64a1b23bedf91b4a131ba7d3058976b"
+      }
+    ]
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "organisation": "local-authority:CRY",
+    "organisation-name": "London Borough of Croydon",
+    "reference": "LP-CRY-2018",
+    "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+    "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Regeneration/Croydon_Local_Plan_2018.pdf",
+    "name": "Croydon Local Plan 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Regeneration/Croydon_Local_Plan_2018.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "local-plan",
+        "name": "Croydon Local Plan 2018",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "fe126a2baf46c206237c8f7d7a41b02fcb49f5fee6158eea06774c87ec02956a"
+      },
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/2022-01/croydon-local-plan-2018-adoption-statement.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "adoption-statement",
+        "name": "Croydon Local Plan 2018 Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "5b0d1c1cd619bee999d3032bddaa680bc4f2ca4b821499ea1095d48374565302"
+      },
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/2022-01/inspectors-report-on-the-croydon-local-plan.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on the Croydon Local Plan",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "954c05f1c47d72ebfb305c624d57b81eede70c315e6d1c7334fcf564f6bbd131"
+      },
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/2022-01/policies-map-croydon-opportunity-area-inset.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "policies-map",
+        "name": "Policies Map - Croydon Opportunity Area Inset",
+        "reference": "PM-COA-2018",
+        "document-status": "adopted",
+        "endpoint": "4b2e839a9f4bfae06c0f275f3cd59af6ab126cf1831e76fed29e9ddb6d51c875"
+      },
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/2022-01/policies-map-north-sheet.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "policies-map",
+        "name": "Policies Map - North Sheet",
+        "reference": "PM-NORTH-2018",
+        "document-status": "adopted",
+        "endpoint": "65df033288810abe4ce050a4b2fa9d668f73a6311214ad6d7424bff9989c70b4"
+      },
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/2022-01/policies-map-south-sheet.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "policies-map",
+        "name": "Policies Map - South Sheet",
+        "reference": "PM-SOUTH-2018",
+        "document-status": "adopted",
+        "endpoint": "c68e01fa82ffb8cc7f1624f103c17d0a79904bb6dfb319029268093149bcd80d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CRY",
+    "organisation-name": "London Borough of Croydon",
+    "reference": "LP-CRY-2012",
+    "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+    "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Adopted_SLWP_2012.pdf",
+    "name": "South London Waste Development Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Adopted_SLWP_2012.pdf",
+        "documentation-url": "https://www.croydon.gov.uk/planning-and-regeneration/planning-policy/croydons-development-plan/local-plan-2018",
+        "document-type": "minerals-and-waste-plan",
+        "name": "South London Waste Development Plan",
+        "reference": "SLWP-2012",
+        "document-status": "adopted",
+        "endpoint": "58b53c306f7db93a41eddfbf77338b1c64066af1ab63783ad3cfe2a00367367c"
+      }
+    ]
+  }
+]

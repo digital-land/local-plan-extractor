@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:ISL",
+    "organisation-name": "London Borough of Islington",
+    "reference": "LP-ISL-2023",
+    "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+    "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-strategic-and-development-management-policies.pdf?la=en&hash=87580E35EA21B2221918960F570CD1CC3CEFFE6B",
+    "name": "Islington Local Plan",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-strategic-and-development-management-policies.pdf?la=en&hash=87580E35EA21B2221918960F570CD1CC3CEFFE6B",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "development-management-policies",
+        "name": "Strategic and Development Management policies",
+        "reference": "LP-SDMP-2023",
+        "document-status": "adopted",
+        "endpoint": "3f40f4a8285f0bb922ae7e409accbc374b40abdddc8fbed1df5c654c592d8b4c"
+      },
+      {
+        "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-site-allocations.pdf?la=en&hash=98007803BDD179C372CCFA9529DB4A764896AD48",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "site-allocations",
+        "name": "Site Allocations",
+        "reference": "SA-DPD-2023",
+        "document-status": "adopted",
+        "endpoint": "6c989b10eedb1481f834675e66f1984d9b37634a8e38144c3870ebfb44a8f8fa"
+      },
+      {
+        "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-bunhill-and-clerkenwell-area-action-plan.pdf?la=en&hash=5C0A108521E44C81CF01CA6F63761E8196892278",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "area-action-plan",
+        "name": "Bunhill and Clerkenwell Area Action Plan",
+        "reference": "AAP-BC-2023",
+        "document-status": "adopted",
+        "endpoint": "d5147fce271e954127b185bc63a5a465e2986084a0f6e9978ddda0d09aaa8f37"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/information/adviceandinformation/20172018/20170602statementofcommunityinvolvement20171.pdf?la=en&hash=7D52065F1C15438953504B7AEDAE579814CBC3B7",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of community involvement",
+        "reference": "SCI-2017",
+        "document-status": "adopted",
+        "endpoint": "851752fee219ff6d9f46ba220c72679a03e73b333121d5db06d9f430aa0b9c47"
+      },
+      {
+        "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20252026/islington-local-development-scheme-2025.pdf?la=en&hash=44FEE48BE761FBE8C35730B0575CEDA0D48EF6E2",
+        "documentation-url": "https://www.islington.gov.uk/planning/planning-policy/islington-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "5c977467bf355c7b54a2804616ad61afd34f801795e3abf68220127a45cec4a4"
+      }
+    ]
+  }
+]

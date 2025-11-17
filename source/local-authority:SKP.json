@@ -1,0 +1,61 @@
+[
+  {
+    "organisation": "local-authority:SKP",
+    "organisation-name": "Stockport Metropolitan Borough Council",
+    "reference": "LP-SKP-2024",
+    "documentation-url": "https://www.stockport.gov.uk/localplan",
+    "document-url": "https://live-iag-static-assets.s3.eu-west-1.amazonaws.com/pdf/Local+Plan+evidence/LocalPlan.pdf",
+    "name": "Stockport Local Plan",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2042,
+    "documents": [
+      {
+        "document-url": "https://live-iag-static-assets.s3.eu-west-1.amazonaws.com/pdf/Local+Plan+evidence/LocalPlan.pdf",
+        "documentation-url": "https://localplan.stockport.gov.uk/",
+        "document-type": "local-plan",
+        "name": "The Stockport Local Plan",
+        "reference": "LP-2024",
+        "document-status": "consultation",
+        "endpoint": "4d77a25a37b6c3fe023a1558ebe689a4862603882481aef60650634de8d44254"
+      },
+      {
+        "document-url": "https://democracy.stockport.gov.uk/documents/s255022/Appendix%201%20-%20Local%20Plan.pdf",
+        "documentation-url": "https://www.stockport.gov.uk/news/preparing-for-stockports-future-draft-local-plan-consultation-opens-tomorrow",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan",
+        "reference": "LP-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "880f6ec4acebd34e435677a82582747ce766952f81fd911cff2e53ce08d1f52c"
+      },
+      {
+        "document-url": "https://live-iag-static-assets.s3.eu-west-1.amazonaws.com/pdf/Local+Plan+evidence/251002+Addressing+development+needs+paper.pdf",
+        "documentation-url": "https://www.stockport.gov.uk/local-plan-core-documents",
+        "document-type": "local-plan",
+        "name": "Topic Paper: Addressing our development needs",
+        "reference": "TP-ADN-2024",
+        "document-status": "consultation",
+        "endpoint": "35d6b6653ef6000d2a1d789d7f7edf29f1a353c09e54d0a54ce37802104eef77"
+      },
+      {
+        "document-url": "https://live-iag-static-assets.s3.eu-west-1.amazonaws.com/pdf/Local+Plan+evidence/251104+Integrated+Sustainablity+Appraisal.pdf",
+        "documentation-url": "https://www.stockport.gov.uk/local-plan-core-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Integrated Sustainability Appraisal",
+        "reference": "SA-2024",
+        "document-status": "consultation",
+        "endpoint": "f02cd584aa0f1f927cb4c3db59727057c514daec69332d0291380e5717d1c9ca"
+      },
+      {
+        "document-url": "https://live-iag-static-assets.s3.eu-west-1.amazonaws.com/pdf/Local+Plan+evidence/251104+Habitats+Regulations+Assessment.pdf",
+        "documentation-url": "https://www.stockport.gov.uk/local-plan-core-documents",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment",
+        "reference": "HRA-2024",
+        "document-status": "consultation",
+        "endpoint": "811f4bc09eebb76b42de6f00c1f570e3de5e88e7c76c63c7076c30512192da97"
+      }
+    ]
+  }
+]

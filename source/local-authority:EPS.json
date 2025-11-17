@@ -1,0 +1,151 @@
+[
+  {
+    "organisation": "local-authority:EPS",
+    "organisation-name": "Epsom and Ewell Borough Council",
+    "reference": "LP-EPS-2025",
+    "documentation-url": "https://www.epsom-ewell.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Epsom and Ewell Local Plan 2022-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2022,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/SD08%20Statement%20of%20Fact%20Submission.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Submission Statement of Fact",
+        "reference": "LP-SUBMISSION-2025",
+        "document-status": "examination",
+        "endpoint": "ae48c9854369af20a6a947e86c626caf17e595497dca22356657a81a7b269361"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/Consultation%20Statement%20-%20Summary%20of%20responses%20received%20at%20Reg18.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/local-plan-faqs",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement - Summary of responses received at Reg18",
+        "reference": "CS-REG18-2024",
+        "document-status": "examination",
+        "endpoint": "32657f59f44f9965fad56520a88c80ba0067e6aad83c970ff6ca6123018668b3"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/Epsom%20and%20Ewell%20Local%20Plan%20Examination%20Index4%2019.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/localplanexamination",
+        "document-type": "examination-hearing-statement",
+        "name": "Examination Documents Index",
+        "reference": "EXAM-INDEX-2025",
+        "document-status": "examination",
+        "endpoint": "c66b858ed5fe1df0958db760724a85682389f525e6a42dbee7e9422df6def2ef"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/ID-002%20E%26E%20%20Guidance%20notesv1.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/localplanexamination",
+        "document-type": "examination-hearing-statement",
+        "name": "Guidance Notes from the Inspector (ID-002)",
+        "reference": "EXAM-GUIDANCE-2025",
+        "document-status": "examination",
+        "endpoint": "6511dbf91fe4a5beccb1950b561c00910b5f0445758e8f00ab126f2cbbf42f96"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/ID-003%20E%26E%20MIQ%20final.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/localplanexamination",
+        "document-type": "examination-hearing-statement",
+        "name": "Matters, Issues and Questions (ID-003)",
+        "reference": "EXAM-MIQ-2025",
+        "document-status": "examination",
+        "endpoint": "6946e230a33a79602aab4f62f591763b149893dc729b303f178541271a277557"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/ID-018%20E%26E%20post%20hearing%20letter.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/localplanexamination",
+        "document-type": "examination-hearing-statement",
+        "name": "Post hearing letter from the inspector (ID-018)",
+        "reference": "EXAM-POST-HEARING-2025",
+        "document-status": "examination",
+        "endpoint": "f56f1cccf0238e91aeb072dee157631b5c978279befe3592197e4c4b40ae8d3b"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/EE%20HEDNA_%20Final%20Version_V2.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/evidence-1",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Housing and Economic Development Needs Assessment 2023",
+        "reference": "HEDNA-2023",
+        "document-status": "examination",
+        "endpoint": "bf9643948d3d238810b86b6389abda77d21b12eb00bf0df88809aef2b6f99036"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/evidence-base/Viability%20Note%20-%20Proposed%20Submission%20Local%20Plan%20-%20December%202024.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/evidence-1",
+        "document-type": "viability-assessment",
+        "name": "Viability Note - Proposed Submission Local Plan - December 2024",
+        "reference": "VA-2024",
+        "document-status": "examination",
+        "endpoint": "998bafa98c54ab4025d67e8eefce45714eb77d3eb7bd9c3ce939161f6cc49103"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/Local%20Plan%20Viability%20Assessment%202022.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/evidence-1",
+        "document-type": "viability-assessment",
+        "name": "Local Plan Viability Assessment 2022",
+        "reference": "VA-2022",
+        "document-status": "examination",
+        "endpoint": "29ae9e01f37d3f4116e3a7bf7d9a8ff0b47a682a86eefbd493ca783b6afb4795"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/Topic-papers/Economy%20Topic%20Paper%20-%202024.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "local-plan",
+        "name": "Economy Topic Paper 2024",
+        "reference": "TP-ECONOMY-2024",
+        "document-status": "examination",
+        "endpoint": "b61cff0f1e8484e94653b48667861d335064c1761c1e913a914e8fbd008dca2d"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/Topic-papers/Green%20Belt%20Topic%20Paper%20-%20Exceptional%20Circumstances%20-%202024.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "local-plan",
+        "name": "Green Belt Topic Paper Exceptional Circumstances 2024",
+        "reference": "TP-GREENBELT-2024",
+        "document-status": "examination",
+        "endpoint": "3831fe8b12e30c149ffd895e7d7860ad536c67028e44e3600884ce631b3044fa"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/Topic-papers/Housing%20Topic%20Paper%20-%202024.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "local-plan",
+        "name": "Housing Topic Paper 2024",
+        "reference": "TP-HOUSING-2024",
+        "document-status": "examination",
+        "endpoint": "17456ed913d1700d33d80a4805328e7a201370af77dc20e4ad11ec55e1d87997"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/epsom-and-ewell-local-plan/draft-local-plan-2022-2040/Topic-papers/Meeting%20Gypsy%20and%20Traveller%20Needs%20-%20Topic%20Paper%20-%202024.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Meeting Gypsy and Traveller Needs Topic Paper 2024",
+        "reference": "TP-GYPSY-2024",
+        "document-status": "examination",
+        "endpoint": "80861ff88fb4daf12cbecdc83d0b1932d8a218fdd3ed1a41063ec76d2fd6baed"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/Heritage%20Topic%20Paper%20-%20March%202025_Copy.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "local-plan",
+        "name": "Heritage Topic Paper 2025",
+        "reference": "TP-HERITAGE-2025",
+        "document-status": "examination",
+        "endpoint": "4cd52de4b74303fab3cc157d4d39cf2ccde5f6ed44a616420301720bf8d11873"
+      },
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/Spatial%20Strategy%20Topic%20Paper%20-%20March%202025_Copy.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan/emerging-local-plan-2022-2040/topic",
+        "document-type": "local-plan",
+        "name": "Spatial Strategy Topic Paper 2025",
+        "reference": "TP-SPATIAL-2025",
+        "document-status": "examination",
+        "endpoint": "065f1cc2e5efe345a47b83183c2238f42e3c492b7a64a38a5df12afd69951b8b"
+      }
+    ]
+  }
+]

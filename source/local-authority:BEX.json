@@ -1,0 +1,70 @@
+[
+  {
+    "organisation": "local-authority:BEX",
+    "organisation-name": "London Borough of Bexley",
+    "reference": "LP-BEX-2023",
+    "documentation-url": "https://www.bexley.gov.uk/local-plan",
+    "document-url": "https://www.bexley.gov.uk/sites/default/files/2023-07/bexley-local-plan-adopted-26-april-2023.pdf",
+    "name": "Bexley Local Plan",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.bexley.gov.uk/sites/default/files/2023-07/bexley-local-plan-adopted-26-april-2023.pdf",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Bexley Local Plan",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "d6cdabc493de1fc7e88a75ad275f01bd46d2ac17afcfd51eba05f7d889d307e4"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "Bexley Local Plan Policies Map",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.bexley.gov.uk/sites/default/files/2022-01/SD21-infrastructure-delivery-plan-IDP.pdf",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan",
+        "reference": "IDP-2022",
+        "document-status": "adopted",
+        "endpoint": "fd7e2e6a072a02037030696d983491f4546a1a197ccf40a9069c1119857dcf74"
+      },
+      {
+        "document-url": "https://www.bexley.gov.uk/sites/default/files/2023-06/bexley-local-plan-iia-post-adoption-statement.pdf",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Bexley Local Plan IIA Post Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "c102047f7d0d565aa9452bef06690dca7fa40d002a1e955550be3fdfd7dcd94a"
+      },
+      {
+        "document-url": "https://www.bexley.gov.uk/sites/default/files/2025-03/bexley-local-development-scheme-march-2025.pdf",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Bexley Local Development Scheme 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "cb3b87809e91017e04ff45d3995f2f17204fc600d7350cdc192d3eb374806acb"
+      },
+      {
+        "document-url": "https://www.bexley.gov.uk/sites/default/files/2023-02/Statement-of-Community-Involvement-to-reflect-removal-of-covid-19-amendments-december-2022.pdf",
+        "documentation-url": "https://www.bexley.gov.uk/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2022",
+        "document-status": "adopted",
+        "endpoint": "af79582ebcad6e23bb84edb1232c118466f52d10d173584260e4f84206a56038"
+      }
+    ]
+  }
+]

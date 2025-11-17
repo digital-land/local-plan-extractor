@@ -1,0 +1,160 @@
+{
+  "comment": "Mapping of local planning authorities that share joint local plans on shared websites",
+  "joint-plans": {
+    "local-authority:BOT": {
+      "name": "Boston Borough Council",
+      "joint-plan-name": "South East Lincolnshire Local Plan",
+      "joint-plan-authorities": ["local-authority:BOT", "local-authority:SHO"],
+      "joint-plan-website": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+      "notes": "Shares local plan with South Holland. Note: Lincolnshire County is not an LPA for planning purposes."
+    },
+    "local-authority:SHO": {
+      "name": "South Holland District Council",
+      "joint-plan-name": "South East Lincolnshire Local Plan",
+      "joint-plan-authorities": ["local-authority:BOT", "local-authority:SHO"],
+      "joint-plan-website": "https://southeastlincslocalplan.org/article/20102/Adopted-Plan",
+      "notes": "Shares local plan with Boston"
+    },
+    "local-authority:SNO": {
+      "name": "South Norfolk Council",
+      "joint-plan-name": "Greater Norwich Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:NOW",
+        "local-authority:BRO",
+        "local-authority:SNO"
+      ],
+      "joint-plan-website": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+      "notes": "Shares local plan with Broadland and Norwich City (also part of Greater Norwich Local Plan)"
+    },
+    "local-authority:BRO": {
+      "name": "Broadland District Council",
+      "joint-plan-name": "Greater Norwich Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:NOW",
+        "local-authority:BRO",
+        "local-authority:SNO"
+      ],
+      "joint-plan-website": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+      "notes": "Shares local plan with Norwich City and South Norfolk (also part of Greater Norwich Local Plan)"
+    },
+    "local-authority:NOW": {
+      "name": "Norwich City Council",
+      "joint-plan-name": "Greater Norwich Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:NOW",
+        "local-authority:BRO",
+        "local-authority:SNO"
+      ],
+      "joint-plan-website": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
+      "notes": "Shares local plan with Broadland and South Norfolk (also part of Greater Norwich Local Plan)"
+    },
+    "local-authority:LEE": {
+      "name": "Lewes District Council",
+      "joint-plan-name": "Lewes and Eastbourne Local Plan",
+      "joint-plan-authorities": ["local-authority:LEE", "local-authority:EAS"],
+      "joint-plan-website": "https://www.lewes-eastbourne.gov.uk/article/3017/Adopted-Local-Plans",
+      "notes": "Shares local plan with Eastbourne"
+    },
+    "local-authority:EAS": {
+      "name": "Eastbourne Borough Council",
+      "joint-plan-name": "Lewes and Eastbourne Local Plan",
+      "joint-plan-authorities": ["local-authority:LEE", "local-authority:EAS"],
+      "joint-plan-website": "https://www.lewes-eastbourne.gov.uk/eastbourne-core-strategy",
+      "notes": "Shares local plan with Lewes"
+    },
+    "local-authority:LIC": {
+      "name": "City of Lincoln Council",
+      "joint-plan-name": "Central Lincolnshire Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:LIC",
+        "local-authority:NKE",
+        "local-authority:WLI"
+      ],
+      "joint-plan-website": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+      "notes": "Shares local plan with North Kesteven and West Lindsey"
+    },
+    "local-authority:NKE": {
+      "name": "North Kesteven District Council",
+      "joint-plan-name": "Central Lincolnshire Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:LIC",
+        "local-authority:NKE",
+        "local-authority:WLI"
+      ],
+      "joint-plan-website": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+      "notes": "Shares local plan with Lincoln and West Lindsey"
+    },
+    "local-authority:WLI": {
+      "name": "West Lindsey District Council",
+      "joint-plan-name": "Central Lincolnshire Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:LIC",
+        "local-authority:NKE",
+        "local-authority:WLI"
+      ],
+      "joint-plan-website": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+      "notes": "Shares local plan with Lincoln and North Kesteven"
+    },
+    "local-authority:BAB": {
+      "name": "Babergh District Council",
+      "joint-plan-name": "Babergh and Mid Suffolk Local Plan",
+      "joint-plan-authorities": ["local-authority:BAB", "local-authority:MSU"],
+      "joint-plan-website": "https://www.midsuffolk.gov.uk/joint-local-plan/",
+      "notes": "Shares local plan with Mid Suffolk"
+    },
+    "local-authority:MSU": {
+      "name": "Mid Suffolk District Council",
+      "joint-plan-name": "Babergh and Mid Suffolk Local Plan",
+      "joint-plan-authorities": ["local-authority:BAB", "local-authority:MSU"],
+      "joint-plan-website": "https://www.midsuffolk.gov.uk/joint-local-plan/",
+      "notes": "Shares local plan with Babergh"
+    },
+    "local-authority:NDE": {
+      "name": "North Devon Council",
+      "joint-plan-name": "North Devon and Torridge Local Plan",
+      "joint-plan-authorities": ["local-authority:NDE", "local-authority:TOR"],
+      "joint-plan-website": "https://consult.torridge.gov.uk/kse/folder/91954",
+      "notes": "Shares local plan with Torridge"
+    },
+    "local-authority:TOR": {
+      "name": "Torridge District Council",
+      "joint-plan-name": "North Devon and Torridge Local Plan",
+      "joint-plan-authorities": ["local-authority:NDE", "local-authority:TOR"],
+      "joint-plan-website": "https://consult.torridge.gov.uk/kse/folder/91954",
+      "notes": "Shares local plan with North Devon"
+    },
+    "local-authority:PLY": {
+      "name": "Plymouth City Council",
+      "joint-plan-name": "Plymouth and South West Devon Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:PLY",
+        "local-authority:SHA",
+        "local-authority:WDE"
+      ],
+      "joint-plan-website": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+      "notes": "Shares local plan with South Hams and West Devon"
+    },
+    "local-authority:SHA": {
+      "name": "South Hams District Council",
+      "joint-plan-name": "Plymouth and South West Devon Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:PLY",
+        "local-authority:SHA",
+        "local-authority:WDE"
+      ],
+      "joint-plan-website": "https://www.southhams.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+      "notes": "Shares local plan with Plymouth and West Devon"
+    },
+    "local-authority:WDE": {
+      "name": "West Devon District Council",
+      "joint-plan-name": "Plymouth and South West Devon Local Plan",
+      "joint-plan-authorities": [
+        "local-authority:PLY",
+        "local-authority:SHA",
+        "local-authority:WDE"
+      ],
+      "joint-plan-website": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
+      "notes": "Shares local plan with Plymouth and South Hams"
+    }
+  }
+}

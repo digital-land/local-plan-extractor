@@ -1,0 +1,9 @@
+{
+  "resource": "debd04e5c78eafcb33fc8d9feff52ae09b7e200b",
+  "endpoint-url": "https://www2.ashfield.gov.uk/Maps/South_Map_2021.pdf",
+  "entry-date": "2025-11-05T16:09:50Z",
+  "status": "200",
+  "elapsed": "1.191",
+  "content-type": "application/pdf",
+  "bytes": "59014514"
+}

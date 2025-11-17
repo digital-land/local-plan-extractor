@@ -1,0 +1,201 @@
+[
+  {
+    "organisation": "local-authority:BUR",
+    "organisation-name": "Bury Metropolitan Borough Council",
+    "reference": "LP-BUR-2025",
+    "documentation-url": "https://www.bury.gov.uk/localplan",
+    "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
+    "name": "Bury Local Plan 2023-2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
+        "documentation-url": "https://www.bury.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Draft Bury Local Plan",
+        "reference": "LP-DRAFT-2025",
+        "document-status": "consultation",
+        "endpoint": "68541b04002d5fc1ea5ffc1659f8d626d850a00eb0610ec73d00e03aab252c50"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/policy-map-v2.pdf",
+        "documentation-url": "https://www.bury.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Draft Local Plan Policies Map",
+        "reference": "PM-DRAFT-2025",
+        "document-status": "consultation",
+        "endpoint": "9c6c033b5a81a08e1a8d626c8f59474b775a027bead5b95f6a552735c1eee0bd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUR",
+    "organisation-name": "Bury Metropolitan Borough Council",
+    "reference": "LP-BUR-1997",
+    "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+    "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-1-introduction.pdf",
+    "name": "Bury Unitary Development Plan",
+    "status": "adopted",
+    "year": 1997,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-1-introduction.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 1: introduction",
+        "reference": "UDP-INTRO-1997",
+        "document-status": "adopted",
+        "endpoint": "d5eddb2c632ba15d5114d338fab4bb4bd5b92365496db68200b7ba6888027368"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-1-strategy.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 1: strategy of the plan",
+        "reference": "UDP-STRATEGY-1997",
+        "document-status": "adopted",
+        "endpoint": "8337345857ad9e6b5750d499b315a1e93321c05d147d980344355d8f1c30e181"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-1-general-policies.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 1: general policies",
+        "reference": "UDP-GENERAL-1997",
+        "document-status": "adopted",
+        "endpoint": "22b93313fe70841bac3a7bde040398714f12da4b2da3031c04196f95c1ed411b"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-4-economy.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 4: Economy",
+        "reference": "UDP-ECONOMY-1997",
+        "document-status": "adopted",
+        "endpoint": "5ac9d8de750a876dc27bbe981d79ec5dfcd423270359afabe22abe6b363ec599"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-5-housing.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 5: Housing",
+        "reference": "UDP-HOUSING-1997",
+        "document-status": "adopted",
+        "endpoint": "c01d593a798221d045ca2988f20bb396a2714af52dacb7d3d3043eee19b64d72"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-6-environment.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 6: Environment",
+        "reference": "UDP-ENVIRONMENT-1997",
+        "document-status": "adopted",
+        "endpoint": "8fbe64a1b0e9c9e909f5daf889075fba78318f9fc1b2bbf3c68c33c7cc7f33d9"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-7-open-land.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 7: Open Land",
+        "reference": "UDP-OPENLAND-1997",
+        "document-status": "adopted",
+        "endpoint": "0b83ec48aa917bef7df3e284bf0d51037a5a9d9ec9ab32eec95e38b440077e36"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-8-recreation-tourism.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 8: Recreation and Tourism",
+        "reference": "UDP-RECREATION-1997",
+        "document-status": "adopted",
+        "endpoint": "e591d6772048317c28902a14e2aada23f5c1c635dc8c452db18c8f08e65f6c47"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-9-shopping.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 9: Shopping",
+        "reference": "UDP-SHOPPING-1997",
+        "document-status": "adopted",
+        "endpoint": "49fa79e39ad64c753b7c63df7a7056ffba497dbc4f5a43f062b892c906ff6006"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-10-transport-highways.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 10: Highways and Transportation",
+        "reference": "UDP-TRANSPORT-1997",
+        "document-status": "adopted",
+        "endpoint": "ee13786900df649b3f7ee5e594eca9e3592371edf15d0a49fdfb735dc83f5f30"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-11-community-facilities.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 2: chapter 11: Community facilities",
+        "reference": "UDP-COMMUNITY-1997",
+        "document-status": "adopted",
+        "endpoint": "c1593fdeaa7d0e7f8800dc22d1c38a942527e515009a141a747f2710217edd51"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-12-minerals-waste.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "UDP Part 2: chapter 12: Minerals and waste",
+        "reference": "UDP-MINERALS-1997",
+        "document-status": "adopted",
+        "endpoint": "501f06695f3b94b1c8288415ef6019a8275b090fb1dc5ab263b3893409c6fad1"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-2-chapter-13-town-centres.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "UDP Part 2: chapter 13: Town Centres",
+        "reference": "UDP-TOWNCENTRES-1997",
+        "document-status": "adopted",
+        "endpoint": "c55ba2f1a9b56f0a2be7b4d8bd32285a6ff8ae232062d4da37890afa8bd63c4c"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-3-chapter-14-implementation-and-resources.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 3: chapter 14: Implementation and resources",
+        "reference": "UDP-IMPLEMENTATION-1997",
+        "document-status": "adopted",
+        "endpoint": "431a281f921356c42fcb1848f2dc22c28640a6c6656800759137ec9c92d1ba7e"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/unitary-development-plan-part-3-chapter-15-monitoring-and-review.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "UDP Part 3: chapter 15: Monitoring and review",
+        "reference": "UDP-MONITORING-1997",
+        "document-status": "adopted",
+        "endpoint": "1ec634b7e56ed1534d9df9ff2ed3ee2059a11567d568eafdf98f897bb7c32820"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/letter-secretary-of-state-saved-policies-confirmation.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "Secretary of State letter of saved policies confirmation",
+        "reference": "UDP-SAVED-2007",
+        "document-status": "adopted",
+        "endpoint": "0e4046b46311ac8e488974788a7884c5cca54991085b8f3515ea69bf1830122d"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/extract-from-places-for-everyone-appendix-a.pdf",
+        "documentation-url": "https://www.bury.gov.uk/planning-building-control/policy-and-projects/planning-policy/bury-unitary-development-plan",
+        "document-type": "local-plan",
+        "name": "Extract from PFE Appendix A: Table A.2 Replaced UDP Policies",
+        "reference": "UDP-PFE-2024",
+        "document-status": "adopted",
+        "endpoint": "16c7ee80094076f66272d6aca0a84b57c888a8a287509c8e0d52b5bc9d98b0c2"
+      }
+    ]
+  }
+]

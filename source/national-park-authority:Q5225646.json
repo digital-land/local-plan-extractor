@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "national-park-authority:Q5225646",
+    "organisation-name": "Dartmoor National Park Authority",
+    "reference": "LP-Q5225646-2018",
+    "documentation-url": "https://www.dartmoor.gov.uk/localplan",
+    "document-url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0031/571819/Dartmoor-Local-Plan-20182036.pdf",
+    "name": "Dartmoor Local Plan 2018-2036",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0031/571819/Dartmoor-Local-Plan-20182036.pdf",
+        "documentation-url": "https://www.dartmoor.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Dartmoor Local Plan 2018-2036",
+        "reference": "LP-2018-2036",
+        "document-status": "adopted",
+        "endpoint": "79a898ed9038c2a132dc1b1ea272c9592d9e6fd60224481f1b83622f3e712c51"
+      },
+      {
+        "document-url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0020/472430/Dartmoor-National-Park-Greenhouse-Gas-Assessment-Summary-Report.pdf",
+        "documentation-url": "https://www.dartmoor.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Dartmoor's Greenhouse Gas Assessment",
+        "reference": "GGA-2023",
+        "document-status": "adopted",
+        "endpoint": "26cbe3544fbc433617c23222459cdc9b9472ca3bfc4e8058ba21573d9003ab85"
+      },
+      {
+        "document-url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0028/571807/SCI-2025-Final-New.pdf",
+        "documentation-url": "https://www.dartmoor.gov.uk/planning-policy",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2025",
+        "document-status": "adopted",
+        "endpoint": "bf4388841a634abaa6f2a404aaf733ccce0fd0790fc85661d55ea695abd75b29"
+      }
+    ]
+  }
+]

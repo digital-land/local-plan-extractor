@@ -1,0 +1,34 @@
+[
+  {
+    "organisation": "local-authority:ESK",
+    "organisation-name": "East Suffolk Council",
+    "reference": "LP-ESK-2029",
+    "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
+    "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-form.pdf",
+    "name": "East Suffolk Local Plan",
+    "status": "draft",
+    "year": 2029,
+    "period-start-date": "",
+    "period-end-date": 2044,
+    "documents": [
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-guidance.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
+        "document-type": "local-plan",
+        "name": "Call for Sites Submission Guidance",
+        "reference": "LP-CFS-GUIDE-2025",
+        "document-status": "draft",
+        "endpoint": "f859216d6d6954e3d97f16b851e38f83aa30a8aca9ee0de5313047e9499d085a"
+      },
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-form.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
+        "document-type": "local-plan",
+        "name": "Call for Sites Submission Form",
+        "reference": "LP-CFS-FORM-2025",
+        "document-status": "draft",
+        "endpoint": "e6984f58de177f7ccb318a7e2d55f422ad55d901aacf667efc2a1fb497860aee"
+      }
+    ]
+  }
+]

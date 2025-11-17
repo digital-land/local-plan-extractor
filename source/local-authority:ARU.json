@@ -1,0 +1,151 @@
+[
+  {
+    "organisation": "local-authority:ARU",
+    "organisation-name": "Arun District Council",
+    "reference": "LP-ARU-2018",
+    "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+    "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984",
+    "name": "Arun Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12844.pdf&ver=12984",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "9bc7c78e51d8920cc0ed9303c86b1d95d065f72bb174217b4b8193cb8e2dcc07"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12918.pdf&ver=13058",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policy Map 1 (District Wide) - Update 2018 V23",
+        "reference": "PM-DISTRICT-2018",
+        "document-status": "adopted",
+        "endpoint": "8829f8628de5b10ac92298d0c0965084e52e2c37bbda0043917b20a49e80a089"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12919.pdf&ver=13059",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policy Map 2 (Central) - Update September 2018 V1",
+        "reference": "PM-CENTRAL-2018",
+        "document-status": "adopted",
+        "endpoint": "9b57a475ac45cd415bced096f4ad6edadc2464aaf0a98a7fd05b9b58dc61700f"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12920.pdf&ver=13060",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policy Map 3 (West) - Update September 2018 V1",
+        "reference": "PM-WEST-2018",
+        "document-status": "adopted",
+        "endpoint": "faaa4de3d722c6e04ebdec894e6946b63aca49dc00a61686b476a88180e20fc3"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12921.pdf&ver=13061",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policy Map 4 (East) - Update September 2018 V1",
+        "reference": "PM-EAST-2018",
+        "document-status": "adopted",
+        "endpoint": "ebafed3f1cb80535b972e6780f6e4c8f05f2debdcf5ac265155990dab3913776"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12541.pdf&ver=12559",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "ec93dabd46ad8a3f34ab42cf8756b52f5e92821b70033c7c548866cf8e240377"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12488.pdf&ver=12506",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report (dated 4 July 2018) into the examination of the Arun Local Plan 2011-2031",
+        "reference": "IR-2018",
+        "document-status": "adopted",
+        "endpoint": "b41fad93687925599b217bb4e6cd5d3036d1380ca5b5a36ceefdd0e87fc29974"
+      },
+      {
+        "document-url": "https://www.arun.gov.uk/download.cfm?doc=docm93jijm4n12489.pdf&ver=12507",
+        "documentation-url": "https://www.arun.gov.uk/adopted-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report Appendix Final Schedule of Main Modifications",
+        "reference": "IR-MODS-2018",
+        "document-status": "adopted",
+        "endpoint": "e9ad56944ca1ee412ba07a5b56b761d3a936bb834a61d2caa3017b57356b3fa2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WSX",
+    "organisation-name": "West Sussex County Council",
+    "reference": "LP-WSX-2014",
+    "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/waste-local-plan/",
+    "document-url": "",
+    "name": "West Sussex Waste Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2031,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:WSX",
+    "organisation-name": "West Sussex County Council",
+    "reference": "LP-WSX-2018",
+    "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/joint-minerals-local-plan/",
+    "document-url": "https://www.westsussex.gov.uk/media/11736/mlp_adoption.pdf",
+    "name": "West Sussex Joint Minerals Local Plan",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.westsussex.gov.uk/media/11736/mlp_adoption.pdf",
+        "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/joint-minerals-local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "West Sussex Joint Minerals Local Plan",
+        "reference": "MLP-2018-2033",
+        "document-status": "adopted",
+        "endpoint": "3d134b2deae328b99f4de730d9afbf8385431aaaf6b72bf59c2fd7413441b8ac"
+      },
+      {
+        "document-url": "https://www.westsussex.gov.uk/media/19244/mlp_review.pdf",
+        "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/joint-minerals-local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Joint Minerals Local Plan: Five-year assessment of relevance and effectiveness",
+        "reference": "MLP-REVIEW-2023",
+        "document-status": "adopted",
+        "endpoint": "ed4de4de647748ae4db53ce8c4f0cf8b9f59e24993813746be1ad6499e6537b7"
+      },
+      {
+        "document-url": "https://www.westsussex.gov.uk/media/13437/mw_safeguarding_guidance.pdf",
+        "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/joint-minerals-local-plan/",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Minerals and Waste Safeguarding Guidance",
+        "reference": "MW-SAFEGUARD-2018",
+        "document-status": "adopted",
+        "endpoint": "f3d7b856e2cb306eb6eb7bcc1c40d5a90a75575eb5983321a24ff6315d47c207"
+      },
+      {
+        "document-url": "https://www.westsussex.gov.uk/media/11737/mlp_adoption_statement.pdf",
+        "documentation-url": "https://www.westsussex.gov.uk/about-the-council/policies-and-reports/environment-planning-and-waste-policy-and-reports/minerals-and-waste-policy/joint-minerals-local-plan/",
+        "document-type": "adoption-statement",
+        "name": "Joint Minerals Local Plan Adoption Statement",
+        "reference": "MLP-AS-2018",
+        "document-status": "adopted",
+        "endpoint": "7a2f59c8813f037fbf402e0e2b2dcbffd0c73cad8883f9c0a996d0afdefe3b20"
+      }
+    ]
+  }
+]

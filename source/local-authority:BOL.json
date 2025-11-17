@@ -1,0 +1,134 @@
+[
+  {
+    "organisation": "local-authority:BOL",
+    "organisation-name": "Bolton Metropolitan Borough Council",
+    "reference": "LP-BOL-2024",
+    "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/greater-manchester-spatial-framework-consultation",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
+    "name": "Places for Everyone Joint Development Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/greater-manchester-spatial-framework-consultation",
+        "document-type": "local-plan",
+        "name": "Places for Everyone",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "d1312ec5875b68e0bf432802799940ed0639cfe399c75da2b6013916302a9813"
+      },
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/5868/places-for-everyone-joint-development-plan-bolton-council-adoption-statement",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/greater-manchester-spatial-framework-consultation",
+        "document-type": "adoption-statement",
+        "name": "Bolton Council Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "e39e71741959befb1dcded430eab67b27482f5359a5fe3f545c1c32476c4b258"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BOL",
+    "organisation-name": "Bolton Metropolitan Borough Council",
+    "reference": "LP-BOL-2011",
+    "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/core-strategy",
+    "document-url": "https://www.bolton.gov.uk/downloads/file/666/core-strategy",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/666/core-strategy",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/core-strategy",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "04f1f71a58b22397305b4e78223ae3b145d4ea642731e03321848f54f5bca517"
+      },
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/667/inspectors-report",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/core-strategy",
+        "document-type": "local-plan",
+        "name": "Inspectors Report",
+        "reference": "IR-2011",
+        "document-status": "adopted",
+        "endpoint": "89a43a41fdddfb1ec64c94f1eb1ba2a86f4a3b9b6c1d716c7133630426d5335a"
+      },
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/668/official-adoption-statement",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/core-strategy",
+        "document-type": "adoption-statement",
+        "name": "Official Adoption Statement",
+        "reference": "AS-2011",
+        "document-status": "adopted",
+        "endpoint": "a84d485b389bfbdbd62983e826ae8fa313ced7dfd84f536c8cd41b6cd113acda"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BOL",
+    "organisation-name": "Bolton Metropolitan Borough Council",
+    "reference": "LP-BOL-2025",
+    "documentation-url": "https://www.bolton.gov.uk/planning/local-plan",
+    "document-url": "",
+    "name": "Emerging Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:BOL",
+    "organisation-name": "Bolton Metropolitan Borough Council",
+    "reference": "LP-BOL-2012",
+    "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/bolton-development-plan",
+    "document-url": "https://www.bolton.gov.uk/downloads/file/6911/greater-manchester-waste-plan",
+    "name": "Greater Manchester Waste Plan",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/6911/greater-manchester-waste-plan",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/bolton-development-plan",
+        "document-type": "local-plan",
+        "name": "Greater Manchester Waste Plan",
+        "reference": "WP-2012",
+        "document-status": "adopted",
+        "endpoint": "a96df054262f904e53465ab942c254ef102f0ed2685393b758872af78535521a"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BOL",
+    "organisation-name": "Bolton Metropolitan Borough Council",
+    "reference": "LP-BOL-2013",
+    "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/bolton-development-plan",
+    "document-url": "https://www.bolton.gov.uk/downloads/file/6910/greater-manchester-minerals-plan",
+    "name": "Greater Manchester Minerals Plan",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.bolton.gov.uk/downloads/file/6910/greater-manchester-minerals-plan",
+        "documentation-url": "https://www.bolton.gov.uk/planning-policy-strategy/bolton-development-plan",
+        "document-type": "minerals-and-waste-plan",
+        "name": "Greater Manchester Minerals Plan",
+        "reference": "MP-2013",
+        "document-status": "adopted",
+        "endpoint": "2efd44705b6ea9103a29a607f6c14c9574e6b0c6f91f80ae84e9c6371d9e320b"
+      }
+    ]
+  }
+]

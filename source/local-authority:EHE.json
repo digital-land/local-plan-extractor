@@ -1,0 +1,290 @@
+[
+  {
+    "organisation": "local-authority:EHE",
+    "organisation-name": "East Hertfordshire District Council",
+    "reference": "LP-EHE-2018",
+    "documentation-url": "https://www.eastherts.gov.uk/developmentplan",
+    "document-url": "",
+    "name": "East Herts District Plan 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:EHE",
+    "organisation-name": "East Hertfordshire District Council",
+    "reference": "LP-EHE-2007",
+    "documentation-url": "https://www.eastherts.gov.uk/localplan",
+    "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_1_-_Introduction.pdf",
+    "name": "East Herts Local Plan - Second Review, 2007",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Direction_Schedule_of_Saved_Policies-_Redacted.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Direction and Schedule (Saved Policies)",
+        "reference": "LP-SAVED-2010",
+        "document-status": "adopted",
+        "endpoint": "acae56850fd97b54caa7baaf97c6e3a0fc904a122fde41fa01da09f4fc00e09a"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Letter_from_Secretary_of_State-_Redacted.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Letter from the Secretary of State",
+        "reference": "LP-SOS-2010",
+        "document-status": "adopted",
+        "endpoint": "7f820eae2a75a50849a183a7284d2ca5710876ea4c5cbbe789afeacc1422e76f"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_1_-_Introduction.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 1- Introduction",
+        "reference": "LP-CH1-2007",
+        "document-status": "adopted",
+        "endpoint": "a3245436d0021cae5514a0757c2e7b14dc9fb16e486b8b15ed403678cb7563d3"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Strategy_Diagram.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Strategy Diagram",
+        "reference": "LP-SD-2007",
+        "document-status": "adopted",
+        "endpoint": "35483f6c095b8426c673c713e5ef1e512e5d012d940c25082d443a0d2bfff674"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_2_-_Sustainable_Development.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 2- Sustainable Development (SD)",
+        "reference": "LP-CH2-2007",
+        "document-status": "adopted",
+        "endpoint": "1666f589d49b5edfd759245fc84b5b148cf454b5c7fb7160d72e60d875082017"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_3_-_Housing.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 3- Housing (HSG)",
+        "reference": "LP-CH3-2007",
+        "document-status": "adopted",
+        "endpoint": "9e9f81852c7a0c60a7a7ebbaf46bae2bac5403da44f15df0c337aef59fb1d0da"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_4_-_Green_Belt_and_Countryside.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 4- Green Belt and Countryside (GBC)",
+        "reference": "LP-CH4-2007",
+        "document-status": "adopted",
+        "endpoint": "212531c7cec407c5a4bc18cfd4dcbbcd2ad34693ddfbd27b43db65d5c3d89bd6"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_5_-_Transport.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 5- Transport (TR)",
+        "reference": "LP-CH5-2007",
+        "document-status": "adopted",
+        "endpoint": "44bf05a1229bc8beb3c6b3532f447e8016403626fca49a7cc68f4f7e5d6104fc"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_6_-_Economic_Development_and_Employment.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "economic-development-strategy",
+        "name": "Chapter 6- Economic Development and Employment (EDE)",
+        "reference": "LP-CH6-2007",
+        "document-status": "adopted",
+        "endpoint": "0f0601d85937e808954d555731101127b7b666a918a4cb04c63fc99ab6b9126c"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_7_-_Shopping_and_Town_Centres.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "retail-and-town-centre-study",
+        "name": "Chapter 7- Shopping and Town Centres (STC)",
+        "reference": "LP-CH7-2007",
+        "document-status": "adopted",
+        "endpoint": "251eadf006aa99a6b7da8eb714aec2388532c8e7cfffdb4fb188652744839389"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_8_-_Environment_and_Design.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 8- Environment and Design (ENV)",
+        "reference": "LP-CH8-2007",
+        "document-status": "adopted",
+        "endpoint": "f05ac24d35e2db018f053953486d2384b9be6fb0e3ab89c26749d1f8b2b31820"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_9_-_Built_Heritage1.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 9- Built Heritage (BH)",
+        "reference": "LP-CH9-2007",
+        "document-status": "adopted",
+        "endpoint": "5a844cc4447b65becd6a514bfa117c69540bd296aae7984c5e40f45fb87a427f"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_10_-_Leisure__Recreation_and_Community_Facilities.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 10- Leisure, Recreation and Community Facilities (LRC)",
+        "reference": "LP-CH10-2007",
+        "document-status": "adopted",
+        "endpoint": "867f7ca7ed8cd17363d18e5c915226e208ac989a67691caf87209bff36f6a109"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_11_-_Bishops_Stortford.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 11- Bishop's Stortford (BIS)",
+        "reference": "LP-CH11-2007",
+        "document-status": "adopted",
+        "endpoint": "594c3b1e9d57d2e5ea13c4ee7b9ddf9694a27d715cba17407659786f999562a0"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_12_-_Hertford.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 12- Hertford (HE)",
+        "reference": "LP-CH12-2007",
+        "document-status": "adopted",
+        "endpoint": "92b5cd38f4f938a04091fdd52fc039de582e60dcbc2aa58fb4345ac2f500e083"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_13_-_Ware.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 13- Ware (WA)",
+        "reference": "LP-CH13-2007",
+        "document-status": "adopted",
+        "endpoint": "87bdf7d26de3dd54395874a1d5bd6c8cf0ac25acea012ce86fd9a70096b225f7"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_14_-_Sawbridgeworth.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 14- Sawbridgeworth (SA)",
+        "reference": "LP-CH14-2007",
+        "document-status": "adopted",
+        "endpoint": "d8f5f31ddf22d03e1318f8891520e2d8ef80a0af3551980d63e2fe942864d406"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_15_-_Stanstead_Abbotts_and_St__Margarets.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 15- Stanstead Abbotts and St Margarets (ST)",
+        "reference": "LP-CH15-2007",
+        "document-status": "adopted",
+        "endpoint": "d03116f2557cc1a00ba283816b5bc5c40eefa50c573458b7fff561420d47feea"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_16_-_Buntingford.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 16- Buntingford (BUN)",
+        "reference": "LP-CH16-2007",
+        "document-status": "adopted",
+        "endpoint": "9bc112c9783789f53a28a7ee25a99914c27899b4a89a914ea65d8dd4be8e59f3"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_17_-_Other_Settlements_-_The_Villages.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 17- Other Settlements- The Villages (OSV)",
+        "reference": "LP-CH17-2007",
+        "document-status": "adopted",
+        "endpoint": "ea44c022a9fbaaa2d036c6102823659e90bfe097b298358e12eafcd1b40efac0"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_18__-_Implementation_Part_1.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 18- Implementation (IMP) (Part 1)",
+        "reference": "LP-CH18A-2007",
+        "document-status": "adopted",
+        "endpoint": "63fac8c7d986c0becb3ba0d5e6393c412b36763ca99c70836fa4b3d1b6d9cbb4"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Chapter_18_-_Implementation_Part_2.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Chapter 18- Implementation (IMP) (Part 2)",
+        "reference": "LP-CH18B-2007",
+        "document-status": "adopted",
+        "endpoint": "220f7143329d9874c45a197865ffa124f723ae3971f0c0aab7c6f89b7c3d5d48"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_I_-_Housing_Strategy_Background.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix I- Housing Strategy Background",
+        "reference": "LP-APP1-2007",
+        "document-status": "adopted",
+        "endpoint": "28b967ca7fa55da803a692c1ea3da74835b74f92e487624e8726fe3a9a430155"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_II_-_Car_Parking_Standards_Part_1.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix II- Vehicle Parking Standards (Supporting text)",
+        "reference": "LP-APP2A-2007",
+        "document-status": "adopted",
+        "endpoint": "b6e2c0bc61d14ebfb468a258cf04a3737179f096b0b34dd54010e4b1a792085d"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_II_-_Car_Parking_Standards_Part_2.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Vehicle Parking Standards (Table Showing Standards)",
+        "reference": "LP-APP2B-2007",
+        "document-status": "adopted",
+        "endpoint": "0f25ebc5586ae7e25e209b6f43a3da2bf16636185232d4fc797f5a38ef924215"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Updated_Vehicle_Parking_Standards.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Updated Vehicle Parking Standards",
+        "reference": "LP-PARKING-UPD",
+        "document-status": "adopted",
+        "endpoint": "c13931b6d38878ce77cb04ffb05e5f2d3e255bbd7fff1ffd6bb4c4ffa233ad9e"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_III_-_Shopping_Frontage_Areas_in_Larger_and_Smaller_Centres.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix III- Shopping Frontage Policy Areas in Larger and Smaller Centres",
+        "reference": "LP-APP3-2007",
+        "document-status": "adopted",
+        "endpoint": "48f14eb6ef7da2ee1aeeb7b2243fec66b1a4194db5b12a0aaddb4ae7cebf3675"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_IV_-_Recreational_Requirements_in_New_Residential_Areas.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix IV- Recreation Requirements in New Residential Development",
+        "reference": "LP-APP4-2007",
+        "document-status": "adopted",
+        "endpoint": "5ee19545d5082fcec766bd6a6c7b29c169420163bcbc1530b08353a11601e470"
+      },
+      {
+        "document-url": "https://www.eastherts.gov.uk/sites/default/files/documents/Appendix_V_-_Glossary.pdf",
+        "documentation-url": "https://www.eastherts.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Appendix V- Glossary",
+        "reference": "LP-APP5-2007",
+        "document-status": "adopted",
+        "endpoint": "f244f7a9360dbc5f5ee819c05d9be590e7e10b26ef1a39e300d2f802437c4649"
+      }
+    ]
+  }
+]

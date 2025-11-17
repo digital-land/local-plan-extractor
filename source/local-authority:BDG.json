@@ -1,0 +1,170 @@
+[
+  {
+    "organisation": "local-authority:BDG",
+    "organisation-name": "London Borough of Barking and Dagenham",
+    "reference": "LP-BDG-2024",
+    "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+    "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-10/B%26D_LocalPlan_A4_SEP24_digital.pdf",
+    "name": "Barking and Dagenham 2037 Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2021,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-10/B%26D_LocalPlan_A4_SEP24_digital.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan",
+        "name": "Barking and Dagenham 2037 Local Plan",
+        "reference": "LP-2037",
+        "document-status": "adopted",
+        "endpoint": "29d39c1a25db57ff55d89b72b13dcf348cbb354c2ac8ebdccd34d3f445ed0a4d"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2025-07/Barking%20and%20Dagenham%20Local%20Plan%202037%20Appendix%202%20Site%20Allocation%20Proformas.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "site-allocations",
+        "name": "Appendix 2: Site Allocation Proformas",
+        "reference": "SA-DPD-2024",
+        "document-status": "adopted",
+        "endpoint": "61f1312e35a50217616493078ded256b3586c838da8a326d33a72d820fc511c8"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-10/Local%20Plan%20Policies%27%20Map%20September%202024.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "16ac0faa0e44743969225f6230bd2ad0e50a01b6c1d9a2e7bbc4e287c6c38e92"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-08/LBBD%20Local%20Plan%20-%20Inspectors%20Report%20-%20FINAL.docx",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan",
+        "name": "Inspectors' Report 15 August 2024",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "d33562408f484792977dba869ce2558eb60e841a43d957a030b0109a7418584b"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-08/LBBD%20Local%20Plan%20-%20Main%20Mods%20Appendix%20-%20FINAL%20%282%29.docx",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "main-modifications",
+        "name": "Main Modifications Appendix",
+        "reference": "MM-2024",
+        "document-status": "adopted",
+        "endpoint": "a8459d0389da5eaa60145ca43358882081d2150727a093e0147ee25e2c5f9e50"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-10/Additional%20Modifications%20Schedule%20September%202024.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan",
+        "name": "Additional Modifications",
+        "reference": "AM-2024",
+        "document-status": "adopted",
+        "endpoint": "4248f423fe162ad959eebbcaa1e518bb1804b3d18d6f011ee77a154341211b02"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2025-02/LDS%20February%202025%20Update.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme February 2025 Update",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "6d98cd9f600ed31691c5de98af655e2b2031c80a42d9d9831204903bcd79eeb7"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-08/LBBD-Statement-of-Community-Involvement-Refresh-Aug-2020_0_0.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement Refresh - August 2020",
+        "reference": "SCI-2020",
+        "document-status": "adopted",
+        "endpoint": "3161256a6fa9c522e24f4ea5b9018bd07aaa0abb666e1fc592e47b2a2235a85f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BDG",
+    "organisation-name": "London Borough of Barking and Dagenham",
+    "reference": "LP-BDG-2021",
+    "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+    "document-url": "",
+    "name": "Regulation 19 (2) Draft Local Plan",
+    "status": "regulation-19",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2037,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://yourcall.befirst.london/13753/widgets/39553/documents/21416",
+        "document-type": "local-plan-regulation-19",
+        "name": "C1_Regulation 19 (2) Draft Local Plan.pdf",
+        "reference": "LP-REG19-2021",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://lucmaps.co.uk/Hub_Components/10589_LBBD/LBBD%20Local%20Plan%20Reg%2019%20Consultation%20Document%20Sep%202020%20(Redsize%20V1).pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Barking and Dagenham Draft Local Plan Regulation 19 Consultation version",
+        "reference": "LP-REG19-2020",
+        "document-status": "consultation",
+        "endpoint": "50680d6610fb259dd58e18193ba410295a27a70fc160dced99a5390cbd03367e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BDG",
+    "organisation-name": "London Borough of Barking and Dagenham",
+    "reference": "LP-BDG-2019",
+    "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+    "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/LBBD-Draft-Local-Plan-Reg-18-Consultation-version_121219.pdf",
+    "name": "Barking and Dagenham Draft Local Plan Regulation 18 Consultation version",
+    "status": "regulation-18",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/LBBD-Draft-Local-Plan-Reg-18-Consultation-version_121219.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Barking and Dagenham Draft Local Plan Regulation 18 Consultation version",
+        "reference": "LP-REG18-2019",
+        "document-status": "consultation",
+        "endpoint": "192036c3a1388b93891089271284f3f9b6b1c8d81b6b8b2929c5dddd1ac8248c"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/Issues-and-Options-Report%20%281%29.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan",
+        "name": "Issues and options report",
+        "reference": "IO-2019",
+        "document-status": "draft",
+        "endpoint": "c02f5bd48f819d783fbabe2f699e7b49a6f40f71e41dae3f03bd4bd49a7b4a84"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/Issues-and-Options-Summary%20%281%29.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "local-plan",
+        "name": "Issues and options summary",
+        "reference": "IO-SUMMARY-2019",
+        "document-status": "draft",
+        "endpoint": "0d42d641b62dd39eb3a746fa242061de7305fc2696048be2508b1234d15a7082"
+      },
+      {
+        "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/Barking-and-Dagenham-Local-Plan-Sustainability-Appraisal-Scoping-Report%20%281%29.pdf",
+        "documentation-url": "https://www.lbbd.gov.uk/planning-building-control-and-local-land-charges/planning-guidance-and-policies/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Barking and Dagenham Local Plan sustainability appraisal scoping report",
+        "reference": "SA-SCOPING-2019",
+        "document-status": "draft",
+        "endpoint": "bec0487a776139a0441d5b88461bdafb6aef897e6d22e9550784a2597f4c573c"
+      }
+    ]
+  }
+]

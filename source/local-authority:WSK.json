@@ -1,0 +1,43 @@
+[
+  {
+    "organisation": "local-authority:WSK",
+    "organisation-name": "West Suffolk Council",
+    "reference": "LP-WSK-2024",
+    "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/",
+    "document-url": "",
+    "name": "West Suffolk Local Plan 2024-2041",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Planning Documents and Guidance",
+        "reference": "SPD-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/",
+        "document-type": "health-impact-assessment",
+        "name": "Health Impact Assessments Guidance",
+        "reference": "HIA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/",
+        "document-type": "landscape-character-assessment",
+        "name": "Landscapes Character Assessment",
+        "reference": "LCA-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

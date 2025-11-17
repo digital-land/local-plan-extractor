@@ -1,0 +1,102 @@
+[
+  {
+    "organisation": "development-corporation:Q6670544",
+    "organisation-name": "London Legacy Development Corporation",
+    "reference": "LP-LLDC-2020",
+    "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+    "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LOCAL%20PLAN_web%20version-min.pdf",
+    "name": "London Legacy Development Corporation Local Plan 2020-2036",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LOCAL%20PLAN_web%20version-min.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Legacy Development Corporation Local Plan 2020-2036",
+        "reference": "LP-2020-2036",
+        "document-status": "adopted",
+        "endpoint": "b1104fccd573ea589d4e97b8a5a27aeda9bb7b77508293ba72b1827fc48f489d"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/Policies%20Map%202020%20FINALv1.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "policies-map",
+        "name": "Local Plan 2020-2036 Policies Map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "99edd734d0b1966f271af0b76a9e3ebc5cba6d4e43efabfe577630955ca99b32"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/Local%20Plan%202020%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2020",
+        "document-status": "adopted",
+        "endpoint": "ccc0280d181754481931e12d09380fd7502ce8229f2b720e584066e5aab7e732"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/Local%20Plan%20IIA%20Post%20Adoption%20Statement_Final.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "adoption-statement",
+        "name": "IIA Adoption Statement",
+        "reference": "IIA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "44a52cf5e0f82b3baa96c49afe0c1d19a6195f7263248492e3282eb80bdb98bc"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/Appendix%201_Inspectors%20LLDC%20Revised%20LP_Final%20Report.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "f8f85cd4f1136357c9421937bf6131d62868c35ccada29655f519918f621b85a"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LLDC%20CIL%20Charging%20Schedule%20July%202020%2024620.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Community Infrastructure Levy Charging Schedule 2",
+        "reference": "CIL-2020",
+        "document-status": "adopted",
+        "endpoint": "7a43859c677bfb8365ee4ad3b1ef39ceb221ba7bbea40ec9591114b7f2bf2187"
+      }
+    ]
+  },
+  {
+    "organisation": "development-corporation:Q6670544",
+    "organisation-name": "London Legacy Development Corporation",
+    "reference": "LP-LLDC-2015",
+    "documentation-url": "https://www.queenelizabetholympicpark.co.uk/node/3360",
+    "document-url": "",
+    "name": "London Legacy Development Corporation Local Plan 2015-2031",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LLDC%20%20CIL%20Approved%20Charging%20Schedule_0.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "Approved LLDC CIL Charging Schedule",
+        "reference": "CIL-2015",
+        "document-status": "adopted",
+        "endpoint": "50de877a3e28071caa8a00b4788a4c33466eb367d75674cf496d55e569cc5079"
+      },
+      {
+        "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/London%20Legacy%20CIL%20Report%20Final%20%281%29.pdf",
+        "documentation-url": "https://www.queenelizabetholympicpark.co.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "London Legacy Development Corporation CIL - Examiner's Report",
+        "reference": "CIL-IR-2015",
+        "document-status": "adopted",
+        "endpoint": "17c377ee2db1315ff54a43173a72172ccd3c5694d3ad65dd6e0ce9ce19f66241"
+      }
+    ]
+  }
+]

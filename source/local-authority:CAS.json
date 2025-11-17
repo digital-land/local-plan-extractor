@@ -1,0 +1,201 @@
+[
+  {
+    "organisation": "local-authority:CAS",
+    "organisation-name": "Castle Point Borough Council",
+    "reference": "LP-CAS-1998",
+    "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+    "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1267.pdf&ver=1498",
+    "name": "Castle Point Local Plan",
+    "status": "adopted",
+    "year": 1998,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1267.pdf&ver=1498",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Saved policies",
+        "reference": "LP-SAVED-1998",
+        "document-status": "adopted",
+        "endpoint": "6ef1b9eecbba13549592f8f314114553142d9c1f296de8fcd3dafa64faf33f35"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1255.pdf&ver=1486",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan-adopted",
+        "name": "1998 Adopted Local Plan Conformity Check",
+        "reference": "LP-CONF-1998",
+        "document-status": "adopted",
+        "endpoint": "87bc0c51f37e8392589d4d8b59d013c329a85427b7044077bca71ea44cc11a67"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1261.pdf&ver=1492",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Introduction",
+        "reference": "LP-INTRO-1998",
+        "document-status": "adopted",
+        "endpoint": "05df7c74a57d5a56c015ee7bd42601a8c3de7b21cac6cce67b544ba359825472"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1264.pdf&ver=1495",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "The Green Belt",
+        "reference": "LP-GB-1998",
+        "document-status": "adopted",
+        "endpoint": "2af010a97e591c4386de24fa1217b844dae4b34632c33801a104929ef215cf76"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1259.pdf&ver=1490",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Environment and Conservation",
+        "reference": "LP-ENV-1998",
+        "document-status": "adopted",
+        "endpoint": "efaca1207c9b4ca397f54d99e377752bc8d656efd7193e354e5abf8cf8e1b8bc"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1260.pdf&ver=1491",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Housing and Population",
+        "reference": "LP-HOUS-1998",
+        "document-status": "adopted",
+        "endpoint": "376267dcf15be64b147e7775196fd62a0afd785643c889615fea2ded183d175f"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1258.pdf&ver=1489",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "economic-development-strategy",
+        "name": "Economic Development",
+        "reference": "LP-ECON-1998",
+        "document-status": "adopted",
+        "endpoint": "8706473be5e83cdf2600de9d6839e434379601e777bf0afe7da4c00b07057f6a"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1265.pdf&ver=1496",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Shopping",
+        "reference": "LP-SHOP-1998",
+        "document-status": "adopted",
+        "endpoint": "d43776f90743775bff88023196b2ad6b6ae607f0539a810a6393cbe29ad16b9b"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1266.pdf&ver=1497",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Transport",
+        "reference": "LP-TRANS-1998",
+        "document-status": "adopted",
+        "endpoint": "de2e6925bb7ad8c3608c7a2bcb65a887bd9621421c391db15e8fc841a97b32c0"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1262.pdf&ver=1493",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Recreation",
+        "reference": "LP-REC-1998",
+        "document-status": "adopted",
+        "endpoint": "d3573860ecd6cc575288320f3b74133129cee2bf4b51b8b7e387cde275acd615"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1257.pdf&ver=1488",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Community Facilities",
+        "reference": "LP-COMM-1998",
+        "document-status": "adopted",
+        "endpoint": "d65e74c672a6db4b962b203ce7a9b1c5cd5eaff915c29cf7643460039a6757bc"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1256.pdf&ver=1487",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Appendices",
+        "reference": "LP-APP-1998",
+        "document-status": "adopted",
+        "endpoint": "0277c3fb7c570069deb1a5598b65ea45426df3bb18999367bbcbc6614c218597"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1263.pdf&ver=1494",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Appendix 19",
+        "reference": "LP-APP19-1998",
+        "document-status": "adopted",
+        "endpoint": "ac63112955a0de1627015890560044e64a81db8dbdddabe7553c5ff313119500"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1269.pdf&ver=1500",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Proposals Map and Key",
+        "reference": "PM-1998",
+        "document-status": "adopted",
+        "endpoint": "314bd586ae6bf0e412fa5276a194c84ea60cf90a4c49b4d566c5cb95f25a0080"
+      },
+      {
+        "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1268.pdf&ver=1499",
+        "documentation-url": "https://www.castlepoint.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Proposals Map Town Centre Inserts",
+        "reference": "PM-TC-1998",
+        "document-status": "adopted",
+        "endpoint": "ba5b4656196208005917191304c97cc557523aa44ecb60b9eb92c59d73530dc7"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CAS",
+    "organisation-name": "Castle Point Borough Council",
+    "reference": "LP-CAS-2025",
+    "documentation-url": "https://consultation.castlepoint.gov.uk/cpplan/",
+    "document-url": "",
+    "name": "Castle Point Plan 2026-2043",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2026,
+    "period-end-date": 2043,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://consultation.castlepoint.gov.uk/cpplan/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Castle Point Plan Regulation 19 Further Consultation",
+        "reference": "LP-REG19-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consultation.castlepoint.gov.uk/cpplan/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment of the Castle Point Plan (Regulation 19 Draft)",
+        "reference": "EIA-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consultation.castlepoint.gov.uk/cpplan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal and Strategic Environmental Assessment of the Castle Point Plan (Regulation 19 Draft)",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consultation.castlepoint.gov.uk/cpplan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment of the Castle Point Plan (Regulation 19 Draft)",
+        "reference": "HRA-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

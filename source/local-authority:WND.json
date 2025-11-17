@@ -1,0 +1,196 @@
+[
+  {
+    "organisation": "local-authority:WND",
+    "organisation-name": "London Borough of Wandsworth",
+    "reference": "LP-WND-2022",
+    "documentation-url": "https://www.wandsworth.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Wandsworth Local Plan",
+    "status": "examination",
+    "year": 2022,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/8006/wandsworth_elps_final_report.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "local-plan",
+        "name": "Employment Land and Premises Study",
+        "reference": "ELPS-2020",
+        "document-status": "adopted",
+        "endpoint": "d90dd37ab46e4fb9ed23aac89f8c9aea1dae8572837ea02974315127afaadd1d"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/4734/employment_land_and_premises_study_2016.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "local-plan",
+        "name": "Employment Land and Premises Study",
+        "reference": "ELPS-2016",
+        "document-status": "adopted",
+        "endpoint": "e99c02d9e08b2a71f08a38b698b81f0856547b3361652d076c41c92c134a31a9"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10142/level_2_strategic_flood_risk_assessment_addendum_january_2022.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 Strategic Flood Risk Assessment - Addendum",
+        "reference": "SFRA-2022",
+        "document-status": "adopted",
+        "endpoint": "dee80ba26c0943c500e3d6fe6c3c1ab1ef1b0fecc359c56596e77766a5406d0c"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/8134/level_2_strategic_flood_risk_assessment.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 Strategic Flood Risk Assessment",
+        "reference": "SFRA-L2-2020",
+        "document-status": "adopted",
+        "endpoint": "2cc9acf2ca1e5aebce3d61348539c3303ece814c756a7db1bc02b48eba63017b"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/8061/level_1_strategic_flood_risk_assessment.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 1 Strategic Flood Risk Assessment",
+        "reference": "SFRA-L1-2020",
+        "document-status": "adopted",
+        "endpoint": "e564c75d8b3bacb51a004061894a47eb65d49278a9c116a40f3744832be044a2"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/s4hkz22d/wandsworth_housing_needs_assessment.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Housing Needs Assessment",
+        "reference": "SHMA-2024",
+        "document-status": "adopted",
+        "endpoint": "546bb02584092e7406c22caa45cd89787712d9b0a25cf2edc18fa74e02f5f3cd"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10209/housing_and_economic_land_availability_assessment_january_2022.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "local-plan",
+        "name": "Housing and Economic Land Availability Assessment",
+        "reference": "HELAA-2022",
+        "document-status": "adopted",
+        "endpoint": "7255f9d9aab98f962052c3d6a346889e7d71fea0946b176ed2e65c80bdca588c"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10143/local_housing_needs_assessment_first_homes.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Local Housing Needs Assessment - First Homes",
+        "reference": "SHMA-FH-2021",
+        "document-status": "adopted",
+        "endpoint": "60ea8ad6a79ea057bbe4fb63d934015c54a373f7bb65b96a64c7dd0a35365ef1"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/8015/local_housing_needs_assessment_december_2020.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Local Housing Needs Assessment",
+        "reference": "SHMA-2020",
+        "document-status": "adopted",
+        "endpoint": "812932c492a5d8f1696ea669ea51fb44ac0127e77cc1081703446ca2b4d77961"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/1432/shma_update_2014.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment Update 2014",
+        "reference": "SHMA-2014",
+        "document-status": "adopted",
+        "endpoint": "1b6b50642a452780eec0a799a200432b85c92248bd28b903820554cbf7a9461f"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/4732/strategic_housing_market_assessment_2012.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment",
+        "reference": "SHMA-2012",
+        "document-status": "adopted",
+        "endpoint": "8f86f561aab0942407dce349be6be2e0a7c646da4362836c5f3895b1e7b09670"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/skspyrcf/infrastructure_delivery_plan_2024.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan",
+        "reference": "IDP-2024",
+        "document-status": "adopted",
+        "endpoint": "bb8fc8a02681254cb9de3167e41e9ecc23a0f1f9cf812bd69899337f128356fe"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10144/site_allocation_assessment_methodology_paper.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "site-allocations",
+        "name": "Site Allocations Methodology Paper",
+        "reference": "SA-DPD-2022",
+        "document-status": "adopted",
+        "endpoint": "45126d30a9026d81ecb3fd5d754ec961b8ce36bfa2a4f886d03ec54871064171"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10138/draft_local_plan_sustainability_appraisal.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal for Draft Local Plan (Regulation 19)",
+        "reference": "SA-R19-2022",
+        "document-status": "consultation",
+        "endpoint": "f27a5afd3c6b9b831d951c08eac05631156fcedab6f8e96ee4b98b1a1e501222"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/8008/pre_publication_sustainability_appraisal.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal for Draft Local Plan (Regulation 18)",
+        "reference": "SA-R18-2020",
+        "document-status": "consultation",
+        "endpoint": "71ac2a758f9950b7d2638e7740b117d84c437078b8f41482be34cc1b4d1571ee"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/6956/wandsworth_local_plan_2016_sustainability_appraisal.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "sustainability-appraisal",
+        "name": "Local Plan 2016 Sustainability Appraisal - second Proposed Submission Version",
+        "reference": "SA-2016",
+        "document-status": "consultation",
+        "endpoint": "46d944d83d6cb952fd602c1693fe8596fc848ca5399cb2f514e84851e952c564"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/6957/local_plan_employment_and_industry_sustainability_appraisal_adoption_statement_2018.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "ed8af2bfceb268047e5ceb53de15afc8c8b360b6757baeba56cf058774e0392e"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/10150/whole_plan_viability_assessment_january_2022.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "viability-assessment",
+        "name": "Whole Plan Viability Assessment",
+        "reference": "VA-2022",
+        "document-status": "adopted",
+        "endpoint": "f8635cedbb58a751be1a39c93091cd0b732c612d2bcc9745cd4b2cda2f4d62b9"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/eftffga3/local_plan_partial_review_whole_plan_viability_assessment.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "viability-assessment",
+        "name": "Partial Review Whole Plan Viability Assessment",
+        "reference": "VA-PR-2024",
+        "document-status": "adopted",
+        "endpoint": "44f90a61a94ed0abd0596c7af379cc58eb0adbc99309bf5b52bfb4e5c5516832"
+      },
+      {
+        "document-url": "https://www.wandsworth.gov.uk/media/1429/lb_wandsworth_aheva_update_june.pdf",
+        "documentation-url": "https://www.wandsworth.gov.uk/planning-and-building-control/planning-policy/local-plan/local-plan-evidence-base/",
+        "document-type": "viability-assessment",
+        "name": "Affordable Housing Economic Viability Assessment Update",
+        "reference": "VA-AH-2013",
+        "document-status": "adopted",
+        "endpoint": "5edda3938b466c93e3351564e87400a8e5cf0ee8486a3ba20d38284998c9681f"
+      }
+    ]
+  }
+]

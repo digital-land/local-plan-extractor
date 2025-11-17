@@ -1,0 +1,48 @@
+[
+  {
+    "organisation": "local-authority:BRM",
+    "organisation-name": "Bromsgrove District Council",
+    "reference": "LP-BRM-2023",
+    "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/bromsgrove-district-local-plan-draft-development-strategy-consultation/",
+    "document-url": "",
+    "name": "Bromsgrove District Local Plan - Draft Development Strategy",
+    "status": "regulation-18",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bromsgrove.gov.uk/business/property-developers/local-plans-and-planning-policy/",
+        "document-type": "local-plan",
+        "name": "Bromsgrove District Local Plan - Draft Development Strategy Consultation",
+        "reference": "LP-DRAFT-2023",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BRM",
+    "organisation-name": "Bromsgrove District Council",
+    "reference": "LP-BRM-ADOPTED",
+    "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/",
+    "document-url": "",
+    "name": "Adopted Local Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.bromsgrove.gov.uk/business/property-developers/local-plans-and-planning-policy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Development Plan",
+        "reference": "LP-ADOPTED",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  }
+]

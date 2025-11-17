@@ -1,0 +1,196 @@
+[
+  {
+    "organisation": "local-authority:WKF",
+    "organisation-name": "Wakefield Metropolitan District Council",
+    "reference": "LP-WKF-2024",
+    "documentation-url": "https://www.wakefield.gov.uk/localplan",
+    "document-url": "https://www.wakefield.gov.uk/media/cezexgd0/volume-1-development-strategy-strategic-and-local-policies.pdf",
+    "name": "Wakefield District Local Plan 2036",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/cezexgd0/volume-1-development-strategy-strategic-and-local-policies.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Volume 1 Development Strategy, Strategic and Local Policies",
+        "reference": "LP-VOL1-2024",
+        "document-status": "adopted",
+        "endpoint": "dadb4733017de53a4f56f2014014e1848c425b5ea83056cd0dcffb1acda6ab9d"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/sgqhjxbi/volume-2-settlement-specific-policies.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Volume 2 Settlement Specific Policies",
+        "reference": "LP-VOL2-2024",
+        "document-status": "adopted",
+        "endpoint": "f2d98c9611f125c5fbd2a7316e712a4a750cffcc2beebb33bef867c3b93eb11a"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/rpchul21/schedule-of-policy-renumbering.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Schedule of Policy Renumbering",
+        "reference": "LP-SCHED-2024",
+        "document-status": "adopted",
+        "endpoint": "5f04399ea2d351c15e2a71cd564641f2096ff9c5313393f9bd4174285ba74be8"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/fdkpo1ln/policies-map-northern.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Policies Map - Northern",
+        "reference": "PM-NORTH-2024",
+        "document-status": "adopted",
+        "endpoint": "b916641ff7b86244b12807bdac586bd36f364ba800c1fb3a6c28b099b7b16b1c"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/53ig0f12/policies-map-south-east.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Policies Map - South East",
+        "reference": "PM-SE-2024",
+        "document-status": "adopted",
+        "endpoint": "974ba3985caf6287ef4d2cecf5e5a62d10a6c5663169daad6b15ed5dc785b9f4"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/zebnska3/policies-map-western.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Policies Map - Western",
+        "reference": "PM-WEST-2024",
+        "document-status": "adopted",
+        "endpoint": "2988bc0eea89de18775f56a755cac619cd639b95969f030fca9714dcb4374aa0"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/132bp1fm/local-plan-inset-maps-northern.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Inset Maps - Northern",
+        "reference": "PM-INSET-N-2024",
+        "document-status": "adopted",
+        "endpoint": "e6093b3d021b2984441704cf9192c32c74f65633247ee11c0672d4fda80a089b"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/osta042l/local-plan-inset-maps-se-western.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Inset Maps - SE Western",
+        "reference": "PM-INSET-SEW-2024",
+        "document-status": "adopted",
+        "endpoint": "8e0581645c150f8081bf0f9534ac51081ae1144aae205357084835555b9c8708"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/qzvpru05/local-plan-inset-maps-wakefield-city.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Inset Maps - Wakefield City",
+        "reference": "PM-INSET-WC-2024",
+        "document-status": "adopted",
+        "endpoint": "456e653c496607d00c275778b448826134f45455a77bd3b04bda6be5fb5f807f"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/mh1am0kh/mineral-safeguarding-area.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Mineral Safeguarding Area Map",
+        "reference": "PM-SAFEGUARD-2024",
+        "document-status": "adopted",
+        "endpoint": "bd7b4fe42f3b8410a4de25629f6e644cda2bff8b9e9315a912ed8e7d15eec9a4"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/prpivwib/hot-food-takeaway-exclusion-area.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Hot Food Takeaway Exclusion Area Map",
+        "reference": "PM-HFT-2024",
+        "document-status": "adopted",
+        "endpoint": "d2f98daa6318fe588c64a9fff18fa72b176f1a4a74762a036b8f798caa4d0204"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/wfqn3qs1/housing-viability-value-area.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Housing Viability Value Areas Map",
+        "reference": "PM-HVVA-2024",
+        "document-status": "adopted",
+        "endpoint": "4758a39aa315672a51244c87d349ef48aa9065bf44422523aecf4addcc9542b5"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/lraf4pac/nppf-revised-hft-excl-area-a1l-map.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Hot Food Takeaway Exclusion Map Revised",
+        "reference": "PM-HFT-REV-2024",
+        "document-status": "adopted",
+        "endpoint": "d6c5bdc2a57096170e74e2f6c3e5c8e5d87e1062ca6acc9758ab797b95fb3388"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/3ioft42d/local-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "d90401afe11775d2101e7f7043911f8d5b9b7d759128eb69f4574f1fadb73c29"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/yfgmjqnz/sustainability-appraisal-post-adoption-statement.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-AS-2024",
+        "document-status": "adopted",
+        "endpoint": "0102302b7e717992173d759193c79e2ee6141a09f5fe9a9e03dfbbec4f17bf63"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/orblqn1c/wakefield-district-local-plan-203-final-sa-report.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Wakefield District Local Plan 2036 Final SA Report",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "353ec6870eaafd721f929e534b084c88821412ad9eb1696c85c88a2c48562afb"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/nscd3kfx/sa-report-appendices-d-e-january-2024.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report Appendices D-E January 2024",
+        "reference": "SA-APP-DE-2024",
+        "document-status": "adopted",
+        "endpoint": "b390a03c9b9593d78c2737b8159c61c93bfdf32e0c271c0412a1d4bdc3a1b79b"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/cutg1bna/sa-report-appendices-f-january-2024.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report Appendices F January 2024",
+        "reference": "SA-APP-F-2024",
+        "document-status": "adopted",
+        "endpoint": "c1046157012e1b0534967ca39bfb6ef973c62b5f75ecf6080c019e699337cb6e"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/imfhr2cd/sa-report-appendices-g-i-january-2024.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report Appendices G-I January 2024",
+        "reference": "SA-APP-GI-2024",
+        "document-status": "adopted",
+        "endpoint": "25514bd7e9111d2ea8c1900df13544b3b84ccad8851127bee1082ae57b5993eb"
+      },
+      {
+        "document-url": "https://www.wakefield.gov.uk/media/iejhthtr/sa-addendum.pdf",
+        "documentation-url": "https://www.wakefield.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Addendum October 2021",
+        "reference": "SA-ADD-2021",
+        "document-status": "examination",
+        "endpoint": "ee98a45d4d24c61f6ef1e2ea66760ef17df9119f1edb4a4a5c0347eacae00cc0"
+      }
+    ]
+  }
+]
