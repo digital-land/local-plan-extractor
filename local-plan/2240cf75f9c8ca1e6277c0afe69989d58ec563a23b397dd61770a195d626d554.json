@@ -1,0 +1,29 @@
+{
+  "name": "City of London Local Plan",
+  "organisation-name": "City of London Corporation",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London Corporation",
+      "required-housing": 1647,
+      "allocated-housing": 0,
+      "windfall-housing": 1647,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 110,
+      "pages": "16, 175, 176, 183",
+      "notes": "Plan relies entirely on windfall development with no allocated housing sites. Document states 'All housing sites in the City are windfall sites'. Annual requirement of 110 units from London Plan minimum target. Housing trajectory shows total 1,647 units 2011-2026.",
+      "organisation": "local-authority:LND"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2240cf75f9c8ca1e6277c0afe69989d58ec563a23b397dd61770a195d626d554",
+  "pdf_file": "collection/document/2240cf75f9c8ca1e6277c0afe69989d58ec563a23b397dd61770a195d626d554.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LND",
+  "local-plan-boundary": "E60000189",
+  "local-planning-authorities": [
+    "E60000189"
+  ]
+}

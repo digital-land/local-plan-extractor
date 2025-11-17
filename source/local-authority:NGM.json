@@ -2,10 +2,33 @@
   {
     "organisation": "local-authority:NGM",
     "organisation-name": "Nottingham City Council",
+    "reference": "LP-NGM-2014",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+    "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+    "name": "Nottingham City Aligned Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Nottingham City Aligned Core Strategy - ACS (2014)",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NGM",
+    "organisation-name": "Nottingham City Council",
     "reference": "LP-NGM-2020",
     "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
     "document-url": "https://www.nottinghamcity.gov.uk/media/blqmbjvu/land-and-planning-policies-document-lapp-2020.pdf",
-    "name": "Land and Planning Policies Document - LAPP (2020)",
+    "name": "Land and Planning Policies Document",
     "status": "adopted",
     "year": 2020,
     "period-start-date": "",
@@ -33,41 +56,54 @@
         "document-url": "https://www.nottinghamcity.gov.uk/media/ki0f2yed/inspector-report-letter-report-and-mm-schedule.pdf",
         "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
         "document-type": "inspectors-report",
-        "name": "Inspector's Report Letter Report and MM Schedule",
+        "name": "Inspector's Report",
         "reference": "IR-2020",
         "document-status": "adopted",
         "endpoint": "5673bb52c120053087cccf09f957ea0573cd0ef690ca93533799634484acf04c"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NGM",
-    "organisation-name": "Nottingham City Council",
-    "reference": "LP-NGM-2014",
-    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
-    "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
-    "name": "Nottingham City Aligned Core Strategy - ACS (2014)",
-    "status": "adopted",
-    "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
+      },
       {
-        "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
-        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
-        "document-type": "core-strategy",
-        "name": "Nottingham City Aligned Core Strategy - ACS (2014)",
-        "reference": "CS-2014",
-        "document-status": "adopted",
-        "endpoint": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988"
+        "document-url": "https://www.nottinghamcity.gov.uk/media/ic1evbvn/lapp-preferred-option-document-september-2013-4-web-final-1.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/the-local-plan-and-planning-policy/previous-stages-of-the-local-plan-part-2/",
+        "document-type": "local-plan",
+        "name": "Land and Planning Policies Document - Preferred Option, September 2013",
+        "reference": "LP-PREFERRED-2013",
+        "document-status": "consultation",
+        "endpoint": "309b8571cd06b8e3b2824dc240bfe6dba11fcc16bf0d36eb66655f45a831d7dd"
+      },
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/0gmmojsk/lapp-policies-map-revisions-sep-2013-1.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/the-local-plan-and-planning-policy/previous-stages-of-the-local-plan-part-2/",
+        "document-type": "policies-map",
+        "name": "Policies Maps Revisions, September 2013",
+        "reference": "PM-2013",
+        "document-status": "consultation",
+        "endpoint": "c00e58c91edc8ac38cd009488d0e81c9c508506f29e3be496c2c0417e83cef4b"
+      },
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/z4hfb0km/report-of-consultation.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/the-local-plan-and-planning-policy/previous-stages-of-the-local-plan-part-2/",
+        "document-type": "local-plan",
+        "name": "Report of Consultation for the Issues and Option and Additional Sites Consultations, September 2013",
+        "reference": "ROC-2013",
+        "document-status": "consultation",
+        "endpoint": "8c78e731527c55279ee609c90aa9aa0cb1fa06a286d5307eda1365a22e9d154e"
+      },
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/f2fptwdo/sustainability-appraisal-1.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/information-for-business/planning-and-building-control/planning-policy/the-local-plan-and-planning-policy/previous-stages-of-the-local-plan-part-2/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal, September 2013",
+        "reference": "SA-2013",
+        "document-status": "consultation",
+        "endpoint": "3954e15f4c84f3642c10700ed56ed811a96d53710f17462366086a276feb0721"
       }
     ]
   },
   {
     "organisation": "local-authority:NGM",
     "organisation-name": "Nottingham City Council",
-    "reference": "LP-NGM-2025",
-    "documentation-url": "https://www.gnplan.org.uk/consultations/",
+    "reference": "LP-NGM-2041",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
     "document-url": "",
     "name": "Greater Nottingham Strategic Plan",
     "status": "regulation-19",

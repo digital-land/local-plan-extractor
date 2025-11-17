@@ -1,0 +1,72 @@
+{
+  "name": "Aligned Core Strategies",
+  "organisation-name": "Broxtowe Borough Council, Gedling Borough Council, Nottingham City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxtowe Borough Council",
+      "required-housing": 6150,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 362,
+      "pages": "47, 55, 126, 229",
+      "notes": "Housing provision includes strategic sites like Boots/Severn Trent, Field Farm, and Strategic Location for Growth at Toton. Annual target varies across plan period as shown in housing trajectory.",
+      "organisation": "local-authority:BRT"
+    },
+    {
+      "organisation-name": "Gedling Borough Council",
+      "required-housing": 7250,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 427,
+      "pages": "47, 55, 126, 231",
+      "notes": "Housing provision includes strategic sites like Teal Close, Gedling Colliery/Chase Farm, Top Wighay Farm, and North of Papplewick Lane. Annual target varies across plan period.",
+      "organisation": "local-authority:GED"
+    },
+    {
+      "organisation-name": "Nottingham City Council",
+      "required-housing": 17150,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1009,
+      "pages": "47, 55, 126, 233",
+      "notes": "Housing provision includes Regeneration Zones (Eastside, Southside, Waterside), Boots Campus, and Stanton Tip. Annual target varies across plan period as shown in housing trajectory.",
+      "organisation": "local-authority:NGM"
+    },
+    {
+      "organisation-name": "Broxtowe Borough Council, Gedling Borough Council, Nottingham City Council",
+      "organisation": "joint-planning-authority:BRT-GED-NGM",
+      "required-housing": 30550,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 1798,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988",
+  "pdf_file": "collection/document/4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:BRT-GED-NGM",
+  "organisations": [
+    "local-authority:BRT",
+    "local-authority:GED",
+    "local-authority:NGM"
+  ],
+  "local-plan-boundary": "E60000108-E60000109-E60000075",
+  "local-planning-authorities": [
+    "E60000108",
+    "E60000109",
+    "E60000075"
+  ]
+}

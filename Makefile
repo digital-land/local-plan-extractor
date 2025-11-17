@@ -8,7 +8,8 @@ SOURCE_DATA=\
 	$(CACHE_DIR)organisation.csv\
 	$(CACHE_DIR)local-planning-authority.csv\
 	$(CACHE_DIR)local-planning-authority.geojson\
-	$(CACHE_DIR)local-plan-document-type.csv
+	$(CACHE_DIR)local-plan-document-type.csv\
+	$(CACHE_DIR)local-planning-authority-lookup.csv
 
 CORE_DOCUMENTS=$(wildcard document/*.pdf)
 

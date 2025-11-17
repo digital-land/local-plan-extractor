@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Local Plan: Strategic Policies 2010-2030",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": 52500,
+      "allocated-housing": "",
+      "windfall-housing": 7200,
+      "committed-housing": 21752,
+      "broad-locations-housing": 1200,
+      "annual-required-housing": 2625,
+      "pages": "22, 27-28, 38, 88",
+      "notes": "52,500 total requirement over 20 years. Committed housing is sites with planning permission not yet started/under construction. Windfall is for sites under 10 homes 2021-30. Broad locations refers to 1,200 eco-community homes at West Carclaze/Baal and Par Docks. 13,991 completions 2010-16 already delivered. Specific site allocations to be determined in separate Site Allocations DPD.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77",
+  "pdf_file": "collection/document/1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}
