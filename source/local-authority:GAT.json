@@ -2,6 +2,92 @@
   {
     "organisation": "local-authority:GAT",
     "organisation-name": "Gateshead Metropolitan Borough Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-GAT-2015",
+    "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+    "document-url": "https://www.gateshead.gov.uk/media/7765/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle/pdf/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle_SMALLER.pdf?m=1526313509250",
+    "name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne, 2010-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2010,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/7765/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle/pdf/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle_SMALLER.pdf?m=1526313509250",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+        "document-type": "core-strategy",
+        "name": "Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne, 2010-2030",
+        "reference": "CS-2010-2030",
+        "document-status": "adopted",
+        "endpoint": "079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1972/Inspectors-Final-Report-2014/pdf/Inspectors-Final-Report.pdf?m=1531312873687",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+        "document-type": "local-plan",
+        "name": "The Inspectors Report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "5e2507f38bef60e9c5493ba89def1041fac9c79909cc640e4b7b4b3d157c7044"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1977/Inspectors-Report-appendix-main-modifications/pdf/Main-Modifcations.pdf?m=1531312898397",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+        "document-type": "main-modifications",
+        "name": "Annex 1 - Main modifications",
+        "reference": "MM-2014",
+        "document-status": "adopted",
+        "endpoint": "57f20860a9c75ad4c8f93e85f176572a6d5de63bb03c5610b1658a52580bdc75"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1904/Adoption-Statement/pdf/Adoption-Statement.pdf?m=1531310685127",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "9f63322e7f045dc8cef91d60469373bf4f19fb958f0d73488747bfaae3d2f795"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1905/Sustainability-Appraisal-Adoption-Statement/pdf/Sustatinability-Appraisal-Adoption-Statement.pdf?m=1531313356737",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2015",
+        "document-status": "adopted",
+        "endpoint": "0e88c62f69521ce42dccd5a79493b4b55687b557a7e4cde73ef6ca9a70ce431f"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1877/EL07-Core-Strategy-and-Urban-Core-Plan-Sustainability-Appraisal-Report/pdf/EL07.-Core-Strategy-and-Urban-Core-Plan-Sustainability-Appraisal-Report.pdf?m=1530187636313",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3348/Local-Plan-evidence-library",
+        "document-type": "sustainability-appraisal",
+        "name": "Gateshead and Newcastle Councils Core Strategy and Urban Core Plan Sustainability Appraisal Report",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "8c4974c09f47d05d24d3532935bcf3eb49ebdfd3fec5def2cfee8465988ebada"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GAT",
+    "organisation-name": "Gateshead Metropolitan Borough Council",
+    "reference": "LP-GAT-2025",
+    "documentation-url": "https://www.gateshead.gov.uk/article/3001/Local-Plan",
+    "document-url": "https://www.gateshead.gov.uk/media/45424/Gateshead-Local-Plan-Review-March-2025/pdf/Gateshead_Local_Plan_Review_31st_March_2025.pdf?m=1743446758253",
+    "name": "Local Plan Review - March 2025",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/45424/Gateshead-Local-Plan-Review-March-2025/pdf/Gateshead_Local_Plan_Review_31st_March_2025.pdf?m=1743446758253",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3001/Local-Plan",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review March 2025",
+        "reference": "LPR-2025",
+        "document-status": "draft",
+        "endpoint": "c2f5c8d4668b0245437ced5ad1498dac87b2c7db7778b2b135a9545aaa8c854c"
+      }
+    ]
   }
 ]
