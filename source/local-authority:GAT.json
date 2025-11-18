@@ -5,7 +5,7 @@
     "reference": "LP-GAT-2015",
     "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
     "document-url": "https://www.gateshead.gov.uk/media/7765/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle/pdf/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle_SMALLER.pdf?m=1526313509250",
-    "name": "Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne, 2010-2030",
+    "name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne, 2010-2030",
     "status": "adopted",
     "year": 2015,
     "period-start-date": 2010,
@@ -55,6 +55,15 @@
         "reference": "SA-AS-2015",
         "document-status": "adopted",
         "endpoint": "0e88c62f69521ce42dccd5a79493b4b55687b557a7e4cde73ef6ca9a70ce431f"
+      },
+      {
+        "document-url": "https://www.gateshead.gov.uk/media/1877/EL07-Core-Strategy-and-Urban-Core-Plan-Sustainability-Appraisal-Report/pdf/EL07.-Core-Strategy-and-Urban-Core-Plan-Sustainability-Appraisal-Report.pdf?m=1530187636313",
+        "documentation-url": "https://www.gateshead.gov.uk/article/3348/Local-Plan-evidence-library",
+        "document-type": "sustainability-appraisal",
+        "name": "Gateshead and Newcastle Councils Core Strategy and Urban Core Plan Sustainability Appraisal Report",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "8c4974c09f47d05d24d3532935bcf3eb49ebdfd3fec5def2cfee8465988ebada"
       }
     ]
   },
@@ -64,8 +73,8 @@
     "reference": "LP-GAT-2025",
     "documentation-url": "https://www.gateshead.gov.uk/article/3001/Local-Plan",
     "document-url": "https://www.gateshead.gov.uk/media/45424/Gateshead-Local-Plan-Review-March-2025/pdf/Gateshead_Local_Plan_Review_31st_March_2025.pdf?m=1743446758253",
-    "name": "Gateshead Local Plan Review - March 2025",
-    "status": "adopted",
+    "name": "Local Plan Review - March 2025",
+    "status": "draft",
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
@@ -76,7 +85,7 @@
         "document-type": "local-plan-review",
         "name": "Local Plan Review March 2025",
         "reference": "LPR-2025",
-        "document-status": "adopted",
+        "document-status": "draft",
         "endpoint": "c2f5c8d4668b0245437ced5ad1498dac87b2c7db7778b2b135a9545aaa8c854c"
       }
     ]
