@@ -1144,6 +1144,7 @@ class LocalPlanFinder:
                 or ".doc" in href.lower()
                 or "/downloads/" in href.lower()
                 or "/download/" in href.lower()
+                or "/media/" in href.lower()  # Media storage (PDFs, docs, etc.)
                 or "download.cfm" in href.lower()  # ColdFusion download handler
                 or "download.aspx" in href.lower()  # ASP.NET download handler
                 or "download.php" in href.lower()  # PHP download handler
@@ -1219,6 +1220,7 @@ class LocalPlanFinder:
                         normalized_url.endswith(('.pdf', '.doc', '.docx'))
                         or '/downloads/file/' in normalized_url  # Birmingham's file download pattern
                         or '/documents/d/' in normalized_url  # Mid Suffolk's document pattern
+                        or '/media/' in normalized_url  # Media storage (usually files)
                         or 'download.cfm?' in normalized_url  # Arun's download handler
                         or 'download.aspx?' in normalized_url
                         or 'getfile.aspx?' in normalized_url
@@ -2165,6 +2167,7 @@ Status values:
                 # Try to extract local plan links and PDFs
                 try:
                     import requests
+                    import cloudscraper
 
                     response = requests.get(
                         result["url"],
@@ -2175,6 +2178,22 @@ Status values:
                         allow_redirects=True,
                         verify=False,
                     )
+
+                    # If we get 403, try cloudscraper to bypass Cloudflare
+                    if response.status_code == 403:
+                        try:
+                            scraper = cloudscraper.create_scraper()
+                            response = scraper.get(
+                                result["url"],
+                                headers={
+                                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                                },
+                                timeout=15,
+                                allow_redirects=True,
+                            )
+                        except Exception:
+                            response.status_code = 0  # Fallback
+
                     if response.status_code == 200:
                         links = finder.extract_local_plan_links(
                             result["url"], response.text
