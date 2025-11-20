@@ -1,0 +1,9 @@
+{
+  "resource": "48c86e00356ee58dd9ea366aa00ada21313a3d08",
+  "endpoint-url": "https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf",
+  "entry-date": "2025-11-20T15:06:27.750050Z",
+  "status": "200",
+  "elapsed": "0.000",
+  "content-type": "application/pdf",
+  "bytes": "56108537"
+}
