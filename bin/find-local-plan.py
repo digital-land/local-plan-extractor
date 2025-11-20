@@ -357,6 +357,80 @@ class LocalPlanFinder:
         org_data = self.organisations.get(org_code)
         return org_data["website"] if org_data and org_data["website"] else None
 
+    def _call_claude_with_retry(self, prompt: str, max_retries: int = 5) -> dict:
+        """Call Claude API with automatic retry on 529 (overloaded) errors.
+
+        Args:
+            prompt: The prompt to send to Claude
+            max_retries: Maximum number of retry attempts (default: 5)
+
+        Returns:
+            The API response message object
+
+        Raises:
+            Exception: If all retries fail
+        """
+        import time
+
+        print(f"[DEBUG] _call_claude_with_retry called, max_retries={max_retries}", file=sys.stderr)
+        sys.stderr.flush()
+
+        for attempt in range(max_retries):
+            print(f"[DEBUG] Attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+            sys.stderr.flush()
+            try:
+                print(f"[DEBUG] About to call client.messages.create", file=sys.stderr)
+                sys.stderr.flush()
+                message = self.client.messages.create(
+                    model="claude-sonnet-4-20250514",
+                    max_tokens=4096,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                print(f"[DEBUG] API call succeeded, returning message", file=sys.stderr)
+                sys.stderr.flush()
+                return message
+
+            except Exception as e:
+                # Debug: log exception type and message
+                error_str = str(e)
+                error_type = type(e).__name__
+                print(f"[DEBUG] Exception type: {error_type}, message: {error_str[:200]}", file=sys.stderr)
+
+                # Check if it's a 529 overloaded error
+                is_429_or_529 = False
+                is_overloaded = False
+                status_code = None
+
+                # Try to get status code if it's an APIStatusError
+                if hasattr(e, 'status_code'):
+                    status_code = e.status_code
+                    is_429_or_529 = status_code in (429, 529)
+                    print(f"[DEBUG] Status code found: {status_code}", file=sys.stderr)
+
+                # Check error message
+                error_msg_lower = error_str.lower()
+                is_overloaded = "overloaded" in error_msg_lower or "rate" in error_msg_lower or "429" in error_str or "529" in error_str
+
+                if is_429_or_529 or is_overloaded:
+                    if attempt < max_retries - 1:
+                        # Calculate exponential backoff: (2^attempt) * 5 seconds (5s, 10s, 20s, 40s, 80s)
+                        wait_time = (2 ** attempt) * 5
+                        status_info = f" (status {status_code})" if status_code else ""
+                        print(
+                            f"API overloaded{status_info}. Retrying in {wait_time}s... (attempt {attempt + 1}/{max_retries})",
+                            file=sys.stderr,
+                        )
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        # Final attempt failed, raise the error
+                        print(f"[DEBUG] Max retries reached, raising exception", file=sys.stderr)
+                        raise
+                else:
+                    # Not a rate limit error, fail immediately
+                    print(f"[DEBUG] Not a rate limit error, failing immediately", file=sys.stderr)
+                    raise
+
     def construct_likely_urls(
         self, org_name: str, official_website: Optional[str] = None, org_code: Optional[str] = None
     ) -> List[Dict[str, str]]:
@@ -1896,11 +1970,12 @@ OTHER FIELDS:
 Provide ONLY the JSON array response, no other text."""
 
         try:
-            message = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=4096,
-                messages=[{"role": "user", "content": prompt}],
-            )
+            # Call Claude with automatic retry on 529 errors
+            print(f"[DEBUG] About to call _call_claude_with_retry", file=sys.stderr)
+            sys.stderr.flush()
+            message = self._call_claude_with_retry(prompt)
+            print(f"[DEBUG] Successfully got response from Claude", file=sys.stderr)
+            sys.stderr.flush()
 
             # Extract the response text
             response_text = ""
@@ -2045,6 +2120,8 @@ Provide ONLY the JSON array response, no other text."""
                     ]
 
         except Exception as e:
+            print(f"[DEBUG] Caught exception in outer handler: {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
+            sys.stderr.flush()
             return [
                 {
                     "organisation": org_code,
