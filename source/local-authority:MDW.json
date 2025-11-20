@@ -2,8 +2,31 @@
   {
     "organisation": "local-authority:MDW",
     "organisation-name": "Medway Council",
+    "reference": "LP-MDW-2003",
+    "documentation-url": "https://www.medway.gov.uk/info/200149/planning_policy/146/current_planning_policies/3",
+    "document-url": "https://www.medway.gov.uk/download/downloads/id/2400/medway_local_plan_2003.pdf",
+    "name": "Medway Local Plan 2003",
+    "status": "adopted",
+    "year": 2003,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.medway.gov.uk/download/downloads/id/2400/medway_local_plan_2003.pdf",
+        "documentation-url": "https://www.medway.gov.uk/downloads/file/2400/medway_local_plan_2003",
+        "document-type": "local-plan",
+        "name": "Medway Local Plan 2003",
+        "reference": "LP-2003",
+        "document-status": "adopted",
+        "endpoint": "750484ac0682f1f3bc19d7d6bfcc1f0e1f458754d0d548f83b7c00743e1dad2a"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MDW",
+    "organisation-name": "Medway Council",
     "reference": "LP-MDW-2041",
-    "documentation-url": "https://www.medway.gov.uk/localplan",
+    "documentation-url": "https://www.medway.gov.uk/info/200542/medway_local_plan_2041",
     "document-url": "",
     "name": "Medway Local Plan 2041",
     "status": "regulation-19",
@@ -12,72 +35,14 @@
     "period-end-date": 2041,
     "documents": [
       {
-        "document-url": "https://medway.oc2.uk/docfiles/20/Consultation%20Summary.pdf",
-        "documentation-url": "https://www.medway.gov.uk/info/200542/medway_local_plan_2040/1681/about_the_local_plan/3",
+        "document-url": "https://www.medway.gov.uk/download/downloads/id/8413/medway_land_availability_assessment_september_2023.pdf",
+        "documentation-url": "https://www.medway.gov.uk/downloads/200149/planning_policy",
         "document-type": "local-plan",
-        "name": "Consultation Summary",
-        "reference": "LP-CONSULTATION-2024",
+        "name": "Medway Land Availability Assessment September 2023",
+        "reference": "LAA-2023",
         "document-status": "consultation",
-        "endpoint": "2f291eecc493403d30f3c546b3e9d75e557948ef56f849c72e3b87bf52040564"
-      },
-      {
-        "document-url": "https://www.medway.gov.uk/downloads/file/6239/medway_local_housing_needs_assessment_2021",
-        "documentation-url": "https://www.medway.gov.uk/localplan",
-        "document-type": "strategic-housing-market-assessment",
-        "name": "Medway local housing needs assessment 2021",
-        "reference": "SHMA-2021",
-        "document-status": "adopted",
-        "endpoint": "4e0c5b47e9df3d73c52c009e9af95e44173307e4189f70b6760776bfc73804b8"
-      },
-      {
-        "document-url": "https://www.medway.gov.uk/downloads/file/633/strategic_housing_market_assessment_shma",
-        "documentation-url": "https://www.medway.gov.uk/localplan",
-        "document-type": "strategic-housing-market-assessment",
-        "name": "Strategic Housing Market Assessment 2015",
-        "reference": "SHMA-2015",
-        "document-status": "adopted",
-        "endpoint": "1fdd5c9c333ec5e366eeca99768cc99e1c6755ee36744c4f1b5a90a549a3c607"
-      },
-      {
-        "document-url": "https://www.medway.gov.uk/downloads/file/6216/medway_council_strategic_flood_risk_assessment_1_april_2020",
-        "documentation-url": "https://www.medway.gov.uk/localplan",
-        "document-type": "strategic-flood-risk-assessment",
-        "name": "Medway Council Strategic Flood Risk Assessment 1 April 2020",
-        "reference": "SFRA-2020",
-        "document-status": "adopted",
-        "endpoint": "526e161275c475026eefb302fbd45c85f046230923ae201824926c45253b7783"
-      },
-      {
-        "document-url": "https://www.medway.gov.uk/downloads/file/6218/medway_level_2_sfra_sept_2021_rev1",
-        "documentation-url": "https://www.medway.gov.uk/localplan",
-        "document-type": "strategic-flood-risk-assessment",
-        "name": "Medway Level 2 SFRA September 2021",
-        "reference": "SFRA-L2-2021",
-        "document-status": "adopted",
-        "endpoint": "865e33cfd2e6461c0ed5f537e1ce485dac71557749f9eeb92e68b624c61a37be"
-      },
-      {
-        "document-url": "https://www.medway.gov.uk/downloads/file/2340/medway_landscape_character_assessment_main_report_2011",
-        "documentation-url": "https://www.medway.gov.uk/localplan",
-        "document-type": "landscape-character-assessment",
-        "name": "Landscape Character Assessment 2011",
-        "reference": "LCA-2011",
-        "document-status": "adopted",
-        "endpoint": "af0b55c4b2b65eaa9c59965df2198f0c0b1245bdc182ff956583cd8426e78898"
+        "endpoint": "479ce039ee90583465995e479c846777326033194d85bd359baa027e43430c35"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:MDW",
-    "organisation-name": "Medway Council",
-    "reference": "LP-MDW-2003",
-    "documentation-url": "https://www.medway.gov.uk/planningpolicy",
-    "document-url": "",
-    "name": "Medway Local Plan 2003",
-    "status": "adopted",
-    "year": 2003,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
   }
 ]

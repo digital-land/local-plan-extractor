@@ -631,11 +631,21 @@ class LocalPlanFinder:
             "local-authority:MDB": [  # Middlesbrough
                 "/planning-and-development/planning-policy/publication-local-plan/",
             ],
+            "local-authority:MDW": [  # Medway
+                "/tasks/planning-services/planning-policy/local-plan/",
+                "/tasks/planning-services/planning-policy/",
+            ],
             "local-authority:MIK": [  # Milton Keynes
                 "/planning-and-building/developingmk/planmk",
             ],
             "local-authority:NEC": [  # Newcastle-under-Lyme
                 "/planning-policy/current-development-plan",
+            ],
+            "local-authority:NNO": [  # North Norfolk
+                "/tasks/planning-services/planning-policy/local-plan-current/",
+                "/tasks/planning-services/planning-policy/local-plan-new/",
+                "/tasks/planning-services/planning-policy/",
+                "/tasks/planning-services/planning-policy/core-strategy/",
             ],
             "local-authority:NTY": [  # North Tyneside
                 "/residents/planning/planning-policy/local-plan",
