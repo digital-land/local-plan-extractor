@@ -2,32 +2,149 @@
   {
     "organisation": "local-authority:SWK",
     "organisation-name": "London Borough of Southwark",
-    "reference": "LP-SWK-2024",
-    "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/current-and-future-development",
-    "document-url": "",
-    "name": "Southwark Current and Future Development Plan",
+    "reference": "LP-SWK-2022",
+    "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+    "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%202022%20reduced%201.pdf",
+    "name": "Southwark Plan 2022",
     "status": "adopted",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "year": 2022,
+    "period-start-date": 2019,
+    "period-end-date": 2036,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.southwark.gov.uk/planning",
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%202022%20reduced%201.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
         "document-type": "local-plan",
-        "name": "Current and future development",
-        "reference": "LP-2024",
+        "name": "The Southwark Plan 2022",
+        "reference": "LP-2022",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "00be45ea33f11ff68d3a1018bf3f7801aa624bf04519b71ab170c4357a7affdf"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.southwark.gov.uk/planning",
-        "document-type": "strategic-environmental-assessment",
-        "name": "Building regulations",
-        "reference": "BR-2024",
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%20strategic%20policies%20section.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-0",
+        "document-type": "core-strategy",
+        "name": "Southwark Plan: strategic policies",
+        "reference": "CS-2022",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "60414da01017bbc8ee30a19722e1c9606306ee59ce4b1dc906d4cd862bf292dc"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%20development%20management%20policies.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-0",
+        "document-type": "development-management-policies",
+        "name": "Southwark Plan: development management policies",
+        "reference": "DMP-2022",
+        "document-status": "adopted",
+        "endpoint": "dea74ace958b3ecd5e4bdc3dfecd999262e358f166bc782660f7e3752284c916"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20plan%20area%20visions.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-0",
+        "document-type": "local-plan",
+        "name": "Southwark Plan: area visions",
+        "reference": "AV-2022",
+        "document-status": "adopted",
+        "endpoint": "1cbd47a69c74afb06e4521d8ffb8eb95e8d06a67803baba9fa3327fbc3b2f6cb"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20plan%20implementation%20policies.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-0",
+        "document-type": "local-plan",
+        "name": "Southwark Plan: implementation policies",
+        "reference": "IP-2022",
+        "document-status": "adopted",
+        "endpoint": "f21da0aaa94bb6f19714135227b650657cd332e32cd7f30ffcf2ef24bdef9d9f"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Integrated%20Impact%20Assessment%20Report%20and%20Appendices%20February%202022%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "Integrated impact assessment",
+        "reference": "IIA-2022",
+        "document-status": "adopted",
+        "endpoint": "c6d2befe8d1a45af70ae574df8b3b801f111ed58754abb8d63e50247013966cb"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Equalities%20Impact%20Assessment%20Full%20Assessment%20February%202022%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities impact assessment (EQIA)",
+        "reference": "EQIA-2022",
+        "document-status": "adopted",
+        "endpoint": "8d027586b258ad2f9f137bf9ac7e06847150ee71dba2f26d331d3de48ce430a7"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Habitats%20Regulation%20Assessment%20February%202022%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "Habitats regulation assessment",
+        "reference": "HRA-2022",
+        "document-status": "adopted",
+        "endpoint": "85e9620d5d839c8b86965b0cbe1a9781f70260d6d35d5b11c4e12543bca4928c"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-12/NSP%20Inspectors%20Report%20%282%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "inspectors-report",
+        "name": "Inspector's report",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "05baca3c869afa701f17414fb19c79ed31a6e70c22863a960634053205fa146a"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/adoption%20statement%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "adoption-statement",
+        "name": "plan's adoption statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "b4e5b206393f6c744dfe51587a418541fa1e671917adff880f0a4d6bbe9a7c0d"
+      },
+      {
+        "document-url": "https://moderngov.southwark.gov.uk/documents/s105154/Report%20Adoption%20of%20Southwark%20Plan%202022.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "Council Assembly report",
+        "reference": "CAR-2022",
+        "document-status": "adopted",
+        "endpoint": "9921a78a232c2da5d76b30b8e720f9c1dcb59990fd8c655b36aab5785cfb9be7"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%202022%20glossary%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "Southwark Plan glossary",
+        "reference": "GLOSS-2022",
+        "document-status": "adopted",
+        "endpoint": "842d86ad98b2d3d121b49c8ee0903c8c64f376122ce6a8c0104e02bee0c84401"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Southwark%20Plan%202022%20validation%20requirements%20and%20relevant%20planning%20documents%201_0.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-0",
+        "document-type": "local-plan",
+        "name": "validation requirements and document",
+        "reference": "VR-2022",
+        "document-status": "adopted",
+        "endpoint": "61d0a572946634505d646dc555996c9832240fb4ba970291668b3a4c4cce8cb8"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Equalities%20Impact%20Assessment%20Appendices%20February%202022%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "EQIA appendices",
+        "reference": "EQIA-APP-2022",
+        "document-status": "adopted",
+        "endpoint": "88875dfc8f640eda39638f7443edc183c584771fb909e2bbc1e163bd968f9893"
+      },
+      {
+        "document-url": "https://www.southwark.gov.uk/sites/default/files/2024-09/Equalities%20Impact%20Assessment%20summary%20February%202022%20%281%29.pdf",
+        "documentation-url": "https://www.southwark.gov.uk/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+        "document-type": "local-plan",
+        "name": "assessment summary",
+        "reference": "AS-SUM-2022",
+        "document-status": "adopted",
+        "endpoint": "42ca7feb1bc92540bb97a7055b988e64e6c68d86def2f284452357dbd9b16f00"
       }
     ]
   }

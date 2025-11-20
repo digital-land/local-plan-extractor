@@ -3,85 +3,189 @@
     "organisation": "local-authority:PLY",
     "organisation-name": "Plymouth City Council",
     "reference": "LP-PLY-2019",
-    "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
-    "document-url": "",
-    "name": "Plymouth and South West Devon Joint Local Plan",
+    "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+    "document-url": "https://www.plymouth.gov.uk/sites/default/files/JLPAdoptedVersion.pdf",
+    "name": "Plymouth and South West Devon Joint Local Plan 2014-2034",
     "status": "adopted",
     "year": 2019,
     "period-start-date": 2014,
     "period-end-date": 2034,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/JLPAdoptedVersion.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
-        "name": "Adopted Plymouth and South West Devon Joint Local Plan",
+        "name": "Plymouth and South West Devon Joint Local Plan (March 2019)",
         "reference": "LP-2014-2034",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "3dc257cf3db6ff9b34a5647d54f443e411cac8795c0cb3e93a0af8f6027e2ef7"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/2024-03/Plymouth-South-West-Devon-Joint-Local-Plan-Review.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
-        "name": "Statement from Joint Local Plan Partnership Board",
-        "reference": "JLP-STATEMENT-2025",
+        "name": "Plymouth and South West Devon Joint Local Plan Five Year Review Report 2024",
+        "reference": "LPR-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "c59cd88acef16171da0ed4c22a630497b72f7712050db150c0cc29e380ce0ba2"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/JLPAdoptionStatement.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Plymouth and South West Devon Joint Local Plan Adoption Statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "1ad11899e37c8bb79dc5cd4fc227605624b18d996e40446ab7163bb58b6f7f32"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/PoliciesMapPPA.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map: Plymouth Policy Area",
+        "reference": "PM-PPA-2019",
+        "document-status": "adopted",
+        "endpoint": "077cfecf58ab2f5e59b26a2f65c401ca0cfe90918a9ef31579bf97ccc3ac4d9b"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/PoliciesMapTTVSH.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map: Thriving Towns and Villages Policy Area (South Hams)",
+        "reference": "PM-TTVSH-2019",
+        "document-status": "adopted",
+        "endpoint": "676a1f0939cee374a2342a650bf618dd77d894018fd300df8e1cdbd6aae2d574"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/PoliciesMapTTVWD.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "policies-map",
+        "name": "Policies Map: Thriving Towns and Villages Policy Area (West Devon)",
+        "reference": "PM-TTVWD-2019",
+        "document-status": "adopted",
+        "endpoint": "c932fe5c4e39ed7ee3c18069df88c81049ee2617234c088933a4de894da16c36"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/JLPSAAdoptionStatement.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "2d8b10acf2fa183a93bc77fd09f310ad6314c4b0d24f88a47268e693a13c9a6e"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/PSWDJLPFinalReport.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
         "document-type": "local-plan",
-        "name": "Post adoption consultations and emerging evidence",
-        "reference": "POST-ADOPT-CONSULT",
+        "name": "Inspectors' Final Report on the Examination of the Plymouth and South West Devon Joint Local Plan 2014 to 2034",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "4422497e916c6944fbbf627d07886f1867615659cb2c6571e3192f53990af8ee"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/PSWDJLPMMAppendix.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "main-modifications",
+        "name": "Inspectors' Final Report: Appendix: Main Modifications",
+        "reference": "MM-2019",
+        "document-status": "adopted",
+        "endpoint": "7d6f807b70cd89961d12de6997b9ef86a7f22af48332a6b0276e24c352cb71e9"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/ScheduleofAMs_0.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/adopted-plymouth-and-south-west-devon-joint-local-plan",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications",
+        "reference": "AM-2019",
+        "document-status": "adopted",
+        "endpoint": "5123551d2112d83d2f2d5a76ed1d5a8592bd7e1e3ac9a5b4b5e05ab8a2e93527"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/EXL1%20Examination%20Library_v57_1.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/evidence-base-and-examination-documents",
+        "document-type": "local-plan",
+        "name": "Examination Library (Version 57)",
+        "reference": "EL-2019",
+        "document-status": "adopted",
+        "endpoint": "4397810b21be7dfd0dec7ce9b17cca75b2b87a931de1432e4141058e14734c43"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:PLY",
+    "organisation-name": "Plymouth City Council",
+    "reference": "LP-PLY-2020",
+    "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+    "document-url": "https://www.plymouth.gov.uk/sites/default/files/LGSDPDDesignationCriteriaDocument.pdf",
+    "name": "Local Green Space Development Plan Document",
+    "status": "draft",
+    "year": 2020,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/LGSDPDDesignationCriteriaDocument.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "local-plan",
+        "name": "LGS DPD Designation Criteria Document",
+        "reference": "LGS-DPD-2020",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "f6fc5205c16be887198346cf581226cb062e5d7a45460295f680d45f2be294bc"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/ConsultationResponseReport.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
         "document-type": "local-plan",
-        "name": "View the interactive Plymouth and South West Devon Joint Local Plan",
-        "reference": "JLP-INTERACTIVE",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan",
-        "document-type": "local-plan",
-        "name": "Evidence base, past consultations and examination",
-        "reference": "JLP-EVIDENCE-BASE",
-        "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
-        "document-type": "supplementary-planning-document",
-        "name": "Adopted Supplementary Planning Document",
-        "reference": "SPD-ADOPTED",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
-        "document-type": "statement-of-community-involvement",
-        "name": "Adopted Statement of Community Involvement",
-        "reference": "SCI-ADOPTED",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.plymouth.gov.uk/planning-policy-and-guidance",
-        "document-type": "local-plan",
-        "name": "Local Green Space Development Plan Document",
-        "reference": "LGS-DPD",
+        "name": "Consultation Response Report",
+        "reference": "CRR-2020",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "2b683c45fb28aa6edad9eacdbb079d0ef83fa2d55133e980ba84f405833853f7"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/AmendedLocalGreenSpaceMethodology.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "local-plan",
+        "name": "Amended Local Green Space Methodology",
+        "reference": "LGS-METH-2020",
+        "document-status": "consultation",
+        "endpoint": "b1a0e272884c70a3c4c0abf8c9a81cad66434a272ee6563dc5de4ec0fdfbf33a"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/AmendedLocalGreenSpaceAssessmentForm.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "local-plan",
+        "name": "Amended Local Green Space Assessment Form",
+        "reference": "LGS-AF-2020",
+        "document-status": "consultation",
+        "endpoint": "21e8055f35ee8176b92d939d3fa51181948ccb5c50f2fb48407dda97186dfa7e"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/StageAIntegratedReportSASEAHIA2020.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Stage A Integrated Report SA SEA HIA 2020",
+        "reference": "SA-A-2020",
+        "document-status": "consultation",
+        "endpoint": "24d836a36cb0ff298050a441800997261066fd3b41ce8d8b1c919f7beeb3b513"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/StageBReportSASEALGSDPDDesignationCriteriaDocument.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Stage B Report SA SEA LGS DPD Designation Criteria Document",
+        "reference": "SA-B-2020",
+        "document-status": "consultation",
+        "endpoint": "1ed21fce42a82246b5ed1dee29db26abada9641e4ae9e9508a545df0c58c1554"
+      },
+      {
+        "document-url": "https://www.plymouth.gov.uk/sites/default/files/LGSDPDDesignationCriteriaConsultationStatement.pdf",
+        "documentation-url": "https://www.plymouth.gov.uk/local-green-space-development-plan-document",
+        "document-type": "consultation-statement",
+        "name": "LGS DPD Designation Criteria Consultation Statement",
+        "reference": "CS-2020",
+        "document-status": "consultation",
+        "endpoint": "849a2e7498fcc729780d2325e74e0ba48ff121fa08530e516ef12ab5be8b14f5"
       }
     ]
   }

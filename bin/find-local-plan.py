@@ -357,6 +357,53 @@ class LocalPlanFinder:
         org_data = self.organisations.get(org_code)
         return org_data["website"] if org_data and org_data["website"] else None
 
+    def get_manually_configured_documents(self, org_code: str) -> Optional[List[Dict]]:
+        """Return manually configured local plan documents for councils protected by WAF/Incapsula.
+
+        These are councils where HTML scraping is blocked by security measures like Incapsula,
+        but documents are directly accessible via known URLs.
+
+        Args:
+            org_code: Organisation code (e.g., "local-authority:STH")
+
+        Returns:
+            List of configured documents, or None if not configured
+        """
+        # Manual configurations for councils protected by Incapsula/WAF
+        manual_configs = {
+            "local-authority:STH": [  # Southampton City Council - Incapsula protected
+                {
+                    "organisation": "local-authority:STH",
+                    "organisation-name": "Southampton City Council",
+                    "reference": "LP-STH-2015",
+                    "documentation-url": "https://www.southampton.gov.uk/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                    "document-url": "https://www.southampton.gov.uk/media/io4midh4/amended-core-strategy-inc-cspr-final-13-03-2015_tcm63-371354.pdf",
+                    "name": "Amended Core Strategy (including Core Strategy Partial Review)",
+                    "status": "adopted",
+                    "year": 2015,
+                    "period-start-date": 2011,
+                    "period-end-date": 2026,
+                    "documents": [
+                        {
+                            "document-url": "https://www.southampton.gov.uk/media/io4midh4/amended-core-strategy-inc-cspr-final-13-03-2015_tcm63-371354.pdf",
+                            "documentation-url": "https://www.southampton.gov.uk/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                            "document-type": "core-strategy",
+                            "name": "Amended Core Strategy",
+                            "reference": "CS-2015",
+                            "document-status": "adopted",
+                            "endpoint": "manual-config-sth-cs-2015"
+                        }
+                    ]
+                }
+            ]
+        }
+
+        if org_code in manual_configs:
+            print(f"Using manually configured documents for {org_code} (Incapsula-protected)", file=sys.stderr)
+            return manual_configs[org_code]
+
+        return None
+
     def _call_claude_with_retry(self, prompt: str, max_retries: int = 5) -> dict:
         """Call Claude API with automatic retry on 529 (overloaded) errors.
 
@@ -672,8 +719,20 @@ class LocalPlanFinder:
             "local-authority:SND": [  # Sunderland
                 "/article/15978/Core-Strategy-and-Development-Plan",
             ],
+            "local-authority:STH": [ # Southampton
+                "/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                "/planning/planning-policy/adopted-plans/",
+                "/planning/planning-policy/",
+                "/planning-policy/adopted-plans/",
+            ],
+            "local-authority:SWK": [ # Southwark
+                "/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+            ],
             "local-authority:STY": [  # South Tyneside
                 "/article/3663/Local-Plan",
+            ],
+            "local-authority:STT": [  # Stockton-on-Tees
+                "/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
             ],
             "local-authority:TAN": [  # Tandridge
                 "/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
@@ -1350,10 +1409,12 @@ class LocalPlanFinder:
             }
 
             # Try standard requests first
+            response = None
             try:
                 response = requests.get(
                     url, headers=headers, timeout=15, allow_redirects=True, verify=False
                 )
+                print(f"  HTTP {response.status_code}", file=sys.stderr)
                 response.raise_for_status()
             except requests.exceptions.HTTPError as e:
                 # If we get a 403 (Forbidden), it might be Cloudflare protection - try cloudscraper
@@ -1371,6 +1432,15 @@ class LocalPlanFinder:
                         return "", False
                 else:
                     raise
+
+            if not response:
+                print(f"  No response received", file=sys.stderr)
+                return "", False
+
+            # Check for Incapsula/WAF blocks
+            if "Incapsula incident ID" in response.text or "REQUEST_UNSUCCESSFUL" in response.text:
+                print(f"  Incapsula WAF blocking - cannot access this page", file=sys.stderr)
+                return "", False
 
             # Only process HTML content
             content_type = response.headers.get("content-type", "").lower()
@@ -1398,6 +1468,7 @@ class LocalPlanFinder:
             if len(text) > 100:  # Minimum viable content (lowered for SharePoint pages)
                 return text, True
             else:
+                print(f"  Content too short: {len(text)} chars", file=sys.stderr)
                 return "", False
 
         except requests.exceptions.Timeout:
@@ -1527,6 +1598,11 @@ class LocalPlanFinder:
                     break
 
         if not pages_content:
+            # Check if we have manually configured documents for this council (e.g., WAF-protected)
+            manual_docs = self.get_manually_configured_documents(org_code)
+            if manual_docs:
+                return manual_docs
+
             return [
                 {
                     "organisation": org_code,
