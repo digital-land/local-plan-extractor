@@ -89,6 +89,17 @@ Authorities:
 - South Hams District Council (SHA)
 - West Devon District Council (WDE)
 
+### Stoke-on-Trent and Newcastle-under-Lyme Joint Local Development Framework
+
+Website: https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework
+
+Authorities:
+
+- Newcastle-under-Lyme Borough Council (NEC)
+- Stoke-on-Trent City Council (STE)
+
+**Status:** Adopted Core Spatial Strategy (2006-2026)
+
 ### South Worcestershire Development Plan (NOT included in automated scraping)
 
 Website: https://www.swdevelopmentplan.org/

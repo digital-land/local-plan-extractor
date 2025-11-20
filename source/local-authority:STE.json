@@ -2,6 +2,29 @@
   {
     "organisation": "local-authority:STE",
     "organisation-name": "Stoke-on-Trent City Council",
+    "reference": "LP-STE-NEC-2007",
+    "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
+    "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
+    "name": "Stoke-on-Trent and Newcastle-under-Lyme Joint Local Development Framework Core Spatial Strategy 2006-2026",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
+        "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
+        "document-type": "core-strategy",
+        "name": "Joint Core Spatial Strategy",
+        "reference": "CSS-2006-2026",
+        "document-status": "adopted",
+        "endpoint": "joint-nec-ste-css-2007"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STE",
+    "organisation-name": "Stoke-on-Trent City Council",
     "reference": "LP-STE-2024",
     "documentation-url": "https://www.stoke.gov.uk/info/20071/stoke-on-trent_local_plan",
     "document-url": "",

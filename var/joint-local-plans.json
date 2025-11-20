@@ -155,6 +155,20 @@
       ],
       "joint-plan-website": "https://www.westdevon.gov.uk/your-council/council-plans-policies-and-reports/policies/planning-policies/plymouth-and-south-west",
       "notes": "Shares local plan with Plymouth and South Hams"
+    },
+    "local-authority:NEC": {
+      "name": "Newcastle-under-Lyme Borough Council",
+      "joint-plan-name": "Stoke-on-Trent and Newcastle-under-Lyme Joint Local Development Framework",
+      "joint-plan-authorities": ["local-authority:NEC", "local-authority:STE"],
+      "joint-plan-website": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
+      "notes": "Shares local plan with Stoke-on-Trent"
+    },
+    "local-authority:STE": {
+      "name": "Stoke-on-Trent City Council",
+      "joint-plan-name": "Stoke-on-Trent and Newcastle-under-Lyme Joint Local Development Framework",
+      "joint-plan-authorities": ["local-authority:NEC", "local-authority:STE"],
+      "joint-plan-website": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
+      "notes": "Shares local plan with Newcastle-under-Lyme"
     }
   }
 }
