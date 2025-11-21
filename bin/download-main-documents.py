@@ -19,6 +19,20 @@ Usage:
     python bin/download-main-documents.py --limit 10
     python bin/download-main-documents.py --authority local-authority:BUC
     python bin/download-main-documents.py --resume
+
+To retry only failed authorities:
+    python bin/download-main-documents.py --retry-failed
+    python bin/download-main-documents.py --retry-failed --limit 10
+
+To retry only authorities with no main document:
+    python bin/download-main-documents.py --retry-no-document
+    python bin/download-main-documents.py --retry-no-document --limit 20
+    
+State file: collection/download_state.json
+  - Tracks which authorities have been processed
+  - Tracks which documents were successfully downloaded
+  - Tracks authorities with no eligible documents
+  - Persists progress so the script can be resumed
 """
 
 import argparse
