@@ -401,54 +401,9 @@
       "url": "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087"
     },
     {
-      "org_code": "local-authority:WAW",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan"
-    },
-    {
       "org_code": "national-park-authority:Q5225646",
       "reason": "HTTP error 404",
       "url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0031/571819/Dartmoor-Local-Plan-20182036.pdf"
-    },
-    {
-      "org_code": "local-authority:BOT",
-      "reason": "HTTP error 403",
-      "url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483"
-    },
-    {
-      "org_code": "local-authority:CHR",
-      "reason": "HTTP error 404",
-      "url": "https://www.cherwell.gov.uk/download/downloads/id/9831/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf"
-    },
-    {
-      "org_code": "local-authority:CLD",
-      "reason": "HTTP error 404",
-      "url": "https://www.calderdale.gov.uk/sites/default/files/2023-12/Local-Plan-Written-Statement.pdf"
-    },
-    {
-      "org_code": "local-authority:EHE",
-      "reason": "HTTP error 403",
-      "url": "https://www.eastherts.gov.uk/sites/default/files/documents/Direction_Schedule_of_Saved_Policies-_Redacted.pdf"
-    },
-    {
-      "org_code": "local-authority:FYL",
-      "reason": "HTTP error 404",
-      "url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf"
-    },
-    {
-      "org_code": "local-authority:LEE",
-      "reason": "HTTP error 403",
-      "url": "https://www.lewes-eastbourne.gov.uk/media/1739/Local-Plan-Part-2-2020/pdf/Local_Plan_Part_2_2020.pdf?m=1682441636643"
-    },
-    {
-      "org_code": "local-authority:NOW",
-      "reason": "HTTP error 404",
-      "url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J2.1%20The%20Strategy.pdf"
-    },
-    {
-      "org_code": "local-authority:SHO",
-      "reason": "HTTP error 403",
-      "url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483"
     }
   ],
   "no_document": [
@@ -604,16 +559,7 @@
     "national-park-authority:Q72617784",
     "national-park-authority:Q72617890",
     "national-park-authority:Q72617988",
-    "development-corporation:Q72463795",
-    "local-authority:AMB",
-    "local-authority:ASH",
-    "local-authority:BAS",
-    "local-authority:BDF",
-    "local-authority:BPC",
-    "local-authority:BPL",
-    "local-authority:BRA",
-    "local-authority:BRC",
-    "local-authority:BRD"
+    "development-corporation:Q72463795"
   ],
   "downloaded": [
     "7f041bda223256571c31efd7187ed1d429503421982cc864b137188af9f06564",
