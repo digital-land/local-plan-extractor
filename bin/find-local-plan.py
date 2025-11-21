@@ -660,6 +660,10 @@ class LocalPlanFinder:
                 "/Documents/planning/planning%20policy",
                 "/Documents/planning/planning policy",
             ],
+            "local-authority:HIN": [  # Hinckley and Bosworth
+                "/downloads/file/6356/final_adopted_strategic_growth_plan",
+                "/downloads/1004/planning_policy_and_the_local_plan",
+            ],
             "local-authority:HOR": [  # Horsham
                 "/planning/local-plan/read-the-current-local-plan",
             ],
@@ -734,11 +738,19 @@ class LocalPlanFinder:
             "local-authority:STT": [  # Stockton-on-Tees
                 "/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
             ],
+            "local-authority:SWD": [  # Swindon
+                "/downloads/file/3988/swindon_borough_local_plan_2026",
+                "/download/downloads/id/3988/swindon_borough_local_plan_2026.pdf",
+            ],
             "local-authority:TAN": [  # Tandridge
                 "/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
             ],
             "local-authority:UTT": [  # Uttlesford
                 "/article/4878/Planning-Policy-and-the-Local-Plan",
+            ],
+            "local-authority:WAW": [  # Warwick
+                "/downloads/file/4623/new_local_plan",
+                "/download/downloads/id/4623/new_local_plan.pdf",
             ],
             "local-authority:WGN": [  # Wigan
                 "/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",

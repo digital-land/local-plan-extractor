@@ -3,67 +3,135 @@
     "organisation": "local-authority:BIR",
     "organisation-name": "Birmingham City Council",
     "reference": "LP-BIR-2017",
-    "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
-    "document-url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
+    "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
+    "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5433/adopted_birmingham_development_plan_2031.pdf",
     "name": "Birmingham Development Plan 2031",
     "status": "adopted",
     "year": 2017,
-    "period-start-date": 2011,
+    "period-start-date": "",
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5433/adopted_birmingham_development_plan_2031.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
         "document-type": "local-plan",
         "name": "Adopted Birmingham Development Plan 2031",
         "reference": "LP-2031",
         "document-status": "adopted",
-        "endpoint": "23699d938f6a0d10771836fec5e7e10569133d17faa81a3c88f572268061128b"
+        "endpoint": "d65b8e4393e79f24a5de6df386cca240846e4d7fc4a39a6a467e9d50d7a38549"
       },
       {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/5431/final_adoption_statement",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5431/final_adoption_statement.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
         "document-type": "adoption-statement",
-        "name": "Adoption Statement",
+        "name": "Final adoption statement",
         "reference": "AS-2017",
         "document-status": "adopted",
-        "endpoint": "f34d95e87f70c6baa3d6a9e0901221ec84f3d45cd5abc3eb532aff3deac1a6b8"
+        "endpoint": "898e1c72ad3a0f2699888803ae1a2bd21abc7cb0fdf4b9a6d580ae4af02b8b9e"
       },
       {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/5432/final_revised_sustainability_report_june_2015",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
-        "document-type": "sustainability-appraisal",
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5432/final_revised_sustainability_report_june_2015.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
+        "document-type": "local-plan",
         "name": "Final Revised Sustainability Report June 2015",
         "reference": "SA-2015",
         "document-status": "adopted",
-        "endpoint": "fa96ec8f40f1a8c9393c318c8b2bc35b228d290bacba640d13e091710eec46c0"
+        "endpoint": "27494be2bbe4976281dfee2d230f0ef69e4d8affceae9eaf04d26d6f984e72f8"
       },
       {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/5438/sa_post_adoption_statement",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5438/sustainability_appraisal_post_adoption_statement.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
         "document-type": "adoption-statement",
         "name": "Sustainability Appraisal Post Adoption Statement",
-        "reference": "SA-AS-2017",
+        "reference": "SAPAS-2017",
         "document-status": "adopted",
-        "endpoint": "12914c7bdb8ea96d90a87252a56812868d906d1cc43a00790dbcf66236194b10"
+        "endpoint": "7fc7e06d3fdce4604805631089c0b10168290b444bda3a6fd77fd7b26cfc78f9"
       },
       {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/5484/birmingham_development_plan_policies_map",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
-        "document-type": "policies-map",
-        "name": "Birmingham Development Plan Policies Map",
-        "reference": "PM-2017",
-        "document-status": "adopted",
-        "endpoint": "0ec69530a7cadf78a359a86926e36b170b3824b9e751387f5cf2b043f3f8a008"
-      },
-      {
-        "document-url": "https://www.birmingham.gov.uk/downloads/file/10736/green_infrastructure_network",
-        "documentation-url": "https://www.birmingham.gov.uk/info/20054/local_plan_documents/78/birmingham_development_plan",
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/10736/green_infrastructure_network.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/download/1139/adopted_birmingham_development_plan",
         "document-type": "green-and-blue-infrastructure",
-        "name": "Green Infrastructure Network Illustration",
+        "name": "Green Infrastructure Network",
         "reference": "GIN-2017",
         "document-status": "adopted",
-        "endpoint": "35e2121879014e2a3abe654602ca3ce0acd09efd8b00508f476b5c8d5a1ca684"
+        "endpoint": "680d06f4e02fcf105df10a9a9da688c2d09adb59cbb9d2aaa47a20d43a2a6905"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1175/gypsy_and_traveller_accommodation_assessment_2019.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Gypsy and Traveller Accommodation Assessment 2019",
+        "reference": "GTAA-2019",
+        "document-status": "adopted",
+        "endpoint": "c26aa2445afee782ec9795b62a4d1188ed584e9d5397cee9c999b64067c4e236"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1447/affordable_housing_viability_study_report_2010.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "viability-assessment",
+        "name": "Affordable Housing Viability Study Report 2010",
+        "reference": "VA-2010",
+        "document-status": "adopted",
+        "endpoint": "6c6cfe639ec5e2850d76dcc7e1785942adf98bde0e162c164becc6ba59a048b7"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1203/level_1_strategic_flood_risk_assessment.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 1 Strategic Flood Risk Assessment",
+        "reference": "SFRA-L1",
+        "document-status": "adopted",
+        "endpoint": "b7e53c5f37cfeacb6c923bc3fd18ff3e8961d9fc04372953bee278461e2f7cd7"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1461/level_2_strategic_flood_risk_assessment.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 2 Strategic Flood Risk Assessment",
+        "reference": "SFRA-L2",
+        "document-status": "adopted",
+        "endpoint": "1451d3cc4f254c9dbcae51fa7f1660ee381b16c97a47fcc22951b9f209eb7288"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BIR",
+    "organisation-name": "Birmingham City Council",
+    "reference": "LP-BIR-BCP",
+    "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+    "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1024/big_city_plan_part_1.pdf",
+    "name": "Big City Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1024/big_city_plan_part_1.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Big City Plan: Part 1",
+        "reference": "BCP-P1",
+        "document-status": "adopted",
+        "endpoint": "db3110effc6f0e25bb43bdac410db60bf220f2bc43474b08c07b16230e1da56a"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1025/big_city_plan_part_2.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Big City Plan: Part 2",
+        "reference": "BCP-P2",
+        "document-status": "adopted",
+        "endpoint": "a715d2edf35d2da6f9ab4a32220dd6c7a3bc6d18d8e84f789c15323cae05532b"
+      },
+      {
+        "document-url": "https://www.birmingham.gov.uk/download/downloads/id/843/big_city_plan_boundary_map.pdf",
+        "documentation-url": "https://www.birmingham.gov.uk/downloads/20054/local_plan_documents",
+        "document-type": "local-plan",
+        "name": "Big City Plan: Boundary map",
+        "reference": "BCP-BM",
+        "document-status": "adopted",
+        "endpoint": "b2bd71c7940ecc823d44120649cc79bd06bba1fd74b4d9d88a0b0f93c9faafb6"
       }
     ]
   }

@@ -2,114 +2,181 @@
   {
     "organisation": "local-authority:SWD",
     "organisation-name": "Swindon Borough Council",
-    "reference": "LP-SWD-2019",
-    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
+    "reference": "LP-SWD-2015",
+    "documentation-url": "https://www.swindon.gov.uk/localplan",
     "document-url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026",
     "name": "Swindon Borough Local Plan 2026",
     "status": "adopted",
-    "year": 2019,
+    "year": 2015,
     "period-start-date": "",
     "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/3988/swindon_borough_local_plan_2026.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Swindon Borough Local Plan 2026",
         "reference": "LP-2026",
         "document-status": "adopted",
-        "endpoint": "f1eba26b474e0d9c2b36d89831cd21176f76558e9f1492b0defaf2372f0e68b9"
-      },
-      {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/3989/inspectors_report_on_swindon_borough_local_plan_2026",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "inspectors-report",
-        "name": "Inspector's report on Swindon Borough Local Plan 2026",
-        "reference": "IR-2026",
-        "document-status": "adopted",
-        "endpoint": "01a9bee6f8d217acbf5fc012e8c4e57816dc8393816e09148889947e6fae62ba"
-      },
-      {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/4205/statement_of_community_involvement_in_planning",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "statement-of-community-involvement",
-        "name": "Statement of Community Involvement in Planning",
-        "reference": "SCI-2019",
-        "document-status": "adopted",
-        "endpoint": "0b2abe1a71256c86313780718daca3bc7fb59374be0478cf5b775700393b7794"
+        "endpoint": "69e9b943ab4477b480cb7d7900181c36c9fa6e8318a0a0027115d2d78bea8065"
       }
     ]
   },
   {
     "organisation": "local-authority:SWD",
     "organisation-name": "Swindon Borough Council",
-    "reference": "LP-SWD-2013",
-    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
-    "document-url": "https://www.swindon.gov.uk/downloads/file/2734/swindon_central_area_action_plan",
-    "name": "Swindon Central Area Action Plan",
-    "status": "adopted",
-    "year": 2013,
-    "period-start-date": "",
-    "period-end-date": "",
+    "reference": "LP-SWD-2043",
+    "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+    "document-url": "https://www.swindon.gov.uk/downloads/file/11660/0101_local_plan_2023_to_2043_regulation_18",
+    "name": "Swindon Local Plan 2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2043,
     "documents": [
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2734/swindon_central_area_action_plan",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "area-action-plan",
-        "name": "Swindon central area action plan",
-        "reference": "AAP-CENTRAL",
-        "document-status": "adopted",
-        "endpoint": "4ae51b5f9e55158ce4cc1f7f1d8172863d7b47e38cb515e2431a100cbf1cd9fd"
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11660/0101_local_plan_2023_to_2043_regulation_18.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan 2023 to 2043 (Regulation 18)",
+        "reference": "LP-2023-2043",
+        "document-status": "consultation",
+        "endpoint": "3eb033d29eef63838ea130a47d7fad8a2ef4259031ab927cfedd2790a1f39b2a"
       },
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2777/swindon_central_area_action_plan_part_2",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "area-action-plan",
-        "name": "Swindon central area action plan part 2",
-        "reference": "AAP-CENTRAL-P2",
-        "document-status": "adopted",
-        "endpoint": "fb4f21a12323f0de9fe2c89d9328a6c0943f062accb65baf03a435894c8b4eb2"
-      },
-      {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/2721/swindon_central_area_action_plan_proposals_map",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11755/0102_policies_map_borough.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
         "document-type": "policies-map",
-        "name": "Swindon central area action plan proposals map",
-        "reference": "PM-CENTRAL",
-        "document-status": "adopted",
-        "endpoint": "b9e30218752bd0c12279f073818926b677a1b6f5e4de11502a5a30ef591f8d31"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SWD",
-    "organisation-name": "Swindon Borough Council",
-    "reference": "LP-SWD-2026",
-    "documentation-url": "https://www.swindon.gov.uk/info/20113/local_plan_and_planning_policy",
-    "document-url": "https://www.swindon.gov.uk/downloads/file/7581/wiltshire_and_swindon_waste_core_strategy_2006-2026",
-    "name": "Wiltshire and Swindon Waste Core Strategy 2006-2026",
-    "status": "adopted",
-    "year": 2009,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
-    "documents": [
-      {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/7581/wiltshire_and_swindon_waste_core_strategy_2006-2026",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "core-strategy",
-        "name": "Wiltshire and Swindon Waste Core Strategy 2006-2026",
-        "reference": "WCS-2006-2026",
-        "document-status": "adopted",
-        "endpoint": "8ad857c3d7e5992315e5123ab86a6bb2b671e6a837ab0d678e87064f98f9eda1"
+        "name": "Policies map Borough",
+        "reference": "PM-2043",
+        "document-status": "consultation",
+        "endpoint": "8c039f41b05683610c7f6cf7919d17a24c4a68fa606624be02ee0db7b25db35c"
       },
       {
-        "document-url": "https://www.swindon.gov.uk/downloads/file/7582/wiltshire_and_swindon_waste_core_strategy_key_diagram",
-        "documentation-url": "https://www.swindon.gov.uk/downloads/20113/local_plan_and_planning_policy",
-        "document-type": "policies-map",
-        "name": "Wiltshire and Swindon Waste Core Strategy Key Diagram",
-        "reference": "PM-WCS",
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11662/0201_sustainability_appraisal_interim_report.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal: interim report",
+        "reference": "SA-2043",
+        "document-status": "consultation",
+        "endpoint": "483e6ed65abee84bab07f4423ade12f240554db2ed2765f32b3f854daeac126f"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11743/0201_sustainability_appraisal_scoping_report.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability appraisal: scoping report",
+        "reference": "SA-SCOPING-2043",
+        "document-status": "consultation",
+        "endpoint": "ccdf6883e283a105c42ee66892e173cf3b355e2e0d26a81c8ae1721a1cd898b0"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11664/0202_habitats_regulations_assessment.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats regulations assessment",
+        "reference": "HRA-2043",
+        "document-status": "consultation",
+        "endpoint": "c3ad4a754ea730b400747737ac29d6f8430e72e8066332d5ae0fe58da0234a4e"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11746/0203_viability_report_regulation_18.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "viability-assessment",
+        "name": "Viability report (Regulation 18)",
+        "reference": "VA-2043",
+        "document-status": "consultation",
+        "endpoint": "4ceb8b9332c49532b7612a43f218f787c252d82c0de42004ab932d0db94edbd6"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11666/0301_local_housing_needs_assessment_2024.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Local housing needs assessment 2024",
+        "reference": "SHMA-2024",
+        "document-status": "consultation",
+        "endpoint": "4a37c6ceab4e3f8c2f65474a730f8320f96874be8652621bf1fc44ff12cb5738"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11667/0303_strategic_housing_and_economic_land_availability_assessment_2025_regulation_18.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Strategic Housing and Economic Land Availability Assessment 2025 (Regulation 18)",
+        "reference": "SHLAA-2025",
+        "document-status": "consultation",
+        "endpoint": "828eff1ff1162aea1e02025995fc25127cc0de5029b2b6a302e9ddb309107f8e"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11819/0308_new_site_allocations_breakdown.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "site-allocations",
+        "name": "New site allocations breakdown",
+        "reference": "SA-DPD-2043",
+        "document-status": "consultation",
+        "endpoint": "a8ee486f23e7414071c714ef006507803569224ea99ed2a90d98f568801f61ce"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11669/0401_employment_needs_and_land_supply_study_final.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "employment-land-review",
+        "name": "Employment needs and land supply study: final",
+        "reference": "ELR-2043",
+        "document-status": "consultation",
+        "endpoint": "14dfa43df44da7decfb675686724eab06275e1d7dbbb105b8cb59ec92c76f280"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11671/0603_level_1_strategic_flood_risk_assessment.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Level 1 strategic flood risk assessment",
+        "reference": "SFRA-2043",
+        "document-status": "consultation",
+        "endpoint": "c65d0dfb97380d47d7aff0372d8b8ae21e9db1be7eec16b529022e5c8a247367"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11673/0605_water_cycle_study_scoping_report.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "water-cycle-study",
+        "name": "Water cycle study: scoping report",
+        "reference": "WCS-2043",
+        "document-status": "consultation",
+        "endpoint": "22dca78bd17a5694458430aee0b842c89e36232e8c2930ec6b01474746905238"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11676/0802_landscape_character_assessment.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "landscape-character-assessment",
+        "name": "Landscape character assessment",
+        "reference": "LCA-2043",
+        "document-status": "consultation",
+        "endpoint": "f6a21ff29770116ee55d43b05d87b5607c585cb0df3c7ce04fb07c6cc9fd0c86"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11687/1001_infrastructure_delivery_plan_report_regulation_18.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan report (Regulation 18)",
+        "reference": "IDP-2043",
+        "document-status": "consultation",
+        "endpoint": "00370500b67aba9f011e2c14389ec44815bfaf4b3fb2bc6b54e1943d6e68eaca"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/10354/swindon_local_development_scheme.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme (LDS)",
+        "reference": "LDS-2025",
         "document-status": "adopted",
-        "endpoint": "eb77ab469ac18ff1b378b762179958b0d4420a58419a99e3134c51c9c86b3dc7"
+        "endpoint": "651c1ced7b560ff6110ac5521f939a22b44a40ef4d694e0ef82dae7445767be1"
+      },
+      {
+        "document-url": "https://www.swindon.gov.uk/download/downloads/id/11668/0306_authority_monitoring_report_2024_to_2025.pdf",
+        "documentation-url": "https://www.swindon.gov.uk/newlocalplan",
+        "document-type": "authority-monitoring-report",
+        "name": "Authority monitoring report 2024 to 2025",
+        "reference": "AMR-2025",
+        "document-status": "adopted",
+        "endpoint": "be78e098c4c593a3fe4ae316e6b5313d67a4203ddf77a02f18751a7cc5d7b976"
       }
     ]
   }

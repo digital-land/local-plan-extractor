@@ -2,68 +2,74 @@
   {
     "organisation": "local-authority:HIN",
     "organisation-name": "Hinckley and Bosworth Borough Council",
-    "reference": "LP-HIN-2018",
-    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
-    "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
-    "name": "Leicester and Leicestershire Strategic Growth Plan",
-    "status": "adopted",
-    "year": 2018,
-    "period-start-date": 2018,
-    "period-end-date": 2050,
+    "reference": "LP-HIN-2022",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/200398/local_plan_review_2024_to_2045",
+    "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8527/hbbc_regulation_19_local_plan_2025",
+    "name": "Hinckley and Bosworth Local Plan 2024-2045",
+    "status": "regulation-19",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2045,
     "documents": [
       {
-        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
-        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
-        "document-type": "local-plan",
-        "name": "Final adopted Strategic Growth Plan",
-        "reference": "LP-2018-2050",
-        "document-status": "adopted",
-        "endpoint": "998cdc681bceef0c745da61b8646247277bac2159d5971532694e80c74cf62a8"
+        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8527/hbbc_regulation_19_local_plan_2025",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/200398/local_plan_review_2024_to_2045",
+        "document-type": "local-plan-regulation-19",
+        "name": "HBBC Regulation 18 Local Plan 2025",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": "a47c6e319ca0cf6b9381c112f5b6197a8057b2df375e1e7423b4688412d32b63"
       },
       {
-        "document-url": "https://www.llstrategicgrowthplan.org.uk/wp-content/uploads/2024/05/Strategic-Growth-Options-and-Constraints-Mapping-for-LL-Final-Report-August-2023.pdf",
-        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
-        "document-type": "local-plan",
-        "name": "Strategic Growth Options and Constraints Mapping Study",
-        "reference": "SGOCM-2023",
-        "document-status": "adopted",
-        "endpoint": "9947e981fb6ac2dbf3bfb0ac861f65a402168c7483c626ee82a94b7921caf5ab"
+        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8480/local_plan_reg_18_24_consultation_document",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/200398/local_plan_review_2024_to_2045",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan Reg 18 24 Consultation Document",
+        "reference": "LP-REG18-2024",
+        "document-status": "consultation",
+        "endpoint": "2d139e39976a41478282a0c0434f79bbbaeaec5271c67415cb85976e042f2f8c"
       },
       {
-        "document-url": "https://www.llstrategicgrowthplan.org.uk/wp-content/uploads/2024/05/Leicester-and-Leicestershire-Strategic-Transport-Assessment-Stage-1-Main-Report-V4.0-Final-with-Appendix.pdf",
-        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200323/past_consultation_2016/1284/strategic_growth_plan_for_leicester_and_leicestershire",
-        "document-type": "transport-assessment",
-        "name": "Strategic Transport Assessment Stage 1",
-        "reference": "STA-2023",
-        "document-status": "adopted",
-        "endpoint": "bcfd130aa5b00331379f06fa6c8d2dd68f59f069bc234de99d251cb9d1c373eb"
+        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8519/sustainability_appraisal_scoping_report_update_october_2025",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/200398/local_plan_review_2024_to_2045",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Scoping Report update October 2025",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "e7fb62dc74a7837a11d120991c5c03f05fa9ccaa7e2a6c586619280d0fe4a285"
+      },
+      {
+        "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8520/hinckley_and_bosworth_open_space_assessment_report_2025",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/200398/local_plan_review_2024_to_2045",
+        "document-type": "local-plan",
+        "name": "Hinckley and Bosworth Open Space Assessment Report 2025",
+        "reference": "OSA-2025",
+        "document-status": "consultation",
+        "endpoint": "fb49cdf333c2c9bb2c7ce841fb6b63c2997e50c4364409bb3d9b7ebf480f85ef"
       }
     ]
   },
   {
     "organisation": "local-authority:HIN",
     "organisation-name": "Hinckley and Bosworth Borough Council",
-    "reference": "LP-HIN-2026",
-    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/856/local_plan_2006_-_2026",
-    "document-url": "",
-    "name": "Hinckley and Bosworth Local Plan 2006 to 2026",
+    "reference": "LP-HIN-2018",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
+    "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/6356/final_adopted_strategic_growth_plan.pdf",
+    "name": "Strategic Growth Plan",
     "status": "adopted",
-    "year": 2026,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:HIN",
-    "organisation-name": "Hinckley and Bosworth Borough Council",
-    "reference": "LP-HIN-2024",
-    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/200398/Local_plan_review_2020_to_2041",
-    "document-url": "",
-    "name": "Hinckley and Bosworth Local Plan Review 2024 to 2045",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": 2024,
-    "period-end-date": 2045,
-    "documents": []
+    "year": 2018,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/6356/final_adopted_strategic_growth_plan.pdf",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan",
+        "document-type": "local-plan",
+        "name": "Final adopted Strategic Growth plan",
+        "reference": "SGP-2018",
+        "document-status": "adopted",
+        "endpoint": "d4dd93af3f09c0b0411f74760ef44fdbc8520284d5ab4729ce613aa7ebb15fa0"
+      }
+    ]
   }
 ]

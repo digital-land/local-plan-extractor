@@ -336,14 +336,10 @@
     "local-authority:BPL",
     "local-authority:BRA",
     "local-authority:BRC",
-    "local-authority:BRD"
+    "local-authority:BRD",
+    "local-authority:HIN"
   ],
   "failed": [
-    {
-      "org_code": "local-authority:BIR",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031"
-    },
     {
       "org_code": "local-authority:BOT",
       "reason": "HTTP error 403",
@@ -380,16 +376,6 @@
       "url": "https://www.gateshead.gov.uk/media/1972/Inspectors-Final-Report-2014/pdf/Inspectors-Final-Report.pdf?m=1531312873687"
     },
     {
-      "org_code": "local-authority:HAO",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.harborough.gov.uk/downloads/file/5714/harborough_local_plan_2011-2031_-_adopted_april_2019"
-    },
-    {
-      "org_code": "local-authority:HIN",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan"
-    },
-    {
       "org_code": "local-authority:LEE",
       "reason": "HTTP error 403",
       "url": "https://www.lewes-eastbourne.gov.uk/media/1739/Local-Plan-Part-2-2020/pdf/Local_Plan_Part_2_2020.pdf?m=1682441636643"
@@ -415,11 +401,6 @@
       "url": "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087"
     },
     {
-      "org_code": "local-authority:SWD",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.swindon.gov.uk/downloads/file/3988/swindon_borough_local_plan_2026"
-    },
-    {
       "org_code": "local-authority:WAW",
       "reason": "Not a PDF: text/html; charset=utf-8",
       "url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan"
@@ -430,11 +411,6 @@
       "url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0031/571819/Dartmoor-Local-Plan-20182036.pdf"
     },
     {
-      "org_code": "local-authority:BIR",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.birmingham.gov.uk/downloads/file/5433/adopted_birmingham_development_plan_2031"
-    },
-    {
       "org_code": "local-authority:BOT",
       "reason": "HTTP error 403",
       "url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483"
@@ -443,11 +419,6 @@
       "org_code": "local-authority:CHR",
       "reason": "HTTP error 404",
       "url": "https://www.cherwell.gov.uk/download/downloads/id/9831/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf"
-    },
-    {
-      "org_code": "local-authority:CHT",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.cheltenham.gov.uk/downloads/file/8169/cheltenham_plan"
     },
     {
       "org_code": "local-authority:CLD",
@@ -463,16 +434,6 @@
       "org_code": "local-authority:FYL",
       "reason": "HTTP error 404",
       "url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf"
-    },
-    {
-      "org_code": "local-authority:HAO",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.harborough.gov.uk/downloads/file/5714/harborough_local_plan_2011-2031_-_adopted_april_2019"
-    },
-    {
-      "org_code": "local-authority:HIN",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.hinckley-bosworth.gov.uk/downloads/file/6356/final_adopted_strategic_growth_plan"
     },
     {
       "org_code": "local-authority:LEE",
@@ -793,7 +754,12 @@
     "46927a7fa45be39ca8fe7b7e55f27ebf63e03c1a3b096dbadd273e16e50c6c24",
     "d555fc6cc77985259b523f55c383c374db40a996426460763d996ec719dde510",
     "54dea981f31fa307e171d4b514c9e9e84a822f2e6177665976cd44c130c4d05b",
-    "5e2507f38bef60e9c5493ba89def1041fac9c79909cc640e4b7b4b3d157c7044"
+    "5e2507f38bef60e9c5493ba89def1041fac9c79909cc640e4b7b4b3d157c7044",
+    "d65b8e4393e79f24a5de6df386cca240846e4d7fc4a39a6a467e9d50d7a38549",
+    "fd0d75d9df0c749234a2392afcaeae0fac956eddd17a546a9892fcad5abff8b3",
+    "d4dd93af3f09c0b0411f74760ef44fdbc8520284d5ab4729ce613aa7ebb15fa0",
+    "69e9b943ab4477b480cb7d7900181c36c9fa6e8318a0a0027115d2d78bea8065",
+    "b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3"
   ],
-  "updated": "2025-11-20T15:17:00.483931Z"
+  "updated": "2025-11-21T13:21:27.242897Z"
 }

@@ -3,8 +3,8 @@
     "organisation": "local-authority:WAW",
     "organisation-name": "Warwick District Council",
     "reference": "LP-WAW-2017",
-    "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
-    "document-url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan",
+    "documentation-url": "https://www.warwickdc.gov.uk/info/20410/local_plan",
+    "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/4623/new_local_plan.pdf",
     "name": "Warwick District Local Plan 2011-2029",
     "status": "adopted",
     "year": 2017,
@@ -12,76 +12,103 @@
     "period-end-date": 2029,
     "documents": [
       {
-        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/4623/new_local_plan.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/file/4623/new_local_plan",
         "document-type": "local-plan",
-        "name": "Local Plan download",
-        "reference": "LP-2011-2029",
+        "name": "New Local Plan",
+        "reference": "LP-2017",
         "document-status": "adopted",
-        "endpoint": "b9289816e6379d035a7d38ce2e1c20a2dbbf053654ac704d282316939624b77f"
+        "endpoint": "b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3"
       },
       {
-        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4544/adoption_-_adoption_statement",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
-        "document-type": "adoption-statement",
-        "name": "Adoption statement",
-        "reference": "AS-2017",
-        "document-status": "adopted",
-        "endpoint": "aff3bea6e01a035fa7dafda6d808eb4d31606c09fb247c7d9662e226d9af4bf8"
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2452/lp23a_-_warwick_district_local_plan_submission_version_incorporating_proposed_changes_final_-_january_2015.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "local-plan-submission",
+        "name": "Warwick District Local Plan Submission Version incorporating proposed changes (Final) - January 2015",
+        "reference": "LP-SUB-2015",
+        "document-status": "examination",
+        "endpoint": "20c830ea0f3d6fb9eb5712a78de52cc6868d1d13b1291d56458860734bb8ea94"
       },
       {
-        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4539/adoption_-_sa_statement",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/1830/local_plan_publication_draft.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/20410/local_plan",
+        "document-type": "local-plan-regulation-19",
+        "name": "Local Plan Publication Draft",
+        "reference": "LP-PUB-2014",
+        "document-status": "consultation",
+        "endpoint": "66a0b930cc70317fc8a34db04363e2b2ae0d1a44383d1f51223b733a425b07d7"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2245/lp05_-_preferred_options_local_plan_-_may_2012.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "local-plan-regulation-18",
+        "name": "Preferred Options Local Plan - May 2012",
+        "reference": "LP-PO-2012",
+        "document-status": "consultation",
+        "endpoint": "d3032d53c698ae008e558bd5fe1f3ad79f8ab30c76b8f9cf9a4247df748d4005"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/1827/sustainability_appraisal_report.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/20410/local_plan",
         "document-type": "sustainability-appraisal",
-        "name": "Sustainability appraisal statement",
+        "name": "Sustainability Appraisal Report",
         "reference": "SA-2017",
         "document-status": "adopted",
-        "endpoint": "6b4b9f8b8a795747ed2a1857c4338b46faed52dfc2c3355fe36b78034e09c71f"
+        "endpoint": "8810be37ebe2d2df4e1db2c10e97d202325871acb7bec877e1315db8942981e3"
       },
       {
-        "document-url": "http://www.warwickdc.gov.uk/downloads/file/4479/inspectors_report_final",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
-        "document-type": "inspectors-report",
-        "name": "Inspector's report",
-        "reference": "IR-2017",
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/4539/adoption_-_sa_statement.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "sustainability-appraisal",
+        "name": "Adoption - SA statement",
+        "reference": "SA-AS-2017",
         "document-status": "adopted",
-        "endpoint": "957ed4584f39f6f57a7696d99df94dbac718ea4a66018336ee4cc5b6d5af2e68"
+        "endpoint": "a1ec5433a1e99dbc5283d7b4d3a6996ff4f972ddf640a84822d189fa845cd32d"
       },
       {
-        "document-url": "https://www.warwickdc.gov.uk/downloads/file/4480/warwick_lp_main_mods_schedule_final",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2260/lp19_-_consultation_statement_-_regulation_22c_-_january_2015.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement - Regulation 22c - January 2015",
+        "reference": "CS-2015",
+        "document-status": "examination",
+        "endpoint": "c09863a3ff4a5339721b367b039a4ad7fcda5e69ebcaa452017aad697a58fd03"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2257/lp22_-_duty_to_co-operate_statement_-_january_2015pdf.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
         "document-type": "local-plan",
-        "name": "Main modifications schedule",
-        "reference": "MM-2017",
+        "name": "Duty To Co-operate Statement - January 2015",
+        "reference": "DTC-2015",
+        "document-status": "examination",
+        "endpoint": "cc3e82cdde7754164b1dc402605b2877f9d2e5c1e80234c71b7b7fcc2a786fea"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2255/lp17_-_annual_monitoring_report_2013_-_january_2014.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "authority-monitoring-report",
+        "name": "Annual Monitoring Report 2013 - January 2014",
+        "reference": "AMR-2013",
         "document-status": "adopted",
-        "endpoint": "145615ec4c4070187f75b99865ecf027839ef7706bf8ad22bea97f25a8830de7"
+        "endpoint": "187463b2169641d38b11b743c8f38cedd6f6a80145fa110255685d752bdeb996"
       },
       {
-        "document-url": "https://www.warwickdc.gov.uk/downloads/file/6618/ds19_update_-_march_2021",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/2258/lp18_-_local_development_scheme_amendments_-_january_2015.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme Amendments - January 2015",
+        "reference": "LDS-2015",
+        "document-status": "adopted",
+        "endpoint": "095c38a5aa42d58a445cc68094b0d450045c82413682598f0a83f1d6250826cc"
+      },
+      {
+        "document-url": "https://www.warwickdc.gov.uk/download/downloads/id/6618/ds19_update_-_march_2021.pdf",
+        "documentation-url": "https://www.warwickdc.gov.uk/downloads/download/651/local_plan_documents",
         "document-type": "local-plan",
-        "name": "Update on Policy DS19",
+        "name": "DS19 Update - March 2021",
         "reference": "DS19-2021",
         "document-status": "adopted",
-        "endpoint": "672b6c9d08e790869a45b63c997a0bfd6ff8dc403048015201d7fbe0ccdb0824"
-      },
-      {
-        "document-url": "https://www.warwickdc.gov.uk/downloads/file/6397/19_sherbourne_corrected",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
-        "document-type": "policies-map",
-        "name": "Local Plan Policy Map for Sherbourne",
-        "reference": "PM-SHERBOURNE-2020",
-        "document-status": "adopted",
-        "endpoint": "c6f0b2101d2f388ae408d1ff406aaf33ea82a6163aba5395d3d97a4b9cc94f5b"
-      },
-      {
-        "document-url": "https://www.warwickdc.gov.uk/downloads/file/2251/lp13_-_focused_changes_consultation_document_with_cover_-_october_2014",
-        "documentation-url": "https://www.warwickdc.gov.uk/info/20410/new_local_plan",
-        "document-type": "local-plan-regulation-19",
-        "name": "Publication Draft - Focused Changes",
-        "reference": "LP-FC-2014",
-        "document-status": "consultation",
-        "endpoint": "153113396fededb7c12f4f1e998fb41af10076f746c1956a50485968a816269d"
+        "endpoint": "a0a1dc2206ade44d0a24f0ea3f182fa9d228c63018f09bf82fe075a8d636ee03"
       }
     ]
   }
