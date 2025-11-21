@@ -337,14 +337,15 @@
     "local-authority:BRA",
     "local-authority:BRC",
     "local-authority:BRD",
-    "local-authority:HIN"
+    "local-authority:HIN",
+    "local-authority:EHE",
+    "local-authority:BOT",
+    "local-authority:GAT",
+    "local-authority:LEE",
+    "local-authority:SHO",
+    "local-authority:STT"
   ],
   "failed": [
-    {
-      "org_code": "local-authority:BOT",
-      "reason": "HTTP error 403",
-      "url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483"
-    },
     {
       "org_code": "local-authority:CHR",
       "reason": "HTTP error 404",
@@ -361,24 +362,9 @@
       "url": "https://www.calderdale.gov.uk/sites/default/files/2023-12/Local-Plan-Written-Statement.pdf"
     },
     {
-      "org_code": "local-authority:EHE",
-      "reason": "HTTP error 403",
-      "url": "https://www.eastherts.gov.uk/sites/default/files/documents/Direction_Schedule_of_Saved_Policies-_Redacted.pdf"
-    },
-    {
       "org_code": "local-authority:FYL",
       "reason": "HTTP error 404",
       "url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf"
-    },
-    {
-      "org_code": "local-authority:GAT",
-      "reason": "HTTP error 403",
-      "url": "https://www.gateshead.gov.uk/media/1972/Inspectors-Final-Report-2014/pdf/Inspectors-Final-Report.pdf?m=1531312873687"
-    },
-    {
-      "org_code": "local-authority:LEE",
-      "reason": "HTTP error 403",
-      "url": "https://www.lewes-eastbourne.gov.uk/media/1739/Local-Plan-Part-2-2020/pdf/Local_Plan_Part_2_2020.pdf?m=1682441636643"
     },
     {
       "org_code": "local-authority:NOW",
@@ -386,19 +372,9 @@
       "url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J2.1%20The%20Strategy.pdf"
     },
     {
-      "org_code": "local-authority:SHO",
-      "reason": "HTTP error 403",
-      "url": "https://southeastlincslocalplan.org/media/21941/South-East-Lincolnshire-Local-Plan-2011-2036/pdf/Local-Plan-text-March-2019.pdf?m=1720710748483"
-    },
-    {
       "org_code": "local-authority:SNO",
       "reason": "HTTP error 404",
       "url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf"
-    },
-    {
-      "org_code": "local-authority:STT",
-      "reason": "HTTP error 403",
-      "url": "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087"
     },
     {
       "org_code": "national-park-authority:Q5225646",
@@ -705,7 +681,12 @@
     "fd0d75d9df0c749234a2392afcaeae0fac956eddd17a546a9892fcad5abff8b3",
     "d4dd93af3f09c0b0411f74760ef44fdbc8520284d5ab4729ce613aa7ebb15fa0",
     "69e9b943ab4477b480cb7d7900181c36c9fa6e8318a0a0027115d2d78bea8065",
-    "b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3"
+    "b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3",
+    "efb7709ce16902b790f4143c0721db08c422b01c1499f5bf4475e1767a3d1fc7",
+    "adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3",
+    "079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199",
+    "8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d",
+    "c7b5c01c52efd8d4498f633e63ca8e08fbe497867a9f1d114de5de5a4d4fb4df"
   ],
-  "updated": "2025-11-21T13:21:27.242897Z"
+  "updated": "2025-11-21T14:15:20.755119+00:00"
 }

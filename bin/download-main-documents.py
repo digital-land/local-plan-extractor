@@ -40,12 +40,17 @@ import hashlib
 import json
 import os
 import sys
-from datetime import datetime
+import warnings
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from urllib.parse import urlparse
 
-import requests
+import cloudscraper
+from urllib3.exceptions import InsecureRequestWarning
+
+# Disable SSL warnings
+warnings.simplefilter('ignore', InsecureRequestWarning)
 
 
 class DocumentDownloader:
@@ -61,6 +66,9 @@ class DocumentDownloader:
         for d in [self.document_dir, self.log_dir, self.resource_dir, self.endpoint_dir]:
             d.mkdir(parents=True, exist_ok=True)
 
+        # Create cloudscraper session for Cloudflare bypassing
+        self.scraper = cloudscraper.create_scraper()
+
         # State file for tracking progress
         self.state_file = self.collection_dir / "download_state.json"
         self.state = self._load_state()
@@ -71,7 +79,7 @@ class DocumentDownloader:
             with open(self.state_file, 'r') as f:
                 return json.load(f)
         return {
-            "started": datetime.utcnow().isoformat() + "Z",
+            "started": datetime.now(timezone.utc).isoformat(),
             "processed": [],
             "failed": [],
             "no_document": [],
@@ -80,7 +88,7 @@ class DocumentDownloader:
 
     def _save_state(self):
         """Save state to file."""
-        self.state["updated"] = datetime.utcnow().isoformat() + "Z"
+        self.state["updated"] = datetime.now(timezone.utc).isoformat()
         with open(self.state_file, 'w') as f:
             json.dump(self.state, f, indent=2)
 
@@ -113,7 +121,7 @@ class DocumentDownloader:
 
     def download_document(self, url: str, endpoint: str) -> Tuple[bool, Optional[bytes], Optional[str]]:
         """
-        Download a document from URL.
+        Download a document from URL using cloudscraper to bypass Cloudflare.
 
         Returns:
             Tuple of (success, content, error_message)
@@ -123,11 +131,10 @@ class DocumentDownloader:
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             }
 
-            response = requests.get(
+            response = self.scraper.get(
                 url,
                 headers=headers,
-                timeout=30,
-                verify=False
+                timeout=30
             )
 
             response.raise_for_status()
@@ -139,14 +146,19 @@ class DocumentDownloader:
 
             return True, response.content, None
 
-        except requests.exceptions.Timeout:
-            return False, None, f"Timeout fetching {url}"
-        except requests.exceptions.ConnectionError as e:
-            return False, None, f"Connection error: {e}"
-        except requests.exceptions.HTTPError as e:
-            return False, None, f"HTTP error {e.response.status_code}"
         except Exception as e:
-            return False, None, f"Error: {type(e).__name__}: {e}"
+            # Handle various request errors
+            error_msg = str(e)
+            if "403" in error_msg or "Forbidden" in error_msg:
+                return False, None, "HTTP error 403"
+            elif "404" in error_msg or "Not Found" in error_msg:
+                return False, None, "HTTP error 404"
+            elif "timeout" in error_msg.lower():
+                return False, None, f"Timeout fetching {url}"
+            elif "connection" in error_msg.lower():
+                return False, None, f"Connection error: {e}"
+            else:
+                return False, None, f"Error: {type(e).__name__}: {e}"
 
     def save_document(self, content: bytes, endpoint: str) -> Tuple[bool, Optional[str]]:
         """
@@ -177,7 +189,7 @@ class DocumentDownloader:
             log_entry = {
                 "resource": content_hash,
                 "endpoint-url": url,
-                "entry-date": datetime.utcnow().isoformat() + "Z",
+                "entry-date": datetime.now(timezone.utc).isoformat(),
                 "status": str(status),
                 "elapsed": "0.000",
                 "content-type": "application/pdf",

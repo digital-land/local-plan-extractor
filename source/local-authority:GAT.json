@@ -14,7 +14,7 @@
       {
         "document-url": "https://www.gateshead.gov.uk/media/7765/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle/pdf/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle_SMALLER.pdf?m=1526313509250",
         "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
-        "document-type": "core-strategy",
+        "document-type": "local-plan",
         "name": "Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne, 2010-2030",
         "reference": "CS-2010-2030",
         "document-status": "adopted",
@@ -23,7 +23,7 @@
       {
         "document-url": "https://www.gateshead.gov.uk/media/1972/Inspectors-Final-Report-2014/pdf/Inspectors-Final-Report.pdf?m=1531312873687",
         "documentation-url": "https://www.gateshead.gov.uk/article/3251/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle-2010-2030",
-        "document-type": "local-plan",
+        "document-type": "inspection-report",
         "name": "The Inspectors Report",
         "reference": "IR-2014",
         "document-status": "adopted",

@@ -632,6 +632,9 @@ class LocalPlanFinder:
             "local-authority:ECA": [  # East Cambridgeshire
                 "/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
             ],
+            "local-authority:EHE": [  # East Hertfordshire
+                "/planning-and-building/planning-policy/east-herts-district-plan-2018",
+            ],
             "local-authority:ELI": [  # East Lindsey
                 "/localplan2018",
             ],
