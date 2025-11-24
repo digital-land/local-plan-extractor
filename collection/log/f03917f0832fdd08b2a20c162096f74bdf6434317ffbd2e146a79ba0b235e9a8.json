@@ -1,0 +1,9 @@
+{
+  "resource": "882db1505ec1b82366cf5d601a00ac44e10c4483",
+  "endpoint-url": "https://www.bedford.gov.uk/files/local-plan-2030.pdf/download?inline",
+  "entry-date": "2025-11-24T16:06:21.036712+00:00",
+  "status": "200",
+  "elapsed": "0.000",
+  "content-type": "application/pdf",
+  "bytes": "7102005"
+}
