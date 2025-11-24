@@ -4,7 +4,7 @@
     "organisation-name": "Fylde Borough Council",
     "reference": "LP-FYL-2018",
     "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
-    "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf",
+    "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2021/12/Fylde-Local-Plan-to-2032-incorporating-Partial-Review-adopted.pdf",
     "name": "Fylde Local Plan to 2032",
     "status": "adopted",
     "year": 2018,
@@ -12,22 +12,13 @@
     "period-end-date": 2032,
     "documents": [
       {
-        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf",
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2021/12/Fylde-Local-Plan-to-2032-incorporating-Partial-Review-adopted.pdf",
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "local-plan",
         "name": "Adopted Fylde Local Plan to 2032",
         "reference": "LP-2032",
         "document-status": "adopted",
-        "endpoint": "bc01763989ae7591cb49595aeb46f5f93546816d96dc50217877961a4296f504"
-      },
-      {
-        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/1-Notice-of-Adoption.pdf",
-        "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
-        "document-type": "local-plan",
-        "name": "Notice of Adoption",
-        "reference": "AS-2018",
-        "document-status": "adopted",
-        "endpoint": "6c04515dac723df4dd5fc89e3a073dd7c1d0f951e9c3cbb4498ac7e653141c93"
+        "endpoint": "290547f15280fbd6b2a8e13d5b4349374ef72cb938acdbe182a9e9092b06f15e"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/Policies-Map-Adopted-2018-compressed.pdf",
@@ -43,7 +34,7 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "local-plan",
         "name": "Inset Map Kirkham",
-        "reference": "IM-KIRKHAM",
+        "reference": "IM-KIRKHAM-2018",
         "document-status": "adopted",
         "endpoint": "ce87f82b742ee33656478fe45f927e7021dd44717c623dedc842271aaf1ed7c4"
       },
@@ -52,7 +43,7 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "local-plan",
         "name": "Inset Map St Annes",
-        "reference": "IM-STANNES",
+        "reference": "IM-STANNES-2018",
         "document-status": "adopted",
         "endpoint": "7c4797b4f8696c1656bc9662616e8859ab9f8393b5ccba9d1ee907e58342c8a3"
       },
@@ -61,14 +52,14 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "local-plan",
         "name": "Inset Map Lytham",
-        "reference": "IM-LYTHAM",
+        "reference": "IM-LYTHAM-2018",
         "document-status": "adopted",
         "endpoint": "81bcabfd517a2bd8d13fa16c4ced6d06c522fb105c7250119ead5ecbbd8d4545"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/5-Fylde-Local-Plan-to-2032-Inspector-s-Final-Report-including-Appendix.pdf",
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
-        "document-type": "local-plan",
+        "document-type": "inspectors-report",
         "name": "Inspectors report – 19 September 2018",
         "reference": "IR-2018",
         "document-status": "adopted",
@@ -79,7 +70,7 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "local-plan",
         "name": "Submission Sustainability Main Report August 2016",
-        "reference": "SA-2016",
+        "reference": "SA-MAIN-2016",
         "document-status": "adopted",
         "endpoint": "e5707a4eabb4f3e6785142e613bfd6a47587fc603d5cbf2e0c326ac1b3286943"
       },
@@ -97,7 +88,7 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisal Appendices",
-        "reference": "SA-APP-2016",
+        "reference": "SA-APPEND-2016",
         "document-status": "adopted",
         "endpoint": "a07c06bd165d41fbb26449f9a7cc06a29d9b35d068bad95daafc1f6c871a6662"
       },
@@ -106,7 +97,7 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability Appraisal Report Addendum 2018",
-        "reference": "SA-ADD-2018",
+        "reference": "SA-ADDENDUM-2018",
         "document-status": "adopted",
         "endpoint": "fc151588b5541a5fe4eb68bd64d444247ab99ba6581c35bff2b4ae12b0fc1d80"
       },
@@ -115,52 +106,97 @@
         "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
         "document-type": "adoption-statement",
         "name": "Sustainability Appraisal Post Adoption Statement October 2018",
-        "reference": "SA-PAS-2018",
+        "reference": "AS-SA-2018",
         "document-status": "adopted",
         "endpoint": "b4d2aca730733af3e9d37fd5a1fdce73fcba712eb3ed657dbeaafd40d6c99b96"
+      },
+      {
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/1-Notice-of-Adoption.pdf",
+        "documentation-url": "https://new.fylde.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Notice of Adoption",
+        "reference": "NOA-2018",
+        "document-status": "adopted",
+        "endpoint": "6c04515dac723df4dd5fc89e3a073dd7c1d0f951e9c3cbb4498ac7e653141c93"
+      },
+      {
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD001-The-Fylde-Local-Plan-to-2032.pdf",
+        "documentation-url": "https://new.fylde.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "SD001 - The Fylde Local Plan to 2032",
+        "reference": "SD001-LP-2032",
+        "document-status": "examination",
+        "endpoint": "0b0d192827a12f57ea60c92c44a34d54975908c3406528b5cdaa1495b0912116"
+      },
+      {
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD002a-The-Fylde-Local-Plan-to-2032-Policies-Map.pdf",
+        "documentation-url": "https://new.fylde.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "SD002a - The Fylde Local Plan to 2032 Policies Map",
+        "reference": "SD002A-PM-2032",
+        "document-status": "examination",
+        "endpoint": "027e00b49d47e549bc10b9472c48fa4c7903a0d2ac28630b8d0fca6a776f3fae"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD003-The-Infrasturcture-Delivery-Plan-2016.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "infrastructure-delivery-plan",
-        "name": "The Infrastructure Delivery Plan",
-        "reference": "IDP-2016",
-        "document-status": "adopted",
+        "name": "SD003 - The Infrastructure Delivery Plan",
+        "reference": "SD003-IDP-2016",
+        "document-status": "examination",
         "endpoint": "6c41b3a2228697617555bd26a7f8a26f5746c94aecf9b44347598d88abd621c6"
+      },
+      {
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD004a-The-Sustainability-Appraisal-Main-Report.pdf",
+        "documentation-url": "https://new.fylde.gov.uk/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "SD004a - The Sustainability Appraisal Main Report",
+        "reference": "SD004A-SA-MAIN",
+        "document-status": "examination",
+        "endpoint": "4dbdcb99300890f755d5480089ed242597972baab7371905bb3793398382ad7b"
+      },
+      {
+        "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD004b-The-Sustainability-Appraisal-Non-Technical-Summary.pdf",
+        "documentation-url": "https://new.fylde.gov.uk/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "SD004b -  The Sustainability Appraisal Non Technical Summary",
+        "reference": "SD004B-SA-NTS",
+        "document-status": "examination",
+        "endpoint": "1c78b2bb34a3f8db98aa6045602cf3ca7ed04763c453714eccc8bcbe083d5994"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD005-Habitats-Regulations-Assessment.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "habitats-regulations-assessment",
-        "name": "The Habitats Regulations Assessment",
-        "reference": "HRA-2016",
-        "document-status": "adopted",
+        "name": "SD005 - The Habitats Regulations Assessment",
+        "reference": "SD005-HRA",
+        "document-status": "examination",
         "endpoint": "85af9a1d1271c857d1f38e92216e210f08caae34144db99a9fe2dc449b076d89"
       },
       {
         "document-url": "http://new.fylde.gov.uk/wp-content/uploads/2019/09/SD006-The-Viability-Assessment.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "viability-assessment",
-        "name": "The Viability Assessment",
-        "reference": "VA-2016",
-        "document-status": "adopted",
+        "name": "SD006 - The Viability Assessment",
+        "reference": "SD006-VA",
+        "document-status": "examination",
         "endpoint": "406468a4a8a2d4c46823c44b1c9c583158513791dd055cbaa7f190585c66c7d4"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/SD008-Health-Impact-Assessment.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "health-impact-assessment",
-        "name": "The Health Impact Assessment",
-        "reference": "HIA-2016",
-        "document-status": "adopted",
+        "name": "SD008 - The Health Impact Assessment",
+        "reference": "SD008-HIA",
+        "document-status": "examination",
         "endpoint": "bddf9e12c283c8b1de817708d59047afd8a4002e1d9df8f55c396803dbf0fad2"
       },
       {
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/BD093-Adopted-Statement-of-Community-Involvement-2015.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "statement-of-community-involvement",
-        "name": "The Statement of Community Involvement",
-        "reference": "SCI-2015",
+        "name": "BD093 - The Statement of Community Involvement",
+        "reference": "BD093-SCI-2015",
         "document-status": "adopted",
         "endpoint": "5a025ab052db2cbcf898bea60af1e86e4d6804f94746e4f3da4fac324f3e35e1"
       },
@@ -168,8 +204,8 @@
         "document-url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/BD094-Local-Development-Scheme-2015.pdf",
         "documentation-url": "https://new.fylde.gov.uk/local-plan",
         "document-type": "local-development-scheme",
-        "name": "The Local Development Scheme 2015",
-        "reference": "LDS-2015",
+        "name": "BD094 - The Local Development Scheme 2015",
+        "reference": "BD094-LDS-2015",
         "document-status": "adopted",
         "endpoint": "1348253c1276729886ab514f58e1afdb241eadedaca6880581ab521b1d6f4e71"
       }

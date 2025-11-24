@@ -313,72 +313,12 @@
     "national-park-authority:Q72617669",
     "national-park-authority:Q72617784",
     "national-park-authority:Q72617890",
-    "national-park-authority:Q72617988",
-    "local-authority:BIR",
-    "local-authority:BOT",
-    "local-authority:CHR",
-    "local-authority:CHT",
-    "local-authority:CLD",
-    "local-authority:EHE",
-    "local-authority:FYL",
-    "local-authority:GAT",
-    "local-authority:HAO",
-    "local-authority:HIN",
-    "local-authority:LEE",
-    "local-authority:NOW",
-    "local-authority:SHO",
-    "development-corporation:Q72463795",
-    "local-authority:AMB",
-    "local-authority:ASH",
-    "local-authority:BAS",
-    "local-authority:BDF",
-    "local-authority:BPC",
-    "local-authority:BPL",
-    "local-authority:BRA",
-    "local-authority:BRC",
-    "local-authority:BRD",
-    "local-authority:HIN",
-    "local-authority:EHE",
-    "local-authority:BOT",
-    "local-authority:GAT",
-    "local-authority:LEE",
-    "local-authority:SHO",
-    "local-authority:STT",
-    "local-authority:CHT",
-    "local-authority:CHR",
-    "local-authority:CLD",
-    "local-authority:FYL"
+    "national-park-authority:Q72617988"
   ],
-  "failed": [
-    {
-      "org_code": "local-authority:FYL",
-      "reason": "HTTP error 404",
-      "url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf"
-    },
-    {
-      "org_code": "local-authority:NOW",
-      "reason": "HTTP error 404",
-      "url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/J2.1%20The%20Strategy.pdf"
-    },
-    {
-      "org_code": "local-authority:SNO",
-      "reason": "HTTP error 404",
-      "url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf"
-    },
-    {
-      "org_code": "national-park-authority:Q5225646",
-      "reason": "HTTP error 404",
-      "url": "https://www.dartmoor.gov.uk/__data/assets/pdf_file/0031/571819/Dartmoor-Local-Plan-20182036.pdf"
-    },
-    {
-      "org_code": "local-authority:FYL",
-      "reason": "HTTP error 404",
-      "url": "https://new.fylde.gov.uk/wp-content/uploads/2019/09/2-Fylde-Local-Plan-to-2032.pdf"
-    }
-  ],
+  "failed": [],
   "no_document": [
     "development-corporation:Q72463795",
-    "local-authority:BUC",
+    "development-corporation:Q72463795",
     "local-authority:AMB",
     "local-authority:ASH",
     "local-authority:BAS",
@@ -390,6 +330,7 @@
     "local-authority:BRD",
     "local-authority:BRM",
     "local-authority:BST",
+    "local-authority:BUC",
     "local-authority:BUN",
     "local-authority:CBF",
     "local-authority:CHA",
@@ -528,8 +469,7 @@
     "national-park-authority:Q72617669",
     "national-park-authority:Q72617784",
     "national-park-authority:Q72617890",
-    "national-park-authority:Q72617988",
-    "development-corporation:Q72463795"
+    "national-park-authority:Q72617988"
   ],
   "downloaded": [
     "7f041bda223256571c31efd7187ed1d429503421982cc864b137188af9f06564",
@@ -683,7 +623,10 @@
     "c7b5c01c52efd8d4498f633e63ca8e08fbe497867a9f1d114de5de5a4d4fb4df",
     "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb",
     "63f69a3574cc4d30de15212d48ea93d3e48f1017a56e8637d713d3a21abb7be8",
-    "9db0a0e7e378e63d08b759b308abe3aa70ca7b99d64159fee1aec70e2062a70e"
+    "9db0a0e7e378e63d08b759b308abe3aa70ca7b99d64159fee1aec70e2062a70e",
+    "290547f15280fbd6b2a8e13d5b4349374ef72cb938acdbe182a9e9092b06f15e",
+    "5b1d60774e8bd97a7f40221468bd0f4c5c9446faca7ef38dccb19c514850811a",
+    "c71d445e853773310bbd973533e7b8a4c2e10c13683478ff01adee323fa12c84"
   ],
-  "updated": "2025-11-24T10:37:24.548782+00:00"
+  "updated": "2025-11-24T11:28:02.921069+00:00"
 }

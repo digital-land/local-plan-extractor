@@ -4,7 +4,7 @@
     "organisation-name": "South Norfolk District Council",
     "reference": "LP-SNO-2024",
     "documentation-url": "https://www.gnlp.org.uk",
-    "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf",
+    "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-12/Adopted_GNLP_2024_STRATEGY_final_24-10-18_0.pdf",
     "name": "Greater Norwich Local Plan",
     "status": "adopted",
     "year": 2024,
@@ -12,13 +12,13 @@
     "period-end-date": 2038,
     "documents": [
       {
-        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/Part%201%20The%20Strategy.pdf",
+        "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-12/Adopted_GNLP_2024_STRATEGY_final_24-10-18_0.pdf",
         "documentation-url": "https://www.gnlp.org.uk/local-plan-examination-local-plan-examination-document-library/j-inspectors-report-and-adoption",
         "document-type": "local-plan",
         "name": "The Strategy",
         "reference": "LP-STRATEGY-2024",
         "document-status": "adopted",
-        "endpoint": "6749fc081c17e48e1d17ace3e0042fba1ca7ee729b04f52205bca29cec427c1c"
+        "endpoint": "5b1d60774e8bd97a7f40221468bd0f4c5c9446faca7ef38dccb19c514850811a"
       },
       {
         "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-04/2.%20Strategic%20Sites.pdf",
