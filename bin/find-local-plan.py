@@ -608,6 +608,10 @@ class LocalPlanFinder:
             "local-authority:BUN": [  # Burnley
                 "/planning/planning-policies/burnleys-local-plan/",
             ],
+            "local-authority:CHT": [ # Cheltenham
+                "/downloads/file/8169/cheltenham_plan"
+                "/download/downloads/id/8169/cheltenham_plan.pdf",
+            ],
             "local-authority:CRW": [  # Crawley
                 "/planning/planning-policy/local-plan/about-local-plan",
             ],
