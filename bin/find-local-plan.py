@@ -612,6 +612,9 @@ class LocalPlanFinder:
                 "/downloads/file/8169/cheltenham_plan"
                 "/download/downloads/id/8169/cheltenham_plan.pdf",
             ],
+            "local-authority:CHR": [ # Cherwell
+                "/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+            ],
             "local-authority:CRW": [  # Crawley
                 "/planning/planning-policy/local-plan/about-local-plan",
             ],
@@ -648,6 +651,9 @@ class LocalPlanFinder:
             ],
             "local-authority:ERY": [  # East Riding of Yorkshire
                 "/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/",
+            ],
+            "local-authrity:FYL": [  # Fylde
+                "/resident/planning/planning-policy-local-plan/adopted-fylde-local-plan-to-2032-incorporating-partial-review/",
             ],
             "local-authority:GAT": [  # Gateshead
                 "/article/3001/Local-Plan",
