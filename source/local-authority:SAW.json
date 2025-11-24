@@ -4,48 +4,111 @@
     "organisation-name": "Sandwell Metropolitan Borough Council",
     "reference": "LP-SAW-2024",
     "documentation-url": "https://www.sandwell.gov.uk/localplan",
-    "document-url": "",
-    "name": "Sandwell Local Plan 2024-2041",
+    "document-url": "https://www.sandwell.gov.uk/downloads/file/1872/draft-sandwell-local-plan-reg-18-version",
+    "name": "Sandwell Local Plan 2041",
     "status": "examination",
     "year": 2024,
-    "period-start-date": 2024,
+    "period-start-date": 2021,
     "period-end-date": 2041,
     "documents": [
       {
-        "document-url": "https://www.sandwell.gov.uk/downloads/file/895/sandwell-local-plan-issues-and-options-main-document",
-        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1872/draft-sandwell-local-plan-reg-18-version",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
         "document-type": "local-plan",
-        "name": "Sandwell Local Plan Issues and Options Main Document",
-        "reference": "LP-IO-2023",
+        "name": "Draft Sandwell Local Plan Reg.18 version",
+        "reference": "LP-REG18-2023",
         "document-status": "consultation",
-        "endpoint": "9d775940b2aa09fb367203be15b372042abc8ad04c53cc1d4f08cf14227326ab"
+        "endpoint": "7a313c660210208c28bbb770d0fe3a25c5f24bff9912d2e22577175fa08f9e70"
       },
       {
-        "document-url": "https://www.sandwell.gov.uk/downloads/file/894/sandwell-local-plan-issues-and-options-habitat-regulations-assessment",
-        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1870/slp-reg-18-policy-map",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
+        "document-type": "policies-map",
+        "name": "SLP Reg.18 Policy Map",
+        "reference": "PM-2023",
+        "document-status": "consultation",
+        "endpoint": "e877cf6e75bd13d287ffab03b97d7e889c809fca00ae42d12f3849c6ceb59cf5"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1867/slp-reg-18-consultation-statement",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
+        "document-type": "consultation-statement",
+        "name": "SLP Reg.18 Consultation Statement",
+        "reference": "CS-2023",
+        "document-status": "consultation",
+        "endpoint": "d988ef0f582be39c356802cf1572148dc817be04c30b44d378ad86942dd7fb64"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1868/slp-reg-18-public-consultation-summary-document",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
+        "document-type": "local-plan",
+        "name": "SLP Reg.18 Public Consultation Summary Document",
+        "reference": "LP-SUMMARY-2023",
+        "document-status": "consultation",
+        "endpoint": "6e65db94be74b6be2c03bec89b28303218d6c6cd41b0c36cc4aaf51b747bbcc3"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1869/slp-reg-18-equality-impact-assessment",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
+        "document-type": "equalities-impact-assessment",
+        "name": "SLP Reg.18 Equality Impact Assessment",
+        "reference": "EIA-2023",
+        "document-status": "consultation",
+        "endpoint": "6652f9f711687ed493127c08cb5bebed6c08538a34fb71366872bdda922adffe"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/1871/slp-reg-18-sustainability-appraisal",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/495/draft-sandwell-local-plan-reg18-consultation-documents",
+        "document-type": "sustainability-appraisal",
+        "name": "SLP Reg.18 Sustainability Appraisal",
+        "reference": "SA-2023",
+        "document-status": "consultation",
+        "endpoint": "001db98f7e25124bba5ebbf6f52132253629faebb90e9679f30c9c7309b79e83"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/3998/consultation-document-regulation-19-main-modifications-proposed-by-smbc",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/1113/sandwell-local-plan-reg19-main-modifications-consultation",
+        "document-type": "main-modifications",
+        "name": "Consultation Document (Regulation 19) Main Modifications proposed by SMBC",
+        "reference": "MM-2025",
+        "document-status": "examination",
+        "endpoint": "fb1dce8608c167bfc3e8541aeef036b6b27b308cd78d1eea754b4a858096b66a"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/3999/consultation-response-form-regulation-19-to-main-modifications-proposed-by-smbc",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/1113/sandwell-local-plan-reg19-main-modifications-consultation",
+        "document-type": "main-modifications",
+        "name": "Consultation Response Form (Regulation 19) to Main Modifications proposed by SMBC",
+        "reference": "MM-FORM-2025",
+        "document-status": "examination",
+        "endpoint": "d26562fe9d1ed45d7745c2289384b87d32ce6051d3ad062675fcea0f2e6f29cb"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/3967/addendum-to-the-regulation-19-sustainability-appraisal",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/1113/sandwell-local-plan-reg19-main-modifications-consultation",
+        "document-type": "sustainability-appraisal",
+        "name": "Addendum to the Regulation 19 Sustainability Appraisal",
+        "reference": "SA-ADDENDUM-2025",
+        "document-status": "examination",
+        "endpoint": "59b7b8609f7c726b72a59aa2260514e8003655220609c19c1636ad672d004324"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/3968/site-assessment-of-part-of-rowley-regis-golf-course",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/1113/sandwell-local-plan-reg19-main-modifications-consultation",
+        "document-type": "site-allocations",
+        "name": "Site Assessment of Part of Rowley Regis Golf Course",
+        "reference": "SA-DPD-ROWLEY-2025",
+        "document-status": "examination",
+        "endpoint": "3cb238a4cda4931fb12c080cf99f117abcb78b3f35e813e95c182a350a4d6485"
+      },
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/4029/slp-hra-letter-ecology-officer-30-04-2025-redacted",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/1113/sandwell-local-plan-reg19-main-modifications-consultation",
         "document-type": "habitats-regulations-assessment",
-        "name": "Sandwell Local Plan Issues and Options Habitat Regulations Assessment",
-        "reference": "HRA-IO-2023",
-        "document-status": "consultation",
-        "endpoint": "d8486424a11d265dac38ad1cd48cbf9589033165d8b5b713d51ebfff13e62bc2"
-      },
-      {
-        "document-url": "https://www.sandwell.gov.uk/downloads/file/893/sandwell-local-plan-issues-and-options-sustainability-appraisal",
-        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
-        "document-type": "sustainability-appraisal",
-        "name": "Sandwell Local Plan Issues and Options Sustainability Appraisal",
-        "reference": "SA-IO-2023",
-        "document-status": "consultation",
-        "endpoint": "a2c912f7e52b129027f24f00ea141967489a1b39525bc4e722e7a04d0f23716a"
-      },
-      {
-        "document-url": "https://www.sandwell.gov.uk/downloads/file/896/sandwell-local-plan-issues-and-options-sustainability-appraisal-scoping-report",
-        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/382/sandwell-local-plan-issues-and-options-consultation-documents",
-        "document-type": "sustainability-appraisal",
-        "name": "Sandwell Local Plan Issues and Options Sustainability Appraisal Scoping Report",
-        "reference": "SA-SCOPING-2023",
-        "document-status": "consultation",
-        "endpoint": "0072e180865b85b0fb2d46085880a9ce4e2e29b4b78e182dcc9d18ebbd30eaae"
+        "name": "SLP HRA Letter Ecology Officer 30.04.2025 Redacted",
+        "reference": "HRA-2025",
+        "document-status": "examination",
+        "endpoint": "816ec469301c5ca43fc54a4cda6fc661bec03f9660d38b460435d8d770e96a99"
       }
     ]
   }

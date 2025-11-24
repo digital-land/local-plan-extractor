@@ -2,60 +2,60 @@
   {
     "organisation": "local-authority:SEV",
     "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-2019",
-    "documentation-url": "http://www.sevenoaks.gov.uk/info/20014/planning_policy",
+    "reference": "LP-SEV-2011",
+    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/adopted_local_plan",
     "document-url": "",
-    "name": "Sevenoaks Local Plan (Withdrawn)",
-    "status": "withdrawn",
-    "year": 2019,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.sevenoaks.gov.uk/planning",
-        "document-type": "policies-map",
-        "name": "Interactive policies map",
-        "reference": "PM-2025",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SEV",
-    "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-CURRENT",
-    "documentation-url": "http://www.sevenoaks.gov.uk/info/20014/planning_policy",
-    "document-url": "",
-    "name": "Sevenoaks Adopted Local Plan",
+    "name": "Sevenoaks District Core Strategy",
     "status": "adopted",
-    "year": "",
+    "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.sevenoaks.gov.uk/info/20008/planning_and_development",
-        "document-type": "policies-map",
-        "name": "Interactive policies map",
-        "reference": "PM-CURRENT",
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads",
+        "document-type": "local-plan",
+        "name": "Local Plan - Questions and Answers",
+        "reference": "LP-QA-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "fbe73813c1b061b22d28c97a3b3ae65b6051493f0902cb31995641696a00aec0"
       }
     ]
   },
   {
     "organisation": "local-authority:SEV",
     "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-EMERGING",
-    "documentation-url": "http://www.sevenoaks.gov.uk/info/20014/planning_policy",
+    "reference": "LP-SEV-2014",
+    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/adopted_local_plan",
     "document-url": "",
-    "name": "Sevenoaks Emerging Local Plan",
-    "status": "draft",
-    "year": "",
+    "name": "Sevenoaks District Allocations and Development Management Plan",
+    "status": "adopted",
+    "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
     "documents": []
+  },
+  {
+    "organisation": "local-authority:SEV",
+    "organisation-name": "Sevenoaks District Council",
+    "reference": "LP-SEV-2025",
+    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069128/emerging_local_plan",
+    "document-url": "",
+    "name": "Emerging Sevenoaks District Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
+        "document-type": "local-plan",
+        "name": "Local Plan - Questions and Answers",
+        "reference": "LP-QA-2025",
+        "document-status": "consultation",
+        "endpoint": "fbe73813c1b061b22d28c97a3b3ae65b6051493f0902cb31995641696a00aec0"
+      }
+    ]
   }
 ]

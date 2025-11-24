@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "organisation": "local-authority:TAN",
+    "organisation-name": "Tandridge District Council",
+    "reference": "LP-TAN-2008",
+    "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+    "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Core strategy/Core-Strategy.pdf",
+    "name": "Tandridge District Core Strategy",
+    "status": "adopted",
+    "year": 2008,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Core strategy/Core-Strategy.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "core-strategy",
+        "name": "Tandridge District Core Strategy",
+        "reference": "CS-2008",
+        "document-status": "adopted",
+        "endpoint": "4b3fb606df8625ab3f0201be748a74b11a2194d7b7cd3e99ddc2d76346eeab50"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Core strategy/Core-Strategy-Examination-Inspectors-Report.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "inspectors-report",
+        "name": "The Inspector's Report",
+        "reference": "IR-2008",
+        "document-status": "adopted",
+        "endpoint": "86e934dc54628b573d8de0a53d9dcb060b163105b53cbff7e8d71545947748fe"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Adopted development plan/The-Sustainability-Appraisal-report.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2008",
+        "document-status": "adopted",
+        "endpoint": "28aff5ba69c72bf3c90cc20da501384f481be6708c2113bd3c41487072df5295"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAN",
+    "organisation-name": "Tandridge District Council",
+    "reference": "LP-TAN-2014",
+    "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+    "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/The-Local-Plan.pdf",
+    "name": "Local Plan Part 2: Detailed Policies 2014-2029",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/The-Local-Plan.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "local-plan-adopted",
+        "name": "Local Plan Part 2 - Detailed Policies",
+        "reference": "LP-2014-2029",
+        "document-status": "adopted",
+        "endpoint": "f54452cf7d0703d38c912a00aaee064085e9caa26d6837a537025443aabe481a"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/The-inspectors-report.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2014",
+        "document-status": "adopted",
+        "endpoint": "1269907304c23b7c4aa978c747db4fd65176ae9aad8b6e229afa3e17b970ca31"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/The-Sustainability-Appraisal-report.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report",
+        "reference": "SA-2014",
+        "document-status": "adopted",
+        "endpoint": "9fb6d99f18e77f12f3489ce22b9fbcce5073a60dd53ac6c5bc7e878b323b801e"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/The-sustainability-addendum.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Addendum Report",
+        "reference": "SA-ADD-2014",
+        "document-status": "adopted",
+        "endpoint": "93941240ca9f1ccccb78a407c69d38780a5cf44c61984fb9a8f5b915729daa4c"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/Adoption-Statement.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2014",
+        "document-status": "adopted",
+        "endpoint": "1c23d0a7569479febf95a29d8e27a6a35ffceb8fdf06f9b4877cd75240c00d41"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Current and adopted planning policies/Detailed policies/Post-Adoption-Statement.pdf",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
+        "document-type": "adoption-statement",
+        "name": "Post Adoption Statement",
+        "reference": "PAS-2014",
+        "document-status": "adopted",
+        "endpoint": "899b033498fdbf59e1abc5d120d690e070de906b2b9ad97d07749a7793eff78f"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:TAN",
+    "organisation-name": "Tandridge District Council",
+    "reference": "LP-TAN-2024",
+    "documentation-url": "https://www.tandridge.gov.uk/localplan",
+    "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Local plan/Local Plan 2024-2044/Local-Plan-Leaflet.pdf?ver=baF40I-ggC5cWOOps4lFNA%3d%3d",
+    "name": "Tandridge District Local Plan 2024-2044",
+    "status": "draft",
+    "year": 2024,
+    "period-start-date": 2024,
+    "period-end-date": 2044,
+    "documents": [
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Local plan/Local Plan 2024-2044/Local-Plan-Leaflet.pdf?ver=baF40I-ggC5cWOOps4lFNA%3d%3d",
+        "documentation-url": "https://www.tandridge.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan leaflet",
+        "reference": "LP-LEAFLET-2024",
+        "document-status": "draft",
+        "endpoint": "12e8ae1c1e16959618df11a1bb3c43a97a323a3b83ac05e6c42882f1aebea633"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning%20and%20building/Planning%20strategies%20and%20policies/Local-Development-Scheme-Feb25.pdf?ver=Yfca947nJJgf62_IL-DzBQ%3d%3d",
+        "documentation-url": "https://www.tandridge.gov.uk/localplan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "54a7ca84d2335679fbd3f828adbcdba2ab4caa3d10c30ce0071714fb4a19e016"
+      },
+      {
+        "document-url": "https://www.tandridge.gov.uk/Portals/0/Documents/Planning and building/Planning strategies and policies/Consultation/TDC SCI.pdf?ver=u8bdVjB8QEt7v10i8Rg4rw%3d%3d",
+        "documentation-url": "https://www.tandridge.gov.uk/Planning-and-building/Planning-strategies-and-policies/Consultation",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement (2024)",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "133c126894887a748deabf85d45f47f549abaf7b9b870322402dd96c34b014c3"
+      }
+    ]
+  }
+]

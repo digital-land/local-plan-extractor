@@ -2,15 +2,97 @@
   {
     "organisation": "local-authority:WYR",
     "organisation-name": "Wyre Borough Council",
-    "reference": "LP-WYR-2022",
-    "documentation-url": "https://www.wyre.gov.uk/planning-policy/local-plan-partial-review-2011-2031-1",
-    "document-url": "",
+    "reference": "LP-WYR-2023",
+    "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+    "document-url": "https://www.wyre.gov.uk/downloads/file/1595/adopted-wyre-local-plan-2011-2031-incorporating-partial-update-of-2022-",
     "name": "Wyre Local Plan (2011-2031) (incorporating partial update of 2022)",
     "status": "adopted",
-    "year": 2022,
+    "year": 2023,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1595/adopted-wyre-local-plan-2011-2031-incorporating-partial-update-of-2022-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Wyre Local Plan (2011-2031) (incorporating partial update of 2022)",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "8a36ea3e90abf184881f500caea0de71be4615761aae6edfd4084bf64e1c3769"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1605/adoption-statement",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "c7e7fa6227db0ee594c6fcd54e608ce0464f19be909ba904c7a424e6f0dca856"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1596/adopted-local-plan-policies-map",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "45a1ee7c34adbc3a47d79d88f1dbe41a4a3b1c8603ded4f13d889b43c58bb8ac"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1597/adopted-policies-map-urban-extract",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map Urban Extract",
+        "reference": "PM-URBAN-2023",
+        "document-status": "adopted",
+        "endpoint": "0cb111c50eeadd94accb6b8beee2671c3308c637ada7052be419c2e61f99e35a"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1598/inspectors-report-21-december-2022-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Inspectors Report (21 December 2022)",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "af2b809ac6cc803eee8088cbd0252551a146ad839973744987e89a3285a76fb5"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1603/sa-adoption-statement-january-2023-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption statement (January 2023)",
+        "reference": "SA-AS-2023",
+        "document-status": "adopted",
+        "endpoint": "85a0c6d32b95e261e7b37453fa0407d0f0c5c212ff0fc8909e974ce911450ca1"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1599/sustainability-appraisal-august-2017-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal (August 2017)",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "7d2e736d419a2ffa0a26f9b36205b004abe584ecefc52c74526628c0b5a30bdc"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1600/sustainability-appraisal-addendum-september-2018-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum (September 2018)",
+        "reference": "SA-ADD-2018",
+        "document-status": "adopted",
+        "endpoint": "69efe35bb50a0e8cb28032b515804973dc82f0f8ab1a45bb22bdec951cc688fb"
+      },
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1601/submission-sustainability-appraisal-and-non-technical-summary-november-2021-",
+        "documentation-url": "https://www.wyre.gov.uk/adopted-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Submission Sustainability Appraisal and Non-Technical Summary (November 2021)",
+        "reference": "SA-SUB-2021",
+        "document-status": "adopted",
+        "endpoint": "ee53f1cc058b18197f4791f3567e35f45f2152b3a91c7c63309a78ea9d0ef361"
+      }
+    ]
   },
   {
     "organisation": "local-authority:WYR",
@@ -18,7 +100,7 @@
     "reference": "LP-WYR-2024",
     "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
     "document-url": "https://www.wyre.gov.uk/downloads/file/1977/wyre-local-plan-issues-and-options-july-24",
-    "name": "Wyre Local Plan Full Review",
+    "name": "Wyre Local Plan Issues and Options 2024",
     "status": "regulation-18",
     "year": 2024,
     "period-start-date": "",
@@ -34,29 +116,29 @@
         "endpoint": "7c8f0a19f6c3fe6a242b770f3c809441de783ccbf9e67b5cd34798b5f36e87c9"
       },
       {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/2165/i-o-main-matters-march-2025",
+        "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
+        "document-type": "local-plan",
+        "name": "Main Matters document",
+        "reference": "MM-2025",
+        "document-status": "consultation",
+        "endpoint": "1a87b4ad6d0cc56218645630954808cba80ba9df90eb3fdbd0efc119c9132343"
+      },
+      {
         "document-url": "https://www.wyre.gov.uk/downloads/file/1973/wyre-local-plan-issues-and-options-sustainability-appraisal-june-24",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "sustainability-appraisal",
         "name": "Wyre Local Plan Issues and Options Sustainability Appraisal June 2024",
-        "reference": "SA-2024",
+        "reference": "SA-IO-2024",
         "document-status": "consultation",
         "endpoint": "bab83c2e0e1d22559b6ea6713d1c45eaa283ebce711bd7dc79e054f17fa5bc16"
-      },
-      {
-        "document-url": "https://www.wyre.gov.uk/downloads/file/2165/i-o-main-matters-march-2025",
-        "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
-        "document-type": "local-plan",
-        "name": "Main Matters Report",
-        "reference": "MMR-2025",
-        "document-status": "consultation",
-        "endpoint": "1a87b4ad6d0cc56218645630954808cba80ba9df90eb3fdbd0efc119c9132343"
       },
       {
         "document-url": "https://www.wyre.gov.uk/downloads/file/1978/exhibition-boards",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "local-plan",
-        "name": "Consultation Exhibition Boards",
-        "reference": "CEB-2024",
+        "name": "Consultation exhibition boards",
+        "reference": "EB-2024",
         "document-status": "consultation",
         "endpoint": "dfb498b733ef55ae419c5e94621a9f34cdc33cafaccc956ee7a52206e7b0383d"
       },
@@ -64,8 +146,8 @@
         "document-url": "https://www.wyre.gov.uk/downloads/file/2016/consultation-exhibition-boards-planning-reform-update",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "local-plan",
-        "name": "Consultation Exhibition Board - Planning Reform Update",
-        "reference": "CEB-PR-2024",
+        "name": "Consultation exhibition board - Planning reform update",
+        "reference": "EB-PR-2024",
         "document-status": "consultation",
         "endpoint": "7151a05c2ab607f8e7f11b5e1abf1ae0a013d09d39e54cf2bdb020d3ad310ccc"
       },
@@ -73,7 +155,7 @@
         "document-url": "https://www.wyre.gov.uk/downloads/file/1986/summary-leaflet",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "local-plan",
-        "name": "Summary Leaflet",
+        "name": "Summary leaflet",
         "reference": "SL-2024",
         "document-status": "consultation",
         "endpoint": "173dea457b771620dba1862ecef8cda8a1d5cf12f46315daeb6d4657445a39d0"
@@ -82,8 +164,8 @@
         "document-url": "https://www.wyre.gov.uk/downloads/file/1975/a4-handout",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "local-plan",
-        "name": "A4 Poster",
-        "reference": "A4P-2024",
+        "name": "A4 poster",
+        "reference": "A4-2024",
         "document-status": "consultation",
         "endpoint": "c033f087bb53291cbd46da7608a4ba1fb0a4e3e826c0533ae4d4da44ddaab0e0"
       },
@@ -91,7 +173,7 @@
         "document-url": "https://www.wyre.gov.uk/downloads/file/1967/frequently-asked-questions",
         "documentation-url": "https://www.wyre.gov.uk/local-plan/local-plan-full-review/4",
         "document-type": "local-plan",
-        "name": "Frequently Asked Questions",
+        "name": "Frequently asked questions",
         "reference": "FAQ-2024",
         "document-status": "consultation",
         "endpoint": "6b2c29e60e5e64cb51ab282ed8f4c0c06d8cea21d65770a6c6d32aef98084fcb"

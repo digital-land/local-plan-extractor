@@ -10,7 +10,17 @@
     "year": 2017,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+        "document-type": "local-plan",
+        "name": "Camden Local Plan adoption page",
+        "reference": "LP-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:CMD",
@@ -23,7 +33,17 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
+        "document-type": "local-plan-review",
+        "name": "Find out more and read and comment on the draft new Local Plan",
+        "reference": "LPR-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:CMD",
@@ -31,7 +51,7 @@
     "reference": "SA-CMD-2013",
     "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
     "document-url": "",
-    "name": "Camden Site Allocations Plan",
+    "name": "Camden Site Allocations Plan 2013",
     "status": "adopted",
     "year": 2013,
     "period-start-date": "",
@@ -60,19 +80,6 @@
     "name": "Fitzrovia Area Action Plan",
     "status": "adopted",
     "year": "",
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:CMD",
-    "organisation-name": "London Borough of Camden",
-    "reference": "MWP-NL-2022",
-    "documentation-url": "https://www.camden.gov.uk/local-plan-documents",
-    "document-url": "",
-    "name": "North London Waste Plan",
-    "status": "adopted",
-    "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
     "documents": []

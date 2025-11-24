@@ -2,9 +2,77 @@
   {
     "organisation": "local-authority:NWL",
     "organisation-name": "North West Leicestershire District Council",
+    "reference": "LP-NWL-2021",
+    "documentation-url": "https://www.nwleics.gov.uk/localplan",
+    "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
+    "name": "North West Leicestershire Local Plan 2011-2031 (as amended by Partial Review)",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "local-plan-review",
+        "name": "North West Leicestershire Local Plan (as amended by the Partial Review)",
+        "reference": "LPR-2021",
+        "document-status": "adopted",
+        "endpoint": "4f1240662479ef637a076e14ed79a1a063e013af2750cf38abe1cdd1724ba91c"
+      },
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_district_wide_policies_map_november_2017/Adopted%20District%20Wide%20%20Policies%20Map.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Adopted District Wide Policies Map November 2017",
+        "reference": "PM-2017",
+        "document-status": "adopted",
+        "endpoint": "65a38eeadfc85b7c20afdc20dcc0ff6636668c8d466324c23011757fd9d9c3fc"
+      },
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/sa_report_december_2016/SA%20REPORT%20DEC%202016%20%20FINAL.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report December 2016",
+        "reference": "SA-2016",
+        "document-status": "adopted",
+        "endpoint": "5b8b6e988fcd46741d0994c0a18a87e3d4bcc4d3077fb059930d6fe1cb74c3e7"
+      },
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/sa_report_addendum_november_2017/NW%20Leicestershire%20SA%20Report%20Addendum%20with%20non-technical%20UPDATE%20FINAL.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "sustainability-appraisal",
+        "name": "SA Report Addendum November 2017",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "ed6d9dcecb82ed830779026884a20393ab54e169d94cb6968ed912004c7253ce"
+      },
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/sa_and_sea_statement_october_2017/North%20West%20Leicestershire%20SEA%20STATEMENT.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "SA and SEA Statement October 2017",
+        "reference": "SEA-2017",
+        "document-status": "adopted",
+        "endpoint": "98b9b9e7be42e1cb3cb168dc3324aadfbcb7c8e2e646abb9d2c5b0495c43bd32"
+      },
+      {
+        "document-url": "https://www.nwleics.gov.uk/files/documents/local_plan_2011_2031_adoption_statement/Adoption%20Statement.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan 2011-2031 Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "57a4d68be8f5a1cad1ab44c0431bfa92e792ed612dfd759322166c96fbf4256e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NWL",
+    "organisation-name": "North West Leicestershire District Council",
     "reference": "LP-NWL-2017",
-    "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-    "document-url": "",
+    "documentation-url": "https://www.nwleics.gov.uk/localplan",
+    "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_local_plan_2011_20312/Adopted%20Written%20Statement.pdf",
     "name": "North West Leicestershire Local Plan 2011-2031",
     "status": "adopted",
     "year": 2017,
@@ -12,108 +80,40 @@
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan",
-        "name": "North West Leicestershire Local Plan",
-        "reference": "LP-2011-2031",
+        "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_local_plan_2011_20312/Adopted%20Written%20Statement.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "e7cd725d22e61f5e98fef7d74cf05506679daf7b0af314cff282471b5ea59f3d"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Partial Review",
-        "reference": "LPR-2017",
+        "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_local_plan_inset_maps_november_20175/Adopted%20Local%20Plan%20Inset%20Maps%202017.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan Inset Maps November 2017",
+        "reference": "LP-INSET-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "1eeff7d59472ed36e444b2e18fc0a1ff8fa9653e57c2c117dd5a065a3b4f8b91"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
+        "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_map_showing_areas_suitable_for_small_scale_wind_energy1/November%202017%20Small%20Wind%20Energy%20Map.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
         "document-type": "local-plan",
-        "name": "Evidence Base",
-        "reference": "EB-2017",
+        "name": "Adopted Map Showing Areas Suitable For Small Scale Wind Energy",
+        "reference": "LP-WIND-SMALL-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "6c3ee29cc62d1790dd86508004a6740eacc608ad9849d35cfceaa35a6c978e1d"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal",
-        "reference": "SA-2017",
+        "document-url": "https://www.nwleics.gov.uk/files/documents/adopted_map_showing_areas_potentially_suitable_for_mediumlarge_scale_wind_energy1/November%202017%20Large%20Wind%20Energy%20Map.pdf",
+        "documentation-url": "https://www.nwleics.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Adopted Map Showing Areas Potentially Suitable for Medium/Large Scale Wind Energy",
+        "reference": "LP-WIND-LARGE-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
-        "document-type": "local-plan-review",
-        "name": "Partial Review Examination",
-        "reference": "PRE-2017",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/planning_policy",
-        "document-type": "local-plan",
-        "name": "Strategic Housing and Economic Land Availability Assessment",
-        "reference": "SHELAA-2017",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NWL",
-    "organisation-name": "North West Leicestershire District Council",
-    "reference": "LP-NWL-2025",
-    "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-    "document-url": "",
-    "name": "New Local Plan",
-    "status": "draft",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan",
-        "name": "New Local Plan",
-        "reference": "NLP-2025",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan",
-        "name": "New Local Plan – progress so far",
-        "reference": "NLP-PROGRESS-2025",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan",
-        "name": "Evidence Base",
-        "reference": "EB-NLP-2025",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-        "document-type": "local-plan",
-        "name": "Local Plan Committee",
-        "reference": "LPC-2025",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "b76a9f739af4926d0e59476b2a813215282077c93c2f274fa6eb23ac9cee2844"
       }
     ]
   }

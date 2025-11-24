@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "organisation": "local-authority:GLO",
+    "organisation-name": "Gloucester City Council",
+    "reference": "LP-GLO-2017",
+    "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+    "document-url": "https://www.gloucester.gov.uk/media/0hijxhkm/jcs.pdf",
+    "name": "Joint Core Strategy 2011-2031",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/0hijxhkm/jcs.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "core-strategy",
+        "name": "Joint Core Strategy 2011 - 2031 (2017) document",
+        "reference": "CS-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "af5acfb9d8ab4102ffa9511cbb525de30d58bba7ab6a04e14eac4cefeb9b71f3"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GLO",
+    "organisation-name": "Gloucester City Council",
+    "reference": "LP-GLO-2023",
+    "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+    "document-url": "https://www.gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
+    "name": "Gloucester City Plan 2011-2031",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "local-plan",
+        "name": "Gloucester City Plan 2011 -2031 (Adopted 2023) High Resolution",
+        "reference": "LP-2011-2031-HR",
+        "document-status": "adopted",
+        "endpoint": "03a1fa357d9cddca056aaadd821d278263c833c883e56b1ba33cac423aa61aba"
+      },
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/ynedezpg/gloucester-city-plan-low-res.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "local-plan",
+        "name": "Gloucester City Plan 2011 -2031 (Adopted 2023) Low Resolution",
+        "reference": "LP-2011-2031-LR",
+        "document-status": "adopted",
+        "endpoint": "e511b5e9a9696dc64dfe88c4b6f91bff90a6b6c0ed5cfe397064c57545035a87"
+      },
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/150dn5hq/policies-map-full.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "policies-map",
+        "name": "PDF version of Policies Map",
+        "reference": "PM-2023",
+        "document-status": "adopted",
+        "endpoint": "c7b6fb65bf64d402815244244dc3f1b677b76eb7768efb9a83097b8f029d454c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GLO",
+    "organisation-name": "Gloucester City Council",
+    "reference": "LP-GLO-1983",
+    "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+    "document-url": "https://www.gloucester.gov.uk/media/nbvlfm3o/local-plan-1983.pdf",
+    "name": "City of Gloucester Local Plan (1983)",
+    "status": "adopted",
+    "year": 1983,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/nbvlfm3o/local-plan-1983.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "local-plan",
+        "name": "City of Gloucester Local Plan (1983)",
+        "reference": "LP-1983",
+        "document-status": "adopted",
+        "endpoint": "216aa4d959b9ab66e84c5687d1cc9cf320e8356067aef2ef2723cd73b20394b3"
+      },
+      {
+        "document-url": "https://www.gloucester.gov.uk/media/nouah1al/saved-1983-policies-post-gcp-adoption.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "local-plan",
+        "name": "Schedule of Saved Policies",
+        "reference": "SP-1983",
+        "document-status": "adopted",
+        "endpoint": "98cc33e1afd4f9dfb49291d62dd64ef5461da26d7d87d9cfa7ced5f0835c26e7"
+      }
+    ]
+  }
+]

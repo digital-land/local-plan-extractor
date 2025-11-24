@@ -4,10 +4,208 @@
     "organisation-name": "Middlesbrough Borough Council",
     "reference": "LP-MDB-2025",
     "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
-    "document-url": "",
-    "name": "Middlesbrough Publication Local Plan",
+    "document-url": "https://www.middlesbrough.gov.uk/media/3wwgjfal/lp-middlesbrough-publication-local-plan-2025.pdf",
+    "name": "Middlesbrough Publication Local Plan 2022-2041",
     "status": "submitted",
     "year": 2025,
+    "period-start-date": 2022,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/3wwgjfal/lp-middlesbrough-publication-local-plan-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "Middlesbrough Publication Local Plan",
+        "reference": "LP-2025",
+        "document-status": "examination",
+        "endpoint": "0779b966c0e83ba034ea953970ba0219ee5470113b4d85422836d747d2ef2019"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/4cnntdjb/lp-middlesbrough-publication-local-plan-2025-policies-map.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "policies-map",
+        "name": "Policies map",
+        "reference": "PM-2025",
+        "document-status": "examination",
+        "endpoint": "18c818de33b99e3032beeb738c345e5930990e0cab022f8117ff2a2f10c93cea"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/wnebn0ql/lp-middlesbrough-publication-local-plan-2025-town-centre-map.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "town centre inset map",
+        "reference": "LP-TC-2025",
+        "document-status": "examination",
+        "endpoint": "113b4a3008b6a9ed2d4dab15161496efccaec4f3277448138c69d101fa62f695"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/1lefcxrj/lp-sustainability-appraisal-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal report",
+        "reference": "SA-2025",
+        "document-status": "examination",
+        "endpoint": "4819d91ce828bdb5ccf445640b8c5b279b8bdad3322f7aeb659afa5108109361"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/qewho4w5/lp-sustainability-appraisal-non-technical-summary-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - non-technical summary",
+        "reference": "SA-NTS-2025",
+        "document-status": "examination",
+        "endpoint": "4e216ad1c32f64a92cfe49704ded125688c2eb056944d25a7cac9357794f5998"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/b4lfgcnp/lp-hra-appropriate-assessment-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation Assessment - appropriate assessment",
+        "reference": "HRA-AA-2025",
+        "document-status": "examination",
+        "endpoint": "fba210d84b8b195a9ee32694a1e3dcd8ca511bd072b98754c98ac74f16a128a0"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/rgwb4pi2/lp-hra-screening-report-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation Assessment - screening report",
+        "reference": "HRA-SR-2025",
+        "document-status": "examination",
+        "endpoint": "4702f59c44e632c0ab69e5aebba9bea8fef9fbcdc243b13c6a0ef7a92265c605"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/dmvbt0xf/lp-consultation-statement-draft-local-plan-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "consultation-statement",
+        "name": "Consultation statement - Draft Local Plan",
+        "reference": "CS-DLP-2025",
+        "document-status": "examination",
+        "endpoint": "325c80f27fedc675731a68a50354ade51117b4216750465983d3bf0d52e46e00"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/ge4lkyij/lp-consultation-statement-scoping-report-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "consultation-statement",
+        "name": "Consultation statement - Local Plan scoping report",
+        "reference": "CS-SR-2025",
+        "document-status": "examination",
+        "endpoint": "ab495ab4f14a933223148931fd1c29eb8999915b8d543557c4c66a4af1c3fc68"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/m4flb4ut/lp-duty-to-cooperate-publication-statement-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "Duty to cooperate statement",
+        "reference": "DTC-2025",
+        "document-status": "examination",
+        "endpoint": "42e456f59f9e1d4d31da4d6162e3a5ca8b90e9644fd92c25e38b4e0e10302c48"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/d3qk5zxa/lp-statement-of-representation-procedure-march-2025.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "Statement of representation procedure",
+        "reference": "SRP-2025",
+        "document-status": "examination",
+        "endpoint": "ac3e7fe34c7871490f8cf9878cddf51a15f289e538bdc03f95ee6f4b203edc01"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/ovxjwcek/planning-library-infrastructure-delivery-plan-2025-mar25.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/local-plan-faqs/",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan",
+        "reference": "IDP-2025",
+        "document-status": "examination",
+        "endpoint": "929cce5657d5acd9dd10efa1f8847895ee16b0907242976b109bbdea58b5996b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MDB",
+    "organisation-name": "Middlesbrough Borough Council",
+    "reference": "LP-MDB-2024",
+    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+    "document-url": "https://www.middlesbrough.gov.uk/media/ysyjki25/draft-local-plan-2024.pdf",
+    "name": "Middlesbrough Draft Local Plan 2024",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/ysyjki25/draft-local-plan-2024.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "Middlesbrough Draft Local Plan",
+        "reference": "LP-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "f08710a6242c5a96b58d6623776de565f0ead65b90835fa5bef9e63a64b1e953"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/y3beucjo/draft-local-plan-2024-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Middlesbrough Draft Local Plan sustainability appraisal",
+        "reference": "SA-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "25240bffef623de09afa987bb9ef562637b76c84038ee3658882ee0b2bf8d7e9"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/akojranm/draft-local-plan-2024-proposals-map.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "policies-map",
+        "name": "Middlesbrough Draft Local Plan proposals map",
+        "reference": "PM-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "ff044843789782619205381d3183d909af41021b35a5343890132051ab7d720e"
+      },
+      {
+        "document-url": "https://www.middlesbrough.gov.uk/media/nzwbtqzz/draft-local-plan-2024-town-centre-map.pdf",
+        "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+        "document-type": "local-plan",
+        "name": "Middlesbrough Draft Local Plan town centre insert",
+        "reference": "LP-TC-DRAFT-2024",
+        "document-status": "consultation",
+        "endpoint": "b8f0537b5c8fb9d01c4500c0b72c32063d6e06c50d93dfcafe93bd701e8c0adf"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:MDB",
+    "organisation-name": "Middlesbrough Borough Council",
+    "reference": "LP-MDB-2014",
+    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/",
+    "document-url": "",
+    "name": "Housing Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": "",
+    "period-end-date": 2029,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MDB",
+    "organisation-name": "Middlesbrough Borough Council",
+    "reference": "CS-MDB-2008",
+    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/",
+    "document-url": "",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2008,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MDB",
+    "organisation-name": "Middlesbrough Borough Council",
+    "reference": "RG-MDB-2009",
+    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/",
+    "document-url": "",
+    "name": "Regeneration DPD",
+    "status": "adopted",
+    "year": 2009,
     "period-start-date": "",
     "period-end-date": "",
     "documents": []

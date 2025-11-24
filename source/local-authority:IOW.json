@@ -2,22 +2,44 @@
   {
     "organisation": "local-authority:IOW",
     "organisation-name": "Isle of Wight Council",
-    "reference": "LP-IOW-2024",
+    "reference": "LP-IOW-2025",
     "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/draft-island-planning-strategy/",
     "document-url": "",
     "name": "Island Planning Strategy",
     "status": "examination",
-    "year": 2024,
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:IOW",
+    "organisation-name": "Isle of Wight Council",
+    "reference": "LP-IOW-2012",
+    "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/island-plan-core-strategy/",
+    "document-url": "",
+    "name": "Island Plan Core Strategy",
+    "status": "adopted",
+    "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/draft-island-planning-strategy/",
-        "document-type": "local-plan",
-        "name": "Inspectors Post Hearings Letter",
-        "reference": "LP-IPS-2025",
-        "document-status": "examination",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/statement-of-community-involvement/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement (SCI)",
+        "reference": "SCI-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/statement-of-community-involvement/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Summary of the comments received and changes made to the SCI",
+        "reference": "SCI-SUMMARY-2023",
+        "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
@@ -31,28 +53,37 @@
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/island-planning-strategy/responses-to-the-regulation-19-consultation/",
-        "document-type": "local-plan-regulation-19",
-        "name": "Regulation 19 representations database",
-        "reference": "LP-REG19-2024",
-        "document-status": "examination",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Health Contributions SPD",
+        "reference": "SPD-HEALTH-2024",
+        "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/island-planning-strategy/responses-to-the-regulation-19-consultation/",
-        "document-type": "local-plan-regulation-19",
-        "name": "Regulation 19 representor list with representor numbers",
-        "reference": "LP-REP-LIST-2024",
-        "document-status": "examination",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "adoption-statement",
+        "name": "Health Contributions SPD Adoption Statement",
+        "reference": "AS-HEALTH-2024",
+        "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
         "document-type": "supplementary-planning-document",
-        "name": "Health Contributions SPD",
-        "reference": "SPD-HEALTH-2024",
+        "name": "Health Contributions SPD Summary of Comments",
+        "reference": "SPD-HEALTH-COMMENTS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Health Contributions Equalities Impact Assessment",
+        "reference": "EIA-HEALTH-2024",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -68,9 +99,9 @@
       {
         "document-url": "",
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
-        "document-type": "supplementary-planning-document",
-        "name": "Affordable housing contributions SPD",
-        "reference": "SPD-AFFORD-2017",
+        "document-type": "adoption-statement",
+        "name": "SuDS SPD Adoption Statement",
+        "reference": "AS-SUDS-2024",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -78,8 +109,17 @@
         "document-url": "",
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
         "document-type": "supplementary-planning-document",
-        "name": "Children's Services Financial Contributions Supplementary Planning Document (CSFCSPD)",
-        "reference": "SPD-CHILD-2014",
+        "name": "Affordable Housing Contributions SPD",
+        "reference": "SPD-AH-2017",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Children's Services Financial Contributions Supplementary Planning Document",
+        "reference": "SPD-CSFC-2014",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -133,7 +173,7 @@
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
         "document-type": "supplementary-planning-document",
         "name": "Guidelines for parking provision as part of new developments SPD",
-        "reference": "SPD-PARK-2017",
+        "reference": "SPD-PARKING-2017",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -142,7 +182,7 @@
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
         "document-type": "supplementary-planning-document",
         "name": "Guidelines for recycling and refuse storage in new developments SPD",
-        "reference": "SPD-REFUSE-2017",
+        "reference": "SPD-WASTE-2017",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -160,7 +200,61 @@
         "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
         "document-type": "supplementary-planning-document",
         "name": "Housing Affordability SPD",
-        "reference": "SPD-HOUSE-AFF-2023",
+        "reference": "SPD-HA-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Chale village design statement SPD",
+        "reference": "SPD-CHALE-2012",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Fishbourne parish SPD",
+        "reference": "SPD-FISHBOURNE-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Godshill parish SPD",
+        "reference": "SPD-GODSHILL-2015",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Nettlestone and Seaview parish plan SPD",
+        "reference": "SPD-NS-2012",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Niton and Whitwell parish plan SPD",
+        "reference": "SPD-NW-2014",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/supplementary-planning-documents/",
+        "document-type": "supplementary-planning-document",
+        "name": "Yarmouth and Thorley community plan SPD",
+        "reference": "SPD-YT-2012",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

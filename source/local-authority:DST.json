@@ -5,11 +5,11 @@
     "reference": "LP-DST-2025",
     "documentation-url": "https://www.dorsetcouncil.gov.uk/w/dorset-council-local-plan-options-consultation-2025",
     "document-url": "https://www.dorsetcouncil.gov.uk/documents/d/guest/dorset-council-local-plan-options-consultation-document-2025-printweb-final",
-    "name": "Dorset Council Local Plan 2026-2043",
+    "name": "Dorset Council Local Plan Options Consultation 2025",
     "status": "regulation-18",
     "year": 2025,
-    "period-start-date": 2026,
-    "period-end-date": 2043,
+    "period-start-date": "",
+    "period-end-date": "",
     "documents": [
       {
         "document-url": "https://www.dorsetcouncil.gov.uk/documents/d/guest/dorset-council-local-plan-options-consultation-document-2025-printweb-final",
@@ -52,7 +52,7 @@
         "documentation-url": "https://www.dorsetcouncil.gov.uk/w/dorset-council-local-plan-options-consultation-2025",
         "document-type": "equalities-impact-assessment",
         "name": "Equality Impact Assessment for the Dorset Council Local Plan Options consultation process",
-        "reference": "EIA-2025-PROC",
+        "reference": "EQIA-2025-PROCESS",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -61,53 +61,8 @@
         "documentation-url": "https://www.dorsetcouncil.gov.uk/w/dorset-council-local-plan-options-consultation-2025",
         "document-type": "equalities-impact-assessment",
         "name": "Equality Impact Assessment for the Dorset Council Local Plan Options consultation document",
-        "reference": "EIA-2025-DOC",
+        "reference": "EQIA-2025-DOC",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/dorset-council-local-plan/dorset-council-local-plan-evidence-and-background-papers",
-        "document-type": "viability-assessment",
-        "name": "Dorset Council area viability assessment",
-        "reference": "VA-2022",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/dorset-council-local-plan/dorset-council-local-plan-evidence-and-background-papers",
-        "document-type": "strategic-housing-land-availability",
-        "name": "Strategic Housing Land Availability Assessment and Gypsy and Traveller Land Availability Assessment",
-        "reference": "SHLAA-2023",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/dorset-council-local-plan/dorset-council-local-plan-evidence-and-background-papers",
-        "document-type": "gypsy-and-traveller-assessment",
-        "name": "Gypsy and Traveller Accommodation Assessment Update",
-        "reference": "GTAA-2022",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/dorset-council-local-plan/dorset-council-local-plan-evidence-and-background-papers",
-        "document-type": "strategic-flood-risk-assessment",
-        "name": "Dorset Council Level 1 Strategic Flood Risk Assessment",
-        "reference": "SFRA-2024",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/dorset-council-local-plan/dorset-council-local-plan-evidence-and-background-papers",
-        "document-type": "strategic-flood-risk-assessment",
-        "name": "Weymouth Level 2 Strategic Flood Risk Assessment",
-        "reference": "SFRA-WEY-2024",
-        "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]

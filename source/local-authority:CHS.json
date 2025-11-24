@@ -2,8 +2,112 @@
   {
     "organisation": "local-authority:CHS",
     "organisation-name": "Chesterfield Borough Council",
+    "reference": "LP-CHS-2020",
+    "documentation-url": "https://www.chesterfield.gov.uk/local-plan",
+    "document-url": "https://www.chesterfield.gov.uk/media/wfebaonf/chesterfield-borough-local-plan-2018-2035.pdf",
+    "name": "Chesterfield Borough Local Plan 2018 to 2035",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2018,
+    "period-end-date": 2035,
+    "documents": [
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/wfebaonf/chesterfield-borough-local-plan-2018-2035.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Chesterfield Borough Local Plan 2018 to 2035",
+        "reference": "LP-2018-2035",
+        "document-status": "adopted",
+        "endpoint": "3c6a119cd4385f31d2c2ec762eef0060e9d1a144dac025fbbea2e5152ef18d72"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/eo4bb12q/local-plan-policies-map.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/local-plan",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "b71f04ea733f65374946e7e9b5b55e1af7ce88fff95686bf952eeb2c09fbfd5d"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/gc5fmvrs/final-report-27-may-2020.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "inspectors-report",
+        "name": "Final Report 27 May 2020",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "2b9a6ba4f96e74c5b4f6a9d30d09813756669324d5fc7c6a27d8120a902d18bb"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/tgxc02qh/chesterfield-borough-council-local-plan-submission-version-schedule-of-proposed-main-modifications-27-may-2020.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "main-modifications",
+        "name": "Chesterfield Borough Council Local Plan Submission Version Schedule of Proposed Main Modifications 27 May 2020",
+        "reference": "MM-2020",
+        "document-status": "adopted",
+        "endpoint": "c86691819575cb6f81af6198aa447fc028a623c34fd29248972653ada0d875ea"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/it1bva40/sd1-pre-submission-local-plan-2018-2033.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "local-plan-regulation-19",
+        "name": "SD1 Pre-submission Local Plan 2018-2033",
+        "reference": "LP-PRE-2018",
+        "document-status": "examination",
+        "endpoint": "e3de135d6313ffea55133555f92ecba4409edc8bd0dfbfdce00eae4865b255e6"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/0zlnfgvx/sd2-pre-submission-polices-map.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "local-plan-regulation-19",
+        "name": "SD2 Pre Submission Polices Map",
+        "reference": "PM-PRE-2018",
+        "document-status": "examination",
+        "endpoint": "e66edbbbede33a76dd079b0734512fe89e2118a8ffd85d06c1f4649ab9f983ad"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/3cjpk2mb/sd3-sustainability-appraisal-regulation-19-january-2019.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "sustainability-appraisal",
+        "name": "SD3 Sustainability Appraisal Regulation 19 January 2019",
+        "reference": "SA-2019",
+        "document-status": "examination",
+        "endpoint": "c38fb801b564bc033106d826cef197ded0195f15767e74a95a97d12c387f03f0"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/0kxhqm1m/sd6-statement-of-consultation.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/development-plan-the-local-plan/local-plan-examination-library/",
+        "document-type": "consultation-statement",
+        "name": "SD6 Statement of Consultation",
+        "reference": "CS-2019",
+        "document-status": "examination",
+        "endpoint": "43338e9b3c3f375ae19a0bf130274d74d67cc759aa04297b282db95a58566be5"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/rsjhmpre/north-derbyshire-and-bassetlaw-strategic-housing-market-assessment-2014.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/evidence-planning/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "North Derbyshire and Bassetlaw Strategic Housing Market Assessment 2014",
+        "reference": "SHMA-2014",
+        "document-status": "adopted",
+        "endpoint": "ab6b5175dc0fe42d97aa49445d663a873a5baceaeb681a6ccf0f92ae5030f5b1"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/l0sh3ftc/strategic-assessment-of-flood-risk-sfra.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/evidence-planning/",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic Assessment of Flood Risk (SFRA) 2009",
+        "reference": "SFRA-2009",
+        "document-status": "adopted",
+        "endpoint": "4174d8268b6f282eff786ea3caf1c1f848a5401fbb1588bb5e12fc05e3dd028b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHS",
+    "organisation-name": "Chesterfield Borough Council",
     "reference": "LP-CHS-2025",
-    "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+    "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/new-local-plan-and-call-for-sites/",
     "document-url": "https://www.chesterfield.gov.uk/media/egxnzkql/local-plan-consultation-pdf-version.pdf",
     "name": "New Local Plan 2025",
     "status": "regulation-18",
@@ -13,16 +117,16 @@
     "documents": [
       {
         "document-url": "https://www.chesterfield.gov.uk/media/egxnzkql/local-plan-consultation-pdf-version.pdf",
-        "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/new-local-plan-and-call-for-sites/",
         "document-type": "local-plan",
         "name": "Local Plan consultation information 2025",
-        "reference": "LP-2025",
+        "reference": "LP-CONSULT-2025",
         "document-status": "consultation",
         "endpoint": "3ddbdbc56fefbc64b9fc65a298535261c99c3098ce127f210a7638d4368d46cd"
       },
       {
         "document-url": "https://www.chesterfield.gov.uk/media/katfdecd/sustainability-appraisal-scoping-report-2025.pdf",
-        "documentation-url": "https://www.chesterfield.gov.uk/newlocalplan",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/new-local-plan-and-call-for-sites/",
         "document-type": "sustainability-appraisal",
         "name": "Sustainability appraisal scoping report March 2025",
         "reference": "SA-2025",
@@ -30,13 +134,31 @@
         "endpoint": "0a2834fee3c723434f759fbc9da0bc6bdbf9a73bc0f954ef3c8485cdeb1b1371"
       },
       {
-        "document-url": "https://gbr01.safelinks.protection.outlook.com/media/44nejpem/local-development-scheme-12-march-2025.pdf",
-        "documentation-url": "https://gbr01.safelinks.protection.outlook.com/?url=https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/local-development-scheme/&data=05|02|Elaine.McGovern@Chesterfield.gov.uk|6bf9d4927a9147e488dd08dd986b95a7|991e3159c57547ca9c86cdd55f6aec1a|0|0|638834310023382867|Unknown|TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ==|0|||&sdata=oFeGP1zv2g87rBMtPWamySE82FDmPh5hyxYJXw/8yGc=&reserved=0",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme - 12 March 2025",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "dbb6c2de35647b8d7cdeeac414a44f9fb7dfc1b38330811938a82ad7374d037c"
+        "document-url": "https://www.chesterfield.gov.uk/media/dowlhhfz/chesterfield-and-bolsover-housing-needs-assessment-v4.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/evidence-planning/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Chesterfield and Bolsover Local Housing Needs Assessment 2025",
+        "reference": "SHMA-2025",
+        "document-status": "consultation",
+        "endpoint": "991f9d1be398542e74077a2d15cc6331d9702695d388b0744a9f96a1ae80d9c5"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/hjyjl2tv/north-derbyshire-economic-needs-assessment-study-2025.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/evidence-planning/",
+        "document-type": "local-plan",
+        "name": "North Derbyshire Economic Needs Assessment Study 2025",
+        "reference": "EDNA-2025",
+        "document-status": "consultation",
+        "endpoint": "556d381b0d21848096c75b9e9a62cd74d0b3c2c9e4a14898b3707b196afc6102"
+      },
+      {
+        "document-url": "https://www.chesterfield.gov.uk/media/tbhjuppl/north-derbyshire-economic-needs-site-assessments-2025.pdf",
+        "documentation-url": "https://www.chesterfield.gov.uk/planning-and-building-control/planning-policy-and-the-local-plan/evidence-planning/",
+        "document-type": "site-allocations",
+        "name": "North Derbyshire Economic Needs Site Assessments 2025",
+        "reference": "SA-SITES-2025",
+        "document-status": "consultation",
+        "endpoint": "bcd1fa56d4333e43da598b12ed93cc0bcec3d64d380235d28f979519b755dd71"
       }
     ]
   }

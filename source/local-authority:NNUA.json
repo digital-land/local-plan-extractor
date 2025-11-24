@@ -3,9 +3,9 @@
     "organisation": "local-authority:NNUA",
     "organisation-name": "North Northamptonshire Council",
     "reference": "LP-NNUA-2016",
-    "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan",
     "document-url": "",
-    "name": "North Northamptonshire Joint Core Strategy 2011-2031",
+    "name": "Joint Core Strategy 2011 to 2031",
     "status": "adopted",
     "year": 2016,
     "period-start-date": 2011,
@@ -13,19 +13,19 @@
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan",
         "document-type": "core-strategy",
-        "name": "Joint Core Strategy - 2011 to 2031",
+        "name": "Joint Core Strategy 2011 to 2031",
         "reference": "CS-2011-2031",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan",
         "document-type": "sustainability-appraisal",
         "name": "SA Scoping Report",
-        "reference": "SA-SCOPING-2022",
+        "reference": "SA-2022",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
@@ -35,21 +35,84 @@
     "organisation": "local-authority:NNUA",
     "organisation-name": "North Northamptonshire Council",
     "reference": "LP-NNUA-2026",
-    "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan",
     "document-url": "",
-    "name": "North Northamptonshire Local Plan Review 2045",
-    "status": "draft",
+    "name": "North Northamptonshire Local Plan 2021 to 2045",
+    "status": "regulation-18",
     "year": 2026,
-    "period-start-date": "",
+    "period-start-date": 2021,
     "period-end-date": 2045,
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan",
         "document-type": "supplementary-planning-document",
         "name": "North Northamptonshire Strategic Plan - Scope and issues",
         "reference": "LP-SCOPE-2022",
         "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Housing and Economic Needs Assessment - Executive Summary",
+        "reference": "HENA-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Leisure Facilities Strategy (2024 to 2041) - Executive Summary",
+        "reference": "LFS-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Playing Pitch Strategy - Executive Summary",
+        "reference": "PPS-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "North Northamptonshire Retail Capacity Update",
+        "reference": "RCS-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Rushden Lakes Shopping Centre Impact Assessment",
+        "reference": "RLSCIA-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Town Centre Strategy",
+        "reference": "TCS-2024",
+        "document-status": "draft",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/north-northamptonshire-local-plan/evidence-base",
+        "document-type": "local-plan",
+        "name": "Strategic Logistics Study",
+        "reference": "SLS-2024",
+        "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
@@ -65,32 +128,16 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2023-EN",
-    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/east-northamptonshire-local-plan-part-2",
-    "document-url": "",
-    "name": "East Northamptonshire Local Plan Part 2 2011-2031",
-    "status": "adopted",
-    "year": 2023,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2021-KETTERING",
-    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/kettering-site-specific-part-2-local-plan",
-    "document-url": "",
-    "name": "Kettering Site Specific Part 2 Local Plan",
-    "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/part-2-local-plan-corby",
+        "document-type": "local-plan",
+        "name": "Adopted Part 2 Local Plan for Corby",
+        "reference": "LP-CORBY-2021",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   }
 ]

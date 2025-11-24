@@ -3,8 +3,8 @@
     "organisation": "local-authority:HOR",
     "organisation-name": "Horsham District Council",
     "reference": "LP-HOR-2015",
-    "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
-    "document-url": "",
+    "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+    "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0016/60190/Horsham-District-Planning-Framework-November-2015.pdf",
     "name": "Horsham District Planning Framework",
     "status": "adopted",
     "year": 2015,
@@ -12,13 +12,99 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
-        "document-type": "local-plan-adopted",
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0016/60190/Horsham-District-Planning-Framework-November-2015.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
         "name": "Horsham District Planning Framework",
-        "reference": "LP-2015",
+        "reference": "LP-HDPF-2015",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "5b27733418eab100fe797cd5cae13bb0625030a1fa121bf200031a53bf943774"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0003/28641/HDPF-Sustainability-Appraisal-and-SEA-2015.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "HDPF Sustainability Appraisal and SEA 2015",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "76d523ed1c4783d4dc0d409fb586979f04ced60a83269e13166b16b1f259ec23"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0008/69326/Policies-map-reference.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "policies-map",
+        "name": "District Policy Map",
+        "reference": "PM-2015",
+        "document-status": "adopted",
+        "endpoint": "96a067449dd4a5de60203e8faa3f94beb83da773c718942ebb9e4ba2ebf4baaf"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0005/128768/Policy-Map-Key.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "policies-map",
+        "name": "Policy Map Key",
+        "reference": "PMK-2015",
+        "document-status": "adopted",
+        "endpoint": "e3ca806fe4001dcf0be172d1ab68fe0f9f6a10d4d1d3ebb94c8880f41e456215"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0019/32833/Infrastructure_Delivery_Plan.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/planning-policy/evidence-base",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Delivery Plan 2016",
+        "reference": "IDP-2016",
+        "document-status": "adopted",
+        "endpoint": "9c0abc81b9becb67b211a9cbe946e2ee8bd3a2e7380eecb4a72f16cb6216f170"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HOR",
+    "organisation-name": "Horsham District Council",
+    "reference": "LP-HOR-2025",
+    "documentation-url": "https://www.horsham.gov.uk/localplan",
+    "document-url": "",
+    "name": "Horsham District Local Plan 2023-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0012/150222/ID09-Inspectors-Initial-response-to-HDC43-280825-v2.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
+        "name": "Inspector's Initial Response to HDC43",
+        "reference": "IR-ID09-2025",
+        "document-status": "examination",
+        "endpoint": "33d2d3137a648f3a0c3f869ca5ec3ea501cabed0737728ff04d6953f07d415d2"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0019/153550/HDC44-Letter-to-Inspector-Response-to-ID09.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
+        "name": "Letter to Inspector - Response to ID09",
+        "reference": "HDC44-2025",
+        "document-status": "examination",
+        "endpoint": "78785ae7cd0b33cf26ddf5d77774c4160ba35dde089b1522494ea8efe13263d5"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0020/153551/HDC44a-Appendix-1-Natural-England-Arun-Valley-Withdrawal-Statement-31.10.25.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
+        "name": "Appendix 1 Natural England Arun Valley Withdrawal Statement",
+        "reference": "HDC44A-2025",
+        "document-status": "examination",
+        "endpoint": "e1c6962c0f04659a16d03be4331af2e4bb75e37715620bf22987608e758b16df"
+      },
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0003/153552/HDC44b-Appendix-2-Additional-Duty-to-Co-operate-information.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
+        "name": "Appendix 2 Additional Duty to Co-operate Information",
+        "reference": "HDC44B-2025",
+        "document-status": "examination",
+        "endpoint": "e926b9ec5305897899b0cae477551cd889e5d14b9f651a269d8ae0e2c29cf2d2"
       }
     ]
   }

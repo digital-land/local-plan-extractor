@@ -1,1 +1,201 @@
-[]
+[
+  {
+    "organisation": "local-authority:ELI",
+    "organisation-name": "East Lindsey District Council",
+    "reference": "LP-ELI-2018",
+    "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+    "document-url": "https://www.e-lindsey.gov.uk/media/9791/Core-Strategy/pdf/Final_Version_of_Core_Strategy_2018.pdf?m=1546595473230",
+    "name": "East Lindsey Local Plan 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9791/Core-Strategy/pdf/Final_Version_of_Core_Strategy_2018.pdf?m=1546595473230",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2018",
+        "document-status": "adopted",
+        "endpoint": "3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/15269/Adopted-Settlement-Proposals/pdf/AdoptedSettlementProposalsDocument.pdf?m=1579873492493",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "local-plan",
+        "name": "Settlement Proposals Document",
+        "reference": "SP-2018",
+        "document-status": "adopted",
+        "endpoint": "92b4e5fc3af68d9bae48e2592536260347854f6aed531f63c2c708bda7dd231f"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9792/Settlement-Proposals-Pt1-Alford-to-Legbourne/pdf/Settlement_Proposals_Pt1_Alford_to_Legbourne.pdf?m=1532335698627",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "local-plan",
+        "name": "Settlement Proposals Pt1 Alford to Legbourne",
+        "reference": "SP1-2018",
+        "document-status": "adopted",
+        "endpoint": "bacdd0eb820d3b66d07fd68016eb234419afaa8e60b825a66ff6a1d9a8b0694d"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9793/Settlement-Proposals-Pt2-Louth-to-Wragby/pdf/Settlement_Proposals_Pt2_Louth_to_Wragby.pdf?m=1532335699247",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "local-plan",
+        "name": "Settlement Proposals Pt2 Louth to Wragby",
+        "reference": "SP2-2018",
+        "document-status": "adopted",
+        "endpoint": "537d38644eeab704acb8a836736ab53bd27c82a546506fd891108e8dd5d995a1"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9794/Settlement-Proposals-Pt3-Coastal-Settlements/pdf/Settlement_Proposals_Pt3_Coastal_Settlements.pdf?m=1532335699927",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "local-plan",
+        "name": "Settlement Proposals Pt3 Coastal Settlements",
+        "reference": "SP3-2018",
+        "document-status": "adopted",
+        "endpoint": "f09c7e1bd8008f72eb9078072beb8c2c0252214aa7c1cb84e937dbb730b8fd4e"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/5024/CD102-East-Lindsey-Core-Strategy-Sustainability-Appraisal-November-2016-with-Non-Technical-Summary/pdf/Cd102_East_Lindsey_Core_Strategy_Sustainability_Appraisal_November_2016_with_Non_Technical_Summary.pdf?m=1503583849553",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "sustainability-appraisal",
+        "name": "East Lindsey Core Strategy Sustainability Appraisal November 2016 with Non Technical Summary",
+        "reference": "SA-CS-2016",
+        "document-status": "adopted",
+        "endpoint": "59f8c477c2eb8ce1a34c384eb5512e1b43145f2d167308a29b1b835a9584ebf6"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/5989/CD102-East-Lindsey-Settlement-Proposals-Sustainability-Appraisal-November-2016-with-Non-Technical-Summary/pdf/CD102_East_Lindsey_Settlement_Proposals_Sustainability_Appraisal_November_2016_with_Non_Technical_Su.pdf?m=1505729489143",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "sustainability-appraisal",
+        "name": "East Lindsey Settlement Proposals Sustainability Appraisal November 2016 with Non Technical Summary",
+        "reference": "SA-SP-2016",
+        "document-status": "adopted",
+        "endpoint": "f1745358b363ccf8575887fb8b283302d73b2369a7cef3edfffd893d961b81a7"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/7732/Schedule-of-Proposed-Main-Modifications-to-the-Core-Strategy-Draft-Local-Plan-2017-ED056/pdf/ED056_Main_Mods_table_Core_Strategy_Version_5.pdf?m=1612263191610",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "main-modifications",
+        "name": "Schedule of Proposed Main Modifications to the Core Strategy Draft Local Plan (2017) (ED056)",
+        "reference": "MM-CS-2017",
+        "document-status": "adopted",
+        "endpoint": "0a9a339c737f46869cd884e0b3ee12e00c0fc5a6d0b8331fc4f87467f56b3357"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/7733/Schedule-of-Proposed-Main-Modifications-to-the-Settlement-Proposals-DPD-Draft-Local-Plan-2017-ED057/pdf/ED057_Main_Mods_table_SP_DPD_Revised_Version_2018.pdf?m=1612263203067",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "main-modifications",
+        "name": "Schedule of Proposed Main Modifications to the Settlement Proposals DPD Draft Local Plan (2017) (ED057)",
+        "reference": "MM-SP-2017",
+        "document-status": "adopted",
+        "endpoint": "62d8786af6e41626c821e230d9897558183fb67b04f31c259529108921a9649b"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9940/Adoption-Statement/pdf/Adoption_Statement.pdf?m=1533116020207",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2018",
+        "document-status": "adopted",
+        "endpoint": "c6b5deb5e9f71134e4cb2a6d183f21111b7df197a870c63743c17b917eb3e339"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/5990/CD102-Appendix-1-Settlement-Proposals-Site-Assessment-Forms/pdf/CD102_Appendix_1_-_Settlement_Proposals_Site_Assessment_Forms.pdf?m=1505729489720",
+        "documentation-url": "https://www.e-lindsey.gov.uk/localplan2018",
+        "document-type": "site-allocations",
+        "name": "Settlement Proposals Site Assessment Forms",
+        "reference": "SAF-2016",
+        "document-status": "adopted",
+        "endpoint": "472321d02fe6ee79cda3c42b27984f07ff3436df941c94799138cb1950e0b8c8"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ELI",
+    "organisation-name": "East Lindsey District Council",
+    "reference": "LP-ELI-2021",
+    "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+    "document-url": "",
+    "name": "East Lindsey Local Plan Review",
+    "status": "regulation-18",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/24472/Strategic-Housing-Market-Assessment/pdf/East_Lindsey_SHMA_Final_Version_Mar-21.pdf?m=1707739175237",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment",
+        "reference": "SHMA-2021",
+        "document-status": "draft",
+        "endpoint": "d7086baa57c307e8d64e556610962ab96654f453a409dffc0d9a7a6536b54ba3"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/24471/Economic-Viability-Assessment-2021/pdf/East_Lindsey_Economic_Viability_Assessment_Feb-21.pdf?m=1707738870297",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "viability-assessment",
+        "name": "Economic Viability Assessment 2021",
+        "reference": "VA-2021",
+        "document-status": "draft",
+        "endpoint": "fbbb2f81ead70e27dd76df6dd85dde58c9fb1deebb551cced3553b2ba899ecc0"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/24470/Economic-Baseline-2021/pdf/East_Lindsey_Economic_Baseline_2021.pdf?m=1707738658187",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "local-plan",
+        "name": "Economic Baseline 2021",
+        "reference": "EB-2021",
+        "document-status": "draft",
+        "endpoint": "2893632ce66f9eb9ba32ce2c299b04e63d53e1c770d255fe250c89bf63abf2ef"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/24474/East-Lindsey-Retail-Study/pdf/East_Lindsey_Retail_Study_-_REPORT.pdf?m=1707739519697",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "retail-and-town-centre-study",
+        "name": "East Lindsey Retail Study",
+        "reference": "RS-2021",
+        "document-status": "draft",
+        "endpoint": "c0df15612c7d0467b16d0bec13887f9c874ffa6402b18d593f9df963345a1ed8"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/24473/Gypsy-and-Traveller-Accommodation-Assessment/pdf/East_Lindsey_GTAA_Final_Report_Mar-23.pdf?m=1707739322340",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Gypsy and Traveller Accommodation Assessment",
+        "reference": "GTAA-2023",
+        "document-status": "draft",
+        "endpoint": "7263e75f57f752af2d807d24b21ce6cd0f8b2dd84fe42d7c2f196fdf2c171dc1"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/28049/Playing-Pitch-and-Outdoor-Sports-Facilities-Study/pdf/Playing_Pitch_and_Outdoor_Sports_Facilities_Study_Final_Version_2025_1p9esxid11l5m.pdf?m=1758200693067",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "local-plan",
+        "name": "Playing Pitch and Outdoor Sports Facilities Study",
+        "reference": "PPOS-2025",
+        "document-status": "draft",
+        "endpoint": "0ac3cddcf52617100be6dbecb7ff6eba1fdbdb528ce2a3df82a4934f6048e78d"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/28051/Sports-Facilities-Study/pdf/Sports_Facilities_Study_Final_Version.pdf?m=1758200891440",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "local-plan",
+        "name": "Sports Facilities Study",
+        "reference": "SFS-2025",
+        "document-status": "draft",
+        "endpoint": "7e2591694d798cf10777d1c3357a1e1f4fd0c997e10589616409d39143e78fe2"
+      },
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/28050/Open-Spaces-Study/pdf/Open_Space_Study_Final_Version.pdf?m=1758200780927",
+        "documentation-url": "https://www.e-lindsey.gov.uk/article/25589/Local-Plan-Review",
+        "document-type": "local-plan",
+        "name": "Open Spaces Study",
+        "reference": "OSS-2025",
+        "document-status": "draft",
+        "endpoint": "8324c5c073421118d3cd28b6e35e52eb9d0d275f4ae9e6ca63f50519289e7f2d"
+      }
+    ]
+  }
+]

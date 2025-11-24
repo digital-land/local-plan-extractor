@@ -2,55 +2,55 @@
   {
     "organisation": "local-authority:STE",
     "organisation-name": "Stoke-on-Trent City Council",
-    "reference": "LP-STE-NEC-2007",
-    "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
-    "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
-    "name": "Stoke-on-Trent and Newcastle-under-Lyme Joint Local Development Framework Core Spatial Strategy 2006-2026",
-    "status": "adopted",
-    "year": 2007,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
+    "reference": "LP-STE-2025",
+    "documentation-url": "https://www.stoke.gov.uk/info/20071/stoke-on-trent_local_plan/272/about_our_draft_stoke-on-trent_local_plan",
+    "document-url": "",
+    "name": "Draft Stoke-on-Trent Local Plan 2020-2040",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
-        "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
-        "document-type": "core-strategy",
-        "name": "Joint Core Spatial Strategy",
-        "reference": "CSS-2006-2026",
+        "document-url": "",
+        "documentation-url": "https://www.stoke.gov.uk/info/20071/stoke-on-trent_local_plan/272/about_our_draft_stoke-on-trent_local_plan",
+        "document-type": "local-plan",
+        "name": "Draft Local Plan",
+        "reference": "LP-2020-2040",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.stoke.gov.uk/download/downloads/id/485/planning_adopted_statement_of_community_involvement.pdf",
+        "documentation-url": "https://www.stoke.gov.uk/info/20084/planning_policy",
+        "document-type": "statement-of-community-involvement",
+        "name": "Adopted Statement of Community Involvement",
+        "reference": "SCI-2024",
         "document-status": "adopted",
-        "endpoint": "joint-nec-ste-css-2007"
+        "endpoint": "f8b30c7e7a431c1279c50d723f313bc3900e6f54db107942528268bc453709bb"
       }
     ]
   },
   {
     "organisation": "local-authority:STE",
     "organisation-name": "Stoke-on-Trent City Council",
-    "reference": "LP-STE-2024",
-    "documentation-url": "https://www.stoke.gov.uk/info/20071/stoke-on-trent_local_plan",
-    "document-url": "",
-    "name": "Draft Stoke-on-Trent Local Plan",
-    "status": "draft",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "reference": "LP-STE-2009",
+    "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
+    "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
+    "name": "Newcastle-under-Lyme and Stoke-on-Trent Core Spatial Strategy",
+    "status": "adopted",
+    "year": 2009,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "https://www.stoke.gov.uk/download/downloads/id/485/planning_adopted_statement_of_community_involvement.pdf",
-        "documentation-url": "https://www.stoke.gov.uk/info/20084/planning-policy",
-        "document-type": "statement-of-community-involvement",
-        "name": "Adopted statement of community involvement",
-        "reference": "SCI-2024",
-        "document-status": "adopted",
-        "endpoint": "f8b30c7e7a431c1279c50d723f313bc3900e6f54db107942528268bc453709bb"
-      },
-      {
-        "document-url": "https://www.stoke.gov.uk/download/downloads/id/2619/burslem_public_realm_consultation_-_supporting_document.pdf",
-        "documentation-url": "https://www.stoke.gov.uk/info/20005/planning_and_building/737/burslem_public_realm_consultation",
+        "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
+        "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
         "document-type": "local-plan",
-        "name": "Burslem Public Realm supporting document",
-        "reference": "PR-BURSLEM-2024",
-        "document-status": "consultation",
-        "endpoint": "84123b806c5a1397b201bdcb2477e77c33a3e7c5c9cc521e46938c1c3c3e3e02"
+        "name": "SoT and NUL Local Development Framework Core Spatial Strategy 2006 to 2026",
+        "reference": "CS-2006-2026",
+        "document-status": "adopted",
+        "endpoint": "4be5c24556f230c71970d8bc7de2651e7ff911ab9688db4edd19f5e7f31e6f69"
       }
     ]
   }

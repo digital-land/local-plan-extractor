@@ -2,23 +2,77 @@
   {
     "organisation": "local-authority:OLD",
     "organisation-name": "Oldham Metropolitan Borough Council",
-    "reference": "LP-OLD-2025",
-    "documentation-url": "https://www.oldham.gov.uk/downloads/20054/local_plan_documents",
+    "reference": "LP-OLD-2024",
+    "documentation-url": "https://www.oldham.gov.uk/info/201231/emerging_planning_policy",
     "document-url": "",
-    "name": "Oldham Local Plan",
-    "status": "draft",
-    "year": 2025,
+    "name": "Places for Everyone Joint Development Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:OLD",
+    "organisation-name": "Oldham Metropolitan Borough Council",
+    "reference": "LP-OLD-2011",
+    "documentation-url": "https://www.oldham.gov.uk/info/201229/current_local_planning_policy/2934/the_adopted_local_plan_in_oldham",
+    "document-url": "",
+    "name": "Joint Core Strategy and Development Management Policies Development Plan Document",
+    "status": "adopted",
+    "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.oldham.gov.uk/downloads/20054/local_plan_documents",
+        "document-url": "https://www.oldham.gov.uk/downloads/file/6788/saved_udp_policies_document",
+        "documentation-url": "https://www.oldham.gov.uk/info/201229/current_local_planning_policy/2934/the_adopted_local_plan_in_oldham",
         "document-type": "local-plan",
-        "name": "Document downloads",
-        "reference": "LP-2025",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "name": "Saved UDP Policies",
+        "reference": "LP-SAVED-UDP",
+        "document-status": "adopted",
+        "endpoint": "2becc633e72e09ec7cd582a142bc44d6f40d015c105b4163dafc4d9c4dc354d0"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:OLD",
+    "organisation-name": "Oldham Metropolitan Borough Council",
+    "reference": "LP-OLD-2006",
+    "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
+    "document-url": "https://www.oldham.gov.uk/downloads/file/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006",
+    "name": "Oldham Metropolitan Borough Unitary Development Plan",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.oldham.gov.uk/downloads/file/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006",
+        "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
+        "document-type": "local-plan",
+        "name": "Council Report – Oldham Unitary Development Plan (24 May 2006)",
+        "reference": "LP-UDP-2006",
+        "document-status": "adopted",
+        "endpoint": "ff00b688e94c7e86b3e8462ac9e6ea02a4c993ba7bb5f5266f27a23f7b55560d"
+      },
+      {
+        "document-url": "https://www.oldham.gov.uk/downloads/file/1420/notice_of_intention_to_adopt_a_unitary_development_plan_12_june_2006",
+        "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
+        "document-type": "local-plan",
+        "name": "Notice of Intention to Adopt a Unitary Development Plan (12 June 2006)",
+        "reference": "NOTICE-INT-2006",
+        "document-status": "adopted",
+        "endpoint": "2d7e39c6894b5c41e183d6cea8ce3cc4e0cee76476e87e67da8aef59c723b77b"
+      },
+      {
+        "document-url": "https://www.oldham.gov.uk/downloads/file/1421/notice_of_adoption_14th_july_2006",
+        "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
+        "document-type": "local-plan",
+        "name": "Notice of Adoption (14th July 2006)",
+        "reference": "NOTICE-ADOPT-2006",
+        "document-status": "adopted",
+        "endpoint": "dccc2d27440f837321e4b20bae6ce322da9ce70bb132bb03824a14f7141cf7b4"
       }
     ]
   }

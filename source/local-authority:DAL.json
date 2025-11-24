@@ -1,1 +1,197 @@
-[]
+[
+  {
+    "organisation": "local-authority:DAL",
+    "organisation-name": "Darlington Borough Council",
+    "reference": "LP-DAL-2022",
+    "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+    "document-url": "https://www.darlington.gov.uk/media/0b0hqmzu/local-plan-adopted-feb22v2-accessibility-check.pdf",
+    "name": "Darlington Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.darlington.gov.uk/media/0b0hqmzu/local-plan-adopted-feb22v2-accessibility-check.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "local-plan",
+        "name": "Darlington Borough Local Plan Adopted February 2022",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "fd8f3a4159939599b4e8bcf627b45e9677350a4d50d07ef82a310d291fe25083"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/rxcozdkf/adopted-darlington-local-plan-feb22-r.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "policies-map",
+        "name": "Darlington Policies Map",
+        "reference": "PM-2022",
+        "document-status": "adopted",
+        "endpoint": "55668eb443b9b59897823ca3e044a5a89c729487cfe2fbb76e7fb31da8ab6a10"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/ihyjkxou/cd03-darlington-local-plan-proposed-submission-local-plan-2016-2036-sustainability-appraisal.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "sustainability-appraisal",
+        "name": "Darlington Borough Local Plan 2016-2036 (Regulation 19) Sustainability Appraisal",
+        "reference": "SA-2020",
+        "document-status": "adopted",
+        "endpoint": "d8da04db3e5430e96dedd65984990eb2e4cf9b580be8c39ea804249cca14e68a"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/nbqjhqos/cd05-statement-of-common-ground.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "statement-of-common-ground",
+        "name": "Statement of Common Ground including Duty to Co-operate",
+        "reference": "SCG-2020",
+        "document-status": "adopted",
+        "endpoint": "650613d151030f5d6b46aec7e1206f6e87babbc843a9868d8c6f7e3c38257a58"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/4cimtdw1/cd07-habitat-regulations-assessmen-screening-report-2019.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Appropriate Assessment - screening report",
+        "reference": "HRA-2019",
+        "document-status": "adopted",
+        "endpoint": "276d0cca92e26d7ffb09b07bf59f1c6f0b5bf35fa1b53d22340dada66eacf4ba"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/42eha100/cd08-local-plan-viability-assessment.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "viability-assessment",
+        "name": "Local Plan Viability Assessment",
+        "reference": "VA-2020",
+        "document-status": "adopted",
+        "endpoint": "51c01fb32f6171170b9c492d6da45c532f8e24508ca4b448ce3e4c38127b222c"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/g01ltvjv/pd01-consultation-statement-accessible-version.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement",
+        "reference": "CS-2020",
+        "document-status": "adopted",
+        "endpoint": "54ebd7c4106f827a2bb74ce0f9030ff019e68b219dc7665a6155411156145372"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/qtpfwmg3/pd03-darlington-local-plan-equality-impact-assessment-2020.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Darlington Local Plan Equality Impact Assessment 2020",
+        "reference": "EIA-2020",
+        "document-status": "adopted",
+        "endpoint": "140a9dc1a4dc7fd49c9972642b430120e55cc4be88a511e4aa628567045656ec"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/chro5ctj/sd08-darlington-strategic-housing-market-assessment-2020.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Darlington Strategic Housing market assessment 2020",
+        "reference": "SHMA-2020",
+        "document-status": "adopted",
+        "endpoint": "4c42054b20fd27be4113804d05b796b7d3a3feed99e27df020b898d2f41ebd14"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/vkzbk5kf/sd10-helaa-2017_part1.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "HELAA 2017 Part 1",
+        "reference": "HELAA-2017-1",
+        "document-status": "adopted",
+        "endpoint": "f25578289d7d87df635cb84e455d41c10bf0b3a83d2142298f0041c9b02b461c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DAL",
+    "organisation-name": "Darlington Borough Council",
+    "reference": "LP-DAL-2011",
+    "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/core-strategy-adopted-2011/",
+    "document-url": "https://www.darlington.gov.uk/media/sfuh5nc2/cd7-darlington-core-strategy-2011.pdf",
+    "name": "Core Strategy 2011-2026",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.darlington.gov.uk/media/sfuh5nc2/cd7-darlington-core-strategy-2011.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/core-strategy-adopted-2011/",
+        "document-type": "core-strategy",
+        "name": "Core Strategy DPD",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "71fa9a65e77ca9c17f3797ad52d20063b8fcc6a17781166076e7f95679124b01"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/osibhykn/key-diagram-may-2011.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/core-strategy-adopted-2011/",
+        "document-type": "policies-map",
+        "name": "Key Diagram",
+        "reference": "KD-2011",
+        "document-status": "adopted",
+        "endpoint": "784028514b894c94a7aecec557749437b48d5c388e90635c59d86da6e3fc3455"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DAL",
+    "organisation-name": "Darlington Borough Council",
+    "reference": "LP-DAL-1997",
+    "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+    "document-url": "https://www.darlington.gov.uk/media/hcxnt2mc/local-plan-statement.pdf",
+    "name": "Borough of Darlington Local Plan 1997 (alterations 2001)",
+    "status": "adopted",
+    "year": 1997,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.darlington.gov.uk/media/hcxnt2mc/local-plan-statement.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+        "document-type": "local-plan",
+        "name": "Policies from the 1997 Local Plan (amended 2001)",
+        "reference": "LP-1997",
+        "document-status": "adopted",
+        "endpoint": "d50573ad8064549a199039925a5b71ec47f0fb436a1e0af1c3f78c18ce61c64f"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/usraz3e2/proposals-map-1.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+        "document-type": "policies-map",
+        "name": "Proposals Map 1",
+        "reference": "PM-1997-1",
+        "document-status": "adopted",
+        "endpoint": "ea58e59ea2a2bed52affbe67d86d4f610dafc7237808bb237c6622b838666385"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/213ksqoq/proposals-map-2-urban-area-inset.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+        "document-type": "policies-map",
+        "name": "Proposals Map 2, Urban Area Inset",
+        "reference": "PM-1997-2",
+        "document-status": "adopted",
+        "endpoint": "6acab7992b5171ef45944476622edd08342a7ede3ebce6f1f1e71b85e9c8f91b"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/3z2eqw2o/proposals-map-3-village-insets.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+        "document-type": "policies-map",
+        "name": "Proposals Map 3, Village Insets",
+        "reference": "PM-1997-3",
+        "document-status": "adopted",
+        "endpoint": "1f937b56c4265ee20cc791c4b52108da4487b82cca459d7e7a6701231373c5e3"
+      },
+      {
+        "document-url": "https://www.darlington.gov.uk/media/spkpyg21/proposals-map-4-central-area-inset.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/former-development-plans/former-local-plan-adopted-1997-alterations-2001/",
+        "document-type": "policies-map",
+        "name": "Proposals Map 4, Central Area Inset",
+        "reference": "PM-1997-4",
+        "document-status": "adopted",
+        "endpoint": "a2ad2ff28247a32dee0b3c1ac7ae7e0e8ffe95efbcd2a468dadbe3f7072db780"
+      }
+    ]
+  }
+]

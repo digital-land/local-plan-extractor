@@ -4,7 +4,7 @@
     "organisation-name": "Runnymede Borough Council",
     "reference": "LP-RUN-2020",
     "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
-    "document-url": "",
+    "document-url": "https://www.runnymede.gov.uk/downloads/file/781/adopted-2030-lp",
     "name": "Runnymede 2030 Local Plan",
     "status": "adopted",
     "year": 2020,
@@ -12,31 +12,103 @@
     "period-end-date": 2030,
     "documents": [
       {
-        "document-url": "https://www.runnymede.gov.uk/downloads/file/242/financial-monitoring-report-to-31-may-20",
-        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
-        "document-type": "authority-monitoring-report",
-        "name": "Financial Monitoring Report to 31 May 20",
-        "reference": "AMR-2020-MAY",
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/781/adopted-2030-lp",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted 2030 Local Plan",
+        "reference": "LP-2030",
         "document-status": "adopted",
-        "endpoint": "c4e82fa32db6c4f4a7f138f258a3d63f879aa46230b42c27a44b3b9beb0b4d84"
+        "endpoint": "3a84434d0983aed592c29b0096a6fd74679a08d4d4d7df267660f01db041ac2e"
       },
       {
-        "document-url": "https://www.runnymede.gov.uk/downloads/file/243/financial-monitoring-report-to-31-aug-20",
-        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
-        "document-type": "authority-monitoring-report",
-        "name": "Financial Monitoring Report to 31 Aug 20",
-        "reference": "AMR-2020-AUG",
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/780/adoption-statement",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2020",
         "document-status": "adopted",
-        "endpoint": "2514b5377651517cddd5ad8fe70b9c67aa987599dfe0499fa9a157906f0d71d3"
+        "endpoint": "d24b4371f931b8a2037e41213ff6cf20d97f2159e6cf2c6f058ddf7d85b17637"
       },
       {
-        "document-url": "https://www.runnymede.gov.uk/downloads/file/244/financial-monitoring-report-apr-june-20",
-        "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",
-        "document-type": "authority-monitoring-report",
-        "name": "Financial Monitoring Report Apr - June 20",
-        "reference": "AMR-2020-JUNE",
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/779/sa-sea-adoption-statement",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "adoption-statement",
+        "name": "SA/SEA Adoption Statement",
+        "reference": "SA-AS-2020",
         "document-status": "adopted",
-        "endpoint": "111e7b2dd2656e14f9cfb29a2108cbb2fde159130909a8eb616942856a421b0e"
+        "endpoint": "ea3732b2616a45f997d73e94d1c2d88b00b4af1140f597cfe630bf894576d029"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/778/inspector-s-report-on-rbc-2030-lp",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "local-plan",
+        "name": "Inspector's Report on the Runnymede 2030 Local Plan",
+        "reference": "IR-2020",
+        "document-status": "adopted",
+        "endpoint": "fd3e2045879467c081818d5ce5cc52e5339592c75fb35c92bfe88aba909e8841"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/777/schedule-of-main-modifications",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications",
+        "reference": "MM-2020",
+        "document-status": "adopted",
+        "endpoint": "bd27ef581bc5f0e287a8ccf02569fc0ec1dcf0bd1e1cea480226f6251a22da41"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/776/schedule-of-additional-modifications",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications",
+        "reference": "AM-2020",
+        "document-status": "adopted",
+        "endpoint": "0e9b283b7cbd9626c3f6811504584970419710f82e39f2a156e82617cf17bb12"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/2478/adopted-housing-delivery-action-plan-2023",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "housing-delivery-test",
+        "name": "Adopted Housing Delivery Action Plan 2023",
+        "reference": "HDAP-2023",
+        "document-status": "adopted",
+        "endpoint": "3d0063cab9fd1fb09d10b5302ab06719e4376db7e54cc69450b77d5a165ddc36"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/2596/updated-2025-5year-statement",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/2030-local-plan-review-evidence-base-documents/2",
+        "document-type": "local-plan",
+        "name": "Updated 5-Year Housing Land Supply Statement",
+        "reference": "5YHLS-2025",
+        "document-status": "adopted",
+        "endpoint": "898482be8a6ff6b53883a7a834c93142ed6810558fe0d703007300ea27a61d7d"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/2692/draft-slaa-methodology-june-2025",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/2030-local-plan-review-evidence-base-documents/2",
+        "document-type": "local-plan",
+        "name": "SLAA Methodology - 2025",
+        "reference": "SLAA-M-2025",
+        "document-status": "draft",
+        "endpoint": "ede8f1b78661e16c09d6dd1e495aff265dca1bcdcae2338be1a32eef33591e99"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/1279/slaa-2021-report-final",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/2030-local-plan-review-evidence-base-documents/2",
+        "document-type": "local-plan",
+        "name": "Strategic Land Availability Assessment Report (January 2021)",
+        "reference": "SLAA-2021",
+        "document-status": "adopted",
+        "endpoint": "658ecfa4f03631a8e94698cf3a1fa52a0af3d1b4f386b267adb46fac8590bdaa"
+      },
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/2477/runnymede-lds-2024-2028",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/local-development-scheme-lds",
+        "document-type": "local-development-scheme",
+        "name": "Runnymede Local Development Scheme - October 2024",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "732c0ef99474aba93b120f02967047e565a40b773085593fb4ed129f5604fa67"
       }
     ]
   }

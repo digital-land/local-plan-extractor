@@ -2,64 +2,118 @@
   {
     "organisation": "local-authority:HUN",
     "organisation-name": "Huntingdonshire District Council",
-    "reference": "LP-HUN-2025",
-    "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
-    "document-url": "https://huntingdonshire.gov.uk/media/u55dwlck/final-preferred-options-draft-local-plan-to-2046.pdf",
-    "name": "Preferred Options Draft Local Plan to 2046",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": 2046,
+    "reference": "LP-HUN-2019",
+    "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
+    "document-url": "https://www.huntingdonshire.gov.uk/media/3007/core01-final-local-plan-for-submission.pdf",
+    "name": "Huntingdonshire Local Plan to 2036",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2036,
     "documents": [
       {
-        "document-url": "https://huntingdonshire.gov.uk/media/u55dwlck/final-preferred-options-draft-local-plan-to-2046.pdf",
-        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
-        "document-type": "local-plan-regulation-18",
-        "name": "Preferred Options Draft Local Plan to 2046",
-        "reference": "LP-2025-2046",
-        "document-status": "consultation",
-        "endpoint": "191d19cc5f2957fdb695f23bc61f90e469359f09c7645ef6696addfa155bb9c1"
+        "document-url": "https://www.huntingdonshire.gov.uk/media/3007/core01-final-local-plan-for-submission.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "local-plan",
+        "name": "Huntingdonshire Local Plan to 2036 - Final Document for Submission",
+        "reference": "LP-2036",
+        "document-status": "adopted",
+        "endpoint": "641de3f0cb5f2e88110584e7396af4c3cebb9ab558117d12eb20e26fc3e58c00"
       },
       {
-        "document-url": "https://huntingdonshire.gov.uk/media/5uwn3ora/sustainability-appraisal-for-the-preferred-options-local-plan-to-2046-for-consultation.pdf",
-        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
+        "document-url": "https://www.huntingdonshire.gov.uk/media/3036/core02-local-plan-policies-map-march-2018-with-switchable-layers.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "policies-map",
+        "name": "Huntingdonshire Local Plan to 2036 - Policies Map with Switchable Layers",
+        "reference": "PM-2018",
+        "document-status": "adopted",
+        "endpoint": "40b2d7b151e4faa05797e3a072da99f3f28438986d045f0d6b33a007b0a9e891"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/3037/core03-local-plan-policies-map-zoomed-in-sections.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "policies-map",
+        "name": "Huntingdonshire Local Plan to 2036 - Policies Map Zoomed In Sections",
+        "reference": "PM-2018-2",
+        "document-status": "adopted",
+        "endpoint": "eb66c50c752a56256366bbe74b84210252867bee6e3b0c390aa87d24e96fdca9"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2685/draft-final-sustainability-appraisal-report.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
         "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal",
-        "reference": "SA-2025",
-        "document-status": "consultation",
-        "endpoint": "5f5b883bd925375c84a9d5feafd750c5203ef39b313c3f3624fba1cae318d75b"
+        "name": "Final Sustainability Appraisal Report",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "b6d68695098951796fd2a7011aec7a60df68de29eccc620959da59dc8cf79d39"
       },
       {
-        "document-url": "https://huntingdonshire.gov.uk/media/q2ipfeyt/interactive-map-user-guidance.pdf",
-        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
-        "document-type": "local-plan",
-        "name": "Interactive Map User Guide",
-        "reference": "MAP-2025",
-        "document-status": "consultation",
-        "endpoint": "e7f6e012dfdf9309a53e9f8a0e4196fd3ea342eb206585feeddf7d8796efe9e5"
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2684/habitats-regulations-assessment-2017.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment",
+        "reference": "HRA-2017",
+        "document-status": "adopted",
+        "endpoint": "1eda53a961cafff00657f0e327e2a83645d6cdad9e29ed2c884694195e03decd"
       },
       {
-        "document-url": "https://huntingdonshire.gov.uk/media/15vhfyxf/2025-local-plan-exhibition-boards.pdf",
-        "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
-        "document-type": "local-plan",
-        "name": "Local Plan Exhibition Boards",
-        "reference": "EB-2025",
-        "document-status": "consultation",
-        "endpoint": "55f2fad9255c62cdc9d8f22ed94d80c93c7bf81af483b83f0cb849f5d73bb6e9"
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2852/habitats-regulations-assessment-addendum.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment Report Addendum",
+        "reference": "HRA-2017-ADD",
+        "document-status": "adopted",
+        "endpoint": "01d03c91174f84ff0d109ca4613a91ee400080fac26a22e137b26d6b39a68f69"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/cnpkcvla/local-development-scheme.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "local-development-scheme",
+        "name": "Huntingdonshire Local Development Scheme",
+        "reference": "LDS-2017",
+        "document-status": "adopted",
+        "endpoint": "bd86f9370419ba6b62ebce3fc03ff6c3f4505cf9559ccf19faa4e82b45a37c6b"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2860/statement-of-consultation.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation - Proposed Submission 2017",
+        "reference": "CS-2017",
+        "document-status": "adopted",
+        "endpoint": "0d79277cc697d8a2c1c61f0800e63ede7cc72a8dbaf23dee1f591b523b755016"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2862/housing-and-economic-land-availability-assessment.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Housing and Economic Land Availability Assessment (HELAA)",
+        "reference": "HELAA-2017",
+        "document-status": "adopted",
+        "endpoint": "1174576bd25b20c8c49f8eb170b0d6f84205c9f6dcb8246053e8fc8f646497f6"
+      },
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/2409/gtana-final-report.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/local-plan-document-library/",
+        "document-type": "gypsy-and-traveller-assessment",
+        "name": "Cambridgeshire Gypsy and Traveller Accommodation Assessment",
+        "reference": "GTAA-2016",
+        "document-status": "adopted",
+        "endpoint": "32ac9a958dcc674c394c99284c01ea87271f0038cf5e094c39d4305ae1b457e7"
       }
     ]
   },
   {
     "organisation": "local-authority:HUN",
     "organisation-name": "Huntingdonshire District Council",
-    "reference": "LP-HUN-2019",
-    "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
+    "reference": "LP-HUN-2025",
+    "documentation-url": "https://huntingdonshire.gov.uk/planning/local-plan-update/preferred-options/",
     "document-url": "",
-    "name": "Local Plan to 2036",
-    "status": "adopted",
-    "year": 2019,
-    "period-start-date": "",
-    "period-end-date": 2036,
+    "name": "Huntingdonshire Local Plan to 2046",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2046,
     "documents": []
   }
 ]

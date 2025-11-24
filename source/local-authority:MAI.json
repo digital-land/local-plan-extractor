@@ -5,36 +5,72 @@
     "reference": "LP-MAI-2021",
     "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-review",
     "document-url": "",
-    "name": "Adopted Local Plan Review 2021-2038",
+    "name": "Maidstone Borough Local Plan Review 2021-2038",
     "status": "adopted",
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2038,
     "documents": [
       {
+        "document-url": "https://localplan.maidstone.gov.uk/__data/assets/pdf_file/0006/375423/Statement-of-Community-Involvement-FINAL-amended.pdf",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement 2020",
+        "reference": "SCI-2020",
+        "document-status": "adopted",
+        "endpoint": "5eff6ea504d328f756135d7a3a34b77c7e3de2f0e2279ba8225202646fb91ee5"
+      },
+      {
         "document-url": "",
-        "documentation-url": "https://maidstone.gov.uk/home/primary-services/planning-and-building/local-plan",
-        "document-type": "local-plan-adopted",
-        "name": "Adopted Local Plan Review 2021-2038",
-        "reference": "LP-2021-2038",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2025-2027",
+        "reference": "LDS-2025",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://maidstone.gov.uk/home/primary-services/planning-and-building/local-plan",
-        "document-type": "supplementary-planning-document",
-        "name": "Heathlands, Lidsing and Invicta Park Barracks - SPDs",
-        "reference": "SPD-HEATHLANDS-2021",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://maidstone.gov.uk/home/primary-services/planning-and-building/local-plan",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
         "document-type": "local-plan",
-        "name": "Local Plan Monitoring and Process Documents",
-        "reference": "LPM-2021",
+        "name": "Housing Delivery Report 2025",
+        "reference": "HDR-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "local-plan",
+        "name": "Authority Monitoring Report 2023-24",
+        "reference": "AMR-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "local-plan",
+        "name": "Authority Monitoring Report 2022-23",
+        "reference": "AMR-2023",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "local-plan",
+        "name": "Authority Monitoring Report 2021-22",
+        "reference": "AMR-2022",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
+        "document-type": "local-plan",
+        "name": "Brownfield Land Register Part 1 PDF",
+        "reference": "BLR-2025",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
@@ -43,22 +79,35 @@
   {
     "organisation": "local-authority:MAI",
     "organisation-name": "Maidstone Borough Council",
-    "reference": "LP-MAI-2024",
+    "reference": "LP-MAI-2025",
     "documentation-url": "https://localplan.maidstone.gov.uk/home/new-local-plan",
     "document-url": "",
-    "name": "New Local Plan",
+    "name": "Maidstone Borough New Local Plan",
     "status": "draft",
-    "year": 2024,
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:MAI",
+    "organisation-name": "Maidstone Borough Council",
+    "reference": "DPD-MAI-2025",
+    "documentation-url": "https://localplan.maidstone.gov.uk/home/gypsy-traveller-development-plan-document",
+    "document-url": "",
+    "name": "Maidstone Gypsy, Traveller and Travelling Showpeople Development Plan Document",
+    "status": "draft",
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://maidstone.gov.uk/home/primary-services/planning-and-building/local-plan",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/local-plan-process-and-monitoring",
         "document-type": "local-plan",
-        "name": "New Local Plan",
-        "reference": "LP-NEW-2024",
-        "document-status": "draft",
+        "name": "Pitch Delivery Report (including pitch supply) 2025",
+        "reference": "PDR-2025",
+        "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
@@ -66,22 +115,31 @@
   {
     "organisation": "local-authority:MAI",
     "organisation-name": "Maidstone Borough Council",
-    "reference": "DPD-MAI-2024",
-    "documentation-url": "https://localplan.maidstone.gov.uk/home/gypsy-traveller-development-plan-document",
+    "reference": "SPD-MAI-2025",
+    "documentation-url": "https://localplan.maidstone.gov.uk/home/heathlands,-lidsing-and-invicta-park-barracks-spds",
     "document-url": "",
-    "name": "Maidstone Gypsy, Traveller and Travelling Showpeople DPD",
-    "status": "draft",
-    "year": 2024,
+    "name": "Heathlands, Lidsing and Invicta Park Barracks Supplementary Planning Documents",
+    "status": "regulation-18",
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://maidstone.gov.uk/home/primary-services/planning-and-building/local-plan",
-        "document-type": "local-plan",
-        "name": "Maidstone Gypsy, Traveller and Travelling Showpeople DPD",
-        "reference": "DPD-GYPSY-2024",
-        "document-status": "draft",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/live-strategic-planning-consultations",
+        "document-type": "supplementary-planning-document",
+        "name": "Heathlands Garden Settlement SPD",
+        "reference": "SPD-HGS-2025",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://localplan.maidstone.gov.uk/home/live-strategic-planning-consultations",
+        "document-type": "supplementary-planning-document",
+        "name": "Lidsing Garden Community SPD",
+        "reference": "SPD-LGC-2025",
+        "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]

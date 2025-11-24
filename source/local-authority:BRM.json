@@ -2,46 +2,86 @@
   {
     "organisation": "local-authority:BRM",
     "organisation-name": "Bromsgrove District Council",
-    "reference": "LP-BRM-2023",
-    "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/bromsgrove-district-local-plan-draft-development-strategy-consultation/",
-    "document-url": "",
-    "name": "Bromsgrove District Local Plan - Draft Development Strategy",
-    "status": "regulation-18",
-    "year": 2023,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.bromsgrove.gov.uk/business/property-developers/local-plans-and-planning-policy/",
-        "document-type": "local-plan",
-        "name": "Bromsgrove District Local Plan - Draft Development Strategy Consultation",
-        "reference": "LP-DRAFT-2023",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRM",
-    "organisation-name": "Bromsgrove District Council",
-    "reference": "LP-BRM-ADOPTED",
-    "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/",
-    "document-url": "",
-    "name": "Adopted Local Development Plan",
+    "reference": "LP-BRM-2017",
+    "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+    "document-url": "https://www.bromsgrove.gov.uk/media/samhiyxl/bromsgrove-district-plan-2011-2030.pdf",
+    "name": "Bromsgrove District Plan 2011-2030",
     "status": "adopted",
-    "year": "",
-    "period-start-date": "",
-    "period-end-date": "",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2030,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.bromsgrove.gov.uk/business/property-developers/local-plans-and-planning-policy/",
+        "document-url": "https://www.bromsgrove.gov.uk/media/samhiyxl/bromsgrove-district-plan-2011-2030.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
         "document-type": "local-plan",
-        "name": "Adopted Local Development Plan",
-        "reference": "LP-ADOPTED",
+        "name": "Bromsgrove District Plan 2011 2030",
+        "reference": "LP-2011-2030",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "06b95b60002db6011276bd7febf3d168fb8f72525457fcf98bea2a8e43171bc0"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/oigmwsdh/adoption-statement.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "804d3416f1987bb1935aff3041a22be0c9ab5caf2e532579e59025b05b0b8de1"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/4z3kmkwf/final-sustainability-apraisal.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+        "document-type": "local-plan",
+        "name": "Final Sustainability Apraisal",
+        "reference": "SA-2017",
+        "document-status": "adopted",
+        "endpoint": "4f6780abc0b974b9de4260917ebe95edf952c1d1e3bf3647a327fcec55fe5907"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/d04lx4ao/policies-map.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2017",
+        "document-status": "adopted",
+        "endpoint": "e16e970d3c8f63debd5bcce692db2c539757c829025cac249952bedf71851ba9"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/fovip2ww/schedule-of-minor-modifications-to-the-bdp.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+        "document-type": "local-plan",
+        "name": "Schedule Of Minor Modifications To The BDP",
+        "reference": "MOD-2017",
+        "document-status": "adopted",
+        "endpoint": "0638eb49142b42d6bdd450ba5e8458544cc5850c5f07454abef8fd15bc6c0883"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/wz0lp2dz/sustainability-appraisal-post-adoption-statement.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/adopted-bromsgrove-district-plan-2011-2030/",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SAPAS-2017",
+        "document-status": "adopted",
+        "endpoint": "d09cd67faa2e7cf3201426cacb99693e77fbb688a2db8eff749d0c7aa847f349"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/w5kjyjuk/bromsgrove-inspector-s-proposed-main-modifications.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/achieved-proposed-main-modifications-consultation/",
+        "document-type": "main-modifications",
+        "name": "Bromsgrove - Inspector's Proposed Main Modifications",
+        "reference": "MM-BRM-2016",
+        "document-status": "examination",
+        "endpoint": "b9e609a25b1856ce5c38c6e7d61c430dc2ed827faf34737223a3a2ac3b39c5cf"
+      },
+      {
+        "document-url": "https://www.bromsgrove.gov.uk/media/uvkk0cw5/bromsgrove-district-plan-2011-2030-proposed-submission-version-september-2013.pdf",
+        "documentation-url": "https://www.bromsgrove.gov.uk/council/policy/planning-policies-and-other-information/adopted-local-development-plan/the-bromsgrove-district-plan-2011-2030/achieved-proposed-main-modifications-consultation/",
+        "document-type": "local-plan-submission",
+        "name": "Bromsgrove District Plan 2011-2030 (Proposed Submission Version - September 2013)",
+        "reference": "LP-SUB-2013",
+        "document-status": "consultation",
+        "endpoint": "0f934bafe00f41367d8ca161c203c6c5e7ff7576617561abe1089501c3187027"
       }
     ]
   }

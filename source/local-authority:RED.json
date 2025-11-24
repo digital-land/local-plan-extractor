@@ -25,12 +25,12 @@
   {
     "organisation": "local-authority:RED",
     "organisation-name": "Redditch Borough Council",
-    "reference": "LP-RED-REVIEW",
+    "reference": "LPR-RED-2024",
     "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
     "document-url": "",
     "name": "Borough of Redditch Local Plan Review",
     "status": "draft",
-    "year": 2025,
+    "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
@@ -39,7 +39,7 @@
         "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/",
         "document-type": "local-plan-review",
         "name": "Borough of Redditch Local Plan Review",
-        "reference": "LPR-2025",
+        "reference": "LPR-2024",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

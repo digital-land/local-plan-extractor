@@ -15,19 +15,10 @@
         "document-url": "https://eastdevon.gov.uk/media/gtimzhle/regulation-19-plan.pdf",
         "documentation-url": "https://eastdevon.gov.uk/local-plan",
         "document-type": "local-plan-regulation-19",
-        "name": "East Devon Local Plan 2020-2042",
+        "name": "Regulation 19 Publication Draft",
         "reference": "LP-2020-2042",
         "document-status": "consultation",
         "endpoint": "0f71a0ee1061451c6c501f823024157efaa2c99438d2b509e31ba76a50e05437"
-      },
-      {
-        "document-url": "https://eastdevon.gov.uk/media/cyvhwwjs/regulation-19-plan-pf.pdf",
-        "documentation-url": "https://eastdevon.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "East Devon Local Plan 2020-2042 (Printer Friendly)",
-        "reference": "LP-2020-2042-PF",
-        "document-status": "consultation",
-        "endpoint": "7bb776e98aa786905d15a51ed06ff2a693d93b1a6be2782ba4d88d565d31d819"
       },
       {
         "document-url": "https://eastdevon.gov.uk/media/fuwhycqp/reg-19-key-diagram.pdf",
@@ -42,7 +33,7 @@
         "document-url": "https://eastdevon.gov.uk/media/eayfexsn/csd-003-sustainability-appraisal.pdf",
         "documentation-url": "https://eastdevon.gov.uk/local-plan",
         "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal",
+        "name": "Sustainability Appraisal report",
         "reference": "SA-2025",
         "document-status": "consultation",
         "endpoint": "15fc474a17c81f3d0890b49463f11176feb974ba02e83dba192e64e7e03b04f8"
@@ -50,34 +41,106 @@
       {
         "document-url": "https://eastdevon.gov.uk/media/5mfptido/csd-003b-sustainability-appraisal-non-technical-summary.pdf",
         "documentation-url": "https://eastdevon.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Sustainability Appraisal Non-Technical Summary",
+        "document-type": "sustainability-appraisal",
+        "name": "Non-Technical Summary",
         "reference": "SA-NTS-2025",
         "document-status": "consultation",
         "endpoint": "dd31b28889d950670ef29f8f3a1500f115e9411bbb96a3d2a49863f11d3a1b66"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/cyvhwwjs/regulation-19-plan-pf.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "printer friendly / screen reader compatible version",
+        "reference": "LP-PF-2025",
+        "document-status": "consultation",
+        "endpoint": "7bb776e98aa786905d15a51ed06ff2a693d93b1a6be2782ba4d88d565d31d819"
       }
     ]
   },
   {
     "organisation": "local-authority:EDE",
     "organisation-name": "East Devon District Council",
-    "reference": "LP-EDE-2021",
-    "documentation-url": "https://eastdevon.gov.uk/newlocalplan",
-    "document-url": "https://eastdevon.gov.uk/media/3721875/issuesandoptionsreport-jan2021.pdf",
-    "name": "East Devon Local Plan Issues and Options 2021-2040",
-    "status": "draft",
-    "year": 2021,
-    "period-start-date": 2021,
-    "period-end-date": 2040,
+    "reference": "LP-EDE-2016",
+    "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+    "document-url": "https://eastdevon.gov.uk/media/1772841/Local-Plan-Final-Adopted-Plan-2016.pdf",
+    "name": "East Devon Local Plan 2013-2031",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2013,
+    "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://eastdevon.gov.uk/media/3721875/issuesandoptionsreport-jan2021.pdf",
-        "documentation-url": "https://eastdevon.gov.uk/newlocalplan",
+        "document-url": "https://eastdevon.gov.uk/media/1772841/Local-Plan-Final-Adopted-Plan-2016.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
         "document-type": "local-plan",
-        "name": "Issues and Options Report",
-        "reference": "IO-2021",
-        "document-status": "draft",
-        "endpoint": "872e7f395e594d27d66d7cea9ce587b20528148c40efc1ae1b5cf6ce78b38749"
+        "name": "The Local Plan 2013-2031",
+        "reference": "LP-2013-2031",
+        "document-status": "adopted",
+        "endpoint": "a27e5fa6ce5c3cc65d6d5e160902a5b0138cdc7e04e36d6e793e3e77dc05e67b"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/3724961/consultation-statement-regulation-22c-summer-13.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "consultation-statement",
+        "name": "Consultation Statement (Regulation 22c) - Summer 2013",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "06b2803c241ae86df8aa13ef7b27b4c500d98236073797725572ca47318214c2"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/5xvnzftn/pd015-equalitiesimpactassessment.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equalities Impact Assessment",
+        "reference": "EIA-2016",
+        "document-status": "adopted",
+        "endpoint": "e9f7b9cdf76e12776c1cf3cc495f929630e4f7b9b3fb1286c984d1d1ff0a7aeb"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/xkfjsxma/psd-2015v-hrachangestolocalplanaug2015.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitat Regulations Assessment - August 2015",
+        "reference": "HRA-2015",
+        "document-status": "adopted",
+        "endpoint": "31bb1c16c3b2a11b42323dac2362ec2819fe7edb532321f5332934987702fd32"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/3724965/planning-inspectorate-report-into-the-examination-of-the-east-devon-local-plan-january-2016.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "inspectors-report",
+        "name": "Planning Inspectorate Report into the examination of the East Devon Local Plan - January 2016",
+        "reference": "IR-2016",
+        "document-status": "adopted",
+        "endpoint": "907cb54551e9509783c6cf7691ccc2e88776b2dc1bc6762b1932e6a426be1f01"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/3724964/planning-inspectorate-report-into-the-examination-of-the-east-devon-local-plan-appendix-january-2016.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "inspectors-report",
+        "name": "Planning Inspectorate Report into the examination of the East Devon Local Plan appendix - January 2016",
+        "reference": "IR-APP-2016",
+        "document-status": "adopted",
+        "endpoint": "930999e33aba3b391d9798e65bbe3094f661d6b9d7bfd6b1f0ef09e7a482e3a8"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/3724959/e-devon-lp-psd2015w-2-sareportincpropchangesaug2015.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "sustainability-appraisal",
+        "name": "Updated Sustainability Appraisal Report - August 2015",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "587e397db87463e3accb91aa891997e338096938fe53eb1ba35128b1465213b6"
+      },
+      {
+        "document-url": "https://eastdevon.gov.uk/media/szppiqv5/new-local-plan-key-diagram-jan-2016-final-v2.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "policies-map",
+        "name": "Local Plan Key Diagram",
+        "reference": "PM-2016",
+        "document-status": "adopted",
+        "endpoint": "590fdee28c2cb252a39c5a89760e87f9ffb76fab0e9ce8c8b604b04d4341c1b8"
       }
     ]
   }

@@ -2,14 +2,47 @@
   {
     "organisation": "local-authority:GRY",
     "organisation-name": "Great Yarmouth Borough Council",
-    "reference": "LP-GRY-2024",
-    "documentation-url": "https://www.great-yarmouth.gov.uk/planning-and-building-control",
-    "document-url": "",
-    "name": "Great Yarmouth Local Plan",
-    "status": "regulation-19",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
+    "reference": "LP-GRY-2015",
+    "documentation-url": "https://www.great-yarmouth.gov.uk/planning/adopted-local-plan-core-strategy",
+    "document-url": "https://docs.great-yarmouth.gov.uk/media/1884/Adopted-Local-Plan-Core-Strategy-December-2015/pdf/Local_Plan_Core_Strategy_Adopted_2015_NF.pdf?m=1693477376143",
+    "name": "Core Strategy (Local Plan Part 1)",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2013,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://docs.great-yarmouth.gov.uk/media/1884/Adopted-Local-Plan-Core-Strategy-December-2015/pdf/Local_Plan_Core_Strategy_Adopted_2015_NF.pdf?m=1693477376143",
+        "documentation-url": "https://www.great-yarmouth.gov.uk/planning/adopted-local-plan-core-strategy",
+        "document-type": "core-strategy",
+        "name": "Adopted Local Plan Core Strategy (December 2015)",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "20657e4cf4a0fb4854e6d5aae5618ec1e7d872ccb9f9fc74011ce86b305d1264"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GRY",
+    "organisation-name": "Great Yarmouth Borough Council",
+    "reference": "LP-GRY-2021",
+    "documentation-url": "https://www.great-yarmouth.gov.uk/planning/adopted-local-plan-part-2",
+    "document-url": "https://docs.great-yarmouth.gov.uk/media/6579/Adopted-Local-Plan-Part-2-2021/pdf/Adopted_Local_Plan_Part_2_2021.pdf?m=1639050824857",
+    "name": "Local Plan Part 2",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2013,
+    "period-end-date": 2030,
+    "documents": [
+      {
+        "document-url": "https://docs.great-yarmouth.gov.uk/media/6579/Adopted-Local-Plan-Part-2-2021/pdf/Adopted_Local_Plan_Part_2_2021.pdf?m=1639050824857",
+        "documentation-url": "https://www.great-yarmouth.gov.uk/planning/adopted-local-plan-part-2",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan Part 2 (2021)",
+        "reference": "LP-2021",
+        "document-status": "adopted",
+        "endpoint": "4bddf4faec95cef1886575d07e86cdae4c4f609f3934e228cafe1773267c172f"
+      }
+    ]
   }
 ]

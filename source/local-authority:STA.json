@@ -2,62 +2,8 @@
   {
     "organisation": "local-authority:STA",
     "organisation-name": "Stafford Borough Council",
-    "reference": "LP-STA-2025",
-    "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-    "document-url": "",
-    "name": "New Local Plan 2025 to 2045",
-    "status": "draft",
-    "year": 2025,
-    "period-start-date": 2025,
-    "period-end-date": 2045,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:STA",
-    "organisation-name": "Stafford Borough Council",
-    "reference": "LP-STA-2022",
-    "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-    "document-url": "",
-    "name": "Stafford Borough Local Plan 2020-2040",
-    "status": "withdrawn",
-    "year": 2022,
-    "period-start-date": 2020,
-    "period-end-date": 2040,
-    "documents": [
-      {
-        "document-url": "https://www.staffordbc.gov.uk/sites/default/files/cme/DocMan1/Planning%20Policy/New%20Stafford%20Borough%20Local%20Plan%202020-2040/Issues_and_Options_Consultation_Document_Feb2020_0.pdf",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Issues and Options Consultation Document",
-        "reference": "LP-IO-2020",
-        "document-status": "consultation",
-        "endpoint": "5ddfd605248d94b92a54a9d092c8ce182544ffa092f2db724f5f74e688f21825"
-      },
-      {
-        "document-url": "https://www.staffordbc.gov.uk/sites/default/files/cme/DocMan1/Planning%20Policy/New%20Stafford%20Borough%20Local%20Plan%202020-2040/Issues_and_Options_Frequently_Asked_Questions_0.pdf",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Issues and Options Frequently Asked Questions",
-        "reference": "LP-FAQ-2020",
-        "document-status": "consultation",
-        "endpoint": "64615722a439052f77057136a11ed5342c28d176beda09cd6d5400fd124319ea"
-      },
-      {
-        "document-url": "https://www.staffordbc.gov.uk/sites/default/files/cme/DocMan1/Planning%20Policy/New%20Stafford%20Borough%20Local%20Plan%202020-2040/Issues_and_Options_Stakeholder_Engagement_Plan_0.pdf",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "local-plan",
-        "name": "Issues and Options Stakeholder Engagement Plan",
-        "reference": "LP-SEP-2020",
-        "document-status": "consultation",
-        "endpoint": "63f54d9bb0ee0fd44b0cc267d50f8fef7b294a2db0b813682534ff6a3f2357e2"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:STA",
-    "organisation-name": "Stafford Borough Council",
     "reference": "LP-STA-2014",
-    "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
+    "documentation-url": "https://www.staffordbc.gov.uk/lp",
     "document-url": "",
     "name": "The Plan for Stafford Borough 2011-2031",
     "status": "adopted",
@@ -70,18 +16,73 @@
         "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
         "document-type": "local-plan",
         "name": "The Plan for Stafford Borough",
-        "reference": "LP-2014",
+        "reference": "LP-2011-2031",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STA",
+    "organisation-name": "Stafford Borough Council",
+    "reference": "LP-STA-2017",
+    "documentation-url": "https://www.staffordbc.gov.uk/lp",
+    "document-url": "",
+    "name": "The Plan for Stafford Borough - Part 2",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "documents": [
       {
         "document-url": "",
         "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
         "document-type": "local-plan",
         "name": "The Plan for Stafford Borough - Part 2",
-        "reference": "LP-P2-2017",
+        "reference": "LP-PART2-2017",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:STA",
+    "organisation-name": "Stafford Borough Council",
+    "reference": "LP-STA-2022",
+    "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
+    "document-url": "",
+    "name": "Stafford Borough Local Plan 2020-2040 Preferred Options",
+    "status": "regulation-18",
+    "year": 2022,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan 2020-2040 Preferred Options document",
+        "reference": "LP-2020-2040-PO",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
+        "document-type": "local-plan-regulation-18",
+        "name": "Non-Technical Summary of the Local Plan 2020-2040 Preferred Options",
+        "reference": "LP-2020-2040-NTS",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.staffordbc.gov.uk/sites/default/files/cme/DocMan1/Planning%20Policy/New%20Stafford%20Borough%20Local%20Plan%202020-2040/Issues_and_Options_Consultation_Document_Feb2020_0.pdf",
+        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Issues and Options document",
+        "reference": "LP-2020-2040-IO",
+        "document-status": "consultation",
+        "endpoint": "5ddfd605248d94b92a54a9d092c8ce182544ffa092f2db724f5f74e688f21825"
       },
       {
         "document-url": "",
@@ -91,52 +92,20 @@
         "reference": "SCI-2018",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "policies-map",
-        "name": "Stafford Borough Policy Map",
-        "reference": "PM-2014",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "habitats-regulations-assessment",
-        "name": "Habitats Regulations Assessment",
-        "reference": "HRA-2014",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "landscape-character-assessment",
-        "name": "Landscape Character Assessment",
-        "reference": "LCA-2014",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal",
-        "reference": "SA-2014",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.staffordbc.gov.uk/planning-policy",
-        "document-type": "strategic-housing-land-availability",
-        "name": "Strategic Housing Land Availability Assessment",
-        "reference": "SHLAA-2014",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:STA",
+    "organisation-name": "Stafford Borough Council",
+    "reference": "LP-STA-2025",
+    "documentation-url": "https://www.staffordbc.gov.uk/new-local-plan-2025-to-2045",
+    "document-url": "",
+    "name": "New Local Plan 2025 to 2045",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2045,
+    "documents": []
   }
 ]

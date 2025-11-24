@@ -2,51 +2,23 @@
   {
     "organisation": "local-authority:CBF",
     "organisation-name": "Central Bedfordshire Council",
-    "reference": "LP-CBF-2021",
-    "documentation-url": "https://www.centralbedfordshire.gov.uk/info/45/planning_policy",
+    "reference": "LP-CBF-2015",
+    "documentation-url": "https://www.centralbedfordshire.gov.uk/local-plan",
     "document-url": "",
-    "name": "Central Bedfordshire Local Plan",
+    "name": "Central Bedfordshire Local Plan 2015 to 2035",
     "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
-        "document-type": "local-plan",
-        "name": "Ward Member Workshops Feedback Report",
-        "reference": "WMWR-2024",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
-        "document-type": "local-plan",
-        "name": "Town and Parish Council Workshops Feedback Report",
-        "reference": "TPCWR-2024",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
-        "document-type": "local-plan",
-        "name": "Local Plan Launch Feedback Report",
-        "reference": "LPLFR-2024",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2035,
+    "documents": []
   },
   {
     "organisation": "local-authority:CBF",
     "organisation-name": "Central Bedfordshire Council",
-    "reference": "LP-CBF-2050",
-    "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+    "reference": "LP-CBF-2028",
+    "documentation-url": "https://www.centralbedfordshire.gov.uk/info/313/creating_great_places_to_live_-_new_local_plan",
     "document-url": "",
-    "name": "Central Bedfordshire New Local Plan 2050",
+    "name": "Creating great places to live - new Local Plan",
     "status": "draft",
     "year": 2028,
     "period-start-date": "",
@@ -54,28 +26,28 @@
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/info/313/creating_great_places_to_live_-_new_local_plan",
         "document-type": "local-plan",
         "name": "Ward Member Workshops Feedback Report",
-        "reference": "WMWR-2024",
+        "reference": "LP-WMWFR-2024",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/info/313/creating_great_places_to_live_-_new_local_plan",
         "document-type": "local-plan",
         "name": "Town and Parish Council Workshops Feedback Report",
-        "reference": "TPCWR-2024",
+        "reference": "LP-TPCWFR-2024",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.centralbedfordshire.gov.uk/newlocalplan",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/info/313/creating_great_places_to_live_-_new_local_plan",
         "document-type": "local-plan",
         "name": "Local Plan Launch Feedback Report",
-        "reference": "LPLFR-2024",
+        "reference": "LP-LPLFR-2024",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

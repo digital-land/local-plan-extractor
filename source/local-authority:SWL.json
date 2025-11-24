@@ -3,54 +3,108 @@
     "organisation": "local-authority:SWL",
     "organisation-name": "Swale Borough Council",
     "reference": "LP-SWL-2017",
-    "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
-    "document-url": "",
-    "name": "Adopted Local Plan for Swale",
+    "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+    "document-url": "https://services.swale.gov.uk/media/files/localplan/adoptedlocalplanfinalwebversion.pdf",
+    "name": "Bearing Fruits 2031: The Swale Borough Local Plan",
     "status": "adopted",
     "year": 2017,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2017,
+    "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+        "document-url": "https://services.swale.gov.uk/media/files/localplan/adoptedlocalplanfinalwebversion.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
         "document-type": "local-plan-adopted",
-        "name": "Adopted Local Plan for Swale",
-        "reference": "LP-ADOPTED-2017",
+        "name": "Adopted Local Plan 2017",
+        "reference": "LP-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "baf84daf06a4d89e829d6bb581f62cdb6cf2e6d5320dc715eca428bfaa54a57d"
+      },
+      {
+        "document-url": "http://www.swale.gov.uk/assets/Planning-General/Planning-Policy/Swale-LP-Adoption-Statement.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2017",
+        "document-status": "adopted",
+        "endpoint": "2a890155f72c9852260e29742ab9a210c1c8596e3bb20dbab0e7eaa7da2fd6e4"
+      },
+      {
+        "document-url": "http://www.swale.gov.uk/assets/Planning-General/Planning-Policy/Local-Plan-2013/Swale-Local-Plan-SA-Adoption-Statement-170713.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2017",
+        "document-status": "adopted",
+        "endpoint": "e829dbb021454be2cf15e3d4f7b3b1746b0f2ec5168f14e1d0caa79cd44f9a06"
+      },
+      {
+        "document-url": "https://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Evidence-Base/Main-Modifications-June-2016/Implementation-and-Delivery-Schedule-2016-17-Final.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "local-plan",
+        "name": "Implementation and Delivery Schedule 2016/17",
+        "reference": "IDS-2017",
+        "document-status": "adopted",
+        "endpoint": "aee415305d490c398243193a6866c16a9af1781353480bd919730400ac36fbec"
+      },
+      {
+        "document-url": "http://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Evidence-Base/Main-Modifications-June-2016/SA-Non-Technical-Summary.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Non-Technical Summary",
+        "reference": "SA-NTS-2016",
+        "document-status": "adopted",
+        "endpoint": "ea697d350b13f8722a54005ec0fdde7824729e82ca32f8d9c523d0dbf61dca53"
+      },
+      {
+        "document-url": "http://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Evidence-Base/Main-Modifications-June-2016/Sustainability-Appraisal-Addendum.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum",
+        "reference": "SA-ADD-2016",
+        "document-status": "adopted",
+        "endpoint": "5a8e29c9bca9edfbf350163253d8ce957e73a8ccac19469917dd306a127122a8"
+      },
+      {
+        "document-url": "http://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Evidence-Base/Main-Modifications-June-2016/Swale-LP-HRA-FINAL-June-2016.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation Assessment",
+        "reference": "HRA-2016",
+        "document-status": "adopted",
+        "endpoint": "957be0133f8d23b0e9edee21896c51f3dff8aedbb9d71dc32adbce12cb478def"
+      },
+      {
+        "document-url": "http://archive.swale.gov.uk/assets/Planning-General/Planning-Policy/Evidence-Base/Local-Plan-2014/FINAL-Swale-Local-Plan-SA-Report-December-2014.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/adopted-local-plan-for-swale",
+        "document-type": "local-plan-regulation-19",
+        "name": "SA of Bearing Fruits 2031 Publication draft Local Plan",
+        "reference": "SA-PUB-2014",
+        "document-status": "consultation",
+        "endpoint": "5a85298ba948239e2a577e229f425169cec212fc124798846c8cae28707b584e"
       }
     ]
   },
   {
     "organisation": "local-authority:SWL",
     "organisation-name": "Swale Borough Council",
-    "reference": "LP-SWL-REVIEW",
-    "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
+    "reference": "LP-SWL-2026",
+    "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/local-plan-review",
     "document-url": "",
-    "name": "Local Plan Review",
+    "name": "Swale Local Plan Review 2038",
     "status": "draft",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "year": 2026,
+    "period-start-date": 2026,
+    "period-end-date": 2038,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Review",
-        "reference": "LPR-2024",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.swale.gov.uk/planning-and-regeneration/local-plans",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Review Evidence",
-        "reference": "LPR-EVIDENCE-2024",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "document-url": "https://swale.gov.uk/__data/assets/pdf_file/0003/502905/Local_Development_Scheme_July_2025.pdf",
+        "documentation-url": "https://swale.gov.uk/planning-and-regeneration/local-plans/local-plan-review",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "20be3108d956fe562f91f2953a6e4abd76cd577a568faf32bad602dce3d1d73a"
       }
     ]
   }

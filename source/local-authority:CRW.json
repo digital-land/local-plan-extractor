@@ -3,22 +3,139 @@
     "organisation": "local-authority:CRW",
     "organisation-name": "Crawley Borough Council",
     "reference": "LP-CRW-2024",
-    "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan",
-    "document-url": "",
-    "name": "Crawley Borough Council Local Plan",
+    "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+    "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-11/Crawley%20borough%20Local%20Plan%202023%20to%202040.pdf",
+    "name": "Crawley borough Local Plan 2023 to 2040",
     "status": "adopted",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2023,
+    "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.crawley.gov.uk/planning",
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-11/Crawley%20borough%20Local%20Plan%202023%20to%202040.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
         "document-type": "local-plan",
-        "name": "Local Plan",
-        "reference": "LP-2024",
+        "name": "Crawley borough Local Plan 2023 to 2040",
+        "reference": "LP-2023-2040",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "ae2500aa3cf69b56c62bce6ebdeda596ab529cbea2ce3eb4ee1ab990f46f1c49"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Local%20Plan%20adoption%20statement%20October%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan adoption statement October 2024",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "c5ae95235c3196b0461156552bd760804a8ae17a7a2854bcd510c09feb89bb90"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Local%20Plan%20map%20October%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan map October 2024",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "fa639d3bf7cca0daebad51ce30fd685d281370b16b0b1fb314e0efc0d6b38359"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-11/Strategic%20environmental%20assessment%20post-adoption%20statement%20November%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "strategic-environmental-assessment",
+        "name": "Strategic environmental assessment post-adoption statement November 2024",
+        "reference": "SEA-2024",
+        "document-status": "adopted",
+        "endpoint": "8800f7774341b71fa37cbc5a1018b1c0c437ef340a7ec36d405cdc6ecc69aeb7"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Sustainability%20report%20October%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability report October 2024",
+        "reference": "SA-2024",
+        "document-status": "adopted",
+        "endpoint": "667201c59d1cdf5481e82d54affdfde4bc33666adbee119b0630252e2aba9df3"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Habitats%20regulations%20assessment%20integrity%20test%20October%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats regulations assessment integrity test October 2024",
+        "reference": "HRA-2024",
+        "document-status": "adopted",
+        "endpoint": "ad9e6d8c550e33f191a71eac13f2f3a154d6b434c131d93a7250c286f347c448"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Monitoring%20and%20implementation%20framework%20October%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "local-plan",
+        "name": "Monitoring and implementation framework October 2024",
+        "reference": "MIF-2024",
+        "document-status": "adopted",
+        "endpoint": "8b29af7e5cf83257ad1e40495ec48aed6f1cc598de6b5690789d858e898e9295"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2024-10/Crawley%20Borough%20Local%20Plan%20Inspectors%27%20final%20report%20September%202024.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "inspectors-report",
+        "name": "Crawley borough Local Plan Inspectors' final report September 2024",
+        "reference": "IR-2024",
+        "document-status": "adopted",
+        "endpoint": "22dcb3674e4ed7ea3092c07421f2a518d0849ecc94954398d9df30dd1c2bad76"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2023-05/1.%20Submission%20Crawley%20Borough%20Local%20Plan%202024-2040%20May%202023.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/local-plan-consultations/local-plan-review-summary",
+        "document-type": "local-plan",
+        "name": "Submission Crawley Borough Local Plan 2024-2040",
+        "reference": "LP-2023-SUB",
+        "document-status": "examination",
+        "endpoint": "f4d2edcca81962f69829f4216c26e1c9ae6341cd27e45fd9fa86c4f428e5439b"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2023-05/3.%20Sustainability%20Appraisal%20SA.SEA%20Report%20May%202023.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/local-plan-consultations/local-plan-review-summary",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal - Strategic Environmental Assessment report May 2023",
+        "reference": "SA-2023",
+        "document-status": "examination",
+        "endpoint": "f123dce11b5d9d5573836ad9ab4167ecd8a352fc7e24617c3f3dd2774b8253f3"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2023-01/Habitats%20Regulations%20Assessment%20report%20January%202023_0.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/local-plan-consultations/local-plan-review-summary",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment report January 2023",
+        "reference": "HRA-2023",
+        "document-status": "examination",
+        "endpoint": "6f041358700a8ae13855c4c59365059cdb2a11848b84053783ecb123a611b65b"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2023-07/Consultation%20statement%20July%202023.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/local-plan-consultations/local-plan-review-summary",
+        "document-type": "consultation-statement",
+        "name": "Consultation statement July 2023",
+        "reference": "CS-2023",
+        "document-status": "examination",
+        "endpoint": "13b67c02d3ea19055fc074e9a477c0e6d9e80154a9d09bd4bc28b153a7a03976"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/2023-07/Infrastructure%20plan%20July%202023.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/local-plan-consultations/local-plan-review-summary",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure plan July 2023",
+        "reference": "IDP-2023",
+        "document-status": "examination",
+        "endpoint": "799c5fa1e0e699f12593bd7a26a032af987a331f9e9448baa72889a674cce3ea"
+      },
+      {
+        "document-url": "https://www.crawley.gov.uk/sites/default/files/documents/PUB288888.pdf",
+        "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan/supplementary-planning-documents/town-centre-spd",
+        "document-type": "supplementary-planning-document",
+        "name": "Town Centre Supplementary Planning Document",
+        "reference": "SPD-TC",
+        "document-status": "adopted",
+        "endpoint": "3bc4caca0dd395d3ac2c941682f33a692c91f9d9ed71c06e26c34511589929ac"
       }
     ]
   }

@@ -8,8 +8,8 @@
     "name": "Leeds Core Strategy",
     "status": "adopted",
     "year": 2019,
-    "period-start-date": "",
-    "period-end-date": 2028,
+    "period-start-date": 2017,
+    "period-end-date": 2033,
     "documents": [
       {
         "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/2f1fb7967571ff329ad57bc4f5d99e8be244e0167d10c92825a7016edeb15907.pdf",
@@ -64,29 +64,6 @@
         "reference": "IR-CS-2014",
         "document-status": "adopted",
         "endpoint": "926340ac74f50a868469ee0c367961aff14386e903b22db34451e06ad2499332"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:LDS",
-    "organisation-name": "Leeds City Council",
-    "reference": "LP-LDS-2025",
-    "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/emerging-local-plan/leeds-local-plan-consultation",
-    "document-url": "https://s3webstaticfiles.s3.eu-west-2.amazonaws.com/Documents/Leeds+Local+Plan+2025+Exec+Summary.pdf",
-    "name": "Leeds Local Plan 2022-2042",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": 2022,
-    "period-end-date": 2042,
-    "documents": [
-      {
-        "document-url": "https://s3webstaticfiles.s3.eu-west-2.amazonaws.com/Documents/Leeds+Local+Plan+2025+Exec+Summary.pdf",
-        "documentation-url": "https://www.leeds.gov.uk/planning/planning-policy/emerging-local-plan/leeds-local-plan-consultation",
-        "document-type": "local-plan",
-        "name": "Leeds Local Plan - issues and options 2025 executive summary",
-        "reference": "LP-2025",
-        "document-status": "consultation",
-        "endpoint": "ba65d2378526bf7ad1d92907f549f388241750ccec66af15603f11370c5f076c"
       }
     ]
   }

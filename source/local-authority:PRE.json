@@ -2,12 +2,12 @@
   {
     "organisation": "local-authority:PRE",
     "organisation-name": "Preston City Council",
-    "reference": "LP-PRE-2024",
-    "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
+    "reference": "LP-PRE-2023",
+    "documentation-url": "https://www.preston.gov.uk/article/1050/Preston-s-Local-Plan",
     "document-url": "",
-    "name": "Preston Local Plan",
+    "name": "Preston's Local Plan",
     "status": "draft",
-    "year": 2024,
+    "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
@@ -16,16 +16,7 @@
         "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
         "document-type": "local-plan",
         "name": "Preston's Local Plan",
-        "reference": "LP-2024",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
-        "document-type": "local-plan",
-        "name": "Evidence library",
-        "reference": "EL-2024",
+        "reference": "LP-2023",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
@@ -34,12 +25,12 @@
   {
     "organisation": "local-authority:PRE",
     "organisation-name": "Preston City Council",
-    "reference": "LP-PRE-2024-JOINT",
-    "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
+    "reference": "LP-PRE-2012",
+    "documentation-url": "https://www.preston.gov.uk/article/2270/Central-Lancashire-Local-Plan",
     "document-url": "",
     "name": "Central Lancashire Local Plan",
     "status": "draft",
-    "year": 2024,
+    "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
@@ -48,7 +39,7 @@
         "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
         "document-type": "local-plan",
         "name": "Central Lancashire Local Plan",
-        "reference": "LP-CL-2024",
+        "reference": "LP-CENTRAL-2012",
         "document-status": "draft",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
@@ -58,7 +49,7 @@
     "organisation": "local-authority:PRE",
     "organisation-name": "Preston City Council",
     "reference": "CS-PRE-2012",
-    "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
+    "documentation-url": "https://www.preston.gov.uk/article/1194/Central-Lancashire-Core-Strategy",
     "document-url": "",
     "name": "Central Lancashire Core Strategy",
     "status": "adopted",

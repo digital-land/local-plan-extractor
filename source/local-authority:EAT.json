@@ -2,6 +2,137 @@
   {
     "organisation": "local-authority:EAT",
     "organisation-name": "Eastleigh Borough Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-EAT-2022",
+    "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+    "document-url": "https://www.eastleigh.gov.uk/media/11806/to-be-published-final-local-plan-april-2022-v4.pdf",
+    "name": "Eastleigh Borough Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "documents": [
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11806/to-be-published-final-local-plan-april-2022-v4.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "local-plan",
+        "name": "Adopted Eastleigh Borough Local Plan 2016-2036",
+        "reference": "LP-2016-2036",
+        "document-status": "adopted",
+        "endpoint": "b1d7f59033558366f50dcc569c60302b6cac076b552cb46dbddded953825fe70"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11805/a0_north_2022-adopted.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "policies-map",
+        "name": "Policies Map North",
+        "reference": "PM-NORTH-2022",
+        "document-status": "adopted",
+        "endpoint": "189dfc120d3e79f6960b209d870cc3f641af787371523c310347c5614eaa22c7"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11803/a0_-south-2022-adopted.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "policies-map",
+        "name": "Policies Map South",
+        "reference": "PM-SOUTH-2022",
+        "document-status": "adopted",
+        "endpoint": "f803af3dfef6965afbb036ddae839dfbe3d035a2afa33fd102a78aa8832c9c91"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11239/local-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-2022",
+        "document-status": "adopted",
+        "endpoint": "dcfa6dc414fae32f86f5502b7831bc7c188b16c4187b65c9f63ac7f62ef6cf04"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11238/sa-adoption-statement-april-22.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2022",
+        "document-status": "adopted",
+        "endpoint": "2a740c3b330900a0f0980a2bcd9f981dc4f1080600b5c1aaf443652437138bfb"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11235/hra-addendum-eastleigh-mm1.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment Addendum",
+        "reference": "HRA-2022",
+        "document-status": "adopted",
+        "endpoint": "24b653fe1d4f8aab768f555aa268424c29c4eec83a33c35649c9e86ea368763f"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11093/eastleigh-local-plan-final-report.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2022",
+        "document-status": "adopted",
+        "endpoint": "83d092ad2ce865157089a87de31ba5524828cb99c32b091ec526515f6e777290"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11092/eastleigh-main-modifications-schedule.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "main-modifications",
+        "name": "Inspector's Report Appendix – Schedule of Main Modifications",
+        "reference": "MM-2022",
+        "document-status": "adopted",
+        "endpoint": "bed86fd5a72085d269391640f9a8d29569a7263973972728dc2cf9b4aa949585"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EAT",
+    "organisation-name": "Eastleigh Borough Council",
+    "reference": "LP-EAT-2014",
+    "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/previous-local-plans/draft-local-plan-2011-2029",
+    "document-url": "https://www.eastleigh.gov.uk/media/2244/draft-eastleigh-borough-local-plan-2011-2029-document-february-2014.pdf",
+    "name": "Draft Eastleigh Borough Local Plan 2011-2029",
+    "status": "withdrawn",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "documents": [
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/2244/draft-eastleigh-borough-local-plan-2011-2029-document-february-2014.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/previous-local-plans/draft-local-plan-2011-2029",
+        "document-type": "local-plan",
+        "name": "Draft Eastleigh Borough Local Plan 2011-2029 document",
+        "reference": "LP-2011-2029",
+        "document-status": "withdrawn",
+        "endpoint": "a86b285dc89880b1842bbd180c8730e48d715b0fa125929469302d83ce191726"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/2245/draft-policies-map-north-february-2014.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/previous-local-plans/draft-local-plan-2011-2029",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map North",
+        "reference": "PM-NORTH-2014",
+        "document-status": "withdrawn",
+        "endpoint": "398d1f0f7bdfde9be357f808d97cf609ab3560bc68b4e2e925f25136109a9bef"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/2246/draft-policies-map-south-february-2014.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/previous-local-plans/draft-local-plan-2011-2029",
+        "document-type": "policies-map",
+        "name": "Draft Policies Map South",
+        "reference": "PM-SOUTH-2014",
+        "document-status": "withdrawn",
+        "endpoint": "95fe12ef1d49e6598bebeb088f3ffd3efb75e9ae31622f7f25d6981405a518f2"
+      },
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/2247/inspectors-report-february-2015.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/previous-local-plans/draft-local-plan-2011-2029",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Report",
+        "reference": "IR-2015",
+        "document-status": "withdrawn",
+        "endpoint": "1fad171853eaf673950ecd6707063e3e9ed217c2c984440cf63551ffbd07ded2"
+      }
+    ]
   }
 ]

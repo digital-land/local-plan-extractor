@@ -3,40 +3,176 @@
     "organisation": "local-authority:LIC",
     "organisation-name": "City of Lincoln Council",
     "reference": "LP-LIC-2023",
-    "documentation-url": "https://www.lincoln.gov.uk/planning/planning-building-policies-publications-1/",
-    "document-url": "",
-    "name": "Central Lincolnshire Local Plan",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+    "name": "Central Lincolnshire Local Plan 2023",
     "status": "adopted",
     "year": 2023,
-    "period-start-date": 2023,
+    "period-start-date": 2012,
     "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.lincoln.gov.uk/planning/planning-building-policies-publications-1/",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
         "document-type": "local-plan",
-        "name": "The Central Lincolnshire Local Plan",
+        "name": "Adopted Central Lincolnshire Local Plan 2023",
         "reference": "LP-2023",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.lincoln.gov.uk/planning/new-local-plan-policies",
-        "document-type": "local-plan",
-        "name": "Local Plan Adopted 13 April 2023",
-        "reference": "LP-ADOPTED-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/SA%20Post%20Adoption%20Statement%20April%202023_FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Post Adoption Statement",
+        "reference": "SA-PAS-2023",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "a410953e91759609d23ce21ddcb5da8c932c0cc2ebed06a33862962c8c6bd9ab"
       },
       {
-        "document-url": "",
-        "documentation-url": "https://www.lincoln.gov.uk/planning",
-        "document-type": "local-plan",
-        "name": "Local Plan Policies - Energy Efficiency and BNG",
-        "reference": "LP-POLICIES-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2023",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "de9bf8ec4efa63dbcff0ecc65074b9b2eaa303791718b2fda1bf64ebe534815f"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033%20Central%20Lincs%20Local%20Plan%20-%20Inspectors%20Report%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Inspectors Report 2023",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "d67793f8abaf54dffbd4359714f58a1ead9fea426990488022f6519f653c4bae"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033A%20Central%20Lincs%20Local%20Plan%20-%20Main%20Mods%20Appendix%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications 2023",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "6eb5de0bcefc7b34046635b50dc2a0d198ef8712b2af6afc5c92ed70f0adb6e2"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Schedule%20of%20Local%20Plan%20Additional%20Minor%20and%20Map%20Modifications%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications and Map Modifications 2023",
+        "reference": "AM-2023",
+        "document-status": "adopted",
+        "endpoint": "3b1090a550a32336b1e0c457649dad4d6161ad50ff50b0204ba011ed36ba7695"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2025-03/Central%20Lincolnshire%20Local%20Development%20Scheme%20March%202025.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "local-development-scheme",
+        "name": "Central Lincolnshire Local Development Scheme March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "e46e306fa5ff459e8e15becd76f4a177ff029a42727ff1449fd9f1c426b562c7"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA003.1%20Central%20Lincolnshire%20Statement%20of%20Community%20Involvement%202023%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "statement-of-community-involvement",
+        "name": "Central Lincolnshire SCI Jan 2023",
+        "reference": "SCI-2023",
+        "document-status": "adopted",
+        "endpoint": "33c5169fcfc5ef2f36533e57fe180c8e8865c7a18f81cf47c2b2cf61ad65fa98"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2025-11/Five%20Year%20Land%20Supply%20Report%202025.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "Five Year Land Supply Report 2025",
+        "reference": "FYLSR-2025",
+        "document-status": "adopted",
+        "endpoint": "0722b7a9427f4101f14d724cc9a15067efa4774473470eb6bd0c519cddb3496f"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2024-04/Central%20Lincolnshire%20Housing%20Growth%20Delivery%20Plan%202024-2029.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "2024-29 Central Lincolnshire Housing Delivery Plan",
+        "reference": "HDP-2024",
+        "document-status": "adopted",
+        "endpoint": "c859cdf183a7d9f1f1d17e392a80742469e22819ed73eb786a5178792a69cc13"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LIC",
+    "organisation-name": "City of Lincoln Council",
+    "reference": "LP-LIC-2022",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA001.1%20Proposed%20Submission%20Local%20Plan%20for%20Reg%2019%20Consultation%20-%20FINAL_March%202022.pdf",
+    "name": "Central Lincolnshire Local Plan Regulation 19 Proposed Submission",
+    "status": "regulation-19",
+    "year": 2022,
+    "period-start-date": 2012,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA001.1%20Proposed%20Submission%20Local%20Plan%20for%20Reg%2019%20Consultation%20-%20FINAL_March%202022.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "local-plan-regulation-19",
+        "name": "Reg 19 Proposed Submission Local Plan",
+        "reference": "LP-R19-2022",
+        "document-status": "consultation",
+        "endpoint": "f9def73030b6331e8149e65cd4321fffbc49cb1f958edea9f116228ad877fe28"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA004.1a%20Final%20SA%20Scoping%20Report%20Updated%20March%202022.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "sustainability-appraisal",
+        "name": "Final SA Scoping Report March 2022",
+        "reference": "SA-SR-2022",
+        "document-status": "consultation",
+        "endpoint": "56cac783b8254f32106aeb4dbdaeed42d0828f5583e94c0c92af2cb490c4492b"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA004.1b%20Final%20SA%20Main%20Report.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "local-plan",
+        "name": "Final SA Main Report March 2022",
+        "reference": "SA-MR-2022",
+        "document-status": "consultation",
+        "endpoint": "5b93afe872c42741bf9751b8f276f84d31cb397d9202756ba2f3ccd5275846bc"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LIC",
+    "organisation-name": "City of Lincoln Council",
+    "reference": "LP-LIC-2021",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA001%20Local%20Plan%20for%20Reg%2018%20Consultation%20June%2021%20FINAL.pdf",
+    "name": "Central Lincolnshire Local Plan Regulation 18 Draft",
+    "status": "regulation-18",
+    "year": 2021,
+    "period-start-date": 2012,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA001%20Local%20Plan%20for%20Reg%2018%20Consultation%20June%2021%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "local-plan",
+        "name": "Reg 18 Draft Local Plan",
+        "reference": "LP-R18-2021",
+        "document-status": "consultation",
+        "endpoint": "4c6b2d5d918b58ef93226b999bbc3c62301b1932d3f4b321025cfe30732c5d5f"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA004b%20Interim%20SA%20Report_June%202021.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/planning-policy-library",
+        "document-type": "sustainability-appraisal",
+        "name": "Interim SA Report June 2021",
+        "reference": "SA-IR-2021",
+        "document-status": "consultation",
+        "endpoint": "71047307f7c2606762392938e7d0adf802209c8cdd43e8e22ab537ed6074fec2"
       }
     ]
   }

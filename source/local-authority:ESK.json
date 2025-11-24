@@ -2,32 +2,114 @@
   {
     "organisation": "local-authority:ESK",
     "organisation-name": "East Suffolk Council",
-    "reference": "LP-ESK-2029",
-    "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
-    "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-form.pdf",
-    "name": "East Suffolk Local Plan",
-    "status": "draft",
-    "year": 2029,
+    "reference": "LP-ESK-2020",
+    "documentation-url": "https://www.eastsuffolk.gov.uk/localplan",
+    "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Suffolk-Coastal-Local-Plan/Adopted-Suffolk-Coastal-Local-Plan/East-Suffolk-Council-Suffolk-Coastal-Local-Plan.pdf",
+    "name": "East Suffolk Council – Suffolk Coastal Local Plan",
+    "status": "adopted",
+    "year": 2020,
     "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Suffolk-Coastal-Local-Plan/Adopted-Suffolk-Coastal-Local-Plan/East-Suffolk-Council-Suffolk-Coastal-Local-Plan.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "East Suffolk Council – Suffolk Coastal Local Plan",
+        "reference": "LP-SC-2020",
+        "document-status": "adopted",
+        "endpoint": "4ad0e22f7c68f64fe1bed5b07e09cfceff160ad2a66dedb52bbc7879f321738b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ESK",
+    "organisation-name": "East Suffolk Council",
+    "reference": "LP-ESK-2019",
+    "documentation-url": "https://www.eastsuffolk.gov.uk/localplan",
+    "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Waveney-Local-Plan/Adopted-Waveney-Local-Plan-including-Erratum.pdf",
+    "name": "East Suffolk Council – Waveney Local Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Waveney-Local-Plan/Adopted-Waveney-Local-Plan-including-Erratum.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "East Suffolk Council – Waveney Local Plan",
+        "reference": "LP-WV-2019",
+        "document-status": "adopted",
+        "endpoint": "11a203504918dfb18c254aa3cf4f8b0456840ebfd398dbc40622b855af8dd36e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ESK",
+    "organisation-name": "East Suffolk Council",
+    "reference": "LP-ESK-2029",
+    "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/local-plans/new-local-plan/",
+    "document-url": "",
+    "name": "A new Local Plan for East Suffolk",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2025,
     "period-end-date": 2044,
     "documents": [
       {
         "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-guidance.pdf",
-        "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/local-plans/new-local-plan/",
         "document-type": "local-plan",
-        "name": "Call for Sites Submission Guidance",
-        "reference": "LP-CFS-GUIDE-2025",
-        "document-status": "draft",
+        "name": "Call for sites submission guidance",
+        "reference": "LP-CFS-2025",
+        "document-status": "consultation",
         "endpoint": "f859216d6d6954e3d97f16b851e38f83aa30a8aca9ee0de5313047e9499d085a"
       },
       {
         "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Call-for-sites-submission-form.pdf",
-        "documentation-url": "https://www.eastsuffolk.gov.uk/new-local-plan",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/local-plans/new-local-plan/",
         "document-type": "local-plan",
-        "name": "Call for Sites Submission Form",
+        "name": "Call for Sites submission form",
         "reference": "LP-CFS-FORM-2025",
-        "document-status": "draft",
+        "document-status": "consultation",
         "endpoint": "e6984f58de177f7ccb318a7e2d55f422ad55d901aacf667efc2a1fb497860aee"
+      },
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Local-Plans/Local-Devlopment-Scheme-March-2025-.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/statement-of-community-involvement-and-local-development-scheme/",
+        "document-type": "local-development-scheme",
+        "name": "East Suffolk Council Local Development Scheme - March 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "e9bfb8576005787848b8ccb70facc0de4a1381dae212f7eea5a602e4401cf6e6"
+      },
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Statement-of-Community-Involvement/Statement-of-Community-Involvement.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/statement-of-community-involvement-and-local-development-scheme/",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2025",
+        "document-status": "adopted",
+        "endpoint": "78e8cefdf358c1af6394b5085a65818fd44d45abb85fb1684a76ba2e6a80b3ed"
+      },
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Statement-of-Community-Involvement/Statement-of-Community-Involvement-Consultation-Statement.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/statement-of-community-involvement-and-local-development-scheme/",
+        "document-type": "consultation-statement",
+        "name": "Statement of Community Involvement Consultation Statement",
+        "reference": "CS-SCI-2025",
+        "document-status": "adopted",
+        "endpoint": "71ea8a6f5b3b7eeeae6f1e660be95d77b71c3773298dece0d3977cdec9171c04"
+      },
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Statement-of-Community-Involvement/Adoption-Statement.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/statement-of-community-involvement-and-local-development-scheme/",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement",
+        "reference": "AS-SCI-2025",
+        "document-status": "adopted",
+        "endpoint": "cfac43a76494104a5ec75d4ec50a2b9b585fe94425183e8857cdbacb622636e2"
       }
     ]
   }

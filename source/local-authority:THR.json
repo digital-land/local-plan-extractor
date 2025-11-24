@@ -2,27 +2,95 @@
   {
     "organisation": "local-authority:THR",
     "organisation-name": "Thurrock Council",
-    "reference": "LP-THR-2024",
-    "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+    "reference": "LP-THR-2015",
+    "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+    "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_adopted_2011_amended_2015.pdf",
+    "name": "Core Strategy and Policies for Management of Development",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_adopted_2011_amended_2015.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy and Policies for Management of Development, as amended, adopted January 2015",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "37733b4f47a2d5d88ef6bd4f9f36e2283eb1bbe9bbe6c36fb0fff152f2b66df8"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_focused_review_nppf_adopted_20150128_statement.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Core Strategy NPPF focused review, adopted January 2015 – adoption statement",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "da10c4ef096c2344b6f93264565c45321fa548b26686f150f815405e86c556de"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_focused_review_nppf_adopted_20150128_sa_add.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Core Strategy NPPF focused review proposed submission draft, sustainability appraisal addendum",
+        "reference": "SA-2015",
+        "document-status": "adopted",
+        "endpoint": "d4093bfed0b23c0917a0d131696d26bf38383bcda9a73d564a80638691fc8558"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core-strategy_adopted-2011-map-1west-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core strategy adopted map – west",
+        "reference": "CS-MAP-WEST-2015",
+        "document-status": "adopted",
+        "endpoint": "ad5006d8f9ec5176b83a66c0b96e01ad9823fb449fb19665a7b4a8fd9aee959d"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core-strategy_adopted-2011-map-2east1-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core strategy adopted map – east, part 1",
+        "reference": "CS-MAP-EAST1-2015",
+        "document-status": "adopted",
+        "endpoint": "40f57c8c6b4d8a4e7ef5a9e043cb50777ce355ce5b926d1fe3464eff0c054822"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core-strategy_adopted-2011-map-3east2-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core strategy adopted map – east, part 2",
+        "reference": "CS-MAP-EAST2-2015",
+        "document-status": "adopted",
+        "endpoint": "0a72bd5c2e0bc8b712aa101e16475065ca55672f02dece40b19d2d942ba999ac"
+      },
+      {
+        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core-strategy_adopted-2011-map-4key-v01.pdf",
+        "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
+        "document-type": "core-strategy",
+        "name": "Core strategy adopted map – key",
+        "reference": "CS-MAP-KEY-2015",
+        "document-status": "adopted",
+        "endpoint": "7a2b413df73b8059b4a3593258e4715bdcb6c8d94bee0d2f887a57649d66292b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:THR",
+    "organisation-name": "Thurrock Council",
+    "reference": "LP-THR-2040",
+    "documentation-url": "https://www.thurrock.gov.uk/localplan",
     "document-url": "",
     "name": "New Local Plan for Thurrock",
     "status": "regulation-18",
     "year": 2024,
     "period-start-date": "",
-    "period-end-date": "",
+    "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/thurrock_local_development_scheme_march_2025.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/development-plans-explained/development-plan-timetable",
-        "document-type": "local-development-scheme",
-        "name": "Thurrock Local Development Scheme - March 2025",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "c99af1bae099bdfb388068a8a73756ef6584bbf55e3ac17f21c7085384242a24"
-      },
-      {
         "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/thurrock_council_local_plan_review.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+        "documentation-url": "https://www.thurrock.gov.uk/localplan",
         "document-type": "local-plan-review",
         "name": "Thurrock Council Local Plan Review",
         "reference": "LPR-2024",
@@ -31,75 +99,12 @@
       },
       {
         "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/appendix_a_-_local_plan_timetable_delay_analysis_and_implications.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/thurrock-local-plan",
+        "documentation-url": "https://www.thurrock.gov.uk/localplan",
         "document-type": "local-development-scheme",
         "name": "Appendix A - Local Plan timetable delay analysis and implications",
-        "reference": "LDS-DELAY-2024",
+        "reference": "LDS-2024",
         "document-status": "adopted",
         "endpoint": "6fbaf091e6d092d50d5af9c85efb256495db2ba88408e37150f44583e2cf93b9"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-integratedimpactassessment-202206-pt1-v01.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "local-plan",
-        "name": "Integrated Impact Assessment scoping report, June 2022, part 1",
-        "reference": "IIA-2022-PT1",
-        "document-status": "consultation",
-        "endpoint": "69f3d1a9204d9ff132c470911228b34663e13cf2028f979a2226a1baafad7f18"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-integratedimpactassessment-202206-pt2-v01.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "local-plan",
-        "name": "Integrated Impact Assessment scoping report, June 2022, part 2",
-        "reference": "IIA-2022-PT2",
-        "document-status": "consultation",
-        "endpoint": "15b0b4c3ea9e8b48884b7cbb7f187ff5d8d64f268703e33fe02fc08fa4d99143"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan_sa_201602_draft_report.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal scoping report (draft), February 2016",
-        "reference": "SA-2016",
-        "document-status": "draft",
-        "endpoint": "f5ef90369ebb081cf034c802123faebded33c339b5f65900308a6c42ab958a36"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan_sa_201602_draft_appendices.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal scoping report appendices (draft), February 2016",
-        "reference": "SA-2016-APP",
-        "document-status": "draft",
-        "endpoint": "e8bc1656e799c90fb5fc02d9000cddbfef207adccb6e2763b785544973f371db"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-ios2-isa-201812-v01.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "sustainability-appraisal",
-        "name": "Integrated Sustainability Appraisal, December 2018",
-        "reference": "ISA-2018",
-        "document-status": "consultation",
-        "endpoint": "b6840e319bece6ed144be8f122a13300f69a8d5b825392a00842233f18404fa0"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-ios2-isa-201812-appendices-v01.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "sustainability-appraisal",
-        "name": "Integrated Sustainability Appraisal, December 2018 – appendices",
-        "reference": "ISA-2018-APP",
-        "document-status": "consultation",
-        "endpoint": "a7ec9d714c2a0d9316d7bdba6c1b62c3f17e348e6c6cfa77eff74059580541bf"
-      },
-      {
-        "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/localplan-hra-scoping-201901-v01.pdf",
-        "documentation-url": "https://www.thurrock.gov.uk/new-local-plan-for-thurrock/sustainability-appraisals",
-        "document-type": "habitats-regulations-assessment",
-        "name": "Habitat Regulations Assessment: scoping and discussion, January 2019",
-        "reference": "HRA-2019",
-        "document-status": "consultation",
-        "endpoint": "defe4f5cd3cde5979821ec1ccc60ebe1764c46837698421f64a0c9e765b1d124"
       }
     ]
   }

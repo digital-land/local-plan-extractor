@@ -26,10 +26,19 @@
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
         "document-type": "local-plan-regulation-19",
-        "name": "Publication Plan (Pre-submission) - 2024",
-        "reference": "LP-2024-REG19",
+        "name": "Responses to Regulation 19 Consultations-2024",
+        "reference": "LP-REG19-2024",
+        "document-status": "consultation",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
+        "document-type": "local-plan-regulation-19",
+        "name": "Responses to Regulation 19 Consultations-2022",
+        "reference": "LP-REG19-2022",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -38,25 +47,25 @@
         "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
         "document-type": "local-plan-regulation-19",
         "name": "Publication Plan (Pre-submission) - 2022",
-        "reference": "LP-2022-REG19",
+        "reference": "LP-PUB-2022",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
         "document-type": "local-plan-regulation-19",
-        "name": "Responses to Regulation 19 Consultations-2024",
-        "reference": "REG19-RESP-2024",
-        "document-status": "examination",
+        "name": "Publication Plan (Pre-submission) - 2024",
+        "reference": "LP-PUB-2024",
+        "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
-        "document-type": "local-plan-regulation-19",
-        "name": "Responses to Regulation 19 Consultations-2022",
-        "reference": "REG19-RESP-2022",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
+        "document-type": "local-plan-review",
+        "name": "Local Plan Review Evidence Base",
+        "reference": "LPR-EB-2024",
         "document-status": "examination",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -65,16 +74,7 @@
         "documentation-url": "https://www.sstaffs.gov.uk/local-plan-review-examination",
         "document-type": "local-plan",
         "name": "Examination Library (Evidence Base)",
-        "reference": "EV-BASE-2024",
-        "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy-and-local-plans/local-plan-review",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Review Evidence Base",
-        "reference": "LPR-EV-2024",
+        "reference": "LP-EXAM-EB",
         "document-status": "examination",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

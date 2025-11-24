@@ -3,22 +3,67 @@
     "organisation": "local-authority:BRD",
     "organisation-name": "City of Bradford Metropolitan District Council",
     "reference": "LP-BRD-2017",
-    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/",
-    "document-url": "",
-    "name": "Core Strategy DPD",
+    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+    "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/1 Core Strategy full document.pdf",
+    "name": "Bradford Core Strategy",
     "status": "adopted",
     "year": 2017,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.bradford.gov.uk/planningpolicy",
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/1 Core Strategy full document.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
         "document-type": "core-strategy",
-        "name": "Adopted Core Strategy (2017)",
+        "name": "Core Strategy full document",
         "reference": "CS-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "a92570340977630fb0c04ba0e638f246f11bc211000b9139ebda502dedfa4da4"
+      },
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/Appendices.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Appendices",
+        "reference": "CS-APP-2017",
+        "document-status": "adopted",
+        "endpoint": "13f5a85d7ad29e170043fa351062ac88d36a98c5014899df50bb6a493b628f86"
+      },
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/Section 3 - Spatial vision.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+        "document-type": "core-strategy",
+        "name": "Section 3 - Spatial vision",
+        "reference": "CS-SV-2017",
+        "document-status": "adopted",
+        "endpoint": "8052472163c12f736d3fa353e74881cca064ad31e555ed4240d752a4dfa01ef1"
+      },
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/Section 5.1 - Economy and jobs.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+        "document-type": "core-strategy",
+        "name": "Section 5.1 - Economy and jobs",
+        "reference": "CS-ECON-2017",
+        "document-status": "adopted",
+        "endpoint": "cc49c70654ecd8e902e1983cd27f3a8e334f2bd6ac11f1ab1f1bce05e67226c6"
+      },
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/Section 5.3 - Housing.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+        "document-type": "core-strategy",
+        "name": "Section 5.3 - Housing",
+        "reference": "CS-HSG-2017",
+        "document-status": "adopted",
+        "endpoint": "5f7554975ce017524e5ab59a3f11b0785ca8d137614c10b7fc655bfcbfca4bae"
+      },
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10\\Adopted core strategy\\/Section 5.4 - Environment.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/?Folder=10\\Adopted+core+strategy",
+        "document-type": "core-strategy",
+        "name": "Section 5.4 - Environment",
+        "reference": "CS-ENV-2017",
+        "document-status": "adopted",
+        "endpoint": "257e0badb5c1e54453b3e6c769a33af6f0905bf043d7962f890b92d96c3784e0"
       }
     ]
   },
@@ -27,7 +72,7 @@
     "organisation-name": "City of Bradford Metropolitan District Council",
     "reference": "LP-BRD-2005",
     "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/replacement-unitary-development-plan/",
-    "document-url": "",
+    "document-url": "https://www.bradford.gov.uk/Documents/UnitaryDevelopmentPlan/2. RUDP  - Archive History/7 RUDP Saved Policies October 2008//RUDP Saved Policies Statement Update June 2020.pdf",
     "name": "Replacement Unitary Development Plan (RUDP) for the Bradford District",
     "status": "adopted",
     "year": 2005,
@@ -35,147 +80,27 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.bradford.gov.uk/planningpolicy",
+        "document-url": "https://www.bradford.gov.uk/Documents/UnitaryDevelopmentPlan/2. RUDP  - Archive History/7 RUDP Saved Policies October 2008//RUDP Saved Policies Statement Update June 2020.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/replacement-unitary-development-plan/",
         "document-type": "local-plan",
-        "name": "Replacement Unitary Development Plan (RUDP)",
-        "reference": "RUDP-2005",
+        "name": "Updated Schedule of 'Saved' RUDP Policies",
+        "reference": "LP-RUDP-2020",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "e17e8d1aeea83a3737004290ae36de8a892f4accc07061a1c588e2ad8047c64c"
       }
     ]
   },
   {
     "organisation": "local-authority:BRD",
     "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "LP-BRD-2021",
-    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/bradford-district-local-plan/?Folder=Reg18",
+    "reference": "LP-BRD-EMERGING",
+    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/emerging-local-plan/",
     "document-url": "",
-    "name": "Draft Bradford District Local Plan - Preferred Options (Regulation 18)",
+    "name": "Draft Bradford District Local Plan",
     "status": "regulation-18",
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.bradford.gov.uk/planningpolicy",
-        "document-type": "local-plan-regulation-18",
-        "name": "Update on the Local Plan – Regulation 18 Consultation 2021",
-        "reference": "LP-REG18-2021",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRD",
-    "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "LP-BRD-WM",
-    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
-    "document-url": "",
-    "name": "Waste Management DPD",
-    "status": "adopted",
-    "year": "",
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
-        "document-type": "local-plan",
-        "name": "Waste Management DPD",
-        "reference": "WM-DPD",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRD",
-    "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "LP-BRD-SA",
-    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/emerging-local-plan/",
-    "document-url": "",
-    "name": "Allocations DPD",
-    "status": "draft",
-    "year": "",
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/emerging-local-plan/",
-        "document-type": "site-allocations",
-        "name": "Allocations DPD",
-        "reference": "SA-DPD",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRD",
-    "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "LP-BRD-SCI-2025",
-    "documentation-url": "https://bradford.oc2.uk/",
-    "document-url": "",
-    "name": "Statement of Community Involvement 2025",
-    "status": "consultation",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://bradford.oc2.uk/",
-        "document-type": "statement-of-community-involvement",
-        "name": "Statement of Community Involvement 2025",
-        "reference": "SCI-2025",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://bradford.oc2.uk/",
-        "document-type": "equalities-impact-assessment",
-        "name": "Equality Impact Assessment (EQIA) of the SCI",
-        "reference": "EQIA-SCI-2025",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRD",
-    "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "NP-BRD-BINGLEY",
-    "documentation-url": "https://bradford.oc2.uk/",
-    "document-url": "",
-    "name": "Bingley Neighbourhood Development Plan",
-    "status": "consultation",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://bradford.oc2.uk/",
-        "document-type": "neighbourhood-plan",
-        "name": "Bingley Neighbourhood Development Plan",
-        "reference": "NP-BINGLEY",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://bradford.oc2.uk/",
-        "document-type": "neighbourhood-plan",
-        "name": "Bingley Neighbourhood Development Plan - Supporting Documents",
-        "reference": "NP-BINGLEY-SUPPORT",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
+    "documents": []
   }
 ]

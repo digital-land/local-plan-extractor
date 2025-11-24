@@ -3,7 +3,7 @@
     "organisation": "local-authority:SCA",
     "organisation-name": "South Cambridgeshire District Council",
     "reference": "LP-SCA-2024",
-    "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/",
+    "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/greater-cambridge-local-plan-the-20-year-master-plan-for-the-greater-cambridge-area/",
     "document-url": "",
     "name": "Greater Cambridge Local Plan",
     "status": "regulation-18",
@@ -19,56 +19,6 @@
         "reference": "LP-2024",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
-        "document-type": "local-plan",
-        "name": "Greater Cambridge Local Plan",
-        "reference": "LP-GC-2024",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
-        "document-type": "health-impact-assessment",
-        "name": "Health Impact Assessment SPD",
-        "reference": "HIA-2024",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
-        "document-type": "strategic-flood-risk-assessment",
-        "name": "Strategic Flood Risk Assessment (GCSP)",
-        "reference": "SFRA-2024",
-        "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SCA",
-    "organisation-name": "South Cambridgeshire District Council",
-    "reference": "AAP-SCA-2024",
-    "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/",
-    "document-url": "",
-    "name": "North East Cambridge Area Action Plan",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/",
-        "document-type": "area-action-plan",
-        "name": "North East Cambridge Area Action Plan",
-        "reference": "AAP-NEC-2024",
-        "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
   },
@@ -76,7 +26,7 @@
     "organisation": "local-authority:SCA",
     "organisation-name": "South Cambridgeshire District Council",
     "reference": "LP-SCA-ADOPTED",
-    "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
+    "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning/the-adopted-development-plan",
     "document-url": "",
     "name": "The Adopted Development Plan",
     "status": "adopted",
@@ -96,9 +46,18 @@
       {
         "document-url": "",
         "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
+        "document-type": "health-impact-assessment",
+        "name": "Health Impact Assessment SPD",
+        "reference": "HIA-SPD",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
         "document-type": "supplementary-planning-document",
         "name": "Open Space in New Developments SPD",
-        "reference": "SPD-OS-2024",
+        "reference": "SPD-OPENSPACE",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -107,8 +66,40 @@
         "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
         "document-type": "supplementary-planning-document",
         "name": "Trees and Development Sites SPD",
-        "reference": "SPD-TREES-2024",
+        "reference": "SPD-TREES",
         "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.scambs.gov.uk/planning-and-building-control/local-plan-and-neighbourhood-planning",
+        "document-type": "strategic-flood-risk-assessment",
+        "name": "Strategic Flood Risk Assessment (GCSP)",
+        "reference": "SFRA-GCSP",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SCA",
+    "organisation-name": "South Cambridgeshire District Council",
+    "reference": "AAP-SCA-NEC",
+    "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/north-east-cambridge-area-action-plan/",
+    "document-url": "",
+    "name": "North East Cambridge Area Action Plan",
+    "status": "regulation-19",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/",
+        "document-type": "area-action-plan",
+        "name": "North East Cambridge Area Action Plan",
+        "reference": "AAP-NEC",
+        "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]

@@ -30,15 +30,6 @@
         "endpoint": "beacfb96f81ad011425ed491142246689f130e8fb2a69b8ea0b1695eca70f156"
       },
       {
-        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25299/Draft-Staines-Development-Framework/pdf/STC001_Staines_Development_Framework_-_V2_DRAFT_Landscape_-_April_2022_NL_contents.pdf",
-        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
-        "document-type": "local-plan",
-        "name": "Draft Staines Development Framework",
-        "reference": "SDF-2022",
-        "document-status": "examination",
-        "endpoint": "ff21f3ffe459c8273143150f370e6a730700ba21e6e12a2d2ff26d7f3542fc0e"
-      },
-      {
         "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25343/Topic-Paper-1-Background-and-Exceptional-Circumstances-Case/pdf/Topic_Paper_1_-_Background_and_Exceptional_Circumstances_Case_.pdf",
         "documentation-url": "https://www.spelthorne.gov.uk/localplan",
         "document-type": "local-plan",
@@ -84,6 +75,15 @@
         "endpoint": "677526a881d651e46e9196dd53330ba1eb8327b94ec53385035fbe288be5df0c"
       },
       {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25391/Habitats-Regulations-Assessment-Stage-1-Screening/pdf/Habitats_Regulations_Assessment_-_Stage_1_Screening.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/localplan",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment - Stage 1 Screening",
+        "reference": "HRA-2022",
+        "document-status": "examination",
+        "endpoint": "e5199aef9f2b886f4b91d718ca71bd53c34c5dc00f35ec1eb78f14abb61db323"
+      },
+      {
         "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25326/Spelthorne-Local-Plan-Strategic-Highway-Assessment-Report-Technical-Annex/pdf/Doc02_Spelthorne_Local_Plan_SHAR_Technical_Annex_Final.pdf",
         "documentation-url": "https://www.spelthorne.gov.uk/localplan",
         "document-type": "local-plan",
@@ -102,13 +102,13 @@
         "endpoint": "1dec082912eff63f62a14d023d659402558f03fcef61c99e5dece1c03be7b971"
       },
       {
-        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25391/Habitats-Regulations-Assessment-Stage-1-Screening/pdf/Habitats_Regulations_Assessment_-_Stage_1_Screening.pdf",
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25299/Draft-Staines-Development-Framework/pdf/STC001_Staines_Development_Framework_-_V2_DRAFT_Landscape_-_April_2022_NL_contents.pdf",
         "documentation-url": "https://www.spelthorne.gov.uk/localplan",
-        "document-type": "habitats-regulations-assessment",
-        "name": "Habitats Regulations Assessment - Stage 1 Screening",
-        "reference": "HRA-2022",
+        "document-type": "local-plan",
+        "name": "Draft Staines Development Framework",
+        "reference": "SDF-2022",
         "document-status": "examination",
-        "endpoint": "e5199aef9f2b886f4b91d718ca71bd53c34c5dc00f35ec1eb78f14abb61db323"
+        "endpoint": "ff21f3ffe459c8273143150f370e6a730700ba21e6e12a2d2ff26d7f3542fc0e"
       }
     ]
   }

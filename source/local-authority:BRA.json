@@ -13,7 +13,7 @@
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan",
         "name": "Braintree District Local Plan",
         "reference": "LP-2033",
@@ -25,18 +25,18 @@
   {
     "organisation": "local-authority:BRA",
     "organisation-name": "Braintree District Council",
-    "reference": "LP-BRA-2041",
-    "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+    "reference": "LP-BRA-2025",
+    "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
     "document-url": "",
     "name": "Braintree District Local Plan Review 2041",
     "status": "regulation-18",
-    "year": 2024,
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": 2041,
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan-review",
         "name": "Local Plan Review",
         "reference": "LPR-2041",
@@ -45,16 +45,16 @@
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan-review",
         "name": "Local Plan Review Timetable",
-        "reference": "LPR-TIMETABLE-2024",
+        "reference": "LPR-TIMETABLE-2025",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan-review",
         "name": "Local Plan Review 2041 Evidence Base",
         "reference": "LPR-EVIDENCE-2041",
@@ -63,19 +63,19 @@
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan-review",
         "name": "Local Plan Review - Issues and Options",
-        "reference": "LPR-ISSUES-OPTIONS",
+        "reference": "LPR-ISSUES-2025",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       {
         "document-url": "",
-        "documentation-url": "https://www.braintree.gov.uk/localplanreview",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-review-2",
         "document-type": "local-plan-review",
         "name": "Local Plan Review - your questions answered",
-        "reference": "LPR-QA",
+        "reference": "LPR-FAQ-2025",
         "document-status": "consultation",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

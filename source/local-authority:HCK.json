@@ -3,7 +3,7 @@
     "organisation": "local-authority:HCK",
     "organisation-name": "London Borough of Hackney",
     "reference": "LP-HCK-2020",
-    "documentation-url": "https://hackney.gov.uk/lp33",
+    "documentation-url": "https://www.hackney.gov.uk/planning-policy",
     "document-url": "",
     "name": "Hackney Local Plan 2033 (LP33)",
     "status": "adopted",
@@ -16,7 +16,25 @@
         "documentation-url": "https://www.hackney.gov.uk/planning-policy",
         "document-type": "local-plan",
         "name": "decentralised energy master plan",
-        "reference": "DEM-2020",
+        "reference": "LP-2033",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hackney.gov.uk/planning-policy",
+        "document-type": "local-plan",
+        "name": "adopted SALP – July 2016",
+        "reference": "SALP-2016",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.hackney.gov.uk/planning-policy",
+        "document-type": "policies-map",
+        "name": "Hackney's adopted proposals map",
+        "reference": "PM-2020",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
@@ -50,9 +68,9 @@
       {
         "document-url": "",
         "documentation-url": "https://www.hackney.gov.uk/planning-policy",
-        "document-type": "local-plan",
-        "name": "infrastructure funding statement 2024",
-        "reference": "IFS-2024",
+        "document-type": "statement-of-community-involvement",
+        "name": "adopted statement of community involvement",
+        "reference": "SCI-2020",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
@@ -61,35 +79,25 @@
   {
     "organisation": "local-authority:HCK",
     "organisation-name": "London Borough of Hackney",
-    "reference": "LP-HCK-2016",
-    "documentation-url": "https://www.hackney.gov.uk/planning-policy",
+    "reference": "LP-HCK-2020-LLDC",
+    "documentation-url": "https://hackney.gov.uk/lldc-planning-policy-documents",
     "document-url": "",
-    "name": "Site Allocations Local Plan",
+    "name": "LLDC Local Plan 2020 for 2036",
     "status": "adopted",
-    "year": 2016,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.hackney.gov.uk/planning-policy",
-        "document-type": "local-plan",
-        "name": "adopted SALP – July 2016",
-        "reference": "SALP-2016",
-        "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    ]
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2036,
+    "documents": []
   },
   {
     "organisation": "local-authority:HCK",
     "organisation-name": "London Borough of Hackney",
-    "reference": "LP-HCK-2010",
-    "documentation-url": "https://hackney.gov.uk/lp33",
+    "reference": "AAP-HCK-STAMFORD",
+    "documentation-url": "https://www.hackney.gov.uk/stamford-hill-aap",
     "document-url": "",
-    "name": "Core Strategy",
-    "status": "adopted",
-    "year": 2010,
+    "name": "Stamford Hill area action plan",
+    "status": "draft",
+    "year": "",
     "period-start-date": "",
     "period-end-date": "",
     "documents": []
@@ -97,12 +105,12 @@
   {
     "organisation": "local-authority:HCK",
     "organisation-name": "London Borough of Hackney",
-    "reference": "LP-HCK-2015",
-    "documentation-url": "https://hackney.gov.uk/lp33",
+    "reference": "AAP-HCK-SHOREDITCH",
+    "documentation-url": "https://www.hackney.gov.uk/planning-policy",
     "document-url": "",
-    "name": "Development Management Local Plan",
-    "status": "adopted",
-    "year": 2015,
+    "name": "Future Shoreditch",
+    "status": "draft",
+    "year": "",
     "period-start-date": "",
     "period-end-date": "",
     "documents": []

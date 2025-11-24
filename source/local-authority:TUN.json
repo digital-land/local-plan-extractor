@@ -2,14 +2,132 @@
   {
     "organisation": "local-authority:TUN",
     "organisation-name": "Tunbridge Wells Borough Council",
-    "reference": "LP-TUN-2024",
-    "documentation-url": "https://www.tunbridgewells.gov.uk/planning/planning-policy/local-plan",
-    "document-url": "",
+    "reference": "LP-TUN-2025",
+    "documentation-url": "https://www.tunbridgewells.gov.uk/localplan",
+    "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0011/493598/Pre-Submission-Local-Plan_consultation-document.pdf",
     "name": "New Borough Local Plan",
     "status": "examination",
-    "year": 2024,
+    "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0011/493598/Pre-Submission-Local-Plan_consultation-document.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "local-plan-regulation-19",
+        "name": "Pre-Submission Local Plan",
+        "reference": "LP-REG19-2025",
+        "document-status": "examination",
+        "endpoint": "e1dba2502600bba8d245eee7020677849c2a47022642db5503a4f1266dcfaf64"
+      },
+      {
+        "document-url": "https://tunbridgewells.gov.uk/__data/assets/pdf_file/0009/403587/CD_3.128_Local-Plan_Submission-accessible_reduced.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/evidence",
+        "document-type": "local-plan",
+        "name": "Submission Local Plan",
+        "reference": "LP-SUB-2021",
+        "document-status": "examination",
+        "endpoint": "97ad565c2e177d8731ac1d3b126b145ce5f2cc916f52c4b18d5cbc3b540e44d8"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0007/493594/TWLP_152-Schedule-of-proposed-Main-Modifications-V7_.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "main-modifications",
+        "name": "TWLP/152 Schedule of proposed Main Modifications",
+        "reference": "MM-2025",
+        "document-status": "consultation",
+        "endpoint": "173ce8aaaa4cc2123c769dfa4e6d637fb52770cfc32b5bd0ee4d8395cfd24857"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0008/493595/TWLP_154-Schedule-of-Policy-and-Inset-Maps-Changes-Accessible-reduced.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "policies-map",
+        "name": "TWLP/154 Schedule of Policy and Inset Maps Changes",
+        "reference": "PM-CHANGES-2025",
+        "document-status": "consultation",
+        "endpoint": "d857126e364c2fcaec979eaa3fe51287997b08f4ea99ea517c1634996095a5dc"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0011/403589/CD_3.130a_2021-SA-of-the-PSLP_accessible-version.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "View the Submission Local Plan Sustainability Appraisal",
+        "reference": "SA-2021",
+        "document-status": "examination",
+        "endpoint": "94caf8c2d0264c6e459e108fa7c80587b8c107460d48c808ceb7a8adc9f399f9"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0017/455111/PS_037-Sustainablility-Appraisal-Addendum.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Addendum October 2023",
+        "reference": "SA-ADD-2023",
+        "document-status": "examination",
+        "endpoint": "8512f8f02794bef160988e155a010a37901c4c2c94a4473432861fbe97cf20cc"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0009/493596/TWLP_155-SA-Addendum-for-the-LP-Accessible.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal",
+        "document-type": "sustainability-appraisal",
+        "name": "Latest Sustainability Appraisal (Part 2) 2025",
+        "reference": "SA-2025",
+        "document-status": "consultation",
+        "endpoint": "23ee4ecfd031d9a466d946a2f1875b4c62bddb244040f9e00938bcdcd6bdf02a"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0010/493597/TWLP_156-Habitats-Regulation-Assessment-for-Local-Plan-Main-Modifications.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "habitats-regulations-assessment",
+        "name": "TWLP/156 Habitat Regulations Assessment (HRA) March 2025",
+        "reference": "HRA-2025",
+        "document-status": "consultation",
+        "endpoint": "5e8d9a610a82928356a261e3bc6671679f71741968f6e02c595879c25a504003"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0007/434392/ID-012-Inspectors-Initial-Findings.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/sustainability-appraisal",
+        "document-type": "inspectors-report",
+        "name": "Inspectors Initial Findings Letter",
+        "reference": "IR-2022",
+        "document-status": "examination",
+        "endpoint": "c1e59d3bead2a4afce20e6564f0d3bfae65c0a89d5eb8761399a1428d944864c"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0017/403046/Core-Document-List_TWBC-Local-Plan-Examination-Version-24-18-August-2025.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/evidence",
+        "document-type": "examination-hearing-statement",
+        "name": "Index - Core Documents List",
+        "reference": "CDL-2025",
+        "document-status": "examination",
+        "endpoint": "16656b228d33551807c896273583b50b16457f126b4660fc5906c3d9117ec453"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0012/493599/TWLP_157-TWBC-Supplementary-Statement-Trajectory-December-2024.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "housing-delivery-test",
+        "name": "TWLP/157 Supplementary Statement (Trajectory)",
+        "reference": "TRAJ-2024",
+        "document-status": "consultation",
+        "endpoint": "0db88134a98daa5e2a6e1043b1eac2327f4946357125058892e932d4f87199ac"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0004/493600/TWLP_158-IDP-Amended-Development-Strategy-Version-March-25.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "TWLP/158 Updated Infrastructure Delivery Plan (IDP)",
+        "reference": "IDP-2025",
+        "document-status": "consultation",
+        "endpoint": "4038ed3ab659d51be6012a5dbe863ae5e82539ca7f12fb1108be012477bea206"
+      },
+      {
+        "document-url": "https://forms.tunbridgewells.gov.uk/__data/assets/pdf_file/0006/493719/Policies-Map.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan/local-plan-consultations",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2025",
+        "document-status": "consultation",
+        "endpoint": "1440d3301537ba4a201cf4fe1687c936037e3133d94d994f145d5f79228d8238"
+      }
+    ]
   }
 ]

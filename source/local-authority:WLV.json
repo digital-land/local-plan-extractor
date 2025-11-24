@@ -4,67 +4,13 @@
     "organisation-name": "City of Wolverhampton Council",
     "reference": "LP-WLV-2025",
     "documentation-url": "https://www.wolverhampton.gov.uk/localplan",
-    "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Main%20Document%20WLP%20Reg%2019.pdf",
-    "name": "Wolverhampton Local Plan",
-    "status": "examination",
+    "document-url": "",
+    "name": "Wolverhampton Local Plan 2024-2042",
+    "status": "submitted",
     "year": 2025,
-    "period-start-date": "",
+    "period-start-date": 2024,
     "period-end-date": 2042,
     "documents": [
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Main%20Document%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "local-plan",
-        "name": "Main Document WLP Reg 19",
-        "reference": "LP-2025",
-        "document-status": "examination",
-        "endpoint": "c7994664362ad9b6c541711e1f09199c4b381bd9e4e530b9e57e4c26f3fef4bb"
-      },
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Summary%20Leaflet%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "local-plan",
-        "name": "Summary Leaflet WLP Reg 19",
-        "reference": "SL-2025",
-        "document-status": "examination",
-        "endpoint": "ad1b110912640e2266ee4a8a83b25dacdb4a04ddf06e9e3a44b7435308b8e18b"
-      },
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Non-Technical%20Summary%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Non-Technical Summary WLP Reg 19",
-        "reference": "SA-NTS-2025",
-        "document-status": "examination",
-        "endpoint": "13d326801c3f01bb374e97963552be7c44a60f0a3fb1c452b001e73d4bb9726d"
-      },
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Main%20Report%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Main Report WLP Reg 19",
-        "reference": "SA-2025",
-        "document-status": "examination",
-        "endpoint": "5f62c3c6b87a2af6c96bdde01a27b937662fc9b16823777ef3f1b225decb2995"
-      },
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Appendices%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Appendices WLP Reg 19",
-        "reference": "SA-APP-2025",
-        "document-status": "examination",
-        "endpoint": "872cf5b120d501e9bf6164b7ec8994c505d15b122e66691cb288940cfeee88ca"
-      },
-      {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Wolverhampton%20Policies%20Map%20WLP%20Reg%2019.pdf",
-        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/wolverhampton-local-plan/how-to-make-representations",
-        "document-type": "policies-map",
-        "name": "Wolverhampton Policies Map WLP Reg 19",
-        "reference": "PM-2025",
-        "document-status": "examination",
-        "endpoint": "8fed773c0f6ed9c80fc3b95318e34fb2dcfc424b20b5b83f1464b414b2fa9e77"
-      },
       {
         "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2025-10/Notice-of-Examination-Hearings.pdf",
         "documentation-url": "https://www.wolverhampton.gov.uk/localplan",
@@ -75,67 +21,85 @@
         "endpoint": "748d904ef1f47d46860470330b81d22a6afbbb94344fe94e8bb7b1a20c653abc"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_e5e78890568d47e1b1aa9d0d6b2f8a98.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2025-03/Wolverhampton-Local-Plan-Submission-Notice.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/localplan",
         "document-type": "local-plan",
-        "name": "Inspectors' Matters, Issues and Questions (MIQs)",
-        "reference": "MIQ-2025",
+        "name": "Wolverhampton Local Plan Submission Notice",
+        "reference": "LP-SN-2025",
         "document-status": "examination",
-        "endpoint": "941e3638c9c59e5e5b6d151bc57e7e159e976f10cb2342ea06c74cae80d2c4b5"
+        "endpoint": "00a93aeadeda239b49a2837577c9d981cdd55f3602b5fb186ca1e6505f0bfb16"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_4375074dde5b4f038fb38475de967f6d.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
-        "document-type": "local-plan",
-        "name": "Spatial Strategy Topic Paper",
-        "reference": "SSTP-2025",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Non-Technical%20Summary%20WLP%20Reg%2019_0.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Non-Technical Summary WLP Reg 19",
+        "reference": "SA-NTS-2024",
         "document-status": "examination",
-        "endpoint": "c4efe32301964ebe5ee3580702b12bb4f03119d94844c667e17209f5968a5373"
+        "endpoint": "fd40dedd9b8b1fe183d77e2203f43b7aac899151a1930c8fd26d02fac28cc206"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_d28708419f9744828732c4fc59e15825.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
-        "document-type": "local-plan",
-        "name": "Housing Topic Paper",
-        "reference": "HTP-2025",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Main%20Report%20WLP%20Reg%2019_0.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Main Report WLP Reg 19",
+        "reference": "SA-MR-2024",
         "document-status": "examination",
-        "endpoint": "b6107cdb52a3615cdbab423febb56f865b526446ec4bef3e0fbe518728cc2e37"
+        "endpoint": "cc2614b637e47d22af6dc3d22d9509cd3887426253f0e8d9a9b2fb1e9e0a1f72"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_4bab2544c5524ff9883c7658feec021e.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
-        "document-type": "local-plan",
-        "name": "Gypsy & Traveller Accommodation Topic Paper",
-        "reference": "GTATP-2025",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Sustainability%20Appraisal%20Appendices%20WLP%20Reg%2019_0.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendices WLP Reg 19",
+        "reference": "SA-APP-2024",
         "document-status": "examination",
-        "endpoint": "5b29af16544db609f3e3170e94bebbf16a56d422e406c7fdbda916433ecaf1d8"
+        "endpoint": "915f169be3985be633e8343448487fb2b8f92038992cdfad644a5717d7d0f0fd"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_3e818128756748db9941862b001a6f3e.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/WLP%20Reg%2019%20Habitat%20Regulations%20Assessment%202024%20-%20Main%20Report.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
         "document-type": "local-plan",
-        "name": "Employment Land Topic Paper",
-        "reference": "ELTP-2025",
+        "name": "Wolverhampton Local Plan Reg 19 Habitat Regulations Assessment 2024 - Main Report",
+        "reference": "HRA-2024",
         "document-status": "examination",
-        "endpoint": "612a067581036868f933d9b1ae81b3ca7c04c1ced35ac8ab3ff5f377e6f9e02d"
+        "endpoint": "ac7c5eef7ac015be20942ac36575403f9661401d2a1ce7e045c7033d718b8c33"
       },
       {
-        "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_abd0d68a369946478ea691e1c93b6a29.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
-        "document-type": "local-plan",
-        "name": "Duty to Co-operate Topic Paper",
-        "reference": "DCTP-2025",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Wolverhampton%20Housing%20Market%20Assessment%20Update%202024.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Wolverhampton Housing Market Assessment Update 2024",
+        "reference": "SHMA-2024",
         "document-status": "examination",
-        "endpoint": "08fa92791b7d5b2db45779a31e121242bae2ebdeb9bbb30917453419301ea736"
+        "endpoint": "c55a754dd890d0dc7aadf5bbe630bb9264b905cf8ac42cd04631293b29c20a42"
       },
       {
-        "document-url": "https://www.localplanservices.co.uk/_files/ugd/017f5b_025ea36531814566af69d2a7b919e280.pdf",
-        "documentation-url": "https://www.localplanservices.co.uk/wolverhamptonlpexam",
-        "document-type": "local-plan-regulation-19",
-        "name": "Regulation 19 Representations",
-        "reference": "R19R-2025",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Wolverhampton%20SHLAA%20Update%202024.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "strategic-housing-land-availability",
+        "name": "Wolverhampton SHLAA Update 2024",
+        "reference": "SHLAA-2024",
         "document-status": "examination",
-        "endpoint": "5b31443ee5349bef8baf10a456fa62a8828b961c59d533a6a624ce0d639bad2e"
+        "endpoint": "fea629c1295e77ee886f6436fe58abd74f65843902e3319ecbc9ce8c95f052ed"
+      },
+      {
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Wolverhampton-Local-Plan-Viabliity-Study-2024-AspinallVerdi-v2.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "viability-assessment",
+        "name": "Wolverhampton Local Plan Viability Study - Main Viability Report 2024 AspinallVerdi",
+        "reference": "VA-2024",
+        "document-status": "examination",
+        "endpoint": "54b12e121aec614bbb567edfb52b0a79990e6a63cdeb538e64ac6d29aab794ce"
+      },
+      {
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Wolverhampton%20Local%20Plan%20Infrastructure%20Delivery%20Plan%202024.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/node/20800",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Wolverhampton Local Plan Infrastructure Delivery Plan 2024",
+        "reference": "IDP-2024",
+        "document-status": "examination",
+        "endpoint": "2e49ef55b5bf4c0d5f61a84da043be0c511f56c647419f966a5607e610f22bdd"
       }
     ]
   },
@@ -143,13 +107,46 @@
     "organisation": "local-authority:WLV",
     "organisation-name": "City of Wolverhampton Council",
     "reference": "LP-WLV-2011",
-    "documentation-url": "https://www.wolverhampton.gov.uk/planningpolicy",
-    "document-url": "",
+    "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/black-country-core-strategy",
+    "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Black%20Country%20Core%20Strategy%20-%20Final%20Version.pdf",
     "name": "Black Country Core Strategy",
     "status": "adopted",
     "year": 2011,
     "period-start-date": "",
     "period-end-date": 2026,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Black%20Country%20Core%20Strategy%20-%20Final%20Version.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/black-country-core-strategy",
+        "document-type": "core-strategy",
+        "name": "Black Country Core Strategy - Final Version",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "f74e14864ec702beea03829b302c1f1fa9c71fb073e9460933a44f052ec04683"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLV",
+    "organisation-name": "City of Wolverhampton Council",
+    "reference": "LP-WLV-2006",
+    "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/unitary-development-plan-and-proposals-map",
+    "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Adopted%20Unitary%20Development%20Plan%20%28UDP%29%202006.pdf",
+    "name": "Wolverhampton Unitary Development Plan",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Adopted%20Unitary%20Development%20Plan%20%28UDP%29%202006.pdf",
+        "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/unitary-development-plan-and-proposals-map",
+        "document-type": "local-plan",
+        "name": "Adopted Unitary Development Plan (UDP) 2006",
+        "reference": "UDP-2006",
+        "document-status": "adopted",
+        "endpoint": "d02eb6cd1957f32d1b9bfd527e742a90a4ceea51c55044397ad27e06cb0271bf"
+      }
+    ]
   }
 ]

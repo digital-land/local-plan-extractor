@@ -3,38 +3,20 @@
     "organisation": "local-authority:STY",
     "organisation-name": "South Tyneside Council",
     "reference": "LP-STY-2024",
-    "documentation-url": "https://www.southtyneside.gov.uk/article/3663/Local-Plan",
+    "documentation-url": "https://www.southtyneside.gov.uk/article/6464/About-the-Local-Plan",
     "document-url": "",
-    "name": "South Tyneside Local Plan",
+    "name": "South Tyneside Local Plan 2023-2040",
     "status": "examination",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2023,
+    "period-end-date": 2040,
     "documents": [
       {
         "document-url": "",
-        "documentation-url": "https://www.southtyneside.gov.uk/article/3663/Local-Plan",
+        "documentation-url": "https://www.southtyneside.gov.uk/article/6464/About-the-Local-Plan",
         "document-type": "local-plan",
-        "name": "About the Local Plan",
-        "reference": "LP-2024",
-        "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.southtyneside.gov.uk/article/24174/Local-Plan-examination",
-        "document-type": "local-plan",
-        "name": "About the Local Plan examination",
-        "reference": "LP-EXAM-2024",
-        "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.southtyneside.gov.uk/article/24174/Local-Plan-examination",
-        "document-type": "local-plan",
-        "name": "Local Plan document library",
-        "reference": "LP-LIBRARY-2024",
+        "name": "Publication Draft Local Plan 2023-2040",
+        "reference": "LP-2023-2040",
         "document-status": "examination",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

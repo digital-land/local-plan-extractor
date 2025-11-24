@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "organisation": "local-authority:DAC",
+    "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2041",
+    "documentation-url": "https://www.dacorum.gov.uk/planning-development/planning-strategic-planning/new-single-local-plan",
+    "document-url": "",
+    "name": "Dacorum Local Plan to 2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/hra-summary-faqs.pdf?sfvrsn=c38e079e_4",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Summary FAQs",
+        "reference": "HRA-FAQ-2024",
+        "document-status": "examination",
+        "endpoint": "aad1cbb50ec90271b70426e4e1ab92244400c26a90d2e954d71bd9a9f7688bc9"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/hra-detailed-faqs.pdf?sfvrsn=d08e079e_4",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Detailed FAQs",
+        "reference": "HRA-FAQ-DETAILED-2024",
+        "document-status": "examination",
+        "endpoint": "39ad3c5d86754d388c99d217e10767e5521783974e4a53d9dcbcc728ef35fac0"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/dacorum-recreation-evidence-base-200322.pdf?sfvrsn=fbe079e_0",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "local-plan",
+        "name": "Footprint Ecology Report - March 2022 - high resolution",
+        "reference": "FOOTPRINT-2022",
+        "document-status": "adopted",
+        "endpoint": "3caeda07dad914039b9fdc6f06dc79fa2a626da2c7019699f30d8ecca3afab7e"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/zone-of-influences.pdf?sfvrsn=e982079e_4",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "local-plan",
+        "name": "Zones of Influence",
+        "reference": "ZOI-2024",
+        "document-status": "adopted",
+        "endpoint": "ad14a4236758e1bb9969e5438fa04a67afe2444846a57bfce9a18468890f4fb9"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/chilterns-beechwoods-sac-500-metre-exclusion-zones.pdf?sfvrsn=f982079e_4",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "local-plan",
+        "name": "500-metre exclusion zones",
+        "reference": "EXCLUSION-ZONES-2024",
+        "document-status": "adopted",
+        "endpoint": "f8cf474c0b3816b8453889d3f25f4280633911952c0928db50333676ae7aca85"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/chilterns-beechwoods-letter-natural-england.pdf?sfvrsn=38e079e_4",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/new-single-local-plan/chilterns-beechwoods-special-area-of-conservation",
+        "document-type": "local-plan",
+        "name": "Natural England letter to Planning Authorities",
+        "reference": "NE-LETTER-2024",
+        "document-status": "adopted",
+        "endpoint": "74c3e9cf61495ebdae7d193d9c38bea1a23a543bcc354659f54d4e86cde061ba"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DAC",
+    "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2013",
+    "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+    "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/adopted-core-strategy-2013.pdf?sfvrsn=80753a9e_2",
+    "name": "Dacorum Core Strategy",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2006,
+    "period-end-date": 2031,
+    "documents": [
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/adopted-core-strategy-2013.pdf?sfvrsn=80753a9e_2",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+        "document-type": "core-strategy",
+        "name": "Adopted Core Strategy 2013",
+        "reference": "CS-2013",
+        "document-status": "adopted",
+        "endpoint": "12516dd8de510acda044035466cc4f84483f557b9871433f4052f8c0b3dfbe27"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/adoption-notice-(pdf).pdf?sfvrsn=74e4f39f_0",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+        "document-type": "local-plan",
+        "name": "Adoption Notice",
+        "reference": "AN-2013",
+        "document-status": "adopted",
+        "endpoint": "8832587bc49d6f85a16189957e575bf0a82b21cd134a7ed13fc43cb1f063657c"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/sustainability-appraisal-adoption-statement-(501kb).pdf?sfvrsn=712ef29f_0",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal adoption statement",
+        "reference": "SA-AS-2013",
+        "document-status": "adopted",
+        "endpoint": "acde65e94447e88b7b3f122af3a0967f759fb839ab2d33e06ffed3a5148bd345"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/schedule-of-saved-policies-(pdf-106kb).pdf?sfvrsn=bd36f19f_0",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+        "document-type": "local-plan",
+        "name": "Schedule of saved policies",
+        "reference": "SAVED-POLICIES-2013",
+        "document-status": "adopted",
+        "endpoint": "41c365bc64be451acf1913c61c384036ec099376e71e3317fb55de49ebd35ea8"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DAC",
+    "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2004",
+    "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/local-plan-1991-2011",
+    "document-url": "",
+    "name": "Dacorum Borough Local Plan 1991-2011",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 1991,
+    "period-end-date": 2011,
+    "documents": [
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/policy-advice-note.pdf?sfvrsn=81473c9e_8",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/local-plan-1991-2011",
+        "document-type": "local-plan",
+        "name": "Policy advice note",
+        "reference": "PAN-2004",
+        "document-status": "adopted",
+        "endpoint": "31feae2a2321401ef48052f353653c611e05d22051043b1e848232602719c1e3"
+      },
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/correction-sheet-to-the-adopted-local-plan---a-list-of-corrections-to-various-text-and-maps-in-the-plan-(pdf-967kb).pdf?sfvrsn=a9b7ed9f_0",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/local-plan-1991-2011",
+        "document-type": "local-plan-adopted",
+        "name": "Correction sheet to the Adopted Local Plan - a list of corrections to various text and maps in the plan",
+        "reference": "CORRECTIONS-2004",
+        "document-status": "adopted",
+        "endpoint": "28be4c81ff671ef33c6b9223f9719a3c2907a999965836d27a8a93d210a9b019"
+      }
+    ]
+  }
+]

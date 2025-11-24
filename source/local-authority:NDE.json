@@ -15,7 +15,7 @@
         "document-url": "",
         "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
         "document-type": "local-plan",
-        "name": "View or Download the Local Plan",
+        "name": "North Devon and Torridge Local Plan 2011-2031",
         "reference": "LP-2011-2031",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
@@ -44,6 +44,24 @@
         "document-type": "local-plan",
         "name": "Evidence Base",
         "reference": "EB-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "North Devon and Torridge Local Plan (Interactive Version)",
+        "reference": "LP-INTERACTIVE-2018",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "North Devon and Torridge Local Plan: Frequently Asked Questions (FAQs)",
+        "reference": "FAQ-2019",
         "document-status": "adopted",
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }

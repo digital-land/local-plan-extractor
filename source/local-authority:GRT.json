@@ -5,34 +5,48 @@
     "reference": "LP-GRT-2019",
     "documentation-url": "https://www.guildford.gov.uk/guildfordlocalplan",
     "document-url": "",
-    "name": "Guildford Local Plan: Strategy and Sites 2019",
+    "name": "Guildford Local Plan 2015-2034",
     "status": "adopted",
     "year": 2019,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2015,
+    "period-end-date": 2034,
     "documents": [
       {
-        "document-url": "https://www.guildford.gov.uk/media/36649/LDS-March-2025/pdf/LDS_March_2025_final_v2.pdf?m=1740649863927",
-        "documentation-url": "https://www.guildford.gov.uk/lds",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme 2025",
-        "reference": "LDS-2025",
+        "document-url": "https://www.guildford.gov.uk/media/36317/GBC-response-letter-To-Angela-Rayner-MP-on-the-National-Planning-Policy-Framework/pdf/NPPF_2024_GBC_Letter__final_.pdf?m=1727788494587",
+        "documentation-url": "https://www.guildford.gov.uk/planningpolicynews",
+        "document-type": "local-plan",
+        "name": "GBC letter on the National Planning Policy Framework (NPPF)",
+        "reference": "NPPF-2024",
         "document-status": "adopted",
-        "endpoint": "d8434dc22002054b1bc18a35b5c47e8339270d8ca0cf6a1eb3f5342e02162d43"
+        "endpoint": "24f672199b476939760dd83e28e83ac22aaadb3b4fbb2de4296e7b16b3a0b695"
+      },
+      {
+        "document-url": "https://www.guildford.gov.uk/media/32879/Response-to-the-Government-Planning-for-the-Future-White-Paper/pdf/Guildford_Borough_Council_Responses_to_PftF_White_Paper_2020_questions1.pdf?m=1603889747130",
+        "documentation-url": "https://www.guildford.gov.uk/planningpolicynews",
+        "document-type": "local-plan",
+        "name": "Response to the Government Planning for the Future White Paper",
+        "reference": "PFTF-2020",
+        "document-status": "adopted",
+        "endpoint": "53b3bd64d5ccbd26f758499606e14d96e412cc220e55c9b4ee054c2ddec3e819"
+      },
+      {
+        "document-url": "https://www.guildford.gov.uk/media/32838/Responding-to-consultation-regarding-changes-to-the-planning-system/pdf/Responding_to_consultation_regarding_changes_to_the_planning_system_GBC_final.pdf?m=1603378681267",
+        "documentation-url": "https://www.guildford.gov.uk/planningpolicynews",
+        "document-type": "local-plan",
+        "name": "Response to consultation regarding changes to the planning system",
+        "reference": "PS-2020",
+        "document-status": "adopted",
+        "endpoint": "82659734be2eac86af18641d7e56842ab061b5832acf97af009c7698cce98cf7"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.guildford.gov.uk/planningpolicynews",
+        "document-type": "local-plan",
+        "name": "GBC consultation responses on the National Planning Policy Framework (NPPF)",
+        "reference": "NPPF-CONS-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:GRT",
-    "organisation-name": "Guildford Borough Council",
-    "reference": "LP-GRT-2024",
-    "documentation-url": "https://www.guildford.gov.uk/article/27061/Update-to-the-Local-Plan-agreed",
-    "document-url": "",
-    "name": "Guildford Local Plan Update",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
   }
 ]

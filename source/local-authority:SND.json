@@ -2,6 +2,187 @@
   {
     "organisation": "local-authority:SND",
     "organisation-name": "Sunderland City Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-SND-2020",
+    "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+    "document-url": "https://www.sunderland.gov.uk/media/22171/Core-Strategy-and-Development-Plan-2015-2033/pdf/CSDP_2015-2033.pdf?m=1580375786447",
+    "name": "Core Strategy and Development Plan 2015-2033",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2015,
+    "period-end-date": 2033,
+    "documents": [
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22171/Core-Strategy-and-Development-Plan-2015-2033/pdf/CSDP_2015-2033.pdf?m=1580375786447",
+        "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy and Development Plan 2015-2033",
+        "reference": "CS-2015-2033",
+        "document-status": "adopted",
+        "endpoint": "420ef0e892c66ffa966952d5f26c0830b8f3c5863f1c2997d83613ad92c3871e"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22425/CSDP-Policies-Map/pdf/CSDP_Policies_Map.pdf?m=1593443702647",
+        "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+        "document-type": "policies-map",
+        "name": "CSDP Policies Map",
+        "reference": "PM-2020",
+        "document-status": "adopted",
+        "endpoint": "f43561b05ad770a6f7af3765fd32ede2e5b55a2f8bf2d764010f49f1f70a4925"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22326/User-Guide/pdf/User_Guide.pdf?m=1589532079547",
+        "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+        "document-type": "local-plan",
+        "name": "User Guide",
+        "reference": "UG-2020",
+        "document-status": "adopted",
+        "endpoint": "cf0dd48ba4f97d3263a61e8444a3410564d4b20389bc6cbe225f25fa27b5486c"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/34102/Core-Strategy-Development-Plan-Review/pdf/CSDP_Review_2024_-_Final_.pdf?m=1733999231620",
+        "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Development Plan Review",
+        "reference": "LPR-2024",
+        "document-status": "adopted",
+        "endpoint": "c26e21a9f884a59a82168c47d1a13ae8e807a48b6f5924ebc068ee8316ade8fd"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/35266/Green-Belt-Assessment/pdf/SD.30_Green_Belt_Assessment_Stage_1_Updated_and_Stage_2_2017.pdf?m=1742396454950",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "Green Belt Assessment",
+        "reference": "GBA-2017",
+        "document-status": "adopted",
+        "endpoint": "aafb10beb463c52d2934b264af1f7195ebc672dedccc1a73754c0f70d83c2cff"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30626/HRA-Mitigation-Strategy/pdf/AD.09_HRA_Mitigation_Strategy.pdf?m=1695127690073",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "habitats-regulations-assessment",
+        "name": "HRA Mitigation Strategy",
+        "reference": "HRA-2020",
+        "document-status": "adopted",
+        "endpoint": "a4908511b5ef689263ba8b719fec26571fde95ae90a192a37517bd1cc3bf6d52"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30629/Strategic-Housing-Market-Assessment-2020/pdf/AD.13_Strategic_Housing_Market_Assessment_2020.pdf?m=1695127750623",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "Strategic Housing Market Assessment 2020",
+        "reference": "SHMA-2020",
+        "document-status": "adopted",
+        "endpoint": "93f8c19f7a6dbd9318d7005c431df1023501eb57a148ce5851eceae2d9bceb8c"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30627/SHMA-2020-Student-Housing-Need-Addendum/pdf/AD.13A_SHMA_2020_-_Student_Housing_Need_Addendum.pdf?m=1695127707097",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "SHMA 2020 - Student Housing Need Addendum",
+        "reference": "SHMA-STU-2020",
+        "document-status": "adopted",
+        "endpoint": "8064318a1d9e9d09fb36a3570b25db7cee29ec2e069bb4cea98a9e4d11bc2a3a"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30628/SHMA-2020-HMO-Addendum/pdf/AD.13B_SHMA_2020_-_HMO_Addendum.pdf?m=1695127724810",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "SHMA 2020 - HMO Addendum",
+        "reference": "SHMA-HMO-2020",
+        "document-status": "adopted",
+        "endpoint": "22771c3bb455d27ba1ff352d488569a7f3d6312917a5b36208a897bf4a8e4e1a"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30630/2020-Greenspace-Audit/pdf/AD.20_Draft_A_D_Plan_Greenspace_Audit.pdf?m=1695127773950",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "2020 Greenspace Audit",
+        "reference": "GSA-2020",
+        "document-status": "adopted",
+        "endpoint": "74387e6be15a092f7457f02dbf3f350ca61ee1a5faaf962c4bdff22a6a07cdfe"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30631/Wildlife-Network-Report/pdf/AD.22_Wildlife_Network_Report.pdf?m=1695127787107",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "Wildlife Network Report",
+        "reference": "WNR-2020",
+        "document-status": "adopted",
+        "endpoint": "5f66205b5d12d6ecf18c42a139c953f5d6fc8abfd21018e37264ea8bc6f76d0c"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30632/Wildlife-Network-Report-Annex-A/pdf/AD.22_Wildlife_Network_Report_Annex_A.pdf?m=1695127800527",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "Wildlife Network Report Annex A",
+        "reference": "WNR-A-2020",
+        "document-status": "adopted",
+        "endpoint": "a21ca2e042a9c63335dcc15548b42b423a1b493dfc0210fe4e5f3eaf1c1679f1"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/30633/Wildlife-Network-Report-Annex-B/pdf/AD.22_Wildlife_Network_Report_Annex_B.pdf?m=1695127833717",
+        "documentation-url": "https://www.sunderland.gov.uk/article/28664/Local-Plan-Evidence",
+        "document-type": "local-plan",
+        "name": "Wildlife Network Report Annex B",
+        "reference": "WNR-B-2020",
+        "document-status": "adopted",
+        "endpoint": "a08095aa4fa7b6b5adf17d2760a353abae6242eb32c6ffbb186d87d75954aa87"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SND",
+    "organisation-name": "Sunderland City Council",
+    "reference": "LP-SND-UDP",
+    "documentation-url": "https://www.sunderland.gov.uk/udp",
+    "document-url": "https://www.sunderland.gov.uk/media/22228/Unitary-Development-Plan/pdf/Unitary_Development_Plan.pdf?m=1582563619313",
+    "name": "Unitary Development Plan",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22228/Unitary-Development-Plan/pdf/Unitary_Development_Plan.pdf?m=1582563619313",
+        "documentation-url": "https://www.sunderland.gov.uk/udp",
+        "document-type": "local-plan",
+        "name": "Unitary Development Plan",
+        "reference": "UDP-MAIN",
+        "document-status": "adopted",
+        "endpoint": "a1a9aedb99c77b4d56b1a8dfb97aed2b060444327e08b26414256285afc33cfa"
+      },
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/31974/UDP-Plan-Review/pdf/EX1.021_Unitary_Development_Plan_-_Policy_Review.pdf?m=1709717642897",
+        "documentation-url": "https://www.sunderland.gov.uk/udp",
+        "document-type": "local-plan",
+        "name": "Unitary Development Plan Saved Policies Review",
+        "reference": "UDP-REV",
+        "document-status": "adopted",
+        "endpoint": "30a98a68f6f5f3713a8baa31984f7e0025b5b1be24467c333278d2258716eb52"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SND",
+    "organisation-name": "Sunderland City Council",
+    "reference": "LP-SND-UDP2",
+    "documentation-url": "https://www.sunderland.gov.uk/article/12754/Unitary-Development-Plan-Alteration-No-2",
+    "document-url": "https://www.sunderland.gov.uk/media/22229/Adopted-Policies-Full-Document/pdf/Adopted_Policies_Full_Document.pdf?m=1582564313517",
+    "name": "Unitary Development Plan Alteration No. 2",
+    "status": "adopted",
+    "year": "",
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22229/Adopted-Policies-Full-Document/pdf/Adopted_Policies_Full_Document.pdf?m=1582564313517",
+        "documentation-url": "https://www.sunderland.gov.uk/article/12754/Unitary-Development-Plan-Alteration-No-2",
+        "document-type": "local-plan",
+        "name": "Adopted Policies Full Document",
+        "reference": "UDP2-MAIN",
+        "document-status": "adopted",
+        "endpoint": "5a52bda684642418494b7603397fcfc55d4487917336bd3da2410de9c218c428"
+      }
+    ]
   }
 ]

@@ -2,41 +2,18 @@
   {
     "organisation": "local-authority:KTT",
     "organisation-name": "Royal Borough of Kingston upon Thames",
-    "reference": "LP-KTT-2024",
-    "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
-    "document-url": "",
-    "name": "Kingston Local Plan 2019-2041",
-    "status": "regulation-18",
-    "year": 2023,
-    "period-start-date": 2019,
-    "period-end-date": 2041,
-    "documents": [
-      {
-        "document-url": "https://www.kingston.gov.uk/sites/default/files/2025-04/RBK_Local_Development_Scheme__February_2025_.pdf",
-        "documentation-url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/local-development-scheme-2025-2027",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme February 2025",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "c427c81288da3a78965e10ca31fe44d50706d12cbe6f1fcafae281a08540e4e7"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:KTT",
-    "organisation-name": "Royal Borough of Kingston upon Thames",
     "reference": "LP-KTT-2012",
-    "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
+    "documentation-url": "https://www.kingston.gov.uk/localplan",
     "document-url": "https://www.kingston.gov.uk/sites/default/files/downloads/Core_Strategy.pdf",
-    "name": "Kingston Core Strategy 2012",
+    "name": "Kingston Core Strategy",
     "status": "adopted",
     "year": 2012,
     "period-start-date": "",
-    "period-end-date": 2027,
+    "period-end-date": "",
     "documents": [
       {
         "document-url": "https://www.kingston.gov.uk/sites/default/files/downloads/Core_Strategy.pdf",
-        "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
+        "documentation-url": "https://www.kingston.gov.uk/localplan",
         "document-type": "core-strategy",
         "name": "Core Strategy",
         "reference": "CS-2012",
@@ -48,27 +25,87 @@
   {
     "organisation": "local-authority:KTT",
     "organisation-name": "Royal Borough of Kingston upon Thames",
-    "reference": "LP-KTT-2008",
-    "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
-    "document-url": "",
-    "name": "Kingston Town Centre Area Action Plan 2008",
-    "status": "adopted",
-    "year": 2008,
-    "period-start-date": "",
-    "period-end-date": 2020,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:KTT",
-    "organisation-name": "Royal Borough of Kingston upon Thames",
-    "reference": "LP-KTT-2022",
-    "documentation-url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/adopted-south-london-waste-plan-2022-2037",
-    "document-url": "",
-    "name": "South London Waste Plan 2022-2037",
-    "status": "adopted",
-    "year": 2022,
-    "period-start-date": 2022,
-    "period-end-date": 2037,
-    "documents": []
+    "reference": "LP-KTT-2023",
+    "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+    "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/Kingstons_first_draft_Local_Plan.pdf",
+    "name": "Kingston First Draft Local Plan 2019-2041",
+    "status": "regulation-18",
+    "year": 2023,
+    "period-start-date": 2019,
+    "period-end-date": 2041,
+    "documents": [
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/Kingstons_first_draft_Local_Plan.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "local-plan",
+        "name": "First draft of the Local Plan",
+        "reference": "LP-2019-2041",
+        "document-status": "consultation",
+        "endpoint": "bb738a091c4eaddd424c1c1de51ac1e5645e46aa2dd22721670aef6990332087"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/Kingston_Local_Plan_Summary.FINAL.web.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "local-plan",
+        "name": "Summary of the first draft of the Local Plan",
+        "reference": "LP-SUMMARY-2023",
+        "document-status": "consultation",
+        "endpoint": "3608111e49268fdf28278c42a49b9dd76a3a0f30ccd5b27e41a4b937977882ca"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/4548%20Kingston%20Local%20Plan%20%20Summary%20of%20Comments%20A4.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "consultation-statement",
+        "name": "Summary of consultation comments on the first draft of the Local Plan",
+        "reference": "CS-2023",
+        "document-status": "consultation",
+        "endpoint": "a386a487e2247b3f7d72723cab1e7f05554dc488ae152b4c2085a346e93bd420"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/RBKT_Local_Plan_Interim_IIA_Report_Dec_Update_incl._App..pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Interim Integrated Impact Assessment Report December 2022 update",
+        "reference": "SA-2022",
+        "document-status": "consultation",
+        "endpoint": "07b238c198bf36a2b8a71e960f463d1031c57d9e50fd02a52f858ae135362a56"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/RBKT_Local_Plan_IIA_NTS_Dec_Update.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "sustainability-appraisal",
+        "name": "Interim Integrated Impact Assessment Report Non-Technical Summary December 2022 update",
+        "reference": "SA-NTS-2022",
+        "document-status": "consultation",
+        "endpoint": "b4145759e6f330e46adcd49e0aeb3822d8c364c95d2e53888e40571b4565c540"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/RBKUP_Local_Plan_Reg_18_HRSA.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Screening Assessment",
+        "reference": "HRA-2022",
+        "document-status": "consultation",
+        "endpoint": "0486ce6a9230d6a8276726758c84f2d98d528dbce321f81168b8b766e77fb4f1"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/RBK_IDP_DRAFT_1.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Draft Kingston Infrastructure Delivery Plan",
+        "reference": "IDP-2022",
+        "document-status": "draft",
+        "endpoint": "483cb844d3c8a1c652324e14680e5eb0eca5f34a08544f0378342e0efe75f118"
+      },
+      {
+        "document-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/supporting_documents/Statement_of_Consultation.Sept_2022.pdf",
+        "documentation-url": "https://www.kingstonletstalk.co.uk/planning/first-draft-local-plan/",
+        "document-type": "consultation-statement",
+        "name": "Statement of consultation September 2022",
+        "reference": "SOC-2022",
+        "document-status": "consultation",
+        "endpoint": "ce828ddfbcf18480edfe7bdde2c0f4f7093568602eab9fcadc3f77587872d4e6"
+      }
+    ]
   }
 ]

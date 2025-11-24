@@ -2,96 +2,168 @@
   {
     "organisation": "local-authority:CHA",
     "organisation-name": "Charnwood Borough Council",
-    "reference": "LP-CHA-2037",
+    "reference": "LP-CHA-2024",
     "documentation-url": "https://www.charnwood.gov.uk/localplan",
-    "document-url": "",
+    "document-url": "https://www.charnwood.gov.uk/files/documents/tracked_changes_version_charnwood_local_plan_2017_36/Tracked%20Changes%20Version%20Charnwood%20Local%20Plan%202021-37.pdf",
     "name": "Charnwood Local Plan 2021-37",
     "status": "examination",
-    "year": 2021,
+    "year": 2024,
     "period-start-date": 2021,
     "period-end-date": 2037,
     "documents": [
       {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/tracked_changes_version_charnwood_local_plan_2017_36/Tracked%20Changes%20Version%20Charnwood%20Local%20Plan%202021-37.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "Tracked Changes Version Charnwood Local Plan 2021-37",
+        "reference": "LP-2021-2037",
+        "document-status": "examination",
+        "endpoint": "107d0f806a5df9c5ed3dbe4a85dfe1e13fa8ff7cd4dc67708addb1edbbdb35d4"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_81_schedule_of_main_modifications/EXAM%2081%20Schedule%20of%20Main%20Modifications.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "main-modifications",
+        "name": "EXAM 81: Schedule of Main Modifications",
+        "reference": "MM-2024",
+        "document-status": "consultation",
+        "endpoint": "e122b38b7f2328c274f1b9c7c8b1d1cb059d246a951a8968b208d3ffad57beb5"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_82_schedule_of_proposed_main_modifications_to_local_plan_diagrams/02%20EXAM%2082%20Schedule%20of%20Proposed%20Main%20Modifications%20to%20Local%20Plan%20Diagrams%2010.07.24.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "main-modifications",
+        "name": "EXAM 82: Schedule of Proposed Main Modifications to Local Plan Diagrams",
+        "reference": "MM-DIAGRAMS-2024",
+        "document-status": "consultation",
+        "endpoint": "aa832bcd324cf34fd5e0610979987187905c3240db9acbaa4fe211d7757258aa"
+      },
+      {
         "document-url": "https://www.charnwood.gov.uk/files/documents/exam_98_schedule_of_further_main_modifications_chp9_infrastructure_delivery_290525/EXAM%2098%20Schedule%20of%20Further%20Main%20Modifications%20%28Chp9%20Infrastructure%20%20Delivery%29%20-%20290525.pdf",
         "documentation-url": "https://www.charnwood.gov.uk/localplan",
         "document-type": "main-modifications",
-        "name": "Schedule of Further Main Modifications (CHP9 Infrastructure Delivery)",
-        "reference": "MM-2025",
-        "document-status": "examination",
+        "name": "EXAM 98 - Schedule of Further Main Modifications (CHP9 Infrastructure Delivery)",
+        "reference": "MM-INF-2025",
+        "document-status": "consultation",
         "endpoint": "84c8c4fefde7b8169fe5cb873a69dbf66b45115cc299ed3ef57adee087d76f5f"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_83_a_sustainability_appraisal_report_addendum_2024/EXAM%2083A%20Sustainability%20Appraisal%20Report%20Addendum%202024.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "sustainability-appraisal",
+        "name": "EXAM 83A: Sustainability Appraisal Report Addendum 2024",
+        "reference": "SA-2024",
+        "document-status": "consultation",
+        "endpoint": "41b4e838c560b8ce637577ce3a1b1ae6b3b9e346817cdfb19d7cbcd8fdbc7ab5"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_83_b_sustainability_appraisal_addendum_appendix/EXAM%2083B%20Sustainability%20Appraisal%20Addendum%20Appendix.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "sustainability-appraisal",
+        "name": "EXAM 83B: Sustainability Appraisal Addendum Appendix",
+        "reference": "SA-APPENDIX-2024",
+        "document-status": "consultation",
+        "endpoint": "fa0671433347cb5876e3a4ce13b2709326e146fa5844ab6bc1262bb9f0ca5077"
       },
       {
         "document-url": "https://www.charnwood.gov.uk/files/documents/exam_99_sustainability_appraisal_addendum_update_note_june_20251/EXAM%2099%20Sustainability%20Appraisal%20Addendum%20Update%20Note%20June%202025.pdf",
         "documentation-url": "https://www.charnwood.gov.uk/localplan",
         "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Addendum Update Note June 2025",
-        "reference": "SA-2025",
-        "document-status": "examination",
+        "name": "Exam 99 Sustainability Appraisal Addendum Update Note June 2025",
+        "reference": "SA-UPDATE-2025",
+        "document-status": "consultation",
         "endpoint": "a933d4e5b7cec978791a728d87e15881c81fe6e97793d4c839734457af439cfd"
       },
       {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/tracked_changes_version_chp_9_infrastructure_inf1_inf2_and_supporting_text/Tracked%20Changes%20Version%20Chp%209%20Infrastructure%20-%20INF1%2C%20INF2%20%26%20Supporting%20Text.pdf",
-        "documentation-url": "https://www.charnwood.gov.uk/localplan",
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_58_j_housing_trajectory_update_20241/EXAM%2058J%20Housing%20Trajectory%20Update%202024.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
         "document-type": "local-plan",
-        "name": "Tracked Changes Version Chp 9 Infrastructure - INF1, INF2 & Supporting Text",
-        "reference": "LP-2021-TC",
-        "document-status": "examination",
-        "endpoint": "43e830ea85a0b4f79debae938b6301d7460eac77a664e346ee569f41b41e36df"
+        "name": "EXAM 58J: Housing Trajectory Update 2024",
+        "reference": "HT-2024",
+        "document-status": "consultation",
+        "endpoint": "324e6cbb1fffcd0656b88ad234c6bd0333253c13d829c0078843483914e60cca"
       },
       {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/policies_map_1_charnwood_local_plan/Policies%20Map%201%20-%20Charnwood%20Local%20Plan.pdf",
-        "documentation-url": "https://www.charnwood.gov.uk/pages/localplanmaps",
-        "document-type": "policies-map",
-        "name": "Policies Map 1 - Charnwood Local Plan",
-        "reference": "PM-1-2021",
-        "document-status": "examination",
-        "endpoint": "2f7ff684a3073d0e0a2769f1cf12eeeb332db69fe69e5721c0091c92a05d68a7"
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_58_k_housing_trajectory_update_notes_may_2024/EXAM%2058K%20Housing%20Trajectory%20Update%20Notes%20May%202024.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "EXAM 58K: Housing Trajectory Update Notes July 2024",
+        "reference": "HTN-2024",
+        "document-status": "consultation",
+        "endpoint": "c0f6ac755c48aa2e089c6fd026e08ae229783bfff36f9a0d05690e24f59bbd44"
       },
       {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/policies_map_2_charnwood_local_plan/Policies%20Map%202%20-%20Charnwood%20Local%20Plan.pdf",
-        "documentation-url": "https://www.charnwood.gov.uk/pages/localplanmaps",
-        "document-type": "policies-map",
-        "name": "Policies Map 2 - Charnwood Local Plan",
-        "reference": "PM-2-2021",
-        "document-status": "examination",
-        "endpoint": "63758fe5e30401d8482f42fdd162f7f30cdd483ec21f09ea3ae81af69b0c3b25"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:CHA",
-    "organisation-name": "Charnwood Borough Council",
-    "reference": "LP-CHA-2015",
-    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-    "document-url": "",
-    "name": "Charnwood Local Plan 2011 to 2028 Core Strategy",
-    "status": "adopted",
-    "year": 2015,
-    "period-start-date": 2011,
-    "period-end-date": 2028,
-    "documents": [
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_58_l_an_update_to_five_year_supply_on_adoption_may_20241/EXAM%2058L%20An%20update%20to%20five%20year%20supply%20on%20adoption%20May%202024.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "EXAM 58L: An Update to Five Year Supply on Adoption May 2024",
+        "reference": "FYS-2024",
+        "document-status": "consultation",
+        "endpoint": "55f58671fa0535bc38c78211614e72422fb0d529b0deaf17e72cb29cd56b9f37"
+      },
       {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/local_plan_review_n_november_2020/Local%20Plan%20Review%20Final.pdf",
-        "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Review – November 2020",
-        "reference": "LPR-2020",
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_58_m_updated_housing_land_supply_site_list_april_20241/EXAM%2058M%20Updated%20Housing%20Land%20Supply%20Site%20List%20April%202024.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "EXAM 58M: Updated Housing Land Supply Site List April 2024",
+        "reference": "HLSSL-2024",
+        "document-status": "consultation",
+        "endpoint": "38e76bed16277047a28c2d6e613f45e1d2622681812e6717e4401c397bb03037"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/exam_84_schedule_of_proposed_changes_to_policies_maps_1_and_2/05%20EXAM%2084%20Schedule%20of%20Proposed%20Changes%20to%20Policies%20Maps%201%20and%202%209.7.24.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "policies-map",
+        "name": "EXAM 84: Schedule of Proposed Changes to Policies Maps 1 and 2",
+        "reference": "PM-2024",
+        "document-status": "consultation",
+        "endpoint": "d564c5a02b1e71e33d0896e0dfff9d72169f0efb919a2f73615578a918baf312"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/sd_13_regulation_22_statement_of_consultation/SD-13%20Regulation%2022%20Statement%20of%20Consultation.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/charnwood_local_plan_2021_37_faqs",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation",
+        "reference": "SOC-2021",
+        "document-status": "examination",
+        "endpoint": "9ac8c1646373e2b90470a0710548b3b7a74a96fa83d4ea579776484c2cca5de4"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/charnwood_statement_of_community_involvement_january_2021/Charnwood%20Statement%20of%20Community%20Involvement%20-%20January%202021.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/charnwood_local_plan_2021_37_faqs",
+        "document-type": "statement-of-community-involvement",
+        "name": "Charnwood Statement of Community Involvement - January 2021",
+        "reference": "SCI-2021",
         "document-status": "adopted",
-        "endpoint": "8800b1322f33cbbd371fb39adca999bdc5fd7e326889abfb45531b15b046dfa6"
+        "endpoint": "0858852b39bf03cf01ce1807feb8f94f7327696614a6485a0b30bd1e8fb82e42"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/sd_14_statement_of_community_involvement_2021/SD-14%20Statement%20of%20Community%20Involvement%202021.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of Community Involvement",
+        "reference": "SCI-2021-2",
+        "document-status": "adopted",
+        "endpoint": "05a466681e567728d37bc8372a631ae0e1cd9a74ae680c1f339cc730f20d117a"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/representation_form_local_plan_modifications/10%20Representation%20Form%20Local%20Plan%20Modifications.docx",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "Representations Form",
+        "reference": "RF-2024",
+        "document-status": "consultation",
+        "endpoint": "45d80d45765724ecc0556bd20bd1f867704c2e7b4e348032ca0c838e9fb5068c"
+      },
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/comment_form_policies_map/11%20Comment%20Form%20Policies%20Map.docx",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/main_modifications_consultation_guidance_note",
+        "document-type": "local-plan",
+        "name": "Comments Form",
+        "reference": "CF-2024",
+        "document-status": "consultation",
+        "endpoint": "b9cfb153d05e5192eed866d57a5aba3b31c3466ca91500f75a4d4f74701abaf1"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:CHA",
-    "organisation-name": "Charnwood Borough Council",
-    "reference": "LP-CHA-2004",
-    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-    "document-url": "",
-    "name": "Borough of Charnwood Local Plan (2004) saved policies",
-    "status": "adopted",
-    "year": 2004,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
   }
 ]

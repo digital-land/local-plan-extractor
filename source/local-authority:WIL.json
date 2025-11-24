@@ -2,6 +2,64 @@
   {
     "organisation": "local-authority:WIL",
     "organisation-name": "Wiltshire Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-WIL-2015",
+    "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
+    "document-url": "https://www.wiltshire.gov.uk/media/372/Wiltshire-Core-Strategy-adopted-2015/pdf/Wiltshire_Core_Strategy_2015.pdf?m=1735555642237",
+    "name": "Wiltshire Core Strategy",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": 2026,
+    "documents": [
+      {
+        "document-url": "https://www.wiltshire.gov.uk/media/372/Wiltshire-Core-Strategy-adopted-2015/pdf/Wiltshire_Core_Strategy_2015.pdf?m=1735555642237",
+        "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
+        "document-type": "core-strategy",
+        "name": "Wiltshire Core Strategy adopted 2015",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "b9930f113b146f33f8f450313fbb4b158e1d3da82b6f7685c2effd0b935e6393"
+      },
+      {
+        "document-url": "https://www.wiltshire.gov.uk/media/373/Statement-of-Adoption/pdf/statement-of-adoption.pdf?m=1574343259850",
+        "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
+        "document-type": "adoption-statement",
+        "name": "Statement of Adoption",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "aed0fc5589fc1b408940486dafd88d10cd9b4c44fafacfc75558a5ec2ed70aef"
+      },
+      {
+        "document-url": "https://www.wiltshire.gov.uk/media/374/Sustainability-Appraisal-incorporating-Strategic-Environmental-Assessment-Adoption-Statement/pdf/core-strategy-sea-adoption-statement-jan.pdf?m=1574343324047",
+        "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal (incorporating Strategic Environmental Assessment) Adoption Statement",
+        "reference": "SA-AS-2015",
+        "document-status": "adopted",
+        "endpoint": "a822913fd0decdede420fcd017f97608d18c90410355a1cebcb1c19566254393"
+      },
+      {
+        "document-url": "https://www.wiltshire.gov.uk/media/375/Inspectors-Report/pdf/wiltshire-core-strategy-inspectors-report.pdf?m=1729699933723",
+        "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
+        "document-type": "local-plan",
+        "name": "Inspectors Report",
+        "reference": "IR-2015",
+        "document-status": "adopted",
+        "endpoint": "3dbc877a624befc86eacb51ee40a580b426f0ae49f295ba7967e228ec429ec0c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WIL",
+    "organisation-name": "Wiltshire Council",
+    "reference": "LP-WIL-2024",
+    "documentation-url": "http://www.localplanservices.co.uk/wiltshirelpexamination",
+    "document-url": "",
+    "name": "Wiltshire Local Plan 2020-2038",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2020,
+    "period-end-date": 2038,
+    "documents": []
   }
 ]

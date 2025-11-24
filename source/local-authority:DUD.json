@@ -3,8 +3,8 @@
     "organisation": "local-authority:DUD",
     "organisation-name": "Dudley Metropolitan Borough Council",
     "reference": "LP-DUD-2025",
-    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/",
-    "document-url": "https://www.dudley.gov.uk/media/h4qnv1ug/dudley-local-plan-summary-document.pdf",
+    "documentation-url": "https://www.dudley.gov.uk/localplan",
+    "document-url": "https://www.dudley.gov.uk/media/1lkht3of/part-one-dudley-local-plan-regulation-19.pdf",
     "name": "Dudley Local Plan 2041",
     "status": "submitted",
     "year": 2025,
@@ -12,12 +12,84 @@
     "period-end-date": 2041,
     "documents": [
       {
+        "document-url": "https://www.dudley.gov.uk/media/1lkht3of/part-one-dudley-local-plan-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Dudley Local Plan - Regulation 19 - Part One",
+        "reference": "LP-PART1-2024",
+        "document-status": "consultation",
+        "endpoint": "85526814afb25d5460e1ba0c64c9001955d402f317be1a52d3d58048865e543a"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/1udnej41/part-two-dudley-local-plan-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Dudley Local Plan - Regulation 19 - Part Two",
+        "reference": "LP-PART2-2024",
+        "document-status": "consultation",
+        "endpoint": "3ad5949ffc68a678f7b1e076a3529ed3e0a1bbaf9bcf37a5725f4cdeb380b95c"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/xpxow2cu/regulation-19-publication-version-dudley-local-plan-errata-oct-24.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "local-plan-regulation-19",
+        "name": "Dudley Local Plan - Regulation 19 - Local Plan Errata October 2024",
+        "reference": "LP-ERRATA-2024",
+        "document-status": "consultation",
+        "endpoint": "37ae4e5eb331bddb09198991cada057a582d778f3763bb4524b324f58f6db6ed"
+      },
+      {
+        "document-url": "https://online.dudley.gov.uk/dudley%20local%20plan/Dudley-Policies-Map-Regulation-19-opt.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "policies-map",
+        "name": "Dudley Policies Map - Regulation 19",
+        "reference": "PM-2024",
+        "document-status": "consultation",
+        "endpoint": "7710722954d1547d1ff92ff7c4d2645c06de4c60f86c52019f24d0a4f726dfc6"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/2gdncmza/dudley-habitats-regulation-assessment-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Dudley Habitats Regulation Assessment - Regulation 19",
+        "reference": "HRA-2024",
+        "document-status": "consultation",
+        "endpoint": "e53b379af4ae392b5940e891abf3f9c61bf99802d621360f4c17a0a5129373b7"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/ltopa2ll/sustainability-appraisal-vol-1-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Volume 1 - Regulation 19",
+        "reference": "SA-VOL1-2024",
+        "document-status": "consultation",
+        "endpoint": "b69dc1f3c6b0a9ad9e892cbb9ecc3eb96ed125b0d5da961aef6d32a10eb7794b"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/yqimywwz/sustainability-appraisal-vol-2-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Volume 2 - Regulation 19",
+        "reference": "SA-VOL2-2024",
+        "document-status": "consultation",
+        "endpoint": "f4af94b6dcbd492a4958358ab786d3f6b5d1d4001f1f33ccf0720ff99559bff5"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/tsiaiocx/sustainability-appraisal-vol-3-regulation-19.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Volume 3 - Regulation 19",
+        "reference": "SA-VOL3-2024",
+        "document-status": "consultation",
+        "endpoint": "952776a59bbcb57513b8f4775af819550b5be2cd966c2754cd395a38017a8143"
+      },
+      {
         "document-url": "https://www.dudley.gov.uk/media/h4qnv1ug/dudley-local-plan-summary-document.pdf",
         "documentation-url": "https://www.dudley.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Dudley's Publication Local Plan summary document",
-        "reference": "LP-2041",
-        "document-status": "examination",
+        "reference": "LP-SUMMARY-2024",
+        "document-status": "consultation",
         "endpoint": "bf741bd9b8cdb554a140a6a622fe3f97742be74411bbad0d02ffbfbaae760bcf"
       },
       {
@@ -25,41 +97,86 @@
         "documentation-url": "https://www.dudley.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Dudley's Publication Local Plan FAQs",
-        "reference": "LP-FAQ-2025",
-        "document-status": "examination",
+        "reference": "LP-FAQs-2024",
+        "document-status": "consultation",
         "endpoint": "443bba567b5c6e18b541c99b7ae13aaca97e7a1b9ab243d21f1fd38137f2d1fa"
-      },
-      {
-        "document-url": "https://www.dudley.gov.uk/media/4n2p0cdd/local-development-scheme-report-november-2024.pdf",
-        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/local-development-scheme/",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme",
-        "reference": "LDS-2024",
-        "document-status": "adopted",
-        "endpoint": "543083b6649d2f401d4f34bafc06bd0d177d8cc1f1316b9aeee710843aa53f9d"
       }
     ]
   },
   {
     "organisation": "local-authority:DUD",
     "organisation-name": "Dudley Metropolitan Borough Council",
-    "reference": "LP-DUD-2005",
-    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/",
-    "document-url": "https://www.dudley.gov.uk/media/10327/udp-revocation-statement-3.pdf",
-    "name": "Dudley Unitary Development Plan",
-    "status": "withdrawn",
-    "year": 2005,
+    "reference": "LP-DUD-2023",
+    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+    "document-url": "https://www.dudley.gov.uk/media/gmjj2yer/draft-dudley-local-plan-part-one-october-2023-consultation.pdf",
+    "name": "Draft Dudley Local Plan",
+    "status": "regulation-18",
+    "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.dudley.gov.uk/media/10327/udp-revocation-statement-3.pdf",
-        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/",
+        "document-url": "https://www.dudley.gov.uk/media/gmjj2yer/draft-dudley-local-plan-part-one-october-2023-consultation.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
         "document-type": "local-plan",
-        "name": "Revocation of the Dudley Unitary Development Plan (2005)",
-        "reference": "UDP-REVOKE-2005",
-        "document-status": "withdrawn",
-        "endpoint": "69d09d696dcc21742492f30e67b73572d3e5eab5dc900a51e701db4ca632ef4d"
+        "name": "Draft Dudley Local Plan Part One",
+        "reference": "LP-DRAFT-PART1-2023",
+        "document-status": "consultation",
+        "endpoint": "2a86823d1b53506a9927927251e46df16ab641ce4a6122b3d1e0162c9a5f6048"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/m2maposr/draft-dudley-local-plan-part-two-october-2023-consultation.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "local-plan",
+        "name": "Draft Dudley Local Plan Part Two",
+        "reference": "LP-DRAFT-PART2-2023",
+        "document-status": "consultation",
+        "endpoint": "41eeb6ca1757515f2130a617124aa412ee9219ec7aa24389fee3f9001882fff8"
+      },
+      {
+        "document-url": "https://online.dudley.gov.uk/Dudley Local Plan/DLP Updated policies map.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "policies-map",
+        "name": "Dudley Local Plan policies map",
+        "reference": "PM-DRAFT-2023",
+        "document-status": "consultation",
+        "endpoint": "778297c39174340fe12a9a15171b2621e3394c5d9d4af3c9953b4cc1b1e5640a"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/m0anhbdi/dudley-local-plan-mapping-errata-201123.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "local-plan",
+        "name": "Dudley Local Plan mapping errata",
+        "reference": "LP-ERRATA-2023",
+        "document-status": "consultation",
+        "endpoint": "7b56bf6a938ab2f2222fd6f63bcfee730b4887981c9d7eb2a171c1773c6c3c6c"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/ngknbv3p/sustainability-assessment-sa-draft-dudley-local-plan-vol-1.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Assessment Vol 1",
+        "reference": "SA-DRAFT-VOL1-2023",
+        "document-status": "consultation",
+        "endpoint": "fe9d059e4049cc081a9be38d01521bdfb773dc2dc3d9518091b664713627a501"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/el3nfoqk/sustainability-assessment-sa-draft-dudley-local-plan-vol-2.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Assessment Vol 2",
+        "reference": "SA-DRAFT-VOL2-2023",
+        "document-status": "consultation",
+        "endpoint": "7e94609011b76d8590ff86e23a73a15e7caf3c68f3ee06dbe92dbf95ad9cfac5"
+      },
+      {
+        "document-url": "https://www.dudley.gov.uk/media/5r5lo3ty/habitats-regulation-appraisal-hra-draft-dudley-local-plan.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/publication-dudley-local-plan-regulation-19-consultation/dudleys-local-plan-consultation-documents/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulation",
+        "reference": "HRA-DRAFT-2023",
+        "document-status": "consultation",
+        "endpoint": "57c48cd91101a935609c408da96f923627db13adf402abdded064335d0c08fd3"
       }
     ]
   }
