@@ -1,0 +1,102 @@
+[
+  {
+    "organisation": "local-authority:NNO",
+    "organisation-name": "North Norfolk District Council",
+    "reference": "LP-NNO-2025",
+    "documentation-url": "https://www.north-norfolk.gov.uk/localplan",
+    "document-url": "https://www.north-norfolk.gov.uk/media/9377/north-norfolk-local-plan-proposed-submission-version-publication-stage-regulation-19-january-2022.pdf",
+    "name": "North Norfolk Local Plan",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/9377/north-norfolk-local-plan-proposed-submission-version-publication-stage-regulation-19-january-2022.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "North Norfolk Local Plan Proposed Submission Version Publication Stage Regulation 19",
+        "reference": "LP-REG19-2022",
+        "document-status": "examination",
+        "endpoint": "ba9156e0d9fe466b8d43ea62b10e4b205b05acd920109f889827e6285a25f79d"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/9690/formal-notice-of-examination-hearings-regulation-24.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Formal Notice of Examination Hearings Regulation 24",
+        "reference": "EH-2024",
+        "document-status": "examination",
+        "endpoint": "c7c9f09f4080d100e5b73224a4aaccbcfa509eeab38f0f7da14ef1834bb4014c"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/10905/eh006-n-resumed-hearings-inspectors-note-miqs-and-draft-programme-v1.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/localplan",
+        "document-type": "examination-hearing-statement",
+        "name": "Resumed Hearings Inspectors Note MIQs and Draft Programme",
+        "reference": "EH-2025",
+        "document-status": "examination",
+        "endpoint": "fc3e004bb1cb311a1dd4ac4a005442a1390ec67c0725a3c132900f79dbcbcbc5"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/10692/fc001-a-local-plan-further-consultation-online-version.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Local Plan Further Consultation",
+        "reference": "LP-FC-2025",
+        "document-status": "consultation",
+        "endpoint": "624113c67b530070280764d3efc61695b6cb7f471f3ef56d38076bbd0f1cf513"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NNO",
+    "organisation-name": "North Norfolk District Council",
+    "reference": "LP-NNO-2019",
+    "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-policy/local-plan-consultation-frequently-asked-questions/",
+    "document-url": "https://www.north-norfolk.gov.uk/media/5033/first-draft-local-plan-may-2019.pdf",
+    "name": "First Draft Local Plan",
+    "status": "regulation-18",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/5033/first-draft-local-plan-may-2019.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-policy/local-plan-consultation-frequently-asked-questions/",
+        "document-type": "local-plan",
+        "name": "First Draft Local Plan",
+        "reference": "LP-DRAFT-2019",
+        "document-status": "consultation",
+        "endpoint": "4157d178c1d0f3f780c1295e850ef346592fc04bcff178071d48e1d8a1930f24"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/5029/first-draft-local-plan-alternatives-considered.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-policy/local-plan-consultation-frequently-asked-questions/",
+        "document-type": "local-plan",
+        "name": "First Draft Local Plan Alternatives Considered",
+        "reference": "LP-ALT-2019",
+        "document-status": "consultation",
+        "endpoint": "905b3e8d949256888a32394998a89aa9fca1f3236609c781e77d9d5eba7dce98"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/5027/first-draft-local-plan-interim-consultation-statement.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-policy/local-plan-consultation-frequently-asked-questions/",
+        "document-type": "consultation-statement",
+        "name": "First Draft Local Plan Interim Consultation Statement",
+        "reference": "CS-2019",
+        "document-status": "consultation",
+        "endpoint": "b82157038bdaf8ddd38d270c9e606c761f3bd604495ce0e291149286e8b072fd"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/5023/4-infrastructure-position-statement.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-policy/local-plan-consultation-frequently-asked-questions/",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Infrastructure Position Statement",
+        "reference": "IPS-2019",
+        "document-status": "consultation",
+        "endpoint": "2e5e83c851d9e58449f2aa9b137c4502b9f5df86e96d49c500ac177e3fb13dc0"
+      }
+    ]
+  }
+]

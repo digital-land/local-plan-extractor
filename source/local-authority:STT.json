@@ -2,6 +2,87 @@
   {
     "organisation": "local-authority:STT",
     "organisation-name": "Stockton-on-Tees Borough Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "reference": "LP-STT-2019",
+    "documentation-url": "https://www.stockton.gov.uk/local-plan",
+    "document-url": "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
+    "name": "Stockton-on-Tees Local Plan 2019",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": "",
+    "period-end-date": 2032,
+    "documents": [
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan 2019",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "c7b5c01c52efd8d4498f633e63ca8e08fbe497867a9f1d114de5de5a4d4fb4df"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2514/Local-plan-map-insets/pdf/Local_plan_-_map_insets.pdf?m=1645444903380",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local plan - map insets",
+        "reference": "LP-MAP-INSETS",
+        "document-status": "adopted",
+        "endpoint": "1ee260d7fe89a5e7764b49c8f2b8f1293a20913537cb8473c18bdd34ecc56c99"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2515/Local-plan-map-policies/pdf/Local_plan_-_map_policies.pdf?m=1645444903687",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Local plan - map policies",
+        "reference": "LP-MAP-POLICIES",
+        "document-status": "adopted",
+        "endpoint": "5a2c204b63b62c6b2c42ed91836998d66709bbf9ed7c04573444bc8f65d39e1b"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2520/Local-plan-adoption-statement/pdf/Local_plan_adoption_statement.pdf?m=1645466006353",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local plan adoption statement",
+        "reference": "AS-2019",
+        "document-status": "adopted",
+        "endpoint": "158ec2a12c21befbd0841fd90a2cbf9ce936fc3dc659a9af89a8c4ee6667acc8"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2521/Local-plan-sustainability-appraisal-adoption-statement/pdf/Local_plan_sustainability_appaisal_adoption_statement.pdf?m=1646054554870",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local plan sustainability appraisal adoption statement",
+        "reference": "SA-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "4b8311e1470e8d2383ed5603ccaced0f4a257d4ac3a625db2f53537a0608aede"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2519/Report-on-the-Examination-of-the-Stockton-on-Tees-Local-Plan/pdf/Report_on_the_examination_of_the_Stockton-on-Tees_Local_Plan.pdf?m=1645460517767",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Report on the Examination of the Stockton-on-Tees Local Plan",
+        "reference": "IR-2019",
+        "document-status": "adopted",
+        "endpoint": "c2e02840231e7eba8ba8df40a749e31c2a478d14c678d3b56f32b4c012494701"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2580/Statement-of-community-involvement/pdf/statement-of-community-involvement-nov-16.pdf?m=1645725150457",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "statement-of-community-involvement",
+        "name": "Statement of community involvement",
+        "reference": "SCI-2016",
+        "document-status": "adopted",
+        "endpoint": "962fd174caeca93ca8339f930df4144febe145fc0f7662bddaa7dbe38cd9b3b3"
+      },
+      {
+        "document-url": "https://www.stockton.gov.uk/media/2522/Local-Development-Scheme-2016-to-2019/pdf/local-development-scheme-2016-2019.pdf?m=1645466071420",
+        "documentation-url": "https://www.stockton.gov.uk/local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme 2016 to 2019",
+        "reference": "LDS-2016-2019",
+        "document-status": "adopted",
+        "endpoint": "8fb6f08440d487498eeaffd5c272a016d6bd9d44bdb4daf28cdfad348f140f8c"
+      }
+    ]
   }
 ]

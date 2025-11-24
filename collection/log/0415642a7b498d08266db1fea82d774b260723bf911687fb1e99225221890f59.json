@@ -1,9 +1,9 @@
 {
   "resource": "1c0412cc6a432f39a10fd3e6dc5d86f1e031e994",
   "endpoint-url": "https://www.nottinghamcity.gov.uk/media/blqmbjvu/land-and-planning-policies-document-lapp-2020.pdf",
-  "entry-date": "2025-11-17T15:52:09Z",
+  "entry-date": "2025-11-20T15:07:29.454782Z",
   "status": "200",
-  "elapsed": "0.423",
+  "elapsed": "0.000",
   "content-type": "application/pdf",
   "bytes": "6623157"
 }

@@ -1,9 +1,9 @@
 {
   "resource": "f45b60298625c85a2c25146f41d48c8421e67460",
   "endpoint-url": "https://www.ashford.gov.uk/media/jw3nbvq1/adopted-ashford-local-plan-2030.pdf",
-  "entry-date": "2025-11-05T16:08:56Z",
+  "entry-date": "2025-11-20T15:05:14.314420Z",
   "status": "200",
-  "elapsed": "3.462",
+  "elapsed": "0.000",
   "content-type": "application/pdf",
   "bytes": "20850964"
 }

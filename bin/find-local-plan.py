@@ -357,6 +357,127 @@ class LocalPlanFinder:
         org_data = self.organisations.get(org_code)
         return org_data["website"] if org_data and org_data["website"] else None
 
+    def get_manually_configured_documents(self, org_code: str) -> Optional[List[Dict]]:
+        """Return manually configured local plan documents for councils protected by WAF/Incapsula.
+
+        These are councils where HTML scraping is blocked by security measures like Incapsula,
+        but documents are directly accessible via known URLs.
+
+        Args:
+            org_code: Organisation code (e.g., "local-authority:STH")
+
+        Returns:
+            List of configured documents, or None if not configured
+        """
+        # Manual configurations for councils protected by Incapsula/WAF
+        manual_configs = {
+            "local-authority:STH": [  # Southampton City Council - Incapsula protected
+                {
+                    "organisation": "local-authority:STH",
+                    "organisation-name": "Southampton City Council",
+                    "reference": "LP-STH-2015",
+                    "documentation-url": "https://www.southampton.gov.uk/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                    "document-url": "https://www.southampton.gov.uk/media/io4midh4/amended-core-strategy-inc-cspr-final-13-03-2015_tcm63-371354.pdf",
+                    "name": "Amended Core Strategy (including Core Strategy Partial Review)",
+                    "status": "adopted",
+                    "year": 2015,
+                    "period-start-date": 2011,
+                    "period-end-date": 2026,
+                    "documents": [
+                        {
+                            "document-url": "https://www.southampton.gov.uk/media/io4midh4/amended-core-strategy-inc-cspr-final-13-03-2015_tcm63-371354.pdf",
+                            "documentation-url": "https://www.southampton.gov.uk/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                            "document-type": "core-strategy",
+                            "name": "Amended Core Strategy",
+                            "reference": "CS-2015",
+                            "document-status": "adopted",
+                            "endpoint": "manual-config-sth-cs-2015"
+                        }
+                    ]
+                }
+            ]
+        }
+
+        if org_code in manual_configs:
+            print(f"Using manually configured documents for {org_code} (Incapsula-protected)", file=sys.stderr)
+            return manual_configs[org_code]
+
+        return None
+
+    def _call_claude_with_retry(self, prompt: str, max_retries: int = 5) -> dict:
+        """Call Claude API with automatic retry on 529 (overloaded) errors.
+
+        Args:
+            prompt: The prompt to send to Claude
+            max_retries: Maximum number of retry attempts (default: 5)
+
+        Returns:
+            The API response message object
+
+        Raises:
+            Exception: If all retries fail
+        """
+        import time
+
+        print(f"[DEBUG] _call_claude_with_retry called, max_retries={max_retries}", file=sys.stderr)
+        sys.stderr.flush()
+
+        for attempt in range(max_retries):
+            print(f"[DEBUG] Attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+            sys.stderr.flush()
+            try:
+                print(f"[DEBUG] About to call client.messages.create", file=sys.stderr)
+                sys.stderr.flush()
+                message = self.client.messages.create(
+                    model="claude-sonnet-4-20250514",
+                    max_tokens=4096,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                print(f"[DEBUG] API call succeeded, returning message", file=sys.stderr)
+                sys.stderr.flush()
+                return message
+
+            except Exception as e:
+                # Debug: log exception type and message
+                error_str = str(e)
+                error_type = type(e).__name__
+                print(f"[DEBUG] Exception type: {error_type}, message: {error_str[:200]}", file=sys.stderr)
+
+                # Check if it's a 529 overloaded error
+                is_429_or_529 = False
+                is_overloaded = False
+                status_code = None
+
+                # Try to get status code if it's an APIStatusError
+                if hasattr(e, 'status_code'):
+                    status_code = e.status_code
+                    is_429_or_529 = status_code in (429, 529)
+                    print(f"[DEBUG] Status code found: {status_code}", file=sys.stderr)
+
+                # Check error message
+                error_msg_lower = error_str.lower()
+                is_overloaded = "overloaded" in error_msg_lower or "rate" in error_msg_lower or "429" in error_str or "529" in error_str
+
+                if is_429_or_529 or is_overloaded:
+                    if attempt < max_retries - 1:
+                        # Calculate exponential backoff: (2^attempt) * 5 seconds (5s, 10s, 20s, 40s, 80s)
+                        wait_time = (2 ** attempt) * 5
+                        status_info = f" (status {status_code})" if status_code else ""
+                        print(
+                            f"API overloaded{status_info}. Retrying in {wait_time}s... (attempt {attempt + 1}/{max_retries})",
+                            file=sys.stderr,
+                        )
+                        time.sleep(wait_time)
+                        continue
+                    else:
+                        # Final attempt failed, raise the error
+                        print(f"[DEBUG] Max retries reached, raising exception", file=sys.stderr)
+                        raise
+                else:
+                    # Not a rate limit error, fail immediately
+                    print(f"[DEBUG] Not a rate limit error, failing immediately", file=sys.stderr)
+                    raise
+
     def construct_likely_urls(
         self, org_name: str, official_website: Optional[str] = None, org_code: Optional[str] = None
     ) -> List[Dict[str, str]]:
@@ -487,6 +608,13 @@ class LocalPlanFinder:
             "local-authority:BUN": [  # Burnley
                 "/planning/planning-policies/burnleys-local-plan/",
             ],
+            "local-authority:CHT": [ # Cheltenham
+                "/downloads/file/8169/cheltenham_plan"
+                "/download/downloads/id/8169/cheltenham_plan.pdf",
+            ],
+            "local-authority:CHR": [ # Cherwell
+                "/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+            ],
             "local-authority:CRW": [  # Crawley
                 "/planning/planning-policy/local-plan/about-local-plan",
             ],
@@ -511,6 +639,9 @@ class LocalPlanFinder:
             "local-authority:ECA": [  # East Cambridgeshire
                 "/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
             ],
+            "local-authority:EHE": [  # East Hertfordshire
+                "/planning-and-building/planning-policy/east-herts-district-plan-2018",
+            ],
             "local-authority:ELI": [  # East Lindsey
                 "/localplan2018",
             ],
@@ -520,6 +651,9 @@ class LocalPlanFinder:
             ],
             "local-authority:ERY": [  # East Riding of Yorkshire
                 "/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/",
+            ],
+            "local-authrity:FYL": [  # Fylde
+                "/resident/planning/planning-policy-local-plan/adopted-fylde-local-plan-to-2032-incorporating-partial-review/",
             ],
             "local-authority:GAT": [  # Gateshead
                 "/article/3001/Local-Plan",
@@ -539,6 +673,10 @@ class LocalPlanFinder:
                 "/Documents/planning/planning%20policy",
                 "/Documents/planning/planning policy",
             ],
+            "local-authority:HIN": [  # Hinckley and Bosworth
+                "/downloads/file/6356/final_adopted_strategic_growth_plan",
+                "/downloads/1004/planning_policy_and_the_local_plan",
+            ],
             "local-authority:HOR": [  # Horsham
                 "/planning/local-plan/read-the-current-local-plan",
             ],
@@ -557,11 +695,21 @@ class LocalPlanFinder:
             "local-authority:MDB": [  # Middlesbrough
                 "/planning-and-development/planning-policy/publication-local-plan/",
             ],
+            "local-authority:MDW": [  # Medway
+                "/tasks/planning-services/planning-policy/local-plan/",
+                "/tasks/planning-services/planning-policy/",
+            ],
             "local-authority:MIK": [  # Milton Keynes
                 "/planning-and-building/developingmk/planmk",
             ],
             "local-authority:NEC": [  # Newcastle-under-Lyme
                 "/planning-policy/current-development-plan",
+            ],
+            "local-authority:NNO": [  # North Norfolk
+                "/tasks/planning-services/planning-policy/local-plan-current/",
+                "/tasks/planning-services/planning-policy/local-plan-new/",
+                "/tasks/planning-services/planning-policy/",
+                "/tasks/planning-services/planning-policy/core-strategy/",
             ],
             "local-authority:NTY": [  # North Tyneside
                 "/residents/planning/planning-policy/local-plan",
@@ -588,14 +736,34 @@ class LocalPlanFinder:
             "local-authority:SND": [  # Sunderland
                 "/article/15978/Core-Strategy-and-Development-Plan",
             ],
+            "local-authority:STH": [ # Southampton
+                "/planning/planning-policy/adopted-plans/adopted-core-strategy-2015/",
+                "/planning/planning-policy/adopted-plans/",
+                "/planning/planning-policy/",
+                "/planning-policy/adopted-plans/",
+            ],
+            "local-authority:SWK": [ # Southwark
+                "/planning-environment-and-building-control/planning/planning-policy-and-guidance/southwark-plan-2022",
+            ],
             "local-authority:STY": [  # South Tyneside
                 "/article/3663/Local-Plan",
+            ],
+            "local-authority:STT": [  # Stockton-on-Tees
+                "/media/2518/Local-Plan-2019/pdf/Local_Plan_2019.pdf?m=1645450086087",
+            ],
+            "local-authority:SWD": [  # Swindon
+                "/downloads/file/3988/swindon_borough_local_plan_2026",
+                "/download/downloads/id/3988/swindon_borough_local_plan_2026.pdf",
             ],
             "local-authority:TAN": [  # Tandridge
                 "/Planning-and-building/Planning-strategies-and-policies/Adopted-development-plan",
             ],
             "local-authority:UTT": [  # Uttlesford
                 "/article/4878/Planning-Policy-and-the-Local-Plan",
+            ],
+            "local-authority:WAW": [  # Warwick
+                "/downloads/file/4623/new_local_plan",
+                "/download/downloads/id/4623/new_local_plan.pdf",
             ],
             "local-authority:WGN": [  # Wigan
                 "/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
@@ -1266,10 +1434,12 @@ class LocalPlanFinder:
             }
 
             # Try standard requests first
+            response = None
             try:
                 response = requests.get(
                     url, headers=headers, timeout=15, allow_redirects=True, verify=False
                 )
+                print(f"  HTTP {response.status_code}", file=sys.stderr)
                 response.raise_for_status()
             except requests.exceptions.HTTPError as e:
                 # If we get a 403 (Forbidden), it might be Cloudflare protection - try cloudscraper
@@ -1287,6 +1457,15 @@ class LocalPlanFinder:
                         return "", False
                 else:
                     raise
+
+            if not response:
+                print(f"  No response received", file=sys.stderr)
+                return "", False
+
+            # Check for Incapsula/WAF blocks
+            if "Incapsula incident ID" in response.text or "REQUEST_UNSUCCESSFUL" in response.text:
+                print(f"  Incapsula WAF blocking - cannot access this page", file=sys.stderr)
+                return "", False
 
             # Only process HTML content
             content_type = response.headers.get("content-type", "").lower()
@@ -1314,6 +1493,7 @@ class LocalPlanFinder:
             if len(text) > 100:  # Minimum viable content (lowered for SharePoint pages)
                 return text, True
             else:
+                print(f"  Content too short: {len(text)} chars", file=sys.stderr)
                 return "", False
 
         except requests.exceptions.Timeout:
@@ -1443,6 +1623,11 @@ class LocalPlanFinder:
                     break
 
         if not pages_content:
+            # Check if we have manually configured documents for this council (e.g., WAF-protected)
+            manual_docs = self.get_manually_configured_documents(org_code)
+            if manual_docs:
+                return manual_docs
+
             return [
                 {
                     "organisation": org_code,
@@ -1896,11 +2081,12 @@ OTHER FIELDS:
 Provide ONLY the JSON array response, no other text."""
 
         try:
-            message = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=4096,
-                messages=[{"role": "user", "content": prompt}],
-            )
+            # Call Claude with automatic retry on 529 errors
+            print(f"[DEBUG] About to call _call_claude_with_retry", file=sys.stderr)
+            sys.stderr.flush()
+            message = self._call_claude_with_retry(prompt)
+            print(f"[DEBUG] Successfully got response from Claude", file=sys.stderr)
+            sys.stderr.flush()
 
             # Extract the response text
             response_text = ""
@@ -2045,6 +2231,8 @@ Provide ONLY the JSON array response, no other text."""
                     ]
 
         except Exception as e:
+            print(f"[DEBUG] Caught exception in outer handler: {type(e).__name__}: {str(e)[:200]}", file=sys.stderr)
+            sys.stderr.flush()
             return [
                 {
                     "organisation": org_code,

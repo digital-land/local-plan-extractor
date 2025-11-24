@@ -2,6 +2,78 @@
   {
     "organisation": "local-authority:BUC",
     "organisation-name": "Buckinghamshire Council",
-    "error": "Expecting ',' delimiter: line 173 column 10 (char 10203)"
+    "reference": "LP-BUC-2025",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+    "document-url": "https://www.buckinghamshire.gov.uk/documents/38759/Part_A_Spatial_Strategy_Draft_Local_Plan_for_Buckinghamshire__4z9Ug3B.pdf",
+    "name": "Local Plan for Buckinghamshire",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": 2045,
+    "documents": [
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38759/Part_A_Spatial_Strategy_Draft_Local_Plan_for_Buckinghamshire__4z9Ug3B.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Part A Spatial Strategy",
+        "reference": "LP-A-2025",
+        "document-status": "consultation",
+        "endpoint": "f32c5c160b460bff85e22532e14bcbe7ec3e97d1266fab401e6f1993f3851eab"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38785/Part_B_Development_Management_Policies_Draft_Local_Plan_for_Buckinghamshire_00_nlb6XfF.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "development-management-policies",
+        "name": "Part B Development Management Policies",
+        "reference": "DMP-B-2025",
+        "document-status": "consultation",
+        "endpoint": "96ca1b6aa0df8cf212facaed99c26b96d57e857c545f33a1e12300ff29d65b26"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38776/Leaflet.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Summary leaflet",
+        "reference": "LP-SUMMARY-2025",
+        "document-status": "consultation",
+        "endpoint": "9898f49bf96ec26435a6b8ce001b3abec55d49e6b2b29efe285ca6938b68815b"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/17772/Statement_of_Consultation_-__29.09.2022_v1.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "consultation-statement",
+        "name": "Statement of Consultation",
+        "reference": "CS-2022",
+        "document-status": "adopted",
+        "endpoint": "e30ec110c08e9a5ea81bbdaa556e8f01e81e594d20fd3239579d3299155c5545"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/27504/Draft_vision_and_objectives_2_1.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "local-plan",
+        "name": "Draft vision and objectives",
+        "reference": "LP-VISION-2023",
+        "document-status": "consultation",
+        "endpoint": "352a8cd5b00d93c105b993167a83658f659656fc468edf8146ed69c31d475b65"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38755/Formatted_Current_Word_Version_for_the_Vision_and_Objectives_Engagement_-_1_ClOQWBI.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/local-plan",
+        "document-type": "consultation-statement",
+        "name": "Vision and objectives consultation statement",
+        "reference": "VOCS-2023",
+        "document-status": "adopted",
+        "endpoint": "ae3b9b049bcb826b3e4571932e262538ecd6b4e77fe525f53b760a1a9ee868a4"
+      },
+      {
+        "document-url": "https://www.buckinghamshire.gov.uk/documents/38798/FINAL_DRAFT_Buckinghamshire_HELAA_methodology.docx",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning/local-plans-evidence/housing-evidence/housing-and-economic-land-availability-assessment-helaa/",
+        "document-type": "strategic-housing-land-availability",
+        "name": "HELAA methodology",
+        "reference": "HELAA-METH-2025",
+        "document-status": "draft",
+        "endpoint": "7cf49e9f32c029393e7d6d6da35039b60342787b819711c1e34af2b11fd52b3a"
+      }
+    ]
   }
 ]

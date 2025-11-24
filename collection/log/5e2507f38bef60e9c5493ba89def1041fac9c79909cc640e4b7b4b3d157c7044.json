@@ -1,9 +1,9 @@
 {
-  "resource": "",
+  "resource": "e61bc213dabecb3431b93c6d6e0b8fe343f665d0",
   "endpoint-url": "https://www.gateshead.gov.uk/media/1972/Inspectors-Final-Report-2014/pdf/Inspectors-Final-Report.pdf?m=1531312873687",
-  "entry-date": "2025-11-18T12:20:31Z",
-  "status": "error",
-  "elapsed": "0.134",
-  "content-type": "",
-  "bytes": "0"
+  "entry-date": "2025-11-20T15:16:43.515444Z",
+  "status": "200",
+  "elapsed": "0.000",
+  "content-type": "application/pdf",
+  "bytes": "1228475"
 }

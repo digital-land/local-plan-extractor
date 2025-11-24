@@ -2,68 +2,50 @@
   {
     "organisation": "local-authority:CHR",
     "organisation-name": "Cherwell District Council",
-    "reference": "LP-CHR-2024",
-    "documentation-url": "https://www.cherwell.gov.uk/info/83/local-plans",
-    "document-url": "",
-    "name": "Cherwell Local Plan Review 2042 Proposed Submission",
-    "status": "regulation-19",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": 2042,
+    "reference": "LP-CHR-2015",
+    "documentation-url": "https://www.cherwell-dc.gov.uk/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/8144/final-adopted-local-plan-2011-2031-incorporating-re-adopted-policy-bicester-13.pdf",
+    "name": "Cherwell Local Plan 2011-2031 (Part 1)",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/16930/helaa_report__may_2025__part_1__corrected.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-land-availability",
-        "name": "HELAA Report - May 2025 (Part 1) Corrected",
-        "reference": "HELAA-2025",
-        "document-status": "consultation",
-        "endpoint": "484c03eb866f61861a6b8bbd36fa296cd5c5e99474ee7c1eb338ad20ece9640f"
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/8144/final-adopted-local-plan-2011-2031-incorporating-re-adopted-policy-bicester-13.pdf",
+        "documentation-url": "https://www.cherwell-dc.gov.uk/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+        "document-type": "local-plan-adopted",
+        "name": "Final adopted Local Plan 2011-2031 (incorporating re-adopted Policy Bicester 13)",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "63f69a3574cc4d30de15212d48ea93d3e48f1017a56e8637d713d3a21abb7be8"
       },
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/15831/helaa-report---november-2024-part-2.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-land-availability",
-        "name": "HELAA Report - November 2024 (Part 2)",
-        "reference": "HELAA-2024-P2",
-        "document-status": "consultation",
-        "endpoint": "f7a28d0bbe53ef369aa0cd703471dea30b8b36df87654f3f247f1e5373e2eeec"
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4425/appendix-8---infrastructure-delivery-plan.pdf",
+        "documentation-url": "https://www.cherwell-dc.gov.uk/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Appendix 8 - Infrastructure Delivery Plan",
+        "reference": "IDP-2015",
+        "document-status": "adopted",
+        "endpoint": "cd525a0e08485889268a8123d6a13170efb20c581b7e36f2add48f530c17e6f6"
       },
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/15832/helaa-report---november-2024-part-3.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-land-availability",
-        "name": "HELAA Report - November 2024 (Part 3)",
-        "reference": "HELAA-2024-P3",
-        "document-status": "consultation",
-        "endpoint": "126be99a98bc102db563f673cf5f9cd3b811b6057a058d7f734a0e3544738fae"
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4421/adoption-statement-july-2015.pdf",
+        "documentation-url": "https://www.cherwell-dc.gov.uk/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement (July 2015)",
+        "reference": "AS-2015",
+        "document-status": "adopted",
+        "endpoint": "cb051e7e972a9454ac6285918c5b02581548a827821b25c3b021fea3cd8b0118"
       },
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/15833/helaa-report---november-2024-part-4.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-land-availability",
-        "name": "HELAA Report - November 2024 (Part 4)",
-        "reference": "HELAA-2024-P4",
-        "document-status": "consultation",
-        "endpoint": "e619c02d219f0c5aaa159ac553ffedcd4addff00350b7bb4145c451f0a435bae"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/15834/helaa-report---november-2024-part-5.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-land-availability",
-        "name": "HELAA Report - November 2024 (Part 5)",
-        "reference": "HELAA-2024-P5",
-        "document-status": "consultation",
-        "endpoint": "cc208be9a699229eaa1d9fb3c1dcd1da2c95cb18afabe0c24703e69b0e6832b9"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/15829/affordable-and-specialist-housing-needs-assessment-november-2024.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "strategic-housing-market-assessment",
-        "name": "Affordable and Specialist Housing Needs Assessment November 2024",
-        "reference": "ASHNA-2024",
-        "document-status": "consultation",
-        "endpoint": "b7e0406422c9dfb43e89aba1897249834a6fc8e9c291ae6b60a792e3e985c12d"
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4424/sea-adoption-statement-july-2015.pdf",
+        "documentation-url": "https://www.cherwell-dc.gov.uk/downloads/download/45/adopted-cherwell-local-plan-2011-2031-part-1-incorporating-policy-bicester-13-re-adopted-on-19-december-2016",
+        "document-type": "adoption-statement",
+        "name": "SEA Adoption Statement (July 2015)",
+        "reference": "SEA-AS-2015",
+        "document-status": "adopted",
+        "endpoint": "960dddf3e7b414dbed7590dfd7adc7162c3d8accce0746587ac8fd5ae495ca63"
       }
     ]
   },
@@ -71,8 +53,8 @@
     "organisation": "local-authority:CHR",
     "organisation-name": "Cherwell District Council",
     "reference": "LP-CHR-2020",
-    "documentation-url": "https://www.cherwell.gov.uk/info/83/local-plans",
-    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9831/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf",
+    "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
+    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/115/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf",
     "name": "Cherwell Local Plan 2011-2031 (Part 1) Partial Review - Oxford's Unmet Housing Need",
     "status": "adopted",
     "year": 2020,
@@ -80,49 +62,36 @@
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9831/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf",
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/115/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf",
         "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "local-plan",
-        "name": "Adopted Cherwell Local Plan 2011-2031 (Part 1) Partial Review web reduced",
-        "reference": "LP-2020-PR",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Cherwell Local Plan 2011-2031 (Part 1) Partial Review",
+        "reference": "LPR-2020",
         "document-status": "adopted",
-        "endpoint": "66432c9518d3602ea059d4c5d4bbaea35912cac2be39f1e82ddb33155e6037e8"
-      },
+        "endpoint": "5d4f33100e7e137c9cf2f6c1ccdbd5cae0186fd7254b66d977826cb4b011f2d6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHR",
+    "organisation-name": "Cherwell District Council",
+    "reference": "LP-CHR-2040",
+    "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
+    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9677/cherwell-local-plan-review-2040-final-web.pdf",
+    "name": "Cherwell Local Plan Review 2040",
+    "status": "regulation-18",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "documents": [
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9830/local-plan-adoption-statement-final.pdf",
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9677/cherwell-local-plan-review-2040-final-web.pdf",
         "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "adoption-statement",
-        "name": "Local Plan Adoption Statement final",
-        "reference": "AS-2020",
-        "document-status": "adopted",
-        "endpoint": "d897256a2401eaf0e7b815af4d4a0d3afe5ebf4a5c7436b09f3044b148eea5fc"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9829/sustainability-appraisal-adoption-statement.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Adoption Statement",
-        "reference": "SA-AS-2020",
-        "document-status": "adopted",
-        "endpoint": "5f55a6307ab556e4680ea06492777176748d3a864c4958ea879451e78018980a"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9828/habitat-regulations-assessment-stage-1-and-stage-2---aug-2018.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "habitats-regulations-assessment",
-        "name": "Habitat Regulations Assessment Stage 1 and Stage 2 - Aug 2018",
-        "reference": "HRA-2018",
-        "document-status": "adopted",
-        "endpoint": "ddb20449a472b24225b099fba50a2f324062226797be7be4ac65c9f3636e897b"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9259/pr107-hra-stage-1-and-stage-2-sep-addendum-2019-final-for-issue.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/33/planning-policy",
-        "document-type": "habitats-regulations-assessment",
-        "name": "PR107 HRA Stage 1 and Stage 2 Sep Addendum 2019 Final for issue",
-        "reference": "HRA-2019-ADD",
-        "document-status": "adopted",
-        "endpoint": "93021352145585770bad71209194e19b7de3f722155519d2dca3ad62d6d25bbe"
+        "document-type": "local-plan-regulation-18",
+        "name": "Cherwell Local Plan Review 2040",
+        "reference": "LP-2040",
+        "document-status": "consultation",
+        "endpoint": "134d33a72d92ff34d4f78ee9b6f59032e70fbc52f976b381de5ba703d442bbbd"
       }
     ]
   },
@@ -130,8 +99,8 @@
     "organisation": "local-authority:CHR",
     "organisation-name": "Cherwell District Council",
     "reference": "LP-CHR-1996",
-    "documentation-url": "https://www.cherwell.gov.uk/info/83/local-plans",
-    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4585/adopted-local-plan-1996-excluding-plans.pdf",
+    "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
+    "document-url": "https://www.cherwell.gov.uk/download/downloads/id/3794/adopted-local-plan-1996-excluding-plans.pdf",
     "name": "Cherwell Local Plan 1996",
     "status": "adopted",
     "year": 1996,
@@ -139,40 +108,13 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4585/adopted-local-plan-1996-excluding-plans.pdf",
+        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/3794/adopted-local-plan-1996-excluding-plans.pdf",
         "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "local-plan",
+        "document-type": "local-plan-adopted",
         "name": "Adopted Local Plan 1996 (Excluding Plans)",
         "reference": "LP-1996",
         "document-status": "adopted",
-        "endpoint": "dced47789994f63d5cc89cca3fe45970ceff9017030cc8ee8327675fa869ae56"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4586/proposals-maps---banbury-bicester-and-kidlington.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "policies-map",
-        "name": "Proposals Maps - Banbury, Bicester and Kidlington",
-        "reference": "PM-1996-A",
-        "document-status": "adopted",
-        "endpoint": "00cf7a8402839ec54e98584cc8d852b0ed21b9a426806885938e10af2a8b29fd"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4587/proposals-maps---bodicote-to-hornton.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "policies-map",
-        "name": "Proposals Maps - Bodicote to Hornton",
-        "reference": "PM-1996-B",
-        "document-status": "adopted",
-        "endpoint": "d871d8bf0d9c8b53bc08750e0cd9004938dd7d50c63cda2d4da9a668a429e98b"
-      },
-      {
-        "document-url": "https://www.cherwell.gov.uk/download/downloads/id/4588/proposals-maps---islip-to-weston-on-the-green.pdf",
-        "documentation-url": "https://www.cherwell.gov.uk/downloads/83/local-plans",
-        "document-type": "policies-map",
-        "name": "Proposals Maps - Islip to Weston on the Green",
-        "reference": "PM-1996-C",
-        "document-status": "adopted",
-        "endpoint": "a75de77931e222c4f4bbd07b311928f2538d3c2cba0c5d917772ddcc1c3ccbf8"
+        "endpoint": "87a1a5855b3cc7a6986df0fc3c2a55279b1bb102133a345ca4b26aa400cccd1a"
       }
     ]
   }
