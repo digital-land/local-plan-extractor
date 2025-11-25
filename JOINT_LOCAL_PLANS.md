@@ -128,6 +128,24 @@ Authorities:
 - Newcastle City Council (NEW)
 - Gateshead Council (GAT)
 
+### Places for Everyone (Greater Manchester Joint Development Plan)
+
+Website: https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/
+
+Authorities:
+
+- Bolton Council (BOL)
+- Bury Council (BUR)
+- Manchester City Council (MAN)
+- Oldham Council (OLD)
+- Rochdale Borough Council (RCH)
+- Salford City Council (SLF)
+- Tameside Metropolitan Borough Council (TAM)
+- Trafford Council (TRF)
+- Wigan Council (WGN)
+
+**Document**: [Places for Everyone Joint Development Plan (December 2024)](https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf)
+
 ## Adding New Joint Local Plans
 
 To add a new joint local plan mapping, edit `var/joint-local-plans.json`:

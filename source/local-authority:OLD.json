@@ -3,14 +3,51 @@
     "organisation": "local-authority:OLD",
     "organisation-name": "Oldham Metropolitan Borough Council",
     "reference": "LP-OLD-2024",
-    "documentation-url": "https://www.oldham.gov.uk/info/201231/emerging_planning_policy",
-    "document-url": "",
+    "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
     "name": "Places for Everyone Joint Development Plan",
     "status": "adopted",
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "local-plan",
+        "name": "Adopted Places for Everyone Joint Development Plan Document",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "74e5013b510819dde4f81bd70ea9d3e7e348ebcc7b588b3a6424f6ac201728cf"
+      },
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/9566/pfe-plan-ia-adoption-statement_issued.pdf",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "adoption-statement",
+        "name": "Places for Everyone Integrated Assessment Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "b2b925dd4884160d5ec444bb0b62c27b4f0ddf18c8b5036772b2f09aad474926"
+      },
+      {
+        "document-url": "https://www.hwa.uk.com/site/wp-content/uploads/2022/10/PfE-Revised-HRA-Nov-2022.pdf",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "habitats-regulations-assessment",
+        "name": "Habitats Regulations Assessment of the Places for Everyone Joint Development Plan",
+        "reference": "HRA-2022",
+        "document-status": "examination",
+        "endpoint": "cc52c61886140cf5c8862a76a13f40360cc0f279b792e733cf1f46ed6168c847"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "policies-map",
+        "name": "Places for Everyone Policies Map",
+        "reference": "PM-2024",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
   },
   {
     "organisation": "local-authority:OLD",
@@ -23,24 +60,14 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
-    "documents": [
-      {
-        "document-url": "https://www.oldham.gov.uk/downloads/file/6788/saved_udp_policies_document",
-        "documentation-url": "https://www.oldham.gov.uk/info/201229/current_local_planning_policy/2934/the_adopted_local_plan_in_oldham",
-        "document-type": "local-plan",
-        "name": "Saved UDP Policies",
-        "reference": "LP-SAVED-UDP",
-        "document-status": "adopted",
-        "endpoint": "2becc633e72e09ec7cd582a142bc44d6f40d015c105b4163dafc4d9c4dc354d0"
-      }
-    ]
+    "documents": []
   },
   {
     "organisation": "local-authority:OLD",
     "organisation-name": "Oldham Metropolitan Borough Council",
     "reference": "LP-OLD-2006",
     "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
-    "document-url": "https://www.oldham.gov.uk/downloads/file/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006",
+    "document-url": "https://www.oldham.gov.uk/download/downloads/id/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006.pdf",
     "name": "Oldham Metropolitan Borough Unitary Development Plan",
     "status": "adopted",
     "year": 2006,
@@ -48,31 +75,31 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.oldham.gov.uk/downloads/file/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006",
+        "document-url": "https://www.oldham.gov.uk/download/downloads/id/1419/council_report_%E2%80%93_oldham_unitary_development_plan_24_may_2006.pdf",
         "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
         "document-type": "local-plan",
-        "name": "Council Report – Oldham Unitary Development Plan (24 May 2006)",
-        "reference": "LP-UDP-2006",
+        "name": "Council Report – Oldham Unitary Development Plan",
+        "reference": "LP-2006-1",
         "document-status": "adopted",
-        "endpoint": "ff00b688e94c7e86b3e8462ac9e6ea02a4c993ba7bb5f5266f27a23f7b55560d"
+        "endpoint": "c6bfbbc735da0e51cc5946dd8495cb7c6f868d0b845e3759a646479e8f133385"
       },
       {
-        "document-url": "https://www.oldham.gov.uk/downloads/file/1420/notice_of_intention_to_adopt_a_unitary_development_plan_12_june_2006",
+        "document-url": "https://www.oldham.gov.uk/download/downloads/id/1420/notice_of_intention_to_adopt_a_unitary_development_plan_12_june_2006.pdf",
         "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
         "document-type": "local-plan",
-        "name": "Notice of Intention to Adopt a Unitary Development Plan (12 June 2006)",
-        "reference": "NOTICE-INT-2006",
+        "name": "Notice of Intention to Adopt a Unitary Development Plan",
+        "reference": "LP-2006-2",
         "document-status": "adopted",
-        "endpoint": "2d7e39c6894b5c41e183d6cea8ce3cc4e0cee76476e87e67da8aef59c723b77b"
+        "endpoint": "9a88c75d8484e9c3a54f64326a52613ce65ef5a45c5e07073cb13edf74940ee3"
       },
       {
-        "document-url": "https://www.oldham.gov.uk/downloads/file/1421/notice_of_adoption_14th_july_2006",
+        "document-url": "https://www.oldham.gov.uk/download/downloads/id/1421/notice_of_adoption_14th_july_2006.pdf",
         "documentation-url": "https://www.oldham.gov.uk/downloads/download/511/unitary_development_plan_archive_-_adoption",
         "document-type": "local-plan",
-        "name": "Notice of Adoption (14th July 2006)",
-        "reference": "NOTICE-ADOPT-2006",
+        "name": "Notice of Adoption",
+        "reference": "LP-2006-3",
         "document-status": "adopted",
-        "endpoint": "dccc2d27440f837321e4b20bae6ce322da9ce70bb132bb03824a14f7141cf7b4"
+        "endpoint": "f15a9fd65207a78e4895838e97d30dff2211c31fc424100fc8bcac56afb10723"
       }
     ]
   }

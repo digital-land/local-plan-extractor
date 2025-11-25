@@ -466,14 +466,10 @@
     "national-park-authority:Q72617669",
     "national-park-authority:Q72617784",
     "national-park-authority:Q72617890",
-    "national-park-authority:Q72617988"
+    "national-park-authority:Q72617988",
+    "local-authority:OLD"
   ],
   "failed": [
-    {
-      "org_code": "local-authority:OLD",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.oldham.gov.uk/downloads/file/6788/saved_udp_policies_document"
-    },
     {
       "org_code": "local-authority:PEN",
       "reason": "Not a PDF: text/html; charset=utf-8",
@@ -788,7 +784,8 @@
     "dc1a58a3cd63befa82e66cc71e01a5c2c7d2c8024f4c29b0d311250bc496bc02",
     "3dbc877a624befc86eacb51ee40a580b426f0ae49f295ba7967e228ec429ec0c",
     "ca40f516bedd990d9e4e055c6c20aed6b528f7563d29c203c4095ab3bb6c7f2a",
-    "8a36ea3e90abf184881f500caea0de71be4615761aae6edfd4084bf64e1c3769"
+    "8a36ea3e90abf184881f500caea0de71be4615761aae6edfd4084bf64e1c3769",
+    "74e5013b510819dde4f81bd70ea9d3e7e348ebcc7b588b3a6424f6ac201728cf"
   ],
-  "updated": "2025-11-24T16:07:35.973701+00:00"
+  "updated": "2025-11-25T12:07:59.660284+00:00"
 }

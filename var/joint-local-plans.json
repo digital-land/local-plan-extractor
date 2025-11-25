@@ -169,6 +169,159 @@
       "joint-plan-authorities": ["local-authority:NEC", "local-authority:STE"],
       "joint-plan-website": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
       "notes": "Shares local plan with Newcastle-under-Lyme"
+    },
+    "local-authority:BOL": {
+      "name": "Bolton Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:BUR": {
+      "name": "Bury Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:MAN": {
+      "name": "Manchester City Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:OLD": {
+      "name": "Oldham Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:RCH": {
+      "name": "Rochdale Borough Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:SLF": {
+      "name": "Salford City Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:TAM": {
+      "name": "Tameside Metropolitan Borough Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:TRF": {
+      "name": "Trafford Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
+    },
+    "local-authority:WGN": {
+      "name": "Wigan Council",
+      "joint-plan-name": "Places for Everyone (Greater Manchester Joint Development Plan)",
+      "joint-plan-authorities": [
+        "local-authority:BOL",
+        "local-authority:BUR",
+        "local-authority:MAN",
+        "local-authority:OLD",
+        "local-authority:RCH",
+        "local-authority:SLF",
+        "local-authority:TAM",
+        "local-authority:TRF",
+        "local-authority:WGN"
+      ],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares Places for Everyone joint local plan with other Greater Manchester authorities"
     }
   }
 }
