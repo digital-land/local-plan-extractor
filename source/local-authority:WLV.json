@@ -108,7 +108,7 @@
     "organisation-name": "City of Wolverhampton Council",
     "reference": "LP-WLV-2011",
     "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/black-country-core-strategy",
-    "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Black%20Country%20Core%20Strategy%20-%20Final%20Version.pdf",
+    "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2022-02/black-country-core-strategy-final-version.pdf",
     "name": "Black Country Core Strategy",
     "status": "adopted",
     "year": 2011,
@@ -116,13 +116,13 @@
     "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Black%20Country%20Core%20Strategy%20-%20Final%20Version.pdf",
+        "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2022-02/black-country-core-strategy-final-version.pdf",
         "documentation-url": "https://www.wolverhampton.gov.uk/planning/planning-policies/black-country-core-strategy",
-        "document-type": "core-strategy",
+        "document-type": "local-plan",
         "name": "Black Country Core Strategy - Final Version",
         "reference": "CS-2011",
         "document-status": "adopted",
-        "endpoint": "f74e14864ec702beea03829b302c1f1fa9c71fb073e9460933a44f052ec04683"
+        "endpoint": "ccc86a10e81facb8e245e17def91f6f084107d3974a1c5c965973b9fbaea619f"
       }
     ]
   },
