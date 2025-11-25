@@ -113,7 +113,7 @@ class DocumentDownloader:
             documents = plan_entry.get("documents", [])
             for doc in documents:
                 doc_type = doc.get("document-type", "")
-                if doc_type in ["local-plan-adopted", "local-plan"]:
+                if doc_type in ["local-plan-adopted", "local-plan", "core-strategy"]:
                     if doc.get("document-url"):
                         return (plan_entry, doc)
 

@@ -3,58 +3,67 @@
     "organisation": "local-authority:SEV",
     "organisation-name": "Sevenoaks District Council",
     "reference": "LP-SEV-2011",
-    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/adopted_local_plan",
-    "document-url": "",
-    "name": "Sevenoaks District Core Strategy",
+    "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+    "document-url": "https://www.sevenoaks.gov.uk/downloads/file/356/core_strategy_adopted_version_february_2011",
+    "name": "Core Strategy",
     "status": "adopted",
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
-        "documentation-url": "https://www.sevenoaks.gov.uk/downloads",
-        "document-type": "local-plan",
-        "name": "Local Plan - Questions and Answers",
-        "reference": "LP-QA-2025",
+        "document-url": "https://www.sevenoaks.gov.uk/download/downloads/id/356/core_strategy_adopted_version_february_2011.pdf",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/file/356/core_strategy_adopted_version_february_2011",
+        "document-type": "core-strategy",
+        "name": "Core Strategy Adopted Version February 2011",
+        "reference": "CS-2011",
         "document-status": "adopted",
-        "endpoint": "fbe73813c1b061b22d28c97a3b3ae65b6051493f0902cb31995641696a00aec0"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SEV",
-    "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-2014",
-    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/adopted_local_plan",
-    "document-url": "",
-    "name": "Sevenoaks District Allocations and Development Management Plan",
-    "status": "adopted",
-    "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:SEV",
-    "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-2025",
-    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069128/emerging_local_plan",
-    "document-url": "",
-    "name": "Emerging Sevenoaks District Local Plan",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": [
+        "endpoint": "858f734eed09a55ec7045fc38a2eada0633ee7195c6e380d87643c575aac7df6"
+      },
       {
-        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
-        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers",
-        "document-type": "local-plan",
-        "name": "Local Plan - Questions and Answers",
-        "reference": "LP-QA-2025",
-        "document-status": "consultation",
-        "endpoint": "fbe73813c1b061b22d28c97a3b3ae65b6051493f0902cb31995641696a00aec0"
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/357/core_strategy_inspectors_report",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+        "document-type": "inspectors-report",
+        "name": "Core Strategy Inspector's Report",
+        "reference": "IR-2011",
+        "document-status": "adopted",
+        "endpoint": "6ed55dc71517486d7ca7b45d24ead40846455c8a65478df34239d37a670ed941"
+      },
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/358/inspectors_report_-_appendix_a",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Appendix A",
+        "reference": "IR-2011-A",
+        "document-status": "adopted",
+        "endpoint": "e41c4ff70b58cd8a9eb3d837d9d3a2172115701f2a6082096299d733bf823f48"
+      },
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/359/inspectors_report_-_appendix_b",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Appendix B",
+        "reference": "IR-2011-B",
+        "document-status": "adopted",
+        "endpoint": "cbf93cfa532625b350681ccc5637cb3d448015e7cccbc9e4836d4db6a1a8fa70"
+      },
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/360/inspectors_report_-_appendix_d",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report - Appendix D",
+        "reference": "IR-2011-D",
+        "document-status": "adopted",
+        "endpoint": "ab73444196483c161cec737a038b4b8ad1fc3079fa1c8353c5ea39f48a79cb76"
+      },
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/downloads/file/361/strategic_housing_market_assessment_shma_september_2015",
+        "documentation-url": "https://www.sevenoaks.gov.uk/downloads/download/132/core_strategy",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment (SHMA September 2015)",
+        "reference": "SHMA-2015",
+        "document-status": "adopted",
+        "endpoint": "74f37771b31d16cddd4cbf62b6ff3e9fe0ca611e5bf245c00d33fdd609c5d482"
       }
     ]
   }

@@ -731,6 +731,10 @@ class LocalPlanFinder:
             "local-authority:RUS": [  # Rushcliffe
                 "/planning-growth/planning-policy/local-plan/",
             ],
+            "local-authority:SEV": [  # Sevenoaks
+                "/downloads/file/356/core_strategy_adopted_version_february_2011",
+                "/downloads/download/132/core_strategy",
+            ],
             "local-authority:SLG": [  # Slough
                 "/planning-policy/local-development-plan-slough",
             ],
