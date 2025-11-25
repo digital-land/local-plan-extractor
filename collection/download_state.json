@@ -468,25 +468,13 @@
     "national-park-authority:Q72617890",
     "national-park-authority:Q72617988",
     "local-authority:OLD",
-    "local-authority:PEN"
+    "local-authority:PEN",
+    "local-authority:SEV",
+    "local-authority:SEV",
+    "local-authority:WLV",
+    "local-authority:WLV"
   ],
-  "failed": [
-    {
-      "org_code": "local-authority:PEN",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.pendle.gov.uk/downloads/file/5528/this_is_the_letter_from_the_secretary_of_state_which_contains_the_direction_to_the_council_to_save_the_policies_in_the_local_plan"
-    },
-    {
-      "org_code": "local-authority:SEV",
-      "reason": "Not a PDF: text/html; charset=utf-8",
-      "url": "https://www.sevenoaks.gov.uk/downloads/file/4331/local_plan_-_questions_and_answers"
-    },
-    {
-      "org_code": "local-authority:WLV",
-      "reason": "HTTP error 404",
-      "url": "https://www.wolverhampton.gov.uk/sites/default/files/2019-02/Adopted%20Unitary%20Development%20Plan%20%28UDP%29%202006.pdf"
-    }
-  ],
+  "failed": [],
   "no_document": [
     "national-park-authority:Q72617988",
     "development-corporation:Q72463795",
@@ -787,7 +775,9 @@
     "ca40f516bedd990d9e4e055c6c20aed6b528f7563d29c203c4095ab3bb6c7f2a",
     "8a36ea3e90abf184881f500caea0de71be4615761aae6edfd4084bf64e1c3769",
     "74e5013b510819dde4f81bd70ea9d3e7e348ebcc7b588b3a6424f6ac201728cf",
-    "896683a0ae9a0cc0b29595a229744d83745314b04642e35892a48a14530fe892"
+    "896683a0ae9a0cc0b29595a229744d83745314b04642e35892a48a14530fe892",
+    "858f734eed09a55ec7045fc38a2eada0633ee7195c6e380d87643c575aac7df6",
+    "ccc86a10e81facb8e245e17def91f6f084107d3974a1c5c965973b9fbaea619f"
   ],
-  "updated": "2025-11-25T12:53:49.316821+00:00"
+  "updated": "2025-11-25T14:13:31.437816+00:00"
 }
