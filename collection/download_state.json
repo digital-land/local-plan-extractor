@@ -467,7 +467,8 @@
     "national-park-authority:Q72617784",
     "national-park-authority:Q72617890",
     "national-park-authority:Q72617988",
-    "local-authority:OLD"
+    "local-authority:OLD",
+    "local-authority:PEN"
   ],
   "failed": [
     {
@@ -785,7 +786,8 @@
     "3dbc877a624befc86eacb51ee40a580b426f0ae49f295ba7967e228ec429ec0c",
     "ca40f516bedd990d9e4e055c6c20aed6b528f7563d29c203c4095ab3bb6c7f2a",
     "8a36ea3e90abf184881f500caea0de71be4615761aae6edfd4084bf64e1c3769",
-    "74e5013b510819dde4f81bd70ea9d3e7e348ebcc7b588b3a6424f6ac201728cf"
+    "74e5013b510819dde4f81bd70ea9d3e7e348ebcc7b588b3a6424f6ac201728cf",
+    "896683a0ae9a0cc0b29595a229744d83745314b04642e35892a48a14530fe892"
   ],
-  "updated": "2025-11-25T12:07:59.660284+00:00"
+  "updated": "2025-11-25T12:53:49.316821+00:00"
 }

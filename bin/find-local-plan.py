@@ -719,6 +719,7 @@ class LocalPlanFinder:
             ],
             "local-authority:PEN": [  # Pendle
                 "/info/20072/planning_policies/273/local_plan",
+                "/downloads/file/8723/pendle_local_plan_part_1_core_strategy",
             ],
             "local-authority:POR": [  # Portsmouth
                 "/services/development-and-planning/planning-policy/portsmouth-local-plan/",
