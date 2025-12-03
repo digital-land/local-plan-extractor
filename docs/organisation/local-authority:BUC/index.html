@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Buckinghamshire Council - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Buckinghamshire Council
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Buckinghamshire Council</h1>
+
+    <p class="govuk-body-l">
+      <code>local-authority:BUC</code>
+    </p>
+
+    <p class="govuk-body">
+      This organisation is associated with 11 local plans.
+    </p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header">Organisation name</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/2454690f0052ace7f6e79cb14fc9b019ea872d1091efc191c01fff24c95f0f0d.html" class="govuk-link">
+              Buckinghamshire Local Plan SA Interim SA Report
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2024 - 2045
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/56e02cf6b532ee4cb51bbc8354099fbf4a91860a0c370ee978c5dca36e800bd6.html" class="govuk-link">
+              Buckinghamshire Employment and Retail Evidence : Part B Retail Evidence Study - Volume 1 - Main Report
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/612feee4c8d17a8bfe64f545480d01bf848352c2f90d51ab359fd594224d9b3d.html" class="govuk-link">
+              Buckinghamshire Council GTAA Report
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2025 - 2045
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/7df48164254fd21b24485b72cf1ce18d2372d405c0ae25c0cf45d65714a126ce.html" class="govuk-link">
+              Local Plan for Buckinghamshire
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/96ca1b6aa0df8cf212facaed99c26b96d57e857c545f33a1e12300ff29d65b26.html" class="govuk-link">
+              Buckinghamshire Local Plan (Draft for Consultation)
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/9898f49bf96ec26435a6b8ce001b3abec55d49e6b2b29efe285ca6938b68815b.html" class="govuk-link">
+              Buckinghamshire Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/a71e1e60100ff30e160e0b608c430d0324a66bbe14938f7859377cf7bd19fafb.html" class="govuk-link">
+              Local Plan for Buckinghamshire
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/c74c549fdfd3fd65c12cc18cc839be2b00ebfc64084f8a7be8d77a48bf64e043.html" class="govuk-link">
+              Buckinghamshire Employment and Retail Evidence: Part A Employment Evidence Study - Volume 1 - Main Report
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2024 - 2045
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/d054a287afe59db4badc65ccd67a747530aab0945b86dbfc0fa88623e43a2865.html" class="govuk-link">
+              A transport evidence fit for purpose (Transport Evidence Report for Local Plan for Buckinghamshire)
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/d47e25927b46fabe3f3828dabb0a9d3f5b5b3e2bfb11b7c2f20634c885d7d25e.html" class="govuk-link">
+              draft Local Plan for Buckinghamshire (2045)
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              Not specified
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/f32c5c160b460bff85e22532e14bcbe7ec3e97d1266fab401e6f1993f3851eab.html" class="govuk-link">
+              Draft Local Plan for Buckinghamshire
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2025 - 2045
+            
+          </td>
+          <td class="govuk-table__cell">
+            Buckinghamshire Council
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+</body>
+</html>

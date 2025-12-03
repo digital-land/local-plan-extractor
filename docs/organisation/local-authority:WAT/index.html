@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Watford Borough Council - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Watford Borough Council
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-xl">Watford Borough Council</h1>
+
+    <p class="govuk-body-l">
+      <code>local-authority:WAT</code>
+    </p>
+
+    <p class="govuk-body">
+      This organisation is associated with 9 local plans.
+    </p>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+
+    <table class="govuk-table">
+      <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+          <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header">Organisation name</th>
+        </tr>
+      </thead>
+      <tbody class="govuk-table__body">
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/2fec45008d696efaae0d519ce5854a3f3ec2a7f6d1dbedb4038a9c23d45b9661.html" class="govuk-link">
+              Watford Local Plan 2018-2036
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/63a03de65cec839ea05c634f984fbb04820a4c6d746b3dc1c102590487f25094.html" class="govuk-link">
+              Watford Local Plan 2018-2036
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/7ae6209f8d5f5690bb87ff7efde9849f6d6ca4429a1a854dbbe8c8aeedac9da0.html" class="govuk-link">
+              Watford Local Plan 2021-2038
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/8a068826f9c9d7be1e74b9dd1a5bb9f0108eead7d548b6268766cf76238887a1.html" class="govuk-link">
+              Watford Local Plan 2021-2038
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/a8be251d6ea1d2e3e801708004e23746ae9d54b5244f858d038ff6deac75d035.html" class="govuk-link">
+              Watford Local Plan Proposed Modifications
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/c9ccdc158198652b138c7a6684599a81bdfab2f73d0994bd8bcf57cb97696816.html" class="govuk-link">
+              Watford Local Plan 2021-2037
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/cbed9a41b44ba5e07ea097d1ad266f8cb911dcd6bfce5abaea0b259d12cb2e69.html" class="govuk-link">
+              Watford Local Plan 2021-2038
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/ea62a77d23ddebada862feb06cb0fc126a404627c2ce983b2509e375a267474d.html" class="govuk-link">
+              Watford Local Plan
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+        <tr class="govuk-table__row">
+          <td class="govuk-table__cell">
+            <a href="../../local-plan/efc11cc082914eefc910e37df560a01a545b0f8e9856ceb5018fd51eb8f9d56b.html" class="govuk-link">
+              Watford Local Plan 2021-2038
+            </a>
+          </td>
+          <td class="govuk-table__cell">
+            
+              2021 - 2038
+            
+          </td>
+          <td class="govuk-table__cell">
+            Watford Borough Council
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+</body>
+</html>
