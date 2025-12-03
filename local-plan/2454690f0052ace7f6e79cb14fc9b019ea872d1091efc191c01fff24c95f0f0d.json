@@ -1,0 +1,29 @@
+{
+  "name": "Buckinghamshire Local Plan SA Interim SA Report",
+  "organisation-name": "Buckinghamshire Council",
+  "period-start-date": 2024,
+  "period-end-date": 2045,
+  "housing-numbers": [
+    {
+      "organisation-name": "Buckinghamshire Council",
+      "required-housing": 91000,
+      "allocated-housing": "54000-69000",
+      "windfall-housing": 7400,
+      "committed-housing": 22000,
+      "broad-locations-housing": "",
+      "annual-required-housing": 4332,
+      "pages": "5, 7, 11, 18",
+      "notes": "This is an interim SA report for consultation, not the final Local Plan. Housing requirement is based on standard method LHN of 4,332 dpa. Total direction of travel supply is 82,000-99,000 homes including commitments, allocations and windfall. Allocated housing figures are interim pending further work.",
+      "organisation": "local-authority:BUC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2454690f0052ace7f6e79cb14fc9b019ea872d1091efc191c01fff24c95f0f0d",
+  "pdf_file": "collection/document/2454690f0052ace7f6e79cb14fc9b019ea872d1091efc191c01fff24c95f0f0d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BUC",
+  "local-plan-boundary": "E60000331",
+  "local-planning-authorities": [
+    "E60000331"
+  ]
+}

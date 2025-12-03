@@ -1,0 +1,29 @@
+{
+  "name": "Kirklees Local Plan - Strategy and Policies",
+  "organisation-name": "Kirklees Council",
+  "period-start-date": 2013,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Kirklees Council",
+      "required-housing": 31140,
+      "allocated-housing": 19740,
+      "windfall-housing": 4500,
+      "committed-housing": 4671,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1730,
+      "pages": "59-61, 63",
+      "notes": "Housing requirement is minimum 31,140 homes over 18-year plan period (2013-31). Allocated housing is capacity from allocations minus completions to date. Committed housing represents sites with planning permission not proposed as allocations in Local Plan. Windfall allowance only applies to final 10 years (2021-31) at 450 per annum.",
+      "organisation": "local-authority:KIR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5a276c9bb4d665d0457a7ffb4f6ae73ea59910dce8106113007d8a35fafae343",
+  "pdf_file": "collection/document/5a276c9bb4d665d0457a7ffb4f6ae73ea59910dce8106113007d8a35fafae343.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KIR",
+  "local-plan-boundary": "E60000070",
+  "local-planning-authorities": [
+    "E60000070"
+  ]
+}

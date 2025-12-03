@@ -1,0 +1,29 @@
+{
+  "name": "Adopted Local Plan",
+  "organisation-name": "Barnsley Metropolitan Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Barnsley Metropolitan Borough Council",
+      "required-housing": 21546,
+      "allocated-housing": 14236,
+      "windfall-housing": 766,
+      "committed-housing": 6770,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1134,
+      "pages": "57, 58",
+      "notes": "Total supply includes 4295 dwellings from mixed use sites. Windfall comprises 200 dwellings in villages plus 566 across Borough. Committed housing refers to sites with planning permissions.",
+      "organisation": "local-authority:BNS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d80968415bbeaf7f03beddb75bab2481471e4d658b2bef4cbe00c0a78b1ef606",
+  "pdf_file": "collection/document/d80968415bbeaf7f03beddb75bab2481471e4d658b2bef4cbe00c0a78b1ef606.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BNS",
+  "local-plan-boundary": "E60000064",
+  "local-planning-authorities": [
+    "E60000064"
+  ]
+}

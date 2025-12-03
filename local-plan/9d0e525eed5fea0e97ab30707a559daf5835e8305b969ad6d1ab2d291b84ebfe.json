@@ -1,0 +1,25 @@
+{
+  "name": "Places and Policies Local Plan",
+  "organisation-name": "Folkestone & Hythe District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Folkestone & Hythe District Council",
+      "required-housing": 8750,
+      "allocated-housing": 1612,
+      "windfall-housing": 825,
+      "committed-housing": 4357,
+      "broad-locations-housing": "",
+      "annual-required-housing": 350,
+      "pages": "4, 5, 31, 32",
+      "notes": "Core Strategy requires minimum 350 dwellings per year to 2030/31 (8,750 total). Housing supply includes completions (3,191), under construction (629), permissions not started (3,728), plan allocations (1,612), and windfall allowance (825). Total projected supply is 9,985 dwellings.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "9d0e525eed5fea0e97ab30707a559daf5835e8305b969ad6d1ab2d291b84ebfe",
+  "pdf_file": "collection/document/9d0e525eed5fea0e97ab30707a559daf5835e8305b969ad6d1ab2d291b84ebfe.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

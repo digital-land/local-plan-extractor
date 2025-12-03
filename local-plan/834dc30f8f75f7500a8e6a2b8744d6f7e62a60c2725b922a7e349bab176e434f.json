@@ -1,0 +1,25 @@
+{
+  "name": "Newham Local Plan 2018",
+  "organisation-name": "Newham Council",
+  "period-start-date": 2018,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newham Council",
+      "required-housing": 43000,
+      "allocated-housing": 39172,
+      "windfall-housing": 1500,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2867,
+      "pages": "139-141, 143-144",
+      "notes": "Plan seeks to exceed 43,000 units. Allocated housing of 39,172 from Strategic and Non-Strategic sites shown in Table 9. Additional small sites estimation of 1,500+ units mentioned but not included in main table. Annual requirement calculated as 43,000/15 years = 2,867 per year.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "834dc30f8f75f7500a8e6a2b8744d6f7e62a60c2725b922a7e349bab176e434f",
+  "pdf_file": "collection/document/834dc30f8f75f7500a8e6a2b8744d6f7e62a60c2725b922a7e349bab176e434f.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

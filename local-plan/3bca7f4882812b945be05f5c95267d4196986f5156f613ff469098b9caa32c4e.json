@@ -1,0 +1,29 @@
+{
+  "name": "Rugby Borough Council Publication Draft Local Plan",
+  "organisation-name": "Rugby Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rugby Borough Council",
+      "required-housing": 12400,
+      "allocated-housing": 5182,
+      "windfall-housing": 645,
+      "committed-housing": 5636,
+      "broad-locations-housing": "",
+      "annual-required-housing": 620,
+      "pages": "17-18",
+      "notes": "Target includes 2,800 dwellings to meet Coventry's unmet need. Two-phase delivery: 2011-2017 at 540 dpa, 2017-2031 at 654 dpa. Total anticipated provision is 13,664 dwellings providing flexibility against the 12,400 target.",
+      "organisation": "local-authority:RUG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3bca7f4882812b945be05f5c95267d4196986f5156f613ff469098b9caa32c4e",
+  "pdf_file": "collection/document/3bca7f4882812b945be05f5c95267d4196986f5156f613ff469098b9caa32c4e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RUG",
+  "local-plan-boundary": "E60000127",
+  "local-planning-authorities": [
+    "E60000127"
+  ]
+}

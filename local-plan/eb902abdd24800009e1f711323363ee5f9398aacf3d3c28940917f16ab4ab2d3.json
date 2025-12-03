@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Site Allocations Development Plan Document",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": 52500,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2625,
+      "pages": "6, 10",
+      "notes": "This is an examination report rather than the plan itself. The 52,500 homes target is the minimum total for Cornwall set by the adopted Cornwall Local Plan Strategic Policies (LPSP). The CSADPD allocates sites for specific towns but individual housing numbers by source are not clearly disaggregated in this examination report.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "eb902abdd24800009e1f711323363ee5f9398aacf3d3c28940917f16ab4ab2d3",
+  "pdf_file": "collection/document/eb902abdd24800009e1f711323363ee5f9398aacf3d3c28940917f16ab4ab2d3.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

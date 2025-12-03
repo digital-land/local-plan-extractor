@@ -1,0 +1,29 @@
+{
+  "name": "Swindon Borough Local Plan 2026",
+  "organisation-name": "Swindon Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Swindon Borough Council",
+      "required-housing": 22000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1466,
+      "pages": "3, 6, 7, 8, 25",
+      "notes": "22,000 additional homes required for 2011-2026. Phased delivery: 1,150 dwellings p.a. 2011-2016, then 1,625 p.a. 2016-2026. Document includes detailed breakdown by strategic sites but individual housing supply components not clearly separated in tables.",
+      "organisation": "local-authority:SWD"
+    }
+  ],
+  "confidence": "high",
+  "authority": "69e9b943ab4477b480cb7d7900181c36c9fa6e8318a0a0027115d2d78bea8065",
+  "pdf_file": "collection/document/69e9b943ab4477b480cb7d7900181c36c9fa6e8318a0a0027115d2d78bea8065.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SWD",
+  "local-plan-boundary": "E60000297",
+  "local-planning-authorities": [
+    "E60000297"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Working Together on Major Planning Applications",
+  "organisation-name": "Fenland District Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Fenland District Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This document is a guidance note for processing major planning applications, not a local plan document. No housing numbers are provided.",
+      "organisation": "local-authority:FEN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b14fe6acf7a54ebcdaf591678a69559e4c33ce789d5b8468f3d935320218249f",
+  "pdf_file": "collection/document/b14fe6acf7a54ebcdaf591678a69559e4c33ce789d5b8468f3d935320218249f.pdf",
+  "pages_analysed": 6,
+  "organisation": "local-authority:FEN",
+  "local-plan-boundary": "E60000151",
+  "local-planning-authorities": [
+    "E60000151"
+  ]
+}

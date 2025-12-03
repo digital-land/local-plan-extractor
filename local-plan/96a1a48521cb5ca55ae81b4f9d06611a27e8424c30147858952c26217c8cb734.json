@@ -1,0 +1,29 @@
+{
+  "name": "Hull Local Plan 2016 to 2032",
+  "organisation-name": "Hull City Council",
+  "period-start-date": 2016,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Hull City Council",
+      "required-housing": 9920,
+      "allocated-housing": 11700,
+      "windfall-housing": 800,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 620,
+      "pages": "54-60",
+      "notes": "Housing requirement is minimum 9,920 net new homes over plan period (620 per year). Sites allocated to accommodate around 11,700 dwellings to provide flexibility and choice. Windfall allowance of 50 dwellings per year (800 over plan period). Total citywide housing supply including windfall is 12,502.",
+      "organisation": "local-authority:KHL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "96a1a48521cb5ca55ae81b4f9d06611a27e8424c30147858952c26217c8cb734",
+  "pdf_file": "collection/document/96a1a48521cb5ca55ae81b4f9d06611a27e8424c30147858952c26217c8cb734.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KHL",
+  "local-plan-boundary": "E60000053",
+  "local-planning-authorities": [
+    "E60000053"
+  ]
+}

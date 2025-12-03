@@ -1,0 +1,29 @@
+{
+  "name": "Fylde Local Plan to 2032 (incorporating Partial Review)",
+  "organisation-name": "Fylde Council",
+  "period-start-date": 2011,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Fylde Council",
+      "required-housing": 7275,
+      "allocated-housing": "",
+      "windfall-housing": 520,
+      "committed-housing": 6405,
+      "broad-locations-housing": "",
+      "annual-required-housing": 305,
+      "pages": "52, 116-119",
+      "notes": "Total requirement is 7275 for 2011-2032. Annual requirement is 415 for 2011-2019 and 305 for 2019-2032. Includes 380 dwellings from Wyre's unmet need (30 per annum 2019-2032). Windfall allowance is 40 homes per annum for years 10-21. 88% of requirement already has planning permission as at April 2019.",
+      "organisation": "local-authority:FYL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "290547f15280fbd6b2a8e13d5b4349374ef72cb938acdbe182a9e9092b06f15e",
+  "pdf_file": "collection/document/290547f15280fbd6b2a8e13d5b4349374ef72cb938acdbe182a9e9092b06f15e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:FYL",
+  "local-plan-boundary": "E60000037",
+  "local-planning-authorities": [
+    "E60000037"
+  ]
+}

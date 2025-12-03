@@ -12,14 +12,14 @@
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": 544,
-      "pages": "13, 14, 15, 16",
-      "notes": "Modified capacity-based requirement from original 8,620. Stepped trajectory: 475 dpa (2016-2021), then 567 dpa (2021-2036). Windfall allowance of 136 dpa from years 4-5 onwards. Housing need of 1,400 dpa cannot be fully met within city boundaries due to constraints.",
+      "pages": "13-16, 41-42",
+      "notes": "Capacity-based housing requirement modified from original 8,620 homes. Stepped trajectory: 475 dpa 2016/17-2020/21, then 567 dpa 2021/22-2035/36. Windfall allowance of 136 dpa from years 4-5 (136 x 20 years = 2,720). Document is inspectors' report so specific site allocations capacity not detailed here.",
       "organisation": "local-authority:OXO"
     }
   ],
   "confidence": "high",
   "authority": "d37072014d3472ab84b83a512908c65e7cc9099662412adc254f9ab10ff5632f",
-  "pdf_file": "collection/endpoint/d37072014d3472ab84b83a512908c65e7cc9099662412adc254f9ab10ff5632f.pdf",
+  "pdf_file": "collection/document/d37072014d3472ab84b83a512908c65e7cc9099662412adc254f9ab10ff5632f.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:OXO",
   "local-plan-boundary": "E60000266",

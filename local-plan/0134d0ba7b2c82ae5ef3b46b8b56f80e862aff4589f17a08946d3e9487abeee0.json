@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Site Allocations Development Plan Document",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "1",
+      "notes": "This is an adoption statement only - housing numbers are not included in this procedural document. The actual plan content would be needed to extract housing figures.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "0134d0ba7b2c82ae5ef3b46b8b56f80e862aff4589f17a08946d3e9487abeee0",
+  "pdf_file": "collection/document/0134d0ba7b2c82ae5ef3b46b8b56f80e862aff4589f17a08946d3e9487abeee0.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

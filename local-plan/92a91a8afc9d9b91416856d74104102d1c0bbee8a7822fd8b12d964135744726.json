@@ -1,0 +1,29 @@
+{
+  "name": "Tameside Housing Strategy 2021-2026",
+  "organisation-name": "Tameside Council",
+  "period-start-date": 2021,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tameside Council",
+      "required-housing": 8850,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 2150,
+      "annual-required-housing": 466,
+      "pages": "9, 11",
+      "notes": "Target of 8,850 homes for 2018-2037 period from former Draft GMSF, with 466 per year average (370 per year 2018-2023, then 500 per year 2024-2037). Godley Green Garden Village identified as strategic site with potential for up to 2,150 new homes. Housing Delivery Test required 588 net additional homes for 2019/20. New Standard Method suggests around 750 net new homes would be needed.",
+      "organisation": "local-authority:TAM"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "92a91a8afc9d9b91416856d74104102d1c0bbee8a7822fd8b12d964135744726",
+  "pdf_file": "collection/document/92a91a8afc9d9b91416856d74104102d1c0bbee8a7822fd8b12d964135744726.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TAM",
+  "local-plan-boundary": "E60000032",
+  "local-planning-authorities": [
+    "E60000032"
+  ]
+}

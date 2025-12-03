@@ -1,0 +1,29 @@
+{
+  "name": "City of London Corporation Local Development Scheme",
+  "organisation-name": "City of London Corporation",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London Corporation",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a Local Development Scheme document setting out timetables for plan preparation - it does not contain housing numbers, targets, or allocations. Housing data would be found in the actual City Plan 2040 when adopted.",
+      "organisation": "local-authority:LND"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9402806b91f1afc818c6714f5b5bc4b1ff7c3c3fe8f412f156a700e0e8233789",
+  "pdf_file": "collection/document/9402806b91f1afc818c6714f5b5bc4b1ff7c3c3fe8f412f156a700e0e8233789.pdf",
+  "pages_analysed": 3,
+  "organisation": "local-authority:LND",
+  "local-plan-boundary": "E60000189",
+  "local-planning-authorities": [
+    "E60000189"
+  ]
+}

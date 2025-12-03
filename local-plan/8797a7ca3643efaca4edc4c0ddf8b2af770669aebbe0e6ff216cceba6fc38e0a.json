@@ -1,0 +1,100 @@
+{
+  "name": "NEC Herts Vision 2050",
+  "organisation-name": "East Hertfordshire, North Hertfordshire, Stevenage, Welwyn Hatfield, Broxbourne",
+  "period-start-date": "",
+  "period-end-date": 2050,
+  "housing-numbers": [
+    {
+      "organisation-name": "East Hertfordshire",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Vision document - no specific housing numbers by authority provided",
+      "organisation": "local-authority:EHE"
+    },
+    {
+      "organisation-name": "North Hertfordshire",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Vision document - no specific housing numbers by authority provided",
+      "organisation": "local-authority:NHE"
+    },
+    {
+      "organisation-name": "Stevenage",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Vision document - no specific housing numbers by authority provided",
+      "organisation": "local-authority:STV"
+    },
+    {
+      "organisation-name": "Welwyn Hatfield",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Vision document - no specific housing numbers by authority provided",
+      "organisation": "local-authority:WEW"
+    },
+    {
+      "organisation-name": "Broxbourne",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Vision document - no specific housing numbers by authority provided",
+      "organisation": "local-authority:BRX"
+    },
+    {
+      "organisation-name": "East Hertfordshire, North Hertfordshire, Stevenage, Welwyn Hatfield, Broxbourne",
+      "organisation": "joint-planning-authority:BRX-EHE-NHE-STV-WEW",
+      "required-housing": 0,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 0,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "8797a7ca3643efaca4edc4c0ddf8b2af770669aebbe0e6ff216cceba6fc38e0a",
+  "pdf_file": "collection/document/8797a7ca3643efaca4edc4c0ddf8b2af770669aebbe0e6ff216cceba6fc38e0a.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:BRX-EHE-NHE-STV-WEW",
+  "organisations": [
+    "local-authority:EHE",
+    "local-authority:NHE",
+    "local-authority:STV",
+    "local-authority:WEW",
+    "local-authority:BRX"
+  ],
+  "local-plan-boundary": "E60000168-E60000170-E60000172-E60000175-E60000166",
+  "local-planning-authorities": [
+    "E60000168",
+    "E60000170",
+    "E60000172",
+    "E60000175",
+    "E60000166"
+  ]
+}

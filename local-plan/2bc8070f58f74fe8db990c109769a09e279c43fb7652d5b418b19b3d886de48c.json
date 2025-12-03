@@ -1,0 +1,29 @@
+{
+  "name": "Local Plan Glossary",
+  "organisation-name": "Ipswich Borough Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Ipswich Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a glossary document that defines planning terms - it does not contain housing numbers or targets. References are made to other Ipswich planning documents (Core Strategy & Policies, Site Allocations & Policies, IP-One Area Action Plan) but no housing data is provided.",
+      "organisation": "local-authority:IPS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2bc8070f58f74fe8db990c109769a09e279c43fb7652d5b418b19b3d886de48c",
+  "pdf_file": "collection/document/2bc8070f58f74fe8db990c109769a09e279c43fb7652d5b418b19b3d886de48c.pdf",
+  "pages_analysed": 3,
+  "organisation": "local-authority:IPS",
+  "local-plan-boundary": "E60000185",
+  "local-planning-authorities": [
+    "E60000185"
+  ]
+}

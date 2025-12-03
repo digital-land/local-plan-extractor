@@ -1,0 +1,37 @@
+{
+  "name": "Plymouth and South West Devon Joint Local Plan",
+  "organisation-name": "Plymouth City Council, South Hams District Council, West Devon Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2034,
+  "housing-numbers": [
+    {
+      "organisation-name": "Plymouth Policy Area",
+      "required-housing": 19000,
+      "allocated-housing": 8412,
+      "windfall-housing": 602,
+      "committed-housing": 9424,
+      "broad-locations-housing": "",
+      "annual-required-housing": 950,
+      "pages": "25, 26, 27",
+      "notes": "Plymouth Policy Area includes Plymouth administrative area plus urban fringe. Committed housing includes completions 2014-17 (2,705), under construction (901), and outstanding commitments (8,523). Also includes allowance for student HMO release (397) and demolitions (-872).",
+      "organisation": ""
+    },
+    {
+      "organisation-name": "Thriving Towns and Villages Policy Area",
+      "required-housing": 7700,
+      "allocated-housing": 2861,
+      "windfall-housing": 796,
+      "committed-housing": 1765,
+      "broad-locations-housing": 550,
+      "annual-required-housing": 385,
+      "pages": "25, 26, 27",
+      "notes": "Covers rural South Hams and West Devon areas. Committed housing includes completions 2014-17 (1,394) and under construction (371). Broad locations housing represents Sustainable Villages allowance for neighbourhood plan delivery.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "3dc257cf3db6ff9b34a5647d54f443e411cac8795c0cb3e93a0af8f6027e2ef7",
+  "pdf_file": "collection/document/3dc257cf3db6ff9b34a5647d54f443e411cac8795c0cb3e93a0af8f6027e2ef7.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

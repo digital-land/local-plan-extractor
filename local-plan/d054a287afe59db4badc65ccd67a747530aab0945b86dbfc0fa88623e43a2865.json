@@ -1,0 +1,29 @@
+{
+  "name": "A transport evidence fit for purpose (Transport Evidence Report for Local Plan for Buckinghamshire)",
+  "organisation-name": "Buckinghamshire Council",
+  "period-start-date": "",
+  "period-end-date": 2045,
+  "housing-numbers": [
+    {
+      "organisation-name": "Buckinghamshire Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a transport evidence report, not the Local Plan itself. Housing numbers are not provided in this technical background document.",
+      "organisation": "local-authority:BUC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d054a287afe59db4badc65ccd67a747530aab0945b86dbfc0fa88623e43a2865",
+  "pdf_file": "collection/document/d054a287afe59db4badc65ccd67a747530aab0945b86dbfc0fa88623e43a2865.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BUC",
+  "local-plan-boundary": "E60000331",
+  "local-planning-authorities": [
+    "E60000331"
+  ]
+}

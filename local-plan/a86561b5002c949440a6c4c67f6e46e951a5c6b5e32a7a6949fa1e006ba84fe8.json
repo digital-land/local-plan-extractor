@@ -1,0 +1,25 @@
+{
+  "name": "City of London Annual CIL Rate Summary 2022",
+  "organisation-name": "City of London",
+  "period-start-date": 2022,
+  "period-end-date": 2022,
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This document is a CIL rate summary, not a local plan - contains no housing numbers or housing policy information",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "a86561b5002c949440a6c4c67f6e46e951a5c6b5e32a7a6949fa1e006ba84fe8",
+  "pdf_file": "collection/document/a86561b5002c949440a6c4c67f6e46e951a5c6b5e32a7a6949fa1e006ba84fe8.pdf",
+  "pages_analysed": 1,
+  "organisation": ""
+}

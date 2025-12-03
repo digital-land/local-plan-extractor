@@ -1,0 +1,58 @@
+{
+  "name": "Gateshead and Newcastle Councils' Core Strategy and Urban Core Plan",
+  "organisation-name": "Gateshead Council, Newcastle City Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newcastle City Council",
+      "required-housing": 19000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 950,
+      "pages": "11, 37",
+      "notes": "Gross housing requirement of 19,000 dwellings for Newcastle over plan period 2010-2030",
+      "organisation": "local-authority:NET"
+    },
+    {
+      "organisation-name": "Gateshead Council",
+      "required-housing": 11000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 550,
+      "pages": "11, 37",
+      "notes": "Gross housing requirement of 11,000 dwellings for Gateshead over plan period 2010-2030",
+      "organisation": "local-authority:GAT"
+    },
+    {
+      "organisation-name": "Gateshead Council, Newcastle City Council",
+      "organisation": "joint-planning-authority:GAT-NET",
+      "required-housing": 30000,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 1500,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "5e2507f38bef60e9c5493ba89def1041fac9c79909cc640e4b7b4b3d157c7044",
+  "pdf_file": "collection/document/5e2507f38bef60e9c5493ba89def1041fac9c79909cc640e4b7b4b3d157c7044.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:GAT-NET",
+  "organisations": [
+    "local-authority:NET",
+    "local-authority:GAT"
+  ],
+  "local-plan-boundary": "E60000009-E60000008",
+  "local-planning-authorities": [
+    "E60000009",
+    "E60000008"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "organisation-name": "Broxbourne Borough Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxbourne Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "1-5",
+      "notes": "Document is Appendix E showing concept plans with individual site capacities marked (e.g. c.1500 dwellings at Brookfield, c.485 at West Hoddesdon, c.360 at Goffs Oak) but doesn't contain overall housing strategy figures",
+      "organisation": "local-authority:BRX"
+    }
+  ],
+  "confidence": "low",
+  "authority": "864d7410fbdf9d1e3c8646f039fc42bced3b7336fc7b5ac53fe8405f9b030382",
+  "pdf_file": "collection/document/864d7410fbdf9d1e3c8646f039fc42bced3b7336fc7b5ac53fe8405f9b030382.pdf",
+  "pages_analysed": 4,
+  "organisation": "local-authority:BRX",
+  "local-plan-boundary": "E60000166",
+  "local-planning-authorities": [
+    "E60000166"
+  ]
+}

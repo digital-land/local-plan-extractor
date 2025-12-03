@@ -1,0 +1,29 @@
+{
+  "name": "West Berkshire Local Plan Review 2023-2041",
+  "organisation-name": "West Berkshire Council",
+  "period-start-date": 2023,
+  "period-end-date": 2041,
+  "housing-numbers": [
+    {
+      "organisation-name": "West Berkshire Council",
+      "required-housing": 9270,
+      "allocated-housing": 5507,
+      "windfall-housing": 2166,
+      "committed-housing": 1820,
+      "broad-locations-housing": "",
+      "annual-required-housing": 515,
+      "pages": "52, 55",
+      "notes": "Housing requirement is 9,270 net additional homes (515 per annum). Total supply is 9,493 including allocations (5,507), existing commitments (1,729), C2 commitments (91), and windfall allowance (2,166). Strategic sites include Sandleford Park (1,500 homes) and North East Thatcham (up to 2,500 homes with 1,760 in plan period).",
+      "organisation": "local-authority:WBK"
+    }
+  ],
+  "confidence": "high",
+  "authority": "156c0303e8c3dcd64caab350ea724353631213a7f67ae8e833a503dae2c9ebf2",
+  "pdf_file": "collection/document/156c0303e8c3dcd64caab350ea724353631213a7f67ae8e833a503dae2c9ebf2.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WBK",
+  "local-plan-boundary": "E60000230",
+  "local-planning-authorities": [
+    "E60000230"
+  ]
+}

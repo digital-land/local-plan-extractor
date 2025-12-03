@@ -1,0 +1,29 @@
+{
+  "name": "North Warwickshire Local Plan",
+  "organisation-name": "North Warwickshire Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Warwickshire Borough Council",
+      "required-housing": 9598,
+      "allocated-housing": 6183,
+      "windfall-housing": 660,
+      "committed-housing": 1355,
+      "broad-locations-housing": "",
+      "annual-required-housing": 479,
+      "pages": "33-34, 78-79",
+      "notes": "Total requirement includes 913 dwellings for Tamworth Borough Council unmet need. Windfall allowance is 60 dwellings per annum 2022-2033. Commitments are planning permissions as at 01/04/19 minus 3% lapse rate.",
+      "organisation": "local-authority:NWA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ff5c843289c379e7cb480d5695f3180882f92aee606050f276034582e5184020",
+  "pdf_file": "collection/document/ff5c843289c379e7cb480d5695f3180882f92aee606050f276034582e5184020.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NWA",
+  "local-plan-boundary": "E60000125",
+  "local-planning-authorities": [
+    "E60000125"
+  ]
+}

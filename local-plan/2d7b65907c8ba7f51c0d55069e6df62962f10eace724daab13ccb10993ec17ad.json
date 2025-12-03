@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Local Plan Strategic Policies 2010 - 2030",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is only the adoption statement document - housing numbers would be in the main Local Plan document which is not provided",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2d7b65907c8ba7f51c0d55069e6df62962f10eace724daab13ccb10993ec17ad",
+  "pdf_file": "collection/document/2d7b65907c8ba7f51c0d55069e6df62962f10eace724daab13ccb10993ec17ad.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

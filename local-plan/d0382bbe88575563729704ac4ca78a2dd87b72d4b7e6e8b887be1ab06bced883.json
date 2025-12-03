@@ -1,0 +1,29 @@
+{
+  "name": "Pre-Submission Local Plan",
+  "organisation-name": "Dacorum Borough Council",
+  "period-start-date": 2026,
+  "period-end-date": 2041,
+  "housing-numbers": [
+    {
+      "organisation-name": "Dacorum Borough Council",
+      "required-housing": 15332,
+      "allocated-housing": 10088,
+      "windfall-housing": 3362,
+      "committed-housing": 1882,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1016,
+      "pages": "19, 42-43",
+      "notes": "Total requirement is minimum 15,332 homes over plan period. Allocations include 6,674 for Hemel Hempstead, 975 for Berkhamsted, 2,050 for Tring, 217 for Bovingdon, and 150 for Markyate (total 10,066 from Table 1, plus additional strategic allocations). Windfall includes 2,385 for Hemel Hempstead plus other areas. Annual requirement of 1,016 per annum confirmed in Strategic Policy H1.",
+      "organisation": "local-authority:DAC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d0382bbe88575563729704ac4ca78a2dd87b72d4b7e6e8b887be1ab06bced883",
+  "pdf_file": "collection/document/d0382bbe88575563729704ac4ca78a2dd87b72d4b7e6e8b887be1ab06bced883.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:DAC",
+  "local-plan-boundary": "E60000167",
+  "local-planning-authorities": [
+    "E60000167"
+  ]
+}

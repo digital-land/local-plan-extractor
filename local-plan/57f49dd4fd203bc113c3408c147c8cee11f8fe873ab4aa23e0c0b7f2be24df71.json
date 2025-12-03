@@ -1,0 +1,29 @@
+{
+  "name": "Sefton Local Plan",
+  "organisation-name": "Sefton Council",
+  "period-start-date": 2012,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Sefton Council",
+      "required-housing": 11520,
+      "allocated-housing": 8920,
+      "windfall-housing": 1071,
+      "committed-housing": 1172,
+      "broad-locations-housing": "",
+      "annual-required-housing": 640,
+      "pages": "25, 39-42",
+      "notes": "Housing requirement staged at 500 dwellings per annum 2012-2017, then 694 dwellings per annum 2017-2030. Total identified supply is 11,435. Includes major housing allocations listed in Policy MN2.",
+      "organisation": "local-authority:SFT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "57f49dd4fd203bc113c3408c147c8cee11f8fe873ab4aa23e0c0b7f2be24df71",
+  "pdf_file": "collection/document/57f49dd4fd203bc113c3408c147c8cee11f8fe873ab4aa23e0c0b7f2be24df71.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SFT",
+  "local-plan-boundary": "E60000049",
+  "local-planning-authorities": [
+    "E60000049"
+  ]
+}

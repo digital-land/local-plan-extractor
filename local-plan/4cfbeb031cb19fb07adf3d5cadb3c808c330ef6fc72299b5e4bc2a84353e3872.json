@@ -1,0 +1,29 @@
+{
+  "name": "Brentwood Local Plan",
+  "organisation-name": "Brentwood Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Brentwood Borough Council",
+      "required-housing": 7752,
+      "allocated-housing": 4699,
+      "windfall-housing": 434,
+      "committed-housing": 1036,
+      "broad-locations-housing": "",
+      "annual-required-housing": 350,
+      "pages": "36-37, 255-258",
+      "notes": "Housing requirement increases from 300 dpa (2016-2024), to 400 dpa (2024-2030), then 984 dpa (2030-2033). Committed housing includes extant permissions with 10% non-implementation discount. Annual requirement of 350 dpa calculated using standard method.",
+      "organisation": "local-authority:BRW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4cfbeb031cb19fb07adf3d5cadb3c808c330ef6fc72299b5e4bc2a84353e3872",
+  "pdf_file": "collection/document/4cfbeb031cb19fb07adf3d5cadb3c808c330ef6fc72299b5e4bc2a84353e3872.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BRW",
+  "local-plan-boundary": "E60000156",
+  "local-planning-authorities": [
+    "E60000156"
+  ]
+}

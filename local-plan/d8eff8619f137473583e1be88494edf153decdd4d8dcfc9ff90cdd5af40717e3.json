@@ -1,0 +1,29 @@
+{
+  "name": "The Dartford Plan to 2037",
+  "organisation-name": "Dartford Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Dartford Borough Council",
+      "required-housing": 12640,
+      "allocated-housing": 9400,
+      "windfall-housing": 400,
+      "committed-housing": 1700,
+      "broad-locations-housing": "",
+      "annual-required-housing": 790,
+      "pages": "55, 56, 58",
+      "notes": "Plan period 2021-2037 (16 years). Total expected housing supply is 11,900 homes. Housing requirement of 790 per annum totals 12,640 homes over plan period. Allocated housing includes sites with permission. Small sites include windfall allowance of 400.",
+      "organisation": "local-authority:DAR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d8eff8619f137473583e1be88494edf153decdd4d8dcfc9ff90cdd5af40717e3",
+  "pdf_file": "collection/document/d8eff8619f137473583e1be88494edf153decdd4d8dcfc9ff90cdd5af40717e3.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:DAR",
+  "local-plan-boundary": "E60000255",
+  "local-planning-authorities": [
+    "E60000255"
+  ]
+}

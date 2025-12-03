@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "organisation-name": "Doncaster Council",
+  "period-start-date": 2018,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "Doncaster Council",
+      "required-housing": 15640,
+      "allocated-housing": 6825,
+      "windfall-housing": 3000,
+      "committed-housing": 9289,
+      "broad-locations-housing": "",
+      "annual-required-housing": 920,
+      "pages": "1",
+      "notes": "Plan period supply totals 19,492 dwellings (25% above requirement). Committed housing includes permissioned sites 5+ units. Additional 585 dwellings from smaller permissions not specifically allocated. Supply beyond plan period: 2,292 units.",
+      "organisation": "local-authority:DNC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d412617099cd66f69a7c26dfa87249d0983b9744e4be7e6d3a078b7d688be94c",
+  "pdf_file": "collection/document/d412617099cd66f69a7c26dfa87249d0983b9744e4be7e6d3a078b7d688be94c.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:DNC",
+  "local-plan-boundary": "E60000065",
+  "local-planning-authorities": [
+    "E60000065"
+  ]
+}

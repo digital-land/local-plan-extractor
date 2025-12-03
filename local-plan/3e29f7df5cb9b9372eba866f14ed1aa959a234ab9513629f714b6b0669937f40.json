@@ -1,0 +1,29 @@
+{
+  "name": "Lichfield District Local Plan Strategy 2015",
+  "organisation-name": "Lichfield District Council",
+  "period-start-date": 2008,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lichfield District Council",
+      "required-housing": 10030,
+      "allocated-housing": 4850,
+      "windfall-housing": "",
+      "committed-housing": 3047,
+      "broad-locations-housing": 1000,
+      "annual-required-housing": 478,
+      "pages": "24, 50-52",
+      "notes": "Total requirement 10,030 homes 2008-2029. Strategic Development Allocations total 4,850 homes. Committed housing includes completions 2008-2013 (1,131) plus deliverable/developable urban sites (1,916). Broad Development Location is North of Tamworth (1,000 homes). Additional 440 homes to be allocated to Key Rural Settlements through Local Plan Allocations document.",
+      "organisation": "local-authority:LIF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3e29f7df5cb9b9372eba866f14ed1aa959a234ab9513629f714b6b0669937f40",
+  "pdf_file": "collection/document/3e29f7df5cb9b9372eba866f14ed1aa959a234ab9513629f714b6b0669937f40.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LIF",
+  "local-plan-boundary": "E60000119",
+  "local-planning-authorities": [
+    "E60000119"
+  ]
+}

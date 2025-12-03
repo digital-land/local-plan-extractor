@@ -1,0 +1,29 @@
+{
+  "name": "West Oxfordshire Local Plan 2031",
+  "organisation-name": "West Oxfordshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "West Oxfordshire District Council",
+      "required-housing": 15950,
+      "allocated-housing": 4450,
+      "windfall-housing": 991,
+      "committed-housing": 5859,
+      "broad-locations-housing": 2200,
+      "annual-required-housing": 798,
+      "pages": "41-47, 147, 175, 201, 221-222, 267",
+      "notes": "Total includes 13,200 for West Oxfordshire's own needs plus 2,750 for Oxford City's unmet needs. Windfall excludes Burford-Charlbury sub-area due to AONB restrictions. Broad locations housing refers to Oxfordshire Cotswolds Garden Village SLG.",
+      "organisation": "local-authority:WOX"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9a399736f6c3b5c3014804eb6b6618a6d0b798f8a366863d09c340595a2491db",
+  "pdf_file": "collection/document/9a399736f6c3b5c3014804eb6b6618a6d0b798f8a366863d09c340595a2491db.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WOX",
+  "local-plan-boundary": "E60000269",
+  "local-planning-authorities": [
+    "E60000269"
+  ]
+}

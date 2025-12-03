@@ -1,0 +1,29 @@
+{
+  "name": "Breckland Local Plan",
+  "organisation-name": "Breckland District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Breckland District Council",
+      "required-housing": 15298,
+      "allocated-housing": 3972,
+      "windfall-housing": 800,
+      "committed-housing": 6567,
+      "broad-locations-housing": "",
+      "annual-required-housing": 612,
+      "pages": "33-34, 36-39, 250-251",
+      "notes": "Total requirement 15,298 homes 2011-2036 (612 per annum). Committed housing includes completions (3,493) plus commitments with planning permission. Allocated housing includes Local Plan allocations. Housing trajectory on pages 250-251 shows detailed breakdown.",
+      "organisation": "local-authority:BRE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "96429cfbaf912b712fda28784a02db5f0c137819754fb70177c2a44a5544c01f",
+  "pdf_file": "collection/document/96429cfbaf912b712fda28784a02db5f0c137819754fb70177c2a44a5544c01f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BRE",
+  "local-plan-boundary": "E60000176",
+  "local-planning-authorities": [
+    "E60000176"
+  ]
+}

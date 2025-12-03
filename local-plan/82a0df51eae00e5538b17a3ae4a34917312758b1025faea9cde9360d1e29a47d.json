@@ -1,0 +1,29 @@
+{
+  "name": "Blaby District Local Plan Delivery DPD",
+  "organisation-name": "Blaby District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Blaby District Council",
+      "required-housing": 8740,
+      "allocated-housing": 3758,
+      "windfall-housing": "",
+      "committed-housing": 1489,
+      "broad-locations-housing": "",
+      "annual-required-housing": 380,
+      "pages": "3, 32, 56, 63",
+      "notes": "Housing trajectory shows 8740 total requirement for 2006-2029 period. Allocated housing includes SA1 Land North of Hinckley Road (750 dwellings, 510 in plan period) plus smaller sites SA2 (128 dwellings). Committed housing from large and small site commitments. Document notes windfall excluded from trajectory.",
+      "organisation": "local-authority:BLA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "82a0df51eae00e5538b17a3ae4a34917312758b1025faea9cde9360d1e29a47d",
+  "pdf_file": "collection/document/82a0df51eae00e5538b17a3ae4a34917312758b1025faea9cde9360d1e29a47d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BLA",
+  "local-plan-boundary": "E60000085",
+  "local-planning-authorities": [
+    "E60000085"
+  ]
+}

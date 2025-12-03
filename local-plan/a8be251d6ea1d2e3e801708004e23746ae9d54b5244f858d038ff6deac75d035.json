@@ -1,0 +1,29 @@
+{
+  "name": "Watford Local Plan Proposed Modifications",
+  "organisation-name": "Watford Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Watford Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": 158,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 784,
+      "pages": "20, 25",
+      "notes": "Plan period modified from 2018-2036 to 2021-2038. Annual requirement reduced from 793 to 784 units. Windfall figure adjusted to average 158 per year including 15 units transferred from removed allocation sites HS33 and MU17.",
+      "organisation": "local-authority:WAT"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "a8be251d6ea1d2e3e801708004e23746ae9d54b5244f858d038ff6deac75d035",
+  "pdf_file": "collection/document/a8be251d6ea1d2e3e801708004e23746ae9d54b5244f858d038ff6deac75d035.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WAT",
+  "local-plan-boundary": "E60000174",
+  "local-planning-authorities": [
+    "E60000174"
+  ]
+}

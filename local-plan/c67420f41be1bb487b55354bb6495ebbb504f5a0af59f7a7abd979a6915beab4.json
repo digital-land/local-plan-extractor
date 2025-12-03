@@ -1,0 +1,29 @@
+{
+  "name": "Canterbury District Local Plan",
+  "organisation-name": "Canterbury City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Canterbury City Council",
+      "required-housing": 16000,
+      "allocated-housing": 3539,
+      "windfall-housing": 276,
+      "committed-housing": 1126,
+      "broad-locations-housing": "",
+      "annual-required-housing": 800,
+      "pages": "46-48",
+      "notes": "District requirement updated from 780 dpa to 800 dpa (rounded up from 803 dpa). Housing land supply table shows strategic and other new allocations (3241) plus existing allocations (298) totaling 3539. Commitments shown as planning permissions as at 31/03/15.",
+      "organisation": "local-authority:CAT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c67420f41be1bb487b55354bb6495ebbb504f5a0af59f7a7abd979a6915beab4",
+  "pdf_file": "collection/document/c67420f41be1bb487b55354bb6495ebbb504f5a0af59f7a7abd979a6915beab4.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CAT",
+  "local-plan-boundary": "E60000254",
+  "local-planning-authorities": [
+    "E60000254"
+  ]
+}
