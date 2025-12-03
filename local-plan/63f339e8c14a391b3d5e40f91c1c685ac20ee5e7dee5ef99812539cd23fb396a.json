@@ -1,0 +1,29 @@
+{
+  "name": "Test Valley Borough Revised Local Plan (2011 - 2029)",
+  "organisation-name": "Test Valley Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Test Valley Borough Council",
+      "required-housing": 10584,
+      "allocated-housing": 2415,
+      "windfall-housing": 714,
+      "committed-housing": 4869,
+      "broad-locations-housing": "",
+      "annual-required-housing": 588,
+      "pages": "52-55, 172-174",
+      "notes": "Total requirement split: Northern Test Valley 7,092 (394 per annum), Southern Test Valley 3,492 (194 per annum). Allocated housing includes strategic allocations: Whitenap 1,300, Picket Piece 400, Picket Twenty extension 300, Hoe Lane 300, Stoneham 50, George Yard 100. Committed housing includes completions plus existing commitments. Windfall assumptions: Northern 490, Southern 224.",
+      "organisation": "local-authority:TES"
+    }
+  ],
+  "confidence": "high",
+  "authority": "63f339e8c14a391b3d5e40f91c1c685ac20ee5e7dee5ef99812539cd23fb396a",
+  "pdf_file": "collection/document/63f339e8c14a391b3d5e40f91c1c685ac20ee5e7dee5ef99812539cd23fb396a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TES",
+  "local-plan-boundary": "E60000251",
+  "local-planning-authorities": [
+    "E60000251"
+  ]
+}

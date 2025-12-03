@@ -181,6 +181,88 @@ class LocalPlanHousingExtractor:
             print(f"  Error extracting pages: {e}", file=sys.stderr)
             return None
 
+    def is_local_plan(self, housing_data: Dict) -> bool:
+        """Check if extracted data is from an actual local plan, not a supplementary document"""
+
+        # Get the name from extracted data
+        name = housing_data.get("name", "").lower()
+        notes = housing_data.get("notes", "").lower()
+
+        # Keywords that indicate this is NOT a local plan
+        non_local_plan_keywords = [
+            "design guide",
+            "design guidance",
+            "assessment",  # e.g., SHMA, SFRA, HRA
+            "community infrastructure levy",
+            "infrastructure delivery plan",
+            "conservation area",
+            "supplementary planning",
+            "parking guidance",
+            "parking policy",
+            "masterplan",
+            "masterplan framework",
+            "spatial framework",
+            "policy framework",
+            "consolidated planning policy",
+            "framework relocation",
+            "impact assessment",
+            "habitat regulations",
+            "housing need assessment",
+            "housing land availability",
+            "strategic flood risk",
+            "sustainability appraisal",
+            "equalities impact assessment",
+            "privacy notice",
+            "employment skills",
+            "inset map",
+            "adopted policy map",
+            "policies map",
+            "policy map",
+            "waste plan",
+            "waste management",
+            "minerals plan",
+            "minerals development",
+            "regulation 19",
+            "regulation 18",
+            "regulation 16",
+            "hearing statement",
+            "topic paper",
+            "statement of common ground",
+            "environmental assessment",
+            "s106",
+            "section 106",
+        ]
+
+        # Check if name contains non-local-plan keywords
+        for keyword in non_local_plan_keywords:
+            if keyword in name:
+                print(
+                    f"  Detected non-local-plan document: {housing_data.get('name', 'Unknown')}",
+                    file=sys.stderr,
+                )
+                return False
+
+        # Check if this is a specific policy extract (e.g., "Plan Name - Policy DP 28 'Topic'")
+        if " - policy " in name:
+            print(
+                f"  Detected non-local-plan document: {housing_data.get('name', 'Unknown')} (specific policy extract)",
+                file=sys.stderr,
+            )
+            return False
+
+        # Check if notes indicate this is not a local plan
+        if notes:
+            for keyword in ["not a local plan", "supplementary", "guidance only", "assessment only"]:
+                if keyword in notes:
+                    return False
+
+        # If it has a name and passes the keyword check, consider it a local plan
+        if housing_data.get("name"):
+            return True
+
+        # If no name extracted, it's not a local plan
+        return False
+
     def extract_housing_data(
         self, pdf_path: str, authority_name: str = None, max_pages: int = None
     ) -> Dict:
@@ -529,6 +611,18 @@ Key points:
 
             print(f"  ✓ Extraction complete", file=sys.stderr)
 
+            # Check if this is actually a local plan
+            if not self.is_local_plan(housing_data):
+                print(
+                    f"  ✗ Skipping: Not a local plan document",
+                    file=sys.stderr,
+                )
+                return {
+                    "authority": authority_name or Path(pdf_path).stem,
+                    "pdf_file": str(pdf_path),
+                    "error": "Not a local plan: document is supplementary, assessment, or guidance only",
+                }
+
             # Add delay to respect rate limits
             time.sleep(self.rate_limit_delay)
 
@@ -550,13 +644,26 @@ Key points:
     def extract_from_multiple_pdfs(
         self,
         pdf_directory: str,
-        output_csv: str = "housing_data.csv",
+        output_csv: str = None,
         delay_between_files: int = 3,
+        output_json_dir: str = None,
     ):
-        """Process multiple PDFs in a directory"""
+        """Process multiple PDFs in a directory
+
+        Args:
+            pdf_directory: Path to directory containing PDF files
+            output_csv: Optional path to save results as CSV file
+            delay_between_files: Delay in seconds between processing files
+            output_json_dir: Optional directory to save individual JSON files for each PDF
+        """
 
         pdf_dir = Path(pdf_directory)
         pdf_files = list(pdf_dir.glob("*.pdf"))
+
+        # Create output JSON directory if specified
+        if output_json_dir:
+            json_output_dir = Path(output_json_dir)
+            json_output_dir.mkdir(parents=True, exist_ok=True)
 
         print(f"Found {len(pdf_files)} PDF files to process")
         print(
@@ -572,6 +679,23 @@ Key points:
 
             result = self.extract_housing_data(str(pdf_path))
             all_results.append(result)
+
+            # Save individual JSON file if output_json_dir is specified
+            if output_json_dir and "error" not in result:
+                json_filename = pdf_path.stem + ".json"
+                json_output_path = json_output_dir / json_filename
+                try:
+                    with open(json_output_path, "w", encoding="utf-8") as f:
+                        json.dump(result, f, indent=2)
+                    print(
+                        f"  Saved JSON: {json_output_path}",
+                        file=sys.stderr,
+                    )
+                except Exception as e:
+                    print(
+                        f"  Warning: Failed to save JSON file {json_output_path}: {e}",
+                        file=sys.stderr,
+                    )
 
             # Print summary
             if "error" not in result:
@@ -651,13 +775,17 @@ Key points:
                 print(f"\n  Waiting {delay_between_files}s before next file...")
                 time.sleep(delay_between_files)
 
-        # Save to CSV
-        self._save_to_csv(all_results, output_csv)
+        # Save to CSV if output_csv is specified
+        if output_csv:
+            self._save_to_csv(all_results, output_csv)
 
         return all_results
 
     def _save_to_csv(self, results: list, output_file: str):
         """Save results to CSV file"""
+
+        if not output_file:
+            return
 
         if not results:
             print("No results to save", file=sys.stderr)
@@ -757,17 +885,30 @@ if __name__ == "__main__":
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Process a single PDF file
-  python script.py plan.pdf
-  
-  # Process all PDFs in a directory
-  python script.py ./local_plans/
-  
-  # Specify output file
-  python script.py ./local_plans/ --output my_results.csv
-  
+  # Process a single PDF file (outputs JSON to stdout)
+  python bin/local-plan-extractor.py ./collection/document/my-plan.pdf > local-plan/my-plan.json
+
+  # Process a single PDF for use with Makefile
+  python bin/local-plan-extractor.py ./collection/document/my-plan.pdf
+
+  # Process all PDFs in a directory (outputs JSON array to stdout)
+  python bin/local-plan-extractor.py ./collection/document/
+
+  # Process all PDFs and save individual JSON files
+  python bin/local-plan-extractor.py ./collection/document/ --json-output ./local-plan/
+
+  # Process all PDFs and save to CSV file
+  python bin/local-plan-extractor.py ./collection/document/ --output housing_data.csv
+
+  # Process all PDFs and save both JSON files and CSV
+  python bin/local-plan-extractor.py ./collection/document/ --json-output ./local-plan/ --output housing_data.csv
+
   # Adjust rate limiting delays
-  python script.py ./local_plans/ --api-delay 5 --file-delay 10
+  python bin/local-plan-extractor.py ./collection/document/ --api-delay 5 --file-delay 10
+
+Note: Single PDF files always output JSON to stdout (for Makefile compatibility).
+      Use --json-output flag with directories to save individual JSON files.
+      Use --output flag with directories to save results as CSV.
         """,
     )
 
@@ -779,7 +920,14 @@ Examples:
         "--output",
         "-o",
         default=None,
-        help="Output CSV file path (if not specified, outputs JSON to stdout)",
+        help="Output CSV file path (for directory processing only)",
+    )
+
+    parser.add_argument(
+        "--json-output",
+        "-j",
+        default=None,
+        help="Output directory for individual JSON files (for directory processing only)",
     )
 
     parser.add_argument(
@@ -834,24 +982,30 @@ Examples:
         print(f"Processing single PDF file: {path.name}\n", file=sys.stderr)
         result = extractor.extract_housing_data(str(path))
 
-        # Output result
-        if args.output:
-            # Save to CSV
-            extractor._save_to_csv([result], args.output)
-        else:
-            # Output JSON to stdout
-            print(json.dumps(result, indent=2))
+        # For single PDF files, ALWAYS output JSON to stdout (for Makefile compatibility)
+        # The --output and --json-output flags are not used for single files
+        if args.output or args.json_output:
+            print(
+                f"Note: --output and --json-output flags are ignored when processing a single PDF file",
+                file=sys.stderr,
+            )
+
+        # Output single JSON object to stdout
+        print(json.dumps(result, indent=2))
 
     elif path.is_dir():
         # Process directory of PDFs
         print(f"Processing directory: {path}\n", file=sys.stderr)
         results = extractor.extract_from_multiple_pdfs(
-            str(path), args.output, args.file_delay  # Will be None if not specified
+            str(path),
+            output_csv=args.output,
+            delay_between_files=args.file_delay,
+            output_json_dir=args.json_output,
         )
 
         # Output results
-        if args.output:
-            # CSV already saved by extract_from_multiple_pdfs
+        if args.output or args.json_output:
+            # CSV/JSON already saved by extract_from_multiple_pdfs
             # Print summary to stderr
             print("\n" + "=" * 60, file=sys.stderr)
             print("SUMMARY STATISTICS", file=sys.stderr)
@@ -865,6 +1019,17 @@ Examples:
                 file=sys.stderr,
             )
             print(f"Failed: {len(failed)}/{len(results)}", file=sys.stderr)
+
+            if args.json_output:
+                print(
+                    f"Individual JSON files saved to: {args.json_output}",
+                    file=sys.stderr,
+                )
+            if args.output:
+                print(
+                    f"Results saved to CSV: {args.output}",
+                    file=sys.stderr,
+                )
 
             if successful:
                 total_reqs = [

@@ -1,0 +1,29 @@
+{
+  "name": "Oxford Local Plan 2040",
+  "organisation-name": "Oxford City Council",
+  "period-start-date": 2020,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Oxford City Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 481,
+      "pages": "4, 5",
+      "notes": "This is the capacity-based housing requirement set in the plan due to constraints. The HENA identified a need of 1,322 homes per year, but the Council's HELAA assessment shows capacity for only 481 homes per year within city boundaries, creating an unmet need of 16,828 homes over the plan period.",
+      "organisation": "local-authority:OXO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "00809ff573b53a9ee12cc4f533b56a505da447d901ec65544fd6ed3080f809d3",
+  "pdf_file": "collection/document/00809ff573b53a9ee12cc4f533b56a505da447d901ec65544fd6ed3080f809d3.pdf",
+  "pages_analysed": 11,
+  "organisation": "local-authority:OXO",
+  "local-plan-boundary": "E60000266",
+  "local-planning-authorities": [
+    "E60000266"
+  ]
+}

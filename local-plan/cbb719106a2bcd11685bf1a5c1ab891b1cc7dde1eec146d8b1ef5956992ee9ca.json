@@ -1,0 +1,29 @@
+{
+  "name": "Blackburn with Darwen Local Plan 2021-2037",
+  "organisation-name": "Blackburn with Darwen Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Blackburn with Darwen Borough Council",
+      "required-housing": 7152,
+      "allocated-housing": 2965,
+      "windfall-housing": 1120,
+      "committed-housing": 2221,
+      "broad-locations-housing": "",
+      "annual-required-housing": 447,
+      "pages": "37, 40, 252-256",
+      "notes": "Total requirement is 7,152 dwellings over 16-year period (447 dpa minimum). Housing trajectory shows committed sites (no start) delivering 1,937 units and committed sites (under construction) delivering 1,616 units for total commitments of 2,221. New Growth sites expected to deliver 2,965 units. Windfall anticipated at 70 dpa = 1,120 total. 15% lapse rate applied to commitments.",
+      "organisation": "local-authority:BBD"
+    }
+  ],
+  "confidence": "high",
+  "authority": "cbb719106a2bcd11685bf1a5c1ab891b1cc7dde1eec146d8b1ef5956992ee9ca",
+  "pdf_file": "collection/document/cbb719106a2bcd11685bf1a5c1ab891b1cc7dde1eec146d8b1ef5956992ee9ca.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BBD",
+  "local-plan-boundary": "E60000013",
+  "local-planning-authorities": [
+    "E60000013"
+  ]
+}

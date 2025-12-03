@@ -1,0 +1,29 @@
+{
+  "name": "Frisby Neighbourhood Plan",
+  "organisation-name": "Melton Borough Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Melton Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a referendum information statement for the Frisby Neighbourhood Plan, not the actual plan document. Housing numbers would be found in the neighbourhood plan itself, which is referenced but not included in this document.",
+      "organisation": "local-authority:MEL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "931eb87d37417174d5b0218f987dc86a2ded67018cfcbd69402688605b49bb72",
+  "pdf_file": "collection/document/931eb87d37417174d5b0218f987dc86a2ded67018cfcbd69402688605b49bb72.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:MEL",
+  "local-plan-boundary": "E60000089",
+  "local-planning-authorities": [
+    "E60000089"
+  ]
+}

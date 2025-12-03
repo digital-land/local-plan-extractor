@@ -1,0 +1,29 @@
+{
+  "name": "Cannock Chase Local Plan. Local Plan (Part 1) 2014",
+  "organisation-name": "Cannock Chase Council",
+  "period-start-date": 2006,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cannock Chase Council",
+      "required-housing": 5300,
+      "allocated-housing": 1420,
+      "windfall-housing": "",
+      "committed-housing": 1625,
+      "broad-locations-housing": "",
+      "annual-required-housing": 241,
+      "pages": "46-47, 112-113",
+      "notes": "Allocated housing includes West of Pye Green Road (750 houses, potential 900) and South of Norton Canes (670 houses). Urban sites (2,350) from SHLAA are separate from strategic allocations. Committed housing represents completions 2006-2012.",
+      "organisation": "local-authority:CAN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5cfa6efe388d65b91bc4e421166b1fb76edc5c46aa9a15fa60bb128f2a45e7a0",
+  "pdf_file": "collection/document/5cfa6efe388d65b91bc4e421166b1fb76edc5c46aa9a15fa60bb128f2a45e7a0.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CAN",
+  "local-plan-boundary": "E60000117",
+  "local-planning-authorities": [
+    "E60000117"
+  ]
+}

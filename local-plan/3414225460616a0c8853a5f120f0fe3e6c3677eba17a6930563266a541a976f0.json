@@ -1,0 +1,29 @@
+{
+  "name": "South Ribble Local Plan",
+  "organisation-name": "South Ribble Borough Council",
+  "period-start-date": 2010,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Ribble Borough Council",
+      "required-housing": 6255,
+      "allocated-housing": 6576,
+      "windfall-housing": 675,
+      "committed-housing": 329,
+      "broad-locations-housing": "",
+      "annual-required-housing": 417,
+      "pages": "34-41",
+      "notes": "Total requirement is 6,255 dwellings for 15 year period (2010/11-2025/26). Allocated housing includes 3,876 from residential allocations plus 2,700 from major residential-led sites. Windfall estimated at 45 per annum (45 x 15 = 675). Committed housing includes small sites with permission and sites under construction as of 2013.",
+      "organisation": "local-authority:SRI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3414225460616a0c8853a5f120f0fe3e6c3677eba17a6930563266a541a976f0",
+  "pdf_file": "collection/document/3414225460616a0c8853a5f120f0fe3e6c3677eba17a6930563266a541a976f0.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SRI",
+  "local-plan-boundary": "E60000044",
+  "local-planning-authorities": [
+    "E60000044"
+  ]
+}

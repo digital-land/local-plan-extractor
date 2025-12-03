@@ -1,0 +1,29 @@
+{
+  "name": "Knowsley Local Plan: Core Strategy",
+  "organisation-name": "Knowsley Council",
+  "period-start-date": 2010,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Knowsley Council",
+      "required-housing": 8100,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 450,
+      "pages": "53-57",
+      "notes": "Policy CS3 sets minimum net target of 8,100 dwellings between 2010-2028 at 450 dwellings per annum. Document notes shortage of land in urban area requiring Green Belt release. Spatial distribution: Huyton/Stockbridge Village (36%), Kirkby (16%), Prescot/Whiston/Cronton/Knowsley Village (32%), Halewood (16%). Housing trajectory shows delivery from various sources including commitments, allocations, SHLAA sites and Sustainable Urban Extensions.",
+      "organisation": "local-authority:KWL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "20c91e28bbe2f93b1b022a7e351eeb86d917fc9c572a95501e68269e902a921a",
+  "pdf_file": "collection/document/20c91e28bbe2f93b1b022a7e351eeb86d917fc9c572a95501e68269e902a921a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KWL",
+  "local-plan-boundary": "E60000047",
+  "local-planning-authorities": [
+    "E60000047"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "City of London Local Plan",
+  "organisation-name": "City of London",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This appears to be only the Policies Map B from the Local Plan (dated January 2015, corrected September 2020) which shows spatial policies and designations but does not contain housing numbers, targets, or trajectories. Housing information would be in the main Local Plan document text.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "784ef343323fe2a45e74607a5813c2664c75071e34ce763ef001eace0e6cf739",
+  "pdf_file": "collection/document/784ef343323fe2a45e74607a5813c2664c75071e34ce763ef001eace0e6cf739.pdf",
+  "pages_analysed": 1,
+  "organisation": ""
+}

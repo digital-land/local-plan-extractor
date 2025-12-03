@@ -1,0 +1,29 @@
+{
+  "name": "Oxford Local Plan 2040",
+  "organisation-name": "Oxford City Council",
+  "period-start-date": "",
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Oxford City Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is an Inspector's letter about the plan examination, not the actual plan document - no housing numbers are provided",
+      "organisation": "local-authority:OXO"
+    }
+  ],
+  "confidence": "low",
+  "authority": "9298b059acc9f714f784bd342bf1a75e097dfdf88c57de574348ae0085021c8b",
+  "pdf_file": "collection/document/9298b059acc9f714f784bd342bf1a75e097dfdf88c57de574348ae0085021c8b.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:OXO",
+  "local-plan-boundary": "E60000266",
+  "local-planning-authorities": [
+    "E60000266"
+  ]
+}

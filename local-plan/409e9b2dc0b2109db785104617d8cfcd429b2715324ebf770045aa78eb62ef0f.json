@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Site Allocations Development Plan Document, Schedule of Proposed Modifications, Version 4",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "1-32",
+      "notes": "This is a modifications document for the Site Allocations DPD, not the main plan. It contains proposed modifications to site allocations across Cornwall towns (Penzance & Newlyn, Hayle, Camborne Pool Illogan Redruth, Falmouth, Newquay, Bodmin, Launceston, Saltash) with individual site allocations and dwelling numbers, but does not contain overall housing targets or requirements for Cornwall.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "409e9b2dc0b2109db785104617d8cfcd429b2715324ebf770045aa78eb62ef0f",
+  "pdf_file": "collection/document/409e9b2dc0b2109db785104617d8cfcd429b2715324ebf770045aa78eb62ef0f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

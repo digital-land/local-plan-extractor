@@ -1,0 +1,25 @@
+{
+  "name": "Local Plan 2015-2031",
+  "organisation-name": "London Legacy Development Corporation",
+  "period-start-date": 2015,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Legacy Development Corporation",
+      "required-housing": 24000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2154,
+      "pages": "56, 58",
+      "notes": "Plan states expectation to deliver more than 24,000 homes over plan period 2020-2036 through optimised housing delivery. Annual target of 2,154 housing units per annum from Draft New London Plan. Housing trajectory shows delivery expected to meet target for first ten years but may not be possible past 2028/2029.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "b1104fccd573ea589d4e97b8a5a27aeda9bb7b77508293ba72b1827fc48f489d",
+  "pdf_file": "collection/document/b1104fccd573ea589d4e97b8a5a27aeda9bb7b77508293ba72b1827fc48f489d.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

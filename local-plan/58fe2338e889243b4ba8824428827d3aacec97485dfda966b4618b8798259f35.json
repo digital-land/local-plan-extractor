@@ -1,0 +1,29 @@
+{
+  "name": "South Oxfordshire District Council Local Plan 2035",
+  "organisation-name": "South Oxfordshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Oxfordshire District Council",
+      "required-housing": 23550,
+      "allocated-housing": 11785,
+      "windfall-housing": 1200,
+      "committed-housing": 16360,
+      "broad-locations-housing": "",
+      "annual-required-housing": 775,
+      "pages": "28, 88, 92",
+      "notes": "Total requirement includes 18,600 for South Oxfordshire needs plus 4,950 for Oxford City's unmet housing need (2021-2035). Strategic allocations deliver 11,785 homes in plan period but have total capacity of 14,600. Annual requirement of 775 homes/year for 2011-2035 period is based on SHMA evidence and Growth Deal commitments.",
+      "organisation": "local-authority:SOX"
+    }
+  ],
+  "confidence": "high",
+  "authority": "58fe2338e889243b4ba8824428827d3aacec97485dfda966b4618b8798259f35",
+  "pdf_file": "collection/document/58fe2338e889243b4ba8824428827d3aacec97485dfda966b4618b8798259f35.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SOX",
+  "local-plan-boundary": "E60000267",
+  "local-planning-authorities": [
+    "E60000267"
+  ]
+}

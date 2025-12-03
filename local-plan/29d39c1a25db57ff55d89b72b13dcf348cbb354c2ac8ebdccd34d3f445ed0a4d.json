@@ -1,0 +1,29 @@
+{
+  "name": "LBBD Local Plan 2020-2037",
+  "organisation-name": "London Borough of Barking and Dagenham",
+  "period-start-date": 2020,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Barking and Dagenham",
+      "required-housing": 38864,
+      "allocated-housing": "",
+      "windfall-housing": 853,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2287,
+      "pages": "29-31, 103",
+      "notes": "Stepped requirements: 2121 p.a. (2020-2028/29), 2876 p.a. (2029-2033/34), 2085 p.a. (2034-2037). Housing supply of over 40,000 homes anticipated from Strategic Area policies. Windfall figure includes 472 homes from small sites and 381 homes expected/delivered through general windfall.",
+      "organisation": "local-authority:BDG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "29d39c1a25db57ff55d89b72b13dcf348cbb354c2ac8ebdccd34d3f445ed0a4d",
+  "pdf_file": "collection/document/29d39c1a25db57ff55d89b72b13dcf348cbb354c2ac8ebdccd34d3f445ed0a4d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BDG",
+  "local-plan-boundary": "E60000202",
+  "local-planning-authorities": [
+    "E60000202"
+  ]
+}

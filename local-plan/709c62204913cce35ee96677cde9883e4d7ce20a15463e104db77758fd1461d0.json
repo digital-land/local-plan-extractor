@@ -1,0 +1,29 @@
+{
+  "name": "Allocations & Development Management DPD (Final Proposed Modifications)",
+  "organisation-name": "Newark & Sherwood District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newark & Sherwood District Council",
+      "required-housing": 14800,
+      "allocated-housing": 3118,
+      "windfall-housing": "",
+      "committed-housing": 7526,
+      "broad-locations-housing": "",
+      "annual-required-housing": 740,
+      "pages": "1, 21-22, 27-28",
+      "notes": "Total supply of 15,199 exceeds requirement of 14,800. Committed housing includes planning permissions on allocated large sites, unallocated large sites, medium and small sites. Housing trajectory shows detailed breakdown by site and year.",
+      "organisation": "local-authority:NEA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "709c62204913cce35ee96677cde9883e4d7ce20a15463e104db77758fd1461d0",
+  "pdf_file": "collection/document/709c62204913cce35ee96677cde9883e4d7ce20a15463e104db77758fd1461d0.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NEA",
+  "local-plan-boundary": "E60000111",
+  "local-planning-authorities": [
+    "E60000111"
+  ]
+}

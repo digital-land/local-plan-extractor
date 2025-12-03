@@ -1,0 +1,29 @@
+{
+  "name": "Watford Local Plan 2021-2038",
+  "organisation-name": "Watford Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Watford Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is an adoption statement only - no housing numbers are provided in this procedural document",
+      "organisation": "local-authority:WAT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "8a068826f9c9d7be1e74b9dd1a5bb9f0108eead7d548b6268766cf76238887a1",
+  "pdf_file": "collection/document/8a068826f9c9d7be1e74b9dd1a5bb9f0108eead7d548b6268766cf76238887a1.pdf",
+  "pages_analysed": 2,
+  "organisation": "local-authority:WAT",
+  "local-plan-boundary": "E60000174",
+  "local-planning-authorities": [
+    "E60000174"
+  ]
+}

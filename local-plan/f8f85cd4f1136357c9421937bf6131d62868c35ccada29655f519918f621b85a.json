@@ -1,0 +1,25 @@
+{
+  "name": "London Legacy Development Corporation Revised Local Plan",
+  "organisation-name": "London Legacy Development Corporation",
+  "period-start-date": 2020,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Legacy Development Corporation",
+      "required-housing": 24000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1500,
+      "pages": "14, 46",
+      "notes": "Housing target increased from 22,000 to 24,000 through main modifications. Plan anticipates 58% from existing permitted schemes, 25% from site allocations, and 17% from additional capacity/windfalls. Five-year housing land supply shows 10,934 dwellings expected 2020/21-2024/25.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "f8f85cd4f1136357c9421937bf6131d62868c35ccada29655f519918f621b85a",
+  "pdf_file": "collection/document/f8f85cd4f1136357c9421937bf6131d62868c35ccada29655f519918f621b85a.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

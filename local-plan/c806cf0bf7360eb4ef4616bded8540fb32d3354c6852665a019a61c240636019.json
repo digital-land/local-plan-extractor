@@ -1,0 +1,29 @@
+{
+  "name": "Sutton Local Plan 2018",
+  "organisation-name": "London Borough of Sutton",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Sutton",
+      "required-housing": 6405,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 427,
+      "pages": "2-3, 17",
+      "notes": "Plan aims to deliver at least 6,405 new homes over plan period 2016-2031 (427 homes per annum). Housing distributed as: Sutton Town Centre 55% (c3,400), Hackbridge 15% (c1,100), Wallington 10% (c635), Other District Centres 10% (c635), Suburban Heartlands 10% (c635). Specific breakdown of allocated vs windfall vs committed not clearly stated in document.",
+      "organisation": "local-authority:STN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c806cf0bf7360eb4ef4616bded8540fb32d3354c6852665a019a61c240636019",
+  "pdf_file": "collection/document/c806cf0bf7360eb4ef4616bded8540fb32d3354c6852665a019a61c240636019.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STN",
+  "local-plan-boundary": "E60000219",
+  "local-planning-authorities": [
+    "E60000219"
+  ]
+}

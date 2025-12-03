@@ -1,0 +1,29 @@
+{
+  "name": "Wirral Local Plan 2022 to 2040",
+  "organisation-name": "Wirral Council",
+  "period-start-date": 2022,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wirral Council",
+      "required-housing": 14400,
+      "allocated-housing": 8734,
+      "windfall-housing": 1934,
+      "committed-housing": 1546,
+      "broad-locations-housing": "",
+      "annual-required-housing": 800,
+      "pages": "48-54",
+      "notes": "Total supply is 11,814 after 10% discount applied. Required housing is 800 dwellings per year (750 per annum based on standard methodology plus 50 for demolitions). Housing delivery varies by phase: 500 dpa years 0-5, 850 dpa years 6-10, 1,025 dpa years 11 onward. Major focus on regeneration areas providing approximately 50% of planned growth.",
+      "organisation": "local-authority:WRL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f8991463077a2865d9f5fe4699e72f5d7e47322dff7d40891c4d0a4b6b138b75",
+  "pdf_file": "collection/document/f8991463077a2865d9f5fe4699e72f5d7e47322dff7d40891c4d0a4b6b138b75.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WRL",
+  "local-plan-boundary": "E60000051",
+  "local-planning-authorities": [
+    "E60000051"
+  ]
+}

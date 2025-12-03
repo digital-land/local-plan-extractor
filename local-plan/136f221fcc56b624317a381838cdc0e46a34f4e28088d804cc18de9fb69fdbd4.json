@@ -1,0 +1,29 @@
+{
+  "name": "Staffordshire Moorlands Local Plan",
+  "organisation-name": "Staffordshire Moorlands District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Staffordshire Moorlands District Council",
+      "required-housing": 6080,
+      "allocated-housing": 3763,
+      "windfall-housing": 660,
+      "committed-housing": 1528,
+      "broad-locations-housing": "",
+      "annual-required-housing": 320,
+      "pages": "42-48, 94-96",
+      "notes": "Net requirement after completions and commitments is 3763 dwellings. Windfall allowance includes 330 small sites plus 330 for larger villages. Total completions 2014-2019 were 812. Plan excludes Peak District National Park areas which have separate policy framework.",
+      "organisation": "local-authority:STF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "136f221fcc56b624317a381838cdc0e46a34f4e28088d804cc18de9fb69fdbd4",
+  "pdf_file": "collection/document/136f221fcc56b624317a381838cdc0e46a34f4e28088d804cc18de9fb69fdbd4.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STF",
+  "local-plan-boundary": "E60000123",
+  "local-planning-authorities": [
+    "E60000123"
+  ]
+}

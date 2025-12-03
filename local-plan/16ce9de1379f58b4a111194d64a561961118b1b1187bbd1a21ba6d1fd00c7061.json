@@ -1,0 +1,29 @@
+{
+  "name": "Local Development Scheme",
+  "organisation-name": "Broxbourne Borough Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxbourne Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a Local Development Scheme/timetable document for preparing a future Local Plan - it does not contain housing numbers or allocations",
+      "organisation": "local-authority:BRX"
+    }
+  ],
+  "confidence": "high",
+  "authority": "16ce9de1379f58b4a111194d64a561961118b1b1187bbd1a21ba6d1fd00c7061",
+  "pdf_file": "collection/document/16ce9de1379f58b4a111194d64a561961118b1b1187bbd1a21ba6d1fd00c7061.pdf",
+  "pages_analysed": 3,
+  "organisation": "local-authority:BRX",
+  "local-plan-boundary": "E60000166",
+  "local-planning-authorities": [
+    "E60000166"
+  ]
+}

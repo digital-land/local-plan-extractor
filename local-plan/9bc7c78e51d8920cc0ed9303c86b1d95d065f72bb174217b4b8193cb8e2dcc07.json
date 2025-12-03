@@ -1,0 +1,29 @@
+{
+  "name": "Arun Local Plan 2011-2031",
+  "organisation-name": "Arun District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Arun District Council",
+      "required-housing": 20000,
+      "allocated-housing": 12421,
+      "windfall-housing": 847,
+      "committed-housing": 3970,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1000,
+      "pages": "116-120",
+      "notes": "Required housing is 'at least 20,000'. Allocated housing includes Strategic Site Allocations (10,750), Neighbourhood Plan Allocations (421), Deliverable HELAA sites (530) and Non-Strategic Sites (1,250). Committed housing includes completions (3,669), large site commitments (3,050) and small site commitments (251). Annual requirement is phased but averages 1,000 per year.",
+      "organisation": "local-authority:ARU"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9bc7c78e51d8920cc0ed9303c86b1d95d065f72bb174217b4b8193cb8e2dcc07",
+  "pdf_file": "collection/document/9bc7c78e51d8920cc0ed9303c86b1d95d065f72bb174217b4b8193cb8e2dcc07.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ARU",
+  "local-plan-boundary": "E60000282",
+  "local-planning-authorities": [
+    "E60000282"
+  ]
+}

@@ -1,25 +1,58 @@
 {
-  "name": "Planning for the Future Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne 2010-2030",
+  "name": "Planning for the Future Core Strategy and Urban Core Plan",
   "organisation-name": "Gateshead Council, Newcastle City Council",
   "period-start-date": 2010,
   "period-end-date": 2030,
   "housing-numbers": [
     {
-      "organisation-name": "Gateshead and Newcastle (Combined)",
-      "required-housing": 30000,
+      "organisation-name": "Gateshead Council",
+      "required-housing": "",
       "allocated-housing": 8400,
       "windfall-housing": "",
-      "committed-housing": 21600,
+      "committed-housing": "",
       "broad-locations-housing": "",
+      "annual-required-housing": 750,
+      "pages": "43, 76",
+      "notes": "8,400 homes allocated in Neighbourhood and Village Growth Areas. Annual requirement of approximately 750 per annum for Gateshead portion of joint 1,500 target.",
+      "organisation": "local-authority:GAT"
+    },
+    {
+      "organisation-name": "Newcastle City Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 750,
+      "pages": "43, 76",
+      "notes": "Annual requirement of approximately 750 per annum for Newcastle portion of joint 1,500 target. Specific allocations not clearly identified in available pages.",
+      "organisation": "local-authority:NET"
+    },
+    {
+      "organisation-name": "Gateshead Council, Newcastle City Council",
+      "organisation": "joint-planning-authority:GAT-NET",
+      "required-housing": 0,
+      "allocated-housing": 8400,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
       "annual-required-housing": 1500,
-      "pages": "76, 43",
-      "notes": "Joint plan with combined targets. 30,000 total homes excluding purpose-built student accommodation. Approximately 21,600 homes in existing built-up area, 8,400 in Neighbourhood and Village Growth Areas. Annual rate of 1,500 homes per annum mentioned.",
-      "organisation": ""
+      "pages": "",
+      "notes": ""
     }
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "authority": "079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199",
-  "pdf_file": "collection/endpoint/079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199.pdf",
+  "pdf_file": "collection/document/079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199.pdf",
   "pages_analysed": 32,
-  "organisation": ""
+  "organisation": "joint-planning-authority:GAT-NET",
+  "organisations": [
+    "local-authority:GAT",
+    "local-authority:NET"
+  ],
+  "local-plan-boundary": "E60000008-E60000009",
+  "local-planning-authorities": [
+    "E60000008",
+    "E60000009"
+  ]
 }

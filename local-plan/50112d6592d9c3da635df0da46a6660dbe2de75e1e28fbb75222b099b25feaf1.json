@@ -1,0 +1,29 @@
+{
+  "name": "Hammersmith & Fulham Local Plan 2018",
+  "organisation-name": "London Borough of Hammersmith & Fulham",
+  "period-start-date": 2016,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Hammersmith & Fulham",
+      "required-housing": 22000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1031,
+      "pages": "90-91",
+      "notes": "London Plan (2016) minimum target of 1,031 additional dwellings per year up to 2025, continuing to 2035. Total 22,000 homes distributed across regeneration areas: White City 6,000, Hammersmith Town Centre 2,800, Fulham Regeneration Area 7,000, South Fulham Riverside 4,000, Rest of borough 2,200",
+      "organisation": "local-authority:HMF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "50112d6592d9c3da635df0da46a6660dbe2de75e1e28fbb75222b099b25feaf1",
+  "pdf_file": "collection/document/50112d6592d9c3da635df0da46a6660dbe2de75e1e28fbb75222b099b25feaf1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HMF",
+  "local-plan-boundary": "E60000191",
+  "local-planning-authorities": [
+    "E60000191"
+  ]
+}

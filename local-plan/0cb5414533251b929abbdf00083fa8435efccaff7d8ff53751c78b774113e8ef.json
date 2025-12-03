@@ -1,0 +1,29 @@
+{
+  "name": "Tewkesbury Borough Plan: Pre-Submission",
+  "organisation-name": "Tewkesbury Borough Council",
+  "period-start-date": "",
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tewkesbury Borough Council",
+      "required-housing": 129,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "8",
+      "notes": "Total remaining requirement: 19 dwellings at Rural Service Centres and 110 dwellings at Service Villages based on JCS Housing Implementation Strategy (June 2017). Much of the overall development has already been committed.",
+      "organisation": "local-authority:TEW"
+    }
+  ],
+  "confidence": "low",
+  "authority": "0cb5414533251b929abbdf00083fa8435efccaff7d8ff53751c78b774113e8ef",
+  "pdf_file": "collection/document/0cb5414533251b929abbdf00083fa8435efccaff7d8ff53751c78b774113e8ef.pdf",
+  "pages_analysed": 31,
+  "organisation": "local-authority:TEW",
+  "local-plan-boundary": "E60000313",
+  "local-planning-authorities": [
+    "E60000313"
+  ]
+}

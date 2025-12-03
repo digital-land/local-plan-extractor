@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Local Plan",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": 52500,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2625,
+      "pages": "6",
+      "notes": "Figure mentioned in context of SA Report Addendum regarding delivery of approximately 52,500 houses in the period to 2030. This is a post-adoption statement so detailed breakdown not provided.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "8761c9715887282055b2c488cba23798f51fccc0e7bbdba30ba48e1bb3b79c14",
+  "pdf_file": "collection/document/8761c9715887282055b2c488cba23798f51fccc0e7bbdba30ba48e1bb3b79c14.pdf",
+  "pages_analysed": 6,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

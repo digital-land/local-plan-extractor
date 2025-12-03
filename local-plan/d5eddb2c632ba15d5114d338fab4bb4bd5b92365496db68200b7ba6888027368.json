@@ -1,0 +1,29 @@
+{
+  "name": "Bury Unitary Development Plan",
+  "organisation-name": "Bury Metropolitan Borough Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "Bury Metropolitan Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "1-2",
+      "notes": "Document provides strategic context and background but no specific housing numbers found in the pages available. Historical housing data shows average of 1,250 dwellings per annum in late 1960s-early 1970s, reduced to 413 dwellings per annum during 1980s, but these are completions not requirements.",
+      "organisation": "local-authority:BUR"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "d5eddb2c632ba15d5114d338fab4bb4bd5b92365496db68200b7ba6888027368",
+  "pdf_file": "collection/document/d5eddb2c632ba15d5114d338fab4bb4bd5b92365496db68200b7ba6888027368.pdf",
+  "pages_analysed": 2,
+  "organisation": "local-authority:BUR",
+  "local-plan-boundary": "E60000026",
+  "local-planning-authorities": [
+    "E60000026"
+  ]
+}

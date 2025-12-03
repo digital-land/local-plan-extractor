@@ -1,0 +1,58 @@
+{
+  "name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle upon Tyne 2010-2030",
+  "organisation-name": "Gateshead Council, Newcastle City Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Gateshead Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Housing numbers not available - this is an adoption statement only, not the full plan document",
+      "organisation": "local-authority:GAT"
+    },
+    {
+      "organisation-name": "Newcastle City Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "Housing numbers not available - this is an adoption statement only, not the full plan document",
+      "organisation": "local-authority:NET"
+    },
+    {
+      "organisation-name": "Gateshead Council, Newcastle City Council",
+      "organisation": "joint-planning-authority:GAT-NET",
+      "required-housing": 0,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 0,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "9f63322e7f045dc8cef91d60469373bf4f19fb958f0d73488747bfaae3d2f795",
+  "pdf_file": "collection/document/9f63322e7f045dc8cef91d60469373bf4f19fb958f0d73488747bfaae3d2f795.pdf",
+  "pages_analysed": 1,
+  "organisation": "joint-planning-authority:GAT-NET",
+  "organisations": [
+    "local-authority:GAT",
+    "local-authority:NET"
+  ],
+  "local-plan-boundary": "E60000008-E60000009",
+  "local-planning-authorities": [
+    "E60000008",
+    "E60000009"
+  ]
+}

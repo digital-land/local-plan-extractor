@@ -1,0 +1,29 @@
+{
+  "name": "Adopted Replacement Harlow Local Plan",
+  "organisation-name": "Harlow Council",
+  "period-start-date": 1996,
+  "period-end-date": 2011,
+  "housing-numbers": [
+    {
+      "organisation-name": "Harlow Council",
+      "required-housing": 5450,
+      "allocated-housing": 1692,
+      "windfall-housing": 400,
+      "committed-housing": 651,
+      "broad-locations-housing": "",
+      "annual-required-housing": 363,
+      "pages": "25-26, 6",
+      "notes": "Structure Plan requirement 1996-2011 was 5,450 dwellings. By April 2003, 2,758 completions had occurred, leaving 2,692 remaining. Allocated sites provide 1,692 dwellings (H2/1 to H2/11). Windfall estimate is 50 dwellings per annum for 2003-2011 period (400 total). Commitments of 651 were at April 2003.",
+      "organisation": "local-authority:HAR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "54ad7275700cb86b80e3bf68509835f560152a54059439b9687fc827bfb0585f",
+  "pdf_file": "collection/document/54ad7275700cb86b80e3bf68509835f560152a54059439b9687fc827bfb0585f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HAR",
+  "local-plan-boundary": "E60000161",
+  "local-planning-authorities": [
+    "E60000161"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Broxbourne Local Plan 2018-2033",
+  "organisation-name": "Broxbourne Borough Council",
+  "period-start-date": 2018,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxbourne Borough Council",
+      "required-housing": 7718,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 454,
+      "pages": "30",
+      "notes": "Total housing requirement of 7,718 homes over plan period 2016-2033 with 454 dwellings per annum. Document mentions strategic sites including Brookfield Riverside, Brookfield Garden Village, Cheshunt Lakeside, Rosedale Park, High Leigh Garden Village, Park Plaza, and Waltham Cross Town Centre, but specific allocation numbers not provided in this post-adoption statement.",
+      "organisation": "local-authority:BRX"
+    }
+  ],
+  "confidence": "high",
+  "authority": "89ce0deac7d279b2da5af7cd1608182dd2ae826a4c51201500ac4db1462e0c32",
+  "pdf_file": "collection/document/89ce0deac7d279b2da5af7cd1608182dd2ae826a4c51201500ac4db1462e0c32.pdf",
+  "pages_analysed": 18,
+  "organisation": "local-authority:BRX",
+  "local-plan-boundary": "E60000166",
+  "local-planning-authorities": [
+    "E60000166"
+  ]
+}

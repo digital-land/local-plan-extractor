@@ -1,0 +1,29 @@
+{
+  "name": "Dacorum Local Plan Revised Strategy for Growth",
+  "organisation-name": "Dacorum Borough Council",
+  "period-start-date": "",
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Dacorum Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": 305,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "C20",
+      "notes": "This is a HRA document focusing on environmental assessment rather than detailed housing numbers. Only windfall figure of 305 dwellings for countryside areas was clearly identified. Settlement-specific numbers mentioned include: Hemel Hempstead 11,742 homes, Berkhamsted 1,264 homes, Tring 522 homes, Kings Langley 68 homes, Bovingdon 230 homes, Markyate 53 homes, plus 466 homes in countryside areas.",
+      "organisation": "local-authority:DAC"
+    }
+  ],
+  "confidence": "low",
+  "authority": "60e2f99e8259fa0eef7fa3c8b0a8870a2a25d34b1dc411a3cffdc0f0ed340518",
+  "pdf_file": "collection/document/60e2f99e8259fa0eef7fa3c8b0a8870a2a25d34b1dc411a3cffdc0f0ed340518.pdf",
+  "pages_analysed": 24,
+  "organisation": "local-authority:DAC",
+  "local-plan-boundary": "E60000167",
+  "local-planning-authorities": [
+    "E60000167"
+  ]
+}

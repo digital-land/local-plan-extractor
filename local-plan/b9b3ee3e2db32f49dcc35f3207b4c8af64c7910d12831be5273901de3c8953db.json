@@ -1,0 +1,29 @@
+{
+  "name": "Warrington Local Plan",
+  "organisation-name": "Warrington Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "organisation-name": "Warrington Borough Council",
+      "required-housing": 14688,
+      "allocated-housing": 3801,
+      "windfall-housing": "",
+      "committed-housing": 10887,
+      "broad-locations-housing": "",
+      "annual-required-housing": 816,
+      "pages": "39-42, 268-271",
+      "notes": "Plan period 2021/22 to 2038/39 (18 years). Housing requirement stepped: 678 per annum years 1-5, then 870 per annum years 6-18. Committed housing includes existing urban area capacity (10,887 homes from SHLAA). Green Belt allocations: SEWUE 2,400 homes in plan period (4,200 total), Fiddlers Ferry 860 homes, Thelwall Heys 310 homes, outlying settlements 801 homes.",
+      "organisation": "local-authority:WRT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b9b3ee3e2db32f49dcc35f3207b4c8af64c7910d12831be5273901de3c8953db",
+  "pdf_file": "collection/document/b9b3ee3e2db32f49dcc35f3207b4c8af64c7910d12831be5273901de3c8953db.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WRT",
+  "local-plan-boundary": "E60000018",
+  "local-planning-authorities": [
+    "E60000018"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lambeth Local Plan 2020\u20132035",
+  "organisation-name": "Lambeth Council",
+  "period-start-date": 2020,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lambeth Council",
+      "required-housing": 18416,
+      "allocated-housing": "",
+      "windfall-housing": 4000,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1335,
+      "pages": "33, 49, 387",
+      "notes": "London Plan requires 13,350 homes 2019/20-2028/29 (1,335 dpa). Plan period 2020-2035 with indicative 5,066 homes years 11-15 (1,013 dpa). Small sites windfall estimated at 400 dpa. Council preparing Site Allocations DPD for detailed allocations.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "8aa61559d5e985261e9af5bdb3a049cd8416426987b9653d8a49d2b17d888b6f",
+  "pdf_file": "collection/document/8aa61559d5e985261e9af5bdb3a049cd8416426987b9653d8a49d2b17d888b6f.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

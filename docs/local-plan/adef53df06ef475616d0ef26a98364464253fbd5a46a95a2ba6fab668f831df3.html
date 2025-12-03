@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>South East Lincolnshire Local Plan 2011-36 - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      South East Lincolnshire Local Plan 2011-36
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+    <h1 class="govuk-heading-xl">South East Lincolnshire Local Plan 2011-36</h1>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div id="map"></div>
+  </div>
+</div>
+
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/joint-planning-authority:BOT-SHO">joint-planning-authority:BOT-SHO</a></code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisations</dt>
+        <dd class="govuk-summary-list__value">
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:BOT/" class="govuk-link">
+                Boston Borough Council
+              </a>
+            </div>
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:SHO/" class="govuk-link">
+                South Holland District Council
+              </a>
+            </div>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>E60000092-E60000096</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000092">E60000092</a></code>
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000096">E60000096</a></code>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2011 to 2036
+          (25 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          collection/document/adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3.pdf
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+
+    
+    <div class="organisation-breakdown">
+      <h2 class="govuk-heading-l">Housing numbers</h2>
+
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Boston Borough Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:BOT</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>7,744 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              310 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,290 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              2,627 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              688 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              58, 61-62, 177
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Total requirement 7,744 dwellings at 310 per annum. Allocated sites total 4,290 homes across 19 sites. Windfall allowance applied from 2020/21 onwards. Commitments include major Q1 development (502 homes) and other smaller sites minus 10% lapse rate.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          South Holland District Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:SHO</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>11,681 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              467 homes per year
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,413 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              848 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              58, 60, 179-180
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Total requirement 11,681 dwellings at 467 per annum. Windfall allowance of 53 per annum from 2020/21. Major commitments include Holland Park (1,900 homes) and Manor Farm Holbeach (838 homes). Allocated housing numbers not clearly distinguished from commitments in the document.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Boston Borough Council, South Holland District Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>joint-planning-authority:BOT-SHO</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>19,425 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              777 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,290 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              7,040 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,536 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Broad locations housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              0 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+        </dl>
+      </div>
+      
+    </div>
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "authority": "adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3",
+  "confidence": "medium",
+  "housing-numbers": [
+    {
+      "allocated-housing": 4290,
+      "annual-required-housing": 310,
+      "broad-locations-housing": "",
+      "committed-housing": 2627,
+      "notes": "Total requirement 7,744 dwellings at 310 per annum. Allocated sites total 4,290 homes across 19 sites. Windfall allowance applied from 2020/21 onwards. Commitments include major Q1 development (502 homes) and other smaller sites minus 10% lapse rate.",
+      "organisation": "local-authority:BOT",
+      "organisation-name": "Boston Borough Council",
+      "pages": "58, 61-62, 177",
+      "required-housing": 7744,
+      "windfall-housing": 688
+    },
+    {
+      "allocated-housing": "",
+      "annual-required-housing": 467,
+      "broad-locations-housing": "",
+      "committed-housing": 4413,
+      "notes": "Total requirement 11,681 dwellings at 467 per annum. Windfall allowance of 53 per annum from 2020/21. Major commitments include Holland Park (1,900 homes) and Manor Farm Holbeach (838 homes). Allocated housing numbers not clearly distinguished from commitments in the document.",
+      "organisation": "local-authority:SHO",
+      "organisation-name": "South Holland District Council",
+      "pages": "58, 60, 179-180",
+      "required-housing": 11681,
+      "windfall-housing": 848
+    },
+    {
+      "allocated-housing": 4290,
+      "annual-required-housing": 777,
+      "broad-locations-housing": 0,
+      "committed-housing": 7040,
+      "notes": "",
+      "organisation": "joint-planning-authority:BOT-SHO",
+      "organisation-name": "Boston Borough Council, South Holland District Council",
+      "pages": "",
+      "required-housing": 19425,
+      "windfall-housing": 1536
+    }
+  ],
+  "local-plan-boundary": "E60000092-E60000096",
+  "local-planning-authorities": [
+    "E60000092",
+    "E60000096"
+  ],
+  "name": "South East Lincolnshire Local Plan 2011-36",
+  "organisation": "joint-planning-authority:BOT-SHO",
+  "organisation-name": "Boston Borough Council, South Holland District Council",
+  "organisations": [
+    "local-authority:BOT",
+    "local-authority:SHO"
+  ],
+  "pages_analysed": 32,
+  "pdf_file": "collection/document/adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3.pdf",
+  "period-end-date": 2036,
+  "period-start-date": 2011
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["E60000092", "E60000096"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
+
+
+</body>
+</html>

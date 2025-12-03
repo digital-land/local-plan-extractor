@@ -1,0 +1,29 @@
+{
+  "name": "City Plan 2036",
+  "organisation-name": "City of London Corporation",
+  "period-start-date": "",
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London Corporation",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is an IIA audit statement document - housing numbers not available in this document",
+      "organisation": "local-authority:LND"
+    }
+  ],
+  "confidence": "low",
+  "authority": "19f06cc838eb9db30e684ea5293d899a672582a8008a837f54f4aeec063f24b3",
+  "pdf_file": "collection/document/19f06cc838eb9db30e684ea5293d899a672582a8008a837f54f4aeec063f24b3.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:LND",
+  "local-plan-boundary": "E60000189",
+  "local-planning-authorities": [
+    "E60000189"
+  ]
+}

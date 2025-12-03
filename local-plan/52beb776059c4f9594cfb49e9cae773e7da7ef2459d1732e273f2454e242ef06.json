@@ -1,0 +1,29 @@
+{
+  "name": "Torbay Local Plan 2012-2030",
+  "organisation-name": "Torbay Council",
+  "period-start-date": 2012,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Torbay Council",
+      "required-housing": 8900,
+      "allocated-housing": "",
+      "windfall-housing": 2200,
+      "committed-housing": 2600,
+      "broad-locations-housing": "",
+      "annual-required-housing": 495,
+      "pages": "46, 89, 90, 92",
+      "notes": "Plan provides for 8,900 homes over 2012-2030 period. Housing trajectory shows 400 dwellings per year 2012/13-2016/17, 495 per year 2017/18-2021/22, and 555 per year 2022/23-2029-30. Committed housing includes unimplemented planning permissions (~1,900) plus sites like Great Parks. Small windfall sites of less than 6 homes expected to provide 2,200 homes. Housing supply comes from existing commitments, identified sites for Neighbourhood Plans, and Future Growth Areas.",
+      "organisation": "local-authority:TOB"
+    }
+  ],
+  "confidence": "high",
+  "authority": "52beb776059c4f9594cfb49e9cae773e7da7ef2459d1732e273f2454e242ef06",
+  "pdf_file": "collection/document/52beb776059c4f9594cfb49e9cae773e7da7ef2459d1732e273f2454e242ef06.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TOB",
+  "local-plan-boundary": "E60000298",
+  "local-planning-authorities": [
+    "E60000298"
+  ]
+}

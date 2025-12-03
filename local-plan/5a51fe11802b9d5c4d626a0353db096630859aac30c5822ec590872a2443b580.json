@@ -1,0 +1,29 @@
+{
+  "name": "Reading Borough Local Plan",
+  "organisation-name": "Reading Borough Council",
+  "period-start-date": 2013,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Reading Borough Council",
+      "required-housing": 16077,
+      "allocated-housing": 4790,
+      "windfall-housing": 2159,
+      "committed-housing": 4696,
+      "broad-locations-housing": "",
+      "annual-required-housing": 699,
+      "pages": "72-73, 246",
+      "notes": "Plan provides 15,847 homes with 230 dwelling shortfall to be met elsewhere in Western Berkshire Housing Market Area. Commitments are permissions >10 dwellings as of March 2019. Windfall based on 127 per year for small sites <10 dwellings 2019-2036.",
+      "organisation": "local-authority:RDG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5a51fe11802b9d5c4d626a0353db096630859aac30c5822ec590872a2443b580",
+  "pdf_file": "collection/document/5a51fe11802b9d5c4d626a0353db096630859aac30c5822ec590872a2443b580.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RDG",
+  "local-plan-boundary": "E60000227",
+  "local-planning-authorities": [
+    "E60000227"
+  ]
+}

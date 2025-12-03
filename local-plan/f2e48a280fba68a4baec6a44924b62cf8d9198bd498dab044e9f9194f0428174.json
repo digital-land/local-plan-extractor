@@ -1,0 +1,29 @@
+{
+  "name": "Chorley Local Plan",
+  "organisation-name": "Chorley Council",
+  "period-start-date": 2010,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Chorley Council",
+      "required-housing": 6672,
+      "allocated-housing": 5327,
+      "windfall-housing": 451,
+      "committed-housing": 332,
+      "broad-locations-housing": "",
+      "annual-required-housing": 417,
+      "pages": "16-17, 20-22",
+      "notes": "Plan period 2010-2026. Required housing is Core Strategy minimum requirement of 417 dwellings per year over 16 years. Allocated housing allows for 5% slippage. Committed housing refers to non-allocated existing housing commitments with planning permission (allows for 20% slippage). Total supply meets requirement through combination of allocations, commitments and windfalls.",
+      "organisation": "local-authority:CHO"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f2e48a280fba68a4baec6a44924b62cf8d9198bd498dab044e9f9194f0428174",
+  "pdf_file": "collection/document/f2e48a280fba68a4baec6a44924b62cf8d9198bd498dab044e9f9194f0428174.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CHO",
+  "local-plan-boundary": "E60000036",
+  "local-planning-authorities": [
+    "E60000036"
+  ]
+}

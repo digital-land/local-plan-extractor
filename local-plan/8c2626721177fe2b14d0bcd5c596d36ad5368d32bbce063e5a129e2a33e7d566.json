@@ -1,0 +1,29 @@
+{
+  "name": "Plan:MK 2016-2031",
+  "organisation-name": "Milton Keynes Council",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Milton Keynes Council",
+      "required-housing": 26500,
+      "allocated-housing": 10044,
+      "windfall-housing": 1235,
+      "committed-housing": 20888,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1766,
+      "pages": "12, 14, 19-20, 23-24",
+      "notes": "Plan allocates land for 30,900 dwellings to provide 16.7% buffer above OAN of 26,500. Committed housing includes 2,750 completions 2016/17-2017/18 plus 18,138 existing allocations/permissions. Windfall consists of sites under 10 dwellings at 95 dwellings per annum.",
+      "organisation": "local-authority:MIK"
+    }
+  ],
+  "confidence": "high",
+  "authority": "8c2626721177fe2b14d0bcd5c596d36ad5368d32bbce063e5a129e2a33e7d566",
+  "pdf_file": "collection/document/8c2626721177fe2b14d0bcd5c596d36ad5368d32bbce063e5a129e2a33e7d566.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MIK",
+  "local-plan-boundary": "E60000225",
+  "local-planning-authorities": [
+    "E60000225"
+  ]
+}

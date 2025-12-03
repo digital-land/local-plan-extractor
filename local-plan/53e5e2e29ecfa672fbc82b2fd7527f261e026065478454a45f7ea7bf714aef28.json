@@ -1,0 +1,25 @@
+{
+  "name": "Greater Norwich Local Plan",
+  "organisation-name": "Broadland District Council, Norwich City Council, South Norfolk Council",
+  "period-start-date": 2018,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Greater Norwich (joint plan area)",
+      "required-housing": 40541,
+      "allocated-housing": 10938,
+      "windfall-housing": 1625,
+      "committed-housing": 32478,
+      "broad-locations-housing": "",
+      "annual-required-housing": 2027,
+      "pages": "46-47, 54-55",
+      "notes": "Joint plan total. Total provision is 45,041 homes including 11% buffer. Windfall includes 830 allowance plus 795 from Policy 7.5. Committed housing includes completions 2018-2022 plus existing permissions and allocations.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "53e5e2e29ecfa672fbc82b2fd7527f261e026065478454a45f7ea7bf714aef28",
+  "pdf_file": "collection/document/53e5e2e29ecfa672fbc82b2fd7527f261e026065478454a45f7ea7bf714aef28.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

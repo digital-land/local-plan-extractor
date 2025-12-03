@@ -1,0 +1,29 @@
+{
+  "name": "St Helens Borough Local Plan up to 2037",
+  "organisation-name": "St Helens Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "St Helens Borough Council",
+      "required-housing": 10206,
+      "allocated-housing": 6948,
+      "windfall-housing": 1488,
+      "committed-housing": 3074,
+      "broad-locations-housing": "",
+      "annual-required-housing": 486,
+      "pages": "46-47, 51-52, 54",
+      "notes": "Required housing is for full plan period 2016-2037. Allocated housing from Table 4.5 shows 9 specific site allocations. Committed housing represents completions 2016-2021. Windfall based on small sites allowance of 93 dwellings per annum.",
+      "organisation": "local-authority:SHN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "68798635ed964c8edb84d67e82bc4f8a826eb3a05ec67430b2ce611ea8feb76a",
+  "pdf_file": "collection/document/68798635ed964c8edb84d67e82bc4f8a826eb3a05ec67430b2ce611ea8feb76a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SHN",
+  "local-plan-boundary": "E60000050",
+  "local-planning-authorities": [
+    "E60000050"
+  ]
+}

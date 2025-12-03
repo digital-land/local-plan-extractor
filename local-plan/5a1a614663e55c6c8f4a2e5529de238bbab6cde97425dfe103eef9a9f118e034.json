@@ -1,0 +1,29 @@
+{
+  "name": "Rossendale Local Plan",
+  "organisation-name": "Rossendale Borough Council",
+  "period-start-date": 2019,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rossendale Borough Council",
+      "required-housing": 3191,
+      "allocated-housing": 1684,
+      "windfall-housing": 228,
+      "committed-housing": 1092,
+      "broad-locations-housing": "",
+      "annual-required-housing": 188,
+      "pages": "24-27, 61, 153",
+      "notes": "Housing requirement is 208 dwellings per annum for 2019/20-2020/21, then 185 dwellings per annum for 2021/22-2035/36. Total supply of 3175 dwellings comes from allocated sites (1684), other committed sites (1092), small sites allowance/windfall (228), and completions (171). Annual figure is weighted average over plan period.",
+      "organisation": "local-authority:ROS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5a1a614663e55c6c8f4a2e5529de238bbab6cde97425dfe103eef9a9f118e034",
+  "pdf_file": "collection/document/5a1a614663e55c6c8f4a2e5529de238bbab6cde97425dfe103eef9a9f118e034.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ROS",
+  "local-plan-boundary": "E60000043",
+  "local-planning-authorities": [
+    "E60000043"
+  ]
+}

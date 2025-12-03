@@ -1,0 +1,25 @@
+{
+  "name": "City of London Annual CIL Rate Summary 2023",
+  "organisation-name": "City of London",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "City of London",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is a CIL rate summary document, not a local plan - contains no housing numbers or requirements",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "ede27702991f38e32fd50b850064554f8ec9cb527922e358f32553c2ed0dda50",
+  "pdf_file": "collection/document/ede27702991f38e32fd50b850064554f8ec9cb527922e358f32553c2ed0dda50.pdf",
+  "pages_analysed": 1,
+  "organisation": ""
+}

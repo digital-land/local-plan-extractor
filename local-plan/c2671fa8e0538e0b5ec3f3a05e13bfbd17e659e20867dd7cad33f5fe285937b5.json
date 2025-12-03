@@ -1,0 +1,29 @@
+{
+  "name": "Fenland Draft Local Plan",
+  "organisation-name": "Fenland District Council",
+  "period-start-date": 2021,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Fenland District Council",
+      "required-housing": 10525,
+      "allocated-housing": 5098,
+      "windfall-housing": 1500,
+      "committed-housing": 4230,
+      "broad-locations-housing": "",
+      "annual-required-housing": 554,
+      "pages": "2, 6-7",
+      "notes": "Total district requirement is 10,525 dwellings. At April 2021, 4,230 dwellings had planning permission, leaving 6,295 to be identified through the Local Plan. Site allocations provide 5,098 dwellings, windfall contributes 1,500 dwellings.",
+      "organisation": "local-authority:FEN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c2671fa8e0538e0b5ec3f3a05e13bfbd17e659e20867dd7cad33f5fe285937b5",
+  "pdf_file": "collection/document/c2671fa8e0538e0b5ec3f3a05e13bfbd17e659e20867dd7cad33f5fe285937b5.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:FEN",
+  "local-plan-boundary": "E60000151",
+  "local-planning-authorities": [
+    "E60000151"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Oxford Local Plan 2036",
+  "organisation-name": "Oxford City Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Oxford City Council",
+      "required-housing": 27120,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1356,
+      "pages": "3, 8, 16, 31",
+      "notes": "Required housing based on 2018 SHMA roll-forward finding 1,356 dwellings per annum needed to meet affordable housing need (50% delivery). Plan takes capacity-based approach due to land constraints. Current evidence indicates capacity of 8,620 homes (HELAA 2018). Unmet need of 13,100 dwellings allocated to neighboring authorities.",
+      "organisation": "local-authority:OXO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "5ae4ab34ebf6645b4396b92d526fed307c08350c1d9c827c77adbc09d5bea4a2",
+  "pdf_file": "collection/document/5ae4ab34ebf6645b4396b92d526fed307c08350c1d9c827c77adbc09d5bea4a2.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:OXO",
+  "local-plan-boundary": "E60000266",
+  "local-planning-authorities": [
+    "E60000266"
+  ]
+}

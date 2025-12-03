@@ -1,0 +1,29 @@
+{
+  "name": "Cornwall Local Plan Strategic Policies",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": 52500,
+      "allocated-housing": 0,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 1500,
+      "annual-required-housing": 2625,
+      "pages": "3, 10, 32",
+      "notes": "Housing requirement increased from originally submitted 47,500 to 52,500 dwellings. Plan contains no specific site allocations - these will be made in subsequent Site Allocations Plan and Neighbourhood Plans. Broad locations are Eco-communities at West Carclaze/Baal (1,200) and Par Docks (300). Annual rate is 52,500 \u00f7 20 years = 2,625 dpa.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "af3bee55d8902bc37e7fe94678cc3e6b4c6c2e52b8c5ff8fb6a9a877a58f008b",
+  "pdf_file": "collection/document/af3bee55d8902bc37e7fe94678cc3e6b4c6c2e52b8c5ff8fb6a9a877a58f008b.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ]
+}

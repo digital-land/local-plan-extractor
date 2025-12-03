@@ -1,0 +1,86 @@
+{
+  "name": "Greater Nottingham Aligned Core Strategies Housing Provision Position Paper",
+  "organisation-name": "Broxtowe Borough Council, Erewash Borough Council, Gedling Borough Council, Nottingham City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxtowe Borough Council",
+      "required-housing": 6126,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 317,
+      "broad-locations-housing": "",
+      "annual-required-housing": 360,
+      "pages": "18",
+      "notes": "Re-based figures for 2011-2028 period. Committed housing is net completions 2009/10-2010/11 totaling 317 homes",
+      "organisation": "local-authority:BRT"
+    },
+    {
+      "organisation-name": "Erewash Borough Council",
+      "required-housing": 6214,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 416,
+      "broad-locations-housing": "",
+      "annual-required-housing": 366,
+      "pages": "18",
+      "notes": "Re-based figures for 2011-2028 period. Committed housing is net completions 2009/10-2010/11 totaling 416 homes",
+      "organisation": "local-authority:ERE"
+    },
+    {
+      "organisation-name": "Gedling Borough Council",
+      "required-housing": 7268,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 615,
+      "broad-locations-housing": "",
+      "annual-required-housing": 428,
+      "pages": "18",
+      "notes": "Re-based figures for 2011-2028 period. Committed housing is net completions 2009/10-2010/11 totaling 615 homes",
+      "organisation": "local-authority:GED"
+    },
+    {
+      "organisation-name": "Nottingham City Council",
+      "required-housing": 17165,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 1220,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1010,
+      "pages": "18",
+      "notes": "Re-based figures for 2011-2028 period. Committed housing is net completions 2009/10-2010/11 totaling 1220 homes",
+      "organisation": "local-authority:NGM"
+    },
+    {
+      "organisation-name": "Broxtowe Borough Council, Erewash Borough Council, Gedling Borough Council, Nottingham City Council",
+      "organisation": "joint-planning-authority:BRT-ERE-GED-NGM",
+      "required-housing": 36773,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 2568,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 2164,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "441959e5cab9a385e8eea0f8d26ba66da8b6ab97f8743d07a681ec3945c5b19a",
+  "pdf_file": "collection/document/441959e5cab9a385e8eea0f8d26ba66da8b6ab97f8743d07a681ec3945c5b19a.pdf",
+  "pages_analysed": 22,
+  "organisation": "joint-planning-authority:BRT-ERE-GED-NGM",
+  "organisations": [
+    "local-authority:BRT",
+    "local-authority:ERE",
+    "local-authority:GED",
+    "local-authority:NGM"
+  ],
+  "local-plan-boundary": "E60000108-E60000081-E60000109-E60000075",
+  "local-planning-authorities": [
+    "E60000108",
+    "E60000081",
+    "E60000109",
+    "E60000075"
+  ]
+}

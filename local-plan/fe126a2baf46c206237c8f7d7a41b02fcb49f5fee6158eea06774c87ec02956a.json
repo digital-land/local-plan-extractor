@@ -1,0 +1,29 @@
+{
+  "name": "Croydon Local Plan 2018",
+  "organisation-name": "London Borough of Croydon",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Croydon",
+      "required-housing": 32890,
+      "allocated-housing": 17730,
+      "windfall-housing": 10060,
+      "committed-housing": 4890,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1645,
+      "pages": "17, 18",
+      "notes": "Required housing is the planned target (32,890) rather than assessed need (44,149) due to land constraints. Allocated housing combines 10,760 from Croydon Opportunity Area and 6,970 from other allocations. Also includes 190 vacant homes to be returned to use.",
+      "organisation": "local-authority:CRY"
+    }
+  ],
+  "confidence": "high",
+  "authority": "fe126a2baf46c206237c8f7d7a41b02fcb49f5fee6158eea06774c87ec02956a",
+  "pdf_file": "collection/document/fe126a2baf46c206237c8f7d7a41b02fcb49f5fee6158eea06774c87ec02956a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CRY",
+  "local-plan-boundary": "E60000207",
+  "local-planning-authorities": [
+    "E60000207"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Infrastructure Funding Statement 2021/22",
+  "organisation-name": "South Lakeland District Council",
+  "period-start-date": 2021,
+  "period-end-date": 2022,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Lakeland District Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is an Infrastructure Funding Statement covering 2021/22 financial year, not a local plan document. It references the South Lakeland Local Plan (2003-2025) but does not contain housing numbers or allocations. The document focuses on CIL and Section 106 contributions for infrastructure delivery.",
+      "organisation": "local-authority:SLA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "45c5c3f0faec5d70cb948bea8cd017f7e569044ee5a502bd142beb6321b335d2",
+  "pdf_file": "collection/document/45c5c3f0faec5d70cb948bea8cd017f7e569044ee5a502bd142beb6321b335d2.pdf",
+  "pages_analysed": 26,
+  "organisation": "local-authority:SLA",
+  "local-plan-boundary": "E60000024",
+  "local-planning-authorities": [
+    "E60000024"
+  ]
+}
