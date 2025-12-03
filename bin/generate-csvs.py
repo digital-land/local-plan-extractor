@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-Generate local plan CSVs from source JSON files and housing data.
+Generate local plan CSVs from source JSON files and extracted housing data.
 
 This script creates three CSV files:
 1. local-plan.csv - Main local plan documents
 2. local-plan-document.csv - Individual plan documents
-3. local-plan-housing.csv - Housing requirements data
+3. local-plan-housing.csv - Housing requirements data (automatically loaded from local-plan/)
+
+Housing data is automatically loaded from extracted local plan JSON files in the local-plan/ directory.
 
 Usage:
-    python bin/generate-csvs.py                              # Process all LPAs
+    python bin/generate-csvs.py                              # Process all LPAs with auto-loaded housing data
     python bin/generate-csvs.py --lpa PEN,BOT,SHO           # Process specific LPAs
     python bin/generate-csvs.py --output-dir ./data/        # Specify output directory
-    python bin/generate-csvs.py --housing housing_data.csv  # Include housing data
+    python bin/generate-csvs.py --existing-datasets ./path/  # Reuse existing entity numbers
 """
 
 import json
@@ -33,7 +35,7 @@ logger = logging.getLogger(__name__)
 
 
 class LocalPlanCSVGenerator:
-    def __init__(self, source_dir: str = "source", output_dir: str = ".", existing_datasets_dir: str = None):
+    def __init__(self, source_dir: str = "source", output_dir: str = ".", existing_datasets_dir: str = None, local_plan_dir: str = "local-plan"):
         """Initialize the CSV generator."""
         self.source_dir = Path(source_dir)
         self.output_dir = Path(output_dir)
@@ -59,6 +61,9 @@ class LocalPlanCSVGenerator:
         if existing_datasets_dir:
             self._load_existing_entity_mappings(existing_datasets_dir)
 
+        # Automatically load housing data from local-plan directory
+        self._load_housing_from_local_plan_dir(local_plan_dir)
+
     def _authority_to_slug(self, authority_name: str) -> str:
         """Convert authority name to slug format (lowercase, spaces to dashes)."""
         if not authority_name:
@@ -70,6 +75,46 @@ class LocalPlanCSVGenerator:
         while '--' in slug:
             slug = slug.replace('--', '-')
         return slug
+
+    def _load_housing_from_local_plan_dir(self, local_plan_dir: str = "local-plan"):
+        """Automatically load housing data from extracted local plan JSON files."""
+        local_plan_path = Path(local_plan_dir)
+        if not local_plan_path.exists():
+            logger.debug(f"Local plan directory not found: {local_plan_dir}")
+            return
+
+        json_files = list(local_plan_path.glob("*.json"))
+        if not json_files:
+            logger.debug(f"No JSON files found in {local_plan_dir}")
+            return
+
+        logger.info(f"Loading housing data from {len(json_files)} local plan files")
+
+        loaded_count = 0
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                # Extract organisation and housing data
+                org = data.get('organisation', '')
+                housing_numbers = data.get('housing-numbers', [])
+
+                if org and housing_numbers:
+                    # Store housing data keyed by organisation
+                    if org not in self.housing_data:
+                        self.housing_data[org] = {
+                            'housing-numbers': housing_numbers,
+                            'organisation-name': data.get('organisation-name', ''),
+                        }
+                        loaded_count += 1
+                        logger.debug(f"Loaded housing data for {org}")
+
+            except Exception as e:
+                logger.debug(f"Failed to load housing data from {json_file.name}: {e}")
+
+        if loaded_count > 0:
+            logger.info(f"Loaded housing data for {loaded_count} organisations")
 
     def _load_existing_entity_mappings(self, existing_datasets_dir: str):
         """Load entity number mappings from existing platform datasets."""
@@ -386,7 +431,7 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate all CSVs for all authorities
+  # Generate all CSVs for all authorities (housing data auto-loaded from local-plan/)
   python bin/generate-csvs.py
 
   # Process only specific LPAs
@@ -395,14 +440,11 @@ Examples:
   # Specify output directory
   python bin/generate-csvs.py --output-dir ./data/
 
-  # Include housing data
-  python bin/generate-csvs.py --housing housing_data.csv
-
   # Reuse entity numbers from existing platform datasets
   python bin/generate-csvs.py --existing-datasets ./dataset/existing-platform-datasets-dec25/
 
   # Combine options
-  python bin/generate-csvs.py --lpa PEN,BOT --housing housing_data.csv --existing-datasets ./dataset/existing-platform-datasets-dec25/ --output-dir ./output/
+  python bin/generate-csvs.py --lpa PEN,BOT --existing-datasets ./dataset/existing-platform-datasets-dec25/ --output-dir ./output/
         """
     )
 
@@ -426,7 +468,7 @@ Examples:
 
     parser.add_argument(
         '--housing',
-        help='Path to housing_data.csv from local-plan-extractor.py',
+        help='Path to housing_data.csv from local-plan-extractor.py (deprecated - housing data is now auto-loaded from local-plan/ directory)',
         default=None
     )
 
