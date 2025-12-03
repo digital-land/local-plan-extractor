@@ -57,6 +57,9 @@ class LocalPlanCSVGenerator:
         self.authority_doc_counters = {}  # authority_slug -> counter
         self.current_authority_slug = None
 
+        # Track organisations already processed for housing data (to avoid duplicates)
+        self.organisations_with_housing = set()
+
         # Load existing entity mappings if provided
         if existing_datasets_dir:
             self._load_existing_entity_mappings(existing_datasets_dir)
@@ -323,8 +326,13 @@ class LocalPlanCSVGenerator:
             logger.error(f"Failed to process document: {e}")
 
     def _add_housing_data(self, plan_reference: str, lpa: str, org: str):
-        """Add housing data entry for an organisation."""
+        """Add housing data entry for an organisation (only once per organisation to avoid duplicates)."""
         try:
+            # Skip if we've already added housing data for this organisation
+            if org in self.organisations_with_housing:
+                logger.debug(f"Skipping housing data for {org} (already processed)")
+                return
+
             housing = self.housing_data.get(org, {})
             housing_numbers = housing.get('housing-numbers', '[]')
 
@@ -361,6 +369,9 @@ class LocalPlanCSVGenerator:
                     self.local_plan_housing.append(housing_entry)
                     self.local_plan_housing_entity += 1
 
+                # Mark this organisation as processed
+                self.organisations_with_housing.add(org)
+
         except Exception as e:
             logger.error(f"Failed to add housing data for {org}: {e}")
 
@@ -396,12 +407,43 @@ class LocalPlanCSVGenerator:
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
-        self._write_csv('local-plan-housing.csv', self.local_plan_housing, [
+        # Deduplicate housing data (remove exact duplicate rows)
+        housing_deduped = self._deduplicate_housing_data(self.local_plan_housing)
+        if len(housing_deduped) < len(self.local_plan_housing):
+            logger.info(f"Deduplicated housing data: {len(self.local_plan_housing)} → {len(housing_deduped)} rows")
+
+        self._write_csv('local-plan-housing.csv', housing_deduped, [
             'entity', 'reference', 'local-plan', 'local-planning-authority',
             'required-housing', 'committed-housing', 'allocated-housing',
             'broad-locations-housing', 'windfall-housing',
             'entry-date', 'start-date', 'end-date', 'notes'
         ])
+
+    def _deduplicate_housing_data(self, housing_data: List[Dict]) -> List[Dict]:
+        """Remove exact duplicate rows from housing data (keeping first occurrence)."""
+        seen = set()
+        deduplicated = []
+
+        for entry in housing_data:
+            # Create a tuple of all fields except 'entity' (which is auto-generated)
+            # This allows us to detect truly identical housing records
+            key = (
+                entry.get('reference', ''),
+                entry.get('local-plan', ''),
+                entry.get('local-planning-authority', ''),
+                entry.get('required-housing', ''),
+                entry.get('committed-housing', ''),
+                entry.get('allocated-housing', ''),
+                entry.get('broad-locations-housing', ''),
+                entry.get('windfall-housing', ''),
+                entry.get('notes', ''),
+            )
+
+            if key not in seen:
+                seen.add(key)
+                deduplicated.append(entry)
+
+        return deduplicated
 
     def _write_csv(self, filename: str, data: List[Dict], fieldnames: List[str]):
         """Write a single CSV file."""
