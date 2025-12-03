@@ -51,9 +51,25 @@ class LocalPlanCSVGenerator:
         self.local_plan_document_entity = 3800000
         self.local_plan_housing_entity = 1100000
 
+        # Document counter tracking for reference generation
+        self.authority_doc_counters = {}  # authority_slug -> counter
+        self.current_authority_slug = None
+
         # Load existing entity mappings if provided
         if existing_datasets_dir:
             self._load_existing_entity_mappings(existing_datasets_dir)
+
+    def _authority_to_slug(self, authority_name: str) -> str:
+        """Convert authority name to slug format (lowercase, spaces to dashes)."""
+        if not authority_name:
+            return ''
+        # Convert to lowercase and replace spaces with dashes
+        slug = authority_name.lower().strip()
+        slug = slug.replace(' ', '-')
+        # Remove multiple consecutive dashes
+        while '--' in slug:
+            slug = slug.replace('--', '-')
+        return slug
 
     def _load_existing_entity_mappings(self, existing_datasets_dir: str):
         """Load entity number mappings from existing platform datasets."""
@@ -163,7 +179,10 @@ class LocalPlanCSVGenerator:
         try:
             # Create local-plan entry
             org = plan_data.get('organisation', '')
-            reference = plan_data.get('reference', '')
+            organisation_name = plan_data.get('organisation-name', org)
+
+            # Generate reference from authority name
+            reference = self._authority_to_slug(organisation_name)
 
             # Determine entity number: use existing if available, otherwise generate new
             if reference in self.local_plan_entity_map:
@@ -175,6 +194,9 @@ class LocalPlanCSVGenerator:
 
             # Build local-planning-authorities string
             local_planning_authorities = org if org else ''
+
+            # Store authority slug for document numbering
+            self.current_authority_slug = reference
 
             local_plan_entry = {
                 'entity': entity,
@@ -213,7 +235,16 @@ class LocalPlanCSVGenerator:
     def _process_document(self, plan_reference: str, lpa: str, doc_data: Dict):
         """Process a single document entry."""
         try:
-            doc_reference = doc_data.get('reference', '')
+            # Generate numbered reference based on authority slug
+            authority_slug = plan_reference  # plan_reference is now the authority slug
+
+            # Reset counter if we've switched to a new authority
+            if authority_slug not in self.authority_doc_counters:
+                self.authority_doc_counters[authority_slug] = 0
+
+            # Increment counter and generate numbered reference
+            self.authority_doc_counters[authority_slug] += 1
+            doc_reference = f"{authority_slug}-{self.authority_doc_counters[authority_slug]}"
 
             # Determine entity number: use existing if available, otherwise generate new
             if doc_reference in self.local_plan_document_entity_map:
@@ -240,6 +271,9 @@ class LocalPlanCSVGenerator:
 
             self.local_plan_documents.append(doc_entry)
 
+            # Store the generated reference for housing data to reference
+            doc_data['_generated_reference'] = doc_reference
+
         except Exception as e:
             logger.error(f"Failed to process document: {e}")
 
@@ -259,9 +293,14 @@ class LocalPlanCSVGenerator:
             # Create entry for each authority in housing-numbers array
             if isinstance(housing_numbers, list):
                 for num_entry in housing_numbers:
+                    # Generate reference to match document reference format
+                    # Use the first document reference for the plan (authority-slug-1)
+                    authority_slug = plan_reference
+                    housing_reference = f"{authority_slug}-1"
+
                     housing_entry = {
                         'entity': str(self.local_plan_housing_entity),
-                        'reference': f"{plan_reference}-housing",
+                        'reference': housing_reference,
                         'local-plan': plan_reference,
                         'local-planning-authority': num_entry.get('organisation-name', lpa),
                         'required-housing': num_entry.get('required-housing', ''),
