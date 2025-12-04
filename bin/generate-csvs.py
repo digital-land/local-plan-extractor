@@ -54,11 +54,21 @@ class LocalPlanCSVGenerator:
         self.local_plan_housing_entity = 1100000
 
         # Document counter tracking for reference generation
-        self.authority_doc_counters = {}  # authority_slug -> counter
-        self.current_authority_slug = None
+        self.authority_plan_counters = {}  # (authority_slug, year) -> counter
+        self.current_plan_reference = None
 
         # Track organisations already processed for housing data (to avoid duplicates)
         self.organisations_with_housing = set()
+
+        # Store main plan document references for housing data linking
+        self.plan_main_document_ref = {}  # plan_ref -> main_doc_ref
+
+        # Map to track joint plans and their organisations
+        # Key: organisation code -> List of authorities
+        self.joint_plan_organisations = {}
+
+        # Load joint plan mappings from the joint-local-plans.json file
+        self._load_joint_plan_mappings()
 
         # Load existing entity mappings if provided
         if existing_datasets_dir:
@@ -118,6 +128,33 @@ class LocalPlanCSVGenerator:
 
         if loaded_count > 0:
             logger.info(f"Loaded housing data for {loaded_count} organisations")
+
+    def _load_joint_plan_mappings(self):
+        """Load joint plan mappings from the joint-local-plans.json file.
+
+        This maps each authority to the list of authorities in its joint plan (if any).
+        """
+        joint_plans_path = Path("var") / "joint-local-plans.json"
+        if not joint_plans_path.exists():
+            logger.debug(f"Joint local plans file not found: {joint_plans_path}")
+            return
+
+        try:
+            with open(joint_plans_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            joint_plans = data.get('joint-plans', {})
+            for org_code, plan_info in joint_plans.items():
+                authorities = plan_info.get('joint-plan-authorities', [])
+                if authorities and isinstance(authorities, list) and len(authorities) > 1:
+                    # Map this organisation to its joint plan authorities
+                    self.joint_plan_organisations[org_code] = authorities
+                    logger.debug(f"Loaded joint plan for {org_code}: {len(authorities)} authorities")
+
+            if self.joint_plan_organisations:
+                logger.info(f"Loaded {len(self.joint_plan_organisations)} joint plan mappings")
+        except Exception as e:
+            logger.warning(f"Failed to load joint plan mappings: {e}")
 
     def _load_existing_entity_mappings(self, existing_datasets_dir: str):
         """Load entity number mappings from existing platform datasets."""
@@ -229,8 +266,20 @@ class LocalPlanCSVGenerator:
             org = plan_data.get('organisation', '')
             organisation_name = plan_data.get('organisation-name', org)
 
-            # Generate reference from authority name
-            reference = self._authority_to_slug(organisation_name)
+            # Extract year from plan data (check 'year' first, fallback to 'period-end-date')
+            year = plan_data.get('year', '')
+            if not year:
+                # Try to extract year from period-end-date
+                period_end = plan_data.get('period-end-date', '')
+                if period_end:
+                    year = str(period_end) if isinstance(period_end, int) else ''
+
+            # Generate new reference format: {slug}-local-plan-{year}
+            authority_slug = self._authority_to_slug(organisation_name)
+            if year:
+                reference = f"{authority_slug}-local-plan-{year}"
+            else:
+                reference = f"{authority_slug}-local-plan"
 
             # Determine entity number: use existing if available, otherwise generate new
             if reference in self.local_plan_entity_map:
@@ -241,10 +290,32 @@ class LocalPlanCSVGenerator:
                 self.local_plan_entity += 1
 
             # Build local-planning-authorities string
-            local_planning_authorities = org if org else ''
+            # For joint plans, use the organisations array; otherwise use single organisation
 
-            # Store authority slug for document numbering
-            self.current_authority_slug = reference
+            # First check if source data has organisations array
+            organisations = plan_data.get('organisations', [])
+
+            # If not in source data, check if this is a known joint plan from housing data
+            if not organisations and org in self.joint_plan_organisations:
+                organisations = self.joint_plan_organisations[org]
+
+            if organisations and isinstance(organisations, list):
+                # Join multiple authorities with semicolons (no spaces)
+                local_planning_authorities = ';'.join(organisations)
+            else:
+                # Single authority
+                local_planning_authorities = org if org else ''
+
+            # Store current plan reference for document numbering
+            self.current_plan_reference = reference
+
+            # Initialize document counter for this plan
+            plan_key = (authority_slug, year)
+            if plan_key not in self.authority_plan_counters:
+                self.authority_plan_counters[plan_key] = 0
+
+            # Initialize plan-to-document mapping
+            self.plan_main_document_ref[reference] = None
 
             local_plan_entry = {
                 'entity': entity,
@@ -271,7 +342,7 @@ class LocalPlanCSVGenerator:
             documents = plan_data.get('documents', [])
             if isinstance(documents, list):
                 for doc in documents:
-                    self._process_document(reference, local_planning_authorities, doc)
+                    self._process_document(reference, authority_slug, year, doc)
 
             # Add housing data if available
             if org in self.housing_data:
@@ -280,19 +351,20 @@ class LocalPlanCSVGenerator:
         except Exception as e:
             logger.error(f"Failed to process local plan: {e}")
 
-    def _process_document(self, plan_reference: str, lpa: str, doc_data: Dict):
+    def _process_document(self, plan_reference: str, authority_slug: str, year: str, doc_data: Dict):
         """Process a single document entry."""
         try:
-            # Generate numbered reference based on authority slug
-            authority_slug = plan_reference  # plan_reference is now the authority slug
+            # Get the counter key for this plan
+            plan_key = (authority_slug, year)
 
-            # Reset counter if we've switched to a new authority
-            if authority_slug not in self.authority_doc_counters:
-                self.authority_doc_counters[authority_slug] = 0
+            # Increment counter for this plan and generate numbered reference
+            self.authority_plan_counters[plan_key] += 1
+            doc_num = self.authority_plan_counters[plan_key]
+            doc_reference = f"{plan_reference}-{doc_num}"
 
-            # Increment counter and generate numbered reference
-            self.authority_doc_counters[authority_slug] += 1
-            doc_reference = f"{authority_slug}-{self.authority_doc_counters[authority_slug]}"
+            # Track the first (main) document for this plan
+            if doc_num == 1:
+                self.plan_main_document_ref[plan_reference] = doc_reference
 
             # Determine entity number: use existing if available, otherwise generate new
             if doc_reference in self.local_plan_document_entity_map:
@@ -346,10 +418,12 @@ class LocalPlanCSVGenerator:
             # Create entry for each authority in housing-numbers array
             if isinstance(housing_numbers, list):
                 for num_entry in housing_numbers:
-                    # Generate reference to match document reference format
-                    # Use the first document reference for the plan (authority-slug-1)
-                    authority_slug = plan_reference
-                    housing_reference = f"{authority_slug}-1"
+                    # Use the correct document reference from the main document mapping
+                    # If not found, fallback to first document reference
+                    housing_reference = self.plan_main_document_ref.get(
+                        plan_reference,
+                        f"{plan_reference}-1"
+                    )
 
                     housing_entry = {
                         'entity': str(self.local_plan_housing_entity),
