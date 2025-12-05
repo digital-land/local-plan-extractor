@@ -155,12 +155,13 @@
       
     </dl>
 
-
     
-    <div class="organisation-breakdown">
-      <h2 class="govuk-heading-l">Housing numbers</h2>
-
-      
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
       <div class="organisation-card">
         <h3 class="govuk-heading-m">
           Watford Borough Council
@@ -240,7 +241,24 @@
         </dl>
       </div>
       
-    </div>
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/c9ccdc158198652b138c7a6684599a81bdfab2f73d0994bd8bcf57cb97696816.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
     
 
     

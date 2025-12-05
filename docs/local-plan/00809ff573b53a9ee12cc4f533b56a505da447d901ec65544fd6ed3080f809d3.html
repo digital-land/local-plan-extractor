@@ -140,7 +140,7 @@
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Source PDF</dt>
         <dd class="govuk-summary-list__value">
-          collection/document/00809ff573b53a9ee12cc4f533b56a505da447d901ec65544fd6ed3080f809d3.pdf
+          <a href="https://www.oxford.gov.uk/downloads/file/3600/exam-20---inspectors-post-hearings-letter-to-council-september-2024" class="govuk-link">https://www.oxford.gov.uk/downloads/file/3600/exam-20---inspectors-post-hearings-letter-to-council-september-2024</a>
         </dd>
       </div>
       
@@ -155,12 +155,13 @@
       
     </dl>
 
-
     
-    <div class="organisation-breakdown">
-      <h2 class="govuk-heading-l">Housing numbers</h2>
-
-      
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
       <div class="organisation-card">
         <h3 class="govuk-heading-m">
           Oxford City Council
@@ -212,7 +213,24 @@
         </dl>
       </div>
       
-    </div>
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/00809ff573b53a9ee12cc4f533b56a505da447d901ec65544fd6ed3080f809d3.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
     
 
     
@@ -227,6 +245,7 @@
         <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
   "authority": "00809ff573b53a9ee12cc4f533b56a505da447d901ec65544fd6ed3080f809d3",
   "confidence": "medium",
+  "document-url": "https://www.oxford.gov.uk/downloads/file/3600/exam-20---inspectors-post-hearings-letter-to-council-september-2024",
   "housing-numbers": [
     {
       "allocated-housing": "",

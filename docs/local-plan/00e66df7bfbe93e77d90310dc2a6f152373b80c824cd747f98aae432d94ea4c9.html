@@ -155,12 +155,13 @@
       
     </dl>
 
-
     
-    <div class="organisation-breakdown">
-      <h2 class="govuk-heading-l">Housing numbers</h2>
-
-      
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
       <div class="organisation-card">
         <h3 class="govuk-heading-m">
           Cornwall Council
@@ -226,7 +227,24 @@
         </dl>
       </div>
       
-    </div>
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/00e66df7bfbe93e77d90310dc2a6f152373b80c824cd747f98aae432d94ea4c9.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
     
 
     
