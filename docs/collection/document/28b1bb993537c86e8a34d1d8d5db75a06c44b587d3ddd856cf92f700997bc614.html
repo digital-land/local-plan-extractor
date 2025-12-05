@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>      
+	<meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8; IE=9; IE=10" />
+    <style type="text/css">
+html, body
+{
+/* Arial is the default. If unavailable then O/S will use the next defined font. */
+    font-family:verdana,arial,helvetica,sans-serif !important;
+    font-size:13px;
+    font-weight:normal;
+    color:#444444; /* changed to off-black text */
+    overflow: hidden;
+}
+    </style>
+    <title>Aurora</title>
+</head>
+    <body>
+        <noscript>
+            <h1>JavaScript is not enabled</h1>
+            For full functionality of this site it is necessary to enable JavaScript.
+            Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+            instructions how to enable JavaScript in your web browser</a>.
+        </noscript>
+        <div style="clear: both">
+            <div style="font-size: 8pt">
+                <div id="map" style="width: 100%; height: 100%; display: block;
+                                                   overflow: hidden; position: relative">
+                </div>
+            </div>
+        </div>
+        <div>        
+            <script type="text/javascript">
+                var s = document.createElement('script'); s.type = 'text/javascript';
+                var noCache = "?" + (new Date()).getTime();
+                s.src = "https://maps.cheltenham.gov.uk/map/AuroraLoader.js" + noCache;
+                document.getElementsByTagName('head')[0].appendChild(s);
+                auroraLoaded = function auroraLoaded(Aurora) {
+                    var aurora = new Aurora({
+                        Container: "#map",
+                        Password: "",
+                        UserName: "guest jcs",
+                        SvcAddress: "https://maps.cheltenham.gov.uk/map/Aurora.svc",
+                        Script: "\\Aurora\\CBC JCS Allocations.AuroraScript$",
+                        SessionId: ""
+                        });
+                    aurora.refresh();
+                };                    
+            </script>        
+        </div>
+    </body>
+</html>

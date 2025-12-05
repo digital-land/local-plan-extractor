@@ -333,6 +333,22 @@ Examples:
     else:
         print(f"  ⚠ Warning: var/cache directory not found", file=sys.stderr)
 
+    # Copy collection/document directory for PDFs
+    collection_src = Path("collection/document")
+    collection_dest = Path(args.output) / "collection" / "document"
+
+    if collection_src.exists():
+        # Remove destination if it exists
+        if collection_dest.exists():
+            shutil.rmtree(collection_dest.parent)
+
+        # Copy the directory
+        collection_dest.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(collection_src, collection_dest)
+        print(f"  ✓ Copied collection/document to {collection_dest}")
+    else:
+        print(f"  ⚠ Warning: collection/document directory not found", file=sys.stderr)
+
     print("\n" + "=" * 60)
     print("Summary:")
     print(f"  Index page: 1")
