@@ -113,6 +113,16 @@ def render_local_plan(json_path, output_dir, env, organisations_lookup, document
         if authority_id in document_url_lookup:
             data["document-url"] = document_url_lookup[authority_id]
 
+    # Check if PDF file exists
+    if data.get("pdf_file"):
+        pdf_path = Path(data["pdf_file"])
+        if not pdf_path.exists():
+            data["pdf_file_missing"] = True
+        else:
+            data["pdf_file_missing"] = False
+    else:
+        data["pdf_file_missing"] = False
+
     # Load template
     template = env.get_template("local-plan.html")
 
