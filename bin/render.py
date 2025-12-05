@@ -35,6 +35,31 @@ def load_organisations(csv_path="var/cache/organisation.csv"):
     return organisations
 
 
+def load_document_urls(source_dir="source"):
+    """Load document URLs from source JSON files and create lookup by endpoint (authority id)"""
+    document_urls = {}
+    try:
+        source_path = Path(source_dir)
+        for json_file in source_path.glob("*.json"):
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    if isinstance(data, list):
+                        for item in data:
+                            # Extract document URLs for each document by endpoint
+                            if item.get("documents"):
+                                for doc in item["documents"]:
+                                    if doc.get("endpoint") and doc.get("document-url"):
+                                        endpoint = doc["endpoint"]
+                                        document_urls[endpoint] = doc["document-url"]
+            except Exception as e:
+                # Silently skip files with errors
+                pass
+    except Exception as e:
+        print(f"Warning: Error loading document URLs: {e}", file=sys.stderr)
+    return document_urls
+
+
 def format_number(value):
     """Format number with thousand separators"""
     if isinstance(value, (int, float)) and value != "":
@@ -75,12 +100,18 @@ def collect_organisation_plans(local_plan_dir):
     return org_plans
 
 
-def render_local_plan(json_path, output_dir, env, organisations_lookup):
+def render_local_plan(json_path, output_dir, env, organisations_lookup, document_url_lookup=None):
     """Render a local plan JSON file to HTML"""
 
     # Load the JSON data
     json_path = Path(json_path)
     data = load_json(json_path)
+
+    # Look up document-url from source data if available
+    if document_url_lookup and "authority" in data:
+        authority_id = data["authority"]
+        if authority_id in document_url_lookup:
+            data["document-url"] = document_url_lookup[authority_id]
 
     # Load template
     template = env.get_template("local-plan.html")
@@ -214,6 +245,11 @@ Examples:
     organisations_lookup = load_organisations()
     org_names = {code: data["name"] for code, data in organisations_lookup.items()}
 
+    # Load document URLs lookup
+    print("Loading document URLs from source...")
+    document_urls = load_document_urls()
+    print(f"  Found {len(document_urls)} document URLs")
+
     # Set up Jinja2 environment
     env = Environment(
         loader=FileSystemLoader(templates_dir),
@@ -232,7 +268,7 @@ Examples:
     for json_path in json_files:
         try:
             output_path, data = render_local_plan(
-                json_path, args.output, env, org_names
+                json_path, args.output, env, org_names, document_urls
             )
             print(f"  ✓ {json_path.stem}")
             rendered_plans += 1

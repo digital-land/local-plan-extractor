@@ -87,7 +87,14 @@
       </div>
       {% endif %}
 
-      {% if plan.get('pdf_file') %}
+      {% if plan.get('document-url') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          <a href="{{ plan['document-url'] }}" class="govuk-link">{{ plan['document-url'] }}</a>
+        </dd>
+      </div>
+      {% elif plan.get('pdf_file') %}
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Source PDF</dt>
         <dd class="govuk-summary-list__value">
