@@ -1,0 +1,67 @@
+Processing single PDF file: ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.pdf
+
+
+Processing: collection/document/ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.pdf
+  Scanning 153 pages for relevant content...
+  Selected top 32 pages (scores: [48, 46, 43, 40, 40, 38, 28, 26, 26, 23, 23, 21, 21, 20, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 15, 15, 15, 15, 15])
+  Extracted PDF size: 121,070 bytes
+  Sending 32 pages to Claude API...
+  ✓ Extraction complete
+{
+  "name": "Core Spatial Strategy",
+  "organisation-name": "Newcastle-under-Lyme Borough Council, Stoke-on-Trent City Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newcastle-under-Lyme Borough Council",
+      "required-housing": 5700,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 285,
+      "pages": "43, 45",
+      "notes": "Net housing requirement from RSS. Gross requirement is 6,257 including 557 demolition replacements. Rural areas target of 900 additional dwellings mentioned on page 45.",
+      "organisation": "local-authority:NEC"
+    },
+    {
+      "organisation-name": "Stoke-on-Trent City Council",
+      "required-housing": 11400,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 570,
+      "pages": "43, 44",
+      "notes": "Net housing requirement from RSS. Gross requirement is 13,500 including 2,100 demolition replacements. Housing trajectory shows phased delivery with lower numbers early in plan period due to Housing Market Renewal programme.",
+      "organisation": "local-authority:STE"
+    },
+    {
+      "organisation-name": "Newcastle-under-Lyme Borough Council, Stoke-on-Trent City Council",
+      "organisation": "joint-planning-authority:NEC-STE",
+      "required-housing": 17100,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 855,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746",
+  "pdf_file": "collection/document/ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:NEC-STE",
+  "organisations": [
+    "local-authority:NEC",
+    "local-authority:STE"
+  ],
+  "local-plan-boundary": "E60000120-E60000115",
+  "local-planning-authorities": [
+    "E60000120",
+    "E60000115"
+  ]
+}

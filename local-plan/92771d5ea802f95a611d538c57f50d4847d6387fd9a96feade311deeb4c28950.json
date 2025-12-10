@@ -1,0 +1,38 @@
+Processing single PDF file: 92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950.pdf
+
+
+Processing: collection/document/92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950.pdf
+  Scanning 168 pages for relevant content...
+  Selected top 32 pages (scores: [80, 53, 48, 48, 48, 38, 35, 35, 35, 35, 33, 30, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 23, 20, 18, 18, 18, 18])
+  Extracted PDF size: 548,878 bytes
+  Sending 32 pages to Claude API...
+  ✓ Extraction complete
+{
+  "name": "The Plan for Stafford Borough",
+  "organisation-name": "Stafford Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stafford Borough Council",
+      "required-housing": 10000,
+      "allocated-housing": 6400,
+      "windfall-housing": "",
+      "committed-housing": 2781,
+      "broad-locations-housing": "",
+      "annual-required-housing": 500,
+      "pages": "21, 28-29, 161-164",
+      "notes": "Strategic Development Locations provide 6,400 homes: North of Stafford (3,100), West of Stafford (2,200), East of Stafford (600), West of Stone (500). Committed housing discounted by 10% for delivery assumptions. Additional 350 Service Family Accommodation properties for military personnel not included in 10,000 total.",
+      "organisation": "local-authority:STA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950",
+  "pdf_file": "collection/document/92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STA",
+  "local-plan-boundary": "E60000122",
+  "local-planning-authorities": [
+    "E60000122"
+  ]
+}

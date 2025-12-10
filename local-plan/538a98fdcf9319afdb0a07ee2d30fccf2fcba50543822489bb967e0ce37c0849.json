@@ -1,0 +1,29 @@
+{
+  "name": "Core Strategy",
+  "organisation-name": "Rotherham Metropolitan Borough Council",
+  "period-start-date": 2013,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rotherham Metropolitan Borough Council",
+      "required-housing": 14371,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 850,
+      "pages": "70, 73, 176",
+      "notes": "Total requirement includes 12,750 for plan period 2013-2028 plus 1,621 backlog from 2008-2013. Document states Sites and Policies document will allocate specific sites to meet this requirement.",
+      "organisation": "local-authority:ROT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "538a98fdcf9319afdb0a07ee2d30fccf2fcba50543822489bb967e0ce37c0849",
+  "pdf_file": "collection/document/538a98fdcf9319afdb0a07ee2d30fccf2fcba50543822489bb967e0ce37c0849.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ROT",
+  "local-plan-boundary": "E60000066",
+  "local-planning-authorities": [
+    "E60000066"
+  ]
+}

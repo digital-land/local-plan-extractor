@@ -58,7 +58,7 @@
     "organisation-name": "Stafford Borough Council",
     "reference": "LP-STA-2014",
     "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
-    "document-url": "",
+    "document-url": "https://www.staffordbc.gov.uk/node/158655",
     "name": "The Plan for Stafford Borough 2011-2031",
     "status": "adopted",
     "year": 2014,
@@ -66,13 +66,13 @@
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.staffordbc.gov.uk/node/158655",
         "documentation-url": "https://www.staffordbc.gov.uk/local-plan",
         "document-type": "local-plan",
         "name": "The Plan for Stafford Borough",
         "reference": "LP-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950"
       },
       {
         "document-url": "",

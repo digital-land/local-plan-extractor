@@ -3,22 +3,22 @@
     "organisation": "local-authority:SLG",
     "organisation-name": "Slough Borough Council",
     "reference": "LP-SLG-2010",
-    "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
-    "document-url": "",
+    "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough/2",
+    "document-url": "https://www.slough.gov.uk/downloads/file/2273/development-plan-core-strategy-2006-2026",
     "name": "Slough Core Strategy",
     "status": "adopted",
     "year": 2010,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2006,
+    "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough",
+        "document-url": "https://www.slough.gov.uk/downloads/file/2273/development-plan-core-strategy-2006-2026",
+        "documentation-url": "https://www.slough.gov.uk/planning-policy/local-development-plan-slough/2",
         "document-type": "core-strategy",
         "name": "Core Strategy",
         "reference": "CS-2010",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495"
       },
       {
         "document-url": "",

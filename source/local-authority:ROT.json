@@ -3,22 +3,22 @@
     "organisation": "local-authority:ROT",
     "organisation-name": "Rotherham Metropolitan Borough Council",
     "reference": "LP-ROT-2014",
-    "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/2",
-    "document-url": "",
+    "documentation-url": "https://www.rotherham.gov.uk/downloads/download/37/local-plan-core-strategy-documentation",
+    "document-url": "https://www.rotherham.gov.uk/downloads/file/307/adopted-rotherham-core-strategy",
     "name": "Rotherham Core Strategy",
     "status": "adopted",
     "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2013,
+    "period-end-date": 2028,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.rotherham.gov.uk/planning-development/guide-local-plan/2",
+        "document-url": "https://www.rotherham.gov.uk/downloads/file/307/adopted-rotherham-core-strategy",
+        "documentation-url": "https://www.rotherham.gov.uk/downloads/download/37/local-plan-core-strategy-documentation",
         "document-type": "core-strategy",
         "name": "Core Strategy",
         "reference": "CS-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "538a98fdcf9319afdb0a07ee2d30fccf2fcba50543822489bb967e0ce37c0849"
       }
     ]
   },

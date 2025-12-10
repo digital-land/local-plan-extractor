@@ -2,15 +2,24 @@
   {
     "organisation": "local-authority:THE",
     "organisation-name": "Three Rivers District Council",
-    "reference": "LP-THE-2013",
-    "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/development-plan",
-    "document-url": "",
+    "reference": "LP-THE-2011",
+    "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/development-plan#Core%20Strategy",
+    "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/945fc600-9ff2-11ed-8d80-6dc425ce7e94-core-strategy-adopted-17-oct-2011%20(1).pdf",
     "name": "Three Rivers Development Plan (Current Local Plan)",
     "status": "adopted",
-    "year": 2013,
-    "period-start-date": "",
-    "period-end-date": "",
+    "year": 2011,
+    "period-start-date": 2001,
+    "period-end-date": 2026,
     "documents": [
+      {
+        "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/945fc600-9ff2-11ed-8d80-6dc425ce7e94-core-strategy-adopted-17-oct-2011%20(1).pdf",
+        "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/development-plan#Core%20Strategy",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "4f7c3f4e1e2b5e6f7a8b9c0d1e2f3a4b5c6d7e8f9fa0b1c2d3e4f5a6b7c8d9e0"
+      },
       {
         "document-url": "https://cdn.threerivers.gov.uk/files/2024/12/24377cf0-bee1-11ef-9e6f-23f6ad693d1c-FINAL%20DEC%202024%20LDS.pdf",
         "documentation-url": "https://www.threerivers.gov.uk/services/planning/planning-policy/local-development-scheme",

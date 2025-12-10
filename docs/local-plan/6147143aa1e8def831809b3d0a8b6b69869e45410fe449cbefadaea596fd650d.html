@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>North Northamptonshire Joint Core Strategy 2011-2031 - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      North Northamptonshire Joint Core Strategy 2011-2031
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+    <h1 class="govuk-heading-xl">North Northamptonshire Joint Core Strategy 2011-2031</h1>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div id="map"></div>
+  </div>
+</div>
+
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/joint-planning-authority:COR-KET">joint-planning-authority:COR-KET</a></code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisations</dt>
+        <dd class="govuk-summary-list__value">
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:COR/" class="govuk-link">
+                Corby Borough Council
+              </a>
+            </div>
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:KET/" class="govuk-link">
+                Kettering Borough Council
+              </a>
+            </div>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>E60000099-E60000102</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000099">E60000099</a></code>
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000102">E60000102</a></code>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2011 to 2031
+          (20 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          <a href="https://cms.northnorthants.gov.uk/media/3595/download" class="govuk-link">https://cms.northnorthants.gov.uk/media/3595/download</a>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+    
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Corby Borough Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:COR</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>9,200 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              460 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,500 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              2,261 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              27 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              132, 137, 214
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Strategic opportunity for additional 5,000 homes (total 14,200). West Corby SUE allocated for 4,500 homes. Windfall estimate 9 dwellings p.a 2018-21.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          East Northamptonshire District Council
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>8,400 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              420 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              2,500 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              2,203 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              123 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              132, 137, 156, 215
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Rushden East SUE broad location for around 2,500 homes. Windfall estimate 41 dwellings p.a 2018-21.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Kettering Borough Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:KET</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>10,400 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              520 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              700 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              3,743 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              228 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              132, 137, 216
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Rothwell North SUE allocated for 700 homes. Windfall estimate 76 dwellings p.a 2018-21.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Borough Council of Wellingborough
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>7,000 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              350 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              0 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              3,885 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              135 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              132, 137, 217
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              No new allocations identified in JCS - relying on committed sites. Windfall estimate 45 dwellings p.a 2018-21.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>joint-planning-authority:COR-KET</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>35,000 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,750 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              7,700 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              12,092 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              513 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Broad locations housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              0 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+        </dl>
+      </div>
+      
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "authority": "6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d",
+  "confidence": "high",
+  "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
+  "housing-numbers": [
+    {
+      "allocated-housing": 4500,
+      "annual-required-housing": 460,
+      "broad-locations-housing": "",
+      "committed-housing": 2261,
+      "notes": "Strategic opportunity for additional 5,000 homes (total 14,200). West Corby SUE allocated for 4,500 homes. Windfall estimate 9 dwellings p.a 2018-21.",
+      "organisation": "local-authority:COR",
+      "organisation-name": "Corby Borough Council",
+      "pages": "132, 137, 214",
+      "required-housing": 9200,
+      "windfall-housing": 27
+    },
+    {
+      "allocated-housing": 2500,
+      "annual-required-housing": 420,
+      "broad-locations-housing": "",
+      "committed-housing": 2203,
+      "notes": "Rushden East SUE broad location for around 2,500 homes. Windfall estimate 41 dwellings p.a 2018-21.",
+      "organisation": "",
+      "organisation-name": "East Northamptonshire District Council",
+      "pages": "132, 137, 156, 215",
+      "required-housing": 8400,
+      "windfall-housing": 123
+    },
+    {
+      "allocated-housing": 700,
+      "annual-required-housing": 520,
+      "broad-locations-housing": "",
+      "committed-housing": 3743,
+      "notes": "Rothwell North SUE allocated for 700 homes. Windfall estimate 76 dwellings p.a 2018-21.",
+      "organisation": "local-authority:KET",
+      "organisation-name": "Kettering Borough Council",
+      "pages": "132, 137, 216",
+      "required-housing": 10400,
+      "windfall-housing": 228
+    },
+    {
+      "allocated-housing": 0,
+      "annual-required-housing": 350,
+      "broad-locations-housing": "",
+      "committed-housing": 3885,
+      "notes": "No new allocations identified in JCS - relying on committed sites. Windfall estimate 45 dwellings p.a 2018-21.",
+      "organisation": "",
+      "organisation-name": "Borough Council of Wellingborough",
+      "pages": "132, 137, 217",
+      "required-housing": 7000,
+      "windfall-housing": 135
+    },
+    {
+      "allocated-housing": 7700,
+      "annual-required-housing": 1750,
+      "broad-locations-housing": 0,
+      "committed-housing": 12092,
+      "notes": "",
+      "organisation": "joint-planning-authority:COR-KET",
+      "organisation-name": "Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough",
+      "pages": "",
+      "required-housing": 35000,
+      "windfall-housing": 513
+    }
+  ],
+  "local-plan-boundary": "E60000099-E60000102",
+  "local-planning-authorities": [
+    "E60000099",
+    "E60000102"
+  ],
+  "name": "North Northamptonshire Joint Core Strategy 2011-2031",
+  "organisation": "joint-planning-authority:COR-KET",
+  "organisation-name": "Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough",
+  "organisations": [
+    "local-authority:COR",
+    "local-authority:KET"
+  ],
+  "pages_analysed": 32,
+  "pdf_file": "collection/document/6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d.pdf",
+  "pdf_file_missing": false,
+  "period-end-date": 2031,
+  "period-start-date": 2011
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["E60000099", "E60000102"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
+
+
+</body>
+</html>

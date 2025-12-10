@@ -4,13 +4,23 @@
     "organisation-name": "South Staffordshire Council",
     "reference": "LP-SST-2013",
     "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy/adopted-south-staffordshire-local-plan",
-    "document-url": "",
+    "document-url": "https://www.sstaffs.gov.uk/sites/default/files/2023-02/Core%20Strategy%20Dev%20Plan%20Doc.pdf",
     "name": "Adopted South Staffordshire Local Plan",
     "status": "adopted",
     "year": 2013,
-    "period-start-date": "",
-    "period-end-date": "",
-    "documents": []
+    "period-start-date": 2006,
+    "period-end-date": 2028,
+    "documents": [
+      {
+        "document-url": "https://www.sstaffs.gov.uk/sites/default/files/2023-02/Core%20Strategy%20Dev%20Plan%20Doc.pdf",
+        "documentation-url": "https://www.sstaffs.gov.uk/planning/planning-policy/adopted-south-staffordshire-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted South Staffordshire Local Plan",
+        "reference": "LP-2013",
+        "document-status": "adopted",
+        "endpoint": "458b16f4655f4f663fcfed99aac307ed0225f92675fe24340164592cb4c29f95"
+      }
+    ]
   },
   {
     "organisation": "local-authority:SST",

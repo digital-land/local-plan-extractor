@@ -1,0 +1,29 @@
+{
+  "name": "Peterborough Local Plan",
+  "organisation-name": "Peterborough City Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Peterborough City Council",
+      "required-housing": 19440,
+      "allocated-housing": 11281,
+      "windfall-housing": 1868,
+      "committed-housing": 9931,
+      "broad-locations-housing": "",
+      "annual-required-housing": 942,
+      "pages": "14-15, 88-89",
+      "notes": "Total requirement includes 600 dwellings for student housing need. Annual requirement varies: 942 dwellings 2016-2021, then 982 dwellings 2021-2036 (includes 40 per annum student need from 2021). Allocated housing represents new allocations without planning permission at April 2018. Committed housing includes completions 2016-2018 plus sites with planning permission.",
+      "organisation": "local-authority:PTE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1bb0b38bd036e87ba20a1f1ee3f6c315551b3c6f4dee6e69d20c5e36261d7dea",
+  "pdf_file": "collection/document/1bb0b38bd036e87ba20a1f1ee3f6c315551b3c6f4dee6e69d20c5e36261d7dea.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:PTE",
+  "local-plan-boundary": "E60000146",
+  "local-planning-authorities": [
+    "E60000146"
+  ]
+}

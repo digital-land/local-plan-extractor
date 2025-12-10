@@ -1,0 +1,29 @@
+{
+  "name": "Southampton City Council, Core Strategy \u2013 Amended Adopted Version March 2015",
+  "organisation-name": "Southampton City Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Southampton City Council",
+      "required-housing": 16300,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 2150,
+      "broad-locations-housing": "",
+      "annual-required-housing": 815,
+      "pages": "Pages 36, 85, 115-116",
+      "notes": "Total requirement is 16,300 homes 2006-2026. 2,150 homes completed 2006/7-2007/8. Document indicates 47% of predicted supply until 2019 has received planning permission. Housing supply derived from Strategic Housing Land Availability Assessment (SHLAA) but specific breakdown between allocated sites, windfall, and broad locations not clearly specified in this document - these will be detailed in subsequent Sites and Policies DPD.",
+      "organisation": "local-authority:STH"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f681945e95d3b39435f9c96bd0bef1ec65cda3d937401b4bff69d7bf79228ddf",
+  "pdf_file": "collection/document/f681945e95d3b39435f9c96bd0bef1ec65cda3d937401b4bff69d7bf79228ddf.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STH",
+  "local-plan-boundary": "E60000229",
+  "local-planning-authorities": [
+    "E60000229"
+  ]
+}

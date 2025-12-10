@@ -4,13 +4,22 @@
     "organisation-name": "Runnymede Borough Council",
     "reference": "LP-RUN-2020",
     "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
-    "document-url": "",
+    "document-url": "https://www.runnymede.gov.uk/downloads/file/781/adopted-2030-lp",
     "name": "Runnymede 2030 Local Plan",
     "status": "adopted",
     "year": 2020,
     "period-start-date": "",
     "period-end-date": 2030,
     "documents": [
+      {
+        "document-url": "https://www.runnymede.gov.uk/downloads/file/781/adopted-2030-lp",
+        "documentation-url": "https://www.runnymede.gov.uk/planning-policy/runnymede-2030-local-plan",
+        "document-type": "local-plan",
+        "name": "Runnymede 2030 Local Plan",
+        "reference": "LP-2030-2020",
+        "document-status": "adopted",
+        "endpoint": "8bff4c2c25d7e4d5c664dbb76a1f1f261065618066e3c91ff29d52b805a02d1d"
+      },
       {
         "document-url": "https://www.runnymede.gov.uk/downloads/file/242/financial-monitoring-report-to-31-may-20",
         "documentation-url": "https://www.runnymede.gov.uk/downloads/download/15/local-plan",

@@ -4,13 +4,23 @@
     "organisation-name": "Stratford-on-Avon District Council",
     "reference": "LP-STR-2031",
     "documentation-url": "https://www.stratford.gov.uk/planning-building/core-strategy.cfm",
-    "document-url": "",
+    "document-url": "https://www.stratford.gov.uk/templates/server/document-relay.cfm?doc=173518&name=SDC%20CORE%20STRATEGY%202011%202031%20July%202016.pdf",
     "name": "Core Strategy",
     "status": "adopted",
     "year": 2016,
-    "period-start-date": "",
+    "period-start-date": 2011,
     "period-end-date": 2031,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.stratford.gov.uk/templates/server/document-relay.cfm?doc=173518&name=SDC%20CORE%20STRATEGY%202011%202031%20July%202016.pdf",
+        "documentation-url": "https://www.stratford.gov.uk/planning-building/core-strategy.cfm",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2011-2031",
+        "document-status": "adopted",
+        "endpoint": ""
+      }
+    ]
   },
   {
     "organisation": "local-authority:STR",

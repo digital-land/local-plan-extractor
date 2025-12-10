@@ -1,0 +1,38 @@
+Processing single PDF file: 1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495.pdf
+
+
+Processing: collection/document/1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495.pdf
+  Scanning 83 pages for relevant content...
+  Selected top 32 pages (scores: [43, 41, 39, 33, 28, 28, 28, 26, 25, 25, 23, 21, 21, 20, 20, 20, 20, 18, 18, 18, 18, 18, 16, 15, 15, 15, 13, 13, 13, 13, 13, 13])
+  Extracted PDF size: 208,808 bytes
+  Sending 32 pages to Claude API...
+  ✓ Extraction complete
+{
+  "name": "Slough Local Development Framework Core Strategy 2006 - 2026",
+  "organisation-name": "Slough Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Slough Borough Council",
+      "required-housing": 6250,
+      "allocated-housing": "",
+      "windfall-housing": 570,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 285,
+      "pages": "25, 26, 66-67",
+      "notes": "Minimum 6,250 dwellings for plan period. Annual requirement is 285 dwellings per year as recommended by Panel (increased from 235). Small sites expected to contribute around 570 dwellings (30 per year reduced from previous 80). Distribution: 3,000+ town centre, 750 urban extensions, 1,350 major sites in urban areas, 600 small sites.",
+      "organisation": "local-authority:SLG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495",
+  "pdf_file": "collection/document/1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SLG",
+  "local-plan-boundary": "E60000228",
+  "local-planning-authorities": [
+    "E60000228"
+  ]
+}

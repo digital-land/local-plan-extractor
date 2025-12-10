@@ -4,21 +4,21 @@
     "organisation-name": "Peterborough City Council",
     "reference": "LP-PTE-2019",
     "documentation-url": "https://www.peterborough.gov.uk/localplan",
-    "document-url": "",
+    "document-url": "https://cccandpcc.sharepoint.com/:b:/s/PCCPlanningPolicyPublicData/EQB6DlKH3nBRRo9tos1GzYEB-wZgAaBU5v1CIqEB7nJKDA?e=OQrCet",
     "name": "Peterborough Local Plan",
     "status": "adopted",
     "year": 2019,
-    "period-start-date": "",
+    "period-start-date": 2016,
     "period-end-date": 2036,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://cccandpcc.sharepoint.com/:b:/s/PCCPlanningPolicyPublicData/EQB6DlKH3nBRRo9tos1GzYEB-wZgAaBU5v1CIqEB7nJKDA?e=OQrCet",
         "documentation-url": "https://www.peterborough.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Peterborough Local Plan 24 July 2019",
         "reference": "LP-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "1bb0b38bd036e87ba20a1f1ee3f6c315551b3c6f4dee6e69d20c5e36261d7dea"
       },
       {
         "document-url": "",

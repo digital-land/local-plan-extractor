@@ -4,7 +4,7 @@
     "organisation-name": "North Northamptonshire Council",
     "reference": "LP-NNUA-2016",
     "documentation-url": "https://www.northnorthants.gov.uk/localplan",
-    "document-url": "",
+    "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
     "name": "North Northamptonshire Joint Core Strategy 2011-2031",
     "status": "adopted",
     "year": 2016,
@@ -12,13 +12,13 @@
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
         "documentation-url": "https://www.northnorthants.gov.uk/localplan",
         "document-type": "core-strategy",
         "name": "Joint Core Strategy - 2011 to 2031",
         "reference": "CS-2011-2031",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d"
       },
       {
         "document-url": "",

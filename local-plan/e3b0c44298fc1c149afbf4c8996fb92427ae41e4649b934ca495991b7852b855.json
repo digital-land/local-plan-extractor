@@ -1,29 +1,29 @@
 {
-  "name": "Northumberland Local Plan (Adopted March 2022)",
-  "organisation-name": "Northumberland County Council",
-  "period-start-date": 2016,
-  "period-end-date": 2036,
+  "name": "North East Derbyshire Local Plan 2014 - 2034",
+  "organisation-name": "North East Derbyshire District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2034,
   "housing-numbers": [
     {
-      "organisation-name": "Northumberland County Council",
-      "required-housing": 17700,
-      "allocated-housing": "",
-      "windfall-housing": "",
-      "committed-housing": 21347,
+      "organisation-name": "North East Derbyshire District Council",
+      "required-housing": 6600,
+      "allocated-housing": 3523,
+      "windfall-housing": 1500,
+      "committed-housing": 4692,
       "broad-locations-housing": "",
-      "annual-required-housing": 885,
-      "pages": "120, 121, 125, 130",
-      "notes": "Minimum requirement of 17,700 homes at 885 per annum. Committed housing includes 6,580 completions 2016-2020, 12,957 permitted dwellings outstanding, and 1,810 'minded to approve' applications. Plan includes site allocations but specific allocated housing number not clearly stated separately from commitments.",
-      "organisation": "local-authority:NBL"
+      "annual-required-housing": 330,
+      "pages": "31-32, 38, 58-59, 184",
+      "notes": "Total supply is 6711 dwellings providing 11% buffer above 6600 requirement. Windfall allowance is 75 dwellings per year (1500 over 20 years). Committed housing includes completions 2014-2020 (1996) plus permissions at 2020 (2696). Strategic sites provide 1556 dwellings within plan period.",
+      "organisation": "local-authority:NED"
     }
   ],
   "confidence": "high",
   "authority": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "pdf_file": "collection/document/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.pdf",
   "pages_analysed": 32,
-  "organisation": "local-authority:NBL",
-  "local-plan-boundary": "E60000005",
+  "organisation": "local-authority:NED",
+  "local-plan-boundary": "E60000083",
   "local-planning-authorities": [
-    "E60000005"
+    "E60000083"
   ]
 }

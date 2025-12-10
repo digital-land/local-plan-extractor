@@ -57,23 +57,23 @@
   {
     "organisation": "local-authority:PRE",
     "organisation-name": "Preston City Council",
-    "reference": "CS-PRE-2012",
+    "reference": "LP-PRE-2012",
     "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
-    "document-url": "",
-    "name": "Central Lancashire Core Strategy",
+    "document-url": "https://www.preston.gov.uk/media/1952/Preston-s-Local-Plan/pdf/Preston-Local-Plan-2012-2026-_8_k4ruyvumo78g.pdf?m=1688125806267",
+    "name": "Preston Local Plan 2012-26",
     "status": "adopted",
     "year": 2012,
-    "period-start-date": 2010,
+    "period-start-date": 2012,
     "period-end-date": 2026,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.preston.gov.uk/media/1952/Preston-s-Local-Plan/pdf/Preston-Local-Plan-2012-2026-_8_k4ruyvumo78g.pdf?m=1688125806267",
         "documentation-url": "https://www.preston.gov.uk/article/928/Planning-policy",
-        "document-type": "core-strategy",
-        "name": "Central Lancashire Core Strategy",
-        "reference": "CS-2010-2026",
+        "document-type": "local-plan",
+        "name": "Preston Local Plan 2012-26",
+        "reference": "LP-2012-2026",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "ba223d059323a6400ade144328bbffdf4ef2c4a9789342f9a8cf782cff1cdb70"
       }
     ]
   }

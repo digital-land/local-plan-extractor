@@ -4,7 +4,7 @@
     "organisation-name": "Uttlesford District Council",
     "reference": "LP-UTT-2005",
     "documentation-url": "https://www.uttlesford.gov.uk/local-plan-2005",
-    "document-url": "",
+    "document-url": "https://www.uttlesford.gov.uk/media/4723/Uttlesford-Local-Plan-Adopted-January-2005/pdf/Local_Plan_2005.pdf?m=1681907159467",
     "name": "Uttlesford Local Plan 2005",
     "status": "adopted",
     "year": 2005,
@@ -12,13 +12,13 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.uttlesford.gov.uk/media/4723/Uttlesford-Local-Plan-Adopted-January-2005/pdf/Local_Plan_2005.pdf?m=1681907159467",
         "documentation-url": "https://www.uttlesford.gov.uk/local-plan-2005",
         "document-type": "local-plan",
         "name": "Uttlesford Local Plan 2005",
         "reference": "LP-2005",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": ""
       }
     ]
   },

@@ -4,7 +4,7 @@
     "organisation-name": "London Borough of Richmond upon Thames",
     "reference": "LP-RIC-2024",
     "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy/local_plan",
-    "document-url": "",
+    "document-url": "https://www2.richmond.gov.uk/docs/localplan/local_plan_interim_track_changes_for_adoption_october_2025.pdf",
     "name": "Richmond upon Thames Local Plan",
     "status": "adopted",
     "year": 2024,
@@ -12,13 +12,13 @@
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www2.richmond.gov.uk/docs/localplan/local_plan_interim_track_changes_for_adoption_october_2025.pdf",
         "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy",
         "document-type": "local-plan",
         "name": "The Local Plan",
         "reference": "LP-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "debc07b151b58ee008d1175b393ddba342aaff2af2e30b83b29568b1915fa9e9"
       },
       {
         "document-url": "",

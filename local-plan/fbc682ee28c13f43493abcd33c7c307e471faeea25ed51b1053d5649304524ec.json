@@ -1,0 +1,29 @@
+{
+  "name": "North East Lincolnshire Local Plan 2013-2032",
+  "organisation-name": "North East Lincolnshire Council",
+  "period-start-date": 2013,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "North East Lincolnshire Council",
+      "required-housing": 9742,
+      "allocated-housing": 8211,
+      "windfall-housing": 1073,
+      "committed-housing": 4722,
+      "broad-locations-housing": "",
+      "annual-required-housing": 512,
+      "pages": "62-64, 126-127",
+      "notes": "Plan has stepped housing requirement increasing over time: 397 homes/year (2013-2018), 488 homes/year (2018-2023), 649 homes/year (2023-2028), 518 homes/year (2028-2032). Total capacity of allocations is 8,211 dwellings but estimated delivery to 2032 is 6,507. Council also prepared for higher growth scenario of 13,340 homes (702 per year) to provide flexibility.",
+      "organisation": "local-authority:NEL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "fbc682ee28c13f43493abcd33c7c307e471faeea25ed51b1053d5649304524ec",
+  "pdf_file": "collection/document/fbc682ee28c13f43493abcd33c7c307e471faeea25ed51b1053d5649304524ec.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NEL",
+  "local-plan-boundary": "E60000054",
+  "local-planning-authorities": [
+    "E60000054"
+  ]
+}
