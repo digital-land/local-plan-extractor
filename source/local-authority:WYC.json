@@ -1,15 +1,25 @@
 [
   {
     "organisation": "local-authority:WYC",
-    "organisation-name": "Malvern Hills District Council",
-    "reference": "",
+    "organisation-name": "Wychavon District Council",
+    "reference": "LP-WYC-2016",
     "documentation-url": "https://www.swdevelopmentplan.org/swdp-2016",
-    "document-url": "https://www.swdevelopmentplan.org/component/fileman/?view=file&routed=1&name=The-Adopted-SWDP-February-2016.pdf&folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&container=fileman-files",
     "name": "South Worcestershire Development Plan 2016",
     "status": "adopted",
     "year": 2016,
     "period-start-date": 2006,
     "period-end-date": 2030,
-    "type": "joint-local-plan"
+    "type": "joint-local-plan",
+    "documents": [
+      {
+        "document-url": "https://www.swdevelopmentplan.org/component/fileman/?view=file&routed=1&name=The-Adopted-SWDP-February-2016.pdf&folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&container=fileman-files",
+        "documentation-url": "https://www.swdevelopmentplan.org/swdp-2016",
+        "document-type": "local-plan",
+        "name": "South Worcestershire Development Plan 2016",
+        "reference": "LP-2016",
+        "document-status": "adopted",
+        "endpoint": "2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb"
+      }
+    ]
   }
 ]
