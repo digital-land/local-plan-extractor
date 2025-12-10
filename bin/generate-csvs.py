@@ -266,8 +266,8 @@ class LocalPlanCSVGenerator:
             org = plan_data.get('organisation', '')
             organisation_name = plan_data.get('organisation-name', org)
 
-            # Extract year from plan data (check 'year' first, fallback to 'period-end-date')
-            year = plan_data.get('year', '')
+            # Extract year from plan data (check 'period-start-date' first, fallback to 'period-end-date')
+            year = plan_data.get('period-start-date', '')
             if not year:
                 # Try to extract year from period-end-date
                 period_end = plan_data.get('period-end-date', '')

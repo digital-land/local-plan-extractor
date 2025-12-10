@@ -1,0 +1,29 @@
+{
+  "name": "Stratford-on-Avon Core Strategy 2011-31",
+  "organisation-name": "Stratford-on-Avon District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stratford-on-Avon District Council",
+      "required-housing": 14600,
+      "allocated-housing": 8695,
+      "windfall-housing": 400,
+      "committed-housing": 7328,
+      "broad-locations-housing": 2000,
+      "annual-required-housing": 730,
+      "pages": "91-98",
+      "notes": "Total provision is 16,423 homes exceeding requirement by 12.5%. Committed housing includes completions plus commitments. Strategic allocations include 2,300 homes at Gaydon/Lighthorne Heath, 2,100 at Long Marston Airfield, plus various other allocations. Local Service Villages allocation of 2,000 homes distributed across 4 categories of villages.",
+      "organisation": "local-authority:STR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "72bc085d01cb0784f6ab2c43db7e56bf27fca5027bfb71c8557162d2a402fade",
+  "pdf_file": "collection/document/72bc085d01cb0784f6ab2c43db7e56bf27fca5027bfb71c8557162d2a402fade.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STR",
+  "local-plan-boundary": "E60000128",
+  "local-planning-authorities": [
+    "E60000128"
+  ]
+}

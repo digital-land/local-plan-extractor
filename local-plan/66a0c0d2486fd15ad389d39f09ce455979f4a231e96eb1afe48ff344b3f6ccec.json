@@ -1,0 +1,29 @@
+{
+  "name": "Bearing Fruits 2031: The Swale Borough Local Plan 2017",
+  "organisation-name": "Swale Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Swale Borough Council",
+      "required-housing": 13192,
+      "allocated-housing": 9166,
+      "windfall-housing": 1210,
+      "committed-housing": 4026,
+      "broad-locations-housing": "",
+      "annual-required-housing": 776,
+      "pages": "42, 51, 54-57",
+      "notes": "Total requirement is 13,192 homes (776 dpa) 2014-2031. Committed housing includes 618 completions 2014-15, 2,198 sites with permission, and 1,210 windfall allowance. Net provision needed from new allocations is 9,166 homes to meet the target.",
+      "organisation": "local-authority:SWL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "66a0c0d2486fd15ad389d39f09ce455979f4a231e96eb1afe48ff344b3f6ccec",
+  "pdf_file": "collection/document/66a0c0d2486fd15ad389d39f09ce455979f4a231e96eb1afe48ff344b3f6ccec.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SWL",
+  "local-plan-boundary": "E60000261",
+  "local-planning-authorities": [
+    "E60000261"
+  ]
+}

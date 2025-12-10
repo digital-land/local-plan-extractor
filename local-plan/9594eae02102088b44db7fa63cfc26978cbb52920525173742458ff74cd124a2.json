@@ -1,0 +1,29 @@
+{
+  "name": "Borough Local Plan (2013 - 2033)",
+  "organisation-name": "Royal Borough of Windsor and Maidenhead",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Royal Borough of Windsor and Maidenhead",
+      "required-housing": 14240,
+      "allocated-housing": 7059,
+      "windfall-housing": 1934,
+      "committed-housing": 6955,
+      "broad-locations-housing": "",
+      "annual-required-housing": 712,
+      "pages": "65-71",
+      "notes": "Total housing supply is 15,948 which exceeds the requirement of 14,240. Committed housing includes 4,018 completions since 2013 plus 2,937 sites with planning permission. The plan makes provision for 'at least' 14,240 dwellings.",
+      "organisation": "local-authority:WNM"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9594eae02102088b44db7fa63cfc26978cbb52920525173742458ff74cd124a2",
+  "pdf_file": "collection/document/9594eae02102088b44db7fa63cfc26978cbb52920525173742458ff74cd124a2.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WNM",
+  "local-plan-boundary": "E60000231",
+  "local-planning-authorities": [
+    "E60000231"
+  ]
+}
