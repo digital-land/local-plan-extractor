@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>South Worcestershire Development Plan - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      South Worcestershire Development Plan
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+    <h1 class="govuk-heading-xl">South Worcestershire Development Plan</h1>
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div id="map"></div>
+  </div>
+</div>
+
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/joint-planning-authority:MAV-WOC-WYC">joint-planning-authority:MAV-WOC-WYC</a></code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisations</dt>
+        <dd class="govuk-summary-list__value">
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:WOC/" class="govuk-link">
+                Worcester City Council
+              </a>
+            </div>
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:MAV/" class="govuk-link">
+                Malvern Hills District Council
+              </a>
+            </div>
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:WYC/" class="govuk-link">
+                Wychavon District Council
+              </a>
+            </div>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>E60000140-E60000138-E60000141</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000140">E60000140</a></code>
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000138">E60000138</a></code>
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000141">E60000141</a></code>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2006 to 2030
+          (24 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          <a href="https://www.swdevelopmentplan.org/component/fileman/?view=file&amp;routed=1&amp;name=The-Adopted-SWDP-February-2016.pdf&amp;folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&amp;container=fileman-files" class="govuk-link">https://www.swdevelopmentplan.org/component/fileman/?view=file&amp;routed=1&amp;name=The-Adopted-SWDP-February-2016.pdf&amp;folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&amp;container=fileman-files</a>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+    
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Worcester City Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:WOC</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>6,800 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              283 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,800 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,866 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              644 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              56-62, 69
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              WWA (Worcester City) Area target. Includes completions 2006-2015. Annual rate varies by period: higher 2015-18, then 283 pa 2018-30
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Malvern Hills District Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:MAV</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>10,100 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              421 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,459 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,579 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              372 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              56-62, 69
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Combined total for Malvern Hills (Ex WWA) Sub Area (5650) plus WWA (Malvern Hills) Area (4450). Includes completions 2006-2015 and urban extensions
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Wychavon District Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:WYC</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>11,500 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              479 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,339 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,639 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              876 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              56-62, 69
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Combined total for Wychavon (Ex WWA) Sub Area (10600) plus WWA (Wychavon) Area (900). Includes completions 2006-2015 and urban extensions
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Malvern Hills District Council, Worcester City Council, Wychavon District Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>joint-planning-authority:MAV-WOC-WYC</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>28,400 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              283 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,598 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              8,084 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,892 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Broad locations housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              0 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+        </dl>
+      </div>
+      
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "authority": "2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb",
+  "confidence": "high",
+  "document-url": "https://www.swdevelopmentplan.org/component/fileman/?view=file\u0026routed=1\u0026name=The-Adopted-SWDP-February-2016.pdf\u0026folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016\u0026container=fileman-files",
+  "housing-numbers": [
+    {
+      "allocated-housing": 1800,
+      "annual-required-housing": 283,
+      "broad-locations-housing": "",
+      "committed-housing": 1866,
+      "notes": "WWA (Worcester City) Area target. Includes completions 2006-2015. Annual rate varies by period: higher 2015-18, then 283 pa 2018-30",
+      "organisation": "local-authority:WOC",
+      "organisation-name": "Worcester City Council",
+      "pages": "56-62, 69",
+      "required-housing": 6800,
+      "windfall-housing": 644
+    },
+    {
+      "allocated-housing": 1459,
+      "annual-required-housing": 421,
+      "broad-locations-housing": "",
+      "committed-housing": 1579,
+      "notes": "Combined total for Malvern Hills (Ex WWA) Sub Area (5650) plus WWA (Malvern Hills) Area (4450). Includes completions 2006-2015 and urban extensions",
+      "organisation": "local-authority:MAV",
+      "organisation-name": "Malvern Hills District Council",
+      "pages": "56-62, 69",
+      "required-housing": 10100,
+      "windfall-housing": 372
+    },
+    {
+      "allocated-housing": 1339,
+      "annual-required-housing": 479,
+      "broad-locations-housing": "",
+      "committed-housing": 4639,
+      "notes": "Combined total for Wychavon (Ex WWA) Sub Area (10600) plus WWA (Wychavon) Area (900). Includes completions 2006-2015 and urban extensions",
+      "organisation": "local-authority:WYC",
+      "organisation-name": "Wychavon District Council",
+      "pages": "56-62, 69",
+      "required-housing": 11500,
+      "windfall-housing": 876
+    },
+    {
+      "allocated-housing": 4598,
+      "annual-required-housing": 283,
+      "broad-locations-housing": 0,
+      "committed-housing": 8084,
+      "notes": "",
+      "organisation": "joint-planning-authority:MAV-WOC-WYC",
+      "organisation-name": "Malvern Hills District Council, Worcester City Council, Wychavon District Council",
+      "pages": "",
+      "required-housing": 28400,
+      "windfall-housing": 1892
+    }
+  ],
+  "local-plan-boundary": "E60000140-E60000138-E60000141",
+  "local-planning-authorities": [
+    "E60000140",
+    "E60000138",
+    "E60000141"
+  ],
+  "name": "South Worcestershire Development Plan",
+  "organisation": "joint-planning-authority:MAV-WOC-WYC",
+  "organisation-name": "Malvern Hills District Council, Worcester City Council, Wychavon District Council",
+  "organisations": [
+    "local-authority:WOC",
+    "local-authority:MAV",
+    "local-authority:WYC"
+  ],
+  "pages_analysed": 32,
+  "pdf_file": "collection/document/2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb.pdf",
+  "pdf_file_missing": false,
+  "period-end-date": 2030,
+  "period-start-date": 2006
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["E60000140", "E60000138", "E60000141"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
+
+
+</body>
+</html>
