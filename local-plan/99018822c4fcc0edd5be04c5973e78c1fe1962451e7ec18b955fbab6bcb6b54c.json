@@ -1,0 +1,29 @@
+{
+  "name": "Leeds Local Development Framework Core Strategy",
+  "organisation-name": "Leeds City Council",
+  "period-start-date": 2017,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Leeds City Council",
+      "required-housing": 51952,
+      "allocated-housing": 46352,
+      "windfall-housing": 8000,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 3247,
+      "pages": "40-42, 67",
+      "notes": "Net requirement is 51,952 dwellings (2017-2033). Gross requirement is 54,352 dwellings accounting for 150 demolitions per annum. Council will identify 46,352 dwellings (gross) through Site Allocations Plan after accounting for 8,000 windfall dwellings over plan period (500 per annum).",
+      "organisation": "local-authority:LDS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "99018822c4fcc0edd5be04c5973e78c1fe1962451e7ec18b955fbab6bcb6b54c",
+  "pdf_file": "collection/document/99018822c4fcc0edd5be04c5973e78c1fe1962451e7ec18b955fbab6bcb6b54c.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LDS",
+  "local-plan-boundary": "E60000071",
+  "local-planning-authorities": [
+    "E60000071"
+  ]
+}

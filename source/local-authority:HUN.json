@@ -54,11 +54,11 @@
     "organisation-name": "Huntingdonshire District Council",
     "reference": "LP-HUN-2019",
     "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
-    "document-url": "",
+    "document-url": "https://www.huntingdonshire.gov.uk/media/3872/190516-final-adopted-local-plan-to-2036.pdf",
     "name": "Local Plan to 2036",
     "status": "adopted",
     "year": 2019,
-    "period-start-date": "",
+    "period-start-date": 2011,
     "period-end-date": 2036,
     "documents": []
   }

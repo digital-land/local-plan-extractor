@@ -1,0 +1,29 @@
+{
+  "name": "Maidstone Local Plan Review 2021-2038",
+  "organisation-name": "Maidstone Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Maidstone Borough Council",
+      "required-housing": 19669,
+      "allocated-housing": "",
+      "windfall-housing": 2711,
+      "committed-housing": 12652,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1157,
+      "pages": "26-27, 132-133",
+      "notes": "Total requirement 19,669 homes over plan period. Committed housing includes 2,691 completions (2021-2023) + 6,450 extant supply + 800 Invicta Park Barracks beyond 2031 + 883 town centre uplift + 1,828 office conversions. Windfall covers 2027-2038 period only. Stepped trajectory varies annually from 1,000 to 1,353 homes per year.",
+      "organisation": "local-authority:MAI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1955d7719a9809eb8178d3139d77c9f5c5faf51397a31e4062ef3f3b1b35a1e1",
+  "pdf_file": "collection/document/1955d7719a9809eb8178d3139d77c9f5c5faf51397a31e4062ef3f3b1b35a1e1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MAI",
+  "local-plan-boundary": "E60000259",
+  "local-planning-authorities": [
+    "E60000259"
+  ]
+}
