@@ -3,8 +3,7 @@
     "organisation": "local-authority:TOR",
     "organisation-name": "Torridge District Council",
     "reference": "LP-TOR-2018",
-    "documentation-url": "https://www.torridge.gov.uk/localplan",
-    "document-url": "https://www.torridge.gov.uk/media/18801/Inspector-s-Report-on-the-examination-of-the-North-Devon-and-Torridge-Local-Plan/pdf/NDTLP_Final_Inspectors_Report_-_11-09-18.pdf?m=1536837947640",
+    "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
     "name": "North Devon and Torridge Local Plan 2011-2031",
     "status": "adopted",
     "year": 2018,
@@ -12,22 +11,40 @@
     "period-end-date": 2031,
     "documents": [
       {
-        "document-url": "https://www.torridge.gov.uk/media/18801/Inspector-s-Report-on-the-examination-of-the-North-Devon-and-Torridge-Local-Plan/pdf/NDTLP_Final_Inspectors_Report_-_11-09-18.pdf?m=1536837947640",
-        "documentation-url": "https://www.torridge.gov.uk/localplan",
-        "document-type": "inspectors-report",
-        "name": "Inspector's Report on the examination of the North Devon and Torridge Local Plan",
-        "reference": "IR-2018",
+        "document-url": "https://consult.torridge.gov.uk/file/5860516",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "North Devon and Torridge Local Plan 2011-2031",
+        "reference": "LP-2011-2031",
         "document-status": "adopted",
-        "endpoint": "ce333f0258816542869072254445d8fe34106a8169d533160b47a513f7c5288b"
+        "endpoint": "9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139"
       },
       {
-        "document-url": "https://www.torridge.gov.uk/media/18802/Appendix-to-the-Inspector-s-Report-Main-modifications/pdf/NDTLP_Final_Inspectors_Report_-_Appendix_-_Main_Modifications_-_11-09-18.pdf?m=1536837997253",
-        "documentation-url": "https://www.torridge.gov.uk/localplan",
-        "document-type": "main-modifications",
-        "name": "Appendix to the Inspector's Report – Main modifications",
-        "reference": "MM-2018",
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "policies-map",
+        "name": "Policies Map",
+        "reference": "PM-2018",
         "document-status": "adopted",
-        "endpoint": "0c531c7649236238851692da7494a403aaaf2ca5d0469260a545e81743b30376"
+        "endpoint": "9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "supplementary-planning-document",
+        "name": "Supplementary Planning Documents (SPDs)",
+        "reference": "SPD-2018",
+        "document-status": "adopted",
+        "endpoint": "9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://consult.torridge.gov.uk/portal/planning/localplan/adoption/",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2018",
+        "document-status": "adopted",
+        "endpoint": "9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139"
       }
     ]
   }

@@ -1,0 +1,72 @@
+{
+  "name": "South Worcestershire Development Plan",
+  "organisation-name": "Malvern Hills District Council, Worcester City Council, Wychavon District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Worcester City Council",
+      "required-housing": 6800,
+      "allocated-housing": 1800,
+      "windfall-housing": 644,
+      "committed-housing": 1866,
+      "broad-locations-housing": "",
+      "annual-required-housing": 283,
+      "pages": "56-62, 69",
+      "notes": "WWA (Worcester City) Area target. Includes completions 2006-2015. Annual rate varies by period: higher 2015-18, then 283 pa 2018-30",
+      "organisation": "local-authority:WOC"
+    },
+    {
+      "organisation-name": "Malvern Hills District Council",
+      "required-housing": 10100,
+      "allocated-housing": 1459,
+      "windfall-housing": 372,
+      "committed-housing": 1579,
+      "broad-locations-housing": "",
+      "annual-required-housing": 421,
+      "pages": "56-62, 69",
+      "notes": "Combined total for Malvern Hills (Ex WWA) Sub Area (5650) plus WWA (Malvern Hills) Area (4450). Includes completions 2006-2015 and urban extensions",
+      "organisation": "local-authority:MAV"
+    },
+    {
+      "organisation-name": "Wychavon District Council",
+      "required-housing": 11500,
+      "allocated-housing": 1339,
+      "windfall-housing": 876,
+      "committed-housing": 4639,
+      "broad-locations-housing": "",
+      "annual-required-housing": 479,
+      "pages": "56-62, 69",
+      "notes": "Combined total for Wychavon (Ex WWA) Sub Area (10600) plus WWA (Wychavon) Area (900). Includes completions 2006-2015 and urban extensions",
+      "organisation": "local-authority:WYC"
+    },
+    {
+      "organisation-name": "Malvern Hills District Council, Worcester City Council, Wychavon District Council",
+      "organisation": "joint-planning-authority:MAV-WOC-WYC",
+      "required-housing": 28400,
+      "allocated-housing": 4598,
+      "windfall-housing": 1892,
+      "committed-housing": 8084,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 283,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb",
+  "pdf_file": "collection/document/2fe8076e6646758324442b792414d4cda3b9559f55754925857ffd07153229eb.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:MAV-WOC-WYC",
+  "organisations": [
+    "local-authority:WOC",
+    "local-authority:MAV",
+    "local-authority:WYC"
+  ],
+  "local-plan-boundary": "E60000140-E60000138-E60000141",
+  "local-planning-authorities": [
+    "E60000140",
+    "E60000138",
+    "E60000141"
+  ]
+}

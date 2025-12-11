@@ -4,13 +4,23 @@
     "organisation-name": "Wyre Borough Council",
     "reference": "LP-WYR-2022",
     "documentation-url": "https://www.wyre.gov.uk/planning-policy/local-plan-partial-review-2011-2031-1",
-    "document-url": "",
+    "document-url": "https://www.wyre.gov.uk/downloads/file/1595/adopted-wyre-local-plan-2011-2031-incorporating-partial-update-of-2022-",
     "name": "Wyre Local Plan (2011-2031) (incorporating partial update of 2022)",
     "status": "adopted",
-    "year": 2022,
+    "year": 2023,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.wyre.gov.uk/downloads/file/1595/adopted-wyre-local-plan-2011-2031-incorporating-partial-update-of-2022-",
+        "documentation-url": "https://www.wyre.gov.uk/planning-policy/local-plan-partial-review-2011-2031-1",
+        "document-type": "local-plan",
+        "name": "Wyre Local Plan (2011-2031) (incorporating partial update of 2022)",
+        "reference": "LP-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "80afc63ca69bd2f9e6dd68c11fd744de6f3a7d883dee1fd668b6dfd54d036f92"
+      }
+    ]
   },
   {
     "organisation": "local-authority:WYR",

@@ -1,0 +1,29 @@
+{
+  "name": "Mole Valley Local Plan",
+  "organisation-name": "Mole Valley District Council",
+  "period-start-date": 2020,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "organisation-name": "Mole Valley District Council",
+      "required-housing": 6381,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 336,
+      "pages": "33-34, 206",
+      "notes": "Target is 336 homes per year over 19-year plan period (2020-2039). Document states this is below current housing need, with early review required. Housing will be delivered through allocated sites, commitments, windfall, and other sources but specific breakdowns not clearly provided in excerpt.",
+      "organisation": "local-authority:MOL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "7c5462fa179f7b1def3c213cde9f487408ac5218f2186093040b1d5c09fc3196",
+  "pdf_file": "collection/document/7c5462fa179f7b1def3c213cde9f487408ac5218f2186093040b1d5c09fc3196.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MOL",
+  "local-plan-boundary": "E60000273",
+  "local-planning-authorities": [
+    "E60000273"
+  ]
+}

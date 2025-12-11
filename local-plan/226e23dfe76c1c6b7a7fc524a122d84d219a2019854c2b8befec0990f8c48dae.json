@@ -1,0 +1,29 @@
+{
+  "name": "Three Rivers Core Strategy",
+  "organisation-name": "Three Rivers District Council",
+  "period-start-date": 2001,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Three Rivers District Council",
+      "required-housing": 4500,
+      "allocated-housing": "",
+      "windfall-housing": 190,
+      "committed-housing": 569,
+      "broad-locations-housing": "",
+      "annual-required-housing": 180,
+      "pages": "29, 31-32",
+      "notes": "Housing target reduced from East of England Plan requirement of 5,000 to 4,500 dwellings. Committed housing includes 191 under construction + 378 with permission. Windfall allowance of 38 per year from 2021-2026 (5 years = 190 total). Specific allocations to be made in separate Site Allocations DPD.",
+      "organisation": "local-authority:THE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "226e23dfe76c1c6b7a7fc524a122d84d219a2019854c2b8befec0990f8c48dae",
+  "pdf_file": "collection/document/226e23dfe76c1c6b7a7fc524a122d84d219a2019854c2b8befec0990f8c48dae.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:THE",
+  "local-plan-boundary": "E60000173",
+  "local-planning-authorities": [
+    "E60000173"
+  ]
+}
