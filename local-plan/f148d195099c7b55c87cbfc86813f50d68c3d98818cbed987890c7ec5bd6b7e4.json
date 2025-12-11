@@ -1,0 +1,26 @@
+{
+  "name": "Central Lincolnshire Local Plan",
+  "organisation-name": "City of Lincoln Council, North Kesteven District Council, West Lindsey District Council",
+  "organisations": ["local-authority:LIC", "local-authority:NKE", "local-authority:WLI"],
+  "period-start-date": 2018,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Central Lincolnshire (all three authorities combined)",
+      "required-housing": 24244,
+      "allocated-housing": 13573,
+      "windfall-housing": 1956,
+      "committed-housing": 13738,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1102,
+      "pages": "18, 21, 171",
+      "notes": "This is a joint plan covering three authorities. Required housing is 1,102 dwellings per year (24,244 over 22-year period). Committed housing includes completions 2018-2022 (5,405) plus sites with permission (12,341). Individual authority breakdowns not provided in the document.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4",
+  "pdf_file": "collection/document/f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4.pdf",
+  "pages_analysed": 32,
+  "organisation": ""
+}

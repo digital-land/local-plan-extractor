@@ -3,49 +3,67 @@
     "organisation": "local-authority:WLI",
     "organisation-name": "West Lindsey District Council",
     "reference": "LP-WLI-2023",
-    "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
-    "document-url": "",
-    "name": "Central Lincolnshire Local Plan 2018-2040",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+    "name": "Central Lincolnshire Local Plan",
     "status": "adopted",
     "year": 2023,
     "period-start-date": 2018,
     "period-end-date": 2040,
     "documents": [
       {
-        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Central%20Lincs%20Energy%20Efficiency%20Design%20Guide%20-%20Final%202023.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
-        "document-type": "urban-design-framework",
-        "name": "Energy Efficiency Design Guide",
-        "reference": "EE-DG-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Central Lincolnshire Local Plan, Adopted April 2023",
+        "reference": "LP-2023",
         "document-status": "adopted",
-        "endpoint": "f649a7de6ccd64c401c571ff64d69bfff809a39be5706e656fe22d00bee49303"
+        "endpoint": "f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4"
       },
       {
-        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-07/Energy%20Efficiency%20Policies%20FAQs%20July%202023.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
-        "document-type": "local-plan",
-        "name": "Energy Efficiency Policies FAQs",
-        "reference": "LP-FAQ-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "adoption-statement",
+        "name": "Central Lincolnshire Local Plan 2023 Adoption Statement",
+        "reference": "AS-2023",
         "document-status": "adopted",
-        "endpoint": "641343b1a6b6fb0b75378fe505242b604cb7cdb041ed216959b00ce49daeb64e"
+        "endpoint": "de9bf8ec4efa63dbcff0ecc65074b9b2eaa303791718b2fda1bf64ebe534815f"
       },
       {
-        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-07/Providing%20an%20Energy%20Statement%20Guidance%20and%20Template%20July%202023.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
-        "document-type": "local-plan",
-        "name": "Providing an Energy Statement Guidance and Template",
-        "reference": "LP-ESG-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/SA%20Post%20Adoption%20Statement%20April%202023_FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "adoption-statement",
+        "name": "Central Lincolnshire Local Plan SEA Post Adoption Statement",
+        "reference": "SEA-AS-2023",
         "document-status": "adopted",
-        "endpoint": "fb18e3c7a6e539672e7cbfba7f7f010a709b9a47cc76d45c17724f06e8b37cc2"
+        "endpoint": "a410953e91759609d23ce21ddcb5da8c932c0cc2ebed06a33862962c8c6bd9ab"
       },
       {
-        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-05/Biodiversity%20Net%20Gain%20Guidance%20Note.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/central-lincolnshire-local-plan-2023",
-        "document-type": "local-plan",
-        "name": "Biodiversity Net Gain Guidance Note",
-        "reference": "LP-BNG-2023",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/SA%20Non-Technical%20Summary%20April%202023.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal and Habitats Regulation Assessment for the Adopted Local Plan (non technical summary)",
+        "reference": "SA-NTS-2023",
         "document-status": "adopted",
-        "endpoint": "34b67e9366448d711c79e10befd1544e0c47bb3b44ad6a6fe8795a3ed9fbefa1"
+        "endpoint": "cb26320f7f58f70431cf61ae8cbeaab24e4ab39ef4a56e93f2caaac134cce75e"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033%20Central%20Lincs%20Local%20Plan%20-%20Inspectors%20Report%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/local-plan-review-adopted",
+        "document-type": "inspectors-report",
+        "name": "Central Lincolnshire Local Plan Review Inspectors Report, March 2023",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "d67793f8abaf54dffbd4359714f58a1ead9fea426990488022f6519f653c4bae"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033A%20Central%20Lincs%20Local%20Plan%20-%20Main%20Mods%20Appendix%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/local-plan-review-adopted",
+        "document-type": "main-modifications",
+        "name": "Inspectors Report Appendix - Schedule of Main Modifications, March 2023",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "6eb5de0bcefc7b34046635b50dc2a0d198ef8712b2af6afc5c92ed70f0adb6e2"
       }
     ]
   },
@@ -53,40 +71,85 @@
     "organisation": "local-authority:WLI",
     "organisation-name": "West Lindsey District Council",
     "reference": "LP-WLI-2006",
-    "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
-    "document-url": "",
-    "name": "West Lindsey Local Plan (First Review) 2006",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20First%20Review%20June%202006%20Strategy.pdf",
+    "name": "West Lindsey Local Plan First Review June 2006",
     "status": "adopted",
     "year": 2006,
     "period-start-date": "",
     "period-end-date": "",
     "documents": [
       {
-        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Schedule%20of%20saved%20policies.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20First%20Review%20June%202006%20Strategy.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
         "document-type": "local-plan",
-        "name": "Schedule of saved policies",
+        "name": "West Lindsey Local Plan First Review June 2006 - Strategy",
+        "reference": "LP-STRATEGY-2006",
+        "document-status": "withdrawn",
+        "endpoint": "a44b16113f16083d324631d8da649db509dba7041ccedc01ed8cc02ae7b5902c"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20First%20Review%20June%202006%20General%20Policies.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "West Lindsey Local Plan First Review June 2006 - General Policies",
+        "reference": "LP-POLICIES-2006",
+        "document-status": "withdrawn",
+        "endpoint": "f79ad80a7d25c33edde3a42e2ef91ec314ea98f385fa9c7911bf5e4e794d11f0"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20First%20Review%20June%202006%20Appendices.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "West Lindsey Local Plan First Review June 2006 - Appendices",
+        "reference": "LP-APPENDICES-2006",
+        "document-status": "withdrawn",
+        "endpoint": "d729878bc3eeedb882432654b223913c7a2cbd139c7bf06759e872f5ad31d006"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20First%20Review%20June%202006%20Schedule%20of%20Saved%20Policies.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "West Lindsey Local Plan First Review June 2006 - Schedule of Saved Policies",
         "reference": "LP-SAVED-2006",
-        "document-status": "adopted",
-        "endpoint": "519c405d9f2d0a0b4a8f465783a6da7261f800470303d40689dfa69ce0a5814f"
+        "document-status": "withdrawn",
+        "endpoint": "2ad4f955cb1eba791cd656d3718e32c47f2d05e65688f55112f1cdc291bfdc1c"
       },
       {
-        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Secretary%20of%20State%20Direction%20for%20saved%20policies.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20Maps%201.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
         "document-type": "local-plan",
-        "name": "Secretary of State Direction for saved policies",
-        "reference": "LP-SOS-2006",
-        "document-status": "adopted",
-        "endpoint": "485208060d62a41619bad7a4d80e79bad081de6ea79f7771c19d5a6b79a10721"
+        "name": "West Lindsey Local Plan Maps 1",
+        "reference": "LP-MAPS1-2006",
+        "document-status": "withdrawn",
+        "endpoint": "2847cc652c80f16f5c8e0dacda806f6acb0bc78b0f7cf85481179275cf20bc92"
       },
       {
-        "document-url": "https://www.west-lindsey.gov.uk/sites/default/files/2022-02/Archived%20-%20Schedule%20of%20policies%20not%20saved.pdf",
-        "documentation-url": "https://www.west-lindsey.gov.uk/planning-building-control/planning/planning-policy/archived-west-lindsey-local-plan",
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20Maps%202.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
         "document-type": "local-plan",
-        "name": "Schedule of policies not saved",
-        "reference": "LP-UNSAVED-2006",
-        "document-status": "adopted",
-        "endpoint": "616acc2c5e7ce09266edd8913ce100c82aeb082fdb0f9a6c9f495b1d9f0aef84"
+        "name": "West Lindsey Local Plan Maps 2",
+        "reference": "LP-MAPS2-2006",
+        "document-status": "withdrawn",
+        "endpoint": "179409e14336be2ecf03c5c5c26f3227a1e213e51fc835d175386f6af5e89b24"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20Maps%203.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "West Lindsey Local Plan Maps 3",
+        "reference": "LP-MAPS3-2006",
+        "document-status": "withdrawn",
+        "endpoint": "85b4455eaabfe459e45c25682eafd43ff0b2ab0bcbb5a999c8a40d6d0f32b6ab"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/West%20Lindsey%20Local%20Plan%20Maps%204.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "West Lindsey Local Plan Maps 4",
+        "reference": "LP-MAPS4-2006",
+        "document-status": "withdrawn",
+        "endpoint": "ed38f0a1d4519994a09793757af94e5c2e241eb6d9337c4ba7156a1f19dd176a"
       }
     ]
   }

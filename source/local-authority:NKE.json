@@ -1,1 +1,129 @@
-[]
+[
+  {
+    "organisation": "local-authority:NKE",
+    "organisation-name": "North Kesteven District Council",
+    "reference": "LP-NKE-2023",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+    "name": "Central Lincolnshire Local Plan",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2018,
+    "period-end-date": 2040,
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Central Lincolnshire Local Plan, Adopted April 2023",
+        "reference": "LP-2023",
+        "document-status": "adopted",
+        "endpoint": "f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20Adoption%20Statement.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "adoption-statement",
+        "name": "Central Lincolnshire Local Plan 2023 Adoption Statement",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "de9bf8ec4efa63dbcff0ecc65074b9b2eaa303791718b2fda1bf64ebe534815f"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/SA%20Post%20Adoption%20Statement%20April%202023_FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "adoption-statement",
+        "name": "Central Lincolnshire Local Plan SEA Post Adoption Statement",
+        "reference": "SAA-2023",
+        "document-status": "adopted",
+        "endpoint": "a410953e91759609d23ce21ddcb5da8c932c0cc2ebed06a33862962c8c6bd9ab"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/SA%20Non-Technical%20Summary%20April%202023.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal and Habitats Regulation Assessment for the Adopted Local Plan (non technical summary)",
+        "reference": "SA-2023",
+        "document-status": "adopted",
+        "endpoint": "cb26320f7f58f70431cf61ae8cbeaab24e4ab39ef4a56e93f2caaac134cce75e"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033%20Central%20Lincs%20Local%20Plan%20-%20Inspectors%20Report%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "Local Plan Inspectors Report 2023",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "d67793f8abaf54dffbd4359714f58a1ead9fea426990488022f6519f653c4bae"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/STA033A%20Central%20Lincs%20Local%20Plan%20-%20Main%20Mods%20Appendix%20-%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "main-modifications",
+        "name": "Schedule of Main Modifications 2023",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "6eb5de0bcefc7b34046635b50dc2a0d198ef8712b2af6afc5c92ed70f0adb6e2"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Schedule%20of%20Local%20Plan%20Additional%20Minor%20and%20Map%20Modifications%20FINAL.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire",
+        "document-type": "local-plan",
+        "name": "Schedule of Additional Modifications and Map Modifications 2023",
+        "reference": "AMM-2023",
+        "document-status": "adopted",
+        "endpoint": "3b1090a550a32336b1e0c457649dad4d6161ad50ff50b0204ba011ed36ba7695"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NKE",
+    "organisation-name": "North Kesteven District Council",
+    "reference": "LP-NKE-2007",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/NK-Local-Plan-2007.pdf",
+    "name": "North Kesteven Local Plan 2007",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": "",
+    "period-end-date": "",
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/NK-Local-Plan-2007.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "North Kesteven Local Plan 2007",
+        "reference": "LP-2007",
+        "document-status": "withdrawn",
+        "endpoint": "5db2d68268c36059d9fd533ecdc9b5344a11ccb59197b245c6dbc757fb5a1e94"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/North%20Kesteven%20Local%20Plan%20Maps%201.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "North Kesteven Local Plan Maps 1",
+        "reference": "PM-2007-1",
+        "document-status": "withdrawn",
+        "endpoint": "2068d108bf62f8520860d88ea9317ca2f4a34c45c3f658c68c8a1238971d97f9"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/North%20Kesteven%20Local%20Plan%20Maps%202.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "North Kesteven Local Plan Maps 2",
+        "reference": "PM-2007-2",
+        "document-status": "withdrawn",
+        "endpoint": "5a3cb4b3521a22adeec996c83781fa9f9ec1a84a2eaf1649636cb87496d5af06"
+      },
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-03/North%20Kesteven%20Local%20Plan%20Maps%203.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023/superseded-local-plans",
+        "document-type": "local-plan",
+        "name": "North Kesteven Local Plan Maps 3",
+        "reference": "PM-2007-3",
+        "document-status": "withdrawn",
+        "endpoint": "b9104f8a7952ad9cda4f6963c606854fc24280ca1215980815bde60578a0222f"
+      }
+    ]
+  }
+]
