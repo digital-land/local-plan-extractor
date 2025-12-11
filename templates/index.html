@@ -20,66 +20,171 @@
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-full">
-    <h2 class="govuk-heading-l" style="margin-top: 40px;">Local plans</h2>
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px;">
+      <h2 class="govuk-heading-l" style="margin: 0;">Local plans</h2>
+      <!-- View toggle buttons -->
+      <div style="display: flex; gap: 10px;">
+        <button id="sort-by-name-btn" class="govuk-button govuk-button--secondary">
+          Sort by Plan name
+        </button>
+        <button id="sort-by-org-btn" class="govuk-button govuk-button--secondary govuk-button--disabled" disabled>
+          Sort by Organisation
+        </button>
+      </div>
+    </div>
 
-    <table class="govuk-table">
-      <thead class="govuk-table__head">
-        <tr class="govuk-table__row">
-          <th scope="col" class="govuk-table__header">Plan name</th>
-          <th scope="col" class="govuk-table__header">Organisation</th>
-          <th scope="col" class="govuk-table__header">Plan period</th>
-          <th scope="col" class="govuk-table__header govuk-table__header--numeric">Required housing</th>
-          <th scope="col" class="govuk-table__header">Confidence</th>
-        </tr>
-      </thead>
-      <tbody class="govuk-table__body">
-        {% for plan in plans %}
-        <tr class="govuk-table__row">
-          <td class="govuk-table__cell">
-            <a href="local-plan/{{ plan.filename }}.html" class="govuk-link">
-              {{ plan.name or plan.filename }}
-            </a>
-          </td>
-          <td class="govuk-table__cell">
-            {{ plan.get('organisation-name', 'Unknown') }}
-          </td>
-          <td class="govuk-table__cell">
-            {% if plan.get('period-start-date') and plan.get('period-end-date') %}
-              {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
-            {% else %}
-              Not specified
-            {% endif %}
-          </td>
-          <td class="govuk-table__cell govuk-table__cell--numeric">
-            {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
-              {% set joint_entry = none %}
-              {% for entry in plan['housing-numbers'] %}
-                {% if entry.get('organisation', '').startswith('joint-planning-authority:') %}
-                  {% set joint_entry = entry %}
-                {% endif %}
-              {% endfor %}
-              {% if joint_entry %}
-                {{ joint_entry.get('required-housing', '')|format_number }}
+    <!-- Table sorted by Plan name -->
+    <div id="table-by-name" style="display: none;">
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Plan name</th>
+            <th scope="col" class="govuk-table__header">Organisation</th>
+            <th scope="col" class="govuk-table__header">Plan period</th>
+            <th scope="col" class="govuk-table__header govuk-table__header--numeric">Required housing</th>
+            <th scope="col" class="govuk-table__header">Confidence</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for plan in plans_by_name %}
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+              <a href="local-plan/{{ plan.filename }}.html" class="govuk-link">
+                {{ plan.name or plan.filename }}
+              </a>
+            </td>
+            <td class="govuk-table__cell">
+              {{ plan.get('organisation-name', 'Unknown') }}
+            </td>
+            <td class="govuk-table__cell">
+              {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+                {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
               {% else %}
-                {{ plan['housing-numbers'][0].get('required-housing', '')|format_number }}
+                Not specified
               {% endif %}
-            {% else %}
-              Not specified
-            {% endif %}
-          </td>
-          <td class="govuk-table__cell">
-            {% if plan.get('confidence') %}
-              <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
-                {{ plan.confidence }}
-              </strong>
-            {% endif %}
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+            </td>
+            <td class="govuk-table__cell govuk-table__cell--numeric">
+              {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
+                {% set joint_entry = none %}
+                {% for entry in plan['housing-numbers'] %}
+                  {% if entry.get('organisation', '').startswith('joint-planning-authority:') %}
+                    {% set joint_entry = entry %}
+                  {% endif %}
+                {% endfor %}
+                {% if joint_entry %}
+                  {{ joint_entry.get('required-housing', '')|format_number }}
+                {% else %}
+                  {{ plan['housing-numbers'][0].get('required-housing', '')|format_number }}
+                {% endif %}
+              {% else %}
+                Not specified
+              {% endif %}
+            </td>
+            <td class="govuk-table__cell">
+              {% if plan.get('confidence') %}
+                <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
+                  {{ plan.confidence }}
+                </strong>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Table sorted by Organisation -->
+    <div id="table-by-org" style="display: block;">
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Plan name</th>
+            <th scope="col" class="govuk-table__header">Organisation</th>
+            <th scope="col" class="govuk-table__header">Plan period</th>
+            <th scope="col" class="govuk-table__header govuk-table__header--numeric">Required housing</th>
+            <th scope="col" class="govuk-table__header">Confidence</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body">
+          {% for plan in plans_by_org %}
+          <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+              <a href="local-plan/{{ plan.filename }}.html" class="govuk-link">
+                {{ plan.name or plan.filename }}
+              </a>
+            </td>
+            <td class="govuk-table__cell">
+              {{ plan.get('organisation-name', 'Unknown') }}
+            </td>
+            <td class="govuk-table__cell">
+              {% if plan.get('period-start-date') and plan.get('period-end-date') %}
+                {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
+              {% else %}
+                Not specified
+              {% endif %}
+            </td>
+            <td class="govuk-table__cell govuk-table__cell--numeric">
+              {% if plan.get('housing-numbers') and plan['housing-numbers']|length > 0 %}
+                {% set joint_entry = none %}
+                {% for entry in plan['housing-numbers'] %}
+                  {% if entry.get('organisation', '').startswith('joint-planning-authority:') %}
+                    {% set joint_entry = entry %}
+                  {% endif %}
+                {% endfor %}
+                {% if joint_entry %}
+                  {{ joint_entry.get('required-housing', '')|format_number }}
+                {% else %}
+                  {{ plan['housing-numbers'][0].get('required-housing', '')|format_number }}
+                {% endif %}
+              {% else %}
+                Not specified
+              {% endif %}
+            </td>
+            <td class="govuk-table__cell">
+              {% if plan.get('confidence') %}
+                <strong class="govuk-tag govuk-tag--{% if plan.confidence == 'high' %}green{% elif plan.confidence == 'medium' %}yellow{% else %}grey{% endif %}">
+                  {{ plan.confidence }}
+                </strong>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
   </div>
 </div>
+
+<script>
+  // Handle table view toggle
+  document.getElementById('sort-by-name-btn').addEventListener('click', function() {
+    document.getElementById('table-by-name').style.display = 'block';
+    document.getElementById('table-by-org').style.display = 'none';
+    this.classList.add('govuk-button--disabled');
+    this.setAttribute('disabled', 'disabled');
+    document.getElementById('sort-by-org-btn').classList.remove('govuk-button--disabled');
+    document.getElementById('sort-by-org-btn').removeAttribute('disabled');
+    localStorage.setItem('sortPreference', 'name');
+  });
+
+  document.getElementById('sort-by-org-btn').addEventListener('click', function() {
+    document.getElementById('table-by-name').style.display = 'none';
+    document.getElementById('table-by-org').style.display = 'block';
+    this.classList.add('govuk-button--disabled');
+    this.setAttribute('disabled', 'disabled');
+    document.getElementById('sort-by-name-btn').classList.remove('govuk-button--disabled');
+    document.getElementById('sort-by-name-btn').removeAttribute('disabled');
+    localStorage.setItem('sortPreference', 'org');
+  });
+
+  // Restore user's preference from localStorage
+  window.addEventListener('DOMContentLoaded', function() {
+    const preference = localStorage.getItem('sortPreference') || 'org';
+    if (preference === 'name') {
+      document.getElementById('sort-by-name-btn').click();
+    }
+  });
+</script>
 
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">

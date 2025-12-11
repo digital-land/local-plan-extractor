@@ -185,10 +185,18 @@ def render_index(plans, output_dir, env):
     template = env.get_template("index.html")
 
     # Sort plans by name
-    sorted_plans = sorted(plans, key=lambda p: p.get("name", ""))
+    sorted_by_name = sorted(plans, key=lambda p: p.get("name", ""))
+
+    # Sort plans by organisation name
+    sorted_by_org = sorted(plans, key=lambda p: p.get("organisation-name", ""))
 
     # Render template
-    html_content = template.render(plans=sorted_plans, home_path="index.html")
+    html_content = template.render(
+        plans=plans,
+        plans_by_name=sorted_by_name,
+        plans_by_org=sorted_by_org,
+        home_path="index.html"
+    )
 
     # Write output
     output_path = Path(output_dir) / "index.html"
