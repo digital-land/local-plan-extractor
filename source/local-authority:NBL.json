@@ -14,20 +14,20 @@
       {
         "document-url": "https://www.northumberland.gov.uk/NorthumberlandCountyCouncil/media/Planning-and-Building/planning%20policy/Local%20Plan/Northumberland-Local-Plan-Adopted-March-2022.pdf",
         "documentation-url": "https://www.northumberland.gov.uk/planning-and-building/planning-policy",
-        "document-type": "neighbourhood-plan",
+        "document-type": "local-plan",
         "name": "Northumberland Local Plan 2016-2036",
         "reference": "LP-2016-2036",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "f753ec8dde4210dce45fbb4e6a0575d4bae20d2c86a44e8b97d2d66533e11f49"
       },
       {
         "document-url": "",
         "documentation-url": "https://www.northumberland.gov.uk/planning",
-        "document-type": "neighbourhood-plan",
+        "document-type": "supplementary-planning-document",
         "name": "Studies, evidence, reports and guidance",
         "reference": "SERG-2016",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "f753ec8dde4210dce45fbb4e6a0575d4bae20d2c86a44e8b97d2d66533e11f49"
       },
       {
         "document-url": "",
