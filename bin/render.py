@@ -184,6 +184,15 @@ def render_index(plans, output_dir, env):
     # Load template
     template = env.get_template("index.html")
 
+    # Ensure all plans have organisation-name populated (for joint-authority plans)
+    for plan in plans:
+        if not plan.get("organisation-name"):
+            # Look for joint-planning-authority entry in housing-numbers
+            for entry in plan.get("housing-numbers", []):
+                if entry.get("organisation", "").startswith("joint-planning-authority:"):
+                    plan["organisation-name"] = entry.get("organisation-name", "Unknown")
+                    break
+
     # Sort plans by name
     sorted_by_name = sorted(plans, key=lambda p: p.get("name", ""))
 
@@ -292,6 +301,7 @@ Examples:
             rendered_plans += 1
             # Add filename for linking
             data["filename"] = json_path.stem
+            # Include housing-numbers for organisation lookup in index template
             plans_data.append(data)
         except Exception as e:
             print(f"  ✗ {json_path.stem}: {e}", file=sys.stderr)
