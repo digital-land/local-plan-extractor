@@ -1,15 +1,5 @@
-Processing single PDF file: ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.pdf
-
-
-Processing: collection/document/ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.pdf
-  Scanning 153 pages for relevant content...
-  Selected top 32 pages (scores: [48, 46, 43, 40, 40, 38, 28, 26, 26, 23, 23, 21, 21, 20, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 15, 15, 15, 15, 15])
-  Extracted PDF size: 121,070 bytes
-  Sending 32 pages to Claude API...
-  ✓ Extraction complete
 {
-  "name": "Core Spatial Strategy",
-  "organisation-name": "Newcastle-under-Lyme Borough Council, Stoke-on-Trent City Council",
+  "name": "Newcastle-under-Lyme and Stoke-on-Trent Joint Core Strategy",
   "period-start-date": 2006,
   "period-end-date": 2026,
   "housing-numbers": [
@@ -21,8 +11,8 @@ Processing: collection/document/ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": 285,
-      "pages": "43, 45",
-      "notes": "Net housing requirement from RSS. Gross requirement is 6,257 including 557 demolition replacements. Rural areas target of 900 additional dwellings mentioned on page 45.",
+      "pages": "43-44",
+      "notes": "Net housing requirement from RSS. Specific site allocations to be addressed in future Development Plan Documents",
       "organisation": "local-authority:NEC"
     },
     {
@@ -33,8 +23,8 @@ Processing: collection/document/ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": 570,
-      "pages": "43, 44",
-      "notes": "Net housing requirement from RSS. Gross requirement is 13,500 including 2,100 demolition replacements. Housing trajectory shows phased delivery with lower numbers early in plan period due to Housing Market Renewal programme.",
+      "pages": "43-44",
+      "notes": "Net housing requirement from RSS. Specific site allocations to be addressed in future Development Plan Documents",
       "organisation": "local-authority:STE"
     },
     {
