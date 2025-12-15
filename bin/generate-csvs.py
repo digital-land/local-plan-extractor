@@ -259,8 +259,29 @@ class LocalPlanCSVGenerator:
 
         logger.info(f"Loaded {len(self.local_plans)} local plans and {len(self.local_plan_documents)} documents")
 
+    def _should_skip_plan(self, plan_data: Dict) -> bool:
+        """Check if a plan should be skipped based on exclusion rules."""
+        name = plan_data.get('name', '').lower()
+
+        # Skip waste plans
+        if 'waste' in name:
+            logger.info(f"Skipping waste plan: {plan_data.get('name', '')}")
+            return True
+
+        # Skip mineral plans
+        if 'mineral' in name:
+            logger.info(f"Skipping mineral plan: {plan_data.get('name', '')}")
+            return True
+
+        # Add more edge cases as needed
+        return False
+
     def _process_local_plan(self, plan_data: Dict):
         """Process a single local plan entry from JSON."""
+        # Skip excluded plan types
+        if self._should_skip_plan(plan_data):
+            return
+
         try:
             # Create local-plan entry
             org = plan_data.get('organisation', '')
