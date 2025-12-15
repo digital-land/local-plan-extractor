@@ -114,7 +114,7 @@ class LocalPlanCSVGenerator:
                 housing_numbers = data.get('housing-numbers', [])
 
                 if org and housing_numbers:
-                    # Store housing data keyed by organisation
+                    # Store housing data keyed by top-level organisation
                     if org not in self.housing_data:
                         self.housing_data[org] = {
                             'housing-numbers': housing_numbers,
@@ -122,6 +122,18 @@ class LocalPlanCSVGenerator:
                         }
                         loaded_count += 1
                         logger.debug(f"Loaded housing data for {org}")
+
+                    # Also store housing data keyed by individual organisations within housing-numbers
+                    # This handles joint plans where the top-level org is different from individual orgs
+                    for housing_entry in housing_numbers:
+                        entry_org = housing_entry.get('organisation', '')
+                        if entry_org and entry_org != org and entry_org not in self.housing_data:
+                            self.housing_data[entry_org] = {
+                                'housing-numbers': [housing_entry],
+                                'organisation-name': housing_entry.get('organisation-name', ''),
+                            }
+                            loaded_count += 1
+                            logger.debug(f"Loaded housing data for {entry_org} (from joint plan)")
 
             except Exception as e:
                 logger.debug(f"Failed to load housing data from {json_file.name}: {e}")
