@@ -116,7 +116,12 @@ class DateExtractor:
                 try:
                     if self.verbose:
                         logger.debug(f"  Downloading PDF from: {url}")
-                    with urllib.request.urlopen(url, timeout=30) as response:
+                    # Use browser user-agent to avoid 403 Forbidden errors from some websites
+                    req = urllib.request.Request(
+                        url,
+                        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+                    )
+                    with urllib.request.urlopen(req, timeout=30) as response:
                         pdf_data = response.read()
                 except urllib.error.URLError as e:
                     if self.verbose:
