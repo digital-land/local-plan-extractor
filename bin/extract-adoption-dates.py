@@ -11,8 +11,10 @@ This script:
 
 Usage:
     python bin/extract-adoption-dates.py                    # Process all source files
-    python bin/extract-adoption-dates.py --lpa ARU,BAB     # Process specific LPAs
+    python bin/extract-adoption-dates.py --lpa ARU,BAB      # Process specific LPAs
     python bin/extract-adoption-dates.py --verbose          # Show detailed extraction attempts
+    python bin/extract-adoption-dates.py --start-from BRD   # Resume processing from BRD onwards
+    python bin/extract-adoption-dates.py --lpa BAB,BAE,BAN --start-from BAE  # Combine with specific LPAs (start from BAB but only process specific ones)
 """
 
 import json
@@ -229,6 +231,10 @@ class DateExtractor:
         adoption_patterns = [
             # "on 14th December 2017 Adur District Council adopted..." - date comes before "adopted" (with ordinal suffix)
             r'on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})\s+.*?adopted',
+            # "adopted ... beginning on 25th February 2022" - adopted ... on date (flexible middle text)
+            r'adopted\s+.*?on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})',
+            # "adopted the ... in May 2024" - adopted ... in month year
+            r'adopted\s+.*?\s+in\s+(\w+)\s+(\d{4})',
             # "was adopted on the 18th of July 2018"
             r'adopted\s+on\s+the\s+(\d{1,2})(?:st|nd|rd|th)\s+of\s+(\w+)\s+(\d{4})',
             # "adopted on 18 July 2018"
@@ -272,6 +278,10 @@ class DateExtractor:
         withdrawal_patterns = [
             # "on 14th December 2017 ... withdrawn" - date comes before "withdrawn" (with ordinal suffix)
             r'on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})\s+.*?withdrawn',
+            # "withdrawn ... beginning on 25th February 2022" - withdrawn ... on date (flexible middle text)
+            r'withdrawn\s+.*?on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})',
+            # "withdrawn ... in May 2024" - withdrawn ... in month year
+            r'withdrawn\s+.*?\s+in\s+(\w+)\s+(\d{4})',
             r'withdrawn\s+on\s+the\s+(\d{1,2})(?:st|nd|rd|th)\s+of\s+(\w+)\s+(\d{4})',
             r'withdrawn\s+on\s+(\d{1,2})\s+(\w+)\s+(\d{4})',
             r'withdrawn\s+(\d{1,2})\s+(\w+)\s+(\d{4})',
