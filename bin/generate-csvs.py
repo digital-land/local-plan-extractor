@@ -39,7 +39,6 @@ class LocalPlanCSVGenerator:
     # Edit this dictionary to override generated references
     REFERENCE_OVERRIDES = {
         # Example:
-        'london-borough-of-barking-and-dagenham-local-plan-2021': 'london-borough-of-barking-and-dagenham-local-plan-2020',
         'babergh-and-mid-suffolk-joint-local-plan-part-1-2018-2037':'the-babergh-and-mid-suffolk-joint-local-plan'
     }
 
