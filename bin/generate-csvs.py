@@ -35,6 +35,14 @@ logger = logging.getLogger(__name__)
 
 
 class LocalPlanCSVGenerator:
+    # Reference overrides: maps generated reference to reference currently used on the Provide platform
+    # Edit this dictionary to override generated references
+    REFERENCE_OVERRIDES = {
+        # Example:
+        'london-borough-of-barking-and-dagenham-local-plan-2021': 'london-borough-of-barking-and-dagenham-local-plan-2020',
+        'babergh-and-mid-suffolk-joint-local-plan-part-1-2018-2037':'the-babergh-and-mid-suffolk-joint-local-plan'
+    }
+
     def __init__(self, source_dir: str = "source", output_dir: str = ".", existing_datasets_dir: str = None, local_plan_dir: str = "local-plan"):
         """Initialize the CSV generator."""
         self.source_dir = Path(source_dir)
@@ -299,20 +307,55 @@ class LocalPlanCSVGenerator:
             org = plan_data.get('organisation', '')
             organisation_name = plan_data.get('organisation-name', org)
 
+            # Normalize authority slug (always available for downstream calls)
+            authority_slug = self._authority_to_slug(organisation_name)
+
             # Extract year from plan data (check 'period-start-date' first, fallback to 'period-end-date')
             year = plan_data.get('period-start-date', '')
             if not year:
                 # Try to extract year from period-end-date
                 period_end = plan_data.get('period-end-date', '')
                 if period_end:
-                    year = str(period_end) if isinstance(period_end, int) else ''
+                    year = period_end
 
-            # Generate new reference format: {slug}-local-plan-{year}
-            authority_slug = self._authority_to_slug(organisation_name)
-            if year:
-                reference = f"{authority_slug}-local-plan-{year}"
+            # Normalize year to string without '.0' if numeric-like
+            if isinstance(year, (int, float)):
+                try:
+                    year = str(int(year))
+                except Exception:
+                    year = str(year)
+            elif isinstance(year, str) and year.endswith('.0'):
+                year = year[:-2]
+
+            # Determine whether this is a joint plan
+            organisations = plan_data.get('organisations', [])
+            if not organisations and org in self.joint_plan_organisations:
+                organisations = self.joint_plan_organisations[org]
+
+            is_joint = False
+            if organisations and isinstance(organisations, list) and len(organisations) > 1:
+                is_joint = True
+
+            # Generate slug and reference
+            # For joint plans: slug from plan name only
+            # For non-joint: slug from authority name and format {slug}-local-plan-{year}
+            if is_joint:
+                # Use plan name as slug for joint plans
+                plan_name = plan_data.get('name', '')
+                slug = self._authority_to_slug(plan_name)
+                reference = slug if slug else ''
             else:
-                reference = f"{authority_slug}-local-plan"
+                authority_slug = self._authority_to_slug(organisation_name)
+                if year:
+                    reference = f"{authority_slug}-local-plan-{year}"
+                else:
+                    reference = f"{authority_slug}-local-plan"
+
+            # Apply reference overrides if defined
+            if reference in self.REFERENCE_OVERRIDES:
+                original_reference = reference
+                reference = self.REFERENCE_OVERRIDES[reference]
+                logger.info(f"Applied reference override: {original_reference} → {reference}")
 
             # Determine entity number: use existing if available, otherwise generate new
             if reference in self.local_plan_entity_map:
@@ -342,8 +385,8 @@ class LocalPlanCSVGenerator:
             # Store current plan reference for document numbering
             self.current_plan_reference = reference
 
-            # Initialize document counter for this plan
-            plan_key = (authority_slug, year)
+            # Initialize document counter for this plan (use slug, which differs for joint plans)
+            plan_key = (slug if is_joint else authority_slug, year)
             if plan_key not in self.authority_plan_counters:
                 self.authority_plan_counters[plan_key] = 0
 
@@ -375,7 +418,9 @@ class LocalPlanCSVGenerator:
             documents = plan_data.get('documents', [])
             if isinstance(documents, list):
                 for doc in documents:
-                    self._process_document(reference, authority_slug, year, doc)
+                    # Pass the plan-specific slug for joint plans so document counters align
+                    doc_authority_slug = slug if is_joint else authority_slug
+                    self._process_document(reference, doc_authority_slug, year, doc)
 
             # Add housing data if available
             if org in self.housing_data:
