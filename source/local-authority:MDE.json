@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2013,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.middevon.gov.uk/media/354365/local-plan-review-2013-2033-adopted-11112022-accessible.pdf",
@@ -60,6 +62,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.middevon.gov.uk/media/354982/non_statutory_interim_pp_statement_climate_emergency_accessible.pdf",

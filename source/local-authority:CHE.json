@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2010,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/idp-july-16-update.pdf",
@@ -33,6 +35,8 @@
     "year": 2022,
     "period-start-date": 2010,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -46,6 +50,8 @@
     "year": 2007,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -59,6 +65,8 @@
     "year": 1999,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -72,6 +80,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/issues-paper/new-local-plan-issues-paper.pdf",

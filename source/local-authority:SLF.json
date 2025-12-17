@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.salford.gov.uk/media/398824/salford-local-plan-development-management-policies-and-designations.pdf",
@@ -78,6 +80,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2042,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.salford.gov.uk/media/5sph1vjg/local-development-scheme-24-july-2025.pdf",
@@ -101,6 +105,8 @@
     "year": 2006,
     "period-start-date": 2004,
     "period-end-date": 2016,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.salford.gov.uk/media/386576/udp-final.pdf",

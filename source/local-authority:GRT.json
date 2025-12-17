@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.guildford.gov.uk/media/36649/LDS-March-2025/pdf/LDS_March_2025_final_v2.pdf?m=1740649863927",
@@ -33,6 +35,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

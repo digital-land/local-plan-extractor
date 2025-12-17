@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf",
@@ -150,6 +152,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

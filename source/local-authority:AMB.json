@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2022,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

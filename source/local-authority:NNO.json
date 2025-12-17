@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.north-norfolk.gov.uk/media/9377/north-norfolk-local-plan-proposed-submission-version-publication-stage-regulation-19-january-2022.pdf",
@@ -60,6 +62,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.north-norfolk.gov.uk/media/5033/first-draft-local-plan-may-2019.pdf",

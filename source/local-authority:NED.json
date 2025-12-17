@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2014,
     "period-end-date": 2034,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ne-derbyshire.gov.uk/documents/adopted-ned-local-plan-2014-2034/download?Itemid=189",
@@ -51,6 +53,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

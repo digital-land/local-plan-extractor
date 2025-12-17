@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -23,6 +25,8 @@
     "year": 2025,
     "period-start-date": 2020,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://oadby-wigston.gov.uk/files/documents/regulation_19_pre_submission_draft_local_plan_n_january_2025/Regulation%2019%20Pre-Submission%20Draft%20Local%20Plan%20-%20January%202025.pdf",

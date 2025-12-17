@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Regeneration/Croydon_Local_Plan_2018.pdf",
@@ -78,6 +80,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.croydon.gov.uk/sites/default/files/Planning/Adopted_SLWP_2012.pdf",

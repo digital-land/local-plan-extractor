@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/knowsley-local-plan-adopted-core-strategy.pdf",
@@ -78,6 +80,8 @@
     "year": 2006,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/Knowsley%20UDP%202006.pdf",
@@ -101,6 +105,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/JointMerseyside-and-HaltonWasteLocalPlan2013.pdf",

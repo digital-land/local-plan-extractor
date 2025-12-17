@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": 2019,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.kingston.gov.uk/sites/default/files/2025-04/RBK_Local_Development_Scheme__February_2025_.pdf",
@@ -33,6 +35,8 @@
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.kingston.gov.uk/sites/default/files/downloads/Core_Strategy.pdf",
@@ -56,6 +60,8 @@
     "year": 2008,
     "period-start-date": "",
     "period-end-date": 2020,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -69,6 +75,8 @@
     "year": 2022,
     "period-start-date": 2022,
     "period-end-date": 2037,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

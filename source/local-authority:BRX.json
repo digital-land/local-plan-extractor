@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2018,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/1813/local-plan-2018-2033",
@@ -105,6 +107,8 @@
     "year": 2013,
     "period-start-date": 2001,
     "period-end-date": 2011,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.broxbourne.gov.uk/downloads/file/928/pp-2013-12-17-full-adopted-local-plan-2001-2011",

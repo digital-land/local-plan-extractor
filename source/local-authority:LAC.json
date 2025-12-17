@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lancaster.gov.uk/assets/attach/14308/CELPR_PoliciesMap_District.pdf",
@@ -51,6 +53,8 @@
     "year": 2025,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lancaster.gov.uk/assets/attach/10429/Policies-Map_Rural-Villages.pdf",
@@ -83,6 +87,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -96,6 +102,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lancaster.gov.uk/assets/attach/5090/AS_AONB_AdoptedVersion_March2019_A0P.pdf",
@@ -128,6 +136,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

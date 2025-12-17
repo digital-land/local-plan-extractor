@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.harborough.gov.uk/download/downloads/id/5714/harborough_local_plan_2011-2031_-_adopted_april_2019.pdf",
@@ -78,6 +80,8 @@
     "year": 2025,
     "period-start-date": 2020,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.harborough.gov.uk/downloads/file/8956/statement_of_representations_procedure_and_statement_of_fact",

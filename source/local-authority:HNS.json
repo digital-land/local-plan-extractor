@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2020,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -87,6 +89,8 @@
     "year": 2015,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

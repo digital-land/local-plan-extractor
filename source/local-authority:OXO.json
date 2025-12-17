@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2016,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.oxford.gov.uk/downloads/file/1825/oxford-local-plan-2036-inspectors-report",
@@ -69,6 +71,8 @@
     "year": 2025,
     "period-start-date": 2025,
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -82,6 +86,8 @@
     "year": 2024,
     "period-start-date": 2025,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.oxford.gov.uk/downloads/file/3600/exam-20---inspectors-post-hearings-letter-to-council-september-2024",
@@ -123,6 +129,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -136,6 +144,8 @@
     "year": 2015,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -149,6 +159,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.oxford.gov.uk/downloads/file/1566/cil-final-charging-schedule",
@@ -172,6 +184,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.oxford.gov.uk/downloads/file/1598/oxford-west-end-design-guide",

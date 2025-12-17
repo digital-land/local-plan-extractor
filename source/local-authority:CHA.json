@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2037,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.charnwood.gov.uk/files/documents/exam_98_schedule_of_further_main_modifications_chp9_infrastructure_delivery_290525/EXAM%2098%20Schedule%20of%20Further%20Main%20Modifications%20%28Chp9%20Infrastructure%20%20Delivery%29%20-%20290525.pdf",
@@ -69,6 +71,8 @@
     "year": 2015,
     "period-start-date": 2011,
     "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.charnwood.gov.uk/files/documents/local_plan_review_n_november_2020/Local%20Plan%20Review%20Final.pdf",
@@ -92,6 +96,8 @@
     "year": 2004,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

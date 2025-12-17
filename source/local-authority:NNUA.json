@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
@@ -42,6 +44,8 @@
     "year": 2026,
     "period-start-date": "",
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -65,6 +69,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -78,6 +84,8 @@
     "year": 2023,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -91,6 +99,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -33,6 +35,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.trafford.gov.uk/planning/strategic-planning/local-plan/Docs/Empress-Conservation-Area-Regeneration-Plan.pdf",
@@ -56,6 +60,8 @@
     "year": 2025,
     "period-start-date": 2025,
     "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

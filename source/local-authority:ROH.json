@@ -10,6 +10,8 @@
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2011,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://rdcpublic.blob.core.windows.net/website-uploads/2020/01/local-plan_1.pdf",
@@ -42,6 +44,8 @@
     "year": 2024,
     "period-start-date": 2020,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

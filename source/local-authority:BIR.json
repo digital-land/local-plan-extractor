@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.birmingham.gov.uk/download/downloads/id/5433/adopted_birmingham_development_plan_2031.pdf",
@@ -105,6 +107,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.birmingham.gov.uk/download/downloads/id/1024/big_city_plan_part_1.pdf",

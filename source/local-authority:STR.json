@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.stratford.gov.uk/templates/server/document-relay.cfm?doc=173518&name=SDC%20CORE%20STRATEGY%202011%202031%20July%202016.pdf",
@@ -33,6 +35,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.stratford.gov.uk/doc/211256/name/REVISED%20PREFERRED%20OPTIONS%20SAP%20JUNE%202022%20.pdf",
@@ -146,6 +150,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southwarwickshire.org.uk/doc/213277/name/Preferred%20Options%202025%20WEB.pdf",

@@ -10,6 +10,8 @@
     "year": 2003,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.medway.gov.uk/download/downloads/id/2400/medway_local_plan_2003.pdf",
@@ -33,6 +35,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.medway.gov.uk/download/downloads/id/8413/medway_land_availability_assessment_september_2023.pdf",

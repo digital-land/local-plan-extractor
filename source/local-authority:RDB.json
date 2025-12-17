@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.redbridge.gov.uk/media/oj3hxvhl/10-redbridgelocal-plan_070318_web-1_tp.pdf",
@@ -114,6 +116,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.redbridge.gov.uk/media/jl4djynw/minerals-local-plan-sept-2012.pdf",
@@ -137,6 +141,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.redbridge.gov.uk/media/n3cnjxps/joint-waste-dpd-adopted-feb-2012.pdf",

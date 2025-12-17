@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fdean.gov.uk/media/ruscm3s1/allocations-plan.pdf",
@@ -69,6 +71,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fdean.gov.uk/media/szzpnzxj/core-strategy.pdf",
@@ -119,6 +123,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fdean.gov.uk/media/eg1djl4j/cinderford-northern-quarter-adopted-area-action-plan.pdf",
@@ -160,6 +166,8 @@
     "year": 2025,
     "period-start-date": 2021,
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fdean.gov.uk/media/wi4j4tfg/local-development-scheme-2025.pdf",

@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2022,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/other-planning-documents/examination/SD08%20Statement%20of%20Fact%20Submission.pdf",

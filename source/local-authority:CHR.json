@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cherwell.gov.uk/download/downloads/id/8144/final-adopted-local-plan-2011-2031-incorporating-re-adopted-policy-bicester-13.pdf",
@@ -60,6 +62,8 @@
     "year": 2020,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cherwell.gov.uk/download/downloads/id/115/adopted-cherwell-local-plan-2011-2031-part-1-partial-review-web-reduced.pdf",
@@ -83,6 +87,8 @@
     "year": 2020,
     "period-start-date": 2020,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cherwell.gov.uk/download/downloads/id/9677/cherwell-local-plan-review-2040-final-web.pdf",
@@ -106,6 +112,8 @@
     "year": 1996,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cherwell.gov.uk/download/downloads/id/3794/adopted-local-plan-1996-excluding-plans.pdf",

@@ -10,6 +10,8 @@
     "year": 2014,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fenland.gov.uk/media/10010/Fenland-Local-Plan-May-2014/pdf/Fenland_Local_Plan1.pdf?m=1590591524653",
@@ -42,6 +44,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fenland.gov.uk/media/18867/PE01-4-Sites-Evidence-Report/pdf/PE01-4__Sites_Evidence_Report_Aug_22.pdf?m=1661417434807",
@@ -83,6 +87,8 @@
     "year": 2013,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fenland.gov.uk/media/8571/CD001-Submission-Core-Strategy-Sept-13-vfinal/pdf/CD001_-_Submission_Core_Strategy_-_Sept_13_vfinal.pdf?m=1591350986080",

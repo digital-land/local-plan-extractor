@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": 2011,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2023/03/EFD-Local-Plan-2011-2033-Part-One.pdf",
@@ -132,6 +134,8 @@
     "year": 2016,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.eppingforestdc.gov.uk/app/uploads/2019/01/Epping-Forest-Draft-Local-Plan-2016.pdf",

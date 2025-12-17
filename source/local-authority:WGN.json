@@ -10,6 +10,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Adopted-Core-Strategy.pdf",
@@ -42,6 +44,8 @@
     "year": 2006,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.wigan.gov.uk/Docs/PDF/Council/Strategies-Plans-and-Policies/Planning/Latest-Remaining-Policies-UDP-April-2006.pdf",
@@ -65,6 +69,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.greatermanchester-ca.gov.uk/media/1994/greater_manchester_waste_plan_opt.pdf",
@@ -97,6 +103,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.greatermanchester-ca.gov.uk/media/1995/the_minerals_plan_april_2013_final.pdf",

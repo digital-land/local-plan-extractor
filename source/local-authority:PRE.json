@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -42,6 +44,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -65,6 +69,8 @@
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.preston.gov.uk/media/1952/Preston-s-Local-Plan/pdf/Preston-Local-Plan-2012-2026-_8_k4ruyvumo78g.pdf?m=1688125806267",

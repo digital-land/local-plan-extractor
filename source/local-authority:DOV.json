@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.doverdistrictlocalplan.co.uk/uploads/Adopted-Local-Plan-Documents/V2-Dover-District-Local-Plan-to-2040-Low-Resolution-for-viewing-7.68-MB.pdf",
@@ -141,6 +143,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.dover.gov.uk/Planning/Planning-Policy/PDF/Ash-NDP-Plan-Final-Sept-2021.pdf",

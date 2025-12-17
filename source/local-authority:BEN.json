@@ -10,6 +10,8 @@
     "year": 2022,
     "period-start-date": 2019,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brent.gov.uk/media/16420376/brent-local-plan-2019-2041.pdf",
@@ -105,6 +107,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brent.gov.uk/media/16402581/west-london-waste-plan.pdf",
@@ -128,6 +132,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brent.gov.uk/media/16412964/np-final-may-2019.pdf",

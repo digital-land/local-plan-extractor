@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": "2016-03-15",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.telford.gov.uk/media/zvodresh/telford_and_wrekin_local_plan_2011_2031_adopted_jan_2018.pdf",
@@ -168,6 +170,8 @@
     "year": 2007,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.telford.gov.uk/media/fn3cvxbg/twc_pc_corestrategydevelopmentplandocumentadopteddec2007.pdf",
@@ -191,6 +195,8 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.telford.gov.uk/media/i4sdegyu/ctaap_final_resized.pdf",
@@ -214,6 +220,8 @@
     "year": 2000,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.telford.gov.uk/media/zvpllupr/twc_pc_shropshireandtelfordandwrekinmineralsmineralslocalplan_savedpolicies_11_2007.pdf",
@@ -237,6 +245,8 @@
     "year": 2002,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.telford.gov.uk/media/34eataxh/twc_pc_jointsavedstructure.pdf",

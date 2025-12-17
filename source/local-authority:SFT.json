@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sefton.gov.uk/media/1133/a-local-plan-for-sefton-for-adoption-final.pdf",
@@ -123,6 +125,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sefton.gov.uk/media/lanjaj5q/01-bootleaap_publication_draft_july2024.pdf",
@@ -191,6 +195,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sefton.gov.uk/media/1798/mside-halton-waste-localplan2013.pdf",
@@ -232,6 +238,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sefton.gov.uk/media/5145/formby-little-altcar-nhood-plan-2019.pdf",

@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2025,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://n-somerset.gov.uk/sites/default/files/2025-05/additional%20sites%20consultation%20-%20consultation%20statement%20%28May%202025%29.pdf",
@@ -33,6 +35,8 @@
     "year": 2023,
     "period-start-date": 2025,
     "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://n-somerset.gov.uk/sites/default/files/2023-10/North%20Somerset%20Local%20Plan%202039%20-%20Pre-submission%20Plan%20%28Reg%2019%29.pdf",
@@ -74,6 +78,8 @@
     "year": 2022,
     "period-start-date": 2025,
     "period-end-date": 2038,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-04/30907%20Local%20Plan%20Acc.pdf",

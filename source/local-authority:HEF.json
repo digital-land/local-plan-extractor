@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.herefordshire.gov.uk/media/ck0dtmmb/statement_of_community_involvement_january_2022.pdf",
@@ -114,6 +116,8 @@
     "year": 2024,
     "period-start-date": 2021,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -23,6 +25,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -36,6 +40,8 @@
     "year": 1998,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -49,6 +55,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2042,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.wealden.gov.uk/UploadedFiles/Final-LDS-2025-V1.pdf",

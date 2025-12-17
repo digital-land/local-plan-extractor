@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2025-08/Westmorland%20and%20Furness%20LDS%20February%202025_2.pdf",
@@ -51,6 +53,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southlakeland.gov.uk/media/8180/ifs-2021-22-final.pdf",
@@ -119,6 +123,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.barrowbc.gov.uk/sites/default/files/attachment/8890.pdf",
@@ -151,6 +157,8 @@
     "year": 2017,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.eden.gov.uk/media/6398/2021-2022_infrastructure_funding_statement_final.pdf",
@@ -183,6 +191,8 @@
     "year": 2015,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.westmorlandandfurness.gov.uk/sites/default/files/2024-11/Cumbria%20IFS%202021-2022%20FINAL.pdf",

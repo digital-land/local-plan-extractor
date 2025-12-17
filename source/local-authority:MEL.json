@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.meltonplan.co.uk/_files/ugd/c2f881_c97073d23b924cfe85fb9014d2ab4e6b.pdf",
@@ -42,6 +44,8 @@
     "year": 1999,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.meltonplan.co.uk/_files/ugd/2778e0_60e4cc43d0d1441b88a21e211833c490.pdf",
@@ -65,6 +69,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

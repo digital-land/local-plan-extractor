@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2016,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newforest.gov.uk/media/705/Local-Plan-Document-2016-2036/pdf/Local_Plan_2016_2036FINAL_v2.pdf?m=637304853970400000",
@@ -33,6 +35,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newforest.gov.uk/media/713/Section-2-Development-Management-Policies/pdf/Section_2_Development_Management_Policies.pdf?m=637298093896870000",
@@ -83,6 +87,8 @@
     "year": 2009,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://newforest.gov.uk/media/683/Core-Strategy-2009/pdf/Core_Strategy.pdf?m=637293905608770000",
@@ -106,6 +112,8 @@
     "year": 2005,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://newforest.gov.uk/media/788/-New-Forest-District-Local-Plan-First-Alteration-2005-/pdf/New_Forest_Local_Plan_First_Alteration_2005.pdf?m=637299684625230000",

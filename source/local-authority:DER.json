@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2023,
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -33,6 +35,8 @@
     "year": 2017,
     "period-start-date": "",
     "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -56,6 +60,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -79,6 +85,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -102,6 +110,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

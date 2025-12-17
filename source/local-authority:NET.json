@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
@@ -69,6 +71,8 @@
     "year": 2015,
     "period-start-date": 2010,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/planning_for_the_future_core_strategy_and_urban_core_plan_2010-2030.pdf",

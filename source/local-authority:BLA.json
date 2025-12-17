@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.blaby.gov.uk/media/15ebnxns/blaby-district-adoped-local-plan.pdf",
@@ -78,6 +80,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.blaby.gov.uk/media/4107/adopted-core-strategy.pdf",
@@ -137,6 +141,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": 2042,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.blaby.gov.uk/media/4560/bdc-new-local-plan-options-consultation-document.pdf",

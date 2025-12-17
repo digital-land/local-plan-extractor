@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2020,
     "period-end-date": 2035,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-02/LBWF_LocalPlan_LP1_Feb2024_compressed.pdf",
@@ -60,6 +62,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.walthamforest.gov.uk/sites/default/files/2024-09/Adopted%20North%20London%20Waste%20Plan%20March%202022%20AA.pdf",

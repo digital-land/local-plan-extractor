@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashford.gov.uk/media/jw3nbvq1/adopted-ashford-local-plan-2030.pdf",
@@ -105,6 +107,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashford.gov.uk/media/4h5oxnxg/chilmington-green-area-action-plan.pdf",
@@ -146,6 +150,8 @@
     "year": 2008,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashford.gov.uk/media/jynn2k0p/adopted_core_strategy.pdf",
@@ -169,6 +175,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashford.gov.uk/media/3xsjpjpl/shma-report-to-inform-regulation-18-consultation.pdf",

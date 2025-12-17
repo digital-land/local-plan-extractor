@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2024,
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hinckley-bosworth.gov.uk/downloads/file/8527/hbbc_regulation_19_local_plan_2025",
@@ -60,6 +62,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/6356/final_adopted_strategic_growth_plan.pdf",

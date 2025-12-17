@@ -10,6 +10,8 @@
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.westlancs.gov.uk/media/547722/wllp-oct-2013.pdf",
@@ -33,6 +35,8 @@
     "year": 2021,
     "period-start-date": 2023,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "http://www.westlancs.gov.uk/media/547534/lp-io-document-2021-11-18.pdf",

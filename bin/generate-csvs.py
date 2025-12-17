@@ -338,8 +338,8 @@ class LocalPlanCSVGenerator:
                 'documentation-url': plan_data.get('documentation-url', ''),
                 'document-url': plan_data.get('document-url', ''),
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
-                'start-date': self._format_date(plan_data.get('start-date', '')),
-                'end-date': self._format_date(plan_data.get('end-date', '')),
+                'start-date': plan_data.get('adoption-date'),
+                'end-date': plan_data.get('withdrawn-date'),
                 'notes': plan_data.get('notes', ''),
             }
 
@@ -351,7 +351,14 @@ class LocalPlanCSVGenerator:
                 for doc in documents:
                     # Pass the plan-specific slug for joint plans so document counters align
                     doc_authority_slug = slug if is_joint else authority_slug
-                    self._process_document(reference, doc_authority_slug, year, doc)
+                    self._process_document(
+                        reference,
+                        doc_authority_slug,
+                        year,
+                        doc,
+                        plan_data.get('adoption-date'),
+                        plan_data.get('withdrawn-date')
+                    )
 
             # Add housing data if available
             if org in self.housing_data:
@@ -360,8 +367,18 @@ class LocalPlanCSVGenerator:
         except Exception as e:
             logger.error(f"Failed to process local plan: {e}")
 
-    def _process_document(self, plan_reference: str, authority_slug: str, year: str, doc_data: Dict):
-        """Process a single document entry."""
+    def _process_document(self, plan_reference: str, authority_slug: str, year: str, doc_data: Dict,
+                         adoption_date: Optional[str] = None, withdrawn_date: Optional[str] = None):
+        """Process a single document entry.
+
+        Args:
+            plan_reference: Reference of the parent plan
+            authority_slug: Authority slug for counter keying
+            year: Year of the plan
+            doc_data: Document data dictionary
+            adoption_date: Adoption date inherited from parent plan
+            withdrawn_date: Withdrawn date inherited from parent plan
+        """
         try:
             # Get the counter key for this plan
             plan_key = (authority_slug, year)
@@ -384,8 +401,8 @@ class LocalPlanCSVGenerator:
                 'documentation-url': doc_data.get('documentation-url', ''),
                 'document-url': doc_data.get('document-url', ''),
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
-                'start-date': self._format_date(doc_data.get('start-date', '')),
-                'end-date': self._format_date(doc_data.get('end-date', '')),
+                'start-date': self._format_date(adoption_date) if adoption_date else '',
+                'end-date': self._format_date(withdrawn_date) if withdrawn_date else '',
                 'notes': doc_data.get('notes', ''),
             }
 

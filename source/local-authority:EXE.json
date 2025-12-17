@@ -10,6 +10,8 @@
     "year": 2012,
     "period-start-date": 2006,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.exeter.gov.uk/media/1636/adopted-core-strategy.pdf",
@@ -33,6 +35,8 @@
     "year": 2005,
     "period-start-date": 1995,
     "period-end-date": 2011,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -46,6 +50,8 @@
     "year": 2025,
     "period-start-date": 2021,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

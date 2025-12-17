@@ -10,6 +10,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -51,6 +53,8 @@
     "year": 1994,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.gravesham.gov.uk/downloads/file/1024/gravesham-local-plan-first-review-saved-and-deleted-policies-version-september-2014-",
@@ -74,6 +78,8 @@
     "year": 2025,
     "period-start-date": 2024,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

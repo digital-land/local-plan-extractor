@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": 2018,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://new.calderdale.gov.uk/sites/default/files/2023-12/Local-Plan-Written-Statement.pdf",
@@ -60,6 +62,8 @@
     "year": 2006,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://new.calderdale.gov.uk/sites/default/files/2023-06/replacement-unitary-development-plan.pdf",

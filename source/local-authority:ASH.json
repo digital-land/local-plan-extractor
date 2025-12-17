@@ -10,6 +10,8 @@
     "year": 2002,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -23,6 +25,8 @@
     "year": 2025,
     "period-start-date": 2023,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashfield.gov.uk/media/iqip1lnb/ins05-the-inspectors-interim-finding-letter.pdf",
@@ -163,6 +167,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -176,6 +182,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashfield.gov.uk/media/jgajfuvo/sutton-town-centre-spatial-masterplan-2019.pdf",
@@ -199,6 +207,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ashfield.gov.uk/media/ad2nvt5v/hucknall-town-centre-masterplan-july-2022.docx",

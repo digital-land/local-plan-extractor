@@ -11,6 +11,8 @@
     "period-start-date": 2006,
     "period-end-date": 2030,
     "type": "joint-local-plan",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.swdevelopmentplan.org/component/fileman/?view=file&routed=1&name=The-Adopted-SWDP-February-2016.pdf&folder=Documents/South%20Worcestershire%20Development%20Plan/SWDP%202016&container=fileman-files",

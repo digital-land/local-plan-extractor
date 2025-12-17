@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2018,
     "period-end-date": 2038,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2024-02/GNLP%20Inspectors%27%20Report.pdf",
@@ -96,6 +98,8 @@
     "year": 2014,
     "period-start-date": 2008,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.gnlp.org.uk/sites/gnlp/files/2021-01/JCS-adopted-doc-2014.pdf",

@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2038,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.watford.gov.uk/downloads/file/1264/watford-local-plan",

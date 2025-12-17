@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.merton.gov.uk/assets/Documents/Local%20Development%20Scheme%20%202019%20.%202022.pdf",
@@ -51,6 +53,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -64,6 +68,8 @@
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2026,
+    "adoption-date": "2011-06-07",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.merton.gov.uk/assets/Documents/0328_merton_core_strategy_adopted.pdf",
@@ -114,6 +120,8 @@
     "year": 2022,
     "period-start-date": 2022,
     "period-end-date": 2037,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.merton.gov.uk/system/files/Adopted%20South%20London%20Waste%20Plan%202022-2037.pdf",
@@ -164,6 +172,8 @@
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2022,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.merton.gov.uk/assets/Documents/0328%20south_london_waste_plan_adopted.pdf",

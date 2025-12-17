@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.fareham.gov.uk/PDF/planning/publicationplan/201029_Fareham_BC_Planning_White_Paper_response.pdf",
@@ -42,6 +44,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

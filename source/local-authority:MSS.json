@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2014,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.midsussex.gov.uk/media/3879/policy-dp28-accessibility.pdf",
@@ -33,6 +35,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.midsussex.gov.uk/media/4amnz5uy/lds-january-2024-final.pdf",
@@ -56,6 +60,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -69,6 +75,8 @@
     "year": 2008,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -82,6 +90,8 @@
     "year": 2004,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.midsussex.gov.uk/media/uezfplbj/amr_2023.pdf",

@@ -10,6 +10,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/26426/local-plan-core-strategy.pdf",
@@ -78,6 +80,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/23258/local-plan-development-management-policies.pdf",
@@ -128,6 +132,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/23269/local-plan-site-allocations.pdf",
@@ -196,6 +202,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/23239/harrow-wealdstone-area-action-plan.pdf",

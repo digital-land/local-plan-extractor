@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
@@ -42,6 +44,8 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.bolton.gov.uk/downloads/file/666/core-strategy",
@@ -83,6 +87,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -96,6 +102,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.bolton.gov.uk/downloads/file/6911/greater-manchester-waste-plan",
@@ -119,6 +127,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.bolton.gov.uk/downloads/file/6910/greater-manchester-minerals-plan",

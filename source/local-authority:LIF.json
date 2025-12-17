@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2659/local-plan-2043-issues-options",
@@ -69,6 +71,8 @@
     "year": 2015,
     "period-start-date": 2008,
     "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lichfielddc.gov.uk/downloads/file/235/local-plan-strategy",
@@ -101,6 +105,8 @@
     "year": 2019,
     "period-start-date": 2008,
     "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lichfielddc.gov.uk/downloads/file/1228/local-plan-allocations-adopted",
@@ -178,6 +184,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2407/local-plan-2040-withdrawal-statement",

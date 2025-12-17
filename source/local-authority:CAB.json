@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": 2018,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cambridge.gov.uk/media/6890/local-plan-2018.pdf",
@@ -87,6 +89,8 @@
     "year": 2025,
     "period-start-date": 2024,
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -100,6 +104,8 @@
     "year": 2006,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cambridge.gov.uk/media/5752/ccc-local-plan-2006-inspectors-report.pdf",

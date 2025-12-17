@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2011,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2023-08/Local_Plan_2011-2036_%28Final_inc_covers%29%20%281%29.pdf",
@@ -51,6 +53,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southkesteven.gov.uk/sites/default/files/2025-07/Regulation%2018%20Local%20Plan%20-%20Proposed%20Housing%20and%20Mixed-Use%20Site%20Allocations.pdf",

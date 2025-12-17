@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": 2011,
     "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.basingstoke.gov.uk/content/doclib/1592.pdf",

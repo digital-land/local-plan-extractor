@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2019,
     "period-end-date": 2038,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2024-12/Submission%20Statement%20of%20Fact%2C%20December%202024.pdf",

@@ -10,6 +10,8 @@
     "year": 2022,
     "period-start-date": 2013,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://consult.rbwm.gov.uk/file/5973055?_gl=1*1c0u7lh*_ga*MjAwNDcwODA4OS4xNzY1Mzc5Mzk0*_ga_B1S76ZFQXK*czE3NjUzNzkzOTMkbzEkZzAkdDE3NjUzNzkzOTMkajYwJGwwJGgw",
@@ -114,6 +116,8 @@
     "year": 2009,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rbwm.gov.uk/sites/default/files/2024-06/pp_ldf_options_march09_part1_paper.pdf",

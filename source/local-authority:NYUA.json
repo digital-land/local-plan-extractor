@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-03/Local%20Development%20Scheme%20March%202025%20Final.pdf",
@@ -42,6 +44,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.northyorks.gov.uk/sites/default/files/2025-10/NY%20Consolidated%20Planning%20Policy%20Framework%20-%20update%20October%202025.pdf",

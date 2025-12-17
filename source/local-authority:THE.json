@@ -10,6 +10,8 @@
     "year": 2011,
     "period-start-date": 2001,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://cdn-trdc.prod.trdc.blazecms.app/files/2023/01/945fc600-9ff2-11ed-8d80-6dc425ce7e94-core-strategy-adopted-17-oct-2011%20(1).pdf",
@@ -78,6 +80,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

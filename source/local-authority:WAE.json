@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2023,
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.waverley.gov.uk/Portals/0/Documents/services/planning-and-building/planning-strategies-and-policies/local-plan/New Local Plan/Frequently Asked Questions.pdf?ver=OrHOe3auTVj_kTd9tM1frg%3d%3d",
@@ -78,6 +80,8 @@
     "year": 2018,
     "period-start-date": 2013,
     "period-end-date": 2032,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.waverley.gov.uk/portals/0/documents/services/planning-and-building/planning-strategies-and-policies/local-plan/lpp1_july_2019_web.pdf",
@@ -101,6 +105,8 @@
     "year": 2002,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

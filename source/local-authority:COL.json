@@ -10,6 +10,8 @@
     "year": 2022,
     "period-start-date": 2017,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Colchester-SCI-Colchester SCI Final Version 2023.pdf",
@@ -42,6 +44,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://legacy.tendringdc.gov.uk/sites/default/files/documents/planning/Planning_Policy/Garden_Community/Adoption%20Statement.pdf",
@@ -119,6 +123,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-colchester-local-plan-issues-and-options-report-Issues & Options Report 2024_compressed (1).pdf",

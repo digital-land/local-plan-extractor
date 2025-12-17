@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": "2019-02-27",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-plan-strategy-and-policies.pdf",
@@ -60,6 +62,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/holme-valley-NDP-made-plan.pdf",
@@ -83,6 +87,8 @@
     "year": 2024,
     "period-start-date": 2024,
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.kirklees.gov.uk/beta/planning-policy/pdf/local-development-scheme-timetable.pdf",

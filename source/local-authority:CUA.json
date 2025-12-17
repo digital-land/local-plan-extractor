@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Cumberland%20Consolidated%20Planning%20Policy%20Framework%20-%20March%202025.pdf",
@@ -42,6 +44,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -83,6 +87,8 @@
     "year": 2017,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/cumbria_minerals_and_waste_local_plan_2015_to_2030.pdf",

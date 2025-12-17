@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": 2016,
     "period-end-date": 2036,
+    "adoption-date": "2019-07-24",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://cccandpcc.sharepoint.com/:b:/s/PCCPlanningPolicyPublicData/EQB6DlKH3nBRRo9tos1GzYEB-wZgAaBU5v1CIqEB7nJKDA?e=OQrCet",
@@ -60,6 +62,8 @@
     "year": 2025,
     "period-start-date": 2024,
     "period-end-date": 2044,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -137,6 +141,8 @@
     "year": 2021,
     "period-start-date": "",
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

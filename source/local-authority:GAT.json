@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": 2010,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.gateshead.gov.uk/media/7765/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle/pdf/Core-Strategy-and-Urban-Core-Plan-for-Gateshead-and-Newcastle_SMALLER.pdf?m=1526313509250",
@@ -78,6 +80,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.gateshead.gov.uk/media/45424/Gateshead-Local-Plan-Review-March-2025/pdf/Gateshead_Local_Plan_Review_31st_March_2025.pdf?m=1743446758253",

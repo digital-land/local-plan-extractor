@@ -10,6 +10,8 @@
     "year": 2005,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.uttlesford.gov.uk/media/4723/Uttlesford-Local-Plan-Adopted-January-2005/pdf/Local_Plan_2005.pdf?m=1681907159467",
@@ -33,6 +35,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://uttlesford.moderngov.co.uk/documents/s17756/Appendix%201%20-%20Inspectors%20Letter.pdf",
@@ -65,6 +69,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

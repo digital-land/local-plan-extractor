@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southend.gov.uk/downloads/file/3715/community_infrastructure_levy_charging_schedule_-_july_2015",
@@ -114,6 +116,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

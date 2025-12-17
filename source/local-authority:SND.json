@@ -2,6 +2,8 @@
   {
     "organisation": "local-authority:SND",
     "organisation-name": "Sunderland City Council",
-    "error": "Could not fetch any page content from likely URLs"
+    "error": "Could not fetch any page content from likely URLs",
+    "adoption-date": null,
+    "withdrawn-date": null
   }
 ]

@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2023,
     "period-end-date": 2041,
+    "adoption-date": "2025-05-30",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.westberks.gov.uk/media/64447/West-Berkshire-Local-Plan-Review-2023-2041/pdf/West_Berkshire_Local_Plan_Review_2023-2041_for_web_APPROVED.pdf?m=1756290556437",
@@ -105,6 +107,8 @@
     "year": 2007,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.westberks.gov.uk/media/45126/South-East-Plan-Policy-NRM6/pdf/South_East_Plan_Policy_NRM6.pdf?m=1705655144750",

@@ -10,6 +10,8 @@
     "year": 2013,
     "period-start-date": 2006,
     "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sstaffs.gov.uk/sites/default/files/2023-02/Core%20Strategy%20Dev%20Plan%20Doc.pdf",
@@ -33,6 +35,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

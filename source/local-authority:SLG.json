@@ -10,6 +10,8 @@
     "year": 2010,
     "period-start-date": 2006,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.slough.gov.uk/downloads/file/2273/development-plan-core-strategy-2006-2026",
@@ -69,6 +71,8 @@
     "year": 2025,
     "period-start-date": 2025,
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

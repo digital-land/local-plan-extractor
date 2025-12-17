@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": "",
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2021-05/CD01-City%20Plan%20Part%20One%20%28adopted%20March%202016%29.pdf",
@@ -123,6 +125,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -136,6 +140,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -149,6 +155,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/2024-04/Waste_and_Minerals_Plan_February_2013.pdf",
@@ -190,6 +198,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -203,6 +213,8 @@
     "year": 2015,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": "2015-03-12",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.brighton-hove.gov.uk/sites/default/files/migrated/article/inline/FINALSCIADOPTED12thMarch2015.pdf",

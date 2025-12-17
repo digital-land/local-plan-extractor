@@ -10,6 +10,8 @@
     "year": 2016,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2020/10/Local-Plan-2031-Part-1.pdf",
@@ -69,6 +71,8 @@
     "year": 2019,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.whitehorsedc.gov.uk/wp-content/uploads/sites/3/2021/03/VOWHDC-Master-1.pdf",
@@ -164,6 +168,8 @@
     "year": 2024,
     "period-start-date": 2021,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://theconversation.southandvale.gov.uk/policy-and-programmes/sa_consultation/user_uploads/sa---sea-of-jlp---technical-addendum-to-scoping-report.pdf",

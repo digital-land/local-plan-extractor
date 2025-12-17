@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.milton-keynes.gov.uk/sites/default/files/2022-05/PlanMK%20Adoption%20Version%20%28March%202019%29.pdf",
@@ -186,6 +188,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2050,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

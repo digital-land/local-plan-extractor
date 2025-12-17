@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf",
@@ -33,6 +35,8 @@
     "year": 2024,
     "period-start-date": 2024,
     "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

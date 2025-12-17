@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2016,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.havering.gov.uk/downloads/file/5821/local-plan-2016---2031-adoption-statement-2021",
@@ -60,6 +62,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.havering.gov.uk/downloads/file/6745/havering-character-study-final-report",

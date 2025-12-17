@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://beta.southglos.gov.uk/static/ceed9365341546cfcbadc6849ff0e770/New_Local_Plan_Phase_3_towards_a_preferred_strategy_FULL_web.pdf",
@@ -114,6 +116,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.southglos.gov.uk/static/1341dd64c9a593d9886218a6c84c985c/Houses-in-Multiple-Occupation-SPD.pdf",

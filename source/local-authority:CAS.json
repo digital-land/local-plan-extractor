@@ -10,6 +10,8 @@
     "year": 1998,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.castlepoint.gov.uk/download.cfm?doc=docm93jijm4n1267.pdf&ver=1498",
@@ -159,6 +161,8 @@
     "year": 2025,
     "period-start-date": 2026,
     "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

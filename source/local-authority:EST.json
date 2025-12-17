@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": 2012,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/examination/c/C43IntegratedTransportStrategyamended14thJuly2014.pdf",
@@ -33,6 +35,8 @@
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2011,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/localplan2006/AdoptedLocalPlan2006-2011.pdf",

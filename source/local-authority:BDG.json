@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2020,
     "period-end-date": 2037,
+    "adoption-date": "2024-08-15",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lbbd.gov.uk/sites/default/files/2024-10/B%26D_LocalPlan_A4_SEP24_digital.pdf",
@@ -96,6 +98,8 @@
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2037,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -128,6 +132,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lbbd.gov.uk/sites/default/files/2022-09/LBBD-Draft-Local-Plan-Reg-18-Consultation-version_121219.pdf",

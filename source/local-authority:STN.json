@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": 2016,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sutton.gov.uk/documents/d/guest/sutton-local-plan-2018-",
@@ -42,6 +44,8 @@
     "year": 2024,
     "period-start-date": 2024,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sutton.gov.uk/documents/d/guest/local-plan-issues-and-preferred-options-2024-",
@@ -92,6 +96,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sutton.gov.uk/documents/d/guest/south-london-waste-plan-2022-",

@@ -10,6 +10,8 @@
     "year": 2030,
     "period-start-date": "",
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -23,6 +25,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://edrms.bedford.gov.uk/OpenDocument.aspx?id=xivh8bP%2bAJZXEaq26SnEFQ%3d%3d&name=PLAN%20FOR%20SUBMISSION.pdf",

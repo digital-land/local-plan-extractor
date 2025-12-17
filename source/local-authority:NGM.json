@@ -10,6 +10,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
@@ -33,6 +35,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.nottinghamcity.gov.uk/media/blqmbjvu/land-and-planning-policies-document-lapp-2020.pdf",
@@ -110,6 +114,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

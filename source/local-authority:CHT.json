@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2011,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
@@ -42,6 +44,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.cheltenham.gov.uk/downloads/file/8169/cheltenham_plan",

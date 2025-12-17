@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",
@@ -87,6 +89,8 @@
     "year": 2000,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-minerals-local-plan-part-one.pdf",
@@ -128,6 +132,8 @@
     "year": 2005,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.derbyshire.gov.uk/site-elements/documents/pdf/environment/planning/planning-policy/minerals-waste-development-framework/derby-and-derbyshire-waste-local-plan.pdf",

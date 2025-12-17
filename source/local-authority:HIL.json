@@ -10,6 +10,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hillingdon.gov.uk/media/3080/Local-Plan-Part-1---Strategic-Policies/pdf/npLocal_Plan_Part_1_Strategic_Policies_15_feb_2013_a_1_1.pdf?m=1598370401647",
@@ -69,6 +71,8 @@
     "year": 2020,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hillingdon.gov.uk/media/3084/Hillingdon-Local-Plan-Part-2-Development-Management-Policies/pdf/pdLPP2_Development_Management_Policies_-_ADOPTED_VERSION_JAN_2020_1.pdf?m=1598370641570",
@@ -119,6 +123,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hillingdon.gov.uk/media/13938/Integrated-Impact-Assessment-IIA-Scoping-Report/pdf/1hAppendix_2_-_Integrated_Impact_Assessment_Scoping_Report.pdf?m=1713956588457",

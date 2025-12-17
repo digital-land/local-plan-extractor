@@ -10,6 +10,8 @@
     "year": 2017,
     "period-start-date": 2014,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://services.swale.gov.uk/media/files/localplan/adoptedlocalplanfinalwebversion.pdf",
@@ -33,6 +35,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

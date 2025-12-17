@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2025,
     "period-end-date": 2044,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2025-10/FINAL%20Guidance%20Note%20-%20Call%20for%20Sites%202025%20%28web%29.pdf",
@@ -51,6 +53,8 @@
     "year": 2022,
     "period-start-date": 2018,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2024-09/local_plan_glossary.pdf",

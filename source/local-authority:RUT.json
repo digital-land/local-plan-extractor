@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2021,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
@@ -42,6 +44,8 @@
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-09/Core%20Strategy%20DPD%20%28July%202011%29.pdf",
@@ -74,6 +78,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-12/Site%20Allocations%20and%20Policies%20DPD%20%28October%202014%29.pdf",
@@ -124,6 +130,8 @@
     "year": 2010,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-10/LP14%20-%20Minerals%20Core%20Strategy%20and%20Development%20Control%20Policies%20DPD%20%28October%202010%29.pdf",

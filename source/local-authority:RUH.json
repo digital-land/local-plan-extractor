@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": 2032,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rushmoor.gov.uk/media/uwbafz5t/final_rushmoor_local_plan_web_version.pdf",
@@ -141,6 +143,8 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rushmoor.gov.uk/media/jrzm4u0b/core_strategy_on-line.pdf",
@@ -164,6 +168,8 @@
     "year": 2000,
     "period-start-date": 1996,
     "period-end-date": 2011,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rushmoor.gov.uk/media/es5fdhi4/consolidated_lpr_-with_adoption_of_cs.pdf",

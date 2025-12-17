@@ -10,6 +10,8 @@
     "year": 2032,
     "period-start-date": "",
     "period-end-date": 2032,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2024-08%2FHart-Local-Plan-strategy-and-Sites-2032.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506127463%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=bqlOdEWd3FZjMFrn2p69z4hnf5VcGJD%2FkeRpdClPPh8%3D&reserved=0",
@@ -33,6 +35,8 @@
     "year": 2006,
     "period-start-date": 1996,
     "period-end-date": 2006,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.hart.gov.uk%2Fsites%2Fdefault%2Ffiles%2F2023-07%2FHart-Local-Plan-Replacement%2529-1996-to-2006-saved-policies.pdf&data=05%7C02%7CIan.Wallis%40hart.gov.uk%7C61a29e912cc34e76508a08ddd4e5c42b%7C437487d01c5f47b6bd4ea482ae3b011e%7C0%7C0%7C638900805506158035%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=jdcSfRgpRg2FQESqVgTAiQizVGqHm6NLRd%2F%2FGQGd%2Bp4%3D&reserved=0",
@@ -56,6 +60,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.hart.gov.uk/sites/default/files/2025-09/Local-Development-Scheme-September-2025.pdf",

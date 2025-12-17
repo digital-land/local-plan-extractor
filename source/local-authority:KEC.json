@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/AA_24-09-03%20Local%20Plan%202024_Final%20Clean%20Version%20_02.pdf",
@@ -69,6 +71,8 @@
     "year": 2019,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": "2019-07-31",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/Local%20plan%202019%20%28full%20document%29.pdf",

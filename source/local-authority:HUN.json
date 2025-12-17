@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2046,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://huntingdonshire.gov.uk/media/u55dwlck/final-preferred-options-draft-local-plan-to-2046.pdf",
@@ -60,6 +62,8 @@
     "year": 2019,
     "period-start-date": 2011,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

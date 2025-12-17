@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newham.gov.uk/downloads/file/1111/newham-local-plan-2018-pdf-",
@@ -78,6 +80,8 @@
     "year": 2017,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newham.gov.uk/downloads/file/1039/gypsyandtravellerdpdadoptedversionsept2017",
@@ -128,6 +132,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2038,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newham.gov.uk/downloads/file/8825/appendix-3-local-development-scheme-2025",

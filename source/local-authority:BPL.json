@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": 2012,
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/LPP2-Adoption-Final-Feb-23.pdf",
@@ -51,6 +53,8 @@
     "year": 2016,
     "period-start-date": 2012,
     "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.blackpool.gov.uk/Residents/Planning-environment-and-community/Documents/J118003-107575-2016-updated-17-Feb-2016-High-Res.pdf",
@@ -74,6 +78,8 @@
     "year": 2025,
     "period-start-date": "",
     "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

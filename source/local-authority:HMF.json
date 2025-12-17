@@ -10,6 +10,8 @@
     "year": 2018,
     "period-start-date": 2018,
     "period-end-date": 2035,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lbhf.gov.uk/sites/default/files/section_attachments/local_plan_2018_web_version.pdf",
@@ -69,6 +71,8 @@
     "year": 2025,
     "period-start-date": 2025,
     "period-end-date": 2042,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

@@ -10,6 +10,8 @@
     "year": 2013,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_LDF_Local_Plan_Final.pdf",
@@ -96,6 +98,8 @@
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
@@ -137,6 +141,8 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",

@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2020,
     "period-end-date": 2035,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202021.pdf",
@@ -69,6 +71,8 @@
     "year": 2015,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202015%20web.pdf",
@@ -110,6 +114,8 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lambeth.gov.uk/sites/default/files/2021-07/pl-core-strategy-archive-version.pdf",
@@ -133,6 +139,8 @@
     "year": "",
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.lambeth.gov.uk/sites/default/files/pl-udp-archive-version.pdf",

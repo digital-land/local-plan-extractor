@@ -10,6 +10,8 @@
     "year": 2025,
     "period-start-date": 2020,
     "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -23,6 +25,8 @@
     "year": 2007,
     "period-start-date": 2006,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
@@ -46,6 +50,8 @@
     "year": 2011,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   },
   {
@@ -59,6 +65,8 @@
     "year": 2017,
     "period-start-date": 2015,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.staffordshire.gov.uk/Environment/Planning/policy/mineralslocalplan/Documents/The-Minerals-Local-Plan-for-Staffordshire-2015-2030.PDF",

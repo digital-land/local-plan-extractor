@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.breckland.gov.uk/media/16659/Adopted-Breckland-Local-Plan/pdf/Appendix_4_-_Breckland_District_Council_Local_Plan.pdf?m=1704795365193",
@@ -96,6 +98,8 @@
     "year": 2012,
     "period-start-date": "",
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": []
   }
 ]

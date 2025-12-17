@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": 2017,
     "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.leeds.gov.uk/sites/default/files/files-imported/2f1fb7967571ff329ad57bc4f5d99e8be244e0167d10c92825a7016edeb15907.pdf",
@@ -78,6 +80,8 @@
     "year": 2025,
     "period-start-date": 2022,
     "period-end-date": 2042,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://s3webstaticfiles.s3.eu-west-2.amazonaws.com/Documents/Leeds+Local+Plan+2025+Exec+Summary.pdf",

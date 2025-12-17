@@ -10,6 +10,8 @@
     "year": 2021,
     "period-start-date": 2015,
     "period-end-date": 2035,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://dmbcwebstolive01.blob.core.windows.net:443/media/Default/Planning/Documents/Local%20Plan/Submission/Doncaster%20Local%20Plan%20Adopted%2023%20Sept%202021.pdf",

@@ -10,6 +10,8 @@
     "year": 2024,
     "period-start-date": 2021,
     "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.barnet.gov.uk/sites/default/files/024574_-_bc4796_-_barnet_local_plan_2021-2036_-_web2.pdf",
@@ -105,6 +107,8 @@
     "year": 2022,
     "period-start-date": "",
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "",

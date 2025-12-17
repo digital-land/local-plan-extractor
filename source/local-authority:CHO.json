@@ -10,6 +10,8 @@
     "year": 2015,
     "period-start-date": 2012,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://chorley.gov.uk/downloads/file/260/chorley-local-plan-2012-2026-adopted-2015-",
@@ -69,6 +71,8 @@
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://centrallocalplan.lancashire.gov.uk/media/1032/central-lancashire-core-strategy-july-2012-v1.pdf",
@@ -92,6 +96,8 @@
     "year": 2025,
     "period-start-date": 2023,
     "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://forms.chorleysouthribble.gov.uk/chorley-council/downloads/file/309/local-development-scheme-lds-",
