@@ -312,9 +312,12 @@ class DateExtractor:
 
         updated_count = 0
         total_updates = 0
+        total_files = len(json_files)
 
-        for json_file in json_files:
+        for file_index, json_file in enumerate(json_files, 1):
             try:
+                logger.info(f"[{file_index}/{total_files}] Processing {json_file.name}")
+
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
 
