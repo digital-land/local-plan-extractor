@@ -331,8 +331,20 @@ class DateExtractor:
 
         # Patterns for natural language adoption dates
         adoption_patterns = [
-            # "on 14th December 2017 Adur District Council adopted..." - date comes before "adopted" (with ordinal suffix)
-            r'on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})\s+.*?adopted',
+            # ISO date formats from regex extraction (e.g., "Adoption: 2017-07-18" or "Adoption: 2017-07")
+            r'adoption[:\s]+(\d{4})-(\d{1,2})-(\d{1,2})',  # YYYY-MM-DD
+            r'adoption[:\s]+(\d{4})-(\d{1,2})(?:\s|$)',    # YYYY-MM (with word boundary)
+            # More specific adoption patterns (prioritize these over generic "adopted" patterns)
+            # "formally adopted on 22 October 2018" or "subsequently adopted on 22 October 2018" (with optional "on")
+            r'(?:formally|subsequently)\s+adopted.{0,200}?on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
+            # "adopted ... by the Council ... on 22 October 2018" - adoption by council language
+            r'adopted.{0,200}?by\s+(?:the\s+)?[Cc]ouncil.{0,200}?on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
+            # "Council adopted ... on 22 October 2018" - council-specific adoption (limit lookahead to 200 chars to avoid spanning paragraphs)
+            r'[Cc]ouncil\s+.*?adopted.{0,200}?on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
+            # "on 22 October 2018 the Council adopted" - date before council adoption (limited lookahead)
+            r'on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4}).{0,200}?[Cc]ouncil\s+adopted',
+            # Generic "on 14th December 2017 ... adopted" - date comes before "adopted" (limited lookahead to 200 chars)
+            r'on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4}).{0,200}?adopted',
             # "adopted ... beginning on 25th February 2022" - adopted ... on date (flexible middle text)
             r'adopted\s+.*?on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})',
             # "adopted the ... in May 2024" - adopted ... in month year
@@ -359,14 +371,40 @@ class DateExtractor:
         for pattern in adoption_patterns:
             match = re.search(pattern, text_lower, re.DOTALL)
             if match:
-                # Handle natural language patterns (day month year)
+                # Handle ISO date formats from regex extraction (YYYY-MM-DD or YYYY-MM)
                 if len(match.groups()) == 3:
-                    day, month_str, year = match.groups()
-                    adoption_date = self._parse_natural_date(day, month_str, year)
+                    groups = match.groups()
+                    # Check if first group is 4-digit year (ISO format) or 1-2 digit day (natural language)
+                    try:
+                        if len(groups[0]) == 4 and int(groups[0]) > 1900:
+                            # ISO format: (year, month, day)
+                            year, month, day = groups
+                            adoption_date = self._parse_natural_date(day, month, year)
+                        else:
+                            # Natural language: (day, month_str, year)
+                            day, month_str, year = groups
+                            adoption_date = self._parse_natural_date(day, month_str, year)
+                    except (ValueError, TypeError):
+                        # Natural language: (day, month_str, year)
+                        day, month_str, year = groups
+                        adoption_date = self._parse_natural_date(day, month_str, year)
                 # Handle month and year only patterns
                 elif len(match.groups()) == 2:
-                    month_str, year = match.groups()
-                    adoption_date = self._parse_natural_date_month_year(month_str, year)
+                    groups = match.groups()
+                    # Check if first group is 4-digit year (ISO format YYYY-MM) or month (natural language)
+                    try:
+                        if len(groups[0]) == 4 and int(groups[0]) > 1900:
+                            # ISO format: (year, month)
+                            year, month = groups
+                            adoption_date = self._parse_natural_date_month_year(month, year)
+                        else:
+                            # Natural language: (month_str, year)
+                            month_str, year = groups
+                            adoption_date = self._parse_natural_date_month_year(month_str, year)
+                    except (ValueError, TypeError):
+                        # Natural language: (month_str, year)
+                        month_str, year = groups
+                        adoption_date = self._parse_natural_date_month_year(month_str, year)
                 # Handle numeric patterns
                 elif len(match.groups()) == 1:
                     adoption_date = self._normalize_date(match.group(1))
@@ -378,6 +416,9 @@ class DateExtractor:
 
         # Patterns for natural language withdrawal dates
         withdrawal_patterns = [
+            # ISO date formats from regex extraction (e.g., "Withdrawal: 2017-07-18" or "Withdrawal: 2017-07")
+            r'withdrawal[:\s]+(\d{4})-(\d{1,2})-(\d{1,2})',  # YYYY-MM-DD
+            r'withdrawal[:\s]+(\d{4})-(\d{1,2})(?:\s|$)',    # YYYY-MM (with word boundary)
             # "on 14th December 2017 ... withdrawn" - date comes before "withdrawn" (with ordinal suffix)
             r'on\s+(\d{1,2})(?:st|nd|rd|th)?\s+(\w+)\s+(\d{4})\s+.*?withdrawn',
             # "withdrawn ... beginning on 25th February 2022" - withdrawn ... on date (flexible middle text)
@@ -399,13 +440,40 @@ class DateExtractor:
         for pattern in withdrawal_patterns:
             match = re.search(pattern, text_lower, re.DOTALL)
             if match:
+                # Handle ISO date formats from regex extraction (YYYY-MM-DD or YYYY-MM)
                 if len(match.groups()) == 3:
-                    day, month_str, year = match.groups()
-                    withdrawn_date = self._parse_natural_date(day, month_str, year)
+                    groups = match.groups()
+                    # Check if first group is 4-digit year (ISO format) or 1-2 digit day (natural language)
+                    try:
+                        if len(groups[0]) == 4 and int(groups[0]) > 1900:
+                            # ISO format: (year, month, day)
+                            year, month, day = groups
+                            withdrawn_date = self._parse_natural_date(day, month, year)
+                        else:
+                            # Natural language: (day, month_str, year)
+                            day, month_str, year = groups
+                            withdrawn_date = self._parse_natural_date(day, month_str, year)
+                    except (ValueError, TypeError):
+                        # Natural language: (day, month_str, year)
+                        day, month_str, year = groups
+                        withdrawn_date = self._parse_natural_date(day, month_str, year)
                 # Handle month and year only patterns
                 elif len(match.groups()) == 2:
-                    month_str, year = match.groups()
-                    withdrawn_date = self._parse_natural_date_month_year(month_str, year)
+                    groups = match.groups()
+                    # Check if first group is 4-digit year (ISO format YYYY-MM) or month (natural language)
+                    try:
+                        if len(groups[0]) == 4 and int(groups[0]) > 1900:
+                            # ISO format: (year, month)
+                            year, month = groups
+                            withdrawn_date = self._parse_natural_date_month_year(month, year)
+                        else:
+                            # Natural language: (month_str, year)
+                            month_str, year = groups
+                            withdrawn_date = self._parse_natural_date_month_year(month_str, year)
+                    except (ValueError, TypeError):
+                        # Natural language: (month_str, year)
+                        month_str, year = groups
+                        withdrawn_date = self._parse_natural_date_month_year(month_str, year)
                 elif len(match.groups()) == 1:
                     withdrawn_date = self._normalize_date(match.group(1))
 
@@ -417,7 +485,10 @@ class DateExtractor:
         return adoption_date, withdrawn_date
 
     def _parse_natural_date(self, day: str, month_str: str, year: str) -> Optional[str]:
-        """Parse natural language date like 'the 18th of July 2018'."""
+        """Parse natural language date like 'the 18th of July 2018'.
+
+        Supports both month names ('july', 'January') and numeric months ('1', '12').
+        """
         months = {
             'january': 1, 'february': 2, 'march': 3, 'april': 4,
             'may': 5, 'june': 6, 'july': 7, 'august': 8,
@@ -426,7 +497,18 @@ class DateExtractor:
             'jul': 7, 'aug': 8, 'sep': 9, 'sept': 9, 'oct': 10, 'nov': 11, 'dec': 12,
         }
 
+        # Try to parse as month name first
         month_num = months.get(month_str.lower())
+
+        # If not a month name, try to parse as numeric month (1-12 or 01-12)
+        if not month_num:
+            try:
+                month_int = int(month_str.strip())
+                if 1 <= month_int <= 12:
+                    month_num = month_int
+            except ValueError:
+                pass
+
         if month_num:
             try:
                 dt = datetime(int(year), month_num, int(day))
@@ -436,7 +518,10 @@ class DateExtractor:
         return None
 
     def _parse_natural_date_month_year(self, month_str: str, year: str) -> Optional[str]:
-        """Parse natural language date with only month and year like 'February 2019', returns YYYY-MM format."""
+        """Parse natural language date with only month and year like 'February 2019', returns YYYY-MM format.
+
+        Supports both month names ('july', 'January') and numeric months ('1', '07', '12').
+        """
         months = {
             'january': 1, 'february': 2, 'march': 3, 'april': 4,
             'may': 5, 'june': 6, 'july': 7, 'august': 8,
@@ -445,7 +530,18 @@ class DateExtractor:
             'jul': 7, 'aug': 8, 'sep': 9, 'sept': 9, 'oct': 10, 'nov': 11, 'dec': 12,
         }
 
+        # Try to parse as month name first
         month_num = months.get(month_str.lower())
+
+        # If not a month name, try to parse as numeric month (1-12 or 01-12)
+        if not month_num:
+            try:
+                month_int = int(month_str.strip())
+                if 1 <= month_int <= 12:
+                    month_num = month_int
+            except ValueError:
+                pass
+
         if month_num:
             try:
                 return f"{int(year)}-{month_num:02d}"
