@@ -1,5 +1,5 @@
 {
-  "name": "Southampton City Council, Core Strategy \u2013 Amended Adopted Version March 2015",
+  "name": "Southampton City Council, Core Strategy – Amended Adopted Version March 2015",
   "organisation-name": "Southampton City Council",
   "period-start-date": 2006,
   "period-end-date": 2026,
@@ -25,5 +25,6 @@
   "local-plan-boundary": "E60000229",
   "local-planning-authorities": [
     "E60000229"
-  ]
+  ],
+  "adoption-date": "2006-03"
 }

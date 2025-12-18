@@ -1,5 +1,5 @@
 {
-  "name": "Solihull Local Plan \u2013 Shaping a Sustainable Future",
+  "name": "Solihull Local Plan – Shaping a Sustainable Future",
   "organisation-name": "Solihull Metropolitan Borough Council",
   "period-start-date": 2006,
   "period-end-date": 2028,
@@ -25,5 +25,6 @@
   "local-plan-boundary": "E60000134",
   "local-planning-authorities": [
     "E60000134"
-  ]
+  ],
+  "adoption-date": "2013-12-03"
 }

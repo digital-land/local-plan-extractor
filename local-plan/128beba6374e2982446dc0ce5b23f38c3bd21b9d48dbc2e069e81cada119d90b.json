@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 2364,
       "pages": "27, 30, 32",
-      "notes": "London Plan sets minimum target of 2,364 homes per annum. Plan proposes to meet and exceed this target. Allocated housing is from Schedule of Proposals sites. Windfall represents small sites target (434 per annum \u00d7 15 years). Strategic target is 50% affordable housing.",
+      "notes": "London Plan sets minimum target of 2,364 homes per annum. Plan proposes to meet and exceed this target. Allocated housing is from Schedule of Proposals sites. Windfall represents small sites target (434 per annum × 15 years). Strategic target is 50% affordable housing.",
       "organisation": "local-authority:BNE"
     }
   ],
@@ -25,5 +25,6 @@
   "local-plan-boundary": "E60000203",
   "local-planning-authorities": [
     "E60000203"
-  ]
+  ],
+  "adoption-date": "2025-03-04"
 }

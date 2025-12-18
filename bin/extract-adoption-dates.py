@@ -745,7 +745,74 @@ class DateExtractor:
             except Exception as e:
                 logger.error(f"Failed to process {json_file.name}: {e}")
 
+        # Sync adoption dates to local-plan directory if it exists
+        self._sync_to_local_plan()
+
         logger.info(f"\nSummary: {updated_count} files updated, {total_updates} dates extracted")
+
+    def _sync_to_local_plan(self):
+        """Sync adoption and withdrawn dates from source files to local-plan directory."""
+        local_plan_dir = Path('local-plan')
+        if not local_plan_dir.exists():
+            if self.verbose:
+                logger.debug("local-plan/ directory not found, skipping sync")
+            return
+
+        if self.verbose:
+            logger.debug("Syncing adoption dates to local-plan directory...")
+
+        # Build a mapping of endpoint -> {adoption-date, withdrawn-date}
+        endpoint_dates = {}
+        source_path = Path(self.source_dir)
+        for json_file in source_path.glob("*:*.json"):
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    plans = data if isinstance(data, list) else [data]
+
+                    for plan in plans:
+                        if plan.get('documents'):
+                            for doc in plan['documents']:
+                                endpoint = doc.get('endpoint')
+                                if endpoint:
+                                    endpoint_dates[endpoint] = {
+                                        'adoption-date': plan.get('adoption-date'),
+                                        'withdrawn-date': plan.get('withdrawn-date'),
+                                    }
+            except Exception as e:
+                if self.verbose:
+                    logger.debug(f"Error reading {json_file.name} for sync: {e}")
+
+        # Update local-plan files with dates from source
+        local_plan_updated = 0
+        for endpoint, dates in endpoint_dates.items():
+            local_plan_file = local_plan_dir / f"{endpoint}.json"
+            if local_plan_file.exists():
+                try:
+                    with open(local_plan_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+
+                    # Update the adoption and withdrawn dates
+                    file_modified = False
+                    if dates['adoption-date'] and not data.get('adoption-date'):
+                        data['adoption-date'] = dates['adoption-date']
+                        file_modified = True
+                    if dates['withdrawn-date'] and not data.get('withdrawn-date'):
+                        data['withdrawn-date'] = dates['withdrawn-date']
+                        file_modified = True
+
+                    if file_modified:
+                        with open(local_plan_file, 'w', encoding='utf-8') as f:
+                            json.dump(data, f, indent=2, ensure_ascii=False)
+                        local_plan_updated += 1
+                        if self.verbose:
+                            logger.debug(f"  Updated {endpoint}.json with adoption/withdrawn dates")
+                except Exception as e:
+                    if self.verbose:
+                        logger.debug(f"Error updating {endpoint}.json: {e}")
+
+        if self.verbose:
+            logger.debug(f"Synced dates to {local_plan_updated} local-plan files")
 
 
 def main():

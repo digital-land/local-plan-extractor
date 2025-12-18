@@ -1,5 +1,5 @@
 {
-  "name": "Babergh District Council & Mid Suffolk District Council Joint Local Plan \u2013 Part 1",
+  "name": "Babergh District Council & Mid Suffolk District Council Joint Local Plan – Part 1",
   "organisation-name": "Babergh District Council, Mid Suffolk District Council",
   "period-start-date": 2018,
   "period-end-date": 2037,
@@ -54,5 +54,6 @@
   "local-planning-authorities": [
     "E60000183",
     "E60000186"
-  ]
+  ],
+  "adoption-date": "2019-01"
 }

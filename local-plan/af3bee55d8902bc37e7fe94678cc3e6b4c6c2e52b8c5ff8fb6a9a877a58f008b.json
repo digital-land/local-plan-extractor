@@ -13,7 +13,7 @@
       "broad-locations-housing": 1500,
       "annual-required-housing": 2625,
       "pages": "3, 10, 32",
-      "notes": "Housing requirement increased from originally submitted 47,500 to 52,500 dwellings. Plan contains no specific site allocations - these will be made in subsequent Site Allocations Plan and Neighbourhood Plans. Broad locations are Eco-communities at West Carclaze/Baal (1,200) and Par Docks (300). Annual rate is 52,500 \u00f7 20 years = 2,625 dpa.",
+      "notes": "Housing requirement increased from originally submitted 47,500 to 52,500 dwellings. Plan contains no specific site allocations - these will be made in subsequent Site Allocations Plan and Neighbourhood Plans. Broad locations are Eco-communities at West Carclaze/Baal (1,200) and Par Docks (300). Annual rate is 52,500 ÷ 20 years = 2,625 dpa.",
       "organisation": "local-authority:CON"
     }
   ],
@@ -25,5 +25,6 @@
   "local-plan-boundary": "E60000291",
   "local-planning-authorities": [
     "E60000291"
-  ]
+  ],
+  "adoption-date": "2016-11"
 }

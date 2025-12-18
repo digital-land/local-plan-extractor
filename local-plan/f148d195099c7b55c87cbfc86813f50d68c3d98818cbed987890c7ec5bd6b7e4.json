@@ -1,7 +1,11 @@
 {
   "name": "Central Lincolnshire Local Plan",
   "organisation-name": "City of Lincoln Council, North Kesteven District Council, West Lindsey District Council",
-  "organisations": ["local-authority:LIC", "local-authority:NKE", "local-authority:WLI"],
+  "organisations": [
+    "local-authority:LIC",
+    "local-authority:NKE",
+    "local-authority:WLI"
+  ],
   "period-start-date": 2018,
   "period-end-date": 2040,
   "housing-numbers": [
@@ -22,5 +26,6 @@
   "authority": "f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4",
   "pdf_file": "collection/document/f148d195099c7b55c87cbfc86813f50d68c3d98818cbed987890c7ec5bd6b7e4.pdf",
   "pages_analysed": 32,
-  "organisation": ""
+  "organisation": "",
+  "adoption-date": "2023-04-13"
 }

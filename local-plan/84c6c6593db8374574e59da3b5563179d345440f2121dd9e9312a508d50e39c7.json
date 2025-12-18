@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 365,
       "pages": "16-27",
-      "notes": "Outstanding Structure Plan housing requirement from 2004-2011. Windfall includes both small (497) and large (357) windfall sites. Allocated housing includes North Bexhill strategic allocation plus other site allocations. Annual requirement calculated as 2560\u00f77 years = 365 dwellings per year.",
+      "notes": "Outstanding Structure Plan housing requirement from 2004-2011. Windfall includes both small (497) and large (357) windfall sites. Allocated housing includes North Bexhill strategic allocation plus other site allocations. Annual requirement calculated as 2560÷7 years = 365 dwellings per year.",
       "organisation": "local-authority:ROH"
     }
   ],
@@ -25,5 +25,6 @@
   "local-plan-boundary": "E60000240",
   "local-planning-authorities": [
     "E60000240"
-  ]
+  ],
+  "adoption-date": "2006-07"
 }
