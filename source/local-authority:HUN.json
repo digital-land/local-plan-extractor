@@ -62,8 +62,18 @@
     "year": 2019,
     "period-start-date": 2011,
     "period-end-date": 2036,
-    "adoption-date": null,
+    "adoption-date": "2019-05-15",
     "withdrawn-date": null,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.huntingdonshire.gov.uk/media/3872/190516-final-adopted-local-plan-to-2036.pdf",
+        "documentation-url": "https://www.huntingdonshire.gov.uk/planning/local-plan-to-2036/",
+        "document-type": "local-plan",
+        "name": "Local Plan to 2036",
+        "reference": "LP-2019",
+        "document-status": "adopted",
+        "endpoint": "01da3b48c21b52864b141671f512332b9ec02e656943cf80ad7cd49f684bf403"
+      }
+    ]
   }
 ]

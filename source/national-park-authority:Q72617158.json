@@ -10,6 +10,8 @@
     "year": 2019,
     "period-start-date": 2016,
     "period-end-date": 2036,
+    "adoption-date": "2019-08-29",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2019/09/Local-Plan-2016-2036-finalforweb.pdf",
@@ -114,6 +116,8 @@
     "year": 2010,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": "2009-09",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newforestnpa.gov.uk/app/uploads/2018/03/finalCoreStrategyDec2010_TOWEB_1.pdf",

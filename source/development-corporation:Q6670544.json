@@ -10,6 +10,8 @@
     "year": 2020,
     "period-start-date": 2020,
     "period-end-date": 2036,
+    "adoption-date": "2020-04-24",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LOCAL%20PLAN_web%20version-min.pdf",
@@ -78,6 +80,8 @@
     "year": 2015,
     "period-start-date": 2015,
     "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://live-qeop.pantheonsite.io/sites/default/files/attachments/LLDC%20%20CIL%20Approved%20Charging%20Schedule_0.pdf",

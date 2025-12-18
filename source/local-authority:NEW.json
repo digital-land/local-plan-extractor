@@ -10,7 +10,7 @@
     "year": 2020,
     "period-start-date": 2016,
     "period-end-date": 2036,
-    "adoption-date": null,
+    "adoption-date": "2020-07-06",
     "withdrawn-date": null,
     "documents": [
       {
@@ -35,7 +35,7 @@
     "year": 2014,
     "period-start-date": "",
     "period-end-date": "",
-    "adoption-date": null,
+    "adoption-date": "2014-04",
     "withdrawn-date": null,
     "documents": [
       {
@@ -87,7 +87,7 @@
     "year": 2009,
     "period-start-date": "",
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2009-05",
     "withdrawn-date": null,
     "documents": [
       {
@@ -112,7 +112,7 @@
     "year": 2005,
     "period-start-date": "",
     "period-end-date": "",
-    "adoption-date": null,
+    "adoption-date": "2005-08",
     "withdrawn-date": null,
     "documents": [
       {

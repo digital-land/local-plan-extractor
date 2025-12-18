@@ -10,6 +10,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": "2023-05",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://teesvalley-ca.gov.uk/business/wp-content/uploads/sites/3/2023/03/Net-Zero-strategy-Digital.pdf",
@@ -33,6 +35,8 @@
     "year": 2020,
     "period-start-date": 2020,
     "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://teesvalley-ca.gov.uk/about/wp-content/uploads/sites/2/2023/07/STP-Main-Report-Design-Jan20-4.pdf",
@@ -56,6 +60,8 @@
     "year": 2023,
     "period-start-date": "",
     "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://teesvalley-ca.gov.uk/travel/wp-content/uploads/sites/5/2023/09/TVCA-Digital-Transport-Delivery-Plan-Final-Issue.pdf",

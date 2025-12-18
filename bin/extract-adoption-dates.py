@@ -334,6 +334,12 @@ class DateExtractor:
             # ISO date formats from regex extraction (e.g., "Adoption: 2017-07-18" or "Adoption: 2017-07")
             r'adoption[:\s]+(\d{4})-(\d{1,2})-(\d{1,2})',  # YYYY-MM-DD
             r'adoption[:\s]+(\d{4})-(\d{1,2})(?:\s|$)',    # YYYY-MM (with word boundary)
+            # Handle PDFs with no spaces (e.g., "AdoptedJanuary2013" from PDF text extraction)
+            r'adopted\s*(\w+)\s*(\d{4})(?:\s|$|[A-Z])',    # adopted + month + year (no spaces)
+            # "Adoption at Full Council on 15th May 2019" - adoption with entity and date (limit middle text to 100 chars)
+            r'adoption\s+(?:at|by)\s+.{0,100}?on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
+            # "Adoption on 15th May 2019" - adoption directly followed by date
+            r'adoption\s+on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
             # More specific adoption patterns (prioritize these over generic "adopted" patterns)
             # "formally adopted on 22 October 2018" or "subsequently adopted on 22 October 2018" (with optional "on")
             r'(?:formally|subsequently)\s+adopted.{0,200}?on\s+(?:the\s+)?(\d{1,2})(?:st|nd|rd|th)?\s+(?:of\s+)?(\w+)\s+(\d{4})',
@@ -550,14 +556,24 @@ class DateExtractor:
         return None
 
     def extract_dates_from_plan(self, plan: Dict) -> Tuple[Optional[str], Optional[str]]:
-        """Extract adoption and withdrawn dates from a plan entry by reading PDF documents."""
+        """Extract adoption and withdrawn dates from a plan entry by reading PDF documents.
+
+        Only extracts adoption dates for plans with status 'adopted'. Withdrawn dates can be
+        extracted for any plan status.
+        """
         adoption_date = None
         withdrawn_date = None
         plan_name = plan.get('name', 'Unknown')
         org_name = plan.get('organisation-name', 'Unknown')
+        status = plan.get('status', '').lower()
 
         if self.verbose:
             logger.debug(f"Processing: {org_name} - {plan_name}")
+
+        # Only extract adoption dates for adopted plans
+        should_extract_adoption = (status == 'adopted')
+        if not should_extract_adoption and self.verbose:
+            logger.debug(f"  Skipping adoption date extraction (status: {status})")
 
         documents = plan.get('documents', [])
 
@@ -568,6 +584,7 @@ class DateExtractor:
             ('adoption-statement', 'adoption statement'),
             ('local-plan-adopted', 'adopted local plan'),
             ('local-plan', 'local plan'),
+            ('development-management-policies', 'development management policies'),
             ('inspectors-report', "inspector's report"),
             ('core-strategy', 'core strategy'),
             ('development-plan-document', 'development plan document'),
@@ -586,7 +603,15 @@ class DateExtractor:
                         endpoint = doc.get('endpoint')
                         pdf_text = self._extract_text_from_pdf(doc_url, endpoint=endpoint)
                         if pdf_text:
-                            adoption_date, withdrawn_date = self._extract_dates_from_text(pdf_text)
+                            extracted_adoption, extracted_withdrawal = self._extract_dates_from_text(pdf_text)
+
+                            # Only use adoption date if plan status is "adopted"
+                            if should_extract_adoption:
+                                adoption_date = extracted_adoption
+
+                            # Always extract withdrawal dates regardless of status
+                            withdrawn_date = extracted_withdrawal
+
                             if adoption_date or withdrawn_date:
                                 return adoption_date, withdrawn_date
 
@@ -628,7 +653,12 @@ class DateExtractor:
             logger.error(f"Source directory not found: {self.source_dir}")
             return
 
-        json_files = sorted(self.source_dir.glob("local-authority:*.json"))
+        # Get all organisation type JSON files (local-authority, development-corporation, national-park-authority)
+        json_files = sorted(
+            list(self.source_dir.glob("local-authority:*.json")) +
+            list(self.source_dir.glob("development-corporation:*.json")) +
+            list(self.source_dir.glob("national-park-authority:*.json"))
+        )
 
         if lpa_codes:
             # Filter to requested LPAs

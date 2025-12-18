@@ -10,7 +10,7 @@
     "year": 2023,
     "period-start-date": 2020,
     "period-end-date": 2037,
-    "adoption-date": null,
+    "adoption-date": "2023-09-28",
     "withdrawn-date": null,
     "documents": [
       {
@@ -20,7 +20,7 @@
         "name": "Strategic and Development Management policies",
         "reference": "LP-SDMP-2023",
         "document-status": "adopted",
-        "endpoint": "3f40f4a8285f0bb922ae7e409accbc374b40abdddc8fbed1df5c654c592d8b4c"
+        "endpoint": "48b7ffa391539861da04278c2a78eba5bae53d95d6ec75ae1b3ceb80d51b2b15"
       },
       {
         "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-site-allocations.pdf?la=en&hash=98007803BDD179C372CCFA9529DB4A764896AD48",
