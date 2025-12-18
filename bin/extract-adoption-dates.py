@@ -68,14 +68,84 @@ class DateExtractor:
 
         return None
 
-    def _extract_text_from_pdf(self, url: str, endpoint: Optional[str] = None) -> Optional[str]:
-        """Extract adoption/withdrawal date from a PDF document via Claude API.
+    def _extract_raw_text_from_pdf(self, url: str, endpoint: Optional[str] = None) -> Optional[str]:
+        """Extract raw text from PDF using PyPDF2 (no API cost).
 
-        First checks for local PDF at collection/document/{endpoint}.pdf
-        If not found, downloads from URL.
-        Extracts first 20 pages and sends to Claude API.
-        This keeps within the 100-page limit and focuses on adoption dates which
-        typically appear in opening pages.
+        Returns first 20 pages of text extracted from PDF for regex pattern matching.
+        """
+        try:
+            import io
+            import urllib.request
+            import urllib.error
+            from PyPDF2 import PdfReader
+
+            # Try to find local PDF first
+            pdf_data = None
+            if endpoint:
+                local_pdf_path = Path('collection/document') / f"{endpoint}.pdf"
+                if local_pdf_path.exists():
+                    if self.verbose:
+                        logger.debug(f"  Using local PDF for text extraction: {local_pdf_path}")
+                    try:
+                        with open(local_pdf_path, 'rb') as f:
+                            pdf_data = f.read()
+                    except Exception as e:
+                        if self.verbose:
+                            logger.debug(f"  Failed to read local PDF: {e}")
+
+            # Fall back to downloading from URL if no local PDF
+            if not pdf_data:
+                try:
+                    if self.verbose:
+                        logger.debug(f"  Downloading PDF for text extraction: {url}")
+                    req = urllib.request.Request(
+                        url,
+                        headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+                    )
+                    with urllib.request.urlopen(req, timeout=30) as response:
+                        pdf_data = response.read()
+                except urllib.error.URLError as e:
+                    if self.verbose:
+                        logger.debug(f"  Failed to download PDF: {e}")
+                    return None
+
+            # Extract text from first 20 pages
+            try:
+                pdf_reader = PdfReader(io.BytesIO(pdf_data))
+                total_pages = len(pdf_reader.pages)
+                pages_to_extract = min(20, total_pages)
+
+                if self.verbose:
+                    logger.debug(f"  Extracting text from {pages_to_extract}/{total_pages} pages")
+
+                extracted_text = ""
+                for page_num in range(pages_to_extract):
+                    try:
+                        page = pdf_reader.pages[page_num]
+                        extracted_text += page.extract_text() + "\n"
+                    except Exception:
+                        continue
+
+                return extracted_text if extracted_text.strip() else None
+            except Exception as e:
+                if self.verbose:
+                    logger.debug(f"  Failed to extract text from PDF: {e}")
+                return None
+
+        except Exception as e:
+            if self.verbose:
+                logger.debug(f"  Error in raw text extraction: {e}")
+            return None
+
+    def _extract_text_from_pdf(self, url: str, endpoint: Optional[str] = None) -> Optional[str]:
+        """Extract adoption/withdrawal date from PDF using hybrid approach.
+
+        Hybrid strategy:
+        1. Extract raw text from PDF using PyPDF2 (free, no API cost)
+        2. Try regex patterns on raw text
+        3. Only call Claude API if regex extraction fails (fallback for complex cases)
+
+        This significantly reduces API costs by avoiding Claude for straightforward cases.
         """
         try:
             import os
@@ -93,7 +163,34 @@ class DateExtractor:
                 return None
 
             if self.verbose:
-                logger.debug(f"  Extracting dates from PDF via Claude API: {url}")
+                logger.debug(f"  Extracting dates from PDF: {url}")
+
+            # STEP 1: Try free regex extraction on raw PDF text first
+            if self.verbose:
+                logger.debug(f"  Step 1: Trying regex extraction on raw PDF text (free)...")
+
+            raw_text = self._extract_raw_text_from_pdf(url, endpoint)
+            if raw_text:
+                # Try extracting dates using regex patterns
+                adoption_date, withdrawal_date = self._extract_dates_from_text(raw_text)
+                if adoption_date or withdrawal_date:
+                    if self.verbose:
+                        logger.debug(f"  ✓ Found dates with regex (no Claude API needed)")
+                        if adoption_date:
+                            logger.debug(f"    Adoption: {adoption_date}")
+                        if withdrawal_date:
+                            logger.debug(f"    Withdrawal: {withdrawal_date}")
+                    # Return the concatenated result for compatibility with existing code
+                    result_parts = []
+                    if adoption_date:
+                        result_parts.append(f"Adoption: {adoption_date}")
+                    if withdrawal_date:
+                        result_parts.append(f"Withdrawal: {withdrawal_date}")
+                    return " | ".join(result_parts) if result_parts else None
+
+            # STEP 2: Fallback to Claude API for complex cases
+            if self.verbose:
+                logger.debug(f"  Step 2: Regex extraction failed, falling back to Claude API...")
 
             # Try to find local PDF first
             pdf_data = None
@@ -161,7 +258,7 @@ class DateExtractor:
             }
 
             payload = {
-                "model": "claude-opus-4-1-20250805",
+                "model": "claude-3-5-sonnet-20241022",
                 "max_tokens": 256,
                 "messages": [
                     {
