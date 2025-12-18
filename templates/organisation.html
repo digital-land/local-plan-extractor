@@ -38,7 +38,9 @@
       <thead class="govuk-table__head">
         <tr class="govuk-table__row">
           <th scope="col" class="govuk-table__header">Plan name</th>
+          <th scope="col" class="govuk-table__header">Status</th>
           <th scope="col" class="govuk-table__header">Plan period</th>
+          <th scope="col" class="govuk-table__header">Adoption date</th>
           <th scope="col" class="govuk-table__header">Organisation name</th>
         </tr>
       </thead>
@@ -51,10 +53,24 @@
             </a>
           </td>
           <td class="govuk-table__cell">
+            {% if plan.get('status') %}
+              {{ plan['status']|replace('-', ' ')|title }}
+            {% else %}
+              Not specified
+            {% endif %}
+          </td>
+          <td class="govuk-table__cell">
             {% if plan['period-start-date'] and plan['period-end-date'] %}
               {{ plan['period-start-date'] }} - {{ plan['period-end-date'] }}
             {% else %}
               Not specified
+            {% endif %}
+          </td>
+          <td class="govuk-table__cell">
+            {% if plan.get('adoption-date') %}
+              {{ plan['adoption-date'] }}
+            {% else %}
+              Not adopted
             {% endif %}
           </td>
           <td class="govuk-table__cell">

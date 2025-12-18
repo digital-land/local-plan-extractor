@@ -87,6 +87,24 @@
       </div>
       {% endif %}
 
+      {% if plan.get('adoption-date') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Adoption date</dt>
+        <dd class="govuk-summary-list__value">
+          {{ plan['adoption-date'] }}
+        </dd>
+      </div>
+      {% endif %}
+
+      {% if plan.get('withdrawn-date') %}
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Withdrawn date</dt>
+        <dd class="govuk-summary-list__value">
+          {{ plan['withdrawn-date'] }}
+        </dd>
+      </div>
+      {% endif %}
+
       {% if plan.get('document-url') %}
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Source PDF</dt>
