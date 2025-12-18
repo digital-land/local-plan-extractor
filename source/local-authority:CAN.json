@@ -87,9 +87,9 @@
     "name": "Cannock Chase Local Plan (Part 1) 2014",
     "status": "adopted",
     "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "period-start-date": 2006,
+    "period-end-date": 2028,
+    "adoption-date": "2014-06-11",
     "withdrawn-date": null,
     "documents": [
       {

@@ -260,7 +260,7 @@ class DateExtractor:
         ]
 
         for pattern in adoption_patterns:
-            match = re.search(pattern, text_lower)
+            match = re.search(pattern, text_lower, re.DOTALL)
             if match:
                 # Handle natural language patterns (day month year)
                 if len(match.groups()) == 3:
@@ -300,7 +300,7 @@ class DateExtractor:
         ]
 
         for pattern in withdrawal_patterns:
-            match = re.search(pattern, text_lower)
+            match = re.search(pattern, text_lower, re.DOTALL)
             if match:
                 if len(match.groups()) == 3:
                     day, month_str, year = match.groups()
