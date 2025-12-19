@@ -1,25 +1,25 @@
-reference,name,organisations
-BAB-MSU,Babergh and Mid Suffolk,local-authority:BAB;local-authority:MSU
-BLA-CHA-HAO-HIN-LCE-MEL-NWL-OAD,Leicester and Leicestershire,local-authority:BLA;local-authority:CHA;local-authority:HAO;local-authority:HIN;local-authority:LCE;local-authority:MEL;local-authority:NWL;local-authority:OAD
-BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN,Places for Everyone,local-authority:BOL;local-authority:BUR;local-authority:MAN;local-authority:OLD;local-authority:RCH;local-authority:SLF;local-authority:TAM;local-authority:TRF;local-authority:WGN
-BOT-SHO,South East Lincolnshire,local-authority:BOT;local-authority:SHO
-BRA-TEN,North Essex,local-authority:BRA;local-authority:TEN
-BRO-SNO,Greater Norwich,local-authority:BRO;local-authority:SNO
-BRT-ERE-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:ERE;local-authority:GED;local-authority:NGM
-BRT-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:GED;local-authority:NGM
-BRX-EHE-NHE-STV-WEW,North East Central Hertfordshire,local-authority:BRX;local-authority:EHE;local-authority:NHE;local-authority:STV;local-authority:WEW
-CAB-SCA,Greater Cambridgeshire Shared Planning,local-authority:CAB;local-authority:SCA
-CHC-EDO,Christchurch and East Dorset,local-authority:CHC;local-authority:EDO
-CHO-PRE-SRI,Central Lancashire,local-authority:CHO;local-authority:PRE;local-authority:SRI
-CHT-GLO-TEW,"Cheltenham, Gloucester and Tewkesbury",local-authority:CHT;local-authority:GLO;local-authority:TEW
-COR-KET,North Northamptonshire,local-authority:COR;local-authority:KET
-DAV-SNR,West Northamptonshire,local-authority:DAV;local-authority:SNR
-DUD-SAW-WLL-WLV,Black Country,local-authority:DUD;local-authority:SAW;local-authority:WLL;local-authority:WLV
-GAT-NET,Gateshead and Newcastle,local-authority:GAT;local-authority:NET
-LIC-NKE-WLI,Central Lincolnshire,local-authority:LIC;local-authority:NKE;local-authority:WLI
-MAV-WOC-WYC,South Worcestershire,local-authority:MAV;local-authority:WOC;local-authority:WYC
-NDE-TOR,North Devon and Torridge,local-authority:NDE;local-authority:TOR
-NEC-STE,Newcastle-under-Lyme and Stoke-on-Trent,local-authority:NEC;local-authority:STE
-PLY-SHA-WDE,Plymouth and South West Devon,local-authority:PLY;local-authority:SHA;local-authority:WDE
-SOX-VAL,South Oxfordshire and Vale of White Horse,local-authority:SOX;local-authority:VAL
-WDO-WEY,West Dorset and Weymouth & Portland,local-authority:WDO;local-authority:WEY
+reference,name,organisations,website-url
+BAB-MSU,Babergh and Mid Suffolk,local-authority:BAB;local-authority:MSU,https://www.babergh.gov.uk/joint-local-plan
+BLA-CHA-HAO-HIN-LCE-MEL-NWL-OAD,Leicester and Leicestershire,local-authority:BLA;local-authority:CHA;local-authority:HAO;local-authority:HIN;local-authority:LCE;local-authority:MEL;local-authority:NWL;local-authority:OAD,https://www.llstrategicgrowthplan.org.uk
+BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN,Places for Everyone,local-authority:BOL;local-authority:BUR;local-authority:MAN;local-authority:OLD;local-authority:RCH;local-authority:SLF;local-authority:TAM;local-authority:TRF;local-authority:WGN,https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/
+BOT-SHO,South East Lincolnshire,local-authority:BOT;local-authority:SHO,https://southeastlincslocalplan.org
+BRA-TEN,North Essex,local-authority:BRA;local-authority:TEN,https://www.braintree.gov.uk/planning-building-control/local-plan-2033
+BRO-SNO,Greater Norwich,local-authority:BRO;local-authority:SNO,https://www.southnorfolkandbroadland.gov.uk/planning/future-development/local-plans/current-local-plan/greater-norwich-local-plan
+BRT-ERE-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:ERE;local-authority:GED;local-authority:NGM,https://www.gnplan.org.uk
+BRT-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:GED;local-authority:NGM,https://www.gnplan.org.uk
+BRX-EHE-NHE-STV-WEW,North East Central Hertfordshire,local-authority:BRX;local-authority:EHE;local-authority:NHE;local-authority:STV;local-authority:WEW,https://www.stevenage.gov.uk/planning-and-building-control/north-east-central-hertfordshire-vision-2050-consultation
+CAB-SCA,Greater Cambridgeshire Shared Planning,local-authority:CAB;local-authority:SCA,https://www.greatercambridgeplanning.org
+CHC-EDO,Christchurch and East Dorset,local-authority:CHC;local-authority:EDO,https://www.dorsetcouncil.gov.uk/w/christchurch-and-east-dorset-local-plan-part-1-core-strategy
+CHO-PRE-SRI,Central Lancashire,local-authority:CHO;local-authority:PRE;local-authority:SRI,https://centrallocalplan.lancashire.gov.uk
+CHT-GLO-TEW,"Cheltenham, Gloucester and Tewkesbury",local-authority:CHT;local-authority:GLO;local-authority:TEW,https://www.jointcorestrategy.org
+COR-KET,North Northamptonshire,local-authority:COR;local-authority:KET,https://www.northnorthants.gov.uk/planning-strategies-and-plans
+DAV-SNR,West Northamptonshire,local-authority:DAV;local-authority:SNR,https://www.westnorthants.gov.uk/planning-policy/new-local-plan-west-northamptonshire
+DUD-SAW-WLL-WLV,Black Country,local-authority:DUD;local-authority:SAW;local-authority:WLL;local-authority:WLV,https://blackcountryplan.dudley.gov.uk/bcp/
+GAT-NET,Gateshead and Newcastle,local-authority:GAT;local-authority:NET,https://newcastlegatesheadplan.org
+LIC-NKE-WLI,Central Lincolnshire,local-authority:LIC;local-authority:NKE;local-authority:WLI,https://www.n-kesteven.gov.uk/central-lincolnshire
+MAV-WOC-WYC,South Worcestershire,local-authority:MAV;local-authority:WOC;local-authority:WYC,https://www.swdevelopmentplan.org
+NDE-TOR,North Devon and Torridge,local-authority:NDE;local-authority:TOR,https://www.northdevon.gov.uk/council/strategies-plans-and-policies/environment-and-planning-policies/local-plan/north-devon-and-torridge-local-plan
+NEC-STE,Newcastle-under-Lyme and Stoke-on-Trent,local-authority:NEC;local-authority:STE,https://www.stoke.gov.uk/info/20071/joint_local_plan
+PLY-SHA-WDE,Plymouth and South West Devon,local-authority:PLY;local-authority:SHA;local-authority:WDE,https://www.plymouth.gov.uk/plymouth-and-south-west-devon-joint-local-plan
+SOX-VAL,South Oxfordshire and Vale of White Horse,local-authority:SOX;local-authority:VAL,https://www.southandvale.gov.uk/joint-local-plan-2041-examination/
+WDO-WEY,West Dorset and Weymouth & Portland,local-authority:WDO;local-authority:WEY,https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/adopted-local-plans/west-dorset-weymouth-and-portland-adopted-local-plan
