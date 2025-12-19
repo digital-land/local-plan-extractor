@@ -119,14 +119,14 @@ class ManualPlanImporter:
         return {
             "organisation": org_code,
             "organisation-name": row['organisation-label'],
-            "reference": f"LP-{org_code.split(':')[1]}-{int(row['start-date'])}",
+            "reference": f"LP-{org_code.split(':')[1]}-{int(row['period-start-date'])}",
             "documentation-url": row['documentation-url'],
             "document-url": row['document-url'],
             "name": self._generate_plan_name(row),
             "status": "adopted",
-            "year": int(row['start-date']),
-            "period-start-date": int(row['start-date']),
-            "period-end-date": int(row['end-date']),
+            "year": int(row['period-start-date']),
+            "period-start-date": int(row['period-start-date']),
+            "period-end-date": int(row['period-end-date']),
             "adoption-date": None,
             "withdrawn-date": None,
             "documents": [
@@ -135,7 +135,7 @@ class ManualPlanImporter:
                     "documentation-url": row['documentation-url'],
                     "document-type": "local-plan",
                     "name": self._generate_document_name(row),
-                    "reference": f"LP-{org_code.split(':')[1]}-{int(row['start-date'])}",
+                    "reference": f"LP-{org_code.split(':')[1]}-{int(row['period-start-date'])}",
                     "document-status": "adopted",
                     "endpoint": endpoint
                 }
@@ -144,14 +144,14 @@ class ManualPlanImporter:
 
     def _generate_plan_name(self, row: pd.Series) -> str:
         """Generate a plan name from the row data."""
-        start = int(row['start-date'])
-        end = int(row['end-date'])
+        start = int(row['period-start-date'])
+        end = int(row['period-end-date'])
         return f"Local Plan {start}-{end}"
 
     def _generate_document_name(self, row: pd.Series) -> str:
         """Generate a document name from the row data."""
-        start = int(row['start-date'])
-        end = int(row['end-date'])
+        start = int(row['period-start-date'])
+        end = int(row['period-end-date'])
         return f"Adopted Local Plan {start}-{end}"
 
     def update_source_json(self, row: pd.Series, plan_entry: Dict) -> bool:
@@ -204,8 +204,8 @@ class ManualPlanImporter:
             data = {
                 "name": self._generate_plan_name(row),
                 "organisation-name": row['organisation-label'],
-                "period-start-date": int(row['start-date']),
-                "period-end-date": int(row['end-date']),
+                "period-start-date": int(row['period-start-date']),
+                "period-end-date": int(row['period-end-date']),
                 "housing-numbers": housing_numbers,
                 "confidence": "medium" if housing_data else "low",
                 "authority": endpoint,

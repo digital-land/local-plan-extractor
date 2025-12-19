@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2012-2032",
+  "organisation-name": "Burnley Borough Council",
+  "period-start-date": 2012,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "name": "Burnley's Local Plan: July 2018",
+      "organisation-name": "Burnley Borough Council",
+      "period-start-date": 2012,
+      "period-end-date": 2032,
+      "housing-numbers": [
+        {
+          "organisation-name": "Burnley Borough Council",
+          "required-housing": 3880,
+          "allocated-housing": 1798,
+          "windfall-housing": 338,
+          "committed-housing": 843,
+          "broad-locations-housing": "",
+          "annual-required-housing": 194,
+          "pages": "37, 59",
+          "notes": "Total requirement 3880 dwellings over 20 years. Commitments include sites under construction (678), developable sites with permission (114), and other commitments (51). Re-occupation of empty homes also contributes 228 units.",
+          "organisation": "local-authority:BUN"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:BUN",
+      "pdf_file": "collection/document/632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:BUN",
+      "local-plan-boundary": "E60000035",
+      "local-planning-authorities": [
+        "E60000035"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74",
+  "pdf_file": "collection/document/632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

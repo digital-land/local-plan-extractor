@@ -23,5 +23,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:BUN",
+    "organisation-name": "Burnley Borough Council",
+    "reference": "LP-BUN-2012",
+    "documentation-url": "https://burnley.gov.uk/planning/planning-policies/burnleys-local-plan/",
+    "document-url": "https://burnley.gov.uk/wp-content/uploads/2022/04/Burnleys-Local-Plan-Adopted-Version-Final-With-erratum-28-Sep-2018.pdf",
+    "name": "Local Plan 2012-2032",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2032,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://burnley.gov.uk/wp-content/uploads/2022/04/Burnleys-Local-Plan-Adopted-Version-Final-With-erratum-28-Sep-2018.pdf",
+        "documentation-url": "https://burnley.gov.uk/planning/planning-policies/burnleys-local-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2012-2032",
+        "reference": "LP-BUN-2012",
+        "document-status": "adopted",
+        "endpoint": "632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74"
+      }
+    ]
   }
 ]

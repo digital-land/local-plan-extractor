@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2023-2029",
+  "organisation-name": "Bath and North East Somerset Council",
+  "period-start-date": 2023,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "name": "Bath and North East Somerset Local Plan Partial Update",
+      "organisation-name": "Bath and North East Somerset Council",
+      "period-start-date": 2011,
+      "period-end-date": 2029,
+      "housing-numbers": [
+        {
+          "organisation-name": "Bath and North East Somerset Council",
+          "required-housing": 13000,
+          "allocated-housing": 1920,
+          "windfall-housing": 1040,
+          "committed-housing": 8784,
+          "broad-locations-housing": "",
+          "annual-required-housing": 722,
+          "pages": "6",
+          "notes": "Required housing is 'around 13,000 homes'. Allocated housing includes 980 existing allocations plus 940 new allocations through LPPU. Committed housing includes completions (2011-2022) of 8,784 plus extant permissions of 2,900, totaling 11,684. Plan period is 2011-2029 (18 years).",
+          "organisation": "local-authority:BAS"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:BAS",
+      "pdf_file": "collection/document/f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:BAS",
+      "local-plan-boundary": "E60000288",
+      "local-planning-authorities": [
+        "E60000288"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1",
+  "pdf_file": "collection/document/f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

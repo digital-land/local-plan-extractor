@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2010-2030",
+  "organisation-name": "Cheshire East Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "name": "Cheshire East Local Plan Strategy 2010-2030",
+      "organisation-name": "Cheshire East Council",
+      "period-start-date": 2010,
+      "period-end-date": 2030,
+      "housing-numbers": [
+        {
+          "organisation-name": "Cheshire East Council",
+          "required-housing": 36000,
+          "allocated-housing": 18555,
+          "windfall-housing": 1375,
+          "committed-housing": 10822,
+          "broad-locations-housing": "",
+          "annual-required-housing": 1800,
+          "pages": "53-56, 400-403, 445-446",
+          "notes": "Total requirement is 36,000 dwellings over plan period. Strategic Sites and Locations provide 18,555 homes. Commitments (10,822) exclude those on Strategic Sites. Small sites windfall allowance is 125 per annum excluding Crewe and Macclesfield from 2019/20. Additional 3,335 homes expected from Site Allocations and Development Policies Document.",
+          "organisation": "local-authority:CHE"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:CHE",
+      "pdf_file": "collection/document/755561ec1cadf2acb7a7a01881939d6af8b57c595806448c10693b8bce1f82e8.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:CHE",
+      "local-plan-boundary": "E60000015",
+      "local-planning-authorities": [
+        "E60000015"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "755561ec1cadf2acb7a7a01881939d6af8b57c595806448c10693b8bce1f82e8",
+  "pdf_file": "collection/document/755561ec1cadf2acb7a7a01881939d6af8b57c595806448c10693b8bce1f82e8.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

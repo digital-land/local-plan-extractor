@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "organisation": "local-authority:DAC",
+    "organisation-name": "Dacorum Borough Council",
+    "reference": "LP-DAC-2006",
+    "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+    "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/adopted-core-strategy-2013.pdf?sfvrsn=80753a9e_2",
+    "name": "Local Plan 2006-2031",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dacorum.gov.uk/docs/default-source/strategic-planning/adopted-core-strategy-2013.pdf?sfvrsn=80753a9e_2",
+        "documentation-url": "https://www.dacorum.gov.uk/home/planning-development/planning-strategic-planning/core-strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2031",
+        "reference": "LP-DAC-2006",
+        "document-status": "adopted",
+        "endpoint": "dc03abcd4b2031456b8daf8f1aeded18d559ea90b6b9d26faa2d7479536c354a"
+      }
+    ]
+  }
+]

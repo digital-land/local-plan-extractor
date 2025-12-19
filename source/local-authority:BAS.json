@@ -75,5 +75,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:BAS",
+    "organisation-name": "Bath and North East Somerset Council",
+    "reference": "LP-BAS-2023",
+    "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/local-plan-partial-update-adoption-documents",
+    "document-url": "https://www.bathnes.gov.uk/sites/default/files/2023-01/Adopted%20LPPU%20Jan%202023.pdf",
+    "name": "Local Plan 2023-2029",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2023,
+    "period-end-date": 2029,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bathnes.gov.uk/sites/default/files/2023-01/Adopted%20LPPU%20Jan%202023.pdf",
+        "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/local-plan-partial-update-adoption-documents",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2023-2029",
+        "reference": "LP-BAS-2023",
+        "document-status": "adopted",
+        "endpoint": "f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1"
+      }
+    ]
   }
 ]
