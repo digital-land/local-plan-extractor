@@ -4,7 +4,7 @@
     "organisation-name": "Gosport Borough Council",
     "reference": "LP-GOS-2014",
     "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
-    "document-url": "",
+    "document-url": "https://www.gosport.gov.uk/media/1210/Local-Plan-2011-2019-Written-Statement/pdf/Gosport_Borough_Local_Plan_2011-2029_-_adopted_version_b.pdf?m=1561566527337",
     "name": "Gosport Borough Local Plan 2011-2029",
     "status": "adopted",
     "year": 2014,
@@ -14,13 +14,13 @@
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.gosport.gov.uk/media/1210/Local-Plan-2011-2019-Written-Statement/pdf/Gosport_Borough_Local_Plan_2011-2029_-_adopted_version_b.pdf?m=1561566527337",
         "documentation-url": "https://www.gosport.gov.uk/article/1587/Planning-Policy",
         "document-type": "local-plan",
         "name": "Gosport Borough Local Plan 2011-2029",
         "reference": "LP-2011-2029",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e"
       }
     ]
   },

@@ -13,13 +13,13 @@
         {
           "organisation-name": "Gosport Borough Council",
           "required-housing": 3060,
-          "allocated-housing": 1568,
+          "allocated-housing": 1997,
           "windfall-housing": 429,
           "committed-housing": 1124,
           "broad-locations-housing": "",
           "annual-required-housing": 170,
-          "pages": "28-30",
-          "notes": "Required housing of 3,060 dwellings matches South Hampshire Strategy requirement. Allocated housing includes major regeneration sites like Gosport Waterfront (700), Daedalus (249), and Royal Hospital Haslar (300). Committed housing includes 381 completions (2011-2014) plus 743 existing permissions. Total supply of 3,121 exceeds requirement by 61 dwellings.",
+          "pages": "Pages 29-30, 225-226",
+          "notes": "Total supply of 3,121 identified to meet requirement of 3,060. Allocated housing includes major regeneration areas (Gosport Waterfront 700, Daedalus 249, Royal Hospital Haslar 300, etc.) and smaller sites. Committed housing includes completions (381) and existing permissions (743).",
           "organisation": "local-authority:GOS"
         }
       ],

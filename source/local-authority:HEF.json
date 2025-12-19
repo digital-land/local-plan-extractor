@@ -4,7 +4,7 @@
     "organisation-name": "Herefordshire Council",
     "reference": "LP-HEF-2015",
     "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/",
-    "document-url": "",
+    "document-url": "https://www.herefordshire.gov.uk/media/4i4fp5bb/core_strategy_sections_combined.pdf",
     "name": "Herefordshire Local Plan Core Strategy 2011-2031",
     "status": "adopted",
     "year": 2015,
@@ -13,6 +13,15 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.herefordshire.gov.uk/media/4i4fp5bb/core_strategy_sections_combined.pdf",
+        "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/local-plan-core-strategy/",
+        "document-type": "local-plan",
+        "name": "Herefordshire Local Plan Core Strategy 2011-2031",
+        "reference": "LP-HEF-2015",
+        "document-status": "adopted",
+        "endpoint": "821764960e33cf93d240ea9eafc47eef0db33bbab281520c6379ae335ee94bb0"
+      },
       {
         "document-url": "https://www.herefordshire.gov.uk/media/ck0dtmmb/statement_of_community_involvement_january_2022.pdf",
         "documentation-url": "https://www.herefordshire.gov.uk/planning-and-building-control/local-plan/statement-of-community-involvement/",

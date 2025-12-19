@@ -4,7 +4,7 @@
     "organisation-name": "Hartlepool Borough Council",
     "reference": "LP-HPL-2018",
     "documentation-url": "https://www.hartlepool.gov.uk/planning/local-plan",
-    "document-url": "",
+    "document-url": "https://www.hartlepool.gov.uk/downloads/file/28/hartlepool-local-plan-may-2018",
     "name": "Hartlepool Local Plan 2016-2031",
     "status": "adopted",
     "year": 2018,
@@ -13,6 +13,15 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.hartlepool.gov.uk/downloads/file/28/hartlepool-local-plan-may-2018",
+        "documentation-url": "https://www.hartlepool.gov.uk/planning/local-plan",
+        "document-type": "local-plan",
+        "name": "Hartlepool Local Plan 2016-2031",
+        "reference": "LP-HPL-2018",
+        "document-status": "adopted",
+        "endpoint": "27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e"
+      },
       {
         "document-url": "https://www.hartlepool.gov.uk/downloads/file/29/hartlepool-local-plan-policies-map-may-2018",
         "documentation-url": "https://www.hartlepool.gov.uk/downloads/download/16/hartlepool-local-plan-policies-map",

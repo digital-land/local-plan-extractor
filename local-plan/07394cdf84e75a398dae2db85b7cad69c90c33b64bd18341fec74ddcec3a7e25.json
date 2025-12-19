@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "Gedling Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "name": "Local Planning Document Part A Development Management Policies and Part B Site Allocations",
+      "organisation-name": "Gedling Borough Council",
+      "period-start-date": 2011,
+      "period-end-date": 2028,
+      "housing-numbers": [
+        {
+          "organisation-name": "Gedling Borough Council",
+          "required-housing": 7250,
+          "allocated-housing": 6233,
+          "windfall-housing": 240,
+          "committed-housing": 1506,
+          "broad-locations-housing": "",
+          "annual-required-housing": 426,
+          "pages": "155, 196",
+          "notes": "Housing requirement is minimum 7,250 homes for 2011-2028 plan period. Housing trajectory shows 6,593 total projected completions including 1,506 past completions, allocated sites, commitments and windfall. Allocated housing calculated from trajectory excluding completions, commitments and windfall allowance.",
+          "organisation": "local-authority:GED"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:GED",
+      "pdf_file": "collection/document/07394cdf84e75a398dae2db85b7cad69c90c33b64bd18341fec74ddcec3a7e25.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:GED",
+      "local-plan-boundary": "E60000109",
+      "local-planning-authorities": [
+        "E60000109"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "07394cdf84e75a398dae2db85b7cad69c90c33b64bd18341fec74ddcec3a7e25",
+  "pdf_file": "collection/document/07394cdf84e75a398dae2db85b7cad69c90c33b64bd18341fec74ddcec3a7e25.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

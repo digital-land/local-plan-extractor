@@ -4,7 +4,7 @@
     "organisation-name": "London Borough of Havering",
     "reference": "LP-HAV-2021",
     "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/2",
-    "document-url": "",
+    "document-url": "https://www.havering.gov.uk/downloads/file/5300/havering-local-plan-2016-2031",
     "name": "Havering Local Plan 2016-2031",
     "status": "adopted",
     "year": 2021,
@@ -13,6 +13,15 @@
     "adoption-date": "2021-11-17",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.havering.gov.uk/downloads/file/5300/havering-local-plan-2016-2031",
+        "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/2",
+        "document-type": "local-plan",
+        "name": "Havering Local Plan 2016-2031",
+        "reference": "LP-HAV-2021",
+        "document-status": "adopted",
+        "endpoint": "375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537"
+      },
       {
         "document-url": "https://www.havering.gov.uk/downloads/file/5821/local-plan-2016---2031-adoption-statement-2021",
         "documentation-url": "https://www.havering.gov.uk/planning-3/planning-policy/6",

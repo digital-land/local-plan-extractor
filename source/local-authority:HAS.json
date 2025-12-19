@@ -84,5 +84,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:HAS",
+    "organisation-name": "Hastings Borough Council",
+    "reference": "LP-HAS-2011",
+    "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
+    "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
+    "name": "Local Plan 2011-2028",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2028",
+        "reference": "LP-HAS-2011",
+        "document-status": "adopted",
+        "endpoint": "a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd"
+      }
+    ]
   }
 ]

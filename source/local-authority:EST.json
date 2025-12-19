@@ -4,7 +4,7 @@
     "organisation-name": "East Staffordshire Borough Council",
     "reference": "LP-EST-2015",
     "documentation-url": "https://www.eaststaffsbc.gov.uk/planning/planning-policy/local-plan-2012-2031",
-    "document-url": "",
+    "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/localplan2012-2031/Local-Plan-2012-2031-FINAL.pdf",
     "name": "East Staffordshire Local Plan 2012-2031",
     "status": "adopted",
     "year": 2015,
@@ -14,13 +14,22 @@
     "withdrawn-date": null,
     "documents": [
       {
+        "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/localplan2012-2031/Local-Plan-2012-2031-FINAL.pdf",
+        "documentation-url": "https://www.eaststaffsbc.gov.uk/planning/planning-policy/local-plan-2012-2031",
+        "document-type": "local-plan",
+        "name": "East Staffordshire Local Plan 2012-2031",
+        "reference": "LP-EST-2015",
+        "document-status": "adopted",
+        "endpoint": "739db7e499ad468c6a3df4273b0e556a49febd4a35bf6135e44ffff3dcc831b2"
+      },
+      {
         "document-url": "https://www.eaststaffsbc.gov.uk/sites/default/files/docs/planning/planningpolicy/examination/c/C43IntegratedTransportStrategyamended14thJuly2014.pdf",
         "documentation-url": "https://www.eaststaffsbc.gov.uk/planning/planning-policy/local-plan-evidence-base",
         "document-type": "transport-assessment",
         "name": "East Staffordshire Integrated Transport Strategy 2014",
         "reference": "ITS-2014",
         "document-status": "adopted",
-        "endpoint": "82d4916f0860a1b5b13362450a558c25ce31278f2e5ce0251919af12e09017d2"
+        "endpoint": "344c138af3520976bf52b5d16895d3eb619d02af307f00c5c7131d8c9a2ed951"
       }
     ]
   },

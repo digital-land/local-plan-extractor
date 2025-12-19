@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "Hastings Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "name": "The Hastings Planning Strategy 2011 - 2028",
+      "organisation-name": "Hastings Borough Council",
+      "period-start-date": 2011,
+      "period-end-date": 2028,
+      "housing-numbers": [
+        {
+          "organisation-name": "Hastings Borough Council",
+          "required-housing": 3400,
+          "allocated-housing": 747,
+          "windfall-housing": 420,
+          "committed-housing": 1739,
+          "broad-locations-housing": 771,
+          "annual-required-housing": 200,
+          "pages": "33-34, 124-125",
+          "notes": "Housing target is 'at least 3,400 homes'. Committed housing includes completions 2011-2013 (373), commitments with permission (1,209), and small site commitments 2013-2016 (157). Windfall allowance is 35 dwellings per year for 12 years (2016-2028). Broad locations are 'other sites potentially developable - no planning status' from SHLAA.",
+          "organisation": "local-authority:HAS"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:HAS",
+      "pdf_file": "collection/document/a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:HAS",
+      "local-plan-boundary": "E60000238",
+      "local-planning-authorities": [
+        "E60000238"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd",
+  "pdf_file": "collection/document/a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

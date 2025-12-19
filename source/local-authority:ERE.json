@@ -68,5 +68,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:ERE",
+    "organisation-name": "Erewash Borough Council",
+    "reference": "LP-ERE-2011",
+    "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/planning-policy",
+    "document-url": "https://www.erewash.gov.uk/sites/default/files/2025-02/Erewash%20Core%20Strategy%202011-2028.pdf",
+    "name": "Local Plan 2011-2028",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.erewash.gov.uk/sites/default/files/2025-02/Erewash%20Core%20Strategy%202011-2028.pdf",
+        "documentation-url": "https://www.erewash.gov.uk/planning/planning-information/planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2028",
+        "reference": "LP-ERE-2011",
+        "document-status": "adopted",
+        "endpoint": "2c17c4b8d3400187ee2714c2fa9e932a3ea0662b2f68584b47c7e5acf9719001"
+      }
+    ]
   }
 ]

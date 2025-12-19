@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2015-2030",
+  "organisation-name": "London Borough of Hounslow",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "name": "Hounslow Local Plan",
+      "organisation-name": "London Borough of Hounslow",
+      "period-start-date": 2015,
+      "period-end-date": 2030,
+      "housing-numbers": [
+        {
+          "organisation-name": "London Borough of Hounslow",
+          "required-housing": 12330,
+          "allocated-housing": 6339,
+          "windfall-housing": 1839,
+          "committed-housing": "",
+          "broad-locations-housing": 2005,
+          "annual-required-housing": 822,
+          "pages": "92-96, 101",
+          "notes": "Plan provides for minimum 12,330 new homes 2015-2030. London Plan sets annual target of 822 homes per year. Housing supply includes allocated sites (6,339), small sites windfall (1,839), and broad locations (2,005). Total housing supply of 13,040 exceeds minimum requirement.",
+          "organisation": "local-authority:HNS"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:HNS",
+      "pdf_file": "collection/document/f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:HNS",
+      "local-plan-boundary": "E60000214",
+      "local-planning-authorities": [
+        "E60000214"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc",
+  "pdf_file": "collection/document/f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

@@ -23,5 +23,30 @@
         "endpoint": "671f06003b0028d696729598186004d501cdea60f27e91e0076193db175186d7"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:LCE",
+    "organisation-name": "Leicester City Council",
+    "reference": "LP-LCE-2014",
+    "documentation-url": "https://www.leicester.gov.uk/your-council/policies-plans-and-strategies/planning-and-development/adopted-planning-policy/",
+    "document-url": "https://www.leicester.gov.uk/media/179023/core-strategy-adopted-july-2014.pdf",
+    "name": "Local Plan 2014-2026",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.leicester.gov.uk/media/179023/core-strategy-adopted-july-2014.pdf",
+        "documentation-url": "https://www.leicester.gov.uk/your-council/policies-plans-and-strategies/planning-and-development/adopted-planning-policy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2014-2026",
+        "reference": "LP-LCE-2014",
+        "document-status": "adopted",
+        "endpoint": "34db961af3686402b004d097e5aeae203ec8b88dd05b12631fcc231d47bf5600"
+      }
+    ]
   }
 ]

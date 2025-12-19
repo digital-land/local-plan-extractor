@@ -131,5 +131,30 @@
         "endpoint": "c859cdf183a7d9f1f1d17e392a80742469e22819ed73eb786a5178792a69cc13"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:LIC",
+    "organisation-name": "City of Lincoln Council",
+    "reference": "LP-LIC-2023",
+    "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+    "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+    "name": "Local Plan 2023-2040",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2023,
+    "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.n-kesteven.gov.uk/sites/default/files/2023-04/Local%20Plan%20for%20adoption%20Approved%20by%20Committee.pdf",
+        "documentation-url": "https://www.n-kesteven.gov.uk/central-lincolnshire/adopted-local-plan-2023",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2023-2040",
+        "reference": "LP-LIC-2023",
+        "document-status": "adopted",
+        "endpoint": "050655efd1f37aa4fb5d9e6d96e2227aefc7d70ce4c786d7fe5ddc4318bf6af0"
+      }
+    ]
   }
 ]

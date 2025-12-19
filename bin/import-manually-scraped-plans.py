@@ -69,6 +69,22 @@ class ManualPlanImporter:
             raise ValueError("ANTHROPIC_API_KEY environment variable not set")
         self.extractor = LocalPlanExtractor(api_key)
 
+    def load_local_document(self, endpoint: str) -> Optional[Tuple[str, bytes]]:
+        """Load a document from local collection by endpoint hash."""
+        try:
+            pdf_path = self.collection_dir / f"{endpoint}.pdf"
+            if pdf_path.exists():
+                content = pdf_path.read_bytes()
+                if self.verbose:
+                    logger.info(f"  Using local file: {pdf_path.name}")
+                return f"{endpoint}.pdf", content
+            else:
+                logger.error(f"  Local file not found: {pdf_path}")
+                return None
+        except Exception as e:
+            logger.error(f"  Failed to load local document {endpoint}: {e}")
+            return None
+
     def download_document(self, url: str) -> Optional[Tuple[str, bytes]]:
         """Download a document from URL and return (filename, content)."""
         try:
@@ -169,25 +185,102 @@ class ManualPlanImporter:
             else:
                 data = []
 
-            # Check if this plan already exists
-            exists = any(
-                p.get('period-start-date') == plan_entry['period-start-date'] and
-                p.get('period-end-date') == plan_entry['period-end-date']
-                for p in data
-            )
+            # Check if this plan already exists by period dates
+            existing_entry = None
+            for idx, p in enumerate(data):
+                if (p.get('period-start-date') == plan_entry['period-start-date'] and
+                    p.get('period-end-date') == plan_entry['period-end-date']):
+                    existing_entry = (idx, p)
+                    break
 
-            if not exists:
+            if existing_entry:
+                idx, existing = existing_entry
+                # Update missing or empty fields in the existing entry
+                updated = False
+
+                # Update missing document-url
+                if not existing.get('document-url'):
+                    existing['document-url'] = plan_entry['document-url']
+                    updated = True
+                    if self.verbose:
+                        logger.info(f"  Updated document-url")
+
+                # Update missing period-start-date
+                if not existing.get('period-start-date'):
+                    existing['period-start-date'] = plan_entry['period-start-date']
+                    updated = True
+                    if self.verbose:
+                        logger.info(f"  Updated period-start-date")
+
+                # Update missing period-end-date
+                if not existing.get('period-end-date'):
+                    existing['period-end-date'] = plan_entry['period-end-date']
+                    updated = True
+                    if self.verbose:
+                        logger.info(f"  Updated period-end-date")
+
+                # Update documents array if existing is empty
+                if not existing.get('documents'):
+                    existing['documents'] = plan_entry['documents']
+                    updated = True
+                    if self.verbose:
+                        logger.info(f"  Updated documents array")
+                elif isinstance(existing['documents'], list) and len(existing['documents']) > 0:
+                    # Check if we need to add or update the main local-plan document
+                    new_endpoint = plan_entry['documents'][0]['endpoint']
+                    new_doc_url = plan_entry['documents'][0]['document-url']
+
+                    # Find if there's already a local-plan type document
+                    local_plan_doc = None
+                    for idx, doc in enumerate(existing['documents']):
+                        if doc.get('document-type') == 'local-plan':
+                            local_plan_doc = (idx, doc)
+                            break
+
+                    if local_plan_doc:
+                        # Update existing local-plan document
+                        idx, doc = local_plan_doc
+                        if doc.get('endpoint') != new_endpoint:
+                            doc['endpoint'] = new_endpoint
+                            doc['document-url'] = new_doc_url
+                            updated = True
+                            if self.verbose:
+                                logger.info(f"  Updated endpoint and document-url in local-plan document")
+                    else:
+                        # Add a new local-plan document entry
+                        new_doc_entry = {
+                            "document-url": new_doc_url,
+                            "documentation-url": existing.get('documentation-url'),
+                            "document-type": "local-plan",
+                            "name": existing.get('name'),
+                            "reference": existing.get('reference'),
+                            "document-status": "adopted",
+                            "endpoint": new_endpoint
+                        }
+                        existing['documents'].insert(0, new_doc_entry)
+                        updated = True
+                        if self.verbose:
+                            logger.info(f"  Added new local-plan document entry")
+
+                if updated:
+                    with open(source_file, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, indent=2, ensure_ascii=False)
+                    if self.verbose:
+                        logger.info(f"  Updated {source_file.name} with missing fields")
+                    return True
+                else:
+                    if self.verbose:
+                        logger.info(f"  Plan already exists with all fields in {source_file.name}")
+                    return False
+            else:
+                # New plan - add it
                 data.append(plan_entry)
                 with open(source_file, 'w', encoding='utf-8') as f:
                     json.dump(data, f, indent=2, ensure_ascii=False)
 
                 if self.verbose:
-                    logger.info(f"  Updated {source_file.name}")
+                    logger.info(f"  Added new plan to {source_file.name}")
                 return True
-            else:
-                if self.verbose:
-                    logger.info(f"  Plan already exists in {source_file.name}")
-                return False
         except Exception as e:
             logger.error(f"  Error updating source JSON: {e}")
             return False
@@ -250,25 +343,36 @@ class ManualPlanImporter:
             logger.error(f"  Error generating HTML: {e}")
             return False
 
-    def import_plan(self, row: pd.Series) -> bool:
-        """Import a single plan."""
+    def import_plan(self, row: pd.Series, endpoint: Optional[str] = None) -> bool:
+        """Import a single plan. If endpoint is provided, use local file instead of downloading."""
         org_label = row['organisation-label']
         logger.info(f"\nImporting: {org_label}")
 
-        # Download document
-        doc_result = self.download_document(row['document-url'])
+        # Load document (use local if endpoint provided, otherwise download)
+        if endpoint:
+            doc_result = self.load_local_document(endpoint)
+        else:
+            doc_result = self.download_document(row['document-url'])
+
         if not doc_result:
             logger.error(f"Failed to import {org_label}")
             return False
 
         filename, content = doc_result
-        endpoint = self.calculate_endpoint(content)
 
-        # Save PDF to collection
+        # If endpoint not provided, calculate it from the downloaded content
+        if not endpoint:
+            endpoint = self.calculate_endpoint(content)
+
+        # Save PDF to collection (check if it already exists first)
         pdf_path = self.collection_dir / f"{endpoint}.pdf"
-        pdf_path.write_bytes(content)
-        if self.verbose:
-            logger.info(f"  Saved PDF: {pdf_path.name}")
+        if pdf_path.exists():
+            if self.verbose:
+                logger.info(f"  PDF already exists: {pdf_path.name}")
+        else:
+            pdf_path.write_bytes(content)
+            if self.verbose:
+                logger.info(f"  Saved PDF: {pdf_path.name}")
 
         # Extract housing numbers
         housing_data = self.extract_housing_numbers(pdf_path, row['organisation'], self._generate_plan_name(row))
@@ -288,8 +392,8 @@ class ManualPlanImporter:
         logger.info(f"✓ Successfully imported {org_label}")
         return True
 
-    def import_from_excel(self, lpa_codes: Optional[List[str]] = None, test_mode: bool = False):
-        """Import plans from the Excel file."""
+    def import_from_excel(self, lpa_codes: Optional[List[str]] = None, test_mode: bool = False, endpoints: Optional[Dict[str, str]] = None):
+        """Import plans from the Excel file. endpoints is a dict mapping org codes to endpoint hashes."""
         xlsx_file = Path('data/manually_scraped_adopted_plans.xlsx')
 
         if not xlsx_file.exists():
@@ -344,7 +448,13 @@ class ManualPlanImporter:
         for idx, (i, row) in enumerate(has_urls.iterrows(), 1):
             logger.info(f"\n[{idx}/{total}] Processing...")
             try:
-                if self.import_plan(row):
+                # Check if we have a pre-calculated endpoint for this LPA
+                endpoint = None
+                if endpoints:
+                    org_code = row['organisation'].split(':')[-1]
+                    endpoint = endpoints.get(org_code)
+
+                if self.import_plan(row, endpoint=endpoint):
                     success_count += 1
             except Exception as e:
                 logger.error(f"Error importing plan: {e}")
@@ -380,6 +490,7 @@ Examples:
     parser.add_argument('--test', action='store_true', help='Test mode: import first plan only')
     parser.add_argument('--all', action='store_true', help='Import all plans (default if no --test or --lpas)')
     parser.add_argument('--lpas', help='Comma-separated list of LPA codes to import')
+    parser.add_argument('--endpoints', help='Comma-separated list of CODE:HASH pairs for pre-downloaded files (e.g., GRY:1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
 
     args = parser.parse_args()
@@ -394,9 +505,16 @@ Examples:
     if args.lpas:
         lpa_codes = [code.strip() for code in args.lpas.split(',')]
 
+    endpoints = None
+    if args.endpoints:
+        endpoints = {}
+        for pair in args.endpoints.split(','):
+            code, hash_val = pair.strip().split(':')
+            endpoints[code.strip()] = hash_val.strip()
+
     test_mode = args.test
 
-    importer.import_from_excel(lpa_codes=lpa_codes, test_mode=test_mode)
+    importer.import_from_excel(lpa_codes=lpa_codes, test_mode=test_mode, endpoints=endpoints)
 
 
 if __name__ == '__main__':

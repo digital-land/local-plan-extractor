@@ -83,7 +83,7 @@
     "organisation-name": "London Borough of Hounslow",
     "reference": "LP-HNS-2015",
     "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
-    "document-url": "",
+    "document-url": "https://lbhounslow.sharepoint.com/:b:/s/InternetLinks/pp/EcHMd2lpx5xFlwDbyfEsUrcBvxzfTSoTrW3yOphnXdPQzg?e=fsgeqV",
     "name": "Hounslow Local Plan 2015-2030",
     "status": "adopted",
     "year": 2015,
@@ -93,13 +93,13 @@
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://lbhounslow.sharepoint.com/:b:/s/InternetLinks/pp/EcHMd2lpx5xFlwDbyfEsUrcBvxzfTSoTrW3yOphnXdPQzg?e=fsgeqV",
         "documentation-url": "https://www.hounslow.gov.uk/local-plan/local-plan-1",
         "document-type": "local-plan",
         "name": "Hounslow Local Plan 2015 to 2030 volume one",
         "reference": "LP-2015-V1",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc"
       },
       {
         "document-url": "",
