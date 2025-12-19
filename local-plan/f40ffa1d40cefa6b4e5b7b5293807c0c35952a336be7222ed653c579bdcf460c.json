@@ -1,0 +1,39 @@
+{
+  "name": "Local Plan 2011-2026",
+  "organisation-name": "Peak District National Park Authority",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "name": "Peak District National Park Local Development Framework Core Strategy",
+      "organisation-name": "Peak District National Park Authority",
+      "period-start-date": "",
+      "period-end-date": "",
+      "housing-numbers": [
+        {
+          "organisation-name": "Peak District National Park Authority",
+          "required-housing": "",
+          "allocated-housing": 0,
+          "windfall-housing": "",
+          "committed-housing": "",
+          "broad-locations-housing": "",
+          "annual-required-housing": "",
+          "pages": "92-96",
+          "notes": "National Park plan with no housing targets or allocations. Policy states 'Housing land will not be allocated in the development plan' and focuses only on affordable housing for local needs. Provides estimates of 35-75 homes (Dark Peak), 550-890 homes (White Peak), 30-130 homes (South West Peak) but explicitly states these are neither targets nor limits.",
+          "organisation": ""
+        }
+      ],
+      "confidence": "high",
+      "authority": "national-park-authority:Q72617988",
+      "pdf_file": "collection/document/f40ffa1d40cefa6b4e5b7b5293807c0c35952a336be7222ed653c579bdcf460c.pdf",
+      "pages_analysed": 32,
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "f40ffa1d40cefa6b4e5b7b5293807c0c35952a336be7222ed653c579bdcf460c",
+  "pdf_file": "collection/document/f40ffa1d40cefa6b4e5b7b5293807c0c35952a336be7222ed653c579bdcf460c.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

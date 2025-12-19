@@ -1,17 +1,17 @@
 {
   "name": "Local Plan 2011-2026",
-  "organisation-name": "Sandwell Metropolitan Borough Council",
+  "organisation-name": "City of Wolverhampton Council",
   "period-start-date": 2011,
   "period-end-date": 2026,
   "housing-numbers": [
     {
       "name": "Black Country Core Strategy",
-      "organisation-name": "Dudley Metropolitan Borough Council, Sandwell Metropolitan Borough Council, Walsall Metropolitan Borough Council, City of Wolverhampton Council",
+      "organisation-name": "Dudley, Sandwell, Walsall, Wolverhampton",
       "period-start-date": 2006,
       "period-end-date": 2026,
       "housing-numbers": [
         {
-          "organisation-name": "Dudley Metropolitan Borough Council",
+          "organisation-name": "Dudley",
           "required-housing": 16127,
           "allocated-housing": "",
           "windfall-housing": "",
@@ -19,11 +19,11 @@
           "broad-locations-housing": 4628,
           "annual-required-housing": 806,
           "pages": "66-67",
-          "notes": "Figures are net dwellings for 2006-26 period. Committed housing is April 2009 figure. Broad locations housing refers to Regeneration Corridor allocations excluding commitments.",
+          "notes": "Net dwellings 2006-26. Includes regeneration corridors (4628), strategic centres (2939), free-standing employment sites (310), housing renewal sites (102), and other capacity (2556)",
           "organisation": "local-authority:DUD"
         },
         {
-          "organisation-name": "Sandwell Metropolitan Borough Council",
+          "organisation-name": "Sandwell",
           "required-housing": 21489,
           "allocated-housing": "",
           "windfall-housing": "",
@@ -31,11 +31,11 @@
           "broad-locations-housing": 13166,
           "annual-required-housing": 1074,
           "pages": "66-67",
-          "notes": "Figures are net dwellings for 2006-26 period. Committed housing is April 2009 figure. Broad locations housing refers to Regeneration Corridor allocations excluding commitments.",
+          "notes": "Net dwellings 2006-26. Includes regeneration corridors (13166), free-standing employment sites (714), housing renewal sites (-3031), and other capacity (901)",
           "organisation": "local-authority:SAW"
         },
         {
-          "organisation-name": "Walsall Metropolitan Borough Council",
+          "organisation-name": "Walsall",
           "required-housing": 11973,
           "allocated-housing": "",
           "windfall-housing": "",
@@ -43,11 +43,11 @@
           "broad-locations-housing": 2975,
           "annual-required-housing": 599,
           "pages": "66-67",
-          "notes": "Figures are net dwellings for 2006-26 period. Committed housing is April 2009 figure. Broad locations housing refers to Regeneration Corridor allocations excluding commitments.",
+          "notes": "Net dwellings 2006-26. Includes regeneration corridors (2975), strategic centre (0), free-standing employment sites (714), housing renewal sites (765), and other capacity (1227)",
           "organisation": "local-authority:WLL"
         },
         {
-          "organisation-name": "City of Wolverhampton Council",
+          "organisation-name": "Wolverhampton",
           "required-housing": 13411,
           "allocated-housing": "",
           "windfall-housing": "",
@@ -55,39 +55,37 @@
           "broad-locations-housing": 3002,
           "annual-required-housing": 671,
           "pages": "66-67",
-          "notes": "Figures are net dwellings for 2006-26 period. Committed housing is April 2009 figure. Broad locations housing refers to Regeneration Corridor allocations excluding commitments.",
-          "organisation": "local-authority:WLV"
+          "notes": "Net dwellings 2006-26. Includes regeneration corridors (3002), strategic centre (1100), free-standing employment sites (306), housing renewal sites (-1175), and other capacity (1966)",
+          "organisation": ""
         },
         {
-          "organisation-name": "Dudley Metropolitan Borough Council, Sandwell Metropolitan Borough Council, Walsall Metropolitan Borough Council, City of Wolverhampton Council",
-          "organisation": "joint-planning-authority:DUD-SAW-WLL-WLV",
+          "organisation-name": "Dudley, Sandwell, Walsall, Wolverhampton",
+          "organisation": "joint-planning-authority:DUD-SAW-WLL",
           "required-housing": 63000,
           "allocated-housing": 0,
           "windfall-housing": 0,
           "committed-housing": 23808,
           "broad-locations-housing": 23771,
-          "annual-required-housing": 3150,
+          "annual-required-housing": 0,
           "pages": "",
           "notes": ""
         }
       ],
       "confidence": "high",
-      "authority": "local-authority:SAW",
+      "authority": "local-authority:WLV",
       "pdf_file": "collection/document/82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe.pdf",
       "pages_analysed": 32,
-      "organisation": "joint-planning-authority:DUD-SAW-WLL-WLV",
+      "organisation": "joint-planning-authority:DUD-SAW-WLL",
       "organisations": [
         "local-authority:DUD",
         "local-authority:SAW",
-        "local-authority:WLL",
-        "local-authority:WLV"
+        "local-authority:WLL"
       ],
-      "local-plan-boundary": "E60000132-E60000133-E60000135-E60000136",
+      "local-plan-boundary": "E60000132-E60000133-E60000135",
       "local-planning-authorities": [
         "E60000132",
         "E60000133",
-        "E60000135",
-        "E60000136"
+        "E60000135"
       ]
     }
   ],

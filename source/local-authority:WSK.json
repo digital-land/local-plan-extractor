@@ -4,7 +4,7 @@
     "organisation-name": "West Suffolk Council",
     "reference": "LP-WSK-2024",
     "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/",
-    "document-url": "",
+    "document-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/upload/West-Suffolk-Local-Plan-2024-2041-July-2025.pdf",
     "name": "West Suffolk Local Plan 2024-2041",
     "status": "draft",
     "year": 2024,
@@ -13,6 +13,15 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/upload/West-Suffolk-Local-Plan-2024-2041-July-2025.pdf",
+        "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/local_plans/",
+        "document-type": "local-plan",
+        "name": "West Suffolk Local Plan 2024-2041",
+        "reference": "LP-WSK-2024",
+        "document-status": "adopted",
+        "endpoint": "9112c8083ab3df6794dacffc8231cac0b06f8f915227ca1f1ab5f3b1e25d1a9b"
+      },
       {
         "document-url": "",
         "documentation-url": "https://www.westsuffolk.gov.uk/planning/Planning_Policies/",

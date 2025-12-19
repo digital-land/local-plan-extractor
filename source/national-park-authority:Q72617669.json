@@ -5,5 +5,30 @@
     "error": "Could not fetch any page content from likely URLs",
     "adoption-date": null,
     "withdrawn-date": null
+  },
+  {
+    "organisation": "national-park-authority:Q72617669",
+    "organisation-name": "North York Moors National Park Authority",
+    "reference": "LP-Q72617669-2016",
+    "documentation-url": "https://www.northyorkmoors.org.uk/planning/policy/local-plan",
+    "document-url": "https://www.northyorkmoors.org.uk/planning/policy/local-plan/Local-Plan-NO-CROPS.pdf",
+    "name": "Local Plan 2016-2035",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2035,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorkmoors.org.uk/planning/policy/local-plan/Local-Plan-NO-CROPS.pdf",
+        "documentation-url": "https://www.northyorkmoors.org.uk/planning/policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2016-2035",
+        "reference": "LP-Q72617669-2016",
+        "document-status": "adopted",
+        "endpoint": "fe1da01c3c03b3c418087eb8eb704008c55c5d8aa2bd9aeebcf2688783c9986f"
+      }
+    ]
   }
 ]
