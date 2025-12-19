@@ -13,5 +13,30 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": []
+  },
+  {
+    "organisation": "local-authority:TUN",
+    "organisation-name": "Tunbridge Wells Borough Council",
+    "reference": "LP-TUN-2006",
+    "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/existing-local-plans/core-strategy",
+    "document-url": "https://tunbridgewells.gov.uk/__data/assets/pdf_file/0003/343353/Core-Strategy-adopted-June-2010.compressed.pdf",
+    "name": "Local Plan 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://tunbridgewells.gov.uk/__data/assets/pdf_file/0003/343353/Core-Strategy-adopted-June-2010.compressed.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/existing-local-plans/core-strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2026",
+        "reference": "LP-TUN-2006",
+        "document-status": "adopted",
+        "endpoint": "219b20c0572d91e3b6c6d2a1a10b15aaeedaf57055417c373f8f3429ed19e35c"
+      }
+    ]
   }
 ]

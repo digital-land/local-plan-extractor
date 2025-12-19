@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2015-2033",
+  "organisation-name": "Sunderland City Council",
+  "period-start-date": 2015,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "name": "Core Strategy and Development Plan 2015-2033",
+      "organisation-name": "Sunderland City Council",
+      "period-start-date": 2015,
+      "period-end-date": 2033,
+      "housing-numbers": [
+        {
+          "organisation-name": "Sunderland City Council",
+          "required-housing": 13410,
+          "allocated-housing": 7360,
+          "windfall-housing": 700,
+          "committed-housing": 3199,
+          "broad-locations-housing": 2506,
+          "annual-required-housing": 745,
+          "pages": "35-36, 63-65",
+          "notes": "Plan requires minimum 745 net additional dwellings per annum. Allocated housing includes 930 from Housing Growth Areas and 3924 from other SHLAA sites to be allocated in A&D Plan, plus 2506 strategic sites. Committed housing includes completions, under construction, and planning permissions. Small sites windfall allowance of 50 per annum over 14 years.",
+          "organisation": "local-authority:SND"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:SND",
+      "pdf_file": "collection/document/b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:SND",
+      "local-plan-boundary": "E60000012",
+      "local-planning-authorities": [
+        "E60000012"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5",
+  "pdf_file": "collection/document/b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

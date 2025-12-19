@@ -68,5 +68,30 @@
         "endpoint": "d9f462625780491c6a8a5b9a2cef6efa3194974f6a886c1f97ec7fdee9f8ff5b"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:MAN",
+    "organisation-name": "Manchester City Council",
+    "reference": "LP-MAN-2022",
+    "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
+    "name": "Local Plan 2022-2039",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2022,
+    "period-end-date": 2039,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2022-2039",
+        "reference": "LP-MAN-2022",
+        "document-status": "adopted",
+        "endpoint": "c1bf05ba5b426b3308eaed23cc16361f3718cdbe02389c3f7a075028b9ed5cce"
+      }
+    ]
   }
 ]

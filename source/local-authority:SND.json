@@ -5,5 +5,30 @@
     "error": "Could not fetch any page content from likely URLs",
     "adoption-date": null,
     "withdrawn-date": null
+  },
+  {
+    "organisation": "local-authority:SND",
+    "organisation-name": "Sunderland City Council",
+    "reference": "LP-SND-2015",
+    "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+    "document-url": "https://www.sunderland.gov.uk/media/22171/Core-Strategy-and-Development-Plan-2015-2033/pdf/CSDP_2015-2033.pdf?m=1580375786447",
+    "name": "Local Plan 2015-2033",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.sunderland.gov.uk/media/22171/Core-Strategy-and-Development-Plan-2015-2033/pdf/CSDP_2015-2033.pdf?m=1580375786447",
+        "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2015-2033",
+        "reference": "LP-SND-2015",
+        "document-status": "adopted",
+        "endpoint": "b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5"
+      }
+    ]
   }
 ]

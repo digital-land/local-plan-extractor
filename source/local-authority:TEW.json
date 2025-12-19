@@ -95,5 +95,30 @@
         "endpoint": "47796f3ce3fa9a5a75341d23bb671aae47fb1c95803d2edd8a8d20e2871cf4f8"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:TEW",
+    "organisation-name": "Tewkesbury Borough Council",
+    "reference": "LP-TEW-2011",
+    "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
+    "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
+        "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-TEW-2011",
+        "document-status": "adopted",
+        "endpoint": "c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294"
+      }
+    ]
   }
 ]

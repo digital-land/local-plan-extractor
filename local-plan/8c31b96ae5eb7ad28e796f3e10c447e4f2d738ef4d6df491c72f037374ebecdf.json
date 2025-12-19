@@ -1,0 +1,39 @@
+{
+  "name": "Local Plan 1994-2025",
+  "organisation-name": "St Albans City and District Council",
+  "period-start-date": 1994,
+  "period-end-date": 2025,
+  "housing-numbers": [
+    {
+      "name": "St. Albans District Plan Review",
+      "organisation-name": "St. Albans City and District Council",
+      "period-start-date": 1981,
+      "period-end-date": 2001,
+      "housing-numbers": [
+        {
+          "organisation-name": "St. Albans City and District Council",
+          "required-housing": 7200,
+          "allocated-housing": "",
+          "windfall-housing": 675,
+          "committed-housing": "",
+          "broad-locations-housing": "",
+          "annual-required-housing": 480,
+          "pages": "18-20",
+          "notes": "Policy 3 sets dwelling increase target of 7,200 for 1986-2001 period (15 years). Windfall allowance of 675 dwellings by 2001 from unidentified sites up to 1 hectare. Document also mentions 6,400 dwelling target for 1981-96 period which will be exceeded.",
+          "organisation": ""
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:SAL",
+      "pdf_file": "collection/document/8c31b96ae5eb7ad28e796f3e10c447e4f2d738ef4d6df491c72f037374ebecdf.pdf",
+      "pages_analysed": 32,
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "8c31b96ae5eb7ad28e796f3e10c447e4f2d738ef4d6df491c72f037374ebecdf",
+  "pdf_file": "collection/document/8c31b96ae5eb7ad28e796f3e10c447e4f2d738ef4d6df491c72f037374ebecdf.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

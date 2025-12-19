@@ -4,7 +4,7 @@
     "organisation-name": "North West Leicestershire District Council",
     "reference": "LP-NWL-2017",
     "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
-    "document-url": "",
+    "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
     "name": "North West Leicestershire Local Plan 2011-2031",
     "status": "adopted",
     "year": 2017,
@@ -14,13 +14,13 @@
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
         "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
         "document-type": "local-plan",
         "name": "North West Leicestershire Local Plan",
         "reference": "LP-2011-2031",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22"
       },
       {
         "document-url": "",

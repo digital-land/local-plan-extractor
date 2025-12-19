@@ -66,5 +66,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:STY",
+    "organisation-name": "South Tyneside Council",
+    "reference": "LP-STY-2004",
+    "documentation-url": "https://www.southtyneside.gov.uk/article/3673/Local-Development-Framework-LDF",
+    "document-url": "https://www.southtyneside.gov.uk/media/2322/Core-Strategy-June-2007/pdf/Core_Strategy_Final_Adopted_Version_-_cWHS_modified_2014.pdf?m=1654078491523",
+    "name": "Local Plan 2004-2021",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 2004,
+    "period-end-date": 2021,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.southtyneside.gov.uk/media/2322/Core-Strategy-June-2007/pdf/Core_Strategy_Final_Adopted_Version_-_cWHS_modified_2014.pdf?m=1654078491523",
+        "documentation-url": "https://www.southtyneside.gov.uk/article/3673/Local-Development-Framework-LDF",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2004-2021",
+        "reference": "LP-STY-2004",
+        "document-status": "adopted",
+        "endpoint": "21fe7f2103a2ca22f1fc9a177c46caa839e7d47501176ac05b7cc7d8f275e67a"
+      }
+    ]
   }
 ]

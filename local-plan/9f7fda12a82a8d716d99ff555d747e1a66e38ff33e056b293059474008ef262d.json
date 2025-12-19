@@ -13,13 +13,13 @@
         {
           "organisation-name": "Reigate & Banstead Borough Council",
           "required-housing": 6900,
-          "allocated-housing": 1561,
-          "windfall-housing": 700,
-          "committed-housing": 1435,
-          "broad-locations-housing": 1665,
+          "allocated-housing": 5800,
+          "windfall-housing": 815,
+          "committed-housing": "",
+          "broad-locations-housing": 1600,
           "annual-required-housing": 460,
-          "pages": "22, 63-65, 80",
-          "notes": "At least 6,900 homes 2012-2027, equivalent to 460 homes per year. Housing trajectory shows breakdown: Horley North West allocated site (1,561), commitments from permissions (1,435), windfall allowance (700), broad locations (1,665). Up to 1,600 homes from sustainable urban extensions also planned but not yet allocated.",
+          "pages": "22-23, 63-65, 80",
+          "notes": "Total requirement 'at least 6,900 homes'. Allocated housing includes sites within existing urban areas (at least 5,800). Broad locations are sustainable urban extensions (up to 1,600). Windfall allowance is 815 homes from windfalls and other urban broad locations per Figure 7.",
           "organisation": "local-authority:REI"
         }
       ],
