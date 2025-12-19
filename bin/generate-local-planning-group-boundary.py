@@ -180,6 +180,7 @@ def main():
 
             boundaries.append(
                 {
+                    "organisation": f"local-planning-group:{lpa_reference}",
                     "reference": lpa_reference,
                     "name": group_name,
                     "organisations": organisations,
@@ -192,6 +193,7 @@ def main():
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with open(output_csv, "w", newline="") as f:
         fieldnames = [
+            "organisation",
             "reference",
             "name",
             "organisations",
