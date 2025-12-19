@@ -8,6 +8,7 @@ BRO-SNO,Greater Norwich,local-authority:BRO;local-authority:SNO
 BRT-ERE-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:ERE;local-authority:GED;local-authority:NGM
 BRT-GED-NGM,Greater Nottingham,local-authority:BRT;local-authority:GED;local-authority:NGM
 BRX-EHE-NHE-STV-WEW,North East Central Hertfordshire,local-authority:BRX;local-authority:EHE;local-authority:NHE;local-authority:STV;local-authority:WEW
+CAB-SCA,Greater Cambridgeshire Shared Planning,local-authority:CAB;local-authority:SCA
 CHC-EDO,Christchurch and East Dorset,local-authority:CHC;local-authority:EDO
 CHO-PRE-SRI,Central Lancashire,local-authority:CHO;local-authority:PRE;local-authority:SRI
 CHT-GLO-TEW,"Cheltenham, Gloucester and Tewkesbury",local-authority:CHT;local-authority:GLO;local-authority:TEW
