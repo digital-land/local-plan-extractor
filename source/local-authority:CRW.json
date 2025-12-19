@@ -23,5 +23,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:CRW",
+    "organisation-name": "Crawley Borough Council",
+    "reference": "LP-CRW-2023",
+    "documentation-url": "https://crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+    "document-url": "https://crawley.gov.uk/sites/default/files/2024-11/Crawley%20borough%20Local%20Plan%202023%20to%202040.pdf",
+    "name": "Local Plan 2023-2040",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2023,
+    "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://crawley.gov.uk/sites/default/files/2024-11/Crawley%20borough%20Local%20Plan%202023%20to%202040.pdf",
+        "documentation-url": "https://crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2023-2040",
+        "reference": "LP-CRW-2023",
+        "document-status": "adopted",
+        "endpoint": "3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90"
+      }
+    ]
   }
 ]

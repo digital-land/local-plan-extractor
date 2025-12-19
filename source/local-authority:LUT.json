@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "organisation": "local-authority:LUT",
+    "organisation-name": "Luton Borough Council",
+    "reference": "LP-LUT-2011",
+    "documentation-url": "https://m.luton.gov.uk/Page/Show/Environment/Planning/Regional%20and%20local%20planning/Pages/Local%20Plan%202011%20-%202031.aspx",
+    "document-url": "https://www.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/Local%20Plan/adoption/Luton-Local-Plan-2011-2031-November-2017.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/Local%20Plan/adoption/Luton-Local-Plan-2011-2031-November-2017.pdf",
+        "documentation-url": "https://m.luton.gov.uk/Page/Show/Environment/Planning/Regional%20and%20local%20planning/Pages/Local%20Plan%202011%20-%202031.aspx",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-LUT-2011",
+        "document-status": "adopted",
+        "endpoint": "985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73"
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2013-2031",
+  "organisation-name": "East Devon District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "name": "East Devon Local Plan 2013-2031",
+      "organisation-name": "East Devon District Council",
+      "period-start-date": 2013,
+      "period-end-date": 2031,
+      "housing-numbers": [
+        {
+          "organisation-name": "East Devon District Council",
+          "required-housing": 17100,
+          "allocated-housing": "",
+          "windfall-housing": 2340,
+          "committed-housing": "",
+          "broad-locations-housing": "",
+          "annual-required-housing": 950,
+          "pages": "29, 30, 34",
+          "notes": "Plan provides 18,318 homes total including existing commitments. Windfall estimated at 130 dwellings per year over 18-year period. Document states planned provision exceeds objectively assessed need of 17,100 to provide flexibility.",
+          "organisation": "local-authority:EDE"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:EDE",
+      "pdf_file": "collection/document/e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:EDE",
+      "local-plan-boundary": "E60000300",
+      "local-planning-authorities": [
+        "E60000300"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4",
+  "pdf_file": "collection/document/e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

@@ -208,5 +208,30 @@
         "endpoint": "7e06c0fe4cb0dee084da83d2b39a2164f4bfecf3392616c682548ec483f3deaa"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:RIB",
+    "organisation-name": "Ribble Valley Borough Council",
+    "reference": "LP-RIB-2008",
+    "documentation-url": "https://www.ribblevalley.gov.uk/adopted-core-strategy/adopted-core-strategy-1",
+    "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1700/adopted-core-strategy",
+    "name": "Local Plan 2008-2028",
+    "status": "adopted",
+    "year": 2008,
+    "period-start-date": 2008,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1700/adopted-core-strategy",
+        "documentation-url": "https://www.ribblevalley.gov.uk/adopted-core-strategy/adopted-core-strategy-1",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2008-2028",
+        "reference": "LP-RIB-2008",
+        "document-status": "adopted",
+        "endpoint": "a21db06d0e11b0604b4ff7bd2c33bcd6f13a8e2d2e948e108a456234a8b66d34"
+      }
+    ]
   }
 ]

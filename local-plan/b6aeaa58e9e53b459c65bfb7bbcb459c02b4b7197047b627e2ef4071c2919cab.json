@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2006-2025",
+  "organisation-name": "Rochford District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2025,
+  "housing-numbers": [
+    {
+      "name": "Rochford District Council – Local Development Framework Core Strategy",
+      "organisation-name": "Rochford District Council",
+      "period-start-date": 2001,
+      "period-end-date": 2025,
+      "housing-numbers": [
+        {
+          "organisation-name": "Rochford District Council",
+          "required-housing": 4750,
+          "allocated-housing": 1177,
+          "windfall-housing": "",
+          "committed-housing": 828,
+          "broad-locations-housing": 2745,
+          "annual-required-housing": 250,
+          "pages": "42-43, 47-48, 58-60",
+          "notes": "East of England Plan requires minimum 4600 dwellings 2001-2021, continuing at 250/year to 2025. Committed housing includes 618 actual completions 2006-2008 plus 210 extant permissions. Broad locations housing refers to Green Belt release required for extensions to residential envelopes.",
+          "organisation": "local-authority:ROC"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:ROC",
+      "pdf_file": "collection/document/b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:ROC",
+      "local-plan-boundary": "E60000163",
+      "local-planning-authorities": [
+        "E60000163"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab",
+  "pdf_file": "collection/document/b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

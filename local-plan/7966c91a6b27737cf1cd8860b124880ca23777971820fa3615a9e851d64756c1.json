@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Wokingham Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "name": "Wokingham Borough Core Strategy",
+      "organisation-name": "Wokingham Borough Council",
+      "period-start-date": 2006,
+      "period-end-date": 2026,
+      "housing-numbers": [
+        {
+          "organisation-name": "Wokingham Borough Council",
+          "required-housing": 13232,
+          "allocated-housing": 10000,
+          "windfall-housing": 1000,
+          "committed-housing": 2373,
+          "broad-locations-housing": 10000,
+          "annual-required-housing": 623,
+          "pages": "29, 61-62, 91",
+          "notes": "Total requirement of 13,232 includes 772 shortfall from previous plan period. Strategic Development Locations (SDL) provide 10,000 homes: Arborfield Garrison (3,500), South of M4 (2,500), North Wokingham (1,500), South Wokingham (2,500). Committed housing includes existing permissions and WDLP allocations. Additional 1,000 homes to be identified in Managing Development Delivery DPD across major/modest/limited locations.",
+          "organisation": "local-authority:WOK"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:WOK",
+      "pdf_file": "collection/document/7966c91a6b27737cf1cd8860b124880ca23777971820fa3615a9e851d64756c1.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:WOK",
+      "local-plan-boundary": "E60000232",
+      "local-planning-authorities": [
+        "E60000232"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "7966c91a6b27737cf1cd8860b124880ca23777971820fa3615a9e851d64756c1",
+  "pdf_file": "collection/document/7966c91a6b27737cf1cd8860b124880ca23777971820fa3615a9e851d64756c1.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

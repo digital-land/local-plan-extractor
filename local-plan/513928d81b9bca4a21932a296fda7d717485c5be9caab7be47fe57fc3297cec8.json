@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2007-2022",
+  "organisation-name": "Epsom and Ewell Borough Council",
+  "period-start-date": 2007,
+  "period-end-date": 2022,
+  "housing-numbers": [
+    {
+      "name": "LDF Core Strategy 2007",
+      "organisation-name": "Epsom and Ewell Borough Council",
+      "period-start-date": 2007,
+      "period-end-date": 2022,
+      "housing-numbers": [
+        {
+          "organisation-name": "Epsom and Ewell Borough Council",
+          "required-housing": 2715,
+          "allocated-housing": 257,
+          "windfall-housing": 767,
+          "committed-housing": 1691,
+          "broad-locations-housing": "",
+          "annual-required-housing": 181,
+          "pages": "28-30, 50",
+          "notes": "Based on South East Plan requirement of 181 dwellings per annum 2007-2022. Windfall includes medium sites (495) and small sites (272). Commitments include large sites under construction (351), forthcoming large sites (888), medium sites (149) and small sites (209).",
+          "organisation": "local-authority:EPS"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:EPS",
+      "pdf_file": "collection/document/513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:EPS",
+      "local-plan-boundary": "E60000271",
+      "local-planning-authorities": [
+        "E60000271"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8",
+  "pdf_file": "collection/document/513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

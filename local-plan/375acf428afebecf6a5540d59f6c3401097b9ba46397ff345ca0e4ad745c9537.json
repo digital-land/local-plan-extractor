@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2016-2031",
+  "organisation-name": "London Borough of Havering",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "name": "London Borough of Havering Local Plan 2016-2031",
+      "organisation-name": "London Borough of Havering",
+      "period-start-date": 2016,
+      "period-end-date": 2031,
+      "housing-numbers": [
+        {
+          "organisation-name": "London Borough of Havering",
+          "required-housing": 18930,
+          "allocated-housing": "",
+          "windfall-housing": 1440,
+          "committed-housing": "",
+          "broad-locations-housing": 9105,
+          "annual-required-housing": 1262,
+          "pages": "28-31",
+          "notes": "Plan uses phased approach with different annual targets: 700 (Phase 1), 1801 (Phase 2), 1285 (Phase 3). 15-year total is 18,930 homes. Major sites in Strategic Development Areas: Romford 6,000+, Rainham/Beam Park 3,000+. Council estate regeneration contributes 700+ additional homes.",
+          "organisation": "local-authority:HAV"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:HAV",
+      "pdf_file": "collection/document/375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:HAV",
+      "local-plan-boundary": "E60000212",
+      "local-planning-authorities": [
+        "E60000212"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537",
+  "pdf_file": "collection/document/375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

@@ -2,8 +2,26 @@
   {
     "organisation": "local-authority:ERY",
     "organisation-name": "East Riding of Yorkshire Council",
-    "error": "Could not fetch any page content from likely URLs",
+    "reference": "LP-ERY-2020",
+    "documentation-url": "https://www.eastriding.gov.uk/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/",
+    "document-url": "https://downloads.eastriding.org.uk/corporate/pages/east-riding-local-plan-update/adoption-docs/LPU%20-%20Strategy%20Document%20Update%20Adopted%202025.pdf",
+    "name": "Local Plan 2020-2039",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2020,
+    "period-end-date": 2039,
     "adoption-date": null,
-    "withdrawn-date": null
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://downloads.eastriding.org.uk/corporate/pages/east-riding-local-plan-update/adoption-docs/LPU%20-%20Strategy%20Document%20Update%20Adopted%202025.pdf",
+        "documentation-url": "https://www.eastriding.gov.uk/planning-permission-and-building-control/planning-policy-and-the-local-plan/east-riding-local-plan-update/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2020-2039",
+        "reference": "LP-ERY-2020",
+        "document-status": "adopted",
+        "endpoint": "cd0adb426a681749f80b36a16bba412a9cc701c086c3af2349b2f511329ee0e3"
+      }
+    ]
   }
 ]

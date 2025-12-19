@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Sevenoaks District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "name": "Core Strategy",
+      "organisation-name": "Sevenoaks District Council",
+      "period-start-date": 2006,
+      "period-end-date": 2026,
+      "housing-numbers": [
+        {
+          "organisation-name": "Sevenoaks District Council",
+          "required-housing": 3300,
+          "allocated-housing": 978,
+          "windfall-housing": 525,
+          "committed-housing": 2058,
+          "broad-locations-housing": "",
+          "annual-required-housing": 165,
+          "pages": "22, 31, 90-92",
+          "notes": "Core Strategy housing provision is 3,300 dwellings over 20 years at 165 per annum. Committed housing includes 692 completions since 2006 plus 1,366 outstanding permissions. Small site windfall allowance of 525 units applies only after first ten years. Potential allocations (978) are from SHLAA sites to be allocated in future DPD.",
+          "organisation": "local-authority:SEV"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:SEV",
+      "pdf_file": "collection/document/a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:SEV",
+      "local-plan-boundary": "E60000260",
+      "local-planning-authorities": [
+        "E60000260"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54",
+  "pdf_file": "collection/document/a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

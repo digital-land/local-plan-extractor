@@ -41,5 +41,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:SHF",
+    "organisation-name": "Sheffield City Council",
+    "reference": "LP-SHF-2004",
+    "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
+    "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
+    "name": "Local Plan 2004-2026",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 2004,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
+        "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2004-2026",
+        "reference": "LP-SHF-2004",
+        "document-status": "adopted",
+        "endpoint": "6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e"
+      }
+    ]
   }
 ]

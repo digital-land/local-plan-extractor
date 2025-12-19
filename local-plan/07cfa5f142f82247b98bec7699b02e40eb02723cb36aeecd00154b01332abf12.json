@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "Derby City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "name": "Derby City Local Plan, Part 1 - Core Strategy",
+      "organisation-name": "Derby City Council",
+      "period-start-date": 2011,
+      "period-end-date": 2028,
+      "housing-numbers": [
+        {
+          "organisation-name": "Derby City Council",
+          "required-housing": 16388,
+          "allocated-housing": 6975,
+          "windfall-housing": 825,
+          "committed-housing": 2586,
+          "broad-locations-housing": "",
+          "annual-required-housing": 964,
+          "pages": "29-31, 144",
+          "notes": "Plan targets minimum 11,000 homes within Derby boundaries. Full objectively assessed need of 16,388 cannot be met within city - remainder to be met in neighbouring authorities. Committed housing includes completions 2011-2016 (1,998) plus estimated completions 2016-17 (588). Strategic allocations total 6,975 homes from 15 allocated sites.",
+          "organisation": "local-authority:DER"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:DER",
+      "pdf_file": "collection/document/07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:DER",
+      "local-plan-boundary": "E60000073",
+      "local-planning-authorities": [
+        "E60000073"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12",
+  "pdf_file": "collection/document/07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

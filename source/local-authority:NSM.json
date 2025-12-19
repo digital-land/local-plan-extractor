@@ -217,5 +217,30 @@
         "endpoint": "9a8c2370f1fa1ecb45cced33ad20bf3385372054d5d6ea76e282fd72a9f03b3b"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:NSM",
+    "organisation-name": "North Somerset Council",
+    "reference": "LP-NSM-2006",
+    "documentation-url": "https://n-somerset.gov.uk/my-services/planning-building-control/planning-policy/core-strategy/about-our-core-strategy",
+    "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-06/A1%20-%20North%20Somerset%20core%20strategy.pdf",
+    "name": "Local Plan 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://n-somerset.gov.uk/sites/default/files/2022-06/A1%20-%20North%20Somerset%20core%20strategy.pdf",
+        "documentation-url": "https://n-somerset.gov.uk/my-services/planning-building-control/planning-policy/core-strategy/about-our-core-strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2026",
+        "reference": "LP-NSM-2006",
+        "document-status": "adopted",
+        "endpoint": "61aef94f62cb2452454a3a0747117f7848ac7281354574fd7d20eaa8f9ef5174"
+      }
+    ]
   }
 ]

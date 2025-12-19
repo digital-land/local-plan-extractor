@@ -66,5 +66,30 @@
         "endpoint": "69d09d696dcc21742492f30e67b73572d3e5eab5dc900a51e701db4ca632ef4d"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:DUD",
+    "organisation-name": "Dudley Metropolitan Borough Council",
+    "reference": "LP-DUD-2011",
+    "documentation-url": "Dudley Borough Development Strategy | Dudley Council",
+    "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
+    "name": "Local Plan 2011-2026",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
+        "documentation-url": "Dudley Borough Development Strategy | Dudley Council",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2026",
+        "reference": "LP-DUD-2011",
+        "document-status": "adopted",
+        "endpoint": "6f4bee807888a944c8d9a0f66aae509092acc6a2eaffe6af68a4acdda9e06af6"
+      }
+    ]
   }
 ]

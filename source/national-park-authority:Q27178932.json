@@ -2,8 +2,26 @@
   {
     "organisation": "national-park-authority:Q27178932",
     "organisation-name": "Yorkshire Dales National Park Authority",
-    "error": "Could not fetch any page content from likely URLs",
+    "reference": "LP-Q27178932-2015",
+    "documentation-url": "https://www.yorkshiredales.org.uk/park-authority/living-and-working/planning-policy/local-plan-2025-40/examination/evidence-background-documents/",
+    "document-url": "https://www.yorkshiredales.org.uk/wp-content/uploads/sites/13/2019/06/Yorkshire-Dales-National-Park-Local-Plan-2015-30.pdf",
+    "name": "Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
     "adoption-date": null,
-    "withdrawn-date": null
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.yorkshiredales.org.uk/wp-content/uploads/sites/13/2019/06/Yorkshire-Dales-National-Park-Local-Plan-2015-30.pdf",
+        "documentation-url": "https://www.yorkshiredales.org.uk/park-authority/living-and-working/planning-policy/local-plan-2025-40/examination/evidence-background-documents/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2015-2030",
+        "reference": "LP-Q27178932-2015",
+        "document-status": "adopted",
+        "endpoint": "19db860cbfbd54164cf5db56d51a2a8066642f7dbb2d870e30db4dd3990397a8"
+      }
+    ]
   }
 ]

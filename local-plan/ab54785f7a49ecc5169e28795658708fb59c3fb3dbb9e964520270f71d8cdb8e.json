@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2012-2029",
+  "organisation-name": "Middlesbrough Borough Council",
+  "period-start-date": 2012,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "name": "Middlesbrough Housing Local Plan",
+      "organisation-name": "Middlesbrough Council",
+      "period-start-date": 2012,
+      "period-end-date": 2029,
+      "housing-numbers": [
+        {
+          "organisation-name": "Middlesbrough Council",
+          "required-housing": 6970,
+          "allocated-housing": 6405,
+          "windfall-housing": 1065,
+          "committed-housing": 855,
+          "broad-locations-housing": "",
+          "annual-required-housing": 410,
+          "pages": "14-15, 24, 27",
+          "notes": "Total requirement 6,970 net additional dwellings. Strategic locations provide majority of allocated housing. Windfall housing shown as 'minimum requirement for non-strategic housing allocations' of 1,065. Committed housing includes 290 net completions 2012-13 plus 565 extant permissions. Annual requirement based on 410 dwellings per annum for stable population scenario.",
+          "organisation": "local-authority:MDB"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:MDB",
+      "pdf_file": "collection/document/ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:MDB",
+      "local-plan-boundary": "E60000004",
+      "local-planning-authorities": [
+        "E60000004"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e",
+  "pdf_file": "collection/document/ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

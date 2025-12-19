@@ -48,5 +48,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:PEN",
+    "organisation-name": "Pendle Borough Council",
+    "reference": "LP-PEN-2011",
+    "documentation-url": "https://www.pendle.gov.uk/info/20072/planning_policies/275/development_plan_documents/2",
+    "document-url": "https://www.pendle.gov.uk/download/downloads/id/8723/pendle_local_plan_part_1_core_strategy.pdf",
+    "name": "Local Plan 2011-2030",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.pendle.gov.uk/download/downloads/id/8723/pendle_local_plan_part_1_core_strategy.pdf",
+        "documentation-url": "https://www.pendle.gov.uk/info/20072/planning_policies/275/development_plan_documents/2",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2030",
+        "reference": "LP-PEN-2011",
+        "document-status": "adopted",
+        "endpoint": "6a59fc39e4f92cffdd8851d0b94d527b08b785dd4091f58002d5a27a8c6f326e"
+      }
+    ]
   }
 ]

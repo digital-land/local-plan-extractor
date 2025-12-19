@@ -167,5 +167,30 @@
         "endpoint": "21643f41d5415149ccd6dce4ab782781f245897bbc78a6ada955b5925c55a38d"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:ROC",
+    "organisation-name": "Rochford District Council",
+    "reference": "LP-ROC-2006",
+    "documentation-url": "https://www.rochford.gov.uk/core-strategy",
+    "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_cs_adoptedstrategy.pdf",
+    "name": "Local Plan 2006-2025",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2025,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_cs_adoptedstrategy.pdf",
+        "documentation-url": "https://www.rochford.gov.uk/core-strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2025",
+        "reference": "LP-ROC-2006",
+        "document-status": "adopted",
+        "endpoint": "b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab"
+      }
+    ]
   }
 ]

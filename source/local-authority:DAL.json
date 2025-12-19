@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "organisation": "local-authority:DAL",
+    "organisation-name": "Darlington Borough Council",
+    "reference": "LP-DAL-2016",
+    "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+    "document-url": "https://www.darlington.gov.uk/media/0b0hqmzu/local-plan-adopted-feb22v2-accessibility-check.pdf",
+    "name": "Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.darlington.gov.uk/media/0b0hqmzu/local-plan-adopted-feb22v2-accessibility-check.pdf",
+        "documentation-url": "https://www.darlington.gov.uk/planning-and-building-regs/planning/planning-and-environmental-policy/adopted-local-plan-2016-2036/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2016-2036",
+        "reference": "LP-DAL-2016",
+        "document-status": "adopted",
+        "endpoint": "cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f"
+      }
+    ]
+  }
+]

@@ -190,5 +190,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:WIN",
+    "organisation-name": "Winchester City Council",
+    "reference": "LP-WIN-2011",
+    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
+    "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-WIN-2011",
+        "document-status": "adopted",
+        "endpoint": "52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781"
+      }
+    ]
   }
 ]

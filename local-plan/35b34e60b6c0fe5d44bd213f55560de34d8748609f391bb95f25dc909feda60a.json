@@ -1,0 +1,39 @@
+{
+  "name": "Local Plan 2017-2037",
+  "organisation-name": "Northumberland National Park Authority",
+  "period-start-date": 2017,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "name": "Northumberland National Park Local Plan (2017-2037)",
+      "organisation-name": "Northumberland National Park Authority",
+      "period-start-date": 2017,
+      "period-end-date": 2037,
+      "housing-numbers": [
+        {
+          "organisation-name": "Northumberland National Park Authority",
+          "required-housing": 160,
+          "allocated-housing": 0,
+          "windfall-housing": "",
+          "committed-housing": "",
+          "broad-locations-housing": "",
+          "annual-required-housing": 8,
+          "pages": "31-32",
+          "notes": "Plan will not allocate housing sites due to very small requirement and reliance on windfalls. Housing to be met through combination of small windfall sites, affordable housing, building conversions, custom/self-build, and dwellings in gateway settlements. Approximately 40 of the 160 units should be affordable housing.",
+          "organisation": ""
+        }
+      ],
+      "confidence": "high",
+      "authority": "national-park-authority:Q72617890",
+      "pdf_file": "collection/document/35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a.pdf",
+      "pages_analysed": 32,
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a",
+  "pdf_file": "collection/document/35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

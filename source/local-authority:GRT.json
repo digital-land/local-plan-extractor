@@ -38,5 +38,30 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": []
+  },
+  {
+    "organisation": "local-authority:GRT",
+    "organisation-name": "Guildford Borough Council",
+    "reference": "LP-GRT-2015",
+    "documentation-url": "https://www.guildford.gov.uk/guildfordlocalplan",
+    "document-url": "https://www.guildford.gov.uk/media/29891/The-Guildford-borough-Local-Plan-strategy-and-sites-2015-2034/pdf/Guildford_LPSS_-_LPDMP_Update_08.08.23.pdf?m=1691506802143",
+    "name": "Local Plan 2015-2034",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2034,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.guildford.gov.uk/media/29891/The-Guildford-borough-Local-Plan-strategy-and-sites-2015-2034/pdf/Guildford_LPSS_-_LPDMP_Update_08.08.23.pdf?m=1691506802143",
+        "documentation-url": "https://www.guildford.gov.uk/guildfordlocalplan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2015-2034",
+        "reference": "LP-GRT-2015",
+        "document-status": "adopted",
+        "endpoint": "2679e4bf117b5a49da62e652b58e9ef35bbc2dac589f5ddafc0a44d8a0a1b6ce"
+      }
+    ]
   }
 ]

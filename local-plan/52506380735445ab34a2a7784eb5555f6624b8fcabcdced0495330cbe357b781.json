@@ -1,0 +1,39 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Winchester City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "name": "Winchester District Local Plan Part 1 - Joint Core Strategy",
+      "organisation-name": "Winchester City Council, South Downs National Park Authority",
+      "period-start-date": 2011,
+      "period-end-date": 2031,
+      "housing-numbers": [
+        {
+          "organisation-name": "Winchester City Council",
+          "required-housing": 12500,
+          "allocated-housing": 7818,
+          "windfall-housing": 1973,
+          "committed-housing": 2392,
+          "broad-locations-housing": "",
+          "annual-required-housing": 625,
+          "pages": "70-71, 163",
+          "notes": "Total for Winchester District including parts within South Downs National Park. Strategic allocations include 2000 at North Winchester, 2500 at West of Waterlooville, 3500 at North Whiteley. Committed housing includes completions 2011/12 (317) plus sites with planning permission and SHLAA sites (2392).",
+          "organisation": "local-authority:WIN"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:WIN",
+      "pdf_file": "collection/document/52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:WIN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781",
+  "pdf_file": "collection/document/52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

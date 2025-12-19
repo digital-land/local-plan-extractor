@@ -2,8 +2,26 @@
   {
     "organisation": "national-park-authority:Q72617890",
     "organisation-name": "Northumberland National Park Authority",
-    "error": "Could not fetch any page content from likely URLs",
+    "reference": "LP-Q72617890-2017",
+    "documentation-url": "https://www.northumberlandnationalpark.org.uk/planning/planning-policy/local-plan/",
+    "document-url": "https://www.northumberlandnationalpark.org.uk/wp-content/uploads/2020/09/Northumberland-National-Park-Local-Plan-July-2020-.pdf",
+    "name": "Local Plan 2017-2037",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2017,
+    "period-end-date": 2037,
     "adoption-date": null,
-    "withdrawn-date": null
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northumberlandnationalpark.org.uk/wp-content/uploads/2020/09/Northumberland-National-Park-Local-Plan-July-2020-.pdf",
+        "documentation-url": "https://www.northumberlandnationalpark.org.uk/planning/planning-policy/local-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2017-2037",
+        "reference": "LP-Q72617890-2017",
+        "document-status": "adopted",
+        "endpoint": "35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a"
+      }
+    ]
   }
 ]

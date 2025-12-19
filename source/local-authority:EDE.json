@@ -84,5 +84,30 @@
         "endpoint": "872e7f395e594d27d66d7cea9ce587b20528148c40efc1ae1b5cf6ce78b38749"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:EDE",
+    "organisation-name": "East Devon District Council",
+    "reference": "LP-EDE-2013",
+    "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+    "document-url": "https://eastdevon.gov.uk/media/1772841/local-plan-final-adopted-plan-2016.pdf",
+    "name": "Local Plan 2013-2031",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2013,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://eastdevon.gov.uk/media/1772841/local-plan-final-adopted-plan-2016.pdf",
+        "documentation-url": "https://eastdevon.gov.uk/planning/planning-policy/local-plan-2013-2031/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2013-2031",
+        "reference": "LP-EDE-2013",
+        "document-status": "adopted",
+        "endpoint": "e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4"
+      }
+    ]
   }
 ]

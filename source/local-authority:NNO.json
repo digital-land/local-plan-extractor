@@ -102,5 +102,30 @@
         "endpoint": "2e5e83c851d9e58449f2aa9b137c4502b9f5df86e96d49c500ac177e3fb13dc0"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:NNO",
+    "organisation-name": "North Norfolk District Council",
+    "reference": "LP-NNO-2001",
+    "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/core-strategy/",
+    "document-url": "https://www.north-norfolk.gov.uk/media/1370/3-_core_strategy_-incorporating_development_control_policies-_adopted_2008_-updated_2012.pdf",
+    "name": "Local Plan 2001-2021",
+    "status": "adopted",
+    "year": 2001,
+    "period-start-date": 2001,
+    "period-end-date": 2021,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/1370/3-_core_strategy_-incorporating_development_control_policies-_adopted_2008_-updated_2012.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/core-strategy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2001-2021",
+        "reference": "LP-NNO-2001",
+        "document-status": "adopted",
+        "endpoint": "68d0d61b997bb15b409c520b7d67250b24279aba002b00b5cac25235037da791"
+      }
+    ]
   }
 ]

@@ -123,5 +123,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:DER",
+    "organisation-name": "Derby City Council",
+    "reference": "LP-DER-2011",
+    "documentation-url": "https://www.derby.gov.uk/environment-and-planning/planning/local-plan/part-1/about/#page-1",
+    "document-url": "https://www.derby.gov.uk/media/derbycitycouncil/contentassets/documents/environmentandplanning/planning/localplan/evidencebase/Core-Strategy_ADOPTED_DEC-2016_V3_WEB.pdf",
+    "name": "Local Plan 2011-2028",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.derby.gov.uk/media/derbycitycouncil/contentassets/documents/environmentandplanning/planning/localplan/evidencebase/Core-Strategy_ADOPTED_DEC-2016_V3_WEB.pdf",
+        "documentation-url": "https://www.derby.gov.uk/environment-and-planning/planning/local-plan/part-1/about/#page-1",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2028",
+        "reference": "LP-DER-2011",
+        "document-status": "adopted",
+        "endpoint": "07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12"
+      }
+    ]
   }
 ]

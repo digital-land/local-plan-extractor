@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2016-2036",
+  "organisation-name": "Darlington Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "name": "Darlington Borough Local Plan 2016 - 2036",
+      "organisation-name": "Darlington Borough Council",
+      "period-start-date": 2016,
+      "period-end-date": 2036,
+      "housing-numbers": [
+        {
+          "organisation-name": "Darlington Borough Council",
+          "required-housing": 9840,
+          "allocated-housing": 5764,
+          "windfall-housing": 375,
+          "committed-housing": 3119,
+          "broad-locations-housing": "",
+          "annual-required-housing": 492,
+          "pages": "35-42, 147-152",
+          "notes": "Total housing supply is 11,579 homes (2,321 completions + 3,119 commitments + 5,764 allocations + 375 windfall). Plan includes strategic allocations at Skerningham (1,650 homes) and Greater Faverdale (750 homes) within plan period. Housing trajectory shows continuous 5-year supply throughout plan period.",
+          "organisation": "local-authority:DAL"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:DAL",
+      "pdf_file": "collection/document/cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:DAL",
+      "local-plan-boundary": "E60000002",
+      "local-planning-authorities": [
+        "E60000002"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f",
+  "pdf_file": "collection/document/cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

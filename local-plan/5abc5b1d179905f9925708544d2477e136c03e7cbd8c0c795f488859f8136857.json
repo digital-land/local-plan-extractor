@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2001-2026",
+  "organisation-name": "Thurrock Council",
+  "period-start-date": 2001,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "name": "Core Strategy and Policies for Management of Development (as amended)",
+      "organisation-name": "Thurrock Council",
+      "period-start-date": 2001,
+      "period-end-date": 2026,
+      "housing-numbers": [
+        {
+          "organisation-name": "Thurrock Council",
+          "required-housing": 18500,
+          "allocated-housing": "",
+          "windfall-housing": "",
+          "committed-housing": 2036,
+          "broad-locations-housing": 13550,
+          "annual-required-housing": 925,
+          "pages": "30-34, 59-64",
+          "notes": "18,500 dwellings required 2001-2021 from East of England Plan. 4,950 completed 2001-2009, 2,036 with planning permission as at April 2009, 13,550 additional provision needed 2009-2021. Housing delivered through broad locations rather than specific site allocations. Indicative 4,750 dwellings for 2021-2026 period.",
+          "organisation": "local-authority:THR"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:THR",
+      "pdf_file": "collection/document/5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:THR",
+      "local-plan-boundary": "E60000148",
+      "local-planning-authorities": [
+        "E60000148"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857",
+  "pdf_file": "collection/document/5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

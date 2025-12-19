@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2023-2040",
+  "organisation-name": "Crawley Borough Council",
+  "period-start-date": 2023,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "name": "Crawley Borough Local Plan 2023 to 2040",
+      "organisation-name": "Crawley Borough Council",
+      "period-start-date": 2023,
+      "period-end-date": 2040,
+      "housing-numbers": [
+        {
+          "organisation-name": "Crawley Borough Council",
+          "required-housing": 12835,
+          "allocated-housing": 3728,
+          "windfall-housing": 1597,
+          "committed-housing": "",
+          "broad-locations-housing": 213,
+          "annual-required-housing": 755,
+          "pages": "164, 170-171, 173-175, housing trajectory table",
+          "notes": "Plan provides 5,330 dwellings against need of 12,835 (755 per annum), leaving 7,505 unmet. Allocated housing includes key housing sites and town centre allocations. Broad locations are town centre areas and Land East of London Road. Major sites include Forge Wood (434 dwellings) and town centre sites (1,500 dwellings).",
+          "organisation": "local-authority:CRW"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:CRW",
+      "pdf_file": "collection/document/3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:CRW",
+      "local-plan-boundary": "E60000284",
+      "local-planning-authorities": [
+        "E60000284"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90",
+  "pdf_file": "collection/document/3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2021-2039",
+  "organisation-name": "Nuneaton and Bedworth Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "name": "Borough Plan Review",
+      "organisation-name": "Nuneaton and Bedworth Borough Council",
+      "period-start-date": 2021,
+      "period-end-date": 2039,
+      "housing-numbers": [
+        {
+          "organisation-name": "Nuneaton and Bedworth Borough Council",
+          "required-housing": 9810,
+          "allocated-housing": 4616,
+          "windfall-housing": 504,
+          "committed-housing": 3100,
+          "broad-locations-housing": "",
+          "annual-required-housing": 545,
+          "pages": "18, 21",
+          "notes": "Housing requirement is 545 dwellings per annum based on Planned Economic Growth Scenario. Allocated housing includes 3,978 strategic housing allocations and 638 non-strategic housing allocations. Total housing supply is 10,963 dwellings providing a buffer above minimum requirement.",
+          "organisation": "local-authority:NUN"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:NUN",
+      "pdf_file": "collection/document/9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:NUN",
+      "local-plan-boundary": "E60000126",
+      "local-planning-authorities": [
+        "E60000126"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854",
+  "pdf_file": "collection/document/9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

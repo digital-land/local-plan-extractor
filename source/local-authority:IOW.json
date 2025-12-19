@@ -167,5 +167,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:IOW",
+    "organisation-name": "Isle of Wight Council",
+    "reference": "LP-IOW-2011",
+    "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/island-plan-core-strategy/",
+    "document-url": "https://iwc.iow.gov.uk/documentlibrary/download/isle-of-wight-core-strategy",
+    "name": "Local Plan 2011-2027",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://iwc.iow.gov.uk/documentlibrary/download/isle-of-wight-core-strategy",
+        "documentation-url": "https://www.iow.gov.uk/environment-and-planning/planning/local-plan/island-plan-core-strategy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2027",
+        "reference": "LP-IOW-2011",
+        "document-status": "adopted",
+        "endpoint": "062aac295576400a0e3229a9b36c96ddec26addc269d73534adb189df60d0f94"
+      }
+    ]
   }
 ]

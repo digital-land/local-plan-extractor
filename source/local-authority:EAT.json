@@ -2,8 +2,26 @@
   {
     "organisation": "local-authority:EAT",
     "organisation-name": "Eastleigh Borough Council",
-    "error": "Could not fetch any page content from likely URLs",
+    "reference": "LP-EAT-2016",
+    "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+    "document-url": "https://www.eastleigh.gov.uk/media/11806/to-be-published-final-local-plan-april-2022-v4.pdf",
+    "name": "Local Plan 2016-2036",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2036,
     "adoption-date": null,
-    "withdrawn-date": null
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.eastleigh.gov.uk/media/11806/to-be-published-final-local-plan-april-2022-v4.pdf",
+        "documentation-url": "https://www.eastleigh.gov.uk/planning-and-building/planning-policy-and-implementation/local-plan/local-plan-adoption",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2016-2036",
+        "reference": "LP-EAT-2016",
+        "document-status": "adopted",
+        "endpoint": "d553603eba859a47129620ccc7b35fb64f9393c3ce11f2c8d386c90a416b54ed"
+      }
+    ]
   }
 ]

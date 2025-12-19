@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2012-2027",
+  "organisation-name": "Reigate and Banstead Borough Council",
+  "period-start-date": 2012,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "name": "Reigate & Banstead Core Strategy",
+      "organisation-name": "Reigate & Banstead Borough Council",
+      "period-start-date": 2012,
+      "period-end-date": 2027,
+      "housing-numbers": [
+        {
+          "organisation-name": "Reigate & Banstead Borough Council",
+          "required-housing": 6900,
+          "allocated-housing": 1561,
+          "windfall-housing": 700,
+          "committed-housing": 1435,
+          "broad-locations-housing": 1665,
+          "annual-required-housing": 460,
+          "pages": "22, 63-65, 80",
+          "notes": "At least 6,900 homes 2012-2027, equivalent to 460 homes per year. Housing trajectory shows breakdown: Horley North West allocated site (1,561), commitments from permissions (1,435), windfall allowance (700), broad locations (1,665). Up to 1,600 homes from sustainable urban extensions also planned but not yet allocated.",
+          "organisation": "local-authority:REI"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:REI",
+      "pdf_file": "collection/document/9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:REI",
+      "local-plan-boundary": "E60000274",
+      "local-planning-authorities": [
+        "E60000274"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d",
+  "pdf_file": "collection/document/9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}
