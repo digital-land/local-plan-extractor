@@ -4,8 +4,8 @@
     "organisation-name": "Derbyshire Dales District Council",
     "reference": "LP-DEB-2017",
     "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption",
-    "document-url": "",
-    "name": "Derbyshire Dales Local Plan 2017",
+    "document-url": "https://www.derbyshiredales.gov.uk/documents/dddc-adopted-local-plan-2017-2/download",
+    "name": "Derbyshire Dales Local Plan 2013-2033",
     "status": "adopted",
     "year": 2017,
     "period-start-date": 2013,
@@ -13,6 +13,15 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.derbyshiredales.gov.uk/documents/dddc-adopted-local-plan-2017-2/download",
+        "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-information-and-adoption",
+        "document-type": "local-plan",
+        "name": "Derbyshire Dales Local Plan 2013-2033",
+        "reference": "LP-2017",
+        "document-status": "adopted",
+        "endpoint": "d01d1314314ded83d2f2b0241e705515ffc3f7f21c3345431f9c5e06d947a909"
+      },
       {
         "document-url": "",
         "documentation-url": "https://www.derbyshiredales.gov.uk/planning/planning-policy-and-local-plan/local-plan/local-plan-archive",

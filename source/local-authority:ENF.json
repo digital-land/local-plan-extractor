@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:ENF",
     "organisation-name": "London Borough of Enfield",
+    "reference": "LP-ENF-2010",
+    "documentation-url": "https://www.enfield.gov.uk/planning-policy",
+    "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0015/4623/planning-policy-information-the-enfield-plan-core-strategy-november-2010.pdf",
+    "name": "Enfield Plan Core Strategy 2010",
+    "status": "adopted",
+    "year": 2010,
+    "period-start-date": 2010,
+    "period-end-date": 2025,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.enfield.gov.uk/__data/assets/pdf_file/0015/4623/planning-policy-information-the-enfield-plan-core-strategy-november-2010.pdf",
+        "documentation-url": "https://www.enfield.gov.uk/planning-policy",
+        "document-type": "core-strategy",
+        "name": "Enfield Plan Core Strategy 2010",
+        "reference": "CS-2010",
+        "document-status": "adopted",
+        "endpoint": "32506f045d4de27c03c031341692166747ca4a5346b1747f61ef5a8570a22a7b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ENF",
+    "organisation-name": "London Borough of Enfield",
     "reference": "LP-ENF-2024",
     "documentation-url": "https://www.enfield.gov.uk/localplan",
     "document-url": "",

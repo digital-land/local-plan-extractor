@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:ELM",
     "organisation-name": "Elmbridge Borough Council",
+    "reference": "LP-ELM-2011",
+    "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0/current-adopted-development-plan",
+    "document-url": "https://www.elmbridge.gov.uk/sites/default/files/2023-03/Core%20Strategy.pdf",
+    "name": "Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.elmbridge.gov.uk/sites/default/files/2023-03/Core%20Strategy.pdf",
+        "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2011",
+        "document-status": "adopted",
+        "endpoint": "1ee9c7851029571b21cb9f8630fa2ed1e5d3abef8a2c6c6d03a84ec1fbf3eef0"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ELM",
+    "organisation-name": "Elmbridge Borough Council",
     "reference": "LP-ELM-2015",
     "documentation-url": "https://www.elmbridge.gov.uk/planning/planning-policy-and-guidance-0/current-adopted-development-plan",
     "document-url": "",

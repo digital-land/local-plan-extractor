@@ -63,6 +63,31 @@
   {
     "organisation": "local-authority:BST",
     "organisation-name": "Bristol City Council",
+    "reference": "LP-BST-2006",
+    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
+    "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links/file",
+    "name": "Bristol Development Framework Core Strategy",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links/file",
+        "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
+        "document-type": "core-strategy",
+        "name": "Core Strategy",
+        "reference": "CS-2006",
+        "document-status": "adopted",
+        "endpoint": "18f4171e2f7b8c88491f3f9f147dd6b6725acc93963d1802ab2a575a93925754"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BST",
+    "organisation-name": "Bristol City Council",
     "reference": "LP-BST-2025",
     "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan/local-plan-review",
     "document-url": "",

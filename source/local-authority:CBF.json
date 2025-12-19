@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:CBF",
     "organisation-name": "Central Bedfordshire Council",
+    "reference": "LP-CBF-2015",
+    "documentation-url": "https://www.centralbedfordshire.gov.uk/info/45/planning_policy",
+    "document-url": "https://centralbedfordshirecouncil.sharepoint.com/sites/Communications/Website%20and%20intranet/Forms/AllItems.aspx?id=%2Fsites%2FCommunications%2FWebsite%20and%20intranet%2FWebsite%20Documents%2FPlanning%2FLocal%20Plan%2FLocal%20Plan%20Documents%2F15%5F%20Adoption%20documents%2F2%5F%20Central%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035%2FCentral%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035%2Epdf&parent=%2Fsites%2FCommunications%2FWebsite%20and%20intranet%2FWebsite%20Documents%2FPlanning%2FLocal%20Plan%2FLocal%20Plan%20Documents%2F15%5F%20Adoption%20documents%2F2%5F%20Central%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035&p=true&ga=1",
+    "name": "Central Bedfordshire Local Plan 2015-2035",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2035,
+    "adoption-date": "2021-07",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://centralbedfordshirecouncil.sharepoint.com/sites/Communications/Website%20and%20intranet/Forms/AllItems.aspx?id=%2Fsites%2FCommunications%2FWebsite%20and%20intranet%2FWebsite%20Documents%2FPlanning%2FLocal%20Plan%2FLocal%20Plan%20Documents%2F15%5F%20Adoption%20documents%2F2%5F%20Central%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035%2FCentral%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035%2Epdf&parent=%2Fsites%2FCommunications%2FWebsite%20and%20intranet%2FWebsite%20Documents%2FPlanning%2FLocal%20Plan%2FLocal%20Plan%20Documents%2F15%5F%20Adoption%20documents%2F2%5F%20Central%20Bedfordshire%20Local%20Plan%202015%20%E2%80%93%202035&p=true&ga=1",
+        "documentation-url": "https://www.centralbedfordshire.gov.uk/info/45/planning_policy",
+        "document-type": "local-plan",
+        "name": "Central Bedfordshire Local Plan 2015-2035",
+        "reference": "LP-2015",
+        "document-status": "adopted",
+        "endpoint": "755ceeaea859a7978a5d0e8cb113aeff65fff401e683a7a97e9bc68cda26206c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CBF",
+    "organisation-name": "Central Bedfordshire Council",
     "reference": "LP-CBF-2021",
     "documentation-url": "https://www.centralbedfordshire.gov.uk/info/45/planning_policy",
     "document-url": "",

@@ -1,0 +1,29 @@
+{
+  "name": "Central Bedfordshire Local Plan",
+  "organisation-name": "Central Bedfordshire Council",
+  "period-start-date": 2015,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "Central Bedfordshire Council",
+      "required-housing": 39350,
+      "allocated-housing": 14187,
+      "windfall-housing": 2873,
+      "committed-housing": 27696,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1968,
+      "pages": "33-37, 40-44",
+      "notes": "Total requirement includes 32,000 for Central Bedfordshire's own need plus 7,350 to meet Luton's unmet housing need. Allocated housing comprises 9,025 from new strategic allocations plus 5,162 from small and medium allocations. Committed housing includes completions (10,226) plus existing commitments (17,470).",
+      "organisation": "local-authority:CBF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "755ceeaea859a7978a5d0e8cb113aeff65fff401e683a7a97e9bc68cda26206c",
+  "pdf_file": "collection/document/755ceeaea859a7978a5d0e8cb113aeff65fff401e683a7a97e9bc68cda26206c.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CBF",
+  "local-plan-boundary": "E60000144",
+  "local-planning-authorities": [
+    "E60000144"
+  ]
+}

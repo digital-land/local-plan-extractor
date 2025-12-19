@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:CMD",
     "organisation-name": "London Borough of Camden",
+    "reference": "LP-CMD-2016",
+    "documentation-url": "https://www.camden.gov.uk/localplan",
+    "document-url": "https://www.camden.gov.uk/documents/20142/4820180/Local+Plan.pdf/ce6e992a-91f9-3a60-720c-70290fab78a6",
+    "name": "Camden Local Plan 2016-2031",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.camden.gov.uk/documents/20142/4820180/Local+Plan.pdf/ce6e992a-91f9-3a60-720c-70290fab78a6",
+        "documentation-url": "https://www.camden.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Camden Local Plan 2016-2031",
+        "reference": "LP-2016",
+        "document-status": "adopted",
+        "endpoint": "5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CMD",
+    "organisation-name": "London Borough of Camden",
     "reference": "LP-CMD-2017",
     "documentation-url": "https://www.camden.gov.uk/localplan",
     "document-url": "",

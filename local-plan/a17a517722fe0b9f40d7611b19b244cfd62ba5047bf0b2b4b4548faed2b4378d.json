@@ -1,0 +1,43 @@
+{
+  "name": "Local Plan 2015-2030",
+  "organisation-name": "Cheshire West and Chester Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "name": "Local Plan (Part One) Strategic Policies",
+      "organisation-name": "Cheshire West and Chester Council",
+      "period-start-date": 2010,
+      "period-end-date": 2030,
+      "housing-numbers": [
+        {
+          "organisation-name": "Cheshire West and Chester Council",
+          "required-housing": 22000,
+          "allocated-housing": "",
+          "windfall-housing": 1950,
+          "committed-housing": 13562,
+          "broad-locations-housing": 2039,
+          "annual-required-housing": 1100,
+          "pages": "3, 5, 23, 214-215, 220",
+          "notes": "Policy STRAT 2 sets target of 'at least 22,000 new dwellings' for 2010-2030. Housing trajectory shows commitments (13,562), small site allowance/windfall (1,950), strategic sites (2,039). Annual requirement calculated as 1,100 per annum.",
+          "organisation": "local-authority:CHW"
+        }
+      ],
+      "confidence": "high",
+      "authority": "local-authority:CHW",
+      "pdf_file": "collection/document/a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d.pdf",
+      "pages_analysed": 32,
+      "organisation": "local-authority:CHW",
+      "local-plan-boundary": "E60000016",
+      "local-planning-authorities": [
+        "E60000016"
+      ]
+    }
+  ],
+  "confidence": "medium",
+  "authority": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d",
+  "pdf_file": "collection/document/a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": null
+}

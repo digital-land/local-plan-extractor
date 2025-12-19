@@ -65,23 +65,23 @@
     "organisation-name": "Charnwood Borough Council",
     "reference": "LP-CHA-2015",
     "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-    "document-url": "",
+    "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
     "name": "Charnwood Local Plan 2011 to 2028 Core Strategy",
     "status": "adopted",
     "year": 2015,
     "period-start-date": 2011,
     "period-end-date": 2028,
-    "adoption-date": "2020-02-13",
+    "adoption-date": "2015-11-17",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/local_plan_review_n_november_2020/Local%20Plan%20Review%20Final.pdf",
+        "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
         "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-        "document-type": "local-plan-review",
-        "name": "Local Plan Review – November 2020",
-        "reference": "LPR-2020",
+        "document-type": "core-strategy",
+        "name": "Charnwood Local Plan 2011 - 2028 Core Strategy",
+        "reference": "CS-2015",
         "document-status": "adopted",
-        "endpoint": "8800b1322f33cbbd371fb39adca999bdc5fd7e326889abfb45531b15b046dfa6"
+        "endpoint": "fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147"
       }
     ]
   },

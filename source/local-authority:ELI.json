@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "organisation": "local-authority:ELI",
+    "organisation-name": "East Lindsey District Council",
+    "reference": "LP-ELI-2018",
+    "documentation-url": "https://www.e-lindsey.gov.uk/planning-policy",
+    "document-url": "https://www.e-lindsey.gov.uk/media/9791/Core-Strategy/pdf/Final_Version_of_Core_Strategy_2018.pdf?m=1546595473230",
+    "name": "Core Strategy 2018",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2012,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.e-lindsey.gov.uk/media/9791/Core-Strategy/pdf/Final_Version_of_Core_Strategy_2018.pdf?m=1546595473230",
+        "documentation-url": "https://www.e-lindsey.gov.uk/planning-policy",
+        "document-type": "core-strategy",
+        "name": "Core Strategy 2018",
+        "reference": "CS-2018",
+        "document-status": "adopted",
+        "endpoint": "3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260"
+      }
+    ]
+  }
+]

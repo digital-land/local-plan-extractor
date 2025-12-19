@@ -1,0 +1,29 @@
+{
+  "name": "Core Strategy",
+  "organisation-name": "Enfield Council",
+  "period-start-date": 2010,
+  "period-end-date": 2025,
+  "housing-numbers": [
+    {
+      "organisation-name": "Enfield Council",
+      "required-housing": 11000,
+      "allocated-housing": "",
+      "windfall-housing": 274,
+      "committed-housing": "",
+      "broad-locations-housing": 8500,
+      "annual-required-housing": 560,
+      "pages": "37, 39, 40",
+      "notes": "Plan aims to exceed London Plan target of 3,950 homes 2007/8-2016/17. For 15-year period 2010/11-2024/25, planning for approximately 11,000 homes. Major growth focused in strategic areas: Central Leeside (up to 5,000), North Circular (up to 2,000), Enfield Town (500), North East Enfield (1,000). Small sites allowance of 274 per year for windfall.",
+      "organisation": "local-authority:ENF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "32506f045d4de27c03c031341692166747ca4a5346b1747f61ef5a8570a22a7b",
+  "pdf_file": "collection/document/32506f045d4de27c03c031341692166747ca4a5346b1747f61ef5a8570a22a7b.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ENF",
+  "local-plan-boundary": "E09000010",
+  "local-planning-authorities": [
+    "E09000010"
+  ]
+}
