@@ -1,13 +1,38 @@
+Processing single PDF file: 8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf
+
+
+Processing: collection/document/8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf
+  Scanning 303 pages for relevant content...
+  Selected top 32 pages (scores: [15, 15, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10])
+  Extracted PDF size: 2,009,901 bytes
+  Sending 32 pages to Claude API...
+  ✓ Extraction complete
 {
-  "name": "Local Plan 2018-2033",
+  "name": "Local Plan 2033",
   "organisation-name": "London Borough of Hackney",
-  "period-start-date": 2018,
+  "period-start-date": 2016,
   "period-end-date": 2033,
-  "housing-numbers": [],
-  "confidence": "low",
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Hackney",
+      "required-housing": 26250,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1750,
+      "pages": "12, 89-90",
+      "notes": "Housing need is 1,750 homes per year (26,250 total). Capacity identified for 1,330 homes per year between 2019-2029. Growth distributed: 35% Shoreditch (~7,000 homes), 15% Hackney Central (~3,000), 10% Dalston (~2,000), 15% Woodberry Down/Stamford Hill (~3,000). Almost half delivery expected from small sites.",
+      "organisation": "local-authority:HCK"
+    }
+  ],
+  "confidence": "high",
   "authority": "8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164",
   "pdf_file": "collection/document/8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf",
-  "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "pages_analysed": 32,
+  "organisation": "local-authority:HCK",
+  "local-plan-boundary": "E60000190",
+  "local-planning-authorities": [
+    "E60000190"
+  ]
 }
