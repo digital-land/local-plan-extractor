@@ -331,7 +331,8 @@ class LocalPlanCSVGenerator:
                 'dataset': 'local-plan',
                 'period-start-date': self._format_date(plan_data.get('period-start-date', '')),
                 'period-end-date': self._format_date(plan_data.get('period-end-date', '')),
-                'local-planning-authorities': local_planning_authorities,
+                'organisations': local_planning_authorities,
+                'local-planning-authorities': '',
                 'mineral-planning-authorities': plan_data.get('mineral-planning-authorities', ''),
                 'waste-planning-authorities': plan_data.get('waste-planning-authorities', ''),
                 'local-plan-process': plan_data.get('local-plan-process', plan_data.get('status', '')),
@@ -445,7 +446,7 @@ class LocalPlanCSVGenerator:
                     housing_entry = {
                         'reference': housing_reference,
                         'local-plan': plan_reference,
-                        'local-planning-authority': num_entry.get('organisation-name', lpa),
+                        'local-planning-authority': '',
                         'required-housing': num_entry.get('required-housing', ''),
                         'committed-housing': num_entry.get('committed-housing', ''),
                         'allocated-housing': num_entry.get('allocated-housing', ''),
@@ -486,7 +487,7 @@ class LocalPlanCSVGenerator:
         """Write all three CSVs to output directory."""
         self._write_csv('local-plan.csv', self.local_plans, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
-            'local-planning-authorities', 'mineral-planning-authorities',
+            'organisations', 'local-planning-authorities', 'mineral-planning-authorities',
             'waste-planning-authorities', 'local-plan-process',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
