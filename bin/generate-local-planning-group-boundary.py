@@ -123,7 +123,7 @@ def main():
     with open(group_csv, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            group_ref = row["reference"]
+            group_reference = row["reference"]
             group_name = row["name"]
             organisations = row["organisations"]
 
@@ -180,7 +180,7 @@ def main():
 
             boundaries.append(
                 {
-                    "organisation": f"local-planning-group:{lpa_reference}",
+                    "organisation": f"local-planning-group:{group_reference}",
                     "reference": lpa_reference,
                     "name": group_name,
                     "organisations": organisations,
@@ -193,9 +193,9 @@ def main():
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with open(output_csv, "w", newline="") as f:
         fieldnames = [
-            "organisation",
             "reference",
             "name",
+            "organisation",
             "organisations",
             "local-planning-authorities",
             "geometry",
