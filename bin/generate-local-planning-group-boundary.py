@@ -10,23 +10,28 @@ import re
 csv.field_size_limit(sys.maxsize)
 
 
-def load_organisation_to_lpa_mapping(org_csv_path):
-    """Load mapping from organisation CURIE to local-planning-authority code."""
-    mapping = {}
+def load_organisation_mappings(org_csv_path):
+    """Load mappings from organisation CURIE to LPA and LAD codes."""
+    lpa_mapping = {}
+    lad_mapping = {}
     with open(org_csv_path, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
             org = row.get("organisation", "").strip()
             lpa = row.get("local-planning-authority", "").strip()
-            if org and lpa:
-                mapping[org] = lpa
-    return mapping
+            lad = row.get("local-authority-district", "").strip()
+            if org:
+                if lpa:
+                    lpa_mapping[org] = lpa
+                if lad:
+                    lad_mapping[org] = lad
+    return lpa_mapping, lad_mapping
 
 
-def load_lpa_geometries(lpa_csv_path):
-    """Load geometries for each local-planning-authority by reference code."""
+def load_geometries_from_csv(csv_path):
+    """Load geometries by reference code from a CSV file."""
     geometries = {}
-    with open(lpa_csv_path, "r") as f:
+    with open(csv_path, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
             ref = row.get("reference", "").strip()
@@ -98,14 +103,18 @@ def main():
     group_csv = Path("dataset/local-planning-group.csv")
     org_csv = Path("var/cache/organisation.csv")
     lpa_csv = Path("var/cache/local-planning-authority.csv")
+    lad_csv = Path("var/cache/local-authority-district.csv")
     output_csv = Path("dataset/local-planning-group-boundary.csv")
 
     # Load mappings
-    print("Loading organisation to LPA mapping...", file=sys.stderr)
-    org_to_lpa = load_organisation_to_lpa_mapping(org_csv)
+    print("Loading organisation mappings...", file=sys.stderr)
+    org_to_lpa, org_to_lad = load_organisation_mappings(org_csv)
 
     print("Loading LPA geometries...", file=sys.stderr)
-    lpa_geometries = load_lpa_geometries(lpa_csv)
+    lpa_geometries = load_geometries_from_csv(lpa_csv)
+
+    print("Loading LAD geometries...", file=sys.stderr)
+    lad_geometries = load_geometries_from_csv(lad_csv)
 
     # Process groups
     print("Processing local planning groups...", file=sys.stderr)
@@ -126,6 +135,7 @@ def main():
             geometries = []
 
             for org in org_list:
+                # Try LPA code first
                 if org in org_to_lpa:
                     lpa_code = org_to_lpa[org]
                     lpa_codes.append(lpa_code)
@@ -138,17 +148,32 @@ def main():
                             f"Warning: No geometry found for {org} (LPA: {lpa_code})",
                             file=sys.stderr,
                         )
+                # Fallback to LAD code for dissolved councils
+                elif org in org_to_lad:
+                    lad_code = org_to_lad[org]
+                    lpa_codes.append(lad_code)
+
+                    # Get geometry from LAD
+                    if lad_code in lad_geometries:
+                        geometries.append(lad_geometries[lad_code])
+                        print(
+                            f"Info: Using LAD boundary for {org} (LAD: {lad_code})",
+                            file=sys.stderr,
+                        )
+                    else:
+                        print(
+                            f"Warning: No LAD geometry found for {org} (LAD: {lad_code})",
+                            file=sys.stderr,
+                        )
                 else:
                     print(
-                        f"Warning: No LPA code found for organisation {org}",
+                        f"Warning: No LPA or LAD code found for organisation {org}",
                         file=sys.stderr,
                     )
 
             # Sort LPA codes for reference
             sorted_lpa_codes = sorted(lpa_codes)
-            lpa_reference = "-".join(
-                [code for code in sorted_lpa_codes]
-            )
+            lpa_reference = "-".join([code for code in sorted_lpa_codes])
 
             # Combine geometries
             combined_geometry = combine_geometries(geometries)
