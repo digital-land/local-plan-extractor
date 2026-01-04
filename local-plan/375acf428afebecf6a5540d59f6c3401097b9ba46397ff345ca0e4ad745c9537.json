@@ -21,6 +21,10 @@
   "authority": "375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537",
   "pdf_file": "collection/document/375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HAV",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000212",
+  "local-planning-authorities": [
+    "E60000212"
+  ]
 }

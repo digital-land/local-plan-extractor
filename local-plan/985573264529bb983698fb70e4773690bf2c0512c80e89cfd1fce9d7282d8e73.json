@@ -21,6 +21,10 @@
   "authority": "985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73",
   "pdf_file": "collection/document/985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:LUT",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000145",
+  "local-planning-authorities": [
+    "E60000145"
+  ]
 }

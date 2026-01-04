@@ -21,6 +21,10 @@
   "authority": "cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361",
   "pdf_file": "collection/document/cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HIG",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000082",
+  "local-planning-authorities": [
+    "E60000082"
+  ]
 }

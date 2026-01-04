@@ -21,6 +21,10 @@
   "authority": "647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943",
   "pdf_file": "collection/document/647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:GLO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000311",
+  "local-planning-authorities": [
+    "E60000311"
+  ]
 }

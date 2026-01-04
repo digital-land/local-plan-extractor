@@ -21,6 +21,10 @@
   "authority": "5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3",
   "pdf_file": "collection/document/5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SCA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000153",
+  "local-planning-authorities": [
+    "E60000153"
+  ]
 }

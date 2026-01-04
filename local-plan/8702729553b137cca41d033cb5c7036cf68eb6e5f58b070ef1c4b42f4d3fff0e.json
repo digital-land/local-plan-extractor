@@ -21,6 +21,10 @@
   "authority": "8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e",
   "pdf_file": "collection/document/8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:GOS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000246",
+  "local-planning-authorities": [
+    "E60000246"
+  ]
 }

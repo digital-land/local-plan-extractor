@@ -21,6 +21,10 @@
   "authority": "050655efd1f37aa4fb5d9e6d96e2227aefc7d70ce4c786d7fe5ddc4318bf6af0",
   "pdf_file": "collection/document/050655efd1f37aa4fb5d9e6d96e2227aefc7d70ce4c786d7fe5ddc4318bf6af0.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:LIC",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000094",
+  "local-planning-authorities": [
+    "E60000094"
+  ]
 }

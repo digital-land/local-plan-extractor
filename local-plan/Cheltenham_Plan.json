@@ -24,5 +24,9 @@
   "confidence": "high",
   "authority": "Cheltenham_Plan",
   "pdf_file": "document/Cheltenham_Plan.pdf",
-  "pages_analysed": 32
+  "pages_analysed": 32,
+  "local-plan-boundary": "E60000308",
+  "local-planning-authorities": [
+    "E60000308"
+  ]
 }

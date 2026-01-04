@@ -21,6 +21,10 @@
   "authority": "f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1",
   "pdf_file": "collection/document/f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:BAS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000288",
+  "local-planning-authorities": [
+    "E60000288"
+  ]
 }

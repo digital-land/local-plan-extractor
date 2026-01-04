@@ -129,6 +129,10 @@
   "authority": "c1bf05ba5b426b3308eaed23cc16361f3718cdbe02389c3f7a075028b9ed5cce",
   "pdf_file": "collection/document/c1bf05ba5b426b3308eaed23cc16361f3718cdbe02389c3f7a075028b9ed5cce.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:TRF",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000033",
+  "local-planning-authorities": [
+    "E60000033"
+  ]
 }

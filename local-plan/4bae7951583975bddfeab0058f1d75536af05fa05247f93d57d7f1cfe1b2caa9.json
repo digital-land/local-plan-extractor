@@ -21,6 +21,10 @@
   "authority": "4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9",
   "pdf_file": "collection/document/4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:WND",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000200",
+  "local-planning-authorities": [
+    "E60000200"
+  ]
 }

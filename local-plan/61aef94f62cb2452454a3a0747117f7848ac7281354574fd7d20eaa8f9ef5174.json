@@ -21,6 +21,10 @@
   "authority": "61aef94f62cb2452454a3a0747117f7848ac7281354574fd7d20eaa8f9ef5174",
   "pdf_file": "collection/document/61aef94f62cb2452454a3a0747117f7848ac7281354574fd7d20eaa8f9ef5174.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:NSM",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000294",
+  "local-planning-authorities": [
+    "E60000294"
+  ]
 }

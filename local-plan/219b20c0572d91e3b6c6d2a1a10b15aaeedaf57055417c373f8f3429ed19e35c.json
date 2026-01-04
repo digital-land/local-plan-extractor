@@ -21,6 +21,10 @@
   "authority": "219b20c0572d91e3b6c6d2a1a10b15aaeedaf57055417c373f8f3429ed19e35c",
   "pdf_file": "collection/document/219b20c0572d91e3b6c6d2a1a10b15aaeedaf57055417c373f8f3429ed19e35c.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:TUN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000264",
+  "local-planning-authorities": [
+    "E60000264"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e",
   "pdf_file": "collection/document/27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HPL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000003",
+  "local-planning-authorities": [
+    "E60000003"
+  ]
 }

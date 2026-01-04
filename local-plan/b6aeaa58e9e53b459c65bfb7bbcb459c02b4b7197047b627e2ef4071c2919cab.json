@@ -21,6 +21,10 @@
   "authority": "b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab",
   "pdf_file": "collection/document/b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:ROC",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000163",
+  "local-planning-authorities": [
+    "E60000163"
+  ]
 }

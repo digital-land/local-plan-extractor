@@ -21,6 +21,10 @@
   "authority": "632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74",
   "pdf_file": "collection/document/632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:BUN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000035",
+  "local-planning-authorities": [
+    "E60000035"
+  ]
 }

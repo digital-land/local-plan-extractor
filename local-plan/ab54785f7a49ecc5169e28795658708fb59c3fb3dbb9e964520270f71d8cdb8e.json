@@ -21,6 +21,10 @@
   "authority": "ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e",
   "pdf_file": "collection/document/ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:MDB",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000004",
+  "local-planning-authorities": [
+    "E60000004"
+  ]
 }

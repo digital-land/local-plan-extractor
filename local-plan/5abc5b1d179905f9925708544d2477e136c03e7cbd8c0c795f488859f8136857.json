@@ -21,6 +21,10 @@
   "authority": "5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857",
   "pdf_file": "collection/document/5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:THR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000148",
+  "local-planning-authorities": [
+    "E60000148"
+  ]
 }

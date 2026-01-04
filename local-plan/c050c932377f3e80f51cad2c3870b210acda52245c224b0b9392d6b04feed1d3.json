@@ -21,6 +21,10 @@
   "authority": "c050c932377f3e80f51cad2c3870b210acda52245c224b0b9392d6b04feed1d3",
   "pdf_file": "collection/document/c050c932377f3e80f51cad2c3870b210acda52245c224b0b9392d6b04feed1d3.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:EHA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000243",
+  "local-planning-authorities": [
+    "E60000243"
+  ]
 }

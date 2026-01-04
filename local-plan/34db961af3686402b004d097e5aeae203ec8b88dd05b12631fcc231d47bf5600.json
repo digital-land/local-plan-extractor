@@ -21,6 +21,10 @@
   "authority": "34db961af3686402b004d097e5aeae203ec8b88dd05b12631fcc231d47bf5600",
   "pdf_file": "collection/document/34db961af3686402b004d097e5aeae203ec8b88dd05b12631fcc231d47bf5600.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:LCE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000074",
+  "local-planning-authorities": [
+    "E60000074"
+  ]
 }

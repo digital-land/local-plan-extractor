@@ -1,5 +1,5 @@
 {
-  "name": "Gloucester City Plan 2011 – 2031",
+  "name": "Gloucester City Plan 2011 \u2013 2031",
   "organisation-name": "Gloucester City Council",
   "organisation": "local-authority:GLO",
   "organisations": [
@@ -24,5 +24,9 @@
   "confidence": "high",
   "authority": "gloucester-city-plan-low-res",
   "pdf_file": "document/gloucester-city-plan-low-res.pdf",
-  "pages_analysed": 32
+  "pages_analysed": 32,
+  "local-plan-boundary": "E60000311",
+  "local-planning-authorities": [
+    "E60000311"
+  ]
 }

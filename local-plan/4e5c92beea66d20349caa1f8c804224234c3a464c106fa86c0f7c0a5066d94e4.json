@@ -21,6 +21,10 @@
   "authority": "4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4",
   "pdf_file": "collection/document/4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:WOI",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000280",
+  "local-planning-authorities": [
+    "E60000280"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
   "pdf_file": "collection/document/58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SUR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000277",
+  "local-planning-authorities": [
+    "E60000277"
+  ]
 }

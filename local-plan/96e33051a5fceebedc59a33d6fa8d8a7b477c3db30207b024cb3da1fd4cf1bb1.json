@@ -21,6 +21,10 @@
   "authority": "96e33051a5fceebedc59a33d6fa8d8a7b477c3db30207b024cb3da1fd4cf1bb1",
   "pdf_file": "collection/document/96e33051a5fceebedc59a33d6fa8d8a7b477c3db30207b024cb3da1fd4cf1bb1.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:BRA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000155",
+  "local-planning-authorities": [
+    "E60000155"
+  ]
 }

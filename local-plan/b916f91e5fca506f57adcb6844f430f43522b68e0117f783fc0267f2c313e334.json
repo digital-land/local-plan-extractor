@@ -21,6 +21,10 @@
   "authority": "b916f91e5fca506f57adcb6844f430f43522b68e0117f783fc0267f2c313e334",
   "pdf_file": "collection/document/b916f91e5fca506f57adcb6844f430f43522b68e0117f783fc0267f2c313e334.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HAL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000017",
+  "local-planning-authorities": [
+    "E60000017"
+  ]
 }

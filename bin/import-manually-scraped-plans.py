@@ -44,6 +44,9 @@ local_plan_extractor = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(local_plan_extractor)
 LocalPlanExtractor = local_plan_extractor.LocalPlanHousingExtractor
 
+# Import organisation matcher for geographic metadata
+from organisation_matcher import OrganisationMatcher
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
@@ -68,6 +71,10 @@ class ManualPlanImporter:
         if not api_key:
             raise ValueError("ANTHROPIC_API_KEY environment variable not set")
         self.extractor = LocalPlanExtractor(api_key)
+
+        # Initialize organisation matcher for geographic metadata
+        org_csv = Path(__file__).parent.parent / 'var' / 'cache' / 'organisation.csv'
+        self.org_matcher = OrganisationMatcher(str(org_csv))
 
     def load_local_document(self, endpoint: str) -> Optional[Tuple[str, bytes]]:
         """Load a document from local collection by endpoint hash."""
@@ -286,17 +293,29 @@ class ManualPlanImporter:
             return False
 
     def create_local_plan_json(self, row: pd.Series, endpoint: str, housing_data: Optional[Dict]) -> bool:
-        """Create the local-plan JSON file."""
+        """Create the local-plan JSON file with geographic metadata."""
         local_plan_file = self.local_plan_dir / f"{endpoint}.json"
 
         try:
             housing_numbers = []
             if housing_data:
-                housing_numbers = [housing_data]
+                # Ensure housing data is not nested - flatten if needed
+                housing_entry = housing_data
+                if 'housing-numbers' in housing_data and isinstance(housing_data['housing-numbers'], list):
+                    # Extract from nested structure
+                    if len(housing_data['housing-numbers']) > 0:
+                        housing_entry = housing_data['housing-numbers'][0]
+                housing_numbers = [housing_entry]
+
+            org_name = row['organisation-label']
+
+            # Get geographic metadata from organisation matcher
+            lpa_code = self.org_matcher.get_local_planning_authority(org_name)
+            matched_org_code = self.org_matcher.match(org_name)
 
             data = {
                 "name": self._generate_plan_name(row),
-                "organisation-name": row['organisation-label'],
+                "organisation-name": org_name,
                 "period-start-date": int(row['period-start-date']),
                 "period-end-date": int(row['period-end-date']),
                 "housing-numbers": housing_numbers,
@@ -304,15 +323,22 @@ class ManualPlanImporter:
                 "authority": endpoint,
                 "pdf_file": f"collection/document/{endpoint}.pdf",
                 "pages_analysed": 0,
-                "organisation": "",
+                "organisation": matched_org_code or "",
                 "adoption-date": None
             }
+
+            # Add geographic metadata if available
+            if lpa_code:
+                data["local-plan-boundary"] = lpa_code
+                data["local-planning-authorities"] = [lpa_code]
 
             with open(local_plan_file, 'w', encoding='utf-8') as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
 
             if self.verbose:
                 logger.info(f"  Created {local_plan_file.name}")
+                if lpa_code:
+                    logger.info(f"  Added geographic metadata: {lpa_code}")
             return True
         except Exception as e:
             logger.error(f"  Error creating local-plan JSON: {e}")

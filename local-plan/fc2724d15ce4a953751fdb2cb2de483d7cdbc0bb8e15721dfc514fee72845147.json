@@ -21,6 +21,10 @@
   "authority": "fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147",
   "pdf_file": "collection/document/fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:CHA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000086",
+  "local-planning-authorities": [
+    "E60000086"
+  ]
 }

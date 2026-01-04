@@ -21,6 +21,10 @@
   "authority": "6a59fc39e4f92cffdd8851d0b94d527b08b785dd4091f58002d5a27a8c6f326e",
   "pdf_file": "collection/document/6a59fc39e4f92cffdd8851d0b94d527b08b785dd4091f58002d5a27a8c6f326e.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:PEN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000040",
+  "local-planning-authorities": [
+    "E60000040"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc",
   "pdf_file": "collection/document/f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HNS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000214",
+  "local-planning-authorities": [
+    "E60000214"
+  ]
 }

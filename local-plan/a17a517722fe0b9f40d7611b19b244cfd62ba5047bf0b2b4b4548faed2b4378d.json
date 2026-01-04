@@ -21,6 +21,10 @@
   "authority": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d",
   "pdf_file": "collection/document/a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:CHW",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000016",
+  "local-planning-authorities": [
+    "E60000016"
+  ]
 }

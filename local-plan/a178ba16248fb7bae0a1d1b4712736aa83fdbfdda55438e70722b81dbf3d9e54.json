@@ -21,6 +21,10 @@
   "authority": "a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54",
   "pdf_file": "collection/document/a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SEV",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000260",
+  "local-planning-authorities": [
+    "E60000260"
+  ]
 }

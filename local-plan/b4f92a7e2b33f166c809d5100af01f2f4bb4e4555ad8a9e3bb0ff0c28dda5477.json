@@ -21,6 +21,10 @@
   "authority": "b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477",
   "pdf_file": "collection/document/b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:HRY",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000192",
+  "local-planning-authorities": [
+    "E60000192"
+  ]
 }

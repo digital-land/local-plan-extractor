@@ -21,6 +21,10 @@
   "authority": "b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5",
   "pdf_file": "collection/document/b333cc5c428a8ebb81d47c3296a97809ab49618fff57f9877adcb3c1b0b114d5.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SND",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000012",
+  "local-planning-authorities": [
+    "E60000012"
+  ]
 }

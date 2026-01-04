@@ -21,6 +21,10 @@
   "authority": "23c26abffefe1ced3f23bcf6c43fdd0685d5fc6a59ba6928d9b6420922fb54b2",
   "pdf_file": "collection/document/23c26abffefe1ced3f23bcf6c43fdd0685d5fc6a59ba6928d9b6420922fb54b2.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SHR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000114",
+  "local-planning-authorities": [
+    "E60000114"
+  ]
 }

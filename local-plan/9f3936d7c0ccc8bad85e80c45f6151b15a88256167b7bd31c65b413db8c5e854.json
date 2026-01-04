@@ -21,6 +21,10 @@
   "authority": "9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854",
   "pdf_file": "collection/document/9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:NUN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000126",
+  "local-planning-authorities": [
+    "E60000126"
+  ]
 }

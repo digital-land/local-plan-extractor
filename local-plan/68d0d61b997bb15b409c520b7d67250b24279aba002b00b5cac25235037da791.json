@@ -8,6 +8,10 @@
   "authority": "68d0d61b997bb15b409c520b7d67250b24279aba002b00b5cac25235037da791",
   "pdf_file": "collection/document/68d0d61b997bb15b409c520b7d67250b24279aba002b00b5cac25235037da791.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:NNO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000180",
+  "local-planning-authorities": [
+    "E60000180"
+  ]
 }

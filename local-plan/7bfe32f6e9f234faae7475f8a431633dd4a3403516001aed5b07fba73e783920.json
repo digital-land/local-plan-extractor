@@ -21,6 +21,10 @@
   "authority": "7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920",
   "pdf_file": "collection/document/7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:RED",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000139",
+  "local-planning-authorities": [
+    "E60000139"
+  ]
 }

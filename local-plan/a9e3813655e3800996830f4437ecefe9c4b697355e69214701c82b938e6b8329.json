@@ -21,6 +21,10 @@
   "authority": "a9e3813655e3800996830f4437ecefe9c4b697355e69214701c82b938e6b8329",
   "pdf_file": "collection/document/a9e3813655e3800996830f4437ecefe9c4b697355e69214701c82b938e6b8329.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:TAN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000278",
+  "local-planning-authorities": [
+    "E60000278"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df",
   "pdf_file": "collection/document/aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SGC",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000296",
+  "local-planning-authorities": [
+    "E60000296"
+  ]
 }

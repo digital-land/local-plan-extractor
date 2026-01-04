@@ -21,6 +21,10 @@
   "authority": "caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500",
   "pdf_file": "collection/document/caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:BRD",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000068",
+  "local-planning-authorities": [
+    "E60000068"
+  ]
 }

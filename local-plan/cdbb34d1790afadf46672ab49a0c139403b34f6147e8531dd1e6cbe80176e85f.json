@@ -21,6 +21,10 @@
   "authority": "cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f",
   "pdf_file": "collection/document/cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:DAL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000002",
+  "local-planning-authorities": [
+    "E60000002"
+  ]
 }

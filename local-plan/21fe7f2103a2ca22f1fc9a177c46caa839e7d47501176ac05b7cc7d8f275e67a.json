@@ -21,6 +21,10 @@
   "authority": "21fe7f2103a2ca22f1fc9a177c46caa839e7d47501176ac05b7cc7d8f275e67a",
   "pdf_file": "collection/document/21fe7f2103a2ca22f1fc9a177c46caa839e7d47501176ac05b7cc7d8f275e67a.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:STY",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000011",
+  "local-planning-authorities": [
+    "E60000011"
+  ]
 }

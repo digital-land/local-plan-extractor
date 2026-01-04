@@ -21,6 +21,10 @@
   "authority": "3cf1903ea21469e062d9152d4d805e1afab5d53c42595fad297cf14ad680ccb8",
   "pdf_file": "collection/document/3cf1903ea21469e062d9152d4d805e1afab5d53c42595fad297cf14ad680ccb8.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:WIL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000299",
+  "local-planning-authorities": [
+    "E60000299"
+  ]
 }

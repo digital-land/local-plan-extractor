@@ -57,6 +57,10 @@
   "authority": "c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294",
   "pdf_file": "collection/document/c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:TEW",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000313",
+  "local-planning-authorities": [
+    "E60000313"
+  ]
 }

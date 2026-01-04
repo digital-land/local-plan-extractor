@@ -21,6 +21,10 @@
   "authority": "8c31b96ae5eb7ad28e796f3e10c447e4f2d738ef4d6df491c72f037374ebecdf",
   "pdf_file": "collection/document/8c31b96ae5eb7ad28e796f3e10c447e4f2d738ef4d6df491c72f037374ebecdf.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SAL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000171",
+  "local-planning-authorities": [
+    "E60000171"
+  ]
 }

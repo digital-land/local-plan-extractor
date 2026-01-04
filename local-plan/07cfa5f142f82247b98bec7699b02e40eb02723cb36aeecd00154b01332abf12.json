@@ -21,6 +21,10 @@
   "authority": "07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12",
   "pdf_file": "collection/document/07cfa5f142f82247b98bec7699b02e40eb02723cb36aeecd00154b01332abf12.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:DER",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000073",
+  "local-planning-authorities": [
+    "E60000073"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "6824b61b4da4476b8405ab649459f2fbcbb02a3db09ef5e3b0ec43f2c3fbccd4",
   "pdf_file": "collection/document/6824b61b4da4476b8405ab649459f2fbcbb02a3db09ef5e3b0ec43f2c3fbccd4.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:POR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000226",
+  "local-planning-authorities": [
+    "E60000226"
+  ]
 }

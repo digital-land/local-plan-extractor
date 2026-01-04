@@ -21,6 +21,10 @@
   "authority": "52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781",
   "pdf_file": "collection/document/52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:WIN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000252",
+  "local-planning-authorities": [
+    "E60000252"
+  ]
 }

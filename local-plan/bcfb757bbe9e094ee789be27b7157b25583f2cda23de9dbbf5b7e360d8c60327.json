@@ -21,6 +21,10 @@
   "authority": "bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327",
   "pdf_file": "collection/document/bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:MAL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000162",
+  "local-planning-authorities": [
+    "E60000162"
+  ]
 }

@@ -21,6 +21,10 @@
   "authority": "e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4",
   "pdf_file": "collection/document/e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:EDE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000300",
+  "local-planning-authorities": [
+    "E60000300"
+  ]
 }

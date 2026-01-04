@@ -21,6 +21,10 @@
   "authority": "96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776",
   "pdf_file": "collection/document/96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:SDE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000084",
+  "local-planning-authorities": [
+    "E60000084"
+  ]
 }

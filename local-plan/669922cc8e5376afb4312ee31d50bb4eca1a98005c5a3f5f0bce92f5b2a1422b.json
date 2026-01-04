@@ -21,6 +21,10 @@
   "authority": "669922cc8e5376afb4312ee31d50bb4eca1a98005c5a3f5f0bce92f5b2a1422b",
   "pdf_file": "collection/document/669922cc8e5376afb4312ee31d50bb4eca1a98005c5a3f5f0bce92f5b2a1422b.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:CHS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000079",
+  "local-planning-authorities": [
+    "E60000079"
+  ]
 }

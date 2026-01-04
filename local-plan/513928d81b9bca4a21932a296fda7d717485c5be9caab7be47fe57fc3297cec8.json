@@ -21,6 +21,10 @@
   "authority": "513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8",
   "pdf_file": "collection/document/513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:EPS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000271",
+  "local-planning-authorities": [
+    "E60000271"
+  ]
 }

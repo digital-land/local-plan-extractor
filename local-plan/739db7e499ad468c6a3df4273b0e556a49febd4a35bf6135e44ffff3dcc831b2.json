@@ -21,6 +21,10 @@
   "authority": "739db7e499ad468c6a3df4273b0e556a49febd4a35bf6135e44ffff3dcc831b2",
   "pdf_file": "collection/document/739db7e499ad468c6a3df4273b0e556a49febd4a35bf6135e44ffff3dcc831b2.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:EST",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000118",
+  "local-planning-authorities": [
+    "E60000118"
+  ]
 }

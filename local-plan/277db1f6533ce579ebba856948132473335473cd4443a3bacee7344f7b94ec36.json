@@ -21,6 +21,10 @@
   "authority": "277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36",
   "pdf_file": "collection/document/277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:WEA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000241",
+  "local-planning-authorities": [
+    "E60000241"
+  ]
 }

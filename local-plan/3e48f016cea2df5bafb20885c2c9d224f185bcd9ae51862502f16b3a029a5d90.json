@@ -21,6 +21,10 @@
   "authority": "3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90",
   "pdf_file": "collection/document/3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90.pdf",
   "pages_analysed": 0,
-  "organisation": "",
-  "adoption-date": null
+  "organisation": "local-authority:CRW",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000284",
+  "local-planning-authorities": [
+    "E60000284"
+  ]
 }
