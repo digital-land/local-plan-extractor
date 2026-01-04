@@ -5,33 +5,16 @@
   "period-end-date": 2039,
   "housing-numbers": [
     {
-      "name": "Borough Plan Review",
       "organisation-name": "Nuneaton and Bedworth Borough Council",
-      "period-start-date": 2021,
-      "period-end-date": 2039,
-      "housing-numbers": [
-        {
-          "organisation-name": "Nuneaton and Bedworth Borough Council",
-          "required-housing": 9810,
-          "allocated-housing": 4616,
-          "windfall-housing": 504,
-          "committed-housing": 3100,
-          "broad-locations-housing": "",
-          "annual-required-housing": 545,
-          "pages": "18, 21",
-          "notes": "Total housing supply is 10,963 dwellings providing buffer above minimum requirement. Strategic allocations total 4,403 dwellings, non-strategic allocations 674 dwellings. Net completions 2021-2024: 2,761 dwellings.",
-          "organisation": "local-authority:NUN"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:NUN",
-      "pdf_file": "collection/document/9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:NUN",
-      "local-plan-boundary": "E60000126",
-      "local-planning-authorities": [
-        "E60000126"
-      ]
+      "required-housing": 9810,
+      "allocated-housing": 4616,
+      "windfall-housing": 504,
+      "committed-housing": 3100,
+      "broad-locations-housing": "",
+      "annual-required-housing": 545,
+      "pages": "18, 21",
+      "notes": "Total housing supply is 10,963 dwellings providing buffer above minimum requirement. Strategic allocations total 4,403 dwellings, non-strategic allocations 674 dwellings. Net completions 2021-2024: 2,761 dwellings.",
+      "organisation": "local-authority:NUN"
     }
   ],
   "confidence": "medium",

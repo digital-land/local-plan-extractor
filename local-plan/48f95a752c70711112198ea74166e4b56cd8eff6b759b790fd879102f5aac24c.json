@@ -5,28 +5,15 @@
   "period-end-date": 2036,
   "housing-numbers": [
     {
-      "name": "Local Plan for the Broads",
       "organisation-name": "Broads Authority",
-      "period-start-date": 2015,
-      "period-end-date": 2036,
-      "housing-numbers": [
-        {
-          "organisation-name": "Broads Authority",
-          "required-housing": 286,
-          "allocated-housing": 130,
-          "windfall-housing": "",
-          "committed-housing": 118,
-          "broad-locations-housing": "",
-          "annual-required-housing": 13.6,
-          "pages": "101-105, 240",
-          "notes": "The 286 total includes breakdown across 3 Housing Market Areas: Central Norfolk HMA (163), Waveney HMA (57), Great Yarmouth Borough HMA (66). Authority will allocate 146 net new dwellings but work with Great Yarmouth Borough Council to address remaining 38 dwellings. Allocated housing of 130 comes from specific site allocations (HOV3: 6, NOR1: 120, STO1: 4). Committed housing of 118 includes extant planning permissions and completions since 2015.",
-          "organisation": ""
-        }
-      ],
-      "confidence": "high",
-      "authority": "national-park-authority:Q4972284",
-      "pdf_file": "collection/document/48f95a752c70711112198ea74166e4b56cd8eff6b759b790fd879102f5aac24c.pdf",
-      "pages_analysed": 32,
+      "required-housing": 286,
+      "allocated-housing": 130,
+      "windfall-housing": "",
+      "committed-housing": 118,
+      "broad-locations-housing": "",
+      "annual-required-housing": 13.6,
+      "pages": "101-105, 240",
+      "notes": "The 286 total includes breakdown across 3 Housing Market Areas: Central Norfolk HMA (163), Waveney HMA (57), Great Yarmouth Borough HMA (66). Authority will allocate 146 net new dwellings but work with Great Yarmouth Borough Council to address remaining 38 dwellings. Allocated housing of 130 comes from specific site allocations (HOV3: 6, NOR1: 120, STO1: 4). Committed housing of 118 includes extant planning permissions and completions since 2015.",
       "organisation": ""
     }
   ],

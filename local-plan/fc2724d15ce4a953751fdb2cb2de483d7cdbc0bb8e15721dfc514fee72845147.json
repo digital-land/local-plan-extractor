@@ -5,33 +5,16 @@
   "period-end-date": 2028,
   "housing-numbers": [
     {
-      "name": "Charnwood Local Plan 2011 - 2028 Core Strategy",
       "organisation-name": "Charnwood Borough Council",
-      "period-start-date": 2011,
-      "period-end-date": 2028,
-      "housing-numbers": [
-        {
-          "organisation-name": "Charnwood Borough Council",
-          "required-housing": 13940,
-          "allocated-housing": 7035,
-          "windfall-housing": "",
-          "committed-housing": 6599,
-          "broad-locations-housing": "",
-          "annual-required-housing": 820,
-          "pages": "19, 29, 135",
-          "notes": "Total requirement is 13,940 homes (820 per year × 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
-          "organisation": "local-authority:CHA"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:CHA",
-      "pdf_file": "collection/document/fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:CHA",
-      "local-plan-boundary": "E60000086",
-      "local-planning-authorities": [
-        "E60000086"
-      ]
+      "required-housing": 13940,
+      "allocated-housing": 7035,
+      "windfall-housing": "",
+      "committed-housing": 6599,
+      "broad-locations-housing": "",
+      "annual-required-housing": 820,
+      "pages": "19, 29, 135",
+      "notes": "Total requirement is 13,940 homes (820 per year \u00d7 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
+      "organisation": "local-authority:CHA"
     }
   ],
   "confidence": "medium",

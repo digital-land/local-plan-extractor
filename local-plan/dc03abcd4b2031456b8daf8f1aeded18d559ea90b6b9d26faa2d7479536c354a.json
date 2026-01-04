@@ -5,33 +5,16 @@
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "name": "Dacorum Core Strategy",
       "organisation-name": "Dacorum Borough Council",
-      "period-start-date": 2006,
-      "period-end-date": 2031,
-      "housing-numbers": [
-        {
-          "organisation-name": "Dacorum Borough Council",
-          "required-housing": 10750,
-          "allocated-housing": 1820,
-          "windfall-housing": "",
-          "committed-housing": "",
-          "broad-locations-housing": "",
-          "annual-required-housing": 430,
-          "pages": "88, 90, 91",
-          "notes": "Target of 430 net additional dwellings per year. Allocated housing includes strategic sites (270 homes) and local allocations (1,550 homes). No specific windfall allowance made for first 10 years of plan. Total expected delivery around 11,320 homes including commitments and other sources.",
-          "organisation": "local-authority:DAC"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:DAC",
-      "pdf_file": "collection/document/dc03abcd4b2031456b8daf8f1aeded18d559ea90b6b9d26faa2d7479536c354a.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:DAC",
-      "local-plan-boundary": "E60000167",
-      "local-planning-authorities": [
-        "E60000167"
-      ]
+      "required-housing": 10750,
+      "allocated-housing": 1820,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 430,
+      "pages": "88, 90, 91",
+      "notes": "Target of 430 net additional dwellings per year. Allocated housing includes strategic sites (270 homes) and local allocations (1,550 homes). No specific windfall allowance made for first 10 years of plan. Total expected delivery around 11,320 homes including commitments and other sources.",
+      "organisation": "local-authority:DAC"
     }
   ],
   "confidence": "medium",

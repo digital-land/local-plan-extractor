@@ -5,28 +5,15 @@
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "name": "Exmoor National Park Local Plan 2011-2031",
       "organisation-name": "Exmoor National Park Authority",
-      "period-start-date": 2011,
-      "period-end-date": 2031,
-      "housing-numbers": [
-        {
-          "organisation-name": "Exmoor National Park Authority",
-          "required-housing": "",
-          "allocated-housing": 0,
-          "windfall-housing": "",
-          "committed-housing": "",
-          "broad-locations-housing": 0,
-          "annual-required-housing": "",
-          "pages": "134-136, 344-351",
-          "notes": "This is a National Park with special statutory purposes focusing on conservation. The plan follows a needs-led rural exceptions approach prioritizing affordable housing for local communities only. No specific housing targets or allocations are set - housing is only permitted where local need is demonstrated. The approach is explicitly not to provide general housing targets as National Parks are not suitable locations for unrestricted housing development.",
-          "organisation": ""
-        }
-      ],
-      "confidence": "high",
-      "authority": "national-park-authority:Q72617784",
-      "pdf_file": "collection/document/e82d00fe1a88e64a2d348d87c684ed6fa28c0bb851dc979d06bd47365b96a22a.pdf",
-      "pages_analysed": 32,
+      "required-housing": "",
+      "allocated-housing": 0,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 0,
+      "annual-required-housing": "",
+      "pages": "134-136, 344-351",
+      "notes": "This is a National Park with special statutory purposes focusing on conservation. The plan follows a needs-led rural exceptions approach prioritizing affordable housing for local communities only. No specific housing targets or allocations are set - housing is only permitted where local need is demonstrated. The approach is explicitly not to provide general housing targets as National Parks are not suitable locations for unrestricted housing development.",
       "organisation": ""
     }
   ],

@@ -5,33 +5,16 @@
   "period-end-date": 2033,
   "housing-numbers": [
     {
-      "name": "Braintree District Council Local Plan Section 2",
       "organisation-name": "Braintree District Council",
-      "period-start-date": 2013,
-      "period-end-date": 2033,
-      "housing-numbers": [
-        {
-          "organisation-name": "Braintree District Council",
-          "required-housing": 14320,
-          "allocated-housing": 5345,
-          "windfall-housing": 750,
-          "committed-housing": 6000,
-          "broad-locations-housing": "",
-          "annual-required-housing": 716,
-          "pages": "2, 8, 12-30",
-          "notes": "Strategic Growth Locations provide 5,345 allocated homes. Committed housing includes completed sites, sites under construction and sites with planning permission from housing trajectory. Plan includes 10% buffer above minimum requirement for flexibility.",
-          "organisation": "local-authority:BRA"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:BRA",
-      "pdf_file": "collection/document/96e33051a5fceebedc59a33d6fa8d8a7b477c3db30207b024cb3da1fd4cf1bb1.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:BRA",
-      "local-plan-boundary": "E60000155",
-      "local-planning-authorities": [
-        "E60000155"
-      ]
+      "required-housing": 14320,
+      "allocated-housing": 5345,
+      "windfall-housing": 750,
+      "committed-housing": 6000,
+      "broad-locations-housing": "",
+      "annual-required-housing": 716,
+      "pages": "2, 8, 12-30",
+      "notes": "Strategic Growth Locations provide 5,345 allocated homes. Committed housing includes completed sites, sites under construction and sites with planning permission from housing trajectory. Plan includes 10% buffer above minimum requirement for flexibility.",
+      "organisation": "local-authority:BRA"
     }
   ],
   "confidence": "medium",

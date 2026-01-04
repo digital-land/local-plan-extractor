@@ -5,33 +5,16 @@
   "period-end-date": 2028,
   "housing-numbers": [
     {
-      "name": "Erewash Core Strategy 2011-2028",
       "organisation-name": "Erewash Borough Council",
-      "period-start-date": 2011,
-      "period-end-date": 2028,
-      "housing-numbers": [
-        {
-          "organisation-name": "Erewash Borough Council",
-          "required-housing": 6250,
-          "allocated-housing": 2000,
-          "windfall-housing": "",
-          "committed-housing": 4258,
-          "broad-locations-housing": "",
-          "annual-required-housing": 368,
-          "pages": "20-22, 32, 78",
-          "notes": "Minimum 6,250 new homes for 2011-2028. Stanton Regeneration Site allocated for 2,000 homes. Committed housing (4,258) from SHLAA sites deliverable by 2028. Annual requirement is 368 homes per year (6,250÷17 years).",
-          "organisation": "local-authority:ERE"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:ERE",
-      "pdf_file": "collection/document/2c17c4b8d3400187ee2714c2fa9e932a3ea0662b2f68584b47c7e5acf9719001.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:ERE",
-      "local-plan-boundary": "E60000081",
-      "local-planning-authorities": [
-        "E60000081"
-      ]
+      "required-housing": 6250,
+      "allocated-housing": 2000,
+      "windfall-housing": "",
+      "committed-housing": 4258,
+      "broad-locations-housing": "",
+      "annual-required-housing": 368,
+      "pages": "20-22, 32, 78",
+      "notes": "Minimum 6,250 new homes for 2011-2028. Stanton Regeneration Site allocated for 2,000 homes. Committed housing (4,258) from SHLAA sites deliverable by 2028. Annual requirement is 368 homes per year (6,250\u00f717 years).",
+      "organisation": "local-authority:ERE"
     }
   ],
   "confidence": "medium",

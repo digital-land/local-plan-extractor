@@ -5,33 +5,16 @@
   "period-end-date": 2026,
   "housing-numbers": [
     {
-      "name": "Spelthorne Core Strategy and Policies DPD",
       "organisation-name": "Spelthorne Borough Council",
-      "period-start-date": 2006,
-      "period-end-date": 2026,
-      "housing-numbers": [
-        {
-          "organisation-name": "Spelthorne Borough Council",
-          "required-housing": 3320,
-          "allocated-housing": 539,
-          "windfall-housing": 1764,
-          "committed-housing": 556,
-          "broad-locations-housing": 578,
-          "annual-required-housing": 166,
-          "pages": "25-27",
-          "notes": "Draft Regional Spatial Strategy requirement is 3320 dwellings (2006-2026) at 166 dwellings per annum. Total supply of 3745 provides surplus of 1039 over plan period. Housing allocations from Allocations DPD less those already granted permission.",
-          "organisation": "local-authority:SPE"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:SPE",
-      "pdf_file": "collection/document/40554833095746331d871ee47dffa5a2e48616a0fbd2149cb87735d231f83ea3.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:SPE",
-      "local-plan-boundary": "E60000276",
-      "local-planning-authorities": [
-        "E60000276"
-      ]
+      "required-housing": 3320,
+      "allocated-housing": 539,
+      "windfall-housing": 1764,
+      "committed-housing": 556,
+      "broad-locations-housing": 578,
+      "annual-required-housing": 166,
+      "pages": "25-27",
+      "notes": "Draft Regional Spatial Strategy requirement is 3320 dwellings (2006-2026) at 166 dwellings per annum. Total supply of 3745 provides surplus of 1039 over plan period. Housing allocations from Allocations DPD less those already granted permission.",
+      "organisation": "local-authority:SPE"
     }
   ],
   "confidence": "medium",

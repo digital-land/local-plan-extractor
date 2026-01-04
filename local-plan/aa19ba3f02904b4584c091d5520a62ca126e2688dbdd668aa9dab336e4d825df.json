@@ -5,33 +5,16 @@
   "period-end-date": 2027,
   "housing-numbers": [
     {
-      "name": "South Gloucestershire Local Plan: Core Strategy",
       "organisation-name": "South Gloucestershire Council",
-      "period-start-date": 2006,
-      "period-end-date": 2027,
-      "housing-numbers": [
-        {
-          "organisation-name": "South Gloucestershire Council",
-          "required-housing": 28355,
-          "allocated-housing": 10400,
-          "windfall-housing": 2100,
-          "committed-housing": 11191,
-          "broad-locations-housing": "",
-          "annual-required-housing": 1610,
-          "pages": "86-88",
-          "notes": "Total requirement includes 5,810 completions 2006-2013. New neighbourhoods at Cribbs/Patchway (5,700), East of Harry Stoke (2,000), North Yate (2,700), plus Thornbury opportunities (800). Windfall allowance is for small sites. Annual rate is for 2013-2027 period (14 years).",
-          "organisation": "local-authority:SGC"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:SGC",
-      "pdf_file": "collection/document/aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:SGC",
-      "local-plan-boundary": "E60000296",
-      "local-planning-authorities": [
-        "E60000296"
-      ]
+      "required-housing": 28355,
+      "allocated-housing": 10400,
+      "windfall-housing": 2100,
+      "committed-housing": 11191,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1610,
+      "pages": "86-88",
+      "notes": "Total requirement includes 5,810 completions 2006-2013. New neighbourhoods at Cribbs/Patchway (5,700), East of Harry Stoke (2,000), North Yate (2,700), plus Thornbury opportunities (800). Windfall allowance is for small sites. Annual rate is for 2013-2027 period (14 years).",
+      "organisation": "local-authority:SGC"
     }
   ],
   "confidence": "medium",

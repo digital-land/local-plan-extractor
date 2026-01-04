@@ -5,33 +5,16 @@
   "period-end-date": 2036,
   "housing-numbers": [
     {
-      "name": "Eastleigh Borough Local Plan 2016-2036",
       "organisation-name": "Eastleigh Borough Council",
-      "period-start-date": 2016,
-      "period-end-date": 2036,
-      "housing-numbers": [
-        {
-          "organisation-name": "Eastleigh Borough Council",
-          "required-housing": 14580,
-          "allocated-housing": 732,
-          "windfall-housing": 1475,
-          "committed-housing": 10259,
-          "broad-locations-housing": "",
-          "annual-required-housing": 729,
-          "pages": "30-33",
-          "notes": "Plan has significant shortfall of 2,614 dwellings due to deletion of Strategic Growth Option. Early review required. Committed housing includes completions 2016-2019 (2,572), large site commitments (7,187), and other permissions (513). Total supply is 11,966 against requirement of 14,580.",
-          "organisation": "local-authority:EAT"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:EAT",
-      "pdf_file": "collection/document/d553603eba859a47129620ccc7b35fb64f9393c3ce11f2c8d386c90a416b54ed.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:EAT",
-      "local-plan-boundary": "E60000244",
-      "local-planning-authorities": [
-        "E60000244"
-      ]
+      "required-housing": 14580,
+      "allocated-housing": 732,
+      "windfall-housing": 1475,
+      "committed-housing": 10259,
+      "broad-locations-housing": "",
+      "annual-required-housing": 729,
+      "pages": "30-33",
+      "notes": "Plan has significant shortfall of 2,614 dwellings due to deletion of Strategic Growth Option. Early review required. Committed housing includes completions 2016-2019 (2,572), large site commitments (7,187), and other permissions (513). Total supply is 11,966 against requirement of 14,580.",
+      "organisation": "local-authority:EAT"
     }
   ],
   "confidence": "medium",

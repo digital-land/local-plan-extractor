@@ -5,33 +5,16 @@
   "period-end-date": 2035,
   "housing-numbers": [
     {
-      "name": "Chesterfield Local Plan",
       "organisation-name": "Chesterfield Borough Council",
-      "period-start-date": 2018,
-      "period-end-date": 2035,
-      "housing-numbers": [
-        {
-          "organisation-name": "Chesterfield Borough Council",
-          "required-housing": 4080,
-          "allocated-housing": 2251,
-          "windfall-housing": 476,
-          "committed-housing": 1276,
-          "broad-locations-housing": 2149,
-          "annual-required-housing": 240,
-          "pages": "15, 21-24",
-          "notes": "Minimum housing requirement of 4080 homes (240 per annum). Total supply of 6,497 homes includes: allocations (2,251), large permissions (536), small permissions/allocations (740), strategic sites (2,149), windfall (476), minus 10% lapse rate (-94). Strategic sites include SS1 (100), SS3 (1,100), SS5 (150), SS6 (799). Committed housing combines large permissions, small permissions, and small allocations.",
-          "organisation": "local-authority:CHS"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:CHS",
-      "pdf_file": "collection/document/669922cc8e5376afb4312ee31d50bb4eca1a98005c5a3f5f0bce92f5b2a1422b.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:CHS",
-      "local-plan-boundary": "E60000079",
-      "local-planning-authorities": [
-        "E60000079"
-      ]
+      "required-housing": 4080,
+      "allocated-housing": 2251,
+      "windfall-housing": 476,
+      "committed-housing": 1276,
+      "broad-locations-housing": 2149,
+      "annual-required-housing": 240,
+      "pages": "15, 21-24",
+      "notes": "Minimum housing requirement of 4080 homes (240 per annum). Total supply of 6,497 homes includes: allocations (2,251), large permissions (536), small permissions/allocations (740), strategic sites (2,149), windfall (476), minus 10% lapse rate (-94). Strategic sites include SS1 (100), SS3 (1,100), SS5 (150), SS6 (799). Committed housing combines large permissions, small permissions, and small allocations.",
+      "organisation": "local-authority:CHS"
     }
   ],
   "confidence": "medium",

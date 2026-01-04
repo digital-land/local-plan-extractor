@@ -5,33 +5,16 @@
   "period-end-date": 2039,
   "housing-numbers": [
     {
-      "name": "East Riding Local Plan Update Strategy Document Update",
       "organisation-name": "East Riding of Yorkshire Council",
-      "period-start-date": 2020,
-      "period-end-date": 2039,
-      "housing-numbers": [
-        {
-          "organisation-name": "East Riding of Yorkshire Council",
-          "required-housing": 20900,
-          "allocated-housing": 7261,
-          "windfall-housing": 4647,
-          "committed-housing": 9816,
-          "broad-locations-housing": "",
-          "annual-required-housing": 1100,
-          "pages": "53, 54, 58",
-          "notes": "Required housing is net additional dwellings 2020-2039. Committed housing includes dwellings with planning permission as of April 2023. Allocated housing is capacity of allocated sites without planning permission. Windfall allowance is for 2023-2039 period.",
-          "organisation": "local-authority:ERY"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:ERY",
-      "pdf_file": "collection/document/cd0adb426a681749f80b36a16bba412a9cc701c086c3af2349b2f511329ee0e3.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:ERY",
-      "local-plan-boundary": "E60000052",
-      "local-planning-authorities": [
-        "E60000052"
-      ]
+      "required-housing": 20900,
+      "allocated-housing": 7261,
+      "windfall-housing": 4647,
+      "committed-housing": 9816,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1100,
+      "pages": "53, 54, 58",
+      "notes": "Required housing is net additional dwellings 2020-2039. Committed housing includes dwellings with planning permission as of April 2023. Allocated housing is capacity of allocated sites without planning permission. Windfall allowance is for 2023-2039 period.",
+      "organisation": "local-authority:ERY"
     }
   ],
   "confidence": "medium",

@@ -5,33 +5,16 @@
   "period-end-date": 2033,
   "housing-numbers": [
     {
-      "name": "Teignbridge Local Plan 2013-2033",
       "organisation-name": "Teignbridge District Council",
-      "period-start-date": 2013,
-      "period-end-date": 2033,
-      "housing-numbers": [
-        {
-          "organisation-name": "Teignbridge District Council",
-          "required-housing": 12400,
-          "allocated-housing": 9068,
-          "windfall-housing": "",
-          "committed-housing": 4293,
-          "broad-locations-housing": "",
-          "annual-required-housing": 620,
-          "pages": "17-18, 19",
-          "notes": "Plan aims to step up delivery to 640 per annum from 2016 to maintain 620 average over plan period. Total provision of 12,429 dwellings includes 4,293 commitments + 9,068 allocations. No allowance made for windfall in trajectory but notes average of 173 windfall dwellings per year historically.",
-          "organisation": "local-authority:TEI"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:TEI",
-      "pdf_file": "collection/document/9eb47d09401079e46f2caa89e6a69f8e1367095d1868e72b2a5e8f05b4c1619d.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:TEI",
-      "local-plan-boundary": "E60000305",
-      "local-planning-authorities": [
-        "E60000305"
-      ]
+      "required-housing": 12400,
+      "allocated-housing": 9068,
+      "windfall-housing": "",
+      "committed-housing": 4293,
+      "broad-locations-housing": "",
+      "annual-required-housing": 620,
+      "pages": "17-18, 19",
+      "notes": "Plan aims to step up delivery to 640 per annum from 2016 to maintain 620 average over plan period. Total provision of 12,429 dwellings includes 4,293 commitments + 9,068 allocations. No allowance made for windfall in trajectory but notes average of 173 windfall dwellings per year historically.",
+      "organisation": "local-authority:TEI"
     }
   ],
   "confidence": "medium",

@@ -5,33 +5,16 @@
   "period-end-date": 2027,
   "housing-numbers": [
     {
-      "name": "Portsmouth Plan",
       "organisation-name": "Portsmouth City Council",
-      "period-start-date": 2010,
-      "period-end-date": 2027,
-      "housing-numbers": [
-        {
-          "organisation-name": "Portsmouth City Council",
-          "required-housing": 8387,
-          "allocated-housing": 4389,
-          "windfall-housing": 1600,
-          "committed-housing": 1216,
-          "broad-locations-housing": "",
-          "annual-required-housing": 493,
-          "pages": "81, 83, 156",
-          "notes": "Required housing is 7,117-8,387 for 2010-2027 period (upper figure used). Strategic sites include Tipner (480-1250), Port Solent (500), Horsea Island (0-500), Somerstown & North Southsea (539), and City Centre (1600). Annual requirement calculated as 420-490 homes per year.",
-          "organisation": "local-authority:POR"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:POR",
-      "pdf_file": "collection/document/6824b61b4da4476b8405ab649459f2fbcbb02a3db09ef5e3b0ec43f2c3fbccd4.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:POR",
-      "local-plan-boundary": "E60000226",
-      "local-planning-authorities": [
-        "E60000226"
-      ]
+      "required-housing": 8387,
+      "allocated-housing": 4389,
+      "windfall-housing": 1600,
+      "committed-housing": 1216,
+      "broad-locations-housing": "",
+      "annual-required-housing": 493,
+      "pages": "81, 83, 156",
+      "notes": "Required housing is 7,117-8,387 for 2010-2027 period (upper figure used). Strategic sites include Tipner (480-1250), Port Solent (500), Horsea Island (0-500), Somerstown & North Southsea (539), and City Centre (1600). Annual requirement calculated as 420-490 homes per year.",
+      "organisation": "local-authority:POR"
     }
   ],
   "confidence": "medium",

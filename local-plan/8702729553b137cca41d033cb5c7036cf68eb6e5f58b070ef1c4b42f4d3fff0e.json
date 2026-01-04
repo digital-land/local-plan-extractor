@@ -5,33 +5,16 @@
   "period-end-date": 2029,
   "housing-numbers": [
     {
-      "name": "Gosport Borough Local Plan 2011-2029",
       "organisation-name": "Gosport Borough Council",
-      "period-start-date": 2011,
-      "period-end-date": 2029,
-      "housing-numbers": [
-        {
-          "organisation-name": "Gosport Borough Council",
-          "required-housing": 3060,
-          "allocated-housing": 1997,
-          "windfall-housing": 429,
-          "committed-housing": 1124,
-          "broad-locations-housing": "",
-          "annual-required-housing": 170,
-          "pages": "Pages 29-30, 225-226",
-          "notes": "Total supply of 3,121 identified to meet requirement of 3,060. Allocated housing includes major regeneration areas (Gosport Waterfront 700, Daedalus 249, Royal Hospital Haslar 300, etc.) and smaller sites. Committed housing includes completions (381) and existing permissions (743).",
-          "organisation": "local-authority:GOS"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:GOS",
-      "pdf_file": "collection/document/8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:GOS",
-      "local-plan-boundary": "E60000246",
-      "local-planning-authorities": [
-        "E60000246"
-      ]
+      "required-housing": 3060,
+      "allocated-housing": 1997,
+      "windfall-housing": 429,
+      "committed-housing": 1124,
+      "broad-locations-housing": "",
+      "annual-required-housing": 170,
+      "pages": "Pages 29-30, 225-226",
+      "notes": "Total supply of 3,121 identified to meet requirement of 3,060. Allocated housing includes major regeneration areas (Gosport Waterfront 700, Daedalus 249, Royal Hospital Haslar 300, etc.) and smaller sites. Committed housing includes completions (381) and existing permissions (743).",
+      "organisation": "local-authority:GOS"
     }
   ],
   "confidence": "medium",

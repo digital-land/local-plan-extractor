@@ -5,33 +5,16 @@
   "period-end-date": 2029,
   "housing-numbers": [
     {
-      "name": "Maldon District Local Development Plan",
       "organisation-name": "Maldon District Council",
-      "period-start-date": 2014,
-      "period-end-date": 2029,
-      "housing-numbers": [
-        {
-          "organisation-name": "Maldon District Council",
-          "required-housing": 4650,
-          "allocated-housing": 3511,
-          "windfall-housing": 300,
-          "committed-housing": 1215,
-          "broad-locations-housing": 100,
-          "annual-required-housing": 310,
-          "pages": "4, 5, 6, 18, 19, 24",
-          "notes": "Plan provides minimum of 4,650 dwellings (310 per annum). Total supply is 5,108 dwellings. Allocated housing includes Garden Suburbs (2,811 dwellings) and Strategic Allocations (700 dwellings). Committed housing includes completions (293) and extant planning permissions (922). Broad locations refer to Neighbourhood Plans allocation (100 units). Windfall allowance of 300 units distributed across plan period excluding first two years.",
-          "organisation": "local-authority:MAL"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:MAL",
-      "pdf_file": "collection/document/bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:MAL",
-      "local-plan-boundary": "E60000162",
-      "local-planning-authorities": [
-        "E60000162"
-      ]
+      "required-housing": 4650,
+      "allocated-housing": 3511,
+      "windfall-housing": 300,
+      "committed-housing": 1215,
+      "broad-locations-housing": 100,
+      "annual-required-housing": 310,
+      "pages": "4, 5, 6, 18, 19, 24",
+      "notes": "Plan provides minimum of 4,650 dwellings (310 per annum). Total supply is 5,108 dwellings. Allocated housing includes Garden Suburbs (2,811 dwellings) and Strategic Allocations (700 dwellings). Committed housing includes completions (293) and extant planning permissions (922). Broad locations refer to Neighbourhood Plans allocation (100 units). Windfall allowance of 300 units distributed across plan period excluding first two years.",
+      "organisation": "local-authority:MAL"
     }
   ],
   "confidence": "medium",

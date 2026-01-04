@@ -5,33 +5,16 @@
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "name": "Cotswold District Local Plan 2011-2031",
       "organisation-name": "Cotswold District Council",
-      "period-start-date": 2011,
-      "period-end-date": 2031,
-      "housing-numbers": [
-        {
-          "organisation-name": "Cotswold District Council",
-          "required-housing": 8400,
-          "allocated-housing": 2377,
-          "windfall-housing": 1191,
-          "committed-housing": 6046,
-          "broad-locations-housing": "",
-          "annual-required-housing": 420,
-          "pages": "23-26",
-          "notes": "Total expected delivery is 9,614 homes. Committed housing includes 3,176 completions 2011-2017 plus 2,870 extant permissions. Allocated housing includes 1,800 from Chesterton Strategic Site plus 577 from other allocations.",
-          "organisation": "local-authority:COT"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:COT",
-      "pdf_file": "collection/document/43838c3b6e9a9819b8d8c6b34ff8fa64db9a8135509634c8156acf3fd872c691.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:COT",
-      "local-plan-boundary": "E60000309",
-      "local-planning-authorities": [
-        "E60000309"
-      ]
+      "required-housing": 8400,
+      "allocated-housing": 2377,
+      "windfall-housing": 1191,
+      "committed-housing": 6046,
+      "broad-locations-housing": "",
+      "annual-required-housing": 420,
+      "pages": "23-26",
+      "notes": "Total expected delivery is 9,614 homes. Committed housing includes 3,176 completions 2011-2017 plus 2,870 extant permissions. Allocated housing includes 1,800 from Chesterton Strategic Site plus 577 from other allocations.",
+      "organisation": "local-authority:COT"
     }
   ],
   "confidence": "medium",

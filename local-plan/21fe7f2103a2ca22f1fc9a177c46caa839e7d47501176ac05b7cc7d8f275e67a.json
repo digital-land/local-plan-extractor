@@ -5,33 +5,16 @@
   "period-end-date": 2021,
   "housing-numbers": [
     {
-      "name": "South Tyneside Local Development Framework Core Strategy",
       "organisation-name": "South Tyneside Council",
-      "period-start-date": 2004,
-      "period-end-date": 2021,
-      "housing-numbers": [
-        {
-          "organisation-name": "South Tyneside Council",
-          "required-housing": 5540,
-          "allocated-housing": "",
-          "windfall-housing": "",
-          "committed-housing": "",
-          "broad-locations-housing": "",
-          "annual-required-housing": 325,
-          "pages": "24-25",
-          "notes": "RSS allocation figures. Document states existing commitments already meet 2004-2011 allocation (2,240 dwellings), with residual allocations of 2,850 for 2011-2021 periods. Split between Jarrow/Hebburn (550) and South Shields/Urban Fringe (2,300) Housing Market Areas.",
-          "organisation": "local-authority:STY"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:STY",
-      "pdf_file": "collection/document/21fe7f2103a2ca22f1fc9a177c46caa839e7d47501176ac05b7cc7d8f275e67a.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:STY",
-      "local-plan-boundary": "E60000011",
-      "local-planning-authorities": [
-        "E60000011"
-      ]
+      "required-housing": 5540,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 325,
+      "pages": "24-25",
+      "notes": "RSS allocation figures. Document states existing commitments already meet 2004-2011 allocation (2,240 dwellings), with residual allocations of 2,850 for 2011-2021 periods. Split between Jarrow/Hebburn (550) and South Shields/Urban Fringe (2,300) Housing Market Areas.",
+      "organisation": "local-authority:STY"
     }
   ],
   "confidence": "medium",

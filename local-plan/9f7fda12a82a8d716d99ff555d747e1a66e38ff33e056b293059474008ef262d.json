@@ -5,33 +5,16 @@
   "period-end-date": 2027,
   "housing-numbers": [
     {
-      "name": "Reigate & Banstead Core Strategy",
       "organisation-name": "Reigate & Banstead Borough Council",
-      "period-start-date": 2012,
-      "period-end-date": 2027,
-      "housing-numbers": [
-        {
-          "organisation-name": "Reigate & Banstead Borough Council",
-          "required-housing": 6900,
-          "allocated-housing": 5800,
-          "windfall-housing": 815,
-          "committed-housing": "",
-          "broad-locations-housing": 1600,
-          "annual-required-housing": 460,
-          "pages": "22-23, 63-65, 80",
-          "notes": "Total requirement 'at least 6,900 homes'. Allocated housing includes sites within existing urban areas (at least 5,800). Broad locations are sustainable urban extensions (up to 1,600). Windfall allowance is 815 homes from windfalls and other urban broad locations per Figure 7.",
-          "organisation": "local-authority:REI"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:REI",
-      "pdf_file": "collection/document/9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:REI",
-      "local-plan-boundary": "E60000274",
-      "local-planning-authorities": [
-        "E60000274"
-      ]
+      "required-housing": 6900,
+      "allocated-housing": 5800,
+      "windfall-housing": 815,
+      "committed-housing": "",
+      "broad-locations-housing": 1600,
+      "annual-required-housing": 460,
+      "pages": "22-23, 63-65, 80",
+      "notes": "Total requirement 'at least 6,900 homes'. Allocated housing includes sites within existing urban areas (at least 5,800). Broad locations are sustainable urban extensions (up to 1,600). Windfall allowance is 815 homes from windfalls and other urban broad locations per Figure 7.",
+      "organisation": "local-authority:REI"
     }
   ],
   "confidence": "medium",

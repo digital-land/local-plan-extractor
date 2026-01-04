@@ -5,33 +5,16 @@
   "period-end-date": 2027,
   "housing-numbers": [
     {
-      "name": "Wealden District Local Plan Core Strategy",
       "organisation-name": "Wealden District Council",
-      "period-start-date": 2006,
-      "period-end-date": 2027,
-      "housing-numbers": [
-        {
-          "organisation-name": "Wealden District Council",
-          "required-housing": 9440,
-          "allocated-housing": 4525,
-          "windfall-housing": "",
-          "committed-housing": 4889,
-          "broad-locations-housing": 4070,
-          "annual-required-housing": 450,
-          "pages": "25, 26, 27, 28",
-          "notes": "Total provision 9440 dwellings 2006-2027. 4889 already built/committed, need to allocate 4525 additional. Broad locations include strategic development areas (4070 units for urban extensions). Windfall not counted in strategic allocations but noted as historically ~200pa. Annual target of 450 homes per annum.",
-          "organisation": "local-authority:WEA"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:WEA",
-      "pdf_file": "collection/document/277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:WEA",
-      "local-plan-boundary": "E60000241",
-      "local-planning-authorities": [
-        "E60000241"
-      ]
+      "required-housing": 9440,
+      "allocated-housing": 4525,
+      "windfall-housing": "",
+      "committed-housing": 4889,
+      "broad-locations-housing": 4070,
+      "annual-required-housing": 450,
+      "pages": "25, 26, 27, 28",
+      "notes": "Total provision 9440 dwellings 2006-2027. 4889 already built/committed, need to allocate 4525 additional. Broad locations include strategic development areas (4070 units for urban extensions). Windfall not counted in strategic allocations but noted as historically ~200pa. Annual target of 450 homes per annum.",
+      "organisation": "local-authority:WEA"
     }
   ],
   "confidence": "medium",

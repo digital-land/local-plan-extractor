@@ -5,33 +5,16 @@
   "period-end-date": 2028,
   "housing-numbers": [
     {
-      "name": "Core Strategy Adoption version",
       "organisation-name": "Ribble Valley Borough Council",
-      "period-start-date": 2008,
-      "period-end-date": 2028,
-      "housing-numbers": [
-        {
-          "organisation-name": "Ribble Valley Borough Council",
-          "required-housing": 5600,
-          "allocated-housing": 1040,
-          "windfall-housing": "",
-          "committed-housing": 3610,
-          "broad-locations-housing": "",
-          "annual-required-housing": 280,
-          "pages": "42, 56, 77, 81, 177",
-          "notes": "Total requirement 5,600 dwellings 2008-2028. Strategic site at Standen provides 1,040 dwellings. Commitments figure as of March 2014. Residual requirement after commitments is 2,058 dwellings.",
-          "organisation": "local-authority:RIB"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:RIB",
-      "pdf_file": "collection/document/a21db06d0e11b0604b4ff7bd2c33bcd6f13a8e2d2e948e108a456234a8b66d34.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:RIB",
-      "local-plan-boundary": "E60000042",
-      "local-planning-authorities": [
-        "E60000042"
-      ]
+      "required-housing": 5600,
+      "allocated-housing": 1040,
+      "windfall-housing": "",
+      "committed-housing": 3610,
+      "broad-locations-housing": "",
+      "annual-required-housing": 280,
+      "pages": "42, 56, 77, 81, 177",
+      "notes": "Total requirement 5,600 dwellings 2008-2028. Strategic site at Standen provides 1,040 dwellings. Commitments figure as of March 2014. Residual requirement after commitments is 2,058 dwellings.",
+      "organisation": "local-authority:RIB"
     }
   ],
   "confidence": "medium",

@@ -5,33 +5,16 @@
   "period-end-date": 2028,
   "housing-numbers": [
     {
-      "name": "Surrey Heath Core Strategy and Development Management Policies Document 2012",
       "organisation-name": "Surrey Heath Borough Council",
-      "period-start-date": 2011,
-      "period-end-date": 2028,
-      "housing-numbers": [
-        {
-          "organisation-name": "Surrey Heath Borough Council",
-          "required-housing": 3240,
-          "allocated-housing": 1200,
-          "windfall-housing": "",
-          "committed-housing": 875,
-          "broad-locations-housing": "",
-          "annual-required-housing": 191,
-          "pages": "Pages 27, 28, 6",
-          "notes": "3,240 dwelling requirement for 2011-2028 (17 years). 875 completions between 2006-2011. Princess Royal Barracks Deepcut allocated for 1,200 net new dwellings from 2016 onward. Annual requirement derived from 3,240÷17=190.6 rounded to 191.",
-          "organisation": "local-authority:SUR"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:SUR",
-      "pdf_file": "collection/document/58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:SUR",
-      "local-plan-boundary": "E60000277",
-      "local-planning-authorities": [
-        "E60000277"
-      ]
+      "required-housing": 3240,
+      "allocated-housing": 1200,
+      "windfall-housing": "",
+      "committed-housing": 875,
+      "broad-locations-housing": "",
+      "annual-required-housing": 191,
+      "pages": "Pages 27, 28, 6",
+      "notes": "3,240 dwelling requirement for 2011-2028 (17 years). 875 completions between 2006-2011. Princess Royal Barracks Deepcut allocated for 1,200 net new dwellings from 2016 onward. Annual requirement derived from 3,240\u00f717=190.6 rounded to 191.",
+      "organisation": "local-authority:SUR"
     }
   ],
   "confidence": "medium",

@@ -5,33 +5,16 @@
   "period-end-date": 2026,
   "housing-numbers": [
     {
-      "name": "Borough Development Strategy",
       "organisation-name": "Dudley Metropolitan Borough Council",
-      "period-start-date": 2006,
-      "period-end-date": 2026,
-      "housing-numbers": [
-        {
-          "organisation-name": "Dudley Metropolitan Borough Council",
-          "required-housing": 16127,
-          "allocated-housing": 11594,
-          "windfall-housing": 1639,
-          "committed-housing": 6200,
-          "broad-locations-housing": "",
-          "annual-required-housing": 806,
-          "pages": "58-60",
-          "notes": "Target is 'at least 16,127 net dwellings'. Allocated housing includes Strategic Centre (2,836), Town Centres AAPs (907), Regeneration Corridors (5,305), Freestanding Employment sites (298), and sites outside Growth Network (419) plus capacity outside Growth Network (1,829). Committed includes completions 2006-2015 (5,151) plus under construction (1,049). Annual requirement calculated as 16,127 ÷ 20 years.",
-          "organisation": "local-authority:DUD"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:DUD",
-      "pdf_file": "collection/document/6f4bee807888a944c8d9a0f66aae509092acc6a2eaffe6af68a4acdda9e06af6.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:DUD",
-      "local-plan-boundary": "E60000132",
-      "local-planning-authorities": [
-        "E60000132"
-      ]
+      "required-housing": 16127,
+      "allocated-housing": 11594,
+      "windfall-housing": 1639,
+      "committed-housing": 6200,
+      "broad-locations-housing": "",
+      "annual-required-housing": 806,
+      "pages": "58-60",
+      "notes": "Target is 'at least 16,127 net dwellings'. Allocated housing includes Strategic Centre (2,836), Town Centres AAPs (907), Regeneration Corridors (5,305), Freestanding Employment sites (298), and sites outside Growth Network (419) plus capacity outside Growth Network (1,829). Committed includes completions 2006-2015 (5,151) plus under construction (1,049). Annual requirement calculated as 16,127 \u00f7 20 years.",
+      "organisation": "local-authority:DUD"
     }
   ],
   "confidence": "medium",

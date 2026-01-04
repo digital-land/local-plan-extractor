@@ -5,33 +5,16 @@
   "period-end-date": 2026,
   "housing-numbers": [
     {
-      "name": "Leicester City Core Strategy",
       "organisation-name": "Leicester City Council",
-      "period-start-date": 2006,
-      "period-end-date": 2026,
-      "housing-numbers": [
-        {
-          "organisation-name": "Leicester City Council",
-          "required-housing": 25600,
-          "allocated-housing": "",
-          "windfall-housing": 730,
-          "committed-housing": 4265,
-          "broad-locations-housing": 21823,
-          "annual-required-housing": 1280,
-          "pages": "28, 50-51, 102, 115",
-          "notes": "Target of 25,600 homes 2006-2026. 4,265 completions 2006-2010. Future supply on large sites totals 21,823 dwellings across Strategic Regeneration Area (11,854), Ashton Green (3,500), Hamilton (1,011), and other areas. Small sites supply of 730 dwellings from permissions. This is a single authority plan focused on strategic locations rather than detailed site allocations.",
-          "organisation": "local-authority:LCE"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:LCE",
-      "pdf_file": "collection/document/34db961af3686402b004d097e5aeae203ec8b88dd05b12631fcc231d47bf5600.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:LCE",
-      "local-plan-boundary": "E60000074",
-      "local-planning-authorities": [
-        "E60000074"
-      ]
+      "required-housing": 25600,
+      "allocated-housing": "",
+      "windfall-housing": 730,
+      "committed-housing": 4265,
+      "broad-locations-housing": 21823,
+      "annual-required-housing": 1280,
+      "pages": "28, 50-51, 102, 115",
+      "notes": "Target of 25,600 homes 2006-2026. 4,265 completions 2006-2010. Future supply on large sites totals 21,823 dwellings across Strategic Regeneration Area (11,854), Ashton Green (3,500), Hamilton (1,011), and other areas. Small sites supply of 730 dwellings from permissions. This is a single authority plan focused on strategic locations rather than detailed site allocations.",
+      "organisation": "local-authority:LCE"
     }
   ],
   "confidence": "medium",

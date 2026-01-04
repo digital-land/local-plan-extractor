@@ -5,33 +5,16 @@
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "name": "Hartlepool Local Plan",
       "organisation-name": "Hartlepool Borough Council",
-      "period-start-date": 2016,
-      "period-end-date": 2031,
-      "housing-numbers": [
-        {
-          "organisation-name": "Hartlepool Borough Council",
-          "required-housing": 6150,
-          "allocated-housing": 3952,
-          "windfall-housing": 179,
-          "committed-housing": 2225,
-          "broad-locations-housing": "",
-          "annual-required-housing": 410,
-          "pages": "83, 87, 91",
-          "notes": "Total requirement of 6,150 includes 410 per annum target. Allocated housing comprises South West Extension (1,260), High Tunstall (1,200), Wynyard sites (632), Quarry Farm (220), Urban sites (188), and Village sites (85). Committed housing includes extant permissions and sites subject to s.106 totaling 2,225. Small windfall allowance of 179 based on specific intelligence about potential sites.",
-          "organisation": "local-authority:HPL"
-        }
-      ],
-      "confidence": "high",
-      "authority": "local-authority:HPL",
-      "pdf_file": "collection/document/27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e.pdf",
-      "pages_analysed": 32,
-      "organisation": "local-authority:HPL",
-      "local-plan-boundary": "E60000003",
-      "local-planning-authorities": [
-        "E60000003"
-      ]
+      "required-housing": 6150,
+      "allocated-housing": 3952,
+      "windfall-housing": 179,
+      "committed-housing": 2225,
+      "broad-locations-housing": "",
+      "annual-required-housing": 410,
+      "pages": "83, 87, 91",
+      "notes": "Total requirement of 6,150 includes 410 per annum target. Allocated housing comprises South West Extension (1,260), High Tunstall (1,200), Wynyard sites (632), Quarry Farm (220), Urban sites (188), and Village sites (85). Committed housing includes extant permissions and sites subject to s.106 totaling 2,225. Small windfall allowance of 179 based on specific intelligence about potential sites.",
+      "organisation": "local-authority:HPL"
     }
   ],
   "confidence": "medium",
