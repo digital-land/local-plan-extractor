@@ -6,6 +6,7 @@ CACHE_DIR=var/cache/
 
 SOURCE_DATA=\
 	$(CACHE_DIR)organisation.csv\
+	$(CACHE_DIR)local-authority-district.csv\
 	$(CACHE_DIR)local-planning-authority.csv\
 	$(CACHE_DIR)local-planning-authority.geojson\
 	$(CACHE_DIR)local-plan-document-type.csv\
