@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:WAV",
+    "organisation-name": "Waveney District Council",
+    "reference": "LP-WAV-2014",
+    "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/local-plans/",
+    "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Waveney-Local-Plan/Adopted-Waveney-Local-Plan-including-Erratum.pdf",
+    "name": "Local Plan 2014-2036",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Waveney-Local-Plan/Adopted-Waveney-Local-Plan-including-Erratum.pdf",
+        "documentation-url": "https://www.eastsuffolk.gov.uk/planning/planning-policy-and-local-plans/local-plans/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2014-2036",
+        "reference": "LP-WAV-2014",
+        "document-status": "adopted",
+        "endpoint": "0b1c028524e15f3aa3350af445cd92f316d551d2e9cac194bbc21bb79b68e6ec"
+      }
+    ]
+  }
+]

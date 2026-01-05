@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:BMH",
+    "organisation-name": "Bournemouth Borough Council",
+    "reference": "LP-BMH-2006",
+    "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-bournemouth-area",
+    "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/Core-Strategy-1.pdf",
+    "name": "Local Plan 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/Core-Strategy-1.pdf",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-bournemouth-area",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2026",
+        "reference": "LP-BMH-2006",
+        "document-status": "adopted",
+        "endpoint": "72cb4437537677564ff56a57a63a53b8b11f0b6ccb77df16807524fd4aa88dc7"
+      }
+    ]
+  }
+]

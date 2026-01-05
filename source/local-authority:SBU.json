@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:SBU",
+    "organisation-name": "South Bucks District Council",
+    "reference": "LP-SBU-1999",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
+    "document-url": "https://media.buckinghamshire.gov.uk/documents/South_Bucks_local_plan_j4D6YG4.pdf",
+    "name": "Local Plan 1999-2025",
+    "status": "adopted",
+    "year": 1999,
+    "period-start-date": 1999,
+    "period-end-date": 2025,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://media.buckinghamshire.gov.uk/documents/South_Bucks_local_plan_j4D6YG4.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 1999-2025",
+        "reference": "LP-SBU-1999",
+        "document-status": "adopted",
+        "endpoint": "9e6e298dcaece599ec1b428d5db22a4f6b8739fabedd341e861fe3c56b715238"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:POL",
+    "organisation-name": "Borough of Poole",
+    "reference": "LP-POL-2018",
+    "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-poole-area",
+    "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/Final-version-28.11.18.pdf-for-web.pdf",
+    "name": "Local Plan 2018-2033",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/Final-version-28.11.18.pdf-for-web.pdf",
+        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-poole-area",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2018-2033",
+        "reference": "LP-POL-2018",
+        "document-status": "adopted",
+        "endpoint": "ca0f62d61aeff6184e190d0ade3d62a21917f5aea191792729c14a2bfa04442a"
+      }
+    ]
+  }
+]

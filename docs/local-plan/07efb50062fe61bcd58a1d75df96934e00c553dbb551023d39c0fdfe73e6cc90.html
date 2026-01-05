@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Local Plan 2018-2036 - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Local Plan 2018-2036
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+    <h1 class="govuk-heading-xl">Local Plan 2018-2036</h1>
+
+
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/local-authority:SUF">local-authority:SUF</a></code>
+        </dd>
+      </div>
+      
+
+      
+
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2018 to 2036
+          (18 years)
+        </dd>
+      </div>
+      
+
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          <a href="https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Suffolk-Coastal-Local-Plan/Adopted-Suffolk-Coastal-Local-Plan/East-Suffolk-Council-Suffolk-Coastal-Local-Plan.pdf" class="govuk-link">https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Suffolk-Coastal-Local-Plan/Adopted-Suffolk-Coastal-Local-Plan/East-Suffolk-Council-Suffolk-Coastal-Local-Plan.pdf</a>
+        </dd>
+      </div>
+      
+
+      
+    </dl>
+
+    
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          East Suffolk Council (Suffolk Coastal area)
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>9,756 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              542 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              4,355 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              6,998 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              800 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              32, 39-40, 45, 85
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Plan covers former Suffolk Coastal District area only. Total requirement is 542 dwellings per annum (9,756 over 18-year period 2018-2036). Committed housing includes 3,609 outstanding permissions, 2,413 with resolution to grant (including 2,000 at Brightwell Lakes), and 976 existing allocations. Allocated housing is residual need plus contingency. Windfall estimated at 50 dwellings per year from 2020/21 onwards providing at least 800 over plan period.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/07efb50062fe61bcd58a1d75df96934e00c553dbb551023d39c0fdfe73e6cc90.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "adoption-date": null,
+  "authority": "07efb50062fe61bcd58a1d75df96934e00c553dbb551023d39c0fdfe73e6cc90",
+  "confidence": "medium",
+  "document-url": "https://www.eastsuffolk.gov.uk/assets/Planning/Planning-Policy-and-Local-Plans/Suffolk-Coastal-Local-Plan/Adopted-Suffolk-Coastal-Local-Plan/East-Suffolk-Council-Suffolk-Coastal-Local-Plan.pdf",
+  "housing-numbers": [
+    {
+      "allocated-housing": 4355,
+      "annual-required-housing": 542,
+      "broad-locations-housing": "",
+      "committed-housing": 6998,
+      "notes": "Plan covers former Suffolk Coastal District area only. Total requirement is 542 dwellings per annum (9,756 over 18-year period 2018-2036). Committed housing includes 3,609 outstanding permissions, 2,413 with resolution to grant (including 2,000 at Brightwell Lakes), and 976 existing allocations. Allocated housing is residual need plus contingency. Windfall estimated at 50 dwellings per year from 2020/21 onwards providing at least 800 over plan period.",
+      "organisation": "",
+      "organisation-name": "East Suffolk Council (Suffolk Coastal area)",
+      "pages": "32, 39-40, 45, 85",
+      "required-housing": 9756,
+      "windfall-housing": 800
+    }
+  ],
+  "name": "Local Plan 2018-2036",
+  "organisation": "local-authority:SUF",
+  "organisation-name": "Suffolk Coastal District Council",
+  "pages_analysed": 0,
+  "pdf_file": "collection/document/07efb50062fe61bcd58a1d75df96934e00c553dbb551023d39c0fdfe73e6cc90.pdf",
+  "pdf_file_missing": false,
+  "period-end-date": 2036,
+  "period-start-date": 2018
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+
+</body>
+</html>

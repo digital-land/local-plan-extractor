@@ -93,5 +93,30 @@
         "endpoint": "89ac76fd1d695aa2aaa4126968a38c2da64a1b23bedf91b4a131ba7d3058976b"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:AYL",
+    "organisation-name": "Aylesbury Vale Council",
+    "reference": "LP-AYL-2013",
+    "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
+    "document-url": "https://media.buckinghamshire.gov.uk/documents/Aylesbury_local_plan_L46JWaT.pdf",
+    "name": "Local Plan 2013-2033",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://media.buckinghamshire.gov.uk/documents/Aylesbury_local_plan_L46JWaT.pdf",
+        "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2013-2033",
+        "reference": "LP-AYL-2013",
+        "document-status": "adopted",
+        "endpoint": "9063c76dbbf52f54f6ee164a8a6b3b5794dfe29b5a1da18fa3de92650b53b2c3"
+      }
+    ]
   }
 ]
