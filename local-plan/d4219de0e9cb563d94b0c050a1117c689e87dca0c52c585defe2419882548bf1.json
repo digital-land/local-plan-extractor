@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2006-2029",
+  "organisation-name": "Mendip District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Mendip District Council",
+      "required-housing": 9635,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 420,
+      "pages": "32, 40",
+      "notes": "Total requirement of 9,635 dwellings for plan period with 420 per annum from 2011-2029. Distribution across 5 towns plus villages with strategic sites and future growth areas identified but specific allocation numbers not provided in this Part 1 document.",
+      "organisation": "local-authority:MEN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "d4219de0e9cb563d94b0c050a1117c689e87dca0c52c585defe2419882548bf1",
+  "pdf_file": "collection/document/d4219de0e9cb563d94b0c050a1117c689e87dca0c52c585defe2419882548bf1.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:MEN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000314",
+  "local-planning-authorities": [
+    "E60000314"
+  ]
+}

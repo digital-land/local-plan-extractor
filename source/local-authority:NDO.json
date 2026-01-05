@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:NDO",
+    "organisation-name": "North Dorset District Council",
+    "reference": "LP-NDO-2011",
+    "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/adopted-local-plans/north-dorset-adopted-local-plan",
+    "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/288359/North-Dorset-Local-Plan-Part-1-Policy-1-to-21.pdf/fbfc8a47-1bf8-64d2-94f9-a3e4cd2ec450",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/288359/North-Dorset-Local-Plan-Part-1-Policy-1-to-21.pdf/fbfc8a47-1bf8-64d2-94f9-a3e4cd2ec450",
+        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/adopted-local-plans/north-dorset-adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-NDO-2011",
+        "document-status": "adopted",
+        "endpoint": "c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46"
+      }
+    ]
+  }
+]

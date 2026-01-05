@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:TAU",
+    "organisation-name": "Taunton Deane Borough Council",
+    "reference": "LP-TAU-2011",
+    "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=Somerset+West+and+Taunton",
+    "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EQhUN9mjVvNJrICg7NgOa0MBAefZjGX4nikWK_I6Tdo-pQ?e=etYwA0",
+    "name": "Local Plan 2011-2028",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EQhUN9mjVvNJrICg7NgOa0MBAefZjGX4nikWK_I6Tdo-pQ?e=etYwA0",
+        "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=Somerset+West+and+Taunton",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2028",
+        "reference": "LP-TAU-2011",
+        "document-status": "adopted",
+        "endpoint": "205073b028e5d890eca72724aaee25e365753e9bcc81e35267838ec5d3438502"
+      }
+    ]
+  }
+]

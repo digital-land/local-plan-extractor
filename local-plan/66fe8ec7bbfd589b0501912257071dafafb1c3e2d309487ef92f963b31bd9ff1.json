@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Horsham District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Horsham District Council",
+      "required-housing": 16000,
+      "allocated-housing": 3250,
+      "windfall-housing": 750,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 800,
+      "pages": "55-57, 66-68, 83, 86-87",
+      "notes": "Total requirement 16,000 homes at 800 per annum. Strategic sites: 2,500 at Land North of Horsham, 600 at Land West of Southwater, 150 at Land South of Billingshurst. Plan also includes 1,500 homes through Neighbourhood Planning and 750 windfall units.",
+      "organisation": "local-authority:HOR"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1",
+  "pdf_file": "collection/document/66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HOR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000285",
+  "local-planning-authorities": [
+    "E60000285"
+  ]
+}

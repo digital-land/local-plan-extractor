@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:PUR",
+    "organisation-name": "Purbeck District Council",
+    "reference": "LP-PUR-2018",
+    "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/purbeck-local-plan",
+    "document-url": "https://www.dorsetcouncil.gov.uk/documents/d/guest/purbeck-local-plan-2018-2034-final",
+    "name": "Local Plan 2018-2034",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2034,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dorsetcouncil.gov.uk/documents/d/guest/purbeck-local-plan-2018-2034-final",
+        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/purbeck-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2018-2034",
+        "reference": "LP-PUR-2018",
+        "document-status": "adopted",
+        "endpoint": "c1d5e1efb3ad2609ab3992ffd9fccc4c60c7143eb93a6e9a8ab9e00ecd085a14"
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:WDO",
+    "organisation-name": "West Dorset District Council",
+    "reference": "LP-WDO-2011",
+    "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/adopted-local-plans/west-dorset-weymouth-and-portland-adopted-local-plan",
+    "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/327480/West+Dorset%2C+Weymouth+%26+Portland+Local+Plan+2015.pdf/e6f329e7-ec5b-52fc-7364-4a8726877184",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/327480/West+Dorset%2C+Weymouth+%26+Portland+Local+Plan+2015.pdf/e6f329e7-ec5b-52fc-7364-4a8726877184",
+        "documentation-url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning-policy/adopted-local-plans/west-dorset-weymouth-and-portland-adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-WDO-2011",
+        "document-status": "adopted",
+        "endpoint": "3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5"
+      }
+    ]
+  }
+]

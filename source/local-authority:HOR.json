@@ -23,5 +23,30 @@
         "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:HOR",
+    "organisation-name": "Horsham District Council",
+    "reference": "LP-HOR-2011",
+    "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+    "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0016/60190/Horsham-District-Planning-Framework-November-2015.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0016/60190/Horsham-District-Planning-Framework-November-2015.pdf",
+        "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-HOR-2011",
+        "document-status": "adopted",
+        "endpoint": "66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1"
+      }
+    ]
   }
 ]

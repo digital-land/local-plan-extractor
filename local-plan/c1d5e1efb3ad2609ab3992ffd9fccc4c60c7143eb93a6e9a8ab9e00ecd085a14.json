@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2018-2034",
+  "organisation-name": "Purbeck District Council",
+  "period-start-date": 2018,
+  "period-end-date": 2034,
+  "housing-numbers": [
+    {
+      "organisation-name": "Purbeck District Council",
+      "required-housing": 2976,
+      "allocated-housing": 1200,
+      "windfall-housing": 596,
+      "committed-housing": 683,
+      "broad-locations-housing": "",
+      "annual-required-housing": 186,
+      "pages": "62-67, 131",
+      "notes": "Total requirement 2,976 homes over 16 years. Allocated sites include: Moreton Station/Redbridge Pit (490), Wool (470), Lytchett Matravers (150), Upton (90). Committed housing includes completions 2018-2022 (483) plus extant permissions (305). Also includes neighbourhood plan allocations (289) and exception sites (47) plus small sites policy (139).",
+      "organisation": "local-authority:PUR"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "c1d5e1efb3ad2609ab3992ffd9fccc4c60c7143eb93a6e9a8ab9e00ecd085a14",
+  "pdf_file": "collection/document/c1d5e1efb3ad2609ab3992ffd9fccc4c60c7143eb93a6e9a8ab9e00ecd085a14.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:PUR",
+  "adoption-date": null
+}

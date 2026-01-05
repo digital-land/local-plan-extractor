@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2012-2032",
+  "organisation-name": "West Somerset District Council",
+  "period-start-date": 2012,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "West Somerset District Council",
+      "required-housing": 2900,
+      "allocated-housing": 1450,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 145,
+      "pages": "26, 27, 40, 45, 49, 51",
+      "notes": "Total requirement of 2,900 dwellings includes 450 dwellings arising from Hinkley Point C project impact. Strategic sites provide minimum 1,450 dwellings: 750 at Minehead/Alcombe (MD2), 290 at Watchet (WA2), 406 at Williton (WI2). Additional provision through other development at main settlements and villages.",
+      "organisation": "local-authority:WSO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "7a1509d33e2fa62f05630790667d36bf87f30ea105d41df06630901a229c45c6",
+  "pdf_file": "collection/document/7a1509d33e2fa62f05630790667d36bf87f30ea105d41df06630901a229c45c6.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WSO",
+  "adoption-date": null
+}
