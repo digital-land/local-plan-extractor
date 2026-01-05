@@ -81,6 +81,12 @@
     <h1 class="govuk-heading-xl">Local Plan 2015-2036</h1>
 
 
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div id="map"></div>
+  </div>
+</div>
+
 
 
 
@@ -90,11 +96,27 @@
 
     <dl class="govuk-summary-list">
       
-
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/national-park-authority:Q4972284">national-park-authority:Q4972284</a></code>
+        </dd>
+      </div>
       
 
       
 
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/national-park-authority:Q4972284">national-park-authority:Q4972284</a></code>
+          
+        </dd>
+      </div>
       
 
       
@@ -133,6 +155,11 @@
       <div class="organisation-card">
         <h3 class="govuk-heading-m">
           Broads Authority
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>national-park-authority:Q4972284</code>
+          </span>
           
         </h3>
 
@@ -238,15 +265,18 @@
       "broad-locations-housing": "",
       "committed-housing": 118,
       "notes": "The 286 total includes breakdown across 3 Housing Market Areas: Central Norfolk HMA (163), Waveney HMA (57), Great Yarmouth Borough HMA (66). Authority will allocate 146 net new dwellings but work with Great Yarmouth Borough Council to address remaining 38 dwellings. Allocated housing of 130 comes from specific site allocations (HOV3: 6, NOR1: 120, STO1: 4). Committed housing of 118 includes extant planning permissions and completions since 2015.",
-      "organisation": "",
+      "organisation": "national-park-authority:Q4972284",
       "organisation-name": "Broads Authority",
       "pages": "101-105, 240",
       "required-housing": 286,
       "windfall-housing": ""
     }
   ],
+  "local-planning-authorities": [
+    "national-park-authority:Q4972284"
+  ],
   "name": "Local Plan 2015-2036",
-  "organisation": "",
+  "organisation": "national-park-authority:Q4972284",
   "organisation-name": "Broads Authority",
   "pages_analysed": 0,
   "pdf_file": "collection/document/48f95a752c70711112198ea74166e4b56cd8eff6b759b790fd879102f5aac24c.pdf",
@@ -287,6 +317,54 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["national-park-authority:Q4972284"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
 
 
 </body>
