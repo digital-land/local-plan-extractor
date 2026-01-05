@@ -60,6 +60,50 @@ def load_document_urls(source_dir="source"):
     return document_urls
 
 
+def validate_local_plan(data, json_path):
+    """Validate that a JSON file contains valid local plan data.
+
+    Returns a tuple (is_valid, error_message).
+    A valid local plan must have:
+    - name: plan name
+    - organisation-name: organisation name
+    - period-start-date and period-end-date: plan period
+    - housing-numbers: non-empty array with housing data
+    - organisation or organisations: at least one organisation reference
+    """
+    errors = []
+
+    # Check required string fields
+    if not data.get("name"):
+        errors.append("Missing 'name'")
+
+    if not data.get("organisation-name"):
+        errors.append("Missing 'organisation-name'")
+
+    # Check period dates
+    if data.get("period-start-date") is None:
+        errors.append("Missing 'period-start-date'")
+
+    if data.get("period-end-date") is None:
+        errors.append("Missing 'period-end-date'")
+
+    # Check housing numbers (at least one entry)
+    housing_numbers = data.get("housing-numbers", [])
+    if not isinstance(housing_numbers, list) or len(housing_numbers) == 0:
+        errors.append("Missing or empty 'housing-numbers' array")
+
+    # Check for at least one organisation reference
+    has_organisation = bool(data.get("organisation"))
+    has_organisations = bool(data.get("organisations"))
+    if not has_organisation and not has_organisations:
+        errors.append("Missing both 'organisation' and 'organisations'")
+
+    if errors:
+        return False, "; ".join(errors)
+
+    return True, None
+
+
 def format_number(value):
     """Format number with thousand separators"""
     if isinstance(value, (int, float)) and value != "":
@@ -101,11 +145,19 @@ def collect_organisation_plans(local_plan_dir):
 
 
 def render_local_plan(json_path, output_dir, env, organisations_lookup, document_url_lookup=None):
-    """Render a local plan JSON file to HTML"""
+    """Render a local plan JSON file to HTML.
+
+    Returns (output_path, data) on success, or (None, None) if validation fails.
+    """
 
     # Load the JSON data
     json_path = Path(json_path)
     data = load_json(json_path)
+
+    # Validate the local plan data
+    is_valid, error_msg = validate_local_plan(data, json_path)
+    if not is_valid:
+        return None, None
 
     # Look up document-url from source data if available
     if document_url_lookup and "authority" in data:
@@ -113,13 +165,21 @@ def render_local_plan(json_path, output_dir, env, organisations_lookup, document
         if authority_id in document_url_lookup:
             data["document-url"] = document_url_lookup[authority_id]
 
-    # Check if PDF file exists
+    # Check if PDF file exists and its size
+    MAX_PDF_SIZE = 100 * 1024 * 1024  # 100 MB limit
     if data.get("pdf_file"):
         pdf_path = Path(data["pdf_file"])
         if not pdf_path.exists():
             data["pdf_file_missing"] = True
+            # If PDF is missing but we have a source URL, provide helpful message
+            if data.get("document-url"):
+                data["error"] = "PDF file is too large to display in browser. Please view the original document using the source link above."
         else:
             data["pdf_file_missing"] = False
+            file_size = pdf_path.stat().st_size
+            if file_size > MAX_PDF_SIZE:
+                size_mb = file_size / (1024 * 1024)
+                data["error"] = f"PDF file is too large ({size_mb:.0f} MB) to display in browser. Please view the original document from the source link above."
     else:
         data["pdf_file_missing"] = False
 
@@ -291,22 +351,30 @@ Examples:
     # Render all local plan pages
     print("\nRendering local plan pages...")
     rendered_plans = 0
+    skipped_plans = 0
     plans_data = []
     for json_path in json_files:
         try:
             output_path, data = render_local_plan(
                 json_path, args.output, env, org_names, document_urls
             )
-            print(f"  ✓ {json_path.stem}")
-            rendered_plans += 1
-            # Add filename for linking
-            data["filename"] = json_path.stem
-            # Include housing-numbers for organisation lookup in index template
-            plans_data.append(data)
+            if output_path is None:
+                # Validation failed
+                print(f"  ⊘ {json_path.stem} (validation failed)", file=sys.stderr)
+                skipped_plans += 1
+            else:
+                print(f"  ✓ {json_path.stem}")
+                rendered_plans += 1
+                # Add filename for linking
+                data["filename"] = json_path.stem
+                # Include housing-numbers for organisation lookup in index template
+                plans_data.append(data)
         except Exception as e:
             print(f"  ✗ {json_path.stem}: {e}", file=sys.stderr)
 
     print(f"\n✓ Rendered {rendered_plans} local plan pages")
+    if skipped_plans > 0:
+        print(f"⊘ Skipped {skipped_plans} invalid local plans")
 
     # Render index page
     print("\nRendering index page...")
