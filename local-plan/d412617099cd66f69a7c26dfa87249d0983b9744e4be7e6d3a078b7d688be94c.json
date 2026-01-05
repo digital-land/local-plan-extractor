@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Doncaster Local Plan 2015-2035",
   "organisation-name": "Doncaster Council",
   "period-start-date": 2018,
   "period-end-date": 2035,
@@ -23,8 +23,6 @@
   "pages_analysed": 1,
   "organisation": "local-authority:DNC",
   "local-plan-boundary": "E60000065",
-  "local-planning-authorities": [
-    "E60000065"
-  ],
+  "local-planning-authorities": ["E60000065"],
   "adoption-date": "2021-09-23"
 }

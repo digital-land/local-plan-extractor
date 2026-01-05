@@ -1,12 +1,3 @@
-Processing single PDF file: d01d1314314ded83d2f2b0241e705515ffc3f7f21c3345431f9c5e06d947a909.pdf
-
-
-Processing: collection/document/d01d1314314ded83d2f2b0241e705515ffc3f7f21c3345431f9c5e06d947a909.pdf
-  Scanning 156 pages for relevant content...
-  Selected top 32 pages (scores: [80, 63, 60, 58, 45, 40, 40, 35, 33, 28, 25, 25, 25, 25, 25, 23, 23, 20, 20, 20, 20, 20, 20, 20, 20, 18, 18, 16, 15, 15, 15, 15])
-  Extracted PDF size: 1,099,885 bytes
-  Sending 32 pages to Claude API...
-  ✓ Extraction complete
 {
   "name": "Derbyshire Dales District Council Local Plan 2013-2033",
   "organisation-name": "Derbyshire Dales District Council",

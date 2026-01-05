@@ -1,20 +1,11 @@
-Processing single PDF file: 5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd.pdf
-
-
-Processing: collection/document/5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd.pdf
-  Scanning 356 pages for relevant content...
-  Selected top 32 pages (scores: [70, 60, 50, 50, 45, 40, 40, 35, 30, 28, 25, 25, 25, 25, 25, 25, 25, 25, 23, 23, 23, 23, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20])
-  Extracted PDF size: 457,465 bytes
-  Sending 32 pages to Claude API...
-  ✓ Extraction complete
 {
   "name": "Camden Local Plan",
-  "organisation-name": "Camden Council",
+  "organisation-name": "London Borough of Camden",
   "period-start-date": 2016,
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "organisation-name": "Camden Council",
+      "organisation-name": "London Borough of Camden",
       "required-housing": 16800,
       "allocated-housing": 7137,
       "windfall-housing": 2035,
@@ -23,12 +14,12 @@ Processing: collection/document/5b321f81a1397d368242929feacce66a54eaf10df02aed11
       "annual-required-housing": 1120,
       "pages": "16, 44-46, 343",
       "notes": "Plan seeks to exceed 16,800 target. Breakdown from housing trajectory: Site Allocations 7,137, CIP sites 2,250, student bedrooms 2,232 (counted as housing), permissions at April 2015 total 3,088, windfall 2,035, Kentish Town Regis Road growth area 1,300. Self-contained housing priority with target of 11,130 additional self-contained homes.",
-      "organisation": ""
+      "organisation": "local-authority:CMD"
     }
   ],
   "confidence": "high",
   "authority": "5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd",
   "pdf_file": "collection/document/5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd.pdf",
   "pages_analysed": 32,
-  "organisation": ""
+  "organisation": "local-authority:CMD"
 }

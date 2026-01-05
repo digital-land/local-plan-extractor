@@ -1,12 +1,3 @@
-Processing single PDF file: 8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf
-
-
-Processing: collection/document/8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf
-  Scanning 303 pages for relevant content...
-  Selected top 32 pages (scores: [15, 15, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10])
-  Extracted PDF size: 2,009,901 bytes
-  Sending 32 pages to Claude API...
-  ✓ Extraction complete
 {
   "name": "Local Plan 2033",
   "organisation-name": "London Borough of Hackney",

@@ -2,7 +2,7 @@
 <html lang="en" class="govuk-template">
 <head>
   <meta charset="utf-8">
-  <title>Local Plan 2018-2033 - Local Plan Extractor</title>
+  <title>Local Plan 2033 - Local Plan Extractor</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0b0c0c">
 
@@ -70,7 +70,7 @@
       <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
     </li>
     <li class="govuk-breadcrumbs__list-item">
-      Local Plan 2018-2033
+      Local Plan 2033
     </li>
   </ol>
 </div>
@@ -78,8 +78,14 @@
 
     <main class="govuk-main-wrapper" id="main-content" role="main">
       
-    <h1 class="govuk-heading-xl">Local Plan 2018-2033</h1>
+    <h1 class="govuk-heading-xl">Local Plan 2033</h1>
 
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <div id="map"></div>
+  </div>
+</div>
 
 
 
@@ -90,19 +96,42 @@
 
     <dl class="govuk-summary-list">
       
-
-      
-
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/local-authority:HCK">local-authority:HCK</a></code>
+        </dd>
+      </div>
       
 
       
 
       
       <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local plan boundary</dt>
+        <dd class="govuk-summary-list__value">
+          <code>E60000190</code>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Local planning authorities</dt>
+        <dd class="govuk-summary-list__value">
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000190">E60000190</a></code>
+          
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Plan period</dt>
         <dd class="govuk-summary-list__value">
-          2018 to 2033
-          (15 years)
+          2016 to 2033
+          (17 years)
         </dd>
       </div>
       
@@ -121,8 +150,98 @@
       
 
       
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
     </dl>
 
+    
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          London Borough of Hackney
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:HCK</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>26,250 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,750 homes per year
+            </dd>
+          </div>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              12, 89-90
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Housing need is 1,750 homes per year (26,250 total). Capacity identified for 1,330 homes per year between 2019-2029. Growth distributed: 35% Shoreditch (~7,000 homes), 15% Hackney Central (~3,000), 10% Dalston (~2,000), 15% Woodberry Down/Stamford Hill (~3,000). Almost half delivery expected from small sites.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
     
 
     
@@ -135,19 +254,35 @@
       </summary>
       <div class="govuk-details__text">
         <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
-  "adoption-date": null,
   "authority": "8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164",
-  "confidence": "low",
+  "confidence": "high",
   "document-url": "https://drive.google.com/file/d/1HRu0A_fdoWUi3OBfzUT03TT4S9gYwHDq/view",
-  "housing-numbers": [],
-  "name": "Local Plan 2018-2033",
-  "organisation": "",
+  "housing-numbers": [
+    {
+      "allocated-housing": "",
+      "annual-required-housing": 1750,
+      "broad-locations-housing": "",
+      "committed-housing": "",
+      "notes": "Housing need is 1,750 homes per year (26,250 total). Capacity identified for 1,330 homes per year between 2019-2029. Growth distributed: 35% Shoreditch (~7,000 homes), 15% Hackney Central (~3,000), 10% Dalston (~2,000), 15% Woodberry Down/Stamford Hill (~3,000). Almost half delivery expected from small sites.",
+      "organisation": "local-authority:HCK",
+      "organisation-name": "London Borough of Hackney",
+      "pages": "12, 89-90",
+      "required-housing": 26250,
+      "windfall-housing": ""
+    }
+  ],
+  "local-plan-boundary": "E60000190",
+  "local-planning-authorities": [
+    "E60000190"
+  ],
+  "name": "Local Plan 2033",
+  "organisation": "local-authority:HCK",
   "organisation-name": "London Borough of Hackney",
-  "pages_analysed": 0,
+  "pages_analysed": 32,
   "pdf_file": "collection/document/8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.pdf",
   "pdf_file_missing": false,
   "period-end-date": 2033,
-  "period-start-date": 2018
+  "period-start-date": 2016
 }</code></pre>
       </div>
     </details>
@@ -182,6 +317,54 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 
   
+
+<script>
+  // Initialize the map
+  var map = L.map('map').setView([52.5, -1.5], 7);
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // List of local planning authorities to display
+  var lpasToDisplay = ["E60000190"];
+
+  // Load the GeoJSON file
+  fetch('../var/cache/local-planning-authority.geojson')
+    .then(response => response.json())
+    .then(data => {
+      // Filter features to only include the local planning authorities for this plan
+      var filteredFeatures = data.features.filter(function(feature) {
+        return lpasToDisplay.includes(feature.properties.reference);
+      });
+
+      // Create a GeoJSON layer with the filtered features
+      var geojsonLayer = L.geoJSON(filteredFeatures, {
+        style: {
+          color: '#1d70b8',
+          weight: 2,
+          fillColor: '#1d70b8',
+          fillOpacity: 0.2
+        },
+        onEachFeature: function(feature, layer) {
+          if (feature.properties && feature.properties.name) {
+            layer.bindPopup('<strong>' + feature.properties.name + '</strong><br>' +
+                          'Reference: ' + feature.properties.reference);
+          }
+        }
+      }).addTo(map);
+
+      // Fit the map to the bounds of the GeoJSON layer
+      if (filteredFeatures.length > 0) {
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [20, 20] });
+      }
+    })
+    .catch(error => {
+      console.error('Error loading GeoJSON:', error);
+      document.getElementById('map').innerHTML = '<div style="padding: 20px; text-align: center; color: #d4351c;">Error loading boundary map. Please check that the GeoJSON file is available.</div>';
+    });
+</script>
 
 
 </body>
