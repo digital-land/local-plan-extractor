@@ -4,15 +4,24 @@
     "organisation-name": "City of York Council",
     "reference": "LP-YOR-2025",
     "documentation-url": "https://www.york.gov.uk/AdoptedLocalPlan",
-    "document-url": "https://www.york.gov.uk/downloads/file/1314/cd001-city-of-york-local-plan-publication-draft-regulation-19-consultation-february-2018-",
+    "document-url": "https://www.york.gov.uk/downloads/file/10103/city-of-york-adopted-local-plan-2025",
     "name": "City of York Local Plan",
     "status": "adopted",
     "year": 2025,
-    "period-start-date": "",
+    "period-start-date": 2017,
     "period-end-date": 2033,
-    "adoption-date": "2012-10",
+    "adoption-date": "2025-02-27",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.york.gov.uk/downloads/file/10103/city-of-york-adopted-local-plan-2025",
+        "documentation-url": "https://www.york.gov.uk/AdoptedLocalPlan",
+        "document-type": "local-plan",
+        "name": "City of York Adopted Local Plan 2025",
+        "reference": "LP-2025",
+        "document-status": "adopted",
+        "endpoint": "b6b7b455f91ddca3ab019503ffc6a5d4b770cc9a136eb46f159ce597b6688a01"
+      },
       {
         "document-url": "https://www.york.gov.uk/downloads/file/1314/cd001-city-of-york-local-plan-publication-draft-regulation-19-consultation-february-2018-",
         "documentation-url": "https://www.york.gov.uk/downloads/download/420/local-plan-submission-documents-1",

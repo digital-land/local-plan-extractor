@@ -1,0 +1,30 @@
+{
+  "name": "City of York Local Plan",
+  "organisation-name": "City of York Council",
+  "period-start-date": 2017,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "City of York Council",
+      "required-housing": 13152,
+      "allocated-housing": 9893,
+      "windfall-housing": 1592,
+      "committed-housing": 2149,
+      "broad-locations-housing": "",
+      "annual-required-housing": 822,
+      "pages": "36, 37, 134-135",
+      "notes": "Total requirement is 822dpa x 16 years = 13,152. Allocated housing includes 8,160 from Strategic Housing Allocations (ST sites) plus 1,733 from Housing Allocations (H sites). Net completions 2017-2022 of 3,767 are included in the overall supply calculation but separate from commitments.",
+      "organisation": "local-authority:YOR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b6b7b455f91ddca3ab019503ffc6a5d4b770cc9a136eb46f159ce597b6688a01",
+  "pdf_file": "collection/document/b6b7b455f91ddca3ab019503ffc6a5d4b770cc9a136eb46f159ce597b6688a01.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:YOR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000056",
+  "local-planning-authorities": [
+    "E60000056"
+  ]
+}

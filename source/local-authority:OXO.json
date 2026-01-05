@@ -4,7 +4,7 @@
     "organisation-name": "Oxford City Council",
     "reference": "LP-OXO-2020",
     "documentation-url": "https://www.oxford.gov.uk/localplan",
-    "document-url": "https://www.oxford.gov.uk/downloads/file/1825/oxford-local-plan-2036-inspectors-report",
+    "document-url": "https://www.oxford.gov.uk/downloads/file/1637/adopted-oxford-local-plan-2036",
     "name": "Oxford Local Plan 2016-2036",
     "status": "adopted",
     "year": 2020,
@@ -13,6 +13,15 @@
     "adoption-date": "2020-06-08",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.oxford.gov.uk/downloads/file/1637/adopted-oxford-local-plan-2036",
+        "documentation-url": "https://www.oxford.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Adopted Oxford Local Plan 2036",
+        "reference": "LP-2020",
+        "document-status": "adopted",
+        "endpoint": "de7446d1d83cece0d1851de288176432651cff32651dd58e4f4c95f13598f5c2"
+      },
       {
         "document-url": "https://www.oxford.gov.uk/downloads/file/1825/oxford-local-plan-2036-inspectors-report",
         "documentation-url": "https://www.oxford.gov.uk/downloads/download/481/downloads-for-oxford-local-plan-2036-inspectors-report",
