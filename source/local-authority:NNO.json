@@ -1,0 +1,90 @@
+[
+  {
+    "organisation": "local-authority:NNO",
+    "organisation-name": "North Norfolk District Council",
+    "reference": "LP-NNO-2025",
+    "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+    "document-url": "https://www.north-norfolk.gov.uk/media/11773/north-norfolk-local-plan-2024-2040.pdf",
+    "name": "North Norfolk Local Plan 2024-2040",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2040,
+    "adoption-date": "2025-12-17",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11773/north-norfolk-local-plan-2024-2040.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "local-plan-adopted",
+        "name": "Adopted Local Plan 2024 to 2040",
+        "reference": "LP-2024-2040",
+        "document-status": "adopted",
+        "endpoint": "9c08c0ecf0c41549b709ed63a48d6555e9fcec4b5661e41de9db4e0afe1285ba"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "policies-map",
+        "name": "Adopted Policies Map",
+        "reference": "PM-2025",
+        "document-status": "adopted",
+        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11727/report-on-the-examination-of-the-north-norfolk-local-plan.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-examination/",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report",
+        "reference": "IR-2025",
+        "document-status": "adopted",
+        "endpoint": "ef2cb917bacbdd6ec5d24aa8461f471de9a28f6e9bde9b4fb4564ba3c831ea7a"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11728/schedule-of-main-modifications-to-the-north-norfolk-local-plan-appendix-to-the-inspector-s-final-report.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-examination/",
+        "document-type": "main-modifications",
+        "name": "Appendix: Schedule of Main Modifications",
+        "reference": "MM-2025",
+        "document-status": "adopted",
+        "endpoint": "528e19f01b3cbe55a7904b90ee47d3d2a241de2e9531de6cea8b507b6817fbc0"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11762/local-plan-adoption-statement.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "adoption-statement",
+        "name": "Local Plan Adoption Statement",
+        "reference": "AS-2025",
+        "document-status": "adopted",
+        "endpoint": "a8c2ccaa5f5818af7c6038705ff66da7eda6848fe64576b4e0c445547ffae3c5"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11763/sustainability-appraisal-incorporating-hra-adoption-statement.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal (incorporating HRA) Adoption Statement",
+        "reference": "SA-AS-2025",
+        "document-status": "adopted",
+        "endpoint": "722ee9316faaf684752322fbba3ba11fd8fb2e8c08b2af9346f21626373c75d6"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11761/equality-impact-assessment.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment",
+        "reference": "EIA-2025",
+        "document-status": "adopted",
+        "endpoint": "f7a362ac5122eda7692d12c4af31a05120c6d264943d6bbce2f7f6c1a63f501a"
+      },
+      {
+        "document-url": "https://www.north-norfolk.gov.uk/media/11793/marketing-evidence-external-guidance.pdf",
+        "documentation-url": "https://www.north-norfolk.gov.uk/tasks/planning-services/planning-policy/local-plan-new/",
+        "document-type": "local-plan",
+        "name": "Marketing Evidence",
+        "reference": "ME-2025",
+        "document-status": "adopted",
+        "endpoint": "9c091835821bebe70e0759871f1bd3b1b59f2fc1c9625526d7d06fe811818ef7"
+      }
+    ]
+  }
+]
