@@ -1,0 +1,26 @@
+{
+  "name": "Lake District National Park Local Plan 2020-2035",
+  "organisation-name": "Lake District National Park Authority",
+  "period-start-date": 2020,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lake District National Park Authority",
+      "required-housing": 1200,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 80,
+      "pages": "58, 108",
+      "notes": "Plan provides for minimum 1,200 new permanent homes between 2020-2035. Target is 80 homes per annum as stated in Policy 15 and monitoring framework. Focus is on affordable housing and permanent occupancy restrictions rather than open market housing.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "e2efdd8b1862e393c6b41ae1d78a018309ba49891fd8385be51923a15e601d6a",
+  "pdf_file": "collection/document/e2efdd8b1862e393c6b41ae1d78a018309ba49891fd8385be51923a15e601d6a.pdf",
+  "pages_analysed": 32,
+  "organisation": "national-park-authority:Q27159704",
+  "adoption-date": "2021-05"
+}

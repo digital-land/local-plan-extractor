@@ -2,32 +2,25 @@
   {
     "organisation": "national-park-authority:Q27159704",
     "organisation-name": "Lake District National Park Authority",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "national-park-authority:Q27159704",
-    "organisation-name": "Lake District National Park Authority",
     "reference": "LP-Q27159704-2020",
     "documentation-url": "https://www.lakedistrict.gov.uk/planning/planningpolicies/local-plan",
-    "document-url": "https://www.lakedistrict.gov.uk/__data/assets/pdf_file/0018/52119/Housing-SPD-2021-FINAL-v5.PDF",
+    "document-url": "https://www.lakedistrict.gov.uk/__data/assets/pdf_file/0025/49543/Lake-District-Local-PLan-2020-2035-FINAL-ADOPTED.pdf",
     "name": "Local Plan 2020-2035",
     "status": "adopted",
     "year": 2020,
     "period-start-date": 2020,
     "period-end-date": 2035,
-    "adoption-date": null,
+    "adoption-date": "2021-05",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.lakedistrict.gov.uk/__data/assets/pdf_file/0018/52119/Housing-SPD-2021-FINAL-v5.PDF",
+        "document-url": "https://www.lakedistrict.gov.uk/__data/assets/pdf_file/0025/49543/Lake-District-Local-PLan-2020-2035-FINAL-ADOPTED.pdf",
         "documentation-url": "https://www.lakedistrict.gov.uk/planning/planningpolicies/local-plan",
         "document-type": "local-plan",
         "name": "Adopted Local Plan 2020-2035",
         "reference": "LP-Q27159704-2020",
         "document-status": "adopted",
-        "endpoint": "4482505a26c2632d621bf7a6800922443c8f48dec10dfe23405defeab37a67c8"
+        "endpoint": "e2efdd8b1862e393c6b41ae1d78a018309ba49891fd8385be51923a15e601d6a"
       }
     ]
   }
