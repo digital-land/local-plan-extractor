@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template">
+<head>
+  <meta charset="utf-8">
+  <title>Worthing Plan 2020-2036 - Local Plan Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <link rel="stylesheet" href="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <style>
+    .housing-numbers-table {
+      margin-top: 20px;
+    }
+    .govuk-summary-list__value--number {
+      font-family: "GDS Transport", arial, sans-serif;
+      -webkit-font-feature-settings: "tnum" 1;
+      font-feature-settings: "tnum" 1;
+    }
+    .organisation-breakdown {
+      margin-top: 40px;
+    }
+    .organisation-card {
+      border-left: 4px solid #1d70b8;
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .tag-list {
+      margin-top: 10px;
+    }
+    .govuk-tag + .govuk-tag {
+      margin-left: 5px;
+    }
+    #map {
+      height: 500px;
+      width: 100%;
+      margin-bottom: 40px;
+      border: 2px solid #b1b4b6;
+    }
+  </style>
+
+  
+</head>
+
+<body class="govuk-template__body">
+  <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+
+  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+  <header class="govuk-header" role="banner" data-module="govuk-header">
+    <div class="govuk-header__container govuk-width-container">
+      <div class="govuk-header__logo">
+        <a href="../index.html" class="govuk-header__link govuk-header__link--homepage">
+          <span class="govuk-header__logotype">
+            <span class="govuk-header__logotype-text">
+              Local Plan Extractor
+            </span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="govuk-width-container">
+    
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="../index.html">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Worthing Plan 2020-2036
+    </li>
+  </ol>
+</div>
+
+
+    <main class="govuk-main-wrapper" id="main-content" role="main">
+      
+    <h1 class="govuk-heading-xl">Worthing Plan 2020-2036</h1>
+
+
+
+
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <h2 class="govuk-heading-l" style="margin-top: 40px;">Plan details</h2>
+
+    <dl class="govuk-summary-list">
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Organisation</dt>
+        <dd class="govuk-summary-list__value">
+            <code><a href="../organisation/local-authority:WOT">local-authority:WOT</a></code>
+        </dd>
+      </div>
+      
+
+      
+
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Plan period</dt>
+        <dd class="govuk-summary-list__value">
+          2020 to 2036
+          (16 years)
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Adoption date</dt>
+        <dd class="govuk-summary-list__value">
+          2023-03-28
+        </dd>
+      </div>
+      
+
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Source PDF</dt>
+        <dd class="govuk-summary-list__value">
+          <a href="https://www.adur-worthing.gov.uk/media/Media,169486,smxx.pdf" class="govuk-link">https://www.adur-worthing.gov.uk/media/Media,169486,smxx.pdf</a>
+        </dd>
+      </div>
+      
+
+      
+      <div class="govuk-summary-list__row">
+        <dt class="govuk-summary-list__key">Pages analysed</dt>
+        <dd class="govuk-summary-list__value">
+          32
+        </dd>
+      </div>
+      
+    </dl>
+
+    
+    <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+      <!-- Housing Numbers on the left -->
+      <div>
+        <h2 class="govuk-heading-l">Housing numbers</h2>
+        <div class="organisation-breakdown" style="margin-top: 0;">
+          
+      <div class="organisation-card">
+        <h3 class="govuk-heading-m">
+          Worthing Borough Council
+          
+          <br>
+          <span class="govuk-body-s" style="font-weight: normal;">
+            <code>local-authority:WOT</code>
+          </span>
+          
+        </h3>
+
+        <dl class="govuk-summary-list">
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              <strong>14,160 homes</strong>
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Annual required housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              885 homes per year
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Allocated housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              1,753 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Committed housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              909 homes
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Windfall housing</dt>
+            <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+              871 homes
+            </dd>
+          </div>
+          
+
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Pages</dt>
+            <dd class="govuk-summary-list__value">
+              47, 49-50, 192
+            </dd>
+          </div>
+          
+
+          
+          <div class="govuk-summary-list__row">
+            <dt class="govuk-summary-list__key">Notes</dt>
+            <dd class="govuk-summary-list__value">
+              Capacity-based target is 3,672 homes (230 per annum) due to land constraints. Full objectively assessed need is 14,160 homes (885 per annum) but cannot be met due to physical constraints. Allocated sites include 9 urban brownfield sites and 5 edge-of-town sites.
+            </dd>
+          </div>
+          
+        </dl>
+      </div>
+      
+        </div> <!-- Close organisation-breakdown div -->
+      </div> <!-- Close left column div (housing numbers) -->
+
+      <!-- PDF Viewer on the right -->
+      <div>
+        <h2 class="govuk-heading-l">Document</h2>
+        
+        <div style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px;">
+          <embed
+            src="../collection/document/7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f.pdf"
+            type="application/pdf"
+            style="width: 100%; height: 100%;"
+            title="Local Plan PDF">
+          </embed>
+        </div>
+        
+      </div> <!-- Close right column div (PDF) -->
+    </div> <!-- Close grid container div -->
+    
+
+    
+
+    <details class="govuk-details" style="margin-top: 40px;">
+      <summary class="govuk-details__summary">
+        <span class="govuk-details__summary-text">
+          View raw JSON data
+        </span>
+      </summary>
+      <div class="govuk-details__text">
+        <pre style="background: #f3f2f1; padding: 20px; overflow-x: auto;"><code>{
+  "adoption-date": "2023-03-28",
+  "authority": "7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f",
+  "confidence": "high",
+  "document-url": "https://www.adur-worthing.gov.uk/media/Media,169486,smxx.pdf",
+  "housing-numbers": [
+    {
+      "allocated-housing": 1753,
+      "annual-required-housing": 885,
+      "broad-locations-housing": "",
+      "committed-housing": 909,
+      "notes": "Capacity-based target is 3,672 homes (230 per annum) due to land constraints. Full objectively assessed need is 14,160 homes (885 per annum) but cannot be met due to physical constraints. Allocated sites include 9 urban brownfield sites and 5 edge-of-town sites.",
+      "organisation": "local-authority:WOT",
+      "organisation-name": "Worthing Borough Council",
+      "pages": "47, 49-50, 192",
+      "required-housing": 14160,
+      "windfall-housing": 871
+    }
+  ],
+  "name": "Worthing Plan 2020-2036",
+  "organisation": "local-authority:WOT",
+  "organisation-name": "Worthing Borough Council",
+  "pages_analysed": 32,
+  "pdf_file": "collection/document/7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f.pdf",
+  "pdf_file_missing": false,
+  "period-end-date": 2036,
+  "period-start-date": 2020
+}</code></pre>
+      </div>
+    </details>
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  <footer class="govuk-footer" role="contentinfo">
+    <div class="govuk-width-container">
+      <div class="govuk-footer__meta">
+        <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+          <h2 class="govuk-visually-hidden">Support links</h2>
+          <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
+  <script>
+    window.GOVUKFrontend.initAll()
+  </script>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  
+
+
+</body>
+</html>

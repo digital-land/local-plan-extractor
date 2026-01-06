@@ -768,6 +768,9 @@ class LocalPlanFinder:
             "local-authority:WGN": [  # Wigan
                 "/Council/Strategies-Plans-and-Policies/Planning/Local-plan/CoreStrategy.aspx",
             ],
+            "local-authority:WOT": [ # Worthing
+                "/worthing-local-plan-2023/",
+            ],
             "national-park-authority:Q27178932": [  # Yorkshire Dales
                 "/park-authority/living-and-working/planning-policy/local-planning-policy-pre-boundary-extension/",
             ],
