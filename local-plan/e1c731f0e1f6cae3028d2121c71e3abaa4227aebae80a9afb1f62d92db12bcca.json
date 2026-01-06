@@ -33,6 +33,10 @@
   "authority": "e1c731f0e1f6cae3028d2121c71e3abaa4227aebae80a9afb1f62d92db12bcca",
   "pdf_file": "collection/document/e1c731f0e1f6cae3028d2121c71e3abaa4227aebae80a9afb1f62d92db12bcca.pdf",
   "pages_analysed": 32,
-  "organisation": "",
+  "organisations": [
+    "local-authority:PLY",
+    "local-authority:SHA",
+    "local-authority:WDE"
+  ],
   "adoption-date": "2019-03-21"
 }
