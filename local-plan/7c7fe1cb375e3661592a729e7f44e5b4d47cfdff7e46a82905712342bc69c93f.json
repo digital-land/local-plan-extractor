@@ -22,5 +22,9 @@
   "pdf_file": "collection/document/7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:WOT",
+  "local-plan-boundary": "E60000287",
+  "local-planning-authorities": [
+    "E60000287"
+  ],
   "adoption-date": "2023-03-28"
 }

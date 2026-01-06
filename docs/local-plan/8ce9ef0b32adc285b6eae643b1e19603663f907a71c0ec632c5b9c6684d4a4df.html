@@ -99,7 +99,7 @@
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Organisation</dt>
         <dd class="govuk-summary-list__value">
-            <code><a href="../organisation/joint-planning-authority:BRA-TEN">joint-planning-authority:BRA-TEN</a></code>
+            <code><a href="../organisation/joint-planning-authority:BRA-COL-TEN">joint-planning-authority:BRA-COL-TEN</a></code>
         </dd>
       </div>
       
@@ -112,6 +112,12 @@
             <div style="margin-bottom: 5px;">
               <a href="../organisation/local-authority:BRA/" class="govuk-link">
                 Braintree District Council
+              </a>
+            </div>
+          
+            <div style="margin-bottom: 5px;">
+              <a href="../organisation/local-authority:COL/" class="govuk-link">
+                Colchester City Council
               </a>
             </div>
           
@@ -129,7 +135,7 @@
       <div class="govuk-summary-list__row">
         <dt class="govuk-summary-list__key">Local plan boundary</dt>
         <dd class="govuk-summary-list__value">
-          <code>E60000155-E60000164</code>
+          <code>E60000155-E60000159-E60000164</code>
         </dd>
       </div>
       
@@ -140,6 +146,8 @@
         <dd class="govuk-summary-list__value">
           
           <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000155">E60000155</a></code>
+          
+          <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000159">E60000159</a></code>
           
           <code style="display: block; margin-bottom: 5px;"><a href="https://planning.data.gov.uk/prefix/statistical-geography/reference/E60000164">E60000164</a></code>
           
@@ -369,7 +377,7 @@
           
           <br>
           <span class="govuk-body-s" style="font-weight: normal;">
-            <code>joint-planning-authority:BRA-TEN</code>
+            <code>joint-planning-authority:BRA-COL-TEN</code>
           </span>
           
         </h3>
@@ -512,23 +520,25 @@
       "broad-locations-housing": 0,
       "committed-housing": 0,
       "notes": "",
-      "organisation": "joint-planning-authority:BRA-TEN",
+      "organisation": "joint-planning-authority:BRA-COL-TEN",
       "organisation-name": "Braintree District Council, Colchester Borough Council, Tendring District Council",
       "pages": "",
       "required-housing": 43720,
       "windfall-housing": 0
     }
   ],
-  "local-plan-boundary": "E60000155-E60000164",
+  "local-plan-boundary": "E60000155-E60000159-E60000164",
   "local-planning-authorities": [
     "E60000155",
+    "E60000159",
     "E60000164"
   ],
   "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities\u0027 Shared Strategic Section 1 Plan",
-  "organisation": "joint-planning-authority:BRA-TEN",
+  "organisation": "joint-planning-authority:BRA-COL-TEN",
   "organisation-name": "Braintree District Council, Colchester Borough Council, Tendring District Council",
   "organisations": [
     "local-authority:BRA",
+    "local-authority:COL",
     "local-authority:TEN"
   ],
   "pages_analysed": 32,
@@ -581,7 +591,7 @@
   }).addTo(map);
 
   // List of local planning authorities to display
-  var lpasToDisplay = ["E60000155", "E60000164"];
+  var lpasToDisplay = ["E60000155", "E60000159", "E60000164"];
 
   // Load the GeoJSON file
   fetch('../var/cache/local-planning-authority.geojson')

@@ -22,5 +22,9 @@
   "pdf_file": "collection/document/9c08c0ecf0c41549b709ed63a48d6555e9fcec4b5661e41de9db4e0afe1285ba.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:NNO",
+  "local-plan-boundary": "E60000180",
+  "local-planning-authorities": [
+    "E60000180"
+  ],
   "adoption-date": "2025-12-17"
 }

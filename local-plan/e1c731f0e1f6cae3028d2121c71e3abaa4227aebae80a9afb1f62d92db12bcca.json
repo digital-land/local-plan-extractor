@@ -38,5 +38,12 @@
     "local-authority:SHA",
     "local-authority:WDE"
   ],
-  "adoption-date": "2019-03-21"
+  "adoption-date": "2019-03-21",
+  "local-plan-boundary": "E60000295-E60000304-E60000307",
+  "local-planning-authorities": [
+    "E60000295",
+    "E60000304",
+    "E60000307"
+  ],
+  "organisation": "joint-planning-authority:PLY-SHA-WDE"
 }

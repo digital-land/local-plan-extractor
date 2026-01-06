@@ -25,5 +25,11 @@
     "local-authority:NDE",
     "local-authority:TOR"
   ],
-  "adoption-date": "2018-10"
+  "adoption-date": "2018-10",
+  "local-plan-boundary": "E60000303-E60000306",
+  "local-planning-authorities": [
+    "E60000303",
+    "E60000306"
+  ],
+  "organisation": "joint-planning-authority:NDE-TOR"
 }
