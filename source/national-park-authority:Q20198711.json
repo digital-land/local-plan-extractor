@@ -4,15 +4,24 @@
     "organisation-name": "South Downs National Park Authority",
     "reference": "LP-SDNPA-2019",
     "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/",
-    "document-url": "",
+    "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/07/SD_LocalPlan_2019_17Wb.pdf",
     "name": "South Downs Local Plan 2014-2033",
     "status": "adopted",
     "year": 2019,
     "period-start-date": 2014,
     "period-end-date": 2033,
-    "adoption-date": null,
+    "adoption-date": "2019-07-02",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2019/07/SD_LocalPlan_2019_17Wb.pdf",
+        "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/",
+        "document-type": "local-plan",
+        "name": "South Downs Local Plan 2014-2033",
+        "reference": "LP-2014-2033",
+        "document-status": "adopted",
+        "endpoint": "67e30beb2da0f0c9c4608eca6b2c2b34c941c937962a389b4ade8fe68d9eb161"
+      },
       {
         "document-url": "https://www.southdowns.gov.uk/wp-content/uploads/2018/06/SDNPA.1-SDNPA-response-to-Preliminary-note-from-Inspector.pdf",
         "documentation-url": "https://www.southdowns.gov.uk/planning-policy/south-downs-local-plan/local-plan-evidence-base/core-document-library/authoritys-documents/",

@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-Generate local plan CSVs from source JSON files and extracted housing data.
+Generate local plan CSVs from local plan source data with extracted enrichment.
 
 This script creates three CSV files:
-1. local-plan.csv - Main local plan documents
-2. local-plan-document.csv - Individual plan documents
-3. local-plan-housing.csv - Housing requirements data (automatically loaded from local-plan/)
+1. local-plan.csv - All local plans (draft and adopted) with enrichment from extracted data
+2. local-plan-document.csv - Individual plan documents from source
+3. local-plan-housing.csv - Housing requirements data from extracted local-plan/ files
 
-Housing data is automatically loaded from extracted local plan JSON files in the local-plan/ directory.
+Local plan data is sourced from source/ JSON files (both draft and adopted plans).
+Enrichment data (local-planning-authorities E0x codes, housing data) is merged from
+extracted local-plan/ JSON files where available.
 
 Usage:
-    python bin/generate-csvs.py                              # Process all LPAs with auto-loaded housing data
-    python bin/generate-csvs.py --lpa PEN,BOT,SHO           # Process specific LPAs
-    python bin/generate-csvs.py --output-dir ./data/        # Specify output directory
-    python bin/generate-csvs.py --existing-datasets ./path/  # Reuse existing entity numbers
+    python bin/generate-csvs.py                              # Generate CSVs for all local plans
+    python bin/generate-csvs.py --lpa PEN,BOT,SHO           # Generate CSVs for specific LPAs
+    python bin/generate-csvs.py --output-dir ./dataset/        # Specify output directory
+    python bin/generate-csvs.py --lpa BRO --output-dir ./   # Combine options
 """
 
 import json
@@ -53,6 +55,9 @@ class LocalPlanCSVGenerator:
         self.local_plan_housing = []
         self.housing_data = {}
 
+        # Track plan references we've already processed (to avoid duplicates)
+        self.processed_plan_references = set()
+
         # Document counter tracking for reference generation
         self.authority_plan_counters = {}  # (authority_slug, year) -> counter
         self.current_plan_reference = None
@@ -67,22 +72,47 @@ class LocalPlanCSVGenerator:
         # Key: organisation code -> List of authorities
         self.joint_plan_organisations = {}
 
+        # Map to track source metadata (document-url, documentation-url, local-plan-process) by organisation
+        # Key: organisation -> {document-url, documentation-url, local-plan-process}
+        self.source_metadata = {}
+
+        # Map to store enrichment data from extracted local-plan/ files
+        # Indexed by PDF endpoint hash for matching with source documents
+        self.enrichment_by_endpoint = {}  # endpoint hash -> enriched data
+        self.enrichment_by_org = {}  # organisation -> enriched data
+
         # Load joint plan mappings from the joint-local-plans.json file
         self._load_joint_plan_mappings()
+
+        # Load source metadata for enrichment
+        self._load_source_metadata()
+
+        # Load enrichment data from extracted local-plan directory
+        self._load_enrichment_data_from_local_plan_dir(local_plan_dir)
 
         # Automatically load housing data from local-plan directory
         self._load_housing_from_local_plan_dir(local_plan_dir)
 
     def _authority_to_slug(self, authority_name: str) -> str:
-        """Convert authority name to slug format (lowercase, spaces to dashes)."""
+        """Convert authority name to slug format (lowercase, spaces to dashes, sanitize special chars)."""
         if not authority_name:
             return ''
-        # Convert to lowercase and replace spaces with dashes
+        # Convert to lowercase and strip
         slug = authority_name.lower().strip()
+        # Replace common special characters with hyphens or spaces
+        slug = slug.replace('&', 'and')
+        slug = slug.replace('–', '-')  # en-dash
+        slug = slug.replace('—', '-')  # em-dash
+        slug = slug.replace('/', '-')
+        # Replace spaces with dashes
         slug = slug.replace(' ', '-')
+        # Remove any remaining non-alphanumeric characters except hyphens
+        slug = ''.join(c for c in slug if c.isalnum() or c == '-')
         # Remove multiple consecutive dashes
         while '--' in slug:
             slug = slug.replace('--', '-')
+        # Remove leading/trailing dashes
+        slug = slug.strip('-')
         return slug
 
     def _load_housing_from_local_plan_dir(self, local_plan_dir: str = "local-plan"):
@@ -137,6 +167,133 @@ class LocalPlanCSVGenerator:
         if loaded_count > 0:
             logger.info(f"Loaded housing data for {loaded_count} organisations")
 
+    def _load_source_metadata(self):
+        """Load metadata from source JSON files to enrich extracted data.
+
+        Extracts document-url, documentation-url, and local-plan-process from source files
+        and maps them by organisation for later lookup.
+
+        Falls back to using first document's URLs if plan-level URLs are not available.
+        """
+        if not self.source_dir.exists():
+            logger.debug(f"Source directory not found: {self.source_dir}")
+            return
+
+        try:
+            json_files = list(self.source_dir.glob("*.json"))
+            for json_file in json_files:
+                try:
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+
+                        # Handle both single dict and list formats
+                        plans = data if isinstance(data, list) else [data]
+
+                        for plan in plans:
+                            org = plan.get('organisation', '')
+                            if not org:
+                                continue
+
+                            # Skip entries with errors
+                            if plan.get('error'):
+                                continue
+
+                            # Start with plan-level metadata
+                            doc_url = plan.get('document-url', '')
+                            doc_url_site = plan.get('documentation-url', '')
+
+                            # Fall back to first document's URLs if plan-level are empty
+                            if not doc_url or not doc_url_site:
+                                documents = plan.get('documents', [])
+                                if documents and isinstance(documents, list) and len(documents) > 0:
+                                    first_doc = documents[0]
+                                    if not doc_url:
+                                        doc_url = first_doc.get('document-url', '')
+                                    if not doc_url_site:
+                                        doc_url_site = first_doc.get('documentation-url', '')
+
+                            # Store metadata for this organisation (prefer entries with valid data)
+                            # Skip if we already have better data (unless this entry has more)
+                            if org not in self.source_metadata or (doc_url and not self.source_metadata[org].get('document-url')):
+                                self.source_metadata[org] = {
+                                    'document-url': doc_url,
+                                    'documentation-url': doc_url_site,
+                                    'local-plan-process': plan.get('local-plan-process', plan.get('status', '')),
+                                }
+                except Exception as e:
+                    logger.debug(f"Error loading metadata from {json_file.name}: {e}")
+                    continue
+
+            if self.source_metadata:
+                logger.debug(f"Loaded metadata for {len(self.source_metadata)} organisations from source")
+        except Exception as e:
+            logger.debug(f"Error loading source metadata: {e}")
+
+    def _load_enrichment_data_from_local_plan_dir(self, local_plan_dir: str = "local-plan"):
+        """Load enrichment data from extracted local-plan JSON files.
+
+        Creates indexes for quick lookup by PDF endpoint and organisation.
+        Enrichment data includes local-planning-authorities (E0x geography codes).
+        """
+        local_plan_path = Path(local_plan_dir)
+        if not local_plan_path.exists():
+            logger.debug(f"Local plan directory not found: {local_plan_dir}")
+            return
+
+        try:
+            json_files = list(local_plan_path.glob("*.json"))
+            loaded_count = 0
+
+            for json_file in json_files:
+                try:
+                    with open(json_file, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
+
+                    # Extract PDF endpoint from pdf_file field
+                    pdf_file = data.get('pdf_file', '')
+                    if pdf_file:
+                        # Extract hash from "collection/document/HASH.pdf"
+                        endpoint = pdf_file.split('/')[-1].replace('.pdf', '')
+                        self.enrichment_by_endpoint[endpoint] = data
+                        loaded_count += 1
+                        logger.debug(f"Indexed enrichment data by endpoint: {endpoint}")
+
+                    # Also index by organisation for fallback matching
+                    org = data.get('organisation')
+                    if org:
+                        self.enrichment_by_org[org] = data
+
+                except Exception as e:
+                    logger.debug(f"Failed to load enrichment data from {json_file.name}: {e}")
+
+            if loaded_count > 0:
+                logger.info(f"Loaded enrichment data from {loaded_count} local plan files")
+
+        except Exception as e:
+            logger.debug(f"Error loading enrichment data: {e}")
+
+    def _get_enrichment_data(self, plan_data: Dict) -> Optional[Dict]:
+        """Get enrichment data for a source plan by trying multiple matching strategies.
+
+        First tries to match by PDF endpoint from documents, then falls back to organisation.
+        """
+        # Try to find enrichment by checking document endpoints
+        documents = plan_data.get('documents', [])
+        if isinstance(documents, list):
+            for doc in documents:
+                endpoint = doc.get('endpoint', '')
+                if endpoint and endpoint in self.enrichment_by_endpoint:
+                    logger.debug(f"Found enrichment by document endpoint: {endpoint}")
+                    return self.enrichment_by_endpoint[endpoint]
+
+        # Fallback: try to match by organisation
+        org = plan_data.get('organisation', '')
+        if org and org in self.enrichment_by_org:
+            logger.debug(f"Found enrichment by organisation: {org}")
+            return self.enrichment_by_org[org]
+
+        return None
+
     def _load_joint_plan_mappings(self):
         """Load joint plan mappings from the joint-local-plans.json file.
 
@@ -183,6 +340,161 @@ class LocalPlanCSVGenerator:
         except Exception as e:
             logger.error(f"Failed to load housing data: {e}")
 
+    def load_local_plans_from_extracted_data(self, local_plan_dir: str = "local-plan", lpa_codes: Optional[List[str]] = None):
+        """Load local plans directly from extracted local-plan JSON files.
+
+        This provides the definitive local plan data with enriched fields including
+        local-planning-authorities (E0x codes) and housing data.
+
+        Args:
+            local_plan_dir: Directory containing extracted local plan JSON files
+            lpa_codes: Optional list of LPA codes to filter by (e.g., ['PEN', 'BOT', 'SHO'])
+        """
+        local_plan_path = Path(local_plan_dir)
+        if not local_plan_path.exists():
+            logger.error(f"Local plan directory not found: {local_plan_dir}")
+            return
+
+        json_files = list(local_plan_path.glob("*.json"))
+        logger.info(f"Found {len(json_files)} extracted local plan files in {local_plan_dir}")
+
+        # Filter by LPA codes if provided
+        if lpa_codes:
+            lpa_codes_set = set(lpa_codes)
+            original_count = len(json_files)
+            json_files = [
+                f for f in json_files
+                if any(code in f.read_text() for code in lpa_codes_set)
+            ]
+            logger.info(f"Filtered to {len(json_files)} files for LPAs: {', '.join(lpa_codes)}")
+
+        loaded = 0
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    self._process_local_plan(data)
+                    loaded += 1
+            except Exception as e:
+                logger.error(f"Failed to load {json_file}: {e}")
+                continue
+
+        logger.info(f"Loaded {loaded} local plans from extracted data")
+
+    def load_documents_from_source(self, lpa_codes: Optional[List[str]] = None):
+        """Load only documents from source JSON files (for local-plan-document.csv).
+
+        This method extracts documents from source files without duplicating local plans,
+        since plans are already loaded from local-plan/ extracted data.
+        """
+        if not self.source_dir.exists():
+            logger.error(f"Source directory not found: {self.source_dir}")
+            return
+
+        json_files = list(self.source_dir.glob("*.json"))
+        logger.info(f"Found {len(json_files)} JSON files in {self.source_dir}")
+
+        if lpa_codes:
+            # Filter to requested LPAs
+            lpa_codes_set = set(lpa_codes)
+            json_files = [
+                f for f in json_files
+                if any(code in f.stem for code in lpa_codes_set)
+            ]
+            logger.info(f"Filtered to {len(json_files)} source files for LPAs: {', '.join(lpa_codes)}")
+
+        doc_count = 0
+        for json_file in json_files:
+            try:
+                with open(json_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+                    # Data is an array of local plans
+                    if isinstance(data, list):
+                        for local_plan in data:
+                            docs_added = self._extract_documents_only(local_plan)
+                            doc_count += docs_added
+                    elif isinstance(data, dict):
+                        docs_added = self._extract_documents_only(data)
+                        doc_count += docs_added
+
+            except Exception as e:
+                logger.error(f"Failed to load {json_file}: {e}")
+                continue
+
+        logger.info(f"Loaded {doc_count} documents from source files")
+
+    def _extract_documents_only(self, plan_data: Dict) -> int:
+        """Extract documents from a plan without creating a local plan entry.
+
+        Returns the count of documents added.
+        """
+        documents = plan_data.get('documents', [])
+        if not isinstance(documents, list):
+            return 0
+
+        # We need to determine the plan reference to link documents to
+        # Use the organisation to look up the plan reference
+        org = plan_data.get('organisation', '')
+        if not org:
+            return 0
+
+        # Try to find a matching plan we've already added
+        plan_reference = None
+        for plan in self.local_plans:
+            # Check if this plan matches by organisation or name
+            if org in plan.get('organisations', ''):
+                plan_reference = plan['reference']
+                break
+
+        if not plan_reference:
+            # If we can't find a matching plan, skip documents
+            return 0
+
+        # Extract year for document numbering
+        year = plan_data.get('period-start-date', '') or plan_data.get('period-end-date', '')
+        if isinstance(year, (int, float)):
+            year = str(int(year))
+        elif isinstance(year, str) and year.endswith('.0'):
+            year = year[:-2]
+
+        # Determine authority slug for counter
+        org_name = plan_data.get('organisation-name', org)
+        authority_slug = self._authority_to_slug(org_name)
+        plan_key = (authority_slug, year)
+
+        if plan_key not in self.authority_plan_counters:
+            self.authority_plan_counters[plan_key] = 0
+
+        # Process documents
+        doc_count = 0
+        for doc in documents:
+            try:
+                self.authority_plan_counters[plan_key] += 1
+                doc_num = self.authority_plan_counters[plan_key]
+                doc_reference = f"{plan_reference}-{doc_num}"
+
+                doc_entry = {
+                    'reference': doc_reference,
+                    'name': doc.get('name', ''),
+                    'description': doc.get('description', ''),
+                    'local-plan': plan_reference,
+                    'document-types': doc.get('document-type', ''),
+                    'documentation-url': doc.get('documentation-url', ''),
+                    'document-url': doc.get('document-url', ''),
+                    'entry-date': datetime.now().strftime('%Y-%m-%d'),
+                    'start-date': self._format_date(plan_data.get('adoption-date')) if plan_data.get('adoption-date') else '',
+                    'end-date': self._format_date(plan_data.get('withdrawn-date')) if plan_data.get('withdrawn-date') else '',
+                    'notes': doc.get('notes', ''),
+                }
+
+                self.local_plan_documents.append(doc_entry)
+                doc_count += 1
+            except Exception as e:
+                logger.debug(f"Error processing document: {e}")
+
+        return doc_count
+
     def load_source_json_files(self, lpa_codes: Optional[List[str]] = None):
         """Load all source JSON files, optionally filtered by LPA codes."""
         if not self.source_dir.exists():
@@ -209,9 +521,9 @@ class LocalPlanCSVGenerator:
                     # Data is an array of local plans
                     if isinstance(data, list):
                         for local_plan in data:
-                            self._process_local_plan(local_plan)
+                            self._process_source_local_plan(local_plan)
                     elif isinstance(data, dict):
-                        self._process_local_plan(data)
+                        self._process_source_local_plan(data)
 
             except Exception as e:
                 logger.error(f"Failed to load {json_file}: {e}")
@@ -237,6 +549,107 @@ class LocalPlanCSVGenerator:
         return False
 
     def _process_local_plan(self, plan_data: Dict):
+        """Process a local plan entry from extracted local-plan JSON.
+
+        Extracted data already has enriched fields like local-planning-authorities.
+        Merges metadata from source files (document-url, documentation-url, local-plan-process).
+        """
+        # Skip excluded plan types
+        if self._should_skip_plan(plan_data):
+            return
+
+        try:
+            org = plan_data.get('organisation', '')
+            organisation_name = plan_data.get('organisation-name', org)
+            authority_slug = self._authority_to_slug(organisation_name)
+            year = plan_data.get('period-start-date', '')
+            if not year:
+                year = plan_data.get('period-end-date', '')
+
+            # Normalize year to string
+            if isinstance(year, (int, float)):
+                try:
+                    year = str(int(year))
+                except Exception:
+                    year = str(year)
+            elif isinstance(year, str) and year.endswith('.0'):
+                year = year[:-2]
+
+            # Determine if this is a joint plan
+            organisations = plan_data.get('organisations', [])
+            is_joint = organisations and isinstance(organisations, list) and len(organisations) > 1
+
+            # Generate reference
+            if is_joint:
+                plan_name = plan_data.get('name', '')
+                slug = self._authority_to_slug(plan_name)
+                reference = slug if slug else ''
+            else:
+                authority_slug = self._authority_to_slug(organisation_name)
+                if year:
+                    reference = f"{authority_slug}-local-plan-{year}"
+                else:
+                    reference = f"{authority_slug}-local-plan"
+
+            # Apply reference overrides
+            if reference in self.REFERENCE_OVERRIDES:
+                original_reference = reference
+                reference = self.REFERENCE_OVERRIDES[reference]
+                logger.debug(f"Applied reference override: {original_reference} → {reference}")
+
+            # Build organisations string
+            if organisations and isinstance(organisations, list):
+                local_planning_authorities = ';'.join(organisations)
+            else:
+                local_planning_authorities = org if org else ''
+
+            # Extract local-planning-authorities (E0x geography codes)
+            lpa_codes = plan_data.get('local-planning-authorities', [])
+            if isinstance(lpa_codes, list):
+                lpa_codes_str = '-'.join(lpa_codes)
+            else:
+                lpa_codes_str = ''
+
+            # Get metadata from source files if available
+            # For joint plans, try to find metadata from any of the individual organisations
+            source_meta = self.source_metadata.get(org, {})
+            if not source_meta and is_joint:
+                # For joint plans, look up by individual organisations
+                for individual_org in organisations:
+                    if individual_org in self.source_metadata:
+                        source_meta = self.source_metadata[individual_org]
+                        break
+
+            local_plan_entry = {
+                'reference': reference,
+                'name': plan_data.get('name', ''),
+                'dataset': 'local-plan',
+                'period-start-date': self._format_date(plan_data.get('period-start-date', '')),
+                'period-end-date': self._format_date(plan_data.get('period-end-date', '')),
+                'organisations': local_planning_authorities,
+                'local-planning-authorities': lpa_codes_str,
+                'mineral-planning-authorities': plan_data.get('mineral-planning-authorities', ''),
+                'waste-planning-authorities': plan_data.get('waste-planning-authorities', ''),
+                'local-plan-process': source_meta.get('local-plan-process', ''),
+                'documentation-url': source_meta.get('documentation-url', ''),
+                'document-url': source_meta.get('document-url', ''),
+                'entry-date': datetime.now().strftime('%Y-%m-%d'),
+                'start-date': plan_data.get('adoption-date'),
+                'end-date': plan_data.get('withdrawn-date'),
+                'notes': plan_data.get('notes', ''),
+            }
+
+            self.local_plans.append(local_plan_entry)
+
+            # Add housing data if available
+            if org in self.housing_data:
+                # Use the reference we just created
+                self._add_housing_data(reference, local_planning_authorities, org)
+
+        except Exception as e:
+            logger.error(f"Failed to process local plan from extracted data: {e}")
+
+    def _process_source_local_plan(self, plan_data: Dict):
         """Process a single local plan entry from JSON."""
         # Skip excluded plan types
         if self._should_skip_plan(plan_data):
@@ -297,6 +710,14 @@ class LocalPlanCSVGenerator:
                 reference = self.REFERENCE_OVERRIDES[reference]
                 logger.info(f"Applied reference override: {original_reference} → {reference}")
 
+            # Skip if we've already processed this plan reference (handles joint plans in multiple source files)
+            if reference in self.processed_plan_references:
+                logger.debug(f"Skipping duplicate plan reference: {reference}")
+                return
+
+            # Mark this reference as processed
+            self.processed_plan_references.add(reference)
+
             # Build local-planning-authorities string
             # For joint plans, use the organisations array; otherwise use single organisation
 
@@ -325,6 +746,23 @@ class LocalPlanCSVGenerator:
             # Initialize plan-to-document mapping
             self.plan_main_document_ref[reference] = None
 
+            # Extract local-planning-authorities (E0x geography codes)
+            # Try to get from enrichment data first, fall back to source data
+            lpa_codes = plan_data.get('local-planning-authorities', [])
+
+            # Try to get enrichment data (includes geography codes)
+            enrichment_data = self._get_enrichment_data(plan_data)
+            if enrichment_data:
+                enriched_lpa_codes = enrichment_data.get('local-planning-authorities', [])
+                if enriched_lpa_codes:
+                    lpa_codes = enriched_lpa_codes
+                    logger.debug(f"Using enriched local-planning-authorities from extracted data")
+
+            if isinstance(lpa_codes, list):
+                lpa_codes_str = '-'.join(lpa_codes)
+            else:
+                lpa_codes_str = ''
+
             local_plan_entry = {
                 'reference': reference,
                 'name': plan_data.get('name', ''),
@@ -332,7 +770,7 @@ class LocalPlanCSVGenerator:
                 'period-start-date': self._format_date(plan_data.get('period-start-date', '')),
                 'period-end-date': self._format_date(plan_data.get('period-end-date', '')),
                 'organisations': local_planning_authorities,
-                'local-planning-authorities': '',
+                'local-planning-authorities': lpa_codes_str,
                 'mineral-planning-authorities': plan_data.get('mineral-planning-authorities', ''),
                 'waste-planning-authorities': plan_data.get('waste-planning-authorities', ''),
                 'local-plan-process': plan_data.get('local-plan-process', plan_data.get('status', '')),
@@ -559,21 +997,21 @@ class LocalPlanCSVGenerator:
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Generate local plan CSVs from source JSON files',
+        description='Generate local plan CSVs from source data with enrichment from extracted local plans',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Generate all CSVs for all authorities (housing data auto-loaded from local-plan/)
+  # Generate all CSVs for all local plans
   python bin/generate-csvs.py
 
-  # Process only specific LPAs
+  # Generate CSVs for specific LPAs only
   python bin/generate-csvs.py --lpa PEN,BOT,SHO
 
-  # Specify output directory
-  python bin/generate-csvs.py --output-dir ./data/
+  # Specify custom output directory
+  python bin/generate-csvs.py --output-dir ./dataset/
 
   # Combine options
-  python bin/generate-csvs.py --lpa PEN,BOT --output-dir ./output/
+  python bin/generate-csvs.py --lpa BRO,NOW,SNO --output-dir ./output/
         """
     )
 
@@ -618,8 +1056,9 @@ Examples:
     if args.housing:
         generator.load_housing_data(args.housing)
 
-    # Load source JSON files
-    generator.load_source_json_files(lpa_codes)
+    # Load local plans from source/ (primary source - includes both draft and adopted plans)
+    # Enrichment data from local-plan/ is automatically merged during processing
+    generator.load_source_json_files(lpa_codes=lpa_codes)
 
     # Write CSVs
     generator.write_csvs()
