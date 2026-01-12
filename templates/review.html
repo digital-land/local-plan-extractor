@@ -2,6 +2,16 @@
 
 {% block title %}Review Data - Local Plan Extractor{% endblock %}
 
+{% block extra_head %}
+<style>
+  /* Custom tag color for "needs editing" status */
+  .govuk-tag--orange {
+    background-color: #f47738;
+    color: white;
+  }
+</style>
+{% endblock %}
+
 {% block breadcrumbs %}
 <div class="govuk-breadcrumbs">
   <ol class="govuk-breadcrumbs__list">
@@ -35,13 +45,25 @@
         >
       </div>
 
+      <!-- Review Status Summary -->
+      <div id="statusSummary" style="margin-bottom: 30px; padding: 15px; background: #f3f2f1; border-radius: 4px; display: none;">
+        <p class="govuk-body">
+          <strong id="reviewedCount">0</strong> reviewed
+          <span style="color: #626a6d; margin: 0 10px;">•</span>
+          <strong id="needsEditingCount">0</strong> need editing
+          <span style="color: #626a6d; margin: 0 10px;">•</span>
+          <strong id="notReviewedCount">0</strong> not reviewed
+        </p>
+      </div>
+
       <!-- Plans Table -->
       <table class="govuk-table">
         <thead class="govuk-table__head">
           <tr class="govuk-table__row">
-            <th class="govuk-table__header" style="width: 10%;">Plan #</th>
-            <th class="govuk-table__header" style="width: 50%;">Plan Name</th>
-            <th class="govuk-table__header" style="width: 40%;">Organisation</th>
+            <th class="govuk-table__header" style="width: 8%;">Plan #</th>
+            <th class="govuk-table__header" style="width: 45%;">Plan Name</th>
+            <th class="govuk-table__header" style="width: 35%;">Organisation</th>
+            <th class="govuk-table__header" style="width: 12%;">Status</th>
           </tr>
         </thead>
         <tbody class="govuk-table__body" id="plansList">
@@ -78,13 +100,14 @@
       </div>
 
     <!-- Action Buttons -->
-    <div style="display: flex; gap: 15px; margin-bottom: 40px;">
+    <div style="display: flex; gap: 15px; margin-bottom: 40px; align-items: center;">
       <a id="needsEditingBtn" class="govuk-button govuk-button--warning" href="#" target="_blank" rel="noopener noreferrer">
         Needs editing
       </a>
       <a id="allCorrectBtn" class="govuk-button" href="#" target="_blank" rel="noopener noreferrer">
         All correct ✓
       </a>
+      <div id="planStatusBadge" style="margin-left: auto;"></div>
     </div>
 
     <!-- Loading State -->
@@ -178,6 +201,9 @@
   // State management
   const allPlanFilenames = {{ plan_filenames|tojson }};
   let planMetadata = {}; // Will store plan name and organisation for each file
+  let planReviewStatus = {}; // Will store review status for each file: 'reviewed', 'needs-editing', or 'not-reviewed'
+  let planReviewIssueUrls = {}; // Will store GitHub issue URLs for each file
+  let planNameToFilename = {}; // Maps plan name to filename for lookup
   let currentPlanIndex = 0;
   let currentPlanData = null;
   let currentPageMode = 'landing'; // 'landing' or 'review'
@@ -186,6 +212,9 @@
   function init() {
     // Load plan metadata from JSON files
     loadPlanMetadata();
+
+    // Load review status from GitHub API
+    loadReviewStatus();
 
     // Check if a plan hash exists
     const hash = window.location.hash.substring(1);
@@ -244,6 +273,15 @@
             name: data.name || 'Unknown Plan',
             organisation: data['organisation-name'] || 'Unknown'
           };
+          // Build reverse mapping from plan name to filename
+          const planName = data.name || 'Unknown Plan';
+          planNameToFilename[planName] = filename;
+
+          // Initialize status as not-reviewed
+          if (!planReviewStatus[filename]) {
+            planReviewStatus[filename] = 'not-reviewed';
+          }
+
           // Update the table row with actual data
           updateTableRow(index, filename);
           loadedCount++;
@@ -258,6 +296,7 @@
             name: 'Error loading plan',
             organisation: 'Error'
           };
+          planReviewStatus[filename] = 'not-reviewed';
           updateTableRow(index, filename);
           loadedCount++;
           if (loadedCount === allPlanFilenames.length) {
@@ -265,6 +304,89 @@
           }
         });
     });
+  }
+
+  // Load review status from GitHub API
+  function loadReviewStatus() {
+    // GitHub API uses AND logic with comma-separated labels, so we need two separate queries
+    const reviewedUrl = 'https://api.github.com/repos/digital-land/local-plan-extractor/issues?labels=reviewed&per_page=100';
+    const needsEditingUrl = 'https://api.github.com/repos/digital-land/local-plan-extractor/issues?labels=needs-editing&per_page=100';
+
+    // Fetch both label sets in parallel
+    Promise.all([
+      fetch(reviewedUrl).then(r => r.json()),
+      fetch(needsEditingUrl).then(r => r.json())
+    ])
+      .then(([reviewedIssues, needsEditingIssues]) => {
+        const allIssues = [...reviewedIssues, ...needsEditingIssues];
+
+        // Parse each issue to extract status and plan name
+        allIssues.forEach(issue => {
+          const title = issue.title;
+          let status = null;
+          let planName = null;
+
+          if (title.startsWith('[Reviewed]')) {
+            status = 'reviewed';
+            planName = title.replace('[Reviewed]', '').trim();
+          } else if (title.startsWith('[Needs editing]')) {
+            status = 'needs-editing';
+            planName = title.replace('[Needs editing]', '').trim();
+          }
+
+          // Look up the filename using the plan name
+          if (status && planName && planNameToFilename[planName]) {
+            const filename = planNameToFilename[planName];
+            planReviewStatus[filename] = status;
+            planReviewIssueUrls[filename] = issue.html_url;
+            // Update the table row with the new status
+            const index = allPlanFilenames.indexOf(filename);
+            if (index !== -1) {
+              updateTableRow(index, filename);
+            }
+          }
+        });
+
+        // Update the status summary
+        updateStatusSummary();
+
+        // Re-render the landing page with updated status
+        if (currentPageMode === 'landing') {
+          renderLandingPage();
+        }
+      })
+      .catch(error => {
+        console.error('Error loading review status from GitHub:', error);
+        // Continue without status data if GitHub API fails
+        updateStatusSummary();
+      });
+  }
+
+  // Update the status summary counters
+  function updateStatusSummary() {
+    let reviewedCount = 0;
+    let needsEditingCount = 0;
+    let notReviewedCount = 0;
+
+    allPlanFilenames.forEach(filename => {
+      const status = planReviewStatus[filename] || 'not-reviewed';
+      if (status === 'reviewed') {
+        reviewedCount++;
+      } else if (status === 'needs-editing') {
+        needsEditingCount++;
+      } else {
+        notReviewedCount++;
+      }
+    });
+
+    document.getElementById('reviewedCount').textContent = reviewedCount;
+    document.getElementById('needsEditingCount').textContent = needsEditingCount;
+    document.getElementById('notReviewedCount').textContent = notReviewedCount;
+
+    // Show the summary if there are any reviewed or needs-editing plans
+    if (reviewedCount > 0 || needsEditingCount > 0) {
+      document.getElementById('statusSummary').style.display = 'block';
+    }
   }
 
   // Sort plans by organisation and re-render the landing page
@@ -282,16 +404,37 @@
     }
   }
 
-  // Update a single table row with plan metadata
+  // Update a single table row with plan metadata and status
   function updateTableRow(index, filename) {
     const row = document.getElementById(`plan-row-${index}`);
     if (row) {
       const metadata = planMetadata[filename];
       const nameCell = row.querySelector('.plan-name');
       const orgCell = row.querySelector('.plan-organisation');
+      const statusCell = row.querySelector('.plan-status');
 
       if (nameCell) nameCell.textContent = metadata.name;
       if (orgCell) orgCell.textContent = metadata.organisation;
+
+      // Update status cell
+      if (statusCell) {
+        const status = planReviewStatus[filename] || 'not-reviewed';
+        statusCell.innerHTML = '';
+        const statusTag = document.createElement('span');
+
+        if (status === 'reviewed') {
+          statusTag.className = 'govuk-tag govuk-tag--green';
+          statusTag.textContent = '✓ Reviewed';
+        } else if (status === 'needs-editing') {
+          statusTag.className = 'govuk-tag govuk-tag--orange';
+          statusTag.textContent = 'Needs editing';
+        } else {
+          statusTag.className = 'govuk-tag';
+          statusTag.textContent = 'Not reviewed';
+        }
+
+        statusCell.appendChild(statusTag);
+      }
     }
   }
 
@@ -327,9 +470,29 @@
       orgCell.className = 'govuk-table__cell plan-organisation';
       orgCell.textContent = planOrg;
 
+      // Create status cell
+      const statusCell = document.createElement('td');
+      statusCell.className = 'govuk-table__cell plan-status';
+      const status = planReviewStatus[filename] || 'not-reviewed';
+      const statusTag = document.createElement('span');
+
+      if (status === 'reviewed') {
+        statusTag.className = 'govuk-tag govuk-tag--green';
+        statusTag.textContent = '✓ Reviewed';
+      } else if (status === 'needs-editing') {
+        statusTag.className = 'govuk-tag govuk-tag--orange';
+        statusTag.textContent = 'Needs editing';
+      } else {
+        statusTag.className = 'govuk-tag';
+        statusTag.textContent = 'Not reviewed';
+      }
+
+      statusCell.appendChild(statusTag);
+
       row.appendChild(numberCell);
       row.appendChild(nameCell);
       row.appendChild(orgCell);
+      row.appendChild(statusCell);
 
       row.onclick = () => {
         currentPlanIndex = index;
@@ -381,7 +544,7 @@
     document.getElementById('reviewPage').style.display = 'none';
     document.getElementById('landingPage').style.display = 'block';
     currentPageMode = 'landing';
-    window.location.hash = '';
+    window.history.replaceState(null, '', window.location.pathname);
   }
 
   // Parse URL hash to get the current plan filename
@@ -451,6 +614,47 @@
   function renderPlan(plan) {
     // Plan name and basic details
     document.getElementById('planName').textContent = plan.name || 'Unknown Plan';
+
+    // Display review status badge
+    const statusBadgeContainer = document.getElementById('planStatusBadge');
+    statusBadgeContainer.innerHTML = '';
+    const status = planReviewStatus[plan.filename] || 'not-reviewed';
+
+    const statusWrapper = document.createElement('div');
+    statusWrapper.style.display = 'flex';
+    statusWrapper.style.alignItems = 'center';
+    statusWrapper.style.gap = '10px';
+
+    const statusTag = document.createElement('span');
+
+    if (status === 'reviewed') {
+      statusTag.className = 'govuk-tag govuk-tag--green';
+      statusTag.textContent = '✓ Reviewed';
+      statusWrapper.appendChild(statusTag);
+    } else if (status === 'needs-editing') {
+      statusTag.className = 'govuk-tag govuk-tag--orange';
+      statusTag.textContent = 'Needs editing';
+      statusWrapper.appendChild(statusTag);
+
+      // Add issue link if available
+      const issueUrl = planReviewIssueUrls[plan.filename];
+      if (issueUrl) {
+        const issueLink = document.createElement('a');
+        issueLink.className = 'govuk-link';
+        issueLink.href = issueUrl;
+        issueLink.target = '_blank';
+        issueLink.rel = 'noopener noreferrer';
+        issueLink.textContent = 'View issue';
+        statusWrapper.appendChild(issueLink);
+      }
+    } else {
+      statusTag.className = 'govuk-tag';
+      statusTag.textContent = 'Not reviewed';
+      statusWrapper.appendChild(statusTag);
+    }
+
+    statusBadgeContainer.appendChild(statusWrapper);
+
     document.getElementById('planOrganisation').textContent = plan['organisation-name'] || 'Unknown';
     document.getElementById('planPeriod').textContent =
       (plan['period-start-date'] || '?') + ' to ' + (plan['period-end-date'] || '?');
