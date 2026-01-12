@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2026",
+  "organisation-name": "London Borough of Haringey",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Haringey Council",
+      "required-housing": 19802,
+      "allocated-housing": 20450,
+      "windfall-housing": 3593,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1345,
+      "pages": "48, 51, 62-63, 173-177, 183",
+      "notes": "Strategic housing requirement is 19,802 homes (820 per annum 2011-2014, then 1,502 per annum 2015-2026). Total capacity is approximately 24,000 homes including allocations and small sites. Housing trajectory shows detailed breakdown by growth areas and site allocations.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477",
+  "pdf_file": "collection/document/b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HRY",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000192",
+  "local-planning-authorities": [
+    "E60000192"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Stockton-on-Tees Local Plan 2019",
+  "organisation-name": "Stockton-on-Tees Borough Council",
+  "period-start-date": 2017,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stockton-on-Tees Borough Council",
+      "required-housing": 10150,
+      "allocated-housing": 4594,
+      "windfall-housing": "",
+      "committed-housing": 6744,
+      "broad-locations-housing": "",
+      "annual-required-housing": 675,
+      "pages": "20-21, 43-46, 48",
+      "notes": "Housing requirement varies by period: 720 dwellings per annum 2017/18-2021/22, then 655 per annum 2022/23-2031/32. Committed housing includes sites with planning permission. Allocations include West Stockton SUE (2150 homes) and Wynyard Park (1100 homes). Some overlap between commitments and allocations as permissions were absorbed into wider allocations.",
+      "organisation": "local-authority:STT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c7b5c01c52efd8d4498f633e63ca8e08fbe497867a9f1d114de5de5a4d4fb4df",
+  "pdf_file": "collection/document/c7b5c01c52efd8d4498f633e63ca8e08fbe497867a9f1d114de5de5a4d4fb4df.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STT",
+  "local-plan-boundary": "E60000007",
+  "local-planning-authorities": [
+    "E60000007"
+  ],
+  "adoption-date": "2019-01-30"
+}

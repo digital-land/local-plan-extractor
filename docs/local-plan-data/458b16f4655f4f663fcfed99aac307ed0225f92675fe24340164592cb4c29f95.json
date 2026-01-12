@@ -1,0 +1,30 @@
+{
+  "name": "South Staffordshire Local Plan Core Strategy DPD",
+  "organisation-name": "South Staffordshire Council",
+  "period-start-date": 2006,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Staffordshire Council",
+      "required-housing": 3850,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 2244,
+      "broad-locations-housing": 1610,
+      "annual-required-housing": 175,
+      "pages": "107-108, 110, 205",
+      "notes": "Total target 3850 homes 2006-2028 (175 pa). As of April 2010: 2,244 completed/committed, leaving 1,606 (rounded to 1,610) to be distributed across villages via future Site Allocations DPD. Committed figure includes 1,224 completions + 1,020 permissions/under construction.",
+      "organisation": "local-authority:SST"
+    }
+  ],
+  "confidence": "high",
+  "authority": "458b16f4655f4f663fcfed99aac307ed0225f92675fe24340164592cb4c29f95",
+  "pdf_file": "collection/document/458b16f4655f4f663fcfed99aac307ed0225f92675fe24340164592cb4c29f95.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SST",
+  "local-plan-boundary": "E60000121",
+  "local-planning-authorities": [
+    "E60000121"
+  ],
+  "adoption-date": "2012-12"
+}

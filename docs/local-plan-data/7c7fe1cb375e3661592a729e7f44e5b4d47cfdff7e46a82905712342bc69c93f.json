@@ -1,0 +1,30 @@
+{
+  "name": "Worthing Plan 2020-2036",
+  "organisation-name": "Worthing Borough Council",
+  "period-start-date": 2020,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Worthing Borough Council",
+      "required-housing": 14160,
+      "allocated-housing": 1753,
+      "windfall-housing": 871,
+      "committed-housing": 909,
+      "broad-locations-housing": "",
+      "annual-required-housing": 885,
+      "pages": "47, 49-50, 192",
+      "notes": "Capacity-based target is 3,672 homes (230 per annum) due to land constraints. Full objectively assessed need is 14,160 homes (885 per annum) but cannot be met due to physical constraints. Allocated sites include 9 urban brownfield sites and 5 edge-of-town sites.",
+      "organisation": "local-authority:WOT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f",
+  "pdf_file": "collection/document/7c7fe1cb375e3661592a729e7f44e5b4d47cfdff7e46a82905712342bc69c93f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WOT",
+  "local-plan-boundary": "E60000287",
+  "local-planning-authorities": [
+    "E60000287"
+  ],
+  "adoption-date": "2023-03-28"
+}

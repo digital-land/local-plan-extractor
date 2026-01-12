@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Gloucester City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Gloucester City Council",
+      "required-housing": 14359,
+      "allocated-housing": 920,
+      "windfall-housing": 512,
+      "committed-housing": 1769,
+      "broad-locations-housing": "",
+      "annual-required-housing": 718,
+      "pages": "14-15, 133-134",
+      "notes": "Housing requirement set by Joint Core Strategy. Total supply of 13,314 includes completions (5,070), Winneycroft strategic allocation (620), and other supply (92). Shortfall of 1,045 dwellings acknowledged from 2028-2031.",
+      "organisation": "local-authority:GLO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943",
+  "pdf_file": "collection/document/647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:GLO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000311",
+  "local-planning-authorities": [
+    "E60000311"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "South Downs Local Plan",
+  "organisation-name": "South Downs National Park Authority",
+  "period-start-date": 2014,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Downs National Park Authority",
+      "required-housing": 4750,
+      "allocated-housing": "",
+      "windfall-housing": 969,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 250,
+      "pages": "106-108, 274",
+      "notes": "Total provision of 4,750 homes over 19 years (2014-2033). Windfall allowance of 51 dwellings per year. Plan deliberately does not meet full objectively assessed need of 447 homes per year due to National Park constraints. Housing delivered through strategic sites, allocations in Local Plan and NDPs, planning permissions, and windfall.",
+      "organisation": "national-park-authority:Q20198711"
+    }
+  ],
+  "confidence": "high",
+  "authority": "67e30beb2da0f0c9c4608eca6b2c2b34c941c937962a389b4ade8fe68d9eb161",
+  "pdf_file": "collection/document/67e30beb2da0f0c9c4608eca6b2c2b34c941c937962a389b4ade8fe68d9eb161.pdf",
+  "pages_analysed": 32,
+  "organisation": "national-park-authority:Q20198711",
+  "adoption-date": null
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Huntingdonshire Local Plan to 2036",
+  "organisation-name": "Huntingdonshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Huntingdonshire District Council",
+      "required-housing": 20100,
+      "allocated-housing": 13594,
+      "windfall-housing": 1200,
+      "committed-housing": 4421,
+      "broad-locations-housing": "",
+      "annual-required-housing": 804,
+      "pages": "31, 33-34",
+      "notes": "Plan period 2011-2036. Total supply estimated at 21,068 homes (105% of requirement). Committed housing is completions 2011-2018. Allocated housing includes sites with planning permission, subject to S106, and without permission. Windfall is small sites under 10 dwellings. Also includes 525 rural exception sites and 360 prior approvals.",
+      "organisation": "local-authority:HUN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "7b8095dd7a60cfb231f1a2ebbfce16302d6820f91b3f11632d07b2d669ed5fb8",
+  "pdf_file": "collection/document/7b8095dd7a60cfb231f1a2ebbfce16302d6820f91b3f11632d07b2d669ed5fb8.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HUN",
+  "local-plan-boundary": "E60000152",
+  "local-planning-authorities": [
+    "E60000152"
+  ]
+}

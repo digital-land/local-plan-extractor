@@ -1,0 +1,26 @@
+{
+  "name": "Redbridge Local Plan 2015-2030",
+  "organisation-name": "Redbridge Borough Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Redbridge Borough Council",
+      "required-housing": 16845,
+      "allocated-housing": 14537,
+      "windfall-housing": 2700,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1123,
+      "pages": "37-39, 165-182",
+      "notes": "Council has capacity for up to 17,237 new homes including windfall. Over 70% of new homes (11,682) will be delivered in Investment and Growth Areas. Allocated housing figure represents total from opportunity sites listed in Appendix 1. Windfall allowance applied only to latter 10 years of plan period (270 per annum for years 6-15).",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "5c2a9c565717bdfeea70ea0c2d4e4ab7059b0ac8645fd916e0f25fa8f5e1f30d",
+  "pdf_file": "collection/document/5c2a9c565717bdfeea70ea0c2d4e4ab7059b0ac8645fd916e0f25fa8f5e1f30d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RDB",
+  "adoption-date": "2018-03-15"
+}

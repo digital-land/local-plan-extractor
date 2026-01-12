@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2016-2031",
+  "organisation-name": "London Borough of Havering",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Havering",
+      "required-housing": 18930,
+      "allocated-housing": "",
+      "windfall-housing": 1500,
+      "committed-housing": "",
+      "broad-locations-housing": 9000,
+      "annual-required-housing": 1262,
+      "pages": "28-31",
+      "notes": "Plan shows minimum 18,930 homes over 15 years. Broad locations include Romford SDA (6,000+) and Rainham & Beam Park SDA (3,000+). Windfall from small sites. Annual figure is weighted average of phased targets (1,170 for years 1-3, 1,285 for years 4-10, rolled forward for years 11-15).",
+      "organisation": "local-authority:HAV"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537",
+  "pdf_file": "collection/document/375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HAV",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000212",
+  "local-planning-authorities": [
+    "E60000212"
+  ]
+}

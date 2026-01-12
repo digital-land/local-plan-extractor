@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2026",
+  "organisation-name": "Wiltshire Council",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wiltshire Council",
+      "required-housing": 42000,
+      "allocated-housing": 11727,
+      "windfall-housing": 2264,
+      "committed-housing": 16215,
+      "broad-locations-housing": 4611,
+      "annual-required-housing": 2100,
+      "pages": "53, 421-422",
+      "notes": "Total 42,000 homes across three Housing Market Areas. Allocated housing includes strategic sites (11,727 from table C1). Windfall is conservative allowance. Broad locations to be identified through neighbourhood plans and Site Allocations DPD. Committed includes completions 2006-14 plus specific permitted sites.",
+      "organisation": "local-authority:WIL"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "3cf1903ea21469e062d9152d4d805e1afab5d53c42595fad297cf14ad680ccb8",
+  "pdf_file": "collection/document/3cf1903ea21469e062d9152d4d805e1afab5d53c42595fad297cf14ad680ccb8.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WIL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000299",
+  "local-planning-authorities": [
+    "E60000299"
+  ]
+}

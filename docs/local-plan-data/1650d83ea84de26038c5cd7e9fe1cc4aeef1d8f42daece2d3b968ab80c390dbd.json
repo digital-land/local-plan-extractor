@@ -1,0 +1,30 @@
+{
+  "name": "Saved Policies of the North Lincolnshire Local Plan 2003",
+  "organisation-name": "North Lincolnshire Council",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "North Lincolnshire Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "N/A",
+      "notes": "This document is a policy reference only, listing saved policies from 2003 Local Plan. No housing numbers, targets or allocations are provided as these would have been superseded by the Core Strategy DPD (2011) and Housing and Employment Land Allocations DPD (2016).",
+      "organisation": "local-authority:NLN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1650d83ea84de26038c5cd7e9fe1cc4aeef1d8f42daece2d3b968ab80c390dbd",
+  "pdf_file": "collection/document/1650d83ea84de26038c5cd7e9fe1cc4aeef1d8f42daece2d3b968ab80c390dbd.pdf",
+  "pages_analysed": 5,
+  "organisation": "local-authority:NLN",
+  "local-plan-boundary": "E60000055",
+  "local-planning-authorities": [
+    "E60000055"
+  ],
+  "adoption-date": "2007-09"
+}

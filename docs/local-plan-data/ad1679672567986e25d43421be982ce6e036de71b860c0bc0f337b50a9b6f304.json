@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2013-2028",
+  "organisation-name": "East Dorset District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Christchurch Borough Council",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "29, 59, 187",
+      "notes": "Individual authority targets not specified - plan uses combined target of 8,490 homes for both authorities together. Mentions capacity for approximately 2,250 homes in Christchurch urban areas.",
+      "organisation": "local-authority:CHC"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "ad1679672567986e25d43421be982ce6e036de71b860c0bc0f337b50a9b6f304",
+  "pdf_file": "collection/document/ad1679672567986e25d43421be982ce6e036de71b860c0bc0f337b50a9b6f304.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:EDO",
+  "adoption-date": null
+}

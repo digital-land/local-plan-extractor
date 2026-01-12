@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "North Dorset District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Dorset District Council",
+      "required-housing": 5700,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 285,
+      "pages": "87, 83, 85",
+      "notes": "Total district-wide housing requirement of at least 5,700 homes (285 per annum). Housing distributed as: Blandford 1,200+, Gillingham 2,200+, Shaftesbury 1,140+, Sturminster Newton 395+, Countryside 825+. Strategic site allocation at Gillingham Southern Extension (Policy 21). Specific sites to be identified in Local Plan Part 2.",
+      "organisation": "local-authority:NDO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46",
+  "pdf_file": "collection/document/c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:NDO",
+  "adoption-date": null
+}

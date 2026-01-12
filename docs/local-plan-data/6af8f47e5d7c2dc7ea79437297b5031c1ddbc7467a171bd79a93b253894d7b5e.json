@@ -1,0 +1,30 @@
+{
+  "name": "Mid Devon Local Plan Review 2013-2033",
+  "organisation-name": "Mid Devon District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Mid Devon District Council",
+      "required-housing": 7860,
+      "allocated-housing": 4886,
+      "windfall-housing": "",
+      "committed-housing": 2618,
+      "broad-locations-housing": "",
+      "annual-required-housing": 393,
+      "pages": "16, 17, 19, 50",
+      "notes": "Total plan requirement 7,860 dwellings (393 per year). Completions 2013-2018: 1,730. Commitments include sites under construction or with planning permission. Uncommitted allocations: 4,886 dwellings. Plan makes no allowance for windfalls but notes they will likely continue at minimum 129 dwellings per year.",
+      "organisation": "local-authority:MDE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "6af8f47e5d7c2dc7ea79437297b5031c1ddbc7467a171bd79a93b253894d7b5e",
+  "pdf_file": "collection/document/6af8f47e5d7c2dc7ea79437297b5031c1ddbc7467a171bd79a93b253894d7b5e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MDE",
+  "local-plan-boundary": "E60000302",
+  "local-planning-authorities": [
+    "E60000302"
+  ],
+  "adoption-date": "2017-03-31"
+}

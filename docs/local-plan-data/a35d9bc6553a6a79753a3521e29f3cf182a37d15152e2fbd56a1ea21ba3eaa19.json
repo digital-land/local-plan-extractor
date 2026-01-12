@@ -1,0 +1,27 @@
+{
+  "name": "Tower Hamlets Plan 2031 Managing Growth and Sharing Benefits",
+  "organisation-name": "Tower Hamlets Council",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tower Hamlets Council",
+      "required-housing": 58965,
+      "allocated-housing": 13546,
+      "windfall-housing": 3122,
+      "committed-housing": 29000,
+      "broad-locations-housing": 4929,
+      "annual-required-housing": 3931,
+      "pages": "73-76, 333-336",
+      "notes": "Required housing target of 58,965 homes includes London Plan target plus rolled-forward requirement. Committed housing of ~29,000 includes completed (4,699), under development (17,345), and sites with planning permission (7,302). Allocated housing from site allocations without permission. SHLAA sites provide additional broad locations capacity. Small sites windfall allowance of 223 units per year totaling 3,122.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "a35d9bc6553a6a79753a3521e29f3cf182a37d15152e2fbd56a1ea21ba3eaa19",
+  "pdf_file": "collection/document/a35d9bc6553a6a79753a3521e29f3cf182a37d15152e2fbd56a1ea21ba3eaa19.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:THR",
+  "adoption-date": "2020-01",
+  "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Broxbourne Local Plan 2018-2033",
+  "organisation-name": "Broxbourne Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Broxbourne Borough Council",
+      "required-housing": 7718,
+      "allocated-housing": 6002,
+      "windfall-housing": 840,
+      "committed-housing": 926,
+      "broad-locations-housing": "",
+      "annual-required-housing": 454,
+      "pages": "5, 18, 20-21",
+      "notes": "Plan provides 8,330 total supply exceeding requirement by 8%. Includes 492 completions 2016-2018. Strategic sites include Brookfield Garden Village (1,250), Cheshunt Lakeside (1,750), and Rosedale Park (820).",
+      "organisation": "local-authority:BRX"
+    }
+  ],
+  "confidence": "high",
+  "authority": "6fe7d8dbaed5f6f47968b3449573166b50fe62718ddfef897dfcb83042a0bf06",
+  "pdf_file": "collection/document/6fe7d8dbaed5f6f47968b3449573166b50fe62718ddfef897dfcb83042a0bf06.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BRX",
+  "local-plan-boundary": "E60000166",
+  "local-planning-authorities": [
+    "E60000166"
+  ],
+  "adoption-date": "2020-06-23"
+}

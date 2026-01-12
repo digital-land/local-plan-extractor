@@ -1,0 +1,29 @@
+{
+  "name": "Tewkesbury Borough Plan",
+  "organisation-name": "Tewkesbury Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tewkesbury Borough Council",
+      "required-housing": 9900,
+      "allocated-housing": 1007,
+      "windfall-housing": 414,
+      "committed-housing": 7461,
+      "broad-locations-housing": "",
+      "annual-required-housing": 495,
+      "pages": "27-29, 202",
+      "notes": "JCS requirement of 9,900 homes 2011-2031. Plan allocations provide 972-1,042 dwellings (1,007 used in supply calculations). Committed housing includes 5,579 completions + 1,882 commitments. Includes 500 homes from Mitton (Wychavon). Overall shortfall of 518 dwellings to be met via JCS Review.",
+      "organisation": "local-authority:TEW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "dc1a58a3cd63befa82e66cc71e01a5c2c7d2c8024f4c29b0d311250bc496bc02",
+  "pdf_file": "collection/document/dc1a58a3cd63befa82e66cc71e01a5c2c7d2c8024f4c29b0d311250bc496bc02.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TEW",
+  "local-plan-boundary": "E60000313",
+  "local-planning-authorities": [
+    "E60000313"
+  ]
+}

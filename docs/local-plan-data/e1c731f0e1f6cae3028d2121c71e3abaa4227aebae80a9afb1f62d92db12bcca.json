@@ -1,0 +1,49 @@
+{
+  "name": "Plymouth and South West Devon Joint Local Plan",
+  "organisation-name": "Plymouth City Council, South Hams District Council, West Devon Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2034,
+  "housing-numbers": [
+    {
+      "organisation-name": "Plymouth Policy Area",
+      "required-housing": 19000,
+      "allocated-housing": 8412,
+      "windfall-housing": 602,
+      "committed-housing": 12729,
+      "broad-locations-housing": "",
+      "annual-required-housing": 950,
+      "pages": "22-24",
+      "notes": "Plymouth Policy Area includes Plymouth administrative area plus urban fringe. Committed housing includes completions 2014-17 (2705), under construction (901), and outstanding commitments (8523). Also includes allowances for student HMOs (397) minus demolitions (872).",
+      "organisation": ""
+    },
+    {
+      "organisation-name": "Thriving Towns and Villages Policy Area",
+      "required-housing": 7700,
+      "allocated-housing": 2861,
+      "windfall-housing": 796,
+      "committed-housing": 5102,
+      "broad-locations-housing": "",
+      "annual-required-housing": 385,
+      "pages": "22-24",
+      "notes": "Covers rural South Hams and West Devon including market towns and villages. Committed housing includes completions 2014-17 (1394), under construction (371), and outstanding commitments (3337). Includes Sustainable Villages allowance (550).",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "e1c731f0e1f6cae3028d2121c71e3abaa4227aebae80a9afb1f62d92db12bcca",
+  "pdf_file": "collection/document/e1c731f0e1f6cae3028d2121c71e3abaa4227aebae80a9afb1f62d92db12bcca.pdf",
+  "pages_analysed": 32,
+  "organisations": [
+    "local-authority:PLY",
+    "local-authority:SHA",
+    "local-authority:WDE"
+  ],
+  "adoption-date": "2019-03-21",
+  "local-plan-boundary": "E60000295-E60000304-E60000307",
+  "local-planning-authorities": [
+    "E60000295",
+    "E60000304",
+    "E60000307"
+  ],
+  "organisation": "joint-planning-authority:PLY-SHA-WDE"
+}

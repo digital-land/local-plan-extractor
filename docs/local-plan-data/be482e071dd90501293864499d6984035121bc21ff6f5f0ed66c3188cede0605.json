@@ -1,0 +1,30 @@
+{
+  "name": "Exeter Core Strategy",
+  "organisation-name": "Exeter City Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Exeter City Council",
+      "required-housing": 12000,
+      "allocated-housing": 5300,
+      "windfall-housing": "",
+      "committed-housing": 4937,
+      "broad-locations-housing": "",
+      "annual-required-housing": 600,
+      "pages": "16-17, 29",
+      "notes": "Total requirement 12,000 dwellings. Committed housing includes completions 2006-2010 (2,687), planning permissions (2,224), and permissions subject to S106 (26). Strategic allocations include Newcourt (2,300), Monkerton/Hill Barton (2,500), and Alphington (500), plus regeneration areas (1,048) and identified sites (977).",
+      "organisation": "local-authority:EXE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "be482e071dd90501293864499d6984035121bc21ff6f5f0ed66c3188cede0605",
+  "pdf_file": "collection/document/be482e071dd90501293864499d6984035121bc21ff6f5f0ed66c3188cede0605.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:EXE",
+  "local-plan-boundary": "E60000301",
+  "local-planning-authorities": [
+    "E60000301"
+  ],
+  "adoption-date": "2012-02"
+}

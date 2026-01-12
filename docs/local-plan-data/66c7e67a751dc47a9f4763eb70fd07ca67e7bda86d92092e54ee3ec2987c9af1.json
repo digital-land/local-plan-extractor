@@ -1,0 +1,30 @@
+{
+  "name": "Allocations Plan 2006 to 2026",
+  "organisation-name": "Forest of Dean District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Forest of Dean District Council",
+      "required-housing": 6600,
+      "allocated-housing": 3875,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 330,
+      "pages": "12, 37-39",
+      "notes": "Plan provides 330 homes per year or 6600 dwellings over plan period (2006-2026). Total allocated housing includes sites from Cinderford NQAAP. Housing figures are based on updated Objectively Assessed Need (OAN) review.",
+      "organisation": "local-authority:FOE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "66c7e67a751dc47a9f4763eb70fd07ca67e7bda86d92092e54ee3ec2987c9af1",
+  "pdf_file": "collection/document/66c7e67a751dc47a9f4763eb70fd07ca67e7bda86d92092e54ee3ec2987c9af1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:FOE",
+  "local-plan-boundary": "E60000310",
+  "local-planning-authorities": [
+    "E60000310"
+  ],
+  "adoption-date": "2018-06"
+}

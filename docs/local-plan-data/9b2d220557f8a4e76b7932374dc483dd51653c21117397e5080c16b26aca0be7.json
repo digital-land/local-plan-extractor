@@ -1,0 +1,30 @@
+{
+  "name": "Rushmoor Local Plan",
+  "organisation-name": "Rushmoor Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rushmoor Borough Council",
+      "required-housing": 7850,
+      "allocated-housing": 2895,
+      "windfall-housing": 420,
+      "committed-housing": 5620,
+      "broad-locations-housing": "",
+      "annual-required-housing": 436,
+      "pages": "39-40, 233",
+      "notes": "Total capacity identified as 8,884 dwellings against requirement of 7,850. Committed housing includes 836 completions and 4,784 sites with planning permission. Allocated housing includes various town center sites and strategic allocations like Wellesley (3,850 homes), Civic Quarter (700), and other smaller allocations.",
+      "organisation": "local-authority:RUH"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9b2d220557f8a4e76b7932374dc483dd51653c21117397e5080c16b26aca0be7",
+  "pdf_file": "collection/document/9b2d220557f8a4e76b7932374dc483dd51653c21117397e5080c16b26aca0be7.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RUH",
+  "local-plan-boundary": "E60000250",
+  "local-planning-authorities": [
+    "E60000250"
+  ],
+  "adoption-date": "2019-02-21"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2013-2030",
+  "organisation-name": "Great Yarmouth Borough Council",
+  "period-start-date": 2013,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Great Yarmouth Borough Council",
+      "required-housing": 5303,
+      "allocated-housing": 1636,
+      "windfall-housing": 666,
+      "committed-housing": 3027,
+      "broad-locations-housing": 177,
+      "annual-required-housing": 363,
+      "pages": "10-11, 196",
+      "notes": "Required housing reduced from 7,140 to 5,303 using new standard method. Provision includes 1,691 completions 2013-2020, 2,850 commitments via planning permissions, 177 remaining strategic allocations, 1,636 new allocations, and 666 windfall allowance totaling 7,020 dwellings.",
+      "organisation": "local-authority:GRY"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374",
+  "pdf_file": "collection/document/1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:GRY",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000178",
+  "local-planning-authorities": [
+    "E60000178"
+  ]
+}

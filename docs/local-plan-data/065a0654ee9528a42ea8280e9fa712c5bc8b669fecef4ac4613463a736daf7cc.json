@@ -1,0 +1,30 @@
+{
+  "name": "Epping Forest District Local Plan 2011-2033",
+  "organisation-name": "Epping Forest District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Epping Forest District Council",
+      "required-housing": 11400,
+      "allocated-housing": 8301,
+      "windfall-housing": 210,
+      "committed-housing": 1665,
+      "broad-locations-housing": "",
+      "annual-required-housing": 518,
+      "pages": "23-28, 259-261",
+      "notes": "Housing requirement of 11,400 homes over 22 years (518 per annum). Allocated housing includes 3,400 homes from Garden Communities around Harlow and 3,901 from other allocations. Total supply is 12,199 homes providing contingency. Commitments include 10% non-delivery rate applied.",
+      "organisation": "local-authority:EPP"
+    }
+  ],
+  "confidence": "high",
+  "authority": "065a0654ee9528a42ea8280e9fa712c5bc8b669fecef4ac4613463a736daf7cc",
+  "pdf_file": "collection/document/065a0654ee9528a42ea8280e9fa712c5bc8b669fecef4ac4613463a736daf7cc.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:EPP",
+  "local-plan-boundary": "E60000160",
+  "local-planning-authorities": [
+    "E60000160"
+  ],
+  "adoption-date": "2023-03-06"
+}

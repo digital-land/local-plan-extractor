@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "High Peak Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "High Peak Borough Council",
+      "required-housing": 7000,
+      "allocated-housing": 2850,
+      "windfall-housing": 1200,
+      "committed-housing": 3421,
+      "broad-locations-housing": "",
+      "annual-required-housing": 350,
+      "pages": "38, 40, 114-118",
+      "notes": "Housing target of 350 dwellings per annum. Net requirement of 3,549 dwellings after accounting for completions (445), commitments (2,976), Peak District contribution (110), and shortfall (+80). Allocated sites provide 2,850 dwellings, small sites provide 1,200 dwellings. Chapel-en-le-Frith Neighbourhood Plan contributes 42 allocated dwellings plus 850 minimum requirement.",
+      "organisation": "local-authority:HIG"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361",
+  "pdf_file": "collection/document/cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HIG",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000082",
+  "local-planning-authorities": [
+    "E60000082"
+  ]
+}

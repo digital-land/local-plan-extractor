@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2019-2033",
+  "organisation-name": "Wycombe District Council",
+  "period-start-date": 2019,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wycombe District Council",
+      "required-housing": 10925,
+      "allocated-housing": 5359,
+      "windfall-housing": 539,
+      "committed-housing": 5369,
+      "broad-locations-housing": "",
+      "annual-required-housing": 546,
+      "pages": "49-54",
+      "notes": "Total requirement is 10,925 homes over plan period. Allocated housing includes 5,359-5,599 homes from new allocations in this Local Plan. Committed housing includes completions (2,404), sites with permission (2,865), existing DSA allocations (255), and made neighbourhood plans (100). Annual requirement of 546 per year is based on total target divided by 20-year plan period.",
+      "organisation": "local-authority:WYO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "6338d4c093e64b2d9271b87cfccce58c032d518192b7d6a0bee2a503b334e294",
+  "pdf_file": "collection/document/6338d4c093e64b2d9271b87cfccce58c032d518192b7d6a0bee2a503b334e294.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WYO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000236",
+  "local-planning-authorities": [
+    "E60000236"
+  ]
+}

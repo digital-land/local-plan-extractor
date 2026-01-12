@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2010-2027",
+  "organisation-name": "Woking Borough Council",
+  "period-start-date": 2010,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Woking Borough Council",
+      "required-housing": 4964,
+      "allocated-housing": 4214,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 750,
+      "annual-required-housing": 292,
+      "pages": "4, 12-13",
+      "notes": "4,964 total requirement includes specific allocations (4,214) plus broad locations for Green Belt sites (550) and additional Town Centre capacity (200). Annual requirement is 292 per annum.",
+      "organisation": "local-authority:WOI"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4",
+  "pdf_file": "collection/document/4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WOI",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000280",
+  "local-planning-authorities": [
+    "E60000280"
+  ]
+}

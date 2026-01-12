@@ -1,0 +1,30 @@
+{
+  "name": "Dover District Local Plan to 2040",
+  "organisation-name": "Dover District Council",
+  "period-start-date": 2020,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Dover District Council",
+      "required-housing": 10998,
+      "allocated-housing": 6551,
+      "windfall-housing": 980,
+      "committed-housing": 5325,
+      "broad-locations-housing": "",
+      "annual-required-housing": 611,
+      "pages": "31-33, 345",
+      "notes": "Plan period 2020-2040. Required housing is minimum of 10,998 homes (18 years x 611 dpa from 2022). Total housing supply is 11,876 with 8% contingency buffer. Committed supply includes extant permissions, WUE extant supply, actual completions and Ash Neighbourhood Plan sites totaling 5,325. Local Plan Supply Total is 6,551 including WUE allocation SAP1 (2,200), other Local Plan allocations (3,371), and windfall allowance (980).",
+      "organisation": "local-authority:DOV"
+    }
+  ],
+  "confidence": "high",
+  "authority": "dd7697ee5e0e1e82164caf30142393f0e6e1b488ba883b547756fa966fdee911",
+  "pdf_file": "collection/document/dd7697ee5e0e1e82164caf30142393f0e6e1b488ba883b547756fa966fdee911.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:DOV",
+  "local-plan-boundary": "E60000256",
+  "local-planning-authorities": [
+    "E60000256"
+  ],
+  "adoption-date": "2024-10-16"
+}

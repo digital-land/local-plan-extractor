@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2023-2040",
+  "organisation-name": "City of Lincoln Council",
+  "period-start-date": 2023,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Central Lincolnshire Joint Strategic Planning Committee",
+      "required-housing": 24244,
+      "allocated-housing": 13573,
+      "windfall-housing": 1956,
+      "committed-housing": 13738,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1102,
+      "pages": "18, 21, 171",
+      "notes": "Joint plan covering City of Lincoln Council, North Kesteven District Council, and West Lindsey District Council. Housing requirement is 1,102 dwellings per year baseline for calculations, with economic vision target of 1,325 dwellings per year (29,150 total). Committed housing includes completions 2018-2022 (5,405) plus sites with permission (12,341). Total supply is 34,672 providing 10,428 surplus over requirement.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "050655efd1f37aa4fb5d9e6d96e2227aefc7d70ce4c786d7fe5ddc4318bf6af0",
+  "pdf_file": "collection/document/050655efd1f37aa4fb5d9e6d96e2227aefc7d70ce4c786d7fe5ddc4318bf6af0.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:LIC",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000094",
+  "local-planning-authorities": [
+    "E60000094"
+  ]
+}

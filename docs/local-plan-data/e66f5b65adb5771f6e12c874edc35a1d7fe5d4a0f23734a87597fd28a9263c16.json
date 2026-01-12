@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2006-2028",
+  "organisation-name": "South Somerset District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Somerset District Council",
+      "required-housing": 15950,
+      "allocated-housing": 2002,
+      "windfall-housing": "",
+      "committed-housing": 10128,
+      "broad-locations-housing": "",
+      "annual-required-housing": 725,
+      "pages": "38, 40, 42",
+      "notes": "Total requirement 15,950 homes 2006-2028. Committed housing includes completions, under construction, commitments not started, and allocated sites with permission. Allocated sites without permission total 2,002 homes.",
+      "organisation": "local-authority:SSO"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "e66f5b65adb5771f6e12c874edc35a1d7fe5d4a0f23734a87597fd28a9263c16",
+  "pdf_file": "collection/document/e66f5b65adb5771f6e12c874edc35a1d7fe5d4a0f23734a87597fd28a9263c16.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SSO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000317",
+  "local-planning-authorities": [
+    "E60000317"
+  ]
+}

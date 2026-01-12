@@ -1,0 +1,30 @@
+{
+  "name": "Slough Local Development Framework Core Strategy 2006 - 2026",
+  "organisation-name": "Slough Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Slough Borough Council",
+      "required-housing": 6250,
+      "allocated-housing": 6281,
+      "windfall-housing": 600,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 285,
+      "pages": "25-26, 61-69",
+      "notes": "Core Policy 3 states minimum 6,250 dwellings for plan period. Housing trajectory shows total 6,881 units. Annual requirement of 285 per year increased from original 235 by Panel recommendation. Small sites (windfall) projected at around 30 per year (600 total for 20 years).",
+      "organisation": "local-authority:SLG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495",
+  "pdf_file": "collection/document/1608d75f87a93ae099c00fb35822269628be1f6c001813b84511b9dbc43c5495.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SLG",
+  "local-plan-boundary": "E60000228",
+  "local-planning-authorities": [
+    "E60000228"
+  ],
+  "adoption-date": "2004-03"
+}

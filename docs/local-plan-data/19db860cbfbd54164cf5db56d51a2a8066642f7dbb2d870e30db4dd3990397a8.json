@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2015-2030",
+  "organisation-name": "Yorkshire Dales National Park Authority",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Yorkshire Dales National Park Authority",
+      "required-housing": 825,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 55,
+      "pages": "14, 40-41",
+      "notes": "Target of 55 dwellings per annum over 15-year period. Plan emphasizes that most development will come from windfall sites rather than allocations due to rural context. Housing sites are allocated (referenced in Appendix 4) but total numbers not clearly stated in main document.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "19db860cbfbd54164cf5db56d51a2a8066642f7dbb2d870e30db4dd3990397a8",
+  "pdf_file": "collection/document/19db860cbfbd54164cf5db56d51a2a8066642f7dbb2d870e30db4dd3990397a8.pdf",
+  "pages_analysed": 0,
+  "organisation": "national-park-authority:Q27178932",
+  "adoption-date": null
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Coventry Local Plan",
+  "organisation-name": "Coventry City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Coventry City Council",
+      "required-housing": 42400,
+      "allocated-housing": 8920,
+      "windfall-housing": 350,
+      "committed-housing": 6845,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1230,
+      "pages": "1-2, 14-15, 45-46",
+      "notes": "Plan uses stepped trajectory: 1,020 per annum 2011-2016, then 1,300 per annum 2017-2031. Shortfall of ~17,800 homes to be provided in Warwickshire. Committed housing includes 5,900 with planning permission + 945 under construction.",
+      "organisation": "local-authority:COV"
+    }
+  ],
+  "confidence": "high",
+  "authority": "aa3168861de54d9b382535550dc344cdeb0676e98a90b1926545fba089aa29cd",
+  "pdf_file": "collection/document/aa3168861de54d9b382535550dc344cdeb0676e98a90b1926545fba089aa29cd.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:COV",
+  "local-plan-boundary": "E60000131",
+  "local-planning-authorities": [
+    "E60000131"
+  ],
+  "adoption-date": "2012-05",
+  "withdrawn-date": "2012-05"
+}

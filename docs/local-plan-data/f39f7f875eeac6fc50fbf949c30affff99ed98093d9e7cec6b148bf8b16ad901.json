@@ -1,0 +1,30 @@
+{
+  "name": "Bassetlaw Local Plan 2020-2038",
+  "organisation-name": "Bassetlaw District Council",
+  "period-start-date": 2020,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bassetlaw District Council",
+      "required-housing": 9720,
+      "allocated-housing": 2387,
+      "windfall-housing": 912,
+      "committed-housing": 6868,
+      "broad-locations-housing": 238,
+      "annual-required-housing": 540,
+      "pages": "29-31, 78, 245",
+      "notes": "Housing requirement is 540 dwellings per annum. Committed housing includes 2,587 completions (2020-2023) + 4,281 sites with planning permission. Broad locations housing refers to Worksop Central DPD sites. Total supply is 11,195 providing 15% buffer above requirement.",
+      "organisation": "local-authority:BAE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f39f7f875eeac6fc50fbf949c30affff99ed98093d9e7cec6b148bf8b16ad901",
+  "pdf_file": "collection/document/f39f7f875eeac6fc50fbf949c30affff99ed98093d9e7cec6b148bf8b16ad901.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BAE",
+  "local-plan-boundary": "E60000107",
+  "local-planning-authorities": [
+    "E60000107"
+  ],
+  "adoption-date": "2024-05-29"
+}

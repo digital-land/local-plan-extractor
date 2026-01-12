@@ -1,0 +1,30 @@
+{
+  "name": "City Plan Part 1",
+  "organisation-name": "Brighton & Hove City Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Brighton & Hove City Council",
+      "required-housing": 13200,
+      "allocated-housing": 3635,
+      "windfall-housing": 1250,
+      "committed-housing": 3740,
+      "broad-locations-housing": 640,
+      "annual-required-housing": 660,
+      "pages": "131-136",
+      "notes": "Minimum housing target of 13,200 homes. Strategic allocations provide 3,635 homes. Committed includes completions since 2010 plus sites with planning permission. Broad locations represent further capacity identified in SHLAA for Part 2 allocations.",
+      "organisation": "local-authority:BNH"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f958cf0f962b529174b16532097c7210346f372a66e1289d1b568f3abfaf8f72",
+  "pdf_file": "collection/document/f958cf0f962b529174b16532097c7210346f372a66e1289d1b568f3abfaf8f72.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BNH",
+  "local-plan-boundary": "E60000222",
+  "local-planning-authorities": [
+    "E60000222"
+  ],
+  "adoption-date": "2016-03-24"
+}

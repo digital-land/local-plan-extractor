@@ -1,0 +1,30 @@
+{
+  "name": "Oxford Local Plan 2036",
+  "organisation-name": "Oxford City Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Oxford City Council",
+      "required-housing": 10884,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 544,
+      "pages": "35, 33",
+      "notes": "Stepped trajectory: 475 dpa 2016/17-2020/21, then 567 dpa 2021/22-2035/36. Total is a minimum requirement based on capacity constraints. Individual housing supply components not broken down in document.",
+      "organisation": "local-authority:OXO"
+    }
+  ],
+  "confidence": "high",
+  "authority": "de7446d1d83cece0d1851de288176432651cff32651dd58e4f4c95f13598f5c2",
+  "pdf_file": "collection/document/de7446d1d83cece0d1851de288176432651cff32651dd58e4f4c95f13598f5c2.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:OXO",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000266",
+  "local-planning-authorities": [
+    "E60000266"
+  ]
+}

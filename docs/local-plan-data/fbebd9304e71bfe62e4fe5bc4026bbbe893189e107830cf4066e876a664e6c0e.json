@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan Part 1: Strategic Policies and Sites",
+  "organisation-name": "Waverley Borough Council",
+  "period-start-date": 2013,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Waverley Borough Council",
+      "required-housing": 11210,
+      "allocated-housing": 3340,
+      "windfall-housing": 962,
+      "committed-housing": 3552,
+      "broad-locations-housing": 2181,
+      "annual-required-housing": 590,
+      "pages": "42-45, 204-205",
+      "notes": "Required housing includes 590 homes per year (507 for Waverley's needs + 83 for Woking's unmet need). Allocated housing includes strategic sites plus Farnham NDP allocations. Committed housing includes completions 2013-2017 plus outstanding permissions and resolutions to permit. Windfall includes both 1-4 dwelling sites (468) and 5+ dwelling sites (494).",
+      "organisation": "local-authority:WAE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "fbebd9304e71bfe62e4fe5bc4026bbbe893189e107830cf4066e876a664e6c0e",
+  "pdf_file": "collection/document/fbebd9304e71bfe62e4fe5bc4026bbbe893189e107830cf4066e876a664e6c0e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WAE",
+  "local-plan-boundary": "E60000279",
+  "local-planning-authorities": [
+    "E60000279"
+  ],
+  "adoption-date": "2013-01",
+  "withdrawn-date": "2013-10"
+}

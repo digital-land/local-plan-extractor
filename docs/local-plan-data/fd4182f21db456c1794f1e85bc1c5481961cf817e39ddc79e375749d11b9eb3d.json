@@ -1,0 +1,30 @@
+{
+  "name": "Fenland Local Plan to 2031",
+  "organisation-name": "Fenland District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Fenland District Council",
+      "required-housing": 11000,
+      "allocated-housing": 6440,
+      "windfall-housing": 2005,
+      "committed-housing": 2035,
+      "broad-locations-housing": 1750,
+      "annual-required-housing": 550,
+      "pages": "18-19, 81, 94",
+      "notes": "Total includes 4,690 from strategic allocations and 1,750 from broad locations. Also includes 550 homes on edge of Wisbech in Kings Lynn and West Norfolk Borough Council area. Housing trajectory shows breakdown by type of site.",
+      "organisation": "local-authority:FEN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "fd4182f21db456c1794f1e85bc1c5481961cf817e39ddc79e375749d11b9eb3d",
+  "pdf_file": "collection/document/fd4182f21db456c1794f1e85bc1c5481961cf817e39ddc79e375749d11b9eb3d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:FEN",
+  "local-plan-boundary": "E60000151",
+  "local-planning-authorities": [
+    "E60000151"
+  ],
+  "adoption-date": "2014-05-08"
+}

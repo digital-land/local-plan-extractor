@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2016-2036",
+  "organisation-name": "Darlington Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Darlington Borough Council",
+      "required-housing": 9840,
+      "allocated-housing": 5764,
+      "windfall-housing": 375,
+      "committed-housing": 3119,
+      "broad-locations-housing": "",
+      "annual-required-housing": 492,
+      "pages": "35-42, 147-152",
+      "notes": "Plan requirement is 492 net additional dwellings per annum over 2016-2036. Housing trajectory shows allocations (5,764), commitments on major sites (3,119), completions 2016-2021 (2,321), and small sites windfall allowance of 25 dpa (375 total for remaining 15 years). Total supply is 11,579 homes exceeding the 9,840 requirement.",
+      "organisation": "local-authority:DAL"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f",
+  "pdf_file": "collection/document/cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:DAL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000002",
+  "local-planning-authorities": [
+    "E60000002"
+  ]
+}

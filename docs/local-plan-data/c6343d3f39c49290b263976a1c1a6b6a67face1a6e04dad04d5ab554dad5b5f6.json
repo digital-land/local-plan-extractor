@@ -1,0 +1,30 @@
+{
+  "name": "Eastbourne Core Strategy Local Plan",
+  "organisation-name": "Eastbourne Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Eastbourne Borough Council",
+      "required-housing": 5022,
+      "allocated-housing": "",
+      "windfall-housing": 1185,
+      "committed-housing": 1594,
+      "broad-locations-housing": "",
+      "annual-required-housing": 240,
+      "pages": "4, 14-16",
+      "notes": "Target revised from original South East Plan requirement of 4,800 (2006-2026) to 5,022 (2006-2027). Committed housing includes completions 2006-2012 (1,594 units) plus deliverable commitments (963 units). Document focuses on broad spatial strategy rather than specific site allocations. Housing delivery broken down by neighbourhood in Table 2 (page 15).",
+      "organisation": "local-authority:EAS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c6343d3f39c49290b263976a1c1a6b6a67face1a6e04dad04d5ab554dad5b5f6",
+  "pdf_file": "collection/document/c6343d3f39c49290b263976a1c1a6b6a67face1a6e04dad04d5ab554dad5b5f6.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:EAS",
+  "local-plan-boundary": "E60000237",
+  "local-planning-authorities": [
+    "E60000237"
+  ],
+  "adoption-date": "2011-04"
+}

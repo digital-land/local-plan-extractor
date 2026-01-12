@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Tandridge District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tandridge District Council",
+      "required-housing": 2500,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 125,
+      "pages": "18, 20, 71",
+      "notes": "South East Plan allocates 2,500 dwellings for 2006-2026 period. Core Strategy relies on previously developed land in built-up areas and does not identify specific strategic sites. Housing trajectory shows delivery but not broken down by source category. Detailed allocations to be made through Site Allocations DPD.",
+      "organisation": "local-authority:TAN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "a9e3813655e3800996830f4437ecefe9c4b697355e69214701c82b938e6b8329",
+  "pdf_file": "collection/document/a9e3813655e3800996830f4437ecefe9c4b697355e69214701c82b938e6b8329.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:TAN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000278",
+  "local-planning-authorities": [
+    "E60000278"
+  ]
+}

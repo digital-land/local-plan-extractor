@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "East Hampshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "East Hampshire District Council",
+      "required-housing": 10060,
+      "allocated-housing": 3200,
+      "windfall-housing": 1314,
+      "committed-housing": 2441,
+      "broad-locations-housing": 2725,
+      "annual-required-housing": 592,
+      "pages": "42, 113",
+      "notes": "Joint plan with SDNPA. Includes 2,725 dwellings from Whitehill & Bordon Strategic Allocation. Committed housing includes completions (676) + large sites (1372) + small sites (393). Housing provision in SDNP restricted to serve local communities only.",
+      "organisation": "local-authority:EHA"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "c050c932377f3e80f51cad2c3870b210acda52245c224b0b9392d6b04feed1d3",
+  "pdf_file": "collection/document/c050c932377f3e80f51cad2c3870b210acda52245c224b0b9392d6b04feed1d3.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:EHA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000243",
+  "local-planning-authorities": [
+    "E60000243"
+  ]
+}

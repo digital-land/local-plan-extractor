@@ -1,0 +1,30 @@
+{
+  "name": "Maidstone Local Plan Review 2021-2038",
+  "organisation-name": "Maidstone Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Maidstone Borough Council",
+      "required-housing": 19669,
+      "allocated-housing": "",
+      "windfall-housing": 2711,
+      "committed-housing": 9141,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1157,
+      "pages": "26-27, 132-133",
+      "notes": "Total requirement 19,669 homes. Committed housing includes 2,691 completions (2021-2023) + 6,450 extant supply. Garden settlements and strategic development locations provide additional housing beyond these figures.",
+      "organisation": "local-authority:MAI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5c6fb794af2ee680b6a2331df63eba1b31affb40543a949a562198f00dcc3482",
+  "pdf_file": "collection/document/5c6fb794af2ee680b6a2331df63eba1b31affb40543a949a562198f00dcc3482.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MAI",
+  "local-plan-boundary": "E60000259",
+  "local-planning-authorities": [
+    "E60000259"
+  ],
+  "adoption-date": "2024-03-20"
+}

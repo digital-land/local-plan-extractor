@@ -1,0 +1,59 @@
+{
+  "name": "South East Lincolnshire Local Plan 2011-36",
+  "organisation-name": "Boston Borough Council, South Holland District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Boston Borough Council",
+      "required-housing": 7744,
+      "allocated-housing": 4290,
+      "windfall-housing": 688,
+      "committed-housing": 2627,
+      "broad-locations-housing": "",
+      "annual-required-housing": 310,
+      "pages": "58, 61-62, 177",
+      "notes": "Total requirement 7,744 dwellings at 310 per annum. Allocated sites total 4,290 homes across 19 sites. Windfall allowance applied from 2020/21 onwards. Commitments include major Q1 development (502 homes) and other smaller sites minus 10% lapse rate.",
+      "organisation": "local-authority:BOT"
+    },
+    {
+      "organisation-name": "South Holland District Council",
+      "required-housing": 11681,
+      "allocated-housing": "",
+      "windfall-housing": 848,
+      "committed-housing": 4413,
+      "broad-locations-housing": "",
+      "annual-required-housing": 467,
+      "pages": "58, 60, 179-180",
+      "notes": "Total requirement 11,681 dwellings at 467 per annum. Windfall allowance of 53 per annum from 2020/21. Major commitments include Holland Park (1,900 homes) and Manor Farm Holbeach (838 homes). Allocated housing numbers not clearly distinguished from commitments in the document.",
+      "organisation": "local-authority:SHO"
+    },
+    {
+      "organisation-name": "Boston Borough Council, South Holland District Council",
+      "organisation": "joint-planning-authority:BOT-SHO",
+      "required-housing": 19425,
+      "allocated-housing": 4290,
+      "windfall-housing": 1536,
+      "committed-housing": 7040,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 777,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3",
+  "pdf_file": "collection/document/adef53df06ef475616d0ef26a98364464253fbd5a46a95a2ba6fab668f831df3.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:BOT-SHO",
+  "organisations": [
+    "local-authority:BOT",
+    "local-authority:SHO"
+  ],
+  "local-plan-boundary": "E60000092-E60000096",
+  "local-planning-authorities": [
+    "E60000092",
+    "E60000096"
+  ],
+  "adoption-date": "2019-03-08"
+}

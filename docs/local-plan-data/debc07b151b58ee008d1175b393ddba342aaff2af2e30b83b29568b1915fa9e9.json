@@ -1,0 +1,26 @@
+{
+  "name": "Richmond Local Plan 'The best for our borough' (2024 to 2039)",
+  "organisation-name": "Richmond upon Thames Council",
+  "period-start-date": 2024,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "organisation-name": "Richmond upon Thames Council",
+      "required-housing": 5928,
+      "allocated-housing": "",
+      "windfall-housing": 2340,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 411,
+      "pages": "216-217, 241",
+      "notes": "Plan has total requirement of 5,928 dwellings over 2024-2039 period. London Plan sets 10-year target of 4,110 homes (2019-2029) at 411 per annum, which is rolled forward. Small sites windfall target is 234 per annum (2,340 over 10 years from 2019-2029). Stepped trajectory: 210 per annum 2021-2025, 420 per annum 2025-2028, 670 per annum 2028-2031.",
+      "organisation": "local-authority:RIC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "debc07b151b58ee008d1175b393ddba342aaff2af2e30b83b29568b1915fa9e9",
+  "pdf_file": "collection/document/debc07b151b58ee008d1175b393ddba342aaff2af2e30b83b29568b1915fa9e9.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RIC",
+  "adoption-date": "2018-07"
+}

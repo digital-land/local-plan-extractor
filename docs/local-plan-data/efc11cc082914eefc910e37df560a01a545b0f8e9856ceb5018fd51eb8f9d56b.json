@@ -1,0 +1,30 @@
+{
+  "name": "Watford Local Plan 2021-2038",
+  "organisation-name": "Watford Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Watford Borough Council",
+      "required-housing": 13328,
+      "allocated-housing": 8604,
+      "windfall-housing": 2217,
+      "committed-housing": 2507,
+      "broad-locations-housing": "",
+      "annual-required-housing": 784,
+      "pages": "47-48, 226-227",
+      "notes": "Total requirement is 'at least 13,328 net additional homes' over 17-year period. Housing supply breakdown: 8,604 from allocated sites + 2,507 commitments (extant permissions) + 2,217 windfall = 13,328 total. Commitments figure assumes maximum delivery from all permissions as of 1 April 2021.",
+      "organisation": "local-authority:WAT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "efc11cc082914eefc910e37df560a01a545b0f8e9856ceb5018fd51eb8f9d56b",
+  "pdf_file": "collection/document/efc11cc082914eefc910e37df560a01a545b0f8e9856ceb5018fd51eb8f9d56b.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WAT",
+  "local-plan-boundary": "E60000174",
+  "local-planning-authorities": [
+    "E60000174"
+  ],
+  "adoption-date": "2022-10-17"
+}

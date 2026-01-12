@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2030",
+  "organisation-name": "Ashford Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Ashford Borough Council",
+      "required-housing": 16872,
+      "allocated-housing": 5889,
+      "windfall-housing": 1875,
+      "committed-housing": 3939,
+      "broad-locations-housing": 2500,
+      "annual-required-housing": 888,
+      "pages": "10, 14",
+      "notes": "OAN of 16,872 dwellings 2011-2030 (888 per annum). Windfall includes 875 extant + 1000 future unidentified. Committed housing includes 3064 extant commitments + 875 extant windfalls. Chilmington Green treated as broad location.",
+      "organisation": "local-authority:ASF"
+    }
+  ],
+  "confidence": "high",
+  "authority": "31f950cffc260dca47c7195ad793e986d88073645e5e116bf12d08f162513093",
+  "pdf_file": "collection/document/31f950cffc260dca47c7195ad793e986d88073645e5e116bf12d08f162513093.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ASF",
+  "local-plan-boundary": "E60000253",
+  "local-planning-authorities": [
+    "E60000253"
+  ],
+  "adoption-date": "2019-02"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "North Northamptonshire Joint Core Strategy 2011-2031",
+  "organisation-name": "Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Corby Borough Council",
+      "required-housing": 9200,
+      "allocated-housing": 4500,
+      "windfall-housing": 27,
+      "committed-housing": 2261,
+      "broad-locations-housing": "",
+      "annual-required-housing": 460,
+      "pages": "132, 137, 214",
+      "notes": "Strategic opportunity for additional 5,000 homes (total 14,200). West Corby SUE allocated for 4,500 homes. Windfall estimate 9 dwellings p.a 2018-21.",
+      "organisation": "local-authority:COR"
+    },
+    {
+      "organisation-name": "East Northamptonshire District Council",
+      "required-housing": 8400,
+      "allocated-housing": 2500,
+      "windfall-housing": 123,
+      "committed-housing": 2203,
+      "broad-locations-housing": "",
+      "annual-required-housing": 420,
+      "pages": "132, 137, 156, 215",
+      "notes": "Rushden East SUE broad location for around 2,500 homes. Windfall estimate 41 dwellings p.a 2018-21.",
+      "organisation": ""
+    },
+    {
+      "organisation-name": "Kettering Borough Council",
+      "required-housing": 10400,
+      "allocated-housing": 700,
+      "windfall-housing": 228,
+      "committed-housing": 3743,
+      "broad-locations-housing": "",
+      "annual-required-housing": 520,
+      "pages": "132, 137, 216",
+      "notes": "Rothwell North SUE allocated for 700 homes. Windfall estimate 76 dwellings p.a 2018-21.",
+      "organisation": "local-authority:KET"
+    },
+    {
+      "organisation-name": "Borough Council of Wellingborough",
+      "required-housing": 7000,
+      "allocated-housing": 0,
+      "windfall-housing": 135,
+      "committed-housing": 3885,
+      "broad-locations-housing": "",
+      "annual-required-housing": 350,
+      "pages": "132, 137, 217",
+      "notes": "No new allocations identified in JCS - relying on committed sites. Windfall estimate 45 dwellings p.a 2018-21.",
+      "organisation": ""
+    },
+    {
+      "organisation-name": "Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough",
+      "organisation": "joint-planning-authority:COR-KET",
+      "required-housing": 35000,
+      "allocated-housing": 7700,
+      "windfall-housing": 513,
+      "committed-housing": 12092,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 1750,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d",
+  "pdf_file": "collection/document/6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:COR-KET",
+  "organisations": [
+    "local-authority:COR",
+    "local-authority:KET"
+  ],
+  "local-plan-boundary": "E60000099-E60000102",
+  "local-planning-authorities": [
+    "E60000099",
+    "E60000102"
+  ],
+  "adoption-date": "2016-07"
+}

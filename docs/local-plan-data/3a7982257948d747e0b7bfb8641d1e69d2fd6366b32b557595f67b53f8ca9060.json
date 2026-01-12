@@ -1,0 +1,30 @@
+{
+  "name": "New Forest District Local Plan 2016-2036 Part 1: Planning Strategy",
+  "organisation-name": "New Forest District Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "New Forest District Council",
+      "required-housing": 10420,
+      "allocated-housing": 6000,
+      "windfall-housing": 924,
+      "committed-housing": 2755,
+      "broad-locations-housing": 800,
+      "annual-required-housing": 521,
+      "pages": "28-30",
+      "notes": "Plan Area excludes New Forest National Park. Target is 'at least 10,420 homes'. Strategic Site Allocations provide 'at least 6,000 homes'. Committed housing includes saved site allocations from previous Local Plan Part 2. Broad locations are sites of 10+ homes to be identified in Local Plan Part Two or Neighbourhood Plans.",
+      "organisation": "local-authority:NEW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3a7982257948d747e0b7bfb8641d1e69d2fd6366b32b557595f67b53f8ca9060",
+  "pdf_file": "collection/document/3a7982257948d747e0b7bfb8641d1e69d2fd6366b32b557595f67b53f8ca9060.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NEW",
+  "local-plan-boundary": "E60000249",
+  "local-planning-authorities": [
+    "E60000249"
+  ],
+  "adoption-date": "2020-07-06"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Redcar & Cleveland Local Plan",
+  "organisation-name": "Redcar & Cleveland Borough Council",
+  "period-start-date": 2015,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Redcar & Cleveland Borough Council",
+      "required-housing": 3978,
+      "allocated-housing": 2761,
+      "windfall-housing": "",
+      "committed-housing": 2742,
+      "broad-locations-housing": "",
+      "annual-required-housing": 234,
+      "pages": "114-115, 120-123",
+      "notes": "Plan period 2015/16-2031/32 (17 years). Housing requirement is 234 net additional dwellings per annum. Allocated housing includes 28 site allocations totaling 2,761 dwellings (including 1,050 after 2032). Major commitments total 2,742 dwellings remaining as of 31/03/2016. Some overlap may exist between different categories of supply.",
+      "organisation": "local-authority:RCC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "eed8ee152b5f4ad22fe610603d0adb37ac3d6cd6d8dca73f8a2467cdfc864988",
+  "pdf_file": "collection/document/eed8ee152b5f4ad22fe610603d0adb37ac3d6cd6d8dca73f8a2467cdfc864988.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RCC",
+  "local-plan-boundary": "E60000006",
+  "local-planning-authorities": [
+    "E60000006"
+  ],
+  "adoption-date": "2018-05-24"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Preston Local Plan 2012-26",
+  "organisation-name": "Preston City Council",
+  "period-start-date": 2012,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Preston City Council",
+      "required-housing": 7301,
+      "allocated-housing": 8637,
+      "windfall-housing": "",
+      "committed-housing": 1043,
+      "broad-locations-housing": "",
+      "annual-required-housing": 507,
+      "pages": "46-51",
+      "notes": "Total requirement 7,301 units for 2014-2026 includes undersupply of 1,217 units from previous period. Allocated housing of 8,637 includes 5,800 expected 2014-2026 plus 2,837 capacity at North West Preston for beyond 2026. Also includes 600 housing units to be delivered through City Centre Plan and 375 from bringing empty homes back into use.",
+      "organisation": "local-authority:PRE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ba223d059323a6400ade144328bbffdf4ef2c4a9789342f9a8cf782cff1cdb70",
+  "pdf_file": "collection/document/ba223d059323a6400ade144328bbffdf4ef2c4a9789342f9a8cf782cff1cdb70.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:PRE",
+  "local-plan-boundary": "E60000041",
+  "local-planning-authorities": [
+    "E60000041"
+  ],
+  "adoption-date": "2015-07-02"
+}

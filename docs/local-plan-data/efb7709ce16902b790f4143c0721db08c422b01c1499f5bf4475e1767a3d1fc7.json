@@ -1,0 +1,26 @@
+{
+  "name": "East Herts District Plan 2018",
+  "organisation-name": "East Herts Council",
+  "period-start-date": 2011,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "East Herts Council",
+      "required-housing": 18458,
+      "allocated-housing": 12188,
+      "windfall-housing": 1125,
+      "committed-housing": 4901,
+      "broad-locations-housing": "",
+      "annual-required-housing": 839,
+      "pages": "25, 30-35, 322",
+      "notes": "Total need is 18,458 homes (839 per year). Allocated housing includes major strategic sites like Gilston Area (3,050), Bishop's Stortford allocations, and other town extensions. Windfall allowance is 75 dwellings per annum over plan period. Commitments as at 31/08/17.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "efb7709ce16902b790f4143c0721db08c422b01c1499f5bf4475e1767a3d1fc7",
+  "pdf_file": "collection/document/efb7709ce16902b790f4143c0721db08c422b01c1499f5bf4475e1767a3d1fc7.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:EHA",
+  "adoption-date": "2018-10-23"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "South Cambridgeshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Cambridgeshire District Council",
+      "required-housing": 19500,
+      "allocated-housing": 4365,
+      "windfall-housing": 2450,
+      "committed-housing": 15135,
+      "broad-locations-housing": "",
+      "annual-required-housing": 975,
+      "pages": "25, 27, 253",
+      "notes": "Total requirement of 19,500 homes 2011-2031. Committed housing includes completions 2011-15 (2,735), existing allocations (8,771), unallocated sites with permission (1,179), and windfall allowance (2,450) = 15,135 total. New allocations of 4,365 identified to meet remaining need. Annual requirement calculated as 975 homes per year.",
+      "organisation": "local-authority:SCA"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3",
+  "pdf_file": "collection/document/5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SCA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000153",
+  "local-planning-authorities": [
+    "E60000153"
+  ]
+}

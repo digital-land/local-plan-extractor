@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Shropshire Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Shropshire Council",
+      "required-housing": 27500,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1375,
+      "pages": "35, 82, 83",
+      "notes": "Total requirement of 27,500 homes includes 9,000 affordable homes. Plan uses phased approach: 2006/2011 \u2013 1190 dwellings per annum, 2011/2016 \u2013 1390 per annum, 2016/2021 \u2013 1390 per annum, 2021/2026 \u2013 1530 per annum. Average annual requirement is 1375 homes per year. This is a Core Strategy document - specific allocations will be made in the subsequent SAMDev DPD.",
+      "organisation": "local-authority:SHR"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "23c26abffefe1ced3f23bcf6c43fdd0685d5fc6a59ba6928d9b6420922fb54b2",
+  "pdf_file": "collection/document/23c26abffefe1ced3f23bcf6c43fdd0685d5fc6a59ba6928d9b6420922fb54b2.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SHR",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000114",
+  "local-planning-authorities": [
+    "E60000114"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "Taunton Deane Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Taunton Deane Borough Council",
+      "required-housing": 17000,
+      "allocated-housing": 7200,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 2500,
+      "annual-required-housing": 850,
+      "pages": "35, 77, 83, 89, 95, 102, 104",
+      "notes": "Housing target is 'at least' 17,000 homes for 2008-2028. Strategic allocations include Monkton Heathfield (4,500), Priorswood/Nerrols (900), Wellington sites (1,800 total). Broad locations include Comeytrowe/Trull (1,000-2,000) and Staplegrove (500-1,500), using midpoint estimates. Annual requirement varies by phase: 704dpa (2011-16), 904dpa (2016-21), 1076dpa (2021-28).",
+      "organisation": "local-authority:TAU"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "205073b028e5d890eca72724aaee25e365753e9bcc81e35267838ec5d3438502",
+  "pdf_file": "collection/document/205073b028e5d890eca72724aaee25e365753e9bcc81e35267838ec5d3438502.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:TAU",
+  "adoption-date": null
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Lewes District Local Plan Part 1: Joint Core Strategy",
+  "organisation-name": "Lewes District Council, South Downs National Park Authority",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lewes District (outside National Park)",
+      "required-housing": 4322,
+      "allocated-housing": 1728,
+      "windfall-housing": 600,
+      "committed-housing": 1131,
+      "broad-locations-housing": "",
+      "annual-required-housing": 216,
+      "pages": "49, 52, 141-142",
+      "notes": "Part of joint plan with SDNPA. Figures exclude areas within South Downs National Park. Strategic allocations total 1,728 units. Windfall allowance is 600 units over plan period. Rural exception sites allowance is 125 units (additional to windfall).",
+      "organisation": ""
+    },
+    {
+      "organisation-name": "South Downs National Park Authority (Lewes District area)",
+      "required-housing": 2578,
+      "allocated-housing": 0,
+      "windfall-housing": "",
+      "committed-housing": 142,
+      "broad-locations-housing": "",
+      "annual-required-housing": 129,
+      "pages": "49, 52",
+      "notes": "Part of joint plan covering Lewes areas within South Downs National Park. No strategic allocations identified in Core Strategy - to be addressed in separate SDNPA Local Plan. Includes Lewes town (wholly within National Park).",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d",
+  "pdf_file": "collection/document/8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d.pdf",
+  "pages_analysed": 32,
+  "organisations": [
+    "local-authority:LEE",
+    "national-park-authority:Q20198711"
+  ],
+  "adoption-date": "2011-04-01"
+}

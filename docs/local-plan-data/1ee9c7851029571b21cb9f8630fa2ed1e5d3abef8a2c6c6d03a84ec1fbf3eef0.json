@@ -1,0 +1,29 @@
+{
+  "name": "Elmbridge Core Strategy",
+  "organisation-name": "Elmbridge Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Elmbridge Borough Council",
+      "required-housing": 3375,
+      "allocated-housing": "",
+      "windfall-housing": 942,
+      "committed-housing": 921,
+      "broad-locations-housing": "",
+      "annual-required-housing": 225,
+      "pages": "23-25",
+      "notes": "Plan aims for 3,375 net additional dwellings 2011-2026 (225 per year average). Committed housing includes 152 under construction + 769 with planning permission. Housing to be delivered primarily in urban areas of Walton and Weybridge. Document focuses on strategic policies rather than detailed site allocations.",
+      "organisation": "local-authority:ELM"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1ee9c7851029571b21cb9f8630fa2ed1e5d3abef8a2c6c6d03a84ec1fbf3eef0",
+  "pdf_file": "collection/document/1ee9c7851029571b21cb9f8630fa2ed1e5d3abef8a2c6c6d03a84ec1fbf3eef0.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ELM",
+  "local-plan-boundary": "E60000270",
+  "local-planning-authorities": [
+    "E60000270"
+  ]
+}

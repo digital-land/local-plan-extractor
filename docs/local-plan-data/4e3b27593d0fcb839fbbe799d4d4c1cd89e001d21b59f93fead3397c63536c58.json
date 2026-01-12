@@ -1,0 +1,30 @@
+{
+  "name": "Hillingdon Local Plan: Part 1- Strategic Policies",
+  "organisation-name": "London Borough of Hillingdon",
+  "period-start-date": "",
+  "period-end-date": "",
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Hillingdon",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is an errata sheet containing only minor corrections to the adopted plan - no housing numbers are provided in this document",
+      "organisation": "local-authority:HIL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58",
+  "pdf_file": "collection/document/4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58.pdf",
+  "pages_analysed": 1,
+  "organisation": "local-authority:HIL",
+  "local-plan-boundary": "E60000213",
+  "local-planning-authorities": [
+    "E60000213"
+  ],
+  "adoption-date": "2012-11-08"
+}

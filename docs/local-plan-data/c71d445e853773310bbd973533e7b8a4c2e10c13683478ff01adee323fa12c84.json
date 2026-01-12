@@ -1,0 +1,25 @@
+{
+  "name": "Dartmoor Local Plan 2018-2036",
+  "organisation-name": "Dartmoor National Park Authority",
+  "period-start-date": 2018,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Dartmoor National Park Authority",
+      "required-housing": 1125,
+      "allocated-housing": 675,
+      "windfall-housing": 561,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 65,
+      "pages": "pages 59, 169",
+      "notes": "Plan makes provision for at least 1,125 homes (65 homes each year) for period 2018-2036. Housing trajectory shows 675 homes from allocated sites and 561 from projected windfall development across Local Centres, Rural Settlements, Villages and Hamlets, and Open Countryside.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "c71d445e853773310bbd973533e7b8a4c2e10c13683478ff01adee323fa12c84",
+  "pdf_file": "collection/document/c71d445e853773310bbd973533e7b8a4c2e10c13683478ff01adee323fa12c84.pdf",
+  "pages_analysed": 32,
+  "organisation": "national-park-authority:Q5225646"
+}

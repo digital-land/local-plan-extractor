@@ -1,0 +1,30 @@
+{
+  "name": "North Tyneside Local Plan",
+  "organisation-name": "North Tyneside Council",
+  "period-start-date": 2011,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Tyneside Council",
+      "required-housing": 16593,
+      "allocated-housing": 8838,
+      "windfall-housing": "",
+      "committed-housing": 4652,
+      "broad-locations-housing": "",
+      "annual-required-housing": 790,
+      "pages": "74, 78, 80-84",
+      "notes": "Required housing is minimum target. Allocated housing from residential sites table. Committed housing as at March 2016. Windfall contribution expected but not quantified.",
+      "organisation": "local-authority:NTY"
+    }
+  ],
+  "confidence": "high",
+  "authority": "94129d563147764e95b8e84a46854afb79566362c362ab1732874eb335fb4512",
+  "pdf_file": "collection/document/94129d563147764e95b8e84a46854afb79566362c362ab1732874eb335fb4512.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NTY",
+  "local-plan-boundary": "E60000010",
+  "local-planning-authorities": [
+    "E60000010"
+  ],
+  "adoption-date": "2017-07"
+}

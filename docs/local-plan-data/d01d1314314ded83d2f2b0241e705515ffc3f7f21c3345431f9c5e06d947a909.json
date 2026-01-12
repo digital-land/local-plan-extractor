@@ -1,0 +1,29 @@
+{
+  "name": "Derbyshire Dales District Council Local Plan 2013-2033",
+  "organisation-name": "Derbyshire Dales District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Derbyshire Dales District Council",
+      "required-housing": 5680,
+      "allocated-housing": 2485,
+      "windfall-housing": 240,
+      "committed-housing": 2675,
+      "broad-locations-housing": "",
+      "annual-required-housing": 284,
+      "pages": "38-39, 74, 123",
+      "notes": "OAN of 5,680 dwellings for plan period. Allocated sites provide 2,485 dwellings without planning permission at 1st April 2017. Total housing provision of 6,684 dwellings provides 17% flexibility. Windfall allowance is 15 dwellings per annum 2017-2033. PDNPA contribution of 320 dwellings and sites with resolution to grant of 262 dwellings also included in overall provision.",
+      "organisation": "local-authority:DEB"
+    }
+  ],
+  "confidence": "high",
+  "authority": "d01d1314314ded83d2f2b0241e705515ffc3f7f21c3345431f9c5e06d947a909",
+  "pdf_file": "collection/document/d01d1314314ded83d2f2b0241e705515ffc3f7f21c3345431f9c5e06d947a909.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:DEB",
+  "local-plan-boundary": "E60000080",
+  "local-planning-authorities": [
+    "E60000080"
+  ]
+}

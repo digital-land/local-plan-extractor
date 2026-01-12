@@ -1,0 +1,35 @@
+{
+  "name": "North Devon and Torridge Local Plan 2011-2031",
+  "organisation-name": "North Devon District Council, Torridge District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Devon and Torridge (joint area)",
+      "required-housing": 17220,
+      "allocated-housing": 12663,
+      "windfall-housing": 990,
+      "committed-housing": 10201,
+      "broad-locations-housing": 699,
+      "annual-required-housing": 861,
+      "pages": "33-35, 82",
+      "notes": "Joint plan covering both North Devon and Torridge authorities. Required housing is minimum target. Committed housing includes 7364 completions (2011-2017) plus 2837 commitments. Broad locations are non-strategic housing sites within settlement boundaries.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139",
+  "pdf_file": "collection/document/9fab675a41b00de6efc8e8d9c523d9e7130b257e3536019591fbd7bcf378e139.pdf",
+  "pages_analysed": 32,
+  "organisations": [
+    "local-authority:NDE",
+    "local-authority:TOR"
+  ],
+  "adoption-date": "2018-10",
+  "local-plan-boundary": "E60000303-E60000306",
+  "local-planning-authorities": [
+    "E60000303",
+    "E60000306"
+  ],
+  "organisation": "joint-planning-authority:NDE-TOR"
+}

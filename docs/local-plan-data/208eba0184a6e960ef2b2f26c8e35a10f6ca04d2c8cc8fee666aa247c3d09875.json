@@ -1,0 +1,30 @@
+{
+  "name": "Liverpool Local Plan",
+  "organisation-name": "Liverpool City Council",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Liverpool City Council",
+      "required-housing": 34780,
+      "allocated-housing": 1569,
+      "windfall-housing": 1400,
+      "committed-housing": 22809,
+      "broad-locations-housing": 3981,
+      "annual-required-housing": 1739,
+      "pages": "133-136",
+      "notes": "Required housing is minimum 34,780 net additional dwellings. Committed housing includes existing permissions at April 2020. Windfall allowance is for small sites (less than 10 homes) from 2023-24 onwards at 140 dwellings per annum. Broad locations housing is 'indicative supply on allocated mixed use sites'. Plan shows significant oversupply with total delivery expected to exceed requirement by 9,916 dwellings.",
+      "organisation": "local-authority:LIV"
+    }
+  ],
+  "confidence": "high",
+  "authority": "208eba0184a6e960ef2b2f26c8e35a10f6ca04d2c8cc8fee666aa247c3d09875",
+  "pdf_file": "collection/document/208eba0184a6e960ef2b2f26c8e35a10f6ca04d2c8cc8fee666aa247c3d09875.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LIV",
+  "local-plan-boundary": "E60000048",
+  "local-planning-authorities": [
+    "E60000048"
+  ],
+  "adoption-date": "2022-01-26"
+}

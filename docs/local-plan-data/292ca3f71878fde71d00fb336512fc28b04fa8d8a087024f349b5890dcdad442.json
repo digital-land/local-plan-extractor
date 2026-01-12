@@ -1,0 +1,30 @@
+{
+  "name": "Solihull Local Plan – Shaping a Sustainable Future",
+  "organisation-name": "Solihull Metropolitan Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Solihull Metropolitan Borough Council",
+      "required-housing": 11000,
+      "allocated-housing": 3960,
+      "windfall-housing": 2400,
+      "committed-housing": 3455,
+      "broad-locations-housing": "",
+      "annual-required-housing": 500,
+      "pages": "72-77",
+      "notes": "Plan period 2006-2028 (22 years). Housing land supply includes completions 2006-2012 (2,340), sites with planning permission (1,155), SHLAA sites (193), North Solihull Regeneration Area sites (970), allocated sites (3,960), and windfall (2,400). Total capacity 11,018 to meet target of 11,000.",
+      "organisation": "local-authority:SOL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "292ca3f71878fde71d00fb336512fc28b04fa8d8a087024f349b5890dcdad442",
+  "pdf_file": "collection/document/292ca3f71878fde71d00fb336512fc28b04fa8d8a087024f349b5890dcdad442.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SOL",
+  "local-plan-boundary": "E60000134",
+  "local-planning-authorities": [
+    "E60000134"
+  ],
+  "adoption-date": "2013-12-03"
+}

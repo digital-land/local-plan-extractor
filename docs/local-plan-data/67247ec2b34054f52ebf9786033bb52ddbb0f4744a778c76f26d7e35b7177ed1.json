@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Oadby and Wigston Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Oadby and Wigston Borough Council",
+      "required-housing": 2960,
+      "allocated-housing": 1608,
+      "windfall-housing": 70,
+      "committed-housing": 768,
+      "broad-locations-housing": "",
+      "annual-required-housing": 148,
+      "pages": "15, 23-25",
+      "notes": "Allocated housing includes 205 homes in centres, 1,159 from Direction for Growth allocations, and 244 from smaller sites. Windfall is 5-year allowance. Commitments are as of March 2017.",
+      "organisation": "local-authority:OAD"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1",
+  "pdf_file": "collection/document/67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:OAD",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000091",
+  "local-planning-authorities": [
+    "E60000091"
+  ]
+}

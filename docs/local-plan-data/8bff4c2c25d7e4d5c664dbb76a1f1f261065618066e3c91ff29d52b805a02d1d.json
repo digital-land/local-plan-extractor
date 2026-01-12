@@ -1,0 +1,30 @@
+{
+  "name": "Runnymede 2030 Local Plan",
+  "organisation-name": "Runnymede Borough Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Runnymede Borough Council",
+      "required-housing": 7507,
+      "allocated-housing": 6292,
+      "windfall-housing": 245,
+      "committed-housing": 362,
+      "broad-locations-housing": "",
+      "annual-required-housing": 500,
+      "pages": "30, 32, 33, 37, 38",
+      "notes": "Total supply is 7920 dwellings including completions (1628) and various sources. Housing trajectory shows minimum capacity from allocations. Windfall estimate is for sites of 1-4 dwellings only.",
+      "organisation": "local-authority:RUN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "8bff4c2c25d7e4d5c664dbb76a1f1f261065618066e3c91ff29d52b805a02d1d",
+  "pdf_file": "collection/document/8bff4c2c25d7e4d5c664dbb76a1f1f261065618066e3c91ff29d52b805a02d1d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RUN",
+  "local-plan-boundary": "E60000275",
+  "local-planning-authorities": [
+    "E60000275"
+  ],
+  "adoption-date": "2014-04"
+}

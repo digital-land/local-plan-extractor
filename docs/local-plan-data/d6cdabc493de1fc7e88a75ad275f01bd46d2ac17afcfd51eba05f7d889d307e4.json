@@ -1,0 +1,26 @@
+{
+  "name": "Bexley Local Plan",
+  "organisation-name": "Bexley Council",
+  "period-start-date": 2019,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bexley Council",
+      "required-housing": 12931,
+      "allocated-housing": 6216,
+      "windfall-housing": 3355,
+      "committed-housing": 3775,
+      "broad-locations-housing": "",
+      "annual-required-housing": 685,
+      "pages": "10-11, 16-17, 19-21, 214-215",
+      "notes": "Total requirement includes London Plan target of 6,850 homes 2019-2029 plus additional 6,165 homes 2030-2038. Allocated housing from 23 site allocations. Windfall is small sites allowance. Committed housing is 5-year housing land supply.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "d6cdabc493de1fc7e88a75ad275f01bd46d2ac17afcfd51eba05f7d889d307e4",
+  "pdf_file": "collection/document/d6cdabc493de1fc7e88a75ad275f01bd46d2ac17afcfd51eba05f7d889d307e4.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BEX",
+  "adoption-date": "2023-04-26"
+}

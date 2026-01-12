@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2026",
+  "organisation-name": "Stockport Metropolitan Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stockport Metropolitan Borough Council",
+      "required-housing": 7200,
+      "allocated-housing": "",
+      "windfall-housing": 450,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 480,
+      "pages": "59-60",
+      "notes": "Core Strategy sets housing trajectory with varying annual targets: 450 homes 2011-2013, 495 homes 2013-2023, 450 homes 2023-2026. SHLAA identifies 9,195 dwellings potential supply but specific breakdown of allocations vs commitments not provided in this document.",
+      "organisation": "local-authority:SKP"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "3c4cde9fa13ac744498e54e9f8e4ef0e34af2875102ffaa4665a08850e42dfda",
+  "pdf_file": "collection/document/3c4cde9fa13ac744498e54e9f8e4ef0e34af2875102ffaa4665a08850e42dfda.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SKP",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000031",
+  "local-planning-authorities": [
+    "E60000031"
+  ]
+}

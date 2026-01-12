@@ -1,0 +1,30 @@
+{
+  "name": "The Plan for Stafford Borough",
+  "organisation-name": "Stafford Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stafford Borough Council",
+      "required-housing": 10000,
+      "allocated-housing": 6584,
+      "windfall-housing": "",
+      "committed-housing": 2781,
+      "broad-locations-housing": "",
+      "annual-required-housing": 500,
+      "pages": "21-29, 147-164",
+      "notes": "Total requirement is 10,000 homes over 20-year period (500 per year). Allocated housing includes Strategic Development Locations: North of Stafford (3,100), West of Stafford (2,200), East of Stafford (600), West of Stone (500), plus employment sites and rural allocations. Committed housing figure is from March 2013 with 90% delivery assumption applied. Also includes provision for up to 350 Service Family Accommodation properties for military personnel.",
+      "organisation": "local-authority:STA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950",
+  "pdf_file": "collection/document/92771d5ea802f95a611d538c57f50d4847d6387fd9a96feade311deeb4c28950.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STA",
+  "local-plan-boundary": "E60000122",
+  "local-planning-authorities": [
+    "E60000122"
+  ],
+  "adoption-date": "2014-06-19"
+}

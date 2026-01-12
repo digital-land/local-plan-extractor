@@ -1,0 +1,30 @@
+{
+  "name": "Vale of Aylesbury Local Plan",
+  "organisation-name": "Aylesbury Vale District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Aylesbury Vale District Council",
+      "required-housing": 28600,
+      "allocated-housing": 6362,
+      "windfall-housing": 760,
+      "committed-housing": 13299,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1430,
+      "pages": "15, 34, 36, 59, 319",
+      "notes": "Total requirement of 28,600 includes Aylesbury Vale's own need (20,600) plus unmet need from other authorities (8,000). Total supply is 30,134 providing 5.4% buffer. Completions 2013-2020 were 9,713.",
+      "organisation": "local-authority:AYL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "a32f5e06284fc84637c918aae67cb08a9e2f91aa2473baf2c318220cdf5005cb",
+  "pdf_file": "collection/document/a32f5e06284fc84637c918aae67cb08a9e2f91aa2473baf2c318220cdf5005cb.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:AYL",
+  "local-plan-boundary": "E60000233",
+  "local-planning-authorities": [
+    "E60000233"
+  ],
+  "adoption-date": "2018-02-28"
+}

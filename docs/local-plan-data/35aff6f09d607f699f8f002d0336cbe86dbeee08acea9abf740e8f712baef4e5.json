@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan Core Strategy DPD",
+  "organisation-name": "Hertsmere Borough Council",
+  "period-start-date": 2012,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Hertsmere Borough Council",
+      "required-housing": 3990,
+      "allocated-housing": "",
+      "windfall-housing": 990,
+      "committed-housing": 1352,
+      "broad-locations-housing": 752,
+      "annual-required-housing": 266,
+      "pages": "24, 35-37, 89",
+      "notes": "Housing target is 'at least 266 homes per annum over 15 years'. Windfall includes urban windfall (360) and rural windfall (130) for years 6-15. Broad locations refers to Elstree Way Corridor housing-led regeneration (752 units). Committed housing includes allocations and commitments from SHLAA. Document states specific site allocations will be in future Site Allocations DPD.",
+      "organisation": "local-authority:HER"
+    }
+  ],
+  "confidence": "high",
+  "authority": "35aff6f09d607f699f8f002d0336cbe86dbeee08acea9abf740e8f712baef4e5",
+  "pdf_file": "collection/document/35aff6f09d607f699f8f002d0336cbe86dbeee08acea9abf740e8f712baef4e5.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HER",
+  "local-plan-boundary": "E60000169",
+  "local-planning-authorities": [
+    "E60000169"
+  ],
+  "adoption-date": "2013-01"
+}

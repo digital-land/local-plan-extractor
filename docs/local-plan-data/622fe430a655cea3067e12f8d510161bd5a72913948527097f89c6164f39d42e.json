@@ -1,0 +1,30 @@
+{
+  "name": "East Cambridgeshire Local Plan Adopted April 2015 (as amended 2023)",
+  "organisation-name": "East Cambridgeshire District Council",
+  "period-start-date": 2022,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "East Cambridgeshire District Council",
+      "required-housing": 5400,
+      "allocated-housing": 564,
+      "windfall-housing": 350,
+      "committed-housing": 5098,
+      "broad-locations-housing": "",
+      "annual-required-housing": 600,
+      "pages": "20, 30, 33",
+      "notes": "Housing requirement updated in 2023 amendment for period 2022-31. Plan was originally adopted in 2015 but housing requirement figure updated following national standard method. Committed housing includes sites with planning permission. Windfall allowance is estimated based on historical evidence.",
+      "organisation": "local-authority:ECA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "622fe430a655cea3067e12f8d510161bd5a72913948527097f89c6164f39d42e",
+  "pdf_file": "collection/document/622fe430a655cea3067e12f8d510161bd5a72913948527097f89c6164f39d42e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ECA",
+  "local-plan-boundary": "E60000150",
+  "local-planning-authorities": [
+    "E60000150"
+  ],
+  "adoption-date": "2015-04-21"
+}

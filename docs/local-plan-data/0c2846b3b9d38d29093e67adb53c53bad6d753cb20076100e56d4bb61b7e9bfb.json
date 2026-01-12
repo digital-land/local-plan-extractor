@@ -1,0 +1,73 @@
+{
+  "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
+  "organisation-name": "Gloucester City Council, Cheltenham Borough Council, Tewkesbury Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Gloucester City Council",
+      "required-housing": 14359,
+      "allocated-housing": 5515,
+      "windfall-housing": 832,
+      "committed-housing": 5422,
+      "broad-locations-housing": "",
+      "annual-required-housing": 718,
+      "pages": "17, 21, 25",
+      "notes": "Total includes 4,895 homes from urban extensions in Tewkesbury Borough. Allocated housing includes 620 Strategic Allocations within Gloucester City plus 4,895 urban extensions",
+      "organisation": "local-authority:GLO"
+    },
+    {
+      "organisation-name": "Cheltenham Borough Council",
+      "required-housing": 10917,
+      "allocated-housing": 6396,
+      "windfall-housing": 784,
+      "committed-housing": 3912,
+      "broad-locations-housing": "",
+      "annual-required-housing": 546,
+      "pages": "17, 21, 25",
+      "notes": "Total includes 5,385 homes from cross-boundary urban extensions. Allocated housing includes existing local plan allocations (10) plus urban extensions (2,775 + 2,610) plus Borough Plan potential (1,011)",
+      "organisation": "local-authority:CHT"
+    },
+    {
+      "organisation-name": "Tewkesbury Borough Council",
+      "required-housing": 9899,
+      "allocated-housing": 815,
+      "windfall-housing": 552,
+      "committed-housing": 6078,
+      "broad-locations-housing": "",
+      "annual-required-housing": 495,
+      "pages": "17, 21, 25",
+      "notes": "Allocated housing includes Borough Plan potential (315) plus Mitton site in Wychavon District (500). No strategic allocations for Tewkesbury's own needs - relies on existing commitments and planned development",
+      "organisation": "local-authority:TEW"
+    },
+    {
+      "organisation-name": "Gloucester City Council, Cheltenham Borough Council, Tewkesbury Borough Council",
+      "organisation": "joint-planning-authority:CHT-GLO-TEW",
+      "required-housing": 35175,
+      "allocated-housing": 12726,
+      "windfall-housing": 2168,
+      "committed-housing": 15412,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 1759,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb",
+  "pdf_file": "collection/document/0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:CHT-GLO-TEW",
+  "organisations": [
+    "local-authority:GLO",
+    "local-authority:CHT",
+    "local-authority:TEW"
+  ],
+  "local-plan-boundary": "E60000311-E60000308-E60000313",
+  "local-planning-authorities": [
+    "E60000311",
+    "E60000308",
+    "E60000313"
+  ],
+  "adoption-date": "2017-12"
+}

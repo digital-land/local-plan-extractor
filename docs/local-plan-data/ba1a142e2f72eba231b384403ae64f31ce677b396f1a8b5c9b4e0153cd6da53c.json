@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan",
+  "organisation-name": "Royal Borough of Kensington and Chelsea",
+  "period-start-date": 2024,
+  "period-end-date": 2043,
+  "housing-numbers": [
+    {
+      "organisation-name": "Royal Borough of Kensington and Chelsea",
+      "required-housing": 8960,
+      "allocated-housing": 5867,
+      "windfall-housing": 1290,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 448,
+      "pages": "188-192, 3-4",
+      "notes": "Housing target is 4,480 homes over 10 years (2024-2034) plus 4,480 homes for years 11-20 (2034-2044). Site allocations deliver 5,867 homes over 15 years. Small sites windfall is 1,290 homes over 10 years from London Plan target.",
+      "organisation": "local-authority:KEC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ba1a142e2f72eba231b384403ae64f31ce677b396f1a8b5c9b4e0153cd6da53c",
+  "pdf_file": "collection/document/ba1a142e2f72eba231b384403ae64f31ce677b396f1a8b5c9b4e0153cd6da53c.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KEC",
+  "local-plan-boundary": "E60000194",
+  "local-planning-authorities": [
+    "E60000194"
+  ],
+  "adoption-date": "2024-07-24"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "South Kesteven Local Plan",
+  "organisation-name": "South Kesteven District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Kesteven District Council",
+      "required-housing": 16125,
+      "allocated-housing": 9447,
+      "windfall-housing": 360,
+      "committed-housing": 4745,
+      "broad-locations-housing": "",
+      "annual-required-housing": 650,
+      "pages": "25, 32-33, 167-168",
+      "notes": "OAN of 16,125 dwellings 2011-2036, uplifted to 650 per annum from 2016 (previously 625). Committed housing includes completions (4,506), consents (2,806), and outline permissions (1,939). Plan includes 18% buffer above minimum requirement. Windfall allowance is 30 per annum for smaller villages from 2021-2036.",
+      "organisation": "local-authority:SKE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "eda112ed22d79f5c692b67b48d106ccded4210e983e98c1f90a46da91aafe9ca",
+  "pdf_file": "collection/document/eda112ed22d79f5c692b67b48d106ccded4210e983e98c1f90a46da91aafe9ca.pdf",
+  "pages_analysed": 8,
+  "organisation": "local-authority:SKE",
+  "local-plan-boundary": "E60000097",
+  "local-planning-authorities": [
+    "E60000097"
+  ],
+  "adoption-date": "2012-03"
+}

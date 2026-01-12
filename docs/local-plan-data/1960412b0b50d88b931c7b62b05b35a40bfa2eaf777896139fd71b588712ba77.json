@@ -1,0 +1,30 @@
+{
+  "name": "Cornwall Local Plan Strategic Policies 2010-2030",
+  "organisation-name": "Cornwall Council",
+  "period-start-date": 2010,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cornwall Council",
+      "required-housing": 52500,
+      "allocated-housing": "",
+      "windfall-housing": 7200,
+      "committed-housing": 21752,
+      "broad-locations-housing": "",
+      "annual-required-housing": 2625,
+      "pages": "1, 18, 20, 26-28",
+      "notes": "Total requirement is 52,500 homes over 20-year period. Committed housing includes completions 2010-16 (13,991) plus planning permissions not started/under construction (21,752). Windfall estimate for smaller sites less than 10 homes 2021-30. Document notes specific allocations will be in separate Site Allocations DPD and Neighbourhood Plans.",
+      "organisation": "local-authority:CON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77",
+  "pdf_file": "collection/document/1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CON",
+  "local-plan-boundary": "E60000291",
+  "local-planning-authorities": [
+    "E60000291"
+  ],
+  "adoption-date": "2016-11"
+}

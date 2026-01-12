@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Bournemouth Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bournemouth Borough Council",
+      "required-housing": 14600,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 3262,
+      "broad-locations-housing": "",
+      "annual-required-housing": 730,
+      "pages": "38, 42-43",
+      "notes": "Net dwellings target for 2006-2026. 4,955 completions 2006-2011, 3,262 commitments as at April 2011. Total constructed and committed = 8,217 dwellings (56% of target). Remaining requirement 2011-2026: 6,383 dwellings. Annual average cited as 643 dwellings but overall target suggests 730 per year (14,600÷20 years).",
+      "organisation": "local-authority:BMH"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "72cb4437537677564ff56a57a63a53b8b11f0b6ccb77df16807524fd4aa88dc7",
+  "pdf_file": "collection/document/72cb4437537677564ff56a57a63a53b8b11f0b6ccb77df16807524fd4aa88dc7.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:BMH",
+  "adoption-date": null
+}

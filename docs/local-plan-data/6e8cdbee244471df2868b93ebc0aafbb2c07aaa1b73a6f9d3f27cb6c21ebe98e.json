@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2004-2026",
+  "organisation-name": "Sheffield City Council",
+  "period-start-date": 2004,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Sheffield City Council",
+      "required-housing": 29750,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 5425,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1352,
+      "pages": "60, 175",
+      "notes": "Net requirement 2004/05 to 2025/26 is 29,750 dwellings with annual average of 1,352. Committed housing includes 5,425 net completions 2004/05 to 2007/08. Total identified supply to 2025/26 is 28,305 dwellings creating a shortfall of 1,445 dwellings (-5%).",
+      "organisation": "local-authority:SHF"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e",
+  "pdf_file": "collection/document/6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SHF",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000067",
+  "local-planning-authorities": [
+    "E60000067"
+  ]
+}

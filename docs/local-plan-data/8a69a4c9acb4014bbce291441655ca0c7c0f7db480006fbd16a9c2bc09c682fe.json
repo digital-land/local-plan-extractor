@@ -1,0 +1,30 @@
+{
+  "name": "Adur Local Plan 2017",
+  "organisation-name": "Adur District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Adur District Council",
+      "required-housing": 6825,
+      "allocated-housing": 2050,
+      "windfall-housing": 416,
+      "committed-housing": 439,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 177,
+      "pages": "18-20",
+      "notes": "Required housing is OAN of 6,825 but delivery target is only 3,718 due to constraints. Allocated housing includes New Monks Farm (600), West Sompting (480), and Shoreham Harbour (970). Completions 2011-2016 (559) and SHLAA sites (254) make up remaining supply.",
+      "organisation": "local-authority:ADU"
+    }
+  ],
+  "confidence": "high",
+  "authority": "8a69a4c9acb4014bbce291441655ca0c7c0f7db480006fbd16a9c2bc09c682fe",
+  "pdf_file": "collection/document/8a69a4c9acb4014bbce291441655ca0c7c0f7db480006fbd16a9c2bc09c682fe.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ADU",
+  "local-plan-boundary": "E60000281",
+  "local-planning-authorities": [
+    "E60000281"
+  ],
+  "adoption-date": "2017-12-14"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Brent Local Plan 2019-2041",
+  "organisation-name": "Brent Council",
+  "period-start-date": 2019,
+  "period-end-date": 2041,
+  "housing-numbers": [
+    {
+      "organisation-name": "Brent Council",
+      "required-housing": 46018,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2325,
+      "pages": "431",
+      "notes": "Policy BH1 states minimum 23,250 homes for 2019/20-2028/29 period and minimum 46,018 homes for full 2019/20-2040/41 period. Document indicates housing will come from Growth Areas, site allocations and windfall sites but specific breakdowns not provided in these pages. Annual figure is based on London Plan target mentioned in text.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "0a308f0f10c5b8bab2c369fa9823411fe91eb0f589e754723bc348385e022ff9",
+  "pdf_file": "collection/document/0a308f0f10c5b8bab2c369fa9823411fe91eb0f589e754723bc348385e022ff9.pdf",
+  "pages_analysed": 2,
+  "organisation": "local-authority:BEN",
+  "adoption-date": "2022-02-24"
+}

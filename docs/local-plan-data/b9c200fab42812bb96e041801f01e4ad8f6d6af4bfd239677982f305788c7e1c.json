@@ -1,0 +1,30 @@
+{
+  "name": "King's Lynn and West Norfolk Local Plan 2021-2040",
+  "organisation-name": "Borough Council of King's Lynn and West Norfolk",
+  "period-start-date": 2021,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Borough Council of King's Lynn and West Norfolk",
+      "required-housing": 10526,
+      "allocated-housing": 5044,
+      "windfall-housing": 3081,
+      "committed-housing": 2676,
+      "broad-locations-housing": "",
+      "annual-required-housing": 554,
+      "pages": "32-38",
+      "notes": "Total deliverable supply is 12,438 dwellings providing surplus of 1,912 over housing need. Completions 2021-24: 1,562 dwellings. Plan uses Standard Method LHN calculation of 554 homes per year over 19-year period.",
+      "organisation": "local-authority:KIN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b9c200fab42812bb96e041801f01e4ad8f6d6af4bfd239677982f305788c7e1c",
+  "pdf_file": "collection/document/b9c200fab42812bb96e041801f01e4ad8f6d6af4bfd239677982f305788c7e1c.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KIN",
+  "local-plan-boundary": "E60000179",
+  "local-planning-authorities": [
+    "E60000179"
+  ],
+  "adoption-date": "2025-03-27"
+}

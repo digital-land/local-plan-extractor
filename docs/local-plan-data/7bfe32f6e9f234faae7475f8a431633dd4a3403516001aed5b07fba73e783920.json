@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2030",
+  "organisation-name": "Redditch Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Redditch Borough Council",
+      "required-housing": 6400,
+      "allocated-housing": 2873,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": 3400,
+      "annual-required-housing": 337,
+      "pages": "22-23, 124-125",
+      "notes": "Around 3,000 dwellings can be accommodated within Redditch Borough boundaries. Approximately 3,400 dwellings to be accommodated in Bromsgrove District through cross-boundary development at Foxlydiate (2800) and Brockhill East (600). Total allocated sites within borough: 2873 dwellings. Cross-boundary sites are strategic allocations outside borough boundaries.",
+      "organisation": "local-authority:RED"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920",
+  "pdf_file": "collection/document/7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:RED",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000139",
+  "local-planning-authorities": [
+    "E60000139"
+  ]
+}

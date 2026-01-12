@@ -1,0 +1,30 @@
+{
+  "name": "Cherwell Local Plan 2011-2031 Part 1",
+  "organisation-name": "Cherwell District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cherwell District Council",
+      "required-housing": 22840,
+      "allocated-housing": 14420,
+      "windfall-housing": 1274,
+      "committed-housing": 6040,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1142,
+      "pages": "1-2, 7, 29",
+      "notes": "Total requirement 22,840 homes 2011-2031. Includes 1,106 completions 2011-2014, leaving 21,734 to be provided 2014-2031. Based on SHMA 2014 identifying need for 1,140 dwellings per annum (rounded to 1,142 in policy). Allocations include major strategic sites at Bicester and Banbury.",
+      "organisation": "local-authority:CHR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "63f69a3574cc4d30de15212d48ea93d3e48f1017a56e8637d713d3a21abb7be8",
+  "pdf_file": "collection/document/63f69a3574cc4d30de15212d48ea93d3e48f1017a56e8637d713d3a21abb7be8.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CHR",
+  "local-plan-boundary": "E60000265",
+  "local-planning-authorities": [
+    "E60000265"
+  ],
+  "adoption-date": "2015-07-20"
+}

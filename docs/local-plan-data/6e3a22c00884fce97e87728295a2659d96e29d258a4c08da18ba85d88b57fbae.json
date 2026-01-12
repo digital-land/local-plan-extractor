@@ -1,0 +1,30 @@
+{
+  "name": "London Borough of Waltham Forest Local Plan Local Plan (LP1) - Adoption Version",
+  "organisation-name": "London Borough of Waltham Forest",
+  "period-start-date": 2020,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Waltham Forest",
+      "required-housing": 27000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 3705,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1800,
+      "pages": "17, 60-61",
+      "notes": "27,000 homes target for 2023-2035 period (Policy 2). Stepped housing trajectory with 1,264 pa for 2020-2027, 1,594 pa for 2027-2029, and 2,494 pa for 2029-2035, averaging 1,800 pa. 3,705 completions achieved 2020-2023. Specific site allocations detailed in separate Local Plan Part 2 - Site Allocations document.",
+      "organisation": "local-authority:WFT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "6e3a22c00884fce97e87728295a2659d96e29d258a4c08da18ba85d88b57fbae",
+  "pdf_file": "collection/document/6e3a22c00884fce97e87728295a2659d96e29d258a4c08da18ba85d88b57fbae.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WFT",
+  "local-plan-boundary": "E60000220",
+  "local-planning-authorities": [
+    "E60000220"
+  ],
+  "adoption-date": "2024-02-29"
+}

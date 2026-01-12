@@ -1,0 +1,30 @@
+{
+  "name": "Basildon District Local Plan Saved Policies",
+  "organisation-name": "Basildon Borough Council",
+  "period-start-date": "",
+  "period-end-date": 2001,
+  "housing-numbers": [
+    {
+      "organisation-name": "Basildon Borough Council",
+      "required-housing": 10750,
+      "allocated-housing": 265,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "9, 15-20",
+      "notes": "Structure Plan requirement of 10,750 dwellings exceeded with provision of 12,803 dwellings. Allocated sites provide approximately 265 dwellings. Areas of Special Reserve allocated for post-2001 development at Dry Street (24 hectares) and Barn Hall (12.14 hectares).",
+      "organisation": "local-authority:BAI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "110b29340cebd800b4fd21cebec64694197e668f6a43a242d08938009aa939e6",
+  "pdf_file": "collection/document/110b29340cebd800b4fd21cebec64694197e668f6a43a242d08938009aa939e6.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BAI",
+  "local-plan-boundary": "E60000154",
+  "local-planning-authorities": [
+    "E60000154"
+  ],
+  "adoption-date": "2007-09-27"
+}

@@ -275,6 +275,26 @@ def render_index(plans, output_dir, env):
     return output_path
 
 
+def render_review_page(plan_filenames, output_dir, env):
+    """Render the review page for reviewing local plans one at a time"""
+
+    # Load template
+    template = env.get_template("review.html")
+
+    # Render template
+    html_content = template.render(
+        plan_filenames=plan_filenames,
+        home_path="index.html"
+    )
+
+    # Write output
+    output_path = Path(output_dir) / "review.html"
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+    return output_path
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Render all local plan JSON files and organisation pages as HTML",
@@ -384,6 +404,15 @@ Examples:
     except Exception as e:
         print(f"  ✗ Error creating index: {e}", file=sys.stderr)
 
+    # Render review page
+    print("\nRendering review page...")
+    try:
+        plan_filenames = [json_path.stem for json_path in json_files if json_path.stem in [p["filename"] for p in plans_data]]
+        review_path = render_review_page(plan_filenames, args.output, env)
+        print(f"  ✓ Created review.html")
+    except Exception as e:
+        print(f"  ✗ Error creating review page: {e}", file=sys.stderr)
+
     # Collect organisation information
     print("\nCollecting organisation information...")
     org_plans = collect_organisation_plans(local_plan_dir)
@@ -444,6 +473,25 @@ Examples:
         print(f"  ✓ Copied collection/document to {collection_dest}")
     else:
         print(f"  ⚠ Warning: collection/document directory not found", file=sys.stderr)
+
+    # Copy local-plan JSON files for review page
+    local_plan_src = Path(args.local_plans)
+    local_plan_data_dest = Path(args.output) / "local-plan-data"
+
+    if local_plan_src.exists():
+        # Remove destination if it exists
+        if local_plan_data_dest.exists():
+            shutil.rmtree(local_plan_data_dest)
+
+        # Create directory and copy JSON files
+        local_plan_data_dest.mkdir(parents=True, exist_ok=True)
+        json_count = 0
+        for json_file in local_plan_src.glob("*.json"):
+            shutil.copy(json_file, local_plan_data_dest / json_file.name)
+            json_count += 1
+        print(f"  ✓ Copied {json_count} JSON files to {local_plan_data_dest}")
+    else:
+        print(f"  ⚠ Warning: local-plan directory not found", file=sys.stderr)
 
     print("\n" + "=" * 60)
     print("Summary:")

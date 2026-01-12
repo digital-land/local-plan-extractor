@@ -1,0 +1,30 @@
+{
+  "name": "Harrow Core Strategy Development Plan Document",
+  "organisation-name": "London Borough of Harrow",
+  "period-start-date": "",
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Harrow",
+      "required-housing": "",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "",
+      "notes": "This is only an adoption statement - housing numbers would be in the actual Core Strategy document",
+      "organisation": "local-authority:HRW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2",
+  "pdf_file": "collection/document/e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2.pdf",
+  "pages_analysed": 2,
+  "organisation": "local-authority:HRW",
+  "local-plan-boundary": "E60000211",
+  "local-planning-authorities": [
+    "E60000211"
+  ],
+  "adoption-date": "2009-03"
+}

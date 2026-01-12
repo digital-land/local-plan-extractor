@@ -1,0 +1,26 @@
+{
+  "name": "Lewisham Local Plan 2020-2040",
+  "organisation-name": "Lewisham Council",
+  "period-start-date": 2020,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lewisham Council",
+      "required-housing": 30376,
+      "allocated-housing": 23776,
+      "windfall-housing": 6135,
+      "committed-housing": 790,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1667,
+      "pages": "15-16, 81-83",
+      "notes": "Required housing figure includes backlog of 3,471 dwellings and 20% buffer. Plan period adjusted to 2025/26-2039/40 (15 years) for housing calculations. Windfall includes 5,685 from small sites plus 450 from large windfall site. Total supply is 30,701 dwellings exceeding requirement by 325.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "7cdf56b4a7aa604e7561d02b51b80a9a5b7f2cfb6d345de4ea677ac9612df3c5",
+  "pdf_file": "collection/document/7cdf56b4a7aa604e7561d02b51b80a9a5b7f2cfb6d345de4ea677ac9612df3c5.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LEW",
+  "adoption-date": "2022-12-19"
+}

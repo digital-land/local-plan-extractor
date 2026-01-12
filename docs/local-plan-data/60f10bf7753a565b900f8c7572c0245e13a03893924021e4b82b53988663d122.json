@@ -1,0 +1,30 @@
+{
+  "name": "Wigan Replacement Unitary Development Plan",
+  "organisation-name": "Wigan Borough Council",
+  "period-start-date": 2002,
+  "period-end-date": 2016,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wigan Borough Council",
+      "required-housing": 6230,
+      "allocated-housing": 0,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 410,
+      "pages": "20",
+      "notes": "Total requirement is 410 houses per year for 2002-2016 period (14 years = 5740) plus 100 dwellings per year allowance for clearance replacement (1400), totaling 7140. However, plan explicitly states no sites were specifically allocated for new housebuilding. Housing to be provided through conversions, changes of use, and windfall sites.",
+      "organisation": "local-authority:WGN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "60f10bf7753a565b900f8c7572c0245e13a03893924021e4b82b53988663d122",
+  "pdf_file": "collection/document/60f10bf7753a565b900f8c7572c0245e13a03893924021e4b82b53988663d122.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WGN",
+  "local-plan-boundary": "E60000034",
+  "local-planning-authorities": [
+    "E60000034"
+  ],
+  "adoption-date": "1991-11-04"
+}

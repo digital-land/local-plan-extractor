@@ -1,0 +1,30 @@
+{
+  "name": "North Norfolk Local Plan Adoption Version (2024-2040)",
+  "organisation-name": "North Norfolk District Council",
+  "period-start-date": 2024,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Norfolk District Council",
+      "required-housing": 8900,
+      "allocated-housing": 5327,
+      "windfall-housing": 2520,
+      "committed-housing": 2033,
+      "broad-locations-housing": "",
+      "annual-required-housing": 557,
+      "pages": "117-121, 281-282",
+      "notes": "Plan provides for 9,880 total dwellings including 743 from Small Growth Villages. Housing requirement is minimum 8,900 with 2,000 affordable dwellings. Windfall calculated at 180dpa most years, 135dpa years 2-5. Allocated sites include specialist elderly accommodation counted as dwelling equivalents at 1.5:1 ratio.",
+      "organisation": "local-authority:NNO"
+    }
+  ],
+  "confidence": "high",
+  "authority": "9c08c0ecf0c41549b709ed63a48d6555e9fcec4b5661e41de9db4e0afe1285ba",
+  "pdf_file": "collection/document/9c08c0ecf0c41549b709ed63a48d6555e9fcec4b5661e41de9db4e0afe1285ba.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NNO",
+  "local-plan-boundary": "E60000180",
+  "local-planning-authorities": [
+    "E60000180"
+  ],
+  "adoption-date": "2025-12-17"
+}

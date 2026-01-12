@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2023-2038",
+  "organisation-name": "London Borough of Wandsworth",
+  "period-start-date": 2023,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wandsworth Council",
+      "required-housing": 20311,
+      "allocated-housing": 14265,
+      "windfall-housing": 6210,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1354,
+      "pages": "34-36, 481",
+      "notes": "Plan provides minimum 20,311 new homes 2023-2038. Includes 1,950 homes per year to 2028/29, then 414 windfall homes per year (414 x 15 years = 6,210 total windfall). Area strategies show total capacity of 14,265 homes from allocated sites.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9",
+  "pdf_file": "collection/document/4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WND",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000200",
+  "local-planning-authorities": [
+    "E60000200"
+  ]
+}

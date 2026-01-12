@@ -1,0 +1,26 @@
+{
+  "name": "Local Plan 2014-2036",
+  "organisation-name": "Waveney District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Waveney District Council",
+      "required-housing": 8223,
+      "allocated-housing": 6202,
+      "windfall-housing": "",
+      "committed-housing": 2498,
+      "broad-locations-housing": "",
+      "annual-required-housing": 374,
+      "pages": "23-26, 31, 315",
+      "notes": "Total requirement is 8,223 homes for 2014-2036 (374 per year). Allocated housing of 6,202 homes from Local Plan allocations expected to be delivered in plan period. Committed housing includes homes with planning permission not allocated in Local Plan (2,498) plus homes built 2014-2017 (535). Plan includes 57 dwellings from Broads Authority area within Waveney District.",
+      "organisation": "local-authority:WAV"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "0b1c028524e15f3aa3350af445cd92f316d551d2e9cac194bbc21bb79b68e6ec",
+  "pdf_file": "collection/document/0b1c028524e15f3aa3350af445cd92f316d551d2e9cac194bbc21bb79b68e6ec.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WAV",
+  "adoption-date": null
+}

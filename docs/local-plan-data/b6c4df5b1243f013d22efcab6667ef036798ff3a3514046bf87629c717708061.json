@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 1997-2025",
+  "organisation-name": "Chiltern District Council",
+  "period-start-date": 1997,
+  "period-end-date": 2025,
+  "housing-numbers": [
+    {
+      "organisation-name": "Chiltern District Council",
+      "required-housing": 772,
+      "allocated-housing": 255,
+      "windfall-housing": 428,
+      "committed-housing": 89,
+      "broad-locations-housing": "",
+      "annual-required-housing": 86,
+      "pages": "Page 106 (Table 6.1)",
+      "notes": "Plan period 1997-2006. Total provision of 772 dwellings broken down as: 255 from sites identified in Local Plan, 428 from small sites (windfall), and 89 from other large sites with permission. Document shows completions 1991-7 were 1120 dwellings.",
+      "organisation": "local-authority:CHN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061",
+  "pdf_file": "collection/document/b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:CHN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000234",
+  "local-planning-authorities": [
+    "E60000234"
+  ]
+}

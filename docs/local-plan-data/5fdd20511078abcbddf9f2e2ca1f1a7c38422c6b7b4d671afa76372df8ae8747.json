@@ -1,0 +1,26 @@
+{
+  "name": "Isles of Scilly Local Plan 2015 - 2030",
+  "organisation-name": "Isles of Scilly Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Isles of Scilly Council",
+      "required-housing": 105,
+      "allocated-housing": 105,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 7,
+      "pages": "192, 198, 251, 263",
+      "notes": "Plan specifically targets 105 affordable homes over the plan period. Policy LC6 identifies seven housing allocation sites on St Mary's that could deliver around 105 homes. Open-market homes only permitted where needed to cross-subsidize affordable homes. Windfall sites will contribute to affordable housing delivery but no specific target given.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "5fdd20511078abcbddf9f2e2ca1f1a7c38422c6b7b4d671afa76372df8ae8747",
+  "pdf_file": "collection/document/5fdd20511078abcbddf9f2e2ca1f1a7c38422c6b7b4d671afa76372df8ae8747.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:IOS",
+  "adoption-date": "2021-03-25"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Core Strategy Development Plan Document",
+  "organisation-name": "Rutland County Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rutland County Council",
+      "required-housing": 3000,
+      "allocated-housing": "",
+      "windfall-housing": 152,
+      "committed-housing": 1081,
+      "broad-locations-housing": "",
+      "annual-required-housing": 150,
+      "pages": "33-34, 35, 66-67",
+      "notes": "Total requirement 3000 dwellings 2006-2026 at 150 per annum. Committed housing includes 532 completions 2006-2010 plus 549 commitments at April 2010. Windfall study identified 152 potential small site windfalls. About 1000 homes planned for sustainable urban extension to northwest of Oakham. Specific allocations to be determined in Site Allocations and Policies DPD.",
+      "organisation": "local-authority:RUT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2c89b15f5809a415d637246211d96cff4c8422e4bf050fa10dc2e7595b713d0a",
+  "pdf_file": "collection/document/2c89b15f5809a415d637246211d96cff4c8422e4bf050fa10dc2e7595b713d0a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:RUT",
+  "local-plan-boundary": "E60000076",
+  "local-planning-authorities": [
+    "E60000076"
+  ],
+  "adoption-date": "2011-07-11"
+}

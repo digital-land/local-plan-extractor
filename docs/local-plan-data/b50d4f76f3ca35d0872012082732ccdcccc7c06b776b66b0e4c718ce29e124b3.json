@@ -1,0 +1,30 @@
+{
+  "name": "Warwick District Local Plan 2011-2029",
+  "organisation-name": "Warwick District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Warwick District Council",
+      "required-housing": 16776,
+      "allocated-housing": 6454,
+      "windfall-housing": 1010,
+      "committed-housing": 7158,
+      "broad-locations-housing": "",
+      "annual-required-housing": 932,
+      "pages": "18-19",
+      "notes": "Total requirement includes 600 dpa for district needs plus 332 dpa for Coventry overspill. Committed housing includes completions (2051), outstanding permissions (6933), commitments from April-May 2016 (225), plus small urban SHLAA sites (266) and employment/canalside consolidation (200). Annual requirement varies: 600 dpa 2011/12-2016/17, then 1098 dpa 2017/18-2028/29.",
+      "organisation": "local-authority:WAW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3",
+  "pdf_file": "collection/document/b50d4f76f3ca35d0872012082732ccdcccc7c06b776b66b0e4c718ce29e124b3.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WAW",
+  "local-plan-boundary": "E60000129",
+  "local-planning-authorities": [
+    "E60000129"
+  ],
+  "adoption-date": "2015-10"
+}

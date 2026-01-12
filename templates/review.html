@@ -1,0 +1,745 @@
+{% extends "base.html" %}
+
+{% block title %}Review Data - Local Plan Extractor{% endblock %}
+
+{% block breadcrumbs %}
+<div class="govuk-breadcrumbs">
+  <ol class="govuk-breadcrumbs__list">
+    <li class="govuk-breadcrumbs__list-item">
+      <a class="govuk-breadcrumbs__link" href="{{ home_path }}">Home</a>
+    </li>
+    <li class="govuk-breadcrumbs__list-item">
+      Review Data
+    </li>
+  </ol>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-full">
+    <!-- Landing Page -->
+    <div id="landingPage">
+      <h1 class="govuk-heading-xl">Review Data</h1>
+
+      <p class="govuk-body-l">Select a local plan below to review the housing data. There are {{ plan_filenames|length }} plans to review.</p>
+
+      <!-- Search Box -->
+      <div style="margin-bottom: 30px;">
+        <input
+          type="text"
+          id="searchBox"
+          class="govuk-input"
+          placeholder="Search by plan name or organisation..."
+          style="max-width: 500px;"
+        >
+      </div>
+
+      <!-- Plans Table -->
+      <table class="govuk-table">
+        <thead class="govuk-table__head">
+          <tr class="govuk-table__row">
+            <th class="govuk-table__header" style="width: 10%;">Plan #</th>
+            <th class="govuk-table__header" style="width: 50%;">Plan Name</th>
+            <th class="govuk-table__header" style="width: 40%;">Organisation</th>
+          </tr>
+        </thead>
+        <tbody class="govuk-table__body" id="plansList">
+          <!-- Populated by JavaScript -->
+        </tbody>
+      </table>
+
+      <div id="noResults" style="display: none; padding: 20px; background: #f3f2f1; border-radius: 4px; text-align: center;">
+        <p class="govuk-body">No plans match your search. Try different keywords.</p>
+      </div>
+    </div>
+
+    <!-- Review Page -->
+    <div id="reviewPage" style="display: none;">
+      <div style="margin-bottom: 20px;">
+        <a href="#" onclick="goToLandingPage(); return false;" class="govuk-link">← Back to plan list</a>
+      </div>
+
+      <h1 class="govuk-heading-xl">Review Data</h1>
+
+      <p class="govuk-body-l">Review local plan housing data one at a time. Use the buttons to report issues or confirm accuracy.</p>
+
+      <!-- Navigation Controls -->
+      <div style="display: flex; gap: 15px; margin-bottom: 30px; align-items: center;">
+        <button id="prevBtn" class="govuk-button govuk-button--secondary" onclick="goToPreviousPlan()">
+          ← Previous
+        </button>
+        <button id="nextBtn" class="govuk-button govuk-button--secondary" onclick="goToNextPlan()">
+          Next →
+        </button>
+        <div class="govuk-body" style="font-weight: bold; padding: 10px 15px; background: #f3f2f1; border-radius: 4px;">
+          Plan <span id="planCounter">1</span> of <span id="planTotal">{{ plan_filenames|length }}</span>
+        </div>
+      </div>
+
+    <!-- Action Buttons -->
+    <div style="display: flex; gap: 15px; margin-bottom: 40px;">
+      <a id="needsEditingBtn" class="govuk-button govuk-button--warning" href="#" target="_blank" rel="noopener noreferrer">
+        Needs editing
+      </a>
+      <a id="allCorrectBtn" class="govuk-button" href="#" target="_blank" rel="noopener noreferrer">
+        All correct ✓
+      </a>
+    </div>
+
+    <!-- Loading State -->
+    <div id="loadingMessage" style="display: none; padding: 20px; background: #f3f2f1; border-radius: 4px; text-align: center;">
+      <p class="govuk-body">Loading plan...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="errorMessage" style="display: none;" class="govuk-warning-text" style="margin-bottom: 40px;">
+      <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+      <strong class="govuk-warning-text__text">
+        <span class="govuk-visually-hidden">Warning</span>
+        <span id="errorText"></span>
+      </strong>
+    </div>
+
+    <!-- Main Content Area -->
+    <div id="planContent" style="display: none;">
+      <div style="margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start;">
+        <!-- Left Column: Plan Details -->
+        <div>
+          <h2 class="govuk-heading-l" id="planName"></h2>
+
+          <dl class="govuk-summary-list">
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Organisation</dt>
+              <dd class="govuk-summary-list__value" id="planOrganisation"></dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Plan period</dt>
+              <dd class="govuk-summary-list__value" id="planPeriod"></dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Adoption date</dt>
+              <dd class="govuk-summary-list__value" id="planAdoptionDate">Not specified</dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Confidence</dt>
+              <dd class="govuk-summary-list__value" id="planConfidence"></dd>
+            </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Source PDF</dt>
+              <dd class="govuk-summary-list__value">
+                <a id="planDocumentLink" class="govuk-link" href="#" target="_blank" rel="noopener noreferrer"></a>
+              </dd>
+            </div>
+          </dl>
+
+          <!-- Housing Numbers Section -->
+          <h2 class="govuk-heading-l" style="margin-top: 40px;">Housing numbers</h2>
+          <div id="housingNumbersContainer" class="organisation-breakdown" style="margin-top: 0;"></div>
+        </div>
+
+        <!-- Right Column: PDF Viewer -->
+        <div>
+          <h2 class="govuk-heading-l">Document</h2>
+          <div id="pdfContainer" style="border: 2px solid #b1b4b6; background: #f3f2f1; overflow: auto; height: 800px; display: none;">
+            <embed
+              id="pdfEmbed"
+              type="application/pdf"
+              style="width: 100%; height: 100%;"
+              title="Local Plan PDF">
+            </embed>
+          </div>
+          <div id="pdfErrorMessage" style="display: none; padding: 20px; background: #f3f2f1; border: 2px solid #b1b4b6; border-radius: 4px; text-align: center;">
+            <p class="govuk-body">PDF could not be displayed. <a id="pdfFallbackLink" class="govuk-link" href="#" target="_blank" rel="noopener noreferrer">View the PDF online</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Navigation -->
+      <div style="display: flex; gap: 15px; margin-top: 40px; padding-top: 30px; border-top: 2px solid #b1b4b6;">
+        <button id="prevBtn2" class="govuk-button govuk-button--secondary" onclick="goToPreviousPlan()">
+          ← Previous
+        </button>
+        <button id="nextBtn2" class="govuk-button govuk-button--secondary" onclick="goToNextPlan()">
+          Next →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+  // State management
+  const allPlanFilenames = {{ plan_filenames|tojson }};
+  let planMetadata = {}; // Will store plan name and organisation for each file
+  let currentPlanIndex = 0;
+  let currentPlanData = null;
+  let currentPageMode = 'landing'; // 'landing' or 'review'
+
+  // Initialize the page
+  function init() {
+    // Load plan metadata from JSON files
+    loadPlanMetadata();
+
+    // Check if a plan hash exists
+    const hash = window.location.hash.substring(1);
+    if (hash.startsWith('plan=')) {
+      // Load review page directly
+      parseUrlHash();
+      goToReviewPage();
+    } else {
+      // Show landing page
+      renderLandingPage();
+    }
+
+    // Set up event listeners
+    window.addEventListener('hashchange', function() {
+      const hash = window.location.hash.substring(1);
+      if (hash.startsWith('plan=')) {
+        parseUrlHash();
+        if (currentPageMode === 'landing') {
+          goToReviewPage();
+        } else {
+          loadCurrentPlan();
+        }
+      }
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
+      if (currentPageMode === 'review') {
+        if (e.key === 'ArrowLeft') {
+          e.preventDefault();
+          goToPreviousPlan();
+        } else if (e.key === 'ArrowRight') {
+          e.preventDefault();
+          goToNextPlan();
+        }
+      }
+    });
+
+    // Search functionality
+    const searchBox = document.getElementById('searchBox');
+    if (searchBox) {
+      searchBox.addEventListener('input', function() {
+        filterPlans(this.value);
+      });
+    }
+  }
+
+  // Load plan metadata (name, organisation) from JSON files
+  function loadPlanMetadata() {
+    let loadedCount = 0;
+    allPlanFilenames.forEach((filename, index) => {
+      fetch(`local-plan-data/${filename}.json`)
+        .then(response => response.json())
+        .then(data => {
+          planMetadata[filename] = {
+            name: data.name || 'Unknown Plan',
+            organisation: data['organisation-name'] || 'Unknown'
+          };
+          // Update the table row with actual data
+          updateTableRow(index, filename);
+          loadedCount++;
+          // Once all metadata is loaded, sort by organisation and re-render
+          if (loadedCount === allPlanFilenames.length) {
+            sortAndRenderPlans();
+          }
+        })
+        .catch(error => {
+          console.error(`Error loading metadata for ${filename}:`, error);
+          planMetadata[filename] = {
+            name: 'Error loading plan',
+            organisation: 'Error'
+          };
+          updateTableRow(index, filename);
+          loadedCount++;
+          if (loadedCount === allPlanFilenames.length) {
+            sortAndRenderPlans();
+          }
+        });
+    });
+  }
+
+  // Sort plans by organisation and re-render the landing page
+  function sortAndRenderPlans() {
+    // Sort allPlanFilenames by organisation name
+    allPlanFilenames.sort((a, b) => {
+      const orgA = planMetadata[a]?.organisation || '';
+      const orgB = planMetadata[b]?.organisation || '';
+      return orgA.localeCompare(orgB);
+    });
+
+    // Re-render the landing page with sorted filenames
+    if (currentPageMode === 'landing') {
+      renderLandingPage();
+    }
+  }
+
+  // Update a single table row with plan metadata
+  function updateTableRow(index, filename) {
+    const row = document.getElementById(`plan-row-${index}`);
+    if (row) {
+      const metadata = planMetadata[filename];
+      const nameCell = row.querySelector('.plan-name');
+      const orgCell = row.querySelector('.plan-organisation');
+
+      if (nameCell) nameCell.textContent = metadata.name;
+      if (orgCell) orgCell.textContent = metadata.organisation;
+    }
+  }
+
+  // Render landing page with table of all plans numbered
+  function renderLandingPage() {
+    const plansList = document.getElementById('plansList');
+    plansList.innerHTML = '';
+
+    allPlanFilenames.forEach((filename, index) => {
+      const row = document.createElement('tr');
+      row.className = 'govuk-table__row';
+      row.id = `plan-row-${index}`;
+      row.style.cursor = 'pointer';
+      row.style.transition = 'background-color 0.2s';
+
+      row.onmouseenter = () => row.style.backgroundColor = '#f3f2f1';
+      row.onmouseleave = () => row.style.backgroundColor = 'transparent';
+
+      const numberCell = document.createElement('td');
+      numberCell.className = 'govuk-table__cell';
+      numberCell.textContent = (index + 1);
+
+      // Check if metadata already exists (e.g., after sorting)
+      const metadata = planMetadata[filename];
+      const planName = metadata ? metadata.name : 'Loading...';
+      const planOrg = metadata ? metadata.organisation : 'Loading...';
+
+      const nameCell = document.createElement('td');
+      nameCell.className = 'govuk-table__cell plan-name';
+      nameCell.textContent = planName;
+
+      const orgCell = document.createElement('td');
+      orgCell.className = 'govuk-table__cell plan-organisation';
+      orgCell.textContent = planOrg;
+
+      row.appendChild(numberCell);
+      row.appendChild(nameCell);
+      row.appendChild(orgCell);
+
+      row.onclick = () => {
+        currentPlanIndex = index;
+        updateUrlHash();
+        goToReviewPage();
+      };
+
+      plansList.appendChild(row);
+    });
+  }
+
+  // Filter plans based on search input
+  function filterPlans(searchTerm) {
+    const plansList = document.getElementById('plansList');
+    const rows = plansList.querySelectorAll('tr.govuk-table__row');
+    const noResults = document.getElementById('noResults');
+    const table = document.querySelector('.govuk-table');
+    let visibleCount = 0;
+
+    const term = searchTerm.toLowerCase();
+
+    rows.forEach((row) => {
+      const nameCell = row.querySelector('.plan-name');
+      const orgCell = row.querySelector('.plan-organisation');
+      const text = (nameCell?.textContent || '') + ' ' + (orgCell?.textContent || '');
+
+      if (text.toLowerCase().includes(term)) {
+        row.style.display = 'table-row';
+        visibleCount++;
+      } else {
+        row.style.display = 'none';
+      }
+    });
+
+    noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    table.style.display = visibleCount === 0 ? 'none' : 'table';
+  }
+
+  // Navigation to review page
+  function goToReviewPage() {
+    document.getElementById('landingPage').style.display = 'none';
+    document.getElementById('reviewPage').style.display = 'block';
+    currentPageMode = 'review';
+    loadCurrentPlan();
+  }
+
+  // Navigation to landing page
+  function goToLandingPage() {
+    document.getElementById('reviewPage').style.display = 'none';
+    document.getElementById('landingPage').style.display = 'block';
+    currentPageMode = 'landing';
+    window.location.hash = '';
+  }
+
+  // Parse URL hash to get the current plan filename
+  function parseUrlHash() {
+    const hash = window.location.hash.substring(1);
+    const params = new URLSearchParams(hash);
+    const planFilename = params.get('plan');
+
+    if (planFilename) {
+      const index = allPlanFilenames.indexOf(planFilename);
+      if (index !== -1) {
+        currentPlanIndex = index;
+      } else {
+        // If plan not found, default to first plan
+        currentPlanIndex = 0;
+        updateUrlHash();
+      }
+    } else {
+      // No plan specified, show first plan
+      currentPlanIndex = 0;
+      updateUrlHash();
+    }
+  }
+
+  // Update URL hash without page reload
+  function updateUrlHash() {
+    const planFilename = allPlanFilenames[currentPlanIndex];
+    window.location.hash = `plan=${planFilename}`;
+  }
+
+  // Load the current plan from JSON file
+  function loadCurrentPlan() {
+    const filename = allPlanFilenames[currentPlanIndex];
+
+    // Show loading message
+    document.getElementById('planContent').style.display = 'none';
+    document.getElementById('loadingMessage').style.display = 'block';
+    document.getElementById('errorMessage').style.display = 'none';
+
+    // Fetch plan data from the local-plan-data directory
+    fetch(`local-plan-data/${filename}.json`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        currentPlanData = data;
+        currentPlanData.filename = filename;
+        renderPlan(data);
+        updateNavigationButtons();
+        updateGitHubButtons();
+
+        // Hide loading, show content
+        document.getElementById('loadingMessage').style.display = 'none';
+        document.getElementById('planContent').style.display = 'block';
+        document.getElementById('errorMessage').style.display = 'none';
+      })
+      .catch(error => {
+        console.error('Error loading plan:', error);
+        showError(`Failed to load plan: ${error.message}`);
+      });
+  }
+
+  // Render plan data to the DOM
+  function renderPlan(plan) {
+    // Plan name and basic details
+    document.getElementById('planName').textContent = plan.name || 'Unknown Plan';
+    document.getElementById('planOrganisation').textContent = plan['organisation-name'] || 'Unknown';
+    document.getElementById('planPeriod').textContent =
+      (plan['period-start-date'] || '?') + ' to ' + (plan['period-end-date'] || '?');
+
+    if (plan['adoption-date']) {
+      document.getElementById('planAdoptionDate').textContent = plan['adoption-date'];
+    }
+
+    document.getElementById('planConfidence').textContent = (plan.confidence || 'unknown').toUpperCase();
+
+    // Document links
+    const docLink = document.getElementById('planDocumentLink');
+    if (plan['document-url']) {
+      docLink.href = plan['document-url'];
+      docLink.textContent = 'View PDF';
+    } else if (plan.pdf_file) {
+      docLink.href = plan.pdf_file;
+      docLink.textContent = 'View PDF';
+    } else {
+      docLink.href = '#';
+      docLink.textContent = 'Not available';
+      docLink.style.pointerEvents = 'none';
+    }
+
+    // Render housing numbers
+    renderHousingNumbers(plan['housing-numbers'] || []);
+
+    // Render PDF viewer
+    renderPdfViewer(plan.pdf_file);
+  }
+
+  // Render housing numbers by organisation
+  function renderHousingNumbers(housingNumbers) {
+    const container = document.getElementById('housingNumbersContainer');
+    container.innerHTML = '';
+
+    if (!housingNumbers || housingNumbers.length === 0) {
+      container.innerHTML = '<p class="govuk-body">No housing data available</p>';
+      return;
+    }
+
+    housingNumbers.forEach(org => {
+      const card = document.createElement('div');
+      card.className = 'organisation-card';
+
+      let cardHTML = `<h3 class="govuk-heading-m">${org['organisation-name'] || 'Unknown organisation'}`;
+      if (org.organisation) {
+        cardHTML += `<br><span class="govuk-body-s" style="font-weight: normal;"><code>${org.organisation}</code></span>`;
+      }
+      cardHTML += `</h3>`;
+
+      cardHTML += '<dl class="govuk-summary-list">';
+
+      if (org['required-housing'] !== '' && org['required-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Required housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            <strong>${formatNumber(org['required-housing'])} homes</strong>
+          </dd>
+        </div>`;
+      }
+
+      if (org['annual-required-housing'] !== '' && org['annual-required-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Annual required housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            ${formatNumber(org['annual-required-housing'])} homes per year
+          </dd>
+        </div>`;
+      }
+
+      if (org['allocated-housing'] !== '' && org['allocated-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Allocated housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            ${formatNumber(org['allocated-housing'])} homes
+          </dd>
+        </div>`;
+      }
+
+      if (org['committed-housing'] !== '' && org['committed-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Committed housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            ${formatNumber(org['committed-housing'])} homes
+          </dd>
+        </div>`;
+      }
+
+      if (org['windfall-housing'] !== '' && org['windfall-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Windfall housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            ${formatNumber(org['windfall-housing'])} homes
+          </dd>
+        </div>`;
+      }
+
+      if (org['broad-locations-housing'] !== '' && org['broad-locations-housing'] !== null) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Broad locations housing</dt>
+          <dd class="govuk-summary-list__value govuk-summary-list__value--number">
+            ${formatNumber(org['broad-locations-housing'])} homes
+          </dd>
+        </div>`;
+      }
+
+      if (org.pages) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Pages</dt>
+          <dd class="govuk-summary-list__value">${org.pages}</dd>
+        </div>`;
+      }
+
+      if (org.notes) {
+        cardHTML += `<div class="govuk-summary-list__row">
+          <dt class="govuk-summary-list__key">Notes</dt>
+          <dd class="govuk-summary-list__value">${org.notes}</dd>
+        </div>`;
+      }
+
+      cardHTML += '</dl>';
+      card.innerHTML = cardHTML;
+      container.appendChild(card);
+    });
+  }
+
+  // Render PDF viewer or error message
+  function renderPdfViewer(pdfFile) {
+    const pdfContainer = document.getElementById('pdfContainer');
+    const pdfEmbed = document.getElementById('pdfEmbed');
+    const pdfErrorMessage = document.getElementById('pdfErrorMessage');
+
+    if (pdfFile) {
+      pdfEmbed.src = pdfFile;
+      pdfContainer.style.display = 'block';
+      pdfErrorMessage.style.display = 'none';
+    } else {
+      pdfContainer.style.display = 'none';
+      pdfErrorMessage.style.display = 'block';
+
+      // Try to find a fallback link
+      const docLink = document.getElementById('planDocumentLink');
+      const fallbackLink = document.getElementById('pdfFallbackLink');
+      fallbackLink.href = docLink.href;
+      fallbackLink.textContent = 'View the PDF online';
+    }
+  }
+
+  // Update navigation button states and counter
+  function updateNavigationButtons() {
+    document.getElementById('planCounter').textContent = currentPlanIndex + 1;
+  }
+
+  // Generate GitHub issue URLs
+  function updateGitHubButtons() {
+    const needsEditingBtn = document.getElementById('needsEditingBtn');
+    const allCorrectBtn = document.getElementById('allCorrectBtn');
+
+    needsEditingBtn.href = generateNeedsEditingUrl(currentPlanData);
+    allCorrectBtn.href = generateReviewedUrl(currentPlanData);
+  }
+
+  // Generate "Needs editing" GitHub issue URL
+  function generateNeedsEditingUrl(plan) {
+    const title = `[Needs editing] ${plan.name}`;
+    const body = `## What needs to be changed?
+[Please describe the issue you found]
+
+## Plan Details
+- **Name**: ${plan.name}
+- **Organisation**: ${plan['organisation-name']}
+- **Plan period**: ${plan['period-start-date']} - ${plan['period-end-date']}
+- **Adoption date**: ${plan['adoption-date'] || 'Not specified'}
+- **Confidence**: ${plan.confidence || 'unknown'}
+- **File**: ${plan.filename}.json
+
+## Housing Numbers
+${formatHousingNumbersForIssue(plan['housing-numbers'] || [])}
+
+## Links
+- [View plan](https://digital-land.github.io/local-plan-extractor/local-plan/${plan.filename}.html)
+- [View JSON](https://github.com/digital-land/local-plan-extractor/blob/main/local-plan/${plan.filename}.json)
+${plan['document-url'] ? `- [Source PDF](${plan['document-url']})` : ''}`;
+
+    return buildGitHubIssueUrl(title, body, 'needs-editing');
+  }
+
+  // Generate "All correct" GitHub issue URL
+  function generateReviewedUrl(plan) {
+    const title = `[Reviewed] ${plan.name}`;
+    const body = `This plan has been reviewed and all data is correct.
+
+<details>
+<summary><strong>Next steps (click to expand)</strong></summary>
+
+1. Close this issue when you're done
+
+</details>
+
+## Plan Details
+- **Name**: ${plan.name}
+- **Organisation**: ${plan['organisation-name']}
+- **Plan period**: ${plan['period-start-date']} - ${plan['period-end-date']}
+- **Adoption date**: ${plan['adoption-date'] || 'Not specified'}
+- **Confidence**: ${plan.confidence || 'unknown'}
+- **File**: ${plan.filename}.json
+
+## Housing Numbers
+${formatHousingNumbersForIssue(plan['housing-numbers'] || [])}
+
+## Links
+- [View plan](https://digital-land.github.io/local-plan-extractor/local-plan/${plan.filename}.html)
+- [View JSON](https://github.com/digital-land/local-plan-extractor/blob/main/local-plan/${plan.filename}.json)
+${plan['document-url'] ? `- [Source PDF](${plan['document-url']})` : ''}`;
+
+    return buildGitHubIssueUrl(title, body, 'reviewed');
+  }
+
+  // Format housing numbers for issue body
+  function formatHousingNumbersForIssue(housingNumbers) {
+    if (!housingNumbers || housingNumbers.length === 0) {
+      return 'No housing data available';
+    }
+
+    return housingNumbers.map(org => {
+      let text = `### ${org['organisation-name'] || 'Unknown organisation'}\n`;
+      if (org['required-housing'] !== '' && org['required-housing'] !== null) {
+        text += `- Required housing: ${formatNumber(org['required-housing'])} homes\n`;
+      }
+      if (org['annual-required-housing'] !== '' && org['annual-required-housing'] !== null) {
+        text += `- Annual required housing: ${formatNumber(org['annual-required-housing'])} homes per year\n`;
+      }
+      if (org['allocated-housing'] !== '' && org['allocated-housing'] !== null) {
+        text += `- Allocated housing: ${formatNumber(org['allocated-housing'])} homes\n`;
+      }
+      if (org.pages) {
+        text += `- Pages: ${org.pages}\n`;
+      }
+      if (org.notes) {
+        text += `- Notes: ${org.notes}\n`;
+      }
+      return text;
+    }).join('\n');
+  }
+
+  // Build GitHub issue URL
+  function buildGitHubIssueUrl(title, body, labels) {
+    const baseUrl = 'https://github.com/digital-land/local-plan-extractor/issues/new';
+    const params = new URLSearchParams({
+      title: title,
+      body: body,
+      labels: labels
+    });
+    return `${baseUrl}?${params.toString()}`;
+  }
+
+  // Navigation functions
+  function goToPreviousPlan() {
+    currentPlanIndex = (currentPlanIndex - 1 + allPlanFilenames.length) % allPlanFilenames.length;
+    updateUrlHash();
+  }
+
+  function goToNextPlan() {
+    currentPlanIndex = (currentPlanIndex + 1) % allPlanFilenames.length;
+    updateUrlHash();
+  }
+
+  // Format number with thousand separators
+  function formatNumber(num) {
+    if (num === null || num === undefined || num === '') {
+      return '';
+    }
+    return Number(num).toLocaleString();
+  }
+
+  // Show error message
+  function showError(message) {
+    document.getElementById('planContent').style.display = 'none';
+    document.getElementById('loadingMessage').style.display = 'none';
+    document.getElementById('errorMessage').style.display = 'block';
+    document.getElementById('errorText').textContent = message;
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+</script>
+{% endblock %}

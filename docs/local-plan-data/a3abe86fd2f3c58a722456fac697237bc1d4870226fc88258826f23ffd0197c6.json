@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan - May 2019",
+  "organisation-name": "Stevenage Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stevenage Borough Council",
+      "required-housing": 7600,
+      "allocated-housing": 5604,
+      "windfall-housing": 200,
+      "committed-housing": 2351,
+      "broad-locations-housing": 2700,
+      "annual-required-housing": 380,
+      "pages": "41-43, 101-102, 168",
+      "notes": "Target is at least 7,600 homes 2011-2031. Already 2,351 completed/permitted by 2015. Allocated sites total 5,604 including 2,950 town centre, 1,350 west of Stevenage, 1,350 north/south-east new neighbourhoods, plus smaller sites. Windfall is 20 per year after 2021 = 200 total. Annual target calculated as 450 homes/year for remainder of plan period but overall requirement averages 380/year.",
+      "organisation": "local-authority:STV"
+    }
+  ],
+  "confidence": "high",
+  "authority": "a3abe86fd2f3c58a722456fac697237bc1d4870226fc88258826f23ffd0197c6",
+  "pdf_file": "collection/document/a3abe86fd2f3c58a722456fac697237bc1d4870226fc88258826f23ffd0197c6.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STV",
+  "local-plan-boundary": "E60000172",
+  "local-planning-authorities": [
+    "E60000172"
+  ],
+  "adoption-date": "2012-03"
+}

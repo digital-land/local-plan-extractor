@@ -1,0 +1,59 @@
+{
+  "name": "Babergh District Council & Mid Suffolk District Council Joint Local Plan – Part 1",
+  "organisation-name": "Babergh District Council, Mid Suffolk District Council",
+  "period-start-date": 2018,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Babergh District Council",
+      "required-housing": 7904,
+      "allocated-housing": "",
+      "windfall-housing": 500,
+      "committed-housing": 4939,
+      "broad-locations-housing": "",
+      "annual-required-housing": 416,
+      "pages": "22-24, 123-124",
+      "notes": "Plan relies heavily on existing commitments (85% of requirement). Part 2 Plan will address 1,191 dwelling shortfall through allocations if necessary.",
+      "organisation": "local-authority:BAB"
+    },
+    {
+      "organisation-name": "Mid Suffolk District Council",
+      "required-housing": 10165,
+      "allocated-housing": "",
+      "windfall-housing": 500,
+      "committed-housing": 7882,
+      "broad-locations-housing": "",
+      "annual-required-housing": 535,
+      "pages": "22-24, 123-124",
+      "notes": "Plan relies heavily on existing commitments (100% of requirement met). No shortfall identified for this authority.",
+      "organisation": "local-authority:MSU"
+    },
+    {
+      "organisation-name": "Babergh District Council, Mid Suffolk District Council",
+      "organisation": "joint-planning-authority:BAB-MSU",
+      "required-housing": 18069,
+      "allocated-housing": 0,
+      "windfall-housing": 1000,
+      "committed-housing": 12821,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 951,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "7cc29ebe8db38ac4f6b4ba8985aa8b04b0b7a51b549815ddcd84592687cc87b5",
+  "pdf_file": "collection/document/7cc29ebe8db38ac4f6b4ba8985aa8b04b0b7a51b549815ddcd84592687cc87b5.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:BAB-MSU",
+  "organisations": [
+    "local-authority:BAB",
+    "local-authority:MSU"
+  ],
+  "local-plan-boundary": "E60000183-E60000186",
+  "local-planning-authorities": [
+    "E60000183",
+    "E60000186"
+  ],
+  "adoption-date": "2019-01"
+}

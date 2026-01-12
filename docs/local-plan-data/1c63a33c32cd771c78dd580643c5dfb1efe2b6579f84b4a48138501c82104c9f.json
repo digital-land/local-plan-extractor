@@ -1,0 +1,30 @@
+{
+  "name": "Basingstoke and Deane Local Plan 2011 to 2029",
+  "organisation-name": "Basingstoke and Deane Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Basingstoke and Deane Borough Council",
+      "required-housing": 15300,
+      "allocated-housing": 7705,
+      "windfall-housing": 550,
+      "committed-housing": 6741,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 850,
+      "pages": "25, 27, 33, 36-37",
+      "notes": "Committed housing includes sites with planning permission (4,668), urban/brownfield opportunities (1,323), regeneration (200), and small site windfall (550). Allocated housing comes from 12 greenfield site allocations listed in Policy SS3. No broad locations identified - all housing from specific allocations.",
+      "organisation": "local-authority:BAN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "1c63a33c32cd771c78dd580643c5dfb1efe2b6579f84b4a48138501c82104c9f",
+  "pdf_file": "collection/document/1c63a33c32cd771c78dd580643c5dfb1efe2b6579f84b4a48138501c82104c9f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BAN",
+  "local-plan-boundary": "E60000242",
+  "local-planning-authorities": [
+    "E60000242"
+  ],
+  "adoption-date": "2016-05"
+}

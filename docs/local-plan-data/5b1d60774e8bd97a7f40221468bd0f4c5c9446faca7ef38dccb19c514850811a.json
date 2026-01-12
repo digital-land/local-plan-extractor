@@ -1,0 +1,37 @@
+{
+  "name": "Greater Norwich Local Plan",
+  "organisation-name": "Broadland District Council, Norwich City Council, South Norfolk Council",
+  "period-start-date": 2018,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Greater Norwich (Joint Plan Area)",
+      "required-housing": 40541,
+      "allocated-housing": 10938,
+      "windfall-housing": 1625,
+      "committed-housing": 43396,
+      "broad-locations-housing": "",
+      "annual-required-housing": 2027,
+      "pages": "49-50, 58, 157",
+      "notes": "Joint plan for three authorities. Required housing is 40,541 using government standard methodology. Total forecast supply is 45,041 homes including 11% buffer. Committed housing includes completions 2018-2022 (8,728) plus existing commitment at April 2022 (34,668). Allocated housing is homes forecast from allocated sites by March 2038. Windfall includes policy 7.5 delivery (795) plus windfall allowance (830).",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "5b1d60774e8bd97a7f40221468bd0f4c5c9446faca7ef38dccb19c514850811a",
+  "pdf_file": "collection/document/5b1d60774e8bd97a7f40221468bd0f4c5c9446faca7ef38dccb19c514850811a.pdf",
+  "pages_analysed": 32,
+  "organisations": [
+    "local-authority:BRO",
+    "local-authority:NOW",
+    "local-authority:SNO"
+  ],
+  "adoption-date": "2024-03",
+  "local-plan-boundary": "E60000177-E60000181-E60000182",
+  "local-planning-authorities": [
+    "E60000177",
+    "E60000181",
+    "E60000182"
+  ],
+  "organisation": "joint-planning-authority:BRO-NOW-SNO"
+}

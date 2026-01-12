@@ -1,0 +1,66 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Tewkesbury Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Gloucester City Council",
+      "required-housing": 14359,
+      "allocated-housing": 5515,
+      "windfall-housing": 832,
+      "committed-housing": 2460,
+      "broad-locations-housing": "",
+      "annual-required-housing": 718,
+      "pages": "17, 21, 25",
+      "notes": "Includes completions (2,962), commitments (2,460), windfall (832), city plan potential (1,518), strategic allocations (620), and urban extensions in Tewkesbury Borough (4,895)",
+      "organisation": "local-authority:GLO"
+    },
+    {
+      "organisation-name": "Cheltenham Borough Council",
+      "required-housing": 10917,
+      "allocated-housing": 6396,
+      "windfall-housing": 784,
+      "committed-housing": 2178,
+      "broad-locations-housing": "",
+      "annual-required-housing": 546,
+      "pages": "17, 21, 25",
+      "notes": "Includes completions (1,724), commitments (2,178), existing allocations (10), windfall (784), borough plan potential (1,011), and urban extensions (5,385 total)",
+      "organisation": "local-authority:CHT"
+    },
+    {
+      "organisation-name": "Tewkesbury Borough Council",
+      "required-housing": 9899,
+      "allocated-housing": 315,
+      "windfall-housing": 552,
+      "committed-housing": 2854,
+      "broad-locations-housing": 500,
+      "annual-required-housing": 495,
+      "pages": "17, 21, 25",
+      "notes": "Includes completions (3,224), commitments (2,854), windfall (552), borough plan potential (315), and Mitton cross-boundary site (500). Also hosts urban extensions for Gloucester and Cheltenham totaling 7,505 homes",
+      "organisation": "local-authority:TEW"
+    },
+    {
+      "organisation-name": "Gloucester City Council, Cheltenham Borough Council, Tewkesbury Borough Council",
+      "organisation": "joint-planning-authority:CHT-GLO-TEW",
+      "required-housing": 35175,
+      "allocated-housing": 12226,
+      "windfall-housing": 2168,
+      "committed-housing": 7492,
+      "broad-locations-housing": 500,
+      "annual-required-housing": 1759,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294",
+  "pdf_file": "collection/document/c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:TEW",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000313",
+  "local-planning-authorities": [
+    "E60000313"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Barnet Local Plan 2021-2036",
+  "organisation-name": "London Borough of Barnet",
+  "period-start-date": 2021,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Barnet",
+      "required-housing": 35460,
+      "allocated-housing": 13331,
+      "windfall-housing": 6500,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2364,
+      "pages": "27, 30, 32",
+      "notes": "London Plan sets minimum target of 2,364 homes per annum. Plan proposes to meet and exceed this target. Allocated housing is from Schedule of Proposals sites. Windfall represents small sites target (434 per annum × 15 years). Strategic target is 50% affordable housing.",
+      "organisation": "local-authority:BNE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "128beba6374e2982446dc0ce5b23f38c3bd21b9d48dbc2e069e81cada119d90b",
+  "pdf_file": "collection/document/128beba6374e2982446dc0ce5b23f38c3bd21b9d48dbc2e069e81cada119d90b.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BNE",
+  "local-plan-boundary": "E60000203",
+  "local-planning-authorities": [
+    "E60000203"
+  ],
+  "adoption-date": "2025-03-04"
+}

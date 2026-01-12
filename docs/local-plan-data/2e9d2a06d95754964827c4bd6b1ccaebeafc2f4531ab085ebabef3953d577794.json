@@ -1,0 +1,30 @@
+{
+  "name": "North East Derbyshire Local Plan 2014 - 2034",
+  "organisation-name": "North East Derbyshire District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2034,
+  "housing-numbers": [
+    {
+      "organisation-name": "North East Derbyshire District Council",
+      "required-housing": 6600,
+      "allocated-housing": 3523,
+      "windfall-housing": 1500,
+      "committed-housing": 3901,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 330,
+      "pages": "31-32, 38-39, 58-59",
+      "notes": "Total supply is 6,711 providing 11% buffer. Allocated housing comprises sites with (2,709) and without (814) planning permission. Committed housing includes completions since 2014 plus permissions. Windfall estimated at 75 dwellings per year. No broad locations identified.",
+      "organisation": "local-authority:NED"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2e9d2a06d95754964827c4bd6b1ccaebeafc2f4531ab085ebabef3953d577794",
+  "pdf_file": "collection/document/2e9d2a06d95754964827c4bd6b1ccaebeafc2f4531ab085ebabef3953d577794.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NED",
+  "local-plan-boundary": "E60000083",
+  "local-planning-authorities": [
+    "E60000083"
+  ],
+  "adoption-date": "2021-11"
+}

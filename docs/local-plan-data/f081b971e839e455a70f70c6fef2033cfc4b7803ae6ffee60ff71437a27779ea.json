@@ -1,0 +1,26 @@
+{
+  "name": "City Plan 2019 \u2013 2040",
+  "organisation-name": "Westminster City Council",
+  "period-start-date": 2019,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Westminster City Council",
+      "required-housing": 20685,
+      "allocated-housing": "",
+      "windfall-housing": 5000,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 985,
+      "pages": "56-57, 181-185",
+      "notes": "Plan states target to exceed 20,685 homes over plan period. London Plan sets annual target of 985 homes per year. Housing trajectory shows mix of deliverable sites (years 1-5) and developable sites (years 6-15). Windfall allowance of 2,500 homes each for years 6-10 and 11-15 totaling 5,000. Historically 80%+ of delivery has been windfall. Document mentions Site Allocations DPD will provide detailed site capacities.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "f081b971e839e455a70f70c6fef2033cfc4b7803ae6ffee60ff71437a27779ea",
+  "pdf_file": "collection/document/f081b971e839e455a70f70c6fef2033cfc4b7803ae6ffee60ff71437a27779ea.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WSM",
+  "adoption-date": "2021-04"
+}

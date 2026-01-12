@@ -1,0 +1,29 @@
+{
+  "name": "Cambridge Local Plan 2018",
+  "organisation-name": "Cambridge City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Cambridge City Council",
+      "required-housing": 14000,
+      "allocated-housing": 3777,
+      "windfall-housing": 1294,
+      "committed-housing": 8046,
+      "broad-locations-housing": "",
+      "annual-required-housing": 700,
+      "pages": "15, 24-26, 495",
+      "notes": "Total provision of 14,682 homes includes completions 2011-2015 (2,860), existing commitments (7,036 + 1,010), and new allocations (3,777). Housing trajectories considered jointly with South Cambridgeshire. Uses Liverpool methodology with 20% buffer for 5-year land supply.",
+      "organisation": "local-authority:CAB"
+    }
+  ],
+  "confidence": "high",
+  "authority": "fdd4394e7fbe04deebcf9f7a22241ac2b870e0e0c500c42b0fdb1930249bf1e3",
+  "pdf_file": "collection/document/fdd4394e7fbe04deebcf9f7a22241ac2b870e0e0c500c42b0fdb1930249bf1e3.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CAB",
+  "local-plan-boundary": "E60000149",
+  "local-planning-authorities": [
+    "E60000149"
+  ]
+}

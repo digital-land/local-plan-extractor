@@ -1,0 +1,30 @@
+{
+  "name": "Stroud District Local Plan",
+  "organisation-name": "Stroud District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Stroud District Council",
+      "required-housing": 11400,
+      "allocated-housing": 4200,
+      "windfall-housing": 750,
+      "committed-housing": 3948,
+      "broad-locations-housing": "",
+      "annual-required-housing": 456,
+      "pages": "Pages 22-25, 176",
+      "notes": "Total requirement 11,400 homes for 2006-2031. Strategic site allocations total 3,300 homes, plus 150 from council housing programme. Windfall includes 'dispersal' category. Committed housing includes large sites (3,307), small sites (551), and firm commitments (90).",
+      "organisation": "local-authority:STO"
+    }
+  ],
+  "confidence": "high",
+  "authority": "59fb9fc5a25be4fba562d781592d6560a6bf5c9ce43e897ed22dc73264a4ccb6",
+  "pdf_file": "collection/document/59fb9fc5a25be4fba562d781592d6560a6bf5c9ce43e897ed22dc73264a4ccb6.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:STO",
+  "local-plan-boundary": "E60000312",
+  "local-planning-authorities": [
+    "E60000312"
+  ],
+  "adoption-date": "2015-11"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Medway Local Plan",
+  "organisation-name": "Medway Council",
+  "period-start-date": 1991,
+  "period-end-date": 2006,
+  "housing-numbers": [
+    {
+      "organisation-name": "Medway Council",
+      "required-housing": 13000,
+      "allocated-housing": 3191,
+      "windfall-housing": 513,
+      "committed-housing": 2585,
+      "broad-locations-housing": "",
+      "annual-required-housing": 867,
+      "pages": "152-153, 159-160",
+      "notes": "Required housing from Kent Structure Plan Policy H1. Allocated housing from Policy H1 proposed allocations. Committed housing refers to large sites (5+ units) with planning permission as at 31.3.00. Small sites allowance (528) and windfall allowance (513) for 2000-2006 period. Total includes completions 1991-2000 of 6,181 dwellings.",
+      "organisation": "local-authority:MDW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "750484ac0682f1f3bc19d7d6bfcc1f0e1f458754d0d548f83b7c00743e1dad2a",
+  "pdf_file": "collection/document/750484ac0682f1f3bc19d7d6bfcc1f0e1f458754d0d548f83b7c00743e1dad2a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MDW",
+  "local-plan-boundary": "E60000224",
+  "local-planning-authorities": [
+    "E60000224"
+  ],
+  "adoption-date": "1998-04"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2015-2034",
+  "organisation-name": "Guildford Borough Council",
+  "period-start-date": 2015,
+  "period-end-date": 2034,
+  "housing-numbers": [
+    {
+      "organisation-name": "Guildford Borough Council",
+      "required-housing": 10678,
+      "allocated-housing": 9467,
+      "windfall-housing": 750,
+      "committed-housing": 3675,
+      "broad-locations-housing": "",
+      "annual-required-housing": 562,
+      "pages": "25, 265-266",
+      "notes": "Total supply over plan period is 14,602 homes. Site allocations figure excludes current permissions/completions associated with allocations. Committed housing includes 980 permissions and 2,695 completions.",
+      "organisation": "local-authority:GRT"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "2679e4bf117b5a49da62e652b58e9ef35bbc2dac589f5ddafc0a44d8a0a1b6ce",
+  "pdf_file": "collection/document/2679e4bf117b5a49da62e652b58e9ef35bbc2dac589f5ddafc0a44d8a0a1b6ce.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:GRT",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000272",
+  "local-planning-authorities": [
+    "E60000272"
+  ]
+}

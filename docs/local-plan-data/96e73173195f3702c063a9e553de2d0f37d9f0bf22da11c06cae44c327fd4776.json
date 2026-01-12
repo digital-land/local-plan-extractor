@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2028",
+  "organisation-name": "South Derbyshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Derbyshire District Council",
+      "required-housing": 12618,
+      "allocated-housing": "",
+      "windfall-housing": 450,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 742,
+      "pages": "20-21, 33-34",
+      "notes": "Total requirement includes 9,605 for South Derbyshire's own need plus 3,013 to meet Derby City's unmet need. Strategic sites allocated in Part 1, smaller sites (600 dwellings) to be allocated in Part 2. Annual figure calculated from 17-year plan period.",
+      "organisation": "local-authority:SDE"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776",
+  "pdf_file": "collection/document/96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SDE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000084",
+  "local-planning-authorities": [
+    "E60000084"
+  ]
+}

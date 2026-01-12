@@ -1,0 +1,29 @@
+{
+  "name": "Core Strategy",
+  "organisation-name": "East Lindsey District Council",
+  "period-start-date": 2017,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "East Lindsey District Council",
+      "required-housing": 7819,
+      "allocated-housing": 3810,
+      "windfall-housing": "",
+      "committed-housing": 4375,
+      "broad-locations-housing": "",
+      "annual-required-housing": 558,
+      "pages": "25-29, 33-34",
+      "notes": "Total requirement includes shortfall from 2011-2016. Commitments split between inland (3118) and coastal (1257). Allocated housing refers specifically to inland allocations in Settlement Proposals Document.",
+      "organisation": "local-authority:ELI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260",
+  "pdf_file": "collection/document/3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ELI",
+  "local-plan-boundary": "E60000093",
+  "local-planning-authorities": [
+    "E60000093"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Telford & Wrekin Local Plan",
+  "organisation-name": "Telford & Wrekin Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Telford & Wrekin Council",
+      "required-housing": 17280,
+      "allocated-housing": 2264,
+      "windfall-housing": 360,
+      "committed-housing": 11741,
+      "broad-locations-housing": "",
+      "annual-required-housing": 864,
+      "pages": "66, 67, 69-70",
+      "notes": "Housing requirement is approximately 17,280 net new dwellings up to 2031. Committed housing includes completions 2011-16 (4,498), dwellings under construction (1,068), and dwellings with planning permission not started (6,175 after 20% discount). Site allocations total includes sites H1, H2, H6 which are counted in resolution to grant category rather than pure allocations. Windfall allowance is conservative estimate for sites less than 0.1 hectare.",
+      "organisation": "local-authority:TFW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4f29206e9ce5a76d832c9d80fd83cacefbc9e35b09a304a2efa425cfefaf6856",
+  "pdf_file": "collection/document/4f29206e9ce5a76d832c9d80fd83cacefbc9e35b09a304a2efa425cfefaf6856.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TFW",
+  "local-plan-boundary": "E60000116",
+  "local-planning-authorities": [
+    "E60000116"
+  ],
+  "adoption-date": "2016-03-15"
+}

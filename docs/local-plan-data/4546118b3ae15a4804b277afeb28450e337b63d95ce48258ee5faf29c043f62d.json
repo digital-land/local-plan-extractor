@@ -1,0 +1,30 @@
+{
+  "name": "Hart Local Plan (Strategy and Sites) 2032",
+  "organisation-name": "Hart District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Hart District Council",
+      "required-housing": 7614,
+      "allocated-housing": 1479,
+      "windfall-housing": 276,
+      "committed-housing": 3262,
+      "broad-locations-housing": 150,
+      "annual-required-housing": 423,
+      "pages": "38-43, 182-187",
+      "notes": "Housing requirement includes 382 homes per annum for Hart's own needs plus 41 homes per annum to address unmet need from Surrey Heath. Total supply of 7,384 falls short of requirement by 230 dwellings. Allocated housing includes 1,368 from Hartland Village allocation plus 111 from Neighbourhood Plan sites. Committed housing is sites with outstanding planning permission as of April 2018. Broad locations housing is sites within settlement boundaries expected to come forward.",
+      "organisation": "local-authority:HAT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4546118b3ae15a4804b277afeb28450e337b63d95ce48258ee5faf29c043f62d",
+  "pdf_file": "collection/document/4546118b3ae15a4804b277afeb28450e337b63d95ce48258ee5faf29c043f62d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HAT",
+  "local-plan-boundary": "E60000247",
+  "local-planning-authorities": [
+    "E60000247"
+  ],
+  "adoption-date": "2020-04-30"
+}

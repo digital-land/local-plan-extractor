@@ -1,0 +1,30 @@
+{
+  "name": "Development and Allocations Plan",
+  "organisation-name": "Newcastle City Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newcastle City Council",
+      "required-housing": 21000,
+      "allocated-housing": 4200,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1400,
+      "pages": "31, 32",
+      "notes": "Total requirement of 21,000 includes 2,000 student accommodation units and 19,000 new homes. DAP allocates sites for approximately 4,200 homes. 7,380 dwellings from CSUCP allocations plus approximately 2,000 from Urban Core makes up remainder.",
+      "organisation": "local-authority:NET"
+    }
+  ],
+  "confidence": "high",
+  "authority": "0b08ba4ed2e93a309e6fa9850e5ff539f133b833afef23cd28f31dbf6ccb3628",
+  "pdf_file": "collection/document/0b08ba4ed2e93a309e6fa9850e5ff539f133b833afef23cd28f31dbf6ccb3628.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NET",
+  "local-plan-boundary": "E60000009",
+  "local-planning-authorities": [
+    "E60000009"
+  ],
+  "adoption-date": "2020-06-24"
+}

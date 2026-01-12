@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2024-2041",
+  "organisation-name": "West Suffolk Council",
+  "period-start-date": 2024,
+  "period-end-date": 2041,
+  "housing-numbers": [
+    {
+      "organisation-name": "West Suffolk Council",
+      "required-housing": 13005,
+      "allocated-housing": 4963,
+      "windfall-housing": 1200,
+      "committed-housing": 8712,
+      "broad-locations-housing": "",
+      "annual-required-housing": 765,
+      "pages": "83-84, 73",
+      "notes": "Housing requirement is 13,005 homes minimum. Total provision is 14,875 homes including 10% contingency. Committed housing includes large sites (10+ homes) with planning permission. Allocated housing excludes sites that already have planning permission.",
+      "organisation": "local-authority:WSK"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "9112c8083ab3df6794dacffc8231cac0b06f8f915227ca1f1ab5f3b1e25d1a9b",
+  "pdf_file": "collection/document/9112c8083ab3df6794dacffc8231cac0b06f8f915227ca1f1ab5f3b1e25d1a9b.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:WSK",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000187",
+  "local-planning-authorities": [
+    "E60000187"
+  ]
+}

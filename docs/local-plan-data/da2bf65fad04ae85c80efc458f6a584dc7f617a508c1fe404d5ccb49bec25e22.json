@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "North West Leicestershire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "North West Leicestershire District Council",
+      "required-housing": 9620,
+      "allocated-housing": 2160,
+      "windfall-housing": "",
+      "committed-housing": 12553,
+      "broad-locations-housing": "",
+      "annual-required-housing": 481,
+      "pages": "24, 40-47",
+      "notes": "Required housing is 9620 dwellings (481 per annum). Committed housing of 12,553 includes completions (2,690), under construction (471), planning permissions (8,851), and resolutions (541). New allocations total 2,160 dwellings from sites H3a (2,050), H3b (95), H3c (450 reserve), and H3d (110 reserve). No specific windfall allowance made as noted on page 40-41.",
+      "organisation": "local-authority:NWL"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22",
+  "pdf_file": "collection/document/da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:NWL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000090",
+  "local-planning-authorities": [
+    "E60000090"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "LDF Core Strategy",
+  "organisation-name": "Royal Borough of Kingston upon Thames",
+  "period-start-date": 2012,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Royal Borough of Kingston upon Thames",
+      "required-housing": 5625,
+      "allocated-housing": 834,
+      "windfall-housing": 2196,
+      "committed-housing": 790,
+      "broad-locations-housing": 140,
+      "annual-required-housing": 375,
+      "pages": "146-149, 221-224",
+      "notes": "Housing target of 375 homes per year from London Plan 2011. Total requirement 5625 for 2012-2027. Housing trajectory shows breakdown: Large sites over 0.25ha (834), windfall sites (2196), committed sites (790), SHLAA sites (140). Includes 300 student bedspaces at Hogsmill Valley.",
+      "organisation": "local-authority:KTT"
+    }
+  ],
+  "confidence": "high",
+  "authority": "a7455169b13fdd5807dbe50ab4148cb7b15957a6545bde0ddf95f4628c8bfeae",
+  "pdf_file": "collection/document/a7455169b13fdd5807dbe50ab4148cb7b15957a6545bde0ddf95f4628c8bfeae.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:KTT",
+  "local-plan-boundary": "E60000215",
+  "local-planning-authorities": [
+    "E60000215"
+  ],
+  "adoption-date": "2012-04"
+}

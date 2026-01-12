@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2027",
+  "organisation-name": "Isle of Wight Council",
+  "period-start-date": 2011,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Isle of Wight Council",
+      "required-housing": 8320,
+      "allocated-housing": "",
+      "windfall-housing": 700,
+      "committed-housing": 3200,
+      "broad-locations-housing": 5120,
+      "annual-required-housing": 520,
+      "pages": "36, 38-40, 43",
+      "notes": "Strategy provides for 8,320 dwellings 2011-2027 at 520 dwellings per year. 3,200 existing permissions and 5,120 additional dwellings required through Area Action Plans and smaller-scale development. Windfall sites from 2021 onwards estimated at 700 dwellings. No specific site allocations made - housing to be delivered through subsequent Area Action Plans for Key Regeneration Areas.",
+      "organisation": "local-authority:IOW"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "062aac295576400a0e3229a9b36c96ddec26addc269d73534adb189df60d0f94",
+  "pdf_file": "collection/document/062aac295576400a0e3229a9b36c96ddec26addc269d73534adb189df60d0f94.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:IOW",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000223",
+  "local-planning-authorities": [
+    "E60000223"
+  ]
+}
