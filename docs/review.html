@@ -94,15 +94,21 @@
 
       <p class="govuk-body-l">Select a local plan below to review the housing data. There are 290 plans to review.</p>
 
-      <!-- Search Box -->
-      <div style="margin-bottom: 30px;">
-        <input
-          type="text"
-          id="searchBox"
-          class="govuk-input"
-          placeholder="Search by plan name or organisation..."
-          style="max-width: 500px;"
-        >
+      <!-- Search Box and Missing Plan Button -->
+      <div style="display: flex; gap: 15px; margin-bottom: 30px; align-items: flex-start;">
+        <!-- Search Box -->
+        <div style="flex: 1;">
+          <input
+            type="text"
+            id="searchBox"
+            class="govuk-input"
+            placeholder="Search by plan name or organisation..."
+          >
+        </div>
+        <!-- Missing Plan Button -->
+        <button class="govuk-button" onclick="openMissingPlanIssue()" style="white-space: nowrap;">
+          Missing a local plan?
+        </button>
       </div>
 
       <!-- Review Status Summary -->
@@ -300,6 +306,24 @@
   let currentPlanIndex = 0;
   let currentPlanData = null;
   let currentPageMode = 'landing'; // 'landing' or 'review'
+
+  // Open missing plan issue with timestamp
+  function openMissingPlanIssue() {
+    const now = new Date();
+    const timestamp = now.toLocaleString('en-GB', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+
+    const title = `Missing local plan - ${timestamp}`;
+    const body = `**Name of local plan**\n\n**Organisation(s)**\n\n**Start date**\n\n**End date**\n\n**Adopted date**\n\n**Withdrawn date (if applicable)**\n\n**Documentation URL**\n(Main local plan page for the LPA)\n\n**Document URL**\n(URL for the local plan PDF document)`;
+
+    const url = `https://github.com/digital-land/local-plan-extractor/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}&labels=missing-plan`;
+    window.open(url, '_blank');
+  }
 
   // Initialize the page
   function init() {
