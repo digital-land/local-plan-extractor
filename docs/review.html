@@ -333,9 +333,9 @@
   }
 
   // Initialize the page
-  function init() {
+  async function init() {
     // Load plan metadata from JSON files
-    loadPlanMetadata();
+    await loadPlanMetadata();
 
     // Load review status from GitHub API
     loadReviewStatus();
@@ -388,47 +388,51 @@
 
   // Load plan metadata (name, organisation) from JSON files
   function loadPlanMetadata() {
-    let loadedCount = 0;
-    allPlanFilenames.forEach((filename, index) => {
-      fetch(`local-plan-data/${filename}.json`)
-        .then(response => response.json())
-        .then(data => {
-          planMetadata[filename] = {
-            name: data.name || 'Unknown Plan',
-            organisation: data['organisation-name'] || 'Unknown'
-          };
-          // Build reverse mapping from plan name + organisation to filename (composite key for uniqueness)
-          const planName = data.name || 'Unknown Plan';
-          const orgName = data['organisation-name'] || 'Unknown';
-          const compositeKey = `${planName} - ${orgName}`;
-          planNameToFilename[compositeKey] = filename;
+    return new Promise((resolve) => {
+      let loadedCount = 0;
+      allPlanFilenames.forEach((filename, index) => {
+        fetch(`local-plan-data/${filename}.json`)
+          .then(response => response.json())
+          .then(data => {
+            planMetadata[filename] = {
+              name: data.name || 'Unknown Plan',
+              organisation: data['organisation-name'] || 'Unknown'
+            };
+            // Build reverse mapping from plan name + organisation to filename (composite key for uniqueness)
+            const planName = data.name || 'Unknown Plan';
+            const orgName = data['organisation-name'] || 'Unknown';
+            const compositeKey = `${planName} - ${orgName}`;
+            planNameToFilename[compositeKey] = filename;
 
-          // Initialize status as not-reviewed
-          if (!planReviewStatus[filename]) {
+            // Initialize status as not-reviewed
+            if (!planReviewStatus[filename]) {
+              planReviewStatus[filename] = 'not-reviewed';
+            }
+
+            // Update the table row with actual data
+            updateTableRow(index, filename);
+            loadedCount++;
+            // Once all metadata is loaded, sort by organisation and re-render
+            if (loadedCount === allPlanFilenames.length) {
+              sortAndRenderPlans();
+              resolve();
+            }
+          })
+          .catch(error => {
+            console.error(`Error loading metadata for ${filename}:`, error);
+            planMetadata[filename] = {
+              name: 'Error loading plan',
+              organisation: 'Error'
+            };
             planReviewStatus[filename] = 'not-reviewed';
-          }
-
-          // Update the table row with actual data
-          updateTableRow(index, filename);
-          loadedCount++;
-          // Once all metadata is loaded, sort by organisation and re-render
-          if (loadedCount === allPlanFilenames.length) {
-            sortAndRenderPlans();
-          }
-        })
-        .catch(error => {
-          console.error(`Error loading metadata for ${filename}:`, error);
-          planMetadata[filename] = {
-            name: 'Error loading plan',
-            organisation: 'Error'
-          };
-          planReviewStatus[filename] = 'not-reviewed';
-          updateTableRow(index, filename);
-          loadedCount++;
-          if (loadedCount === allPlanFilenames.length) {
-            sortAndRenderPlans();
-          }
-        });
+            updateTableRow(index, filename);
+            loadedCount++;
+            if (loadedCount === allPlanFilenames.length) {
+              sortAndRenderPlans();
+              resolve();
+            }
+          });
+      });
     });
   }
 
