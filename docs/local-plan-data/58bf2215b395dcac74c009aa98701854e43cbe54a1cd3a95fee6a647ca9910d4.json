@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 191,
       "pages": "Pages 27, 28, 6",
-      "notes": "3,240 dwelling requirement for 2011-2028 (17 years). 875 completions between 2006-2011. Princess Royal Barracks Deepcut allocated for 1,200 net new dwellings from 2016 onward. Annual requirement derived from 3,240\u00f717=190.6 rounded to 191.",
+      "notes": "3,240 dwelling requirement for 2011-2028 (17 years). 875 completions between 2006-2011. Princess Royal Barracks Deepcut allocated for 1,200 net new dwellings from 2016 onward. Annual requirement derived from 3,240÷17=190.6 rounded to 191.",
       "organisation": "local-authority:SUR"
     }
   ],
@@ -26,5 +26,6 @@
   "local-plan-boundary": "E60000277",
   "local-planning-authorities": [
     "E60000277"
-  ]
+  ],
+  "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf"
 }

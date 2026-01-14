@@ -1,5 +1,5 @@
 {
-  "name": "Lambeth Local Plan 2020\u20132035",
+  "name": "Lambeth Local Plan 2020–2035",
   "organisation-name": "Lambeth Council",
   "period-start-date": 2020,
   "period-end-date": 2035,
@@ -22,5 +22,6 @@
   "pdf_file": "collection/document/8aa61559d5e985261e9af5bdb3a049cd8416426987b9653d8a49d2b17d888b6f.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:LBH",
-  "adoption-date": "2021-09-22"
+  "adoption-date": "2021-09-22",
+  "document-url": "https://beta.lambeth.gov.uk/sites/default/files/2021-09/Lambeth%20Local%20Plan%202021.pdf"
 }

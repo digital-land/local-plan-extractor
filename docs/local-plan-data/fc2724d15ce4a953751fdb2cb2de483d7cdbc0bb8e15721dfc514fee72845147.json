@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 820,
       "pages": "19, 29, 135",
-      "notes": "Total requirement is 13,940 homes (820 per year \u00d7 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
+      "notes": "Total requirement is 13,940 homes (820 per year × 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
       "organisation": "local-authority:CHA"
     }
   ],
@@ -26,5 +26,6 @@
   "local-plan-boundary": "E60000086",
   "local-planning-authorities": [
     "E60000086"
-  ]
+  ],
+  "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf"
 }

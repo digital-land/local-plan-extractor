@@ -474,7 +474,7 @@ Examples:
     else:
         print(f"  ⚠ Warning: collection/document directory not found", file=sys.stderr)
 
-    # Copy local-plan JSON files for review page
+    # Copy local-plan JSON files for review page (enriched with document URLs)
     local_plan_src = Path(args.local_plans)
     local_plan_data_dest = Path(args.output) / "local-plan-data"
 
@@ -487,7 +487,19 @@ Examples:
         local_plan_data_dest.mkdir(parents=True, exist_ok=True)
         json_count = 0
         for json_file in local_plan_src.glob("*.json"):
-            shutil.copy(json_file, local_plan_data_dest / json_file.name)
+            # Load the JSON data
+            data = load_json(json_file)
+
+            # Add document-url from source data if available
+            if document_urls and "authority" in data:
+                authority_id = data["authority"]
+                if authority_id in document_urls:
+                    data["document-url"] = document_urls[authority_id]
+
+            # Write enriched JSON to output directory
+            output_json_path = local_plan_data_dest / json_file.name
+            with open(output_json_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
             json_count += 1
         print(f"  ✓ Copied {json_count} JSON files to {local_plan_data_dest}")
     else:

@@ -224,6 +224,13 @@
                 <a id="planDocumentLink" class="govuk-link" href="#" target="_blank" rel="noopener noreferrer"></a>
               </dd>
             </div>
+
+            <div class="govuk-summary-list__row">
+              <dt class="govuk-summary-list__key">Document URL</dt>
+              <dd class="govuk-summary-list__value">
+                <a id="planDocumentUrl" class="govuk-link" href="#" target="_blank" rel="noopener noreferrer" style="word-break: break-all;"></a>
+              </dd>
+            </div>
           </dl>
 
           <!-- Housing Numbers Section -->
@@ -796,6 +803,17 @@
       docLink.href = '#';
       docLink.textContent = 'Not available';
       docLink.style.pointerEvents = 'none';
+    }
+
+    // Document URL field
+    const docUrlLink = document.getElementById('planDocumentUrl');
+    if (plan['document-url']) {
+      docUrlLink.href = plan['document-url'];
+      docUrlLink.textContent = plan['document-url'];
+    } else {
+      docUrlLink.textContent = 'Not specified';
+      docUrlLink.style.pointerEvents = 'none';
+      docUrlLink.href = '#';
     }
 
     // Render housing numbers

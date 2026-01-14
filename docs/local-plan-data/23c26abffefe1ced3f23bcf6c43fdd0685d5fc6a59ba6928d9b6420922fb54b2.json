@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 1375,
       "pages": "35, 82, 83",
-      "notes": "Total requirement of 27,500 homes includes 9,000 affordable homes. Plan uses phased approach: 2006/2011 \u2013 1190 dwellings per annum, 2011/2016 \u2013 1390 per annum, 2016/2021 \u2013 1390 per annum, 2021/2026 \u2013 1530 per annum. Average annual requirement is 1375 homes per year. This is a Core Strategy document - specific allocations will be made in the subsequent SAMDev DPD.",
+      "notes": "Total requirement of 27,500 homes includes 9,000 affordable homes. Plan uses phased approach: 2006/2011 – 1190 dwellings per annum, 2011/2016 – 1390 per annum, 2016/2021 – 1390 per annum, 2021/2026 – 1530 per annum. Average annual requirement is 1375 homes per year. This is a Core Strategy document - specific allocations will be made in the subsequent SAMDev DPD.",
       "organisation": "local-authority:SHR"
     }
   ],
@@ -26,5 +26,6 @@
   "local-plan-boundary": "E60000114",
   "local-planning-authorities": [
     "E60000114"
-  ]
+  ],
+  "document-url": "https://next.shropshire.gov.uk/media/ImportedMedia/8534/core-strategy.pdf"
 }

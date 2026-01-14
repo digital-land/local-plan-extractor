@@ -13,7 +13,7 @@
       "broad-locations-housing": 2500,
       "annual-required-housing": 890,
       "pages": "21-22, 54, 111, 137",
-      "notes": "Plan provides 8,500 dwellings leaving unmet need of 9,300. Committed housing includes historic completions (2,027) plus existing permissions (114). Strategic allocations provide minimum 2,500 dwellings. Actual annual requirement is 17,800\u00f720=890 per year, but plan can only deliver 8,500\u00f720=425 per year.",
+      "notes": "Plan provides 8,500 dwellings leaving unmet need of 9,300. Committed housing includes historic completions (2,027) plus existing permissions (114). Strategic allocations provide minimum 2,500 dwellings. Actual annual requirement is 17,800÷20=890 per year, but plan can only deliver 8,500÷20=425 per year.",
       "organisation": "local-authority:LUT"
     }
   ],
@@ -26,5 +26,6 @@
   "local-plan-boundary": "E60000145",
   "local-planning-authorities": [
     "E60000145"
-  ]
+  ],
+  "document-url": "https://www.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/Local%20Plan/adoption/Luton-Local-Plan-2011-2031-November-2017.pdf"
 }
