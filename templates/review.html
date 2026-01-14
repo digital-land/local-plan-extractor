@@ -297,9 +297,11 @@
             name: data.name || 'Unknown Plan',
             organisation: data['organisation-name'] || 'Unknown'
           };
-          // Build reverse mapping from plan name to filename
+          // Build reverse mapping from plan name + organisation to filename (composite key for uniqueness)
           const planName = data.name || 'Unknown Plan';
-          planNameToFilename[planName] = filename;
+          const orgName = data['organisation-name'] || 'Unknown';
+          const compositeKey = `${planName} - ${orgName}`;
+          planNameToFilename[compositeKey] = filename;
 
           // Initialize status as not-reviewed
           if (!planReviewStatus[filename]) {
@@ -844,7 +846,7 @@
 
   // Generate "Needs editing" GitHub issue URL
   function generateNeedsEditingUrl(plan) {
-    const title = `[Needs editing] ${plan.name}`;
+    const title = `[Needs editing] ${plan.name} - ${plan['organisation-name']}`;
     const body = `## What needs to be changed?
 [Please describe the issue you found]
 
@@ -869,7 +871,7 @@ ${plan['document-url'] ? `- [Source PDF](${plan['document-url']})` : ''}`;
 
   // Generate "All correct" GitHub issue URL
   function generateReviewedUrl(plan) {
-    const title = `[Reviewed] ${plan.name}`;
+    const title = `[Reviewed] ${plan.name} - ${plan['organisation-name']}`;
     const body = `This plan has been reviewed and all data is correct.
 
 <details>
