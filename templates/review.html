@@ -312,9 +312,9 @@
             planNameToFilename[compositeKey] = filename;
 
             // Log specific plans for debugging
-            if (filename === '80afc63ca69bd2f9e6dd68c11fd744de6f3a7d883dee1fd668b6dfd54d036f92') {
-              console.log(`[WYRE] Plan name: '${planName}', Org: '${orgName}', Key: '${compositeKey}'`);
-            }
+            // if (filename === '80afc63ca69bd2f9e6dd68c11fd744de6f3a7d883dee1fd668b6dfd54d036f92') {
+            //   console.log(`[WYRE] Plan name: '${planName}', Org: '${orgName}', Key: '${compositeKey}'`);
+            // }
 
             // Initialize status as not-reviewed
             if (!planReviewStatus[filename]) {
@@ -326,8 +326,8 @@
             loadedCount++;
             // Once all metadata is loaded, sort by organisation and re-render
             if (loadedCount === allPlanFilenames.length) {
-              console.log(`=== DEBUG: Finished loading all ${loadedCount} plan metadata files ===`);
-              console.log(`Total keys in planNameToFilename: ${Object.keys(planNameToFilename).length}`);
+              // console.log(`=== DEBUG: Finished loading all ${loadedCount} plan metadata files ===`);
+              // console.log(`Total keys in planNameToFilename: ${Object.keys(planNameToFilename).length}`);
               sortAndRenderPlans();
               resolve();
             }
@@ -356,8 +356,8 @@
     // This ensures we catch issues that were recently created or modified
     // We need to handle pagination since GitHub returns max 100 issues per page
 
-    console.log('Fetching all GitHub issues (with pagination)...');
-    console.log('Note: Filtering for "reviewed" and "needs-editing" labels locally to avoid GitHub API unreliability');
+    // console.log('Fetching all GitHub issues (with pagination)...');
+    // console.log('Note: Filtering for "reviewed" and "needs-editing" labels locally to avoid GitHub API unreliability');
 
     // Fetch all pages of issues and combine them
     async function fetchAllIssues() {
@@ -367,7 +367,7 @@
 
       while (hasMore) {
         const url = `https://api.github.com/repos/digital-land/local-plan-extractor/issues?state=all&per_page=100&page=${page}`;
-        console.log(`Fetching page ${page}...`);
+        // console.log(`Fetching page ${page}...`);
 
         try {
           const response = await fetch(url);
@@ -401,10 +401,10 @@
           return labels.includes('reviewed') || labels.includes('needs-editing');
         });
 
-        console.log('=== DEBUG: GitHub Issue Matching ===');
-        console.log('Available planNameToFilename keys:', Object.keys(planNameToFilename));
-        console.log(`Total GitHub issues fetched: ${allIssuesFromAPI.length}`);
-        console.log(`Issues with relevant labels: ${relevantIssues.length}`);
+        // console.log('=== DEBUG: GitHub Issue Matching ===');
+        // console.log('Available planNameToFilename keys:', Object.keys(planNameToFilename));
+        // console.log(`Total GitHub issues fetched: ${allIssuesFromAPI.length}`);
+        // console.log(`Issues with relevant labels: ${relevantIssues.length}`);
 
         // Parse each issue to extract status and plan name
         let matchedCount = 0;
@@ -424,10 +424,10 @@
             planName = title.replace('[Needs editing]', '').trim();
           }
 
-          console.log(`Issue #${issue.number}: "${title}"`);
-          console.log(`  Labels: ${issueLabels.join(', ')}`);
-          console.log(`  Extracted planName: "${planName}"`);
-          console.log(`  Status: ${status}`);
+          // console.log(`Issue #${issue.number}: "${title}"`);
+          // console.log(`  Labels: ${issueLabels.join(', ')}`);
+          // console.log(`  Extracted planName: "${planName}"`);
+          // console.log(`  Status: ${status}`);
 
           // Look up the filename using the plan name
           if (status && planName) {
@@ -452,7 +452,7 @@
                 if (planNameToFilename[variation]) {
                   filename = planNameToFilename[variation];
                   matchType = 'joint-variation';
-                  console.log(`  Found joint variation: "${variation}"`);
+                  // console.log(`  Found joint variation: "${variation}"`);
                   break;
                 }
               }
@@ -467,7 +467,7 @@
                       (planName.length > 100 && compositeKey.includes(planName))) {
                     filename = fn;
                     matchType = 'truncated-match';
-                    console.log(`  Found truncated match for: "${compositeKey.substring(0, 80)}..."`);
+                    // console.log(`  Found truncated match for: "${compositeKey.substring(0, 80)}..."`);
                     break;
                   }
                 }
@@ -477,7 +477,7 @@
             if (filename) {
               planReviewStatus[filename] = status;
               planReviewIssueUrls[filename] = issue.html_url;
-              console.log(`  ✓ MATCHED to filename: ${filename} (${matchType})`);
+              // console.log(`  ✓ MATCHED to filename: ${filename} (${matchType})`);
               matchedCount++;
 
               // Update the table row with the new status
@@ -486,7 +486,7 @@
                 updateTableRow(index, filename);
               }
             } else {
-              console.log(`  ✗ NO MATCH - tried exact, joint-variations, and truncated matching`);
+              // console.log(`  ✗ NO MATCH - tried exact, joint-variations, and truncated matching`);
               unmatchedIssues.push({
                 number: issue.number,
                 title: title,
@@ -495,14 +495,14 @@
               });
             }
           } else {
-            console.log(`  ✗ SKIPPED - no status or planName extracted`);
+            // console.log(`  ✗ SKIPPED - no status or planName extracted`);
           }
         });
 
-        console.log(`\n=== Summary: Matched ${matchedCount} out of ${relevantIssues.length} issues ===`);
-        if (unmatchedIssues.length > 0) {
-          console.log('Unmatched issues:', unmatchedIssues);
-        }
+        // console.log(`\n=== Summary: Matched ${matchedCount} out of ${relevantIssues.length} issues ===`);
+        // if (unmatchedIssues.length > 0) {
+        //   console.log('Unmatched issues:', unmatchedIssues);
+        // }
 
         // Update the status summary
         updateStatusSummary();
