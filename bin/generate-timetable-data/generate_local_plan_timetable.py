@@ -133,6 +133,136 @@ def get_first_consultation_date(row):
     return pd.NaT
 
 
+def fuzzy_merge_local_plans(df_proto, df_lp_clean, year_tolerance=3):
+    """
+    Merge prototype data with local plans using multi-level matching strategy.
+
+    Matching levels (in order):
+    1. Exact merge on all three keys: period-start-date, period-end-date, local-planning-authorities
+    2. Fuzzy merge: LPA + end date match, start dates within year_tolerance years
+    3. Fallback merge: LPA + end date only (ignores start date, handles missing data)
+    4. Joint plan merge: For multi-LPA records, match each component LPA against reference database
+
+    Args:
+        df_proto: Proto data with columns: period-start-date, period-end-date, local-planning-authorities
+        df_lp_clean: LP reference data with same columns plus 'reference'
+        year_tolerance: Maximum years between start dates for fuzzy match (default 3)
+
+    Returns:
+        Merged dataframe with reference added where matches found
+    """
+    # Level 1: Exact merge on all three keys
+    exact_merge = df_proto.merge(
+        df_lp_clean,
+        on=['period-start-date', 'period-end-date', 'local-planning-authorities'],
+        how='left'
+    )
+
+    # Find unmatched rows in proto
+    unmatched_proto_idx = exact_merge[exact_merge['reference'].isna()].index
+
+    if len(unmatched_proto_idx) == 0:
+        return exact_merge
+
+    # Level 2: Fuzzy matching on start date (within year_tolerance)
+    fuzzy_matches_found = 0
+
+    for idx in unmatched_proto_idx:
+        if pd.notna(exact_merge.loc[idx, 'reference']):
+            # Already matched in a previous iteration
+            continue
+
+        proto_start = exact_merge.loc[idx, 'period-start-date']
+        proto_end = exact_merge.loc[idx, 'period-end-date']
+        proto_lpa = exact_merge.loc[idx, 'local-planning-authorities']
+
+        # Find candidates from lp_clean matching on LPA and end date
+        candidates = df_lp_clean[
+            (df_lp_clean['local-planning-authorities'] == proto_lpa) &
+            (df_lp_clean['period-end-date'] == proto_end)
+        ].copy()
+
+        if len(candidates) > 0:
+            # Filter by start date tolerance
+            year_diff = (candidates['period-start-date'] - proto_start).abs()
+            candidates['year_diff'] = year_diff
+
+            fuzzy_candidates = candidates[year_diff <= year_tolerance]
+
+            if len(fuzzy_candidates) > 0:
+                # Use the match with closest year
+                best_match_idx = fuzzy_candidates['year_diff'].idxmin()
+                best_match = fuzzy_candidates.loc[best_match_idx]
+
+                exact_merge.loc[idx, 'reference'] = best_match['reference']
+                fuzzy_matches_found += 1
+
+    if fuzzy_matches_found > 0:
+        print(f"    Fuzzy matching found {fuzzy_matches_found} additional matches (year tolerance: ±{year_tolerance} years)")
+
+    # Level 3: Fallback matching on end date only (for missing start dates)
+    fallback_matches_found = 0
+    still_unmatched_idx = exact_merge[exact_merge['reference'].isna()].index
+
+    for idx in still_unmatched_idx:
+        proto_end = exact_merge.loc[idx, 'period-end-date']
+        proto_lpa = exact_merge.loc[idx, 'local-planning-authorities']
+
+        # Find candidates matching on LPA and end date only
+        candidates = df_lp_clean[
+            (df_lp_clean['local-planning-authorities'] == proto_lpa) &
+            (df_lp_clean['period-end-date'] == proto_end)
+        ]
+
+        if len(candidates) > 0:
+            # Take the first match (could prioritize by start date if needed)
+            best_match = candidates.iloc[0]
+            exact_merge.loc[idx, 'reference'] = best_match['reference']
+            fallback_matches_found += 1
+
+    if fallback_matches_found > 0:
+        print(f"    Fallback matching found {fallback_matches_found} additional matches (end date + LPA only)")
+
+    # Level 4: Joint plan matching (for multi-LPA plans like "CHO;SRI;PRE")
+    joint_plan_matches_found = 0
+    still_unmatched_idx = exact_merge[exact_merge['reference'].isna()].index
+
+    for idx in still_unmatched_idx:
+        proto_end = exact_merge.loc[idx, 'period-end-date']
+        proto_lpa_str = exact_merge.loc[idx, 'local-planning-authorities']
+
+        # Check if this is a joint plan (contains semicolons)
+        if ';' not in str(proto_lpa_str):
+            continue
+
+        # Split the LPA codes (handle both formats: "CHO;SRI;PRE" and "local-authority-eng:CHO;...")
+        lpa_parts = str(proto_lpa_str).split(';')
+
+        # Try to match each component LPA
+        for lpa_part in lpa_parts:
+            lpa_part = lpa_part.strip()
+            # Normalize: convert "local-authority-eng:CHO" to "local-authority:CHO"
+            lpa_part_normalized = lpa_part.replace('local-authority-eng:', 'local-authority:')
+
+            # Find candidates matching on normalized LPA and end date
+            candidates = df_lp_clean[
+                (df_lp_clean['local-planning-authorities'] == lpa_part_normalized) &
+                (df_lp_clean['period-end-date'] == proto_end)
+            ]
+
+            if len(candidates) > 0:
+                # Use the first matching reference
+                best_match = candidates.iloc[0]
+                exact_merge.loc[idx, 'reference'] = best_match['reference']
+                joint_plan_matches_found += 1
+                break  # Use first component's reference
+
+    if joint_plan_matches_found > 0:
+        print(f"    Joint plan matching found {joint_plan_matches_found} additional matches (multi-LPA)")
+
+    return exact_merge
+
+
 # ============================================================================
 # LOAD DATA
 # ============================================================================
@@ -360,20 +490,44 @@ def merge_with_local_plans(df_proto_events, df_lp):
     df_lp_clean = df_lp[['period-start-date', 'period-end-date', 'organisations', 'reference']].copy()
     df_lp_clean['period-start-date'] = df_lp_clean['period-start-date'].astype('Int64')
     df_lp_clean['period-end-date'] = df_lp_clean['period-end-date'].astype('Int64')
-    df_lp_clean = df_lp_clean.dropna(subset=['period-start-date', 'period-end-date', 'organisations'])
+    # Only drop rows missing organisations; keep rows with either start or end date for fuzzy/fallback matching
+    df_lp_clean = df_lp_clean.dropna(subset=['organisations', 'period-end-date'])
     df_lp_clean = df_lp_clean.drop_duplicates()
 
-    # Merge
-    df_proto_merged = df_proto_consolidated.rename(columns={
+    # Rename and prepare for merge
+    df_proto_consolidated_renamed = df_proto_consolidated.rename(columns={
         'period-start-year': 'period-start-date',
         'period-end-year': 'period-end-date'
-    }).merge(
-        df_lp_clean.rename(columns={'organisations': 'local-planning-authorities'}),
-        on=['period-start-date', 'period-end-date', 'local-planning-authorities'],
-        how='left'
-    )
+    })
+
+    df_lp_clean_renamed = df_lp_clean.rename(columns={'organisations': 'local-planning-authorities'})
+
+    # Merge with fuzzy year matching (allows ±3 years on start date)
+    df_proto_merged = fuzzy_merge_local_plans(df_proto_consolidated_renamed, df_lp_clean_renamed, year_tolerance=3)
 
     # Generate local-plan identifiers (use reference if available, else generate from label)
+    # Count rows using reference vs generated from label
+    rows_from_reference = df_proto_merged['reference'].notna().sum()
+    rows_from_label = df_proto_merged['reference'].isna().sum()
+
+    print(f"  - Local-plan identifiers from reference: {rows_from_reference} rows")
+    print(f"  - Local-plan identifiers from label: {rows_from_label} rows")
+
+    # Print local plans that had to be generated from labels
+    if rows_from_label > 0:
+        print(f"\n  Local plans with generated labels ({rows_from_label} total):")
+        generated_rows = df_proto_merged[df_proto_merged['reference'].isna()].copy()
+
+        # Group by plan to show unique plans that didn't match
+        unique_plans = generated_rows.drop_duplicates(subset=['organisation_label', 'name', 'period-start-date', 'period-end-date'])
+        print(f"    {len(unique_plans)} unique plans without reference:\n")
+
+        for idx, row in unique_plans.head(30).iterrows():
+            print(f"    - {row['organisation_label']} | {row['name']} | {int(row['period-start-date'])}-{int(row['period-end-date'])}")
+
+        if len(unique_plans) > 30:
+            print(f"    ... and {len(unique_plans) - 30} more")
+
     df_proto_merged['local-plan'] = df_proto_merged['reference'].fillna(
         df_proto_merged['organisation_label'].apply(authority_to_slug) + '-local-plan-' +
         df_proto_merged['period-start-date'].astype(str)
