@@ -311,6 +311,11 @@
             const compositeKey = `${planName} - ${orgName}`;
             planNameToFilename[compositeKey] = filename;
 
+            // Log specific plans for debugging
+            if (filename === '80afc63ca69bd2f9e6dd68c11fd744de6f3a7d883dee1fd668b6dfd54d036f92') {
+              console.log(`[WYRE] Plan name: '${planName}', Org: '${orgName}', Key: '${compositeKey}'`);
+            }
+
             // Initialize status as not-reviewed
             if (!planReviewStatus[filename]) {
               planReviewStatus[filename] = 'not-reviewed';
@@ -321,6 +326,8 @@
             loadedCount++;
             // Once all metadata is loaded, sort by organisation and re-render
             if (loadedCount === allPlanFilenames.length) {
+              console.log(`=== DEBUG: Finished loading all ${loadedCount} plan metadata files ===`);
+              console.log(`Total keys in planNameToFilename: ${Object.keys(planNameToFilename).length}`);
               sortAndRenderPlans();
               resolve();
             }
@@ -345,44 +352,157 @@
 
   // Load review status from GitHub API
   function loadReviewStatus() {
-    // GitHub API uses AND logic with comma-separated labels, so we need two separate queries
-    const reviewedUrl = 'https://api.github.com/repos/digital-land/local-plan-extractor/issues?labels=reviewed&per_page=100';
-    const needsEditingUrl = 'https://api.github.com/repos/digital-land/local-plan-extractor/issues?labels=needs-editing&per_page=100';
+    // GitHub API label filtering is unreliable, so we fetch ALL issues and filter locally
+    // This ensures we catch issues that were recently created or modified
+    // We need to handle pagination since GitHub returns max 100 issues per page
 
-    // Fetch both label sets in parallel
-    Promise.all([
-      fetch(reviewedUrl).then(r => r.json()),
-      fetch(needsEditingUrl).then(r => r.json())
-    ])
-      .then(([reviewedIssues, needsEditingIssues]) => {
-        const allIssues = [...reviewedIssues, ...needsEditingIssues];
+    console.log('Fetching all GitHub issues (with pagination)...');
+    console.log('Note: Filtering for "reviewed" and "needs-editing" labels locally to avoid GitHub API unreliability');
+
+    // Fetch all pages of issues and combine them
+    async function fetchAllIssues() {
+      let allIssuesFromAPI = [];
+      let page = 1;
+      let hasMore = true;
+
+      while (hasMore) {
+        const url = `https://api.github.com/repos/digital-land/local-plan-extractor/issues?state=all&per_page=100&page=${page}`;
+        console.log(`Fetching page ${page}...`);
+
+        try {
+          const response = await fetch(url);
+          if (!response.ok) {
+            console.error(`GitHub API error on page ${page}: ${response.status} ${response.statusText}`);
+            break;
+          }
+
+          const pageIssues = await response.json();
+          if (pageIssues.length === 0) {
+            hasMore = false;
+          } else {
+            allIssuesFromAPI = allIssuesFromAPI.concat(pageIssues);
+            page++;
+          }
+        } catch (error) {
+          console.error(`Error fetching page ${page}:`, error);
+          break;
+        }
+      }
+
+      return allIssuesFromAPI;
+    }
+
+    // Start fetching all issues
+    fetchAllIssues()
+      .then(allIssuesFromAPI => {
+        // Filter locally for issues with our labels
+        const relevantIssues = allIssuesFromAPI.filter(issue => {
+          const labels = issue.labels.map(l => l.name);
+          return labels.includes('reviewed') || labels.includes('needs-editing');
+        });
+
+        console.log('=== DEBUG: GitHub Issue Matching ===');
+        console.log('Available planNameToFilename keys:', Object.keys(planNameToFilename));
+        console.log(`Total GitHub issues fetched: ${allIssuesFromAPI.length}`);
+        console.log(`Issues with relevant labels: ${relevantIssues.length}`);
 
         // Parse each issue to extract status and plan name
-        allIssues.forEach(issue => {
+        let matchedCount = 0;
+        let unmatchedIssues = [];
+
+        relevantIssues.forEach(issue => {
           const title = issue.title;
+          const issueLabels = issue.labels.map(l => l.name);
           let status = null;
           let planName = null;
 
-          if (title.startsWith('[Reviewed]')) {
+          if (issueLabels.includes('reviewed')) {
             status = 'reviewed';
             planName = title.replace('[Reviewed]', '').trim();
-          } else if (title.startsWith('[Needs editing]')) {
+          } else if (issueLabels.includes('needs-editing')) {
             status = 'needs-editing';
             planName = title.replace('[Needs editing]', '').trim();
           }
 
+          console.log(`Issue #${issue.number}: "${title}"`);
+          console.log(`  Labels: ${issueLabels.join(', ')}`);
+          console.log(`  Extracted planName: "${planName}"`);
+          console.log(`  Status: ${status}`);
+
           // Look up the filename using the plan name
-          if (status && planName && planNameToFilename[planName]) {
-            const filename = planNameToFilename[planName];
-            planReviewStatus[filename] = status;
-            planReviewIssueUrls[filename] = issue.html_url;
-            // Update the table row with the new status
-            const index = allPlanFilenames.indexOf(filename);
-            if (index !== -1) {
-              updateTableRow(index, filename);
+          if (status && planName) {
+            let filename = null;
+            let matchType = 'none';
+
+            // Strategy 1: Try exact match first
+            if (planNameToFilename[planName]) {
+              filename = planNameToFilename[planName];
+              matchType = 'exact';
+            } else {
+              // Strategy 2: Try flexible matching for common issues
+
+              // Try matching with/without "Joint" keyword in middle (e.g., "Core Strategy" vs "Joint Core Strategy")
+              // The "Joint" keyword appears before the last few words in plan names
+              const jointVariations = [
+                planName.replace(/\bJoint\s+/i, ''), // Remove "Joint " if present
+                planName.replace(/\s([A-Z][a-z]+\s+(Strategy|Plan|Core))/, ' Joint $1') // Add "Joint " before last descriptor
+              ];
+
+              for (const variation of jointVariations) {
+                if (planNameToFilename[variation]) {
+                  filename = planNameToFilename[variation];
+                  matchType = 'joint-variation';
+                  console.log(`  Found joint variation: "${variation}"`);
+                  break;
+                }
+              }
+
+              // Strategy 3: Check for truncated titles (for very long multi-authority plans)
+              // GitHub truncates titles around 256 chars, so check if any composite key starts with the extracted name
+              if (!filename) {
+                for (const [compositeKey, fn] of Object.entries(planNameToFilename)) {
+                  // Allow matching if extracted name is the start of the composite key
+                  // and at least 80% of the extracted name matches (to avoid false positives)
+                  if (compositeKey.startsWith(planName) ||
+                      (planName.length > 100 && compositeKey.includes(planName))) {
+                    filename = fn;
+                    matchType = 'truncated-match';
+                    console.log(`  Found truncated match for: "${compositeKey.substring(0, 80)}..."`);
+                    break;
+                  }
+                }
+              }
             }
+
+            if (filename) {
+              planReviewStatus[filename] = status;
+              planReviewIssueUrls[filename] = issue.html_url;
+              console.log(`  ✓ MATCHED to filename: ${filename} (${matchType})`);
+              matchedCount++;
+
+              // Update the table row with the new status
+              const index = allPlanFilenames.indexOf(filename);
+              if (index !== -1) {
+                updateTableRow(index, filename);
+              }
+            } else {
+              console.log(`  ✗ NO MATCH - tried exact, joint-variations, and truncated matching`);
+              unmatchedIssues.push({
+                number: issue.number,
+                title: title,
+                extractedPlanName: planName,
+                status: status
+              });
+            }
+          } else {
+            console.log(`  ✗ SKIPPED - no status or planName extracted`);
           }
         });
+
+        console.log(`\n=== Summary: Matched ${matchedCount} out of ${relevantIssues.length} issues ===`);
+        if (unmatchedIssues.length > 0) {
+          console.log('Unmatched issues:', unmatchedIssues);
+        }
 
         // Update the status summary
         updateStatusSummary();
@@ -837,7 +957,10 @@
     const pdfErrorMessage = document.getElementById('pdfErrorMessage');
 
     if (pdfFile) {
-      pdfEmbed.src = pdfFile;
+      // Convert local PDF path to jsDelivr CDN URL (allows viewing, not downloading)
+      // pdfFile is stored as relative path like "collection/document/hash.pdf"
+      const jsDelivrUrl = `https://cdn.jsdelivr.net/gh/digital-land/local-plan-extractor@main/${pdfFile}`;
+      pdfEmbed.src = jsDelivrUrl;
       pdfContainer.style.display = 'block';
       pdfErrorMessage.style.display = 'none';
     } else {

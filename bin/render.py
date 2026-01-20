@@ -458,21 +458,10 @@ Examples:
     else:
         print(f"  ⚠ Warning: var/cache directory not found", file=sys.stderr)
 
-    # Copy collection/document directory for PDFs
-    collection_src = Path("collection/document")
-    collection_dest = Path(args.output) / "collection" / "document"
-
-    if collection_src.exists():
-        # Remove destination if it exists
-        if collection_dest.exists():
-            shutil.rmtree(collection_dest.parent)
-
-        # Copy the directory
-        collection_dest.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copytree(collection_src, collection_dest)
-        print(f"  ✓ Copied collection/document to {collection_dest}")
-    else:
-        print(f"  ⚠ Warning: collection/document directory not found", file=sys.stderr)
+    # Skip copying collection/document directory for PDFs
+    # PDFs are now served directly from jsDelivr CDN to reduce deployment artifact size
+    # This saves ~3.2GB in the deployment artifact and allows viewing without downloading
+    print(f"  ⊘ Skipped copying collection/document (PDFs served from jsDelivr CDN)")
 
     # Copy local-plan JSON files for review page (enriched with document URLs)
     local_plan_src = Path(args.local_plans)
