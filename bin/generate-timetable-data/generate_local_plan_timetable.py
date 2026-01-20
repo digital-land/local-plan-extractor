@@ -437,6 +437,7 @@ def export_timetable(df_final, output_path=None):
     df_final['start-date'] = df_final['start-date'].apply(
         lambda x: x.strftime('%Y-%m-%d') if pd.notna(x) and hasattr(x, 'strftime') else (x if isinstance(x, str) else '')
     )
+    df_final = df_final.sort_values('local-plan')
 
     df_final.to_csv(output_path, index=False)
     print(f"✓ Exported {len(df_final)} rows to {output_path}")
