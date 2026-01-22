@@ -633,6 +633,17 @@ def main():
     df_combined = pd.concat([df_timetable_final, df_priority_events], ignore_index=True)
     print(f"  - Combined data: {len(df_combined)} rows")
 
+    # Remove specific references
+    refs_to_remove = [
+        'stratford-on-avon-district-council-local-plan-2021-reg-18-consultation-end',
+        'stratford-on-avon-district-council-local-plan-2021-reg-18-consultation-start',
+        'stratford-on-avon-district-council-local-plan-2021-timetable-published',
+        'chiltern-district-council-local-plan-2016-submit-plan-for-examination',
+        'chiltern-district-council-local-plan-2016-reg-19-publication-local-plan-published'
+    ]
+    df_combined = df_combined[~df_combined['reference'].isin(refs_to_remove)]
+    print(f"  - After removing specific references: {len(df_combined)} rows")
+
     # Export
     export_timetable(df_combined)
 
