@@ -628,6 +628,11 @@ consolidation_rules = [
         'name_pattern': '.*Waste.*',  # Match waste plans (but not those with minerals - handled above)
         'authority_patterns': ['Poole', 'Bournemouth', 'Dorset'],  # Match authorities containing any of these patterns
         'preferred_authority': 'Dorset County Council, Bournemouth Borough Council and Borough of Poole'
+    },
+    {
+        'name_pattern': 'M&W Local Plan|Minerals & Waste Local Plan',  # Match both M&W and Minerals & Waste variations
+        'authority_patterns': ['Buckinghamshire'],  # Match authorities containing 'Buckinghamshire'
+        'preferred_authority': 'Buckinghamshire County Council'
     }
 ]
 
@@ -690,6 +695,62 @@ if east_sussex_mask.sum() > 0:
         keep='first'
     )
     melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: standardize Buckinghamshire records
+buckinghamshire_authority = 'Buckinghamshire County Council'
+buckinghamshire_mask = melted_df['planning-authorities'] == buckinghamshire_authority
+if buckinghamshire_mask.sum() > 0:
+    # Standardize plan name to 'M&W Local Plan' (consolidate M&W and Minerals & Waste variations)
+    mw_plan_mask = buckinghamshire_mask & (
+        melted_df['name'].str.contains('M&W Local Plan', case=False, na=False) |
+        melted_df['name'].str.contains('Minerals & Waste Local Plan', case=False, na=False)
+    )
+    if mw_plan_mask.sum() > 0:
+        melted_df.loc[mw_plan_mask, 'name'] = 'M&W Local Plan'
+
+        # Remove any duplicate rows after standardization
+        melted_df = melted_df.drop_duplicates(
+            subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+            keep='first'
+        )
+        print(f"  Consolidated Buckinghamshire records: M&W Local Plan variations consolidated")
+        melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: standardize Cambridgeshire records
+cambridgeshire_authority = 'Cambridgeshire County Council and Peterborough City Council'
+cambridgeshire_mask = melted_df['planning-authorities'] == cambridgeshire_authority
+if cambridgeshire_mask.sum() > 0:
+    # Standardize plan name to 'Joint Minerals and Waste Plan' (consolidate & and "and" variations)
+    jmwp_mask = cambridgeshire_mask & (
+        melted_df['name'].str.contains('Joint Minerals.*Waste Plan', case=False, na=False)
+    )
+    if jmwp_mask.sum() > 0:
+        melted_df.loc[jmwp_mask, 'name'] = 'Joint Minerals and Waste Plan'
+
+        # Remove any duplicate rows after standardization
+        melted_df = melted_df.drop_duplicates(
+            subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+            keep='first'
+        )
+        print(f"  Consolidated Cambridgeshire records: Joint Minerals and Waste Plan variations consolidated")
+        melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: standardize Essex waste plan records
+essex_authority = 'Essex County Council and Southend-on-Sea City Council'
+essex_waste_mask = melted_df['planning-authorities'].str.contains('Essex', case=False, na=False) & melted_df['name'].str.contains('Waste.*Plan', case=False, na=False)
+if essex_waste_mask.sum() > 0:
+    # Consolidate to preferred authority and name
+    melted_df.loc[essex_waste_mask, 'planning-authorities'] = essex_authority
+    melted_df.loc[essex_waste_mask, 'name'] = 'Waste Local Plan'
+
+    # Remove any duplicate rows after standardization
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Essex records: Waste Plan variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
 
 # Post-processing: consolidate North London Waste records
 print("Standardizing authority names...")
@@ -790,6 +851,11 @@ east_london_authorities_mask = melted_df['planning-authorities'] == 'East London
 if east_london_authorities_mask.sum() > 0:
     melted_df.loc[east_london_authorities_mask, 'planning-authorities'] = 'East London Waste Authorities'
 
+# Rename long East London name to standard short name
+east_london_long_mask = melted_df['planning-authorities'] == 'London Borough of Barking and Dagenham, London Borough of Havering, London Borough of Newham and London Borough of Redbridge'
+if east_london_long_mask.sum() > 0:
+    melted_df.loc[east_london_long_mask, 'planning-authorities'] = 'East London Waste Authorities'
+
 merseyside_mask = melted_df['planning-authorities'] == 'Merseyside, joint authorities'
 if merseyside_mask.sum() > 0:
     melted_df.loc[merseyside_mask, 'planning-authorities'] = 'Merseyside and Halton'
@@ -865,6 +931,26 @@ if wiltshire_mask.sum() > 0:
 durham_mask = melted_df['planning-authorities'] == 'County Durham'
 if durham_mask.sum() > 0:
     melted_df.loc[durham_mask, 'planning-authorities'] = 'Durham County Council'
+
+# Correct Nottingham City Council Minerals Local Plan to Nottinghamshire County Council
+# (The Minerals Local Plan adopted 2021-03-25 belongs to Nottinghamshire, not Nottingham City Council)
+nottingham_minerals_mask = (melted_df['planning-authorities'] == 'Nottingham City Council') & (
+    melted_df['name'] == 'Minerals Local Plan'
+)
+if nottingham_minerals_mask.sum() > 0:
+    melted_df.loc[nottingham_minerals_mask, 'planning-authorities'] = 'Nottinghamshire County Council'
+    print(f"  Corrected Minerals Local Plan authority: Nottingham City Council → Nottinghamshire County Council")
+
+# Correct Nottingham City Council Waste Core Strategy to be a joint plan
+nottingham_waste_mask = (melted_df['planning-authorities'] == 'Nottingham City Council') & (
+    melted_df['name'] == 'Waste Core Strategy'
+)
+if nottingham_waste_mask.sum() > 0:
+    melted_df.loc[nottingham_waste_mask, 'planning-authorities'] = 'Nottinghamshire County Council and Nottingham City Council'
+    print(f"  Corrected Waste Core Strategy authority: Nottingham City Council → Nottinghamshire County Council and Nottingham City Council")
+
+# Consolidate Kent mineral plans - handle after all the other processing
+# This will be done in post-processing section after all column creation
 
 # Enrich authority names using var/cache/organisation.csv lookup
 print("\nEnriching authority names with var/cache/organisation.csv lookup...")
@@ -1086,6 +1172,30 @@ if os.path.exists(boundary_file):
 else:
     print(f"  Warning: dataset/local-plan-boundary.csv not found")
 
+# Load organisation.csv as backup lookup using local-authority-district
+org_file = 'var/cache/organisation.csv'
+curie_to_district = {}
+if os.path.exists(org_file):
+    org_lookup_df = pd.read_csv(org_file)
+    # Create mapping of organisation (CURIE) to local-authority-district
+    for _, row in org_lookup_df.iterrows():
+        organisation = str(row['organisation']).strip()
+        lad = str(row['local-authority-district']).strip()
+        if organisation and lad and lad != 'nan':
+            curie_to_district[organisation] = lad
+    print(f"  Loaded {len(curie_to_district)} CURIE → local-authority-district mappings (fallback)")
+else:
+    print(f"  Warning: var/cache/organisation.csv not found")
+
+# Add special mappings for known cases
+# Lake District National Park uses national-park-authority:Q27159704 in source data,
+# but local-plan-boundary.csv records it as local-planning-authority:E60000320
+curie_to_reference['national-park-authority:Q27159704'] = 'E60000320'
+# South Downs National Park Authority (Wikidata ID)
+curie_to_reference['national-park-authority:Q20198711'] = 'E60000325'
+# North York Moors National Park Authority (Wikidata ID)
+curie_to_reference['national-park-authority:Q72617669'] = 'E60000322'
+
 def get_geography_codes(curie_organisations):
     """Map curie-organisations to geography reference codes."""
     if pd.isna(curie_organisations):
@@ -1102,7 +1212,11 @@ def get_geography_codes(curie_organisations):
     references = []
     for curie in curies:
         if curie in curie_to_reference:
+            # First priority: exact match in boundary file
             references.append(curie_to_reference[curie])
+        elif curie in curie_to_district:
+            # Fallback: use local-authority-district from organisation.csv
+            references.append(curie_to_district[curie])
         else:
             references.append('NONE')
 
@@ -1111,6 +1225,155 @@ def get_geography_codes(curie_organisations):
     return result
 
 melted_df['geography-codes'] = melted_df['curie-organisations'].apply(get_geography_codes)
+
+# Post-processing: Consolidate Kent mineral plans
+kent_consolidate_mask = (melted_df['planning-authorities'] == 'Kent County Council') & (
+    (melted_df['name'] == 'Minerals & Waste Early Partial Review') |
+    (melted_df['name'] == 'Minerals Sites Plan')
+)
+if kent_consolidate_mask.sum() > 0:
+    melted_df.loc[kent_consolidate_mask, 'name'] = 'Mineral Sites Plan'
+    # Remove duplicates after consolidation
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Kent records: Mineral Sites Plan variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: Consolidate Lincolnshire mineral and waste site locations plans
+lincolnshire_consolidate_mask = (melted_df['planning-authorities'] == 'Lincolnshire County Council') & (
+    (melted_df['name'] == 'Minerals & Waste Local Plan: Site locations doc.') |
+    (melted_df['name'] == 'Minerals and Waste Site Locations')
+)
+if lincolnshire_consolidate_mask.sum() > 0:
+    melted_df.loc[lincolnshire_consolidate_mask, 'name'] = 'Minerals and Waste Site Locations'
+    # Remove duplicates after consolidation
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Lincolnshire records: Minerals and Waste Site Locations variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: Rename Norfolk plan
+norfolk_rename_mask = (melted_df['planning-authorities'] == 'Norfolk County Council') & (
+    melted_df['name'] == 'Mineral and Waste Plan Review'
+)
+if norfolk_rename_mask.sum() > 0:
+    melted_df.loc[norfolk_rename_mask, 'name'] = 'Norfolk Minerals and Waste Local Plan'
+    print(f"  Renamed Norfolk plan: Mineral and Waste Plan Review → Norfolk Minerals and Waste Local Plan")
+
+# Post-processing: Consolidate Nottinghamshire Waste Core Strategy duplicates
+# We now have both 'Nottinghamshire County Council' and 'Nottinghamshire County Council and Nottingham City Council' versions
+# Keep the joint authority version and remove duplicates
+nottingham_waste_duplicate_mask = (melted_df['planning-authorities'] == 'Nottinghamshire County Council') & (
+    melted_df['name'] == 'Waste Core Strategy'
+)
+if nottingham_waste_duplicate_mask.sum() > 0:
+    melted_df = melted_df[~nottingham_waste_duplicate_mask].copy()
+    print(f"  Consolidated Nottinghamshire Waste Core Strategy: Removed individual Nottinghamshire entry, keeping joint authority version")
+
+# Post-processing: Consolidate Oxfordshire mineral and waste plans
+oxfordshire_consolidate_mask = (melted_df['planning-authorities'] == 'Oxfordshire County Council') & (
+    (melted_df['name'] == 'M&W Core Strategy') |
+    (melted_df['name'] == 'Minerals & Waste Local Plan -part 1 Core Strategy')
+)
+if oxfordshire_consolidate_mask.sum() > 0:
+    melted_df.loc[oxfordshire_consolidate_mask, 'name'] = 'Oxfordshire Minerals and Waste Local Plan - Part 1 Core Strategy'
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Oxfordshire records: Oxfordshire Minerals and Waste Local Plan - Part 1 Core Strategy variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: Consolidate Essex and Southend-on-Sea Waste plans
+southend_consolidate_mask = (melted_df['planning-authorities'] == 'Southend-on-Sea Borough Council') & (
+    melted_df['name'] == 'Waste Plan'
+)
+if southend_consolidate_mask.sum() > 0:
+    melted_df.loc[southend_consolidate_mask, 'planning-authorities'] = 'Essex County Council and Southend-on-Sea City Council'
+    melted_df.loc[southend_consolidate_mask, 'name'] = 'Waste Local Plan'
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Essex and Southend-on-Sea records: Waste Local Plan variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: Consolidate Surrey Waste plan variations (2008 adoption)
+surrey_waste_consolidate_mask = (melted_df['planning-authorities'] == 'Surrey County Council') & (
+    (melted_df['name'] == 'Waste CS') |
+    (melted_df['name'] == 'Waste Dc Policies') |
+    (melted_df['name'] == 'Waste Development')
+)
+if surrey_waste_consolidate_mask.sum() > 0:
+    melted_df.loc[surrey_waste_consolidate_mask, 'name'] = 'Surrey Waste Plan'
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated Surrey records: Surrey Waste Plan variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
+
+# Post-processing: Rename Wakefield plan
+wakefield_rename_mask = (melted_df['planning-authorities'] == 'Wakefield Metropolitan District Council') & (
+    melted_df['name'] == 'Waste'
+)
+if wakefield_rename_mask.sum() > 0:
+    melted_df.loc[wakefield_rename_mask, 'name'] = 'Waste Development Plan Document'
+    print(f"  Renamed Wakefield plan: Waste → Waste Development Plan Document")
+
+# Post-processing: Rename Warwickshire plan
+warwickshire_rename_mask = (melted_df['planning-authorities'] == 'Warwickshire County Council') & (
+    melted_df['name'] == 'Warwickshire Minerals Plan'
+)
+if warwickshire_rename_mask.sum() > 0:
+    melted_df.loc[warwickshire_rename_mask, 'name'] = 'Warwickshire Minerals Local Plan'
+    print(f"  Renamed Warwickshire plan: Warwickshire Minerals Plan → Warwickshire Minerals Local Plan")
+
+# Post-processing: Update West Sussex Waste Local Plan to include South Downs NPA
+west_sussex_waste_mask = (melted_df['planning-authorities'] == 'West Sussex County Council') & (
+    melted_df['name'] == 'Waste Local Plan'
+)
+if west_sussex_waste_mask.sum() > 0:
+    melted_df.loc[west_sussex_waste_mask, 'planning-authorities'] = 'West Sussex County Council and South Downs National Park Authority'
+    # Recalculate curie-organisations
+    melted_df.loc[west_sussex_waste_mask, 'curie-organisations'] = 'local-authority:WSX;national-park-authority:Q20198711'
+    # Recalculate geography-codes
+    melted_df.loc[west_sussex_waste_mask, 'geography-codes'] = 'E10000032-E60000325'
+    print(f"  Updated West Sussex Waste Local Plan: Added South Downs National Park Authority to geography")
+
+# Post-processing: Rename West Berkshire plan
+west_berkshire_rename_mask = (melted_df['planning-authorities'] == 'West Berkshire Council') & (
+    melted_df['name'] == 'Minerals & Waste'
+)
+if west_berkshire_rename_mask.sum() > 0:
+    melted_df.loc[west_berkshire_rename_mask, 'name'] = 'Minerals and Waste Local Plan'
+    print(f"  Renamed West Berkshire plan: Minerals & Waste → Minerals and Waste Local Plan")
+
+# Post-processing: Rename West London Waste Plan
+west_london_rename_mask = (melted_df['planning-authorities'] == 'West London Waste Plan') & (
+    melted_df['name'] == 'West London Waste Plan (Brent, Ealing, Harrow, Hillingdon,Hounslow, Old Oak & Park Royal Development Corporation, Richmond Upon Thames)'
+)
+if west_london_rename_mask.sum() > 0:
+    melted_df.loc[west_london_rename_mask, 'name'] = 'West London Waste Plan'
+    print(f"  Renamed West London plan: Shortened plan name")
+
+# Post-processing: Consolidate West Sussex Joint Minerals Local Plan variations
+west_sussex_minerals_consolidate_mask = (melted_df['planning-authorities'] == 'West Sussex County Council and South Downs National Park') & (
+    (melted_df['name'] == 'Joint Minerals Local Plan') |
+    (melted_df['name'] == 'Joint Minerals Local Plan (with South Downs NPA)')
+)
+if west_sussex_minerals_consolidate_mask.sum() > 0:
+    melted_df.loc[west_sussex_minerals_consolidate_mask, 'name'] = 'Joint Minerals Local Plan'
+    melted_df = melted_df.drop_duplicates(
+        subset=['planning-authorities', 'name', 'local-plan-event', 'start-date'],
+        keep='first'
+    )
+    print(f"  Consolidated West Sussex records: Joint Minerals Local Plan variations consolidated")
+    melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
 
 # Export cleaned result
 final_output_file = 'dataset/mineral-waste-timetable.csv'
