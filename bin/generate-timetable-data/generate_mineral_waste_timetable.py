@@ -1488,6 +1488,9 @@ melted_df['local-plan'] = melted_df.apply(
 entry_date = datetime.now().strftime('%Y-%m-%d')
 melted_df['entry-date'] = entry_date
 
+# Add combined reference column (local-plan + plan-event)
+melted_df['reference'] = melted_df['local-plan'] + '-' + melted_df['local-plan-event']
+
 # Export unique planning-authorities and name combinations with entry-date
 # (Kept in memory for reference; currently used to generate manual dataset)
 # unique_combos = melted_df[['planning-authorities', 'name']].drop_duplicates().sort_values(['planning-authorities', 'name']).reset_index(drop=True)
@@ -1557,6 +1560,9 @@ print("\nCreating mineral-plan-timetable.csv and waste-plan-timetable.csv...")
 # Create mineral plan timetable (type='M' or 'M;W')
 mineral_timetable = melted_df[melted_df['type'].isin(['M', 'M;W'])].copy()
 mineral_timetable = mineral_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event']).reset_index(drop=True)
+# Select and reorder columns
+mineral_timetable = mineral_timetable[['reference', 'local-plan', 'local-plan-event', 'start-date', 'entry-date']].copy()
+mineral_timetable = mineral_timetable.rename(columns={'local-plan-event': 'plan-event'})
 mineral_timetable_file = 'dataset/mineral-plan-timetable.csv'
 mineral_timetable.to_csv(mineral_timetable_file, index=False)
 print(f"✓ Exported {len(mineral_timetable)} rows to {mineral_timetable_file}")
@@ -1564,6 +1570,9 @@ print(f"✓ Exported {len(mineral_timetable)} rows to {mineral_timetable_file}")
 # Create waste plan timetable (type='W' or 'M;W')
 waste_timetable = melted_df[melted_df['type'].isin(['W', 'M;W'])].copy()
 waste_timetable = waste_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event']).reset_index(drop=True)
+# Select and reorder columns
+waste_timetable = waste_timetable[['reference', 'local-plan', 'local-plan-event', 'start-date', 'entry-date']].copy()
+waste_timetable = waste_timetable.rename(columns={'local-plan-event': 'plan-event'})
 waste_timetable_file = 'dataset/waste-plan-timetable.csv'
 waste_timetable.to_csv(waste_timetable_file, index=False)
 print(f"✓ Exported {len(waste_timetable)} rows to {waste_timetable_file}")
