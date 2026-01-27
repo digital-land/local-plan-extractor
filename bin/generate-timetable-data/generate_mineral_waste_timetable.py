@@ -14,6 +14,7 @@ import os
 from difflib import SequenceMatcher
 import warnings
 import re
+from datetime import datetime
 
 
 def normalize_lpa_name(name):
@@ -1375,8 +1376,178 @@ if west_sussex_minerals_consolidate_mask.sum() > 0:
     print(f"  Consolidated West Sussex records: Joint Minerals Local Plan variations consolidated")
     melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
 
-# Export cleaned result
-final_output_file = 'dataset/mineral-waste-timetable.csv'
-melted_df.to_csv(final_output_file, index=False)
-print(f"\n✓ Exported {len(melted_df)} rows to {final_output_file}")
+# Merge with manual search data (URLs and dates)
+manual_search_file = 'data/timetable_data/manual-search-for-urls-and-dates.csv'
+if os.path.exists(manual_search_file):
+    manual_search_df = pd.read_csv(manual_search_file)
+    # Merge on planning-authorities and name columns
+    melted_df = melted_df.merge(
+        manual_search_df[['planning-authorities', 'name', 'start-year', 'end-year', 'documentation-url', 'document-url']],
+        on=['planning-authorities', 'name'],
+        how='left'
+    )
+    # Convert start-year and end-year to nullable integers to preserve NaN
+    melted_df['start-year'] = melted_df['start-year'].astype('Int64')
+    melted_df['end-year'] = melted_df['end-year'].astype('Int64')
+    print(f"Merged manual search data: {len(manual_search_df)} records matched")
+
+# Generate local-plan reference
+def generate_local_plan_reference(row):
+    """Generate a unique reference for each mineral/waste plan."""
+    # Extract CURIE codes
+    curie_orgs = str(row['curie-organisations']).strip()
+    if pd.isna(row['curie-organisations']) or not curie_orgs:
+        return None
+
+    # Extract codes from CURIEs (e.g., 'local-authority:BDF' -> 'bdf')
+    curies = [c.strip() for c in curie_orgs.split(';')]
+    codes = []
+    for curie in curies:
+        if ':' in curie:
+            code = curie.split(':')[1].lower()
+            codes.append(code)
+
+    if not codes:
+        return None
+
+    codes_str = '-'.join(codes)
+
+    # Determine type text
+    plan_type = str(row['type']).strip()
+    if plan_type == 'M':
+        type_str = 'mineral'
+    elif plan_type == 'W':
+        type_str = 'waste'
+    elif plan_type == 'M;W':
+        type_str = 'mineral-waste'
+    else:
+        type_str = 'plan'
+
+    # Get year from end-year or adoption-date
+    year = None
+    if pd.notna(row['end-year']):
+        try:
+            year = int(row['end-year'])
+        except:
+            pass
+    elif pd.notna(row.get('adoption-date')):
+        # Try to extract year from adoption-date
+        try:
+            year = int(str(row['adoption-date'])[:4])
+        except:
+            pass
+
+    # Build reference
+    if year:
+        reference = f"{codes_str}-{type_str}-plan-{year}"
+    else:
+        reference = f"{codes_str}-{type_str}-plan"
+
+    return reference
+
+# Add local-plan reference to melted_df
+print("Generating local-plan references...")
+# Build a dataframe with unique plan metadata for reference generation
+unique_plans = melted_df.groupby(['curie-organisations', 'name']).agg({
+    'end-year': 'first',
+    'type': 'first',
+    'start-date': lambda x: x[x.index[melted_df.loc[x.index, 'local-plan-event'] == 'plan-adopted'].tolist()].iloc[0] if any(melted_df.loc[x.index, 'local-plan-event'] == 'plan-adopted') else None
+}).reset_index()
+unique_plans = unique_plans.rename(columns={'start-date': 'adoption-date'})
+
+# Generate references
+unique_plans['local-plan'] = unique_plans.apply(generate_local_plan_reference, axis=1)
+
+# Create a mapping for lookup
+plan_ref_map = dict(zip(zip(unique_plans['curie-organisations'], unique_plans['name']), unique_plans['local-plan']))
+
+# Apply the mapping to melted_df
+melted_df['local-plan'] = melted_df.apply(
+    lambda row: plan_ref_map.get((row['curie-organisations'], row['name'])),
+    axis=1
+)
+
+# Add entry-date column (kept in memory for generating other CSVs)
+entry_date = datetime.now().strftime('%Y-%m-%d')
+melted_df['entry-date'] = entry_date
+
+# Export unique planning-authorities and name combinations with entry-date
+# (Kept in memory for reference; currently used to generate manual dataset)
+# unique_combos = melted_df[['planning-authorities', 'name']].drop_duplicates().sort_values(['planning-authorities', 'name']).reset_index(drop=True)
+# unique_combos['entry-date'] = entry_date
+# unique_combos_file = 'dataset/unique-planning-authorities-plans.csv'
+# unique_combos.to_csv(unique_combos_file, index=False)
+# print(f"✓ Exported {len(unique_combos)} unique combinations to {unique_combos_file}")
+
+# Create mineral-plans.csv and waste-plans.csv
+print("\nCreating mineral-plans.csv and waste-plans.csv...")
+
+# Extract all adoption dates once
+all_adoption_dates = melted_df[melted_df['local-plan-event'] == 'plan-adopted'][['curie-organisations', 'name', 'start-date']].copy()
+all_adoption_dates = all_adoption_dates.rename(columns={'start-date': 'adoption-date'})
+
+# Function to create plans CSV
+def create_plans_csv(df, plan_types, filename):
+    """Create a plans CSV from the melted dataframe"""
+    # Filter by type
+    type_df = df[df['type'].isin(plan_types)].copy()
+
+    # Get unique plans with their metadata
+    plans = type_df.groupby(['curie-organisations', 'name']).agg({
+        'geography-codes': 'first',
+        'start-year': 'first',
+        'end-year': 'first',
+        'documentation-url': 'first',
+        'document-url': 'first',
+        'local-plan': 'first',
+        'type': 'first'
+    }).reset_index()
+
+    # Merge adoption dates
+    plans = plans.merge(
+        all_adoption_dates,
+        on=['curie-organisations', 'name'],
+        how='left'
+    )
+
+    # Sort by curie-organisations
+    plans = plans.sort_values('curie-organisations').reset_index(drop=True)
+
+    # Select and reorder columns (local-plan first after curie-organisations)
+    plans = plans[['local-plan', 'curie-organisations', 'geography-codes', 'name', 'start-year', 'end-year', 'adoption-date', 'documentation-url', 'document-url']]
+
+    # Rename local-plan to reference for plans CSVs
+    plans = plans.rename(columns={'local-plan': 'reference'})
+
+    # Add entry-date
+    plans['entry-date'] = entry_date
+
+    # Export
+    plans.to_csv(filename, index=False)
+    return len(plans)
+
+# Create mineral plans (type='M' or 'M;W')
+mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plans.csv')
+print(f"✓ Exported {mineral_count} mineral plans to dataset/mineral-plans.csv")
+
+# Create waste plans (type='W' or 'M;W')
+waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plans.csv')
+print(f"✓ Exported {waste_count} waste plans to dataset/waste-plans.csv")
+
+# Create mineral-plan-timetable.csv and waste-plan-timetable.csv
+print("\nCreating mineral-plan-timetable.csv and waste-plan-timetable.csv...")
+
+# Create mineral plan timetable (type='M' or 'M;W')
+mineral_timetable = melted_df[melted_df['type'].isin(['M', 'M;W'])].copy()
+mineral_timetable = mineral_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event']).reset_index(drop=True)
+mineral_timetable_file = 'dataset/mineral-plan-timetable.csv'
+mineral_timetable.to_csv(mineral_timetable_file, index=False)
+print(f"✓ Exported {len(mineral_timetable)} rows to {mineral_timetable_file}")
+
+# Create waste plan timetable (type='W' or 'M;W')
+waste_timetable = melted_df[melted_df['type'].isin(['W', 'M;W'])].copy()
+waste_timetable = waste_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event']).reset_index(drop=True)
+waste_timetable_file = 'dataset/waste-plan-timetable.csv'
+waste_timetable.to_csv(waste_timetable_file, index=False)
+print(f"✓ Exported {len(waste_timetable)} rows to {waste_timetable_file}")
 
