@@ -1506,8 +1506,12 @@ print("\nCreating mineral-plans.csv and waste-plans.csv...")
 all_adoption_dates = melted_df[melted_df['local-plan-event'] == 'plan-adopted'][['curie-organisations', 'name', 'start-date']].copy()
 all_adoption_dates = all_adoption_dates.rename(columns={'start-date': 'adoption-date'})
 
+# Extract all withdrawal dates once
+all_withdrawal_dates = melted_df[melted_df['local-plan-event'] == 'plan-withdrawn'][['curie-organisations', 'name', 'start-date']].copy()
+all_withdrawal_dates = all_withdrawal_dates.rename(columns={'start-date': 'end-date'})
+
 # Function to create plans CSV
-def create_plans_csv(df, plan_types, filename):
+def create_plans_csv(df, plan_types, filename, geography_column_name='geography-codes'):
     """Create a plans CSV from the melted dataframe"""
     # Filter by type
     type_df = df[df['type'].isin(plan_types)].copy()
@@ -1530,14 +1534,27 @@ def create_plans_csv(df, plan_types, filename):
         how='left'
     )
 
+    # Merge withdrawal dates
+    plans = plans.merge(
+        all_withdrawal_dates,
+        on=['curie-organisations', 'name'],
+        how='left'
+    )
+
     # Sort by curie-organisations
     plans = plans.sort_values('curie-organisations').reset_index(drop=True)
 
     # Select and reorder columns (local-plan first after curie-organisations)
-    plans = plans[['local-plan', 'curie-organisations', 'geography-codes', 'name', 'start-year', 'end-year', 'adoption-date', 'documentation-url', 'document-url']]
+    plans = plans[['local-plan', 'name', 'curie-organisations', 'geography-codes',  'start-year', 'end-year', 'adoption-date', 'end-date', 'documentation-url', 'document-url']]
 
     # Rename local-plan to reference for plans CSVs
-    plans = plans.rename(columns={'local-plan': 'reference'})
+    rename_dict = {'local-plan': 'reference',
+                   'start-year': 'period-start-date',
+                   'end-year': 'period-end-date',
+                   'curie-organisations': 'organisations',
+                   'adoption-date': 'start-date',
+                   'geography-codes': geography_column_name}
+    plans = plans.rename(columns=rename_dict)
 
     # Add entry-date
     plans['entry-date'] = entry_date
@@ -1547,11 +1564,11 @@ def create_plans_csv(df, plan_types, filename):
     return len(plans)
 
 # Create mineral plans (type='M' or 'M;W')
-mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plans.csv')
+mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plans.csv', 'mineral-planning-authority')
 print(f"✓ Exported {mineral_count} mineral plans to dataset/mineral-plans.csv")
 
 # Create waste plans (type='W' or 'M;W')
-waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plans.csv')
+waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plans.csv', 'waste-planning-authority')
 print(f"✓ Exported {waste_count} waste plans to dataset/waste-plans.csv")
 
 # Create mineral-plan-timetable.csv and waste-plan-timetable.csv
