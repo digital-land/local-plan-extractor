@@ -623,12 +623,12 @@ consolidation_rules = [
     {
         'name_pattern': '.*Minerals.*Sites',  # Match minerals/mineral sites plans
         'authority_patterns': ['Poole', 'Bournemouth', 'Dorset'],  # Match authorities containing any of these patterns
-        'preferred_authority': 'Dorset County Council, Bournemouth Borough Council and Borough of Poole'
+        'preferred_authority': 'Dorset County Council, Bournemouth, Christchurch and Poole Council'
     },
     {
         'name_pattern': '.*Waste.*',  # Match waste plans (but not those with minerals - handled above)
         'authority_patterns': ['Poole', 'Bournemouth', 'Dorset'],  # Match authorities containing any of these patterns
-        'preferred_authority': 'Dorset County Council, Bournemouth Borough Council and Borough of Poole'
+        'preferred_authority': 'Dorset County Council, Bournemouth, Christchurch and Poole Council'
     },
     {
         'name_pattern': 'M&W Local Plan|Minerals & Waste Local Plan',  # Match both M&W and Minerals & Waste variations
@@ -1376,6 +1376,15 @@ if west_sussex_minerals_consolidate_mask.sum() > 0:
     print(f"  Consolidated West Sussex records: Joint Minerals Local Plan variations consolidated")
     melted_df = melted_df.sort_values(['planning-authorities', 'name', 'local-plan-event']).reset_index(drop=True)
 
+# Post-processing: Update West Sussex mineral plans to add "Authority" for consistency
+west_sussex_minerals_authority_mask = (melted_df['planning-authorities'] == 'West Sussex County Council and South Downs National Park') & (
+    (melted_df['name'] == 'Joint Minerals Local Plan') |
+    (melted_df['name'] == 'Joint Minerals Local Plan Soft Sand Review')
+)
+if west_sussex_minerals_authority_mask.sum() > 0:
+    melted_df.loc[west_sussex_minerals_authority_mask, 'planning-authorities'] = 'West Sussex County Council and South Downs National Park Authority'
+    print(f"  Updated West Sussex mineral plans: Added 'Authority' for consistency")
+
 # Merge with manual search data (URLs and dates)
 manual_search_file = 'data/timetable_data/manual-search-for-urls-and-dates.csv'
 if os.path.exists(manual_search_file):
@@ -1390,6 +1399,14 @@ if os.path.exists(manual_search_file):
     melted_df['start-year'] = melted_df['start-year'].astype('Int64')
     melted_df['end-year'] = melted_df['end-year'].astype('Int64')
     print(f"Merged manual search data: {len(manual_search_df)} records matched")
+
+# Correction: Fix Dorset CURIE organisations (should be DOR and BPC only)
+dorset_mask = melted_df['planning-authorities'] == 'Dorset County Council, Bournemouth, Christchurch and Poole Council'
+if dorset_mask.sum() > 0:
+    melted_df.loc[dorset_mask, 'curie-organisations'] = 'local-authority:DOR;local-authority:BPC'
+    # Update geography codes for the corrected CURIEs
+    melted_df.loc[dorset_mask, 'geography-codes'] = 'E10000009-E06000028'
+    print(f"  Corrected Dorset CURIE organisations: {dorset_mask.sum()} rows updated")
 
 # Generate local-plan reference
 def generate_local_plan_reference(row):
