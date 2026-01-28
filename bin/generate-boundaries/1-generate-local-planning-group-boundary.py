@@ -122,7 +122,9 @@ def main():
 
     with open(group_csv, "r") as f:
         reader = csv.DictReader(f)
-        for row in reader:
+        for row_num, row in enumerate(reader, 1):
+            if row_num > 24:
+                break
             group_reference = row["reference"]
             group_name = row["name"]
             organisations = row["organisations"]
