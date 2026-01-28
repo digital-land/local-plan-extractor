@@ -1408,6 +1408,27 @@ if dorset_mask.sum() > 0:
     melted_df.loc[dorset_mask, 'geography-codes'] = 'E10000009-E06000058'
     print(f"  Corrected Dorset CURIE organisations: {dorset_mask.sum()} rows updated")
 
+# Correction: Fix West London Waste Plan authority attribution
+west_london_mask = melted_df['name'] == 'West London Waste Plan'
+if west_london_mask.sum() > 0:
+    melted_df.loc[west_london_mask, 'curie-organisations'] = 'local-authority:BEN;local-authority:EAL;local-authority:HRW;local-authority:HIL;local-authority:HNS;local-authority:RIC;development-corporation:Q20648596'
+    melted_df.loc[west_london_mask, 'geography-codes'] = 'E09000005-E09000009-E09000015-E09000017-E09000018-E09000027-E60000330'
+    print(f"  Corrected West London Waste Plan: {west_london_mask.sum()} rows updated")
+
+# Correction: Fix South London Waste Plan authority attribution (Joint Waste with end-year 2037)
+south_london_mask = (melted_df['name'] == 'Joint Waste') & (melted_df['end-year'] == 2037)
+if south_london_mask.sum() > 0:
+    melted_df.loc[south_london_mask, 'curie-organisations'] = 'local-authority:CRY;local-authority:KTT;local-authority:MRT;local-authority:STN'
+    melted_df.loc[south_london_mask, 'geography-codes'] = 'E60000207-E60000215-E60000216-E60000219'
+    print(f"  Corrected South London Waste Plan (2037): {south_london_mask.sum()} rows updated")
+
+# Correction: Fix old South London Waste Plan authority attribution (all rows from "South London Waste" planning authority)
+old_south_london_mask = melted_df['planning-authorities'] == 'South London Waste'
+if old_south_london_mask.sum() > 0:
+    melted_df.loc[old_south_london_mask, 'curie-organisations'] = 'local-authority:CRY;local-authority:KTT;local-authority:MRT;local-authority:STN'
+    melted_df.loc[old_south_london_mask, 'geography-codes'] = 'E09000008-E09000021-E09000024-E09000029'
+    print(f"  Corrected South London Waste Plan (2012): {old_south_london_mask.sum()} rows updated")
+
 # Generate local-plan reference
 def generate_local_plan_reference(row):
     """Generate a unique reference for each mineral/waste plan."""
