@@ -47,6 +47,64 @@ def load_unitary_geometries(unitary_csv_path):
     return geometries
 
 
+def load_authority_names(lpa_csv_path, lad_csv_path, county_csv_path, unitary_csv_path):
+    """Load authority names mapped by E-code from all geometry sources."""
+    names = {}
+
+    # Load from local-planning-authority (E60000xxx codes)
+    with open(lpa_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            reference = row.get("reference", "").strip()
+            name = row.get("name", "").strip()
+            if reference and name:
+                # Remove " LPA" suffix if present
+                name = name.replace(" LPA", "")
+                names[reference] = name
+
+    # Load from local-authority-district (E06000xxx codes)
+    with open(lad_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            reference = row.get("reference", "").strip()
+            name = row.get("name", "").strip()
+            if reference and name:
+                names[reference] = name
+
+    # Load from ctyua_2024_bfe_v4 (E10000xxx codes via CTYUA13CD)
+    with open(county_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            reference = row.get("CTYUA13CD", "").strip()
+            name = row.get("CTYUA13NM", "").strip()
+            if reference and name:
+                names[reference] = name
+
+    # Load from county-and-unitary-authority (E06000xxx codes via CTYUA24CD)
+    with open(unitary_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            reference = row.get("CTYUA24CD", "").strip()
+            name = row.get("CTYUA24NM", "").strip()
+            if reference and name:
+                names[reference] = name
+
+    return names
+
+
+def load_group_names(group_csv_path):
+    """Load group names mapped by reference code."""
+    names = {}
+    with open(group_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            reference = row.get("reference", "").strip()
+            name = row.get("name", "").strip()
+            if reference and name:
+                names[reference] = name
+    return names
+
+
 def extract_polygons_from_wkt(wkt):
     """Extract individual polygon coordinates from POLYGON or MULTIPOLYGON WKT."""
     if not wkt:
@@ -117,16 +175,50 @@ def combine_geometries(geometries):
     return f"MULTIPOLYGON ({', '.join(all_polygons)})"
 
 
-def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, output_csv):
+def build_ecode_to_group_mapping(plans_csv, geography_column, group_names):
+    """Build a mapping from sorted LPA codes to group names for joint boundaries."""
+    ecode_to_group = {}
+    with open(plans_csv, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            geography_codes = row.get(geography_column, "").strip()
+            organisations = row.get("organisations", "").strip()
+
+            if not geography_codes or geography_codes == "NONE" or "-" not in geography_codes:
+                continue
+
+            # Extract LPA codes from organisations (e.g., "local-authority:CRY;local-authority:KTT" -> "CRY;KTT")
+            if organisations:
+                lpa_codes = []
+                for org in organisations.split(";"):
+                    org = org.strip()
+                    if ":" in org:
+                        code = org.split(":")[-1]
+                        lpa_codes.append(code)
+
+                if lpa_codes:
+                    # Sort and join to create canonical key
+                    sorted_key = "-".join(sorted(lpa_codes))
+                    # Look up group name
+                    if sorted_key in group_names:
+                        ecode_to_group[geography_codes] = group_names[sorted_key]
+
+    return ecode_to_group
+
+
+def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, output_csv, authority_names, group_names):
     """Process a single plan type (mineral or waste) and generate boundary CSV."""
     print(f"Processing {plan_type} plans...", file=sys.stderr)
     boundaries = []
+
+    # Build mapping from E-code combinations to group names
+    ecode_to_group = build_ecode_to_group_mapping(plans_csv, geography_column, group_names)
 
     with open(plans_csv, "r") as f:
         reader = csv.DictReader(f)
         for row in reader:
             reference = row["reference"]
-            name = row["name"]
+            plan_name = row["name"]
             geography_codes = row.get(geography_column, "").strip()
 
             if not geography_codes or geography_codes == "NONE":
@@ -147,9 +239,17 @@ def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, ou
             # Combine geometries
             combined_geometry = combine_geometries(geometries)
 
+            # Determine the name: if multiple codes, look up in groups; if single, look up in authorities
+            if len(codes) == 1:
+                # Single authority - look up by E-code
+                boundary_name = authority_names.get(codes[0], geography_codes)
+            else:
+                # Multiple authorities (joint) - look up by E-code combination then group reference
+                boundary_name = ecode_to_group.get(geography_codes, geography_codes)
+
             boundaries.append({
-                "reference": reference,
-                "name": name,
+                "reference": geography_codes,
+                "name": boundary_name,
                 "organisations": row.get("organisations", ""),
                 geography_column: geography_codes,
                 "geometry": combined_geometry,
@@ -177,11 +277,12 @@ def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, ou
 
 def main():
     # File paths
-    mineral_plans_csv = Path("dataset/mineral-plans.csv")
-    waste_plans_csv = Path("dataset/waste-plans.csv")
+    mineral_plans_csv = Path("dataset/mineral-plan.csv")
+    waste_plans_csv = Path("dataset/waste-plan.csv")
     lpa_csv = Path("var/cache/local-planning-authority.csv")
     county_csv = Path("var/cache/ctyua_2024_bfe_v4.csv")
     unitary_csv = Path("var/cache/county-and-unitary-authority.csv")
+    group_csv = Path("dataset/local-planning-group.csv")
     mineral_output_csv = Path("dataset/mineral-plan-boundary.csv")
     waste_output_csv = Path("dataset/waste-plan-boundary.csv")
 
@@ -200,6 +301,18 @@ def main():
     all_geometries = {**unitary_geometries, **county_geometries, **lpa_geometries}
     print(f"  Total geometries loaded: {len(all_geometries)}", file=sys.stderr)
 
+    # Load authority and group names
+    print("Loading authority and group names...", file=sys.stderr)
+    lad_csv = Path("var/cache/local-authority-district.csv")
+    authority_names = load_authority_names(lpa_csv, lad_csv, county_csv, unitary_csv)
+    group_names = load_group_names(group_csv)
+    print(f"  Loaded {len(authority_names)} authority names", file=sys.stderr)
+    if authority_names:
+        print(f"  Sample authority names: {list(authority_names.items())[:3]}", file=sys.stderr)
+    print(f"  Loaded {len(group_names)} group names", file=sys.stderr)
+    if group_names:
+        print(f"  Sample group names: {list(group_names.items())[:3]}", file=sys.stderr)
+
     # Process both plan types
     print("\nProcessing plan boundaries...", file=sys.stderr)
     mineral_count = process_plan_type(
@@ -207,7 +320,9 @@ def main():
         all_geometries,
         "mineral",
         "mineral-planning-authority",
-        mineral_output_csv
+        mineral_output_csv,
+        authority_names,
+        group_names
     )
 
     waste_count = process_plan_type(
@@ -215,7 +330,9 @@ def main():
         all_geometries,
         "waste",
         "waste-planning-authority",
-        waste_output_csv
+        waste_output_csv,
+        authority_names,
+        group_names
     )
 
     print(f"\nGenerated {mineral_count} mineral and {waste_count} waste plan boundaries", file=sys.stderr)
