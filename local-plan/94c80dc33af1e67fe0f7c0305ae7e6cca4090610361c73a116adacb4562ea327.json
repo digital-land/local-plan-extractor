@@ -1,0 +1,30 @@
+{
+  "name": "Gravesham Local Plan Core Strategy",
+  "organisation-name": "Gravesham Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Gravesham Borough Council",
+      "required-housing": 6170,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 363,
+      "pages": "Pages 32, 35, 36",
+      "notes": "Total requirement is at least 6,170 new dwellings with variable delivery rates: 325 dwellings per year 2011/12-2018/19, 363 dwellings per year 2019/20-2023/24, 438 dwellings per year 2024/25-2027/28. Around 3,890 new dwellings to be provided in Opportunity Areas and around 2,280 new dwellings on other sites in urban area and rural settlements. Document acknowledges insufficient land supply identified to meet full housing need over plan period and indicates need for revised SLAA and Green Belt boundary review.",
+      "organisation": "local-authority:GRA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "94c80dc33af1e67fe0f7c0305ae7e6cca4090610361c73a116adacb4562ea327",
+  "pdf_file": "collection/document/94c80dc33af1e67fe0f7c0305ae7e6cca4090610361c73a116adacb4562ea327.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:GRA",
+  "local-plan-boundary": "E60000258",
+  "local-planning-authorities": [
+    "E60000258"
+  ],
+  "adoption-date": "2014-09-30"
+}

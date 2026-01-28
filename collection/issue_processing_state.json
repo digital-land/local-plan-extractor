@@ -196,6 +196,103 @@
         "source adoption-date: 2018-05-22 → 2018-05-22"
       ],
       "file": "27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e.json"
+    },
+    "307": {
+      "processed_at": "2026-01-28T16:05:55.130740",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2014-02-19",
+        "name: Local Plan 2011-2028 → Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
+        "source adoption-date: None → 2014-02-19",
+        "source name: Local Plan 2011-2028 → Hastings Local Plan: The Hastings Planning Strategy 2011-2028"
+      ],
+      "file": "a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd.json"
+    },
+    "306": {
+      "processed_at": "2026-01-28T16:05:55.154892",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2011-07-20",
+        "source adoption-date: None → 2011-07-20"
+      ],
+      "file": "1ee9c7851029571b21cb9f8630fa2ed1e5d3abef8a2c6c6d03a84ec1fbf3eef0.json"
+    },
+    "305": {
+      "processed_at": "2026-01-28T16:05:55.171880",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2022-04-25",
+        "source adoption-date: None → 2022-04-25"
+      ],
+      "file": "d553603eba859a47129620ccc7b35fb64f9393c3ce11f2c8d386c90a416b54ed.json"
+    },
+    "304": {
+      "processed_at": "2026-01-28T16:05:55.189059",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2011-04 → 2013-02-20",
+        "source adoption-date: 2011-04 → 2013-02-20"
+      ],
+      "file": "c6343d3f39c49290b263976a1c1a6b6a67face1a6e04dad04d5ab554dad5b5f6.json"
+    },
+    "303": {
+      "processed_at": "2026-01-28T16:05:55.203315",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-10-15",
+        "source adoption-date: None → 2015-10-15"
+      ],
+      "file": "739db7e499ad468c6a3df4273b0e556a49febd4a35bf6135e44ffff3dcc831b2.json"
+    },
+    "301": {
+      "processed_at": "2026-01-28T16:05:55.217405",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2025-04-02",
+        "source adoption-date: None → 2025-04-02"
+      ],
+      "file": "cd0adb426a681749f80b36a16bba412a9cc701c086c3af2349b2f511329ee0e3.json"
+    },
+    "300": {
+      "processed_at": "2026-01-28T16:05:55.235108",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-10-16",
+        "name: Local Plan 2011-2031 → Herefordshire Local Plan: Core Strategy",
+        "source adoption-date: None → 2015-10-16",
+        "source name: Herefordshire Local Plan Core Strategy 2011-2031 → Herefordshire Local Plan: Core Strategy"
+      ],
+      "file": "821764960e33cf93d240ea9eafc47eef0db33bbab281520c6379ae335ee94bb0.json"
+    },
+    "299": {
+      "processed_at": "2026-01-28T16:05:55.248686",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2013-01 → 2013-01-16",
+        "source adoption-date: 2013-01 → 2013-01-16"
+      ],
+      "file": "35aff6f09d607f699f8f002d0336cbe86dbeee08acea9abf740e8f712baef4e5.json"
+    },
+    "298": {
+      "processed_at": "2026-01-28T16:05:55.261402",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2016-04-14",
+        "name: Local Plan 2011-2031 → High Peak Local Plan",
+        "required-housing: 7000 → 6890",
+        "source adoption-date: None → 2016-04-14",
+        "source name: Local Plan 2011-2031 → High Peak Local Plan"
+      ],
+      "file": "cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361.json"
+    },
+    "296": {
+      "processed_at": "2026-01-28T16:05:55.274073",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-07-18",
+        "source adoption-date: None → 2018-07-18"
+      ],
+      "file": "3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260.json"
     }
   },
   "skipped_issues": {
@@ -210,6 +307,7 @@
     "326": "No parseable changes found",
     "321": "No parseable changes found",
     "317": "No parseable changes found",
-    "316": "requires manual deletion review"
+    "316": "requires manual deletion review",
+    "297": "requires manual deletion review"
   }
 }

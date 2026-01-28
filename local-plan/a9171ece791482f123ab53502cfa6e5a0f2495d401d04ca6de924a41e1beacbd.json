@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2028",
+  "name": "Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
   "organisation-name": "Hastings Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2028,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HAS",
-  "adoption-date": null,
+  "adoption-date": "2014-02-19",
   "local-plan-boundary": "E60000238",
   "local-planning-authorities": [
     "E60000238"

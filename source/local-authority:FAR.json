@@ -4,23 +4,23 @@
     "organisation-name": "Fareham Borough Council",
     "reference": "LP-FAR-2021",
     "documentation-url": "https://www.fareham.gov.uk/planning/localplan.aspx",
-    "document-url": "",
+    "document-url": "https://www.fareham.gov.uk/PDF/planning/local_plan/CD001_Revised_Publication_Local_Plan.pdf",
     "name": "Fareham Local Plan",
     "status": "adopted",
     "year": 2021,
     "period-start-date": 2021,
     "period-end-date": 2037,
-    "adoption-date": null,
+    "adoption-date": "2023-04-05",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.fareham.gov.uk/PDF/planning/publicationplan/201029_Fareham_BC_Planning_White_Paper_response.pdf",
+        "document-url": "https://www.fareham.gov.uk/PDF/planning/local_plan/CD001_Revised_Publication_Local_Plan.pdf",
         "documentation-url": "https://www.fareham.gov.uk/planning/local_plan/",
         "document-type": "local-plan",
-        "name": "Planning for the Future",
-        "reference": "PFF-2020",
-        "document-status": "consultation",
-        "endpoint": "9ed38161aee09e4f51781b857daa543d7fad2f8766bb53ce60a36d9bca63f0b1"
+        "name": "Fareham Local Plan 2037",
+        "reference": "LP-2022",
+        "document-status": "adopted",
+        "endpoint": "f78255e8abb78b03911df5bba816e5030196bed68508451a0e69a7b23ac28aa1"
       },
       {
         "document-url": "https://www.fareham.gov.uk/pdf/planning/local_plan/FBCLURBConsultationResponse.pdf",

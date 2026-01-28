@@ -3,24 +3,24 @@
     "organisation": "local-authority:GRA",
     "organisation-name": "Gravesham Borough Council",
     "reference": "LP-GRA-2014",
-    "documentation-url": "https://www.gravesham.gov.uk/localplan",
-    "document-url": "",
+    "documentation-url": "https://www.gravesham.gov.uk/local-plan-policy/local-plan",
+    "document-url": "https://drive.google.com/open?id=1bJTgQLmhbzjqZFibl-5WFb2tbvixXpLk",
     "name": "Gravesham Local Plan Core Strategy",
     "status": "adopted",
     "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2014-09-30",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.gravesham.gov.uk/localplan",
+        "document-url": "https://drive.google.com/open?id=1bJTgQLmhbzjqZFibl-5WFb2tbvixXpLk",
+        "documentation-url": "https://www.gravesham.gov.uk/local-plan-policy/local-plan",
         "document-type": "local-plan",
-        "name": "Local Plan Core Strategy",
+        "name": "Gravesham Local Plan Core Strategy",
         "reference": "LP-CS-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "94c80dc33af1e67fe0f7c0305ae7e6cca4090610361c73a116adacb4562ea327"
       },
       {
         "document-url": "",

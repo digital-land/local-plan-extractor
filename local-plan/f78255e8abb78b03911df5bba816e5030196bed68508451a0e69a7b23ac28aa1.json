@@ -1,0 +1,30 @@
+{
+  "name": "Fareham Local Plan 2037",
+  "organisation-name": "Fareham Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Fareham Borough Council",
+      "required-housing": 9556,
+      "allocated-housing": 3358,
+      "windfall-housing": 1224,
+      "committed-housing": 5053,
+      "broad-locations-housing": "",
+      "annual-required-housing": 541,
+      "pages": "34-38",
+      "notes": "Total requirement includes 900 dwellings contribution to neighboring authorities' unmet need. Committed housing includes 869 homes with existing permissions plus 4,184 homes with resolutions to grant (including Welborne Garden Village). Allocated housing comprises sites in policies HA1-HA56 plus town centre sites FTC3-9.",
+      "organisation": "local-authority:FAR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f78255e8abb78b03911df5bba816e5030196bed68508451a0e69a7b23ac28aa1",
+  "pdf_file": "collection/document/f78255e8abb78b03911df5bba816e5030196bed68508451a0e69a7b23ac28aa1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:FAR",
+  "local-plan-boundary": "E60000245",
+  "local-planning-authorities": [
+    "E60000245"
+  ],
+  "adoption-date": "2023-04-05"
+}

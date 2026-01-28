@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 350,
       "pages": "38, 40, 114-118",
-      "notes": "Housing target of 350 dwellings per annum. Net requirement of 3,549 dwellings after accounting for completions (445), commitments (2,976), Peak District contribution (110), and shortfall (+80). Allocated sites provide 2,850 dwellings, small sites provide 1,200 dwellings. Chapel-en-le-Frith Neighbourhood Plan contributes 42 allocated dwellings plus 850 minimum requirement.",
+      "notes": "The requirement reflects total requirement of 7,000 over plan period, minus 110 homes to be delivered in the Peak District National Park (see Table 2, p.38).",
       "organisation": "local-authority:HIG"
     }
   ],
@@ -24,8 +24,6 @@
   "organisation": "local-authority:HIG",
   "adoption-date": null,
   "local-plan-boundary": "E60000082",
-  "local-planning-authorities": [
-    "E60000082"
-  ],
+  "local-planning-authorities": ["E60000082"],
   "document-url": "https://www.highpeak.gov.uk/media/160/The-High-Peak-Local-Plan-Adopted-April-2016/pdf/cjThe_High_Peak_Local_Plan_Adopted_April_2016.pdf?m=1514473710280"
 }

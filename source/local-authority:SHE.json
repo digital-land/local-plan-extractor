@@ -16,7 +16,7 @@
       {
         "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3593/core-strategy-review-2022",
         "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
-        "document-type": "core-strategy",
+        "document-type": "local-plan",
         "name": "Core Strategy Review 2022",
         "reference": "CS-2022",
         "document-status": "adopted",
@@ -68,7 +68,7 @@
       {
         "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3598/places-and-policies-local-plan",
         "documentation-url": "https://www.folkestone-hythe.gov.uk/planning-policy/adopted-development-plan",
-        "document-type": "local-plan",
+        "document-type": "local-plan-alternative",
         "name": "Places and Policies Local Plan",
         "reference": "LP-2020",
         "document-status": "adopted",

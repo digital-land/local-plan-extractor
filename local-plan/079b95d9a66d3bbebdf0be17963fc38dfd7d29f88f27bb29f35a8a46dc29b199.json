@@ -6,39 +6,39 @@
   "housing-numbers": [
     {
       "organisation-name": "Gateshead Council",
-      "required-housing": "",
+      "required-housing": 8500,
       "allocated-housing": 8400,
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
-      "annual-required-housing": 750,
+      "annual-required-housing": 425,
       "pages": "43, 76",
-      "notes": "8,400 homes allocated in Neighbourhood and Village Growth Areas. Annual requirement of approximately 750 per annum for Gateshead portion of joint 1,500 target.",
+      "notes": "Required housing for Gateshead: 8,500 dwellings. 8,400 homes allocated in Neighbourhood and Village Growth Areas.",
       "organisation": "local-authority:GAT"
     },
     {
       "organisation-name": "Newcastle City Council",
-      "required-housing": "",
+      "required-housing": 17000,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
-      "annual-required-housing": 750,
+      "annual-required-housing": 850,
       "pages": "43, 76",
-      "notes": "Annual requirement of approximately 750 per annum for Newcastle portion of joint 1,500 target. Specific allocations not clearly identified in available pages.",
+      "notes": "Required housing for Newcastle: 17,000 dwellings over plan period.",
       "organisation": "local-authority:NET"
     },
     {
       "organisation-name": "Gateshead Council, Newcastle City Council",
       "organisation": "joint-planning-authority:GAT-NET",
-      "required-housing": 0,
+      "required-housing": 25500,
       "allocated-housing": 8400,
-      "windfall-housing": 0,
-      "committed-housing": 0,
-      "broad-locations-housing": 0,
-      "annual-required-housing": 1500,
-      "pages": "",
-      "notes": ""
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 1275,
+      "pages": "43, 76",
+      "notes": "Combined housing requirement: 25,500 dwellings (Gateshead: 8,500, Newcastle: 17,000) over 20-year period 2010-2030."
     }
   ],
   "confidence": "medium",

@@ -66,12 +66,12 @@
     "reference": "LP-HIG-2011",
     "documentation-url": "https://www.highpeak.gov.uk/article/646/The-Adopted-Local-Plan-2016",
     "document-url": "https://www.highpeak.gov.uk/media/160/The-High-Peak-Local-Plan-Adopted-April-2016/pdf/cjThe_High_Peak_Local_Plan_Adopted_April_2016.pdf?m=1514473710280",
-    "name": "Local Plan 2011-2031",
+    "name": "High Peak Local Plan",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2016-04-14",
     "withdrawn-date": null,
     "documents": [
       {
