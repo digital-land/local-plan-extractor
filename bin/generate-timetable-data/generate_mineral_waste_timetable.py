@@ -1430,7 +1430,7 @@ if old_south_london_mask.sum() > 0:
     print(f"  Corrected South London Waste Plan (2012): {old_south_london_mask.sum()} rows updated")
 
 # Generate local-plan reference
-def generate_local_plan_reference(row):
+def generate_local_plan_reference(row, adoption_year_counter=None):
     """Generate a unique reference for each mineral/waste plan."""
     # Extract CURIE codes
     curie_orgs = str(row['curie-organisations']).strip()
@@ -1475,35 +1475,99 @@ def generate_local_plan_reference(row):
         except:
             pass
 
-    # Build reference
+    # Build reference with just the year
     if year:
         reference = f"{codes_str}-{type_str}-plan-{year}"
     else:
         reference = f"{codes_str}-{type_str}-plan"
 
+    # If adoption_year_counter is provided, add sequence number for duplicates
+    if adoption_year_counter is not None:
+        ref_key = (codes_str, type_str, year)
+        if ref_key in adoption_year_counter:
+            adoption_year_counter[ref_key] += 1
+            reference = f"{reference}-{adoption_year_counter[ref_key]}"
+        else:
+            adoption_year_counter[ref_key] = 1
+
     return reference
 
 # Add local-plan reference to melted_df
 print("Generating local-plan references...")
+
+# Extract adoption dates from plan-adopted events
+adoption_dates = melted_df[melted_df['local-plan-event'] == 'plan-adopted'][['curie-organisations', 'name', 'start-date']].copy()
+adoption_dates = adoption_dates.rename(columns={'start-date': 'adoption-date'})
+adoption_dates = adoption_dates.drop_duplicates(subset=['curie-organisations', 'name', 'adoption-date'])
+
 # Build a dataframe with unique plan metadata for reference generation
-unique_plans = melted_df.groupby(['curie-organisations', 'name']).agg({
-    'end-year': 'first',
-    'type': 'first',
-    'start-date': lambda x: x[x.index[melted_df.loc[x.index, 'local-plan-event'] == 'plan-adopted'].tolist()].iloc[0] if any(melted_df.loc[x.index, 'local-plan-event'] == 'plan-adopted') else None
-}).reset_index()
-unique_plans = unique_plans.rename(columns={'start-date': 'adoption-date'})
+# Include adoption-date in the grouping to handle multiple versions of same plan
+unique_plans = adoption_dates.copy()
+unique_plans = unique_plans.merge(
+    melted_df.drop_duplicates(subset=['curie-organisations', 'name'])[['curie-organisations', 'name', 'end-year', 'type']],
+    on=['curie-organisations', 'name'],
+    how='left'
+)
 
-# Generate references
-unique_plans['local-plan'] = unique_plans.apply(generate_local_plan_reference, axis=1)
-
-# Create a mapping for lookup
-plan_ref_map = dict(zip(zip(unique_plans['curie-organisations'], unique_plans['name']), unique_plans['local-plan']))
-
-# Apply the mapping to melted_df
-melted_df['local-plan'] = melted_df.apply(
-    lambda row: plan_ref_map.get((row['curie-organisations'], row['name'])),
+# Generate references with duplicate tracking
+adoption_year_counter = {}
+unique_plans['local-plan'] = unique_plans.apply(
+    lambda row: generate_local_plan_reference(row, adoption_year_counter),
     axis=1
 )
+
+# Create a mapping for lookup using (curie-organisations, name, adoption-date) as key
+plan_ref_map = {}
+for _, row in unique_plans.iterrows():
+    key = (row['curie-organisations'], row['name'], row['adoption-date'])
+    plan_ref_map[key] = row['local-plan']
+
+# Create a lookup dict of all adoption dates per plan
+adoption_dates_by_plan = {}
+for _, row in adoption_dates.iterrows():
+    key = (row['curie-organisations'], row['name'])
+    if key not in adoption_dates_by_plan:
+        adoption_dates_by_plan[key] = []
+    adoption_dates_by_plan[key].append(row['adoption-date'])
+
+# Sort adoption dates for each plan for consistent ordering
+for key in adoption_dates_by_plan:
+    adoption_dates_by_plan[key].sort()
+
+# For each row in melted_df, find the appropriate adoption date
+def get_plan_reference(row):
+    """Get or generate the plan reference for this row"""
+    curie_orgs = row['curie-organisations']
+    name = row['name']
+
+    key = (curie_orgs, name)
+
+    # If this IS a plan-adopted event, use its start-date as the adoption date
+    if row['local-plan-event'] == 'plan-adopted':
+        adoption_date = row['start-date']
+    else:
+        # For other events, find the adoption date by matching chronologically
+        # Use the most recent adoption date that occurred before or at this event's date
+        adoption_dates_list = [d for d in adoption_dates_by_plan.get(key, []) if d is not None]
+        event_date = row['start-date'] if pd.notna(row['start-date']) else '9999-12-31'
+
+        # Find the latest adoption date <= event_date
+        matching_dates = [d for d in adoption_dates_list if d <= event_date]
+        if matching_dates:
+            adoption_date = max(matching_dates)
+        elif adoption_dates_list:
+            # If event date is before all adoption dates, use the earliest adoption date
+            adoption_date = adoption_dates_list[0]
+        else:
+            adoption_date = None
+
+    if not adoption_date:
+        return None
+
+    return plan_ref_map.get((curie_orgs, name, adoption_date))
+
+# Apply the mapping to melted_df
+melted_df['local-plan'] = melted_df.apply(get_plan_reference, axis=1)
 
 # Add entry-date column (kept in memory for generating other CSVs)
 entry_date = datetime.now().strftime('%Y-%m-%d')
@@ -1537,20 +1601,29 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
     # Filter by type
     type_df = df[df['type'].isin(plan_types)].copy()
 
-    # Get unique plans with their metadata
-    plans = type_df.groupby(['curie-organisations', 'name']).agg({
+    # Get unique plans with their metadata, including local-plan (which now contains adoption-date)
+    # Group by curie-organisations and name to get base plan info
+    plans_base = type_df.groupby(['curie-organisations', 'name']).agg({
         'geography-codes': 'first',
         'start-year': 'first',
         'end-year': 'first',
         'documentation-url': 'first',
         'document-url': 'first',
-        'local-plan': 'first',
         'type': 'first'
     }).reset_index()
 
-    # Merge adoption dates
+    # Get all unique (curie-organisations, name, local-plan) combinations
+    # local-plan now contains the adoption-date, so this effectively groups by adoption-date
+    plans_with_refs = type_df.drop_duplicates(subset=['curie-organisations', 'name', 'local-plan'])[
+        ['curie-organisations', 'name', 'local-plan']
+    ].copy()
+
+    # Merge to get the base plan info
+    plans = plans_with_refs.merge(plans_base, on=['curie-organisations', 'name'], how='left')
+
+    # Merge adoption dates based on the (curie-organisations, name) to get the actual adoption date
     plans = plans.merge(
-        all_adoption_dates,
+        adoption_dates[['curie-organisations', 'name', 'adoption-date']],
         on=['curie-organisations', 'name'],
         how='left'
     )
@@ -1562,8 +1635,8 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
         how='left'
     )
 
-    # Sort by curie-organisations
-    plans = plans.sort_values('curie-organisations').reset_index(drop=True)
+    # Sort by curie-organisations and local-plan (adoption-date)
+    plans = plans.sort_values(['curie-organisations', 'local-plan']).reset_index(drop=True)
 
     # Select and reorder columns (local-plan first after curie-organisations)
     plans = plans[['local-plan', 'name', 'curie-organisations', 'geography-codes',  'start-year', 'end-year', 'adoption-date', 'end-date', 'documentation-url', 'document-url']]
