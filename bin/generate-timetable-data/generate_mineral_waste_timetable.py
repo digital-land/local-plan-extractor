@@ -1585,12 +1585,12 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
     return len(plans)
 
 # Create mineral plans (type='M' or 'M;W')
-mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plans.csv', 'mineral-planning-authority')
-print(f"✓ Exported {mineral_count} mineral plans to dataset/mineral-plans.csv")
+mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plan.csv', 'mineral-planning-authority')
+print(f"✓ Exported {mineral_count} mineral plans to dataset/mineral-plan.csv")
 
 # Create waste plans (type='W' or 'M;W')
-waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plans.csv', 'waste-planning-authority')
-print(f"✓ Exported {waste_count} waste plans to dataset/waste-plans.csv")
+waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plan.csv', 'waste-planning-authority')
+print(f"✓ Exported {waste_count} waste plans to dataset/waste-plan.csv")
 
 # Create mineral-plan-timetable.csv and waste-plan-timetable.csv
 print("\nCreating mineral-plan-timetable.csv and waste-plan-timetable.csv...")
