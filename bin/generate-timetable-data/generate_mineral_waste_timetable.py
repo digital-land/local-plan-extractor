@@ -1405,7 +1405,7 @@ dorset_mask = melted_df['planning-authorities'] == 'Dorset County Council, Bourn
 if dorset_mask.sum() > 0:
     melted_df.loc[dorset_mask, 'curie-organisations'] = 'local-authority:DOR;local-authority:BPC'
     # Update geography codes for the corrected CURIEs
-    melted_df.loc[dorset_mask, 'geography-codes'] = 'E10000009-E06000028'
+    melted_df.loc[dorset_mask, 'geography-codes'] = 'E10000009-E06000058'
     print(f"  Corrected Dorset CURIE organisations: {dorset_mask.sum()} rows updated")
 
 # Generate local-plan reference
