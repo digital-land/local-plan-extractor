@@ -105,6 +105,19 @@ def load_group_names(group_csv_path):
     return names
 
 
+def load_organisation_names(org_csv_path):
+    """Load organisation names mapped by organisation CURIE."""
+    names = {}
+    with open(org_csv_path, "r") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            organisation = row.get("organisation", "").strip()
+            name = row.get("name", "").strip()
+            if organisation and name:
+                names[organisation] = name
+    return names
+
+
 def extract_polygons_from_wkt(wkt):
     """Extract individual polygon coordinates from POLYGON or MULTIPOLYGON WKT."""
     if not wkt:
@@ -206,7 +219,7 @@ def build_ecode_to_group_mapping(plans_csv, geography_column, group_names):
     return ecode_to_group
 
 
-def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, output_csv, authority_names, group_names):
+def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, output_csv, authority_names, group_names, organisation_names):
     """Process a single plan type (mineral or waste) and generate boundary CSV."""
     print(f"Processing {plan_type} plans...", file=sys.stderr)
     boundaries = []
@@ -239,10 +252,21 @@ def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, ou
             # Combine geometries
             combined_geometry = combine_geometries(geometries)
 
-            # Determine the name: if multiple codes, look up in groups; if single, look up in authorities
+            # Determine the name: if multiple codes, look up in groups; if single, look up in organisations
             if len(codes) == 1:
-                # Single authority - look up by E-code
-                boundary_name = authority_names.get(codes[0], geography_codes)
+                # Single authority - try to look up by organisation CURIE first, then by E-code
+                organisations_str = row.get("organisations", "").strip()
+                boundary_name = None
+
+                # Try looking up by organisation CURIE
+                if organisations_str:
+                    # For single authority, there should be only one organisation
+                    org = organisations_str.split(";")[0].strip()
+                    boundary_name = organisation_names.get(org)
+
+                # Fall back to E-code lookup if not found
+                if not boundary_name:
+                    boundary_name = authority_names.get(codes[0], geography_codes)
             else:
                 # Multiple authorities (joint) - look up by E-code combination then group reference
                 boundary_name = ecode_to_group.get(geography_codes, geography_codes)
@@ -304,11 +328,12 @@ def main():
     # Load authority and group names
     print("Loading authority and group names...", file=sys.stderr)
     lad_csv = Path("var/cache/local-authority-district.csv")
+    org_csv = Path("var/cache/organisation.csv")
     authority_names = load_authority_names(lpa_csv, lad_csv, county_csv, unitary_csv)
     group_names = load_group_names(group_csv)
+    organisation_names = load_organisation_names(org_csv)
     print(f"  Loaded {len(authority_names)} authority names", file=sys.stderr)
-    if authority_names:
-        print(f"  Sample authority names: {list(authority_names.items())[:3]}", file=sys.stderr)
+    print(f"  Loaded {len(organisation_names)} organisation names", file=sys.stderr)
     print(f"  Loaded {len(group_names)} group names", file=sys.stderr)
     if group_names:
         print(f"  Sample group names: {list(group_names.items())[:3]}", file=sys.stderr)
@@ -322,7 +347,8 @@ def main():
         "mineral-planning-authority",
         mineral_output_csv,
         authority_names,
-        group_names
+        group_names,
+        organisation_names
     )
 
     waste_count = process_plan_type(
@@ -332,7 +358,8 @@ def main():
         "waste-planning-authority",
         waste_output_csv,
         authority_names,
-        group_names
+        group_names,
+        organisation_names
     )
 
     print(f"\nGenerated {mineral_count} mineral and {waste_count} waste plan boundaries", file=sys.stderr)
