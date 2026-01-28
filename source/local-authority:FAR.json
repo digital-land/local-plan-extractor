@@ -8,8 +8,8 @@
     "name": "Fareham Local Plan",
     "status": "adopted",
     "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2021,
+    "period-end-date": 2037,
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": [

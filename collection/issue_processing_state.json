@@ -1,0 +1,215 @@
+{
+  "processed_issues": {
+    "357": {
+      "processed_at": "2026-01-28T14:48:07.611060",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-03-31 → 2020-07-29",
+        "source adoption-date: 2017-03-31 → 2020-07-29"
+      ],
+      "file": "6af8f47e5d7c2dc7ea79437297b5031c1ddbc7467a171bd79a93b253894d7b5e.json"
+    },
+    "349": {
+      "processed_at": "2026-01-28T15:05:27.882929",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2013-12-11",
+        "name: Local Plan 2006-2027 → South Gloucestershire Local Plan: Core Strategy 2006-2027",
+        "source adoption-date: None → 2013-12-11",
+        "source name: Local Plan 2006-2027 → South Gloucestershire Local Plan: Core Strategy 2006-2027"
+      ],
+      "file": "aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df.json"
+    },
+    "340": {
+      "processed_at": "2026-01-28T15:05:27.884668",
+      "status": "success",
+      "changes_applied": [
+        "annual-required-housing: 320 → 315"
+      ],
+      "file": "136f221fcc56b624317a381838cdc0e46a34f4e28088d804cc18de9fb69fdbd4.json"
+    },
+    "337": {
+      "processed_at": "2026-01-28T15:05:27.902765",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-12 → 2017-12-11"
+      ],
+      "file": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb.json"
+    },
+    "336": {
+      "processed_at": "2026-01-28T15:05:27.921617",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-10-14",
+        "source adoption-date: None → 2015-10-14"
+      ],
+      "file": "8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e.json"
+    },
+    "335": {
+      "processed_at": "2026-01-28T15:05:27.941678",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2019-02-04 → 2013-02-21",
+        "source adoption-date: 2019-02-04 → 2013-02-21"
+      ],
+      "file": "82a0df51eae00e5538b17a3ae4a34917312758b1025faea9cde9360d1e29a47d.json"
+    },
+    "334": {
+      "processed_at": "2026-01-28T15:05:27.949011",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2015-10-14 → 2015-10-14",
+        "source adoption-date: 2015-10-14 → 2015-10-14"
+      ],
+      "file": "8702729553b137cca41d033cb5c7036cf68eb6e5f58b070ef1c4b42f4d3fff0e.json"
+    },
+    "333": {
+      "processed_at": "2026-01-28T15:05:27.950409",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-12-11 → 2017-12-11"
+      ],
+      "file": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb.json"
+    },
+    "329": {
+      "processed_at": "2026-01-28T15:09:04.268013",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2011 → 2019",
+        "period-end-date: 2032 → 2032",
+        "source period-start-date: 2011 → 2019",
+        "source period-end-date: 2032 → 2032"
+      ],
+      "file": "290547f15280fbd6b2a8e13d5b4349374ef72cb938acdbe182a9e9092b06f15e.json"
+    },
+    "328": {
+      "processed_at": "2026-01-28T15:09:04.281591",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-12-21",
+        "name: Local Plan 2013-2030 → Core Strategy 2013-2030 (as modified by Part 2 Plan, adopted 9 December 2021)",
+        "source adoption-date: None → 2015-12-21",
+        "source name: Local Plan 2013-2030 → Core Strategy 2013-2030 (as modified by Part 2 Plan, adopted 9 December 2021)"
+      ],
+      "file": "1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374.json"
+    },
+    "327": {
+      "processed_at": "2026-01-28T15:09:04.291621",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2018-06 → 2012-02-23"
+      ],
+      "file": "66c7e67a751dc47a9f4763eb70fd07ca67e7bda86d92092e54ee3ec2987c9af1.json"
+    },
+    "325": {
+      "processed_at": "2026-01-28T15:14:22.743841",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2006 → 2019",
+        "period-end-date: 2031 → 2037"
+      ],
+      "file": "9d0e525eed5fea0e97ab30707a559daf5835e8305b969ad6d1ab2d291b84ebfe.json"
+    },
+    "324": {
+      "processed_at": "2026-01-28T15:14:22.754980",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2019-04-25",
+        "name: Local Plan 2015-2034 → Local Plan: Strategy and Sites (2015-2034)",
+        "source adoption-date: None → 2019-04-25",
+        "source name: Local Plan 2015-2034 → Local Plan: Strategy and Sites (2015-2034)"
+      ],
+      "file": "2679e4bf117b5a49da62e652b58e9ef35bbc2dac589f5ddafc0a44d8a0a1b6ce.json"
+    },
+    "323": {
+      "processed_at": "2026-01-28T15:14:22.769491",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2022-03-02",
+        "name: Local Plan 2014-2037 → Halton Delivery And Allocations Local Plan",
+        "source adoption-date: None → 2022-03-02",
+        "source name: Local Plan 2014-2037 → Halton Delivery And Allocations Local Plan"
+      ],
+      "file": "b916f91e5fca506f57adcb6844f430f43522b68e0117f783fc0267f2c313e334.json"
+    },
+    "320": {
+      "processed_at": "2026-01-28T15:14:22.777785",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2019-04 → 2019-04-30",
+        "source adoption-date: 2019-04 → 2019-04-30"
+      ],
+      "file": "fd0d75d9df0c749234a2392afcaeae0fac956eddd17a546a9892fcad5abff8b3.json"
+    },
+    "318": {
+      "processed_at": "2026-01-28T15:14:22.784997",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date:  → 2021",
+        "period-end-date:  → 2037",
+        "source period-start-date:  → 2021",
+        "source period-end-date:  → 2037"
+      ],
+      "file": "9ed38161aee09e4f51781b857daa543d7fad2f8766bb53ce60a36d9bca63f0b1.json"
+    },
+    "315": {
+      "processed_at": "2026-01-28T15:14:22.790792",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2012-02 → 2012-02-21",
+        "source adoption-date: 2012-02 → 2012-02-21"
+      ],
+      "file": "be482e071dd90501293864499d6984035121bc21ff6f5f0ed66c3188cede0605.json"
+    },
+    "314": {
+      "processed_at": "2026-01-28T15:14:22.796060",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2014-03-06",
+        "source adoption-date: None → 2014-03-06"
+      ],
+      "file": "2c17c4b8d3400187ee2714c2fa9e932a3ea0662b2f68584b47c7e5acf9719001.json"
+    },
+    "313": {
+      "processed_at": "2026-01-28T15:14:22.802504",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2007-07-24",
+        "source adoption-date: None → 2007-07-24"
+      ],
+      "file": "513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8.json"
+    },
+    "309": {
+      "processed_at": "2026-01-28T15:14:22.808207",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-05-22",
+        "source adoption-date: None → 2018-05-22"
+      ],
+      "file": "27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e.json"
+    },
+    "308": {
+      "processed_at": "2026-01-28T15:14:22.814467",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2018-05-22 → 2018-05-22",
+        "source adoption-date: 2018-05-22 → 2018-05-22"
+      ],
+      "file": "27c814e96b4992c8ec538471017dd5a0452db934d3f5565998010797911f8b4e.json"
+    }
+  },
+  "skipped_issues": {
+    "356": "references other issue"
+  },
+  "failed_issues": {
+    "346": "requires manual deletion review",
+    "338": "No parseable changes found",
+    "332": "No parseable changes found",
+    "331": "requires manual deletion review",
+    "330": "No parseable changes found",
+    "326": "No parseable changes found",
+    "321": "No parseable changes found",
+    "317": "No parseable changes found",
+    "316": "requires manual deletion review"
+  }
+}

@@ -8,9 +8,9 @@
     "name": "Forest of Dean Allocations Plan",
     "status": "adopted",
     "year": 2018,
-    "period-start-date": "",
+    "period-start-date": 2006,
     "period-end-date": 2026,
-    "adoption-date": "2018-06",
+    "adoption-date": "2012-02-23",
     "withdrawn-date": null,
     "documents": [
       {
@@ -20,7 +20,7 @@
         "name": "Allocations Plan",
         "reference": "LP-2018",
         "document-status": "adopted",
-        "endpoint": "9d0e525eed5fea0e97ab30707a559daf5835e8305b969ad6d1ab2d291b84ebfe"
+        "endpoint": "66c7e67a751dc47a9f4763eb70fd07ca67e7bda86d92092e54ee3ec2987c9af1"
       },
       {
         "document-url": "https://www.fdean.gov.uk/media/3zgfkx2j/allocations-plan-adoption-statement.pdf",

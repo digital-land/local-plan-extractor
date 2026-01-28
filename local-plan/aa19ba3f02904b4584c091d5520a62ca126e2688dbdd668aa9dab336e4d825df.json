@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2027",
+  "name": "South Gloucestershire Local Plan: Core Strategy 2006-2027",
   "organisation-name": "South Gloucestershire Council",
   "period-start-date": 2006,
   "period-end-date": 2027,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SGC",
-  "adoption-date": null,
+  "adoption-date": "2013-12-11",
   "local-plan-boundary": "E60000296",
   "local-planning-authorities": [
     "E60000296"

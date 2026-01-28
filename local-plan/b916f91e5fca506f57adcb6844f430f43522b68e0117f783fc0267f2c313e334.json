@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2014-2037",
+  "name": "Halton Delivery And Allocations Local Plan",
   "organisation-name": "Halton Borough Council",
   "period-start-date": 2014,
   "period-end-date": 2037,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/b916f91e5fca506f57adcb6844f430f43522b68e0117f783fc0267f2c313e334.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HAL",
-  "adoption-date": null,
+  "adoption-date": "2022-03-02",
   "local-plan-boundary": "E60000017",
   "local-planning-authorities": [
     "E60000017"
