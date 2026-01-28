@@ -1461,21 +1461,21 @@ def generate_local_plan_reference(row, adoption_year_counter=None):
     else:
         type_str = 'plan'
 
-    # Get year from end-year or adoption-date
+    # Get year from adoption-date (to distinguish multiple versions)
     year = None
-    if pd.notna(row['end-year']):
-        try:
-            year = int(row['end-year'])
-        except:
-            pass
-    elif pd.notna(row.get('adoption-date')):
-        # Try to extract year from adoption-date
+    if pd.notna(row.get('adoption-date')):
         try:
             year = int(str(row['adoption-date'])[:4])
         except:
             pass
+    elif pd.notna(row['end-year']):
+        # Fallback to end-year if no adoption date
+        try:
+            year = int(row['end-year'])
+        except:
+            pass
 
-    # Build reference with just the year
+    # Build reference with just the year from adoption date
     if year:
         reference = f"{codes_str}-{type_str}-plan-{year}"
     else:
@@ -1501,10 +1501,12 @@ adoption_dates = adoption_dates.rename(columns={'start-date': 'adoption-date'})
 adoption_dates = adoption_dates.drop_duplicates(subset=['curie-organisations', 'name', 'adoption-date'])
 
 # Build a dataframe with unique plan metadata for reference generation
-# Include adoption-date in the grouping to handle multiple versions of same plan
-unique_plans = adoption_dates.copy()
-unique_plans = unique_plans.merge(
-    melted_df.drop_duplicates(subset=['curie-organisations', 'name'])[['curie-organisations', 'name', 'end-year', 'type']],
+# Start with ALL unique (curie-organisations, name) combinations
+all_unique_plans = melted_df.drop_duplicates(subset=['curie-organisations', 'name'])[['curie-organisations', 'name', 'end-year', 'type']].copy()
+
+# Merge with adoption dates (left join to keep plans without adoption dates)
+unique_plans = all_unique_plans.merge(
+    adoption_dates,
     on=['curie-organisations', 'name'],
     how='left'
 )
@@ -1561,10 +1563,21 @@ def get_plan_reference(row):
         else:
             adoption_date = None
 
-    if not adoption_date:
-        return None
+    # Try to get reference from plan_ref_map
+    # First try with the actual adoption_date
+    ref = plan_ref_map.get((curie_orgs, name, adoption_date))
 
-    return plan_ref_map.get((curie_orgs, name, adoption_date))
+    # If not found and adoption_date is None, search for entry with NaN key
+    # (pandas NaN from merge operations doesn't match Python None in dict lookup)
+    if ref is None and adoption_date is None:
+        for map_key, map_ref in plan_ref_map.items():
+            if (map_key[0] == curie_orgs and
+                map_key[1].strip() == name.strip() and
+                pd.isna(map_key[2])):  # Check if the third element is NaN
+                ref = map_ref
+                break
+
+    return ref
 
 # Apply the mapping to melted_df
 melted_df['local-plan'] = melted_df.apply(get_plan_reference, axis=1)
@@ -1621,12 +1634,23 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
     # Merge to get the base plan info
     plans = plans_with_refs.merge(plans_base, on=['curie-organisations', 'name'], how='left')
 
-    # Merge adoption dates based on the (curie-organisations, name) to get the actual adoption date
-    plans = plans.merge(
-        adoption_dates[['curie-organisations', 'name', 'adoption-date']],
-        on=['curie-organisations', 'name'],
-        how='left'
-    )
+    # Extract adoption date from local-plan reference
+    # Format: {codes}-{type}-plan-{year} or {codes}-{type}-plan-{year}-{seq}
+    # We need to look up the adoption date from plan_ref_map
+    def extract_adoption_for_plan(row):
+        """Get adoption date for this plan from the plan_ref_map"""
+        curie_orgs = row['curie-organisations']
+        name = row['name']
+        local_plan = row['local-plan']
+
+        # Search plan_ref_map for matching key with this local-plan value
+        for key, ref in plan_ref_map.items():
+            if ref == local_plan:
+                # key is (curie-organisations, name, adoption-date)
+                return key[2]  # Return adoption-date
+        return None
+
+    plans['adoption-date'] = plans.apply(extract_adoption_for_plan, axis=1)
 
     # Merge withdrawal dates
     plans = plans.merge(

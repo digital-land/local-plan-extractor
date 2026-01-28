@@ -279,6 +279,17 @@ def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, ou
                 "geometry": combined_geometry,
             })
 
+    # Deduplicate boundaries by reference (each unique geography code should appear only once)
+    seen_references = set()
+    unique_boundaries = []
+    for boundary in boundaries:
+        ref = boundary["reference"]
+        if ref not in seen_references:
+            seen_references.add(ref)
+            unique_boundaries.append(boundary)
+        else:
+            print(f"Warning: Dropping duplicate reference {ref} for {boundary['name']}", file=sys.stderr)
+
     # Write output
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     with open(output_csv, "w", newline="") as f:
@@ -292,11 +303,15 @@ def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, ou
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
 
-        for boundary in sorted(boundaries, key=lambda x: x["reference"]):
+        for boundary in sorted(unique_boundaries, key=lambda x: x["reference"]):
             writer.writerow(boundary)
 
-    print(f"✓ Generated {len(boundaries)} {plan_type} plan boundaries in {output_csv}", file=sys.stderr)
-    return len(boundaries)
+    removed_count = len(boundaries) - len(unique_boundaries)
+    if removed_count > 0:
+        print(f"✓ Generated {len(unique_boundaries)} unique {plan_type} plan boundaries in {output_csv} ({removed_count} duplicate references removed)", file=sys.stderr)
+    else:
+        print(f"✓ Generated {len(unique_boundaries)} unique {plan_type} plan boundaries in {output_csv}", file=sys.stderr)
+    return len(unique_boundaries)
 
 
 def main():
