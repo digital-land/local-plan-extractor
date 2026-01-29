@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "Crawley Borough Council",
-      "required-housing": 12835,
+      "required-housing": 5330,
       "allocated-housing": 3728,
       "windfall-housing": 1597,
       "committed-housing": "",
       "broad-locations-housing": 213,
       "annual-required-housing": 755,
       "pages": "163-164, 170-171, 173-175",
-      "notes": "Plan provides 5,330 net dwellings against Standard Method requirement of 755dpa (12,835 total). Includes allocated sites from housing trajectory totaling 3,728 dwellings, windfall allowance of 100dpa (1,597 total for 2023-2040), and broad locations (129+84=213). Remaining unmet need of 7,505 dwellings to be addressed through duty to cooperate.",
+      "notes": "The Local Plan makes provision for the development of a minimum of 5,330 net dwellings in the borough in the period 2023 to 2040. Includes allocated sites from housing trajectory totaling 3,728 dwellings, windfall allowance of 100dpa (1,597 total for 2023-2040), and broad locations (129+84=213).",
       "organisation": "local-authority:CRW"
     }
   ],
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:CRW",
-  "adoption-date": null,
+  "adoption-date": "2024-10-16",
   "local-plan-boundary": "E60000284",
-  "local-planning-authorities": [
-    "E60000284"
-  ]
+  "local-planning-authorities": ["E60000284"]
 }

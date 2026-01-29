@@ -1,7 +1,7 @@
 {
   "name": "Local Plan 2017-2030",
   "organisation-name": "City of Bradford Metropolitan District Council",
-  "period-start-date": 2017,
+  "period-start-date": 2013,
   "period-end-date": 2030,
   "housing-numbers": [
     {
@@ -11,7 +11,7 @@
       "windfall-housing": "",
       "committed-housing": 14562,
       "broad-locations-housing": "",
-      "annual-required-housing": 2200,
+      "annual-required-housing": 2476,
       "pages": "156-157, 160, 324",
       "notes": "Total requirement of 42,100 homes for 2013-2030 period. Committed housing includes 9,627 units with planning permission plus 4,935 unimplemented RUDP allocations. Document is a Core Strategy that sets overall requirements - specific allocations to be determined in subsequent Allocations DPD.",
       "organisation": "local-authority:BRD"
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:BRD",
-  "adoption-date": null,
+  "adoption-date": "2017-07-18",
   "local-plan-boundary": "E60000068",
-  "local-planning-authorities": [
-    "E60000068"
-  ]
+  "local-planning-authorities": ["E60000068"]
 }

@@ -293,6 +293,277 @@
         "source adoption-date: None → 2018-07-18"
       ],
       "file": "3af0cc61b4a4aed74600862fe04eea852052113501acd3f282fee049fef0c260.json"
+    },
+    "293": {
+      "processed_at": "2026-01-29T08:54:17.103753",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-11-27",
+        "name: Local Plan 2011-2031 → Horsham District Planning Framework",
+        "source adoption-date: None → 2015-11-27",
+        "source name: Local Plan 2011-2031 → Horsham District Planning Framework"
+      ],
+      "file": "66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1.json"
+    },
+    "292": {
+      "processed_at": "2026-01-29T08:54:17.132242",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-11 → 2017-11-23",
+        "source adoption-date: 2017-11 → 2017-11-23"
+      ],
+      "file": "96a1a48521cb5ca55ae81b4f9d06611a27e8424c30147858952c26217c8cb734.json"
+    },
+    "291": {
+      "processed_at": "2026-01-29T08:54:17.150766",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2019-05-15"
+      ],
+      "file": "7b8095dd7a60cfb231f1a2ebbfce16302d6820f91b3f11632d07b2d669ed5fb8.json"
+    },
+    "287": {
+      "processed_at": "2026-01-29T08:54:17.164313",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2016-01-28",
+        "source adoption-date: None → 2016-01-28"
+      ],
+      "file": "e83a5b22a1eccba0b502abf560fb11fd2ce4e23803a3eb7369ef1d8ca989b7a4.json"
+    },
+    "286": {
+      "processed_at": "2026-01-29T08:54:17.177222",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2022 → 2011",
+        "period-end-date: 2031 → 2031",
+        "source period-start-date:  → 2011",
+        "source period-end-date: 2031 → 2031"
+      ],
+      "file": "622fe430a655cea3067e12f8d510161bd5a72913948527097f89c6164f39d42e.json"
+    },
+    "281": {
+      "processed_at": "2026-01-29T08:54:17.186991",
+      "status": "success",
+      "changes_applied": [
+        "name: Validation Checklist for Planning and Other Applications → The Core Strategy",
+        "period-start-date:  → 2011",
+        "period-end-date:  → 2026",
+        "required-housing:  → 3200",
+        "source name: Hyndburn Local Plan 1996 → The Core Strategy",
+        "source period-start-date:  → 2011",
+        "source period-end-date:  → 2026"
+      ],
+      "file": "7d69ede0e47b4aaeb5a32407fd71d7e468e2cab53e9e7ec23effffc4e1eae4bf.json"
+    },
+    "280": {
+      "processed_at": "2026-01-29T08:54:17.198840",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2021-12-03",
+        "source adoption-date: None → 2021-12-03"
+      ],
+      "file": "c71d445e853773310bbd973533e7b8a4c2e10c13683478ff01adee323fa12c84.json"
+    },
+    "279": {
+      "processed_at": "2026-01-29T08:54:17.208662",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2024-04 → 2024-04-22",
+        "source adoption-date: 2024-04 → 2024-04-22"
+      ],
+      "file": "d8eff8619f137473583e1be88494edf153decdd4d8dcfc9ff90cdd5af40717e3.json"
+    },
+    "278": {
+      "processed_at": "2026-01-29T08:54:17.217406",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2022-02-17",
+        "source adoption-date: None → 2022-02-17"
+      ],
+      "file": "cdbb34d1790afadf46672ab49a0c139403b34f6147e8531dd1e6cbe80176e85f.json"
+    },
+    "277": {
+      "processed_at": "2026-01-29T09:24:27.109521",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2022-03-23",
+        "name: Local Plan Glossary → Ipswich Local Plan Review 2018-2036",
+        "period-start-date:  → 2018",
+        "period-end-date:  → 2036",
+        "required-housing:  → 8280",
+        "source adoption-date: None → 2022-03-23",
+        "source name: Ipswich Local Plan 2018-2036 → Ipswich Local Plan Review 2018-2036",
+        "source document name: Local Plan Glossary → Ipswich Local Plan Review 2018-2036",
+        "source period-start-date: 2018 → 2018",
+        "source period-end-date: 2036 → 2036"
+      ],
+      "file": "2bc8070f58f74fe8db990c109769a09e279c43fb7652d5b418b19b3d886de48c.json"
+    },
+    "275": {
+      "processed_at": "2026-01-29T09:24:27.121138",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2013-09-25",
+        "source adoption-date: None → 2013-09-25"
+      ],
+      "file": "dc03abcd4b2031456b8daf8f1aeded18d559ea90b6b9d26faa2d7479536c354a.json"
+    },
+    "273": {
+      "processed_at": "2026-01-29T09:24:27.132201",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2012-03-21",
+        "name: Local Plan 2011-2027 → Island Plan: The Isle of Wight Core Strategy and DM Policies DPD",
+        "source adoption-date: None → 2012-03-21",
+        "source name: Local Plan 2011-2027 → Island Plan: The Isle of Wight Core Strategy and DM Policies DPD",
+        "source document name: Adopted Local Plan 2011-2027 → Island Plan: The Isle of Wight Core Strategy and DM Policies DPD"
+      ],
+      "file": "062aac295576400a0e3229a9b36c96ddec26addc269d73534adb189df60d0f94.json"
+    },
+    "270": {
+      "processed_at": "2026-01-29T09:24:27.140212",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2009-06 → 2016-01-06",
+        "source adoption-date: 2009-06 → 2016-01-06"
+      ],
+      "file": "20c91e28bbe2f93b1b022a7e351eeb86d917fc9c572a95501e68269e902a921a.json"
+    },
+    "269": {
+      "processed_at": "2026-01-29T09:24:27.147793",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2021-05 → 2021-05-19",
+        "source adoption-date: 2021-05 → 2021-05-19"
+      ],
+      "file": "e2efdd8b1862e393c6b41ae1d78a018309ba49891fd8385be51923a15e601d6a.json"
+    },
+    "266": {
+      "processed_at": "2026-01-29T09:24:27.154933",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-08-01",
+        "source adoption-date: None → 2018-08-01"
+      ],
+      "file": "43838c3b6e9a9819b8d8c6b34ff8fa64db9a8135509634c8156acf3fd872c691.json"
+    },
+    "265": {
+      "processed_at": "2026-01-29T12:43:51.239693",
+      "status": "success",
+      "changes_applied": [
+        "name: Leeds Local Development Framework Core Strategy → Leeds Local Plan: Core Strategy (as amended by the Core  Strategy Selective Review 2019)",
+        "source name: Leeds Core Strategy → Leeds Local Plan: Core Strategy (as amended by the Core  Strategy Selective Review 2019)",
+        "source document name: Adopted Core Strategy with CSSR Policies Sept 2019 → Leeds Local Plan: Core Strategy (as amended by the Core  Strategy Selective Review 2019)"
+      ],
+      "file": "99018822c4fcc0edd5be04c5973e78c1fe1962451e7ec18b955fbab6bcb6b54c.json"
+    },
+    "264": {
+      "processed_at": "2026-01-29T12:43:51.254602",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2014-06-19",
+        "period-start-date: 2014 → 2006",
+        "period-end-date: 2026 → 2026",
+        "source adoption-date: None → 2014-06-19",
+        "source period-start-date: 2014 → 2006",
+        "source period-end-date: 2026 → 2026"
+      ],
+      "file": "34db961af3686402b004d097e5aeae203ec8b88dd05b12631fcc231d47bf5600.json"
+    },
+    "263": {
+      "processed_at": "2026-01-29T12:43:51.266112",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2011-04-01 → 2016-05-11",
+        "required-housing: 4322 → 5494"
+      ],
+      "file": "8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d.json"
+    },
+    "262": {
+      "processed_at": "2026-01-29T12:43:51.276581",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 1997 → 2006",
+        "period-end-date: 2025 → 2026",
+        "source period-start-date: 1997 → 2006",
+        "source period-end-date: 2025 → 2026"
+      ],
+      "file": "b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061.json"
+    },
+    "258": {
+      "processed_at": "2026-01-29T12:43:51.284446",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2016-11 → 2016-11-22",
+        "source adoption-date: 2016-11 → 2016-11-22"
+      ],
+      "file": "1960412b0b50d88b931c7b62b05b35a40bfa2eaf777896139fd71b588712ba77.json"
+    },
+    "257": {
+      "processed_at": "2026-01-29T12:43:51.292677",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2025-02-27",
+        "source adoption-date: 2025-02-27 → 2025-02-27"
+      ],
+      "file": "b6b7b455f91ddca3ab019503ffc6a5d4b770cc9a136eb46f159ce597b6688a01.json"
+    },
+    "256": {
+      "processed_at": "2026-01-29T12:43:51.300473",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2011 → 2006",
+        "period-end-date: 2026 → 2026",
+        "source period-start-date: 2011 → 2006",
+        "source period-end-date: 2026 → 2026"
+      ],
+      "file": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe.json"
+    },
+    "253": {
+      "processed_at": "2026-01-29T12:43:51.308342",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2017 → 2013",
+        "period-end-date: 2030 → 2030",
+        "source period-start-date: 2017 → 2013",
+        "source period-end-date: 2030 → 2030"
+      ],
+      "file": "caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500.json"
+    },
+    "252": {
+      "processed_at": "2026-01-29T12:43:51.315875",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2024-08-15 → 2024-09-18",
+        "name: LBBD Local Plan 2020-2037 → London Borough of Barking and Dagenham Local Plan 2020-2037",
+        "source adoption-date: 2024-08-15 → 2024-09-18",
+        "source name: Barking and Dagenham 2037 Local Plan → London Borough of Barking and Dagenham Local Plan 2020-2037",
+        "source document name: Barking and Dagenham 2037 Local Plan → London Borough of Barking and Dagenham Local Plan 2020-2037"
+      ],
+      "file": "29d39c1a25db57ff55d89b72b13dcf348cbb354c2ac8ebdccd34d3f445ed0a4d.json"
+    },
+    "251": {
+      "processed_at": "2026-01-29T12:43:51.324195",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2020-07-15",
+        "source adoption-date: None → 2020-07-15"
+      ],
+      "file": "669922cc8e5376afb4312ee31d50bb4eca1a98005c5a3f5f0bce92f5b2a1422b.json"
+    },
+    "249": {
+      "processed_at": "2026-01-29T12:43:51.331769",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-01-29",
+        "period-start-date: 2015 → 2010",
+        "period-end-date: 2030 → 2030",
+        "source adoption-date: None → 2015-01-29",
+        "source period-start-date: 2015 → 2010",
+        "source period-end-date: 2030 → 2030"
+      ],
+      "file": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d.json"
     }
   },
   "skipped_issues": {
@@ -308,6 +579,17 @@
     "321": "No parseable changes found",
     "317": "No parseable changes found",
     "316": "requires manual deletion review",
-    "297": "requires manual deletion review"
+    "297": "requires manual deletion review",
+    "290": "No parseable changes found",
+    "289": "No parseable changes found",
+    "288": "No parseable changes found",
+    "283": "No parseable changes found",
+    "282": "No parseable changes found",
+    "276": "requires manual deletion review",
+    "274": "No parseable changes found",
+    "267": "No parseable changes found",
+    "260": "No parseable changes found",
+    "255": "requires manual deletion review",
+    "254": "No parseable changes found"
   }
 }

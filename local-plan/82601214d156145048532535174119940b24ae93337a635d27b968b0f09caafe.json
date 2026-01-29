@@ -1,7 +1,7 @@
 {
-  "name": "Local Plan 2011-2026",
-  "organisation-name": "City of Wolverhampton Council",
-  "period-start-date": 2011,
+  "name": "Black Country Core Strategy",
+  "organisation-name": "Dudley Metropolitan Borough Council, Sandwell Metropolitan Borough Council, Walsall Metropolitan Borough Council, City of Wolverhampton Council",
+  "period-start-date": 2006,
   "period-end-date": 2026,
   "housing-numbers": [
     {
@@ -50,11 +50,11 @@
       "annual-required-housing": 671,
       "pages": "66-67",
       "notes": "Net dwellings 2006-26. Includes regeneration corridors (3002), strategic centre (1100), free-standing employment sites (306), housing renewal sites (-1175), and other capacity (1966)",
-      "organisation": ""
+      "organisation": "local-authority:WLV"
     },
     {
       "organisation-name": "Dudley, Sandwell, Walsall, Wolverhampton",
-      "organisation": "joint-planning-authority:DUD-SAW-WLL",
+      "organisation": "joint-planning-authority:DUD-SAW-WLL-WLV",
       "required-housing": 63000,
       "allocated-housing": 0,
       "windfall-housing": 0,
@@ -69,10 +69,8 @@
   "authority": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe",
   "pdf_file": "collection/document/82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe.pdf",
   "pages_analysed": 0,
-  "organisation": "local-authority:WLV",
-  "adoption-date": null,
-  "local-plan-boundary": "E60000136",
-  "local-planning-authorities": [
-    "E60000136"
-  ]
+  "organisation": "local-authority:DUD;local-authority:SAW;local-authority:WLL;local-authority:WLV",
+  "adoption-date": "2011-02-03",
+  "local-plan-boundary": "E60000132-E60000133-E60000135-E60000136",
+  "local-planning-authorities": ["E60000132-E60000133-E60000135-E60000136"]
 }

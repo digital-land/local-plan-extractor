@@ -148,19 +148,19 @@
     "reference": "LP-WLL-2011",
     "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
     "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
-    "name": "Local Plan 2011-2026",
+    "name": "Black Country Core Strategy",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2011-02-03",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
         "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
+        "name": "Black Country Core Strategy",
         "reference": "LP-WLL-2011",
         "document-status": "adopted",
         "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"

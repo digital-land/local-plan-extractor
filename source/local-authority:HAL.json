@@ -2,13 +2,6 @@
   {
     "organisation": "local-authority:HAL",
     "organisation-name": "Halton Borough Council",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "local-authority:HAL",
-    "organisation-name": "Halton Borough Council",
     "reference": "LP-HAL-2014",
     "documentation-url": "https://www3.halton.gov.uk/Pages/planning/policyguidance/planningplans.aspx",
     "document-url": "https://www3.halton.gov.uk/Documents/planning/planning%20policy/newdalp/DALP%20Adopted.pdf",
@@ -24,7 +17,7 @@
         "document-url": "https://www3.halton.gov.uk/Documents/planning/planning%20policy/newdalp/DALP%20Adopted.pdf",
         "documentation-url": "https://www3.halton.gov.uk/Pages/planning/policyguidance/planningplans.aspx",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2014-2037",
+        "name": "Halton Delivery And Allocations Local Plan",
         "reference": "LP-HAL-2014",
         "document-status": "adopted",
         "endpoint": "b916f91e5fca506f57adcb6844f430f43522b68e0117f783fc0267f2c313e334"

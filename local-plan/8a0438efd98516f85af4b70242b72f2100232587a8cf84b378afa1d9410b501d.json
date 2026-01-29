@@ -6,7 +6,7 @@
   "housing-numbers": [
     {
       "organisation-name": "Lewes District (outside National Park)",
-      "required-housing": 4322,
+      "required-housing": 5494,
       "allocated-housing": 1728,
       "windfall-housing": 600,
       "committed-housing": 1131,
@@ -18,7 +18,7 @@
     },
     {
       "organisation-name": "South Downs National Park Authority (Lewes District area)",
-      "required-housing": 2578,
+      "required-housing": 5494,
       "allocated-housing": 0,
       "windfall-housing": "",
       "committed-housing": 142,
@@ -37,5 +37,5 @@
     "local-authority:LEE",
     "national-park-authority:Q20198711"
   ],
-  "adoption-date": "2011-04-01"
+  "adoption-date": "2016-05-11"
 }

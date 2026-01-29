@@ -1,30 +1,28 @@
 {
-  "name": "Local Plan 1997-2025",
+  "name": "Core Strategy for Chiltern District",
   "organisation-name": "Chiltern District Council",
-  "period-start-date": 1997,
-  "period-end-date": 2025,
+  "period-start-date": 2006,
+  "period-end-date": 2026,
   "housing-numbers": [
     {
       "organisation-name": "Chiltern District Council",
-      "required-housing": 772,
-      "allocated-housing": 255,
-      "windfall-housing": 428,
-      "committed-housing": 89,
+      "required-housing": "2650-2900",
+      "allocated-housing": 449,
+      "windfall-housing": 195,
+      "committed-housing": 799,
       "broad-locations-housing": "",
-      "annual-required-housing": 86,
-      "pages": "Page 106 (Table 6.1)",
-      "notes": "Plan period 1997-2006. Total provision of 772 dwellings broken down as: 255 from sites identified in Local Plan, 428 from small sites (windfall), and 89 from other large sites with permission. Document shows completions 1991-7 were 1120 dwellings.",
+      "annual-required-housing": "132.5-145",
+      "pages": "27, 37, 42",
+      "notes": "Housing requirement is a range of 2,650-2,900 dwellings over the plan period (2006-2026), equating to 132.5-145 dwellings per annum. Allocated housing includes 104 from Strategic Housing Allocations (Policy CS6) and 345 from Major Developed Sites (Policy CS7). Committed housing includes dwellings built 2006-2011 (636) plus those with planning permission at March 2011 (799 total committed). Windfall figure is for small unidentified sites in years 11-15 only.",
       "organisation": "local-authority:CHN"
     }
   ],
-  "confidence": "medium",
+  "confidence": "high",
   "authority": "b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061",
   "pdf_file": "collection/document/b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061.pdf",
-  "pages_analysed": 0,
+  "pages_analysed": 32,
   "organisation": "local-authority:CHN",
-  "adoption-date": null,
+  "adoption-date": "2011-11-15",
   "local-plan-boundary": "E60000234",
-  "local-planning-authorities": [
-    "E60000234"
-  ]
+  "local-planning-authorities": ["E60000234"]
 }

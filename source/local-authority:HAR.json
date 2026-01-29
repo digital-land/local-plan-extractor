@@ -4,23 +4,23 @@
     "organisation-name": "Harlow District Council",
     "reference": "LP-HAR-2020",
     "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan",
-    "document-url": "",
-    "name": "Harlow Local Plan",
+    "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Harlow%20Local%20Development%20Plan.pdf",
+    "name": "Harlow Local Development Plan",
     "status": "adopted",
     "year": 2020,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "period-start-date": 2011,
+    "period-end-date": 2033,
+    "adoption-date": "2020-12-10",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Local%20Development%20Scheme%202025.pdf",
+        "document-url": "https://www.harlow.gov.uk/sites/default/files/documents/Harlow%20Local%20Development%20Plan.pdf",
         "documentation-url": "https://www.harlow.gov.uk/planning-and-building-control/planning-policy/local-plan/local-development-scheme",
         "document-type": "local-development-scheme",
-        "name": "Local Development Scheme 2025",
-        "reference": "LDS-2025",
+        "name": "Harlow Local Development Plan",
+        "reference": "LP-2020",
         "document-status": "adopted",
-        "endpoint": "19fcefb6e93bc43965cc7f8323f2cb9710c75f24d4ab0adf9f8c9da78c22b503"
+        "endpoint": "4744937aebeaa0d5dca55cb3f5ce52f7b79c9303af6bd17607015fc99859ca9e"
       }
     ]
   },

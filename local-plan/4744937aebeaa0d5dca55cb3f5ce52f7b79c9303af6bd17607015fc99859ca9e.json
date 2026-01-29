@@ -1,0 +1,28 @@
+{
+  "name": "Harlow Local Development Plan",
+  "organisation-name": "Harlow District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Harlow District Council",
+      "required-housing": 9200,
+      "allocated-housing": 3434,
+      "windfall-housing": "",
+      "committed-housing": 4723,
+      "broad-locations-housing": "",
+      "annual-required-housing": 418,
+      "pages": "57, 62-63, 210",
+      "notes": "Stepped requirement: 361 dwellings per annum 2011-2024, then 501 dwellings per annum 2024-2033. Total supply projected as 10,620 dwellings including 2,463 completions by March 2019. Strategic Housing Site East of Harlow provides 2,600 dwellings, other allocated sites provide 834 dwellings.",
+      "organisation": "local-authority:HAR"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4744937aebeaa0d5dca55cb3f5ce52f7b79c9303af6bd17607015fc99859ca9e",
+  "pdf_file": "collection/document/4744937aebeaa0d5dca55cb3f5ce52f7b79c9303af6bd17607015fc99859ca9e.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HAR",
+  "local-plan-boundary": "E60000161",
+  "local-planning-authorities": ["E60000161"],
+  "adoption-date": "2020-12-10"
+}

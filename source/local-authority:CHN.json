@@ -2,23 +2,23 @@
   {
     "organisation": "local-authority:CHN",
     "organisation-name": "Chiltern District Council",
-    "reference": "LP-CHN-1997",
+    "reference": "LP-CHN-2011",
     "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
-    "document-url": "https://media.buckinghamshire.gov.uk/documents/Chiltern_local_plan_sNdNTQD.pdf",
-    "name": "Local Plan 1997-2025",
+    "document-url": "https://media.buckinghamshire.gov.uk/documents/Core_Startegy_Final_Web_Version_2012_aCjnMQz.pdf",
+    "name": "Core Strategy for Chiltern District",
     "status": "adopted",
-    "year": 1997,
-    "period-start-date": 1997,
-    "period-end-date": 2025,
-    "adoption-date": null,
+    "year": 2011,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": "2011-11-15",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://media.buckinghamshire.gov.uk/documents/Chiltern_local_plan_sNdNTQD.pdf",
+        "document-url": "https://media.buckinghamshire.gov.uk/documents/Core_Startegy_Final_Web_Version_2012_aCjnMQz.pdf",
         "documentation-url": "https://www.buckinghamshire.gov.uk/planning-and-building-control/planning-policy/local-planning-guidance/local-development-plans/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 1997-2025",
-        "reference": "LP-CHN-1997",
+        "name": "Core Strategy for Chiltern District",
+        "reference": "LP-CHN-2011",
         "document-status": "adopted",
         "endpoint": "b6c4df5b1243f013d22efcab6667ef036798ff3a3514046bf87629c717708061"
       }

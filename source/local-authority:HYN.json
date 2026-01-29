@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:HYN",
     "organisation-name": "Hyndburn Borough Council",
+    "reference": "LP-HYN-2012",
+    "documentation-url": "https://www.hyndburnbc.gov.uk/localplan/2/",
+    "document-url": "https://www.hyndburnbc.gov.uk/download/adopted-core-strategy/?wpdmdl=5821&ind=1500371930098&refresh=4302eb20&filename=Adopted_version_Jan_2012_1_.pdf",
+    "name": "The Core Strategy",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": "2012-01-19",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.hyndburnbc.gov.uk/download/adopted-core-strategy/?wpdmdl=5821&ind=1500371930098&refresh=4302eb20&filename=Adopted_version_Jan_2012_1_.pdf",
+        "documentation-url": "https://www.hyndburnbc.gov.uk/localplan/2/",
+        "document-type": "local-plan",
+        "name": "The Core Strategy",
+        "reference": "LP-2012",
+        "document-status": "adopted",
+        "endpoint": "7d69ede0e47b4aaeb5a32407fd71d7e468e2cab53e9e7ec23effffc4e1eae4bf"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HYN",
+    "organisation-name": "Hyndburn Borough Council",
     "reference": "LP-HYN-1996",
     "documentation-url": "https://www.hyndburnbc.gov.uk/planningpolicy/",
     "document-url": "",

@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "Horsham District Planning Framework",
   "organisation-name": "Horsham District Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HOR",
-  "adoption-date": null,
+  "adoption-date": "2015-11-27",
   "local-plan-boundary": "E60000285",
   "local-planning-authorities": [
     "E60000285"

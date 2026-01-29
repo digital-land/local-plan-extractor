@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2027",
+  "name": "Island Plan: The Isle of Wight Core Strategy and DM Policies DPD",
   "organisation-name": "Isle of Wight Council",
   "period-start-date": 2011,
   "period-end-date": 2027,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/062aac295576400a0e3229a9b36c96ddec26addc269d73534adb189df60d0f94.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:IOW",
-  "adoption-date": null,
+  "adoption-date": "2012-03-21",
   "local-plan-boundary": "E60000223",
   "local-planning-authorities": [
     "E60000223"

@@ -378,11 +378,13 @@ This issue has been automatically processed and updated."""
 
             # Find the plan that contains this endpoint
             plan_found = False
+            matching_document = None
             for plan in source_data:
                 documents = plan.get('documents', [])
                 for doc in documents:
                     if doc.get('endpoint') == endpoint:
                         plan_found = True
+                        matching_document = doc
                         original_plan = json.loads(json.dumps(plan))
 
                         # Apply changes to the plan
@@ -393,6 +395,12 @@ This issue has been automatically processed and updated."""
                         if 'name' in changes:
                             plan['name'] = changes['name']
                             applied.append(f"source name: {original_plan.get('name')} → {changes['name']}")
+
+                            # Also update the matching document's name
+                            if matching_document:
+                                original_doc_name = matching_document.get('name')
+                                matching_document['name'] = changes['name']
+                                applied.append(f"source document name: {original_doc_name} → {changes['name']}")
 
                         if 'period-start-date' in changes:
                             plan['period-start-date'] = changes['period-start-date']
@@ -456,13 +464,23 @@ This issue has been automatically processed and updated."""
 
             if 'required-housing' in changes:
                 if data.get('housing-numbers') and len(data['housing-numbers']) > 0:
-                    data['housing-numbers'][0]['required-housing'] = changes['required-housing']
-                    applied.append(f"required-housing: {original_data['housing-numbers'][0].get('required-housing')} → {changes['required-housing']}")
+                    # For single-entry housing numbers, update the first entry
+                    # For multi-entry (joint plans), update all entries
+                    for i, housing_entry in enumerate(data['housing-numbers']):
+                        original_value = original_data['housing-numbers'][i].get('required-housing') if i < len(original_data['housing-numbers']) else ''
+                        data['housing-numbers'][i]['required-housing'] = changes['required-housing']
+                        if i == 0:
+                            applied.append(f"required-housing: {original_value} → {changes['required-housing']}")
 
             if 'annual-required-housing' in changes:
                 if data.get('housing-numbers') and len(data['housing-numbers']) > 0:
-                    data['housing-numbers'][0]['annual-required-housing'] = changes['annual-required-housing']
-                    applied.append(f"annual-required-housing: {original_data['housing-numbers'][0].get('annual-required-housing')} → {changes['annual-required-housing']}")
+                    # For single-entry housing numbers, update the first entry
+                    # For multi-entry (joint plans), update all entries
+                    for i, housing_entry in enumerate(data['housing-numbers']):
+                        original_value = original_data['housing-numbers'][i].get('annual-required-housing') if i < len(original_data['housing-numbers']) else ''
+                        data['housing-numbers'][i]['annual-required-housing'] = changes['annual-required-housing']
+                        if i == 0:
+                            applied.append(f"annual-required-housing: {original_value} → {changes['annual-required-housing']}")
 
             # Validate
             is_valid, validation_error = self._validate_json(data, json_path)
