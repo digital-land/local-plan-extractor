@@ -6,12 +6,12 @@
   "housing-numbers": [
     {
       "organisation-name": "Borough Council of King's Lynn and West Norfolk",
-      "required-housing": 10526,
+      "required-housing": 12438,
       "allocated-housing": 5044,
       "windfall-housing": 3081,
       "committed-housing": 2676,
       "broad-locations-housing": "",
-      "annual-required-housing": 554,
+      "annual-required-housing": 654,
       "pages": "32-38",
       "notes": "Total deliverable supply is 12,438 dwellings providing surplus of 1,912 over housing need. Completions 2021-24: 1,562 dwellings. Plan uses Standard Method LHN calculation of 554 homes per year over 19-year period.",
       "organisation": "local-authority:KIN"

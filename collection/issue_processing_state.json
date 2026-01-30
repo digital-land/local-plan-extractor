@@ -779,6 +779,125 @@
         "source document name: Adopted Local Plan 2011-2031 → Luton Local Plan 2011-2031"
       ],
       "file": "985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73.json"
+    },
+    "202": {
+      "processed_at": "2026-01-30T14:44:49.182800",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2012-10-30",
+        "source adoption-date: None → 2012-10-30"
+      ],
+      "file": "72cb4437537677564ff56a57a63a53b8b11f0b6ccb77df16807524fd4aa88dc7.json"
+    },
+    "200": {
+      "processed_at": "2026-01-30T14:44:49.194199",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2014-2029 → Maldon District Approved Local Development Plan 2014-2029",
+        "source name: Local Plan 2014-2029 → Maldon District Approved Local Development Plan 2014-2029",
+        "source document name: Adopted Local Plan 2014-2029 → Maldon District Approved Local Development Plan 2014-2029"
+      ],
+      "file": "bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327.json"
+    },
+    "199": {
+      "processed_at": "2026-01-30T14:44:49.204431",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-11-13",
+        "source adoption-date: None → 2018-11-13"
+      ],
+      "file": "ca0f62d61aeff6184e190d0ade3d62a21917f5aea191792729c14a2bfa04442a.json"
+    },
+    "198": {
+      "processed_at": "2026-01-30T14:44:49.216106",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 1991 → 2016",
+        "period-end-date: 2011 → 2033",
+        "source period-start-date: 2001 → 2016",
+        "source period-end-date: 2011 → 2033"
+      ],
+      "file": "874f54482bc24a7eb27385fdc83b2410f0926bc688f8743972d2b3db4567f7f7.json"
+    },
+    "194": {
+      "processed_at": "2026-01-30T14:44:49.225315",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date:  → 2011",
+        "period-end-date:  → 2036",
+        "source period-start-date:  → 2011",
+        "source period-end-date:  → 2036"
+      ],
+      "file": "931eb87d37417174d5b0218f987dc86a2ded67018cfcbd69402688605b49bb72.json"
+    },
+    "193": {
+      "processed_at": "2026-01-30T14:44:49.235483",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2014-12-15",
+        "name: Local Plan 2006-2029 → Mendip Local Plan Part One: Strategy and Policies",
+        "source adoption-date: None → 2014-12-15",
+        "source name: Local Plan 2006-2029 → Mendip Local Plan Part One: Strategy and Policies",
+        "source document name: Adopted Local Plan 2006-2029 → Mendip Local Plan Part One: Strategy and Policies"
+      ],
+      "file": "d4219de0e9cb563d94b0c050a1117c689e87dca0c52c585defe2419882548bf1.json"
+    },
+    "191": {
+      "processed_at": "2026-01-30T14:44:49.243573",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2012-2029 → Middlesbrough Housing Local Plan",
+        "source name: Local Plan 2012-2029 → Middlesbrough Housing Local Plan",
+        "source document name: Adopted Local Plan 2012-2029 → Middlesbrough Housing Local Plan"
+      ],
+      "file": "ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e.json"
+    },
+    "189": {
+      "processed_at": "2026-01-30T14:44:49.252674",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2024-10 → 2024-10-15",
+        "name: Mole Valley Local Plan → Mole Valley Local Plan 2020-2039",
+        "source adoption-date: 2024-10 → 2024-10-15",
+        "source name: Mole Valley Local Plan 2020-2039 → Mole Valley Local Plan 2020-2039",
+        "source document name: Mole Valley Local Plan 2020-2039 → Mole Valley Local Plan 2020-2039"
+      ],
+      "file": "7c5462fa179f7b1def3c213cde9f487408ac5218f2186093040b1d5c09fc3196.json"
+    },
+    "188": {
+      "processed_at": "2026-01-30T14:44:49.260475",
+      "status": "success",
+      "changes_applied": [
+        "name: Allocations & Development Management DPD (Final Proposed Modifications) → wrong plan used here.  It should be: Newark & Sherwood Plan Review - Amended Core Strategy",
+        "period-start-date: 2006 → 2013",
+        "period-end-date: 2026 → 2033",
+        "source name: Newark and Sherwood Amended Core Strategy → wrong plan used here.  It should be: Newark & Sherwood Plan Review - Amended Core Strategy",
+        "source document name: Proposed Modifications → wrong plan used here.  It should be: Newark & Sherwood Plan Review - Amended Core Strategy",
+        "source period-start-date:  → 2013",
+        "source period-end-date:  → 2033"
+      ],
+      "file": "709c62204913cce35ee96677cde9883e4d7ce20a15463e104db77758fd1461d0.json"
+    },
+    "186": {
+      "processed_at": "2026-01-30T14:44:49.265949",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2008-02 → 2009-10-28",
+        "name: Newcastle-under-Lyme and Stoke-on-Trent Joint Core Strategy → Newcastle-under-Lyme and Stoke-on-Trent Core Spatial Strategy"
+      ],
+      "file": "ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746.json"
+    },
+    "183": {
+      "processed_at": "2026-01-30T14:44:49.271214",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2016-01-15",
+        "name: Local Plan 2011-2031 → North Dorset Local Plan Part 1",
+        "source adoption-date: None → 2016-01-15",
+        "source name: Local Plan 2011-2031 → North Dorset Local Plan Part 1",
+        "source document name: Adopted Local Plan 2011-2031 → North Dorset Local Plan Part 1"
+      ],
+      "file": "c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46.json"
     }
   },
   "skipped_issues": {
@@ -820,6 +939,10 @@
     "215": "No parseable changes found",
     "213": "No parseable changes found",
     "207": "No parseable changes found",
-    "205": "No parseable changes found"
+    "205": "No parseable changes found",
+    "197": "No parseable changes found",
+    "196": "No parseable changes found",
+    "195": "No parseable changes found",
+    "187": "requires manual deletion review"
   }
 }

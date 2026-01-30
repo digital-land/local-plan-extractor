@@ -1,0 +1,28 @@
+{
+  "name": "North Hertfordshire Local Plan 2011-2031",
+  "organisation-name": "North Hertfordshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Hertfordshire District Council",
+      "required-housing": 13000,
+      "allocated-housing": 8900,
+      "windfall-housing": "",
+      "committed-housing": 5100,
+      "broad-locations-housing": 50,
+      "annual-required-housing": 650,
+      "pages": "63-67, 283-285",
+      "notes": "Main Modifications at examination reduced the Plan’s requirement for new housing to meet the district’s needs from 14,000 homes over the plan period to 11,600. An additional 1,400 homes would be provided in this plan period to help meet Luton's unmet need, so the overall figure is 13,000 homes. See policy SP2 (page 41-42).",
+      "organisation": "local-authority:NHE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "995ad7bf73179cd07662d040b2e82e04db50236820ad5012d98742b2c518ee65",
+  "pdf_file": "collection/document/995ad7bf73179cd07662d040b2e82e04db50236820ad5012d98742b2c518ee65.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NHE",
+  "adoption-date": "2022-11-08",
+  "local-plan-boundary": "E60000170",
+  "local-planning-authorities": ["E60000170"]
+}

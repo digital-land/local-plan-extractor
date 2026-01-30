@@ -1,8 +1,8 @@
 {
-  "name": "Allocations & Development Management DPD (Final Proposed Modifications)",
+  "name": "wrong plan used here.  It should be: Newark & Sherwood Plan Review - Amended Core Strategy",
   "organisation-name": "Newark & Sherwood District Council",
-  "period-start-date": 2006,
-  "period-end-date": 2026,
+  "period-start-date": 2013,
+  "period-end-date": 2033,
   "housing-numbers": [
     {
       "organisation-name": "Newark & Sherwood District Council",
@@ -25,6 +25,5 @@
   "local-plan-boundary": "E60000111",
   "local-planning-authorities": [
     "E60000111"
-  ],
-  "document-url": "https://www.newark-sherwooddc.gov.uk/media/newark-and-sherwood/images-and-files/planning-policy/pdfs/allocations-development-managment-options-report/final-proposed-modifications/finalModification.pdf"
+  ]
 }

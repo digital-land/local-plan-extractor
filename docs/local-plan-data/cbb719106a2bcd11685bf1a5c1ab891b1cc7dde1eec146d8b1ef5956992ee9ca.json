@@ -8,12 +8,12 @@
       "organisation-name": "Blackburn with Darwen Borough Council",
       "required-housing": 7152,
       "allocated-housing": 2965,
-      "windfall-housing": 1120,
-      "committed-housing": 2221,
+      "windfall-housing": 910,
+      "committed-housing": 3236,
       "broad-locations-housing": "",
       "annual-required-housing": 447,
       "pages": "37, 40, 252-256",
-      "notes": "Total requirement is 7,152 dwellings over 16-year period (447 dpa minimum). Housing trajectory shows committed sites (no start) delivering 1,937 units and committed sites (under construction) delivering 1,616 units for total commitments of 2,221. New Growth sites expected to deliver 2,965 units. Windfall anticipated at 70 dpa = 1,120 total. 15% lapse rate applied to commitments.",
+      "notes": "Total requirement is 7,152 dwellings over 16-year period (447 dpa minimum). Housing trajectory shows committed sites (no start) delivering 1,620 units and committed sites (under construction) delivering 1,616 units for total commitments of 3,236. New Growth sites expected to deliver 2,965 units. Windfall anticipated at 70 dpa = 910 total (over 13 year period). 15% lapse rate applied to commitments.",
       "organisation": "local-authority:BBD"
     }
   ],

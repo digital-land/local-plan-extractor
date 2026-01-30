@@ -1,0 +1,30 @@
+{
+  "name": "Melton Local Plan 2011-2036",
+  "organisation-name": "Melton Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Melton Borough Council",
+      "required-housing": 6125,
+      "allocated-housing": 5314,
+      "windfall-housing": 435,
+      "committed-housing": 2302,
+      "broad-locations-housing": "",
+      "annual-required-housing": 245,
+      "pages": "40-43",
+      "notes": "Plan period 2011-2036 (25 years). Required housing is 6,125 dwellings over plan period with stepped annual delivery: 170 dpa 2011-2021, 245 dpa 2021-2026, 320 dpa 2026-2036. Committed housing represents completions 2011-2017.",
+      "organisation": "local-authority:MEL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "10e446d17af1ef8a6f316d23501e2b3f61f09d186290d6f1992abc68f1f4b906",
+  "pdf_file": "collection/document/10e446d17af1ef8a6f316d23501e2b3f61f09d186290d6f1992abc68f1f4b906.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MEL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000116",
+  "local-planning-authorities": [
+    "E60000116"
+  ]
+}

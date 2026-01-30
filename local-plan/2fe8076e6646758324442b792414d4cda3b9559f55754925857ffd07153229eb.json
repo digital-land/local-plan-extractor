@@ -64,10 +64,6 @@
     "local-authority:WYC"
   ],
   "local-plan-boundary": "E60000140-E60000138-E60000141",
-  "local-planning-authorities": [
-    "E60000140",
-    "E60000138",
-    "E60000141"
-  ],
-  "adoption-date": "2016-02"
+  "local-planning-authorities": ["E60000140", "E60000138", "E60000141"],
+  "adoption-date": "2016-02-25"
 }

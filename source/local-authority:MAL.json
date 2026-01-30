@@ -12,19 +12,19 @@
     "reference": "LP-MAL-2014",
     "documentation-url": "https://www.maldon.gov.uk/homepage/7031/emerging_local_plan",
     "document-url": "https://www.maldon.gov.uk/download/downloads/id/14807/approved_maldon_district_local_development_plan_2014-2029.pdf",
-    "name": "Local Plan 2014-2029",
+    "name": "Maldon District Approved Local Development Plan 2014-2029",
     "status": "adopted",
     "year": 2014,
     "period-start-date": 2014,
     "period-end-date": 2029,
-    "adoption-date": null,
+    "adoption-date": "2017-07-21",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.maldon.gov.uk/download/downloads/id/14807/approved_maldon_district_local_development_plan_2014-2029.pdf",
         "documentation-url": "https://www.maldon.gov.uk/homepage/7031/emerging_local_plan",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2014-2029",
+        "name": "Maldon District Approved Local Development Plan 2014-2029",
         "reference": "LP-MAL-2014",
         "document-status": "adopted",
         "endpoint": "bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327"

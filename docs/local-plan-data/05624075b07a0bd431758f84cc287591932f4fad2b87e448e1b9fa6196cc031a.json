@@ -1,0 +1,31 @@
+{
+  "name": "Newark & Sherwood Plan Review - Amended Core Strategy",
+  "organisation-name": "Newark and Sherwood District Council",
+  "period-start-date": 2013,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Newark and Sherwood District Council",
+      "required-housing": 9080,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 5544,
+      "broad-locations-housing": "",
+      "annual-required-housing": 454,
+      "pages": "22, 137",
+      "notes": "Minimum OAN requirement of 9,080 dwellings. Strategic sites expected to deliver ~4,735 homes during plan period. Commitments figure is as at April 2017.",
+      "organisation": "local-authority:NEA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "05624075b07a0bd431758f84cc287591932f4fad2b87e448e1b9fa6196cc031a",
+  "pdf_file": "collection/document/05624075b07a0bd431758f84cc287591932f4fad2b87e448e1b9fa6196cc031a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:NEA",
+  "adoption-date": "2019-03-07",
+  "local-plan-boundary": "E60000111",
+  "local-planning-authorities": [
+    "E60000111"
+  ],
+  "document-url": "https://www.newark-sherwooddc.gov.uk/media/nsdc-redesign/documents-and-images/your-council/planning-policy/local-development-framework/amended-core-strategy-dpd/amended-core-strategy-DPD.pdf"
+}

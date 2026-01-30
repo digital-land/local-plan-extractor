@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2014-2029",
+  "name": "Maldon District Approved Local Development Plan 2014-2029",
   "organisation-name": "Maldon District Council",
   "period-start-date": 2014,
   "period-end-date": 2029,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/bcfb757bbe9e094ee789be27b7157b25583f2cda23de9dbbf5b7e360d8c60327.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:MAL",
-  "adoption-date": null,
+  "adoption-date": "2017-07-21",
   "local-plan-boundary": "E60000162",
   "local-planning-authorities": [
     "E60000162"

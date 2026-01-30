@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:NED",
   "local-plan-boundary": "E60000083",
-  "local-planning-authorities": [
-    "E60000083"
-  ],
-  "adoption-date": "2021-11"
+  "local-planning-authorities": ["E60000083"],
+  "adoption-date": "2021-11-29"
 }

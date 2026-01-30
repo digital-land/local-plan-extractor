@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2012-2029",
+  "name": "Middlesbrough Housing Local Plan",
   "organisation-name": "Middlesbrough Borough Council",
   "period-start-date": 2012,
   "period-end-date": 2029,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:MDB",
-  "adoption-date": null,
+  "adoption-date": "2014-11-26",
   "local-plan-boundary": "E60000004",
   "local-planning-authorities": [
     "E60000004"
