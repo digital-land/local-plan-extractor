@@ -1,0 +1,31 @@
+{
+  "name": "Royal Greenwich Local Plan: Core Strategy with Detailed Policies",
+  "organisation-name": "Royal Borough of Greenwich",
+  "period-start-date": 2013,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Royal Borough of Greenwich",
+      "required-housing": 38925,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 2595,
+      "pages": "24, 49",
+      "notes": "Housing target for 2013-2028 period. Document states approximately 70% of housing supply target already has planning permission. Development focused in Strategic Development Locations including Greenwich Peninsula, Woolwich Town Centre, and Charlton Riverside.",
+      "organisation": "local-authority:GRE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "521053f9f38774cbcd8548dad664e252c759292a62cdc6070735997753ffaeb1",
+  "pdf_file": "collection/document/521053f9f38774cbcd8548dad664e252c759292a62cdc6070735997753ffaeb1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:GRE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000210",
+  "local-planning-authorities": [
+    "E60000210"
+  ],
+  "document-url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-07/Royal_Greenwich_Local_Plan__Core_Strategy_with_Detailed_Policies_main.pdf"
+}

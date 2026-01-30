@@ -1,5 +1,5 @@
 {
-  "name": "Harrogate Local Plan",
+  "name": "Local Plan 2014-2035",
   "organisation-name": "Harrogate Borough Council",
   "period-start-date": 2014,
   "period-end-date": 2035,
@@ -24,5 +24,8 @@
   "organisation": "local-authority:HAG",
   "adoption-date": "2020-03-04",
   "local-plan-boundary": "E60000059",
-  "local-planning-authorities": ["E60000059"]
+  "local-planning-authorities": [
+    "E60000059"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/sites/default/files/2023-03/Housing%20transport%20and%20infrastructure%20and%20climate%20change%20chapters%205%206%20and%207%20-%20accessible.pdf"
 }

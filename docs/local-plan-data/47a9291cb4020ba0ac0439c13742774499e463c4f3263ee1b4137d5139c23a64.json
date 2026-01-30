@@ -3,7 +3,20 @@
   "organisation-name": "Durham County Council",
   "period-start-date": 2016,
   "period-end-date": 2035,
-  "housing-numbers": [],
+  "housing-numbers": [
+    {
+      "organisation-name": "Durham County Council",
+      "required-housing": 24852,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": "",
+      "pages": "58",
+      "notes": "The overall local housing need for Durham County Council, for the period 2016-2035, is 24,852 dwellings.",
+      "organisation": "local-authority:DUR"
+    }
+  ],
   "confidence": "low",
   "authority": "47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64",
   "pdf_file": "collection/document/47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64.pdf",

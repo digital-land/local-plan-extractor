@@ -5,19 +5,19 @@
     "reference": "LP-SEL-2011",
     "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/selby-planning-policy",
     "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/CS_Adoption_Ver_OCT_2013_REDUCED.pdf",
-    "name": "Local Plan 2011-2027",
+    "name": "Selby District Core Strategy Local Plan",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2027,
-    "adoption-date": null,
+    "adoption-date": "2013-10-22",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/CS_Adoption_Ver_OCT_2013_REDUCED.pdf",
         "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/selby-planning-policy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2027",
+        "name": "Selby District Core Strategy Local Plan",
         "reference": "LP-SEL-2011",
         "document-status": "adopted",
         "endpoint": "ae5df839cb61ab569829d313598b1003525e7aee99688f51e251cae5bf97d13a"

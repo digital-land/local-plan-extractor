@@ -1,0 +1,30 @@
+{
+  "name": "Chichester Local Plan 2021 – 2039",
+  "organisation-name": "Chichester District Council",
+  "period-start-date": 2021,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "organisation-name": "Chichester District Council",
+      "required-housing": 11484,
+      "allocated-housing": 7583,
+      "windfall-housing": "",
+      "committed-housing": 7583,
+      "broad-locations-housing": 1050,
+      "annual-required-housing": 638,
+      "pages": "114-118, 330-337",
+      "notes": "Stepped requirement: 575 dpa 2021/22-2029/30, then 701 dpa 2030/31-2038/39. Committed housing includes 2,326 completions + 5,257 permissions/commitments. Strategic allocations total 7,500+ dwellings. Plan area excludes South Downs National Park.",
+      "organisation": "local-authority:CHI"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2a19bad4c22e7e9f76e37f591a0c350a8846d8e22a7a9327b8224b49325dbc22",
+  "pdf_file": "collection/document/2a19bad4c22e7e9f76e37f591a0c350a8846d8e22a7a9327b8224b49325dbc22.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:CHI",
+  "adoption-date": "2025-08-19",
+  "local-plan-boundary": "E60000283",
+  "local-planning-authorities": [
+    "E60000283"
+  ]
+}

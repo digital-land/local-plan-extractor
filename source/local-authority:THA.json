@@ -100,19 +100,19 @@
     "reference": "LP-THA-2011",
     "documentation-url": "https://www.thanet.gov.uk/info-pages/local-plan-updates/",
     "document-url": "https://drive.google.com/file/d/1-r3erW9sRkdivhzyAab8igZWr-2OKxvw",
-    "name": "Local Plan 2011-2031",
+    "name": "Thanet Local Plan",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2020-07-09",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://drive.google.com/file/d/1-r3erW9sRkdivhzyAab8igZWr-2OKxvw",
         "documentation-url": "https://www.thanet.gov.uk/info-pages/local-plan-updates/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2031",
+        "name": "Thanet Local Plan",
         "reference": "LP-THA-2011",
         "document-status": "adopted",
         "endpoint": "b50b3ddb7214d07f70896851658a48ae5010b0c1d0232e4b30ad9175905bf787"
