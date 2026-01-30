@@ -12,19 +12,19 @@
     "reference": "LP-POR-2010",
     "documentation-url": "https://www.portsmouth.gov.uk/services/development-and-planning/planning-policy/the-portsmouth-plan-adopted-2012/",
     "document-url": "https://www.portsmouth.gov.uk/wp-content/uploads/2020/05/The-Portsmouth-Plan.pdf",
-    "name": "Local Plan 2010-2027",
+    "name": "The Portsmouth Plan",
     "status": "adopted",
     "year": 2010,
     "period-start-date": 2010,
     "period-end-date": 2027,
-    "adoption-date": null,
+    "adoption-date": "2012-01-24",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.portsmouth.gov.uk/wp-content/uploads/2020/05/The-Portsmouth-Plan.pdf",
         "documentation-url": "https://www.portsmouth.gov.uk/services/development-and-planning/planning-policy/the-portsmouth-plan-adopted-2012/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2010-2027",
+        "name": "The Portsmouth Plan",
         "reference": "LP-POR-2010",
         "document-status": "adopted",
         "endpoint": "6824b61b4da4476b8405ab649459f2fbcbb02a3db09ef5e3b0ec43f2c3fbccd4"

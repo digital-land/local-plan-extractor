@@ -1,0 +1,73 @@
+{
+  "name": "Central Lancashire Local Development Framework Adopted Core Strategy",
+  "organisation-name": "Preston City Council, South Ribble Borough Council, Chorley Borough Council",
+  "period-start-date": 2010,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Preston City Council",
+      "required-housing": 8112,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 507,
+      "pages": "71",
+      "notes": "Total requirement includes prior under-provision. Strategic sites and locations include Cottam (1300 dwellings), Central Preston, and North West Preston (2500 dwellings)",
+      "organisation": "local-authority:PRE"
+    },
+    {
+      "organisation-name": "South Ribble Borough Council",
+      "required-housing": 6672,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 417,
+      "pages": "71",
+      "notes": "Total requirement includes prior under-provision. Strategic sites include Cuerden, Buckshaw Village (part), and South of Penwortham/North of Farington (1200 dwellings)",
+      "organisation": "local-authority:SRI"
+    },
+    {
+      "organisation-name": "Chorley Borough Council",
+      "required-housing": 6672,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 417,
+      "pages": "71",
+      "notes": "Total requirement includes prior under-provision. Strategic sites include Buckshaw Village (part - 2300 dwellings remaining capacity)",
+      "organisation": "local-authority:CHO"
+    },
+    {
+      "organisation-name": "Preston City Council, South Ribble Borough Council, Chorley Borough Council",
+      "organisation": "joint-planning-authority:CHO-PRE-SRI",
+      "required-housing": 21456,
+      "allocated-housing": 0,
+      "windfall-housing": 0,
+      "committed-housing": 0,
+      "broad-locations-housing": 0,
+      "annual-required-housing": 1341,
+      "pages": "",
+      "notes": ""
+    }
+  ],
+  "confidence": "high",
+  "authority": "a6ffc36488de0edbdbb9f9900af9c4bd0703e2c5246c1659cf460d2df6d76896",
+  "pdf_file": "collection/document/a6ffc36488de0edbdbb9f9900af9c4bd0703e2c5246c1659cf460d2df6d76896.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:CHO-PRE-SRI",
+  "organisations": [
+    "local-authority:PRE",
+    "local-authority:SRI",
+    "local-authority:CHO"
+  ],
+  "adoption-date": "2012-07-18",
+  "local-plan-boundary": "E60000041-E60000044-E60000036",
+  "local-planning-authorities": [
+    "E60000041",
+    "E60000044",
+    "E60000036"
+  ]
+}

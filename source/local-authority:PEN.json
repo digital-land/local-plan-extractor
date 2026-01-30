@@ -27,25 +27,25 @@
   {
     "organisation": "local-authority:PEN",
     "organisation-name": "Pendle Borough Council",
-    "reference": "LP-PEN-DEVELOPMENT",
-    "documentation-url": "https://www.pendle.gov.uk/homepage/133/planning_policy",
-    "document-url": "",
-    "name": "Development Plan",
+    "reference": "LP-PEN-2025",
+    "documentation-url": "https://www.pendle.gov.uk/info/20072/planning_policies/600/local_plan_fourth_edition",
+    "document-url": "https://www.pendle.gov.uk/download/downloads/id/12624/local_plan_adoption_version_-_final.pdf",
+    "name": "Pendle Local Plan 4th Edition (2021-2040)",
     "status": "adopted",
-    "year": "",
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2040,
+    "adoption-date": "2025-12-18",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
-        "documentation-url": "https://www.pendle.gov.uk/homepage/133/planning_policy",
+        "document-url": "https://www.pendle.gov.uk/download/downloads/id/12624/local_plan_adoption_version_-_final.pdf",
+        "documentation-url": "https://www.pendle.gov.uk/info/20072/planning_policies/600/local_plan_fourth_edition",
         "document-type": "local-plan",
-        "name": "Development Plan",
-        "reference": "LP-DEV",
+        "name": "Pendle Local Plan 4th Edition (2021-2040)",
+        "reference": "LP-PEN-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "66e5a98fb2e4d8fedd8bb8299e6510b74e195e4e623e14da63abf30d561df906"
       }
     ]
   },

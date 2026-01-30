@@ -215,19 +215,19 @@
     "reference": "LP-RIB-2008",
     "documentation-url": "https://www.ribblevalley.gov.uk/adopted-core-strategy/adopted-core-strategy-1",
     "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1700/adopted-core-strategy",
-    "name": "Local Plan 2008-2028",
+    "name": "Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley",
     "status": "adopted",
     "year": 2008,
     "period-start-date": 2008,
     "period-end-date": 2028,
-    "adoption-date": null,
+    "adoption-date": "2014-12-16",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.ribblevalley.gov.uk/downloads/file/1700/adopted-core-strategy",
         "documentation-url": "https://www.ribblevalley.gov.uk/adopted-core-strategy/adopted-core-strategy-1",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2008-2028",
+        "name": "Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley",
         "reference": "LP-RIB-2008",
         "document-status": "adopted",
         "endpoint": "a21db06d0e11b0604b4ff7bd2c33bcd6f13a8e2d2e948e108a456234a8b66d34"

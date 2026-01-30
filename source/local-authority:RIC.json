@@ -5,19 +5,19 @@
     "reference": "LP-RIC-2024",
     "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy/local_plan",
     "document-url": "https://www2.richmond.gov.uk/docs/localplan/local_plan_interim_track_changes_for_adoption_october_2025.pdf",
-    "name": "Richmond upon Thames Local Plan",
+    "name": "Richmond upon Thames Local Plan ‘The best for our borough’ (2024 to 2039)",
     "status": "adopted",
     "year": 2024,
     "period-start-date": "",
     "period-end-date": "",
-    "adoption-date": "2018-07",
+    "adoption-date": "2025-10-07",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www2.richmond.gov.uk/docs/localplan/local_plan_interim_track_changes_for_adoption_october_2025.pdf",
         "documentation-url": "https://www.richmond.gov.uk/services/planning/planning_policy",
         "document-type": "local-plan",
-        "name": "The Local Plan",
+        "name": "Richmond upon Thames Local Plan ‘The best for our borough’ (2024 to 2039)",
         "reference": "LP-2024",
         "document-status": "adopted",
         "endpoint": "debc07b151b58ee008d1175b393ddba342aaff2af2e30b83b29568b1915fa9e9"

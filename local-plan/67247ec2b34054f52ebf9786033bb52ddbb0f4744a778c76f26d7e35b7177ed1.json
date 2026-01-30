@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "Borough of Oadby and Wigston Local Plan",
   "organisation-name": "Oadby and Wigston Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:OAD",
-  "adoption-date": null,
+  "adoption-date": "2019-04-16",
   "local-plan-boundary": "E60000091",
   "local-planning-authorities": [
     "E60000091"

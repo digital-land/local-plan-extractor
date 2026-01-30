@@ -30,19 +30,19 @@
     "reference": "LP-WOI-2010",
     "documentation-url": "https://www.woking2027.info/developmentplan/corestrategy",
     "document-url": "https://www.woking2027.info/developmentplan/corestrategy/adoptedcorestrategy.pdf",
-    "name": "Local Plan 2010-2027",
+    "name": "Woking Core Strategy October 2012",
     "status": "adopted",
     "year": 2010,
     "period-start-date": 2010,
     "period-end-date": 2027,
-    "adoption-date": null,
+    "adoption-date": "2012-10-25",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.woking2027.info/developmentplan/corestrategy/adoptedcorestrategy.pdf",
         "documentation-url": "https://www.woking2027.info/developmentplan/corestrategy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2010-2027",
+        "name": "Woking Core Strategy October 2012",
         "reference": "LP-WOI-2010",
         "document-status": "adopted",
         "endpoint": "4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4"

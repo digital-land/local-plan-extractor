@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2012-2027",
+  "name": "Reigate and Banstead Local Plan: Core Strategy",
   "organisation-name": "Reigate and Banstead Borough Council",
   "period-start-date": 2012,
   "period-end-date": 2027,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:REI",
-  "adoption-date": null,
+  "adoption-date": "2014-07-03",
   "local-plan-boundary": "E60000274",
-  "local-planning-authorities": [
-    "E60000274"
-  ]
+  "local-planning-authorities": ["E60000274"]
 }

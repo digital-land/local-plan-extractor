@@ -10,7 +10,7 @@
     "year": 2015,
     "period-start-date": 2012,
     "period-end-date": 2026,
-    "adoption-date": "2012-07",
+    "adoption-date": "2012-07-18",
     "withdrawn-date": null,
     "documents": [
       {
@@ -64,24 +64,24 @@
     "organisation": "local-authority:CHO",
     "organisation-name": "Chorley Borough Council",
     "reference": "LP-CHO-2012",
-    "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+    "documentation-url": "https://centrallocalplan.lancashire.gov.uk/plans-and-documents/core-strategy/",
     "document-url": "https://centrallocalplan.lancashire.gov.uk/media/1032/central-lancashire-core-strategy-july-2012-v1.pdf",
     "name": "Central Lancashire Core Strategy",
     "status": "adopted",
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2026,
-    "adoption-date": "2012-03-27",
+    "adoption-date": "2012-07-18",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://centrallocalplan.lancashire.gov.uk/media/1032/central-lancashire-core-strategy-july-2012-v1.pdf",
-        "documentation-url": "https://www.chorley.gov.uk/planning-policy/local-plan",
+        "documentation-url": "https://centrallocalplan.lancashire.gov.uk/plans-and-documents/core-strategy/",
         "document-type": "core-strategy",
-        "name": "Central Lancashire Core Strategy (adopted 2012)",
+        "name": "Central Lancashire Core Strategy",
         "reference": "CS-2012",
         "document-status": "adopted",
-        "endpoint": "cb0726e07f6bbfa2a8bc941ec7d818995745334d82fc88b2c40a89201be7f099"
+        "endpoint": "a6ffc36488de0edbdbb9f9900af9c4bd0703e2c5246c1659cf460d2df6d76896"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2026",
+  "name": "North Somerset Core Strategy (Consolidated)",
   "organisation-name": "North Somerset Council",
   "period-start-date": 2006,
   "period-end-date": 2026,
@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 1049,
       "pages": "65-67, 72",
-      "notes": "Housing requirement increased from original 2012 adoption following legal challenge and re-examination. 6,752 dwellings completed by April 2014, leaving 14,233 to be delivered 2014-2026. Document focuses on strategic policies rather than detailed site allocations.",
+      "notes": "The core strategy is the main planning document which guides development choices and decisions in North Somerset. The strategy was adopted on 10 April 2012. Following a high court challenge nine policies were remitted for re-examination. In September 2015, policy CS13: scale of new housing was re-adopted. The remaining remitted policies were then re-examined. On 10 January 2017, the council adopted the remaining remitted policies: CS6, CS14, CS19, CS28, CS30, CS31, CS32 and CS33. 6,752 dwellings completed by April 2014, leaving 14,233 to be delivered 2014-2026. Document focuses on strategic policies rather than detailed site allocations.",
       "organisation": "local-authority:NSM"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/61aef94f62cb2452454a3a0747117f7848ac7281354574fd7d20eaa8f9ef5174.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:NSM",
-  "adoption-date": null,
+  "adoption-date": "2017-01-10",
   "local-plan-boundary": "E60000294",
   "local-planning-authorities": [
     "E60000294"

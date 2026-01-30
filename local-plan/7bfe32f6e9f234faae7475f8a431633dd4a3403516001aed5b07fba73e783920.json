@@ -1,12 +1,12 @@
 {
-  "name": "Local Plan 2011-2030",
+  "name": "Borough of Redditch Local Plan No. 4 (2011-2030)",
   "organisation-name": "Redditch Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2030,
   "housing-numbers": [
     {
       "organisation-name": "Redditch Borough Council",
-      "required-housing": 6400,
+      "required-housing": 3000,
       "allocated-housing": 2873,
       "windfall-housing": "",
       "committed-housing": "",
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:RED",
-  "adoption-date": null,
+  "adoption-date": "2017-01-30",
   "local-plan-boundary": "E60000139",
-  "local-planning-authorities": [
-    "E60000139"
-  ]
+  "local-planning-authorities": ["E60000139"]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2021-2039",
+  "name": "Borough Plan Review (2021-2039) - Local Plan",
   "organisation-name": "Nuneaton and Bedworth Borough Council",
   "period-start-date": 2021,
   "period-end-date": 2039,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:NUN",
-  "adoption-date": null,
+  "adoption-date": "2025-12-10",
   "local-plan-boundary": "E60000126",
   "local-planning-authorities": [
     "E60000126"

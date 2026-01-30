@@ -1,11 +1,11 @@
 {
   "name": "Redbridge Local Plan 2015-2030",
-  "organisation-name": "Redbridge Borough Council",
+  "organisation-name": "London Borough of Redbridge",
   "period-start-date": 2015,
   "period-end-date": 2030,
   "housing-numbers": [
     {
-      "organisation-name": "Redbridge Borough Council",
+      "organisation-name": "London Borough of Redbridge",
       "required-housing": 16845,
       "allocated-housing": 14537,
       "windfall-housing": 2700,

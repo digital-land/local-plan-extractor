@@ -6,7 +6,7 @@
   "housing-numbers": [
     {
       "organisation-name": "Reading Borough Council",
-      "required-housing": 16077,
+      "required-housing": 15847,
       "allocated-housing": 4790,
       "windfall-housing": 2159,
       "committed-housing": 4696,
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:RDG",
   "local-plan-boundary": "E60000227",
-  "local-planning-authorities": [
-    "E60000227"
-  ],
-  "adoption-date": "2019-11"
+  "local-planning-authorities": ["E60000227"],
+  "adoption-date": "2019-11-04"
 }

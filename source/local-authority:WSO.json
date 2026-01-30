@@ -5,19 +5,19 @@
     "reference": "LP-WSO-2012",
     "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=Somerset+West+and+Taunton",
     "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EST1hG-FxFxJlqTO3dzZUGoBbU6ozrknifbqw1P5cDde3Q?e=0nV1Cg",
-    "name": "Local Plan 2012-2032",
+    "name": "West Somerset Local Plan 2032",
     "status": "adopted",
     "year": 2012,
     "period-start-date": 2012,
     "period-end-date": 2032,
-    "adoption-date": null,
+    "adoption-date": "2016-11-23",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EST1hG-FxFxJlqTO3dzZUGoBbU6ozrknifbqw1P5cDde3Q?e=0nV1Cg",
         "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=Somerset+West+and+Taunton",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2012-2032",
+        "name": "West Somerset Local Plan 2032",
         "reference": "LP-WSO-2012",
         "document-status": "adopted",
         "endpoint": "7a1509d33e2fa62f05630790667d36bf87f30ea105d41df06630901a229c45c6"

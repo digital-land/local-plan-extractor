@@ -5,19 +5,19 @@
     "reference": "LP-NWL-2017",
     "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
     "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
-    "name": "North West Leicestershire Local Plan 2011-2031",
+    "name": "North West Leicestershire Local Plan (incorporating partial review, March 2021)",
     "status": "adopted",
     "year": 2017,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2017-11-21",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.nwleics.gov.uk/files/documents/north_west_leicestershire_local_plan_as_amended_by_the_partial_review1/Adopted%20Written%20Statement%202021%20-%20public%20copy%20%284%29.pdf",
         "documentation-url": "https://www.nwleics.gov.uk/pages/local_plan_review",
         "document-type": "local-plan",
-        "name": "North West Leicestershire Local Plan",
+        "name": "North West Leicestershire Local Plan (incorporating partial review, March 2021)",
         "reference": "LP-2011-2031",
         "document-status": "adopted",
         "endpoint": "da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22"

@@ -55,19 +55,19 @@
     "reference": "LP-RED-2011",
     "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/borough-of-redditch-local-plan/borough-of-redditch-local-plan-no-4/adopted-borough-of-redditch-local-plan-no-4/",
     "document-url": "https://www.redditchbc.gov.uk/media/tbodcekr/adopted-borough-of-redditch-local-plan-no4-2011-2030.pdf",
-    "name": "Local Plan 2011-2030",
+    "name": "Borough of Redditch Local Plan No. 4 (2011-2030)",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2030,
-    "adoption-date": null,
+    "adoption-date": "2017-01-30",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.redditchbc.gov.uk/media/tbodcekr/adopted-borough-of-redditch-local-plan-no4-2011-2030.pdf",
         "documentation-url": "https://www.redditchbc.gov.uk/council/policy/planning-policy/borough-of-redditch-local-plan/borough-of-redditch-local-plan-no-4/adopted-borough-of-redditch-local-plan-no-4/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2030",
+        "name": "Borough of Redditch Local Plan No. 4 (2011-2030)",
         "reference": "LP-RED-2011",
         "document-status": "adopted",
         "endpoint": "7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920"

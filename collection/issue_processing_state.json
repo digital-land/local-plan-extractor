@@ -898,6 +898,233 @@
         "source document name: Adopted Local Plan 2011-2031 → North Dorset Local Plan Part 1"
       ],
       "file": "c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46.json"
+    },
+    "177": {
+      "processed_at": "2026-01-30T16:02:27.214978",
+      "status": "success",
+      "changes_applied": [
+        "name: North Norfolk Local Plan Adoption Version (2024-2040) → North Norfolk Local Plan 2024-2040",
+        "source name: North Norfolk Local Plan 2024-2040 → North Norfolk Local Plan 2024-2040",
+        "source document name: Adopted Local Plan 2024 to 2040 → North Norfolk Local Plan 2024-2040"
+      ],
+      "file": "9c08c0ecf0c41549b709ed63a48d6555e9fcec4b5661e41de9db4e0afe1285ba.json"
+    },
+    "173": {
+      "processed_at": "2026-01-30T16:02:27.233561",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2017-2037 → Northumberland National Park Local Plan 2017-2037",
+        "source name: Local Plan 2017-2037 → Northumberland National Park Local Plan 2017-2037",
+        "source document name: Adopted Local Plan 2017-2037 → Northumberland National Park Local Plan 2017-2037"
+      ],
+      "file": "35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a.json"
+    },
+    "172": {
+      "processed_at": "2026-01-30T16:02:27.255094",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2006-2026 → North Somerset Core Strategy (Consolidated)",
+        "source name: Local Plan 2006-2026 → North Somerset Core Strategy (Consolidated)",
+        "source document name: Adopted Local Plan 2006-2026 → North Somerset Core Strategy (Consolidated)"
+      ],
+      "file": "61aef94f62cb2452454a3a0747117f7848ac7281354574fd7d20eaa8f9ef5174.json"
+    },
+    "171": {
+      "processed_at": "2026-01-30T16:02:27.271483",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-07 → 2017-07-20",
+        "name: North Tyneside Local Plan → North Tyneside Local Plan 2017",
+        "source adoption-date: 2017-07 → 2017-07-20",
+        "source name: North Tyneside Local Plan 2017-2032 → North Tyneside Local Plan 2017",
+        "source document name: North Tyneside Local Plan 2017-2032 → North Tyneside Local Plan 2017"
+      ],
+      "file": "94129d563147764e95b8e84a46854afb79566362c362ab1732874eb335fb4512.json"
+    },
+    "170": {
+      "processed_at": "2026-01-30T16:02:27.285130",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2014-10 → 2021-09-29",
+        "source adoption-date: 2014-10 → 2021-09-29"
+      ],
+      "file": "ff5c843289c379e7cb480d5695f3180882f92aee606050f276034582e5184020.json"
+    },
+    "169": {
+      "processed_at": "2026-01-30T16:02:27.294969",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2017-11-21",
+        "name: Local Plan 2011-2031 → North West Leicestershire Local Plan (incorporating partial review, March 2021)",
+        "source adoption-date: None → 2017-11-21",
+        "source name: North West Leicestershire Local Plan 2011-2031 → North West Leicestershire Local Plan (incorporating partial review, March 2021)",
+        "source document name: North West Leicestershire Local Plan → North West Leicestershire Local Plan (incorporating partial review, March 2021)"
+      ],
+      "file": "da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22.json"
+    },
+    "168": {
+      "processed_at": "2026-01-30T16:02:27.302394",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2016-2035 → North York Moors National Park Authority Local Plan July 2020",
+        "source name: Local Plan 2016-2035 → North York Moors National Park Authority Local Plan July 2020",
+        "source document name: Adopted Local Plan 2016-2035 → North York Moors National Park Authority Local Plan July 2020"
+      ],
+      "file": "fe1da01c3c03b3c418087eb8eb704008c55c5d8aa2bd9aeebcf2688783c9986f.json"
+    },
+    "164": {
+      "processed_at": "2026-01-30T16:02:27.315191",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2025-12-10",
+        "name: Local Plan 2021-2039 → Borough Plan Review (2021-2039) - Local Plan",
+        "source adoption-date: None → 2025-12-10",
+        "source name: Borough Plan Review → Borough Plan Review (2021-2039) - Local Plan",
+        "source document name: Schedule of Additional Modifications → Borough Plan Review (2021-2039) - Local Plan"
+      ],
+      "file": "9f3936d7c0ccc8bad85e80c45f6151b15a88256167b7bd31c65b413db8c5e854.json"
+    },
+    "163": {
+      "processed_at": "2026-01-30T16:02:27.323287",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2019-04-16",
+        "name: Local Plan 2011-2031 → Borough of Oadby and Wigston Local Plan",
+        "source adoption-date: None → 2019-04-16",
+        "source name: Local Plan 2011-2031 → Borough of Oadby and Wigston Local Plan",
+        "source document name: Adopted Local Plan 2011-2031 → Borough of Oadby and Wigston Local Plan"
+      ],
+      "file": "67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1.json"
+    },
+    "162": {
+      "processed_at": "2026-01-30T16:02:27.331592",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2018-02 → 2022-06-22",
+        "source adoption-date: 2018-02 → 2022-06-22"
+      ],
+      "file": "4d6f66ad0a123b40e0c80881f2c18cabdf95d8ed550be89f9ac34721becc126b.json"
+    },
+    "160": {
+      "processed_at": "2026-01-30T16:21:10.044740",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2011-10-07",
+        "name: Local Plan 2011-2026 → Local Development Framework Core Strategy 2011",
+        "source adoption-date: None → 2011-10-07",
+        "source name: Local Plan 2011-2026 → Local Development Framework Core Strategy 2011",
+        "source document name: Adopted Local Plan 2011-2026 → Local Development Framework Core Strategy 2011"
+      ],
+      "file": "f40ffa1d40cefa6b4e5b7b5293807c0c35952a336be7222ed653c579bdcf460c.json"
+    },
+    "159": {
+      "processed_at": "2026-01-30T16:21:10.056336",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2025-12-18",
+        "period-start-date: 2011 → 2021",
+        "period-end-date: 2030 → 2040",
+        "required-housing: 5662 → 2812",
+        "source adoption-date: None → 2025-12-18",
+        "source period-start-date: 2011 → 2021",
+        "source period-end-date: 2030 → 2040"
+      ],
+      "file": "6a59fc39e4f92cffdd8851d0b94d527b08b785dd4091f58002d5a27a8c6f326e.json"
+    },
+    "157": {
+      "processed_at": "2026-01-30T16:21:10.065015",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2019-02-19 → 2022-04-26",
+        "period-start-date:  → 2016",
+        "period-end-date: 2036 → 2036",
+        "source adoption-date: 2019-02-19 → 2022-04-26",
+        "source period-start-date: 2016 → 2016",
+        "source period-end-date: 2036 → 2036"
+      ],
+      "file": "efcd5295a327c1331a5868c556793b0211e2bbd15ba8a3e03837eeaf3ca9c2d7.json"
+    },
+    "155": {
+      "processed_at": "2026-01-30T16:21:10.071081",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2012-01-24",
+        "name: Local Plan 2010-2027 → The Portsmouth Plan",
+        "source adoption-date: None → 2012-01-24",
+        "source name: Local Plan 2010-2027 → The Portsmouth Plan",
+        "source document name: Adopted Local Plan 2010-2027 → The Portsmouth Plan"
+      ],
+      "file": "6824b61b4da4476b8405ab649459f2fbcbb02a3db09ef5e3b0ec43f2c3fbccd4.json"
+    },
+    "154": {
+      "processed_at": "2026-01-30T16:21:10.076913",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2015-07-02 → 2012-07-18",
+        "source adoption-date: 2015-07-02 → 2012-07-18"
+      ],
+      "file": "ba223d059323a6400ade144328bbffdf4ef2c4a9789342f9a8cf782cff1cdb70.json"
+    },
+    "153": {
+      "processed_at": "2026-01-30T16:21:10.081789",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2012-07 → 2012-07-18",
+        "source adoption-date: 2012-07 → 2012-07-18"
+      ],
+      "file": "f2e48a280fba68a4baec6a44924b62cf8d9198bd498dab044e9f9194f0428174.json"
+    },
+    "151": {
+      "processed_at": "2026-01-30T16:21:10.087529",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2024-07-18",
+        "source adoption-date: None → 2024-07-18"
+      ],
+      "file": "c1d5e1efb3ad2609ab3992ffd9fccc4c60c7143eb93a6e9a8ab9e00ecd085a14.json"
+    },
+    "149": {
+      "processed_at": "2026-01-30T16:21:10.088249",
+      "status": "success",
+      "changes_applied": [
+        "required-housing: 16077 → 15847"
+      ],
+      "file": "5a51fe11802b9d5c4d626a0353db096630859aac30c5822ec590872a2443b580.json"
+    },
+    "146": {
+      "processed_at": "2026-01-30T16:21:10.095334",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2011-2030 → Borough of Redditch Local Plan No. 4 (2011-2030)",
+        "required-housing: 6400 → 3000",
+        "source name: Local Plan 2011-2030 → Borough of Redditch Local Plan No. 4 (2011-2030)",
+        "source document name: Adopted Local Plan 2011-2030 → Borough of Redditch Local Plan No. 4 (2011-2030)"
+      ],
+      "file": "7bfe32f6e9f234faae7475f8a431633dd4a3403516001aed5b07fba73e783920.json"
+    },
+    "144": {
+      "processed_at": "2026-01-30T16:21:10.100520",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2014-12-16",
+        "name: Local Plan 2008-2028 → Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley",
+        "source adoption-date: None → 2014-12-16",
+        "source name: Local Plan 2008-2028 → Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley",
+        "source document name: Adopted Local Plan 2008-2028 → Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley"
+      ],
+      "file": "a21db06d0e11b0604b4ff7bd2c33bcd6f13a8e2d2e948e108a456234a8b66d34.json"
+    },
+    "142": {
+      "processed_at": "2026-01-30T16:21:10.103830",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2018-07 → 2025-10-07",
+        "name: Richmond Local Plan 'The best for our borough' (2024 to 2039) → Richmond upon Thames Local Plan ‘The best for our borough’  (2024 to 2039)",
+        "source adoption-date: 2018-07 → 2025-10-07",
+        "source name: Richmond upon Thames Local Plan → Richmond upon Thames Local Plan ‘The best for our borough’  (2024 to 2039)",
+        "source document name: The Local Plan → Richmond upon Thames Local Plan ‘The best for our borough’  (2024 to 2039)"
+      ],
+      "file": "debc07b151b58ee008d1175b393ddba342aaff2af2e30b83b29568b1915fa9e9.json"
     }
   },
   "skipped_issues": {
@@ -943,6 +1170,16 @@
     "197": "No parseable changes found",
     "196": "No parseable changes found",
     "195": "No parseable changes found",
-    "187": "requires manual deletion review"
+    "187": "requires manual deletion review",
+    "178": "requires manual deletion review",
+    "176": "No parseable changes found",
+    "175": "requires manual deletion review",
+    "167": "requires manual deletion review",
+    "166": "requires manual deletion review",
+    "165": "requires manual deletion review",
+    "156": "No parseable changes found",
+    "150": "No parseable changes found",
+    "148": "No parseable changes found",
+    "145": "No parseable changes found"
   }
 }

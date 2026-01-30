@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:WLA",
   "local-plan-boundary": "E60000045",
-  "local-planning-authorities": [
-    "E60000045"
-  ],
-  "adoption-date": "2013-10"
+  "local-planning-authorities": ["E60000045"],
+  "adoption-date": "2013-10-16"
 }

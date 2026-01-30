@@ -1,7 +1,7 @@
 {
   "name": "Wyre Forest District - Settlement Hierarchy Technical Paper",
   "organisation-name": "Wyre Forest District Council",
-  "period-start-date": "",
+  "period-start-date": 2016,
   "period-end-date": 2036,
   "housing-numbers": [
     {
@@ -26,5 +26,5 @@
   "local-planning-authorities": [
     "E60000142"
   ],
-  "adoption-date": "2019-02-19"
+  "adoption-date": "2022-04-26"
 }

@@ -1,11 +1,11 @@
 {
   "name": "Wyre Local Plan (2011-2031) (incorporating partial update of 2022)",
-  "organisation-name": "Wyre Council",
+  "organisation-name": "Wyre Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "organisation-name": "Wyre Council",
+      "organisation-name": "Wyre Borough Council",
       "required-housing": 7384,
       "allocated-housing": 5192,
       "windfall-housing": 300,
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:WYR",
   "local-plan-boundary": "E60000046",
-  "local-planning-authorities": [
-    "E60000046"
-  ],
-  "adoption-date": "2019-02-28"
+  "local-planning-authorities": ["E60000046"],
+  "adoption-date": "2023-01-26"
 }

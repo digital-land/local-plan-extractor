@@ -1,0 +1,31 @@
+{
+  "name": "Pendle Local Plan 4th Edition (2021-2040)",
+  "organisation-name": "Pendle Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2040,
+  "housing-numbers": [
+    {
+      "organisation-name": "Pendle Borough Council",
+      "required-housing": 2812,
+      "allocated-housing": 683,
+      "windfall-housing": 910,
+      "committed-housing": 1167,
+      "broad-locations-housing": "",
+      "annual-required-housing": 148,
+      "pages": "37-39, 249-250, 274",
+      "notes": "Required housing is 2,812 net dwellings over plan period (148 dpa). Allocated housing includes 550 from Local Plan allocations + 133 from Neighbourhood Plan allocations. Committed housing includes 419 from Trough Laithe Strategic Housing Site + 748 from other commitments. Total provision is 3,450 dwellings providing 638 surplus over requirement.",
+      "organisation": "local-authority:PEN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "66e5a98fb2e4d8fedd8bb8299e6510b74e195e4e623e14da63abf30d561df906",
+  "pdf_file": "collection/document/66e5a98fb2e4d8fedd8bb8299e6510b74e195e4e623e14da63abf30d561df906.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:PEN",
+  "adoption-date": "2025-12-18",
+  "local-plan-boundary": "E60000040",
+  "local-planning-authorities": [
+    "E60000040"
+  ],
+  "document-url": "https://www.pendle.gov.uk/download/downloads/id/12624/local_plan_adoption_version_-_final.pdf"
+}

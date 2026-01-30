@@ -12,19 +12,19 @@
     "reference": "LP-WIL-2011",
     "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
     "document-url": "https://www.wiltshire.gov.uk/media/372/Wiltshire-Core-Strategy-adopted-2015/pdf/Wiltshire_Core_Strategy_2015.pdf?m=1735555642237",
-    "name": "Local Plan 2011-2026",
+    "name": "Wiltshire Core Strategy",
     "status": "adopted",
     "year": 2011,
-    "period-start-date": 2011,
+    "period-start-date": 2006,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2015-01-20",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.wiltshire.gov.uk/media/372/Wiltshire-Core-Strategy-adopted-2015/pdf/Wiltshire_Core_Strategy_2015.pdf?m=1735555642237",
         "documentation-url": "https://www.wiltshire.gov.uk/planning-policy-core-strategy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
+        "name": "Wiltshire Core Strategy",
         "reference": "LP-WIL-2011",
         "document-status": "adopted",
         "endpoint": "3cf1903ea21469e062d9152d4d805e1afab5d53c42595fad297cf14ad680ccb8"

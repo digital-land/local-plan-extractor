@@ -1,5 +1,5 @@
 {
-  "name": "Worthing Plan 2020-2036",
+  "name": "Worthing Local Plan 2023",
   "organisation-name": "Worthing Borough Council",
   "period-start-date": 2020,
   "period-end-date": 2036,
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:WOT",
   "local-plan-boundary": "E60000287",
-  "local-planning-authorities": [
-    "E60000287"
-  ],
+  "local-planning-authorities": ["E60000287"],
   "adoption-date": "2023-03-28"
 }

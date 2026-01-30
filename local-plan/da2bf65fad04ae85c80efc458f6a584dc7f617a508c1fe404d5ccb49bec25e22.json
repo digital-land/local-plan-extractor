@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "North West Leicestershire Local Plan (incorporating partial review, March 2021)",
   "organisation-name": "North West Leicestershire District Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/da2bf65fad04ae85c80efc458f6a584dc7f617a508c1fe404d5ccb49bec25e22.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:NWL",
-  "adoption-date": null,
+  "adoption-date": "2017-11-21",
   "local-plan-boundary": "E60000090",
   "local-planning-authorities": [
     "E60000090"

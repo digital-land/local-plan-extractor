@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2008-2028",
+  "name": "Core Strategy 2008 – 2028:  A Local Plan for Ribble Valley",
   "organisation-name": "Ribble Valley Borough Council",
   "period-start-date": 2008,
   "period-end-date": 2028,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/a21db06d0e11b0604b4ff7bd2c33bcd6f13a8e2d2e948e108a456234a8b66d34.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:RIB",
-  "adoption-date": null,
+  "adoption-date": "2014-12-16",
   "local-plan-boundary": "E60000042",
   "local-planning-authorities": [
     "E60000042"
