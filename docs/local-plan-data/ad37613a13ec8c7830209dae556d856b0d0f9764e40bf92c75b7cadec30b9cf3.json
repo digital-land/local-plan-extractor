@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2014-2036",
+  "organisation-name": "Hambleton District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Hambleton District Council",
+      "required-housing": 6930,
+      "allocated-housing": 1335,
+      "windfall-housing": "",
+      "committed-housing": 3297,
+      "broad-locations-housing": "",
+      "annual-required-housing": 315,
+      "pages": "38, 86-90",
+      "notes": "Total requirement 6,930 homes over 22-year period (315 per year from HEDNA). Completions to March 2021: 3,387. Commitments (adjusted for 10% non-implementation): 3,297. Residual minimum requirement for allocation: 246 homes. Total allocated sites provide approximately 1,335 homes across market towns and villages.",
+      "organisation": "local-authority:HAE"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "ad37613a13ec8c7830209dae556d856b0d0f9764e40bf92c75b7cadec30b9cf3",
+  "pdf_file": "collection/document/ad37613a13ec8c7830209dae556d856b0d0f9764e40bf92c75b7cadec30b9cf3.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HAE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000058",
+  "local-planning-authorities": [
+    "E60000058"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/sites/default/files/2024-01/Hambleton%20Local%20Plan%20with%20updated%20links%20July%202023%20-%20accessible.pdf"
+}

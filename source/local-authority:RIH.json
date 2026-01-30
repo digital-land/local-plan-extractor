@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:RIH",
+    "organisation-name": "Richmondshire District Council",
+    "reference": "LP-RIH-2012",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/richmondshire-planning-policy/current-planning-policy",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/core-strategy-2012-28.pdf",
+    "name": "Local Plan 2012-2028",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2028,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/core-strategy-2012-28.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/richmondshire-planning-policy/current-planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2012-2028",
+        "reference": "LP-RIH-2012",
+        "document-status": "adopted",
+        "endpoint": "f598f2a3ec5a98c92ae3e72b76b99c2105c38f51c75e3c584d5e70f0963a6298"
+      }
+    ]
+  }
+]

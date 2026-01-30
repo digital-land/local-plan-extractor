@@ -1,0 +1,28 @@
+{
+  "name": "Local Plan 2024-2038",
+  "organisation-name": "London Borough of Merton",
+  "period-start-date": 2024,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Merton Council",
+      "required-housing": 12084,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 918,
+      "pages": "P.335-336, P.337",
+      "notes": "Strategic Policy H11.2 Housing Provision. Merton will aim to deliver a minimum of 12,084 additional homes for the period 2021/22 - 2037/38 via a stepped housing target, set out at Page 335 of the Plan",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "fa3811596093f9006479dbfa8d8728a8130c42bc18b34864d3d894eb498a47dc",
+  "pdf_file": "collection/document/fa3811596093f9006479dbfa8d8728a8130c42bc18b34864d3d894eb498a47dc.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:MRT",
+  "adoption-date": "2024-11-20",
+  "local-plan-boundary": "E60000216",
+  "local-planning-authorities": ["E60000216"]
+}

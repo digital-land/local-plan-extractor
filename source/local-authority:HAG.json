@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:HAG",
+    "organisation-name": "Harrogate Borough Council",
+    "reference": "LP-HAG-2014",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/harrogate-planning-policy",
+    "document-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/harrogate-planning-policy/harrogate-district-local-plan",
+    "name": "Local Plan 2014-2035",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2035,
+    "adoption-date": "2020-03-04",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/2023-03/Housing%20transport%20and%20infrastructure%20and%20climate%20change%20chapters%205%206%20and%207%20-%20accessible.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/harrogate-planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2014-2035",
+        "reference": "LP-HAG-2014",
+        "document-status": "adopted",
+        "endpoint": "3cf13ae14e62fc729c010d61c3bcc8cae4d33aeeb2ee19522902c9c043bbe1f7"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2014-2032",
+  "organisation-name": "Eden District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Eden District Council",
+      "required-housing": 4356,
+      "allocated-housing": 1142,
+      "windfall-housing": 261,
+      "committed-housing": 2319,
+      "broad-locations-housing": "",
+      "annual-required-housing": 242,
+      "pages": "24, 25",
+      "notes": "Total requirement is 4356 homes over 18 years (2014/15-2031/32). Committed housing includes 634 completions and 1685 permissions/under construction. Windfall allowance applies only to Key Hubs. Residual requirement of 1142 homes to be met through allocations and other sources.",
+      "organisation": "local-authority:EDN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "18aaca71720dfc91d5e5ce77703c7f7a457035e377c34a7b75c9bdef22062a0a",
+  "pdf_file": "collection/document/18aaca71720dfc91d5e5ce77703c7f7a457035e377c34a7b75c9bdef22062a0a.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:EDN",
+  "adoption-date": "2018-10-11",
+  "local-plan-boundary": "E60000023",
+  "local-planning-authorities": [
+    "E60000023"
+  ],
+  "document-url": "https://www.eden.gov.uk/media/5032/edenlocalplan2014-2032finalwithoutforeword.pdf"
+}

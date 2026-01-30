@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Havant Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Havant Borough Council",
+      "required-housing": 6300,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 878,
+      "broad-locations-housing": "",
+      "annual-required-housing": 315,
+      "pages": "21, 57-58, 86-87, 152",
+      "notes": "Total requirement is 6,300 homes 2006-2026. 878 homes completed between 2006-2009. Strategic sites will provide some housing but specific numbers not detailed. Development Delivery (Allocations) Plan will identify majority of housing sites.",
+      "organisation": "local-authority:HAA"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "e16705e28bc3bc996a1c52b1a0c5bf9e1fd4336413b46b7d4a6f13d532c704bb",
+  "pdf_file": "collection/document/e16705e28bc3bc996a1c52b1a0c5bf9e1fd4336413b46b7d4a6f13d532c704bb.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HAA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000248",
+  "local-planning-authorities": [
+    "E60000248"
+  ]
+}

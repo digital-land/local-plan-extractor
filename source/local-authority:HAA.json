@@ -183,5 +183,30 @@
         "endpoint": "ddc636a8e80e02f599b51f94755d95d146030c180a033cd31d9860d106feb4d3"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:HAA",
+    "organisation-name": "Havant Borough Council",
+    "reference": "LP-HAA-2006",
+    "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy",
+    "document-url": "https://www.havant.gov.uk/sites/default/files/documents/ADOPTED%20CORE%20STRATEGY%20.pdf",
+    "name": "Local Plan 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.havant.gov.uk/sites/default/files/documents/ADOPTED%20CORE%20STRATEGY%20.pdf",
+        "documentation-url": "https://www.havant.gov.uk/planning-services/planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2026",
+        "reference": "LP-HAA-2006",
+        "document-status": "adopted",
+        "endpoint": "e16705e28bc3bc996a1c52b1a0c5bf9e1fd4336413b46b7d4a6f13d532c704bb"
+      }
+    ]
   }
 ]

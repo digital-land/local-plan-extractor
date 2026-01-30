@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2004-2021",
+  "organisation-name": "Southend-on-Sea Borough Council",
+  "period-start-date": 2004,
+  "period-end-date": 2021,
+  "housing-numbers": [
+    {
+      "organisation-name": "Southend on Sea Borough Council",
+      "required-housing": 6500,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 325,
+      "pages": "1, 6, 13, 41, 84, 89, 91",
+      "notes": "6,500 net additional dwellings required 2001-2021 as per East of England Plan Policy H1. Housing distributed across: Town Centre & Central Area (2,000), Shoeburyness (1,400), Seafront (550), Priority Urban Areas (2,750), Intensification (1,500). Document notes 325 dwellings per annum target. This is a strategic policy document - detailed allocations to follow in subsequent DPDs.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "72a98f37c8147e99cee521ed654508a241853e3b2bfe186830eeca0f402338ce",
+  "pdf_file": "collection/document/72a98f37c8147e99cee521ed654508a241853e3b2bfe186830eeca0f402338ce.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SOS",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000147",
+  "local-planning-authorities": [
+    "E60000147"
+  ],
+  "document-url": "https://www.southend.gov.uk/downloads/file/7023/core-strategy-dpd1-document-2007-"
+}

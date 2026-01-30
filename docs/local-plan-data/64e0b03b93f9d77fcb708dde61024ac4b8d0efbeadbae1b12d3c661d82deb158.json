@@ -1,0 +1,18 @@
+{
+  "name": "Local Plan 2014-2035",
+  "organisation-name": "Harrogate Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2035,
+  "housing-numbers": [],
+  "confidence": "low",
+  "authority": "64e0b03b93f9d77fcb708dde61024ac4b8d0efbeadbae1b12d3c661d82deb158",
+  "pdf_file": "collection/document/64e0b03b93f9d77fcb708dde61024ac4b8d0efbeadbae1b12d3c661d82deb158.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HAG",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000059",
+  "local-planning-authorities": [
+    "E60000059"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/harrogate-planning-policy/harrogate-district-local-plan"
+}

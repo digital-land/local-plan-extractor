@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2027",
+  "organisation-name": "Selby District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Selby District Council",
+      "required-housing": 7200,
+      "allocated-housing": 5340,
+      "windfall-housing": 1680,
+      "committed-housing": 1820,
+      "broad-locations-housing": "",
+      "annual-required-housing": 450,
+      "pages": "54-55, 47-48, 52-53, 140-142",
+      "notes": "450 dpa minimum target over 16 years (2011-2027). Committed housing (1820) is part of allocated sites total. Additional windfalls of 105+ dpa expected on top of the 450 dpa target, giving range of 105-170 dpa additional windfall supply. Strategic site at Olympia Park provides 1000 dwellings.",
+      "organisation": "local-authority:SEL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ae5df839cb61ab569829d313598b1003525e7aee99688f51e251cae5bf97d13a",
+  "pdf_file": "collection/document/ae5df839cb61ab569829d313598b1003525e7aee99688f51e251cae5bf97d13a.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SEL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000063",
+  "local-planning-authorities": [
+    "E60000063"
+  ]
+}

@@ -75,5 +75,30 @@
         "endpoint": "d4dd93af3f09c0b0411f74760ef44fdbc8520284d5ab4729ce613aa7ebb15fa0"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:HIN",
+    "organisation-name": "Hinckley and Bosworth Borough Council",
+    "reference": "LP-HIN-2006",
+    "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/856/local_development_framework/400/core_strategy",
+    "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/487/core_strategy_adopted_document.pdf",
+    "name": "Local Plan 2006-2026",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/487/core_strategy_adopted_document.pdf",
+        "documentation-url": "https://www.hinckley-bosworth.gov.uk/info/856/local_development_framework/400/core_strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2006-2026",
+        "reference": "LP-HIN-2006",
+        "document-status": "adopted",
+        "endpoint": "4e0512f95bc03a67b42d41d1709b03fe0f779d5599324bc9101f8e29f52791be"
+      }
+    ]
   }
 ]

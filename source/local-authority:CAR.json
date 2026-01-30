@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:CAR",
+    "organisation-name": "Carlisle City Council",
+    "reference": "LP-CAR-2013",
+    "documentation-url": NaN,
+    "document-url": "https://www.cumbria.gov.uk/elibrary/Content/Internet/544/17312/18058/18062/44218152210.pdf?timestamp=4422352336",
+    "name": "Local Plan 2013-2030",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2013,
+    "period-end-date": 2030,
+    "adoption-date": "2016-11-08",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.cumbria.gov.uk/elibrary/Content/Internet/544/17312/18058/18062/44218152210.pdf?timestamp=4422352336",
+        "documentation-url": NaN,
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2013-2030",
+        "reference": "LP-CAR-2013",
+        "document-status": "adopted",
+        "endpoint": "9141d37c9698a55535b5193d704491735c4d069d6e58f854e39ee6faccf8f88b"
+      }
+    ]
+  }
+]

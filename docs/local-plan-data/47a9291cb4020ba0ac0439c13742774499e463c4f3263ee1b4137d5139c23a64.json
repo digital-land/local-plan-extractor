@@ -1,0 +1,18 @@
+{
+  "name": "Local Plan 2016-2035",
+  "organisation-name": "Durham County Council",
+  "period-start-date": 2016,
+  "period-end-date": 2035,
+  "housing-numbers": [],
+  "confidence": "low",
+  "authority": "47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64",
+  "pdf_file": "collection/document/47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:DUR",
+  "adoption-date": "2020-10-21",
+  "local-plan-boundary": "E60000001",
+  "local-planning-authorities": [
+    "E60000001"
+  ],
+  "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360"
+}

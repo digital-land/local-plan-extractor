@@ -1,0 +1,18 @@
+{
+  "name": "Local Plan 2011-2027",
+  "organisation-name": "Selby District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2027,
+  "housing-numbers": [],
+  "confidence": "low",
+  "authority": "09e59f874d8ac43331ecdaa847a0740f25c8437de1778c16123a945443874145",
+  "pdf_file": "collection/document/09e59f874d8ac43331ecdaa847a0740f25c8437de1778c16123a945443874145.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SEL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000063",
+  "local-planning-authorities": [
+    "E60000063"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/selby-planning-policy/selby-development-plan/selby-core-strategy-2013"
+}

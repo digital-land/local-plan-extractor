@@ -84,5 +84,30 @@
         "endpoint": "0281a7ef04ee9734f1d730e87a42140b294ffe3e5d02602c75021666949165a2"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:BDF",
+    "organisation-name": "Bedford Borough Council",
+    "reference": "LP-BDF-2015",
+    "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2030/local-plan-2030-overview",
+    "document-url": "https://www.bedford.gov.uk/files/local-plan-2030.pdf/download?inline",
+    "name": "Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "adoption-date": "2020-01-15",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bedford.gov.uk/files/local-plan-2030.pdf/download?inline",
+        "documentation-url": "https://www.bedford.gov.uk/planning-and-building-control/planning-policy/local-plan-2030/local-plan-2030-overview",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2015-2030",
+        "reference": "LP-BDF-2015",
+        "document-status": "adopted",
+        "endpoint": "2683c08253f3bd19c5d791ddb4538ae7660d48dbba5b724340c319d3b1715606"
+      }
+    ]
   }
 ]

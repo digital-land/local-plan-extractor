@@ -1,0 +1,28 @@
+{
+  "name": "Local Plan 2014-2035",
+  "organisation-name": "Harrogate Borough Council",
+  "period-start-date": 2014,
+  "period-end-date": 2035,
+  "housing-numbers": [
+    {
+      "organisation-name": "Harrogate Borough Council",
+      "required-housing": 13377,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 669,
+      "pages": "Page 1 (5.16)",
+      "notes": "Document shows annual objectively assessed need of 669 dwellings per annum. Total requirement for the plan period 2014-2035 is 13,377 dwellings.",
+      "organisation": "local-authority:HAG"
+    }
+  ],
+  "confidence": "high",
+  "authority": "3cf13ae14e62fc729c010d61c3bcc8cae4d33aeeb2ee19522902c9c043bbe1f7",
+  "pdf_file": "collection/document/3cf13ae14e62fc729c010d61c3bcc8cae4d33aeeb2ee19522902c9c043bbe1f7.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:HAG",
+  "adoption-date": "2020-03-04",
+  "local-plan-boundary": "E60000059",
+  "local-planning-authorities": ["E60000059"]
+}

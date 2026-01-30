@@ -110,8 +110,8 @@
         
         <tr class="govuk-table__row">
           <td class="govuk-table__cell">
-            <a href="../../local-plan/AJZXEaq26SnEFQ.html" class="govuk-link">
-              Local Plan 2040
+            <a href="../../local-plan/2683c08253f3bd19c5d791ddb4538ae7660d48dbba5b724340c319d3b1715606.html" class="govuk-link">
+              Local Plan 2015-2030
             </a>
           </td>
           <td class="govuk-table__cell">
@@ -121,7 +121,7 @@
           </td>
           <td class="govuk-table__cell">
             
-              2020 - 2040
+              2015 - 2030
             
           </td>
           <td class="govuk-table__cell">
@@ -149,6 +149,11 @@
           <h2 class="govuk-visually-hidden">Support links</h2>
           <ul class="govuk-footer__inline-list">
             <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="../../review.html">
+                Review data
+              </a>
+            </li>
+            <li class="govuk-footer__inline-list-item">
               <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
                 GitHub
               </a>
@@ -161,7 +166,9 @@
 
   <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
   <script>
-    window.GOVUKFrontend.initAll()
+    if (window.GOVUKFrontend && typeof window.GOVUKFrontend.initAll === 'function') {
+      window.GOVUKFrontend.initAll()
+    }
   </script>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

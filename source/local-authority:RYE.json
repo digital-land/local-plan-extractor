@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:RYE",
+    "organisation-name": "Ryedale District Council",
+    "reference": "LP-RYE-2012",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/ryedale-planning-policy",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/The-Ryedale-Plan-Local-Plan-Stategy-Final.pdf",
+    "name": "Local Plan 2012-2027",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2027,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/The-Ryedale-Plan-Local-Plan-Stategy-Final.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/ryedale-planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2012-2027",
+        "reference": "LP-RYE-2012",
+        "document-status": "adopted",
+        "endpoint": "60e8b5eda8100c7f630301966b490f438ca851e2f664a3b7bc70936624625c06"
+      }
+    ]
+  }
+]

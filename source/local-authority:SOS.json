@@ -119,5 +119,30 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": []
+  },
+  {
+    "organisation": "local-authority:SOS",
+    "organisation-name": "Southend-on-Sea Borough Council",
+    "reference": "LP-SOS-2004",
+    "documentation-url": "https://www.southend.gov.uk/downloads/download/881/core-strategy",
+    "document-url": "https://www.southend.gov.uk/downloads/file/7023/core-strategy-dpd1-document-2007-",
+    "name": "Local Plan 2004-2021",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 2004,
+    "period-end-date": 2021,
+    "adoption-date": "2007-12-13",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.southend.gov.uk/downloads/file/7023/core-strategy-dpd1-document-2007-",
+        "documentation-url": "https://www.southend.gov.uk/downloads/download/881/core-strategy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2004-2021",
+        "reference": "LP-SOS-2004",
+        "document-status": "adopted",
+        "endpoint": "72a98f37c8147e99cee521ed654508a241853e3b2bfe186830eeca0f402338ce"
+      }
+    ]
   }
 ]

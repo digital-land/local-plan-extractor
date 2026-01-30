@@ -47,6 +47,10 @@ LocalPlanExtractor = local_plan_extractor.LocalPlanHousingExtractor
 # Import organisation matcher for geographic metadata
 from organisation_matcher import OrganisationMatcher
 
+# Import date parser for normalizing adoption dates
+sys.path.insert(0, str(Path(__file__).parent / 'github-review-issues'))
+from date_parser import parse_date
+
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
@@ -139,6 +143,23 @@ class ManualPlanImporter:
         """Create a plan entry for the source/ JSON file."""
         org_code = row['organisation']
 
+        # Extract adoption and withdrawn dates from Excel if present
+        # Parse dates to YYYY-MM-DD format
+        adoption_date = None
+        withdrawn_date = None
+
+        if 'adoption-date' in row and pd.notna(row['adoption-date']):
+            raw_date = str(row['adoption-date']).strip()
+            adoption_date = parse_date(raw_date)
+            if not adoption_date and self.verbose:
+                logger.warning(f"  Could not parse adoption-date: {raw_date}")
+
+        if 'withdrawn-date' in row and pd.notna(row['withdrawn-date']):
+            raw_date = str(row['withdrawn-date']).strip()
+            withdrawn_date = parse_date(raw_date)
+            if not withdrawn_date and self.verbose:
+                logger.warning(f"  Could not parse withdrawn-date: {raw_date}")
+
         return {
             "organisation": org_code,
             "organisation-name": row['organisation-label'],
@@ -150,8 +171,8 @@ class ManualPlanImporter:
             "year": int(row['period-start-date']),
             "period-start-date": int(row['period-start-date']),
             "period-end-date": int(row['period-end-date']),
-            "adoption-date": None,
-            "withdrawn-date": None,
+            "adoption-date": adoption_date,
+            "withdrawn-date": withdrawn_date,
             "documents": [
                 {
                     "document-url": row['document-url'],
@@ -313,6 +334,14 @@ class ManualPlanImporter:
             lpa_code = self.org_matcher.get_local_planning_authority(org_name)
             matched_org_code = self.org_matcher.match(org_name)
 
+            # Extract adoption date from Excel if present and parse to YYYY-MM-DD format
+            adoption_date = None
+            if 'adoption-date' in row and pd.notna(row['adoption-date']):
+                raw_date = str(row['adoption-date']).strip()
+                adoption_date = parse_date(raw_date)
+                if not adoption_date and self.verbose:
+                    logger.warning(f"  Could not parse adoption-date: {raw_date}")
+
             data = {
                 "name": self._generate_plan_name(row),
                 "organisation-name": org_name,
@@ -324,7 +353,7 @@ class ManualPlanImporter:
                 "pdf_file": f"collection/document/{endpoint}.pdf",
                 "pages_analysed": 0,
                 "organisation": matched_org_code or "",
-                "adoption-date": None
+                "adoption-date": adoption_date
             }
 
             # Add geographic metadata if available
@@ -369,8 +398,12 @@ class ManualPlanImporter:
             logger.error(f"  Error generating HTML: {e}")
             return False
 
-    def import_plan(self, row: pd.Series, endpoint: Optional[str] = None) -> bool:
-        """Import a single plan. If endpoint is provided, use local file instead of downloading."""
+    def import_plan(self, row: pd.Series, endpoint: Optional[str] = None) -> Tuple[bool, Optional[str], Optional[str], bool]:
+        """Import a single plan. If endpoint is provided, use local file instead of downloading.
+
+        Returns:
+            Tuple of (success: bool, local_plan_file: str, source_file: str, was_skipped: bool)
+        """
         org_label = row['organisation-label']
         logger.info(f"\nImporting: {org_label}")
 
@@ -382,13 +415,22 @@ class ManualPlanImporter:
 
         if not doc_result:
             logger.error(f"Failed to import {org_label}")
-            return False
+            return False, None, None, False
 
         filename, content = doc_result
 
         # If endpoint not provided, calculate it from the downloaded content
         if not endpoint:
             endpoint = self.calculate_endpoint(content)
+
+        # Check if already imported (skip if local-plan JSON already exists)
+        local_plan_file = f"local-plan/{endpoint}.json"
+        local_plan_path = self.local_plan_dir / f"{endpoint}.json"
+        if local_plan_path.exists():
+            org_code = row['organisation']
+            source_file = f"source/{Path(org_code).name if ':' in org_code else org_code}.json"
+            logger.info(f"  ⊘ Already imported, skipping")
+            return True, local_plan_file, source_file, True
 
         # Save PDF to collection (check if it already exists first)
         pdf_path = self.collection_dir / f"{endpoint}.pdf"
@@ -413,14 +455,19 @@ class ManualPlanImporter:
         # Create local-plan JSON
         if not self.create_local_plan_json(row, endpoint, housing_data):
             logger.error(f"  Failed to create local-plan JSON")
-            return False
+            return False, None, None, False
 
         logger.info(f"✓ Successfully imported {org_label}")
-        return True
 
-    def import_from_excel(self, lpa_codes: Optional[List[str]] = None, test_mode: bool = False, endpoints: Optional[Dict[str, str]] = None):
+        # Return success with file paths
+        org_code = row['organisation']
+        source_file = f"source/{Path(org_code).name if ':' in org_code else org_code}.json"
+
+        return True, local_plan_file, source_file, False
+
+    def import_from_excel(self, lpa_codes: Optional[List[str]] = None, test_mode: bool = False, endpoints: Optional[Dict[str, str]] = None, excel_file: str = 'data/manually_scraped_adopted_plans.xlsx'):
         """Import plans from the Excel file. endpoints is a dict mapping org codes to endpoint hashes."""
-        xlsx_file = Path('data/manually_scraped_adopted_plans.xlsx')
+        xlsx_file = Path(excel_file)
 
         if not xlsx_file.exists():
             logger.error(f"Excel file not found: {xlsx_file}")
@@ -471,6 +518,9 @@ class ManualPlanImporter:
             return
 
         success_count = 0
+        skipped_count = 0
+        github_comments = []  # Store GitHub comment templates
+
         for idx, (i, row) in enumerate(has_urls.iterrows(), 1):
             logger.info(f"\n[{idx}/{total}] Processing...")
             try:
@@ -480,17 +530,42 @@ class ManualPlanImporter:
                     org_code = row['organisation'].split(':')[-1]
                     endpoint = endpoints.get(org_code)
 
-                if self.import_plan(row, endpoint=endpoint):
-                    success_count += 1
+                success, local_plan_file, source_file, was_skipped = self.import_plan(row, endpoint=endpoint)
+                if success:
+                    if was_skipped:
+                        skipped_count += 1
+                        logger.info(f"  Already imported: {local_plan_file}")
+                    else:
+                        success_count += 1
+
+                        # Collect GitHub comment template if issue number is available
+                        if 'github_issue' in row and pd.notna(row['github_issue']):
+                            issue_num = int(row['github_issue'])
+                            comment = f"""Added to codebase.
+- Local plan file: {local_plan_file}
+- Source file: {source_file}"""
+                            github_comments.append((issue_num, comment))
+
             except Exception as e:
                 logger.error(f"Error importing plan: {e}")
 
-        logger.info(f"\n✓ Import complete: {success_count}/{total} plans imported successfully")
+        logger.info(f"\n✓ Import complete: {success_count}/{total} plans imported, {skipped_count} skipped (already imported)")
 
         # Generate HTML for all pages if any plans were imported
         if success_count > 0:
             logger.info("\nGenerating HTML pages...")
             self.generate_html()
+
+        # Print GitHub comments for manual closure
+        if github_comments:
+            logger.info("\n" + "=" * 80)
+            logger.info("GITHUB ISSUE CLOSURE COMMENTS")
+            logger.info("=" * 80)
+            for issue_num, comment in github_comments:
+                logger.info(f"\nIssue #{issue_num}:")
+                logger.info("-" * 40)
+                logger.info(comment)
+                logger.info("-" * 40)
 
 
 def main():
@@ -517,6 +592,7 @@ Examples:
     parser.add_argument('--all', action='store_true', help='Import all plans (default if no --test or --lpas)')
     parser.add_argument('--lpas', help='Comma-separated list of LPA codes to import')
     parser.add_argument('--endpoints', help='Comma-separated list of CODE:HASH pairs for pre-downloaded files (e.g., GRY:1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374)')
+    parser.add_argument('--excel-file', default='data/manually_scraped_adopted_plans.xlsx', help='Path to Excel file to import (default: data/manually_scraped_adopted_plans.xlsx)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Verbose output')
 
     args = parser.parse_args()
@@ -540,7 +616,7 @@ Examples:
 
     test_mode = args.test
 
-    importer.import_from_excel(lpa_codes=lpa_codes, test_mode=test_mode, endpoints=endpoints)
+    importer.import_from_excel(lpa_codes=lpa_codes, test_mode=test_mode, endpoints=endpoints, excel_file=args.excel_file)
 
 
 if __name__ == '__main__':

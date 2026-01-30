@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2012-2028",
+  "organisation-name": "Richmondshire District Council",
+  "period-start-date": 2012,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Richmondshire District Council",
+      "required-housing": 2520,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 180,
+      "pages": "24, 26, 67",
+      "notes": "180 homes per year target for 14-year plan period (2014-2028). Document states this is for area outside Yorkshire Dales National Park but monitoring includes National Park area. Military housing (up to 500 homes) is additional to this target.",
+      "organisation": "local-authority:RIH"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "f598f2a3ec5a98c92ae3e72b76b99c2105c38f51c75e3c584d5e70f0963a6298",
+  "pdf_file": "collection/document/f598f2a3ec5a98c92ae3e72b76b99c2105c38f51c75e3c584d5e70f0963a6298.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:RIH",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000060",
+  "local-planning-authorities": [
+    "E60000060"
+  ]
+}

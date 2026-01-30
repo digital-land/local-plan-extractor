@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2015-2030",
+  "organisation-name": "Bedford Borough Council",
+  "period-start-date": 2015,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bedford Borough Council",
+      "required-housing": 14550,
+      "allocated-housing": 3169,
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 970,
+      "pages": "29, 32, 103",
+      "notes": "Total OAN is 14,550 homes 2015-30. Plan allocates minimum 3,169 new dwellings distributed across Bedford urban area (2,647), urban extensions (210), Stewartby (1,000), key service centres (2,000), and rural service centres (260). Annual requirement is 970 homes per year (14,550÷15 years).",
+      "organisation": "local-authority:BDF"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "2683c08253f3bd19c5d791ddb4538ae7660d48dbba5b724340c319d3b1715606",
+  "pdf_file": "collection/document/2683c08253f3bd19c5d791ddb4538ae7660d48dbba5b724340c319d3b1715606.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:BDF",
+  "adoption-date": "2020-01-15",
+  "local-plan-boundary": "E60000143",
+  "local-planning-authorities": [
+    "E60000143"
+  ]
+}

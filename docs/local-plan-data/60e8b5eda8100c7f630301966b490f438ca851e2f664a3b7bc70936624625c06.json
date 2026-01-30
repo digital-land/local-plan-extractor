@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2012-2027",
+  "organisation-name": "Ryedale District Council",
+  "period-start-date": 2012,
+  "period-end-date": 2027,
+  "housing-numbers": [
+    {
+      "organisation-name": "Ryedale District Council",
+      "required-housing": 3000,
+      "allocated-housing": "",
+      "windfall-housing": 0,
+      "committed-housing": 1285,
+      "broad-locations-housing": "",
+      "annual-required-housing": 200,
+      "pages": "44, 45, 46, 47",
+      "notes": "3,000 homes minimum target. Committed housing includes 1,203 with planning permission plus 82 awaiting legal agreements (March 2012). Windfall explicitly excluded from planned supply. Specific allocations to be determined in separate Local Plan Sites Document.",
+      "organisation": "local-authority:RYE"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "60e8b5eda8100c7f630301966b490f438ca851e2f664a3b7bc70936624625c06",
+  "pdf_file": "collection/document/60e8b5eda8100c7f630301966b490f438ca851e2f664a3b7bc70936624625c06.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:RYE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000061",
+  "local-planning-authorities": [
+    "E60000061"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/The-Ryedale-Plan-Local-Plan-Stategy-Final.pdf"
+}

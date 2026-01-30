@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2003-2025",
+  "organisation-name": "South Lakeland District Council",
+  "period-start-date": 2003,
+  "period-end-date": 2025,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Lakeland District Council",
+      "required-housing": 8800,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 1305,
+      "broad-locations-housing": "",
+      "annual-required-housing": 400,
+      "pages": "75-76, 78, 139",
+      "notes": "Total requirement of 8800 dwellings for 2003-2025 period (400 per annum). 1305 dwellings built between 2003-2009. Specific allocations to be determined in separate Allocations of Land DPD. Trajectory shows phased delivery across settlement hierarchy with Kendal (35% share), Ulverston (20% share), Key Service Centres (13% share), Local Service Centres (21% share), and Other Areas (11% share).",
+      "organisation": "local-authority:SLA"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "301998aa9064c44989329fbdc9d6b827c37506136c1d77a9d8f2c0f749386624",
+  "pdf_file": "collection/document/301998aa9064c44989329fbdc9d6b827c37506136c1d77a9d8f2c0f749386624.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SLA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000024",
+  "local-planning-authorities": [
+    "E60000024"
+  ],
+  "document-url": "https://www.southlakeland.gov.uk/media/3521/cs01-core-strategy-october-2010.pdf"
+}

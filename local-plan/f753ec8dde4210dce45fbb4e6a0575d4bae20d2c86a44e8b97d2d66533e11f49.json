@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2016-2036",
+  "organisation-name": "Northumberland County Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Northumberland County Council",
+      "required-housing": 17700,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 14767,
+      "broad-locations-housing": "",
+      "annual-required-housing": 885,
+      "pages": "120, 125, 130",
+      "notes": "Plan requires at least 17,700 dwellings at 885 per annum. Committed housing includes 6,580 completions (2016-20) plus 12,957 outstanding permissions plus 1,810 minded to approve applications. Housing allocations are made in Policy HOU 4 but specific total not quantified in the excerpts provided.",
+      "organisation": "local-authority:NBL"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "f753ec8dde4210dce45fbb4e6a0575d4bae20d2c86a44e8b97d2d66533e11f49",
+  "pdf_file": "collection/document/f753ec8dde4210dce45fbb4e6a0575d4bae20d2c86a44e8b97d2d66533e11f49.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:NBL",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000005",
+  "local-planning-authorities": [
+    "E60000005"
+  ]
+}

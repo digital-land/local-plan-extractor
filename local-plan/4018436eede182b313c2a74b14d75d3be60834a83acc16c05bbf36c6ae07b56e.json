@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2012-2032",
+  "organisation-name": "Craven District Council",
+  "period-start-date": 2012,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Craven District Council",
+      "required-housing": 4600,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 924,
+      "broad-locations-housing": "",
+      "annual-required-housing": 230,
+      "pages": "37-41, 262",
+      "notes": "Plan covers Craven outside Yorkshire Dales National Park. 924 completions 2012-2018, leaving 3676 dwellings for remainder of plan period. Housing provided through completions, permissions, allocations (Policies SP5-SP11), and windfall allowances.",
+      "organisation": "local-authority:CRA"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "4018436eede182b313c2a74b14d75d3be60834a83acc16c05bbf36c6ae07b56e",
+  "pdf_file": "collection/document/4018436eede182b313c2a74b14d75d3be60834a83acc16c05bbf36c6ae07b56e.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:CRA",
+  "adoption-date": "2019-11-12",
+  "local-plan-boundary": "E60000057",
+  "local-planning-authorities": [
+    "E60000057"
+  ]
+}

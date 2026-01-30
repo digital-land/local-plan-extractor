@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:COP",
+    "organisation-name": "Copeland Borough Council",
+    "reference": "LP-COP-2021",
+    "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+    "document-url": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_local_plan.pdf",
+    "name": "Local Plan 2021-2039",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": 2021,
+    "period-end-date": 2039,
+    "adoption-date": "2024-11-05",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_local_plan.pdf",
+        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2021-2039",
+        "reference": "LP-COP-2021",
+        "document-status": "adopted",
+        "endpoint": "406e834850f72dd2ef180921b25754ed397f01a09f518250269c4c7a698d1e73"
+      }
+    ]
+  }
+]

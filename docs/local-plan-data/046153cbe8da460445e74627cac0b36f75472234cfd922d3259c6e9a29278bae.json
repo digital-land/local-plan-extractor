@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2011-2032",
+  "organisation-name": "Scarborough Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2032,
+  "housing-numbers": [
+    {
+      "organisation-name": "Scarborough Borough Council",
+      "required-housing": 9450,
+      "allocated-housing": 6750,
+      "windfall-housing": "",
+      "committed-housing": 2980,
+      "broad-locations-housing": "",
+      "annual-required-housing": 450,
+      "pages": "56-63, 196-201",
+      "notes": "Plan provides minimum of 9,450 net additional dwellings. Housing allocations yield 6,750 homes total (5,825 expected within plan period). Committed housing includes extant permissions totaling 3,063 with discount rates applied resulting in net 2,980 dwellings. Windfall contribution noted historically at ~2,093 dwellings over 10 years but not included in main supply calculation. Annual requirement is 450 homes per year.",
+      "organisation": "local-authority:SCE"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "046153cbe8da460445e74627cac0b36f75472234cfd922d3259c6e9a29278bae",
+  "pdf_file": "collection/document/046153cbe8da460445e74627cac0b36f75472234cfd922d3259c6e9a29278bae.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:SCE",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000062",
+  "local-planning-authorities": [
+    "E60000062"
+  ],
+  "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/Scarborough%20Borough%20Local%20Plan%202011-32.pdf"
+}

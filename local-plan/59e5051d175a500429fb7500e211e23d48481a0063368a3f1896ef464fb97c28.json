@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2020-2037",
+  "organisation-name": "Bracknell Forest Council",
+  "period-start-date": 2020,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bracknell Forest Council",
+      "required-housing": 10438,
+      "allocated-housing": 2080,
+      "windfall-housing": 1220,
+      "committed-housing": 5092,
+      "broad-locations-housing": "",
+      "annual-required-housing": 614,
+      "pages": "47, 49, 51-52, 314-318",
+      "notes": "17-year plan period (2020-2037). Total housing need is 10,438 homes at 614 dpa. Hard commitments include existing permissions and SALP sites. New Local Plan allocations provide 2,080 homes. Windfall allowance covers both small (336) and medium (884) sites.",
+      "organisation": "local-authority:BRC"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28",
+  "pdf_file": "collection/document/59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:BRC",
+  "adoption-date": "2024-03-19",
+  "local-plan-boundary": "E60000221",
+  "local-planning-authorities": [
+    "E60000221"
+  ]
+}

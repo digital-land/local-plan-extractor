@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2013-2030",
+  "organisation-name": "Carlisle City Council",
+  "period-start-date": 2013,
+  "period-end-date": 2030,
+  "housing-numbers": [
+    {
+      "organisation-name": "Carlisle City Council",
+      "required-housing": 9606,
+      "allocated-housing": 4017,
+      "windfall-housing": 1500,
+      "committed-housing": 3884,
+      "broad-locations-housing": 1450,
+      "annual-required-housing": 640,
+      "pages": "31, 92-95",
+      "notes": "Required housing is 9,606 net additional dwellings (2013-2030). Annual target is 640 dwellings per annum. Housing land supply includes: 609 completions to date (2013-2015), 3,884 outstanding planning permissions, 4,017 proposed local plan allocations, 1,500 windfall provision (@100 dwellings per annum), and 1,450 from strategic allocation Carlisle South. Total supply is 11,460 dwellings.",
+      "organisation": "local-authority:CAR"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "9141d37c9698a55535b5193d704491735c4d069d6e58f854e39ee6faccf8f88b",
+  "pdf_file": "collection/document/9141d37c9698a55535b5193d704491735c4d069d6e58f854e39ee6faccf8f88b.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:CAR",
+  "adoption-date": "2016-11-08",
+  "local-plan-boundary": "E60000021",
+  "local-planning-authorities": [
+    "E60000021"
+  ]
+}

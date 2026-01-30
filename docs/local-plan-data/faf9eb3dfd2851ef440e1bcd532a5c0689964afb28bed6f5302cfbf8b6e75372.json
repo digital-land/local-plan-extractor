@@ -1,0 +1,27 @@
+{
+  "name": "Local Plan 2016-2031",
+  "organisation-name": "Barrow Borough Council",
+  "period-start-date": 2016,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Barrow Borough Council",
+      "required-housing": 1785,
+      "allocated-housing": 823,
+      "windfall-housing": 330,
+      "committed-housing": 520,
+      "broad-locations-housing": "",
+      "annual-required-housing": 119,
+      "pages": "136-137, 143-145",
+      "notes": "Total requirement 1785 over 15-year period. Allocated sites yield 823 dwellings. Windfall includes both over and under 0.1ha sites (190 + 140). Committed housing from extant permissions. Housing trajectory shows anticipated delivery of 2848 total dwellings against requirement.",
+      "organisation": ""
+    }
+  ],
+  "confidence": "medium",
+  "authority": "faf9eb3dfd2851ef440e1bcd532a5c0689964afb28bed6f5302cfbf8b6e75372",
+  "pdf_file": "collection/document/faf9eb3dfd2851ef440e1bcd532a5c0689964afb28bed6f5302cfbf8b6e75372.pdf",
+  "pages_analysed": 0,
+  "organisation": "",
+  "adoption-date": "2019-07-04",
+  "document-url": "https://www.barrowbc.gov.uk/sites/default/files/attachment/7819.pdf"
+}

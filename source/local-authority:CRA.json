@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:CRA",
+    "organisation-name": "Craven District Council",
+    "reference": "LP-CRA-2012",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/craven-planning-policy/craven-local-plan",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/Craven_local_plan_appendices_and_policies_map%20-%20na.pdf",
+    "name": "Local Plan 2012-2032",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2012,
+    "period-end-date": 2032,
+    "adoption-date": "2019-11-12",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/Craven_local_plan_appendices_and_policies_map%20-%20na.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/craven-planning-policy/craven-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2012-2032",
+        "reference": "LP-CRA-2012",
+        "document-status": "adopted",
+        "endpoint": "4018436eede182b313c2a74b14d75d3be60834a83acc16c05bbf36c6ae07b56e"
+      }
+    ]
+  }
+]

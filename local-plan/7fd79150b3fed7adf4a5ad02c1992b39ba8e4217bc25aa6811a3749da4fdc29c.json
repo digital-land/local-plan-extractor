@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2004-2026",
+  "organisation-name": "North Lincolnshire Council",
+  "period-start-date": 2004,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "North Lincolnshire Council",
+      "required-housing": 12063,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 3482,
+      "broad-locations-housing": 6000,
+      "annual-required-housing": 754,
+      "pages": "63, 69-70",
+      "notes": "Total requirement 12,063 dwellings 2010-2026 at 754 per year. Commitments include sites with planning permission or under construction as of April 2010. Lincolnshire Lakes (western urban extension) accounts for 6,000 dwellings of the broad locations housing.",
+      "organisation": "local-authority:NLN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "7fd79150b3fed7adf4a5ad02c1992b39ba8e4217bc25aa6811a3749da4fdc29c",
+  "pdf_file": "collection/document/7fd79150b3fed7adf4a5ad02c1992b39ba8e4217bc25aa6811a3749da4fdc29c.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:NLN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000055",
+  "local-planning-authorities": [
+    "E60000055"
+  ]
+}

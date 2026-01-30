@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:HAE",
+    "organisation-name": "Hambleton District Council",
+    "reference": "LP-HAE-2014",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/hambleton-planning-policy",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/2024-01/Hambleton%20Local%20Plan%20with%20updated%20links%20July%202023%20-%20accessible.pdf",
+    "name": "Local Plan 2014-2036",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2036,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/2024-01/Hambleton%20Local%20Plan%20with%20updated%20links%20July%202023%20-%20accessible.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/hambleton-planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2014-2036",
+        "reference": "LP-HAE-2014",
+        "document-status": "adopted",
+        "endpoint": "ad37613a13ec8c7830209dae556d856b0d0f9764e40bf92c75b7cadec30b9cf3"
+      }
+    ]
+  }
+]

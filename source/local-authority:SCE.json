@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:SCE",
+    "organisation-name": "Scarborough Borough Council",
+    "reference": "LP-SCE-2011",
+    "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/scarborough-planning-policy",
+    "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/Scarborough%20Borough%20Local%20Plan%202011-32.pdf",
+    "name": "Local Plan 2011-2032",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2032,
+    "adoption-date": "2017-07-03",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.northyorks.gov.uk/sites/default/files/fileroot/planning_migrated/planning_policy/Scarborough%20Borough%20Local%20Plan%202011-32.pdf",
+        "documentation-url": "https://www.northyorks.gov.uk/planning-and-conservation/planning-policy/planning-policy-your-local-area/scarborough-planning-policy",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2032",
+        "reference": "LP-SCE-2011",
+        "document-status": "adopted",
+        "endpoint": "046153cbe8da460445e74627cac0b36f75472234cfd922d3259c6e9a29278bae"
+      }
+    ]
+  }
+]

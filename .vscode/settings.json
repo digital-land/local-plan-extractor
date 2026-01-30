@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./bin/github-review-issues"]
+}

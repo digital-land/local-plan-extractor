@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:SLA",
+    "organisation-name": "South Lakeland District Council",
+    "reference": "LP-SLA-2003",
+    "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/legacy-local-plans/south-lakeland-local-plan",
+    "document-url": "https://www.southlakeland.gov.uk/media/3521/cs01-core-strategy-october-2010.pdf",
+    "name": "Local Plan 2003-2025",
+    "status": "adopted",
+    "year": 2003,
+    "period-start-date": 2003,
+    "period-end-date": 2025,
+    "adoption-date": "2010-10-20",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.southlakeland.gov.uk/media/3521/cs01-core-strategy-october-2010.pdf",
+        "documentation-url": "https://www.westmorlandandfurness.gov.uk/planning-and-building-control/planning/planning-policy/legacy-local-plans/south-lakeland-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2003-2025",
+        "reference": "LP-SLA-2003",
+        "document-status": "adopted",
+        "endpoint": "301998aa9064c44989329fbdc9d6b827c37506136c1d77a9d8f2c0f749386624"
+      }
+    ]
+  }
+]

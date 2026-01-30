@@ -5,10 +5,10 @@
     "reference": "LP-BRC-2024",
     "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
     "document-url": "https://consult.bracknell-forest.gov.uk/file/6304536",
-    "name": "Bracknell Forest Local Plan 2024 to 2037",
+    "name": "Bracknell Forest Local Plan",
     "status": "adopted",
     "year": 2024,
-    "period-start-date": 2024,
+    "period-start-date": 2020,
     "period-end-date": 2037,
     "adoption-date": "2024-03-19",
     "withdrawn-date": null,
@@ -17,7 +17,7 @@
         "document-url": "https://consult.bracknell-forest.gov.uk/file/6304536",
         "documentation-url": "https://www.bracknell-forest.gov.uk/planning-and-building-control/planning/planning-policy/development-plan/bracknell-forest-local-plan",
         "document-type": "local-plan",
-        "name": "Bracknell Forest Local Plan to 2037",
+        "name": "Bracknell Forest Local Plan",
         "reference": "LP-2024-2037",
         "document-status": "adopted",
         "endpoint": "59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28"
@@ -29,7 +29,7 @@
         "name": "Sustainability Appraisal of the Bracknell Forest Local Plan",
         "reference": "SA-2024",
         "document-status": "adopted",
-        "endpoint": "59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Sustainability Appraisal Addendum",
         "reference": "SA-ADD-2024",
         "document-status": "adopted",
-        "endpoint": "59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28"
+        "endpoint": ""
       },
       {
         "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2024-03/statement-of-adoption-of-bracknell-forest-local-plan.pdf",
@@ -81,7 +81,7 @@
         "name": "Site Allocations Local Plan",
         "reference": "SA-DPD-2013",
         "document-status": "adopted",
-        "endpoint": "59e5051d175a500429fb7500e211e23d48481a0063368a3f1896ef464fb97c28"
+        "endpoint": ""
       },
       {
         "document-url": "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/salp-adoption-statement.pdf",

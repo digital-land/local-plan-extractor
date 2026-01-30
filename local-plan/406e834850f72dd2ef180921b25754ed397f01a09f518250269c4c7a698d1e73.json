@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2021-2039",
+  "organisation-name": "Copeland Borough Council",
+  "period-start-date": 2021,
+  "period-end-date": 2039,
+  "housing-numbers": [
+    {
+      "organisation-name": "Copeland Borough Council",
+      "required-housing": 2628,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 146,
+      "pages": "142-143",
+      "notes": "Minimum requirement is 2,628 homes (146 per annum). Growth target is 3,600 homes (200 per annum) from allocated sites, commitments, completions and windfall combined. Breakdown by category referenced in Housing Trajectory (Appendix E) but specific numbers not provided in main document text.",
+      "organisation": "local-authority:COP"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "406e834850f72dd2ef180921b25754ed397f01a09f518250269c4c7a698d1e73",
+  "pdf_file": "collection/document/406e834850f72dd2ef180921b25754ed397f01a09f518250269c4c7a698d1e73.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:COP",
+  "adoption-date": "2024-11-05",
+  "local-plan-boundary": "E60000022",
+  "local-planning-authorities": [
+    "E60000022"
+  ]
+}

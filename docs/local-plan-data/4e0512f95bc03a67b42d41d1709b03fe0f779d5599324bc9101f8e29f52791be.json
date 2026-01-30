@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan 2006-2026",
+  "organisation-name": "Hinckley and Bosworth Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Hinckley & Bosworth Borough Council",
+      "required-housing": 9000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 1880,
+      "broad-locations-housing": 4500,
+      "annual-required-housing": 450,
+      "pages": "22-24, 93",
+      "notes": "East Midlands Regional Plan requirement of 9000 dwellings 2006-2026. Committed housing includes completions (1310), large site commitments (1480) and small site commitments (400). Broad locations housing includes Sustainable Urban Extensions at Barwell (2500) and Earl Shilton (2000). Housing trajectory shows annual requirement of 450 dwellings per year.",
+      "organisation": "local-authority:HIN"
+    }
+  ],
+  "confidence": "medium",
+  "authority": "4e0512f95bc03a67b42d41d1709b03fe0f779d5599324bc9101f8e29f52791be",
+  "pdf_file": "collection/document/4e0512f95bc03a67b42d41d1709b03fe0f779d5599324bc9101f8e29f52791be.pdf",
+  "pages_analysed": 0,
+  "organisation": "local-authority:HIN",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000088",
+  "local-planning-authorities": [
+    "E60000088"
+  ],
+  "document-url": "https://www.hinckley-bosworth.gov.uk/download/downloads/id/487/core_strategy_adopted_document.pdf"
+}

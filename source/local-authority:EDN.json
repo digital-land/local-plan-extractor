@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:EDN",
+    "organisation-name": "Eden District Council",
+    "reference": "LP-EDN-2014",
+    "documentation-url": "https://www.eden.gov.uk/planning-and-building/planning-policy/adopted-eden-local-plan/",
+    "document-url": "https://www.eden.gov.uk/media/5032/edenlocalplan2014-2032finalwithoutforeword.pdf",
+    "name": "Local Plan 2014-2032",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2032,
+    "adoption-date": "2018-10-11",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.eden.gov.uk/media/5032/edenlocalplan2014-2032finalwithoutforeword.pdf",
+        "documentation-url": "https://www.eden.gov.uk/planning-and-building/planning-policy/adopted-eden-local-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2014-2032",
+        "reference": "LP-EDN-2014",
+        "document-status": "adopted",
+        "endpoint": "18aaca71720dfc91d5e5ce77703c7f7a457035e377c34a7b75c9bdef22062a0a"
+      }
+    ]
+  }
+]

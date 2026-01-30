@@ -1,0 +1,30 @@
+{
+  "name": "Local Plan 2011-2031",
+  "organisation-name": "Thanet District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Thanet District Council",
+      "required-housing": 17140,
+      "allocated-housing": 8691,
+      "windfall-housing": 2025,
+      "committed-housing": 4713,
+      "broad-locations-housing": "",
+      "annual-required-housing": 857,
+      "pages": "45, 46, 208",
+      "notes": "Housing requirement uses stepped approach with lower targets 2011-2021 (311-600pa) then higher 2021-2031 (1200-1317pa). Windfall allowance discounted for first 3 years. Total allocations supply includes strategic sites (7691 units) plus other housing sites/areas (1000 units). 1555 homes already delivered 2011-2016.",
+      "organisation": "local-authority:THA"
+    }
+  ],
+  "confidence": "high",
+  "authority": "b50b3ddb7214d07f70896851658a48ae5010b0c1d0232e4b30ad9175905bf787",
+  "pdf_file": "collection/document/b50b3ddb7214d07f70896851658a48ae5010b0c1d0232e4b30ad9175905bf787.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:THA",
+  "adoption-date": null,
+  "local-plan-boundary": "E60000262",
+  "local-planning-authorities": [
+    "E60000262"
+  ]
+}

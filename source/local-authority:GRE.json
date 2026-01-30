@@ -23,5 +23,30 @@
         "endpoint": "8f4e47c02c6d1e9a2e809b2ef9987b511ec76256893d45def5d3f453c2eda989"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:GRE",
+    "organisation-name": "Royal Borough of Greenwich",
+    "reference": "LP-GRE-2013",
+    "documentation-url": "https://www.royalgreenwich.gov.uk/planning-and-building-control/planning-policy-and-strategy",
+    "document-url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-07/Royal_Greenwich_Local_Plan__Core_Strategy_with_Detailed_Policies_main.pdf",
+    "name": "Royal Greenwich Local Plan: Core Strategy with Detailed Policies",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2013,
+    "period-end-date": 2028,
+    "adoption-date": "2014-07-30",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.royalgreenwich.gov.uk/sites/default/files/2025-07/Royal_Greenwich_Local_Plan__Core_Strategy_with_Detailed_Policies_main.pdf",
+        "documentation-url": "https://www.royalgreenwich.gov.uk/planning-and-building-control/planning-policy-and-strategy",
+        "document-type": "local-plan",
+        "name": "Royal Greenwich Local Plan: Core Strategy with Detailed Policies",
+        "reference": "LP-GRE-2013",
+        "document-status": "adopted",
+        "endpoint": "521053f9f38774cbcd8548dad664e252c759292a62cdc6070735997753ffaeb1"
+      }
+    ]
   }
 ]

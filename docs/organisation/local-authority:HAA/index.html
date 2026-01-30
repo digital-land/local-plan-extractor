@@ -110,8 +110,8 @@
         
         <tr class="govuk-table__row">
           <td class="govuk-table__cell">
-            <a href="../../local-plan/01bc94ebdb38f1c3c396198a6db62692fd37a3375526e79009e51078e5c5c006.html" class="govuk-link">
-              Building a Better Future Plan
+            <a href="../../local-plan/e16705e28bc3bc996a1c52b1a0c5bf9e1fd4336413b46b7d4a6f13d532c704bb.html" class="govuk-link">
+              Local Plan 2006-2026
             </a>
           </td>
           <td class="govuk-table__cell">
@@ -121,7 +121,7 @@
           </td>
           <td class="govuk-table__cell">
             
-              2023 - 2043
+              2006 - 2026
             
           </td>
           <td class="govuk-table__cell">
@@ -149,6 +149,11 @@
           <h2 class="govuk-visually-hidden">Support links</h2>
           <ul class="govuk-footer__inline-list">
             <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="../../review.html">
+                Review data
+              </a>
+            </li>
+            <li class="govuk-footer__inline-list-item">
               <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
                 GitHub
               </a>
@@ -161,7 +166,9 @@
 
   <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
   <script>
-    window.GOVUKFrontend.initAll()
+    if (window.GOVUKFrontend && typeof window.GOVUKFrontend.initAll === 'function') {
+      window.GOVUKFrontend.initAll()
+    }
   </script>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
