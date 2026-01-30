@@ -1,0 +1,30 @@
+{
+  "name": "Mid Sussex District Plan 2014-2031",
+  "organisation-name": "Mid Sussex District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Mid Sussex District Council",
+      "required-housing": 16390,
+      "allocated-housing": 9500,
+      "windfall-housing": 450,
+      "committed-housing": 7091,
+      "broad-locations-housing": 2439,
+      "annual-required-housing": 876,
+      "pages": "30-32, 37",
+      "notes": "Stepped trajectory: 876 dpa until 2023/24, then 1090 dpa from 2024/25. Strategic allocations include Burgess Hill (3500), Pease Pottage (600), Clayton Mills (500). Allocated housing includes strategic allocations plus neighbourhood plan allocations. Site Allocations DPD to identify remaining sites.",
+      "organisation": "local-authority:MSS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "5cee89608366f505c59fd19188b555d49085871129ccea49049a1933f6aaa0c0",
+  "pdf_file": "collection/document/5cee89608366f505c59fd19188b555d49085871129ccea49049a1933f6aaa0c0.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:MSS",
+  "adoption-date": "2018-03-28",
+  "local-plan-boundary": "E60000286",
+  "local-planning-authorities": [
+    "E60000286"
+  ]
+}

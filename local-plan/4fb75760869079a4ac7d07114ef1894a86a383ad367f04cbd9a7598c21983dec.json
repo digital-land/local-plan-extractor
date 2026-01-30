@@ -1,0 +1,30 @@
+{
+  "name": "Bristol Development Framework Core Strategy",
+  "organisation-name": "Bristol City Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bristol City Council",
+      "required-housing": 30600,
+      "allocated-housing": "",
+      "windfall-housing": 4200,
+      "committed-housing": 19547,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1530,
+      "pages": "55-59",
+      "notes": "Core Strategy sets out broad spatial distribution across areas but specific site allocations to be identified in future Site Allocations DPD. Committed housing includes 7,037 completions 2006-09 plus 12,510 sites with planning permission. Minimum target is 26,400 homes with aspiration for 30,600. Potential additional 2,200 homes at Knowle West regeneration sites not included in main target.",
+      "organisation": "local-authority:BST"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4fb75760869079a4ac7d07114ef1894a86a383ad367f04cbd9a7598c21983dec",
+  "pdf_file": "collection/document/4fb75760869079a4ac7d07114ef1894a86a383ad367f04cbd9a7598c21983dec.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BST",
+  "adoption-date": "2011-07-21",
+  "local-plan-boundary": "E60000290",
+  "local-planning-authorities": [
+    "E60000290"
+  ]
+}

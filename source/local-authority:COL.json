@@ -36,6 +36,31 @@
   {
     "organisation": "local-authority:COL",
     "organisation-name": "Colchester City Council",
+    "reference": "LP-COL-2022",
+    "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-2033",
+    "document-url": "https://www.braintree.gov.uk/downloads/file/3553/local-plan-2033-s1-and-s2-pdf-minus-maps",
+    "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",
+    "status": "adopted",
+    "year": 2022,
+    "period-start-date": 2013,
+    "period-end-date": 2033,
+    "adoption-date": "2021-02-01",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.braintree.gov.uk/downloads/file/3553/local-plan-2033-s1-and-s2-pdf-minus-maps",
+        "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-2033",
+        "document-type": "local-plan",
+        "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",
+        "reference": "LP-COL-2022",
+        "document-status": "adopted",
+        "endpoint": "8ce9ef0b32adc285b6eae643b1e19603663f907a71c0ec632c5b9c6684d4a4df"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COL",
+    "organisation-name": "Colchester City Council",
     "reference": "LP-COL-2025-REV",
     "documentation-url": "https://www.colchester.gov.uk/newlocalplan",
     "document-url": "",

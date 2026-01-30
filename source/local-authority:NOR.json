@@ -1,0 +1,27 @@
+[
+  {
+    "organisation": "local-authority:NOR",
+    "organisation-name": "Northampton Borough Council",
+    "reference": "LP-NOR-2011",
+    "documentation-url": "https://www.westnorthants.gov.uk/west-northamptonshire-joint-core-strategy/west-northamptonshire-joint-core-strategy-local-plan-part",
+    "document-url": "https://cms.westnorthants.gov.uk/media/1183/download",
+    "name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "adoption-date": "2014-12-15",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://cms.westnorthants.gov.uk/media/1183/download",
+        "documentation-url": "https://www.westnorthants.gov.uk/west-northamptonshire-joint-core-strategy/west-northamptonshire-joint-core-strategy-local-plan-part",
+        "document-type": "local-plan",
+        "name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+        "reference": "LP-NOR-2011",
+        "document-status": "adopted",
+        "endpoint": "6bbd86dba4e8dca3c7930aa8fd6cc00b300cd338540fd0d7ae3657e3d3ac590b"
+      }
+    ]
+  }
+]

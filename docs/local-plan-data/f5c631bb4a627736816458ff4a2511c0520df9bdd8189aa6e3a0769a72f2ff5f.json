@@ -1,0 +1,31 @@
+{
+  "name": "Local Plan for Bolsover District",
+  "organisation-name": "Bolsover District Council",
+  "period-start-date": 2014,
+  "period-end-date": 2033,
+  "housing-numbers": [
+    {
+      "organisation-name": "Bolsover District Council",
+      "required-housing": 5168,
+      "allocated-housing": 2318,
+      "windfall-housing": "",
+      "committed-housing": 1407,
+      "broad-locations-housing": 2130,
+      "annual-required-housing": 272,
+      "pages": "39, 62, 67",
+      "notes": "Required housing is the OAN (Objectively Assessed Need) of 272 dwellings per year. Plan also provides for 5,700 dwellings including 10% buffer. Allocated housing includes 'Other site allocations' (2,318 dwellings). Strategic site allocations (2,130 dwellings) include Bolsover North, Clowne Garden Village, and Former Whitwell Colliery. Committed housing includes completions 2014/15 to 2018/19 (1,407 dwellings).",
+      "organisation": "local-authority:BOS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "f5c631bb4a627736816458ff4a2511c0520df9bdd8189aa6e3a0769a72f2ff5f",
+  "pdf_file": "collection/document/f5c631bb4a627736816458ff4a2511c0520df9bdd8189aa6e3a0769a72f2ff5f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:BOS",
+  "adoption-date": "2020-03-04",
+  "local-plan-boundary": "E60000078",
+  "local-planning-authorities": [
+    "E60000078"
+  ],
+  "document-url": "https://www.bolsover.gov.uk/component/edocman/12014-local-plan-for-bolsover-district/download"
+}

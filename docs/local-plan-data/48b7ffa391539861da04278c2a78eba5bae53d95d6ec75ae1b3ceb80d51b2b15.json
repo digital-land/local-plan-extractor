@@ -1,0 +1,31 @@
+{
+  "name": "Islington Local Plan",
+  "organisation-name": "London Borough of Islington",
+  "period-start-date": 2020,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Islington",
+      "required-housing": 13175,
+      "allocated-housing": "",
+      "windfall-housing": 8228,
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 775,
+      "pages": "65-66, 370",
+      "notes": "Minimum 13,175 homes for full plan period 2020/21-2036/37. Annual target of 775 homes from London Plan. Windfall calculated as 484 per annum for 17 years. Housing trajectory shows breakdown but specific allocated vs committed figures not clearly separated in summary form.",
+      "organisation": "local-authority:ISL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "48b7ffa391539861da04278c2a78eba5bae53d95d6ec75ae1b3ceb80d51b2b15",
+  "pdf_file": "collection/document/48b7ffa391539861da04278c2a78eba5bae53d95d6ec75ae1b3ceb80d51b2b15.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ISL",
+  "adoption-date": "2023-09-28",
+  "local-plan-boundary": "E60000193",
+  "local-planning-authorities": [
+    "E60000193"
+  ],
+  "document-url": "https://www.islington.gov.uk:443/-/media/sharepoint-lists/public-records/planningandbuildingcontrol/publicity/publicconsultation/20232024/islington-council-local-plan-strategic-and-development-management-policies.pdf?la=en&hash=87580E35EA21B2221918960F570CD1CC3CEFFE6B"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Allerdale Local Plan (Part 1)",
+  "organisation-name": "Allerdale Borough Council",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Allerdale Borough Council",
+      "required-housing": 5471,
+      "allocated-housing": "",
+      "windfall-housing": 540,
+      "committed-housing": 1956,
+      "broad-locations-housing": "",
+      "annual-required-housing": 304,
+      "pages": "22, 62, 190-191",
+      "notes": "Plan provides at least 5,471 net additional dwellings over plan period 2011-2029. Windfall calculated at 30 dwellings per year (30 x 18 years = 540). Committed housing from housing trajectory showing existing commitments. Site allocations to be determined in separate Site Allocations DPD.",
+      "organisation": "local-authority:ALL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "2de840d1114d8e720bbb4b19e48bb24e71872c516643c78e70694e0fc782d2bb",
+  "pdf_file": "collection/document/2de840d1114d8e720bbb4b19e48bb24e71872c516643c78e70694e0fc782d2bb.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ALL",
+  "adoption-date": "2014-07-16",
+  "local-plan-boundary": "E60000019",
+  "local-planning-authorities": [
+    "E60000019"
+  ],
+  "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Allerdale%20Local%20Plan%20part%201.pdf"
+}

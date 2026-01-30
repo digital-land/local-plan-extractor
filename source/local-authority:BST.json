@@ -65,39 +65,24 @@
     "organisation-name": "Bristol City Council",
     "reference": "LP-BST-2006",
     "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
-    "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links/file",
+    "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links",
     "name": "Bristol Development Framework Core Strategy",
     "status": "adopted",
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2011-07-21",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links/file",
+        "document-url": "https://www.bristol.gov.uk/files/documents/64-core-strategy-web-pdf-low-res-with-links",
         "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan",
-        "document-type": "core-strategy",
-        "name": "Core Strategy",
-        "reference": "CS-2006",
+        "document-type": "local-plan",
+        "name": "Bristol Development Framework Core Strategy",
+        "reference": "LP-BST-2006",
         "document-status": "adopted",
-        "endpoint": "18f4171e2f7b8c88491f3f9f147dd6b6725acc93963d1802ab2a575a93925754"
+        "endpoint": "4fb75760869079a4ac7d07114ef1894a86a383ad367f04cbd9a7598c21983dec"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:BST",
-    "organisation-name": "Bristol City Council",
-    "reference": "LP-BST-2025",
-    "documentation-url": "https://www.bristol.gov.uk/residents/planning-and-building-regulations/planning-policy-and-guidance/local-plan/local-plan-review",
-    "document-url": "",
-    "name": "Bristol Local Plan Review",
-    "status": "draft",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
   }
 ]

@@ -1,0 +1,28 @@
+{
+  "name": "Local Plan Part One: Strategic Policies & Land Allocations (climate emergency review)",
+  "organisation-name": "Lancaster City Council",
+  "period-start-date": 2011,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Lancaster City Council",
+      "required-housing": 10440,
+      "allocated-housing": 6515,
+      "windfall-housing": "",
+      "committed-housing": 2595,
+      "broad-locations-housing": 3500,
+      "annual-required-housing": 522,
+      "pages": "40-43",
+      "notes": "Plan covers 2011/12-2030/31 (20 years). Required housing is 10,440 over plan period with stepped delivery starting at 400 dpa, rising to 695 dpa. Broad location (South Lancaster) capacity is 3,500 homes with 1,205 expected in plan period. Committed housing represents completions 2011/12-2017/18.",
+      "organisation": "local-authority:LAC"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ee002dd257e9c4db0f24bb24c58e4460f2935777101c1c865700d199f43f729f",
+  "pdf_file": "collection/document/ee002dd257e9c4db0f24bb24c58e4460f2935777101c1c865700d199f43f729f.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:LAC",
+  "adoption-date": "2025-01-22",
+  "local-plan-boundary": "E60000039",
+  "local-planning-authorities": ["E60000039"]
+}

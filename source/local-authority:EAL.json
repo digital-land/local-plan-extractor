@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:EAL",
     "organisation-name": "London Borough of Ealing",
+    "reference": "LP-EAL-2012",
+    "documentation-url": "https://www.ealing.gov.uk/info/201162/planning_policy/3124/development_plan",
+    "document-url": "https://www.ealing.gov.uk/download/downloads/id/19446/development_strategy_2026_-_development_plan_document.pdf",
+    "name": "Development Strategy 2026",
+    "status": "adopted",
+    "year": 2012,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": "2012-04-03",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.ealing.gov.uk/download/downloads/id/19446/development_strategy_2026_-_development_plan_document.pdf",
+        "documentation-url": "https://www.ealing.gov.uk/info/201162/planning_policy/3124/development_plan",
+        "document-type": "local-plan",
+        "name": "Development Strategy 2026",
+        "reference": "LP-DS-2012",
+        "document-status": "adopted",
+        "endpoint": "476e600e3c341e49522c445d69023cbcf663f7cd3371f8f1c98f75fecf8427bd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EAL",
+    "organisation-name": "London Borough of Ealing",
     "reference": "LP-EAL-2024",
     "documentation-url": "https://www.ealing.gov.uk/newlocalplan",
     "document-url": "",

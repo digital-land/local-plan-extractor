@@ -121,5 +121,30 @@
         "endpoint": "90ac9e1fc74225904655907d4548bbf08bcf398e7635fd9e57a580930d65902e"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:MSS",
+    "organisation-name": "Mid Sussex District Council",
+    "reference": "LP-MSS-2014",
+    "documentation-url": "http://www.midsussex.gov.uk/planning-building/planning-policy/",
+    "document-url": "https://www.midsussex.gov.uk/media/3406/mid-sussex-district-plan.pdf",
+    "name": "Mid Sussex District Plan 2014-2031",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2014,
+    "period-end-date": 2031,
+    "adoption-date": "2018-03-28",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.midsussex.gov.uk/media/3406/mid-sussex-district-plan.pdf",
+        "documentation-url": "http://www.midsussex.gov.uk/planning-building/planning-policy/",
+        "document-type": "local-plan",
+        "name": "Mid Sussex District Plan 2014-2031",
+        "reference": "LP-MSS-2014",
+        "document-status": "adopted",
+        "endpoint": "5cee89608366f505c59fd19188b555d49085871129ccea49049a1933f6aaa0c0"
+      }
+    ]
   }
 ]

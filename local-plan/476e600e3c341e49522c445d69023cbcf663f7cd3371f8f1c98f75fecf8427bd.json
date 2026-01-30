@@ -1,0 +1,29 @@
+{
+  "name": "LB Ealing's Development (Core) Strategy",
+  "organisation-name": "London Borough of Ealing",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "London Borough of Ealing",
+      "required-housing": 14000,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
+      "annual-required-housing": 933,
+      "pages": "8, 10, 11",
+      "notes": "14,000 total target with 12,400 from large sites shown in breakdown by area. Annual figure calculated from 14,000 \u00f7 15 years. This is a strategic document without detailed allocations breakdown.",
+      "organisation": "local-authority:EAL"
+    }
+  ],
+  "confidence": "high",
+  "authority": "core_strategy_FV",
+  "pdf_file": "collection/document/core_strategy_FV.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:EAL",
+  "local-plan-boundary": "E60000208",
+  "local-planning-authorities": [
+    "E60000208"
+  ]
+}

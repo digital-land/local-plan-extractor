@@ -1,0 +1,52 @@
+{
+  "name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+  "organisation-name": "Daventry District Council, Northampton Borough Council, South Northamptonshire District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2029,
+  "housing-numbers": [
+    {
+      "organisation-name": "Daventry District Council",
+      "required-housing": 9839,
+      "allocated-housing": 2600,
+      "windfall-housing": "",
+      "committed-housing": 4385,
+      "broad-locations-housing": "",
+      "annual-required-housing": 351,
+      "pages": "30-34",
+      "notes": "Excludes Northampton Related Development Area (NRDA). Commitments include completions since 2011, development pipeline, urban capacity and rural allowance. Housing requirement for rural areas is 2,360 dwellings (2011-2029).",
+      "organisation": "local-authority:DAV"
+    },
+    {
+      "organisation-name": "Northampton Borough Council",
+      "required-housing": 35108,
+      "allocated-housing": 8000,
+      "windfall-housing": "",
+      "committed-housing": 11623,
+      "broad-locations-housing": "",
+      "annual-required-housing": 1253,
+      "pages": "30-34",
+      "notes": "Includes Northampton Related Development Area (NRDA) which spans across borough boundaries. NRDA total housing requirement is 39,256 with 16,850 from Sustainable Urban Extensions.",
+      "organisation": "local-authority:NOR"
+    },
+    {
+      "organisation-name": "South Northamptonshire District Council",
+      "required-housing": 13183,
+      "allocated-housing": 7010,
+      "windfall-housing": "",
+      "committed-housing": 3263,
+      "broad-locations-housing": "",
+      "annual-required-housing": 471,
+      "pages": "30-34",
+      "notes": "Includes both NRDA portion (3,100 dwellings from SUEs) and rural area portion (3,910 dwellings from SUEs). Total includes housing requirement for rural areas of 2,360 dwellings (2011-2029). Delivery target is higher than assessed need.",
+      "organisation": "local-authority:SNS"
+    }
+  ],
+  "confidence": "high",
+  "authority": "6bbd86dba4e8dca3c7930aa8fd6cc00b300cd338540fd0d7ae3657e3d3ac590b",
+  "pdf_file": "collection/document/6bbd86dba4e8dca3c7930aa8fd6cc00b300cd338540fd0d7ae3657e3d3ac590b.pdf",
+  "pages_analysed": 32,
+  "organisation": "joint-planning-authority:DAV-NOR-SNS",
+  "adoption-date": "2014-12-15",
+  "local-plan-boundary": "E60000100-E60000103-E60000104",
+  "local-planning-authorities": ["E60000100", "E60000103", "E60000104"]
+}
