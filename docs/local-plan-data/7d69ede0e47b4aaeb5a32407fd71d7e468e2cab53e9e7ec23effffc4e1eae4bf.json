@@ -1,19 +1,19 @@
 {
-  "name": "Validation Checklist for Planning and Other Applications",
+  "name": "The Core Strategy",
   "organisation-name": "Hyndburn Borough Council",
-  "period-start-date": "",
-  "period-end-date": "",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
   "housing-numbers": [
     {
       "organisation-name": "Hyndburn Borough Council",
-      "required-housing": "",
+      "required-housing": 3200,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": "",
       "pages": "",
-      "notes": "This is a planning application validation checklist document, not a local plan containing housing numbers",
+      "notes": "",
       "organisation": "local-authority:HYN"
     }
   ],

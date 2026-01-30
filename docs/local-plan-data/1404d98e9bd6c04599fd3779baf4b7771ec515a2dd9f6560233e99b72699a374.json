@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2013-2030",
+  "name": "Core Strategy 2013-2030 (as modified by Part 2 Plan, adopted 9 December 2021)",
   "organisation-name": "Great Yarmouth Borough Council",
   "period-start-date": 2013,
   "period-end-date": 2030,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:GRY",
-  "adoption-date": null,
+  "adoption-date": "2015-12-21",
   "local-plan-boundary": "E60000178",
   "local-planning-authorities": [
     "E60000178"

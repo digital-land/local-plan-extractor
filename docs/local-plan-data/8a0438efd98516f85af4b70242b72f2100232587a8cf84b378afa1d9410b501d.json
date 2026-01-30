@@ -1,31 +1,19 @@
 {
   "name": "Lewes District Local Plan Part 1: Joint Core Strategy",
-  "organisation-name": "Lewes District Council, South Downs National Park Authority",
+  "organisation-name": "Lewes District Council",
   "period-start-date": 2010,
   "period-end-date": 2030,
   "housing-numbers": [
     {
-      "organisation-name": "Lewes District (outside National Park)",
-      "required-housing": 4322,
+      "organisation-name": "Lewes District Council",
+      "required-housing": 5494,
       "allocated-housing": 1728,
       "windfall-housing": 600,
       "committed-housing": 1131,
       "broad-locations-housing": "",
       "annual-required-housing": 216,
       "pages": "49, 52, 141-142",
-      "notes": "Part of joint plan with SDNPA. Figures exclude areas within South Downs National Park. Strategic allocations total 1,728 units. Windfall allowance is 600 units over plan period. Rural exception sites allowance is 125 units (additional to windfall).",
-      "organisation": ""
-    },
-    {
-      "organisation-name": "South Downs National Park Authority (Lewes District area)",
-      "required-housing": 2578,
-      "allocated-housing": 0,
-      "windfall-housing": "",
-      "committed-housing": 142,
-      "broad-locations-housing": "",
-      "annual-required-housing": 129,
-      "pages": "49, 52",
-      "notes": "Part of joint plan covering Lewes areas within South Downs National Park. No strategic allocations identified in Core Strategy - to be addressed in separate SDNPA Local Plan. Includes Lewes town (wholly within National Park).",
+      "notes": "PRequirement for Lewes based on the total requirement of 6,900 homes for Lewes and South Downs, set out in Spatial Policy 1, minus the part of the requirement to be met in South Downs; defined by Mr Justice Lay as 1,177 homes in Wealden District Council v Secretary of State for Communities and Local Government, Lewes District Council and South Downs National Park Authority [2017] EWHC 35 1, which quashed the part of Spatial Policy 1 relating to South Downs National Park. Strategic allocations total 1,728 units. Windfall allowance is 600 units over plan period. Rural exception sites allowance is 125 units (additional to windfall).",
       "organisation": ""
     }
   ],
@@ -34,9 +22,8 @@
   "pdf_file": "collection/document/8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d.pdf",
   "pages_analysed": 32,
   "organisations": [
-    "local-authority:LEE",
-    "national-park-authority:Q20198711"
+    "local-authority:LEE"
   ],
-  "adoption-date": "2011-04-01",
+  "adoption-date": "2016-05-11",
   "document-url": "https://www.lewes-eastbourne.gov.uk/media/1718/Adopted-Joint-Core-Strategy-2016/pdf/Adopted_Joint_Core_Strategy_2016.pdf?m=1682440920647"
 }

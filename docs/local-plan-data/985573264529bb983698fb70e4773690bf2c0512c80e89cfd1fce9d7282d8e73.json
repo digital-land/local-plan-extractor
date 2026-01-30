@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "Luton Local Plan 2011-2031",
   "organisation-name": "Luton Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -13,7 +13,7 @@
       "broad-locations-housing": 2500,
       "annual-required-housing": 890,
       "pages": "21-22, 54, 111, 137",
-      "notes": "Plan provides 8,500 dwellings leaving unmet need of 9,300. Committed housing includes historic completions (2,027) plus existing permissions (114). Strategic allocations provide minimum 2,500 dwellings. Actual annual requirement is 17,800÷20=890 per year, but plan can only deliver 8,500÷20=425 per year.",
+      "notes": "Plan provides 8,500 dwellings leaving unmet need of 9,300 (totalling 17,800 dwellings). Committed housing includes historic completions (2,027) plus existing permissions (114). Strategic allocations provide minimum 2,500 dwellings. Actual annual requirement is 17,800÷20=890 per year, but plan can only deliver 8,500÷20=425 per year.",
       "organisation": "local-authority:LUT"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:LUT",
-  "adoption-date": null,
+  "adoption-date": "2017-11-07",
   "local-plan-boundary": "E60000145",
   "local-planning-authorities": [
     "E60000145"

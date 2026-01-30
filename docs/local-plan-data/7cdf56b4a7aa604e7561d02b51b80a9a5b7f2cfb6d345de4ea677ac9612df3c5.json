@@ -1,11 +1,11 @@
 {
   "name": "Lewisham Local Plan 2020-2040",
-  "organisation-name": "Lewisham Council",
+  "organisation-name": "London Borough of Lewisham",
   "period-start-date": 2020,
   "period-end-date": 2040,
   "housing-numbers": [
     {
-      "organisation-name": "Lewisham Council",
+      "organisation-name": "London Borough of Lewisham",
       "required-housing": 30376,
       "allocated-housing": 23776,
       "windfall-housing": 6135,
@@ -22,6 +22,6 @@
   "pdf_file": "collection/document/7cdf56b4a7aa604e7561d02b51b80a9a5b7f2cfb6d345de4ea677ac9612df3c5.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:LEW",
-  "adoption-date": "2022-12-19",
+  "adoption-date": "2025-07-16",
   "document-url": "https://www.lewisham.gov.uk/-/media/services/planning/planning-policy/appendix-a-inspectors-report-final-june-2025.pdf"
 }

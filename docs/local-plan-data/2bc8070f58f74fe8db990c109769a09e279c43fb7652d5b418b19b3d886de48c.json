@@ -1,19 +1,19 @@
 {
-  "name": "Local Plan Glossary",
+  "name": "Ipswich Local Plan Review 2018-2036",
   "organisation-name": "Ipswich Borough Council",
-  "period-start-date": "",
-  "period-end-date": "",
+  "period-start-date": 2018,
+  "period-end-date": 2036,
   "housing-numbers": [
     {
       "organisation-name": "Ipswich Borough Council",
-      "required-housing": "",
+      "required-housing": 8280,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": "",
       "pages": "",
-      "notes": "This is a glossary document that defines planning terms - it does not contain housing numbers or targets. References are made to other Ipswich planning documents (Core Strategy & Policies, Site Allocations & Policies, IP-One Area Action Plan) but no housing data is provided.",
+      "notes": "",
       "organisation": "local-authority:IPS"
     }
   ],
@@ -26,5 +26,6 @@
   "local-planning-authorities": [
     "E60000185"
   ],
+  "adoption-date": "2022-03-23",
   "document-url": "https://www.ipswich.gov.uk/sites/ipswich/files/2024-09/local_plan_glossary.pdf"
 }

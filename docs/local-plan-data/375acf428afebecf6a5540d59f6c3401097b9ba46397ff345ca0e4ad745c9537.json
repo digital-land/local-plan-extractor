@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2016-2031",
+  "name": "Havering Local Plan 2016-2031",
   "organisation-name": "London Borough of Havering",
   "period-start-date": 2016,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HAV",
-  "adoption-date": null,
+  "adoption-date": "2021-11-17",
   "local-plan-boundary": "E60000212",
   "local-planning-authorities": [
     "E60000212"

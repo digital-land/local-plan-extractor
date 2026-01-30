@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "Bromsgrove District Council",
-      "required-housing": 7000,
+      "required-housing": 10400,
       "allocated-housing": 1790,
       "windfall-housing": 560,
       "committed-housing": 1124,
       "broad-locations-housing": 2300,
       "annual-required-housing": 368,
       "pages": "19-20, 30-31",
-      "notes": "7,000 total requirement includes 4,700 without Green Belt release plus 2,300 from future Green Belt Review by 2023. Committed housing includes completions 2011-16. Allocated housing refers to Bromsgrove Town Expansion Sites. Broad locations housing is for Green Belt Review sites to be allocated by 2023.",
+      "notes": "10,400 total requirement includes 4,700 without Green Belt release plus 2,300 from future Green Belt Review by 2023, and 3,400 unmet need from Redditch. Committed housing includes completions 2011-16. Allocated housing refers to Bromsgrove Town Expansion Sites. Broad locations housing is for Green Belt Review sites to be allocated by 2023.",
       "organisation": "local-authority:BRM"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/707cf74b44250d88d1f384c7eb75dd522b43d0c23d6a92f4d2818ae543ca0785.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:BRM",
-  "adoption-date": null,
+  "adoption-date": "2017-01-25",
   "local-plan-boundary": "E60000137",
   "local-planning-authorities": [
     "E60000137"

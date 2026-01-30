@@ -1,11 +1,11 @@
 {
   "name": "Knowsley Local Plan: Core Strategy",
-  "organisation-name": "Knowsley Council",
+  "organisation-name": "Knowsley Metropolitan Borough Council",
   "period-start-date": 2010,
   "period-end-date": 2028,
   "housing-numbers": [
     {
-      "organisation-name": "Knowsley Council",
+      "organisation-name": "Knowsley Metropolitan Borough Council",
       "required-housing": 8100,
       "allocated-housing": "",
       "windfall-housing": "",
@@ -26,6 +26,6 @@
   "local-planning-authorities": [
     "E60000047"
   ],
-  "adoption-date": "2009-06",
+  "adoption-date": "2016-01-06",
   "document-url": "https://www.knowsley.gov.uk/sites/default/files/2023-11/knowsley-local-plan-adopted-core-strategy.pdf"
 }

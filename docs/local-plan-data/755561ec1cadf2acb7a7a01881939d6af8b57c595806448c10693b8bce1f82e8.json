@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2010-2030",
+  "name": "Local Plan Strategy 2010-2030",
   "organisation-name": "Cheshire East Council",
   "period-start-date": 2010,
   "period-end-date": 2030,
@@ -22,9 +22,10 @@
   "pdf_file": "collection/document/755561ec1cadf2acb7a7a01881939d6af8b57c595806448c10693b8bce1f82e8.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:CHE",
-  "adoption-date": null,
+  "adoption-date": "2017-07-27",
   "local-plan-boundary": "E60000015",
   "local-planning-authorities": [
     "E60000015"
-  ]
+  ],
+  "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/local-plan/local-plan-strategy-web-version-1.pdf"
 }

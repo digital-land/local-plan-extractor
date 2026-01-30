@@ -1,31 +1,31 @@
 {
   "name": "Harrow Core Strategy Development Plan Document",
   "organisation-name": "London Borough of Harrow",
-  "period-start-date": "",
+  "period-start-date": 2009,
   "period-end-date": 2026,
   "housing-numbers": [
     {
-      "organisation-name": "London Borough of Harrow",
-      "required-housing": "",
+      "organisation-name": "Harrow Council",
+      "required-housing": 6050,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "",
-      "notes": "This is only an adoption statement - housing numbers would be in the actual Core Strategy document",
+      "annual-required-housing": 350,
+      "pages": "28, 35, 88-89",
+      "notes": "To deliver the requirements of the London Plan (2011), the quantity of housing to be planned for and delivered through the Harrow LDF between 2009/10 and 2025/26 is a minimum of 6,050. This is based on the sum of 800 dwellings for the period 2009/10 to 2010/11 and 5,250 dwellings for the period 2011/12 to 2025/26. However this has been superseded by the 2021 London Plan which sets a ten year housing target for Harrow of 8,020 homes at an average of 802 homes per annum.",
       "organisation": "local-authority:HRW"
     }
   ],
   "confidence": "high",
   "authority": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2",
   "pdf_file": "collection/document/e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2.pdf",
-  "pages_analysed": 2,
+  "pages_analysed": 32,
   "organisation": "local-authority:HRW",
   "local-plan-boundary": "E60000211",
   "local-planning-authorities": [
     "E60000211"
   ],
-  "adoption-date": "2009-03",
-  "document-url": "http://www.harrow.gov.uk/downloads/file/23244/local-plan-core-strategy-adoption-notice.pdf"
+  "adoption-date": "2012-02-16",
+  "document-url": "http://www.harrow.gov.uk/downloads/file/26426/local-plan-core-strategy.pdf"
 }

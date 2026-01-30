@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "Herefordshire Local Plan: Core Strategy",
   "organisation-name": "Herefordshire Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/821764960e33cf93d240ea9eafc47eef0db33bbab281520c6379ae335ee94bb0.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HEF",
-  "adoption-date": null,
+  "adoption-date": "2015-10-16",
   "local-plan-boundary": "E60000113",
   "local-planning-authorities": [
     "E60000113"

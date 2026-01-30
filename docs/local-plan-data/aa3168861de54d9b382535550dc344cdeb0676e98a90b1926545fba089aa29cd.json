@@ -6,7 +6,7 @@
   "housing-numbers": [
     {
       "organisation-name": "Coventry City Council",
-      "required-housing": 42400,
+      "required-housing": 24600,
       "allocated-housing": 8920,
       "windfall-housing": 350,
       "committed-housing": 6845,
@@ -26,7 +26,7 @@
   "local-planning-authorities": [
     "E60000131"
   ],
-  "adoption-date": "2012-05",
-  "withdrawn-date": "2012-05",
+  "adoption-date": "2017-12-06",
+  "withdrawn-date": null,
   "document-url": "https://www.coventry.gov.uk/downloads/file/25899/final_local_plan_december_2017"
 }

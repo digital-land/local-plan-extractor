@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "Harborough District Council",
-      "required-housing": 12800,
+      "required-housing": 11400,
       "allocated-housing": 3668,
       "windfall-housing": 225,
       "committed-housing": 8792,
       "broad-locations-housing": 2460,
       "annual-required-housing": 557,
       "pages": "48-53, 252",
-      "notes": "Required housing is minimum 12,800 dwellings. Committed housing includes completions (3,042) and commitments (5,750). Broad locations housing comprises two SDAs: Scraptoft North (1,200) and East of Lutterworth (1,260). Annual requirement is 557 dpa based on objectively assessed need plus additional provision for Magna Park employment growth.",
+      "notes": "Required housing is for the plan period. Committed housing includes completions (3,042) and commitments (5,750). Broad locations housing comprises two SDAs: Scraptoft North (1,200) and East of Lutterworth (1,260). Annual requirement is 557 dpa based on objectively assessed need plus additional provision for Magna Park employment growth.",
       "organisation": "local-authority:HAO"
     }
   ],
@@ -26,6 +26,6 @@
   "local-planning-authorities": [
     "E60000087"
   ],
-  "adoption-date": "2019-04",
+  "adoption-date": "2019-04-30",
   "document-url": "https://www.harborough.gov.uk/download/downloads/id/5714/harborough_local_plan_2011-2031_-_adopted_april_2019.pdf"
 }

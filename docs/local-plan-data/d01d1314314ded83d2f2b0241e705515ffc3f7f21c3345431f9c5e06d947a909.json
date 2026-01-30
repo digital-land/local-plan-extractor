@@ -11,9 +11,9 @@
       "windfall-housing": 240,
       "committed-housing": 2675,
       "broad-locations-housing": "",
-      "annual-required-housing": 284,
+      "annual-required-housing": 268,
       "pages": "38-39, 74, 123",
-      "notes": "OAN of 5,680 dwellings for plan period. Allocated sites provide 2,485 dwellings without planning permission at 1st April 2017. Total housing provision of 6,684 dwellings provides 17% flexibility. Windfall allowance is 15 dwellings per annum 2017-2033. PDNPA contribution of 320 dwellings and sites with resolution to grant of 262 dwellings also included in overall provision.",
+      "notes": "OAN of 5,680 dwellings for plan period. Allocated sites provide 2,485 dwellings without planning permission at 1st April 2017. Total housing provision of 6,684 dwellings provides 17% flexibility. Windfall allowance is 15 dwellings per annum 2017-2033.",
       "organisation": "local-authority:DEB"
     }
   ],
@@ -26,5 +26,6 @@
   "local-planning-authorities": [
     "E60000080"
   ],
+  "adoption-date": "2017-12-07",
   "document-url": "https://www.derbyshiredales.gov.uk/documents/dddc-adopted-local-plan-2017-2/download"
 }

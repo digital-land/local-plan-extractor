@@ -1,0 +1,27 @@
+{
+  "name": "Folkestone & Hythe District Council Core Strategy Review 2022",
+  "organisation-name": "Folkestone & Hythe District Council",
+  "period-start-date": 2019,
+  "period-end-date": 2037,
+  "housing-numbers": [
+    {
+      "organisation-name": "Folkestone & Hythe District Council",
+      "required-housing": 13284,
+      "allocated-housing": 7553,
+      "windfall-housing": 1235,
+      "committed-housing": 4619,
+      "broad-locations-housing": "",
+      "annual-required-housing": 738,
+      "pages": "57-62, 191",
+      "notes": "Stepped housing requirement with 4 phases. Allocated housing includes 5,593 from garden settlement plus 350 from Sellindge expansion plus 1,610 from other allocated sites. Committed housing is extant permissions with 5% deduction for non-delivery.",
+      "organisation": "local-authority:SHE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "31927b6918fcacfc4550a43f7820b9ddb4a63f78eb52d31ed4d837844d8f78d1",
+  "pdf_file": "collection/document/31927b6918fcacfc4550a43f7820b9ddb4a63f78eb52d31ed4d837844d8f78d1.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SHE",
+  "adoption-date": "2022-03-30",
+  "document-url": "https://www.folkestone-hythe.gov.uk/downloads/file/3593/core-strategy-review-2022"
+}

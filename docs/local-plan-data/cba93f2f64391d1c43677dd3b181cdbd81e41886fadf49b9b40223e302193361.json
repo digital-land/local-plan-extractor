@@ -1,12 +1,12 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "High Peak Local Plan",
   "organisation-name": "High Peak Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
   "housing-numbers": [
     {
       "organisation-name": "High Peak Borough Council",
-      "required-housing": 7000,
+      "required-housing": 6890,
       "allocated-housing": 2850,
       "windfall-housing": 1200,
       "committed-housing": 3421,
@@ -22,8 +22,10 @@
   "pdf_file": "collection/document/cba93f2f64391d1c43677dd3b181cdbd81e41886fadf49b9b40223e302193361.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:HIG",
-  "adoption-date": null,
+  "adoption-date": "2016-04-14",
   "local-plan-boundary": "E60000082",
-  "local-planning-authorities": ["E60000082"],
+  "local-planning-authorities": [
+    "E60000082"
+  ],
   "document-url": "https://www.highpeak.gov.uk/media/160/The-High-Peak-Local-Plan-Adopted-April-2016/pdf/cjThe_High_Peak_Local_Plan_Adopted_April_2016.pdf?m=1514473710280"
 }

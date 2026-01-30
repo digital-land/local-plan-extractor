@@ -1,11 +1,11 @@
 {
   "name": "Wirral Local Plan 2022 to 2040",
-  "organisation-name": "Wirral Council",
+  "organisation-name": "Wirral Metropolitan Borough Council",
   "period-start-date": 2022,
   "period-end-date": 2040,
   "housing-numbers": [
     {
-      "organisation-name": "Wirral Council",
+      "organisation-name": "Wirral Metropolitan Borough Council",
       "required-housing": 14400,
       "allocated-housing": 8734,
       "windfall-housing": 1934,
@@ -26,6 +26,6 @@
   "local-planning-authorities": [
     "E60000051"
   ],
-  "adoption-date": "2025-03",
+  "adoption-date": "2025-03-31",
   "document-url": "https://www.wirral.gov.uk/files/wirral-local-plan-2022-2040-written-statement.pdf/download?inline"
 }

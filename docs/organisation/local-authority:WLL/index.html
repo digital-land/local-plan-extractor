@@ -110,7 +110,7 @@
         
         <tr class="govuk-table__row">
           <td class="govuk-table__cell">
-            <a href="../../local-plan/core-strategy-12-final.html" class="govuk-link">
+            <a href="../../local-plan/82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe.html" class="govuk-link">
               Black Country Core Strategy
             </a>
           </td>
@@ -149,6 +149,11 @@
           <h2 class="govuk-visually-hidden">Support links</h2>
           <ul class="govuk-footer__inline-list">
             <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="../../review.html">
+                Review data
+              </a>
+            </li>
+            <li class="govuk-footer__inline-list-item">
               <a class="govuk-footer__link" href="https://github.com/digital-land/local-plan-extractor">
                 GitHub
               </a>
@@ -161,7 +166,9 @@
 
   <script src="https://unpkg.com/govuk-frontend@5.7.1/dist/govuk/govuk-frontend.min.js"></script>
   <script>
-    window.GOVUKFrontend.initAll()
+    if (window.GOVUKFrontend && typeof window.GOVUKFrontend.initAll === 'function') {
+      window.GOVUKFrontend.initAll()
+    }
   </script>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>

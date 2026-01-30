@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "City of London Corporation",
-      "required-housing": 1647,
+      "required-housing": 1650,
       "allocated-housing": "",
       "windfall-housing": 1647,
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": 110,
       "pages": "16, 175, 176, 183",
-      "notes": "All housing comes from windfall development rather than allocated sites due to City's commercial character. Housing trajectory shows total 1,647 units 2011-2026. London Plan annual target of 110 units mentioned on page 175.",
+      "notes": "All housing comes from windfall development rather than allocated sites due to City's commercial character. Housing trajectory shows total 1,650 units 2011-2026. London Plan annual target of 110 units mentioned on page 175.",
       "organisation": "local-authority:LND"
     }
   ],

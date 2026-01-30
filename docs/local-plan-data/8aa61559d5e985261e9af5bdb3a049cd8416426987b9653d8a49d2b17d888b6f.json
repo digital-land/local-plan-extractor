@@ -1,11 +1,11 @@
 {
-  "name": "Lambeth Local Plan 2020–2035",
-  "organisation-name": "Lambeth Council",
+  "name": "Lambeth Local Plan 2020-2035",
+  "organisation-name": "London Borough of Lambeth",
   "period-start-date": 2020,
   "period-end-date": 2035,
   "housing-numbers": [
     {
-      "organisation-name": "Lambeth Council",
+      "organisation-name": "London Borough of Lambeth",
       "required-housing": 18416,
       "allocated-housing": "",
       "windfall-housing": 4000,
