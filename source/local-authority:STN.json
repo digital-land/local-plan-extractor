@@ -10,14 +10,14 @@
     "year": 2018,
     "period-start-date": 2016,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2018-02-26",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.sutton.gov.uk/documents/d/guest/sutton-local-plan-2018-",
         "documentation-url": "https://www.sutton.gov.uk/-/local-plan-evidence-library",
         "document-type": "local-plan",
-        "name": "Sutton Local Plan (2018)",
+        "name": "Sutton Local Plan 2016-2031",
         "reference": "LP-2018",
         "document-status": "adopted",
         "endpoint": "c806cf0bf7360eb4ef4616bded8540fb32d3354c6852665a019a61c240636019"

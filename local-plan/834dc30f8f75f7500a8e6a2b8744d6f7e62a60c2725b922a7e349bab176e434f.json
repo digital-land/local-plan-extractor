@@ -1,11 +1,11 @@
 {
   "name": "Newham Local Plan 2018",
-  "organisation-name": "Newham Council",
+  "organisation-name": "London Borough of Newham",
   "period-start-date": 2018,
   "period-end-date": 2033,
   "housing-numbers": [
     {
-      "organisation-name": "Newham Council",
+      "organisation-name": "London Borough of Newham",
       "required-housing": 43000,
       "allocated-housing": 39172,
       "windfall-housing": 1500,

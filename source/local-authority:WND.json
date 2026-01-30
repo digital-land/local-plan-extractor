@@ -201,19 +201,19 @@
     "reference": "LP-WND-2023",
     "documentation-url": "https://www.wandsworth.gov.uk/about-the-local-plan/",
     "document-url": "https://www.wandsworth.gov.uk/media/large/adopted_local_plan.pdf",
-    "name": "Local Plan 2023-2038",
+    "name": "Wandsworth Local Plan 2023-2038",
     "status": "adopted",
     "year": 2023,
     "period-start-date": 2023,
     "period-end-date": 2038,
-    "adoption-date": null,
+    "adoption-date": "2023-07-19",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.wandsworth.gov.uk/media/large/adopted_local_plan.pdf",
         "documentation-url": "https://www.wandsworth.gov.uk/about-the-local-plan/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2023-2038",
+        "name": "Wandsworth Local Plan 2023-2038",
         "reference": "LP-WND-2023",
         "document-status": "adopted",
         "endpoint": "4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9"

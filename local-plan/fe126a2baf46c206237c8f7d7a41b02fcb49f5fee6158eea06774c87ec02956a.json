@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 1645,
       "pages": "17, 18",
-      "notes": "Required housing is the planned target (32,890) rather than assessed need (44,149) due to land constraints. Allocated housing combines 10,760 from Croydon Opportunity Area and 6,970 from other allocations. Also includes 190 vacant homes to be returned to use.",
+      "notes": "Required housing is the planned target (32,890) rather than assessed need (44,149) due to land constraints. Allocated housing combines 10,760 from Croydon Opportunity Area and 6,970 from other allocations. Also includes 190 vacant homes to be returned to use. London Plan 2021 sets a new ten year housing target for the Borough (2019/20-2028/29) of 20,790 homes (an average of 2,079 per annum).",
       "organisation": "local-authority:CRY"
     }
   ],
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:CRY",
   "local-plan-boundary": "E60000207",
-  "local-planning-authorities": [
-    "E60000207"
-  ],
-  "adoption-date": "2013-04-22"
+  "local-planning-authorities": ["E60000207"],
+  "adoption-date": "2018-02-27"
 }

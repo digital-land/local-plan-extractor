@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 820,
       "pages": "19, 29, 135",
-      "notes": "Total requirement is 13,940 homes (820 per year \u00d7 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
+      "notes": "Total requirement is 13,940 homes (820 per year × 17 years). Strategic sites provide 7,035 homes from allocations. Commitments are 6,599 homes from sites with planning permission. Windfall sites noted as potential additional supply but not quantified in trajectory.",
       "organisation": "local-authority:CHA"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:CHA",
-  "adoption-date": null,
+  "adoption-date": "2015-11-09",
   "local-plan-boundary": "E60000086",
   "local-planning-authorities": [
     "E60000086"

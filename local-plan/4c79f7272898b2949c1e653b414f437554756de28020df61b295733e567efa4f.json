@@ -23,7 +23,6 @@
   "pages_analysed": 16,
   "organisation": "local-authority:CHL",
   "local-plan-boundary": "E60000158",
-  "local-planning-authorities": [
-    "E60000158"
-  ]
+  "local-planning-authorities": ["E60000158"],
+  "adoption-date": "2020-05-27"
 }

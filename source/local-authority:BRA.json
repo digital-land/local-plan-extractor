@@ -8,9 +8,9 @@
     "name": "Local Plan 2022-2033",
     "status": "adopted",
     "year": 2022,
-    "period-start-date": 2022,
+    "period-start-date": 2013,
     "period-end-date": 2033,
-    "adoption-date": null,
+    "adoption-date": "2021-02",
     "withdrawn-date": null,
     "documents": [
       {
@@ -20,7 +20,7 @@
         "name": "Adopted Local Plan 2022-2033",
         "reference": "LP-BRA-2022",
         "document-status": "adopted",
-        "endpoint": "96e33051a5fceebedc59a33d6fa8d8a7b477c3db30207b024cb3da1fd4cf1bb1"
+        "endpoint": "8ce9ef0b32adc285b6eae643b1e19603663f907a71c0ec632c5b9c6684d4a4df"
       }
     ]
   },

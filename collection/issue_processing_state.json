@@ -564,6 +564,221 @@
         "source period-end-date: 2030 → 2030"
       ],
       "file": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d.json"
+    },
+    "248": {
+      "processed_at": "2026-01-29T13:39:32.174486",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2017-07-03",
+        "source adoption-date: None → 2017-07-03"
+      ],
+      "file": "5b321f81a1397d368242929feacce66a54eaf10df02aed11b3caada834a8aebd.json"
+    },
+    "246": {
+      "processed_at": "2026-01-29T13:39:32.184040",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2013-04-22 → 2018-02-27",
+        "source adoption-date: 2013-04-22 → 2018-02-27"
+      ],
+      "file": "fe126a2baf46c206237c8f7d7a41b02fcb49f5fee6158eea06774c87ec02956a.json"
+    },
+    "241": {
+      "processed_at": "2026-01-29T13:39:32.193174",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-11-09",
+        "source adoption-date: 2015-11-17 → 2015-11-09"
+      ],
+      "file": "fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147.json"
+    },
+    "240": {
+      "processed_at": "2026-01-29T13:39:32.201748",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2021-07-22",
+        "source adoption-date: 2021-07 → 2021-07-22"
+      ],
+      "file": "755ceeaea859a7978a5d0e8cb113aeff65fff401e683a7a97e9bc68cda26206c.json"
+    },
+    "239": {
+      "processed_at": "2026-01-29T13:39:32.208032",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2017-07 → 2017-07-13",
+        "source adoption-date: 2017-07 → 2017-07-13"
+      ],
+      "file": "c67420f41be1bb487b55354bb6495ebbb504f5a0af59f7a7abd979a6915beab4.json"
+    },
+    "237": {
+      "processed_at": "2026-01-29T13:39:32.214622",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2010-11-10",
+        "name: Core Strategy → The Enfield Plan: Core Strategy 2010-2025",
+        "source adoption-date: None → 2010-11-10",
+        "source name: Enfield Plan Core Strategy 2010 → The Enfield Plan: Core Strategy 2010-2025",
+        "source document name: Enfield Plan Core Strategy 2010 → The Enfield Plan: Core Strategy 2010-2025"
+      ],
+      "file": "32506f045d4de27c03c031341692166747ca4a5346b1747f61ef5a8570a22a7b.json"
+    },
+    "236": {
+      "processed_at": "2026-01-29T13:39:32.221856",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2020-07-22",
+        "name: Local Plan 2033 → Hackney Local Plan 2033",
+        "period-start-date: 2016 → 2018",
+        "period-end-date: 2033 → 2033",
+        "required-housing: 26250 → 19950",
+        "source adoption-date: None → 2020-07-22",
+        "source name: Local Plan 2018-2033 → Hackney Local Plan 2033",
+        "source document name: Adopted Local Plan 2018-2033 → Hackney Local Plan 2033",
+        "source period-start-date: 2018 → 2018",
+        "source period-end-date: 2033 → 2033"
+      ],
+      "file": "8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164.json"
+    },
+    "234": {
+      "processed_at": "2026-01-29T14:19:56.013583",
+      "status": "success",
+      "changes_applied": [
+        "name: Local Plan 2011-2026 → Haringey's Local Plan Strategic Policies 2013-2026 Consolidated with alterations since 2017",
+        "period-start-date: 2011 → 2013",
+        "period-end-date: 2026 → 2026",
+        "source name: Local Plan 2011-2026 → Haringey's Local Plan Strategic Policies 2013-2026 Consolidated with alterations since 2017",
+        "source document name: Adopted Local Plan 2011-2026 → Haringey's Local Plan Strategic Policies 2013-2026 Consolidated with alterations since 2017",
+        "source period-start-date: 2011 → 2013",
+        "source period-end-date: 2026 → 2026"
+      ],
+      "file": "b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477.json"
+    },
+    "233": {
+      "processed_at": "2026-01-29T14:19:56.038995",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2009-03 → 2012-02-16",
+        "period-start-date:  → 2009",
+        "period-end-date: 2026 → 2026",
+        "source adoption-date: 2009-03 → 2012-02-16",
+        "source period-start-date:  → 2009",
+        "source period-end-date: 2026 → 2026"
+      ],
+      "file": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2.json"
+    },
+    "232": {
+      "processed_at": "2026-01-29T14:19:56.054860",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2021-11-17",
+        "name: Local Plan 2016-2031 → Havering Local Plan 2016-2031",
+        "source adoption-date: 2021-11-17 → 2021-11-17",
+        "source name: Havering Local Plan 2016-2031 → Havering Local Plan 2016-2031",
+        "source document name: Havering Local Plan 2016-2031 → Havering Local Plan 2016-2031"
+      ],
+      "file": "375acf428afebecf6a5540d59f6c3401097b9ba46397ff345ca0e4ad745c9537.json"
+    },
+    "231": {
+      "processed_at": "2026-01-29T14:19:56.066438",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2012-11-08 → 2012-11-08",
+        "period-start-date:  → 2011",
+        "period-end-date:  → 2026",
+        "source adoption-date: 2012-11-08 → 2012-11-08",
+        "source period-start-date:  → 2011",
+        "source period-end-date: 2026 → 2026"
+      ],
+      "file": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58.json"
+    },
+    "230": {
+      "processed_at": "2026-01-29T14:19:56.076543",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2015-09-15",
+        "source adoption-date: None → 2015-09-15"
+      ],
+      "file": "f53392060ccaafd4f2742eb057797dbac786641acfc746db55ce37f7079febcc.json"
+    },
+    "227": {
+      "processed_at": "2026-01-29T14:19:56.092934",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: 2022-12-19 → 2025-07-16",
+        "source adoption-date: 2022-12-19 → 2025-07-16"
+      ],
+      "file": "7cdf56b4a7aa604e7561d02b51b80a9a5b7f2cfb6d345de4ea677ac9612df3c5.json"
+    },
+    "223": {
+      "processed_at": "2026-01-29T14:19:56.109431",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-02-26",
+        "name: Sutton Local Plan 2018 → Sutton Local Plan 2016-2031",
+        "period-start-date: 2016 → 2016",
+        "period-end-date: 2031 → 2031",
+        "annual-required-housing: 427 → 469",
+        "source adoption-date: None → 2018-02-26",
+        "source name: Sutton Local Plan 2016-2031 → Sutton Local Plan 2016-2031",
+        "source document name: Sutton Local Plan (2018) → Sutton Local Plan 2016-2031",
+        "source period-start-date: 2016 → 2016",
+        "source period-end-date: 2031 → 2031"
+      ],
+      "file": "c806cf0bf7360eb4ef4616bded8540fb32d3354c6852665a019a61c240636019.json"
+    },
+    "222": {
+      "processed_at": "2026-01-29T14:19:56.125952",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2018-10-18",
+        "source adoption-date: None → 2018-10-18"
+      ],
+      "file": "fdd4394e7fbe04deebcf9f7a22241ac2b870e0e0c500c42b0fdb1930249bf1e3.json"
+    },
+    "211": {
+      "processed_at": "2026-01-29T16:32:18.944950",
+      "status": "success",
+      "changes_applied": [
+        "name: London Borough of Waltham Forest Local Plan Local Plan (LP1) - Adoption Version → Local Plan Part 1: Shaping the Borough 2020-2035",
+        "source name: Local Plan Part 1: Shaping the Borough 2020-2035 → Local Plan Part 1: Shaping the Borough 2020-2035",
+        "source document name: Local Plan Part 1: Shaping the Borough 2020-2035 → Local Plan Part 1: Shaping the Borough 2020-2035"
+      ],
+      "file": "6e3a22c00884fce97e87728295a2659d96e29d258a4c08da18ba85d88b57fbae.json"
+    },
+    "209": {
+      "processed_at": "2026-01-29T16:32:18.955702",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2023-07-19",
+        "name: Local Plan 2023-2038 → Wandsworth Local Plan 2023-2038",
+        "source adoption-date: None → 2023-07-19",
+        "source name: Local Plan 2023-2038 → Wandsworth Local Plan 2023-2038",
+        "source document name: Adopted Local Plan 2023-2038 → Wandsworth Local Plan 2023-2038"
+      ],
+      "file": "4bae7951583975bddfeab0058f1d75536af05fa05247f93d57d7f1cfe1b2caa9.json"
+    },
+    "204": {
+      "processed_at": "2026-01-29T16:32:18.971766",
+      "status": "success",
+      "changes_applied": [
+        "period-start-date: 2022 → 2013",
+        "period-end-date: 2033 → 2033",
+        "source period-start-date: 2022 → 2013",
+        "source period-end-date: 2033 → 2033"
+      ],
+      "file": "96e33051a5fceebedc59a33d6fa8d8a7b477c3db30207b024cb3da1fd4cf1bb1.json"
+    },
+    "203": {
+      "processed_at": "2026-01-29T16:32:18.983514",
+      "status": "success",
+      "changes_applied": [
+        "adoption-date: None → 2017-11-07",
+        "name: Local Plan 2011-2031 → Luton Local Plan 2011-2031",
+        "source adoption-date: None → 2017-11-07",
+        "source name: Local Plan 2011-2031 → Luton Local Plan 2011-2031",
+        "source document name: Adopted Local Plan 2011-2031 → Luton Local Plan 2011-2031"
+      ],
+      "file": "985573264529bb983698fb70e4773690bf2c0512c80e89cfd1fce9d7282d8e73.json"
     }
   },
   "skipped_issues": {
@@ -590,6 +805,21 @@
     "267": "No parseable changes found",
     "260": "No parseable changes found",
     "255": "requires manual deletion review",
-    "254": "No parseable changes found"
+    "254": "No parseable changes found",
+    "247": "No parseable changes found",
+    "245": "No parseable changes found",
+    "244": "requires manual deletion review",
+    "242": "No parseable changes found",
+    "235": "requires manual deletion review",
+    "228": "No parseable changes found",
+    "225": "No parseable changes found",
+    "220": "No parseable changes found",
+    "219": "No parseable changes found",
+    "218": "requires manual deletion review",
+    "217": "No parseable changes found",
+    "215": "No parseable changes found",
+    "213": "No parseable changes found",
+    "207": "No parseable changes found",
+    "205": "No parseable changes found"
   }
 }

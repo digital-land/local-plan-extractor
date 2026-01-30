@@ -4,21 +4,30 @@
     "organisation-name": "Cheshire East Council",
     "reference": "LP-CHE-2017",
     "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
-    "document-url": "",
-    "name": "Cheshire East Local Plan Strategy",
+    "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/local-plan/local-plan-strategy-web-version-1.pdf",
+    "name": "Local Plan Strategy 2010-2030",
     "status": "adopted",
     "year": 2017,
     "period-start-date": 2010,
     "period-end-date": 2030,
-    "adoption-date": null,
+    "adoption-date": "2017-07-27",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/local-plan/local-plan-strategy-web-version-1.pdf",
+        "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
+        "document-type": "infrastructure-delivery-plan",
+        "name": "Local Plan Strategy 2010-2030",
+        "reference": "LP-2017",
+        "document-status": "adopted",
+        "endpoint": "755561ec1cadf2acb7a7a01881939d6af8b57c595806448c10693b8bce1f82e8"
+      },
       {
         "document-url": "https://www.cheshireeast.gov.uk/pdf/planning/spatial-planning/idp-july-16-update.pdf",
         "documentation-url": "https://www.cheshireeast.gov.uk/localplan",
         "document-type": "infrastructure-delivery-plan",
         "name": "Infrastructure Delivery Plan Update",
-        "reference": "IDP-2016",
+        "reference": "IDP-2017",
         "document-status": "adopted",
         "endpoint": "2f88e3b1acee7bbe22b9c095a9df700cc6b200527a640d1c36d4a569a46de3cb"
       }

@@ -66,19 +66,19 @@
     "reference": "LP-HRY-2011",
     "documentation-url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/local-plan/local-plan-strategic-policies",
     "document-url": "https://haringey.gov.uk/sites/default/files/2024-01/final_haringey_local_plan_2017_online.pdf",
-    "name": "Local Plan 2011-2026",
+    "name": "Haringey's Local Plan Strategic Policies 2013-2026 Consolidated with alterations since 2017",
     "status": "adopted",
     "year": 2011,
-    "period-start-date": 2011,
+    "period-start-date": 2013,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2017-07-24",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://haringey.gov.uk/sites/default/files/2024-01/final_haringey_local_plan_2017_online.pdf",
         "documentation-url": "https://haringey.gov.uk/planning-building-control/planning/planning-policy/local-plan/local-plan-strategic-policies",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
+        "name": "Haringey's Local Plan Strategic Policies 2013-2026 Consolidated with alterations since 2017",
         "reference": "LP-HRY-2011",
         "document-status": "adopted",
         "endpoint": "b4f92a7e2b33f166c809d5100af01f2f4bb4e4555ad8a9e3bb0ff0c28dda5477"

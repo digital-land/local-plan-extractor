@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:WBK",
   "local-plan-boundary": "E60000230",
-  "local-planning-authorities": [
-    "E60000230"
-  ],
-  "adoption-date": "2025-05-30"
+  "local-planning-authorities": ["E60000230"],
+  "adoption-date": "2025-06-10"
 }

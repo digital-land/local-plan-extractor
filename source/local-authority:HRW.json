@@ -8,9 +8,9 @@
     "name": "Harrow Local Plan Core Strategy",
     "status": "adopted",
     "year": 2012,
-    "period-start-date": "",
+    "period-start-date": 2009,
     "period-end-date": 2026,
-    "adoption-date": "2009-03",
+    "adoption-date": "2012-02-16",
     "withdrawn-date": null,
     "documents": [
       {
@@ -20,7 +20,7 @@
         "name": "Local Plan Core Strategy",
         "reference": "CS-2012",
         "document-status": "adopted",
-        "endpoint": "2a6a6bc3e7d4667866e1e9bdc78ab5da45123f358f38e642f3f6e5639dfe43a9"
+        "endpoint": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2"
       },
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/23244/local-plan-core-strategy-adoption-notice.pdf",
@@ -29,7 +29,7 @@
         "name": "Local Plan Core Strategy Adoption Notice",
         "reference": "AS-2012",
         "document-status": "adopted",
-        "endpoint": "e85e604b6e475d4588cc58b7915ddf16159d0e80af7defd3907e09bf88bbc2c2"
+        "endpoint": "2a6a6bc3e7d4667866e1e9bdc78ab5da45123f358f38e642f3f6e5639dfe43a9"
       },
       {
         "document-url": "http://www.harrow.gov.uk/downloads/file/23250/local-plan-core-strategy-nppf-compliance-statement.pdf",

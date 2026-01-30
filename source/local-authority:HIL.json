@@ -5,10 +5,10 @@
     "reference": "LP-HIL-2012",
     "documentation-url": "https://www.hillingdon.gov.uk/local-plan-documents",
     "document-url": "https://www.hillingdon.gov.uk/media/3080/Local-Plan-Part-1---Strategic-Policies/pdf/npLocal_Plan_Part_1_Strategic_Policies_15_feb_2013_a_1_1.pdf?m=1598370401647",
-    "name": "Hillingdon Local Plan Part 1: Strategic Policies",
+    "name": "Local Plan: Part 1 - Strategic Policies",
     "status": "adopted",
     "year": 2012,
-    "period-start-date": "",
+    "period-start-date": 2011,
     "period-end-date": 2026,
     "adoption-date": "2012-11-08",
     "withdrawn-date": null,
@@ -20,7 +20,7 @@
         "name": "Local Plan: Part 1 - Strategic Policies",
         "reference": "CS-2012",
         "document-status": "adopted",
-        "endpoint": "965d31b16e10a0dfdfef9e92e826c55a5521f755971ce21adb7bc58840b66e9e"
+        "endpoint": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58"
       },
       {
         "document-url": "https://www.hillingdon.gov.uk/media/3081/Local-Plan-Part-1--Errata-sheet/pdf/olHillingdon_Local_Plan_Part_1_Strategic_Policies-Errata_sheet_Feb_2013_1_1.pdf?m=1598370482757",
@@ -29,7 +29,7 @@
         "name": "Local Plan Part 1- Errata sheet",
         "reference": "LP-ERRATA-2013",
         "document-status": "adopted",
-        "endpoint": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58"
+        "endpoint": "965d31b16e10a0dfdfef9e92e826c55a5521f755971ce21adb7bc58840b66e9e"
       },
       {
         "document-url": "https://www.hillingdon.gov.uk/media/3525/Final-Sustainability-Appraisal-July-2011/pdf/miSD8-_LDF_Core_Strategy_Final_Sustainability_Appraisal_July_2011.PDF?m=1600775055463",

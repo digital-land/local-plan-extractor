@@ -64,10 +64,6 @@
     "local-authority:NGM"
   ],
   "local-plan-boundary": "E60000108-E60000109-E60000075",
-  "local-planning-authorities": [
-    "E60000108",
-    "E60000109",
-    "E60000075"
-  ],
-  "adoption-date": "2010-02"
+  "local-planning-authorities": ["E60000108", "E60000109", "E60000075"],
+  "adoption-date": "2014-09-17"
 }

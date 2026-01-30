@@ -1,19 +1,19 @@
 {
-  "name": "Local Plan 2033",
+  "name": "Hackney Local Plan 2033",
   "organisation-name": "London Borough of Hackney",
-  "period-start-date": 2016,
+  "period-start-date": 2018,
   "period-end-date": 2033,
   "housing-numbers": [
     {
       "organisation-name": "London Borough of Hackney",
-      "required-housing": 26250,
+      "required-housing": 19950,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
       "annual-required-housing": 1750,
       "pages": "12, 89-90",
-      "notes": "Housing need is 1,750 homes per year (26,250 total). Capacity identified for 1,330 homes per year between 2019-2029. Growth distributed: 35% Shoreditch (~7,000 homes), 15% Hackney Central (~3,000), 10% Dalston (~2,000), 15% Woodberry Down/Stamford Hill (~3,000). Almost half delivery expected from small sites.",
+      "notes": "The Plan identifies a housing need for the Borough during the plan period of 26,250 new homes (1,750 homes per year). Hackney, in partnership with the GLA, has identified capacity to deliver 1,330 homes each year between 2019 and 2029. This equates to a requirement for 19,950 homes over the 15 year plan period. In line with the growth strategy and informed by the Council's housing trajectory, it is projected that around 35% of the housing growth will be delivered in and around Shoreditch, around 15% in Hackney Central, 10% in Dalston, and 15% around Woodberry Down and Stamford Hill. Further growth will be delivered along the key corridors and new growth areas such as Clapton and Homerton.",
       "organisation": "local-authority:HCK"
     }
   ],
@@ -23,7 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:HCK",
   "local-plan-boundary": "E60000190",
-  "local-planning-authorities": [
-    "E60000190"
-  ]
+  "local-planning-authorities": ["E60000190"],
+  "adoption-date": "2020-07-22"
 }

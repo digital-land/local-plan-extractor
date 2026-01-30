@@ -1,30 +1,28 @@
 {
-  "name": "Hillingdon Local Plan: Part 1- Strategic Policies",
+  "name": "Local Plan: Part 1 - Strategic Policies",
   "organisation-name": "London Borough of Hillingdon",
-  "period-start-date": "",
-  "period-end-date": "",
+  "period-start-date": 2011,
+  "period-end-date": 2026,
   "housing-numbers": [
     {
       "organisation-name": "London Borough of Hillingdon",
-      "required-housing": "",
-      "allocated-housing": "",
-      "windfall-housing": "",
+      "required-housing": 6375,
+      "allocated-housing": 3097,
+      "windfall-housing": 700,
       "committed-housing": "",
       "broad-locations-housing": "",
-      "annual-required-housing": "",
-      "pages": "",
-      "notes": "This is an errata sheet containing only minor corrections to the adopted plan - no housing numbers are provided in this document",
+      "annual-required-housing": 425,
+      "pages": "25, 63-65, 172",
+      "notes": "Policy H1: Housing Growth. The Council will meet and exceed its minimum strategic dwelling requirement, where this can be achieved, in accordance with other Local Plan policies. The borough’s current target is to provide an additional 4,250 dwellings, annualised as 425 dwellings per year, for the ten year period between 2011 and 2021. Rolled forward to 2026, this target equates to a minimum provision of 6,375 dwellings over the period of the Hillingdon Local Plan: Part 1- Strategic Policies. Sites that will contribute to the achievement of this target will be identified in the Hillingdon Local Plan: Part 2- Site Specific Allocations Local Development Document (LDD).",
       "organisation": "local-authority:HIL"
     }
   ],
   "confidence": "high",
   "authority": "4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58",
   "pdf_file": "collection/document/4e3b27593d0fcb839fbbe799d4d4c1cd89e001d21b59f93fead3397c63536c58.pdf",
-  "pages_analysed": 1,
+  "pages_analysed": 32,
   "organisation": "local-authority:HIL",
   "local-plan-boundary": "E60000213",
-  "local-planning-authorities": [
-    "E60000213"
-  ],
+  "local-planning-authorities": ["E60000213"],
   "adoption-date": "2012-11-08"
 }

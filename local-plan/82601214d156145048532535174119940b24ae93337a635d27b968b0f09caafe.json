@@ -69,7 +69,13 @@
   "authority": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe",
   "pdf_file": "collection/document/82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe.pdf",
   "pages_analysed": 0,
-  "organisation": "local-authority:DUD;local-authority:SAW;local-authority:WLL;local-authority:WLV",
+  "organisation": "joint-planning-authority:DUD-SAW-WLL-WLV",
+  "organisations": [
+    "local-authority:DUD",
+    "local-authority:SAW",
+    "local-authority:WLL",
+    "local-authority:WLV"
+  ],
   "adoption-date": "2011-02-03",
   "local-plan-boundary": "E60000132-E60000133-E60000135-E60000136",
   "local-planning-authorities": ["E60000132-E60000133-E60000135-E60000136"]

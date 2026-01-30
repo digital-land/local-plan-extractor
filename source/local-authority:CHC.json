@@ -2,47 +2,22 @@
   {
     "organisation": "local-authority:CHC",
     "organisation-name": "Christchurch Borough Council",
-    "reference": "LP-CHC-2014",
-    "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-christchurch-area",
-    "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/christchurch-and-east-dorset-adopted-core-strategy.pdf",
-    "name": "Local Plan 2014-2028",
-    "status": "adopted",
-    "year": 2014,
-    "period-start-date": 2014,
-    "period-end-date": 2028,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.bcpcouncil.gov.uk/documents/planning-and-building-control/christchurch-and-east-dorset-adopted-core-strategy.pdf",
-        "documentation-url": "https://www.bcpcouncil.gov.uk/planning-and-building-control/planning-policy/current-local-plans/local-plan-for-the-christchurch-area",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2014-2028",
-        "reference": "LP-CHC-2014",
-        "document-status": "adopted",
-        "endpoint": "ad1679672567986e25d43421be982ce6e036de71b860c0bc0f337b50a9b6f304"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:CHC",
-    "organisation-name": "Christchurch Borough Council",
     "reference": "LP-CHC-2013",
     "documentation-url": "https://www.dorsetcouncil.gov.uk/w/christchurch-and-east-dorset-local-plan-part-1-core-strategy",
     "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/290487/Christchurch+and+East+Dorset+Adopted+Core+Strategy.pdf/9ce14f8d-e447-fed2-c665-f50b37748ca5",
-    "name": "Local Plan 2013-2028",
+    "name": "Christchurch and East Dorset Local Plan Part 1 - Core Strategy",
     "status": "adopted",
     "year": 2013,
     "period-start-date": 2013,
     "period-end-date": 2028,
-    "adoption-date": null,
+    "adoption-date": "2014-04",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/290487/Christchurch+and+East+Dorset+Adopted+Core+Strategy.pdf/9ce14f8d-e447-fed2-c665-f50b37748ca5",
         "documentation-url": "https://www.dorsetcouncil.gov.uk/w/christchurch-and-east-dorset-local-plan-part-1-core-strategy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2013-2028",
+        "name": "Christchurch and East Dorset Local Plan Part 1 - Core Strategy",
         "reference": "LP-CHC-2013",
         "document-status": "adopted",
         "endpoint": "ad1679672567986e25d43421be982ce6e036de71b860c0bc0f337b50a9b6f304"

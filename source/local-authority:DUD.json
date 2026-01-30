@@ -70,25 +70,50 @@
   {
     "organisation": "local-authority:DUD",
     "organisation-name": "Dudley Metropolitan Borough Council",
-    "reference": "LP-DUD-2011",
-    "documentation-url": "Dudley Borough Development Strategy | Dudley Council",
+    "reference": "DS-DUD-2011",
+    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
     "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
-    "name": "Local Plan 2011-2026",
+    "name": "Dudley Borough Development Strategy",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2017-02-27",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
-        "documentation-url": "Dudley Borough Development Strategy | Dudley Council",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
-        "reference": "LP-DUD-2011",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
+        "document-type": "local-development-scheme",
+        "name": "Dudley Borough Development Strategy",
+        "reference": "DS-DUD-2011",
         "document-status": "adopted",
         "endpoint": "6f4bee807888a944c8d9a0f66aae509092acc6a2eaffe6af68a4acdda9e06af6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DUD",
+    "organisation-name": "Dudley Metropolitan Borough Council",
+    "reference": "LP-DUD-2011",
+    "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
+    "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
+    "name": "Black Country Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": "2011-02-03",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
+        "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
+        "document-type": "local-plan",
+        "name": "Black Country Core Strategy",
+        "reference": "LP-DUD-2011",
+        "document-status": "adopted",
+        "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"
       }
     ]
   }

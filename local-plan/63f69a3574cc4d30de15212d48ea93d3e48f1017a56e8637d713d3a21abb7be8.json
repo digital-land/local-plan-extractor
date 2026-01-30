@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "Cherwell District Council",
-      "required-housing": 22840,
+      "required-housing": 27240,
       "allocated-housing": 14420,
       "windfall-housing": 1274,
       "committed-housing": 6040,
       "broad-locations-housing": "",
       "annual-required-housing": 1142,
       "pages": "1-2, 7, 29",
-      "notes": "Total requirement 22,840 homes 2011-2031. Includes 1,106 completions 2011-2014, leaving 21,734 to be provided 2014-2031. Based on SHMA 2014 identifying need for 1,140 dwellings per annum (rounded to 1,142 in policy). Allocations include major strategic sites at Bicester and Banbury.",
+      "notes": "Overall target incorporates 22,840 homes in adopted Local Plan 2011-31 (Policy BSC 1) and additional 4,400 homes (set out in the Partial Review, adopted 7 September 2020) to meet Oxford's unmet needs. Includes 1,106 completions 2011-2014, leaving 21,734 to be provided 2014-2031. Based on SHMA 2014 identifying need for 1,140 dwellings per annum (rounded to 1,142 in policy). Allocations include major strategic sites at Bicester and Banbury.",
       "organisation": "local-authority:CHR"
     }
   ],
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:CHR",
   "local-plan-boundary": "E60000265",
-  "local-planning-authorities": [
-    "E60000265"
-  ],
+  "local-planning-authorities": ["E60000265"],
   "adoption-date": "2015-07-20"
 }
