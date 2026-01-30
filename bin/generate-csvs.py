@@ -923,14 +923,19 @@ class LocalPlanCSVGenerator:
 
     def write_csvs(self):
         """Write all three CSVs to output directory."""
-        self._write_csv('local-plan.csv', self.local_plans, [
+        # Sort by reference before writing
+        local_plans_sorted = sorted(self.local_plans, key=lambda x: x.get('reference', ''))
+
+        self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
             'organisations', 'local-planning-authorities', 'mineral-planning-authorities',
             'waste-planning-authorities', 'local-plan-process',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
-        self._write_csv('local-plan-document.csv', self.local_plan_documents, [
+        local_plan_documents_sorted = sorted(self.local_plan_documents, key=lambda x: x.get('reference', ''))
+
+        self._write_csv('local-plan-document.csv', local_plan_documents_sorted, [
             'reference', 'name', 'description', 'local-plan', 'document-types',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
@@ -940,7 +945,9 @@ class LocalPlanCSVGenerator:
         if len(housing_deduped) < len(self.local_plan_housing):
             logger.info(f"Deduplicated housing data: {len(self.local_plan_housing)} → {len(housing_deduped)} rows")
 
-        self._write_csv('local-plan-housing.csv', housing_deduped, [
+        housing_sorted = sorted(housing_deduped, key=lambda x: x.get('reference', ''))
+
+        self._write_csv('local-plan-housing.csv', housing_sorted, [
             'reference', 'local-plan', 'local-planning-authority',
             'required-housing', 'committed-housing', 'allocated-housing',
             'broad-locations-housing', 'windfall-housing',
