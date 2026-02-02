@@ -1,11 +1,11 @@
 {
-  "name": "Local Plan 2011-2031",
-  "organisation-name": "West Dorset District Council",
+  "name": "West Dorset, Weymouth and Portland Local Plan 2011-2031",
+  "organisation-name": "West Dorset District Council, Weymouth and Portland Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
   "housing-numbers": [
     {
-      "organisation-name": "West Dorset District Council, Weymouth & Portland Borough Council (Joint Plan Area)",
+      "organisation-name": "West Dorset District Council, Weymouth and Portland Borough Council",
       "required-housing": 15500,
       "allocated-housing": 3742,
       "windfall-housing": 1783,
@@ -14,14 +14,14 @@
       "annual-required-housing": 775,
       "pages": "58, 64",
       "notes": "Joint plan covering both authorities. Total supply identified is 14,855 homes against requirement of 15,500, leaving shortfall of 645 homes. Committed housing includes extant planning permissions. Broad locations housing refers to submitted/large identified sites within settlements.",
-      "organisation": ""
+      "organisation": "joint-planning-authority:WDO-WEY"
     }
   ],
   "confidence": "medium",
   "authority": "3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5",
   "pdf_file": "collection/document/3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5.pdf",
   "pages_analysed": 0,
-  "organisation": "local-authority:WDO",
+  "organisation": "joint-planning-authority:WDO-WEY",
   "adoption-date": null,
   "document-url": "https://www.dorsetcouncil.gov.uk/documents/35024/327480/West+Dorset%2C+Weymouth+%26+Portland+Local+Plan+2015.pdf/e6f329e7-ec5b-52fc-7364-4a8726877184"
 }

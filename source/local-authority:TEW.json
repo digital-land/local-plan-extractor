@@ -99,25 +99,25 @@
   {
     "organisation": "local-authority:TEW",
     "organisation-name": "Tewkesbury Borough Council",
-    "reference": "LP-TEW-2011",
+    "reference": "LP-TEW-2017",
     "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
     "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
-    "name": "Local Plan 2011-2031",
+    "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
     "status": "adopted",
-    "year": 2011,
+    "year": 2017,
     "period-start-date": 2011,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2017-12-11",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
         "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2031",
-        "reference": "LP-TEW-2011",
+        "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
+        "reference": "LP-2011-2031",
         "document-status": "adopted",
-        "endpoint": "c546f06430ae47f3337864377cc27b1a3f9e309c8abd16603232265caadbf294"
+        "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
       }
     ]
   }

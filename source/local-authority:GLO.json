@@ -25,9 +25,9 @@
     ]
   },
   {
-    "organisation": "local-authority:CHT",
-    "organisation-name": "Cheltenham Borough Council",
-    "reference": "LP-CHT-2017",
+    "organisation": "local-authority:GLO",
+    "organisation-name": "Gloucester City Council",
+    "reference": "LP-GLO-2017",
     "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
     "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
     "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
@@ -47,5 +47,6 @@
         "document-status": "adopted",
         "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
       }
-      
+    ]
+  }
 ]
