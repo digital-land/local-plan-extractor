@@ -29,7 +29,7 @@
         "name": "Local Plan Partial Review",
         "reference": "LPR-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Evidence Base",
         "reference": "EB-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Sustainability Appraisal",
         "reference": "SA-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Partial Review Examination",
         "reference": "PRE-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -65,7 +65,7 @@
         "name": "Strategic Housing and Economic Land Availability Assessment",
         "reference": "SHELAA-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -90,7 +90,7 @@
         "name": "New Local Plan",
         "reference": "NLP-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -99,7 +99,7 @@
         "name": "New Local Plan – progress so far",
         "reference": "NLP-PROGRESS-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -108,7 +108,7 @@
         "name": "Evidence Base",
         "reference": "EB-NLP-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -117,7 +117,7 @@
         "name": "Local Plan Committee",
         "reference": "LPC-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

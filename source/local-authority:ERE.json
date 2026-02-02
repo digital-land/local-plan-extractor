@@ -20,7 +20,7 @@
         "name": "Erewash Borough Council Core Strategy Review – Submission Version November 2022",
         "reference": "CS-2022",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Sustainability Appraisal",
         "reference": "SA-2022",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Evidence Base Library",
         "reference": "EBL-2022",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Authorities Monitoring Report",
         "reference": "AMR-2022",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Local Development Scheme",
         "reference": "LDS-2022",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -65,7 +65,7 @@
         "name": "Habitats Regulation Assessment - Screening Exercise",
         "reference": "HRA-2022",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },

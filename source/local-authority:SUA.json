@@ -47,7 +47,7 @@
         "name": "Local Plan Update Report – 8 Oct 2025",
         "reference": "LP-UPDATE-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Submission Guidance",
         "reference": "SG-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -65,7 +65,7 @@
         "name": "Somerset Local Development Scheme 2025 document",
         "reference": "LDS-2025-DOC",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -90,7 +90,7 @@
         "name": "Somerset's draft Local Nature Recovery Strategy - A vision for Somerset, Local Nature Recovery Strategy. Statement of Biodiversity Principles",
         "reference": "LNRS-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -99,7 +99,7 @@
         "name": "Appendix 8 – Mapping – Evidence and Technical Information",
         "reference": "LNRS-A8-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -124,7 +124,7 @@
         "name": "Minerals Local Plan – Identifying and Mapping the Mendip Hills Ecological Network",
         "reference": "MWP-MENDIP-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -133,7 +133,7 @@
         "name": "Somerset's Ecological Network Report 2019",
         "reference": "EN-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

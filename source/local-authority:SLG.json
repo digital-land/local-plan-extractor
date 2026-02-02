@@ -29,7 +29,7 @@
         "name": "Site Allocations",
         "reference": "SA-DPD-2010",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Local Plan Saved Policies",
         "reference": "LP-SAVED-2010",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Mineral and Waste Local Plan Policies",
         "reference": "MWP-2010",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Supplementary Residential Extension Guidelines (RESPD)",
         "reference": "SPD-RESPD-2010",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -81,7 +81,7 @@
         "name": "The New Local Plan for Slough",
         "reference": "LP-2025-2045",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -90,7 +90,7 @@
         "name": "Call for Sites for the Local Plan",
         "reference": "CFS-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -99,7 +99,7 @@
         "name": "Emerging Local Plan – Updates to Planning Committee",
         "reference": "LP-UPDATES-2025",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

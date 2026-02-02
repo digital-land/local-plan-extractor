@@ -38,7 +38,7 @@
         "name": "Local Plan Monitoring and Process Documents",
         "reference": "LPM-2021",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -63,7 +63,7 @@
         "name": "New Local Plan",
         "reference": "LP-NEW-2024",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -88,7 +88,7 @@
         "name": "Maidstone Gypsy, Traveller and Travelling Showpeople DPD",
         "reference": "DPD-GYPSY-2024",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

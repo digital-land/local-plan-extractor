@@ -38,7 +38,7 @@
         "name": "SA SEA Post Adoption Statement 2021",
         "reference": "SA-2021",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -63,7 +63,7 @@
         "name": "Issues and Options Document",
         "reference": "LP-IO-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

@@ -20,7 +20,7 @@
         "name": "Local Plan 2024 - Evidence Base",
         "reference": "LP-2024-EB",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Sustainability Appraisal & Habitats Regulations Assessment",
         "reference": "SA-2024",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Local Plan timetable (LDS)",
         "reference": "LDS-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Policies Map",
         "reference": "PM-2024",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -72,7 +72,7 @@
         "name": "Sustainability Appraisal & Habitats Regulations Assessment",
         "reference": "SA-2020",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -81,7 +81,7 @@
         "name": "Regulation 19 Local Plan",
         "reference": "LP-REG19-2020",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -90,7 +90,7 @@
         "name": "Examination",
         "reference": "EX-2020",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -99,7 +99,7 @@
         "name": "Policies Map",
         "reference": "PM-2020",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -108,7 +108,7 @@
         "name": "Local Plan Timetable",
         "reference": "LDS-2020",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -117,7 +117,7 @@
         "name": "Local Plan 2040 – Evidence Base",
         "reference": "LP-EB-2020",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -126,7 +126,7 @@
         "name": "Regulation 18 Local Plan",
         "reference": "LP-REG18-2020",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -151,7 +151,7 @@
         "name": "Gypsy, Traveller & Travelling Showpersons Development Plan Document (Traveller DPD)",
         "reference": "TRAVELLER-DPD-2013",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -160,7 +160,7 @@
         "name": "Local Plan Part 1 - Joint Core Strategy Adopted March 2013",
         "reference": "CS-2013",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -169,7 +169,7 @@
         "name": "Local Plan Part 2 - Development Management & Allocations",
         "reference": "LP-PART2-2013",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -178,7 +178,7 @@
         "name": "Evidence Base",
         "reference": "EB-2013",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -187,7 +187,7 @@
         "name": "Sustainability Appraisals",
         "reference": "SA-2013",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },

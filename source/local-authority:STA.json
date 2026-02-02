@@ -87,7 +87,7 @@
         "name": "The Plan for Stafford Borough - Part 2",
         "reference": "LP-P2-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -96,7 +96,7 @@
         "name": "Statement of Community Involvement",
         "reference": "SCI-2018",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -105,7 +105,7 @@
         "name": "Stafford Borough Policy Map",
         "reference": "PM-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -114,7 +114,7 @@
         "name": "Habitats Regulations Assessment",
         "reference": "HRA-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -123,7 +123,7 @@
         "name": "Landscape Character Assessment",
         "reference": "LCA-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -132,7 +132,7 @@
         "name": "Sustainability Appraisal",
         "reference": "SA-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -141,7 +141,7 @@
         "name": "Strategic Housing Land Availability Assessment",
         "reference": "SHLAA-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

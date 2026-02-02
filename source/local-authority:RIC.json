@@ -29,7 +29,7 @@
         "name": "Sustainability Appraisals",
         "reference": "SA-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Environmental Impact Assessments",
         "reference": "EIA-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

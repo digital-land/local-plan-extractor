@@ -45,7 +45,7 @@
         "name": "Ward Member Workshops Feedback Report",
         "reference": "WMWR-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Town and Parish Council Workshops Feedback Report",
         "reference": "TPCWR-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Local Plan Launch Feedback Report",
         "reference": "LPLFR-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -88,7 +88,7 @@
         "name": "Ward Member Workshops Feedback Report",
         "reference": "WMWR-2024",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -97,7 +97,7 @@
         "name": "Town and Parish Council Workshops Feedback Report",
         "reference": "TPCWR-2024",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -106,7 +106,7 @@
         "name": "Local Plan Launch Feedback Report",
         "reference": "LPLFR-2024",
         "document-status": "draft",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   }

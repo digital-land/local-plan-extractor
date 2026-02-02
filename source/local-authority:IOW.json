@@ -20,7 +20,7 @@
         "name": "Inspectors Post Hearings Letter",
         "reference": "LP-IPS-2025",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Local Development Scheme (LDS)",
         "reference": "LDS-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Regulation 19 representations database",
         "reference": "LP-REG19-2024",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Regulation 19 representor list with representor numbers",
         "reference": "LP-REP-LIST-2024",
         "document-status": "examination",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Health Contributions SPD",
         "reference": "SPD-HEALTH-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -65,7 +65,7 @@
         "name": "Sustainable Drainage Systems SPD",
         "reference": "SPD-SUDS-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -74,7 +74,7 @@
         "name": "Affordable housing contributions SPD",
         "reference": "SPD-AFFORD-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -83,7 +83,7 @@
         "name": "Children's Services Financial Contributions Supplementary Planning Document (CSFCSPD)",
         "reference": "SPD-CHILD-2014",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -92,7 +92,7 @@
         "name": "Newport and Ryde Local Cycling and Walking and Infrastructure Plan SPD",
         "reference": "SPD-LCWIP-NR-2023",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -101,7 +101,7 @@
         "name": "The Bay Area Local Cycling and Walking and Infrastructure Plan SPD",
         "reference": "SPD-LCWIP-BAY-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -110,7 +110,7 @@
         "name": "Bembridge, Brading and St Helens Local Cycling and Walking and Infrastructure Plan SPD",
         "reference": "SPD-LCWIP-BBS-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -119,7 +119,7 @@
         "name": "Cowes, Northwood and Gurnard Local Cycling and Walking and Infrastructure Plan SPD",
         "reference": "SPD-LCWIP-CNG-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -128,7 +128,7 @@
         "name": "East Cowes and Whippingham Local Cycling and Walking and Infrastructure Plan SPD",
         "reference": "SPD-LCWIP-ECW-2025",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -137,7 +137,7 @@
         "name": "Guidelines for parking provision as part of new developments SPD",
         "reference": "SPD-PARK-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -146,7 +146,7 @@
         "name": "Guidelines for recycling and refuse storage in new developments SPD",
         "reference": "SPD-REFUSE-2017",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -155,7 +155,7 @@
         "name": "Newport and Ryde Commercial Frontages Design Guide SPD",
         "reference": "SPD-DESIGN-NR-2022",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -164,7 +164,7 @@
         "name": "Housing Affordability SPD",
         "reference": "SPD-HOUSE-AFF-2023",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },

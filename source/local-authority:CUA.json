@@ -54,7 +54,7 @@
         "name": "Copeland Local Plan 2021-2039",
         "reference": "LP-2021-2039",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Local Plan 2021-2039",
         "reference": "LP-NORTH-2021",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -72,7 +72,7 @@
         "name": "Local Plan 2021-2039 Proposals Map South",
         "reference": "PM-SOUTH-2021",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },

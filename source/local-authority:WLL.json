@@ -20,7 +20,7 @@
         "name": "Consultation on the Walsall Borough Local Plan has launched: Have your say",
         "reference": "LP-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Black Country Core Strategy (BCCS)",
         "reference": "CS-2011",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -70,7 +70,7 @@
         "name": "Walsall Site Allocations Document",
         "reference": "SA-DPD-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -79,7 +79,7 @@
         "name": "Site allocation document examination",
         "reference": "SA-DPD-EXAM-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -104,7 +104,7 @@
         "name": "Unitary Development Plan",
         "reference": "UDP-2005",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -129,7 +129,7 @@
         "name": "Walsall Town Centre Area Action Plan",
         "reference": "AAP-2018",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -138,7 +138,7 @@
         "name": "Walsall town centre area action plan examination",
         "reference": "AAP-EXAM-2018",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },

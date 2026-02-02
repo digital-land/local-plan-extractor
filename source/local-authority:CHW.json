@@ -20,7 +20,7 @@
         "name": "Regulation 18 Local Plan Issues and Options 2025",
         "reference": "LP-REG18-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Local Plan Issues and Options consultation 4 July - 29 August 2025",
         "reference": "LP-CONSULT-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -54,7 +54,7 @@
         "name": "Adopted Local Plan (Part Two) Land Allocations and Detailed Policies and supporting documents",
         "reference": "LP-PT2-2019",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Local Plan (Part Two) Land Allocations and Detailed Policies - Review",
         "reference": "LPR-PT2-2024",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -88,7 +88,7 @@
         "name": "Adopted Local Plan (Part One) Strategic Policies and supporting documents",
         "reference": "CS-2015",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "https://www.cheshirewestandchester.gov.uk/asset-library/lp1-2025-review-approved.pdf",

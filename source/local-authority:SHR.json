@@ -20,7 +20,7 @@
         "name": "Adopted Local Plan",
         "reference": "LP-ADOPTED-2026",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Next Local Plan",
         "reference": "LP-NEXT-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "One more week to respond to Local Plan 'call for sites'",
         "reference": "LP-CALLSITES-2025",
         "document-status": "consultation",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
@@ -79,7 +79,7 @@
         "name": "Archive - including information on the withdrawn Local Plan",
         "reference": "LP-WITHDRAWN-2024",
         "document-status": "withdrawn",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": """"
       }
     ]
   },
