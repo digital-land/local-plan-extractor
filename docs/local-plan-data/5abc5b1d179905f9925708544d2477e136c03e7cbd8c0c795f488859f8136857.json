@@ -1,19 +1,19 @@
 {
-  "name": "Local Plan 2001-2026",
+  "name": "Core Strategy and Policies for Management of Development (as amended)",
   "organisation-name": "Thurrock Council",
   "period-start-date": 2001,
   "period-end-date": 2026,
   "housing-numbers": [
     {
       "organisation-name": "Thurrock Council",
-      "required-housing": 18500,
+      "required-housing": 23250,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": 2036,
       "broad-locations-housing": 13550,
       "annual-required-housing": 925,
       "pages": "30-34, 59-64",
-      "notes": "18,500 dwellings required 2001-2021 from East of England Plan. 4,950 completed 2001-2009, 2,036 with planning permission as at April 2009, 13,550 additional provision needed 2009-2021. Housing delivered through broad locations rather than specific site allocations. Indicative 4,750 dwellings for 2021-2026 period.",
+      "notes": "Focused Review pertaining to compliance with the NPPF. Review updated policies CSSP5, CSTP8, CSTP23, STP25, CSTP26, CSTP27, CSTP28, CSTP31, CSTP32, PMD1, PMD2, PMD4, PMD6, PMD7, PMD10, PMD12, PMD15 and PMD16. Housing requirement policy (CSSP1) not materially altered by the Focused Review; policy dates to the Core Strategy (adopted 2011). Based on requirement of 18,500 2001-2021 (925 homes/annum) and 4,750 2021-2026 (950 homes/annum).",
       "organisation": "local-authority:THR"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:THR",
-  "adoption-date": null,
+  "adoption-date": "2015-01-28",
   "local-plan-boundary": "E60000148",
   "local-planning-authorities": [
     "E60000148"

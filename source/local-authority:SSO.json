@@ -5,19 +5,19 @@
     "reference": "LP-SSO-2006",
     "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=South+Somerset",
     "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EVgtqX74ij1PhNy_4z_TdlQBxsZaB8g6n7ayjbvYUHNW-g?e=FVegHm",
-    "name": "Local Plan 2006-2028",
+    "name": "South Somerset Local Plan 2006 to 2028",
     "status": "adopted",
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2028,
-    "adoption-date": null,
+    "adoption-date": "2015-03-05",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://somersetcc.sharepoint.com/:b:/s/SCCPublic/EVgtqX74ij1PhNy_4z_TdlQBxsZaB8g6n7ayjbvYUHNW-g?e=FVegHm",
         "documentation-url": "https://www.somerset.gov.uk/planning-buildings-and-land/adopted-local-plans/?district=South+Somerset",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2006-2028",
+        "name": "South Somerset Local Plan 2006 to 2028",
         "reference": "LP-SSO-2006",
         "document-status": "adopted",
         "endpoint": "e66f5b65adb5771f6e12c874edc35a1d7fe5d4a0f23734a87597fd28a9263c16"

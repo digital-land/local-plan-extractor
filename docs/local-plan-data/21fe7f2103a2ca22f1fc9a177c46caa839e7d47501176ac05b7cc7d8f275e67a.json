@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2004-2021",
+  "name": "South Tyneside LDF: Core Strategy",
   "organisation-name": "South Tyneside Council",
   "period-start-date": 2004,
   "period-end-date": 2021,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/21fe7f2103a2ca22f1fc9a177c46caa839e7d47501176ac05b7cc7d8f275e67a.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:STY",
-  "adoption-date": null,
+  "adoption-date": "2007-06-28",
   "local-plan-boundary": "E60000011",
   "local-planning-authorities": [
     "E60000011"

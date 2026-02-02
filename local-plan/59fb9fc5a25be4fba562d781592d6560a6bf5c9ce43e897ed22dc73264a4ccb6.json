@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:STO",
   "local-plan-boundary": "E60000312",
-  "local-planning-authorities": [
-    "E60000312"
-  ],
-  "adoption-date": "2015-11"
+  "local-planning-authorities": ["E60000312"],
+  "adoption-date": "2015-11-19"
 }

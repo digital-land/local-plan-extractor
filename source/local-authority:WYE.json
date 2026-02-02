@@ -4,7 +4,7 @@
     "organisation-name": "Wyre Forest District Council",
     "reference": "LP-WYE-2022",
     "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
-    "document-url": "",
+    "document-url": "https://www.wyreforestdc.gov.uk/media/at0c44wc/Local-Plan-14-April-2022.pdf",
     "name": "Wyre Forest District Local Plan (2016-2036)",
     "status": "adopted",
     "year": 2022,
@@ -14,13 +14,13 @@
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "",
+        "document-url": "https://www.wyreforestdc.gov.uk/media/at0c44wc/Local-Plan-14-April-2022.pdf",
         "documentation-url": "https://www.wyreforestdc.gov.uk/localplan",
         "document-type": "local-plan",
         "name": "Wyre Forest District Local Plan (2016-2036) - adopted April 2022",
         "reference": "LP-2016-2036",
         "document-status": "adopted",
-        "endpoint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        "endpoint": "ab42381c9f184f98f67bb05a7fec6343d851d9092a64e034c7eae0cabd0b74dc"
       },
       {
         "document-url": "",
@@ -61,7 +61,7 @@
       {
         "document-url": "https://www.wyreforestdc.gov.uk/media/g0fdxonb/settlement-hierarchy-july-2019.pdf",
         "documentation-url": "https://www.wyreforestdc.gov.uk/planning-and-buildings/planning-policy/wyre-forest-district-local-plan-2016-2036/local-plan-review-process-2015-2022/local-plan-2016-2036-background-documents/",
-        "document-type": "local-plan",
+        "document-type": "settlement-paper",
         "name": "Settlement hierarchy technical paper",
         "reference": "SH-2019",
         "document-status": "adopted",

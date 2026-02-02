@@ -111,19 +111,19 @@
     "reference": "LP-THR-2001",
     "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
     "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_adopted_2011_amended_2015.pdf",
-    "name": "Local Plan 2001-2026",
+    "name": "Core Strategy and Policies for Management of Development (as amended)",
     "status": "adopted",
     "year": 2001,
     "period-start-date": 2001,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2015-01-28",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.thurrock.gov.uk/sites/default/files/assets/documents/core_strategy_adopted_2011_amended_2015.pdf",
         "documentation-url": "https://www.thurrock.gov.uk/current-development-plan/core-strategy-local-plan",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2001-2026",
+        "name": "Core Strategy and Policies for Management of Development (as amended)",
         "reference": "LP-THR-2001",
         "document-status": "adopted",
         "endpoint": "5abc5b1d179905f9925708544d2477e136c03e7cbd8c0c795f488859f8136857"

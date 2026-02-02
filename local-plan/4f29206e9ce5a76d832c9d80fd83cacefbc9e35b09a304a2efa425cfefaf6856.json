@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:TFW",
   "local-plan-boundary": "E60000116",
-  "local-planning-authorities": [
-    "E60000116"
-  ],
-  "adoption-date": "2016-03-15"
+  "local-planning-authorities": ["E60000116"],
+  "adoption-date": "2018-01-11"
 }

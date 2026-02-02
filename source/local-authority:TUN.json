@@ -2,17 +2,27 @@
   {
     "organisation": "local-authority:TUN",
     "organisation-name": "Tunbridge Wells Borough Council",
-    "reference": "LP-TUN-2024",
+    "reference": "LP-TUN-2025",
     "documentation-url": "https://www.tunbridgewells.gov.uk/planning/planning-policy/local-plan",
-    "document-url": "",
-    "name": "New Borough Local Plan",
-    "status": "examination",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "document-url": "https://tunbridgewells.gov.uk/__data/assets/pdf_file/0008/511991/Adopted-Local-Plan-2020-2038.pdf",
+    "name": "Tunbridge Wells Local Plan 2020-2038",
+    "status": "adopted",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2038,
+    "adoption-date": "2025-12-10",
     "withdrawn-date": null,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://tunbridgewells.gov.uk/__data/assets/pdf_file/0008/511991/Adopted-Local-Plan-2020-2038.pdf",
+        "documentation-url": "https://tunbridgewells.gov.uk/planning/planning-policy/local-plan",
+        "document-type": "local-plan",
+        "name": "Tunbridge Wells Local Plan 2020-2038",
+        "reference": "LP-TUN-2025",
+        "document-status": "adopted",
+        "endpoint": "4c25d0afe94035d305bf1b3f9c2f1d49721aa2a3c8d422720524338efd68459d"
+      }
+    ]
   },
   {
     "organisation": "local-authority:TUN",

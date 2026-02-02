@@ -1,0 +1,27 @@
+{
+  "name": "Wyre Forest District Local Plan (2016-2036)",
+  "organisation-name": "Wyre Forest District Council",
+  "period-start-date": 2016,
+  "period-end-date": 2036,
+  "housing-numbers": [
+    {
+      "organisation-name": "Wyre Forest District Council",
+      "required-housing": 5520,
+      "allocated-housing": 5516,
+      "windfall-housing": "",
+      "committed-housing": 2708,
+      "broad-locations-housing": "",
+      "annual-required-housing": 276,
+      "pages": "24-28, 190, 279-280",
+      "notes": "Housing requirement is 5,520 dwellings plus 487 C2 institutional bedspaces. Allocated housing includes strategic allocations (3,639) and other site allocations (1,877). Committed housing includes completions 2016-2021 (1,018), under construction (474), and commitments not started (1,216). Plan includes over-allocation of 20%+ to allow for sites not coming forward.",
+      "organisation": "local-authority:WYE"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ab42381c9f184f98f67bb05a7fec6343d851d9092a64e034c7eae0cabd0b74dc",
+  "pdf_file": "collection/document/ab42381c9f184f98f67bb05a7fec6343d851d9092a64e034c7eae0cabd0b74dc.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:WYE",
+  "local-plan-boundary": "E60000142",
+  "local-planning-authorities": ["E60000142"]
+}

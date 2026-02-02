@@ -70,14 +70,8 @@
   "pdf_file": "collection/document/6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d.pdf",
   "pages_analysed": 32,
   "organisation": "joint-planning-authority:COR-KET",
-  "organisations": [
-    "local-authority:COR",
-    "local-authority:KET"
-  ],
+  "organisations": ["local-authority:COR", "local-authority:KET"],
   "local-plan-boundary": "E60000099-E60000102",
-  "local-planning-authorities": [
-    "E60000099",
-    "E60000102"
-  ],
-  "adoption-date": "2016-07"
+  "local-planning-authorities": ["E60000099", "E60000102"],
+  "adoption-date": "2016-07-14"
 }

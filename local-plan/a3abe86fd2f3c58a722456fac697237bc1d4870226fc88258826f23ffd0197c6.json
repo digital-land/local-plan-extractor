@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan - May 2019",
+  "name": "Stevenage Borough Local Plan 2011-2031",
   "organisation-name": "Stevenage Borough Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:STV",
   "local-plan-boundary": "E60000172",
-  "local-planning-authorities": [
-    "E60000172"
-  ],
-  "adoption-date": "2012-03"
+  "local-planning-authorities": ["E60000172"],
+  "adoption-date": "2019-05-22"
 }

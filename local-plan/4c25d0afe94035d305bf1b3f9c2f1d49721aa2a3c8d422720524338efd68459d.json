@@ -1,0 +1,27 @@
+{
+  "name": "Tunbridge Wells Local Plan 2020-2038",
+  "organisation-name": "Tunbridge Wells Borough Council",
+  "period-start-date": 2020,
+  "period-end-date": 2038,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tunbridge Wells Borough Council",
+      "required-housing": 12204,
+      "allocated-housing": 5693,
+      "windfall-housing": 1824,
+      "committed-housing": 2845,
+      "broad-locations-housing": "",
+      "annual-required-housing": 678,
+      "pages": "2-3, 37-38",
+      "notes": "Table 3 provides comprehensive housing supply breakdown. Windfall includes 1,464 small sites + 360 large urban sites. Minimum total allocations figure used (5,693) which includes new allocations plus carried forward SALP allocations and Benenden NDP allocations.",
+      "organisation": "local-authority:TUN"
+    }
+  ],
+  "confidence": "high",
+  "authority": "4c25d0afe94035d305bf1b3f9c2f1d49721aa2a3c8d422720524338efd68459d",
+  "pdf_file": "collection/document/4c25d0afe94035d305bf1b3f9c2f1d49721aa2a3c8d422720524338efd68459d.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TUN",
+  "local-plan-boundary": "E60000264",
+  "local-planning-authorities": ["E60000264"]
+}

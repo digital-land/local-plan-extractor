@@ -1,0 +1,28 @@
+{
+  "name": "Core Strategy",
+  "organisation-name": "Tonbridge and Malling Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2021,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tonbridge and Malling Borough Council",
+      "required-housing": 6375,
+      "allocated-housing": 1065,
+      "windfall-housing": 2330,
+      "committed-housing": 4606,
+      "broad-locations-housing": "",
+      "annual-required-housing": 425,
+      "pages": "11-12, 41-42",
+      "notes": "Based on submitted South East Plan requirement. Major strategic sites with permission: Holborough (938), Kings Hill (1446), Leybourne Grange (723), Peters Pit (1000). Windfall estimate includes 1280 from larger sites and 1050 from small sites over plan period.",
+      "organisation": "local-authority:TON"
+    }
+  ],
+  "confidence": "high",
+  "authority": "ce937007f1e20a84fe51664b5d4e75b50c8e5866ea5b8cd24f060ed1e43a68b3",
+  "pdf_file": "collection/document/ce937007f1e20a84fe51664b5d4e75b50c8e5866ea5b8cd24f060ed1e43a68b3.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TON",
+  "local-plan-boundary": "E60000263",
+  "local-planning-authorities": ["E60000263"],
+  "adoption-date": "2007-09-25"
+}

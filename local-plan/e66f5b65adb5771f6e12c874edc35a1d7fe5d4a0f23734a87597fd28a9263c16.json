@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2028",
+  "name": "South Somerset Local Plan 2006 to 2028",
   "organisation-name": "South Somerset District Council",
   "period-start-date": 2006,
   "period-end-date": 2028,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/e66f5b65adb5771f6e12c874edc35a1d7fe5d4a0f23734a87597fd28a9263c16.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SSO",
-  "adoption-date": null,
+  "adoption-date": "2015-03-05",
   "local-plan-boundary": "E60000317",
-  "local-planning-authorities": [
-    "E60000317"
-  ]
+  "local-planning-authorities": ["E60000317"]
 }

@@ -1,7 +1,7 @@
 {
-  "name": "Local Plan 2019-2033",
+  "name": "Wycombe District Local Plan",
   "organisation-name": "Wycombe District Council",
-  "period-start-date": 2019,
+  "period-start-date": 2013,
   "period-end-date": 2033,
   "housing-numbers": [
     {
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/6338d4c093e64b2d9271b87cfccce58c032d518192b7d6a0bee2a503b334e294.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:WYO",
-  "adoption-date": null,
+  "adoption-date": "2019-08-19",
   "local-plan-boundary": "E60000236",
   "local-planning-authorities": [
     "E60000236"

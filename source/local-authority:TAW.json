@@ -4,20 +4,29 @@
     "organisation-name": "Tamworth Borough Council",
     "reference": "LP-TAW-2016",
     "documentation-url": "https://www.tamworth.gov.uk/local-plans",
-    "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Appendix-D-Monitoring-Framework.pdf",
+    "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Local-Plan-2006-2031.pdf",
     "name": "Tamworth Borough Council Local Plan 2006-2031",
     "status": "adopted",
     "year": 2016,
     "period-start-date": 2006,
     "period-end-date": 2031,
-    "adoption-date": null,
+    "adoption-date": "2016-02-23",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Local-Plan-2006-2031.pdf",
+        "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
+        "document-type": "local-plan",
+        "name": "Tamworth Borough Council Local Plan 2006-2031",
+        "reference": "LP-TAW-2016",
+        "document-status": "adopted",
+        "endpoint": "18e206420c036465ac69e7b37b26e794c44fcdfcfa9140eed87e9246a89e49a6"
+      },
       {
         "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Appendix-D-Monitoring-Framework.pdf",
         "documentation-url": "https://www.tamworth.gov.uk/planning-policy/development-plan-monitoring",
         "document-type": "local-plan",
-        "name": "Appendix D - Monitoring Framework",
+        "name": "Tamworth Local Plan Appendix D Monitoring Framework",
         "reference": "LP-2006-2031-APPENDIX",
         "document-status": "adopted",
         "endpoint": "f7bdce14654bac126737f64e7071ad7bc2298ea0bae8d9e9e1a25411f815ae37"

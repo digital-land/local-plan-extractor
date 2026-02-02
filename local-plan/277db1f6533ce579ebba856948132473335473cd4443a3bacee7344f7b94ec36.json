@@ -1,7 +1,7 @@
 {
-  "name": "Local Plan 2013-2027",
+  "name": "Wealden District Core Strategy Local Plan (February 2013)",
   "organisation-name": "Wealden District Council",
-  "period-start-date": 2013,
+  "period-start-date": 2006,
   "period-end-date": 2027,
   "housing-numbers": [
     {
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:WEA",
-  "adoption-date": null,
+  "adoption-date": "2013-02",
   "local-plan-boundary": "E60000241",
-  "local-planning-authorities": [
-    "E60000241"
-  ]
+  "local-planning-authorities": ["E60000241"]
 }

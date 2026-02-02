@@ -174,19 +174,19 @@
     "reference": "LP-SUR-2011",
     "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
     "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
-    "name": "Local Plan 2011-2028",
+    "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2028,
-    "adoption-date": null,
+    "adoption-date": "2012-02-01",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
         "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2028",
+        "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
         "reference": "LP-SUR-2011",
         "document-status": "adopted",
         "endpoint": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4"

@@ -1,0 +1,30 @@
+{
+  "name": "Tamworth Borough Council Local Plan 2006-2031",
+  "organisation-name": "Tamworth Borough Council",
+  "period-start-date": 2006,
+  "period-end-date": 2031,
+  "housing-numbers": [
+    {
+      "organisation-name": "Tamworth Borough Council",
+      "required-housing": 6250,
+      "allocated-housing": 4425,
+      "windfall-housing": "",
+      "committed-housing": 1959,
+      "broad-locations-housing": "",
+      "annual-required-housing": 177,
+      "pages": "25-27, 70, 87",
+      "notes": "Required housing is objectively assessed need of 250dpa x 25 years = 6250. Plan can only deliver 4425 within Tamworth, with remaining 1825 to be delivered outside borough by Lichfield (500) and North Warwickshire (500) with 825 still unplanned. Committed housing includes 1494 completions since 2006 + 465 with planning permission/under construction as of April 2015. Annual requirement set at minimum 177dpa based on deliverable capacity.",
+      "organisation": "local-authority:TAW"
+    }
+  ],
+  "confidence": "high",
+  "authority": "18e206420c036465ac69e7b37b26e794c44fcdfcfa9140eed87e9246a89e49a6",
+  "pdf_file": "collection/document/18e206420c036465ac69e7b37b26e794c44fcdfcfa9140eed87e9246a89e49a6.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:TAW",
+  "local-plan-boundary": "E60000124",
+  "local-planning-authorities": [
+    "E60000124"
+  ],
+  "document-url": "https://www.tamworth.gov.uk/sites/default/files/planning_docs/Local-Plan-2006-2031.pdf"
+}

@@ -23,8 +23,6 @@
   "pages_analysed": 8,
   "organisation": "local-authority:SKE",
   "local-plan-boundary": "E60000097",
-  "local-planning-authorities": [
-    "E60000097"
-  ],
-  "adoption-date": "2012-03"
+  "local-planning-authorities": ["E60000097"],
+  "adoption-date": "2020-01-30"
 }

@@ -1,19 +1,19 @@
 {
-  "name": "Vale of White Horse Local Plan 2031: Part One - Strategic Sites and Policies",
+  "name": "Vale of White Horse Local Plan 2031: Part One - Strategic Sites and Policies (as amended by Part 2 Plan, 9 Oct 2019)",
   "organisation-name": "Vale of White Horse District Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
   "housing-numbers": [
     {
       "organisation-name": "Vale of White Horse District Council",
-      "required-housing": 20560,
+      "required-housing": 22760,
       "allocated-housing": 12495,
       "windfall-housing": 840,
       "committed-housing": 4468,
       "broad-locations-housing": 1000,
       "annual-required-housing": 1028,
       "pages": "44-45, 61, 80, 99",
-      "notes": "Housing requirement is 'at least 20,560' for 2011-2031. Strategic allocations total 12,495 across three sub-areas. Annual requirement of 1,028 per annum mentioned on page 24. Local Plan Part 2 allocations of 1,000 are for sites to be identified in future plan. Does not include Oxford's unmet housing need which will be addressed in Part 2.",
+      "notes": "Housing requirement (as modified by Part 2 Plan) is 22,760 for plan period 2011-2031 (adding Oxford's unmet need of 2,200). Strategic allocations total 12,495 across three sub-areas. Annual requirement of 1,028 per annum mentioned on page 24. Local Plan Part 2 allocations of 1,000 are for sites to be identified in future plan.",
       "organisation": "local-authority:VAL"
     }
   ],

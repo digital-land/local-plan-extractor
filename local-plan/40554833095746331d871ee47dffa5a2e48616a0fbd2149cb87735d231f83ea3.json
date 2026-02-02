@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/40554833095746331d871ee47dffa5a2e48616a0fbd2149cb87735d231f83ea3.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SPE",
-  "adoption-date": null,
+  "adoption-date": "2009-02-26",
   "local-plan-boundary": "E60000276",
-  "local-planning-authorities": [
-    "E60000276"
-  ]
+  "local-planning-authorities": ["E60000276"]
 }

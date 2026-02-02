@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:SWL",
   "local-plan-boundary": "E60000261",
-  "local-planning-authorities": [
-    "E60000261"
-  ],
-  "adoption-date": "2017-07"
+  "local-planning-authorities": ["E60000261"],
+  "adoption-date": "2017-07-26"
 }

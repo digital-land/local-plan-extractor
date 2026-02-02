@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:WAW",
   "local-plan-boundary": "E60000129",
-  "local-planning-authorities": [
-    "E60000129"
-  ],
-  "adoption-date": "2015-10"
+  "local-planning-authorities": ["E60000129"],
+  "adoption-date": "2017-09-20"
 }

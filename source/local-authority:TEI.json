@@ -12,19 +12,19 @@
     "reference": "LP-TEI-2013",
     "documentation-url": "https://www.teignbridge.gov.uk/localplan",
     "document-url": "https://www.teignbridge.gov.uk/media/1669/local-plan-2013-33.pdf",
-    "name": "Local Plan 2013-2033",
+    "name": "Teignbridge Local Plan 2013-2033",
     "status": "adopted",
     "year": 2013,
     "period-start-date": 2013,
     "period-end-date": 2033,
-    "adoption-date": null,
+    "adoption-date": "2014-05-06",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.teignbridge.gov.uk/media/1669/local-plan-2013-33.pdf",
         "documentation-url": "https://www.teignbridge.gov.uk/localplan",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2013-2033",
+        "name": "Teignbridge Local Plan 2013-2033",
         "reference": "LP-TEI-2013",
         "document-status": "adopted",
         "endpoint": "9eb47d09401079e46f2caa89e6a69f8e1367095d1868e72b2a5e8f05b4c1619d"

@@ -66,19 +66,19 @@
     "reference": "LP-SKP-2011",
     "documentation-url": "https://www.stockport.gov.uk/development-plan",
     "document-url": "https://assets.ctfassets.net/ii3xdrqc6nfw/1dsOJMSWcOdoMWxhD2BWjm/82bd4afcf114f3c523d3442891db8978/Core_Strategy_Policy.pdf",
-    "name": "Local Plan 2011-2026",
+    "name": "Core Strategy DPD",
     "status": "adopted",
     "year": 2011,
     "period-start-date": 2011,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2011-03-17",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://assets.ctfassets.net/ii3xdrqc6nfw/1dsOJMSWcOdoMWxhD2BWjm/82bd4afcf114f3c523d3442891db8978/Core_Strategy_Policy.pdf",
         "documentation-url": "https://www.stockport.gov.uk/development-plan",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
+        "name": "Core Strategy DPD",
         "reference": "LP-SKP-2011",
         "document-status": "adopted",
         "endpoint": "3c4cde9fa13ac744498e54e9f8e4ef0e34af2875102ffaa4665a08850e42dfda"

@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "Local Plan Part 1 - Joint Core Strategy",
   "organisation-name": "Winchester City Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -13,7 +13,7 @@
       "broad-locations-housing": "",
       "annual-required-housing": 625,
       "pages": "70-71, 163",
-      "notes": "Total for Winchester District including parts within South Downs National Park. Strategic allocations include 2000 at North Winchester, 2500 at West of Waterlooville, 3500 at North Whiteley. Committed housing includes completions 2011/12 (317) plus sites with planning permission and SHLAA sites (2392).",
+      "notes": "Provision will be made within the District for the provision of about 12,500 dwellings (net) in the period April 2011 to March 2031, distributed between the three spatial areas as follows: Winchester Town 4,000 dwellings South Hampshire Urban Areas 6,000 dwellings Market Towns and Rural Area 2,500 dwellings. Approximately 8,000 of this total will be within major developments at North Winchester (2,000), West of Waterlooville (2,500) and North Whiteley (3,500). The spatial strategy for the District is set out in detail in Policies WT1, SH1 and MTRA1.",
       "organisation": "local-authority:WIN"
     }
   ],
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:WIN",
-  "adoption-date": null,
+  "adoption-date": "2013-03-20",
   "local-plan-boundary": "E60000252",
   "local-planning-authorities": [
     "E60000252"

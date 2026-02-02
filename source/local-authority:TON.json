@@ -66,12 +66,12 @@
     "reference": "LP-TON-2007",
     "documentation-url": "https://www.tmbc.gov.uk/developmentplan",
     "document-url": "https://www.tmbc.gov.uk/downloads/file/276/core-strategy",
-    "name": "Tonbridge and Malling Core Strategy",
+    "name": "Core Strategy",
     "status": "adopted",
     "year": 2007,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": "2010-04",
+    "period-start-date": 2006,
+    "period-end-date": 2021,
+    "adoption-date": "2007-09-25",
     "withdrawn-date": null,
     "documents": [
       {

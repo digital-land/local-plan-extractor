@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2026",
+  "name": "Tandridge District Core Strategy 2008",
   "organisation-name": "Tandridge District Council",
   "period-start-date": 2006,
   "period-end-date": 2026,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/a9e3813655e3800996830f4437ecefe9c4b697355e69214701c82b938e6b8329.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:TAN",
-  "adoption-date": null,
+  "adoption-date": "2008-10-15",
   "local-plan-boundary": "E60000278",
-  "local-planning-authorities": [
-    "E60000278"
-  ]
+  "local-planning-authorities": ["E60000278"]
 }
