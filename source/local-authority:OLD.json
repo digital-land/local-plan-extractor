@@ -27,25 +27,25 @@
   {
     "organisation": "local-authority:OLD",
     "organisation-name": "Oldham Metropolitan Borough Council",
-    "reference": "LP-OLD-2022",
+    "reference": "LP-OLD-2024",
     "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
-    "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
-    "name": "Local Plan 2022-2039",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
+    "name": "Places for Everyone Joint Development Plan",
     "status": "adopted",
-    "year": 2022,
+    "year": 2024,
     "period-start-date": 2022,
     "period-end-date": 2039,
-    "adoption-date": null,
+    "adoption-date": "2024-03-21",
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.greatermanchester-ca.gov.uk/media/2drduk0t/places-for-everyone-joint-development-plan-dec24.pdf",
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
         "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2022-2039",
-        "reference": "LP-OLD-2022",
+        "name": "Places for Everyone",
+        "reference": "LP-2024",
         "document-status": "adopted",
-        "endpoint": "c1bf05ba5b426b3308eaed23cc16361f3718cdbe02389c3f7a075028b9ed5cce"
+        "endpoint": "d1312ec5875b68e0bf432802799940ed0639cfe399c75da2b6013916302a9813"
       }
     ]
   }

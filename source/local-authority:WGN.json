@@ -125,5 +125,30 @@
         "endpoint": "106c6e73311c1882da01b98c7945dd0cfe35f4e40621a5fc8d13fe713a443b10"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:WGN",
+    "organisation-name": "Wigan Metropolitan Borough Council",
+    "reference": "LP-WGN-2024",
+    "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+    "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
+    "name": "Places for Everyone Joint Development Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": 2022,
+    "period-end-date": 2039,
+    "adoption-date": "2024-03-21",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
+        "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+        "document-type": "local-plan",
+        "name": "Places for Everyone",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": "d1312ec5875b68e0bf432802799940ed0639cfe399c75da2b6013916302a9813"
+      }
+    ]
   }
 ]

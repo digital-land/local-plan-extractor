@@ -183,5 +183,30 @@
         "endpoint": "77e0d70092caae798399b1bc73884d37c69a15f0c00ca47498188b426a5c5d4f"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:BRT",
+    "organisation-name": "Broxtowe Borough Council",
+    "reference": "LP-BRT-2014",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+    "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+    "name": "Aligned Core Strategies - Part 1 Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2014-09-17",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Aligned Core Strategies - Part 1 Local Plan",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988"
+      }
+    ]
   }
 ]

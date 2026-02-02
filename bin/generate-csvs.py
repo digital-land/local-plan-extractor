@@ -881,10 +881,15 @@ class LocalPlanCSVGenerator:
                         f"{plan_reference}-1"
                     )
 
+                    # Extract organisation from housing-numbers entry and convert joint-planning-authority to local-planning-group
+                    lpa_code = num_entry.get('organisation', '')
+                    if lpa_code.startswith('joint-planning-authority:'):
+                        lpa_code = lpa_code.replace('joint-planning-authority:', 'local-planning-group:')
+
                     housing_entry = {
                         'reference': housing_reference,
                         'local-plan': plan_reference,
-                        'local-planning-authority': '',
+                        'local-planning-authority': lpa_code,
                         'required-housing': num_entry.get('required-housing', ''),
                         'committed-housing': num_entry.get('committed-housing', ''),
                         'allocated-housing': num_entry.get('allocated-housing', ''),

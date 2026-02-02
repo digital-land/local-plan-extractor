@@ -23,5 +23,30 @@
         "endpoint": "07394cdf84e75a398dae2db85b7cad69c90c33b64bd18341fec74ddcec3a7e25"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:GED",
+    "organisation-name": "Gedling Borough Council",
+    "reference": "LP-GED-2014",
+    "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+    "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+    "name": "Aligned Core Strategies - Part 1 Local Plan",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2014-09-17",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.nottinghamcity.gov.uk/media/kyhhfdx4/the-nottingham-city-aligned-core-strategy-acs.pdf",
+        "documentation-url": "https://www.nottinghamcity.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "Aligned Core Strategies - Part 1 Local Plan",
+        "reference": "CS-2014",
+        "document-status": "adopted",
+        "endpoint": "4d148150b9c5c2733ea37b28850daffe4135feac60396342cc07dcc4563cf988"
+      }
+    ]
   }
 ]
