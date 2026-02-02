@@ -79,22 +79,47 @@
   {
     "organisation": "local-authority:BAS",
     "organisation-name": "Bath and North East Somerset Council",
+    "reference": "LP-BAS-2014",
+    "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/archive-planning-policy-core-strategy-and-placemaking-plan",
+    "document-url": "https://www.bathnes.gov.uk/sites/default/files/2020-02/core_strategy_-_adopted_interactive_version.pdf",
+    "name": "Bath and North East Somerset Core Strategy",
+    "status": "adopted",
+    "year": 2014,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "adoption-date": "2014-07-10",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bathnes.gov.uk/sites/default/files/2020-02/core_strategy_-_adopted_interactive_version.pdf",
+        "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/archive-planning-policy-core-strategy-and-placemaking-plan",
+        "document-type": "local-plan",
+        "name": "Bath and North East Somerset Core Strategy",
+        "reference": "LP-BAS-2014",
+        "document-status": "adopted",
+        "endpoint": "f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BAS",
+    "organisation-name": "Bath and North East Somerset Council",
     "reference": "LP-BAS-2023",
     "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/local-plan-partial-update-adoption-documents",
     "document-url": "https://www.bathnes.gov.uk/sites/default/files/2023-01/Adopted%20LPPU%20Jan%202023.pdf",
-    "name": "Local Plan 2023-2029",
+    "name": "Local Plan (Core Strategy and Placemaking Plan) Partial Update",
     "status": "adopted",
     "year": 2023,
     "period-start-date": 2023,
     "period-end-date": 2029,
-    "adoption-date": null,
+    "adoption-date": "2023-01-19",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.bathnes.gov.uk/sites/default/files/2023-01/Adopted%20LPPU%20Jan%202023.pdf",
         "documentation-url": "https://www.bathnes.gov.uk/policy-and-documents-library/local-plan-partial-update-adoption-documents",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2023-2029",
+        "name": "Local Plan (Core Strategy and Placemaking Plan) Partial Update",
         "reference": "LP-BAS-2023",
         "document-status": "adopted",
         "endpoint": "f0bca8c942bee0005bd5b0b59f9a5ab186dfc96671ab5dfda375e91ea86836b1"

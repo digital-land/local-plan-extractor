@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2025",
+  "name": "Rochford LDF: Core Strategy",
   "organisation-name": "Rochford District Council",
   "period-start-date": 2006,
   "period-end-date": 2025,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:ROC",
-  "adoption-date": null,
+  "adoption-date": "2011-12-13",
   "local-plan-boundary": "E60000163",
   "local-planning-authorities": [
     "E60000163"

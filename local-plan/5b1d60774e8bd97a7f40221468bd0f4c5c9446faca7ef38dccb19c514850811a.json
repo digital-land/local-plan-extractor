@@ -26,12 +26,8 @@
     "local-authority:NOW",
     "local-authority:SNO"
   ],
-  "adoption-date": "2024-03",
+  "adoption-date": "2024-03-28",
   "local-plan-boundary": "E60000177-E60000181-E60000182",
-  "local-planning-authorities": [
-    "E60000177",
-    "E60000181",
-    "E60000182"
-  ],
+  "local-planning-authorities": ["E60000177", "E60000181", "E60000182"],
   "organisation": "joint-planning-authority:BRO-NOW-SNO"
 }

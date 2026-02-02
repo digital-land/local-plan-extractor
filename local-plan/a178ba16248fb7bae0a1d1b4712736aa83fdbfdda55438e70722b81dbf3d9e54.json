@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2006-2026",
+  "name": "Sevenoaks Core Strategy",
   "organisation-name": "Sevenoaks District Council",
   "period-start-date": 2006,
   "period-end-date": 2026,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SEV",
-  "adoption-date": null,
+  "adoption-date": "2011-02-22",
   "local-plan-boundary": "E60000260",
-  "local-planning-authorities": [
-    "E60000260"
-  ]
+  "local-planning-authorities": ["E60000260"]
 }

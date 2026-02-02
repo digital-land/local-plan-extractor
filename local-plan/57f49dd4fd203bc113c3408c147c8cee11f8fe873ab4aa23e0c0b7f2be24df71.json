@@ -1,11 +1,11 @@
 {
-  "name": "Sefton Local Plan",
-  "organisation-name": "Sefton Council",
+  "name": "A Local Plan for Sefton",
+  "organisation-name": "Sefton Metropolitan Borough Council",
   "period-start-date": 2012,
   "period-end-date": 2030,
   "housing-numbers": [
     {
-      "organisation-name": "Sefton Council",
+      "organisation-name": "Sefton Metropolitan Borough Council",
       "required-housing": 11520,
       "allocated-housing": 8920,
       "windfall-housing": 1071,
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:SFT",
   "local-plan-boundary": "E60000049",
-  "local-planning-authorities": [
-    "E60000049"
-  ],
+  "local-planning-authorities": ["E60000049"],
   "adoption-date": "2017-04-20"
 }

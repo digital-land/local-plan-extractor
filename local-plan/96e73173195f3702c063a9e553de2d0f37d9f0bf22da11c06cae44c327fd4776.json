@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2028",
+  "name": "South Derbyshire Local Plan: Part 1",
   "organisation-name": "South Derbyshire District Council",
   "period-start-date": 2011,
   "period-end-date": 2028,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SDE",
-  "adoption-date": null,
+  "adoption-date": "2016-06-13",
   "local-plan-boundary": "E60000084",
-  "local-planning-authorities": [
-    "E60000084"
-  ]
+  "local-planning-authorities": ["E60000084"]
 }

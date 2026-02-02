@@ -89,19 +89,19 @@
     "reference": "LP-SHR-2006",
     "documentation-url": "https://next.shropshire.gov.uk/planning-policy/adopted-local-plan/",
     "document-url": "https://next.shropshire.gov.uk/media/ImportedMedia/8534/core-strategy.pdf",
-    "name": "Local Plan 2006-2026",
+    "name": "Shropshire Local Development Framework: Adopted Core Strategy",
     "status": "adopted",
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2026,
-    "adoption-date": null,
+    "adoption-date": "2011-02-24",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://next.shropshire.gov.uk/media/ImportedMedia/8534/core-strategy.pdf",
         "documentation-url": "https://next.shropshire.gov.uk/planning-policy/adopted-local-plan/",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2006-2026",
+        "name": "Shropshire Local Development Framework: Adopted Core Strategy",
         "reference": "LP-SHR-2006",
         "document-status": "adopted",
         "endpoint": "23c26abffefe1ced3f23bcf6c43fdd0685d5fc6a59ba6928d9b6420922fb54b2"

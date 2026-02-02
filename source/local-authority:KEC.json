@@ -5,11 +5,11 @@
     "reference": "LP-KEC-2024",
     "documentation-url": "https://www.rbkc.gov.uk/localplan",
     "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/AA_24-09-03%20Local%20Plan%202024_Final%20Clean%20Version%20_02.pdf",
-    "name": "New Local Plan July 2024",
+    "name": "New Local Plan Review",
     "status": "adopted",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2024,
+    "period-end-date": 2043,
     "adoption-date": "2024-07-24",
     "withdrawn-date": null,
     "documents": [
@@ -17,7 +17,7 @@
         "document-url": "https://www.rbkc.gov.uk/sites/default/files/media/documents/AA_24-09-03%20Local%20Plan%202024_Final%20Clean%20Version%20_02.pdf",
         "documentation-url": "https://www.rbkc.gov.uk/localplan",
         "document-type": "local-plan",
-        "name": "New Local Plan July 2024",
+        "name": "New Local Plan Review",
         "reference": "LP-2024",
         "document-status": "adopted",
         "endpoint": "ba1a142e2f72eba231b384403ae64f31ce677b396f1a8b5c9b4e0153cd6da53c"

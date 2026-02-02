@@ -174,19 +174,19 @@
     "reference": "LP-ROC-2006",
     "documentation-url": "https://www.rochford.gov.uk/core-strategy",
     "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_cs_adoptedstrategy.pdf",
-    "name": "Local Plan 2006-2025",
+    "name": "Rochford LDF: Core Strategy",
     "status": "adopted",
     "year": 2006,
     "period-start-date": 2006,
     "period-end-date": 2025,
-    "adoption-date": null,
+    "adoption-date": "2011-12-13",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rochford.gov.uk/sites/default/files/2022-11/planningpolicy_cs_adoptedstrategy.pdf",
         "documentation-url": "https://www.rochford.gov.uk/core-strategy",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2006-2025",
+        "name": "Rochford LDF: Core Strategy",
         "reference": "LP-ROC-2006",
         "document-status": "adopted",
         "endpoint": "b6aeaa58e9e53b459c65bfb7bbcb459c02b4b7197047b627e2ef4071c2919cab"

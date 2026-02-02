@@ -6,14 +6,14 @@
   "housing-numbers": [
     {
       "organisation-name": "Birmingham City Council",
-      "required-housing": 89000,
+      "required-housing": 51100,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
       "broad-locations-housing": "",
-      "annual-required-housing": 4450,
+      "annual-required-housing": 2555,
       "pages": "28, 110, 144",
-      "notes": "Plan can only deliver 51,100 homes within city boundary. Remaining 37,900 homes (including 14,400 affordable) to be delivered elsewhere in Greater Birmingham Housing Market Area through Duty to Co-operate. Housing trajectory shows phased delivery: 1,650 dpa (2011-2015), 2,500 dpa (2015-2018), 2,850 dpa (2018-2031).",
+      "notes": "Plan can only deliver 51,100 homes within city boundary. Remaining 37,900 homes (including 14,400 affordable) to be delivered elsewhere in Greater Birmingham Housing Market Area through Duty to Co-operate between 2018/19 to 2030/31. Housing trajectory shows phased delivery: 1,650 dpa (2011-2015), 2,500 dpa (2015-2018), 2,850 dpa (2018-2031).",
       "organisation": "local-authority:BIR"
     }
   ],
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:BIR",
   "local-plan-boundary": "E60000130",
-  "local-planning-authorities": [
-    "E60000130"
-  ],
+  "local-planning-authorities": ["E60000130"],
   "adoption-date": "2017-01-10"
 }

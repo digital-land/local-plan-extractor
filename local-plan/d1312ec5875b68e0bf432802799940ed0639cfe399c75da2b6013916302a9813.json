@@ -116,13 +116,13 @@
       "organisation-name": "Bolton Council, Bury Council, Manchester City Council, Oldham Council, Rochdale Council, Salford City Council, Tameside Council, Trafford Council, Wigan Council",
       "organisation": "joint-planning-authority:BOL-BUR-MAN-OLD-RCH-SLF-TAM-TRF-WGN",
       "required-housing": 175185,
-      "allocated-housing": 20122,
-      "windfall-housing": 6289,
-      "committed-housing": 172471,
-      "broad-locations-housing": 0,
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": "",
+      "broad-locations-housing": "",
       "annual-required-housing": 10305,
-      "pages": "",
-      "notes": ""
+      "pages": "139",
+      "notes": "A minimum of 175,185 net additional dwellings will be delivered over the period 2022-2039, or an annual average of around 10,305."
     }
   ],
   "confidence": "high",

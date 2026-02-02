@@ -1,5 +1,5 @@
 {
-  "name": "Southampton City Council, Core Strategy – Amended Adopted Version March 2015",
+  "name": "Core Strategy (amended 2015)",
   "organisation-name": "Southampton City Council",
   "period-start-date": 2006,
   "period-end-date": 2026,
@@ -26,6 +26,6 @@
   "local-planning-authorities": [
     "E60000229"
   ],
-  "adoption-date": "2006-03",
+  "adoption-date": "2015-03-18",
   "document-url": "https://www.southampton.gov.uk/media/io4midh4/amended-core-strategy-inc-cspr-final-13-03-2015_tcm63-371354.pdf"
 }

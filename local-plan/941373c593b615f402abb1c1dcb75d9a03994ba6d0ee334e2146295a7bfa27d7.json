@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2032",
+  "name": "The Sedgemoor Local Plan 2011-2032",
   "organisation-name": "Sedgemoor District Council",
   "period-start-date": 2011,
   "period-end-date": 2032,
@@ -22,9 +22,7 @@
   "pdf_file": "collection/document/941373c593b615f402abb1c1dcb75d9a03994ba6d0ee334e2146295a7bfa27d7.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SEG",
-  "adoption-date": null,
+  "adoption-date": "2019-02-20",
   "local-plan-boundary": "E60000315",
-  "local-planning-authorities": [
-    "E60000315"
-  ]
+  "local-planning-authorities": ["E60000315"]
 }

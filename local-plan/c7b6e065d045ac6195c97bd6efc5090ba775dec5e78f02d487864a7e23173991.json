@@ -1,0 +1,28 @@
+{
+  "name": "Core Strategy Development Plan Document",
+  "organisation-name": "South Bucks District Council",
+  "period-start-date": 2006,
+  "period-end-date": 2026,
+  "housing-numbers": [
+    {
+      "organisation-name": "South Bucks District Council",
+      "required-housing": "2200-2800",
+      "allocated-housing": "",
+      "windfall-housing": "",
+      "committed-housing": 1855,
+      "broad-locations-housing": "",
+      "annual-required-housing": 125,
+      "pages": "26-27, 15",
+      "notes": "Housing target range of 2,200-2,800 dwellings for 2006-2026. Commitments include completions 2006-2010 (876), under construction (126), and outstanding permissions (853). Strong housing land supply position with 11.5 years supply. No specific allocations - relies on existing permissions plus SHLAA sites and opportunity sites.",
+      "organisation": "local-authority:SBU"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c7b6e065d045ac6195c97bd6efc5090ba775dec5e78f02d487864a7e23173991",
+  "pdf_file": "collection/document/c7b6e065d045ac6195c97bd6efc5090ba775dec5e78f02d487864a7e23173991.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:SBU",
+  "local-plan-boundary": "E60000235",
+  "local-planning-authorities": ["E60000235"],
+  "adoption-date": "2011-02-22"
+}

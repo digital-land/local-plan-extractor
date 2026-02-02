@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2011-2031",
+  "name": "South Cambridgeshire Local Plan",
   "organisation-name": "South Cambridgeshire District Council",
   "period-start-date": 2011,
   "period-end-date": 2031,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SCA",
-  "adoption-date": null,
+  "adoption-date": "2018-09-27",
   "local-plan-boundary": "E60000153",
   "local-planning-authorities": [
     "E60000153"

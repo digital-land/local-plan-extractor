@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:KTT",
   "local-plan-boundary": "E60000215",
-  "local-planning-authorities": [
-    "E60000215"
-  ],
-  "adoption-date": "2012-04"
+  "local-planning-authorities": ["E60000215"],
+  "adoption-date": "2012-04-17"
 }

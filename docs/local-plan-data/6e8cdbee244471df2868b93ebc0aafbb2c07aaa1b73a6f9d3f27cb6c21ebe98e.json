@@ -1,5 +1,5 @@
 {
-  "name": "Local Plan 2004-2026",
+  "name": "Sheffield Local Development Framework: Core Strategy",
   "organisation-name": "Sheffield City Council",
   "period-start-date": 2004,
   "period-end-date": 2026,
@@ -22,7 +22,7 @@
   "pdf_file": "collection/document/6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SHF",
-  "adoption-date": null,
+  "adoption-date": "2009-03-04",
   "local-plan-boundary": "E60000067",
   "local-planning-authorities": [
     "E60000067"

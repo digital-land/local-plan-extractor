@@ -1,12 +1,12 @@
 {
-  "name": "Core Strategy",
+  "name": "Local Plan: Core Strategy 2013 - 2028",
   "organisation-name": "Rotherham Metropolitan Borough Council",
   "period-start-date": 2013,
   "period-end-date": 2028,
   "housing-numbers": [
     {
       "organisation-name": "Rotherham Metropolitan Borough Council",
-      "required-housing": 14371,
+      "required-housing": 12750,
       "allocated-housing": "",
       "windfall-housing": "",
       "committed-housing": "",
@@ -23,8 +23,6 @@
   "pages_analysed": 32,
   "organisation": "local-authority:ROT",
   "local-plan-boundary": "E60000066",
-  "local-planning-authorities": [
-    "E60000066"
-  ],
-  "adoption-date": "2014-09"
+  "local-planning-authorities": ["E60000066"],
+  "adoption-date": "2014-09-10"
 }

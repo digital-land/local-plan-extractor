@@ -5,19 +5,19 @@
     "reference": "LP-ROT-2014",
     "documentation-url": "https://www.rotherham.gov.uk/downloads/download/37/local-plan-core-strategy-documentation",
     "document-url": "https://www.rotherham.gov.uk/downloads/file/307/adopted-rotherham-core-strategy",
-    "name": "Rotherham Core Strategy",
+    "name": "Local Plan: Core Strategy 2013 - 2028",
     "status": "adopted",
     "year": 2014,
     "period-start-date": 2013,
     "period-end-date": 2028,
-    "adoption-date": "2014-09",
+    "adoption-date": "2014-09-10",
     "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.rotherham.gov.uk/downloads/file/307/adopted-rotherham-core-strategy",
         "documentation-url": "https://www.rotherham.gov.uk/downloads/download/37/local-plan-core-strategy-documentation",
         "document-type": "core-strategy",
-        "name": "Core Strategy",
+        "name": "Local Plan: Core Strategy 2013 - 2028",
         "reference": "CS-2014",
         "document-status": "adopted",
         "endpoint": "538a98fdcf9319afdb0a07ee2d30fccf2fcba50543822489bb967e0ce37c0849"

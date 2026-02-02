@@ -1,0 +1,31 @@
+{
+  "name": "Rother Local Plan Core Strategy",
+  "organisation-name": "Rother District Council",
+  "period-start-date": 2011,
+  "period-end-date": 2028,
+  "housing-numbers": [
+    {
+      "organisation-name": "Rother District Council",
+      "required-housing": 5700,
+      "allocated-housing": 2163,
+      "windfall-housing": 460,
+      "committed-housing": 1130,
+      "broad-locations-housing": "",
+      "annual-required-housing": 335,
+      "pages": "30, 34, 38-39, 197",
+      "notes": "Minimum target of 5,700 dwellings. Further allocations required figure of 2,163 represents new allocations needed. Small site windfall allowance for years 5-15. Outstanding permissions of 1,130 dwellings.",
+      "organisation": "local-authority:ROH"
+    }
+  ],
+  "confidence": "high",
+  "authority": "c9a92038c56c2dcf02b28157e70c603125a2d6314fec44956e03483cb19d7f01",
+  "pdf_file": "collection/document/c9a92038c56c2dcf02b28157e70c603125a2d6314fec44956e03483cb19d7f01.pdf",
+  "pages_analysed": 32,
+  "organisation": "local-authority:ROH",
+  "local-plan-boundary": "E60000240",
+  "local-planning-authorities": [
+    "E60000240"
+  ],
+  "adoption-date": "2014-09-29",
+  "document-url": "https://rdcpublic.blob.core.windows.net/website-uploads/2022/09/Core-Strategy-2014.pdf"
+}
