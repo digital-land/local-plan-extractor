@@ -29,7 +29,7 @@
         "name": "Supplementary Planning Documents and Guidance",
         "reference": "SPD-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Health Impact Assessments Guidance",
         "reference": "HIA-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Landscapes Character Assessment",
         "reference": "LCA-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

@@ -20,7 +20,7 @@
         "name": "Adopted Core Strategy (2017)",
         "reference": "CS-2017",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Replacement Unitary Development Plan (RUDP)",
         "reference": "RUDP-2005",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -70,7 +70,7 @@
         "name": "Update on the Local Plan – Regulation 18 Consultation 2021",
         "reference": "LP-REG18-2021",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -95,7 +95,7 @@
         "name": "Waste Management DPD",
         "reference": "WM-DPD",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -120,7 +120,7 @@
         "name": "Allocations DPD",
         "reference": "SA-DPD",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -145,7 +145,7 @@
         "name": "Statement of Community Involvement 2025",
         "reference": "SCI-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -154,7 +154,7 @@
         "name": "Equality Impact Assessment (EQIA) of the SCI",
         "reference": "EQIA-SCI-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -179,7 +179,7 @@
         "name": "Bingley Neighbourhood Development Plan",
         "reference": "NP-BINGLEY",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -188,7 +188,7 @@
         "name": "Bingley Neighbourhood Development Plan - Supporting Documents",
         "reference": "NP-BINGLEY-SUPPORT",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

@@ -5,7 +5,7 @@
     "reference": "LP-CHT-2017",
     "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
     "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
-    "name": "Joint Core Strategy 2011-2031",
+    "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
     "status": "adopted",
     "year": 2017,
     "period-start-date": 2011,
@@ -17,7 +17,7 @@
         "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
         "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
         "document-type": "local-plan",
-        "name": "JCS Plan Adopted Version December 2017",
+        "name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
         "reference": "LP-2011-2031",
         "document-status": "adopted",
         "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
@@ -29,7 +29,7 @@
         "name": "JCS Interactive Policies Map Adoption Version December 2017",
         "reference": "PM-2017",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

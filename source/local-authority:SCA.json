@@ -20,7 +20,7 @@
         "name": "Greater Cambridge Local Plan: the 20-year master plan for the Greater Cambridge area",
         "reference": "LP-2024",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Greater Cambridge Local Plan",
         "reference": "LP-GC-2024",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Health Impact Assessment SPD",
         "reference": "HIA-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Strategic Flood Risk Assessment (GCSP)",
         "reference": "SFRA-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -72,7 +72,7 @@
         "name": "North East Cambridge Area Action Plan",
         "reference": "AAP-NEC-2024",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -97,7 +97,7 @@
         "name": "The Adopted Development Plan",
         "reference": "LP-ADOPTED",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -106,7 +106,7 @@
         "name": "Open Space in New Developments SPD",
         "reference": "SPD-OS-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -115,7 +115,7 @@
         "name": "Trees and Development Sites SPD",
         "reference": "SPD-TREES-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

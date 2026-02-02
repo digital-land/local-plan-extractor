@@ -45,7 +45,7 @@
         "name": "Local Plan Review",
         "reference": "LPR-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Local Plan Review Evidence",
         "reference": "LPR-EVIDENCE-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

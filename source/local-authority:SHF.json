@@ -20,7 +20,7 @@
         "name": "Sheffield Plan examination",
         "reference": "LP-2025",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Building regulations",
         "reference": "BR-2025",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Conservation and design",
         "reference": "CD-2025",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

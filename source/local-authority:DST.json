@@ -56,7 +56,7 @@
         "name": "Equality Impact Assessment for the Dorset Council Local Plan Options consultation process",
         "reference": "EIA-2025-PROC",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -65,7 +65,7 @@
         "name": "Equality Impact Assessment for the Dorset Council Local Plan Options consultation document",
         "reference": "EIA-2025-DOC",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -74,7 +74,7 @@
         "name": "Dorset Council area viability assessment",
         "reference": "VA-2022",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -83,7 +83,7 @@
         "name": "Strategic Housing Land Availability Assessment and Gypsy and Traveller Land Availability Assessment",
         "reference": "SHLAA-2023",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -92,7 +92,7 @@
         "name": "Gypsy and Traveller Accommodation Assessment Update",
         "reference": "GTAA-2022",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -101,7 +101,7 @@
         "name": "Dorset Council Level 1 Strategic Flood Risk Assessment",
         "reference": "SFRA-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -110,7 +110,7 @@
         "name": "Weymouth Level 2 Strategic Flood Risk Assessment",
         "reference": "SFRA-WEY-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

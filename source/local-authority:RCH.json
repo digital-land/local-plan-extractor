@@ -20,7 +20,7 @@
         "name": "Core Strategy",
         "reference": "CS-2012",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Places for Everyone Plan",
         "reference": "JSP-2024",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -70,7 +70,7 @@
         "name": "Maps for Rochdale Borough Unitary Development Plan",
         "reference": "LP-MAP-1996",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -95,7 +95,7 @@
         "name": "Allocations Plan",
         "reference": "SA-DPD-DRAFT",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -120,7 +120,7 @@
         "name": "Greater Manchester Joint Waste Development Plan",
         "reference": "WASTE-GM",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -145,7 +145,7 @@
         "name": "Greater Manchester Joint Minerals Development Plan",
         "reference": "MINERALS-GM",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

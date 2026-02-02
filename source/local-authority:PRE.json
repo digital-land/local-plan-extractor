@@ -20,7 +20,7 @@
         "name": "Preston's Local Plan",
         "reference": "LP-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Evidence library",
         "reference": "EL-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -54,7 +54,7 @@
         "name": "Central Lancashire Local Plan",
         "reference": "LP-CL-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

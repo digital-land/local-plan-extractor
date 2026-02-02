@@ -20,7 +20,7 @@
         "name": "Bromsgrove District Local Plan - Draft Development Strategy Consultation",
         "reference": "LP-DRAFT-2023",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Adopted Local Development Plan",
         "reference": "LP-ADOPTED",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

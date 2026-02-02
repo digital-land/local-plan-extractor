@@ -20,7 +20,7 @@
         "name": "Examination library",
         "reference": "LP-2024",
         "document-status": "withdrawn",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "The draft Local Plan consultation",
         "reference": "LP-CONSULTATION-2024",
         "document-status": "withdrawn",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Draft Local Plan – part 2 – ward policies",
         "reference": "LP-WARD-2024",
         "document-status": "withdrawn",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Draft Local Plan policy maps by wards",
         "reference": "PM-2024",
         "document-status": "withdrawn",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Representations on Draft Local Plan and CIL",
         "reference": "LP-REPS-2024",
         "document-status": "withdrawn",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -81,7 +81,7 @@
         "name": "Local Plan and CIL: evidence",
         "reference": "LP-EVIDENCE-2025",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -90,7 +90,7 @@
         "name": "Local Plan and CIL: consultation and engagement",
         "reference": "LP-CONSULTATION-2025",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

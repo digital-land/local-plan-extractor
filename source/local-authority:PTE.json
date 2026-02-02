@@ -29,7 +29,7 @@
         "name": "Local Plan adoption background",
         "reference": "AS-2019",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "online version of the Peterborough Policies Map",
         "reference": "PM-2019",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Peterborough Policies Map",
         "reference": "PM-FOLDER-2019",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -72,7 +72,7 @@
         "name": "Draft Local Plan 2024-2044",
         "reference": "LP-DRAFT-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -81,7 +81,7 @@
         "name": "Draft Local Plan comments",
         "reference": "LP-COMMENTS-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -90,7 +90,7 @@
         "name": "Strategic Housing and Economic Land Availability Assessment (SHELAA) report (Updated November 2025)",
         "reference": "SHELAA-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -99,7 +99,7 @@
         "name": "Interactive Policies Map",
         "reference": "PM-INTERACTIVE-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -108,7 +108,7 @@
         "name": "Strategic Housing, Economic Land Availability Assessment (SHELAA) (November 2023)",
         "reference": "SHELAA-2023",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -117,7 +117,7 @@
         "name": "Strategic Housing, Economic Land Availability Assessment (SHELAA) Addendum (October 2024)",
         "reference": "SHELAA-ADD-2024",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -126,7 +126,7 @@
         "name": "Other Issues and Options stage Local Plan documents",
         "reference": "LP-OPTIONS-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -151,7 +151,7 @@
         "name": "Minerals and Waste Local Plan Adopted July 2021",
         "reference": "MWLP-2021",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -160,7 +160,7 @@
         "name": "Minerals and Waste Local Plan",
         "reference": "MWLP-FOLDER-2021",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -169,7 +169,7 @@
         "name": "Examination Library",
         "reference": "EL-2021",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -178,7 +178,7 @@
         "name": "Primary evidence",
         "reference": "PE-2021",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -187,7 +187,7 @@
         "name": "Policy evidence reports",
         "reference": "PER-2021",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -196,7 +196,7 @@
         "name": "Secondary evidence",
         "reference": "SE-2021",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

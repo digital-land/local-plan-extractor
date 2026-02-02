@@ -20,7 +20,7 @@
         "name": "Derby Local Plan 2023-2043",
         "reference": "LP-2023-2043",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Adopted Local Plan",
         "reference": "LP-ADOPTED",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -70,7 +70,7 @@
         "name": "Emerging Local Plan for Derby (LPD)",
         "reference": "LP-EMERGING",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -95,7 +95,7 @@
         "name": "Minerals Local Plan",
         "reference": "MLP-2020",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -120,7 +120,7 @@
         "name": "Waste Local Plan",
         "reference": "WLP-2020",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

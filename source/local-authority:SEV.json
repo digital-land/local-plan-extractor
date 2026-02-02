@@ -20,7 +20,7 @@
         "name": "Interactive policies map",
         "reference": "PM-2025",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Interactive policies map",
         "reference": "PM-CURRENT",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

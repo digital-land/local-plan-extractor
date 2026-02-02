@@ -20,7 +20,7 @@
         "name": "Local planning policy and guidance",
         "reference": "LP-2023",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Local Plan Options consultation",
         "reference": "LP-OPTIONS-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Local Plan Reset (Feb 2025)",
         "reference": "LP-RESET-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Local Plan Options consultation evidence base and supporting documents",
         "reference": "LP-EVIDENCE-2025",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -72,7 +72,7 @@
         "name": "Evidence base prepared so far to inform the Spatial Development Strategy",
         "reference": "SDS-EVIDENCE-2022",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

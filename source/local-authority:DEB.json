@@ -29,7 +29,7 @@
         "name": "Adopted Local Plan (2005)",
         "reference": "LP-2005",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Adopted Local Plan (2005) proposals maps",
         "reference": "PM-2005",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Local Plan evidence base 2017",
         "reference": "LP-EB-2017",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Examination library",
         "reference": "EL-2017",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -96,7 +96,7 @@
         "name": "Adopted Local Plan (2005)",
         "reference": "LP-2005",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -105,7 +105,7 @@
         "name": "Adopted Local Plan (2005) proposals maps",
         "reference": "PM-2005",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

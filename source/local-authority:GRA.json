@@ -29,7 +29,7 @@
         "name": "Gravesham Local Plan Policies Map",
         "reference": "PM-2014",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "https://democracy.gravesham.gov.uk/documents/s25507/Appendix%202a%20Inspectors%20Report.pdf",
@@ -88,7 +88,7 @@
         "name": "Kent Minerals and Waste Local Plan (KMWLP)",
         "reference": "KMWLP-2024-30",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

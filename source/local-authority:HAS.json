@@ -20,7 +20,7 @@
         "name": "Draft New Local Plan",
         "reference": "LP-DRAFT-2025",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },
@@ -45,7 +45,7 @@
         "name": "Current adopted Local Plan and guidance",
         "reference": "LP-ADOPTED",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Adopted guidance",
         "reference": "AG-CURRENT",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "The Adopted Local List of Heritage Assets",
         "reference": "ALHA-CURRENT",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -72,7 +72,7 @@
         "name": "Local Plan monitoring",
         "reference": "LPM-CURRENT",
         "document-status": "adopted",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -81,7 +81,7 @@
         "name": "Draft Conservation Area Appraisals",
         "reference": "CAA-DRAFT",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

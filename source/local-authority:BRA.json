@@ -45,7 +45,7 @@
         "name": "Local Plan Review",
         "reference": "LPR-2041",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Local Plan Review Timetable",
         "reference": "LPR-TIMETABLE-2024",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Local Plan Review 2041 Evidence Base",
         "reference": "LPR-EVIDENCE-2041",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -72,7 +72,7 @@
         "name": "Local Plan Review - Issues and Options",
         "reference": "LPR-ISSUES-OPTIONS",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -81,7 +81,7 @@
         "name": "Local Plan Review - your questions answered",
         "reference": "LPR-QA",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }

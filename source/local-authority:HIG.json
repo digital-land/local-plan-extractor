@@ -20,7 +20,7 @@
         "name": "Planning and building regulations for business",
         "reference": "LP-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -29,7 +29,7 @@
         "name": "Building regulations",
         "reference": "BR-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -38,7 +38,7 @@
         "name": "Building regulations for business",
         "reference": "BRB-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -47,7 +47,7 @@
         "name": "Local planning agents forum",
         "reference": "LPAF-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -56,7 +56,7 @@
         "name": "Food business regulations",
         "reference": "FBR-2024",
         "document-status": "draft",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   },

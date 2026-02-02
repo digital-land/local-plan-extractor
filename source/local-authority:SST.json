@@ -45,7 +45,7 @@
         "name": "Publication Plan (Pre-submission) - 2024",
         "reference": "LP-2024-REG19",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -54,7 +54,7 @@
         "name": "Publication Plan (Pre-submission) - 2022",
         "reference": "LP-2022-REG19",
         "document-status": "consultation",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -63,7 +63,7 @@
         "name": "Responses to Regulation 19 Consultations-2024",
         "reference": "REG19-RESP-2024",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -72,7 +72,7 @@
         "name": "Responses to Regulation 19 Consultations-2022",
         "reference": "REG19-RESP-2022",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -81,7 +81,7 @@
         "name": "Examination Library (Evidence Base)",
         "reference": "EV-BASE-2024",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       },
       {
         "document-url": "",
@@ -90,7 +90,7 @@
         "name": "Local Plan Review Evidence Base",
         "reference": "LPR-EV-2024",
         "document-status": "examination",
-        "endpoint": """"
+        "endpoint": ""
       }
     ]
   }
