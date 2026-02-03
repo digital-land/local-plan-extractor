@@ -133,6 +133,58 @@ def get_first_consultation_date(row):
     return pd.NaT
 
 
+def load_reference_overrides():
+    """
+    Load manual reference overrides from CSV file.
+
+    Returns a dictionary mapping mismatched_reference -> correct_reference
+    Override file: dataset/local-plan-reference-overrides.csv
+    """
+    overrides = {}
+    override_file = os.path.join(DATASET_DIR, 'local-plan-reference-overrides.csv')
+
+    if not os.path.exists(override_file):
+        return overrides
+
+    try:
+        df_overrides = pd.read_csv(override_file)
+        for idx, row in df_overrides.iterrows():
+            mismatched = row['mismatched_reference']
+            correct = row['correct_reference']
+            if pd.notna(mismatched) and pd.notna(correct):
+                overrides[str(mismatched).strip()] = str(correct).strip()
+    except Exception as e:
+        print(f"    Warning: Could not load overrides file: {e}")
+
+    return overrides
+
+
+def load_adoption_dates_from_local_plans(df_lp):
+    """
+    Load adoption dates from local-plan.csv.
+
+    Returns a dictionary keyed by (organisations, adoption_date_str) -> reference
+    Uses the 'organisations' column (which contains CURIEs like 'local-authority:AYL')
+    rather than 'local-planning-authorities' (which contains ONS codes).
+    """
+    adoption_dates = {}
+
+    # Get records with start-date (which represents adoption dates in local-plan.csv)
+    # Use 'organisations' column which has the CURIE format matching df_proto_merged
+    lp_with_dates = df_lp[(df_lp['start-date'].notna()) & (df_lp['organisations'].notna())].copy()
+
+    for idx, row in lp_with_dates.iterrows():
+        org = row['organisations']
+        adoption_date_str = str(row['start-date']).split(' ')[0]  # Extract date part only
+        reference = row['reference']
+
+        if org and adoption_date_str and reference:
+            key = (org, adoption_date_str)
+            adoption_dates[key] = reference
+
+    return adoption_dates
+
+
 def fuzzy_merge_local_plans(df_proto, df_lp_clean, year_tolerance=3):
     """
     Merge prototype data with local plans using multi-level matching strategy.
@@ -505,6 +557,10 @@ def merge_with_local_plans(df_proto_events, df_lp):
     # Merge with fuzzy year matching (allows ±3 years on start date)
     df_proto_merged = fuzzy_merge_local_plans(df_proto_consolidated_renamed, df_lp_clean_renamed, year_tolerance=3)
 
+    # Load adoption dates and manual overrides for later matching
+    adoption_dates_lookup = load_adoption_dates_from_local_plans(df_lp)
+    reference_overrides = load_reference_overrides()
+
     # Generate local-plan identifiers (use reference if available, else generate from label)
     # Count rows using reference vs generated from label
     rows_from_reference = df_proto_merged['reference'].notna().sum()
@@ -528,10 +584,136 @@ def merge_with_local_plans(df_proto_events, df_lp):
         if len(unique_plans) > 30:
             print(f"    ... and {len(unique_plans) - 30} more")
 
-    df_proto_merged['local-plan'] = df_proto_merged['reference'].fillna(
-        df_proto_merged['organisation_label'].apply(authority_to_slug) + '-local-plan-' +
-        df_proto_merged['period-start-date'].astype(str)
-    )
+    # For rows without a reference from fuzzy matching, try start-year then end-year then no-year
+    # This handles cases where:
+    # - start date exists in prototype data but not in source JSON (use end-year fallback)
+    # - local-plan.csv has no year suffix for catch-all references (use no-year fallback)
+    df_proto_merged['local-plan'] = None
+
+    unmatched_mask = df_proto_merged['reference'].isna()
+    unmatched_indices = df_proto_merged[unmatched_mask].index
+
+    adoption_date_matches_found = 0
+    adoption_date_matched_plans = {}  # Track (lpa, name, start, end) -> matched_reference
+
+    for idx in unmatched_indices:
+        org_slug = authority_to_slug(df_proto_merged.loc[idx, 'organisation_label'])
+        start_year = df_proto_merged.loc[idx, 'period-start-date']
+        end_year = df_proto_merged.loc[idx, 'period-end-date']
+        lpa = df_proto_merged.loc[idx, 'local-planning-authorities']
+
+        # Generate candidate references
+        start_ref = f"{org_slug}-local-plan-{int(start_year)}" if pd.notna(start_year) else None
+        end_ref = f"{org_slug}-local-plan-{int(end_year)}" if pd.notna(end_year) else None
+        no_year_ref = f"{org_slug}-local-plan"
+
+        # Try start year first
+        if start_ref:
+            start_exists = df_lp_clean_renamed[
+                (df_lp_clean_renamed['local-planning-authorities'] == lpa) &
+                (df_lp_clean_renamed['reference'] == start_ref)
+            ]
+
+            if len(start_exists) > 0:
+                df_proto_merged.loc[idx, 'local-plan'] = start_ref
+                continue
+
+        # Try end year fallback
+        if end_ref:
+            end_exists = df_lp_clean_renamed[
+                (df_lp_clean_renamed['local-planning-authorities'] == lpa) &
+                (df_lp_clean_renamed['reference'] == end_ref)
+            ]
+
+            if len(end_exists) > 0:
+                df_proto_merged.loc[idx, 'local-plan'] = end_ref
+                continue
+
+        # Try no-year reference as final fallback (for catch-all references without year)
+        no_year_exists = df_lp_clean_renamed[
+            (df_lp_clean_renamed['local-planning-authorities'] == lpa) &
+            (df_lp_clean_renamed['reference'] == no_year_ref)
+        ]
+
+        if len(no_year_exists) > 0:
+            df_proto_merged.loc[idx, 'local-plan'] = no_year_ref
+            continue
+
+        # Try adoption date matching for plan-adopted events
+        local_plan_event = df_proto_merged.loc[idx, 'local-plan-event']
+        start_date = df_proto_merged.loc[idx, 'start-date']
+
+        if local_plan_event == 'plan-adopted' and pd.notna(start_date):
+            # Format adoption date as YYYY-MM-DD string
+            adoption_date_str = pd.to_datetime(start_date).strftime('%Y-%m-%d')
+
+            # Normalize LPA code (remove -eng suffix if present)
+            lpa_normalized = lpa.replace('local-authority-eng:', 'local-authority:')
+
+            # Try to find matching reference in adoption date lookup
+            adoption_key = (lpa_normalized, adoption_date_str)
+            if adoption_key in adoption_dates_lookup:
+                matched_reference = adoption_dates_lookup[adoption_key]
+                df_proto_merged.loc[idx, 'local-plan'] = matched_reference
+                adoption_date_matches_found += 1
+
+                # Track this plan as adoption-date matched so we can propagate to other events
+                plan_key = (lpa, df_proto_merged.loc[idx, 'name'], start_year, end_year)
+                adoption_date_matched_plans[plan_key] = matched_reference
+                continue
+
+        # Default to start year if none exists in local-plan.csv
+        if start_ref:
+            df_proto_merged.loc[idx, 'local-plan'] = start_ref
+        elif end_ref:
+            df_proto_merged.loc[idx, 'local-plan'] = end_ref
+        else:
+            # Default to no-year reference
+            df_proto_merged.loc[idx, 'local-plan'] = no_year_ref
+
+    if adoption_date_matches_found > 0:
+        print(f"    Adoption date matching found {adoption_date_matches_found} matched references")
+
+        # Propagate adoption-date matched references to ALL events for the same plan
+        # (both null and non-null local-plan values)
+        propagated_count = 0
+
+        for plan_key, matched_ref in adoption_date_matched_plans.items():
+            lpa, name, start_year, end_year = plan_key
+
+            # Find ALL rows for this plan
+            plan_rows = df_proto_merged[
+                (df_proto_merged['local-planning-authorities'] == lpa) &
+                (df_proto_merged['name'] == name) &
+                (df_proto_merged['period-start-date'] == start_year) &
+                (df_proto_merged['period-end-date'] == end_year)
+            ]
+
+            # Override local-plan for all rows in this plan
+            for idx in plan_rows.index:
+                if df_proto_merged.loc[idx, 'local-plan'] != matched_ref:
+                    df_proto_merged.loc[idx, 'local-plan'] = matched_ref
+                    propagated_count += 1
+
+        if propagated_count > 0:
+            print(f"    Propagated adoption-date matches to {propagated_count} other events")
+
+    # For rows that already have a reference from fuzzy matching, use it
+    matched_mask = ~unmatched_mask
+    df_proto_merged.loc[matched_mask, 'local-plan'] = df_proto_merged.loc[matched_mask, 'reference']
+
+    # Apply manual reference overrides
+    if len(reference_overrides) > 0:
+        override_count = 0
+        for idx in df_proto_merged.index:
+            current_ref = df_proto_merged.loc[idx, 'local-plan']
+            if pd.notna(current_ref) and current_ref in reference_overrides:
+                new_ref = reference_overrides[current_ref]
+                df_proto_merged.loc[idx, 'local-plan'] = new_ref
+                override_count += 1
+
+        if override_count > 0:
+            print(f"    Applied {override_count} manual reference overrides")
 
     # Generate reference codes
     df_proto_merged['reference'] = df_proto_merged['local-plan'] + '-' + df_proto_merged['local-plan-event']

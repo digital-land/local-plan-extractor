@@ -875,11 +875,11 @@ class LocalPlanCSVGenerator:
             if isinstance(housing_numbers, list):
                 for num_entry in housing_numbers:
                     # Use the correct document reference from the main document mapping
-                    # If not found, fallback to first document reference
+                    # If not found or None, fallback to first document reference
                     housing_reference = self.plan_main_document_ref.get(
                         plan_reference,
                         f"{plan_reference}-1"
-                    )
+                    ) or f"{plan_reference}-1"
 
                     # Extract organisation from housing-numbers entry and convert joint-planning-authority to local-planning-group
                     lpa_code = num_entry.get('organisation', '')
@@ -929,7 +929,7 @@ class LocalPlanCSVGenerator:
     def write_csvs(self):
         """Write all three CSVs to output directory."""
         # Sort by reference before writing
-        local_plans_sorted = sorted(self.local_plans, key=lambda x: x.get('reference', ''))
+        local_plans_sorted = sorted(self.local_plans, key=lambda x: x.get('reference') or '')
 
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
@@ -938,7 +938,7 @@ class LocalPlanCSVGenerator:
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
-        local_plan_documents_sorted = sorted(self.local_plan_documents, key=lambda x: x.get('reference', ''))
+        local_plan_documents_sorted = sorted(self.local_plan_documents, key=lambda x: x.get('reference') or '')
 
         self._write_csv('local-plan-document.csv', local_plan_documents_sorted, [
             'reference', 'name', 'description', 'local-plan', 'document-types',
@@ -950,7 +950,7 @@ class LocalPlanCSVGenerator:
         if len(housing_deduped) < len(self.local_plan_housing):
             logger.info(f"Deduplicated housing data: {len(self.local_plan_housing)} → {len(housing_deduped)} rows")
 
-        housing_sorted = sorted(housing_deduped, key=lambda x: x.get('reference', ''))
+        housing_sorted = sorted(housing_deduped, key=lambda x: x.get('reference') or '')
 
         self._write_csv('local-plan-housing.csv', housing_sorted, [
             'reference', 'local-plan', 'local-planning-authority',
