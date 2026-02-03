@@ -2,13 +2,6 @@
   {
     "organisation": "local-authority:POR",
     "organisation-name": "Portsmouth City Council",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "local-authority:POR",
-    "organisation-name": "Portsmouth City Council",
     "reference": "LP-POR-2010",
     "documentation-url": "https://www.portsmouth.gov.uk/services/development-and-planning/planning-policy/the-portsmouth-plan-adopted-2012/",
     "document-url": "https://www.portsmouth.gov.uk/wp-content/uploads/2020/05/The-Portsmouth-Plan.pdf",

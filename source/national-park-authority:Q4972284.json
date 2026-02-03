@@ -2,13 +2,6 @@
   {
     "organisation": "national-park-authority:Q4972284",
     "organisation-name": "Broads Authority",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "national-park-authority:Q4972284",
-    "organisation-name": "Broads Authority",
     "reference": "LP-Q4972284-2015",
     "documentation-url": "https://www.broads-authority.gov.uk/planning/planning-policies/local-plan-for-the-broads/current-local-plan-for-the-broads",
     "document-url": "https://www.broads-authority.gov.uk/__data/assets/pdf_file/0017/122246/Local-Plan-for-the-Broads.pdf",

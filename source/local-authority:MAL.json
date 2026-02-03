@@ -2,13 +2,6 @@
   {
     "organisation": "local-authority:MAL",
     "organisation-name": "Maldon District Council",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "local-authority:MAL",
-    "organisation-name": "Maldon District Council",
     "reference": "LP-MAL-2014",
     "documentation-url": "https://www.maldon.gov.uk/homepage/7031/emerging_local_plan",
     "document-url": "https://www.maldon.gov.uk/download/downloads/id/14807/approved_maldon_district_local_development_plan_2014-2029.pdf",

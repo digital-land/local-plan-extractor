@@ -2,13 +2,6 @@
   {
     "organisation": "local-authority:SND",
     "organisation-name": "Sunderland City Council",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "local-authority:SND",
-    "organisation-name": "Sunderland City Council",
     "reference": "LP-SND-2015",
     "documentation-url": "https://www.sunderland.gov.uk/article/15978/Core-Strategy-and-Development-Plan",
     "document-url": "https://www.sunderland.gov.uk/media/22171/Core-Strategy-and-Development-Plan-2015-2033/pdf/CSDP_2015-2033.pdf?m=1580375786447",

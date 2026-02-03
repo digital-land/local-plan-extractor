@@ -2,13 +2,6 @@
   {
     "organisation": "local-authority:TEI",
     "organisation-name": "Teignbridge District Council",
-    "error": "Could not fetch any page content from likely URLs",
-    "adoption-date": null,
-    "withdrawn-date": null
-  },
-  {
-    "organisation": "local-authority:TEI",
-    "organisation-name": "Teignbridge District Council",
     "reference": "LP-TEI-2013",
     "documentation-url": "https://www.teignbridge.gov.uk/localplan",
     "document-url": "https://www.teignbridge.gov.uk/media/1669/local-plan-2013-33.pdf",
