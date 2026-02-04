@@ -1,0 +1,42 @@
+[
+  {
+    "organisation": "local-authority:KET",
+    "organisation-name": "Kettering Borough Council",
+    "reference": "LP-NNUA-2016",
+    "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+    "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
+    "name": "North Northamptonshire Joint Core Strategy 2011-2031",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": "2016-07-14",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
+        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
+        "document-type": "core-strategy",
+        "name": "North Northamptonshire Joint Core Strategy 2011-2031",
+        "reference": "CS-2011-2031",
+        "document-status": "adopted",
+        "endpoint": "6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KET",
+    "organisation-name": "Kettering Borough Council",
+    "reference": "LP-NNUA-2021-KETTERING",
+    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/kettering-site-specific-part-2-local-plan",
+    "document-url": "",
+    "name": "Kettering Site Specific Part 2 Local Plan",
+    "status": "adopted",
+    "year": 2021,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
+  }
+]

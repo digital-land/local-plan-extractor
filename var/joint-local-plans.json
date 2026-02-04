@@ -531,6 +531,129 @@
       ],
       "joint-plan-website": "",
       "notes": "Shares local plan with Daventry and Northampton"
+    },
+    "local-authority:CHO": {
+      "name": "Chorley Council",
+      "joint-plan-name": "Central Lancashire Core Strategy",
+      "joint-plan-authorities": [
+        "local-authority:CHO",
+        "local-authority:PRE",
+        "local-authority:SRI"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Preston and South Ribble"
+    },
+    "local-authority:PRE": {
+      "name": "Preston City Council",
+      "joint-plan-name": "Central Lancashire Core Strategy",
+      "joint-plan-authorities": [
+        "local-authority:CHO",
+        "local-authority:PRE",
+        "local-authority:SRI"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Chorley and South Ribble"
+    },
+    "local-authority:SRI": {
+      "name": "South Ribble Borough Council",
+      "joint-plan-name": "Central Lancashire Core Strategy",
+      "joint-plan-authorities": [
+        "local-authority:CHO",
+        "local-authority:PRE",
+        "local-authority:SRI"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Chorley and Preston"
+    },
+    "local-authority:GAT": {
+      "name": "Gateshead Council",
+      "joint-plan-name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne 2010-2030",
+      "joint-plan-authorities": ["local-authority:GAT", "local-authority:NET"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Newcastle"
+    },
+    "local-authority:NET": {
+      "name": "Newcastle City Council",
+      "joint-plan-name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne 2010-2030",
+      "joint-plan-authorities": ["local-authority:GAT", "local-authority:NET"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Gateshead"
+    },
+    "local-authority:WDO": {
+      "name": "West Dorset District Council",
+      "joint-plan-name": "West Dorset, Weymouth and Portland Local Plan 2011-2031",
+      "joint-plan-authorities": ["local-authority:WDO", "local-authority:WEY"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Weymouth and Portland"
+    },
+    "local-authority:WEY": {
+      "name": "Weymouth and Portland Town Council",
+      "joint-plan-name": "West Dorset, Weymouth and Portland Local Plan 2011-2031",
+      "joint-plan-authorities": ["local-authority:WDO", "local-authority:WEY"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with West Dorset"
+    },
+    "local-authority:CHC": {
+      "name": "Christchurch Town Council",
+      "joint-plan-name": "Christchurch and East Dorset Local Plan Part 1 - Core Strategy",
+      "joint-plan-authorities": ["local-authority:CHC", "local-authority:EDO"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with East Dorset"
+    },
+    "local-authority:EDO": {
+      "name": "East Dorset District Council",
+      "joint-plan-name": "Christchurch and East Dorset Local Plan Part 1 - Core Strategy",
+      "joint-plan-authorities": ["local-authority:CHC", "local-authority:EDO"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Christchurch"
+    },
+    "local-authority:COR": {
+      "name": "Corby Borough Council",
+      "joint-plan-name": "North Northamptonshire Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": [
+        "local-authority:COR",
+        "local-authority:ENO",
+        "local-authority:KET",
+        "local-authority:WEL"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with East Northamptonshire, Kettering, and Wellingborough"
+    },
+    "local-authority:ENO": {
+      "name": "East Northamptonshire Council",
+      "joint-plan-name": "North Northamptonshire Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": [
+        "local-authority:COR",
+        "local-authority:ENO",
+        "local-authority:KET",
+        "local-authority:WEL"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Corby, Kettering, and Wellingborough"
+    },
+    "local-authority:KET": {
+      "name": "Kettering Borough Council",
+      "joint-plan-name": "North Northamptonshire Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": [
+        "local-authority:COR",
+        "local-authority:ENO",
+        "local-authority:KET",
+        "local-authority:WEL"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Corby, East Northamptonshire, and Wellingborough"
+    },
+    "local-authority:WEL": {
+      "name": "Wellingborough Town Council",
+      "joint-plan-name": "North Northamptonshire Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": [
+        "local-authority:COR",
+        "local-authority:ENO",
+        "local-authority:KET",
+        "local-authority:WEL"
+      ],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Corby, East Northamptonshire, and Kettering"
     }
   }
 }

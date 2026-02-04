@@ -1,5 +1,5 @@
 {
-  "name": "Planning for the Future Core Strategy and Urban Core Plan",
+  "name": "Planning for the Future - Core Strategy and Urban Core Plan for Gateshead and Newcastle Upon Tyne 2010-2030",
   "organisation-name": "Gateshead Council, Newcastle City Council",
   "period-start-date": 2010,
   "period-end-date": 2030,
@@ -46,14 +46,8 @@
   "pdf_file": "collection/document/079b95d9a66d3bbebdf0be17963fc38dfd7d29f88f27bb29f35a8a46dc29b199.pdf",
   "pages_analysed": 32,
   "organisation": "joint-planning-authority:GAT-NET",
-  "organisations": [
-    "local-authority:GAT",
-    "local-authority:NET"
-  ],
+  "organisations": ["local-authority:GAT", "local-authority:NET"],
   "local-plan-boundary": "E60000008-E60000009",
-  "local-planning-authorities": [
-    "E60000008",
-    "E60000009"
-  ],
+  "local-planning-authorities": ["E60000008", "E60000009"],
   "adoption-date": "2015-03-26"
 }

@@ -2,40 +2,6 @@
   {
     "organisation": "local-authority:NNUA",
     "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2016",
-    "documentation-url": "https://www.northnorthants.gov.uk/localplan",
-    "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
-    "name": "North Northamptonshire Joint Core Strategy 2011-2031",
-    "status": "adopted",
-    "year": 2016,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": "2016-07-14",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://cms.northnorthants.gov.uk/media/3595/download",
-        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
-        "document-type": "core-strategy",
-        "name": "Joint Core Strategy - 2011 to 2031",
-        "reference": "CS-2011-2031",
-        "document-status": "adopted",
-        "endpoint": "6147143aa1e8def831809b3d0a8b6b69869e45410fe449cbefadaea596fd650d"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.northnorthants.gov.uk/localplan",
-        "document-type": "sustainability-appraisal",
-        "name": "SA Scoping Report",
-        "reference": "SA-SCOPING-2022",
-        "document-status": "consultation",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
     "reference": "LP-NNUA-2026",
     "documentation-url": "https://www.northnorthants.gov.uk/localplan",
     "document-url": "",
@@ -57,50 +23,5 @@
         "endpoint": ""
       }
     ]
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2021-CORBY",
-    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/part-2-local-plan-corby",
-    "document-url": "",
-    "name": "Part 2 Local Plan for Corby",
-    "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2023-EN",
-    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/east-northamptonshire-local-plan-part-2",
-    "document-url": "",
-    "name": "East Northamptonshire Local Plan Part 2 2011-2031",
-    "status": "adopted",
-    "year": 2023,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:NNUA",
-    "organisation-name": "North Northamptonshire Council",
-    "reference": "LP-NNUA-2021-KETTERING",
-    "documentation-url": "https://www.northnorthants.gov.uk/planning-strategies-and-plans/kettering-site-specific-part-2-local-plan",
-    "document-url": "",
-    "name": "Kettering Site Specific Part 2 Local Plan",
-    "status": "adopted",
-    "year": 2021,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
   }
 ]

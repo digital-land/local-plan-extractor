@@ -1,5 +1,5 @@
 {
-  "name": "Central Lancashire Local Development Framework Adopted Core Strategy",
+  "name": "Central Lancashire Core Strategy",
   "organisation-name": "Preston City Council, South Ribble Borough Council, Chorley Borough Council",
   "period-start-date": 2010,
   "period-end-date": 2026,
@@ -65,9 +65,5 @@
   ],
   "adoption-date": "2012-07-18",
   "local-plan-boundary": "E60000041-E60000044-E60000036",
-  "local-planning-authorities": [
-    "E60000041",
-    "E60000044",
-    "E60000036"
-  ]
+  "local-planning-authorities": ["E60000041", "E60000044", "E60000036"]
 }

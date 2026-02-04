@@ -26,7 +26,7 @@
       "annual-required-housing": 420,
       "pages": "132, 137, 156, 215",
       "notes": "Rushden East SUE broad location for around 2,500 homes. Windfall estimate 41 dwellings p.a 2018-21.",
-      "organisation": ""
+      "organisation": "local-authority:ENO"
     },
     {
       "organisation-name": "Kettering Borough Council",
@@ -50,7 +50,7 @@
       "annual-required-housing": 350,
       "pages": "132, 137, 217",
       "notes": "No new allocations identified in JCS - relying on committed sites. Windfall estimate 45 dwellings p.a 2018-21.",
-      "organisation": ""
+      "organisation": "local-authority:WEL"
     },
     {
       "organisation-name": "Corby Borough Council, East Northamptonshire District Council, Kettering Borough Council, Borough Council of Wellingborough",
