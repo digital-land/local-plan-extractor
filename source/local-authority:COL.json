@@ -3,40 +3,6 @@
     "organisation": "local-authority:COL",
     "organisation-name": "Colchester City Council",
     "reference": "LP-COL-2022",
-    "documentation-url": "https://www.colchester.gov.uk/local-plan",
-    "document-url": "",
-    "name": "Colchester Local Plan 2017-2033",
-    "status": "adopted",
-    "year": 2022,
-    "period-start-date": 2017,
-    "period-end-date": 2033,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-Colchester-SCI-Colchester SCI Final Version 2023.pdf",
-        "documentation-url": "https://www.colchester.gov.uk/local-plan/statement-of-community-involvement",
-        "document-type": "statement-of-community-involvement",
-        "name": "Statement of Community Involvement",
-        "reference": "SCI-2023",
-        "document-status": "adopted",
-        "endpoint": "0bde0c6ae04835856e040089dde4147d51971f8194498a6764173f79ca091457"
-      },
-      {
-        "document-url": "https://cbccrmdata.blob.core.windows.net/noteattachment/CBC-null-LDS-Local Development Scheme March 2025.pdf",
-        "documentation-url": "https://www.colchester.gov.uk/local-plan/local-development-scheme/",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "afcf0385880be9fe9490ac250eea51fc61df831e11bffdfb9b13b995aa8486a5"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:COL",
-    "organisation-name": "Colchester City Council",
-    "reference": "LP-COL-2022",
     "documentation-url": "https://www.braintree.gov.uk/planning-building-control/local-plan-2033",
     "document-url": "https://www.braintree.gov.uk/downloads/file/3553/local-plan-2033-s1-and-s2-pdf-minus-maps",
     "name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",

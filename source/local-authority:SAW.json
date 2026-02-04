@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SAW",
     "organisation-name": "Sandwell Metropolitan Borough Council",
+    "reference": "LP-BCCS-2011",
+    "documentation-url": "https://www.sandwell.gov.uk/downloads/download/347/black-country-core-strategy",
+    "document-url": "https://www.sandwell.gov.uk/downloads/file/771/black-country-core-strategy-main-document-",
+    "name": "Black Country Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": "2011-02-03",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.sandwell.gov.uk/downloads/file/771/black-country-core-strategy-main-document-",
+        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/347/black-country-core-strategy",
+        "document-type": "local-plan",
+        "name": "Black Country Core Strategy",
+        "reference": "LP-BCCS-2011",
+        "document-status": "adopted",
+        "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SAW",
+    "organisation-name": "Sandwell Metropolitan Borough Council",
     "reference": "LP-SAW-2024",
     "documentation-url": "https://www.sandwell.gov.uk/localplan",
     "document-url": "",
@@ -48,31 +73,6 @@
         "reference": "SA-SCOPING-2023",
         "document-status": "consultation",
         "endpoint": "0072e180865b85b0fb2d46085880a9ce4e2e29b4b78e182dcc9d18ebbd30eaae"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SAW",
-    "organisation-name": "Sandwell Metropolitan Borough Council",
-    "reference": "LP-SAW-2011",
-    "documentation-url": "https://www.sandwell.gov.uk/downloads/download/347/black-country-core-strategy",
-    "document-url": "https://www.sandwell.gov.uk/downloads/file/771/black-country-core-strategy-main-document-",
-    "name": "Black Country Core Strategy",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2026,
-    "adoption-date": "2011-02-03",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.sandwell.gov.uk/downloads/file/771/black-country-core-strategy-main-document-",
-        "documentation-url": "https://www.sandwell.gov.uk/downloads/download/347/black-country-core-strategy",
-        "document-type": "local-plan",
-        "name": "Black Country Core Strategy",
-        "reference": "LP-SAW-2011",
-        "document-status": "adopted",
-        "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"
       }
     ]
   }

@@ -169,6 +169,202 @@
       "joint-plan-authorities": ["local-authority:NEC", "local-authority:STE"],
       "joint-plan-website": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
       "notes": "Shares local plan with Newcastle-under-Lyme"
+    },
+    "local-authority:BOL": {
+      "name": "Bolton Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:BUR": {
+      "name": "Bury Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:MAN": {
+      "name": "Manchester City Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:OLD": {
+      "name": "Oldham Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:RCH": {
+      "name": "Rochdale Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:SLF": {
+      "name": "Salford City Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:TAM": {
+      "name": "Tameside Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:TRF": {
+      "name": "Trafford Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:WGN": {
+      "name": "Wigan Council",
+      "joint-plan-name": "Places for Everyone Joint Development Plan",
+      "joint-plan-authorities": ["local-authority:BOL", "local-authority:BUR", "local-authority:MAN", "local-authority:OLD", "local-authority:RCH", "local-authority:SLF", "local-authority:TAM", "local-authority:TRF", "local-authority:WGN"],
+      "joint-plan-website": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
+      "notes": "Shares local plan with 8 other Greater Manchester authorities"
+    },
+    "local-authority:BRT": {
+      "name": "Brentwood Borough Council",
+      "joint-plan-name": "Aligned Core Strategies - Part 1 Local Plan",
+      "joint-plan-authorities": ["local-authority:BRT", "local-authority:GED", "local-authority:NGM"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Gedling and Newark and Sherwood"
+    },
+    "local-authority:GED": {
+      "name": "Gedling Borough Council",
+      "joint-plan-name": "Aligned Core Strategies - Part 1 Local Plan",
+      "joint-plan-authorities": ["local-authority:BRT", "local-authority:GED", "local-authority:NGM"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Brentwood and Newark and Sherwood"
+    },
+    "local-authority:NGM": {
+      "name": "Newark and Sherwood District Council",
+      "joint-plan-name": "Aligned Core Strategies - Part 1 Local Plan",
+      "joint-plan-authorities": ["local-authority:BRT", "local-authority:GED", "local-authority:NGM"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Brentwood and Gedling"
+    },
+    "local-authority:DUD": {
+      "name": "Dudley Metropolitan Borough Council",
+      "joint-plan-name": "Black Country Core Strategy",
+      "joint-plan-authorities": ["local-authority:DUD", "local-authority:SAW", "local-authority:WLL", "local-authority:WLV"],
+      "joint-plan-website": "https://www.blackcountrycorestrategy.co.uk/",
+      "notes": "Shares local plan with Sandwell, Walsall, and Wolverhampton"
+    },
+    "local-authority:SAW": {
+      "name": "Sandwell Metropolitan Borough Council",
+      "joint-plan-name": "Black Country Core Strategy",
+      "joint-plan-authorities": ["local-authority:DUD", "local-authority:SAW", "local-authority:WLL", "local-authority:WLV"],
+      "joint-plan-website": "https://www.blackcountrycorestrategy.co.uk/",
+      "notes": "Shares local plan with Dudley, Walsall, and Wolverhampton"
+    },
+    "local-authority:WLL": {
+      "name": "Walsall Council",
+      "joint-plan-name": "Black Country Core Strategy",
+      "joint-plan-authorities": ["local-authority:DUD", "local-authority:SAW", "local-authority:WLL", "local-authority:WLV"],
+      "joint-plan-website": "https://www.blackcountrycorestrategy.co.uk/",
+      "notes": "Shares local plan with Dudley, Sandwell, and Wolverhampton"
+    },
+    "local-authority:WLV": {
+      "name": "Wolverhampton City Council",
+      "joint-plan-name": "Black Country Core Strategy",
+      "joint-plan-authorities": ["local-authority:DUD", "local-authority:SAW", "local-authority:WLL", "local-authority:WLV"],
+      "joint-plan-website": "https://www.blackcountrycorestrategy.co.uk/",
+      "notes": "Shares local plan with Dudley, Sandwell, and Walsall"
+    },
+    "local-authority:CHT": {
+      "name": "Cheltenham Borough Council",
+      "joint-plan-name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": ["local-authority:CHT", "local-authority:GLO", "local-authority:TEW"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Gloucester and Tewkesbury"
+    },
+    "local-authority:GLO": {
+      "name": "Gloucester City Council",
+      "joint-plan-name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": ["local-authority:CHT", "local-authority:GLO", "local-authority:TEW"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Cheltenham and Tewkesbury"
+    },
+    "local-authority:TEW": {
+      "name": "Tewkesbury Borough Council",
+      "joint-plan-name": "Gloucester, Cheltenham and Tewkesbury Joint Core Strategy 2011-2031",
+      "joint-plan-authorities": ["local-authority:CHT", "local-authority:GLO", "local-authority:TEW"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Cheltenham and Gloucester"
+    },
+    "local-authority:MAV": {
+      "name": "Malvern Hills District Council",
+      "joint-plan-name": "South Worcestershire Development Plan 2016",
+      "joint-plan-authorities": ["local-authority:MAV", "local-authority:WOC", "local-authority:WYC"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Worcester City and Wychavon"
+    },
+    "local-authority:WOC": {
+      "name": "Worcester City Council",
+      "joint-plan-name": "South Worcestershire Development Plan 2016",
+      "joint-plan-authorities": ["local-authority:MAV", "local-authority:WOC", "local-authority:WYC"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Malvern Hills and Wychavon"
+    },
+    "local-authority:WYC": {
+      "name": "Wychavon District Council",
+      "joint-plan-name": "South Worcestershire Development Plan 2016",
+      "joint-plan-authorities": ["local-authority:MAV", "local-authority:WOC", "local-authority:WYC"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Malvern Hills and Worcester City"
+    },
+    "local-authority:BRA": {
+      "name": "Braintree District Council",
+      "joint-plan-name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",
+      "joint-plan-authorities": ["local-authority:BRA", "local-authority:COL", "local-authority:TEN"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Colchester and Tendring"
+    },
+    "local-authority:COL": {
+      "name": "Colchester Borough Council",
+      "joint-plan-name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",
+      "joint-plan-authorities": ["local-authority:BRA", "local-authority:COL", "local-authority:TEN"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Braintree and Tendring"
+    },
+    "local-authority:TEN": {
+      "name": "Tendring District Council",
+      "joint-plan-name": "Tendring District Local Plan 2013-2033 and Beyond: North Essex Authorities' Shared Strategic Section 1",
+      "joint-plan-authorities": ["local-authority:BRA", "local-authority:COL", "local-authority:TEN"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Braintree and Colchester"
+    },
+    "local-authority:DAV": {
+      "name": "Daventry District Council",
+      "joint-plan-name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+      "joint-plan-authorities": ["local-authority:DAV", "local-authority:NOR", "local-authority:SNS"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Northampton and South Northamptonshire"
+    },
+    "local-authority:NOR": {
+      "name": "Northampton Borough Council",
+      "joint-plan-name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+      "joint-plan-authorities": ["local-authority:DAV", "local-authority:NOR", "local-authority:SNS"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Daventry and South Northamptonshire"
+    },
+    "local-authority:SNS": {
+      "name": "South Northamptonshire Council",
+      "joint-plan-name": "West Northamptonshire Joint Core Strategy Local Plan (Part 1)",
+      "joint-plan-authorities": ["local-authority:DAV", "local-authority:NOR", "local-authority:SNS"],
+      "joint-plan-website": "",
+      "notes": "Shares local plan with Daventry and Northampton"
     }
   }
 }

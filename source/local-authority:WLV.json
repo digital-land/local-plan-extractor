@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:WLV",
     "organisation-name": "City of Wolverhampton Council",
+    "reference": "LP-BCCS-2011",
+    "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
+    "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
+    "name": "Black Country Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": "2011-02-03",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
+        "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
+        "document-type": "local-plan",
+        "name": "Black Country Core Strategy",
+        "reference": "LP-BCCS-2011",
+        "document-status": "adopted",
+        "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WLV",
+    "organisation-name": "City of Wolverhampton Council",
     "reference": "LP-WLV-2025",
     "documentation-url": "https://www.wolverhampton.gov.uk/localplan",
     "document-url": "https://www.wolverhampton.gov.uk/sites/default/files/2024-11/Main%20Document%20WLP%20Reg%2019.pdf",
@@ -138,46 +163,6 @@
         "reference": "R19R-2025",
         "document-status": "examination",
         "endpoint": "5b31443ee5349bef8baf10a456fa62a8828b961c59d533a6a624ce0d639bad2e"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WLV",
-    "organisation-name": "City of Wolverhampton Council",
-    "reference": "LP-WLV-2011",
-    "documentation-url": "https://www.wolverhampton.gov.uk/planningpolicy",
-    "document-url": "",
-    "name": "Black Country Core Strategy",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": "",
-    "period-end-date": 2026,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:WLV",
-    "organisation-name": "City of Wolverhampton Council",
-    "reference": "LP-WLV-2011",
-    "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
-    "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
-    "name": "Black Country Core Strategy",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
-    "adoption-date": "2011-02-03",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://go.walsall.gov.uk/sites/default/files/2022-09/Black%20Country%20Core%20Strategy.pdf",
-        "documentation-url": "https://go.walsall.gov.uk/planning-and-building-control/planning-policy/current-planning-policy/black-country-core-strategy",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2026",
-        "reference": "LP-WLV-2011",
-        "document-status": "adopted",
-        "endpoint": "82601214d156145048532535174119940b24ae93337a635d27b968b0f09caafe"
       }
     ]
   }
