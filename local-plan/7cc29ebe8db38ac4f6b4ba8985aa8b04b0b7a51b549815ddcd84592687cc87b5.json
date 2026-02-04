@@ -1,5 +1,5 @@
 {
-  "name": "Babergh District Council & Mid Suffolk District Council Joint Local Plan – Part 1",
+  "name": "Babergh and Mid Suffolk Joint Local Plan - Part 1",
   "organisation-name": "Babergh District Council, Mid Suffolk District Council",
   "period-start-date": 2018,
   "period-end-date": 2037,
@@ -46,14 +46,8 @@
   "pdf_file": "collection/document/7cc29ebe8db38ac4f6b4ba8985aa8b04b0b7a51b549815ddcd84592687cc87b5.pdf",
   "pages_analysed": 32,
   "organisation": "joint-planning-authority:BAB-MSU",
-  "organisations": [
-    "local-authority:BAB",
-    "local-authority:MSU"
-  ],
+  "organisations": ["local-authority:BAB", "local-authority:MSU"],
   "local-plan-boundary": "E60000183-E60000186",
-  "local-planning-authorities": [
-    "E60000183",
-    "E60000186"
-  ],
+  "local-planning-authorities": ["E60000183", "E60000186"],
   "adoption-date": "2019-01"
 }

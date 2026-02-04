@@ -41,7 +41,7 @@ class LocalPlanCSVGenerator:
     # Edit this dictionary to override generated references
     REFERENCE_OVERRIDES = {
         # Example:
-        'babergh-and-mid-suffolk-joint-local-plan-part-1-2018-2037':'the-babergh-and-mid-suffolk-joint-local-plan'
+        'babergh-and-mid-suffolk-joint-local-plan-part-1':'the-babergh-and-mid-suffolk-joint-local-plan'
     }
 
     def __init__(self, source_dir: str = "source", output_dir: str = ".", local_plan_dir: str = "local-plan"):
@@ -55,6 +55,14 @@ class LocalPlanCSVGenerator:
         self.local_plan_housing = []
         self.housing_data = {}
 
+        # Track which endpoint each housing data came from
+        # Key: organisation -> {'endpoint': endpoint_hash}
+        self.housing_data_source = {}
+
+        # Map from endpoint to plan reference (for looking up correct plan reference from housing data endpoint)
+        # Key: endpoint_hash -> plan_reference
+        self.endpoint_to_plan_ref = {}
+
         # Track plan references we've already processed (to avoid duplicates)
         self.processed_plan_references = set()
 
@@ -62,8 +70,8 @@ class LocalPlanCSVGenerator:
         self.authority_plan_counters = {}  # (authority_slug, year) -> counter
         self.current_plan_reference = None
 
-        # Track organisations already processed for housing data (to avoid duplicates)
-        self.organisations_with_housing = set()
+        # Track (organisation, plan_reference) pairs already processed for housing data (to avoid duplicates)
+        self.organisations_with_housing = set()  # (org, plan_ref) tuple set
 
         # Store main plan document references for housing data linking
         self.plan_main_document_ref = {}  # plan_ref -> main_doc_ref
@@ -71,6 +79,10 @@ class LocalPlanCSVGenerator:
         # Map to track joint plans and their organisations
         # Key: organisation code -> List of authorities
         self.joint_plan_organisations = {}
+
+        # Map from joint plan names (slugified) to their authorities
+        # Key: plan_name_slug -> list of authorities
+        self.joint_plan_names = {}
 
         # Map to track source metadata (document-url, documentation-url, local-plan-process) by organisation
         # Key: organisation -> {document-url, documentation-url, local-plan-process}
@@ -80,6 +92,27 @@ class LocalPlanCSVGenerator:
         # Indexed by PDF endpoint hash for matching with source documents
         self.enrichment_by_endpoint = {}  # endpoint hash -> enriched data
         self.enrichment_by_org = {}  # organisation -> enriched data
+
+        # Map to store geography code mappings from boundary data
+        # Key: organisation code (e.g., 'local-authority:DUR') -> geography code (e.g., 'E60000001')
+        self.boundary_mapping = {}
+
+        # Static mapping for national parks and development corporations (Q-codes to E-codes)
+        self.static_geography_mapping = {
+            'national-park-authority:Q4972284': 'E60000326',  # Broads Authority
+            'national-park-authority:Q5225646': 'E60000318',  # Dartmoor
+            'national-park-authority:Q72617784': 'E60000319',  # Exmoor
+            'national-park-authority:Q27159704': 'E60000320',  # Lake District
+            'national-park-authority:Q72617158': 'E60000321',  # New Forest
+            'national-park-authority:Q72617669': 'E60000322',  # North York Moors
+            'national-park-authority:Q72617890': 'E60000323',  # Northumberland
+            'national-park-authority:Q72617988': 'E60000324',  # Peak District
+            'national-park-authority:Q20198711': 'E60000325',  # South Downs
+            'national-park-authority:Q27178932': 'E60000327',  # Yorkshire Dales
+            'development-corporation:Q72463795': 'E60000328',  # Ebbsfleet Development Corporation
+            'development-corporation:Q6670544': 'E60000329',   # London Legacy Development Corporation
+            'development-corporation:Q20648596': 'E60000330',  # Old Oak and Park Royal Development Corporation
+        }
 
         # Load joint plan mappings from the joint-local-plans.json file
         self._load_joint_plan_mappings()
@@ -92,6 +125,9 @@ class LocalPlanCSVGenerator:
 
         # Automatically load housing data from local-plan directory
         self._load_housing_from_local_plan_dir(local_plan_dir)
+
+        # Load geography code mappings from boundary data
+        self._load_boundary_mapping()
 
     def _authority_to_slug(self, authority_name: str) -> str:
         """Convert authority name to slug format (lowercase, spaces to dashes, sanitize special chars)."""
@@ -138,6 +174,7 @@ class LocalPlanCSVGenerator:
                 # Extract organisation and housing data
                 org = data.get('organisation', '')
                 housing_numbers = data.get('housing-numbers', [])
+                endpoint = json_file.stem  # Filename without .json extension
 
                 if org and housing_numbers:
                     # Store housing data keyed by top-level organisation
@@ -146,8 +183,10 @@ class LocalPlanCSVGenerator:
                             'housing-numbers': housing_numbers,
                             'organisation-name': data.get('organisation-name', ''),
                         }
+                        # Track the endpoint this housing data came from
+                        self.housing_data_source[org] = {'endpoint': endpoint}
                         loaded_count += 1
-                        logger.debug(f"Loaded housing data for {org}")
+                        logger.debug(f"Loaded housing data for {org} from endpoint {endpoint}")
 
                     # Also store housing data keyed by individual organisations within housing-numbers
                     # This handles joint plans where the top-level org is different from individual orgs
@@ -158,8 +197,10 @@ class LocalPlanCSVGenerator:
                                 'housing-numbers': [housing_entry],
                                 'organisation-name': housing_entry.get('organisation-name', ''),
                             }
+                            # Track the endpoint this housing data came from
+                            self.housing_data_source[entry_org] = {'endpoint': endpoint}
                             loaded_count += 1
-                            logger.debug(f"Loaded housing data for {entry_org} (from joint plan)")
+                            logger.debug(f"Loaded housing data for {entry_org} (from joint plan endpoint {endpoint})")
 
             except Exception as e:
                 logger.debug(f"Failed to load housing data from {json_file.name}: {e}")
@@ -228,6 +269,67 @@ class LocalPlanCSVGenerator:
                 logger.debug(f"Loaded metadata for {len(self.source_metadata)} organisations from source")
         except Exception as e:
             logger.debug(f"Error loading source metadata: {e}")
+
+    def _load_boundary_mapping(self, boundary_csv: str = "dataset/local-plan-boundary.csv"):
+        """Load geography code mapping from local-plan-boundary.csv.
+
+        Creates a mapping of organisation codes to geography codes for looking up missing
+        local-planning-authorities codes.
+        """
+        boundary_path = Path(boundary_csv)
+        if not boundary_path.exists():
+            logger.debug(f"Boundary CSV not found: {boundary_csv}")
+            return
+
+        try:
+            with open(boundary_path, 'r', encoding='utf-8') as f:
+                # Only read the first 5 columns (reference, name, organisation, organisations, local-planning-authorities)
+                # to avoid loading the huge geometry column
+                for line in f:
+                    if line.startswith('reference'):
+                        # Skip header
+                        continue
+
+                    # Parse just the first 5 comma-separated values
+                    parts = line.split(',', 5)  # Split on first 5 commas
+                    if len(parts) >= 4:
+                        reference = parts[0].strip()
+                        organisation = parts[2].strip()
+
+                        if organisation and reference:
+                            self.boundary_mapping[organisation] = reference
+                            logger.debug(f"Mapped {organisation} -> {reference}")
+
+            if self.boundary_mapping:
+                logger.info(f"Loaded {len(self.boundary_mapping)} geography code mappings from boundary data")
+        except Exception as e:
+            logger.warning(f"Error loading boundary mapping: {e}")
+
+    def _lookup_geographies(self, organisations: str) -> str:
+        """Look up geography codes for a semicolon-separated list of organisations.
+
+        Args:
+            organisations: E.g., 'local-authority:DUR;local-authority:TYN'
+
+        Returns:
+            Hyphen-separated geography codes, or empty string if not found
+        """
+        if not organisations:
+            return ''
+
+        org_list = organisations.split(';')
+        geographies = []
+
+        for org in org_list:
+            org = org.strip()
+            # First try boundary mapping (local authorities)
+            if org in self.boundary_mapping:
+                geographies.append(self.boundary_mapping[org])
+            # Then try static mapping (national parks, development corporations)
+            elif org in self.static_geography_mapping:
+                geographies.append(self.static_geography_mapping[org])
+
+        return '-'.join(geographies) if geographies else ''
 
     def _load_enrichment_data_from_local_plan_dir(self, local_plan_dir: str = "local-plan"):
         """Load enrichment data from extracted local-plan JSON files.
@@ -309,15 +411,27 @@ class LocalPlanCSVGenerator:
                 data = json.load(f)
 
             joint_plans = data.get('joint-plans', {})
+            processed_plans = set()  # Track unique joint plans to avoid duplicates
+
             for org_code, plan_info in joint_plans.items():
                 authorities = plan_info.get('joint-plan-authorities', [])
                 if authorities and isinstance(authorities, list) and len(authorities) > 1:
                     # Map this organisation to its joint plan authorities
                     self.joint_plan_organisations[org_code] = authorities
+
+                    # Also map the joint plan name to its authorities (only once per unique plan)
+                    plan_name = plan_info.get('joint-plan-name', '')
+                    if plan_name:
+                        plan_slug = self._authority_to_slug(plan_name)
+                        if plan_slug not in processed_plans:
+                            self.joint_plan_names[plan_slug] = authorities
+                            processed_plans.add(plan_slug)
+                            logger.debug(f"Mapped joint plan name '{plan_name}' ({plan_slug}) to {len(authorities)} authorities")
+
                     logger.debug(f"Loaded joint plan for {org_code}: {len(authorities)} authorities")
 
             if self.joint_plan_organisations:
-                logger.info(f"Loaded {len(self.joint_plan_organisations)} joint plan mappings")
+                logger.info(f"Loaded {len(self.joint_plan_organisations)} joint plan mappings and {len(self.joint_plan_names)} joint plan names")
         except Exception as e:
             logger.warning(f"Failed to load joint plan mappings: {e}")
 
@@ -577,6 +691,17 @@ class LocalPlanCSVGenerator:
 
             # Determine if this is a joint plan
             organisations = plan_data.get('organisations', [])
+
+            # If no organisations array in source, check if this plan matches a known joint plan by name
+            if not organisations:
+                plan_name = plan_data.get('name', '')
+                if plan_name:
+                    plan_slug = self._authority_to_slug(plan_name)
+                    # Check if this plan name matches any known joint plan
+                    if plan_slug in self.joint_plan_names:
+                        organisations = self.joint_plan_names[plan_slug]
+                        logger.debug(f"Auto-populated organisations from joint plan name: '{plan_name}' -> {organisations}")
+
             is_joint = organisations and isinstance(organisations, list) and len(organisations) > 1
 
             # Generate reference
@@ -682,8 +807,18 @@ class LocalPlanCSVGenerator:
 
             # Determine whether this is a joint plan
             organisations = plan_data.get('organisations', [])
-            if not organisations and org in self.joint_plan_organisations:
-                organisations = self.joint_plan_organisations[org]
+
+            # Only auto-populate organisations from joint plan mapping if the plan NAME matches a known joint plan
+            # Do NOT auto-populate just because the organisation is part of a joint plan, as single-authority
+            # plans might be from an authority that's part of a joint plan
+            if not organisations:
+                plan_name = plan_data.get('name', '')
+                if plan_name:
+                    plan_slug = self._authority_to_slug(plan_name)
+                    # Check if this plan name matches any known joint plan
+                    if plan_slug in self.joint_plan_names:
+                        organisations = self.joint_plan_names[plan_slug]
+                        logger.debug(f"Source plan '{plan_name}' (org={org}) auto-populated organisations from joint plan: {organisations}")
 
             is_joint = False
             if organisations and isinstance(organisations, list) and len(organisations) > 1:
@@ -710,23 +845,23 @@ class LocalPlanCSVGenerator:
                 reference = self.REFERENCE_OVERRIDES[reference]
                 logger.info(f"Applied reference override: {original_reference} → {reference}")
 
-            # Skip if we've already processed this plan reference (handles joint plans in multiple source files)
-            if reference in self.processed_plan_references:
-                logger.debug(f"Skipping duplicate plan reference: {reference}")
-                return
+            # Track if this is a duplicate plan reference (handles joint plans in multiple source files)
+            is_duplicate_plan = reference in self.processed_plan_references
 
-            # Mark this reference as processed
-            self.processed_plan_references.add(reference)
+            if not is_duplicate_plan:
+                # Mark this reference as processed (only for first occurrence)
+                self.processed_plan_references.add(reference)
 
             # Build local-planning-authorities string
             # For joint plans, use the organisations array; otherwise use single organisation
 
-            # First check if source data has organisations array
-            organisations = plan_data.get('organisations', [])
+            # NOTE: organisations variable was already set above with joint plan lookup
+            # Don't overwrite it here. Use the organisations that were already determined.
 
-            # If not in source data, check if this is a known joint plan from housing data
-            if not organisations and org in self.joint_plan_organisations:
-                organisations = self.joint_plan_organisations[org]
+            # For extracted data (not source), check if this is a known joint plan from housing data
+            # We only do this for extracted data, not source data, to avoid incorrectly marking
+            # single-authority plans as joint plans
+            # (This check will be done later in _process_extracted_local_plan if needed)
 
             if organisations and isinstance(organisations, list):
                 # Join multiple authorities with semicolons (no spaces)
@@ -782,26 +917,41 @@ class LocalPlanCSVGenerator:
                 'notes': plan_data.get('notes', ''),
             }
 
-            self.local_plans.append(local_plan_entry)
+            # Only add local plan entry and process documents if this is not a duplicate reference
+            # (Joint plans appear in multiple source files but should only be added once to local_plans)
+            if not is_duplicate_plan:
+                self.local_plans.append(local_plan_entry)
 
-            # Process documents
-            documents = plan_data.get('documents', [])
-            if isinstance(documents, list):
-                for doc in documents:
-                    # Pass the plan-specific slug for joint plans so document counters align
-                    doc_authority_slug = slug if is_joint else authority_slug
-                    self._process_document(
-                        reference,
-                        doc_authority_slug,
-                        year,
-                        doc,
-                        plan_data.get('adoption-date'),
-                        plan_data.get('withdrawn-date')
-                    )
+                # Process documents and map endpoints to plan reference
+                documents = plan_data.get('documents', [])
+                if isinstance(documents, list):
+                    for doc in documents:
+                        # Map endpoint to plan reference for housing data lookup
+                        endpoint = doc.get('endpoint', '')
+                        if endpoint:
+                            # Store endpoint -> plan reference mapping for housing data source tracking
+                            if endpoint not in self.endpoint_to_plan_ref:
+                                self.endpoint_to_plan_ref[endpoint] = reference
+                                logger.debug(f"Mapped endpoint {endpoint} to plan reference {reference}")
 
-            # Add housing data if available
+                        # Pass the plan-specific slug for joint plans so document counters align
+                        doc_authority_slug = slug if is_joint else authority_slug
+                        self._process_document(
+                            reference,
+                            doc_authority_slug,
+                            year,
+                            doc,
+                            plan_data.get('adoption-date'),
+                            plan_data.get('withdrawn-date')
+                        )
+            else:
+                logger.debug(f"Skipping duplicate local plan entry for reference: {reference}")
+
+            # Add housing data if available (do this even for duplicate plans so all organisations get housing data)
             if org in self.housing_data:
                 self._add_housing_data(reference, local_planning_authorities, org)
+            else:
+                logger.debug(f"No housing data for org={org}, reference={reference}")
 
         except Exception as e:
             logger.error(f"Failed to process local plan: {e}")
@@ -854,14 +1004,21 @@ class LocalPlanCSVGenerator:
             logger.error(f"Failed to process document: {e}")
 
     def _add_housing_data(self, plan_reference: str, lpa: str, org: str):
-        """Add housing data entry for an organisation (only once per organisation to avoid duplicates)."""
+        """Add housing data entry for an organisation (only once per organisation-plan combo to avoid duplicates).
+
+        For joint plans, uses the consolidated plan_reference for all individual authority entries.
+        """
         try:
-            # Skip if we've already added housing data for this organisation
-            if org in self.organisations_with_housing:
-                logger.debug(f"Skipping housing data for {org} (already processed)")
+            # Skip if we've already added housing data for this organisation-plan combination
+            org_plan_key = (org, plan_reference)
+            if org_plan_key in self.organisations_with_housing:
+                logger.debug(f"Skipping housing data for {org} under {plan_reference} (already processed)")
                 return
 
             housing = self.housing_data.get(org, {})
+            if not housing:
+                return
+
             housing_numbers = housing.get('housing-numbers', '[]')
 
             # Parse housing numbers if it's a JSON string
@@ -871,24 +1028,96 @@ class LocalPlanCSVGenerator:
                 except:
                     housing_numbers = []
 
+            # For joint plans, determine if we should use a consolidated plan reference
+            # First, check if we have a direct endpoint -> plan_reference mapping
+            effective_plan_reference = plan_reference
+
+            # Check if the housing data source has an endpoint, and if that endpoint maps to a plan
+            if org in self.housing_data_source:
+                endpoint = self.housing_data_source[org].get('endpoint', '')
+                if endpoint and endpoint in self.endpoint_to_plan_ref:
+                    # Use the plan reference from the endpoint mapping
+                    effective_plan_reference = self.endpoint_to_plan_ref[endpoint]
+                    logger.debug(f"Using plan reference from endpoint mapping for {org}: {effective_plan_reference}")
+
+            # If not from endpoint, check if this organisation is part of a joint plan
+            if effective_plan_reference == plan_reference and org in self.joint_plan_organisations:
+                # This organisation is part of a joint plan
+                # Find the local plan that matches all the authorities in this joint plan
+                joint_authorities = self.joint_plan_organisations[org]
+                authorities_set = set(joint_authorities)
+
+                # Look through local plans to find one with exactly these authorities
+                # Prioritize adopted plans over draft plans
+                matching_plans = []
+                for existing_plan in self.local_plans:
+                    plan_orgs = set(o.strip() for o in existing_plan.get('organisations', '').split(';'))
+                    if plan_orgs == authorities_set:
+                        matching_plans.append(existing_plan)
+
+                if matching_plans:
+                    # Sort by adoption priority:
+                    # 1. Plans with adoption date (adopted), sorted by date descending (most recent first)
+                    # 2. Then plans without adoption date (draft), in original order
+                    def sort_key(plan):
+                        start_date = plan.get('start-date', '')
+                        if start_date:
+                            # Return (0, negative year) to sort adopted plans first, then by year descending
+                            year_str = start_date[:4]
+                            year = -int(year_str) if year_str.isdigit() else 0
+                            return (0, year)
+                        else:
+                            # Return (1, 0) to sort draft plans after adopted plans
+                            return (1, 0)
+
+                    matching_plans.sort(key=sort_key)
+                    selected_plan = matching_plans[0]
+
+                    effective_plan_reference = selected_plan.get('reference', '')
+                    logger.debug(f"Using consolidated plan {effective_plan_reference} for {org} (selected from {len(matching_plans)} matching plans)")
+
             # Create entry for each authority in housing-numbers array
             if isinstance(housing_numbers, list):
+                # Check if this is a joint plan by looking it up in local_plans
+                is_joint_from_lpa = ';' in lpa if lpa else False
+                is_joint_from_plan = False
+
+                # Also check the actual local plan to see if it's marked as joint
+                for existing_plan in self.local_plans:
+                    if existing_plan.get('reference', '') == effective_plan_reference:
+                        plan_orgs = existing_plan.get('organisations', '')
+                        if plan_orgs and ';' in plan_orgs:
+                            is_joint_from_plan = True
+                        break
+
+                is_joint_housing = is_joint_from_lpa or is_joint_from_plan
+
                 for num_entry in housing_numbers:
+                    # Extract organisation from housing-numbers entry
+                    lpa_code = num_entry.get('organisation', '')
+
+                    # Skip aggregate joint-planning-authority entries (we only want individual local authorities)
+                    if lpa_code.startswith('joint-planning-authority:'):
+                        logger.debug(f"Skipping aggregate joint-planning-authority entry: {lpa_code}")
+                        continue
+
                     # Use the correct document reference from the main document mapping
                     # If not found or None, fallback to first document reference
                     housing_reference = self.plan_main_document_ref.get(
-                        plan_reference,
-                        f"{plan_reference}-1"
-                    ) or f"{plan_reference}-1"
+                        effective_plan_reference,
+                        f"{effective_plan_reference}-1"
+                    ) or f"{effective_plan_reference}-1"
 
-                    # Extract organisation from housing-numbers entry and convert joint-planning-authority to local-planning-group
-                    lpa_code = num_entry.get('organisation', '')
-                    if lpa_code.startswith('joint-planning-authority:'):
-                        lpa_code = lpa_code.replace('joint-planning-authority:', 'local-planning-group:')
+                    # For joint plans with individual authority entries, append the authority code
+                    # to make the reference unique
+                    if is_joint_housing and lpa_code.startswith('local-authority:'):
+                        # Extract just the code part (e.g., 'bab' from 'local-authority:BAB')
+                        authority_code = lpa_code.split(':')[1].lower()
+                        housing_reference = f"{housing_reference}-{authority_code}"
 
                     housing_entry = {
                         'reference': housing_reference,
-                        'local-plan': plan_reference,
+                        'local-plan': effective_plan_reference,
                         'local-planning-authority': lpa_code,
                         'required-housing': num_entry.get('required-housing', ''),
                         'committed-housing': num_entry.get('committed-housing', ''),
@@ -902,11 +1131,51 @@ class LocalPlanCSVGenerator:
                     }
                     self.local_plan_housing.append(housing_entry)
 
-                # Mark this organisation as processed
-                self.organisations_with_housing.add(org)
+                # Mark this organisation-plan combination as processed
+                org_plan_key = (org, effective_plan_reference)
+                self.organisations_with_housing.add(org_plan_key)
 
         except Exception as e:
             logger.error(f"Failed to add housing data for {org}: {e}")
+
+    def _consolidate_joint_plan_housing_data(self, local_plans: List[Dict]):
+        """Update housing data to use consolidated plan references for joint plans.
+
+        For joint plans, all housing data entries from the individual authorities
+        should reference the consolidated plan instead of their individual plans.
+        """
+        # Build a map of organisation codes to their consolidated plan reference
+        org_to_plan = {}
+
+        for plan in local_plans:
+            organisations = plan.get('organisations', '')
+            if not organisations:
+                continue
+
+            # If this plan has multiple organisations, it's a joint plan
+            org_list = [o.strip() for o in organisations.split(';')]
+            if len(org_list) > 1:
+                # Map each organisation to the consolidated plan reference
+                plan_ref = plan.get('reference', '')
+                for org in org_list:
+                    if org:
+                        org_to_plan[org] = plan_ref
+                        logger.debug(f"Mapped {org} -> {plan_ref} (joint plan)")
+
+        # Update housing data entries for organisations in joint plans
+        updated_count = 0
+        for housing in self.local_plan_housing:
+            lpa_code = housing.get('local-planning-authority', '')
+            if lpa_code in org_to_plan:
+                old_plan = housing.get('local-plan', '')
+                new_plan = org_to_plan[lpa_code]
+                if old_plan != new_plan:
+                    housing['local-plan'] = new_plan
+                    updated_count += 1
+                    logger.debug(f"Updated housing data: {lpa_code} {old_plan} -> {new_plan}")
+
+        if updated_count > 0:
+            logger.info(f"Updated {updated_count} housing data entries to use consolidated joint plan references")
 
     def _format_date(self, date_input) -> str:
         """Format date input to ISO format."""
@@ -930,6 +1199,22 @@ class LocalPlanCSVGenerator:
         """Write all three CSVs to output directory."""
         # Sort by reference before writing
         local_plans_sorted = sorted(self.local_plans, key=lambda x: x.get('reference') or '')
+
+        # Populate missing geography codes from boundary mapping
+        updated_count = 0
+        for plan in local_plans_sorted:
+            if not plan.get('local-planning-authorities', '').strip():
+                # Missing geography code
+                organisations = plan.get('organisations', '')
+                geographies = self._lookup_geographies(organisations)
+
+                if geographies:
+                    plan['local-planning-authorities'] = geographies
+                    updated_count += 1
+                    logger.debug(f"Populated geographies for {plan.get('reference')}: {geographies}")
+
+        if updated_count > 0:
+            logger.info(f"Populated {updated_count} missing geography codes from boundary data")
 
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
@@ -960,30 +1245,37 @@ class LocalPlanCSVGenerator:
         ])
 
     def _deduplicate_housing_data(self, housing_data: List[Dict]) -> List[Dict]:
-        """Remove exact duplicate rows from housing data (keeping first occurrence)."""
-        seen = set()
-        deduplicated = []
+        """Remove duplicate housing data, preferring entries with authority codes appended.
+
+        For joint plans, we want to keep entries with authority codes (e.g. plan-1-bab)
+        rather than entries without codes (e.g. plan-1), as the codes ensure uniqueness.
+        """
+        # Group entries by (plan, authority) combination
+        grouped = {}
 
         for entry in housing_data:
-            # Create a tuple of all fields except 'entity' (which is auto-generated)
-            # This allows us to detect truly identical housing records
-            key = (
-                entry.get('reference', ''),
-                entry.get('local-plan', ''),
-                entry.get('local-planning-authority', ''),
-                entry.get('required-housing', ''),
-                entry.get('committed-housing', ''),
-                entry.get('allocated-housing', ''),
-                entry.get('broad-locations-housing', ''),
-                entry.get('windfall-housing', ''),
-                entry.get('notes', ''),
-            )
+            plan = entry.get('local-plan', '')
+            authority = entry.get('local-planning-authority', '')
+            key = (plan, authority)
 
-            if key not in seen:
-                seen.add(key)
-                deduplicated.append(entry)
+            if key not in grouped:
+                grouped[key] = entry
+            else:
+                # If we already have an entry for this (plan, authority), prefer the one with authority code
+                old_ref = grouped[key].get('reference', '')
+                new_ref = entry.get('reference', '')
 
-        return deduplicated
+                # Check if one has authority code and the other doesn't
+                authority_code = authority.split(':')[-1].lower() if ':' in authority else ''
+                has_code_old = authority_code and old_ref.endswith(f"-{authority_code}")
+                has_code_new = authority_code and new_ref.endswith(f"-{authority_code}")
+
+                if has_code_new and not has_code_old:
+                    # Prefer entry with code
+                    grouped[key] = entry
+                    logger.debug(f"Preferring reference with code for {plan}/{authority}: {new_ref} over {old_ref}")
+
+        return list(grouped.values())
 
     def _write_csv(self, filename: str, data: List[Dict], fieldnames: List[str]):
         """Write a single CSV file."""
