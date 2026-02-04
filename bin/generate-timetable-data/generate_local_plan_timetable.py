@@ -138,10 +138,10 @@ def load_reference_overrides():
     Load manual reference overrides from CSV file.
 
     Returns a dictionary mapping mismatched_reference -> correct_reference
-    Override file: dataset/local-plan-reference-overrides.csv
+    Override file: data/local-plan-reference-overrides.csv
     """
     overrides = {}
-    override_file = os.path.join(DATASET_DIR, 'local-plan-reference-overrides.csv')
+    override_file = os.path.join(PROJECT_ROOT, 'data', 'local-plan-reference-overrides.csv')
 
     if not os.path.exists(override_file):
         return overrides
