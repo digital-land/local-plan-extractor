@@ -13,8 +13,8 @@
       "broad-locations-housing": "",
       "annual-required-housing": 1354,
       "pages": "34-36, 481",
-      "notes": "Within the period 2023 – 2038 the Local Plan will provide for a minimum of 20,311 new homes. This includes the provision of a minimum of 1,950 new homes per year up until 2028/2029, including on small sites. The small sites provision across the entire Plan period will account for a minimum of 414 new homes per year.",
-      "organisation": ""
+      "notes": "Within the period 2023 \u2013 2038 the Local Plan will provide for a minimum of 20,311 new homes. This includes the provision of a minimum of 1,950 new homes per year up until 2028/2029, including on small sites. The small sites provision across the entire Plan period will account for a minimum of 414 new homes per year.",
+      "organisation": "local-authority:WND"
     }
   ],
   "confidence": "medium",
@@ -24,5 +24,7 @@
   "organisation": "local-authority:WND",
   "adoption-date": "2023-07-19",
   "local-plan-boundary": "E60000200",
-  "local-planning-authorities": ["E60000200"]
+  "local-planning-authorities": [
+    "E60000200"
+  ]
 }

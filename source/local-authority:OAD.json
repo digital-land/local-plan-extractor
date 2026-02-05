@@ -2,17 +2,27 @@
   {
     "organisation": "local-authority:OAD",
     "organisation-name": "Oadby and Wigston Borough Council",
-    "reference": "LP-OAD-2019",
-    "documentation-url": "https://oadby-wigston.gov.uk/pages/borough_local_plan",
-    "document-url": "",
-    "name": "Oadby and Wigston Borough Local Plan",
+    "reference": "LP-OAD-2011",
+    "documentation-url": "https://www.oadby-wigston.gov.uk/pages/new_local_plan",
+    "document-url": "https://www.oadby-wigston.gov.uk/files/documents/borough_of_oadby_and_wigston_local_plan/New%20Local%20Plan%20Adopted%20Version%2005-04-19.pdf",
+    "name": "Borough of Oadby and Wigston Local Plan",
     "status": "adopted",
-    "year": 2019,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": "2019-04-16",
     "withdrawn-date": null,
-    "documents": []
+    "documents": [
+      {
+        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/borough_of_oadby_and_wigston_local_plan/New%20Local%20Plan%20Adopted%20Version%2005-04-19.pdf",
+        "documentation-url": "https://www.oadby-wigston.gov.uk/pages/new_local_plan",
+        "document-type": "local-plan",
+        "name": "Borough of Oadby and Wigston Local Plan",
+        "reference": "LP-OAD-2011",
+        "document-status": "adopted",
+        "endpoint": "67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1"
+      }
+    ]
   },
   {
     "organisation": "local-authority:OAD",
@@ -171,31 +181,6 @@
         "reference": "CS-REG18A-2021",
         "document-status": "consultation",
         "endpoint": "32146c4529188d6aedc4498a682f11d6adb9a0283c82ae3753fb98e3b587d4e4"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:OAD",
-    "organisation-name": "Oadby and Wigston Borough Council",
-    "reference": "LP-OAD-2011",
-    "documentation-url": "https://www.oadby-wigston.gov.uk/pages/new_local_plan",
-    "document-url": "https://www.oadby-wigston.gov.uk/files/documents/borough_of_oadby_and_wigston_local_plan/New%20Local%20Plan%20Adopted%20Version%2005-04-19.pdf",
-    "name": "Borough of Oadby and Wigston Local Plan",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": "2019-04-16",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.oadby-wigston.gov.uk/files/documents/borough_of_oadby_and_wigston_local_plan/New%20Local%20Plan%20Adopted%20Version%2005-04-19.pdf",
-        "documentation-url": "https://www.oadby-wigston.gov.uk/pages/new_local_plan",
-        "document-type": "local-plan",
-        "name": "Borough of Oadby and Wigston Local Plan",
-        "reference": "LP-OAD-2011",
-        "document-status": "adopted",
-        "endpoint": "67247ec2b34054f52ebf9786033bb52ddbb0f4744a778c76f26d7e35b7177ed1"
       }
     ]
   }

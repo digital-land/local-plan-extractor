@@ -2,67 +2,6 @@
   {
     "organisation": "local-authority:NET",
     "organisation-name": "Newcastle City Council",
-    "reference": "LP-NET-2020",
-    "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-    "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
-    "name": "Development and Allocations Plan 2015-2030",
-    "status": "adopted",
-    "year": 2020,
-    "period-start-date": 2015,
-    "period-end-date": 2030,
-    "adoption-date": "2020-06-24",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
-        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-        "document-type": "local-plan-part-2",
-        "name": "Development and Allocations Plan 2015-2030",
-        "reference": "LP-2015-2030",
-        "document-status": "adopted",
-        "endpoint": "0b08ba4ed2e93a309e6fa9850e5ff539f133b833afef23cd28f31dbf6ccb3628"
-      },
-      {
-        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20Policies%20Map.pdf",
-        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-        "document-type": "policies-map",
-        "name": "DAP Policies Map",
-        "reference": "PM-DAP-2020",
-        "document-status": "adopted",
-        "endpoint": "ba78c2502705d63416d13ecf2abc8a641be0129f02c8f8d15f007ce842d9cc6d"
-      },
-      {
-        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%207%20-%20DAP%20Adoption%20Statement.pdf",
-        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-        "document-type": "adoption-statement",
-        "name": "DAP Adoption Statement",
-        "reference": "AS-DAP-2020",
-        "document-status": "adopted",
-        "endpoint": "c998c65e8058d600a2e46e37fc03ef98ba4fa8d507ca649fdf09925b31d0b20d"
-      },
-      {
-        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%206%20-%20Sustainability%20Appraisal%20Adoption%20Statement.pdf",
-        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-        "document-type": "adoption-statement",
-        "name": "Sustainability Appraisal Adoption Statement",
-        "reference": "SA-AS-2020",
-        "document-status": "adopted",
-        "endpoint": "406aee027e90ba52c1f96e5946e04e6eca883618e34f7dd4207a4beb350a3598"
-      },
-      {
-        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%205%20-%20Policy%20Review.pdf",
-        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
-        "document-type": "local-plan",
-        "name": "Policy Review",
-        "reference": "PR-2020",
-        "document-status": "adopted",
-        "endpoint": "079139cf340dbfe51639f962aa1bac42ebcb676f712809305db7a5169eaf32b8"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NET",
-    "organisation-name": "Newcastle City Council",
     "reference": "LP-NET-2015",
     "documentation-url": "https://newcastle.gov.uk/newcastleplan",
     "document-url": "https://www.newcastle.gov.uk/sites/default/files/2019-01/planning_for_the_future_core_strategy_and_urban_core_plan_2010-2030.pdf",
@@ -199,6 +138,67 @@
         "reference": "PM-2020",
         "document-status": "adopted",
         "endpoint": "4ea5b0d96084a0a754fbe3a569c45a1c9dfef6268da04dfdaeb37381e1bf219b"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NET",
+    "organisation-name": "Newcastle City Council",
+    "reference": "LP-NET-2020",
+    "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+    "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
+    "name": "Development and Allocations Plan 2015-2030",
+    "status": "adopted",
+    "year": 2020,
+    "period-start-date": 2015,
+    "period-end-date": 2030,
+    "adoption-date": "2020-06-24",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20FINAL%20Adoption%20-%20Online%20Version.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan-part-2",
+        "name": "Development and Allocations Plan 2015-2030",
+        "reference": "LP-2015-2030",
+        "document-status": "adopted",
+        "endpoint": "0b08ba4ed2e93a309e6fa9850e5ff539f133b833afef23cd28f31dbf6ccb3628"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/DAP%20Policies%20Map.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "policies-map",
+        "name": "DAP Policies Map",
+        "reference": "PM-DAP-2020",
+        "document-status": "adopted",
+        "endpoint": "ba78c2502705d63416d13ecf2abc8a641be0129f02c8f8d15f007ce842d9cc6d"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%207%20-%20DAP%20Adoption%20Statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "adoption-statement",
+        "name": "DAP Adoption Statement",
+        "reference": "AS-DAP-2020",
+        "document-status": "adopted",
+        "endpoint": "c998c65e8058d600a2e46e37fc03ef98ba4fa8d507ca649fdf09925b31d0b20d"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%206%20-%20Sustainability%20Appraisal%20Adoption%20Statement.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "adoption-statement",
+        "name": "Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-2020",
+        "document-status": "adopted",
+        "endpoint": "406aee027e90ba52c1f96e5946e04e6eca883618e34f7dd4207a4beb350a3598"
+      },
+      {
+        "document-url": "https://www.newcastle.gov.uk/sites/default/files/2020-06/Appendix%205%20-%20Policy%20Review.pdf",
+        "documentation-url": "https://newcastle.gov.uk/newcastleplan",
+        "document-type": "local-plan",
+        "name": "Policy Review",
+        "reference": "PR-2020",
+        "document-status": "adopted",
+        "endpoint": "079139cf340dbfe51639f962aa1bac42ebcb676f712809305db7a5169eaf32b8"
       }
     ]
   }

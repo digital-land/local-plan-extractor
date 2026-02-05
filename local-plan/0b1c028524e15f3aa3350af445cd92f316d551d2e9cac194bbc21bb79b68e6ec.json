@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/0b1c028524e15f3aa3350af445cd92f316d551d2e9cac194bbc21bb79b68e6ec.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:WAV",
-  "adoption-date": "2019-03-20"
+  "adoption-date": "2019-03-20",
+  "local-planning-authorities": [
+    "E60000184"
+  ]
 }

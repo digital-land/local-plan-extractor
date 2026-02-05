@@ -14,7 +14,7 @@
       "annual-required-housing": 1345,
       "pages": "48, 51, 62-63, 173-177, 183",
       "notes": "Strategic housing requirement is 19,802 homes (820 per annum 2011-2014, then 1,502 per annum 2015-2026). Total capacity is approximately 24,000 homes including allocations and small sites. Housing trajectory shows detailed breakdown by growth areas and site allocations.",
-      "organisation": ""
+      "organisation": "local-authority:HRY"
     }
   ],
   "confidence": "medium",
@@ -24,5 +24,7 @@
   "organisation": "local-authority:HRY",
   "adoption-date": "2017-07-24",
   "local-plan-boundary": "E60000192",
-  "local-planning-authorities": ["E60000192"]
+  "local-planning-authorities": [
+    "E60000192"
+  ]
 }

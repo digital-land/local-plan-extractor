@@ -22,5 +22,9 @@
   "pdf_file": "collection/document/ad1679672567986e25d43421be982ce6e036de71b860c0bc0f337b50a9b6f304.pdf",
   "pages_analysed": 0,
   "organisation": "local-planning-group:CHC-EDO",
-  "adoption-date": "2014-04"
+  "adoption-date": "2014-04",
+  "local-planning-authorities": [
+    "E07000048",
+    "E07000049"
+  ]
 }

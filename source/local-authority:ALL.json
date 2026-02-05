@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:ALL",
     "organisation-name": "Allerdale Borough Council",
+    "reference": "LP-ALL-2011",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/planning-policy-allerdale",
+    "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Allerdale%20Local%20Plan%20part%201.pdf",
+    "name": "Allerdale Local Plan (Part 1)",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2029,
+    "adoption-date": "2014-07-16",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Allerdale%20Local%20Plan%20part%201.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/planning-policy-allerdale",
+        "document-type": "local-plan",
+        "name": "Allerdale Local Plan (Part 1)",
+        "reference": "LP-ALL-2011",
+        "document-status": "adopted",
+        "endpoint": "2de840d1114d8e720bbb4b19e48bb24e71872c516643c78e70694e0fc782d2bb"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ALL",
+    "organisation-name": "Allerdale Borough Council",
     "reference": "LP-ALL-2025",
     "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/local-plan",
     "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Cumberland%20Consolidated%20Planning%20Policy%20Framework%20-%20March%202025.pdf",
@@ -21,31 +46,6 @@
         "reference": "LP-2025",
         "document-status": "adopted",
         "endpoint": "6af3fe9889bb586fa42ebfd860cc05a3b53067844e2942d38673663b3db6f351"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:ALL",
-    "organisation-name": "Allerdale Borough Council",
-    "reference": "LP-ALL-2023",
-    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
-    "document-url": "",
-    "name": "Cumberland Local Plan",
-    "status": "regulation-18",
-    "year": 2023,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/minerals_and_waste_development_scheme.pdf",
-        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme March 2025 to March 2028",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "1fc7d99af15603ead0c10361faa90ec44fbcc13f9c66eb28c32ecc17cae2327c"
       }
     ]
   },
@@ -140,25 +140,25 @@
   {
     "organisation": "local-authority:ALL",
     "organisation-name": "Allerdale Borough Council",
-    "reference": "LP-ALL-2011",
-    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/planning-policy-allerdale",
-    "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Allerdale%20Local%20Plan%20part%201.pdf",
-    "name": "Allerdale Local Plan (Part 1)",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2029,
-    "adoption-date": "2014-07-16",
+    "reference": "LP-ALL-2023",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
+    "document-url": "",
+    "name": "Cumberland Local Plan",
+    "status": "regulation-18",
+    "year": 2023,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2025-03/Allerdale%20Local%20Plan%20part%201.pdf",
-        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/planning-policy-allerdale",
-        "document-type": "local-plan",
-        "name": "Allerdale Local Plan (Part 1)",
-        "reference": "LP-ALL-2011",
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2024-12/minerals_and_waste_development_scheme.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/cumberland-local-plan",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme March 2025 to March 2028",
+        "reference": "LDS-2025",
         "document-status": "adopted",
-        "endpoint": "2de840d1114d8e720bbb4b19e48bb24e71872c516643c78e70694e0fc782d2bb"
+        "endpoint": "1fc7d99af15603ead0c10361faa90ec44fbcc13f9c66eb28c32ecc17cae2327c"
       }
     ]
   },

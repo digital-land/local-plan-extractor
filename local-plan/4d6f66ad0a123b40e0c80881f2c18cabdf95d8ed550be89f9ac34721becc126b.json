@@ -14,7 +14,7 @@
       "annual-required-housing": 993,
       "pages": "194-195, 44-47",
       "notes": "Plan targets minimum 19,850 homes over 20-year period with annual target of 993. Site Allocations expected to deliver minimum 18,900 homes. Additional windfall housing may increase overall supply. London Plan sets higher target of 1,367 homes per annum 2019-2029.",
-      "organisation": ""
+      "organisation": "development-corporation:Q20648596"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/4d6f66ad0a123b40e0c80881f2c18cabdf95d8ed550be89f9ac34721becc126b.pdf",
   "pages_analysed": 32,
   "organisation": "development-corporation:Q20648596",
-  "adoption-date": "2022-06-22"
+  "adoption-date": "2022-06-22",
+  "local-planning-authorities": [
+    "E60000330"
+  ]
 }

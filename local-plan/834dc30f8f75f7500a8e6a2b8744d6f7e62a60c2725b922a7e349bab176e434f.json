@@ -14,7 +14,7 @@
       "annual-required-housing": 2867,
       "pages": "139-141, 143-144",
       "notes": "Plan seeks to exceed 43,000 units. Allocated housing of 39,172 from Strategic and Non-Strategic sites shown in Table 9. Additional small sites estimation of 1,500+ units mentioned but not included in main table. Annual requirement calculated as 43,000/15 years = 2,867 per year.",
-      "organisation": ""
+      "organisation": "local-authority:NWM"
     }
   ],
   "confidence": "high",
@@ -23,5 +23,8 @@
   "pages_analysed": 32,
   "organisation": "local-authority:NWM",
   "adoption-date": "2018-12-10",
-  "withdrawn-date": "2018-11"
+  "withdrawn-date": "2018-11",
+  "local-planning-authorities": [
+    "E60000197"
+  ]
 }

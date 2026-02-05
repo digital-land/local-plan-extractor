@@ -3,6 +3,31 @@
     "organisation": "local-authority:BRD",
     "organisation-name": "City of Bradford Metropolitan District Council",
     "reference": "LP-BRD-2017",
+    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
+    "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10/Adopted%20core%20strategy/1%20Core%20Strategy%20full%20document.pdf",
+    "name": "Local Plan 2017-2030",
+    "status": "adopted",
+    "year": 2017,
+    "period-start-date": 2013,
+    "period-end-date": 2030,
+    "adoption-date": "2017-07-18",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10/Adopted%20core%20strategy/1%20Core%20Strategy%20full%20document.pdf",
+        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2017-2030",
+        "reference": "LP-BRD-2017",
+        "document-status": "adopted",
+        "endpoint": "caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BRD",
+    "organisation-name": "City of Bradford Metropolitan District Council",
+    "reference": "LP-BRD-2017",
     "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/core-strategy-dpd/",
     "document-url": "",
     "name": "Core Strategy DPD",
@@ -189,31 +214,6 @@
         "reference": "NP-BINGLEY-SUPPORT",
         "document-status": "consultation",
         "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BRD",
-    "organisation-name": "City of Bradford Metropolitan District Council",
-    "reference": "LP-BRD-2017",
-    "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
-    "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10/Adopted%20core%20strategy/1%20Core%20Strategy%20full%20document.pdf",
-    "name": "Local Plan 2017-2030",
-    "status": "adopted",
-    "year": 2017,
-    "period-start-date": 2013,
-    "period-end-date": 2030,
-    "adoption-date": "2017-07-18",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.bradford.gov.uk/Documents/planningStrategy/10/Adopted%20core%20strategy/1%20Core%20Strategy%20full%20document.pdf",
-        "documentation-url": "https://www.bradford.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan/",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2017-2030",
-        "reference": "LP-BRD-2017",
-        "document-status": "adopted",
-        "endpoint": "caef3e4225958dbc04627ac58fa078a9e24f125f3168ddc601a5e16c0ee24500"
       }
     ]
   }

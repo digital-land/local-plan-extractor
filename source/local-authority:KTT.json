@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:KTT",
     "organisation-name": "Royal Borough of Kingston upon Thames",
-    "reference": "LP-KTT-2024",
-    "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
-    "document-url": "",
-    "name": "Kingston Local Plan 2019-2041",
-    "status": "regulation-18",
-    "year": 2023,
-    "period-start-date": 2019,
-    "period-end-date": 2041,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.kingston.gov.uk/sites/default/files/2025-04/RBK_Local_Development_Scheme__February_2025_.pdf",
-        "documentation-url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/local-development-scheme-2025-2027",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme February 2025",
-        "reference": "LDS-2025",
-        "document-status": "adopted",
-        "endpoint": "c427c81288da3a78965e10ca31fe44d50706d12cbe6f1fcafae281a08540e4e7"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:KTT",
-    "organisation-name": "Royal Borough of Kingston upon Thames",
     "reference": "LP-KTT-2012",
     "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
     "document-url": "https://www.kingston.gov.uk/sites/default/files/downloads/Core_Strategy.pdf",
@@ -46,6 +21,31 @@
         "reference": "CS-2012",
         "document-status": "adopted",
         "endpoint": "a7455169b13fdd5807dbe50ab4148cb7b15957a6545bde0ddf95f4628c8bfeae"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:KTT",
+    "organisation-name": "Royal Borough of Kingston upon Thames",
+    "reference": "LP-KTT-2024",
+    "documentation-url": "https://www.kingston.gov.uk/new-local-plan",
+    "document-url": "",
+    "name": "Kingston Local Plan 2019-2041",
+    "status": "regulation-18",
+    "year": 2023,
+    "period-start-date": 2019,
+    "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.kingston.gov.uk/sites/default/files/2025-04/RBK_Local_Development_Scheme__February_2025_.pdf",
+        "documentation-url": "https://www.kingston.gov.uk/planning-and-building-control/planning-policy/local-development-scheme-2025-2027",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme February 2025",
+        "reference": "LDS-2025",
+        "document-status": "adopted",
+        "endpoint": "c427c81288da3a78965e10ca31fe44d50706d12cbe6f1fcafae281a08540e4e7"
       }
     ]
   },

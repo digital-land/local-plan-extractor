@@ -14,7 +14,7 @@
       "annual-required-housing": 65,
       "pages": "pages 59, 169",
       "notes": "Plan makes provision for at least 1,125 homes (65 homes each year) for period 2018-2036. Housing trajectory shows 675 homes from allocated sites and 561 from projected windfall development across Local Centres, Rural Settlements, Villages and Hamlets, and Open Countryside.",
-      "organisation": ""
+      "organisation": "national-park-authority:Q5225646"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/c71d445e853773310bbd973533e7b8a4c2e10c13683478ff01adee323fa12c84.pdf",
   "pages_analysed": 32,
   "organisation": "national-park-authority:Q5225646",
-  "adoption-date": "2021-12-03"
+  "adoption-date": "2021-12-03",
+  "local-planning-authorities": [
+    "E60000318"
+  ]
 }

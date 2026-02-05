@@ -14,7 +14,7 @@
       "annual-required-housing": 29,
       "pages": "117, 120, 169",
       "notes": "Minimum 551 homes over plan period. Housing delivered through Helmsley Local Plan allocations, windfall development, conversions, and rural exception sites. Past completions 2016-2019 total 169 dwellings. Windfall projections based on average completions on unidentified sites 2008/9-2018/19.",
-      "organisation": ""
+      "organisation": "national-park-authority:Q72617669"
     }
   ],
   "confidence": "medium",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/fe1da01c3c03b3c418087eb8eb704008c55c5d8aa2bd9aeebcf2688783c9986f.pdf",
   "pages_analysed": 0,
   "organisation": "national-park-authority:Q72617669",
-  "adoption-date": "2020-07-27"
+  "adoption-date": "2020-07-27",
+  "local-planning-authorities": [
+    "E60000322"
+  ]
 }

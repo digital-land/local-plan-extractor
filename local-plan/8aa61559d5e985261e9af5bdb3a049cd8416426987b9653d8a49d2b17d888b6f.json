@@ -14,7 +14,7 @@
       "annual-required-housing": 1335,
       "pages": "33, 49, 387",
       "notes": "London Plan requires 13,350 homes 2019/20-2028/29 (1,335 dpa). Plan period 2020-2035 with indicative 5,066 homes years 11-15 (1,013 dpa). Small sites windfall estimated at 400 dpa. Council preparing Site Allocations DPD for detailed allocations.",
-      "organisation": ""
+      "organisation": "local-authority:LBH"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/8aa61559d5e985261e9af5bdb3a049cd8416426987b9653d8a49d2b17d888b6f.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:LBH",
-  "adoption-date": "2021-09-22"
+  "adoption-date": "2021-09-22",
+  "local-planning-authorities": [
+    "E60000195"
+  ]
 }

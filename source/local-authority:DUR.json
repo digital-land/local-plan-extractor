@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:DUR",
     "organisation-name": "Durham County Council",
+    "reference": "LP-DUR-2016",
+    "documentation-url": "https://www.durham.gov.uk/article/7440/What-is-the-County-Durham-Plan-",
+    "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
+    "name": "County Durham Plan",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2016,
+    "period-end-date": 2035,
+    "adoption-date": "2020-10-21",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
+        "documentation-url": "https://www.durham.gov.uk/article/7440/What-is-the-County-Durham-Plan-",
+        "document-type": "local-plan",
+        "name": "County Durham Plan",
+        "reference": "LP-DUR-2016",
+        "document-status": "adopted",
+        "endpoint": "47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DUR",
+    "organisation-name": "Durham County Council",
     "reference": "LP-DUR-2020",
     "documentation-url": "https://www.durham.gov.uk/article/3266/Development-Plan-for-County-Durham",
     "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
@@ -192,31 +217,6 @@
         "reference": "LDS-2025",
         "document-status": "adopted",
         "endpoint": "ef09648ea7c6033ec01af3670053c29f2d81460c4d74a641f3dd65ad79b0f917"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:DUR",
-    "organisation-name": "Durham County Council",
-    "reference": "LP-DUR-2016",
-    "documentation-url": "https://www.durham.gov.uk/article/7440/What-is-the-County-Durham-Plan-",
-    "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
-    "name": "County Durham Plan",
-    "status": "adopted",
-    "year": 2016,
-    "period-start-date": 2016,
-    "period-end-date": 2035,
-    "adoption-date": "2020-10-21",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.durham.gov.uk/media/34069/County-Durham-Plan/pdf/CountyDurhamPlanAdopted2020vDec2020.pdf?m=1732184551360",
-        "documentation-url": "https://www.durham.gov.uk/article/7440/What-is-the-County-Durham-Plan-",
-        "document-type": "local-plan",
-        "name": "County Durham Plan",
-        "reference": "LP-DUR-2016",
-        "document-status": "adopted",
-        "endpoint": "47a9291cb4020ba0ac0439c13742774499e463c4f3263ee1b4137d5139c23a64"
       }
     ]
   }

@@ -27,6 +27,31 @@
   {
     "organisation": "local-authority:DUD",
     "organisation-name": "Dudley Metropolitan Borough Council",
+    "reference": "DS-DUD-2011",
+    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
+    "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
+    "name": "Dudley Borough Development Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2026,
+    "adoption-date": "2017-02-27",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
+        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
+        "document-type": "local-development-scheme",
+        "name": "Dudley Borough Development Strategy",
+        "reference": "DS-DUD-2011",
+        "document-status": "adopted",
+        "endpoint": "6f4bee807888a944c8d9a0f66aae509092acc6a2eaffe6af68a4acdda9e06af6"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:DUD",
+    "organisation-name": "Dudley Metropolitan Borough Council",
     "reference": "LP-DUD-2025",
     "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/",
     "document-url": "https://www.dudley.gov.uk/media/h4qnv1ug/dudley-local-plan-summary-document.pdf",
@@ -89,31 +114,6 @@
         "reference": "UDP-REVOKE-2005",
         "document-status": "withdrawn",
         "endpoint": "69d09d696dcc21742492f30e67b73572d3e5eab5dc900a51e701db4ca632ef4d"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:DUD",
-    "organisation-name": "Dudley Metropolitan Borough Council",
-    "reference": "DS-DUD-2011",
-    "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
-    "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
-    "name": "Dudley Borough Development Strategy",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2026,
-    "adoption-date": "2017-02-27",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.dudley.gov.uk/media/6413/dev-strat-complete-final.pdf",
-        "documentation-url": "https://www.dudley.gov.uk/residents/planning/planning-policy/dudley-local-plan/dudley-borough-development-strategy/",
-        "document-type": "local-development-scheme",
-        "name": "Dudley Borough Development Strategy",
-        "reference": "DS-DUD-2011",
-        "document-status": "adopted",
-        "endpoint": "6f4bee807888a944c8d9a0f66aae509092acc6a2eaffe6af68a4acdda9e06af6"
       }
     ]
   }

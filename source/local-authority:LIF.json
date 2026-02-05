@@ -2,67 +2,6 @@
   {
     "organisation": "local-authority:LIF",
     "organisation-name": "Lichfield District Council",
-    "reference": "LP-LIF-2024",
-    "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-    "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2659/local-plan-2043-issues-options",
-    "name": "Lichfield District Local Plan 2043",
-    "status": "regulation-18",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": 2043,
-    "adoption-date": null,
-    "withdrawn-date": "2024-09-24",
-    "documents": [
-      {
-        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2659/local-plan-2043-issues-options",
-        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-        "document-type": "local-plan",
-        "name": "Local Plan 2043 Issues and Options",
-        "reference": "LP-2043-IO",
-        "document-status": "consultation",
-        "endpoint": "d50ea878c901aefcc9c3fe456e2510bf3fc4bd9d5b0aa17f506cd72e0271e5e9"
-      },
-      {
-        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2644/local-plan-2043-issues-and-options-spatial-portrait",
-        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-        "document-type": "local-plan",
-        "name": "Issues and Options Spatial Portrait",
-        "reference": "LP-2043-SP",
-        "document-status": "consultation",
-        "endpoint": "96f9ef2d1f1a3948fdb56067ebdbc479bc62318cb7b82d92a1e4103d2657c571"
-      },
-      {
-        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2651/sustainability-appraisal-report-local-plan-2043-issues-and-options",
-        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Report Local Plan 2043 Issues and Options",
-        "reference": "SA-2043",
-        "document-status": "consultation",
-        "endpoint": "10ec061e2f09044130d240b777f5418794487c228e2c47970e0ce78c867481a0"
-      },
-      {
-        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2645/habitat-regualtions-assessment-local-plan-2043-issues-and-options",
-        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-        "document-type": "local-plan",
-        "name": "Habitat Regulations Assessment Local Plan 2043 Issues and Options",
-        "reference": "HRA-2043",
-        "document-status": "consultation",
-        "endpoint": "c9e88be9383b10418479cbabb46bded03793d0585a9ebda3a74386f7a0128956"
-      },
-      {
-        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2658/equality-impact-assessment-local-plan-2043-issues-and-options",
-        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
-        "document-type": "equalities-impact-assessment",
-        "name": "Equality Impact Assessment Local Plan 2043 Issues and Options",
-        "reference": "EIA-2043",
-        "document-status": "consultation",
-        "endpoint": "60994229bffa972c50c2b92a29efff9e7f9f7d80477b883f8e30ecee06ffbbcc"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:LIF",
-    "organisation-name": "Lichfield District Council",
     "reference": "LP-LIF-2015",
     "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/adopted-local-plan",
     "document-url": "https://www.lichfielddc.gov.uk/downloads/file/235/local-plan-strategy",
@@ -170,6 +109,67 @@
         "reference": "IR-ALLOC-APP-2019",
         "document-status": "adopted",
         "endpoint": "859f72544525b9ab259f95895ce6c31322f2842ca3db0083ba575c933db31e37"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:LIF",
+    "organisation-name": "Lichfield District Council",
+    "reference": "LP-LIF-2024",
+    "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+    "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2659/local-plan-2043-issues-options",
+    "name": "Lichfield District Local Plan 2043",
+    "status": "regulation-18",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": "2024-09-24",
+    "documents": [
+      {
+        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2659/local-plan-2043-issues-options",
+        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+        "document-type": "local-plan",
+        "name": "Local Plan 2043 Issues and Options",
+        "reference": "LP-2043-IO",
+        "document-status": "consultation",
+        "endpoint": "d50ea878c901aefcc9c3fe456e2510bf3fc4bd9d5b0aa17f506cd72e0271e5e9"
+      },
+      {
+        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2644/local-plan-2043-issues-and-options-spatial-portrait",
+        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+        "document-type": "local-plan",
+        "name": "Issues and Options Spatial Portrait",
+        "reference": "LP-2043-SP",
+        "document-status": "consultation",
+        "endpoint": "96f9ef2d1f1a3948fdb56067ebdbc479bc62318cb7b82d92a1e4103d2657c571"
+      },
+      {
+        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2651/sustainability-appraisal-report-local-plan-2043-issues-and-options",
+        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Report Local Plan 2043 Issues and Options",
+        "reference": "SA-2043",
+        "document-status": "consultation",
+        "endpoint": "10ec061e2f09044130d240b777f5418794487c228e2c47970e0ce78c867481a0"
+      },
+      {
+        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2645/habitat-regualtions-assessment-local-plan-2043-issues-and-options",
+        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+        "document-type": "local-plan",
+        "name": "Habitat Regulations Assessment Local Plan 2043 Issues and Options",
+        "reference": "HRA-2043",
+        "document-status": "consultation",
+        "endpoint": "c9e88be9383b10418479cbabb46bded03793d0585a9ebda3a74386f7a0128956"
+      },
+      {
+        "document-url": "https://www.lichfielddc.gov.uk/downloads/file/2658/equality-impact-assessment-local-plan-2043-issues-and-options",
+        "documentation-url": "https://www.lichfielddc.gov.uk/planning-policy/local-plan-review/1",
+        "document-type": "equalities-impact-assessment",
+        "name": "Equality Impact Assessment Local Plan 2043 Issues and Options",
+        "reference": "EIA-2043",
+        "document-status": "consultation",
+        "endpoint": "60994229bffa972c50c2b92a29efff9e7f9f7d80477b883f8e30ecee06ffbbcc"
       }
     ]
   },

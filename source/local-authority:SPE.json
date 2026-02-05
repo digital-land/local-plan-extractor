@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SPE",
     "organisation-name": "Spelthorne Borough Council",
+    "reference": "LP-SPE-2006",
+    "documentation-url": "https://www.spelthorne.gov.uk/page/1003/development-plan-2009",
+    "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/1436/Core-Strategy-and-Policies-Development-Plan-Document/pdf/core_strategy_and_policies.pdf",
+    "name": "Core Strategy and Policies Development Plan Document",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": "2009-02-26",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/1436/Core-Strategy-and-Policies-Development-Plan-Document/pdf/core_strategy_and_policies.pdf",
+        "documentation-url": "https://www.spelthorne.gov.uk/page/1003/development-plan-2009",
+        "document-type": "local-plan",
+        "name": "Core Strategy and Policies Development Plan Document",
+        "reference": "LP-SPE-2006",
+        "document-status": "adopted",
+        "endpoint": "40554833095746331d871ee47dffa5a2e48616a0fbd2149cb87735d231f83ea3"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SPE",
+    "organisation-name": "Spelthorne Borough Council",
     "reference": "LP-SPE-2022",
     "documentation-url": "https://www.spelthorne.gov.uk/localplan",
     "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/25297/Pre-submission-Spelthorne-Local-Plan-2022-2037/pdf/Pre-submission_Spelthorne_Local_Plan_2022_-_2037-compressed.pdf",
@@ -111,31 +136,6 @@
         "reference": "HRA-2022",
         "document-status": "examination",
         "endpoint": "e5199aef9f2b886f4b91d718ca71bd53c34c5dc00f35ec1eb78f14abb61db323"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SPE",
-    "organisation-name": "Spelthorne Borough Council",
-    "reference": "LP-SPE-2006",
-    "documentation-url": "https://www.spelthorne.gov.uk/page/1003/development-plan-2009",
-    "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/1436/Core-Strategy-and-Policies-Development-Plan-Document/pdf/core_strategy_and_policies.pdf",
-    "name": "Core Strategy and Policies Development Plan Document",
-    "status": "adopted",
-    "year": 2006,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
-    "adoption-date": "2009-02-26",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.spelthorne.gov.uk/sites/default/files/migration/media/1436/Core-Strategy-and-Policies-Development-Plan-Document/pdf/core_strategy_and_policies.pdf",
-        "documentation-url": "https://www.spelthorne.gov.uk/page/1003/development-plan-2009",
-        "document-type": "local-plan",
-        "name": "Core Strategy and Policies Development Plan Document",
-        "reference": "LP-SPE-2006",
-        "document-status": "adopted",
-        "endpoint": "40554833095746331d871ee47dffa5a2e48616a0fbd2149cb87735d231f83ea3"
       }
     ]
   }

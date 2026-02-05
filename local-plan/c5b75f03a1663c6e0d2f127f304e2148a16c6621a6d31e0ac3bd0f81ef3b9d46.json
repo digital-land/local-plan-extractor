@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/c5b75f03a1663c6e0d2f127f304e2148a16c6621a6d31e0ac3bd0f81ef3b9d46.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:NDO",
-  "adoption-date": "2016-01-15"
+  "adoption-date": "2016-01-15",
+  "local-planning-authorities": [
+    "E60000292"
+  ]
 }

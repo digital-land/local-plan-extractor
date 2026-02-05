@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SDE",
     "organisation-name": "South Derbyshire District Council",
+    "reference": "LP-SDE-2011",
+    "documentation-url": "https://www.southderbyshire.gov.uk/our-services/planning-and-building-control/planning/planning-policy/local-plan/adopted-local-plan",
+    "document-url": "https://www.southderbyshire.gov.uk/assets/attach/11431/Local-Plan-Part-1-Full-Version.pdf",
+    "name": "South Derbyshire Local Plan: Part 1",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2016-06-13",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/11431/Local-Plan-Part-1-Full-Version.pdf",
+        "documentation-url": "https://www.southderbyshire.gov.uk/our-services/planning-and-building-control/planning/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "South Derbyshire Local Plan: Part 1",
+        "reference": "LP-SDE-2011",
+        "document-status": "adopted",
+        "endpoint": "96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SDE",
+    "organisation-name": "South Derbyshire District Council",
     "reference": "LP-SDE-2013",
     "documentation-url": "https://www.southderbyshire.gov.uk/localplan",
     "document-url": "https://www.southderbyshire.gov.uk/assets/attach/1723/South-Derbyshire-Draft-Local-Plan-Chapters-1-to-9.pdf",
@@ -174,31 +199,6 @@
         "reference": "HSR-2013",
         "document-status": "draft",
         "endpoint": "25858ee50a93771226c2af1aa0b428c5665fa8755c9a4a295e9bdc021859a2b3"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SDE",
-    "organisation-name": "South Derbyshire District Council",
-    "reference": "LP-SDE-2011",
-    "documentation-url": "https://www.southderbyshire.gov.uk/our-services/planning-and-building-control/planning/planning-policy/local-plan/adopted-local-plan",
-    "document-url": "https://www.southderbyshire.gov.uk/assets/attach/11431/Local-Plan-Part-1-Full-Version.pdf",
-    "name": "South Derbyshire Local Plan: Part 1",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2028,
-    "adoption-date": "2016-06-13",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.southderbyshire.gov.uk/assets/attach/11431/Local-Plan-Part-1-Full-Version.pdf",
-        "documentation-url": "https://www.southderbyshire.gov.uk/our-services/planning-and-building-control/planning/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "local-plan",
-        "name": "South Derbyshire Local Plan: Part 1",
-        "reference": "LP-SDE-2011",
-        "document-status": "adopted",
-        "endpoint": "96e73173195f3702c063a9e553de2d0f37d9f0bf22da11c06cae44c327fd4776"
       }
     ]
   }

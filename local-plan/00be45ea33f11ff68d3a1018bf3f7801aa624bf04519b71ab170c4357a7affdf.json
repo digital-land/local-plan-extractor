@@ -14,7 +14,7 @@
       "annual-required-housing": 2355,
       "pages": "45, 51, 216, 518-519",
       "notes": "Total target 40,035 homes 2019-2036 (2,355 per annum). Site allocations provide approximately 33,249 new homes. Small sites (windfall) target: 10,217 homes (601 per annum). Housing trajectory shows sufficient supply through planning permissions, site allocations and new council homes delivery.",
-      "organisation": ""
+      "organisation": "local-authority:SWK"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/00be45ea33f11ff68d3a1018bf3f7801aa624bf04519b71ab170c4357a7affdf.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:SWK",
-  "adoption-date": "2022-02-23"
+  "adoption-date": "2022-02-23",
+  "local-planning-authorities": [
+    "E60000198"
+  ]
 }

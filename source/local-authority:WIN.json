@@ -2,6 +2,67 @@
   {
     "organisation": "local-authority:WIN",
     "organisation-name": "Winchester City Council",
+    "reference": "LP-WIN-2011",
+    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
+    "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
+    "name": "Local Plan Part 1 - Joint Core Strategy",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": "2013-03-20",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 1 - Joint Core Strategy",
+        "reference": "LP-WIN-2011",
+        "document-status": "adopted",
+        "endpoint": "52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Gypsy, Traveller & Travelling Showpersons Development Plan Document (Traveller DPD)",
+        "reference": "TRAVELLER-DPD-2013",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Local Plan Part 2 - Development Management & Allocations",
+        "reference": "LP-PART2-2013",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "local-plan",
+        "name": "Evidence Base",
+        "reference": "EB-2013",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisals",
+        "reference": "SA-2013",
+        "document-status": "adopted",
+        "endpoint": ""
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WIN",
+    "organisation-name": "Winchester City Council",
     "reference": "LP-WIN-2024",
     "documentation-url": "https://www.localplan.winchester.gov.uk/",
     "document-url": "",
@@ -127,92 +188,6 @@
         "reference": "LP-REG18-2020",
         "document-status": "consultation",
         "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WIN",
-    "organisation-name": "Winchester City Council",
-    "reference": "LP-WIN-2013",
-    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-    "document-url": "",
-    "name": "Winchester District Local Plan 2011-2036",
-    "status": "adopted",
-    "year": 2013,
-    "period-start-date": 2011,
-    "period-end-date": 2036,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-        "document-type": "local-plan",
-        "name": "Gypsy, Traveller & Travelling Showpersons Development Plan Document (Traveller DPD)",
-        "reference": "TRAVELLER-DPD-2013",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-        "document-type": "core-strategy",
-        "name": "Local Plan Part 1 - Joint Core Strategy Adopted March 2013",
-        "reference": "CS-2013",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-        "document-type": "local-plan",
-        "name": "Local Plan Part 2 - Development Management & Allocations",
-        "reference": "LP-PART2-2013",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-        "document-type": "local-plan",
-        "name": "Evidence Base",
-        "reference": "EB-2013",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisals",
-        "reference": "SA-2013",
-        "document-status": "adopted",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WIN",
-    "organisation-name": "Winchester City Council",
-    "reference": "LP-WIN-2011",
-    "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
-    "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
-    "name": "Local Plan Part 1 - Joint Core Strategy",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": "2013-03-20",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.winchester.gov.uk/assets/attach/3250/LPP1chap-7-10-appendices.pdf",
-        "documentation-url": "https://www.winchester.gov.uk/planning-policy/winchester-district-local-plan-2011-2036-adopted/local-plan-part-1-joint-core-strategy-adopted-march-2013-local-plan-review-2006/local-plan-part-1-joint-core-strategy-adopted-2013",
-        "document-type": "local-plan",
-        "name": "Local Plan Part 1 - Joint Core Strategy",
-        "reference": "LP-WIN-2011",
-        "document-status": "adopted",
-        "endpoint": "52506380735445ab34a2a7784eb5555f6624b8fcabcdced0495330cbe357b781"
       }
     ]
   }

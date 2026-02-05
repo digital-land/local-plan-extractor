@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SCA",
     "organisation-name": "South Cambridgeshire District Council",
+    "reference": "LP-SCA-2011",
+    "documentation-url": "https://greatercambridgeplanning.org/local-and-neighbourhood-planning/current-plans-the-adopted-local-plans/south-cambridgeshire-district-council-adopted-development-plan/south-cambridgeshire-local-plan-2018",
+    "document-url": "https://greatercambridgeplanning.org/media/5tab2sun/south-cambridgeshire-adopted-local-plan-2018.pdf",
+    "name": "South Cambridgeshire Local Plan",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": "2018-09-27",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://greatercambridgeplanning.org/media/5tab2sun/south-cambridgeshire-adopted-local-plan-2018.pdf",
+        "documentation-url": "https://greatercambridgeplanning.org/local-and-neighbourhood-planning/current-plans-the-adopted-local-plans/south-cambridgeshire-district-council-adopted-development-plan/south-cambridgeshire-local-plan-2018",
+        "document-type": "local-plan",
+        "name": "South Cambridgeshire Local Plan",
+        "reference": "LP-SCA-2011",
+        "document-status": "adopted",
+        "endpoint": "5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SCA",
+    "organisation-name": "South Cambridgeshire District Council",
     "reference": "LP-SCA-2024",
     "documentation-url": "https://www.greatercambridgeplanning.org/emerging-plans-and-guidance/",
     "document-url": "",
@@ -116,31 +141,6 @@
         "reference": "SPD-TREES-2024",
         "document-status": "adopted",
         "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SCA",
-    "organisation-name": "South Cambridgeshire District Council",
-    "reference": "LP-SCA-2011",
-    "documentation-url": "https://greatercambridgeplanning.org/local-and-neighbourhood-planning/current-plans-the-adopted-local-plans/south-cambridgeshire-district-council-adopted-development-plan/south-cambridgeshire-local-plan-2018",
-    "document-url": "https://greatercambridgeplanning.org/media/5tab2sun/south-cambridgeshire-adopted-local-plan-2018.pdf",
-    "name": "South Cambridgeshire Local Plan",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": "2018-09-27",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://greatercambridgeplanning.org/media/5tab2sun/south-cambridgeshire-adopted-local-plan-2018.pdf",
-        "documentation-url": "https://greatercambridgeplanning.org/local-and-neighbourhood-planning/current-plans-the-adopted-local-plans/south-cambridgeshire-district-council-adopted-development-plan/south-cambridgeshire-local-plan-2018",
-        "document-type": "local-plan",
-        "name": "South Cambridgeshire Local Plan",
-        "reference": "LP-SCA-2011",
-        "document-status": "adopted",
-        "endpoint": "5ca195abc4459882046df72d75a74d68502a85f2794ef2ff3419fcb8130b73b3"
       }
     ]
   }

@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:HOR",
     "organisation-name": "Horsham District Council",
-    "reference": "LP-HOR-2015",
-    "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
-    "document-url": "",
-    "name": "Horsham District Planning Framework",
-    "status": "adopted",
-    "year": 2015,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
-        "document-type": "local-plan-adopted",
-        "name": "Horsham District Planning Framework",
-        "reference": "LP-2015",
-        "document-status": "adopted",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:HOR",
-    "organisation-name": "Horsham District Council",
     "reference": "LP-HOR-2011",
     "documentation-url": "https://www.horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
     "document-url": "https://www.horsham.gov.uk/__data/assets/pdf_file/0016/60190/Horsham-District-Planning-Framework-November-2015.pdf",
@@ -46,6 +21,31 @@
         "reference": "LP-HOR-2011",
         "document-status": "adopted",
         "endpoint": "66fe8ec7bbfd589b0501912257071dafafb1c3e2d309487ef92f963b31bd9ff1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HOR",
+    "organisation-name": "Horsham District Council",
+    "reference": "LP-HOR-2015",
+    "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+    "document-url": "",
+    "name": "Horsham District Planning Framework",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://horsham.gov.uk/planning/local-plan/read-the-current-local-plan",
+        "document-type": "local-plan-adopted",
+        "name": "Horsham District Planning Framework",
+        "reference": "LP-2015",
+        "document-status": "adopted",
+        "endpoint": ""
       }
     ]
   }

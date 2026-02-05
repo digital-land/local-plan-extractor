@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:NLN",
     "organisation-name": "North Lincolnshire Council",
+    "reference": "LP-NLN-2004",
+    "documentation-url": "https://www.northlincs.gov.uk/planning-and-environment/planning-policy/core-strategy/",
+    "document-url": "https://m.northlincs.gov.uk/public/planningreports/corestratergy/adopteddpd/FullCoreStrategy.pdf",
+    "name": "Local Plan 2004-2026",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 2004,
+    "period-end-date": 2026,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://m.northlincs.gov.uk/public/planningreports/corestratergy/adopteddpd/FullCoreStrategy.pdf",
+        "documentation-url": "https://www.northlincs.gov.uk/planning-and-environment/planning-policy/core-strategy/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2004-2026",
+        "reference": "LP-NLN-2004",
+        "document-status": "adopted",
+        "endpoint": "7fd79150b3fed7adf4a5ad02c1992b39ba8e4217bc25aa6811a3749da4fdc29c"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:NLN",
+    "organisation-name": "North Lincolnshire Council",
     "reference": "LP-NLN-2003",
     "documentation-url": "https://www.northlincs.gov.uk/localplan",
     "document-url": "https://www.northlincs.gov.uk/wp-content/uploads/2024/11/Saved-2003-Local-Plan-Policies-October-2024.pdf",
@@ -237,31 +262,6 @@
         "reference": "PM-2003",
         "document-status": "adopted",
         "endpoint": "97d0b1fc3c4349dae2d01c5f21e2c8514ac4865635508f6289cb9797318e36a1"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NLN",
-    "organisation-name": "North Lincolnshire Council",
-    "reference": "LP-NLN-2004",
-    "documentation-url": "https://www.northlincs.gov.uk/planning-and-environment/planning-policy/core-strategy/",
-    "document-url": "https://m.northlincs.gov.uk/public/planningreports/corestratergy/adopteddpd/FullCoreStrategy.pdf",
-    "name": "Local Plan 2004-2026",
-    "status": "adopted",
-    "year": 2004,
-    "period-start-date": 2004,
-    "period-end-date": 2026,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://m.northlincs.gov.uk/public/planningreports/corestratergy/adopteddpd/FullCoreStrategy.pdf",
-        "documentation-url": "https://www.northlincs.gov.uk/planning-and-environment/planning-policy/core-strategy/",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2004-2026",
-        "reference": "LP-NLN-2004",
-        "document-status": "adopted",
-        "endpoint": "7fd79150b3fed7adf4a5ad02c1992b39ba8e4217bc25aa6811a3749da4fdc29c"
       }
     ]
   }

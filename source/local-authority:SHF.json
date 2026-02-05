@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SHF",
     "organisation-name": "Sheffield City Council",
+    "reference": "LP-SHF-2004",
+    "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
+    "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
+    "name": "Sheffield Local Development Framework: Core Strategy",
+    "status": "adopted",
+    "year": 2004,
+    "period-start-date": 2004,
+    "period-end-date": 2026,
+    "adoption-date": "2009-03-04",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
+        "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
+        "document-type": "local-plan",
+        "name": "Sheffield Local Development Framework: Core Strategy",
+        "reference": "LP-SHF-2004",
+        "document-status": "adopted",
+        "endpoint": "6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SHF",
+    "organisation-name": "Sheffield City Council",
     "reference": "LP-SHF-2025",
     "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan-examination",
     "document-url": "",
@@ -39,31 +64,6 @@
         "reference": "CD-2025",
         "document-status": "adopted",
         "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SHF",
-    "organisation-name": "Sheffield City Council",
-    "reference": "LP-SHF-2004",
-    "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
-    "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
-    "name": "Sheffield Local Development Framework: Core Strategy",
-    "status": "adopted",
-    "year": 2004,
-    "period-start-date": 2004,
-    "period-end-date": 2026,
-    "adoption-date": "2009-03-04",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.sheffield.gov.uk/sites/default/files/2022-07/core-strategy-adopted-march-2009.pdf",
-        "documentation-url": "https://www.sheffield.gov.uk/planning-development/sheffield-plan",
-        "document-type": "local-plan",
-        "name": "Sheffield Local Development Framework: Core Strategy",
-        "reference": "LP-SHF-2004",
-        "document-status": "adopted",
-        "endpoint": "6e8cdbee244471df2868b93ebc0aafbb2c07aaa1b73a6f9d3f27cb6c21ebe98e"
       }
     ]
   }

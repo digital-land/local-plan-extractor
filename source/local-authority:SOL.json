@@ -90,49 +90,6 @@
   {
     "organisation": "local-authority:SOL",
     "organisation-name": "Solihull Metropolitan Borough Council",
-    "reference": "LP-SOL-2024",
-    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
-    "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
-    "name": "Solihull Local Plan Review",
-    "status": "withdrawn",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": "2021-05-13",
-    "documents": [
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
-        "document-type": "local-plan",
-        "name": "Withdrawal notice - 9 October 2024",
-        "reference": "WN-2024",
-        "document-status": "withdrawn",
-        "endpoint": "b83fac75cca4179f75b55ebfd6a9efa95fc2bd0a0b76e084809ef74b2a93de39"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-09/SMBC011.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
-        "document-type": "local-plan",
-        "name": "SMBC011",
-        "reference": "SMBC-011-2024",
-        "document-status": "examination",
-        "endpoint": "c54f73d5e04cf53a4619308dd73f99e2b0eb38558ec0277e8ab6e451c7995d22"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-08/Solihull-Local-Plan-EiP-v2.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
-        "document-type": "local-plan",
-        "name": "SMBC026",
-        "reference": "SMBC-026-2024",
-        "document-status": "examination",
-        "endpoint": "cec5915f580d9b2671c0be9b6996c31d0436facd0aeceadcc88d5fbd23d935aa"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SOL",
-    "organisation-name": "Solihull Metropolitan Borough Council",
     "reference": "GT-SOL-2014",
     "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
     "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",
@@ -215,6 +172,49 @@
         "reference": "CS-GT-2013",
         "document-status": "consultation",
         "endpoint": "92bc64ffad681956bff7c9ceda36435c5ccda052b58b0c06c41188f01748652d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SOL",
+    "organisation-name": "Solihull Metropolitan Borough Council",
+    "reference": "LP-SOL-2024",
+    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+    "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
+    "name": "Solihull Local Plan Review",
+    "status": "withdrawn",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": "2021-05-13",
+    "documents": [
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "Withdrawal notice - 9 October 2024",
+        "reference": "WN-2024",
+        "document-status": "withdrawn",
+        "endpoint": "b83fac75cca4179f75b55ebfd6a9efa95fc2bd0a0b76e084809ef74b2a93de39"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-09/SMBC011.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "SMBC011",
+        "reference": "SMBC-011-2024",
+        "document-status": "examination",
+        "endpoint": "c54f73d5e04cf53a4619308dd73f99e2b0eb38558ec0277e8ab6e451c7995d22"
+      },
+      {
+        "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-08/Solihull-Local-Plan-EiP-v2.pdf",
+        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
+        "document-type": "local-plan",
+        "name": "SMBC026",
+        "reference": "SMBC-026-2024",
+        "document-status": "examination",
+        "endpoint": "cec5915f580d9b2671c0be9b6996c31d0436facd0aeceadcc88d5fbd23d935aa"
       }
     ]
   }

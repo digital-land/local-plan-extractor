@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:WOI",
     "organisation-name": "Woking Borough Council",
-    "reference": "LP-WOI-2025",
-    "documentation-url": "https://www.woking.gov.uk/your-council/have-your-say/consultations/woking-local-plan-consultation",
-    "document-url": "",
-    "name": "Woking Local Plan",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://woking.gov.uk/planning",
-        "document-type": "local-plan",
-        "name": "Have your say on our new local plan",
-        "reference": "LP-2025",
-        "document-status": "consultation",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WOI",
-    "organisation-name": "Woking Borough Council",
     "reference": "LP-WOI-2010",
     "documentation-url": "https://www.woking2027.info/developmentplan/corestrategy",
     "document-url": "https://www.woking2027.info/developmentplan/corestrategy/adoptedcorestrategy.pdf",
@@ -46,6 +21,31 @@
         "reference": "LP-WOI-2010",
         "document-status": "adopted",
         "endpoint": "4e5c92beea66d20349caa1f8c804224234c3a464c106fa86c0f7c0a5066d94e4"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WOI",
+    "organisation-name": "Woking Borough Council",
+    "reference": "LP-WOI-2025",
+    "documentation-url": "https://www.woking.gov.uk/your-council/have-your-say/consultations/woking-local-plan-consultation",
+    "document-url": "",
+    "name": "Woking Local Plan",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://woking.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Have your say on our new local plan",
+        "reference": "LP-2025",
+        "document-status": "consultation",
+        "endpoint": ""
       }
     ]
   }

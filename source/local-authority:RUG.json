@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:RUG",
     "organisation-name": "Rugby Borough Council",
-    "reference": "LP-RUG-2025",
-    "documentation-url": "https://www.rugby.gov.uk/localplan",
-    "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
-    "name": "Rugby Borough Local Plan Review - Preferred Options 2024-2045",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": 2024,
-    "period-end-date": 2045,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
-        "documentation-url": "https://rugby.gov.uk/w/local-plan-review-preferred-options-public-consultation-document",
-        "document-type": "local-plan-regulation-18",
-        "name": "Local Plan preferred options consultation document",
-        "reference": "LP-2024-2045",
-        "document-status": "consultation",
-        "endpoint": "6ba35cdd3e48ce6ea6acb50bcf2b4b23d78784bec59e40b0766a42cb60d89ea1"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:RUG",
-    "organisation-name": "Rugby Borough Council",
     "reference": "LP-RUG-2019",
     "documentation-url": "https://www.rugby.gov.uk/w/local-plan-2011-2031",
     "document-url": "https://www.rugby.gov.uk/documents/20124/6585161/FINAL_LOCAL_PLAN_21.06.19.pdf/b896f4cc-f4b5-c8a9-5602-6fcc0df00427?t=1765543732424",
@@ -163,6 +138,31 @@
         "reference": "CAA-2010",
         "document-status": "adopted",
         "endpoint": "b61df95aa5ff176eb5e74725be78e7e394f2d0ef217169ef7621f0a16931b62e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUG",
+    "organisation-name": "Rugby Borough Council",
+    "reference": "LP-RUG-2025",
+    "documentation-url": "https://www.rugby.gov.uk/localplan",
+    "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
+    "name": "Rugby Borough Local Plan Review - Preferred Options 2024-2045",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2024,
+    "period-end-date": 2045,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://rugby.gov.uk/documents/d/guest/local_plan_preferred_options_consultation_document-pdf?download=true",
+        "documentation-url": "https://rugby.gov.uk/w/local-plan-review-preferred-options-public-consultation-document",
+        "document-type": "local-plan-regulation-18",
+        "name": "Local Plan preferred options consultation document",
+        "reference": "LP-2024-2045",
+        "document-status": "consultation",
+        "endpoint": "6ba35cdd3e48ce6ea6acb50bcf2b4b23d78784bec59e40b0766a42cb60d89ea1"
       }
     ]
   }

@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:WEA",
     "organisation-name": "Wealden District Council",
+    "reference": "LP-WEA-2013",
+    "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/core-strategy-local-plan/",
+    "document-url": "https://www.wealden.gov.uk/UploadedFiles/Adopted_Core_Strategy_2013_for_web.pdf",
+    "name": "Wealden District Core Strategy Local Plan (February 2013)",
+    "status": "adopted",
+    "year": 2013,
+    "period-start-date": 2006,
+    "period-end-date": 2027,
+    "adoption-date": "2013-02",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.wealden.gov.uk/UploadedFiles/Adopted_Core_Strategy_2013_for_web.pdf",
+        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/core-strategy-local-plan/",
+        "document-type": "local-plan",
+        "name": "Wealden District Core Strategy Local Plan (February 2013)",
+        "reference": "LP-WEA-2013",
+        "document-status": "adopted",
+        "endpoint": "277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WEA",
+    "organisation-name": "Wealden District Council",
     "reference": "LP-WEA-2016",
     "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/",
     "document-url": "",
@@ -120,31 +145,6 @@
         "reference": "SHELAA-CS-2024",
         "document-status": "adopted",
         "endpoint": "e622bdd92157a5bcee9e2c78bb99de0a4a83e3800e836df9d82a4febfa6f155a"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WEA",
-    "organisation-name": "Wealden District Council",
-    "reference": "LP-WEA-2013",
-    "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/core-strategy-local-plan/",
-    "document-url": "https://www.wealden.gov.uk/UploadedFiles/Adopted_Core_Strategy_2013_for_web.pdf",
-    "name": "Wealden District Core Strategy Local Plan (February 2013)",
-    "status": "adopted",
-    "year": 2013,
-    "period-start-date": 2006,
-    "period-end-date": 2027,
-    "adoption-date": "2013-02",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.wealden.gov.uk/UploadedFiles/Adopted_Core_Strategy_2013_for_web.pdf",
-        "documentation-url": "https://www.wealden.gov.uk/planning-and-building-control/planning-policy/adopted-local-plan-documents/core-strategy-local-plan/",
-        "document-type": "local-plan",
-        "name": "Wealden District Core Strategy Local Plan (February 2013)",
-        "reference": "LP-WEA-2013",
-        "document-status": "adopted",
-        "endpoint": "277db1f6533ce579ebba856948132473335473cd4443a3bacee7344f7b94ec36"
       }
     ]
   }

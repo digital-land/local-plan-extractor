@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:GLO",
     "organisation-name": "Gloucester City Council",
-    "reference": "LP-GLO-2011",
-    "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
-    "document-url": "https://gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
-    "name": "Local Plan 2011-2031",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
-        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2031",
-        "reference": "LP-GLO-2011",
-        "document-status": "adopted",
-        "endpoint": "647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:GLO",
-    "organisation-name": "Gloucester City Council",
     "reference": "LP-GLO-2017",
     "documentation-url": "https://strategiclocalplan.org/adopted-jcs/",
     "document-url": "https://strategiclocalplan.org/wp-content/uploads/2024/06/jcs-plan.pdf",
@@ -46,6 +21,31 @@
         "reference": "LP-2011-2031",
         "document-status": "adopted",
         "endpoint": "0c2846b3b9d38d29093e67adb53c53bad6d753cb20076100e56d4bb61b7e9bfb"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:GLO",
+    "organisation-name": "Gloucester City Council",
+    "reference": "LP-GLO-2011",
+    "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+    "document-url": "https://gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://gloucester.gov.uk/media/hgun5cpe/gloucester-city-plan-high-res.pdf",
+        "documentation-url": "https://www.gloucester.gov.uk/planning-development/planning-policy/adopted-development-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-GLO-2011",
+        "document-status": "adopted",
+        "endpoint": "647f43c4e2900708a2ad78c2650e46b580e6ad279f79b52c8dda7fdd4b5ad943"
       }
     ]
   }

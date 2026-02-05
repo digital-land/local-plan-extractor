@@ -2,21 +2,6 @@
   {
     "organisation": "local-authority:MDB",
     "organisation-name": "Middlesbrough Borough Council",
-    "reference": "LP-MDB-2025",
-    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
-    "document-url": "",
-    "name": "Middlesbrough Publication Local Plan",
-    "status": "submitted",
-    "year": 2025,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:MDB",
-    "organisation-name": "Middlesbrough Borough Council",
     "reference": "LP-MDB-2012",
     "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/core-strategy/",
     "document-url": "https://www.middlesbrough.gov.uk/media/kkql4nqj/planning-policy-housing-local-plan-2014.pdf",
@@ -38,5 +23,20 @@
         "endpoint": "ab54785f7a49ecc5169e28795658708fb59c3fb3dbb9e964520270f71d8cdb8e"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:MDB",
+    "organisation-name": "Middlesbrough Borough Council",
+    "reference": "LP-MDB-2025",
+    "documentation-url": "https://www.middlesbrough.gov.uk/planning-and-development/planning-policy/publication-local-plan/",
+    "document-url": "",
+    "name": "Middlesbrough Publication Local Plan",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
   }
 ]

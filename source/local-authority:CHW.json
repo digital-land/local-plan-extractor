@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:CHW",
     "organisation-name": "Cheshire West and Chester Council",
+    "reference": "LP-CHW-2015",
+    "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
+    "document-url": "https://planningpolicy.cheshirewestandchester.gov.uk/sites/planningpolicy-cheshirewestandchester/files/2025-11/Local%20Plan%20%28Part%20One%29%20Strategic%20Policies.pdf",
+    "name": "Local Plan 2015-2030",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2010,
+    "period-end-date": 2030,
+    "adoption-date": "2015-01-29",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://planningpolicy.cheshirewestandchester.gov.uk/sites/planningpolicy-cheshirewestandchester/files/2025-11/Local%20Plan%20%28Part%20One%29%20Strategic%20Policies.pdf",
+        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2015-2030",
+        "reference": "LP-CHW-2015",
+        "document-status": "adopted",
+        "endpoint": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHW",
+    "organisation-name": "Cheshire West and Chester Council",
     "reference": "LP-CHW-2025",
     "documentation-url": "https://www.cheshirewestandchester.gov.uk/localplan",
     "document-url": "",
@@ -98,31 +123,6 @@
         "reference": "LPR-PT1-2025",
         "document-status": "adopted",
         "endpoint": "b2dbc621cf0cc4154da2507594bfd21403dd62ab765ecbb10186f9100ffc76c5"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:CHW",
-    "organisation-name": "Cheshire West and Chester Council",
-    "reference": "LP-CHW-2015",
-    "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
-    "document-url": "https://planningpolicy.cheshirewestandchester.gov.uk/sites/planningpolicy-cheshirewestandchester/files/2025-11/Local%20Plan%20%28Part%20One%29%20Strategic%20Policies.pdf",
-    "name": "Local Plan 2015-2030",
-    "status": "adopted",
-    "year": 2015,
-    "period-start-date": 2010,
-    "period-end-date": 2030,
-    "adoption-date": "2015-01-29",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://planningpolicy.cheshirewestandchester.gov.uk/sites/planningpolicy-cheshirewestandchester/files/2025-11/Local%20Plan%20%28Part%20One%29%20Strategic%20Policies.pdf",
-        "documentation-url": "https://www.cheshirewestandchester.gov.uk/your-council/policies-and-performance/council-plans-policies-and-strategies/planning-policy/local-plan/local-plan-part-one",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2015-2030",
-        "reference": "LP-CHW-2015",
-        "document-status": "adopted",
-        "endpoint": "a17a517722fe0b9f40d7611b19b244cfd62ba5047bf0b2b4b4548faed2b4378d"
       }
     ]
   }

@@ -14,7 +14,7 @@
       "annual-required-housing": "",
       "pages": "134-136, 344-351",
       "notes": "This is a National Park with special statutory purposes focusing on conservation. The plan follows a needs-led rural exceptions approach prioritizing affordable housing for local communities only. No specific housing targets or allocations are set - housing is only permitted where local need is demonstrated. The approach is explicitly not to provide general housing targets as National Parks are not suitable locations for unrestricted housing development.",
-      "organisation": ""
+      "organisation": "national-park-authority:Q72617784"
     }
   ],
   "confidence": "medium",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/e82d00fe1a88e64a2d348d87c684ed6fa28c0bb851dc979d06bd47365b96a22a.pdf",
   "pages_analysed": 0,
   "organisation": "national-park-authority:Q72617784",
-  "adoption-date": "2017-07-04"
+  "adoption-date": "2017-07-04",
+  "local-planning-authorities": [
+    "E60000319"
+  ]
 }

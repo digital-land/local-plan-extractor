@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:WAE",
     "organisation-name": "Waverley Borough Council",
+    "reference": "LP-WAE-2018",
+    "documentation-url": "https://www.waverley.gov.uk/services/planning-and-building/planning-strategies-and-policies/local-plan/existing-local-plan/local-plan-part-one",
+    "document-url": "https://www.waverley.gov.uk/portals/0/documents/services/planning-and-building/planning-strategies-and-policies/local-plan/lpp1_july_2019_web.pdf",
+    "name": "Waverley Borough Local Plan Part 1: Strategic Policies and Sites",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2013,
+    "period-end-date": 2032,
+    "adoption-date": "2018-02-20",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.waverley.gov.uk/portals/0/documents/services/planning-and-building/planning-strategies-and-policies/local-plan/lpp1_july_2019_web.pdf",
+        "documentation-url": "https://www.waverley.gov.uk/services/planning-and-building/planning-strategies-and-policies/local-plan/existing-local-plan/local-plan-part-one",
+        "document-type": "local-plan",
+        "name": "Waverley Borough Local Plan Part 1: Strategic Policies and Sites",
+        "reference": "LP-2018",
+        "document-status": "adopted",
+        "endpoint": "fbebd9304e71bfe62e4fe5bc4026bbbe893189e107830cf4066e876a664e6c0e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WAE",
+    "organisation-name": "Waverley Borough Council",
     "reference": "LP-WAE-2025",
     "documentation-url": "https://www.waverley.gov.uk/newlocalplan",
     "document-url": "",
@@ -66,31 +91,6 @@
         "reference": "TN-2024",
         "document-status": "draft",
         "endpoint": "d8ee41d9b7b39236bff004edfa2d7f906918e7e609360ddbba8c0b17fdae264d"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WAE",
-    "organisation-name": "Waverley Borough Council",
-    "reference": "LP-WAE-2018",
-    "documentation-url": "https://www.waverley.gov.uk/services/planning-and-building/planning-strategies-and-policies/local-plan/existing-local-plan/local-plan-part-one",
-    "document-url": "https://www.waverley.gov.uk/portals/0/documents/services/planning-and-building/planning-strategies-and-policies/local-plan/lpp1_july_2019_web.pdf",
-    "name": "Waverley Borough Local Plan Part 1: Strategic Policies and Sites",
-    "status": "adopted",
-    "year": 2018,
-    "period-start-date": 2013,
-    "period-end-date": 2032,
-    "adoption-date": "2018-02-20",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.waverley.gov.uk/portals/0/documents/services/planning-and-building/planning-strategies-and-policies/local-plan/lpp1_july_2019_web.pdf",
-        "documentation-url": "https://www.waverley.gov.uk/services/planning-and-building/planning-strategies-and-policies/local-plan/existing-local-plan/local-plan-part-one",
-        "document-type": "local-plan",
-        "name": "Waverley Borough Local Plan Part 1: Strategic Policies and Sites",
-        "reference": "LP-2018",
-        "document-status": "adopted",
-        "endpoint": "fbebd9304e71bfe62e4fe5bc4026bbbe893189e107830cf4066e876a664e6c0e"
       }
     ]
   },

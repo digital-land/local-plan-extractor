@@ -14,13 +14,17 @@
       "annual-required-housing": 775,
       "pages": "58, 64",
       "notes": "Joint plan covering both authorities. Total supply identified is 14,855 homes against requirement of 15,500, leaving shortfall of 645 homes. Committed housing includes extant planning permissions. Broad locations housing refers to submitted/large identified sites within settlements.",
-      "organisation": "joint-planning-authority:WDO-WEY"
+      "organisation": "local-planning-group:WDO-WEY"
     }
   ],
   "confidence": "medium",
   "authority": "3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5",
   "pdf_file": "collection/document/3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5.pdf",
   "pages_analysed": 0,
-  "organisation": "joint-planning-authority:WDO-WEY",
-  "adoption-date": null
+  "organisation": "local-planning-group:WDO-WEY",
+  "adoption-date": null,
+  "local-planning-authorities": [
+    "E07000052",
+    "E07000053"
+  ]
 }

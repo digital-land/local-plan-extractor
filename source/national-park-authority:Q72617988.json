@@ -3,21 +3,6 @@
     "organisation": "national-park-authority:Q72617988",
     "organisation-name": "Peak District National Park Authority",
     "reference": "LP-Q72617988-2011",
-    "documentation-url": "https://www.peakdistrict.gov.uk/planning/planning-policies",
-    "document-url": "",
-    "name": "Peak District National Park Local Plan",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "national-park-authority:Q72617988",
-    "organisation-name": "Peak District National Park Authority",
-    "reference": "LP-Q72617988-2011",
     "documentation-url": "https://www.peakdistrict.gov.uk/planning/policies-and-guides/core-strategy",
     "document-url": "https://www.peakdistrict.gov.uk/__data/assets/pdf_file/0032/67748/LDF-CoreStrategyFinal.pdf ",
     "name": "Local Development Framework Core Strategy 2011",
@@ -38,5 +23,20 @@
         "endpoint": "f40ffa1d40cefa6b4e5b7b5293807c0c35952a336be7222ed653c579bdcf460c"
       }
     ]
+  },
+  {
+    "organisation": "national-park-authority:Q72617988",
+    "organisation-name": "Peak District National Park Authority",
+    "reference": "LP-Q72617988-2011",
+    "documentation-url": "https://www.peakdistrict.gov.uk/planning/planning-policies",
+    "document-url": "",
+    "name": "Peak District National Park Local Plan",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
   }
 ]

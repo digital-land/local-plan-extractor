@@ -14,7 +14,7 @@
       "annual-required-housing": 839,
       "pages": "25, 30-35, 322",
       "notes": "Total need is 18,458 homes (839 per year). Allocated housing includes major strategic sites like Gilston Area (3,050), Bishop's Stortford allocations, and other town extensions. Windfall allowance is 75 dwellings per annum over plan period. Commitments as at 31/08/17.",
-      "organisation": ""
+      "organisation": "local-authority:EHA"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/efb7709ce16902b790f4143c0721db08c422b01c1499f5bf4475e1767a3d1fc7.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:EHA",
-  "adoption-date": "2018-10-23"
+  "adoption-date": "2018-10-23",
+  "local-planning-authorities": [
+    "E60000243"
+  ]
 }

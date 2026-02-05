@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:COT",
     "organisation-name": "Cotswold District Council",
+    "reference": "LP-COT-2011",
+    "documentation-url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/cotswold-district-council-local-plan/",
+    "document-url": "https://www.cotswold.gov.uk/media/k2kjvq3b/cotswold-district-local-plan-2011-2031-adopted-3-august-2018-web-version.pdf",
+    "name": "Local Plan 2011-2031",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2031,
+    "adoption-date": "2018-08-01",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.cotswold.gov.uk/media/k2kjvq3b/cotswold-district-local-plan-2011-2031-adopted-3-august-2018-web-version.pdf",
+        "documentation-url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/cotswold-district-council-local-plan/",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2011-2031",
+        "reference": "LP-COT-2011",
+        "document-status": "adopted",
+        "endpoint": "43838c3b6e9a9819b8d8c6b34ff8fa64db9a8135509634c8156acf3fd872c691"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:COT",
+    "organisation-name": "Cotswold District Council",
     "reference": "LP-COT-2024",
     "documentation-url": "https://www.cotswold.gov.uk/localplan",
     "document-url": "https://www.cotswold.gov.uk/media/gdspmaj4/c2-1-2-draft-policies-with-tracked-changes.pdf",
@@ -190,31 +215,6 @@
         "reference": "SFRA-2022",
         "document-status": "draft",
         "endpoint": "7bb08fcf3bb74c8ee33036891a51011a6f5b3a5658ca7bab67bf5aee25fbb23a"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:COT",
-    "organisation-name": "Cotswold District Council",
-    "reference": "LP-COT-2011",
-    "documentation-url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/cotswold-district-council-local-plan/",
-    "document-url": "https://www.cotswold.gov.uk/media/k2kjvq3b/cotswold-district-local-plan-2011-2031-adopted-3-august-2018-web-version.pdf",
-    "name": "Local Plan 2011-2031",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2031,
-    "adoption-date": "2018-08-01",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.cotswold.gov.uk/media/k2kjvq3b/cotswold-district-local-plan-2011-2031-adopted-3-august-2018-web-version.pdf",
-        "documentation-url": "https://www.cotswold.gov.uk/planning-and-building/planning-policy/cotswold-district-council-local-plan/",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2011-2031",
-        "reference": "LP-COT-2011",
-        "document-status": "adopted",
-        "endpoint": "43838c3b6e9a9819b8d8c6b34ff8fa64db9a8135509634c8156acf3fd872c691"
       }
     ]
   }

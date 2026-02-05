@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:CRW",
     "organisation-name": "Crawley Borough Council",
-    "reference": "LP-CRW-2024",
-    "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan",
-    "document-url": "",
-    "name": "Crawley Borough Council Local Plan",
-    "status": "adopted",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.crawley.gov.uk/planning",
-        "document-type": "local-plan",
-        "name": "Local Plan",
-        "reference": "LP-2024",
-        "document-status": "adopted",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:CRW",
-    "organisation-name": "Crawley Borough Council",
     "reference": "LP-CRW-2023",
     "documentation-url": "https://crawley.gov.uk/planning/planning-policy/local-plan/about-local-plan",
     "document-url": "https://crawley.gov.uk/sites/default/files/2024-11/Crawley%20borough%20Local%20Plan%202023%20to%202040.pdf",
@@ -46,6 +21,31 @@
         "reference": "LP-CRW-2023",
         "document-status": "adopted",
         "endpoint": "3e48f016cea2df5bafb20885c2c9d224f185bcd9ae51862502f16b3a029a5d90"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CRW",
+    "organisation-name": "Crawley Borough Council",
+    "reference": "LP-CRW-2024",
+    "documentation-url": "https://www.crawley.gov.uk/planning/planning-policy/local-plan",
+    "document-url": "",
+    "name": "Crawley Borough Council Local Plan",
+    "status": "adopted",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "",
+        "documentation-url": "https://www.crawley.gov.uk/planning",
+        "document-type": "local-plan",
+        "name": "Local Plan",
+        "reference": "LP-2024",
+        "document-status": "adopted",
+        "endpoint": ""
       }
     ]
   }

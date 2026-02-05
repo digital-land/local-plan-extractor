@@ -14,13 +14,19 @@
       "annual-required-housing": 216,
       "pages": "49, 52, 141-142",
       "notes": "PRequirement for Lewes based on the total requirement of 6,900 homes for Lewes and South Downs, set out in Spatial Policy 1, minus the part of the requirement to be met in South Downs; defined by Mr Justice Lay as 1,177 homes in Wealden District Council v Secretary of State for Communities and Local Government, Lewes District Council and South Downs National Park Authority [2017] EWHC 35 1, which quashed the part of Spatial Policy 1 relating to South Downs National Park. Strategic allocations total 1,728 units. Windfall allowance is 600 units over plan period. Rural exception sites allowance is 125 units (additional to windfall).",
-      "organisation": ""
+      "organisation": "local-authority:LEE"
     }
   ],
   "confidence": "high",
   "authority": "8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d",
   "pdf_file": "collection/document/8a0438efd98516f85af4b70242b72f2100232587a8cf84b378afa1d9410b501d.pdf",
   "pages_analysed": 32,
-  "organisations": ["local-authority:LEE"],
+  "organisation": "local-authority:LEE",
+  "organisations": [
+    "local-authority:LEE"
+  ],
+  "local-planning-authorities": [
+    "E60000239"
+  ],
   "adoption-date": "2016-05-11"
 }

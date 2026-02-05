@@ -2,31 +2,6 @@
   {
     "organisation": "local-authority:WOK",
     "organisation-name": "Wokingham Borough Council",
-    "reference": "LP-WOK-2024",
-    "documentation-url": "https://www.wokingham.gov.uk/planning-policy/emerging-local-plan-update",
-    "document-url": "",
-    "name": "Wokingham Borough Local Plan Update 2023-2040",
-    "status": "examination",
-    "year": 2025,
-    "period-start-date": 2023,
-    "period-end-date": 2040,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.wokingham.gov.uk/sites/wokingham/files/2024-09/WBC%20Local%20Development%20Scheme%202024%20Final.pdf",
-        "documentation-url": "https://www.wokingham.gov.uk/planning-policy/emerging-local-plan-update",
-        "document-type": "local-development-scheme",
-        "name": "Local Development Scheme",
-        "reference": "LDS-2024",
-        "document-status": "adopted",
-        "endpoint": "d9e683f1bf105d3b1614a9d3cdb59736b68018eb727d16c98c8c9a726cbf4de6"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:WOK",
-    "organisation-name": "Wokingham Borough Council",
     "reference": "LP-WOK-2006",
     "documentation-url": "https://www.wokingham.gov.uk/planning-policy/adopted-development-plan/local-plans",
     "document-url": "https://www.wokingham.gov.uk/sites/wokingham/files/2023-06/Final%20adopted%20Core%20Strategy%20inc.%20cover.pdf",
@@ -46,6 +21,31 @@
         "reference": "LP-WOK-2006",
         "document-status": "adopted",
         "endpoint": "7966c91a6b27737cf1cd8860b124880ca23777971820fa3615a9e851d64756c1"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:WOK",
+    "organisation-name": "Wokingham Borough Council",
+    "reference": "LP-WOK-2024",
+    "documentation-url": "https://www.wokingham.gov.uk/planning-policy/emerging-local-plan-update",
+    "document-url": "",
+    "name": "Wokingham Borough Local Plan Update 2023-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.wokingham.gov.uk/sites/wokingham/files/2024-09/WBC%20Local%20Development%20Scheme%202024%20Final.pdf",
+        "documentation-url": "https://www.wokingham.gov.uk/planning-policy/emerging-local-plan-update",
+        "document-type": "local-development-scheme",
+        "name": "Local Development Scheme",
+        "reference": "LDS-2024",
+        "document-status": "adopted",
+        "endpoint": "d9e683f1bf105d3b1614a9d3cdb59736b68018eb727d16c98c8c9a726cbf4de6"
       }
     ]
   }

@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:EPS",
     "organisation-name": "Epsom and Ewell Borough Council",
+    "reference": "LP-EPS-2007",
+    "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan",
+    "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/Core%20Strategy%202007.pdf",
+    "name": "Local Plan 2007-2022",
+    "status": "adopted",
+    "year": 2007,
+    "period-start-date": 2007,
+    "period-end-date": 2022,
+    "adoption-date": "2007-07-24",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/Core%20Strategy%202007.pdf",
+        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2007-2022",
+        "reference": "LP-EPS-2007",
+        "document-status": "adopted",
+        "endpoint": "513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EPS",
+    "organisation-name": "Epsom and Ewell Borough Council",
     "reference": "LP-EPS-2025",
     "documentation-url": "https://www.epsom-ewell.gov.uk/local-plan",
     "document-url": "",
@@ -147,31 +172,6 @@
         "reference": "TP-SPATIAL-2025",
         "document-status": "examination",
         "endpoint": "065f1cc2e5efe345a47b83183c2238f42e3c492b7a64a38a5df12afd69951b8b"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:EPS",
-    "organisation-name": "Epsom and Ewell Borough Council",
-    "reference": "LP-EPS-2007",
-    "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan",
-    "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/Core%20Strategy%202007.pdf",
-    "name": "Local Plan 2007-2022",
-    "status": "adopted",
-    "year": 2007,
-    "period-start-date": 2007,
-    "period-end-date": 2022,
-    "adoption-date": "2007-07-24",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.epsom-ewell.gov.uk/sites/default/files/documents/residents/planning/planning-policy/Core%20Strategy%202007.pdf",
-        "documentation-url": "https://www.epsom-ewell.gov.uk/residents/planning/planning-policy/epsom-and-ewell-local-plan",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2007-2022",
-        "reference": "LP-EPS-2007",
-        "document-status": "adopted",
-        "endpoint": "513928d81b9bca4a21932a296fda7d717485c5be9caab7be47fe57fc3297cec8"
       }
     ]
   }

@@ -3,16 +3,25 @@
     "organisation": "local-authority:MRT",
     "organisation-name": "London Borough of Merton",
     "reference": "LP-MRT-2024",
-    "documentation-url": "https://www.merton.gov.uk/newlocalplan",
-    "document-url": "",
-    "name": "Merton Local Plan",
+    "documentation-url": "https://www.merton.gov.uk/planning-and-buildings/planning/local-plan/newlocalplan",
+    "document-url": "https://www.merton.gov.uk/system/files/merton_local_plan_-_adopted_20_november_2024_compressed.pdf",
+    "name": "Local Plan 2024-2038",
     "status": "adopted",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "period-start-date": 2024,
+    "period-end-date": 2038,
+    "adoption-date": "2024-11-20",
     "withdrawn-date": null,
     "documents": [
+      {
+        "document-url": "https://www.merton.gov.uk/system/files/merton_local_plan_-_adopted_20_november_2024_compressed.pdf",
+        "documentation-url": "https://www.merton.gov.uk/planning-and-buildings/planning/local-plan/newlocalplan",
+        "document-type": "local-plan",
+        "name": "Adopted Local Plan 2024-2038",
+        "reference": "LP-MRT-2024",
+        "document-status": "adopted",
+        "endpoint": "fa3811596093f9006479dbfa8d8728a8130c42bc18b34864d3d894eb498a47dc"
+      },
       {
         "document-url": "https://www.merton.gov.uk/assets/Documents/Local%20Development%20Scheme%20%202019%20.%202022.pdf",
         "documentation-url": "https://www.merton.gov.uk/local-plan",
@@ -183,31 +192,6 @@
         "reference": "WLP-2012-2022",
         "document-status": "adopted",
         "endpoint": "e34b036591efa920fc885fb33859f08ddfd84b93145999d1d881c1dd3ae4a392"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:MRT",
-    "organisation-name": "London Borough of Merton",
-    "reference": "LP-MRT-2024",
-    "documentation-url": "https://www.merton.gov.uk/planning-and-buildings/planning/local-plan/newlocalplan",
-    "document-url": "https://www.merton.gov.uk/system/files/merton_local_plan_-_adopted_20_november_2024_compressed.pdf",
-    "name": "Local Plan 2024-2038",
-    "status": "adopted",
-    "year": 2024,
-    "period-start-date": 2024,
-    "period-end-date": 2038,
-    "adoption-date": "2024-11-20",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.merton.gov.uk/system/files/merton_local_plan_-_adopted_20_november_2024_compressed.pdf",
-        "documentation-url": "https://www.merton.gov.uk/planning-and-buildings/planning/local-plan/newlocalplan",
-        "document-type": "local-plan",
-        "name": "Adopted Local Plan 2024-2038",
-        "reference": "LP-MRT-2024",
-        "document-status": "adopted",
-        "endpoint": "fa3811596093f9006479dbfa8d8728a8130c42bc18b34864d3d894eb498a47dc"
       }
     ]
   }

@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/31927b6918fcacfc4550a43f7820b9ddb4a63f78eb52d31ed4d837844d8f78d1.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:SHE",
-  "adoption-date": "2022-03-30"
+  "adoption-date": "2022-03-30",
+  "local-planning-authorities": [
+    "E60000257"
+  ]
 }

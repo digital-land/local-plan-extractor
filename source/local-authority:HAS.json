@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:HAS",
     "organisation-name": "Hastings Borough Council",
+    "reference": "LP-HAS-2011",
+    "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
+    "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
+    "name": "Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2014-02-19",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
+        "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
+        "document-type": "local-plan",
+        "name": "Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
+        "reference": "LP-HAS-2011",
+        "document-status": "adopted",
+        "endpoint": "a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HAS",
+    "organisation-name": "Hastings Borough Council",
     "reference": "LP-HAS-2025",
     "documentation-url": "https://www.hastings.gov.uk/planning/policy/new-local-plan/",
     "document-url": "",
@@ -82,31 +107,6 @@
         "reference": "CAA-DRAFT",
         "document-status": "draft",
         "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:HAS",
-    "organisation-name": "Hastings Borough Council",
-    "reference": "LP-HAS-2011",
-    "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
-    "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
-    "name": "Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2028,
-    "adoption-date": "2014-02-19",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.hastings.gov.uk/content/strategy/planning_strat_2013_18_Feb_lo_res_(2).pdf",
-        "documentation-url": "https://www.hastings.gov.uk/planning/policy/adoptedlocalplan/strategy/",
-        "document-type": "local-plan",
-        "name": "Hastings Local Plan: The Hastings Planning Strategy 2011-2028",
-        "reference": "LP-HAS-2011",
-        "document-status": "adopted",
-        "endpoint": "a9171ece791482f123ab53502cfa6e5a0f2495d401d04ca6de924a41e1beacbd"
       }
     ]
   }

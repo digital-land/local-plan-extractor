@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SGC",
     "organisation-name": "South Gloucestershire Council",
+    "reference": "LP-SGC-2006",
+    "documentation-url": "https://beta.southglos.gov.uk/core-strategy-2006-2027/",
+    "document-url": "https://beta.southglos.gov.uk/static/2d94cc7df5f44948d9203e439cec8cd7/South-Gloucestershire-Core-Strategy-2006-2027.pdf",
+    "name": "Core Strategy 2006-2027",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2027,
+    "adoption-date": "2013-12-11",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://beta.southglos.gov.uk/static/2d94cc7df5f44948d9203e439cec8cd7/South-Gloucestershire-Core-Strategy-2006-2027.pdf",
+        "documentation-url": "https://beta.southglos.gov.uk/core-strategy-2006-2027/",
+        "document-type": "local-plan",
+        "name": "Core Strategy 2006-2027",
+        "reference": "LP-SGC-2006",
+        "document-status": "adopted",
+        "endpoint": "aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SGC",
+    "organisation-name": "South Gloucestershire Council",
     "reference": "LP-SGC-2025",
     "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
     "document-url": "https://beta.southglos.gov.uk/static/ceed9365341546cfcbadc6849ff0e770/New_Local_Plan_Phase_3_towards_a_preferred_strategy_FULL_web.pdf",
@@ -17,7 +42,7 @@
         "document-url": "https://beta.southglos.gov.uk/static/ceed9365341546cfcbadc6849ff0e770/New_Local_Plan_Phase_3_towards_a_preferred_strategy_FULL_web.pdf",
         "documentation-url": "https://beta.southglos.gov.uk/publications/local-plan-phase-3-towards-a-preferred-strategy/",
         "document-type": "local-plan",
-        "name": "New Local Plan – Phase 3",
+        "name": "New Local Plan \u2013 Phase 3",
         "reference": "LP-PHASE3-2024",
         "document-status": "consultation",
         "endpoint": "52f3e484b8f5cb780413476ee3881ecbfa3ef8bdac6b436322f7a986978e90e7"
@@ -26,7 +51,7 @@
         "document-url": "https://beta.southglos.gov.uk/static/db8c0fa3b313ab4061ec1f988fd31b63/Easy_Read_Local_Plan_phase_3_towards_a_preferred_strategy_consultation.pdf",
         "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
         "document-type": "local-plan",
-        "name": "Easy Read New Local Plan – Phase 3",
+        "name": "Easy Read New Local Plan \u2013 Phase 3",
         "reference": "LP-PHASE3-EASY-2024",
         "document-status": "consultation",
         "endpoint": "571d88837d46e3cb8795b3ed6999bf83f1f52d8b5f5fdc639bec324ed7c04b42"
@@ -53,7 +78,7 @@
         "document-url": "https://www.southglos.gov.uk/static/4df867f528ef81d1cd24865d7d71debe/Commenting_on_the_Local_Plan.pdf",
         "documentation-url": "https://www.southglos.gov.uk/newlocalplan",
         "document-type": "local-plan",
-        "name": "Commenting on the Local Plan – Frequently asked questions",
+        "name": "Commenting on the Local Plan \u2013 Frequently asked questions",
         "reference": "LP-FAQ-2025",
         "document-status": "consultation",
         "endpoint": "835f3dc6304311b1eba4118958f0c2b76e8a19b5848cab2f50cc6b5069f43bfb"
@@ -136,31 +161,6 @@
         "reference": "SPD-HMO-EDITS-2025",
         "document-status": "consultation",
         "endpoint": "7e98ec8040676bb39e50f4fad049e49d8626a190e5fd7fc8765770db9846fe4c"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SGC",
-    "organisation-name": "South Gloucestershire Council",
-    "reference": "LP-SGC-2006",
-    "documentation-url": "https://beta.southglos.gov.uk/core-strategy-2006-2027/",
-    "document-url": "https://beta.southglos.gov.uk/static/2d94cc7df5f44948d9203e439cec8cd7/South-Gloucestershire-Core-Strategy-2006-2027.pdf",
-    "name": "Core Strategy 2006-2027",
-    "status": "adopted",
-    "year": 2006,
-    "period-start-date": 2006,
-    "period-end-date": 2027,
-    "adoption-date": "2013-12-11",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://beta.southglos.gov.uk/static/2d94cc7df5f44948d9203e439cec8cd7/South-Gloucestershire-Core-Strategy-2006-2027.pdf",
-        "documentation-url": "https://beta.southglos.gov.uk/core-strategy-2006-2027/",
-        "document-type": "local-plan",
-        "name": "Core Strategy 2006-2027",
-        "reference": "LP-SGC-2006",
-        "document-status": "adopted",
-        "endpoint": "aa19ba3f02904b4584c091d5520a62ca126e2688dbdd668aa9dab336e4d825df"
       }
     ]
   }

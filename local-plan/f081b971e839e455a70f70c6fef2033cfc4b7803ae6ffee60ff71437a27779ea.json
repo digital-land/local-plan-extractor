@@ -14,7 +14,7 @@
       "annual-required-housing": 985,
       "pages": "56-57, 181-185",
       "notes": "Plan states target to exceed 20,685 homes over plan period. London Plan sets annual target of 985 homes per year. Housing trajectory shows mix of deliverable sites (years 1-5) and developable sites (years 6-15). Windfall allowance of 2,500 homes each for years 6-10 and 11-15 totaling 5,000. Historically 80%+ of delivery has been windfall. Document mentions Site Allocations DPD will provide detailed site capacities.",
-      "organisation": ""
+      "organisation": "local-authority:WSM"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/f081b971e839e455a70f70c6fef2033cfc4b7803ae6ffee60ff71437a27779ea.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:WSM",
-  "adoption-date": "2021-04-21"
+  "adoption-date": "2021-04-21",
+  "local-planning-authorities": [
+    "E60000201"
+  ]
 }

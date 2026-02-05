@@ -3,31 +3,6 @@
     "organisation": "local-authority:PEN",
     "organisation-name": "Pendle Borough Council",
     "reference": "LP-PEN-2025",
-    "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
-    "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
-    "name": "Draft Pavement Licensing Policy 2025 - 2030",
-    "status": "draft",
-    "year": 2025,
-    "period-start-date": 2025,
-    "period-end-date": 2030,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
-        "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
-        "document-type": "local-plan",
-        "name": "Draft Pavement Licensing Policy 2025 - 2030",
-        "reference": "LP-2025-2030",
-        "document-status": "draft",
-        "endpoint": "84efdc92becadae247ef238a34b3ec40524d000851d8b0af3a02f1a696891881"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:PEN",
-    "organisation-name": "Pendle Borough Council",
-    "reference": "LP-PEN-2025",
     "documentation-url": "https://www.pendle.gov.uk/info/20072/planning_policies/600/local_plan_fourth_edition",
     "document-url": "https://www.pendle.gov.uk/download/downloads/id/12624/local_plan_adoption_version_-_final.pdf",
     "name": "Pendle Local Plan 4th Edition (2021-2040)",
@@ -71,6 +46,31 @@
         "reference": "LP-PEN-2011",
         "document-status": "adopted",
         "endpoint": "6a59fc39e4f92cffdd8851d0b94d527b08b785dd4091f58002d5a27a8c6f326e"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:PEN",
+    "organisation-name": "Pendle Borough Council",
+    "reference": "LP-PEN-2025",
+    "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
+    "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
+    "name": "Draft Pavement Licensing Policy 2025 - 2030",
+    "status": "draft",
+    "year": 2025,
+    "period-start-date": 2025,
+    "period-end-date": 2030,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.pendle.gov.uk/downloads/file/12516/draft_pavement_licensing_policy_2025_-_2030",
+        "documentation-url": "https://www.pendle.gov.uk/info/20008/planning_and_development",
+        "document-type": "local-plan",
+        "name": "Draft Pavement Licensing Policy 2025 - 2030",
+        "reference": "LP-2025-2030",
+        "document-status": "draft",
+        "endpoint": "84efdc92becadae247ef238a34b3ec40524d000851d8b0af3a02f1a696891881"
       }
     ]
   }

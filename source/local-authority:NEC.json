@@ -2,21 +2,6 @@
   {
     "organisation": "local-authority:NEC",
     "organisation-name": "Newcastle-under-Lyme Borough Council",
-    "reference": "LP-NEC-2025",
-    "documentation-url": "https://www.newcastle-staffs.gov.uk/localplan",
-    "document-url": "",
-    "name": "Newcastle-under-Lyme Local Plan 2020-2040",
-    "status": "examination",
-    "year": 2025,
-    "period-start-date": 2020,
-    "period-end-date": 2040,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:NEC",
-    "organisation-name": "Newcastle-under-Lyme Borough Council",
     "reference": "LP-NEC-STE-2007",
     "documentation-url": "https://www.stoke.gov.uk/directory_record/331603/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026/category/307/local_development_framework",
     "document-url": "https://www.stoke.gov.uk/download/downloads/id/441/sot_and_nul_local_development_framework_core_spatial_strategy_2006_to_2026.pdf",
@@ -38,21 +23,6 @@
         "endpoint": "ee7fdf71ba8794aa3c85590e22c7265770613688c70bf963fe08d7fccdf34746"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:NEC",
-    "organisation-name": "Newcastle-under-Lyme Borough Council",
-    "reference": "LP-NEC-2011",
-    "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/current-development-plan",
-    "document-url": "",
-    "name": "Newcastle-under-Lyme Local Plan 2011 (Saved Policies)",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
   },
   {
     "organisation": "local-authority:STA",
@@ -114,5 +84,35 @@
         "endpoint": "3f418841aa3eab1f5ca7f0406380159bfc90f3d9cb33235124b0b9cc386f7844"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:NEC",
+    "organisation-name": "Newcastle-under-Lyme Borough Council",
+    "reference": "LP-NEC-2025",
+    "documentation-url": "https://www.newcastle-staffs.gov.uk/localplan",
+    "document-url": "",
+    "name": "Newcastle-under-Lyme Local Plan 2020-2040",
+    "status": "examination",
+    "year": 2025,
+    "period-start-date": 2020,
+    "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
+  },
+  {
+    "organisation": "local-authority:NEC",
+    "organisation-name": "Newcastle-under-Lyme Borough Council",
+    "reference": "LP-NEC-2011",
+    "documentation-url": "https://www.newcastle-staffs.gov.uk/planning-policy/current-development-plan",
+    "document-url": "",
+    "name": "Newcastle-under-Lyme Local Plan 2011 (Saved Policies)",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
   }
 ]

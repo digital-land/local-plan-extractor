@@ -14,7 +14,7 @@
       "annual-required-housing": 40,
       "pages": "64, 68",
       "notes": "Total 800 dwellings comprises: 63 completions 2016-2019, 114 extant permissions as at March 2019, ~300 from 5 site allocations, and 400 windfall at average 20 per annum. Plan explicitly states it cannot meet full objectively assessed need of 1,260 due to National Park constraints.",
-      "organisation": ""
+      "organisation": "national-park-authority:Q72617158"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/54dea981f31fa307e171d4b514c9e9e84a822f2e6177665976cd44c130c4d05b.pdf",
   "pages_analysed": 32,
   "organisation": "national-park-authority:Q72617158",
-  "adoption-date": "2019-08-29"
+  "adoption-date": "2019-08-29",
+  "local-planning-authorities": [
+    "E60000321"
+  ]
 }

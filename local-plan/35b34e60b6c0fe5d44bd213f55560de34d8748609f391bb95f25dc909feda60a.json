@@ -14,7 +14,7 @@
       "annual-required-housing": 8,
       "pages": "31-32",
       "notes": "Plan will not allocate housing sites due to very small requirement and reliance on windfalls. Housing to be met through combination of small windfall sites, affordable housing, building conversions, custom/self-build, and dwellings in gateway settlements. Approximately 40 of the 160 units should be affordable housing.",
-      "organisation": ""
+      "organisation": "national-park-authority:Q72617890"
     }
   ],
   "confidence": "medium",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/35b34e60b6c0fe5d44bd213f55560de34d8748609f391bb95f25dc909feda60a.pdf",
   "pages_analysed": 0,
   "organisation": "national-park-authority:Q72617890",
-  "adoption-date": "2020-07-15"
+  "adoption-date": "2020-07-15",
+  "local-planning-authorities": [
+    "E60000323"
+  ]
 }

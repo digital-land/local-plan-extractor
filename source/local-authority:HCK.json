@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:HCK",
     "organisation-name": "London Borough of Hackney",
+    "reference": "LP-HCK-2018",
+    "documentation-url": "https://hackney.gov.uk/lp33",
+    "document-url": "https://drive.google.com/file/d/1HRu0A_fdoWUi3OBfzUT03TT4S9gYwHDq/view",
+    "name": "Hackney Local Plan 2033",
+    "status": "adopted",
+    "year": 2018,
+    "period-start-date": 2018,
+    "period-end-date": 2033,
+    "adoption-date": "2020-07-22",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://drive.google.com/file/d/1HRu0A_fdoWUi3OBfzUT03TT4S9gYwHDq/view",
+        "documentation-url": "https://hackney.gov.uk/lp33",
+        "document-type": "local-plan",
+        "name": "Hackney Local Plan 2033",
+        "reference": "LP-HCK-2018",
+        "document-status": "adopted",
+        "endpoint": "8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:HCK",
+    "organisation-name": "London Borough of Hackney",
     "reference": "LP-HCK-2020",
     "documentation-url": "https://hackney.gov.uk/lp33",
     "document-url": "",
@@ -114,30 +139,5 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": []
-  },
-  {
-    "organisation": "local-authority:HCK",
-    "organisation-name": "London Borough of Hackney",
-    "reference": "LP-HCK-2018",
-    "documentation-url": "https://hackney.gov.uk/lp33",
-    "document-url": "https://drive.google.com/file/d/1HRu0A_fdoWUi3OBfzUT03TT4S9gYwHDq/view",
-    "name": "Hackney Local Plan 2033",
-    "status": "adopted",
-    "year": 2018,
-    "period-start-date": 2018,
-    "period-end-date": 2033,
-    "adoption-date": "2020-07-22",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://drive.google.com/file/d/1HRu0A_fdoWUi3OBfzUT03TT4S9gYwHDq/view",
-        "documentation-url": "https://hackney.gov.uk/lp33",
-        "document-type": "local-plan",
-        "name": "Hackney Local Plan 2033",
-        "reference": "LP-HCK-2018",
-        "document-status": "adopted",
-        "endpoint": "8cbc8bd93de0e9cd91984436a548f161bdb607883405d2dc255fa6b0ced6a164"
-      }
-    ]
   }
 ]

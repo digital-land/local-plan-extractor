@@ -14,7 +14,7 @@
       "annual-required-housing": 710,
       "pages": "12, 44, 129",
       "notes": "Plan requires minimum 14,200 homes 2013-2033. Stepped housing target: 500 pa (2013-2018), 710 pa (2018-2023), 815 pa (2023-2033). Allocated housing includes town centre sites (4,380) plus urban allocations outside town centre (2,165). Committed housing includes completions (1,687) plus commitments (1,593).",
-      "organisation": ""
+      "organisation": "local-authority:POL"
     }
   ],
   "confidence": "medium",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/ca0f62d61aeff6184e190d0ade3d62a21917f5aea191792729c14a2bfa04442a.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:POL",
-  "adoption-date": "2018-11-13"
+  "adoption-date": "2018-11-13",
+  "local-planning-authorities": [
+    "E60000289"
+  ]
 }

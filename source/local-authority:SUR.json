@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SUR",
     "organisation-name": "Surrey Heath Borough Council",
+    "reference": "LP-SUR-2011",
+    "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
+    "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
+    "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
+    "status": "adopted",
+    "year": 2011,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2012-02-01",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
+        "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
+        "document-type": "local-plan",
+        "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
+        "reference": "LP-SUR-2011",
+        "document-status": "adopted",
+        "endpoint": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SUR",
+    "organisation-name": "Surrey Heath Borough Council",
     "reference": "LP-SUR-2025",
     "documentation-url": "https://www.surreyheath.gov.uk/newlocalplan",
     "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2024-12/Submission%20Statement%20of%20Fact%2C%20December%202024.pdf",
@@ -134,7 +159,7 @@
         "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_9e1fbafe9efe4ae99ea39cead43eee2b.pdf",
         "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
         "document-type": "local-plan",
-        "name": "Surrey Viability Toolkit – Net Zero Carbon Development Report",
+        "name": "Surrey Viability Toolkit \u2013 Net Zero Carbon Development Report",
         "reference": "VT-NZCD-2025",
         "document-status": "examination",
         "endpoint": "2d0d66ea24406c37d4e9cc15f9a6ee48963ebbe8ff731d40d625cfe7f278ca3a"
@@ -143,7 +168,7 @@
         "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_b4a2f8cbdf7b4a24a44781a118025403.pdf",
         "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
         "document-type": "local-plan",
-        "name": "Surrey Viability Toolkit – Part A Summary Report",
+        "name": "Surrey Viability Toolkit \u2013 Part A Summary Report",
         "reference": "VT-PA-2025",
         "document-status": "examination",
         "endpoint": "446da4250acba5971a14d2cb3e3dc0f832f98989642bfb7ebeae4c828902ddb5"
@@ -152,7 +177,7 @@
         "document-url": "https://017f5bf8-ff4d-415b-be58-79dae2836c33.usrfiles.com/ugd/017f5b_9a1eea0da1454a5d8b4bdc885aad871b.pdf",
         "documentation-url": "https://www.localplanservices.co.uk/shlocalplanexamination",
         "document-type": "local-plan",
-        "name": "Surrey Viability Toolkit – Part B Energy Modelling and Technical Feasibility Report",
+        "name": "Surrey Viability Toolkit \u2013 Part B Energy Modelling and Technical Feasibility Report",
         "reference": "VT-PB-2025",
         "document-status": "examination",
         "endpoint": "b8bbd01fdfc7ae37992742fa32276d2d6e8beff0e996fe06ef8d62cb53af3051"
@@ -165,31 +190,6 @@
         "reference": "PM-2025",
         "document-status": "examination",
         "endpoint": "2bf038c544044ad7bed85889c3c196b44320ab214cc9e62377623b0945bc7fef"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SUR",
-    "organisation-name": "Surrey Heath Borough Council",
-    "reference": "LP-SUR-2011",
-    "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
-    "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
-    "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
-    "status": "adopted",
-    "year": 2011,
-    "period-start-date": 2011,
-    "period-end-date": 2028,
-    "adoption-date": "2012-02-01",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.surreyheath.gov.uk/sites/default/files/2023-05/Adopted%20Core%20Strategy%20%282011-2028%29.pdf",
-        "documentation-url": "https://www.surreyheath.gov.uk/planning-and-building-control/planning-policy/development-plan/current-local-plan/core-strategy-and-development-management-policies",
-        "document-type": "local-plan",
-        "name": "Core Strategy and Development Management Policies Development Plan Document 2012",
-        "reference": "LP-SUR-2011",
-        "document-status": "adopted",
-        "endpoint": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4"
       }
     ]
   }

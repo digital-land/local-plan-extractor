@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:SEV",
     "organisation-name": "Sevenoaks District Council",
+    "reference": "LP-SEV-2006",
+    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/current_local_plan/249/core_strategy_development_plan",
+    "document-url": "https://www.sevenoaks.gov.uk/download/downloads/id/356/core_strategy_adopted_version_february_2011.pdf",
+    "name": "Sevenoaks Core Strategy",
+    "status": "adopted",
+    "year": 2006,
+    "period-start-date": 2006,
+    "period-end-date": 2026,
+    "adoption-date": "2011-02-22",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.sevenoaks.gov.uk/download/downloads/id/356/core_strategy_adopted_version_february_2011.pdf",
+        "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/current_local_plan/249/core_strategy_development_plan",
+        "document-type": "local-plan",
+        "name": "Sevenoaks Core Strategy",
+        "reference": "LP-SEV-2006",
+        "document-status": "adopted",
+        "endpoint": "a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:SEV",
+    "organisation-name": "Sevenoaks District Council",
     "reference": "LP-SEV-2019",
     "documentation-url": "http://www.sevenoaks.gov.uk/info/20014/planning_policy",
     "document-url": "",
@@ -63,30 +88,5 @@
     "adoption-date": null,
     "withdrawn-date": null,
     "documents": []
-  },
-  {
-    "organisation": "local-authority:SEV",
-    "organisation-name": "Sevenoaks District Council",
-    "reference": "LP-SEV-2006",
-    "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/current_local_plan/249/core_strategy_development_plan",
-    "document-url": "https://www.sevenoaks.gov.uk/download/downloads/id/356/core_strategy_adopted_version_february_2011.pdf",
-    "name": "Sevenoaks Core Strategy",
-    "status": "adopted",
-    "year": 2006,
-    "period-start-date": 2006,
-    "period-end-date": 2026,
-    "adoption-date": "2011-02-22",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.sevenoaks.gov.uk/download/downloads/id/356/core_strategy_adopted_version_february_2011.pdf",
-        "documentation-url": "https://www.sevenoaks.gov.uk/info/20069129/current_local_plan/249/core_strategy_development_plan",
-        "document-type": "local-plan",
-        "name": "Sevenoaks Core Strategy",
-        "reference": "LP-SEV-2006",
-        "document-status": "adopted",
-        "endpoint": "a178ba16248fb7bae0a1d1b4712736aa83fdbfdda55438e70722b81dbf3d9e54"
-      }
-    ]
   }
 ]

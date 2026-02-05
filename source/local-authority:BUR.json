@@ -2,40 +2,6 @@
   {
     "organisation": "local-authority:BUR",
     "organisation-name": "Bury Metropolitan Borough Council",
-    "reference": "LP-BUR-2025",
-    "documentation-url": "https://www.bury.gov.uk/localplan",
-    "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
-    "name": "Bury Local Plan 2023-2043",
-    "status": "regulation-18",
-    "year": 2025,
-    "period-start-date": 2023,
-    "period-end-date": 2043,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
-        "documentation-url": "https://www.bury.gov.uk/localplan",
-        "document-type": "local-plan",
-        "name": "Draft Bury Local Plan",
-        "reference": "LP-DRAFT-2025",
-        "document-status": "consultation",
-        "endpoint": "68541b04002d5fc1ea5ffc1659f8d626d850a00eb0610ec73d00e03aab252c50"
-      },
-      {
-        "document-url": "https://www.bury.gov.uk/asset-library/policy-map-v2.pdf",
-        "documentation-url": "https://www.bury.gov.uk/localplan",
-        "document-type": "policies-map",
-        "name": "Draft Local Plan Policies Map",
-        "reference": "PM-DRAFT-2025",
-        "document-status": "consultation",
-        "endpoint": "9c6c033b5a81a08e1a8d626c8f59474b775a027bead5b95f6a552735c1eee0bd"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:BUR",
-    "organisation-name": "Bury Metropolitan Borough Council",
     "reference": "LP-BUR-2024",
     "documentation-url": "https://www.greatermanchester-ca.gov.uk/what-we-do/planning-and-housing/strategic-planning/places-for-everyone/pfe-adoption/",
     "document-url": "https://www.greatermanchester-ca.gov.uk/media/3ccbetc4/post-adoption-places-for-everyone-joint-development-plan.pdf",
@@ -224,6 +190,40 @@
         "reference": "UDP-PFE-2024",
         "document-status": "adopted",
         "endpoint": "16c7ee80094076f66272d6aca0a84b57c888a8a287509c8e0d52b5bc9d98b0c2"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:BUR",
+    "organisation-name": "Bury Metropolitan Borough Council",
+    "reference": "LP-BUR-2025",
+    "documentation-url": "https://www.bury.gov.uk/localplan",
+    "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
+    "name": "Bury Local Plan 2023-2043",
+    "status": "regulation-18",
+    "year": 2025,
+    "period-start-date": 2023,
+    "period-end-date": 2043,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/draft-local-plan-v7-cabinet.pdf",
+        "documentation-url": "https://www.bury.gov.uk/localplan",
+        "document-type": "local-plan",
+        "name": "Draft Bury Local Plan",
+        "reference": "LP-DRAFT-2025",
+        "document-status": "consultation",
+        "endpoint": "68541b04002d5fc1ea5ffc1659f8d626d850a00eb0610ec73d00e03aab252c50"
+      },
+      {
+        "document-url": "https://www.bury.gov.uk/asset-library/policy-map-v2.pdf",
+        "documentation-url": "https://www.bury.gov.uk/localplan",
+        "document-type": "policies-map",
+        "name": "Draft Local Plan Policies Map",
+        "reference": "PM-DRAFT-2025",
+        "document-status": "consultation",
+        "endpoint": "9c6c033b5a81a08e1a8d626c8f59474b775a027bead5b95f6a552735c1eee0bd"
       }
     ]
   }

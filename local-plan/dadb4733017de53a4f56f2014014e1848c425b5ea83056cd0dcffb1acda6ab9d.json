@@ -14,7 +14,7 @@
       "annual-required-housing": 1400,
       "pages": "31-36, 220",
       "notes": "Plan period 2017-18 to 2035-36 (19 years). Total net supply of 25,594 homes against requirement of 26,600, resulting in shortfall of 1,006 homes. Gross completions 2017-22 were 8,600 homes. Housing trajectory shows delivery profile across plan period.",
-      "organisation": ""
+      "organisation": "local-authority:WKF"
     }
   ],
   "confidence": "high",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/dadb4733017de53a4f56f2014014e1848c425b5ea83056cd0dcffb1acda6ab9d.pdf",
   "pages_analysed": 32,
   "organisation": "local-authority:WKF",
-  "adoption-date": "2024-01-24"
+  "adoption-date": "2024-01-24",
+  "local-planning-authorities": [
+    "E60000072"
+  ]
 }

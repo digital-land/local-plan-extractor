@@ -14,7 +14,7 @@
       "annual-required-housing": 3931,
       "pages": "73-76, 333-336",
       "notes": "Required housing target of 58,965 homes includes London Plan target plus rolled-forward requirement. Committed housing of ~29,000 includes completed (4,699), under development (17,345), and sites with planning permission (7,302). Allocated housing from site allocations without permission. SHLAA sites provide additional broad locations capacity. Small sites windfall allowance of 223 units per year totaling 3,122.",
-      "organisation": ""
+      "organisation": "local-authority:THR"
     }
   ],
   "confidence": "high",
@@ -23,5 +23,8 @@
   "pages_analysed": 32,
   "organisation": "local-authority:THR",
   "adoption-date": "2020-01-15",
-  "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf"
+  "document-url": "https://www.towerhamlets.gov.uk/Documents/Planning-and-building-control/Strategic-Planning/Local-Plan/TH_Local_Plan_2031_accessibility_checked.pdf",
+  "local-planning-authorities": [
+    "E60000148"
+  ]
 }

@@ -14,7 +14,7 @@
       "annual-required-housing": 542,
       "pages": "32, 39-40, 45, 85",
       "notes": "Plan covers former Suffolk Coastal District area only. Total requirement is 542 dwellings per annum (9,756 over 18-year period 2018-2036). Committed housing includes 3,609 outstanding permissions, 2,413 with resolution to grant (including 2,000 at Brightwell Lakes), and 976 existing allocations. Allocated housing is residual need plus contingency. Windfall estimated at 50 dwellings per year from 2020/21 onwards providing at least 800 over plan period.",
-      "organisation": ""
+      "organisation": "local-authority:SUF"
     }
   ],
   "confidence": "medium",
@@ -22,5 +22,8 @@
   "pdf_file": "collection/document/07efb50062fe61bcd58a1d75df96934e00c553dbb551023d39c0fdfe73e6cc90.pdf",
   "pages_analysed": 0,
   "organisation": "local-authority:SUF",
-  "adoption-date": "2020-09-23"
+  "adoption-date": "2020-09-23",
+  "local-planning-authorities": [
+    "E60000184"
+  ]
 }

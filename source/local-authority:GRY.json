@@ -2,21 +2,6 @@
   {
     "organisation": "local-authority:GRY",
     "organisation-name": "Great Yarmouth Borough Council",
-    "reference": "LP-GRY-2024",
-    "documentation-url": "https://www.great-yarmouth.gov.uk/planning-and-building-control",
-    "document-url": "",
-    "name": "Great Yarmouth Local Plan",
-    "status": "regulation-19",
-    "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": []
-  },
-  {
-    "organisation": "local-authority:GRY",
-    "organisation-name": "Great Yarmouth Borough Council",
     "reference": "LP-GRY-2013",
     "documentation-url": "https://www.great-yarmouth.gov.uk/article/2489/Local-Plan",
     "document-url": "https://docs.great-yarmouth.gov.uk/media/6579/Adopted-Local-Plan-Part-2-2021/pdf/Adopted_Local_Plan_Part_2_2021.pdf?m=1639050824857",
@@ -38,5 +23,20 @@
         "endpoint": "1404d98e9bd6c04599fd3779baf4b7771ec515a2dd9f6560233e99b72699a374"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:GRY",
+    "organisation-name": "Great Yarmouth Borough Council",
+    "reference": "LP-GRY-2024",
+    "documentation-url": "https://www.great-yarmouth.gov.uk/planning-and-building-control",
+    "document-url": "",
+    "name": "Great Yarmouth Local Plan",
+    "status": "regulation-19",
+    "year": 2024,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
   }
 ]

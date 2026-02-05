@@ -2,6 +2,76 @@
   {
     "organisation": "local-authority:EHA",
     "organisation-name": "East Hampshire District Council",
+    "reference": "LP-EHA-2016",
+    "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+    "document-url": "https://www.easthants.gov.uk/media/4181/download?inline",
+    "name": "Local Plan (Part 2): Housing and Employment Allocations",
+    "status": "adopted",
+    "year": 2016,
+    "period-start-date": 2011,
+    "period-end-date": 2018,
+    "adoption-date": "2016-04-07",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.easthants.gov.uk/media/4181/download?inline",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "The Local Plan (Part 2): Housing and Employment Allocations",
+        "reference": "LP-P2-2016",
+        "document-status": "adopted",
+        "endpoint": "66d48e6a3664f175ab2e2cc1ca82b8ef66acfbea55d7ec728e247e70015f4834"
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "policies-map",
+        "name": "The Local Plan (Part 2) Policies Maps",
+        "reference": "PM-P2-2016",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan (Part 2) Sustainability Appraisal Report",
+        "reference": "SA-P2-2016",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan (Part 2) Sustainability Appraisal Adoption Statement",
+        "reference": "SA-AS-P2-2016",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "adoption-statement",
+        "name": "Local Plan (Part 2) Adoption Statement",
+        "reference": "AS-P2-2016",
+        "document-status": "adopted",
+        "endpoint": ""
+      },
+      {
+        "document-url": "",
+        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
+        "document-type": "local-plan",
+        "name": "Local Plan (Part 2) Inspector's Report",
+        "reference": "IR-P2-2016",
+        "document-status": "adopted",
+        "endpoint": ""
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:EHA",
+    "organisation-name": "East Hampshire District Council",
     "reference": "LP-EHA-2014",
     "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
     "document-url": "https://www.easthants.gov.uk/media/5462/download?inline",
@@ -73,76 +143,6 @@
         "document-type": "inspectors-report",
         "name": "JCS Inspector's Report (Schedule of Final Modifications)",
         "reference": "IR-MOD-2014",
-        "document-status": "adopted",
-        "endpoint": ""
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:EHA",
-    "organisation-name": "East Hampshire District Council",
-    "reference": "LP-EHA-2016",
-    "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-    "document-url": "https://www.easthants.gov.uk/media/4181/download?inline",
-    "name": "Local Plan (Part 2): Housing and Employment Allocations",
-    "status": "adopted",
-    "year": 2016,
-    "period-start-date": 2011,
-    "period-end-date": 2018,
-    "adoption-date": "2016-04-07",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.easthants.gov.uk/media/4181/download?inline",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "local-plan",
-        "name": "The Local Plan (Part 2): Housing and Employment Allocations",
-        "reference": "LP-P2-2016",
-        "document-status": "adopted",
-        "endpoint": "66d48e6a3664f175ab2e2cc1ca82b8ef66acfbea55d7ec728e247e70015f4834"
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "policies-map",
-        "name": "The Local Plan (Part 2) Policies Maps",
-        "reference": "PM-P2-2016",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "local-plan",
-        "name": "Local Plan (Part 2) Sustainability Appraisal Report",
-        "reference": "SA-P2-2016",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "adoption-statement",
-        "name": "Local Plan (Part 2) Sustainability Appraisal Adoption Statement",
-        "reference": "SA-AS-P2-2016",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "adoption-statement",
-        "name": "Local Plan (Part 2) Adoption Statement",
-        "reference": "AS-P2-2016",
-        "document-status": "adopted",
-        "endpoint": ""
-      },
-      {
-        "document-url": "",
-        "documentation-url": "https://www.easthants.gov.uk/planning-services/planning-policy/local-plan/adopted-local-plan",
-        "document-type": "local-plan",
-        "name": "Local Plan (Part 2) Inspector's Report",
-        "reference": "IR-P2-2016",
         "document-status": "adopted",
         "endpoint": ""
       }

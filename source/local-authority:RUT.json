@@ -2,40 +2,6 @@
   {
     "organisation": "local-authority:RUT",
     "organisation-name": "Rutland County Council",
-    "reference": "LP-RUT-2025",
-    "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
-    "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
-    "name": "Rutland Local Plan 2021-2041",
-    "status": "submitted",
-    "year": 2025,
-    "period-start-date": 2021,
-    "period-end-date": 2041,
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
-        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
-        "document-type": "local-plan-regulation-19",
-        "name": "Rutland Local Plan Regulation 19 Consultation Document",
-        "reference": "LP-2021-2041",
-        "document-status": "examination",
-        "endpoint": "19b419f284832cb43136a9ae1daaecbcca88e42ed313aa4b6fc162a30cc36cce"
-      },
-      {
-        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/Rutland%20Policies%20Map%202024_0.pdf",
-        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
-        "document-type": "policies-map",
-        "name": "Rutland Policies Map",
-        "reference": "PM-2024",
-        "document-status": "examination",
-        "endpoint": "445de32f94deaa106b8766a8f34da64e394dd5091136c11d62511297a73c1af7"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:RUT",
-    "organisation-name": "Rutland County Council",
     "reference": "LP-RUT-2011",
     "documentation-url": "https://www.rutland.gov.uk/adopted-local-plan",
     "document-url": "https://www.rutland.gov.uk/sites/default/files/2022-09/Core%20Strategy%20DPD%20%28July%202011%29.pdf",
@@ -150,6 +116,40 @@
         "reference": "AS-MCS-2010",
         "document-status": "adopted",
         "endpoint": "239a7f4020436adab2cfbc32378db3b8b423dd688b78535fcc57e0ef5e884c89"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:RUT",
+    "organisation-name": "Rutland County Council",
+    "reference": "LP-RUT-2025",
+    "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+    "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
+    "name": "Rutland Local Plan 2021-2041",
+    "status": "submitted",
+    "year": 2025,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/regulation_19_local_plan_v2.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+        "document-type": "local-plan-regulation-19",
+        "name": "Rutland Local Plan Regulation 19 Consultation Document",
+        "reference": "LP-2021-2041",
+        "document-status": "examination",
+        "endpoint": "19b419f284832cb43136a9ae1daaecbcca88e42ed313aa4b6fc162a30cc36cce"
+      },
+      {
+        "document-url": "https://www.rutland.gov.uk/sites/default/files/2024-10/Rutland%20Policies%20Map%202024_0.pdf",
+        "documentation-url": "https://www.rutland.gov.uk/planning-building-control/local-plan/submitted-local-plan/pre-submission-draft-local-plan-consultation-regulation-19",
+        "document-type": "policies-map",
+        "name": "Rutland Policies Map",
+        "reference": "PM-2024",
+        "document-status": "examination",
+        "endpoint": "445de32f94deaa106b8766a8f34da64e394dd5091136c11d62511297a73c1af7"
       }
     ]
   }

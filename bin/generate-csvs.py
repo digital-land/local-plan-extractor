@@ -44,6 +44,12 @@ class LocalPlanCSVGenerator:
         'babergh-and-mid-suffolk-joint-local-plan-part-1':'the-babergh-and-mid-suffolk-joint-local-plan'
     }
 
+    # Exceptions to the "skip joint-planning-authority" rule
+    # These are endpoints where joint-planning-authority housing data should be included
+    JOINT_HOUSING_DATA_EXCEPTIONS = {
+        '3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5'  # West Dorset-Weymouth (WDO-WEY)
+    }
+
     def __init__(self, source_dir: str = "source", output_dir: str = ".", local_plan_dir: str = "local-plan"):
         """Initialize the CSV generator."""
         self.source_dir = Path(source_dir)
@@ -201,6 +207,26 @@ class LocalPlanCSVGenerator:
                             self.housing_data_source[entry_org] = {'endpoint': endpoint}
                             loaded_count += 1
                             logger.debug(f"Loaded housing data for {entry_org} (from joint plan endpoint {endpoint})")
+
+                    # For joint-planning-authority and local-planning-group entries, also create entries under individual local-authority codes
+                    # This allows the housing data to be picked up when processing individual source files
+                    if org.startswith(('joint-planning-authority:', 'local-planning-group:')):
+                        # Extract authority codes (e.g., 'WDO-WEY' from 'joint-planning-authority:WDO-WEY' or 'local-planning-group:WDO-WEY')
+                        codes_str = org.split(':')[1]  # Get 'WDO-WEY'
+                        authority_codes = codes_str.split('-')
+
+                        for auth_code in authority_codes:
+                            local_auth_org = f'local-authority:{auth_code}'
+                            if local_auth_org not in self.housing_data:
+                                # Create entry pointing to the joint housing data
+                                self.housing_data[local_auth_org] = {
+                                    'housing-numbers': housing_numbers,
+                                    'organisation-name': data.get('organisation-name', ''),
+                                }
+                                # Track the endpoint this housing data came from
+                                self.housing_data_source[local_auth_org] = {'endpoint': endpoint}
+                                loaded_count += 1
+                                logger.debug(f"Loaded housing data for {local_auth_org} (from {org}, endpoint {endpoint})")
 
             except Exception as e:
                 logger.debug(f"Failed to load housing data from {json_file.name}: {e}")
@@ -1031,13 +1057,14 @@ class LocalPlanCSVGenerator:
             # For joint plans, determine if we should use a consolidated plan reference
             # First, check if we have a direct endpoint -> plan_reference mapping
             effective_plan_reference = plan_reference
+            endpoint_hash = ''
 
             # Check if the housing data source has an endpoint, and if that endpoint maps to a plan
             if org in self.housing_data_source:
-                endpoint = self.housing_data_source[org].get('endpoint', '')
-                if endpoint and endpoint in self.endpoint_to_plan_ref:
+                endpoint_hash = self.housing_data_source[org].get('endpoint', '')
+                if endpoint_hash and endpoint_hash in self.endpoint_to_plan_ref:
                     # Use the plan reference from the endpoint mapping
-                    effective_plan_reference = self.endpoint_to_plan_ref[endpoint]
+                    effective_plan_reference = self.endpoint_to_plan_ref[endpoint_hash]
                     logger.debug(f"Using plan reference from endpoint mapping for {org}: {effective_plan_reference}")
 
             # If not from endpoint, check if this organisation is part of a joint plan
@@ -1097,9 +1124,13 @@ class LocalPlanCSVGenerator:
                     lpa_code = num_entry.get('organisation', '')
 
                     # Skip aggregate joint-planning-authority entries (we only want individual local authorities)
-                    if lpa_code.startswith('joint-planning-authority:'):
-                        logger.debug(f"Skipping aggregate joint-planning-authority entry: {lpa_code}")
-                        continue
+                    # UNLESS this endpoint is in the exceptions list
+                    if lpa_code.startswith(('joint-planning-authority:', 'local-planning-group:')):
+                        if endpoint_hash not in self.JOINT_HOUSING_DATA_EXCEPTIONS:
+                            logger.debug(f"Skipping aggregate entry: {lpa_code}")
+                            continue
+                        else:
+                            logger.debug(f"Including exception aggregate entry: {lpa_code} (endpoint: {endpoint_hash})")
 
                     # Use the correct document reference from the main document mapping
                     # If not found or None, fallback to first document reference

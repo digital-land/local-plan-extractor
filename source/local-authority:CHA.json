@@ -2,6 +2,31 @@
   {
     "organisation": "local-authority:CHA",
     "organisation-name": "Charnwood Borough Council",
+    "reference": "LP-CHA-2015",
+    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
+    "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
+    "name": "Charnwood Local Plan 2011 to 2028 Core Strategy",
+    "status": "adopted",
+    "year": 2015,
+    "period-start-date": 2011,
+    "period-end-date": 2028,
+    "adoption-date": "2015-11-09",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
+        "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
+        "document-type": "core-strategy",
+        "name": "Charnwood Local Plan 2011 - 2028 Core Strategy",
+        "reference": "CS-2015",
+        "document-status": "adopted",
+        "endpoint": "fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:CHA",
+    "organisation-name": "Charnwood Borough Council",
     "reference": "LP-CHA-2037",
     "documentation-url": "https://www.charnwood.gov.uk/localplan",
     "document-url": "",
@@ -57,31 +82,6 @@
         "reference": "PM-2-2021",
         "document-status": "examination",
         "endpoint": "63758fe5e30401d8482f42fdd162f7f30cdd483ec21f09ea3ae81af69b0c3b25"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:CHA",
-    "organisation-name": "Charnwood Borough Council",
-    "reference": "LP-CHA-2015",
-    "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-    "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
-    "name": "Charnwood Local Plan 2011 to 2028 Core Strategy",
-    "status": "adopted",
-    "year": 2015,
-    "period-start-date": 2011,
-    "period-end-date": 2028,
-    "adoption-date": "2015-11-09",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.charnwood.gov.uk/files/documents/adopted_core_strategy1/Charnwood%20Local%20Plan%202011%20-%202028%20Core%20Strategy%20Adopted%20November%202015.pdf",
-        "documentation-url": "https://www.charnwood.gov.uk/pages/local_plan",
-        "document-type": "core-strategy",
-        "name": "Charnwood Local Plan 2011 - 2028 Core Strategy",
-        "reference": "CS-2015",
-        "document-status": "adopted",
-        "endpoint": "fc2724d15ce4a953751fdb2cb2de483d7cdbc0bb8e15721dfc514fee72845147"
       }
     ]
   },
