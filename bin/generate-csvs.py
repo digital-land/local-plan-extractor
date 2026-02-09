@@ -47,7 +47,8 @@ class LocalPlanCSVGenerator:
     # Exceptions to the "skip joint-planning-authority" rule
     # These are endpoints where joint-planning-authority housing data should be included
     JOINT_HOUSING_DATA_EXCEPTIONS = {
-        '3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5'  # West Dorset-Weymouth (WDO-WEY)
+        '3cba9221447d0329e6ab8ff1c37305fd4bdfca6cd5efa908693d0c559de126f5',  # West Dorset-Weymouth (WDO-WEY)
+        '5b1d60774e8bd97a7f40221468bd0f4c5c9446faca7ef38dccb19c514850811a'  # Greater Norwich Local Plan
     }
 
     def __init__(self, source_dir: str = "source", output_dir: str = ".", local_plan_dir: str = "local-plan"):

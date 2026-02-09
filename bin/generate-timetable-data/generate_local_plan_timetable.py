@@ -166,6 +166,9 @@ def load_adoption_dates_from_local_plans(df_lp):
     Returns a dictionary keyed by (organisations, adoption_date_str) -> reference
     Uses the 'organisations' column (which contains CURIEs like 'local-authority:AYL')
     rather than 'local-planning-authorities' (which contains ONS codes).
+
+    For multi-LPA organisations (e.g., "local-authority:NOW;local-authority:BRO;local-authority:SNO"),
+    creates entries for both the full string and each individual component LPA.
     """
     adoption_dates = {}
 
@@ -179,8 +182,19 @@ def load_adoption_dates_from_local_plans(df_lp):
         reference = row['reference']
 
         if org and adoption_date_str and reference:
+            # Create entry for full organisation string
             key = (org, adoption_date_str)
             adoption_dates[key] = reference
+
+            # For multi-LPA organisations, also create entries for each component
+            if ';' in str(org):
+                org_parts = str(org).split(';')
+                for org_part in org_parts:
+                    org_part = org_part.strip()
+                    component_key = (org_part, adoption_date_str)
+                    # Only create if not already present (full string takes precedence)
+                    if component_key not in adoption_dates:
+                        adoption_dates[component_key] = reference
 
     return adoption_dates
 
@@ -650,10 +664,25 @@ def merge_with_local_plans(df_proto_events, df_lp):
             # Normalize LPA code (remove -eng suffix if present)
             lpa_normalized = lpa.replace('local-authority-eng:', 'local-authority:')
 
-            # Try to find matching reference in adoption date lookup
-            adoption_key = (lpa_normalized, adoption_date_str)
-            if adoption_key in adoption_dates_lookup:
-                matched_reference = adoption_dates_lookup[adoption_key]
+            # Handle multi-LPA strings (e.g., "local-authority:BRO;local-authority:NOW;local-authority:SNO")
+            matched_reference = None
+            if ';' in str(lpa_normalized):
+                # Split and try each component LPA
+                lpa_parts = str(lpa_normalized).split(';')
+                for lpa_part in lpa_parts:
+                    lpa_part = lpa_part.strip()
+                    adoption_key = (lpa_part, adoption_date_str)
+                    if adoption_key in adoption_dates_lookup:
+                        matched_reference = adoption_dates_lookup[adoption_key]
+                        break  # Use first matching reference
+            else:
+                # Single LPA
+                adoption_key = (lpa_normalized, adoption_date_str)
+                if adoption_key in adoption_dates_lookup:
+                    matched_reference = adoption_dates_lookup[adoption_key]
+
+            # If we found a match, use it
+            if matched_reference:
                 df_proto_merged.loc[idx, 'local-plan'] = matched_reference
                 adoption_date_matches_found += 1
 
