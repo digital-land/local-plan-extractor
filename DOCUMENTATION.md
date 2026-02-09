@@ -144,12 +144,6 @@ One row per organisation per plan. Extracted housing numbers:
 - Windfall allocations
 - Broad location allocations
 
-**Why separate housing table?** Housing numbers are queried frequently for analysis. Separating them allows:
-
-- Fast lookups without parsing the main plan table
-- Proper handling of joint plans where multiple authorities share housing targets
-- Source tracking (which document the numbers came from)
-
 #### 4. **Local Plan Timetable Data** (`bin/generate-timetable-data/generate_local_plan_timetable.py`)
 
 **Important**: This data is **NOT webscrapped**. Instead, it is enriched from authoritative government sources.
@@ -166,7 +160,7 @@ The local plan timetable dataset contains milestone dates for the local plan pro
 
 1. **VLS (Very Large Spreadsheet)**: MHCLG internal tracking of local plan progress from priority authorities
 2. **PINs Data (Planning Inspectorate)**: Official records of submitted and examined plans from the Planning Inspectorate
-3. **Prototype Data**: Existing data from planning.data.gov.uk prototype platform
+3. **Prototype Data**: Existing data from [planning.data.gov.uk prototype platform](https://local-plans.prototype.planning.data.gov.uk/local-plans)
 
 **Process**:
 
@@ -184,7 +178,7 @@ The local plan timetable dataset contains milestone dates for the local plan pro
 
 #### 5. **Mineral and Waste Plans** (NEW DATASETS)
 
-**Important**: These datasets are **newly created** and not webscrapped. They are created by enriching Planning Inspectorate and internal MHCLG analyst data.
+**Important**: These datasets are **newly created** and not webscrapped. They are created by solely from Planning Inspectorate data.
 
 Mineral and waste plans are separate strategic planning documents (distinct from local plans) that cover:
 
@@ -204,8 +198,8 @@ These have never been systematically collected before. This project creates the 
 
 **Data Sources**:
 
-1. **All Submitted Plans (Excel)**: Official Planning Inspectorate database of all submitted mineral and waste plans with status, adoption dates, and examination outcomes
-2. **LPA Other Plan Progress (Excel)**: Planning Inspectorate tracking of mineral and waste plan progress, timetables, and current status
+1. **All Submitted Plans (Excel)**: Official internal Planning Inspectorate database of all submitted mineral and waste plans with status, adoption dates, and examination outcomes
+2. **LPA Other Plan Progress (Excel)**: Published Planning Inspectorate tracking of mineral and waste plan progress, timetables, and current status
 3. **Boundary Data**: ONS-derived boundary files for geography code enrichment (E-codes)
 
 **Process**:
@@ -327,7 +321,7 @@ When data is missing or uncertain:
 4. **Community knowledge**: GitHub issues and manual contributions
 5. **Fallbacks**: Older data, documentation-only references
 
-The Ministry of Housing, Communities & Local Government MHCLG data feeds serve as validation checks and alternative sources when direct authority data is unavailable.
+The Ministry of Housing, Communities & Local Government (MHCLG) data feeds serve as validation checks and alternative sources when direct authority data is unavailable.
 
 ### 6. Deduplication Strategy
 
