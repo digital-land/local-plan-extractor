@@ -207,91 +207,36 @@ One row per organisation per plan. Extracted housing numbers:
 
 #### 4. **Local Plan Timetable Data** (`bin/generate-timetable-data/generate_local_plan_timetable.py`)
 
-**Important**: This data is **NOT webscrapped**. Instead, it is enriched from authoritative government sources.
-
-The local plan timetable dataset contains milestone dates for the local plan process:
-
-- Plan publication dates
-- Regulation 18 consultation periods (first, second, third, fourth consultation stages)
-- Submission to Planning Inspectorate (Regulation 19/22)
-- Examination hearing dates
-- Adoption dates
-
-**Data Sources**:
-
-1. **VLS (Very Large Spreadsheet)**: MHCLG internal tracking of local plan progress from priority authorities
-2. **PINs Data (Planning Inspectorate)**: Official records of submitted and examined plans from the Planning Inspectorate
-3. **Prototype Data**: Existing data from [planning.data.gov.uk prototype platform](https://local-plans.prototype.planning.data.gov.uk/local-plans)
+**Important**: This data is NOT webscrapped. Instead, it consolidates milestone dates from government sources (VLS, PINs, and prototype data). See **Data Sources Overview** for source descriptions.
 
 **Process**:
 
-- Merges data from VLS, PINs, and prototype platforms
-- Matches plans by fuzzy LPA name matching (handles naming variations)
-- Consolidates multiple data sources where available
+- Merges timetable data from VLS (primary), PINs, and prototype platforms
+- Matches plans using fuzzy LPA name matching to handle naming variations
 - Links timetable entries to webscrapped local plan records
 
-**Output Files**:
+**Output**:
 
-- `local-plan-timetable.csv` - Complete timetable records linked to webscrapped plans
-- `mismatched-local-plan-timetable-rows.csv` - Timetable entries that couldn't be matched to webscrapped plans (for manual review)
-
-**Coverage**: ~38 priority authorities with detailed timetable data from MHCLG tracking. Coverage is expanding as more authorities provide timetable data to PINs.
+- `local-plan-timetable.csv` - Timetable records linked to webscrapped plans
+- `mismatched-local-plan-timetable-rows.csv` - Unmatched entries for manual review
 
 #### 5. **Mineral and Waste Plans** (NEW DATASETS)
 
-**Important**: These datasets are **newly created** and not webscrapped. They are created by solely from Planning Inspectorate data.
+**Important**: These datasets are newly created and sourced entirely from Planning Inspectorate data. See **Data Sources Overview** for source descriptions.
 
-Mineral and waste plans are separate strategic planning documents (distinct from local plans) that cover:
-
-**Mineral Plans**:
-
-- Where minerals can be extracted (coal, aggregates, metallic minerals, etc.)
-- Restoration requirements for quarries and extraction sites
-- Supply and demand forecasts
-
-**Waste Plans**:
-
-- Waste management facility locations (landfill, incinerators, recycling centres)
-- Waste treatment and recovery capacity
-- Integration with national waste policy
-
-These have never been systematically collected before. This project creates the first comprehensive national dataset of mineral and waste plans.
-
-**Data Sources**:
-
-1. **All Submitted Plans (Excel)**: Official internal Planning Inspectorate database of all submitted mineral and waste plans with status, adoption dates, and examination outcomes
-2. **LPA Other Plan Progress (Excel)**: Published Planning Inspectorate tracking of mineral and waste plan progress, timetables, and current status
-3. **Boundary Data**: ONS-derived boundary files for geography code enrichment (E-codes)
+These are the first comprehensive national datasets of mineral and waste plans, which are strategic planning documents separate from local plans.
 
 **Process**:
 
 1. Load mineral and waste plan records from PINs "All Submitted Plans" database
-2. Cross-reference with PINs "LPA Other Plan Progress" data for additional status and timetable information
+2. Cross-reference with PINs "LPA Other Plan Progress" for additional status and timetable information
 3. Consolidate status, dates, and timetable information
 4. Enrich with geography codes from boundary data
-5. Generate parallel CSV structure to local plans:
-   - One main plan record per mineral/waste plan
-   - Associated timetable entries
-   - Boundary geometry for mapping
 
-**Output Files**:
+**Output**:
 
-- `mineral-plan.csv` - All mineral plans with adoption status, periods, organisations
-- `mineral-plan-timetable.csv` - Milestone dates for mineral plan process
-- `mineral-plan-boundary.csv` - Boundary geometries for mineral planning authorities (GIS-ready)
-
-- `waste-plan.csv` - All waste plans with adoption status, periods, organisations
-- `waste-plan-timetable.csv` - Milestone dates for waste plan process
-- `waste-plan-boundary.csv` - Boundary geometries for waste planning authorities (GIS-ready)
-
-**Data Quality Notes**:
-
-- Data sourced entirely from Planning Inspectorate (PINs) datasets
-- "All Submitted Plans" is the authoritative database of all submitted mineral and waste plans
-- "LPA Other Plan Progress" provides current tracking of plan progress and timetables
-- Some historic plans may have incomplete data (pre-2010 plans less complete)
-- Adoption dates verified against PINs examination records
-- Geographic coverage: All English local planning authorities (including combined and unitary authorities)
+- `mineral-plan.csv`, `mineral-plan-timetable.csv`, `mineral-plan-boundary.csv`
+- `waste-plan.csv`, `waste-plan-timetable.csv`, `waste-plan-boundary.csv`
 
 ## Key Decision Points & Rationale
 
