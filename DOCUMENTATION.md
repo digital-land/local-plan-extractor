@@ -8,7 +8,7 @@ This project extracts local plan data from publicly available sources. All data 
 
 - **Publicly available**: Local plans are published by local planning authorities as public documents
 - **Non-destructive**: We read and extract information without modifying source systems
-- **Legitimate use**: The data is used to seed [planning.data.gov.uk](https://planning.data.gov.uk), a public good project to improve access to planning information
+- **Legitimate use**: The data is used to seed [planning.data.gov.uk](https://planning.data.gov.uk), a public project to improve access to planning information
 - **Compliant with public sector information reuse**: All extracted data is published under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), consistent with Crown copyright reuse principles
 
 ## Data Sources Overview
@@ -19,26 +19,24 @@ This project combines data from multiple authoritative sources to create compreh
 | --- | --- | --- |
 | **Local Plans** | Individual LPA websites | Webscrapped |
 | **Local Plan Timetables** | VLS + PINs + Prototype | Enriched/Merged |
-| **Mineral Plans** | PINs "All Submitted Plans" | Official Database |
-| **Waste Plans** | PINs "All Submitted Plans" | Official Database |
-| **LPA Boundaries** | planning.data.gov.uk | Reference Data |
+| **Mineral Plans** | Planning Inspectorate data sources | Official Database |
+| **Waste Plans** | Planning Inspectorate data sources | Official Database |
+| **LPA Boundaries** | planning.data.gov.uk | Official Geography |
 | **County/Unitary Boundaries** | ONS Geoportal | Official Geography |
 
 ### Detailed Source Descriptions
 
 **Local Plans** (Webscrapped)
 
-- **Source**: Individual local planning authority websites
-- **Discovery**: Using authority website list from [planning.data.gov.uk organisation dataset](https://datasette.planning.data.gov.uk/digital-land/organisation)
+- **Source**: Individual local planning authority websites, using authority website list from [planning.data.gov.uk organisation dataset](https://datasette.planning.data.gov.uk/digital-land/organisation)
 - **Format**: PDF documents downloaded and processed
 - **Processing**: Claude AI extraction of housing numbers, dates, and policy information
-- **Status**: Ongoing discovery and updates as new plans are published
 
 **Local Plan Timetables** (Enriched from Government Sources)
 
-- **Primary Source**: [VLS (Very Large Spreadsheet)](https://www.gov.uk/government/publications/local-plan-monitoring-progress) - MHCLG tracking of local plan progress
+- **Primary Source**: VLS (Very Large Spreadsheet) - Internal MHCLG tracking of local plan progress
 - **Secondary Source**: Planning Inspectorate (PINs) official records of submitted and examined plans
-- **Tertiary Source**: [planning.data.gov.uk Prototype Platform](https://local-plans.prototype.planning.data.gov.uk/local-plans) - consolidated data previously published
+- **Tertiary Source**: [planning.data.gov.uk Prototype Platform](https://local-plans.prototype.planning.data.gov.uk/local-plans) - MHCLG consolidated data
 - **Processing**: Fuzzy matching to consolidate multiple sources and link to webscrapped plans
 - **Licence**: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
@@ -46,10 +44,9 @@ This project combines data from multiple authoritative sources to create compreh
 
 - **Source**: Planning Inspectorate (PINs) official submitted plans database
 - **Datasets Used**:
-  - "All Submitted Plans" - authoritative registry of all submitted mineral and waste plans with examination status and adoption dates
+  - "All Submitted Plans" - authoritative registry of all submitted plans, including mineral and waste, with examination status and adoption dates
   - "LPA Other Plan Progress" - published from [local-plan-monitoring-progress](https://www.gov.uk/government/publications/local-plan-monitoring-progress)
 - **Status**: Both datasets contain publicly known information
-- **Note**: These datasets were compiled into a structured format for the first time by this project
 - **Licence**: [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 **Boundary & Reference Data** (Official Sources)
@@ -70,7 +67,7 @@ This project combines data from multiple authoritative sources to create compreh
 
 - **Publicly Known Information**: Where internal government datasets (VLS, "All Submitted Plans") are used, they contain publicly known information compiled from official sources and consultations
 
-- **Authoritative Sources**: All data can be traced back to official government sources (ONS, PINs, MHCLG)
+- **Authoritative Sources**: All data can be traced back to official government sources (individual LPA websites, ONS, PINs, MHCLG)
 - **Alternative Validation**: Ministry of Housing, Communities & Local Government data feeds serve as validation checks
 - **Licensing**: Data from planning.data.gov.uk, ONS, PINs, and MHCLG sources are all published under [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 - **Version Control**: All source data and transformations are tracked in Git for transparency and auditability
