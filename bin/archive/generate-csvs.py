@@ -2,10 +2,10 @@
 """
 Generate local plan CSVs from local plan source data with extracted enrichment.
 
-This script creates two CSV files:
-1. local-plan.csv - All local plans (draft and adopted) with enrichment from extracted data,
-                    including required-housing totals from local-plan/ JSON files
+This script creates three CSV files:
+1. local-plan.csv - All local plans (draft and adopted) with enrichment from extracted data
 2. local-plan-document.csv - Individual plan documents from source
+3. local-plan-housing.csv - Housing requirements data from extracted local-plan/ files
 
 Local plan data is sourced from source/ JSON files (both draft and adopted plans).
 Enrichment data (local-planning-authorities E0x codes, housing data) is merged from
@@ -16,6 +16,8 @@ Usage:
     python bin/generate-csvs.py --lpa PEN,BOT,SHO           # Generate CSVs for specific LPAs
     python bin/generate-csvs.py --output-dir ./dataset/        # Specify output directory
     python bin/generate-csvs.py --lpa BRO --output-dir ./   # Combine options
+
+--- NOTE: This script has been archived due to no longer requiring local-plan-housing.csv ---
 """
 
 import json
@@ -422,61 +424,6 @@ class LocalPlanCSVGenerator:
             return self.enrichment_by_org[org]
 
         return None
-
-    def _get_required_housing(self, plan_data: Dict) -> str:
-        """Extract required-housing total by matching document endpoints only.
-
-        Looks up enrichment data by document endpoint (no organisation fallback).
-        For joint plans, uses the aggregate entry if present; otherwise sums
-        individual authority entries. Returns "" if no endpoint match found.
-        """
-        # Try to find enrichment by checking document endpoints (no fallback to org)
-        documents = plan_data.get('documents', [])
-        enrichment_data = None
-        if isinstance(documents, list):
-            for doc in documents:
-                endpoint = doc.get('endpoint', '')
-                if endpoint and endpoint in self.enrichment_by_endpoint:
-                    enrichment_data = self.enrichment_by_endpoint[endpoint]
-                    break
-
-        if not enrichment_data:
-            return ""
-
-        housing_numbers = enrichment_data.get('housing-numbers', [])
-        if not housing_numbers or not isinstance(housing_numbers, list):
-            return ""
-
-        top_org = enrichment_data.get('organisation', '')
-        is_joint = top_org.startswith(('joint-planning-authority:', 'local-planning-group:'))
-
-        if is_joint:
-            # Use aggregate entry if present
-            for entry in housing_numbers:
-                entry_org = entry.get('organisation', '')
-                if entry_org.startswith(('joint-planning-authority:', 'local-planning-group:')):
-                    val = entry.get('required-housing', '')
-                    return str(val) if val != '' and val is not None else ''
-            # No aggregate — sum all individual entries
-            total = 0
-            found_any = False
-            for entry in housing_numbers:
-                val = entry.get('required-housing', '')
-                if val == '' or val is None:
-                    continue
-                try:
-                    total += int(val)
-                    found_any = True
-                except (TypeError, ValueError):
-                    return ''  # Non-numeric range value; cannot sum
-            return str(total) if found_any else ''
-        else:
-            # Single-authority: find matching entry
-            for entry in housing_numbers:
-                if entry.get('organisation', '') == top_org:
-                    val = entry.get('required-housing', '')
-                    return str(val) if val != '' and val is not None else ''
-            return ''
 
     def _load_joint_plan_mappings(self):
         """Load joint plan mappings from the joint-local-plans.json file.
@@ -991,7 +938,6 @@ class LocalPlanCSVGenerator:
                 'mineral-planning-authorities': plan_data.get('mineral-planning-authorities', ''),
                 'waste-planning-authorities': plan_data.get('waste-planning-authorities', ''),
                 'local-plan-process': plan_data.get('local-plan-process', plan_data.get('status', '')),
-                'required-housing': self._get_required_housing(plan_data),
                 'documentation-url': plan_data.get('documentation-url', ''),
                 'document-url': plan_data.get('document-url', ''),
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
@@ -1307,7 +1253,7 @@ class LocalPlanCSVGenerator:
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
             'organisations', 'local-planning-authorities', 'mineral-planning-authorities',
-            'waste-planning-authorities', 'local-plan-process', 'required-housing',
+            'waste-planning-authorities', 'local-plan-process',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
@@ -1316,6 +1262,20 @@ class LocalPlanCSVGenerator:
         self._write_csv('local-plan-document.csv', local_plan_documents_sorted, [
             'reference', 'name', 'description', 'local-plan', 'document-types',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
+        ])
+
+        # Deduplicate housing data (remove exact duplicate rows)
+        housing_deduped = self._deduplicate_housing_data(self.local_plan_housing)
+        if len(housing_deduped) < len(self.local_plan_housing):
+            logger.info(f"Deduplicated housing data: {len(self.local_plan_housing)} → {len(housing_deduped)} rows")
+
+        housing_sorted = sorted(housing_deduped, key=lambda x: x.get('reference') or '')
+
+        self._write_csv('local-plan-housing.csv', housing_sorted, [
+            'reference', 'local-plan', 'local-planning-authority',
+            'required-housing', 'committed-housing', 'allocated-housing',
+            'broad-locations-housing', 'windfall-housing',
+            'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
     def _deduplicate_housing_data(self, housing_data: List[Dict]) -> List[Dict]:
