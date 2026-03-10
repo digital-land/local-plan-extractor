@@ -1304,9 +1304,14 @@ class LocalPlanCSVGenerator:
         if updated_count > 0:
             logger.info(f"Populated {updated_count} missing geography codes from boundary data")
 
+        # Create local-plan-boundary column (semicolon-separated version of local-planning-authorities)
+        for plan in local_plans_sorted:
+            lpa_codes = plan.get('local-planning-authorities', '')
+            plan['local-plan-boundary'] = lpa_codes.replace('-', ';') if lpa_codes else ''
+
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
-            'organisations', 'local-planning-authorities', 'mineral-planning-authorities',
+            'organisations', 'local-plan-boundary', 'local-planning-authorities', 'mineral-planning-authorities',
             'waste-planning-authorities', 'local-plan-process', 'required-housing',
             'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
