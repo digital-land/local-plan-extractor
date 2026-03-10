@@ -1663,8 +1663,14 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
     # Sort by curie-organisations and local-plan (adoption-date)
     plans = plans.sort_values(['curie-organisations', 'local-plan']).reset_index(drop=True)
 
+    # Create authorities column with semicolons instead of dashes if requested
+    authorities_column_name = 'mineral-planning-authorities' if 'mineral' in geography_column_name.lower() else 'waste-planning-authorities'
+    plans[authorities_column_name] = plans['geography-codes'].apply(
+        lambda x: x.replace('-', ';') if pd.notna(x) else x
+    )
+
     # Select and reorder columns (local-plan first after curie-organisations)
-    plans = plans[['local-plan', 'name', 'curie-organisations', 'geography-codes',  'start-year', 'end-year', 'adoption-date', 'end-date', 'documentation-url', 'document-url']]
+    plans = plans[['local-plan', 'name', 'curie-organisations', 'geography-codes', authorities_column_name, 'start-year', 'end-year', 'adoption-date', 'end-date', 'documentation-url', 'document-url']]
 
     # Rename local-plan to reference for plans CSVs
     rename_dict = {'local-plan': 'reference',
@@ -1673,6 +1679,7 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
                    'curie-organisations': 'organisations',
                    'adoption-date': 'start-date',
                    'geography-codes': geography_column_name}
+    # Don't rename the authorities column - keep it as-is
     plans = plans.rename(columns=rename_dict)
 
     # Add entry-date
@@ -1683,11 +1690,11 @@ def create_plans_csv(df, plan_types, filename, geography_column_name='geography-
     return len(plans)
 
 # Create mineral plans (type='M' or 'M;W')
-mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plan.csv', 'mineral-planning-authority')
+mineral_count = create_plans_csv(melted_df, ['M', 'M;W'], 'dataset/mineral-plan.csv', 'mineral-planning-boundary')
 print(f"✓ Exported {mineral_count} mineral plans to dataset/mineral-plan.csv")
 
 # Create waste plans (type='W' or 'M;W')
-waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plan.csv', 'waste-planning-authority')
+waste_count = create_plans_csv(melted_df, ['W', 'M;W'], 'dataset/waste-plan.csv', 'waste-planning-boundary')
 print(f"✓ Exported {waste_count} waste plans to dataset/waste-plan.csv")
 
 # Create mineral-plan-timetable.csv and waste-plan-timetable.csv
