@@ -1304,10 +1304,12 @@ class LocalPlanCSVGenerator:
         if updated_count > 0:
             logger.info(f"Populated {updated_count} missing geography codes from boundary data")
 
-        # Create local-plan-boundary column (semicolon-separated version of local-planning-authorities)
+        # Create local-plan-boundary column (dash-separated) and update local-planning-authorities (semicolon-separated)
         for plan in local_plans_sorted:
             lpa_codes = plan.get('local-planning-authorities', '')
-            plan['local-plan-boundary'] = lpa_codes.replace('-', ';') if lpa_codes else ''
+            # local-plan-boundary keeps dashes, local-planning-authorities gets semicolons
+            plan['local-plan-boundary'] = lpa_codes  # Keep dashes
+            plan['local-planning-authorities'] = lpa_codes.replace('-', ';') if lpa_codes else ''  # Convert to semicolons
 
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
