@@ -9,6 +9,7 @@ data to create a comprehensive local plan timetable with standardised event date
 import pandas as pd
 import json
 import os
+import requests
 from datetime import datetime
 
 # Get the script's directory and project root
@@ -23,49 +24,6 @@ DATASET_DIR = os.path.join(PROJECT_ROOT, 'dataset')
 # ============================================================================
 # CONSTANTS
 # ============================================================================
-
-PRIORITY_LPAS = [
-    'Amber Valley',
-    'Bristol City',
-    'Cannock Chase',
-    'Chichester',
-    'Chorley',
-    'Dacorum',
-    'Dudley',
-    'East Riding of Yorkshire',
-    'Epsom and Ewell',
-    'Erewash',
-    'Great Yarmouth',
-    'Horsham',
-    'Hyndburn',
-    'Isle of Wight',
-    "King's Lynn and West Norfolk",
-    'Malvern Hills',
-    'Newcastle-under-Lyme',
-    'North Norfolk',
-    'Nuneaton and Bedworth',
-    'Pendle',
-    'Rutland',
-    'Sandwell',
-    'South Oxfordshire',
-    'South Staffordshire',
-    'South Tyneside',
-    'Spelthorne',
-    'St Albans',
-    'Stroud',
-    'Surrey Heath',
-    'Teignbridge',
-    'Tunbridge Wells',
-    'Vale of White Horse',
-    'West Berkshire',
-    'Wiltshire',
-    'Winchester',
-    'Wirral',
-    'Wokingham',
-    'Wolverhampton',
-    'Worcester',
-    'Wychavon'
-]
 
 CONSULTATION_START_COLS = [
     'Actual Start date of Second Regulation 18 Consultation',
@@ -751,13 +709,46 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
 
 # ============================================================================
+# FETCH PROVISIONED LPAS
+# ============================================================================
+
+def fetch_provisioned_lpas():
+    """
+    Fetch list of all LPAs provisioned to do a local plan from datasette.
+
+    Returns a list of organisation labels for all LPAs that are provisioned
+    for the local-plan dataset.
+    """
+    url = "https://datasette.planning.data.gov.uk/digital-land/provision.csv?_sort=organisation&role__exact=local-planning-authority&dataset__exact=local-plan&_labels=on&_size=max"
+
+    try:
+        response = requests.get(url, timeout=30)
+        response.raise_for_status()
+
+        # Parse CSV from response
+        df_provision = pd.read_csv(pd.io.common.StringIO(response.text))
+
+        # Extract unique organisation labels and sort
+        lpas = sorted(df_provision['organisation_label'].unique().tolist())
+
+        print(f"  - Fetched {len(lpas)} provisioned LPAs from datasette")
+        return lpas
+
+    except Exception as e:
+        raise Exception(f"Failed to fetch provisioned LPAs from datasette: {e}")
+
+
+# ============================================================================
 # GENERATE PRIORITY LPAS EVENTS
 # ============================================================================
 
 def generate_priority_lpas_events():
-    """Generate new local plan event rows for priority LPAs."""
+    """Generate new local plan event rows for all provisioned LPAs."""
 
-    print("Generating priority LPAs events...")
+    print("Generating provisioned LPAs events...")
+
+    # Fetch list of provisioned LPAs
+    lpas = fetch_provisioned_lpas()
 
     # Load the events
     with open(os.path.join(VAR_DIR, 'new-local-plan-events.json')) as f:
@@ -769,11 +760,11 @@ def generate_priority_lpas_events():
     # Create one row per LPA-event combination
     results = []
 
-    for lpa_name in PRIORITY_LPAS:
+    for lpa_name in lpas:
         # For each event, create a row
         for event in events_list:
             results.append({
-                'reference': f"{to_slug_case(lpa_name)}-new-local-plan-{event}",
+                'reference': f"{authority_to_slug(lpa_name)}-new-local-plan-{event}",
                 'name': "Emerging new local plan",
                 'local-plan': None,
                 'local-plan-event': event,
