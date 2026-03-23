@@ -773,11 +773,13 @@ def generate_priority_lpas_events():
         # For each event, create a row
         for event in events_list:
             results.append({
-                'reference': f"{to_slug_case(lpa_name)}-{event}",
+                'reference': f"{to_slug_case(lpa_name)}-new-local-plan-{event}",
+                'name': "Emerging new local plan",
                 'local-plan': None,
                 'local-plan-event': event,
                 'start-date': None,
-                'entry-date': datetime.now().strftime('%Y-%m-%d')
+                'entry-date': datetime.now().strftime('%Y-%m-%d'),
+                'notes': "Placeholder to help the authority provide their data",
             })
 
     df_priority_events = pd.DataFrame(results)
