@@ -225,9 +225,10 @@ def generate_lookup_csv(lookup_df, timetable_df, slug_mapping):
     # Get all new-local-plan rows from timetable that are NOT old priority LPAs
     new_lpa_rows = timetable_df[timetable_df['reference'].str.contains('new-local-plan')].copy()
 
-    # Filter out old 40 LPAs
-    for old_slug in OLD_40_LPAS_SLUGS:
-        new_lpa_rows = new_lpa_rows[~new_lpa_rows['reference'].str.startswith(old_slug + '-')]
+    # Filter out old 40 LPAs using their FULL slugs from slug_mapping
+    for old_slug, mapping in slug_mapping.items():
+        full_slug = mapping['full_slug']
+        new_lpa_rows = new_lpa_rows[~new_lpa_rows['reference'].str.startswith(full_slug + '-')]
 
     print(f"  - Processing {len(new_lpa_rows)} new LPA rows for entity assignment")
 
