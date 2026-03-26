@@ -480,7 +480,7 @@ def process_prototype_data(df_proto, df_vls_processed, lookup_dic):
 
     # Rename columns
     df_proto_melted = df_proto_melted.rename(columns={
-        'variable': 'local-plan-event',
+        'variable': 'plan-event',
         'value': 'start-date'
     })
 
@@ -501,7 +501,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
     # Group by common attributes to handle joint plans
     group_cols = ['name', 'period-start-year', 'period-end-year', 'document-url',
-                  'local-plan-event', 'start-date']
+                  'plan-event', 'start-date']
 
     df_proto_consolidated = df_proto_events.drop(['local-authority-code'], axis=1).groupby(
         group_cols, as_index=False
@@ -612,7 +612,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
             continue
 
         # Try adoption date matching for plan-adopted events
-        local_plan_event = df_proto_merged.loc[idx, 'local-plan-event']
+        local_plan_event = df_proto_merged.loc[idx, 'plan-event']
         start_date = df_proto_merged.loc[idx, 'start-date']
 
         if local_plan_event == 'plan-adopted' and pd.notna(start_date):
@@ -703,7 +703,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
             print(f"    Applied {override_count} manual reference overrides")
 
     # Generate reference codes
-    df_proto_merged['reference'] = df_proto_merged['local-plan'] + '-' + df_proto_merged['local-plan-event']
+    df_proto_merged['reference'] = df_proto_merged['local-plan'] + '-' + df_proto_merged['plan-event']
 
     return df_proto_merged
 
@@ -767,7 +767,7 @@ def generate_priority_lpas_events():
                 'reference': f"{authority_to_slug(lpa_name)}-new-local-plan-{event}",
                 'name': "Emerging new local plan",
                 'local-plan': None,
-                'local-plan-event': event,
+                'plan-event': event,
                 'start-date': None,
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
                 'notes': "Placeholder to help the authority provide their data",
@@ -827,7 +827,7 @@ def main():
     print(f"  - Merged data: {len(df_proto_merged)} rows")
 
     # Create timetable from merged data
-    df_timetable_final = df_proto_merged[['reference', 'local-plan', 'local-plan-event', 'start-date']].copy()
+    df_timetable_final = df_proto_merged[['reference', 'local-plan', 'plan-event', 'start-date']].copy()
     df_timetable_final['entry-date'] = datetime.now().strftime('%Y-%m-%d')
 
     # Generate priority LPAs events
