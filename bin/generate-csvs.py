@@ -1351,7 +1351,7 @@ class LocalPlanCSVGenerator:
                 'required-housing': '',
                 'documentation-url': '',
                 'document-url': '',
-                'entry-date': '',
+                'entry-date': datetime.now().strftime('%Y-%m-%d'),
                 'start-date': '',
                 'end-date': '',
                 'notes': 'Placeholder to help the authority provide their data',
