@@ -26,6 +26,9 @@ from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple
 import logging
+import urllib.request
+import urllib.error
+import io
 
 # Configure logging
 logging.basicConfig(
@@ -1283,6 +1286,147 @@ class LocalPlanCSVGenerator:
 
         return ''
 
+    def add_provisioned_lpa_placeholders(self):
+        """Add a blank placeholder row to local_plans for each provisioned LPA.
+
+        Fetches all LPAs provisioned for the local-plan dataset from the
+        Datasette API. For each LPA, adds one placeholder row with reference
+        '{lpa-slug}-new-local-plan' unless that reference already exists.
+
+        Uses self.boundary_mapping (populated from local-plan-boundary.csv)
+        to resolve the organisation CURIE to its E6 geography code. Falls back
+        to looking up by authority name if CURIE lookup fails.
+        """
+        try:
+            rows = fetch_provisioned_lpas()
+        except Exception as e:
+            logger.warning(f"Could not fetch provisioned LPAs; skipping placeholders: {e}")
+            return
+
+        added = 0
+        skipped_duplicate = 0
+        skipped_no_e6 = 0
+
+        for row in rows:
+            organisation = row.get('organisation', '').strip()
+            organisation_label = row.get('organisation_label', '').strip()
+
+            if not organisation:
+                continue
+
+            # Derive reference from the human-readable label (same slug logic as all other refs)
+            lpa_slug = self._authority_to_slug(organisation_label)
+            reference = f"{lpa_slug}-new-local-plan"
+
+            # Deduplication: skip if this reference was already produced from source JSON files
+            if reference in self.processed_plan_references:
+                logger.debug(f"Skipping placeholder for {organisation_label!r}: reference {reference!r} already exists")
+                skipped_duplicate += 1
+                continue
+
+            # Look up E6 geography code via the already-loaded boundary mapping (by CURIE)
+            e6_code = self.boundary_mapping.get(organisation, '')
+
+            # Fallback: search by authority name if CURIE lookup fails
+            # (national parks and dev corps use wikidata-based CURIEs not in boundary_mapping)
+            if not e6_code:
+                e6_code = self._lookup_e6_code_by_name(organisation_label)
+
+            if not e6_code:
+                logger.debug(f"No E6 code found for {organisation_label!r}; placeholder will have blank local-planning-authorities")
+                skipped_no_e6 += 1
+
+            placeholder = {
+                'reference': reference,
+                'name': 'Emerging new local plan',
+                'dataset': 'local-plan',
+                'period-start-date': '',
+                'period-end-date': '',
+                'organisations': '',
+                'local-plan-boundary': '',
+                'local-planning-authorities': e6_code,
+                'mineral-planning-authorities': '',
+                'waste-planning-authorities': '',
+                'local-plan-process': '',
+                'required-housing': '',
+                'documentation-url': '',
+                'document-url': '',
+                'entry-date': '',
+                'start-date': '',
+                'end-date': '',
+                'notes': 'Placeholder to help the authority provide their data',
+            }
+
+            self.local_plans.append(placeholder)
+            self.processed_plan_references.add(reference)
+            added += 1
+
+        logger.info(
+            f"Added {added} placeholder rows "
+            f"({skipped_duplicate} skipped as duplicates, "
+            f"{skipped_no_e6} without E6 code)"
+        )
+
+    def _lookup_e6_code_by_name(self, authority_name: str) -> str:
+        """Look up E6 code by authority name in local-plan-boundary.csv.
+
+        Used as fallback for authorities with non-standard CURIEs (e.g., national parks,
+        development corporations) that don't match the primary boundary_mapping.
+        Handles variations like 'Broads Authority' vs 'The Broads Authority' and
+        'Dartmoor National Park Authority' vs 'Dartmoor National Park'.
+        """
+        boundary_path = Path("dataset/local-plan-boundary.csv")
+        if not boundary_path.exists():
+            return ''
+
+        # Normalize name for comparison
+        normalized_input = authority_name.lower().strip()
+        # Remove 'the ' prefix and 'authority' suffix for more flexible matching
+        normalized_input = normalized_input.lstrip('the ').rstrip(' authority').strip()
+
+        try:
+            with open(boundary_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.startswith('reference'):
+                        continue
+
+                    # Parse CSV line handling quoted fields (e.g., "Bournemouth, Christchurch and Poole Council")
+                    # Extract reference (before first comma) and name (between first and second comma)
+                    if ',' not in line:
+                        continue
+
+                    parts = line.split(',', 1)
+                    reference = parts[0].strip()
+
+                    # Extract name field, handling quotes
+                    rest = parts[1]
+                    if rest.startswith('"'):
+                        # Quoted field: find matching closing quote
+                        end_quote = rest.find('"', 1)
+                        if end_quote > 0:
+                            name = rest[1:end_quote].strip()
+                        else:
+                            continue
+                    else:
+                        # Unquoted field: take up to next comma
+                        name_end = rest.find(',')
+                        if name_end > 0:
+                            name = rest[:name_end].strip()
+                        else:
+                            name = rest.strip()
+
+                    # Normalize boundary name the same way
+                    normalized_boundary = name.lower().strip()
+                    normalized_boundary = normalized_boundary.lstrip('the ').rstrip(' authority').strip()
+
+                    # Exact match or fuzzy match by removing common words
+                    if normalized_boundary == normalized_input:
+                        return reference
+        except Exception as e:
+            logger.debug(f"Error looking up E6 code by name: {e}")
+
+        return ''
+
     def write_csvs(self):
         """Write all three CSVs to output directory."""
         # Sort by reference before writing
@@ -1380,6 +1524,28 @@ class LocalPlanCSVGenerator:
             logger.error(f"Failed to write {filename}: {e}")
 
 
+def fetch_provisioned_lpas() -> List[Dict]:
+    """Fetch provisioned LPAs from the Datasette API.
+
+    Returns a list of dicts, each with keys:
+        'organisation'       - CURIE, e.g. 'local-authority:DUR'
+        'organisation_label' - human label, e.g. 'Durham County Council'
+
+    Raises an exception if the fetch fails.
+    """
+    url = (
+        "https://datasette.planning.data.gov.uk/digital-land/provision.csv"
+        "?_sort=organisation&role__exact=local-planning-authority"
+        "&dataset__exact=local-plan&_labels=on&_size=max"
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "local-plan-extractor/generate-csvs"})
+    with urllib.request.urlopen(req, timeout=30) as response:
+        content = response.read().decode("utf-8")
+
+    reader = csv.DictReader(io.StringIO(content))
+    return list(reader)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='Generate local plan CSVs from source data with enrichment from extracted local plans',
@@ -1424,6 +1590,13 @@ Examples:
         default=None
     )
 
+    parser.add_argument(
+        '--no-placeholders',
+        action='store_true',
+        help='Skip adding blank placeholder rows for provisioned LPAs (useful for offline/CI use)',
+        default=False
+    )
+
     args = parser.parse_args()
 
     # Parse LPA codes if provided
@@ -1444,6 +1617,10 @@ Examples:
     # Load local plans from source/ (primary source - includes both draft and adopted plans)
     # Enrichment data from local-plan/ is automatically merged during processing
     generator.load_source_json_files(lpa_codes=lpa_codes)
+
+    # Add blank placeholder rows for all provisioned LPAs (unless skipped)
+    if not args.no_placeholders:
+        generator.add_provisioned_lpa_placeholders()
 
     # Write CSVs
     generator.write_csvs()

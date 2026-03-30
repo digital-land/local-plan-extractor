@@ -766,7 +766,7 @@ def generate_priority_lpas_events():
             results.append({
                 'reference': f"{authority_to_slug(lpa_name)}-new-local-plan-{event}",
                 'name': "Emerging new local plan",
-                'local-plan': None,
+                'local-plan': f"{authority_to_slug(lpa_name)}-new-local-plan",
                 'plan-event': event,
                 'start-date': None,
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
