@@ -10,6 +10,8 @@ package.json
 .cache/
 *.swp
 tmp/
+*.log
+import_log.txt
 /var/*
 !/var/joint-local-plans.json
 /.vs
