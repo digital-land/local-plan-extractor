@@ -9,12 +9,16 @@ data to create a comprehensive local plan timetable with standardised event date
 import pandas as pd
 import json
 import os
+import sys
 import requests
 from datetime import datetime
 
 # Get the script's directory and project root
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+
+sys.path.insert(0, os.path.dirname(SCRIPT_DIR))
+from utils import slugify
 
 # Define data paths relative to project root
 DATA_DIR = os.path.join(PROJECT_ROOT, 'data', 'timetable_data')
@@ -38,23 +42,6 @@ CONSULTATION_START_COLS = [
 # ============================================================================
 # UTILITY FUNCTIONS
 # ============================================================================
-
-def authority_to_slug(authority_name: str) -> str:
-    """Convert authority name to slug format."""
-    if pd.isna(authority_name) or not authority_name:
-        return ''
-    slug = authority_name.lower().strip()
-    slug = slug.replace('&', 'and')
-    slug = slug.replace('–', '-')
-    slug = slug.replace('—', '-')
-    slug = slug.replace('/', '-')
-    slug = slug.replace(' ', '-')
-    slug = ''.join(c for c in slug if c.isalnum() or c == '-')
-    while '--' in slug:
-        slug = slug.replace('--', '-')
-    slug = slug.strip('-')
-    return slug
-
 
 def to_slug_case(text: str) -> str:
     """Convert text to slug-case (e.g., 'Amber Valley' -> 'amber-valley')"""
@@ -569,7 +556,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
     adoption_date_matched_plans = {}  # Track (lpa, name, start, end) -> matched_reference
 
     for idx in unmatched_indices:
-        org_slug = authority_to_slug(df_proto_merged.loc[idx, 'organisation_label'])
+        org_slug = slugify(df_proto_merged.loc[idx, 'organisation_label'])
         start_year = df_proto_merged.loc[idx, 'period-start-date']
         end_year = df_proto_merged.loc[idx, 'period-end-date']
         lpa = df_proto_merged.loc[idx, 'local-planning-authorities']
@@ -764,9 +751,9 @@ def generate_priority_lpas_events():
         # For each event, create a row
         for event in events_list:
             results.append({
-                'reference': f"{authority_to_slug(lpa_name)}-new-local-plan-{event}",
+                'reference': f"{slugify(lpa_name)}-new-local-plan-{event}",
                 'name': "Emerging new local plan",
-                'local-plan': f"{authority_to_slug(lpa_name)}-new-local-plan",
+                'local-plan': f"{slugify(lpa_name)}-new-local-plan",
                 'plan-event': event,
                 'start-date': None,
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),

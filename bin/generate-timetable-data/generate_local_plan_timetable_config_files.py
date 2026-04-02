@@ -9,12 +9,16 @@ Creates lookup.csv and entity-organisation.csv files with:
 
 import pandas as pd
 import os
+import sys
 import requests
 from io import StringIO
 
 # Get the script's directory and project root
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(os.path.dirname(SCRIPT_DIR))
+
+sys.path.insert(0, os.path.dirname(SCRIPT_DIR))
+from utils import slugify
 DATASET_DIR = os.path.join(PROJECT_ROOT, 'dataset')
 CONFIG_DIR = os.path.join(DATASET_DIR, 'config')
 
@@ -64,22 +68,6 @@ OLD_40_LPAS_SLUGS = [
     'worcester',
     'wychavon'
 ]
-
-def slugify(text):
-    """Convert text to slug format."""
-    if pd.isna(text) or not text:
-        return ''
-    slug = str(text).lower().strip()
-    slug = slug.replace('&', 'and')
-    slug = slug.replace('–', '-')
-    slug = slug.replace('—', '-')
-    slug = slug.replace('/', '-')
-    slug = slug.replace(' ', '-')
-    slug = ''.join(c for c in slug if c.isalnum() or c == '-')
-    while '--' in slug:
-        slug = slug.replace('--', '-')
-    slug = slug.strip('-')
-    return slug
 
 def fetch_lookup_csv():
     """Fetch lookup.csv from GitHub."""

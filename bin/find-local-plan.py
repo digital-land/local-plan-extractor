@@ -41,12 +41,9 @@ Note: A Local Planning Authority may have multiple local plan documents at diffe
 import anthropic
 import argparse
 import csv
-import hashlib
 import json
-import os
 import sys
 import time
-import mimetypes
 import urllib.request
 import urllib.error
 import requests
@@ -58,93 +55,10 @@ from typing import Dict, Optional, List
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 
+from utils import calculate_sha1, calculate_sha256, detect_file_suffix, create_endpoint_hardlink
+
 # Disable SSL warnings when verify=False is used
 warnings.simplefilter('ignore', InsecureRequestWarning)
-
-
-def calculate_sha1(content):
-    """Calculate SHA1 hash of content"""
-    return hashlib.sha1(content).hexdigest()
-
-
-def detect_file_suffix(content, content_type, url):
-    """Detect file suffix from content, content-type header, or URL."""
-    # Try to get extension from content-type
-    if content_type:
-        mime_type = content_type.split(";")[0].strip()
-        mime_to_ext = {
-            "application/pdf": "pdf",
-            "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "docx",
-            "application/msword": "doc",
-            "application/vnd.ms-excel": "xls",
-            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": "xlsx",
-            "text/html": "html",
-            "text/plain": "txt",
-            "application/zip": "zip",
-            "image/jpeg": "jpg",
-            "image/png": "png",
-        }
-        if mime_type in mime_to_ext:
-            return mime_to_ext[mime_type]
-        ext = mimetypes.guess_extension(mime_type)
-        if ext:
-            return ext.lstrip(".")
-
-    # Try to detect from magic bytes
-    if content:
-        if content.startswith(b"%PDF"):
-            return "pdf"
-        elif content.startswith(b"PK\x03\x04"):
-            if b"word/" in content[:2000]:
-                return "docx"
-            elif b"xl/" in content[:2000]:
-                return "xlsx"
-            else:
-                return "zip"
-        elif content.startswith(b"\xd0\xcf\x11\xe0"):
-            return "doc"
-        elif content.startswith(b"<!DOCTYPE") or content.startswith(b"<html"):
-            return "html"
-
-    # Try to get extension from URL
-    if url:
-        url_path = url.split("?")[0]
-        if "." in url_path:
-            ext = url_path.rsplit(".", 1)[-1].lower()
-            if ext in [
-                "pdf",
-                "doc",
-                "docx",
-                "xls",
-                "xlsx",
-                "html",
-                "txt",
-                "zip",
-                "jpg",
-                "png",
-            ]:
-                return ext
-
-    return "bin"
-
-
-def create_endpoint_hardlink(endpoint, resource_hash, content, content_type, url):
-    """Create a hard link in collection/document/ to the resource file."""
-    document_dir = Path("collection/document")
-    document_dir.mkdir(parents=True, exist_ok=True)
-
-    suffix = detect_file_suffix(content, content_type, url)
-    hardlink_path = document_dir / f"{endpoint}.{suffix}"
-    resource_path = Path("collection/resource") / resource_hash
-
-    if hardlink_path.exists():
-        hardlink_path.unlink()
-
-    os.link(resource_path, hardlink_path)
-    print(
-        f"  → Created hardlink: document/{endpoint}.{suffix} => resource/{resource_hash}",
-        file=sys.stderr,
-    )
 
 
 def download_document(url, endpoint):
@@ -2157,9 +2071,7 @@ Provide ONLY the JSON array response, no other text."""
                                 if is_likely_webpage:
                                     doc["document-url"] = ""  # Clear invalid URL
 
-                                endpoint = hashlib.sha256(
-                                    doc["document-url"].encode("utf-8")
-                                ).hexdigest()
+                                endpoint = calculate_sha256(doc["document-url"])
                                 doc["endpoint"] = endpoint
 
                 print(f"Found {len(result)} local plan(s)", file=sys.stderr)
@@ -2217,9 +2129,7 @@ Provide ONLY the JSON array response, no other text."""
                                     if is_likely_webpage:
                                         doc["document-url"] = ""  # Clear invalid URL
 
-                                    endpoint = hashlib.sha256(
-                                        doc["document-url"].encode("utf-8")
-                                    ).hexdigest()
+                                    endpoint = calculate_sha256(doc["document-url"])
                                     doc["endpoint"] = endpoint
 
                     return result_list
