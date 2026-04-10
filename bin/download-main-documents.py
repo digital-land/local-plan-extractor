@@ -38,13 +38,11 @@ State file: collection/download_state.json
 import argparse
 import hashlib
 import json
-import os
 import sys
 import warnings
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-from urllib.parse import urlparse
+from typing import Dict, List, Optional
 
 import cloudscraper
 from urllib3.exceptions import InsecureRequestWarning

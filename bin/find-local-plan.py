@@ -55,7 +55,7 @@ from typing import Dict, Optional, List
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 
-from utils import calculate_sha1, calculate_sha256, detect_file_suffix, create_endpoint_hardlink
+from utils import calculate_sha1, calculate_sha256, create_endpoint_hardlink
 
 # Disable SSL warnings when verify=False is used
 warnings.simplefilter('ignore', InsecureRequestWarning)

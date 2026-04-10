@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 
 import json
-import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
 import urllib.request
 import urllib.error
 
-from utils import calculate_sha1, calculate_sha256, detect_file_suffix, create_endpoint_hardlink
+from utils import calculate_sha1, calculate_sha256, create_endpoint_hardlink
 
 
 def download_document(url, endpoint):

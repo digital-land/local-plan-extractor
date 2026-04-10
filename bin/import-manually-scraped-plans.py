@@ -26,7 +26,6 @@ import argparse
 import json
 import logging
 import hashlib
-import re
 import sys
 import os
 from pathlib import Path

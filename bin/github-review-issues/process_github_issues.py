@@ -37,7 +37,7 @@ from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
 
 # Import date parser from same directory
-from date_parser import parse_date, extract_dates_from_text
+from date_parser import parse_date
 
 # Configure logging
 logging.basicConfig(

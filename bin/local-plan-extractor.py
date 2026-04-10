@@ -3,7 +3,7 @@ import base64
 import json
 import csv
 from pathlib import Path
-from typing import Dict, Optional, List
+from typing import Dict, List
 import os
 import PyPDF2
 import io

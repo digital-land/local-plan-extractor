@@ -24,7 +24,7 @@ import argparse
 import sys
 from pathlib import Path
 from datetime import datetime
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional
 import logging
 import urllib.request
 import urllib.error

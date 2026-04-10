@@ -3,7 +3,6 @@
 import csv
 import sys
 from pathlib import Path
-from collections import defaultdict
 import re
 
 # Increase CSV field size limit for large geometry fields
