@@ -468,11 +468,11 @@ def process_prototype_data(df_proto, df_vls_processed, lookup_dic):
     # Rename columns
     df_proto_melted = df_proto_melted.rename(columns={
         'variable': 'plan-event',
-        'value': 'start-date'
+        'value': 'event-date'
     })
 
     # Filter for rows with dates
-    df_proto_events = df_proto_melted.loc[df_proto_melted['start-date'].notna()].reset_index(drop=True)
+    df_proto_events = df_proto_melted.loc[df_proto_melted['event-date'].notna()].reset_index(drop=True)
 
     return df_proto_events
 
@@ -488,7 +488,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
     # Group by common attributes to handle joint plans
     group_cols = ['name', 'period-start-year', 'period-end-year', 'document-url',
-                  'plan-event', 'start-date']
+                  'plan-event', 'event-date']
 
     df_proto_consolidated = df_proto_events.drop(['local-authority-code'], axis=1).groupby(
         group_cols, as_index=False
@@ -600,7 +600,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
         # Try adoption date matching for plan-adopted events
         local_plan_event = df_proto_merged.loc[idx, 'plan-event']
-        start_date = df_proto_merged.loc[idx, 'start-date']
+        start_date = df_proto_merged.loc[idx, 'event-date']
 
         if local_plan_event == 'plan-adopted' and pd.notna(start_date):
             # Format adoption date as YYYY-MM-DD string
@@ -755,7 +755,7 @@ def generate_priority_lpas_events():
                 'name': "Emerging new local plan",
                 'local-plan': f"{slugify(lpa_name)}-new-local-plan",
                 'plan-event': event,
-                'start-date': None,
+                'event-date': None,
                 'entry-date': datetime.now().strftime('%Y-%m-%d'),
                 'notes': "Placeholder to help the authority provide their data",
             })
@@ -777,9 +777,9 @@ def export_timetable(df_final, output_path=None):
 
     print("Exporting timetable...")
 
-    # Format start-date column to date only (remove time component)
+    # Format event-date column to date only (remove time component)
     df_final = df_final.copy()
-    df_final['start-date'] = df_final['start-date'].apply(
+    df_final['event-date'] = df_final['event-date'].apply(
         lambda x: x.strftime('%Y-%m-%d') if pd.notna(x) and hasattr(x, 'strftime') else (x if isinstance(x, str) else '')
     )
     df_final = df_final.sort_values('local-plan')
@@ -814,7 +814,7 @@ def main():
     print(f"  - Merged data: {len(df_proto_merged)} rows")
 
     # Create timetable from merged data
-    df_timetable_final = df_proto_merged[['reference', 'local-plan', 'plan-event', 'start-date']].copy()
+    df_timetable_final = df_proto_merged[['reference', 'local-plan', 'plan-event', 'event-date']].copy()
     df_timetable_final['entry-date'] = datetime.now().strftime('%Y-%m-%d')
 
     # Generate priority LPAs events
