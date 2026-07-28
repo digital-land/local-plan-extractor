@@ -1705,7 +1705,7 @@ mineral_timetable = melted_df[melted_df['type'].isin(['M', 'M;W'])].copy()
 mineral_timetable = mineral_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event', 'start-date']).reset_index(drop=True)
 # Select and reorder columns
 mineral_timetable = mineral_timetable[['reference', 'local-plan', 'local-plan-event', 'start-date', 'entry-date']].copy()
-mineral_timetable = mineral_timetable.rename(columns={'local-plan':'minerals-plan', 'local-plan-event': 'plan-event', 'start-date': 'event-date'})
+mineral_timetable = mineral_timetable.rename(columns={'local-plan':'minerals-plan', 'local-plan-event': 'plan-event'})
 # Deduplicate on (minerals-plan, plan-event) keeping the first (earliest) occurrence
 mineral_timetable = mineral_timetable.drop_duplicates(subset=['minerals-plan', 'plan-event'], keep='first').reset_index(drop=True)
 mineral_timetable_file = 'dataset/mineral-plan-timetable.csv'
@@ -1717,7 +1717,7 @@ waste_timetable = melted_df[melted_df['type'].isin(['W', 'M;W'])].copy()
 waste_timetable = waste_timetable.sort_values(['curie-organisations', 'name', 'local-plan-event', 'start-date']).reset_index(drop=True)
 # Select and reorder columns
 waste_timetable = waste_timetable[['reference', 'local-plan', 'local-plan-event', 'start-date', 'entry-date']].copy()
-waste_timetable = waste_timetable.rename(columns={'local-plan':'waste-plan', 'local-plan-event': 'plan-event', 'start-date': 'event-date'})
+waste_timetable = waste_timetable.rename(columns={'local-plan':'waste-plan', 'local-plan-event': 'plan-event'})
 # Deduplicate on (waste-plan, plan-event) keeping the first (earliest) occurrence
 waste_timetable = waste_timetable.drop_duplicates(subset=['waste-plan', 'plan-event'], keep='first').reset_index(drop=True)
 waste_timetable_file = 'dataset/waste-plan-timetable.csv'
