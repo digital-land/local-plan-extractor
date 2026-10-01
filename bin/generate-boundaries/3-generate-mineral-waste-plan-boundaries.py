@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
 
 import csv
+import math
 import sys
 from pathlib import Path
 import re
 
+import shapely
+from shapely.geometry import MultiPolygon, Polygon
+
 csv.field_size_limit(sys.maxsize)
+
+# Holes smaller than this left by merging joint boundaries are filled (0.01 km²)
+SLIVER_HOLE_MAX_AREA_M2 = 10000
 
 
 def load_lpa_geometries(lpa_csv_path):
@@ -158,21 +165,52 @@ def extract_polygons_from_wkt(wkt):
     return []
 
 
+def approx_area_m2(polygon):
+    """Approximate area in square metres of a WGS84 polygon."""
+    lat = math.radians(polygon.centroid.y)
+    return polygon.area * 111320 * 110574 * math.cos(lat)
+
+
 def combine_geometries(geometries):
     """Combine multiple POLYGON or MULTIPOLYGON geometries into one."""
-    all_polygons = []
+    geometries = [geom for geom in geometries if geom]
 
-    for geom in geometries:
-        if not geom:
-            continue
-        polygons = extract_polygons_from_wkt(geom)
-        all_polygons.extend(polygons)
-
-    if not all_polygons:
+    if not geometries:
         return ""
 
-    # Combine into single MULTIPOLYGON
-    return f"MULTIPOLYGON ({', '.join(all_polygons)})"
+    if len(geometries) == 1:
+        polygons = extract_polygons_from_wkt(geometries[0])
+        return f"MULTIPOLYGON ({', '.join(polygons)})" if polygons else ""
+
+    # Joint boundary - merge the parts so shared edges and overlaps are dissolved,
+    # otherwise the MULTIPOLYGON is invalid (self-intersecting)
+    parts = [shapely.make_valid(shapely.from_wkt(geom)) for geom in geometries]
+    merged = shapely.unary_union(parts)
+    polygons = [g for g in shapely.get_parts(merged) if isinstance(g, Polygon)]
+    if not polygons:
+        return ""
+
+    # Source boundaries from different datasets don't meet exactly, so the merge
+    # leaves sliver holes along shared borders - fill them, but keep any hole
+    # that was already in a constituent boundary and that no other constituent
+    # fills (e.g. a county's hole for a city is filled by the city, an enclave isn't)
+    source_holes = shapely.unary_union([
+        hole for hole in (
+            Polygon(ring) for part in parts for p in shapely.get_parts(part)
+            if isinstance(p, Polygon) for ring in p.interiors
+        )
+        if merged.intersection(hole).area < hole.area / 2
+    ])
+    polygons = [
+        Polygon(p.exterior, [
+            ring for ring in p.interiors
+            if approx_area_m2(Polygon(ring)) >= SLIVER_HOLE_MAX_AREA_M2
+            or source_holes.contains(Polygon(ring).representative_point())
+        ])
+        for p in polygons
+    ]
+
+    return MultiPolygon(polygons).wkt
 
 
 def process_plan_type(plans_csv, all_geometries, plan_type, geography_column, output_csv, authority_names, organisation_names):
