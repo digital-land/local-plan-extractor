@@ -14,6 +14,9 @@ csv.field_size_limit(sys.maxsize)
 # Holes smaller than this left by merging joint boundaries are filled (0.01 km²)
 SLIVER_HOLE_MAX_AREA_M2 = 10000
 
+# Joint boundary parts are snapped together within this distance before merging (~0.5 m)
+SNAP_TOLERANCE_DEGREES = 0.5 / 111000
+
 
 def load_lpa_geometries(lpa_csv_path):
     """Load geometries by LPA reference code."""
@@ -183,8 +186,13 @@ def combine_geometries(geometries):
         return f"MULTIPOLYGON ({', '.join(polygons)})" if polygons else ""
 
     # Joint boundary - merge the parts so shared edges and overlaps are dissolved,
-    # otherwise the MULTIPOLYGON is invalid (self-intersecting)
+    # otherwise the MULTIPOLYGON is invalid (self-intersecting). Snap each part
+    # onto the parts before it first, so near-matching source edges meet exactly
+    # and don't leave thin notches on the outer edge
     parts = [shapely.make_valid(shapely.from_wkt(geom)) for geom in geometries]
+    for i in range(1, len(parts)):
+        snapped = shapely.snap(parts[i], shapely.unary_union(parts[:i]), SNAP_TOLERANCE_DEGREES)
+        parts[i] = shapely.make_valid(snapped)
     merged = shapely.unary_union(parts)
     polygons = [g for g in shapely.get_parts(merged) if isinstance(g, Polygon)]
     if not polygons:
