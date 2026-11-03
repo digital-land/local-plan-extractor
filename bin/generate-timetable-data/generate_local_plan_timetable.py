@@ -692,6 +692,12 @@ def merge_with_local_plans(df_proto_events, df_lp):
     # Generate reference codes
     df_proto_merged['reference'] = df_proto_merged['local-plan'] + '-' + df_proto_merged['plan-event']
 
+    # Map to approved plan-event values (after references are built, so existing references are unchanged)
+    df_proto_merged['plan-event'] = df_proto_merged['plan-event'].replace({
+        'reg-18-consultation-start': 'reg-18-public-consultation-start',
+        'reg-18-consultation-end': 'reg-18-public-consultation-end',
+    })
+
     return df_proto_merged
 
 
