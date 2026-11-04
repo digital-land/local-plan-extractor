@@ -104,6 +104,111 @@ def load_reference_overrides():
     return overrides
 
 
+def apply_vls_plan_title_overrides(df_vls_processed):
+    """
+    Point VLS rows at the prototype plan they describe.
+
+    VLS rows are joined to prototype plans on exact (local-authority-code, name),
+    so a VLS title that differs from the prototype plan_title silently drops
+    all of that plan's VLS events. Overrides are keyed on the VLS Local Planning
+    Authority and title, as ONSCODE and LDF Number can be blank.
+    Override file: data/vls-plan-title-overrides.csv
+    """
+    override_file = os.path.join(PROJECT_ROOT, 'data', 'vls-plan-title-overrides.csv')
+
+    if not os.path.exists(override_file):
+        return df_vls_processed
+
+    df_overrides = pd.read_csv(override_file, dtype=str)
+    df_vls_processed = df_vls_processed.copy()
+    override_count = 0
+
+    for idx, row in df_overrides.iterrows():
+        mask = (
+            (df_vls_processed['organisation'] == row['vls_local_planning_authority']) &
+            (df_vls_processed['name'] == row['vls_title'])
+        )
+        if mask.sum() != 1:
+            print(f"    Warning: VLS title override matched {mask.sum()} rows: "
+                  f"{row['vls_local_planning_authority']} / {row['vls_title']}")
+            continue
+
+        df_vls_processed.loc[mask, 'name'] = row['plan_title']
+        df_vls_processed.loc[mask, 'local-authority-code'] = row['local_authority_code']
+        override_count += 1
+
+    if override_count > 0:
+        print(f"    Applied {override_count} VLS plan title overrides")
+
+    return df_vls_processed
+
+
+def add_vls_supplementary_events(df_vls_processed):
+    """
+    Add VLS-style events that are no longer present in the VLS spreadsheet.
+
+    Rows are matched to prototype plans on (local_authority_code, plan_title) in
+    the same way as VLS rows. Values only fill gaps and never overwrite the VLS.
+    plan_event uses the VLS column names (e.g. reg-18-consultation-start).
+    Supplementary file: data/vls-supplementary-events.csv
+    """
+    supplementary_file = os.path.join(PROJECT_ROOT, 'data', 'vls-supplementary-events.csv')
+
+    if not os.path.exists(supplementary_file):
+        return df_vls_processed
+
+    df_supplementary = pd.read_csv(supplementary_file, dtype=str)
+    df_supplementary['date'] = pd.to_datetime(df_supplementary['date'])
+
+    unknown_events = set(df_supplementary['plan_event']) - set(df_vls_processed.columns)
+    if unknown_events:
+        raise ValueError(f"Unknown plan_event in vls-supplementary-events.csv: {sorted(unknown_events)}")
+
+    df_vls_processed = df_vls_processed.copy()
+    added_count = 0
+
+    for (code, title), df_plan in df_supplementary.groupby(['local_authority_code', 'plan_title']):
+        mask = (df_vls_processed['local-authority-code'] == code) & (df_vls_processed['name'] == title)
+
+        if mask.sum() > 1:
+            print(f"    Warning: supplementary events matched {mask.sum()} VLS rows: {code} / {title}")
+            continue
+
+        if mask.sum() == 0:
+            new_row = {'local-authority-code': code, 'name': title}
+            df_vls_processed = pd.concat([df_vls_processed, pd.DataFrame([new_row])], ignore_index=True)
+            mask = (df_vls_processed['local-authority-code'] == code) & (df_vls_processed['name'] == title)
+
+        for idx, row in df_plan.iterrows():
+            if df_vls_processed.loc[mask, row['plan_event']].isna().all():
+                df_vls_processed.loc[mask, row['plan_event']] = row['date']
+                added_count += 1
+
+    if added_count > 0:
+        print(f"    Added {added_count} supplementary VLS events")
+
+    return df_vls_processed
+
+
+def report_unmatched_vls_rows(df_proto, df_vls_processed):
+    """Warn about VLS rows with event dates that don't match any prototype plan."""
+    event_cols = [col for col in df_vls_processed.columns
+                  if col not in ['organisation', 'local-authority-code', 'name', 'period-start-year', 'period-end-year']]
+    proto_keys = set(zip(df_proto['local-authority-code'], df_proto['name']))
+
+    unmatched = df_vls_processed[
+        df_vls_processed[event_cols].notna().any(axis=1) &
+        ~pd.Series(list(zip(df_vls_processed['local-authority-code'], df_vls_processed['name'])),
+                   index=df_vls_processed.index).isin(proto_keys)
+    ]
+
+    if len(unmatched) > 0:
+        report_path = os.path.join(VAR_DIR, 'vls-unmatched-rows.csv')
+        unmatched[['organisation', 'local-authority-code', 'name'] + event_cols].to_csv(report_path, index=False)
+        print(f"    Warning: {len(unmatched)} VLS rows with events match no prototype plan, see {report_path} "
+              f"(add to data/vls-plan-title-overrides.csv if they should)")
+
+
 def load_adoption_dates_from_local_plans(df_lp):
     """
     Load adoption dates from local-plan.csv.
@@ -435,6 +540,8 @@ def process_prototype_data(df_proto, df_vls_processed, lookup_dic):
         'adopted': 'plan-adopted',
         'source_document': 'document-url'
     })
+
+    report_unmatched_vls_rows(df_proto, df_vls_processed)
 
     # Merge with VLS data (explicit column selection)
     vls_merge_cols = [col for col in df_vls_processed.columns if col not in ['organisation', 'local-authority-code', 'name', 'period-start-year', 'period-end-year']]
@@ -810,6 +917,8 @@ def main():
 
     # Process VLS
     df_vls_processed = process_vls_data(df_vls)
+    df_vls_processed = apply_vls_plan_title_overrides(df_vls_processed)
+    df_vls_processed = add_vls_supplementary_events(df_vls_processed)
 
     # Process prototype
     df_proto_events = process_prototype_data(df_proto, df_vls_processed, lookup_dic)
