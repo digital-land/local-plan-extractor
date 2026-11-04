@@ -104,6 +104,43 @@ def load_reference_overrides():
     return overrides
 
 
+def apply_timetable_event_overrides(df_events):
+    """
+    Override the published reference and/or plan of individual timetable events.
+
+    Applied after references are generated. Platform entities are assigned by
+    reference, so use `reference` to keep an event's existing reference when it
+    moves to a different plan, and `local_plan` to change the plan it belongs to
+    without changing its reference. Blank values leave that column unchanged.
+    Override file: data/timetable-event-overrides.csv
+    """
+    override_file = os.path.join(PROJECT_ROOT, 'data', 'timetable-event-overrides.csv')
+
+    if not os.path.exists(override_file):
+        return df_events
+
+    df_overrides = pd.read_csv(override_file, dtype=str)
+    df_events = df_events.copy()
+    override_count = 0
+
+    for idx, row in df_overrides.iterrows():
+        mask = df_events['reference'] == row['generated_reference']
+        if mask.sum() == 0:
+            print(f"    Warning: timetable event override matched no events: {row['generated_reference']}")
+            continue
+
+        if pd.notna(row['reference']):
+            df_events.loc[mask, 'reference'] = row['reference']
+        if pd.notna(row['local_plan']):
+            df_events.loc[mask, 'local-plan'] = row['local_plan']
+        override_count += 1
+
+    if override_count > 0:
+        print(f"    Applied {override_count} timetable event overrides")
+
+    return df_events
+
+
 def apply_vls_plan_title_overrides(df_vls_processed):
     """
     Point VLS rows at the prototype plan they describe.
@@ -798,6 +835,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
     # Generate reference codes
     df_proto_merged['reference'] = df_proto_merged['local-plan'] + '-' + df_proto_merged['plan-event']
+    df_proto_merged = apply_timetable_event_overrides(df_proto_merged)
 
     # Map to approved plan-event values (after references are built, so existing references are unchanged)
     df_proto_merged['plan-event'] = df_proto_merged['plan-event'].replace({
