@@ -3,9 +3,9 @@
     "organisation": "local-authority:COP",
     "organisation-name": "Copeland Borough Council",
     "reference": "LP-COP-2021",
-    "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
-    "document-url": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_local_plan.pdf",
-    "name": "Local Plan 2021-2039",
+    "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
+    "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/copeland_local_plan.pdf",
+    "name": "Copeland Local Plan 2021-2039",
     "status": "adopted",
     "year": 2021,
     "period-start-date": 2021,
@@ -14,13 +14,49 @@
     "withdrawn-date": null,
     "documents": [
       {
-        "document-url": "https://www.copeland.gov.uk/sites/default/files/attachments/copeland_local_plan.pdf",
-        "documentation-url": "https://www.copeland.gov.uk/content/copeland-local-plan",
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/copeland_local_plan.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
         "document-type": "local-plan",
-        "name": "Adopted Local Plan 2021-2039",
-        "reference": "LP-COP-2021",
+        "name": "Copeland Local Plan 2021-2039",
+        "reference": "LP-2021-2039",
         "document-status": "adopted",
         "endpoint": "406e834850f72dd2ef180921b25754ed397f01a09f518250269c4c7a698d1e73"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/north_copeland_map.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map North",
+        "reference": "PM-NORTH",
+        "document-status": "adopted",
+        "endpoint": "b1744618e626e6183e60d0293feb094f1fdd8eb45d807f0bd234e5ee604b8325"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/south_copeland_map.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
+        "document-type": "policies-map",
+        "name": "Local Plan Policies Map South",
+        "reference": "PM-SOUTH",
+        "document-status": "adopted",
+        "endpoint": "e22dd8180bbfcc9bb637690e89e64c004c83b8f4ad47a4da032e1ea3107b9b0f"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/clp_appendices.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
+        "document-type": "local-plan",
+        "name": "Copeland Local Plan 2021-2039 Appendices",
+        "reference": "LP-APPENDICES",
+        "document-status": "adopted",
+        "endpoint": "a2435fa536ad9c48783700366aed36d2e769d49db0b8865c28baea8bc2780c0d"
+      },
+      {
+        "document-url": "https://www.cumberland.gov.uk/sites/default/files/2026-05/adoption_statement_1.pdf",
+        "documentation-url": "https://www.cumberland.gov.uk/planning-and-building-control/planning-policy/current-local-plans/planning-policy-copeland",
+        "document-type": "adoption-statement",
+        "name": "Copeland Local Plan 2021-2039 Adoption Statement",
+        "reference": "AS-2024",
+        "document-status": "adopted",
+        "endpoint": "196ed6791a216992e9db5d961a56008aed63a55756e6f2bc5448e5a97a42e171"
       }
     ]
   }

@@ -1033,7 +1033,8 @@ def main():
         'epping-forest-district-council-local-plan-2011-timetable-published',
         'exmoor-national-park-authority-local-plan-2011-timetable-published',
         'hartlepool-borough-council-local-plan-2016-timetable-published',
-        'city-of-york-council-local-plan-2017-timetable-published'
+        'city-of-york-council-local-plan-2017-timetable-published',
+        'herefordshire-council-local-plan-2021-timetable-published'
     ]
     df_combined = df_combined[~df_combined['reference'].isin(refs_to_remove)]
     print(f"  - After removing specific references: {len(df_combined)} rows")

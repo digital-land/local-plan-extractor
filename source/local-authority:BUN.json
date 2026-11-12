@@ -23,30 +23,5 @@
         "endpoint": "632136617622956945ef72afa57091acd49430267feb0ae19401961c9e61dc74"
       }
     ]
-  },
-  {
-    "organisation": "local-authority:BUN",
-    "organisation-name": "Burnley Borough Council",
-    "reference": "LP-BUN-2023",
-    "documentation-url": "https://www.burnley.gov.uk/planning",
-    "document-url": "",
-    "name": "Burnley Local Plan",
-    "status": "adopted",
-    "year": 2023,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "",
-        "documentation-url": "https://www.burnley.gov.uk/planning",
-        "document-type": "local-plan",
-        "name": "Planning Policy and the Local Plan",
-        "reference": "LP-2023",
-        "document-status": "adopted",
-        "endpoint": ""
-      }
-    ]
   }
 ]

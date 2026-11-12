@@ -11,7 +11,7 @@
     "period-start-date": "",
     "period-end-date": "",
     "adoption-date": "2018-12-10",
-    "withdrawn-date": "2018-11",
+    "withdrawn-date": null,
     "documents": [
       {
         "document-url": "https://www.newham.gov.uk/downloads/file/1111/newham-local-plan-2018-pdf-",
@@ -66,58 +66,6 @@
         "reference": "HRA-2018",
         "document-status": "adopted",
         "endpoint": "99b916017110558b02e6494e577095711cb96f3052b7748dd3668edfdcac7ddc"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:NWM",
-    "organisation-name": "London Borough of Newham",
-    "reference": "LP-NWM-2017",
-    "documentation-url": "https://www.newham.gov.uk/localplan",
-    "document-url": "https://www.newham.gov.uk/downloads/file/1039/gypsyandtravellerdpdadoptedversionsept2017",
-    "name": "Gypsy and Traveller Accommodation Development Plan Document",
-    "status": "adopted",
-    "year": 2017,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": "2017-09-18",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.newham.gov.uk/downloads/file/1039/gypsyandtravellerdpdadoptedversionsept2017",
-        "documentation-url": "https://www.newham.gov.uk/localplan",
-        "document-type": "local-plan",
-        "name": "Gypsy and Traveller Accommodation Development Plan Document",
-        "reference": "GTDPD-2017",
-        "document-status": "adopted",
-        "endpoint": "ad49a9aab1b715bedca951f71690dc8bdc815689d734e70bf98ee668fd8b1850"
-      },
-      {
-        "document-url": "https://www.newham.gov.uk/downloads/file/1038/inspectorsreportonthegtadpd",
-        "documentation-url": "https://www.newham.gov.uk/localplan",
-        "document-type": "inspectors-report",
-        "name": "Inspector's Report GTADPD",
-        "reference": "IR-GTDPD-2017",
-        "document-status": "adopted",
-        "endpoint": "678b96e62a0a44f901fa7a5a000ec5849821ebaf84448b7a5e49d4e374a0a928"
-      },
-      {
-        "document-url": "https://www.newham.gov.uk/downloads/file/1037/adoptionstatementsep2017",
-        "documentation-url": "https://www.newham.gov.uk/localplan",
-        "document-type": "adoption-statement",
-        "name": "GTADPD Adoption Statement",
-        "reference": "AS-GTDPD-2017",
-        "document-status": "adopted",
-        "endpoint": "cc1ac230ddc2290e19fd52f96d9718440e08f28bceedc23e6c64815aa82638af"
-      },
-      {
-        "document-url": "https://www.newham.gov.uk/downloads/file/1040/gtadpdiiasubmissionversionsept2016",
-        "documentation-url": "https://www.newham.gov.uk/localplan",
-        "document-type": "local-plan",
-        "name": "GTADPD Integrated Impact Assessment",
-        "reference": "IIA-GTDPD-2016",
-        "document-status": "adopted",
-        "endpoint": "9fb9768bd48d2bf3c7efdead48ff4d04b35f893ed81df222e09c653aab291c81"
       }
     ]
   },
