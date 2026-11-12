@@ -5,7 +5,7 @@
     "reference": "LP-ECA-2015",
     "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
     "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/Local%20Plan%20adopted%2019%20October%202023%20-%20final%20with%20cover.pdf",
-    "name": "East Cambridgeshire Local Plan 2015 (as amended 2023)",
+    "name": "Local Plan 2015",
     "status": "adopted",
     "year": 2015,
     "period-start-date": 2011,
@@ -41,15 +41,6 @@
         "endpoint": "3750ce980186caeed6252785461baa003ee7a72b078db29c0225e9e808044f95"
       },
       {
-        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/Adoption%20statement%20Local%20Plan%202023%20Update%20-%20final.pdf",
-        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
-        "document-type": "adoption-statement",
-        "name": "Adoption Statement: Local Plan update 2023",
-        "reference": "AS-2023",
-        "document-status": "adopted",
-        "endpoint": "ea076aa91f9275aa973146593a49c487395bcd5cac99370b239d4a26ccce3b4c"
-      },
-      {
         "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/Inspector%27s%20Report_0.pdf",
         "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
         "document-type": "inspectors-report",
@@ -57,15 +48,6 @@
         "reference": "IR-2015",
         "document-status": "adopted",
         "endpoint": "551ddc31e5a75b4aab526148daf70af2fdb427a9977cc40bc064d9ce6f50f835"
-      },
-      {
-        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20Inspector%27s%20Report%20October%202023_0.pdf",
-        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
-        "document-type": "inspectors-report",
-        "name": "Inspector's Report on the examination into the East Cambridgeshire Local Plan Single Issue Review 2023",
-        "reference": "IR-2023",
-        "document-status": "adopted",
-        "endpoint": "78ad4e4d65848ea57489d7694fb8367cfd5bc8b61b6b83e7d34577d16979c534"
       },
       {
         "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/Inspector%27s%20Main%20Mods_0.pdf",
@@ -77,15 +59,6 @@
         "endpoint": "8c5a13bd1bbfcd7851e1c8511f22347bbd71e2240dc563bb100524eef1b15bb2"
       },
       {
-        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20Inspector%27s%20Report%20Main%20Mods%20October%202023_0.pdf",
-        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
-        "document-type": "local-plan",
-        "name": "Inspector's Recommended Main Modification",
-        "reference": "MM-2023",
-        "document-status": "adopted",
-        "endpoint": "1f08c0a83ba39dad284f5ad36504c53f71bf5b5105509c1f876b2e56cc66b33c"
-      },
-      {
         "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/SA%20report%20of%20the%20April%202015%20Adopted%20LP%20-%20FINAL.pdf",
         "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
         "document-type": "sustainability-appraisal",
@@ -93,15 +66,6 @@
         "reference": "SA-2015",
         "document-status": "adopted",
         "endpoint": "0d5de4e4a6a60356c29e2f408f99b0bb9df7ca191cad43a46ec3fc572f94af07"
-      },
-      {
-        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20-%20SA%20report%20post%20adoption%20Oct%202023.pdf",
-        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal of the Local Plan update 2023",
-        "reference": "SA-2023",
-        "document-status": "adopted",
-        "endpoint": "65fe6bae96ace61620b3826953ff9fde5e4ad114510b26fc4304dc17befc826b"
       },
       {
         "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/SA%20Adoption%20Statement%20-%20Apr%202015%20-%20Final.pdf",
@@ -113,15 +77,6 @@
         "endpoint": "2619cd933b28ae87865f6e0407e9aa486480714ce8853d5f477bf43556eb173b"
       },
       {
-        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SA%20Adoption%20Statement%20-%20Oct%202023.pdf",
-        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
-        "document-type": "adoption-statement",
-        "name": "Adoption Statement of the Sustainability Appraisal 2023",
-        "reference": "AS-SA-2023",
-        "document-status": "adopted",
-        "endpoint": "1572b54851fcef9768213cb29c0961f628449e3bca297795150c8c4e6253e8a9"
-      },
-      {
         "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/ECDC%20LP%20Review%20April%202020.pdf",
         "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
         "document-type": "local-plan",
@@ -129,6 +84,76 @@
         "reference": "LPR-2020",
         "document-status": "adopted",
         "endpoint": "8531175552c4151525605ba67d15abdfe006d4c1c5af39027798624551fd3783"
+      },
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/District%20Proposal%20Map_50k_Colour%20%28resized%29.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "policies-map",
+        "name": "East Cambridgeshire Local Plan 2015 Policies Map",
+        "reference": "PM-2015",
+        "document-status": "adopted",
+        "endpoint": "e127553183333f6990ce0e87bb85842a6c8adc151a21b5d070677fea780f6ced"
+      }
+    ]
+  },
+  {
+    "organisation": "local-authority:ECA",
+    "organisation-name": "East Cambridgeshire District Council",
+    "reference": "LP-ECA-2022",
+    "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+    "document-url": "",
+    "name": "East Cambridgeshire Local Plan - Single Issue Review",
+    "status": "adopted",
+    "year": 2023,
+    "period-start-date": 2022,
+    "period-end-date": 2031,
+    "adoption-date": "2023-10-19",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/Adoption%20statement%20Local%20Plan%202023%20Update%20-%20final.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement: Local Plan update 2023",
+        "reference": "AS-2023",
+        "document-status": "adopted",
+        "endpoint": "ea076aa91f9275aa973146593a49c487395bcd5cac99370b239d4a26ccce3b4c"
+      },
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20Inspector%27s%20Report%20October%202023_0.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "inspectors-report",
+        "name": "Inspector's Report on the examination into the East Cambridgeshire Local Plan Single Issue Review 2023",
+        "reference": "IR-2023",
+        "document-status": "adopted",
+        "endpoint": "78ad4e4d65848ea57489d7694fb8367cfd5bc8b61b6b83e7d34577d16979c534"
+      },
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20Inspector%27s%20Report%20Main%20Mods%20October%202023_0.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "local-plan",
+        "name": "Inspector's Recommended Main Modification",
+        "reference": "MM-2023",
+        "document-status": "adopted",
+        "endpoint": "1f08c0a83ba39dad284f5ad36504c53f71bf5b5105509c1f876b2e56cc66b33c"
+      },
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SIR%20-%20SA%20report%20post%20adoption%20Oct%202023.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal of the Local Plan update 2023",
+        "reference": "SA-2023",
+        "document-status": "adopted",
+        "endpoint": "65fe6bae96ace61620b3826953ff9fde5e4ad114510b26fc4304dc17befc826b"
+      },
+      {
+        "document-url": "https://www.eastcambs.gov.uk/sites/default/files/2024-10/East%20Cambs%20Local%20Plan%20SA%20Adoption%20Statement%20-%20Oct%202023.pdf",
+        "documentation-url": "https://www.eastcambs.gov.uk/planning-and-building-control/planning-policy-and-guidance/adopted-local-plan/local-plan",
+        "document-type": "adoption-statement",
+        "name": "Adoption Statement of the Sustainability Appraisal 2023",
+        "reference": "AS-SA-2023",
+        "document-status": "adopted",
+        "endpoint": "1572b54851fcef9768213cb29c0961f628449e3bca297795150c8c4e6253e8a9"
       }
     ]
   }

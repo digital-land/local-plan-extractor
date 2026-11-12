@@ -23,5 +23,39 @@
         "endpoint": "9f7fda12a82a8d716d99ff555d747e1a66e38ff33e056b293059474008ef262d"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:REI",
+    "organisation-name": "Reigate and Banstead Borough Council",
+    "reference": "LP-REI-DMP",
+    "documentation-url": "https://www.reigate-banstead.gov.uk/info/20271/local_plan",
+    "document-url": "https://www.reigate-banstead.gov.uk/download/downloads/id/5767/development_management_plan.pdf",
+    "name": "Reigate and Banstead Local Plan: Development Management Plan",
+    "status": "adopted",
+    "year": 2019,
+    "period-start-date": 2018,
+    "period-end-date": 2027,
+    "adoption-date": "2019-09-26",
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.reigate-banstead.gov.uk/download/downloads/id/5767/development_management_plan.pdf",
+        "documentation-url": "https://www.reigate-banstead.gov.uk/info/20271/local_plan",
+        "document-type": "local-plan",
+        "name": "Development Management Plan (adopted September 2019)",
+        "reference": "DMP-2019",
+        "document-status": "adopted",
+        "endpoint": "10468ab318edb19635059949c33e3481b5f65b76aa184a9114826ee4e6e0d5bf"
+      },
+      {
+        "document-url": "https://www.reigate-banstead.gov.uk/download/downloads/id/5768/dmp_adoption_statement.pdf",
+        "documentation-url": "https://www.reigate-banstead.gov.uk/info/20271/local_plan",
+        "document-type": "adoption-statement",
+        "name": "Development Management Plan Adoption Statement",
+        "reference": "DMP-AS-2019",
+        "document-status": "adopted",
+        "endpoint": "7b8896cae3bdf2d4cd5622bf0675fc762829743cdb15fa7fa3cf1e930e2a9de6"
+      }
+    ]
   }
 ]

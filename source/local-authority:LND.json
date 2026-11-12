@@ -50,5 +50,129 @@
         "endpoint": "9402806b91f1afc818c6714f5b5bc4b1ff7c3c3fe8f412f156a700e0e8233789"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:LND",
+    "organisation-name": "City of London Corporation",
+    "reference": "LP-LND-2040",
+    "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+    "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf",
+    "name": "City Plan 2040",
+    "status": "examination",
+    "year": 2024,
+    "period-start-date": 2025,
+    "period-end-date": 2040,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Local-Development-Scheme-2024.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "local-development-scheme",
+        "name": "LD12 Local Development Scheme 2024",
+        "reference": "LDS-2024",
+        "document-status": "examination",
+        "endpoint": "eef1a6fc7bd1affee9487e003b114214b626aee39e17fa777f42572852d2a648"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/SA-Main-Report-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal",
+        "reference": "SA-2024",
+        "document-status": "examination",
+        "endpoint": "f22056efbd98b5426943b58ea31f9a0f50306564efe2dbfec8378f5cd9a5c96d"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Appendix-2-SA-Baseline-Information-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 2 Baseline Info",
+        "reference": "SA-2024-APP2",
+        "document-status": "examination",
+        "endpoint": "4fb21b6652a64c783a09e6c0ff061c1d408719cfa1b75d291318f0512531224f"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Appendix-3-SA-Consultation-Responses-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 3 Responses",
+        "reference": "SA-2024-APP3",
+        "document-status": "examination",
+        "endpoint": "5c2ad03d0c08ce861309f0e71c2246b5ff2c90f1bffe6e0f102da384dc84313c"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040-Viability-Assessment.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "viability-assessment",
+        "name": "City Plan 2040 Viability Assessment",
+        "reference": "VA-2024",
+        "document-status": "examination",
+        "endpoint": "40a2f71ed83dc26e33c5c12a584164bc4bdffd0fcebd55a4227e77fe93f00646"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Policies-Maps-City-Plan-2040-2024.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "policies-map",
+        "name": "Policies Maps City Plan 2040",
+        "reference": "PM-2024",
+        "document-status": "examination",
+        "endpoint": "3fba1c54aef5c7c9ee78c5b68d4aa4f5817bedc799af58d99d30301e18465281"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Appendix-1-SA-Other-Plans-and-Programmes-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 1 Other Plans",
+        "reference": "SA-2024-APP1",
+        "document-status": "examination",
+        "endpoint": "fd9bf24b7c58039c08c1b525aed2d09115ac0192c1ba9f6ebc0c3cf2aaabbd88"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Appendix-4-SA-of-Reasonable-Alternatives-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 4",
+        "reference": "SA-2024-APP4",
+        "document-status": "examination",
+        "endpoint": "c650a68c05ffd287ebf2ab4c79e0e18f551512579927db9a7f12bb6a9720f139"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/Appendix-5-SA-Assessments-Revised-Proposed-Submission-City-Plan-2040-Reg-19b.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "sustainability-appraisal",
+        "name": "Sustainability Appraisal Appendix 5",
+        "reference": "SA-2024-APP5",
+        "document-status": "examination",
+        "endpoint": "d153c2924453d6bbd55b9a402df401b9fb37f5524f80f935d771deba4f423c99"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-2040.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "local-plan",
+        "name": "City of London Local Plan 2040",
+        "reference": "LP-2040",
+        "document-status": "examination",
+        "endpoint": "a00fc245bbb114b390242a83c070f2e4b6f519bf9765d0b54c1823f9dfc1371e"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/City-Plan-Policies-Map-Changes-2024.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "policies-map",
+        "name": "City Plan 2040 Policies Maps Changes",
+        "reference": "PM-CHANGES-2024",
+        "document-status": "examination",
+        "endpoint": "42884d55dbf32e2335b614e54edb4f03bbbaecfb83429186705a8198f3e335ab"
+      },
+      {
+        "document-url": "https://www.cityoflondon.gov.uk/assets/Services-Environment/SHMA-Housing-Needs-Assessment-2023.pdf",
+        "documentation-url": "https://www.cityoflondon.gov.uk/services/planning/planning-policy/city-plan-2040",
+        "document-type": "strategic-housing-market-assessment",
+        "name": "Strategic Housing Market Assessment",
+        "reference": "SHMA-2023",
+        "document-status": "examination",
+        "endpoint": "8d3ac82bc2a616777062ec9021a1e3ff985db15a8a7f70c4680c143697a50b93"
+      }
+    ]
   }
 ]

@@ -8,8 +8,8 @@
     "name": "Solihull Local Plan: Shaping a Sustainable Future",
     "status": "adopted",
     "year": 2013,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2011,
+    "period-end-date": 2028,
     "adoption-date": "2013-12-03",
     "withdrawn-date": null,
     "documents": [
@@ -90,104 +90,16 @@
   {
     "organisation": "local-authority:SOL",
     "organisation-name": "Solihull Metropolitan Borough Council",
-    "reference": "GT-SOL-2014",
-    "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-    "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",
-    "name": "Gypsy and Traveller Site Allocations Plan",
-    "status": "adopted",
-    "year": 2014,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": "2014-12-02",
-    "withdrawn-date": null,
-    "documents": [
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Gypsy_and_Traveller_Site_Allocations_Plan.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "gypsy-and-traveller-assessment",
-        "name": "Solihull Gypsy and Traveller Site Allocations Plan",
-        "reference": "GT-SAP-2014",
-        "document-status": "adopted",
-        "endpoint": "f33e5bfcd1be54c8a79ad1e7951cf7d908f7036b74fbc09b7c707454cab6a857"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_GT_Inspectors_Report_2014_FINAL.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "inspectors-report",
-        "name": "Inspectors Final Report",
-        "reference": "IR-GT-2014",
-        "document-status": "adopted",
-        "endpoint": "b69a06f5c6ae14a19694fb675c05aaed4ff6fa18ab428af5546519c0d55b6313"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_G_T_SA_Plan_Adoption_Statement.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "adoption-statement",
-        "name": "The Adoption Statement",
-        "reference": "AS-GT-2014",
-        "document-status": "adopted",
-        "endpoint": "d23d161e191c6c04cf47be9d1ddcafd5d450a4d5ef4d1b8a0fe94c6ecb05974b"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Schedule_of_Main_Modifications_only_v3_FINAL%20with%20proposals%20map.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "main-modifications",
-        "name": "Schedule of Main Modifications",
-        "reference": "MM-GT-2014",
-        "document-status": "adopted",
-        "endpoint": "fe8b486bb236cdb13c388060fc8d3f87cb03362dc63bd02a6d43ff38efb6e10c"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_005_Submission_Draft_DPD_SA.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Report to the Submission Draft",
-        "reference": "SA-GT-SUB-2013",
-        "document-status": "consultation",
-        "endpoint": "271394cb2bc344033f0d333bf3ccccd9649abf2e5791c9281a738e76004c5169"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_003_Submission_SA_Opinion.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "sustainability-appraisal",
-        "name": "Sustainability Appraisal Report to the Submission Document",
-        "reference": "SA-GT-SUB2-2013",
-        "document-status": "consultation",
-        "endpoint": "c59efe03c9a4599f1b8c8bc630722d3c3ac0e22f3061a92035676d09c322e019"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_Sustainability_Appraisal_of_Main_Modifications.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "main-modifications",
-        "name": "Sustainability Appraisal Report to the Main Modifications",
-        "reference": "SA-MM-GT-2014",
-        "document-status": "consultation",
-        "endpoint": "5b0bbf6a44ac6eabb19371e7dc1c27ba0134046c407968a2e071273ed600fd44"
-      },
-      {
-        "document-url": "https://www.solihull.gov.uk/sites/default/files/migrated/Planning_Gypsy_DPD_027_Statement_of_Consultation_for_Submission.pdf",
-        "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/gypsy-and-traveller-development-plan-document",
-        "document-type": "consultation-statement",
-        "name": "Statement of Consultation",
-        "reference": "CS-GT-2013",
-        "document-status": "consultation",
-        "endpoint": "92bc64ffad681956bff7c9ceda36435c5ccda052b58b0c06c41188f01748652d"
-      }
-    ]
-  },
-  {
-    "organisation": "local-authority:SOL",
-    "organisation-name": "Solihull Metropolitan Borough Council",
     "reference": "LP-SOL-2024",
     "documentation-url": "https://www.solihull.gov.uk/planning-and-building-control/solihull-local-plan-examination-public",
     "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",
     "name": "Solihull Local Plan Review",
     "status": "withdrawn",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2020,
+    "period-end-date": 2036,
     "adoption-date": null,
-    "withdrawn-date": "2021-05-13",
+    "withdrawn-date": "2024-10-09",
     "documents": [
       {
         "document-url": "https://www.solihull.gov.uk/sites/default/files/2024-10/Solihull-Local-Plan-Withdrawal-Notice.pdf",

@@ -47,6 +47,37 @@ class LocalPlanCSVGenerator:
         'babergh-and-mid-suffolk-joint-local-plan-part-1':'the-babergh-and-mid-suffolk-joint-local-plan'
     }
 
+    # Source reference overrides: maps a source plan reference to the reference used on the Provide platform
+    # Use when two plans from the same authority share a plan period and would generate the same reference
+    SOURCE_REFERENCE_OVERRIDES = {
+        # Core Strategy as amended by the 2015 focused review shares the 2001-2026 period with the 2011 original
+        'LP-THR-2015': 'thurrock-council-local-plan-2015',
+        # Local Plan 2015 has no period start, so its generated reference would take the -2026 used by City Plan 2040
+        'LP-LND-2015': 'city-of-london-corporation-local-plan-2015',
+        # City Plan 2040's period starts in 2025, but the platform reference is -2026
+        'LP-LND-2040': 'city-of-london-corporation-local-plan-2026',
+        # Local Plan Part 2 shares the 2012-2027 period with the Part 1 Core Strategy, which keeps -2012
+        'LP-BPL-2023': 'blackpool-borough-council-local-plan-2023',
+        # Reigate and Banstead publish their Development Management Plan timetable under -2012,
+        # so the DMP takes -2012 and the Core Strategy (adopted 2014-07-03) moves to -2014
+        'LP-REI-2019': 'reigate-and-banstead-borough-council-local-plan-2014',
+        'LP-REI-DMP': 'reigate-and-banstead-borough-council-local-plan-2012',
+        # Partial Review of the 2014-2033 Local Plan has no period of its own; Reg 18 consultation ran in 2026
+        'LP-STF-PR': 'staffordshire-moorlands-district-council-local-plan-2026'
+    }
+
+    # Adopted date overrides: maps a source plan reference to an adopted-date that differs from its start-date
+    ADOPTED_DATE_OVERRIDES = {
+        # Basildon District Local Plan adopted 25 March 1998; its policies were saved on 2007-09-27 (the start-date)
+        'LP-BAI-2007': '1998-03-25'
+    }
+
+    # Document reference overrides: maps generated document reference to one not already used on the Provide platform
+    DOCUMENT_REFERENCE_OVERRIDES = {
+        # -2015-1 to -2015-7 are existing platform documents for the amended Thurrock Core Strategy
+        'thurrock-council-local-plan-2015-1': 'thurrock-council-local-plan-2015-8'
+    }
+
     # Exceptions to the "skip joint-planning-authority" rule
     # These are endpoints where joint-planning-authority housing data should be included
     JOINT_HOUSING_DATA_EXCEPTIONS = {
@@ -930,6 +961,14 @@ class LocalPlanCSVGenerator:
                 reference = self.REFERENCE_OVERRIDES[reference]
                 logger.info(f"Applied reference override: {original_reference} → {reference}")
 
+            source_reference = plan_data.get('reference', '')
+            if source_reference in self.SOURCE_REFERENCE_OVERRIDES:
+                original_reference = reference
+                reference = self.SOURCE_REFERENCE_OVERRIDES[source_reference]
+                # Number documents separately from the plan that shares this period
+                year = reference.rsplit('-', 1)[-1]
+                logger.info(f"Applied source reference override: {source_reference} ({original_reference}) → {reference}")
+
             # Track if this is a duplicate plan reference (handles joint plans in multiple source files)
             is_duplicate_plan = reference in self.processed_plan_references
 
@@ -1003,6 +1042,9 @@ class LocalPlanCSVGenerator:
                 'notes': plan_data.get('notes', ''),
             }
 
+            if source_reference in self.ADOPTED_DATE_OVERRIDES:
+                local_plan_entry['adopted-date'] = self.ADOPTED_DATE_OVERRIDES[source_reference]
+
             # Only add local plan entry and process documents if this is not a duplicate reference
             # (Joint plans appear in multiple source files but should only be added once to local_plans)
             if not is_duplicate_plan:
@@ -1062,6 +1104,7 @@ class LocalPlanCSVGenerator:
             self.authority_plan_counters[plan_key] += 1
             doc_num = self.authority_plan_counters[plan_key]
             doc_reference = f"{plan_reference}-{doc_num}"
+            doc_reference = self.DOCUMENT_REFERENCE_OVERRIDES.get(doc_reference, doc_reference)
 
             # Track the first (main) document for this plan
             if doc_num == 1:
@@ -1454,12 +1497,14 @@ class LocalPlanCSVGenerator:
             # local-plan-boundary keeps dashes, local-planning-authorities gets semicolons
             plan['local-plan-boundary'] = lpa_codes  # Keep dashes
             plan['local-planning-authorities'] = lpa_codes.replace('-', ';') if lpa_codes else ''  # Convert to semicolons
+            # Published explicitly so it replaces adopted-date values left by older sources on the platform
+            plan['adopted-date'] = plan.get('adopted-date') or plan.get('start-date') or ''
 
         self._write_csv('local-plan.csv', local_plans_sorted, [
             'reference', 'name', 'dataset', 'period-start-date', 'period-end-date',
             'organisations', 'local-plan-boundary', 'local-planning-authorities', 'mineral-planning-authorities',
             'waste-planning-authorities', 'local-plan-process', 'required-housing',
-            'documentation-url', 'document-url', 'entry-date', 'start-date', 'end-date', 'notes'
+            'documentation-url', 'document-url', 'adopted-date', 'entry-date', 'start-date', 'end-date', 'notes'
         ])
 
         local_plan_documents_sorted = sorted(self.local_plan_documents, key=lambda x: x.get('reference') or '')

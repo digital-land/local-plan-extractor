@@ -1,0 +1,10 @@
+local_planning_authority,plan_title,local_plan,notes
+local-authority:THR,Thurrock Core Strategy,thurrock-council-local-plan-2001,Original Core Strategy adopted 2011-12-21; shares the 2001-2026 period with the amended version
+local-authority:THR,Core Strategy and Policies for Management of Development (as amended),thurrock-council-local-plan-2015,Core Strategy as amended by the focused review adopted 2015-01-28; shares the 2001-2026 period with the original
+local-authority:BPL,Core Strategy,blackpool-borough-council-local-plan-2012,Part 1 Core Strategy adopted 2016-01-20; shares the 2012-2027 period with Part 2 (-2023)
+local-authority:BIR,Birmingham Local Plan 2042,birmingham-city-council-local-plan-2025,Now the Birmingham Local Plan 2025-2044 (Reg 19 notice Aug 2026); VLS and prototype still give 2020-2042
+local-authority:HOR,Horsham District Local Plan,horsham-district-local-plan,Horsham provide this plan (2023-2040) themselves as horsham-district-local-plan; link our events to it
+local-authority:REI,Reigate and Banstead Local Plan: Core Strategy,reigate-and-banstead-borough-council-local-plan-2014,Core Strategy adopted 2014-07-03; -2012 is the Development Management Plan that Reigate and Banstead publish events for
+local-authority:ECA,East Cambridgeshire Local Plan 2015 (as amended 2023),east-cambridgeshire-district-council-local-plan-2011,Local Plan 2015 adopted 2015-04-21
+local-authority:ECA,East Cambridgeshire Local Plan - Single Issue Review,east-cambridgeshire-district-council-local-plan-2022,Single Issue Review adopted 2023-10-19; otherwise its events fall back to -2011
+local-authority:SOL,Solihull Local Plan - Shaping a Sustainable Future,solihull-metropolitan-borough-council-local-plan-2011,Adopted plan period is 2011-2028; prototype gives 2006-2028

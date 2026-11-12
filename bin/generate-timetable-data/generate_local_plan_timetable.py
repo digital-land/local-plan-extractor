@@ -141,6 +141,44 @@ def apply_timetable_event_overrides(df_events):
     return df_events
 
 
+def apply_prototype_plan_overrides(df_proto_merged):
+    """
+    Point a prototype plan at the local plan it describes.
+
+    Prototype plans are matched to local plans on plan period, so two local plans
+    sharing a period (e.g. an original plan and its amended version) both match
+    each prototype plan. Overrides are keyed on the planning authority and
+    prototype plan title, and the duplicate matches are dropped.
+    Override file: data/prototype-plan-overrides.csv
+    """
+    override_file = os.path.join(PROJECT_ROOT, 'data', 'prototype-plan-overrides.csv')
+
+    if not os.path.exists(override_file):
+        return df_proto_merged
+
+    df_overrides = pd.read_csv(override_file, dtype=str)
+    df_proto_merged = df_proto_merged.copy()
+    override_count = 0
+
+    for idx, row in df_overrides.iterrows():
+        mask = (
+            (df_proto_merged['local-planning-authorities'] == row['local_planning_authority']) &
+            (df_proto_merged['name'] == row['plan_title'])
+        )
+        if mask.sum() == 0:
+            print(f"    Warning: prototype plan override matched no events: "
+                  f"{row['local_planning_authority']} / {row['plan_title']}")
+            continue
+
+        df_proto_merged.loc[mask, 'reference'] = row['local_plan']
+        override_count += 1
+
+    if override_count > 0:
+        print(f"    Applied {override_count} prototype plan overrides")
+
+    return df_proto_merged.drop_duplicates().reset_index(drop=True)
+
+
 def apply_vls_plan_title_overrides(df_vls_processed):
     """
     Point VLS rows at the prototype plan they describe.
@@ -659,6 +697,7 @@ def merge_with_local_plans(df_proto_events, df_lp):
 
     # Merge with fuzzy year matching (allows ±3 years on start date)
     df_proto_merged = fuzzy_merge_local_plans(df_proto_consolidated_renamed, df_lp_clean_renamed, year_tolerance=3)
+    df_proto_merged = apply_prototype_plan_overrides(df_proto_merged)
 
     # Load adoption dates and manual overrides for later matching
     adoption_dates_lookup = load_adoption_dates_from_local_plans(df_lp)
@@ -983,7 +1022,12 @@ def main():
         'stratford-on-avon-district-council-local-plan-2021-reg-18-consultation-start',
         'stratford-on-avon-district-council-local-plan-2021-timetable-published',
         'chiltern-district-council-local-plan-2016-submit-plan-for-examination',
-        'chiltern-district-council-local-plan-2016-reg-19-publication-local-plan-published'
+        'chiltern-district-council-local-plan-2016-reg-19-publication-local-plan-published',
+        # VLS review plan timetables matched to the adopted plan; retired on the platform as 410s
+        'calderdale-metropolitan-borough-council-local-plan-2018-reg-18-consultation-start',
+        'calderdale-metropolitan-borough-council-local-plan-2018-timetable-published',
+        'staffordshire-moorlands-district-council-local-plan-2014-reg-18-consultation-start',
+        'staffordshire-moorlands-district-council-local-plan-2014-timetable-published'
     ]
     df_combined = df_combined[~df_combined['reference'].isin(refs_to_remove)]
     print(f"  - After removing specific references: {len(df_combined)} rows")

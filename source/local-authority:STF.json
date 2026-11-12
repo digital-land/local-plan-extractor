@@ -113,5 +113,30 @@
         "endpoint": "338790039cbb1c9d6125577803991a54c3a4dfa416bedb580a0b99484f8519c1"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:STF",
+    "organisation-name": "Staffordshire Moorlands District Council",
+    "reference": "LP-STF-PR",
+    "documentation-url": "https://www.staffsmoorlands.gov.uk/article/8728/Local-Plan-Partial-Review",
+    "document-url": "",
+    "name": "Staffordshire Moorlands Local Plan Partial Review",
+    "status": "regulation-18",
+    "year": 2026,
+    "period-start-date": "",
+    "period-end-date": "",
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": [
+      {
+        "document-url": "https://www.staffsmoorlands.gov.uk/media/11529/SMLP-Reg18-Consultation-Statement-Oct26/pdf/keSMLP_Reg18_Consultation_Statement_Oct26.pdf?m=1793886068880",
+        "documentation-url": "https://www.staffsmoorlands.gov.uk/article/8728/Local-Plan-Partial-Review",
+        "document-type": "consultation-statement",
+        "name": "Regulation 18 Local Plan Partial Review Consultation Statement (October 2026)",
+        "reference": "CS-2026",
+        "document-status": "consultation",
+        "endpoint": "668048d2bba8e8e3dbc57f96a339f16aa791758abd051fd04a871495e9cfb3a6"
+      }
+    ]
   }
 ]

@@ -138,5 +138,20 @@
         "endpoint": "b2bd71c7940ecc823d44120649cc79bd06bba1fd74b4d9d88a0b0f93c9faafb6"
       }
     ]
+  },
+  {
+    "organisation": "local-authority:BIR",
+    "organisation-name": "Birmingham City Council",
+    "reference": "LP-BIR-2025",
+    "documentation-url": "https://www.birmingham.gov.uk/info/20008/planning_and_development/2477/new_local_plan_for_birmingham",
+    "document-url": "",
+    "name": "Birmingham Local Plan 2025-2044",
+    "status": "regulation-19",
+    "year": 2026,
+    "period-start-date": 2025,
+    "period-end-date": 2044,
+    "adoption-date": null,
+    "withdrawn-date": null,
+    "documents": []
   }
 ]
