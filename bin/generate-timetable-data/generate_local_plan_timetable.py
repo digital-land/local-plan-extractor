@@ -1027,7 +1027,13 @@ def main():
         'calderdale-metropolitan-borough-council-local-plan-2018-reg-18-consultation-start',
         'calderdale-metropolitan-borough-council-local-plan-2018-timetable-published',
         'staffordshire-moorlands-district-council-local-plan-2014-reg-18-consultation-start',
-        'staffordshire-moorlands-district-council-local-plan-2014-timetable-published'
+        'staffordshire-moorlands-district-council-local-plan-2014-timetable-published',
+        'london-borough-of-bexley-local-plan-timetable-published',
+        'cheshire-west-and-chester-council-local-plan-2010-timetable-published',
+        'epping-forest-district-council-local-plan-2011-timetable-published',
+        'exmoor-national-park-authority-local-plan-2011-timetable-published',
+        'hartlepool-borough-council-local-plan-2016-timetable-published',
+        'city-of-york-council-local-plan-2017-timetable-published'
     ]
     df_combined = df_combined[~df_combined['reference'].isin(refs_to_remove)]
     print(f"  - After removing specific references: {len(df_combined)} rows")

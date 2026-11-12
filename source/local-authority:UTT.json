@@ -33,10 +33,10 @@
     "name": "Uttlesford Local Plan 2019 (Draft)",
     "status": "withdrawn",
     "year": 2019,
-    "period-start-date": "",
-    "period-end-date": "",
+    "period-start-date": 2011,
+    "period-end-date": 2033,
     "adoption-date": null,
-    "withdrawn-date": null,
+    "withdrawn-date": "2020-04-30",
     "documents": [
       {
         "document-url": "https://uttlesford.moderngov.co.uk/documents/s17756/Appendix%201%20-%20Inspectors%20Letter.pdf",
@@ -64,12 +64,12 @@
     "reference": "LP-UTT-2024",
     "documentation-url": "https://www.uttlesford.gov.uk/new-local-plan",
     "document-url": "",
-    "name": "New Uttlesford Local Plan",
-    "status": "draft",
+    "name": "Uttlesford Local Plan 2021-2041",
+    "status": "adopted",
     "year": 2024,
-    "period-start-date": "",
-    "period-end-date": "",
-    "adoption-date": null,
+    "period-start-date": 2021,
+    "period-end-date": 2041,
+    "adoption-date": "2026-03-25",
     "withdrawn-date": null,
     "documents": []
   }

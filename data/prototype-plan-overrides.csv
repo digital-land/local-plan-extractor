@@ -8,3 +8,4 @@ local-authority:REI,Reigate and Banstead Local Plan: Core Strategy,reigate-and-b
 local-authority:ECA,East Cambridgeshire Local Plan 2015 (as amended 2023),east-cambridgeshire-district-council-local-plan-2011,Local Plan 2015 adopted 2015-04-21
 local-authority:ECA,East Cambridgeshire Local Plan - Single Issue Review,east-cambridgeshire-district-council-local-plan-2022,Single Issue Review adopted 2023-10-19; otherwise its events fall back to -2011
 local-authority:SOL,Solihull Local Plan - Shaping a Sustainable Future,solihull-metropolitan-borough-council-local-plan-2011,Adopted plan period is 2011-2028; prototype gives 2006-2028
+local-authority:BRX,The Broxbourne Local Plan,broxbourne-borough-council-local-plan-2018,Broxbourne Local Plan 2018-2033 adopted 2020-06-23; prototype gives 2016-2033 which would hit the 2001-2011 plan
